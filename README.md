@@ -1,6 +1,6 @@
 Minecolonies - Create & Conquer
 ======
-This is the official repository and issue-tracker for Minecolonies - Create & Conquer 1.21
+This is the official repository and issue-tracker for Minecolonies - Create & Conquer 1.20
 
 Create & Conquer your world, your way.
 
