@@ -6,7 +6,7 @@ Create & Conquer your world, your way.
 
 Need Help?
 ======
-When reporting an issue, follow the steps provided and answer as slearly and specifically as possible. Also include any added mods or configuration changes you may have put in, into the description of the issue. Do not just leave: "My game is broken!" as an issue, please and thank you. 
+When reporting an issue, follow the steps provided and answer as clearly and specifically as possible. Also include any added mods or configuration changes you may have put in, into the description of the issue. Do not just leave: "My game is broken!" as an issue, please and thank you. 
 
 |You can also find us on Discord for help<br>or just to chat!|
 |:------------:|
