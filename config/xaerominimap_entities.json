@@ -1,0 +1,225 @@
+{
+  "hardInclude": "anything",
+  "includeList": [],
+  "includeListInSuperCategory": false,
+  "excludeMode": "ONLY",
+  "excludeList": [
+    "create:crafting_blueprint",
+    "create:super_glue",
+    "evilcraft:vengeance_spirit",
+    "handcrafted:fancy_painting",
+    "immersive_paintings:painting",
+    "item;create:super_glue",
+    "item;quark:glass_item_frame",
+    "item;quark:glowing_glass_item_frame",
+    "minecraft:armor_stand",
+    "minecraft:glow_item_frame",
+    "minecraft:item_frame",
+    "minecraft:painting",
+    "quark:glass_frame",
+    "xercapaint:canvas",
+    "xercapaint:easel"
+  ],
+  "name": "gui.xaero_entity_category_root",
+  "protection": true,
+  "settingOverrides": {
+    "displayHeight": 0.0,
+    "displayed": true,
+    "heightBasedFade": true,
+    "renderOrder": 0.0,
+    "color": 13.0,
+    "displayNameWhenIconFails": true,
+    "entityNumber": 1000.0,
+    "alwaysDisplayNametags": false,
+    "dotSize": 2.0,
+    "startFadingAt": 0.0,
+    "renderOverMinimapFrame": 1.0,
+    "icons": 2.0,
+    "heightLimit": 10.0,
+    "names": 1.0,
+    "iconScale": 0.7000000000000001
+  },
+  "subCategories": [
+    {
+      "hardInclude": "living",
+      "includeList": [
+        "hexerei:crow"
+      ],
+      "includeListInSuperCategory": false,
+      "excludeMode": "ONLY",
+      "excludeList": [
+        "evilcraft:vengeance_spirit",
+        "minecraft:armor_stand"
+      ],
+      "name": "gui.xaero_entity_category_living",
+      "protection": true,
+      "settingOverrides": {
+        "displayed": true,
+        "renderOrder": 2.0,
+        "names": 1.0,
+        "color": 2.0,
+        "icons": 2.0
+      },
+      "subCategories": [
+        {
+          "hardInclude": "players",
+          "includeList": [],
+          "includeListInSuperCategory": false,
+          "excludeMode": "ONLY",
+          "excludeList": [],
+          "name": "gui.xaero_entity_category_players",
+          "protection": true,
+          "settingOverrides": {
+            "displayed": true,
+            "renderOrder": 6.0,
+            "names": 2.0,
+            "color": 15.0,
+            "icons": 2.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "same-team",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_same_team",
+              "protection": true,
+              "settingOverrides": {},
+              "subCategories": []
+            },
+            {
+              "hardInclude": "anything",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_other_teams",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 7.0
+              },
+              "subCategories": []
+            }
+          ]
+        },
+        {
+          "hardInclude": "hostile",
+          "includeList": [],
+          "includeListInSuperCategory": false,
+          "excludeMode": "ONLY",
+          "excludeList": [
+            "create:super_glue",
+            "evilcraft:vengeance_spirit",
+            "item;create:super_glue"
+          ],
+          "name": "gui.xaero_entity_category_hostile",
+          "protection": true,
+          "settingOverrides": {
+            "renderOrder": 3.0,
+            "names": 2.0,
+            "color": 4.0,
+            "icons": 2.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "tamed",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_hostile_tamed",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 5.0
+              },
+              "subCategories": []
+            }
+          ]
+        },
+        {
+          "hardInclude": "anything",
+          "includeList": [],
+          "includeListInSuperCategory": false,
+          "excludeMode": "ONLY",
+          "excludeList": [
+            "aoa3:lost_soul",
+            "evilcraft:vengeance_spirit",
+            "forbidden_arcanus:lost_soul"
+          ],
+          "name": "gui.xaero_entity_category_friendly",
+          "protection": true,
+          "settingOverrides": {
+            "names": 1.0,
+            "color": 2.0,
+            "icons": 2.0
+          },
+          "subCategories": [
+            {
+              "hardInclude": "tamed",
+              "includeList": [],
+              "includeListInSuperCategory": false,
+              "excludeMode": "ONLY",
+              "excludeList": [],
+              "name": "gui.xaero_entity_category_friendly_tamed",
+              "protection": true,
+              "settingOverrides": {
+                "renderOrder": 4.0
+              },
+              "subCategories": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "hardInclude": "items",
+      "includeList": [],
+      "includeListInSuperCategory": false,
+      "excludeMode": "ONLY",
+      "excludeList": [
+        "minecraft:glow_item_frame",
+        "minecraft:glow_squid"
+      ],
+      "name": "gui.xaero_entity_category_items",
+      "protection": true,
+      "settingOverrides": {
+        "renderOrder": 1.0,
+        "names": 2.0,
+        "color": 6.0
+      },
+      "subCategories": []
+    },
+    {
+      "hardInclude": "anything",
+      "includeList": [],
+      "includeListInSuperCategory": false,
+      "excludeMode": "ONLY",
+      "excludeList": [
+        "create:crafting_blueprint",
+        "create:super_glue",
+        "evilcraft:vengeance_spirit",
+        "handcrafted:fancy_painting",
+        "immersive_paintings:painting",
+        "item;create:super_glue",
+        "item;quark:glass_item_frame",
+        "item;quark:glowing_glass_item_frame",
+        "minecraft:falling_block",
+        "minecraft:glow_item_frame",
+        "minecraft:glow_squid",
+        "minecraft:item_frame",
+        "minecraft:painting",
+        "quark:glass_frame",
+        "xercapaint:canvas",
+        "xercapaint:easel"
+      ],
+      "name": "gui.xaero_entity_category_other_entities",
+      "protection": true,
+      "settingOverrides": {
+        "names": 2.0,
+        "color": 5.0
+      },
+      "subCategories": []
+    }
+  ]
+}

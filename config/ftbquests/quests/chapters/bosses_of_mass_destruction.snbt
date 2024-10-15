@@ -1,0 +1,999 @@
+{
+	autofocus_id: "432693CB67523575"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "bosses_of_mass_destruction"
+	group: "6CD04B90601CFA1E"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "bosses_of_mass_destruction:void_thorn"
+	}
+	id: "5CD69195B784DC13"
+	images: [
+		{
+			height: 2.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 45.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"701DB69F95BE961D"
+			]
+			description: [
+				"&5&lBosses of Mass Destruction&r&r introduces four intriguing yet challenging bosses into Minecraft, each located in &ndifferent dimensions&r:"
+				""
+				"the &l&bNight Lich&r&r, &l&cNether Gauntlet&r&r, &l&dObsidilith&r&r, and &l&aVoid Blossom&r&r."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bosses_of_mass_destruction:charged_ender_pearl"
+			}
+			icon_scale: 1.5d
+			id: "635B2979C6A9CBDB"
+			size: 1.5d
+			tasks: [{
+				id: "1AD81A4B11E93A10"
+				type: "checkmark"
+			}]
+			title: "&5&lBosses of Mass Destruction"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"635B2979C6A9CBDB"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "4CF52BD0F616AE35"
+			invisible: true
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "665DA457DC71B6FC"
+				title: "Overworld"
+				type: "dimension"
+			}]
+			title: "&2&lOverworld"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"635B2979C6A9CBDB"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "1A03A8FFA3898D37"
+			invisible: true
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "minecraft:netherrack"
+				id: "0F09A4C75DB2AEF4"
+				title: "Nether"
+				type: "dimension"
+			}]
+			title: "&c&lNether"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"635B2979C6A9CBDB"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "2EC54EDD3E926ACC"
+			invisible: true
+			tasks: [{
+				dimension: "minecraft:the_end"
+				disable_toast: true
+				icon: "minecraft:end_stone"
+				id: "7F25A38E3EB0A99B"
+				title: "End"
+				type: "dimension"
+			}]
+			title: "&5&lEnd"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4CF52BD0F616AE35"]
+			description: [
+				"The &b&lLich Tower&r&r spawns on the surface of the &noverworld in colder biomes&r and is home to the &l&bNight Lich&r&r."
+				""
+				"Due to the sheer size of the &bLich Tower&r, you may naturally come across it while exploring. However, it can also be found by using &l&bSoul Stars&r&r, which are dropped by undead mobs such as Skeletons and Zombies. &b&lSoul Stars&r&r function like &nender eyes&r, guiding you toward the &bLich Tower&r."
+				""
+				"Inside the &bLich Tower&r, there are multiple spawners that summon mobs like Skeletons equipped with armor. The tower consists of several floors, where you can also find Chests containing loot."
+				""
+				"On one of the floors, you will discover four &l&bChiseled Stone Altars&r&r. Each altar requires a &b&lSoul Star&r&r to activate. Once all are filled, the &b&lNight Lich&r&r will spawn, and if it isn’t already, the day will turn to night."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bosses_of_mass_destruction:soul_star"
+			}
+			icon_scale: 1.25d
+			id: "109C0864BDFA30D7"
+			rewards: [
+				{
+					count: 2
+					id: "0AC6B48B4653E599"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1273F32B7E12DFED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "76652EA2FE08D3E0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:soul_star"
+				}
+				id: "685E3FBD9D65AF74"
+				structure: "bosses_of_mass_destruction:lich_tower"
+				title: "Lich Tower"
+				type: "structure"
+			}]
+			title: "&l&bLich Tower"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CF52BD0F616AE35"]
+			description: ["The &d&lVoid Blossom&r&r is a large, flower-like creature found &ndeep underground in the overworld&r, in areas resembling &aLush Caves&r. You may come across the &d&lVoid Blossom Arena&r&r while mining, but it can also be located by crafting a &d&lVoid Lily&r&r and following the direction of its &epollen&r, which will lead you to the cave. Upon entering the arena, the &d&lVoid Blossom&r&r will spawn."]
+			icon_scale: 1.25d
+			id: "7D030024982AFE5D"
+			rewards: [
+				{
+					count: 2
+					id: "0BDA445C59EFD826"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "13B3B2B9F1EBBD49"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "479F33ABAD069FAB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:void_lily"
+				}
+				id: "0FFC2AF96C622F93"
+				structure: "bosses_of_mass_destruction:void_blossom"
+				title: "Void Blossom"
+				type: "structure"
+			}]
+			title: "&d&lVoid Blossom"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1A03A8FFA3898D37"]
+			description: [
+				"The &c&lGauntlet Arena&r&r spawns in the &nnether&r and is often partially submerged in lava. "
+				""
+				"At the center of the arena is a monument with four blocks featuring an &ceye texture&r. Breaking one of these blocks will cause the monument to open, and the &c&lNether Gauntlet&r&r will appear."
+			]
+			id: "294B4CF074D98389"
+			rewards: [
+				{
+					count: 2
+					id: "4313C693C25F169D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1732E7892D5F10B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "775A1EAD4F1C8464"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:gauntlet_blackstone"
+				}
+				id: "2DD2E34213671BAC"
+				structure: "bosses_of_mass_destruction:gauntlet_arena"
+				title: "Gauntlet Arena"
+				type: "structure"
+			}]
+			title: "&c&lGauntlet Arena"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2EC54EDD3E926ACC"]
+			description: ["The &5&lObsidilith Arena&r&r is a giant floating structure that spawns in the &nEnd&r. The rest of the arena &ccannot&r be entered, so you’ll need to make your way to the roof. There, you will find the &5Obsidian Altar&r. When an &2Eye of Ender&r is placed on the altar, the &l&5Obsidilith&r&r, a monolith-like entity, will spawn."]
+			id: "5203E039D937F637"
+			rewards: [
+				{
+					count: 2
+					id: "06BCE2244E9EE646"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "4CD94FD6CC118CF5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "080012259C8E22A6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:crying_obsidian"
+				}
+				id: "2BDEC2BEC60183EE"
+				structure: "bosses_of_mass_destruction:obsidilith_arena"
+				title: "Obsidilith Arena"
+				type: "structure"
+			}]
+			title: "&5&lObsidilith Arena"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["109C0864BDFA30D7"]
+			description: [
+				"The &b&lNight Lich&r&r moves around frequently, so the most effective way to defeat it is with a &nranged weapon&r, such as a Bow or Crossbow. During the battle, the &b&lNight Lich&r&r will use several abilities, including launching explosive projectiles at you and summoning multiple Phantoms to attack."
+				""
+				"If the &b&lNight Lich&r&r is unable to attack you, it may begin to &n&cregenerate&r&r health. Its health bar is divided into four sections, and once a section is fully depleted, it cannot regenerate that portion. Upon death, it will drop &denchanted books&r, bones, &bdiamonds&r and &c2&r &l&bAnicent Anima&r&r."
+			]
+			id: "184803F41B12C091"
+			rewards: [
+				{
+					id: "4BE33B9581D78F7E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "67EC3F04F8DB9126"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:chiseled_stone_altar"
+				}
+				id: "7C1A31FF41DD2E18"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b&lKill The Night Lich"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["184803F41B12C091"]
+			description: ["&l&bAncient Anima&r&r is a special drop that allows you to craft 3 useful items."]
+			id: "14BEBF80D88D75BE"
+			rewards: [
+				{
+					id: "7531D2D8A010B14B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "07C5CFD92E61594A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "3E07EFA42439D2A2"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:ancient_anima"
+				}
+				type: "item"
+			}]
+			title: "&b&lAnicent Anima"
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7D030024982AFE5D"]
+			description: [
+				"The &d&lVoid Blossom's&r&r health bar is divided into multiple sections. Once you reduce its health below a certain point, it won’t regenerate into the next section. For this fight, you’ll need &chealing&r, &chealth regeneration&r, and the ability to &cmove quickly&r."
+				""
+				"During the battle, the &d&lVoid Blossom&r&r will summon spiky thorns from the ground, which damage the player. These thorns are difficult to dodge, but not impossible. If you see the ground light up green, the &d&lVoid Blossom&r&r is preparing a spitting attack. If hit, you'll be poisoned, which inflicts significant damage."
+				""
+				"Several times throughout the fight, the &d&lVoid Blossom&r&r will summon &cpetals&r around the arena, which will continuously heal it. You’ll need to destroy these petals. As the fight progresses, Vines will protect the petals, similar to how End Crystals are protected by cages in the End."
+				""
+				"Upon defeating the &d&lVoid Blossom&r&r, it will drop &dCrystal Fruit&r, along with &c2&r &d&lVoid Thorns&r&r."
+			]
+			icon_scale: 1.5d
+			id: "31018D381B345B5E"
+			rewards: [
+				{
+					id: "668FCD08435B354B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "21746445F5E40C37"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_elemental:spore_blossom_up"
+				}
+				id: "4A16E62E6769912B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d&lKill The Void Blossom"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31018D381B345B5E"]
+			description: ["&d&lVoid Thorns&r&r are a special drop that allow you to craft 2 useful items."]
+			id: "7C3D0A3E13B1ADA4"
+			rewards: [
+				{
+					id: "120E90D169193D4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "19C1C5E2E20ED315"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "03FCD4F06FCE8B92"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:void_thorn"
+				}
+				type: "item"
+			}]
+			title: "&d&lVoid Thorns"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["294B4CF074D98389"]
+			description: [
+				"It’s important to note that the &c&lNether Gauntlet&r&r can only take damage when hit in the &c&leye&r&r, located on the front."
+				""
+				"One of its primary attacks is clenching its fist and charging at the player. This attack deals significant damage, knocks the player into the air, and destroys nearby terrain, but it’s fairly easy to dodge."
+				""
+				"Occasionally, the &c&lNether Gauntlet&r&r will perform a second attack. After a brief charge-up, it fires a laser that destroys blocks and deals heavy damage, which must also be dodged."
+				""
+				"Since the &c&lNether Gauntlet&r&r can only be damaged through its &ceye&r, the fight may take some time. After being defeated, a small structure will spawn in its place, containing some &cAncient Debris&r. There will also be a Chest with a &c&lBlazing Eye&r&r inside."
+			]
+			id: "3F821D4CBD600C68"
+			rewards: [
+				{
+					id: "5DE7BF6565CCE4AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "6A1865961EA0373D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:fire_gauntlet"
+				}
+				id: "6379B660EE7B38B8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&c&lKill The Nether Gauntlet"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3F821D4CBD600C68"]
+			description: ["The &c&lBlazing Eye&r&r is a special drop that allows you to craft 2 useful items."]
+			id: "24871C0DC9CF1BDC"
+			rewards: [
+				{
+					id: "00E3D4582085AD5E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "03E6522C57D389CC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "08E41D93B89DCB46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:blazing_eye"
+				}
+				type: "item"
+			}]
+			title: "&c&lBlazing Eye"
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5203E039D937F637"]
+			description: [
+				"There are several attacks you should be aware of. When lights appear on the ground around the &l&5Obsidilith&r&r, move away quickly as they can knock you into the air and deal significant damage. The &eSlow Falling&r effect or the &eFeather Falling&r enchantment can be very helpful here. Be cautious, as this attack may also knock you into the void, making &eElytra and Firework Rockets&r useful for recovery."
+				""
+				"The &5&lObsidilith&r&r will occasionally teleport around the arena, causing massive explosive damage. Another ability to watch for is when it summons &5&lrunic blocks&r&r around the arena, which empower it. These blocks should be destroyed with a Netherite Pickaxe, ideally enchanted with Efficiency to speed up the process."
+				""
+				"After defeating the &l&5Obsidilith&r&r, loot will spawn inside a Shulker Box atop a new Obsidian Pillar. Some of the loot includes enchanted weapons or tools, Obsidian, Purpur Blocks, and an &l&5Obsidian Heart&r&r."
+			]
+			id: "4FF9F3EE7F5B8988"
+			rewards: [
+				{
+					id: "723D3607CD43F9B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "296A705E502C845F"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:obsidilith_end_frame"
+				}
+				id: "79E9649B8E2909C0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5&lKill The Obsidilith"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4FF9F3EE7F5B8988"]
+			description: ["The &l&5Obsidian Heart&r&r is a special drop that allows you to craft 3 useful items."]
+			id: "0CE0D164B29B447F"
+			rewards: [
+				{
+					id: "21EFF30A2A9E7E11"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1ECC98954ED57B50"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "1D080972235063F7"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:obsidian_heart"
+				}
+				type: "item"
+			}]
+			title: "&5&lObsidian Heart"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7C3D0A3E13B1ADA4"
+				"14BEBF80D88D75BE"
+			]
+			description: ["The &l&bCharged Ender Pearl&r&r is a reusable Ender Pearl that gives you brief slow falling and resistance after teleporting."]
+			id: "5D372F87F8603AC9"
+			rewards: [
+				{
+					id: "2E71F30CA1891C83"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1B9BB9FC1B5F5DC2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5628F63A4A384D3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:charged_ender_pearl"
+				}
+				type: "item"
+			}]
+			title: "&lCharged Ender Pearl"
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0CE0D164B29B447F"
+				"14BEBF80D88D75BE"
+			]
+			description: ["The &l&bStaff of Suppression&r&r prevents natural mobs spawn in a 64 block radius."]
+			id: "0478F6ADEF7ACEB9"
+			rewards: [
+				{
+					id: "0770B9D4803E9E93"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3214A544033F1AA7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "29930E5C2B671119"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:mob_ward"
+				}
+				type: "item"
+			}]
+			title: "&lStaff of Suppression"
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"24871C0DC9CF1BDC"
+				"14BEBF80D88D75BE"
+			]
+			description: ["The &l&bTable of Elevation&r&r grants creative flight in a 7x7 column from bedrock to the height limit."]
+			id: "6C118F4C5F3D54B5"
+			rewards: [
+				{
+					id: "27C36D038410AFD8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "2D200071BAC695C0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0D49CE6A92BF0FBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:levitation_block"
+				}
+				type: "item"
+			}]
+			title: "&lTable of Elevation"
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"0CE0D164B29B447F"
+				"7C3D0A3E13B1ADA4"
+			]
+			description: ["The &l&bEarthdive Spear&r&r is a weapon that grants short range teleportation through solid blocks."]
+			id: "77281C61CC629C03"
+			rewards: [
+				{
+					id: "35AE6029A9735CBE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6F4213478EAE2B08"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "1F9A0BFA89A39871"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:earthdive_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&lEarthdive Spear"
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"0CE0D164B29B447F"
+				"24871C0DC9CF1BDC"
+			]
+			description: ["The &b&lBlast Amplifier&r&r Increases explosion damage by 30% in a 64 block radius."]
+			hide_dependency_lines: false
+			id: "2E8657E1135A52E1"
+			rewards: [
+				{
+					id: "30D51A2EDD4C6FE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3A3C0B085EEBC38B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5CE04229DB114853"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:monolith_block"
+				}
+				type: "item"
+			}]
+			title: "&lBlast Amplifier"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "432693CB67523575"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "7B63A3DC572364FF"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -2.75d
+			y: 5.75d
+		}
+	]
+	title: "&eBosses of Mass Destruction"
+}

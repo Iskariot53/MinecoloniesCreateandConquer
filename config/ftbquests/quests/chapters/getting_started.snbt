@@ -1,0 +1,755 @@
+{
+	autofocus_id: "613C7011A8A8033C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "getting_started"
+	group: ""
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create_sa:experience_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "349605EDAF02E4F9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"                                 &9Minecolonies&r "
+				"                            &6Create and Conquer&r"
+				""
+				"Thank you for taking the time to download and enjoy our modpack! We've spent many years encountering, learning, and enjoying so many different mods from all over the Minecraft world. Some good, some great, however here is a small collection of some of our favorites. We hope you love playing it just as much as we loved making it. "
+				""
+				"{@pagebreak}"
+				"We know, we know... Enough with the formalities, and onto the good stuff!"
+				""
+				"{@pagebreak}"
+				""
+				"This Modpack is carefully designed to COMPLETELY overhaul the Minecraft experience. From custom biome generation to full on dimensional overhauls, from the HarvestCraft plants on the ground to the Dynamic Trees (yeah, even the trees dont work the same anymore). A completely overhauled combat mechanics system thanks to Better Combat, including the ability to wield new weapon types and classes like pole arms and 2 handed weapons, as well as utilize new special and combo moves! Last but not least, many... MANY bosses and dungeons thanks to the likes of L Enders Cataclysm, When Dungeons Arise, and thanks to Dimensional Dungeons you can enjoy a literally endless spree of dungeoneering within your own base! Create Numismatics introduces an in-game economy players can use to purchase goods and services from other players or if going it solo, in the \"Quest Shop\" chapter of this quest book. "
+				""
+				"{@pagebreak}"
+				"A completely reworked health and stat calculating system. Quests. Missions. Bounties. And so... SO much more! "
+				""
+				"{@pagebreak}"
+				"Choose your origin and start your colony whenever you're ready, or don't, the pack is designed in such a way that you can choose to completely ignore the colony building aspect of the pack, with no downside. Likewise theirs no downside to choosing a human origin and remaining within your castle walls, never fighting a boss. We HIGHLY suggest trying both, but understand some things aren't for everybody. So the pack has been structured in such a way that the \"colony building\" and \"adventuring\" aspects of the pack can be played completely independant of each other, should you choose to do so."
+				""
+				"{@pagebreak}"
+				"Capsules can be crafted and used to move your builds and most animals are tamable. pick your favorite starter home, find a place to get started and enjoy!"
+				""
+				"{@pagebreak}"
+				"In case you can't decide what to do, a few of the starter quest options may help introduce you to the swing of things.  "
+				"Otherwise the best advice you can follow is this, and follow along very carefully:"
+				""
+				"{@pagebreak}"
+				"\"As with any good story, the best place to start, is at the beginning. Begin at the beginning and go along 'til you come to the end. Then stop.\""
+				""
+				""
+				"                                             "
+				"                                                                     "
+				""
+				"                &6&lMinecolonies - &eCreate and Conquer&r&r                                                                  &9Development Team:&r"
+				"                                                                Cuetsu                                                                          Iskariot053"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:wrench"
+			}
+			id: "19C32F0E30411935"
+			rewards: [
+				{
+					id: "4838FCE25B002524"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BCA1C627F304ADE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A little bit of reading to do"
+			tasks: [{
+				id: "4043FC396208C343"
+				title: "Create and Conquer The World!"
+				type: "checkmark"
+			}]
+			title: "&6&lWelcome to Minecolonies - &e&lCreate and Conquer!"
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			description: [
+				"This is it.... the only free one you're gonna get... Accidents happen or sometimes that ability just isn't as cool as it sounded... we get it. Here's one free Orb of Origins to repick your origins should you feel the need. We suggest holding onto it for now regardless, you never know, you may end up changing your mind one day."
+				""
+				"You will have the opportunity to buy more via the \"Quest Shop\" soon enough, but for now, this is it. Use it wisely"
+			]
+			icon: "origins:orb_of_origin"
+			id: "7A10879779D35FF1"
+			rewards: [
+				{
+					id: "6FD23593316F7E2D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "origins:orb_of_origin"
+					}
+					type: "item"
+				}
+				{
+					id: "159ACE2C74308F0E"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "58608783DB9344A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "No more freebies!"
+			tasks: [{
+				id: "6184AC9EF7FAB977"
+				title: "\"Origin\"al Mistakes"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["613C7011A8A8033C"]
+			description: [
+				"Use a supply camp or supply ship to get many of the earlier huts and resources associated with minecolonies, such as the build tool and townhall"
+				"However, on many servers these items are banned and this can make getting started a bit different than normal. Use a build tool to place your townhall, found your colony, and then place and &9build the builders hut FIRST.&r then have your builder build the town hall. All buildings and the level which they can be upgraded to within a colony are directly dependant on the builder and the builders hut level, so you need a level 1 builders hut to build your level 1 townhall, houses, etc. and this trend will continue on throughout the mods progression. The Tavern has a max level of 3 but most if not all other huts can be upgraded to 5, provided their is a level 5 builder to build/upgrade it."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecolonies:blockhuttownhall"
+			}
+			id: "0A4196BD7B0FC574"
+			rewards: [
+				{
+					id: "1C8FAA224F4F6EB2"
+					item: "structurize:sceptergold"
+					type: "item"
+				}
+				{
+					id: "25F24DB9110F1858"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The Build Tool and Town Hall. How to Begin Minecolonies"
+			tasks: [{
+				id: "1554DEDE4B7F9F4A"
+				title: "Your very own village"
+				type: "checkmark"
+			}]
+			title: "The Heart of Every Colony"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6DC66F240EF37760"]
+			description: ["Alot of what is going to be most easily available to you tech-wise in the early game will be &6Create&r, leading into mekanism for now. Mekanism and its machines &4&oDO NOT&r&r generate power, you will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress powered Alternators, generators and motors. However their are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r for early game electricity! "]
+			icon: "create:large_cogwheel"
+			id: "7FA3787123BC491F"
+			rewards: [
+				{
+					id: "4C6FAAA4F2978287"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "54182FEC2EF1A702"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Stress and Power"
+			tasks: [
+				{
+					count: 8L
+					id: "1E1B6D34959213C1"
+					item: { Count: 8, id: "minecraft:andesite" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "294AD7A4FF690764"
+					item: { Count: 8, id: "minecraft:iron_nugget" }
+					type: "item"
+				}
+			]
+			title: "Stressing Over Power?"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["69F61E7551B10F85"]
+			description: [
+				"This Pack features multiple routes to learn and advance in the arcane arts."
+				""
+				"With the likes of schools of magic from mods such as: &dArs Nouveau&r, &cBlood Magic&r and &2Botania&r as well as many Compatibilities and integrations for each, you can farm your botanicals in new ways, as well as combine your Ars and Blood arsenal with the tome of blood and Heretics Armor among many other things."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "2F84AAEDD67C3C61"
+			rewards: [
+				{
+					id: "4600FB633F7E91D5"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "695B574F32129B63"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Familiars, Blood and Magic Flowers"
+			tasks: [{
+				id: "7CC73515A016F3B8"
+				title: "Magic"
+				type: "checkmark"
+			}]
+			title: "The Arcane Arts"
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7FA3787123BC491F"]
+			description: ["Multiple mods in the pack provide a means to protect and secure your things. Heres a mega torch for now, but it's not going to help much by itself, or for very long..."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createbigcannons:flak_autocannon_round"
+				tag: { }
+			}
+			id: "77734EA6CB2AEFFC"
+			rewards: [
+				{
+					id: "0D622D11BD30C7FB"
+					item: "torchmaster:megatorch"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BDC89A061B9165F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "039D14CDC6BBA8AF"
+				item: { Count: 3, id: "minecraft:torch" }
+				type: "item"
+			}]
+			title: "FTB Teams Claims Manager and SecurityCraft"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2F84AAEDD67C3C61"]
+			description: ["Craft a market and this will help make your herbivorous lifestyle a little easier... if you get down like that. Easy Villagers/Piglins is also a nice lag friendly way to get your farming and trading needs covered."]
+			icon: "minecraft:farmland"
+			id: "67D70DF7521DF700"
+			rewards: [
+				{
+					id: "335AD3B0C4CEC739"
+					item: "minecraft:red_wool"
+					type: "item"
+				}
+				{
+					id: "3211D2ABF7BDA664"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Farming for Blockheads, Easy Villagers and Botany Pots"
+			tasks: [{
+				id: "601043016B191D5C"
+				title: "Farming Options"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			description: [
+				"                                                                    &6Capsules&r"
+				""
+				"One of our favorite mods ever! You'll notice upon spawning into the world for the first time, you've been given a few starter home samples, conveniently pre-packed in a re-usable capsule, courtesy of the devs (they're actually the same ones we built and used for our own play!)"
+				""
+				""
+				"&4MOST CAPSULES YOU FIND ARE NOT REUSABLE, ONCE PLACED, THEY CANNOT BE PUT BACK INSIDE AS THE ORIGINAL CAPSULE DISAPPEARS ON USE!&r"
+				""
+				""
+				"Using JEI you can find recipes to craft multiple types and sizes of your own capsules to store and move many things. &9As a general rule you can store and move any vanilla item or container and many different modded blocks and containers, however theirs a few things you should never EVER try to move with a capsule.&r: ANY type of cable or machine/parts, multi-block structure, mobs/entities, any type of bulk storage... "
+				""
+				"In short, be smart, be careful and DON'T use them around anything you care about without some testing first. They have been blacklisted against most tech mods and are incompatible with many others,"
+				""
+				"&4USE CAPSULES ON TECH/MAGIC/COMPLEX MODS AT YOUR OWN RISK. THEY ARE SAFE IN GENERAL BUT YOU HAVE BEEN WARNED&r"
+				""
+				"as close to a full list of blacklisted/incompatible mods as possible can be found in the capsule configurations, found in your config folder. For all intents and purposes most other blocks/entities are safe to be moved via capsule. &9Test First.&r Better safe then sorry."
+			]
+			icon: {
+				Count: 1
+				id: "capsule:capsule"
+				tag: {
+					color: 12244701
+					size: 3
+					state: 0
+				}
+			}
+			id: "6DC66F240EF37760"
+			rewards: [
+				{
+					id: "1684FFB83666DCBC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2871F0AC960E5D18"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A home in your hand!"
+			tasks: [{
+				id: "0560C65098E2C974"
+				title: "Capsules!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			description: ["It is highly recommended for carnivores to look up the mob cages mod in Jei sooner rather than later."]
+			icon: "minecraft:cooked_beef"
+			id: "69F61E7551B10F85"
+			rewards: [
+				{
+					id: "572140F341E9F54D"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "3B1DCD308281D401"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mob Cages will help"
+			tasks: [{
+				id: "212DCC8044DCE538"
+				title: "Lasso's"
+				type: "checkmark"
+			}]
+			title: "Mobs and Cages"
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0A4196BD7B0FC574"]
+			description: [
+				"A backpack will do for now, and the starter home options each come with enough storage space to get you by until you can find more long term accomodations."
+				""
+				"You have Storage Racks, Functional Storage, Tom's Simple Storage, Applied Energistics 2 as well as many of the core mods in the pack provide their own means of storage such as: Create's item vaults, Mekanism's QIO drive array, Ars Nouveau's storage lectern and much more!"
+			]
+			icon: "minecraft:chest"
+			id: "36E76244E933E017"
+			rewards: [
+				{
+					id: "4C7ABD4B65884808"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "4BB9FC7EE16D4B5E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Storage Racks, Functional Storage and AE2"
+			tasks: [{
+				id: "5FB7629295C9B39C"
+				title: "Storage Options Galore"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BD601443B63B208"]
+			description: ["Have fun and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs and provide the link in the approriate channel of the &9MCC discord&r. Have any ideas or suggestions? please let us know, Thanks!"]
+			icon: {
+				Count: 1
+				id: "create_sa:experience_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4386DFA29FCEDD4D"
+			rewards: [
+				{
+					id: "2B7D987C31AC94AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "04BC788CE292BF0A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "And so it begins..."
+			tasks: [{
+				id: "275F8023AD79CAB4"
+				title: "Create and Conquer"
+				type: "checkmark"
+			}]
+			title: "Create and Conquer the World"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"67D70DF7521DF700"
+				"77734EA6CB2AEFFC"
+				"36E76244E933E017"
+			]
+			description: [
+				"A &2Nature's Compass&r will help you find that &dperfect&r biome to settle down in."
+				""
+				"While &6Dirt Buckets&r allow you to convert tree seeds into saplings"
+			]
+			icon: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+			id: "32C249BE079B4054"
+			rewards: [
+				{
+					id: "0EB7EB1C30F63F64"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "47E4766DC2915C2A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "That way!"
+			tasks: [
+				{
+					id: "7723C91C600BC445"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "012308A7873A271D"
+					item: "dynamictrees:dirt_bucket"
+					type: "item"
+				}
+			]
+			title: "Natural Coordination"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"32C249BE079B4054"
+				"1A8D6E6607B276B5"
+				"29428113245CF8E0"
+			]
+			description: [
+				"From here on out a lot of quests and tasks will be rewarded with: Spurs, Bevels, Sprockets, Cogs, Crowns, and Suns. "
+				""
+				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting numismatics coinage, from here on out we will be refering to them as \"&6Numi Coins&r\" for short hand and simplicities sake."
+			]
+			icon: "numismatics:bank_terminal"
+			id: "0BD601443B63B208"
+			rewards: [
+				{
+					id: "56C92E2E3658F683"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "259C30ED71C4DDC0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Ch-ching"
+			tasks: [{
+				id: "7CC76F1871B585EB"
+				title: "Craft a bank terminal to store and convert your coins"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["32C249BE079B4054"]
+			description: ["You're really going to want to automate this process. While very inefficient, smashing 6 &7Iron&r or &eGold&r ingots together into plates will suffice for now."]
+			id: "1A8D6E6607B276B5"
+			rewards: [
+				{
+					id: "4512BBF7C4AF57F4"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "34CE2BAB181E96CA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The First of Many"
+			tasks: [
+				{
+					id: "070E83C68BC7ECAA"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "2672DBE38F9B939D"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+			]
+			title: "Getting Started with Sheet Metals"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32C249BE079B4054"]
+			description: ["While not very efficient. Your rudimentary understandings of metals and tools do allow you to craft some blocks and items by hand. With time and progress, either magically or technologically, You will advance to more practical and efficient means."]
+			id: "29428113245CF8E0"
+			rewards: [
+				{
+					id: "40910EB706A9FFBD"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "0683F9CCDA7F530D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "It's Expensive."
+			tasks: [
+				{
+					id: "014E687816C31681"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "088C959A1DB46AC6"
+					item: { Count: 2, id: "create:industrial_iron_block" }
+					type: "item"
+				}
+			]
+			title: "Hand Crafting the Basics"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7A10879779D35FF1"]
+			description: [
+				"Our modpack offers a rewarding skill system through the Just Leveling mod, which adds passives, skills, and even cool titles! XP is now more important and useful than ever before."
+				""
+				"Open your Aptitudes Screen with the default \"Y\" key (check your keybinds). There are 8 main aptitudes, each featuring passives that can be upgraded from level 0 to 10, as well as skills that can be enabled or disabled depending on the level required. Plus, you can unlock cool titles as you level up!"
+				""
+				"Gather XP, explore the various skills and passives, and choose which aptitude to level up first based on your playstyle!"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "design_decor:arrow_up_sign"
+			}
+			id: "6727FFD03BC77E25"
+			rewards: [
+				{
+					id: "4BD15922D0C47182"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7F0AF90C870FA4FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Just Leveling"
+			tasks: [{
+				id: "7BE65AD85D803A81"
+				type: "checkmark"
+			}]
+			title: "It's time to Level Up!"
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6727FFD03BC77E25"]
+			description: [
+				"Ever wanted to send your friend a gift, trade with others, or ship items home while you're still deep in a cave or across the map? The Ender Mail mod has you covered!"
+				""
+				"Ender Mail allows you to employ Endermen as mail carriers to deliver packages anywhere in the world. You can have packages sent to specific coordinates or directly to a Locker if you know its unique ID."
+				""
+				"Crafted packages come with 5 inventory slots for your items. Think 5 slots aren’t enough? Here’s a tip: you can place Shulker Boxes or backpacks full of items inside the package to expand your delivery capacity!"
+				""
+				"To send a package, stamp it to set the delivery location, then right-click with a package controller to summon an Ender Mailman to deliver it. To access the contents of a delivered package, simply crouch and right-click to remove the stamp and open it. Packages can also be picked up as items, retaining their inventory for later use!"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "endermail:stamp"
+			}
+			icon_scale: 1.3d
+			id: "613C7011A8A8033C"
+			rewards: [
+				{
+					id: "6A66E18690CB14B5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "endermail:package"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CB027902ADB9679"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ender Mail"
+			tasks: [{
+				id: "77D3987BB0FC14B1"
+				type: "checkmark"
+			}]
+			title: "My mailman is great—he always delivers!"
+			x: -0.5d
+			y: -7.0d
+		}
+	]
+	title: "&5&lGetting Started"
+}

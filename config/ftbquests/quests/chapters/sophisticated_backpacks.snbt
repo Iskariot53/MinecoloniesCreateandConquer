@@ -1,0 +1,2056 @@
+{
+	autofocus_id: "57205C2E097F6B3B"
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "sophisticated_backpacks"
+	group: "205034DE57B28B09"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "0C40BEA2F3B1B245"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"52C1ABEEAA3AEEDB"
+			]
+			description: [
+				"&c&lSophisticated Backpacks&r&r is a backpack mod (obviously) with backpacks that you can place in the world, color in different color combinations, upgrade with more inventory slots and enhance with many functional upgrades."
+				""
+				"When your backpack is in your &ninventory&r, your &nchestplate&r or your &n\"Back\" Curio slot&r, you can access it using a key press (&cby default B&r)."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "sophisticatedbackpacks:backpack"
+			}
+			icon_scale: 1.3d
+			id: "1A37DEDF6AA33C72"
+			rewards: [
+				{
+					id: "63F4DC9647CF12DF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "1EE4CEFB9D90CB1E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Your first backpack"
+			tasks: [{
+				id: "7C354F1BD3AAF2C0"
+				type: "checkmark"
+			}]
+			title: "&lReady to pack up and go!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A37DEDF6AA33C72"]
+			description: [
+				"You can &l&ccolor&r&r your backpack in the crafting table similar to &ncoloring leather armor&r, except backpacks can have &ctwo&r colors - &emain&r and &eaccent&r!"
+				"Dyes to the &cleft&r of the backpack in the crafting grid apply to the &cmain&r color. Dyes to the &cright&r of the backpack apply to the &caccent&r color. Dyes in the &csame column&r as the backpack apply to &cboth main and accent&r."
+				""
+				"Once the backpack is dyed, you can continue adding dyes which combine the current main, accent or both colors. You can &cwash away&r the color from any dyed backpack by holding it in your main hand and clicking with it on a &ccauldron with water&r."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:yellow_dye"
+			}
+			id: "6116685D5414CC02"
+			rewards: [
+				{
+					id: "65B1E7AEEA4E2F7B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1FCFDC4EF685F1E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23F4335641D8219E"
+				type: "checkmark"
+			}]
+			title: "&lDyeing your Backpack"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A37DEDF6AA33C72"]
+			hide_dependency_lines: false
+			id: "079942A04CC6A4CF"
+			rewards: [
+				{
+					id: "0089DA01EA668F13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "21390783F9F77CDF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BD470AD9A99ACD6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:iron_backpack"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["079942A04CC6A4CF"]
+			hide_dependency_lines: false
+			id: "7ABF901623D8CA28"
+			rewards: [
+				{
+					id: "57049F91C1412A25"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "625686B6C246D965"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "144BB541E4A2ADFA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:gold_backpack"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7ABF901623D8CA28"]
+			hide_dependency_lines: false
+			id: "056C2665F5710C48"
+			rewards: [
+				{
+					id: "7F461A807AF221FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B8F14D027A717A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FDD380FBFB0358B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:diamond_backpack"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["056C2665F5710C48"]
+			hide_dependency_lines: false
+			id: "51BCD6FF71ACC8AF"
+			rewards: [
+				{
+					id: "51A11321DE2CC2AF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0532CDAE6F8DBA5D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62255B48AD298BBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:netherite_backpack"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1CB1977A79D3F8D9"]
+			hide_dependency_lines: false
+			id: "7F6EEDD18DAFAF44"
+			rewards: [
+				{
+					id: "4531EB86BAE2AC1E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1B32124EA8608A5B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0FBF77D729334F88"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_pump_upgrade"
+				}
+				type: "item"
+			}]
+			x: -5.232142857142875d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["7F6EEDD18DAFAF44"]
+			hide_dependency_lines: false
+			id: "55D0832465B02A82"
+			rewards: [
+				{
+					id: "3D5F468BA70CD7A2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "377B2F1F1B12CE33"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1AD609F8F9A8884F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:xp_pump_upgrade"
+				}
+				type: "item"
+			}]
+			x: -5.232142857142875d
+			y: 7.174999999999997d
+		}
+		{
+			dependencies: ["713F7914D703293A"]
+			hide_dependency_lines: false
+			id: "158ACB32CD46F0E7"
+			rewards: [
+				{
+					id: "6BB27AE8AE970538"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "220D168DDA9C6222"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "45BF31614A255358"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				}
+				type: "item"
+			}]
+			x: -3.7321428571428754d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["158ACB32CD46F0E7"]
+			hide_dependency_lines: false
+			id: "2B9D019FFBFC9393"
+			rewards: [
+				{
+					id: "031FA3E52F5FC816"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "603FE65275A311E6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "778110E3185FE3E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				}
+				type: "item"
+			}]
+			x: -3.7321428571428754d
+			y: 7.174999999999997d
+		}
+		{
+			dependencies: ["2B9D019FFBFC9393"]
+			hide_dependency_lines: false
+			id: "0A53EF95B5994DFB"
+			rewards: [
+				{
+					id: "7B5BF575DADABD83"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49713B0BFEBDA98E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "70A3965A9E29087E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				}
+				type: "item"
+			}]
+			x: -3.7321428571428754d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["0DE5AF56850D4B59"]
+			hide_dependency_lines: false
+			id: "3DA86F5AD1E52739"
+			rewards: [
+				{
+					id: "3EF72BC88B0DD0B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "241DA1B165752984"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5DEFCBC2ED9E3E72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_pickup_upgrade"
+				}
+				type: "item"
+			}]
+			x: -2.2321428571428754d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "0DC612012D9F5CC8"
+			rewards: [
+				{
+					id: "1AA6258FD1748AD4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "671E08828497B7FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2253ADED7149D966"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:magnet_upgrade"
+				}
+				type: "item"
+			}]
+			x: -2.2321428571428754d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["0DC612012D9F5CC8"]
+			hide_dependency_lines: false
+			id: "03946F0D24968AF4"
+			rewards: [
+				{
+					id: "1EFDD1334817D017"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "272F634E77696145"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "701B0327D5D99E35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				}
+				type: "item"
+			}]
+			x: -2.2321428571428754d
+			y: 9.174999999999997d
+		}
+		{
+			dependencies: ["26AB28723901180C"]
+			hide_dependency_lines: false
+			id: "5B3CA603617A1B4F"
+			rewards: [
+				{
+					id: "51EA56BF594BBDCF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "629788D539AE940B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "7A4409E9E024C5FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_restock_upgrade"
+				}
+				type: "item"
+			}]
+			x: -0.7321428571428754d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "78D0A8DE604F4EF5"
+			rewards: [
+				{
+					id: "3A45433F420EB165"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "053E023E5E06D6D8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "76FD19ECB6105211"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:deposit_upgrade"
+				}
+				type: "item"
+			}]
+			x: -0.7321428571428754d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["78D0A8DE604F4EF5"]
+			hide_dependency_lines: false
+			id: "57A10A9E3CBF4D8A"
+			rewards: [
+				{
+					id: "6C8DEF53DE7D20F7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "067C59BE70430264"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3DFB6ED5432D2C20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_deposit_upgrade"
+				}
+				type: "item"
+			}]
+			x: -0.7321428571428754d
+			y: 9.174999999999997d
+		}
+		{
+			dependencies: ["097132287977D15D"]
+			hide_dependency_lines: false
+			id: "121E7E140EAA41B2"
+			rewards: [
+				{
+					id: "6E3EFF8A4007F96A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4B33FCEFC0321203"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "721FD01D7922FB2A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_filter_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.7678571428571246d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "398846F77C0A87CD"
+			rewards: [
+				{
+					id: "3C5D9487D138B25C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2C2E0B230DFD79F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1AF4839AE09095A9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:void_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.7678571428571246d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["398846F77C0A87CD"]
+			hide_dependency_lines: false
+			id: "5927A7BA1E9A528A"
+			rewards: [
+				{
+					id: "0A13CBDC63785C13"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2752334F3818A4FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "147A982AB5C207C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_void_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.7678571428571246d
+			y: 9.174999999999997d
+		}
+		{
+			dependencies: ["10A03B6AFCB30520"]
+			hide_dependency_lines: false
+			id: "2413ED682A0A007A"
+			rewards: [
+				{
+					id: "61F85CA7CA8250C0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2E23558B3CE9DB0D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4C387409D484A2C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_compacting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 2.2678571428571246d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "3293026C1A823B87"
+			rewards: [
+				{
+					id: "2FB033D820CF168D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3E4B693EF9FB92FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6C1F1890B6139105"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:refill_upgrade"
+				}
+				type: "item"
+			}]
+			x: 2.2678571428571246d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["3293026C1A823B87"]
+			hide_dependency_lines: false
+			id: "54C1FF0A0045D7CE"
+			rewards: [
+				{
+					id: "3ECD60DDA787E497"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "72074593FB0CD414"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "59B7F366C1B49A1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_refill_upgrade"
+				}
+				type: "item"
+			}]
+			x: 2.2678571428571246d
+			y: 9.174999999999997d
+		}
+		{
+			dependencies: ["05A9CF0A23D66D04"]
+			hide_dependency_lines: false
+			id: "6D2AD1EFE651C861"
+			rewards: [
+				{
+					id: "3309E2DA3262BE5D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "71662E95ECE4300A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4939D9312BCA2BFC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:auto_smelting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 3.7678571428571246d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "35DAB0A24A073B70"
+			rewards: [
+				{
+					id: "5554CED308F8A5AD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "50A6AD8BDFB006FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0A8353F5D60D52FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:blasting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 3.7678571428571246d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["35DAB0A24A073B70"]
+			hide_dependency_lines: false
+			id: "0737694D85128426"
+			rewards: [
+				{
+					id: "5E1F0AB4DF712BB1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7D38C7273B8086A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "4EA4B4A2382BE42B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:auto_blasting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 3.7678571428571246d
+			y: 9.174999999999997d
+		}
+		{
+			dependencies: ["645B4A7596CB5DCA"]
+			hide_dependency_lines: false
+			id: "76A8D143892BD25D"
+			rewards: [
+				{
+					id: "726B964EA0677150"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6169EC76C6A0678B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "33F55C38C4676982"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				}
+				type: "item"
+			}]
+			x: 5.267857142857125d
+			y: 6.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "665D2B45126BFD6A"
+			rewards: [
+				{
+					id: "37DB050F3DACBEE2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "365DCF513DF432D3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2568411EA9C7AA99"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:smoking_upgrade"
+				}
+				type: "item"
+			}]
+			x: 5.267857142857125d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["665D2B45126BFD6A"]
+			hide_dependency_lines: false
+			id: "1958DAB5E4885671"
+			rewards: [
+				{
+					id: "232DAC7F32296527"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "546CD4072E7F35C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5CAD996CA007ABC4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:auto_smoking_upgrade"
+				}
+				type: "item"
+			}]
+			x: 5.267857142857125d
+			y: 9.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "0BDADAF7B4756E90"
+			rewards: [
+				{
+					id: "75FA3C7AECF9288D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7341D5DB7DC2DA3D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "3AF2A3ED171B0746"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:tool_swapper_upgrade"
+				}
+				type: "item"
+			}]
+			x: -5.232142857142875d
+			y: 8.174999999999997d
+		}
+		{
+			dependencies: ["0BDADAF7B4756E90"]
+			hide_dependency_lines: false
+			id: "22CDFB0DFCD35B23"
+			rewards: [
+				{
+					id: "04A3E0033F1B33C8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6152801E8C809926"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "242723A5AEF43D53"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+				}
+				type: "item"
+			}]
+			x: -5.232142857142875d
+			y: 9.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "01CCF23F30BCC1B7"
+			rewards: [
+				{
+					id: "5673E8AFD7397D1E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "796A5A2207F883B9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "1236CADBCF355A77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:tank_upgrade"
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 3.674999999999997d
+		}
+		{
+			dependencies: [
+				"00B9671338E0E8A4"
+				"01CCF23F30BCC1B7"
+			]
+			id: "1CB1977A79D3F8D9"
+			rewards: [
+				{
+					id: "7F9AE2A1C9FA574B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "46ECEF38BFFF845C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5A5EFC10DEF7C059"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:pump_upgrade"
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "713F7914D703293A"
+			rewards: [
+				{
+					id: "23A11BC1607C9996"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "4F91EAC160BFC995"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5BD2F49AD8A36A72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "0DE5AF56850D4B59"
+			rewards: [
+				{
+					id: "685FA75FC5DB3EDF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "5F65D382BDD6021A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "02C53FA9972E02B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:pickup_upgrade"
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "26AB28723901180C"
+			rewards: [
+				{
+					id: "28C99A725564B3AC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0D670A4C551D006B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "30CCFF2BE4C888B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:restock_upgrade"
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "097132287977D15D"
+			rewards: [
+				{
+					id: "226E7E1D37065EA7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "65173535FE60B860"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0D98DC14701FF39E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:filter_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "10A03B6AFCB30520"
+			rewards: [
+				{
+					id: "4DA9CBF7F79E14AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "170367601386A9DC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "27BE90A1859384A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:compacting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "05A9CF0A23D66D04"
+			rewards: [
+				{
+					id: "5A47F2DB2FF37C0E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "48EEE5007370E5A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6DBE59BD7446AA7F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:smelting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "645B4A7596CB5DCA"
+			rewards: [
+				{
+					id: "42C881D593EE22F3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4A87E3F7E78B209B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0C19BA30A6CC2216"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:feeding_upgrade"
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 5.174999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "313ADE5383FF8A23"
+			rewards: [
+				{
+					id: "465937926605C3F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "53D8A60242A04625"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "65B8CF8116E92ED8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:crafting_upgrade"
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 3.674999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "42B812E36BAAB243"
+			rewards: [
+				{
+					id: "01F4EA202461932F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4110F91CEB789EFC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "508B381040A268FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:anvil_upgrade"
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.674999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "68F603E8C26416BB"
+			rewards: [
+				{
+					id: "361EDC44C7EE8F3E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1A69579430AA594E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6BC4592CE51B2E97"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:stonecutter_upgrade"
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 3.674999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "1050B5B3A450BECA"
+			rewards: [
+				{
+					id: "46D41E1180165E2B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "34C1E29F4FEC8925"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "20C8288EE6782D00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:jukebox_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.674999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "34CF3E150AF1A648"
+			rewards: [
+				{
+					id: "541AF39B716035CA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6B120FBC51C40FB2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "48E06DBB6A9C947F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:battery_upgrade"
+				}
+				type: "item"
+			}]
+			x: 2.25d
+			y: 3.674999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "1013135C12806093"
+			rewards: [
+				{
+					id: "7DCE0513EDFB97D0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "118F90CB98023FEC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2B095DD99178BCF0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:inception_upgrade"
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 3.674999999999997d
+		}
+		{
+			dependencies: ["00B9671338E0E8A4"]
+			id: "5BE0CE5858FCF50B"
+			rewards: [
+				{
+					id: "7246A1A7225F6FEF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AE2FDEA020FCB0E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "587E901CB78C9043"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:everlasting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 3.674999999999997d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "57205C2E097F6B3B"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "2BF079905F882EB5"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -3.25d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"52C1ABEEAA3AEEDB"
+				"1A37DEDF6AA33C72"
+			]
+			description: [
+				"&c&lSophisticated Backpacks&r&r have a &lTON&r of useful and functional upgrades that you can mix and match to satisfy your different needs."
+				"Each upgrade requires an &c&lUpgrade Base&r&r in its crafting recipe."
+			]
+			hide_dependency_lines: false
+			id: "00B9671338E0E8A4"
+			rewards: [
+				{
+					id: "331D7CF072CC8662"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0B6FD047BBD72F86"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				id: "57C7C8EB25836598"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sophisticatedbackpacks:upgrade_base"
+				}
+				type: "item"
+			}]
+			title: "&lTime for an upgrade?"
+			x: 0.0d
+			y: 1.9500000000000002d
+		}
+	]
+	title: "&eSophisticated Backpacks"
+}

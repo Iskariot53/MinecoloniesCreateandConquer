@@ -1,0 +1,3283 @@
+{
+	autofocus_id: "5EA4A2B40E75DC01"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "storage_racks"
+	group: "205034DE57B28B09"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "functionalstorage:storage_controller"
+	}
+	id: "31DCE05DEFCBD0B3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["11CB742A8CEE0CB0"]
+			description: [
+				"Looking for an early-game storage system that's simple to use? &e&lStorage Racks&r&r might be just the mod for you!"
+				""
+				"&e&lStorage Racks&r&r provides an easy solution to organize all your Minecraft storage needs, allowing you to craft &eracks&r with various inventory sizes to keep your items neatly organized and easily accessible!"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "storageracks:oak_diamond_rack"
+			}
+			icon_scale: 1.3d
+			id: "377E286CDF4BDA5C"
+			rewards: [{
+				id: "7B1BC2924EC9F0E5"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "46D732A55CE2601A"
+				type: "checkmark"
+			}]
+			title: "&lStorage Racks"
+			x: -4.736904761904775d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"377E286CDF4BDA5C"
+				"7417D7EB6D7EAA3D"
+			]
+			description: [
+				"Racks are where your items are stored and accessed through the storage controller. Each tier of racks has different inventory space—the higher the tier, the larger the inventory. You can upgrade each rack by simply left-clicking it with the next material, progressing from stone to diamond."
+				""
+				"Corners are connector blocks that can be placed between racks or between racks and a controller to keep your storage system linked to the controller."
+				""
+				"Craft your first wood rack, which has &c18&r inventory slots."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_planks"
+			}
+			id: "172A9DCD62B717CB"
+			rewards: [
+				{
+					id: "739656B5FB5BA42D"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "0AB2EE88ED0E22B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Wood Tier"
+			tasks: [
+				{
+					id: "65DECCE3DEE7D689"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_wood_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_wood_rack"
+								}
+							]
+						}
+					}
+					title: "Wood Rack"
+					type: "item"
+				}
+				{
+					id: "575CC7B43FF70CDF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_wood_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_wood_corner"
+								}
+							]
+						}
+					}
+					title: "Wood Corner"
+					type: "item"
+				}
+			]
+			title: "&lWood Racks and Corners"
+			x: -5.0d
+			y: -7.232142857142865d
+		}
+		{
+			dependencies: [
+				"377E286CDF4BDA5C"
+				"7417D7EB6D7EAA3D"
+			]
+			description: ["Stone Racks have &c27&r inventory slots."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:stone"
+			}
+			id: "183B5CA575FC4B8A"
+			rewards: [
+				{
+					id: "2DD8ABA8EE6412CC"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "7686F7842885187E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Stone Tier"
+			tasks: [
+				{
+					id: "7D5BE8EA83DD2A35"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_stone_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_stone_rack"
+								}
+							]
+						}
+					}
+					title: "Stone Rack"
+					type: "item"
+				}
+				{
+					id: "274E80AEC7267B62"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_stone_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_stone_corner"
+								}
+							]
+						}
+					}
+					title: "Stone Corner"
+					type: "item"
+				}
+			]
+			title: "&lStone Racks and Corners"
+			x: -6.0d
+			y: -6.232142857142865d
+		}
+		{
+			dependencies: [
+				"377E286CDF4BDA5C"
+				"7417D7EB6D7EAA3D"
+			]
+			description: ["Iron Racks have &c36&r Inventory slots."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_block"
+			}
+			id: "335D71B8ECEB5175"
+			rewards: [
+				{
+					id: "6A5F7607E9722E52"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "6E423AF61C68523D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Iron Tier"
+			tasks: [
+				{
+					id: "2BBDA1B6DAB2A673"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_iron_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_iron_rack"
+								}
+							]
+						}
+					}
+					title: "Iron Rack"
+					type: "item"
+				}
+				{
+					id: "2E0934FAC73D8568"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_iron_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_iron_corner"
+								}
+							]
+						}
+					}
+					title: "Iron Corner"
+					type: "item"
+				}
+			]
+			title: "&lIron Racks and Corners"
+			x: -7.0d
+			y: -6.232142857142865d
+		}
+		{
+			dependencies: [
+				"377E286CDF4BDA5C"
+				"7417D7EB6D7EAA3D"
+			]
+			description: ["Gold Racks have &c45&r Inventory slots."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gold_block"
+			}
+			id: "00A588DD1385D364"
+			rewards: [
+				{
+					id: "0AB028A457FFBD66"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "406CDA524A2B9582"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Gold Tier"
+			tasks: [
+				{
+					id: "11F1EDF25F971C31"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_gold_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_gold_rack"
+								}
+							]
+						}
+					}
+					title: "Gold Rack"
+					type: "item"
+				}
+				{
+					id: "487C164AC35B1FC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_gold_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_gold_corner"
+								}
+							]
+						}
+					}
+					title: "Gold Corner"
+					type: "item"
+				}
+			]
+			title: "&lGold Racks and Corners"
+			x: -8.0d
+			y: -6.232142857142865d
+		}
+		{
+			dependencies: [
+				"377E286CDF4BDA5C"
+				"7417D7EB6D7EAA3D"
+			]
+			description: ["Emerald Racks have &c54&r Inventory slots."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:emerald_block"
+			}
+			id: "189BA0756DBB4C25"
+			rewards: [
+				{
+					id: "60291BB09FE95B41"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "6628A454A6B18666"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Emerald Tier"
+			tasks: [
+				{
+					id: "086555C174E35DCB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_emerald_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_emerald_rack"
+								}
+							]
+						}
+					}
+					title: "Emerald Rack"
+					type: "item"
+				}
+				{
+					id: "59A522EBFF921264"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_emerald_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_emerald_corner"
+								}
+							]
+						}
+					}
+					title: "Emerald Corner"
+					type: "item"
+				}
+			]
+			title: "&lEmerald Racks and Corners"
+			x: -9.0d
+			y: -6.232142857142865d
+		}
+		{
+			dependencies: [
+				"377E286CDF4BDA5C"
+				"7417D7EB6D7EAA3D"
+			]
+			description: ["Diamond Racks have &c63&r Inventory slots."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:diamond_block"
+			}
+			id: "1A86C4698B813FFE"
+			rewards: [
+				{
+					id: "0DB5AB471C9687BF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "55F8BDB4D9442DE2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Diamond Tier"
+			tasks: [
+				{
+					id: "7DD6B340590C7718"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_diamond_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_diamond_rack"
+								}
+							]
+						}
+					}
+					title: "Diamond Rack"
+					type: "item"
+				}
+				{
+					id: "213F524643777829"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_diamond_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_diamond_corner"
+								}
+							]
+						}
+					}
+					title: "Diamond Corner"
+					type: "item"
+				}
+			]
+			title: "&lDiamond Racks and Corners"
+			x: -10.0d
+			y: -6.232142857142865d
+		}
+		{
+			dependencies: [
+				"377E286CDF4BDA5C"
+				"7417D7EB6D7EAA3D"
+			]
+			description: ["Netherite Racks have &c72&r Inventory slots."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:netherite_block"
+			}
+			id: "5302E70E2B18C49E"
+			rewards: [
+				{
+					id: "228809E6FF7EB967"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "05951D9D04BAD353"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Netherite Tier"
+			tasks: [
+				{
+					id: "76A7B2E25C3E4A6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_netherite_rack"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_netherite_rack"
+								}
+							]
+						}
+					}
+					title: "Netherite Rack"
+					type: "item"
+				}
+				{
+					id: "7410B308574D05FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:oak_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:spruce_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:birch_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:jungle_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:acacia_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:dark_oak_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:warped_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:mangrove_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:crimson_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:cherry_netherite_corner"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "storageracks:bamboo_netherite_corner"
+								}
+							]
+						}
+					}
+					title: "Netherite Corner"
+					type: "item"
+				}
+			]
+			title: "&lNetherite Racks and Corners"
+			x: -11.0d
+			y: -7.232142857142865d
+		}
+		{
+			dependencies: ["377E286CDF4BDA5C"]
+			description: [
+				"To place any storage racks, you'll first need a storage controller. Storage controllers help you locate and manage items in your racks easily. They come in different tiers, with each tier supporting a different number of connected racks. When you open the controller's GUI, you can unlock &9sorting&r and &9insertion&r options at the bottom of the menu by using a redstone block and a hopper for even easier storage management. Struggling to find an item in a large number of racks? Don't worry! Simply search for the item and click the &6&l\"?\"&r&r icon next to it—the rack containing the item will light up."
+				""
+				"Craft a &8&lStone Controller&r&r, which supports up to &c20&r racks!"
+			]
+			id: "7417D7EB6D7EAA3D"
+			rewards: [
+				{
+					id: "41D4BAFF7324BFB2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "6635DBF9EADCD931"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5209435B7F0E26D7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "storageracks:stone_controller"
+				}
+				type: "item"
+			}]
+			title: "&lStone Controller"
+			x: -6.0d
+			y: -8.232142857142865d
+		}
+		{
+			dependencies: ["7417D7EB6D7EAA3D"]
+			description: ["Upgrade your &l&8Stone Controller&r&r to an &lIron Controller&r, which supports up to &c40&r racks!"]
+			id: "41D560810B632C4D"
+			rewards: [
+				{
+					id: "24EE596F73EF2727"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "5321527D56EA100B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E0BCD6EAA27E720"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "storageracks:iron_controller"
+				}
+				type: "item"
+			}]
+			title: "&lIron Controller"
+			x: -7.0d
+			y: -8.232142857142865d
+		}
+		{
+			dependencies: ["41D560810B632C4D"]
+			description: ["Upgrade your &lIron Controller&r to a &l&eGold Controller&r&r, which supports up to &c60&r racks!"]
+			id: "56098F44C4727C5B"
+			rewards: [
+				{
+					id: "0869DD6DCB9D3BB6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "7BC5ED4E03398217"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "293E749B63EB0B58"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "storageracks:gold_controller"
+				}
+				type: "item"
+			}]
+			title: "&lGold Controller"
+			x: -8.0d
+			y: -8.232142857142865d
+		}
+		{
+			dependencies: ["56098F44C4727C5B"]
+			description: ["Upgrade your &l&eGold Controller&r&r to an &2&lEmerald Controller&r&r, which supports up to &c80&r racks!"]
+			id: "09D99D77C2C2E0C1"
+			rewards: [
+				{
+					id: "058D95666B369C2F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "3117B0DD20A03C95"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65352220C2A23EBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "storageracks:emerald_controller"
+				}
+				type: "item"
+			}]
+			title: "&lEmerald Controller"
+			x: -9.0d
+			y: -8.232142857142865d
+		}
+		{
+			dependencies: ["09D99D77C2C2E0C1"]
+			description: ["Upgrade your &2&lEmerald Controller&r&r to a &l&0Netherite Controller&r&r, which supports up to &c120&r racks!"]
+			id: "0EB8B1A953617CD4"
+			rewards: [
+				{
+					id: "76CA46E4BEA0076F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3D673DB4A0DDE89F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "134125C2AD2C37E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "storageracks:netherite_controller"
+				}
+				type: "item"
+			}]
+			title: "&lNetherite Controller"
+			x: -10.0d
+			y: -8.232142857142865d
+		}
+		{
+			dependencies: ["11CB742A8CEE0CB0"]
+			description: ["&e&lFunctional Storage&r&r is a mod that adds a variety of drawers, allowing you to store large quantities of items while offering useful functionalities and upgrades."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "functionalstorage:storage_controller"
+			}
+			icon_scale: 1.3d
+			id: "1BE501041FE031B5"
+			rewards: [{
+				id: "5DAB0930BAC78D66"
+				type: "xp"
+				xp: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5B1C140F3B23D4BA"
+				type: "checkmark"
+			}]
+			title: "&lFunctional Storage"
+			x: -16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1BE501041FE031B5"]
+			description: ["&e&lDrawers&r&r are where your items will be stored. Craft your first &edrawer&r to start exploring the mod further."]
+			id: "16AC24360DB72530"
+			rewards: [
+				{
+					id: "3764B8700FD14BCB"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "08EF689C39E907A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2244B71B18C60CDE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Drawer"
+				type: "item"
+			}]
+			title: "&lCraft Your First Drawer"
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16AC24360DB72530"]
+			description: ["Storage upgrades increase the capacity for storing items and fluids in drawers, while also extending the controller's range."]
+			id: "644EC30988F295AA"
+			rewards: [{
+				id: "11342236A7666D24"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "79AF5775575DDB7A"
+				type: "checkmark"
+			}]
+			title: "&lStorage Upgrades"
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16AC24360DB72530"]
+			description: ["Utility upgrades are helpful enhancements that assist with storing items and managing their use."]
+			id: "7E463AA57262B87E"
+			rewards: [{
+				id: "3AAA8DE16573CDA9"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "066CC12BB1BE1C79"
+				type: "checkmark"
+			}]
+			title: "&lUtility Upgrades"
+			x: -15.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["644EC30988F295AA"]
+			id: "6CD31136CC9ABDC1"
+			rewards: [
+				{
+					id: "552E092AF576BAC8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4929EF635975DDC1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "049A74D7F326A25B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:copper_upgrade"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6CD31136CC9ABDC1"]
+			id: "1FFEBD2999D9F550"
+			rewards: [
+				{
+					id: "113BC25A374DFF75"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 7
+					id: "4BCBBF50A209B768"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6106599D42B15BAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:gold_upgrade"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FFEBD2999D9F550"]
+			id: "471E885FD1F9A708"
+			rewards: [
+				{
+					id: "652389C60EBC4DBB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7626DE38B17F2ADF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "34318F0B0F21B71E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:diamond_upgrade"
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["471E885FD1F9A708"]
+			id: "4EE9ED14469D3382"
+			rewards: [
+				{
+					id: "2FAD6C5A83C0AC12"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "409A9C41052A784D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "26BAE25B2625255E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:netherite_upgrade"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["644EC30988F295AA"]
+			description: ["Downgrades the slots to a max of 64 Items"]
+			id: "069751C4C49E0958"
+			rewards: [
+				{
+					id: "0D54178C6C82BFB3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "009092D6B320D6A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6FE9F171B63314BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:iron_downgrade"
+				}
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E463AA57262B87E"]
+			description: ["It collects items on the ground"]
+			id: "22CDAD56B44B9793"
+			rewards: [
+				{
+					id: "3FFE46C36BB3875D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3873939F8EEE1549"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "0D3C01F84B63BB4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:collector_upgrade"
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E463AA57262B87E"]
+			description: ["It pulls items from an adjacent inventory"]
+			id: "58905E5DF0ABADA6"
+			rewards: [
+				{
+					id: "24F908D9A547745B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0520F3088E202E44"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "783FFDFEFD0BCD81"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:puller_upgrade"
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E463AA57262B87E"]
+			description: ["It pushes items to an adjacent inventory"]
+			id: "6ECD6F1108CF5B37"
+			rewards: [
+				{
+					id: "404016EEBD7CB6CC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "782E64BD0C7698E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5C50C39A1DA02A42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:pusher_upgrade"
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E463AA57262B87E"]
+			description: ["Outputs a redstone signal on all sides of the drawer to display how full or empty it is"]
+			id: "751971E469052416"
+			rewards: [
+				{
+					id: "3B8DD6880B2CE2D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "111BAED2DF70765F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "6D7E73264E7D6F8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:redstone_upgrade"
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E463AA57262B87E"]
+			description: ["Voids extra items when the drawer is full to prevent overflow"]
+			id: "491B552346DBF3CE"
+			rewards: [
+				{
+					id: "102217DFBC57E94C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "58661B1F18EE2EBA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "10A1EA869544D97E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:void_upgrade"
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16AC24360DB72530"]
+			description: [
+				"Allows you to link any type of drawer to a controller. "
+				""
+				"Sneak + Right click in the air to change the linking mode to select either single or multiple drawers."
+				""
+				"Right click in the air to change linking action to either add or remove drawers from the controller."
+			]
+			id: "7060F6D312FAA2C1"
+			rewards: [
+				{
+					id: "4FBDF3971ED35762"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "33637EDA6807BE40"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "72442882D8109585"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:linking_tool"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&lLinking Tool"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7060F6D312FAA2C1"]
+			description: ["You can copy an &e&lEnder Drawer&r&r frequency by left-clicking it with a &eLinking Tool&r. Then, right-click another &eEnder Drawer&r to sync their contents. They work similarly to Ender Chests, as the name suggests, but are designed for drawers."]
+			id: "063669950CA41ACB"
+			rewards: [
+				{
+					id: "38F22E71D7AF984C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3578FFD3B85B0114"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DB16A4FCDEE3E09"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:ender_drawer"
+				}
+				type: "item"
+			}]
+			title: "&lEnder Drawer"
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7060F6D312FAA2C1"]
+			description: ["&e&lFramed Drawers&r&r are customizable drawers that can be tailored to your preferences. Hover over any framed drawer for a guide on how to customize it."]
+			id: "250A47CC0072B020"
+			rewards: [
+				{
+					id: "559AEBD8BAB1AA9B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3420E8A4488672C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26B69DD415EF215A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:framed_1"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:framed_2"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:framed_4"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:compacting_framed_drawer"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:framed_simple_compacting_drawer"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:framed_storage_controller"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:framed_controller_extension"
+							}
+						]
+					}
+				}
+				title: "Framed Drawers"
+				type: "item"
+			}]
+			title: "&lFramed Drawers"
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7060F6D312FAA2C1"]
+			description: ["&e&lFluid Drawers&r&r are similar to regular drawers, but instead of storing items, they store fluids."]
+			id: "2D7150E023A3138C"
+			rewards: [
+				{
+					id: "1BE34C7F0F0FB28C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0751A9EE19F8C3A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64D1140528893A38"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:fluid_1"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:fluid_2"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "functionalstorage:fluid_4"
+							}
+						]
+					}
+				}
+				title: "Fluid Drawer"
+				type: "item"
+			}]
+			title: "&lFluid Drawers"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7060F6D312FAA2C1"]
+			description: [
+				"&e&lCompacting drawers&r&r are special drawers that automatically convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, place them in a compacting drawer. The drawer will internally maintain a pool of the material and allow you to insert or remove the material in any of the displayed forms. This compacting behavior works with any item that has a &ecompressed&r recipe."
+				""
+				"&e&lSimple Compacting Drawers&r&r function similarly to Compacting Drawers but have only two slots."
+			]
+			id: "40B701BD235ACE08"
+			rewards: [
+				{
+					id: "2748DDBE3C9FF6B5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7ED1F4FC366666A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0756FFCCCED3D03B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "functionalstorage:compacting_drawer"
+					}
+					type: "item"
+				}
+				{
+					id: "089C2D758567463A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "functionalstorage:simple_compacting_drawer"
+					}
+					type: "item"
+				}
+			]
+			title: "&lCompacting Drawers"
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7060F6D312FAA2C1"]
+			description: [
+				"The &e&lConfiguration Tool&r&r allows you to change the settings for each drawer to hide/show Item renders, amounts, upgrade renders or swap indicator modes."
+				""
+				"Drawers can also be locked or unlocked with the &l&eConfiguration Tool&r&r. When a drawer is locked, it will maintain its current item association even if the last item is removed. This will prevent pipes and other transport systems from re-filling that drawer with other items."
+			]
+			id: "6428558E5BD92E2C"
+			rewards: [
+				{
+					id: "49B73F2A2AA4E975"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "659B4D335A569535"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CD21BC9AB4C8CF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:configuration_tool"
+				}
+				type: "item"
+			}]
+			title: "&lConfiguration Tool"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7060F6D312FAA2C1"]
+			description: [
+				"&e&lStorage Controllers&r&r are arguably the most important block in the mod. They search for any drawers they're linked to using the &eLinking Tool&r and expose all those drawers as a single, large combined inventory. This allows you to, for example, connect a single pipe and interact with the entire bank of drawers."
+				""
+				"The second function of the controller is as a &edeposit-only&r interactive block. By right-clicking the front face with an item, the item will be deposited into the connected network. Double-right-clicking will attempt to dump your entire inventory. Items will only be deposited if they already exist in the network, making it easy to clear out mob drops or farmed crops without dumping your entire inventory."
+			]
+			id: "5B7CFD38909BADF8"
+			rewards: [
+				{
+					id: "3E2A4A70E14C59C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "5A15958E874AE260"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "04407896ED1B3C24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:storage_controller"
+				}
+				type: "item"
+			}]
+			title: "&lStorage Controller"
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5B7CFD38909BADF8"]
+			description: ["The &e&lController Access Point&r&r functions as a &eStorage Controller&r when linked to one, providing additional faces for attaching machines, pipes, or crafting frames. All access points bound to the same controller will share the same inventory and range as that controller. Using controller access points is more &eperformance-efficient&r than using multiple controllers."]
+			id: "4D448CEBA92D5A14"
+			rewards: [
+				{
+					id: "1F6B50FFEDA8E6E2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0BD50F345E4A9796"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EF90687F26B90BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:controller_extension"
+				}
+				type: "item"
+			}]
+			title: "&lController Access Point"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B7CFD38909BADF8"]
+			description: ["The &e&lArmory Cabinet&r&r stores &c&l4096&r&r non stackeable items, and can only be accessed with external tools like Applied Energistics external storage tools. It is useful to keep any items with &eNBT&r data out of your storage system."]
+			id: "3E48563A0826A220"
+			rewards: [
+				{
+					id: "5E33EFFB0F89DD9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "236A662BD5C8E160"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7FF327F6CCBA9297"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "functionalstorage:armory_cabinet"
+				}
+				type: "item"
+			}]
+			title: "&lArmory Cabinet"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "5EA4A2B40E75DC01"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "27B259C13FAED071"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -14.75d
+			y: -4.25d
+		}
+	]
+	title: "&eFunctional Storage and Racks"
+}

@@ -1,0 +1,1565 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eapotheotic_ascension"
+	group: "46EE86D2C5C12C78"
+	icon: {
+		Count: 1
+		id: "apotheosis:gem"
+		tag: {
+			affix_data: {
+				rarity: "apotheosis:ancient"
+			}
+			gem: "apotheosis:the_end/endersurge"
+		}
+	}
+	id: "6C3D1E20198408D6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The first step in acquiring and adding special affixes to your gear is collecting &9gems&r and &djewels&r. You want to collect and hold onto all of them that you can (this also applies to affixed gear but more on that later)."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:overworld/royalty"
+				}
+			}
+			id: "375EB6ADD26E0668"
+			rewards: [{
+				id: "20A5CC7A6D4AB192"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "Your first gems"
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:gem"
+					tag: {
+						affix_data: {
+							rarity: "apotheosis:ancient"
+						}
+						gem: "apotheosis:the_end/endersurge"
+					}
+				}
+				id: "555ECB1476A6CEE0"
+				type: "advancement"
+			}]
+			title: "Welcome to Apotheosis!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["375EB6ADD26E0668"]
+			description: [
+				"Gem dust can be obtained a few different ways, bare in mind that the gem will be destroyed in the process and as such it's only advisable to crush low-tier gems or gems you have no need for or interest in."
+				""
+				"The first method available to you will be crushing them with a &8falling anvil&r. Simply throw the gems to be crushed on the ground and drop an anvil on them. Easy!"
+				""
+				"Next will be the&6 salvaging table&r. Which requires gem dust to craft."
+				""
+				"Lastly, the ability to crush and salvage gems, jewels and affixed armor to provide materials is one of the many integrations that has been provided to &ecrushing wheels&r."
+			]
+			id: "5DE31936F9212582"
+			rewards: [
+				{
+					id: "702B9D03E6E2908B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "3DD458871F6D87ED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A few ways to do this"
+			tasks: [{
+				count: 4L
+				id: "6B4248E67F3D072B"
+				item: {
+					Count: 4
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:gem_dust"
+				}
+				type: "item"
+			}]
+			title: "Crushing gemstones"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["375EB6ADD26E0668"]
+			description: [
+				"&9Affixes are modifiers&r added to armor and weapons that add extra stats and effects beyond what the item would normally provide, pretty cool huh?"
+				""
+				"Affixes come in many rarities and this will be discernable by the &6color&r of the name of the affixed item."
+				""
+				"Affixes can provide anything from added stats to enchantability bonues and will scale with the level of rarity. Their will always be a threshold for any given rarity. Meaning that 2 items with the exact same affix will not necessarily give the exact same stat boost to the stat, it is entirely possible to roll higher or lower within the threshold of stats the affix level can provide."
+			]
+			id: "1CDD59D36902239A"
+			rewards: [
+				{
+					id: "71B57A81C8BEC3C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2016786DC7B9CF51"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "So what's an affix?"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "082468EA40963D92"
+				type: "advancement"
+			}]
+			title: "Apotheotic gear and affixes"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["10D2C87C92905979"]
+			id: "3F9BF303C02FED36"
+			rewards: [
+				{
+					id: "5E7D986E19304AC7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E6842736E1732EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68319D86F73336D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Use a gem cutting table to upgrade a gem"
+			tasks: [
+				{
+					id: "0AE08A032D4AD777"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:gem_cutting_table"
+					}
+					type: "item"
+				}
+				{
+					advancement: "apotheosis:affix/gem_cut"
+					criterion: ""
+					id: "57091C2CC22F63CB"
+					type: "advancement"
+				}
+			]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CDD59D36902239A"]
+			id: "7ADFB2036680A711"
+			rewards: [
+				{
+					id: "5A5BC8B9C515E60A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "67316F568386E007"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find an epic affixed item"
+			tasks: [{
+				advancement: "apotheosis:affix/epic"
+				criterion: ""
+				id: "4982E4D46FDDEA51"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CDD59D36902239A"]
+			id: "08D724C9AAB53726"
+			rewards: [
+				{
+					id: "30E7FCB059968F29"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "1CCEFE314D9350A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find a rare affixed item"
+			tasks: [{
+				advancement: "apotheosis:affix/rare"
+				criterion: ""
+				id: "0A5C13F460495D26"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CDD59D36902239A"]
+			id: "2918120B478F5E5F"
+			rewards: [
+				{
+					id: "14E29B91F8D1C0D1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5647F8EE7288F00F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "724CBCD21629407A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find a mythic affixed item"
+			tasks: [{
+				advancement: "apotheosis:affix/mythic"
+				criterion: ""
+				id: "2E2239BF4E296314"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CDD59D36902239A"]
+			id: "6E23C3ABF6035262"
+			rewards: [
+				{
+					id: "2B0AF7DC696DCE98"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "202DC2D20D7B446A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0433156F36FF4C3C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find an artifact affixed item"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/artifact"
+				criterion: ""
+				id: "001C8BB4F868E90F"
+				type: "advancement"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CDD59D36902239A"]
+			id: "6181B92FC3F3CD17"
+			rewards: [
+				{
+					id: "5217E2A49753E2DD"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "59C7AC8022955D1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find an ancient affixed item"
+			tasks: [{
+				advancement: "apotheosis:affix/ancient"
+				criterion: ""
+				id: "56DFF5017521E1AE"
+				type: "advancement"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CDD59D36902239A"]
+			id: "03CC6398F4D739D9"
+			rewards: [
+				{
+					id: "545C734DDE5EC12D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0CB2F5230049E0E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find an esoteric affixed item"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/esoteric"
+				criterion: ""
+				id: "4C42B3EA36D7355E"
+				type: "advancement"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["375EB6ADD26E0668"]
+			id: "10D2C87C92905979"
+			rewards: [
+				{
+					id: "65F01CB5C3153B17"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "69E8D1F85D848A5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Socket a gem into an item"
+			tasks: [{
+				advancement: "apotheosis:affix/socket"
+				criterion: ""
+				id: "3809CC9B9A7A80C7"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F9BF303C02FED36"]
+			id: "43734D90BEC9A2BE"
+			rewards: [
+				{
+					id: "1C94EC0ED47BA644"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4E4AA09FEDF238ED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a flawless gem"
+			tasks: [{
+				advancement: "apotheosis:affix/mythic_gem"
+				criterion: ""
+				id: "125EAB05D950A95B"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F9BF303C02FED36"]
+			id: "47F9C0DC00029429"
+			rewards: [
+				{
+					id: "5EAA46583F03B3B5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "71BDEA46EFB3A14E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "39E1363BD2FE9E51"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtain a perfect gem"
+			tasks: [{
+				advancement: "apotheosis:affix/ancient_gem"
+				criterion: ""
+				id: "46A83C4B5A723F63"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F9BF303C02FED36"]
+			id: "55C38D62628D53AC"
+			rewards: [
+				{
+					id: "17720B4A8F6FEB9D"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "528FB1C29D9CA0F4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtain an artifact jewel"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/artifact_gem"
+				criterion: ""
+				id: "33D7CD1A893CBDD6"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F9BF303C02FED36"]
+			id: "67DB834E0AEC1F9E"
+			rewards: [
+				{
+					id: "19D5A218692DDE2D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "61C408816B82E707"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4BECB7F67CDB2092"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtain an heirloom jewel"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/heirloom_gem"
+				criterion: ""
+				id: "0E5B73613A990491"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3F9BF303C02FED36"]
+			id: "773D32DBA18702B3"
+			rewards: [
+				{
+					id: "213E6BD87A028816"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "371BB7020D72B414"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtain an esoteric gem"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/esoteric_gem"
+				criterion: ""
+				id: "5B5C40E389AB2C76"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5DE31936F9212582"]
+			description: [
+				"Once you have some gem dust you can craft a &6salvaging table&r, used for &ebreaking down gems and affixed items&r you don't want for materials that can be used to upgrade other gems and items you &odo&r want. Each tier of gem and affix provides it's own unique salvage material respective to it's rarity."
+				""
+				"&9Note&r: This functionality has been added to &3crushing wheels&r as well!"
+			]
+			id: "346A2C276A013F70"
+			rewards: [
+				{
+					id: "18305B5DCDAB0288"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0C2E98573D10410E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Salvaging extra gems and items"
+			tasks: [{
+				id: "41EFAE0830DB63FE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:salvaging_table"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["346A2C276A013F70"]
+			id: "560083D0DC80B320"
+			rewards: [
+				{
+					id: "2B634513C28BDDD4"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "50E837AA8B25ED6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Common rarity material"
+			tasks: [{
+				id: "1F23F44FA00D916B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:common_material"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560083D0DC80B320"]
+			id: "2909072EB284F00B"
+			rewards: [
+				{
+					id: "1CF18C8D44AFB6F7"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "35FEE71122C732DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Uncommon rarity material"
+			tasks: [{
+				id: "3976CDB717DE853F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:uncommon_material"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560083D0DC80B320"]
+			id: "4AFB90C1DBE90000"
+			rewards: [
+				{
+					id: "033E39EFF3D32F31"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "57E6341B4DB35349"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "732EA092A06C41AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rare rarity material"
+			tasks: [{
+				id: "25B99B7571CD9076"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:rare_material"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560083D0DC80B320"]
+			id: "205BC8F567310DD9"
+			rewards: [
+				{
+					id: "2667EBE5269E6624"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "1A583F133F43F0DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: " Epic rarity material"
+			tasks: [{
+				id: "721E66C0BBDA793B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:epic_material"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560083D0DC80B320"]
+			id: "1B866D84345402A7"
+			rewards: [
+				{
+					id: "33C3FC3B8552A1A8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "67B588D7D4A2DBAC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "12119ED500064CB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mythic rarity material"
+			tasks: [{
+				id: "129B3929F35C58FC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:mythic_material"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560083D0DC80B320"]
+			id: "7B00AD6CCCD6CFE2"
+			rewards: [
+				{
+					id: "7CCC46035F77CA6D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6058F94F02EB965A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "799FF82EA64FD7A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3130C997CE64D48F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Heirloom"
+			tasks: [{
+				id: "44F95E31F153E9C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheotic_additions:heirloom_material"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560083D0DC80B320"]
+			id: "7EF47C2630E9BFFF"
+			rewards: [
+				{
+					id: "718EEFB38211B347"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "7B5FF48E492597E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Artifact rarity material"
+			tasks: [{
+				id: "4EEDDA851009961E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheotic_additions:artifact_material"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["560083D0DC80B320"]
+			id: "1FD91A7E95792E4B"
+			rewards: [
+				{
+					id: "054D43509D86C3D6"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "48B6DAE92F30A898"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Esoteric rarity material"
+			tasks: [{
+				id: "4BB414864080128D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheotic_additions:esoteric_material"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["346A2C276A013F70"]
+			description: ["Gem dust can also be used with deepslate to craft &dgem-fused slate&r. This will be required for crafting &6sigils&r which will be needed for everything from adding sockets to items to powering your reforging and augmenting tables, but more on that shortly."]
+			id: "2B28CE322D0A3A22"
+			rewards: [
+				{
+					id: "363720B589586265"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "22B883824FEF7983"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Fusing slates"
+			tasks: [{
+				id: "07DF274303BADD2A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:gem_fused_slate"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B28CE322D0A3A22"]
+			description: ["&aThe Sigil of Withdrawal&r is used to reclaim gems from socketed items, leaving them intact."]
+			id: "4FC603F5C7AB8683"
+			rewards: [
+				{
+					id: "416D14C139FFAA85"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "79C88F87927101D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Im going to need those back, please"
+			tasks: [{
+				id: "6AEA19BF7F011160"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:sigil_of_withdrawal"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B28CE322D0A3A22"]
+			description: ["&dSigils of rebirth&r are &crequired&r &6whenever reforging items&r in a reforging table, think of them as just another material cost so keep them at your disposal if you plan to do a lot of swapping and upgrading effects on your items."]
+			id: "30D2BF1E74147B8F"
+			rewards: [
+				{
+					id: "76E84C4159896ED2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5777A3B618A02597"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Needed for reforging "
+			tasks: [{
+				id: "2D32DA4643339A0E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:sigil_of_rebirth"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B28CE322D0A3A22"]
+			description: ["&7The Sigil of Unnaming&r is required if you would like to remove the affixed name of an item."]
+			id: "5B44891D07A8DA06"
+			rewards: [
+				{
+					id: "2EF6D7D21E0858DE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "55FA6652E267F75C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Removing affixes"
+			tasks: [{
+				id: "15D2400CE39BCFDF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:sigil_of_unnaming"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B28CE322D0A3A22"]
+			description: ["&6The Sigil of Enhancement&r i used to power the &eaugmentation table&r."]
+			id: "459ED7497729B8B5"
+			rewards: [
+				{
+					id: "6571CCBD0E56864A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7C7CFCFC616BBEED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Augmentation of affixes"
+			tasks: [{
+				id: "45A6443DF7510E6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:sigil_of_enhancement"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B28CE322D0A3A22"]
+			description: ["&3The sigil of socketing&r allows you to add an additional socket to to an item"]
+			id: "07B55E94184EA4B9"
+			rewards: [
+				{
+					id: "7FE865C7F87B3EAF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0BDCA79A244BED63"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Add more shiney"
+			tasks: [{
+				id: "4099B7C6FBD869BA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:sigil_of_socketing"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"30D2BF1E74147B8F"
+				"5DE31936F9212582"
+			]
+			description: ["With &6sigils of rebirth&r, the simple reforging table can be used to reforge items and change affixes up to \"&9rare&r\", provided you have the material cost necessary."]
+			id: "3C4B3305FA865E92"
+			rewards: [
+				{
+					id: "287B9BCC8B9231B5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "77656F180158E6C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "18231531A938595E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Changing affixes"
+			tasks: [{
+				id: "1B305DF1A8FE8C08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:simple_reforging_table"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"30D2BF1E74147B8F"
+				"205BC8F567310DD9"
+				"3C4B3305FA865E92"
+			]
+			description: [
+				"The standard reforging table, when provided with sigils of rebirth, can be used to reforge affixes up to &o&6mythic&r&r. This is a good place to focus on getting good affixes to start with in your later game gear progression, but no they are not the most powerful affixes, simply the most powerful ones ones &o&eEASILY OBTAINED&r&r. Higher tiers of more powerful affixes &ocan&r be found, and this is the only way to obtain them. "
+				""
+				"This is to preserve the adventuring aspects of the game, the best gear shouldn't be obtained from feeding an endless supply of mats into a table anyways."
+				""
+				"Tiers such as ancient and esoteric can roll the same affixes with higher values, but luck is required."
+				""
+				"&6For those up for a challenge&r: There are 2 farms best for farming affixed items of high rarity and maximizing your chance at high rolls. "
+				""
+				"&dWannabees&r farming amber encased treasure goblins is one of them, or for the more industrious, capturing a treasure goblin in a mob imprisonment tool and farming them via &3mob duplicator&r is an effective route too. This will provide you with an endless supply of gems and affixed items. &eBear in mind&r that treasure goblin loot tables are dependant on what dimension they are in when killed and not all dimensions are weighted equally."
+			]
+			id: "101605FF172FD328"
+			rewards: [
+				{
+					id: "30E50F541831E876"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "54DC0F26101513FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mythic reforging"
+			tasks: [{
+				id: "4A05F232CC5EDE24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:reforging_table"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"459ED7497729B8B5"
+				"1B866D84345402A7"
+				"101605FF172FD328"
+			]
+			description: ["When provided with &6sigils of enhancement&r, the augmenting table can be used to augment an &eindividual affix,&r allowing you to leave desired traits intact while changing the less desirable ones."]
+			id: "0F12DC69816D9D7F"
+			rewards: [
+				{
+					id: "31BAFE669424450A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "158B7255CEACC062"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "751F844DAA906DAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A table for more precise re-rolls"
+			tasks: [{
+				id: "16657472D6E97973"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:augmenting_table"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1CDD59D36902239A"]
+			id: "1031D97E95DEAAC7"
+			rewards: [
+				{
+					id: "6545AA635646C9CC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0E5B62DA0F6BE70E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find an heirloom affixed item"
+			tasks: [{
+				advancement: "apotheotic_additions:affix/heirloom"
+				criterion: ""
+				id: "4A66BDB48EA8BABD"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+	]
+	title: "&eApotheotic Ascension"
+}

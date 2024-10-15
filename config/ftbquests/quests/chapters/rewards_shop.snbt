@@ -1,0 +1,177 @@
+{
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "rewards_shop"
+	group: "349A9F115A2C6332"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "numismatics:crown"
+	}
+	id: "4A35CA1A0038AB58"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["3B38BC10347BDA7D"]
+			description: ["Buy 1 Orb of Origin to change origins."]
+			icon: "origins:orb_of_origin"
+			id: "0C2100DA5C55BE60"
+			rewards: [{
+				id: "2DF04FA32A5964BD"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "I want a do over..."
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "1EEC9D0C0D919CF0"
+				item: "numismatics:cog"
+				optional_task: true
+				type: "item"
+			}]
+			title: "Orb of Origin - 2 Cogs"
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			description: ["4 heart pieces craft into 1 heart container, which grant 1 extra heart per container consumed."]
+			icon: "levelhearts:heart_piece"
+			id: "28C8ED42FFEEB1F9"
+			rewards: [{
+				id: "640B0A1ED9092007"
+				item: "levelhearts:heart_piece"
+				type: "item"
+			}]
+			subtitle: "Craft 4 of them together"
+			tasks: [{
+				id: "548B57FB85B46C16"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Heart Piece = 1 Cog"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3B38BC10347BDA7D"]
+			description: ["You can build a wall with a door"]
+			hide_dependency_lines: true
+			icon: "quark:vertical_oak_planks"
+			id: "27CE78EC40085F90"
+			rewards: [
+				{
+					count: 16
+					id: "3FDFCDEF065D8B84"
+					item: "quark:vertical_oak_planks"
+					type: "item"
+				}
+				{
+					id: "699F7721E145D9E2"
+					item: "minecraft:oak_door"
+					type: "item"
+				}
+			]
+			subtitle: ":o"
+			tasks: [{
+				id: "5F660CEDFC636A3A"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			title: "simple oak example"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3B38BC10347BDA7D"]
+			description: ["Assorted oak planks and double doors"]
+			hide_dependency_lines: true
+			icon: "quark:vertical_oak_planks"
+			id: "24F73A165358C7E4"
+			rewards: [
+				{
+					count: 32
+					id: "4E2FB32A307F2997"
+					item: "quark:vertical_oak_planks"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "60D82E0EBA5244F5"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "49FF57270051A2AF"
+					item: "minecraft:oak_door"
+					type: "item"
+				}
+			]
+			subtitle: ":O"
+			tasks: [{
+				count: 2L
+				id: "5EB32D8E15A7E4A8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			title: "Simple oak example tier 2"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			hide_dependency_lines: true
+			icon: "mcwroofs:oak_planks_top_roof"
+			id: "375FA47145A4C59C"
+			rewards: [
+				{
+					count: 16
+					id: "7FD66A92E51B0DC1"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "04FFA23228B56438"
+					item: "minecraft:oak_hanging_sign"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3A15E3483AD24B85"
+					item: "mcwroofs:oak_planks_steep_roof"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "111647872312D8AD"
+					item: "mcwroofs:oak_planks_top_roof"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2073A159D2BD2A9C"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Slightly more expensive package example"
+			x: 0.0d
+			y: -4.5d
+		}
+	]
+	title: "&dRewards Shop"
+}

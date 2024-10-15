@@ -1,0 +1,1899 @@
+{
+	autofocus_id: "5F3C05D6CBD06784"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "cataclysm_bosses"
+	group: "6CD04B90601CFA1E"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "cataclysm:altar_of_fire"
+	}
+	id: "427F435844BC114A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"701DB69F95BE961D"
+			]
+			description: [
+				"&5&lCataclysm&r&r is a mod that adds &d&ldifficult dungeons&r&r, mini-bosses, challenging &6&lboss-fights&r&r, &9&lpowerful items&r&r and much more."
+				""
+				"This mod's bosses are inspired by &e&nMinecraft Dungeons&r&r, being much more unique, complex and powerful compared to Vanilla's."
+				""
+				"Defeat them in battle to prove yourself worthy and earn &5powerful gear&r!"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:void_core"
+			}
+			id: "770E1E1A22DC34B9"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "6A2DD0B591ECADC9"
+				title: "Cataclysm"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"770E1E1A22DC34B9"
+				"4386DFA29FCEDD4D"
+			]
+			hide: true
+			id: "124DA55573C04363"
+			tasks: [{
+				id: "21357AB8CC6943FE"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "The hardest thing to see is what is in front of your eyes!"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"67A3DF8585A4EEA5"
+			]
+			description: ["Craft &4&lThe Eye of Mech&r&r and use it to point you to the &4&lAncient Factory&r&r"]
+			id: "6692DD7C85BD9515"
+			rewards: [
+				{
+					id: "3DFEA3E3381DA48A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6B6D6B4E3E4B1635"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29E3A8B6ADCCEA33"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "&4&lEye of Mech"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7E48762E362296E1"
+			]
+			description: ["Craft &b&lThe Eye of Flame&r&r and use it to point you to the &b&lBurning Arena&r&r"]
+			id: "42F1A59EDD775B9D"
+			rewards: [
+				{
+					id: "6F2FF7D30A84D9E6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "31A3126FAD09C178"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EE61EF04C69EF6F"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			title: "&b&lEye of Flame"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7FE120BB4478F1BF"
+			]
+			description: ["Craft &d&lThe Eye of Void&r&r and use it to point you to the &d&lRuined Citadel&r&r"]
+			id: "3DC5283FBA1D580B"
+			rewards: [
+				{
+					id: "25A16D349F5926E8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2DB56F557AB9CF3C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F83A688A3C3D6EC"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "&d&lEye of Void"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7E48762E362296E1"
+			]
+			description: ["Craft &c&lThe Eye of Monstrous&r&r and use it to point you to the &c&lSoul Forge&r&r"]
+			id: "51BA8A49FD6DFA12"
+			rewards: [
+				{
+					id: "4E1F7278FBF0C63A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "664DA4EC62912014"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62FE04884B5A6A9B"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "&c&lEye of Monstrous"
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"67A3DF8585A4EEA5"
+			]
+			description: ["Craft &5&lThe Eye of Abyss&r&r and use it to point you to the &5&lSunken City&r&r"]
+			id: "7690681ADC1DE526"
+			rewards: [
+				{
+					id: "752CB8CAFEBDF937"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4540967A60056CB3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DC68F4A3605536A"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "&5&lEye of Abyss"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"67A3DF8585A4EEA5"
+			]
+			description: ["Craft &e&lThe Eye of Desert&r&r and use it to point you to the &e&lCursed Pyramid&r&r"]
+			id: "17FD2966AAFEA66B"
+			rewards: [
+				{
+					id: "5E4956147DE7CD47"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6BA485666F8E6039"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C2B9A2815E8D5A3"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "&e&lEye of Desert"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"124DA55573C04363"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "7E48762E362296E1"
+			invisible: true
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				icon: "minecraft:netherrack"
+				id: "7AC9026FE67B42E4"
+				title: "Nether"
+				type: "dimension"
+			}]
+			title: "&c&lNether"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"124DA55573C04363"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "67A3DF8585A4EEA5"
+			invisible: true
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "2FFD972C4FD01CE2"
+				title: "Overworld"
+				type: "dimension"
+			}]
+			title: "&2&lOverworld"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"124DA55573C04363"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "7FE120BB4478F1BF"
+			invisible: true
+			tasks: [{
+				dimension: "minecraft:the_end"
+				disable_toast: true
+				icon: "minecraft:end_stone"
+				id: "68C2902359602CD4"
+				title: "End"
+				type: "dimension"
+			}]
+			title: "&d&lEnd"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3DC5283FBA1D580B"
+			]
+			description: [
+				"&d&lThe Ruined Citadel&r&r Structure can be found in the End, and is home to &d&lEndermaptera&r&r the &l&dEnder Golem&r&r and the &l&dEnder Guardian&r&r. There are &n3&r layers to the structure: The upper and middle layers look the same inside, while the lower layer is hidden and houses a secret arena."
+				"Approach the &d&lAltar of Void&r&r at the lowest layer to summon the &l&dEnder Guardian&r&r"
+			]
+			icon: "cataclysm:altar_of_void"
+			id: "63B7E12FB2879ADF"
+			rewards: [
+				{
+					id: "747E3ED06C3A3F6C"
+					item: "bhc:relic_apple"
+					type: "item"
+				}
+				{
+					id: "7E74BD3AC304B863"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "2474970A99364A82"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&dMeet The Ender Guardian"
+			tasks: [{
+				icon: "cataclysm:altar_of_void"
+				id: "62E30296EA416992"
+				structure: "cataclysm:ruined_citadel"
+				title: "Ruined Citadel"
+				type: "structure"
+			}]
+			title: "&d&lRuined Citadel"
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"63B7E12FB2879ADF"
+				"4386DFA29FCEDD4D"
+			]
+			dependency_requirement: "all_started"
+			description: ["Hidden on the lowest level, this Golem-like boss will spawn upon approaching the altar in the center of the room. After losing some health, the &d&lEnder Guardian&r&r will shatter the floor, revealing a large boss arena. Upon death, it drops the &l&dGauntlet of Guard&r&r, as well as a chance to drop The Citadels Last Stand music disc."]
+			id: "0CCA0F3A3226B20F"
+			rewards: [
+				{
+					id: "6376096437A1F4F6"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "6018D43BADE1970E"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "3B81BCB53C402DCB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "&dIn the heart of every guardian lies the courage to protect, no matter the cost"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:ender_guardian_spawn_egg"
+				id: "02EBCF11B8E43015"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&d&lKill The Ender Guardian"
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"63B7E12FB2879ADF"
+			]
+			description: [
+				"These slow Golem-like bosses have both melee and ranged shockwave attacks. Multiple can be found through the first two levels. On death they drop a &d&lVoid Core&r&r."
+				"&d&lThe Void Core&r&r summons void runes that come out of the ground to deal damage."
+			]
+			hide_dependent_lines: true
+			id: "24CFFD464EE72B0A"
+			rewards: [
+				{
+					id: "4D481BEE5EF28AAC"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "195E425B1D2EB256"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:ender_golem_spawn_egg"
+				id: "412DD0C26E686A8D"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&d&lKill The Ender Golems"
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"63B7E12FB2879ADF"
+			]
+			description: ["These small insects spawn all over the &l&dRuined Citadel&r&r, and drop &d&lVoid Jaws&r&r, which are used to make &n&dVoid Scatter Arrows&r&r."]
+			id: "3C9E1802428B21A9"
+			rewards: [
+				{
+					count: 5
+					id: "7129E3298E0DA426"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "01FAE95F21AD5573"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:endermaptera"
+				icon: "cataclysm:endermaptera_spawn_egg"
+				id: "202F1BD485BB79FC"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&d&lKill The Endermapteras"
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"42F1A59EDD775B9D"
+			]
+			description: ["&b&lThe Burning Arena&r&r structure can be found in the Nether, and is home to the &l&bIgnis&r&r. Hidden around the structure are multiple Ancient Debris blocks."]
+			icon: "cataclysm:altar_of_fire"
+			id: "7898B296C38F3D94"
+			rewards: [
+				{
+					id: "3FC0AE31BC90F337"
+					item: "bhc:relic_apple"
+					type: "item"
+				}
+				{
+					id: "24F11E742268D580"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "18F1F97C38269AA6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&bMeet The Ignis"
+			tasks: [{
+				icon: "cataclysm:altar_of_fire"
+				id: "5BAE1CA62FB99039"
+				structure: "cataclysm:burning_arena"
+				title: "Burning Arena"
+				type: "structure"
+			}]
+			title: "&b&lBurning Arena"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"64D3D273E0077888"
+			]
+			description: ["On the upper level of the arena, is the &l&bAltar of Fire&r&r. Place &l&bBurning Ashes&r&r inside, and it will summon &l&bThe Ignis&r&r. Ignis has strong sword attacks, as well as ranged shockwave attacks with his sword. In his second phase, he will turn from &cfiery red&r to &bicy cold&r. On death, he drops &l&bIgnitium Ingots&r&r, as well as a chance to drop the Blaze of the Inferno music disc."]
+			id: "7F3593717A5A0B9D"
+			rewards: [
+				{
+					id: "7A2868FD294BD4D7"
+					item: "cataclysm:music_disc_ignis"
+					type: "item"
+				}
+				{
+					id: "34F396AF61DAE6FE"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "2A61C028DC921FEA"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "&bWhen all else fades, Ignis remains—a flame that never falters, a guardian that never sleeps"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:ignis_spawn_egg"
+				id: "361135EEB4D59191"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&b&lKill The Ignis"
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"0CCA0F3A3226B20F"
+			]
+			description: ["&d&lThe Gauntlet of Guard&r&r is a huge gauntlet that covers the entire arm, you can right-click with it to pull creatures to yourself. Another unique feature is that it increases the player's defense when holding it."]
+			hide_dependent_lines: true
+			id: "35B0B5A25069DDCA"
+			rewards: [
+				{
+					id: "718B0A770A0AD327"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "361E16A4BDE2CA5B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "23919BBE5A9889B8"
+				item: "cataclysm:gauntlet_of_guard"
+				type: "item"
+			}]
+			title: "&d&lGauntlet of Guard"
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7898B296C38F3D94"
+			]
+			description: ["These spinning, shielded mobs will spawn on the lower level of the arena. &b&lThe Ignited Revenant&r&r is a mini-boss blocking the path to Ignis, defeat them to gain &b&lBurning Ashes&r&r."]
+			id: "64D3D273E0077888"
+			rewards: [
+				{
+					id: "193983765E26CFE0"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "2F16F7E48E0A56E0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:ignited_revenant_spawn_egg"
+				id: "02627E5CA879B6A0"
+				type: "kill"
+				value: 2L
+			}]
+			title: "&b&lKill The Ignited Revenants"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7F3593717A5A0B9D"
+			]
+			description: ["Reward for defeating &l&bIgnis&r&r. It is used to either &b&nupgrade your netherite armor&r&r to get some cool buffs or to craft some &b&nspecial weapons&r&r."]
+			id: "21AEDCF08E97F22C"
+			rewards: [
+				{
+					id: "23E5DE1BDFFC96FB"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "56169C433573EF71"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&bAn upgrade??"
+			tasks: [{
+				id: "719364DB4284AA21"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			title: "&b&lIgnitium"
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"21AEDCF08E97F22C"
+			]
+			description: ["&b&lThe Incinerator&r&r is one of the coolest weapons out there! An Ignitium extra-large sword that can be crafted with 2 Ignitium ingots, 4 Blaze rods, and a Netherite sword as a reward for defeating Ignis. It is also the weapon used by Ignis. By holding down the right-click button for 3 seconds and then releasing it, you can use the &b&lFlame Burst&r&r skill that Ignis used as a special move during Phase 3."]
+			id: "0BC727E0B269BE1B"
+			rewards: [
+				{
+					id: "7CB732FE7A6FACD6"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "4B842C88D5A222C1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "652D6F8228024017"
+				item: "cataclysm:the_incinerator"
+				type: "item"
+			}]
+			title: "&b&lThe Incinerator"
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"21AEDCF08E97F22C"
+			]
+			description: ["&b&lThe Bulwark of the Flame&r&r is the shield used by &l&bIgnis&r&r, it is a shield with infinite durability and special abilities, if you stop using it while crouching, it will charge forward and deal damage to whatever is in front of you, and if the target hit by it hits a wall, it will take additional damage and be stunned."]
+			hide_dependent_lines: true
+			id: "5A5B3B19E2DA3E79"
+			rewards: [
+				{
+					id: "3B380D84755721D5"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "7F87391A9C9DC19D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "658F88A344F09A94"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			title: "&b&lBulwark of the Flame"
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"51BA8A49FD6DFA12"
+			]
+			description: ["&c&lThe Soul Forge&r&r structure can be found in the Nether, and is home to the &l&cNetherite Monstrosity&r&r. While it has a bunch of Ancient Debris scattered around the structure, there are no other mobs inside."]
+			id: "0A45F1E7BEC33CBE"
+			rewards: [
+				{
+					id: "2483A869068707A9"
+					item: "bhc:relic_apple"
+					type: "item"
+				}
+				{
+					id: "227433DDB0243590"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "3F856ADD1F7ACEBE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&cMeet The Netherite Monstrosity"
+			tasks: [{
+				icon: "minecraft:polished_blackstone_bricks"
+				id: "64D0F89282343958"
+				structure: "cataclysm:soul_black_smith"
+				title: "The Soul Forge"
+				type: "structure"
+			}]
+			title: "&c&lThe Soul Forge"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"0A45F1E7BEC33CBE"
+			]
+			description: ["&c&lThe Netherite Monstrosity&r&r is a large Golem-like boss that uses close range attacks, and shoots lava. It can also heal by sucking in more lava. On death it drops the &cInfernal Forge pickaxe&r, and the &cMonstrous Horn&r, used to make the &cMonstrous Helm&r, as well as a chance to drop the Forged In Soul Fire music disc."]
+			id: "57721A0B508DA66B"
+			rewards: [
+				{
+					id: "33186B1415F19607"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					type: "item"
+				}
+				{
+					id: "5582ACB9B2AD9104"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "6E89D35F5B60D4FF"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "&cFrom the depths of the Nether I rise, a beast of molten stone and indestructible netherite"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:netherite_monstrosity_spawn_egg"
+				id: "71C4B54C4FCBFABB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&c&lKill The Netherite Monstrosity"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"57721A0B508DA66B"
+			]
+			description: ["Make the &c&lMonstrous Helm&r&r in a smithing table by combining a &cNetherite Upgrade&r, A &cNetherite Helmet&r, and the &c&lMonstrous Horn&r&r obtained from killing the &l&cNetherite Monstrosity&r&r. When worn, it grants a superpower buff when your health drops below half, blowing away entities around you and increasing defense, knockback resistance, and HP recovery"]
+			id: "7C1958580597BAC7"
+			rewards: [
+				{
+					id: "0DE514B86A35585C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "003507F364C3CBD5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "53EE42B123314EF0"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&c&lMonstrous Helm"
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"57721A0B508DA66B"
+			]
+			description: ["Reward for defeating the &l&cNetherite Monstrosity&r&r. A very large &cNetherite hammer&r filled with lava. Right-clicking on a block while it is in the dominant hand inflicts area damage. Additionally, when health falls below half, fire attack power is added to the skill. It has a very high attack power, but its downside is its slow attack speed. Please note that it is classified as a &l&cpickaxe&r&r, so it can be used for &nmining&r."]
+			hide_dependent_lines: true
+			id: "3FA87B3B73CC4E44"
+			rewards: [
+				{
+					id: "7675F1AFC5D3FBD4"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "276DCD275F9804F5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "52640B9E5B7887CC"
+				item: {
+					Count: 1
+					id: "cataclysm:infernal_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&c&lInfernal Forge"
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7690681ADC1DE526"
+			]
+			description: ["&l&5The Sunken City&r&r is a large &nunderwater&r structure where the &5&lLeviathan&r&r can be found. The roof sticks out of the water allowing it to be seen from far away. The structure consists of a large central area with offshoots to the sides as well as loot and enemies."]
+			icon: "cataclysm:altar_of_abyss"
+			id: "287C07762D663B92"
+			rewards: [
+				{
+					id: "1AE242C9C2054556"
+					item: "bhc:relic_apple"
+					type: "item"
+				}
+				{
+					id: "439ACAD102347372"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "2376F6A4080E67BE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&5Meet The Leviathan"
+			tasks: [{
+				icon: "cataclysm:altar_of_abyss"
+				id: "07EE22E25025A9D2"
+				structure: "cataclysm:sunken_city"
+				title: "Sunken City"
+				type: "structure"
+			}]
+			title: "&5&lSunken City"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"287C07762D663B92"
+			]
+			description: [
+				"The &5&lDeeplings&r&r are sea monsters that guard &l&5The Sunken City&r&r. Each type of &5&lDeepling&r&r carries a different weapon. The &5&lDeepling Priest&r&r carries the &5&nAthame&r&r which is needed to craft the &l&5Abyssal Sacrifice&r&r."
+				""
+				"The &5&lCoralssus&r&r is a golem-like mini-boss that must be defeated in order to fight the boss. Upon death, it will drop a &5&lcoral chunk&r&r which is needed to craft the &l&5Abyssal Sacrifice&r&r."
+			]
+			id: "4061326AE4DCB349"
+			rewards: [
+				{
+					id: "28842A52232EAD61"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "20DE9DF5C8AFF3CD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					entity: "cataclysm:deepling"
+					icon: "cataclysm:deepling_spawn_egg"
+					id: "01C56263B8F7C151"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_angler"
+					icon: "cataclysm:deepling_angler_spawn_egg"
+					id: "76E7679C7AAF9DF8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_brute"
+					icon: "cataclysm:deepling_brute_spawn_egg"
+					id: "5A9F1D3AFD96C6BC"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_priest"
+					icon: "cataclysm:deepling_priest_spawn_egg"
+					id: "714E9679384AB9EF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:deepling_warlock"
+					icon: "cataclysm:deepling_warlock_spawn_egg"
+					id: "4F0695A9ED94E410"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:coralssus"
+					icon: "cataclysm:coralssus_spawn_egg"
+					id: "2830456B22AC061B"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5&lDeeplings and Coralssus"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"287C07762D663B92"
+			]
+			dependency_requirement: "all_started"
+			description: [
+				"&5&lThe Amethyst Crab&r&r spawns naturally in &2Lush Caves&r. Fortunately, it is a neutral mob and will not show aggression unless the player attacks first. Therefore, rest assured that there is little chance of you encountering one with poor equipment and getting killed."
+				"When defeated, it drops an &5&lAmethyst Crab Shell&r&r and &5&lAmethyst Crab Meat&r&r as a reward. &5Amethyst Crab Shells&r can be combined to make &5Bloom Stone Pauldrons&r, and &l&5Amethyst Crab Meat&r&r can be blessed in the &l&5Amethyst Altar&r&r in the &l&5Sunken City&r&r to get better stats and some buffs to help you in the &nboss fight&r!"
+			]
+			hide_dependency_lines: true
+			id: "65E9C7523F88871F"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "050B8BDDF7CE2B27"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "018AE9B00D7147EC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: "cataclysm:amethyst_crab_spawn_egg"
+				id: "470F5A581F3237CD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5&lKill The Amethyst Crab"
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"287C07762D663B92"
+				"65E9C7523F88871F"
+			]
+			description: ["The true value of &5&lThe Amethyst Crab Meat&r&r is revealed when it is blessed through the &5&lAmethyst Altar&r&r in the &5&lSunken City&r&r. If you eat the &l&5Blessed Amethyst Crab Meat&r&r, you will receive the &5Amethyst Blessing buff&r, making you immune to the status effects of Leviathan: Darkness, Abyssal Burn, and Abyssal Fear debuffs. It can be said to be a necessity for &5&lThe Leviathan&r&r boss fight."]
+			icon: "cataclysm:blessed_amethyst_crab_meat"
+			id: "2B0F58100458BB33"
+			optional: true
+			rewards: [
+				{
+					id: "30F4F72FB010F0E1"
+					item: "cataclysm:blessed_amethyst_crab_meat"
+					type: "item"
+				}
+				{
+					id: "6C23D6A75F4A5D29"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "5941DCBFCBAC0697"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					icon: "cataclysm:altar_of_amethyst"
+					id: "2318D567C6085E51"
+					observe_type: 0
+					optional_task: true
+					timer: 0L
+					title: "Find the Altar of Amethyst"
+					to_observe: "cataclysm:altar_of_amethyst"
+					type: "observation"
+				}
+				{
+					id: "733E646C02C394C8"
+					item: "cataclysm:blessed_amethyst_crab_meat"
+					type: "item"
+				}
+			]
+			title: "&5&lBlessed Amethyst Crab Meat"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"287C07762D663B92"
+				"2E11B29F77E7A2B9"
+			]
+			description: ["Upon summoning &l&5The Leviathan&r&r, the altar will close its jaws and a screen shake will occur before the boss's appearance. &5&lThe Leviathan&r&r always spawns infernal and is a very powerful boss, it spawns homing orbs of explosion, uses portals to move around, spawns &5Abyss Mines&r, and attacks with its &5jaws&r and &5tentacles&r. Upon killing it, it drops the &5Tidal Claws&r, &5Abyssal Egg&r, as well as a chance to drop the Abyssal Tidebreaker music disc."]
+			id: "4A573817D50AF148"
+			rewards: [
+				{
+					id: "22C3E7018D58B7E7"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					id: "0258AF0B1713CE71"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "1D9A56A9376F9C0E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "&5You cannot tame the sea, and you cannot tame me — I am Leviathan, ruler of the abyss"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:the_leviathan_spawn_egg"
+				id: "77DC5CACF7205CE0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5&lKill The Leviathan"
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"287C07762D663B92"
+			]
+			description: ["Craft &5&lThe Abyssal Sacrifice&r&r which is offered at &5&lThe Altar of Abyss&r&r to summon &5&lThe Leviathan&r&r."]
+			id: "2E11B29F77E7A2B9"
+			tasks: [{
+				id: "2BBC93621B3551C8"
+				item: "cataclysm:abyssal_sacrifice"
+				type: "item"
+			}]
+			title: "&5&lAbyssal Sacrifice"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"4A573817D50AF148"
+			]
+			description: ["Reward for defeating &5The Leviathan&r. &l&5The Tidal Claw&r&r is an armored weapon, it is characterized by its appearance as if the inner head of &5Leviathan&r had been removed. This is the weapon with the &nhighest utility&r in the mod. If you press the left mouse button while facing an enemy, &l&5Leviathan's tentacles&r&r will be launched and bite the enemy, causing continuous damage by giving your enemies the &l&5abyssal curse&r&r. If you press the right mouse button, a &5&lgrappling hook&r&r will be fired, which pulls you towards whatever entity or block it latches onto."]
+			id: "624E28E31896F687"
+			rewards: [
+				{
+					id: "02638DEF29CC7458"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "0F6A2679A996F807"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "4F3CDF7730367B90"
+				item: "cataclysm:tidal_claws"
+				type: "item"
+			}]
+			title: "&5&lTidal Claws"
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"4A573817D50AF148"
+			]
+			description: ["&5&lThe Abyssal Egg&r&r can be placed down to hatch into your own &5&lBaby Leviathan&r&r. It will attack other sea creatures just like its mother.. you killed its mama you cruel monster >:("]
+			icon: "cataclysm:abyssal_egg"
+			id: "008723B0DB9AACC9"
+			rewards: [
+				{
+					count: 2
+					id: "677A95839CBB257C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "19B601B2D0A583A4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&5Hatch The Abyssal Egg"
+			tasks: [
+				{
+					id: "26E08EC45DD59CBB"
+					item: "cataclysm:abyssal_egg"
+					type: "item"
+				}
+				{
+					icon: "cataclysm:the_baby_leviathan_bucket"
+					id: "0D1A173378D37A91"
+					observe_type: 5
+					timer: 0L
+					title: "Observe The Baby Leviathan"
+					to_observe: "cataclysm:the_baby_leviathan"
+					type: "observation"
+				}
+			]
+			title: "&5&lAbyssal Egg"
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"6692DD7C85BD9515"
+			]
+			description: ["&4&lThe Ancient Factory&r&r structure can be found &nunderground&r in the overworld, and is home to &l&4The Harbinger&r&r, surrounded on all sides by &nunbreakable&r Dungeon Blocks. This forces the player to go in through the main entrance."]
+			id: "67B51B4B14D1A6B5"
+			rewards: [
+				{
+					id: "2F850DF847E059D4"
+					item: "bhc:relic_apple"
+					type: "item"
+				}
+				{
+					id: "7780DFAD280F0443"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "26E58FA52BC1B41F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&4Meet The Harbinger"
+			tasks: [{
+				icon: "cataclysm:witherite_block"
+				id: "3BC9DEAC34F56645"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			title: "&4&lAncient Factory"
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"67B51B4B14D1A6B5"
+			]
+			description: ["&4&lThe Harbinger&r&r is a large Wither-like boss that requires a &n&lNether Star&r&r to be awoken. Right click on it with one, and the boss fight will start. It will move like a Wither, firing missiles, and occasionally activating its very large laser beam. Upon reaching half health, it will become immune to arrows. On death, it will drop a&4 &lWitherite Block&r&r and a Withering Meltdown music disc."]
+			id: "5D91A741B179B8CA"
+			rewards: [
+				{
+					id: "0E40F506168286B6"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+				{
+					id: "295EA09848627E7D"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "4B50566E75CE5D90"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "&4From the ashes of the old, the Harbinger rises, for where there is death, there is rebirth"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:the_harbinger_spawn_egg"
+				id: "3E5DD398E7AB74D0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&lKill The Harbinger"
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"67B51B4B14D1A6B5"
+			]
+			description: ["&4&lThe Watchers&r&r are small bots that watch over &4&lThe Ancient Factory&r&r and fire lasers."]
+			id: "6AA4C2D29DED6F3C"
+			rewards: [
+				{
+					count: 5
+					id: "031F12C5EF0115B4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "4E1CD05C63F2E28D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				icon: "cataclysm:the_watcher_spawn_egg"
+				id: "25CC71902A26EFEE"
+				type: "kill"
+				value: 5L
+			}]
+			title: "&4&lKill The Watchers"
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"67B51B4B14D1A6B5"
+			]
+			description: ["&4&lThe Prowler&r&r is the mini-boss of the ancient factory. It is a mob with a heavy body, and its lower body resembles a tank , its right arm is a weapon arm integrated with a &4meat shredder&r, and its left arm is replaced with a &4missile battery&r. Normally, it stays inactive to save energy, but when the player approaches, its body lights up and starts up."]
+			id: "07182C63528D9BF0"
+			rewards: [
+				{
+					id: "66A4C619230E141D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "2209A0DED8218554"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				icon: "cataclysm:the_prowler_spawn_egg"
+				id: "2739B0E6AF7D0623"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&4&lKill The Prowler"
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5D91A741B179B8CA"
+			]
+			description: ["Reward for defeating &l&4The Harbinger&r&r, it is used to either craft &4weapons&r or the &4&lMechanical Fusion Anvil&r&r."]
+			id: "400E19B0C89958BA"
+			rewards: [
+				{
+					id: "59A12A5156292A8E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "29537DFCA40D4DCE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "493EE5F4110FBEDC"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "&4&lWitherite Ingots"
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"400E19B0C89958BA"
+			]
+			description: ["The &4&lLaser Gatling Gun&r&r can be used to decimate enemies’ health quickly. &4&lGatling Guns&r&r act as fully &nautomatic rifles&r and can even set blocks on fire that the bullets touch. You can fire a lot of shots before they need to be reloaded, which will cost &41 Redstone Dust&r."]
+			id: "0C0DF9103213979A"
+			rewards: [
+				{
+					id: "07F8154A8A548698"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "4A82C7445A65C3AB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "017A581CFB24172D"
+				item: {
+					Count: 1
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&l&4Laser Gatling"
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"400E19B0C89958BA"
+			]
+			description: ["The &4&lWither Assault Shoulder Weapon&r&r is crafted from &l&4Witherite&r&r. It fires &4wither missiles&r that fly quickly in a straight line and is actually the first ranged weapon in the mod. If you fire while holding down the left shift key, you will fire a &4wither howitzer&r that leaves behind wither smoke. "]
+			hide_dependent_lines: true
+			id: "53EF8AE6C5EA40D5"
+			rewards: [
+				{
+					id: "2899B0032271BABE"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "7C8823A8AA469523"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "7406CF39F6FC9AE7"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "&4&lWither Assault Shoulder Weapon"
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"400E19B0C89958BA"
+			]
+			description: ["Using &l&4Witherite Ingots&r&r, you can craft the &l&4Meat Shredder&r&r. This weapon is similar to what the &4&lProwler&r uses and allows you to deal consistent damage to enemies within a melee distance."]
+			id: "2D3B0F297001B077"
+			rewards: [
+				{
+					id: "4C28D95D6B0E3010"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "7C2E68ABA1205395"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "5898FB174D4DE962"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			title: "&4&lMeat Shredder"
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"400E19B0C89958BA"
+			]
+			description: ["Once crafted, the &4&lMechanical Fusion Anvil&r&r can be placed in the world, and it has some nicely animated textures. Then you can use it, allowing you to &4upgrade&r your gear by combining powerful items together. This might combine their abilities or give them new ones altogether."]
+			id: "3C5994B4A10CFA17"
+			rewards: [
+				{
+					id: "5FCA0753A5613DE2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "2D3E3C29AE2EC2AF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "73A6D3979563503C"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			title: "&4&lMechanical Fusion Anvil"
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3C5994B4A10CFA17"
+				"5A5B3B19E2DA3E79"
+				"35B0B5A25069DDCA"
+			]
+			description: ["It can be crafted by &4fusing&r the &l&dGauntlet of Guard&r&r and &l&cBulwark of the Flame&r&r at the &4&lMechanical Fusion Anvil&r&r. When casting the skill, after 1 second of charging time, it emits flames to &4push&r back enemies and apply a &4burning&r stigma debuff, then rushes forward and blows enemies away. Also, if an enemy blown like a bulwark of flames hits a wall, it takes additional damage and is stunned."]
+			id: "4D05EBA8F148F81B"
+			rewards: [
+				{
+					id: "14D18ADFAC8657CC"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "43F9CB94F478C444"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "53E40B68B215889E"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			title: "&4&lGauntlet of Bulwark"
+			x: -3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3C5994B4A10CFA17"
+				"24CFFD464EE72B0A"
+				"3FA87B3B73CC4E44"
+			]
+			description: ["A fusion weapon that can be made by &4fusing&r an &l&cInfernal Forge&r&r and a &l&dVoid Core&r&r at a &l&4Mechanical Fusion Anvil&r&r. The attack power and attack speed are the same as the &cInfernal Forge&r, but when the skill is cast, void runes are created in a fan shape in front. The advantage is that it can be used more actively than an &cInfernal Forge&r."]
+			id: "397BE6BC321D5C12"
+			rewards: [
+				{
+					id: "77A1485B16BB2D7D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "30B118674DF8B5AB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "5767A0022402E9B4"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4&lVoid Forge"
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3C5994B4A10CFA17"
+				"24CFFD464EE72B0A"
+				"53EF8AE6C5EA40D5"
+			]
+			description: ["It can be crafted by &4fusing&r a &4&lWither Assault Shoulder Weapon&r&r and a &l&dVoid Core&r&r at a &l&4Mechanical Fusion Anvil&r&r. When fired, a &l&4Void Howitzer&r&r is fired instead of a wither missile, and the &4Void Howitzer&r creates a circular shape of &4Void Runes&r where it lands."]
+			id: "1720394F5D493721"
+			rewards: [
+				{
+					id: "7676FF42FEA4787F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "2104B8F320808D02"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "70D2D47BFBDAFC01"
+				item: "cataclysm:void_assault_shoulder_weapon"
+				type: "item"
+			}]
+			title: "&4&lVoid Assault Shoulder Weapon"
+			x: -5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"17FD2966AAFEA66B"
+			]
+			description: ["&e&lThe Cursed Pyramid&r&r structure spawns in the overworld in &ndeserts&r, and is home to &e&lThe Ancient Remnant&r&r. The pyramid itself is a maze-like structure, and there is also a pseudo-library made up of carved bookcases here and there. Additionally, ancient relics such as pottery can be found everywhere."]
+			id: "7E903DF0431EA6E6"
+			rewards: [
+				{
+					id: "5BD085B29F7DFA06"
+					item: "bhc:relic_apple"
+					type: "item"
+				}
+				{
+					id: "073F0A63BDCEF632"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "36FA83EA1A051ADF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&eMeet The Ancient Remnant"
+			tasks: [{
+				icon: "cataclysm:chiseled_end_stone_bricks"
+				id: "4A58F7E1DA352C83"
+				structure: "cataclysm:cursed_pyramid"
+				title: "Cursed Pyramid"
+				type: "structure"
+			}]
+			title: "&e&lCursed Pyramid"
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7E903DF0431EA6E6"
+			]
+			description: ["As you go deeper into &l&eThe Cursed Pyramid&r&r, you start to see &esuspicious sand&r here and there. If you &ebrush&r the suspicious sand, you have a chance to get a &l&edesert necklace&r&r. &e&lThe Necklace of the Desert&r&r is required to awoken &l&eThe Ancient Remnant&r&r."]
+			id: "06387AA1DCEA9FB3"
+			tasks: [{
+				id: "249B0BD9AA94068C"
+				item: "cataclysm:necklace_of_the_desert"
+				type: "item"
+			}]
+			title: "&e&lNecklace of the Desert"
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"06387AA1DCEA9FB3"
+			]
+			description: ["&e&lThe Ancient Remnant&r&r is a large dinosaur skeleton with a &ePharaoh's headdress&r that must be awoken with the &l&eNecklace of the Desert&r&r. Upon death, it drops the &e&lSandstorm in a Bottle&r&r, &e&lAncient Metal Block&r&r, &e&lRemnant's Skull&r&r, as well as a chance to drop the Sands of Dominion music disc."]
+			id: "0CE52E0611E65906"
+			rewards: [
+				{
+					id: "0F8DED2CBC52428C"
+					item: "cataclysm:music_disc_ancient_remnant"
+					type: "item"
+				}
+				{
+					id: "2280E02272CC3485"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "783678C0B410AE5D"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "&eFrom the ashes of forgotten history, I endure—a remnant of an era beyond memory"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:ancient_remnant_spawn_egg"
+				id: "708AFF55210B4957"
+				title: "&e&lKill The Ancient Remnant"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"0CE52E0611E65906"
+			]
+			description: ["A few items are dropped by the &l&eAncient Remnant&r&r, with the first being the &l&eSandstorm in a Bottle&r&r. When equipped into the Belt slot, players can press &l&eX&r&r (&7check your keybinds&r) to turn into a tornado, dealing damage and flying a short distance."]
+			id: "25743EB95B9822F4"
+			rewards: [
+				{
+					id: "4EF6FE5626FCC152"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "71A63E979D61ACB8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "75F645623005C81D"
+				item: "cataclysm:sandstorm_in_a_bottle"
+				type: "item"
+			}]
+			title: "&e&lSandstorm in a Bottle"
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"0CE52E0611E65906"
+			]
+			description: [
+				"&e&lThe Modern Remnant&r&r can only be summoned after defeating the &l&eAncient Remnant&r&r. After obtaining the &eRemnant Skull&r, it can be right-clicked on the ground to summon the &e&lModern Remnant pet&r&r. It &cwon’t&r be tamed at first, so be careful. Hitting the &l&eModern Remnant&r&r at this point will cause it to become aggressive and attack you. To tame it, you’ll have to feed it a &l&cSniffer Egg&r&r."
+				"There are two different modes the &e&lModern Remnant&r&r can be switched between by right-clicking it. Like a Wolf, these are &esit&r and &efollow&r. Modern Remnants won’t attack other creatures freely. Instead, they’ll attack targets that attack you first, making them great to take on adventures."
+			]
+			id: "3FA7FC90D2E31203"
+			rewards: [
+				{
+					count: 2
+					id: "2D843B785764903C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "1D0885DE68828963"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&eSummon the Modern Remnant"
+			tasks: [
+				{
+					id: "76628DE369B39F65"
+					item: "cataclysm:remnant_skull"
+					type: "item"
+				}
+				{
+					icon: "cataclysm:modern_remnant_bucket"
+					id: "0F9EE70E425F82C1"
+					observe_type: 5
+					timer: 0L
+					title: "Observe the Modern Remnant"
+					to_observe: "cataclysm:modern_remnant"
+					type: "observation"
+				}
+			]
+			title: "&e&lRemnant's Skull"
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"0CE52E0611E65906"
+			]
+			id: "2D560EB8AF5B6380"
+			rewards: [
+				{
+					id: "632E1E11D9A61C2F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "62B371240E7AEAF4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "327C58BE18A7230D"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6440E37ABE901DED"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&e&lBone Reptile Armor"
+			x: -7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"21AEDCF08E97F22C"
+			]
+			id: "14C6D176F030788D"
+			rewards: [
+				{
+					id: "2AB596D9988D9363"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "50A72AD1773C55CF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "40E286571CE720AE"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FEFE5238822FCB9"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "282FEFF08E15A9AE"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D55FFE4E45D2863"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62C73DFB69CE31EB"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_elytra_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&lIgnitium Armor"
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7E903DF0431EA6E6"
+			]
+			description: ["&e&lKoboletons&r&r are small dinosaur skeletons that wield a &eKhopesh&r. Upon death they drop &eKoboleton Bones&r."]
+			id: "1E0DE6F4C85B8F86"
+			rewards: [
+				{
+					count: 5
+					id: "2BE88A316F459B19"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "30D56CB3B665ECF4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				icon: "cataclysm:koboleton_spawn_egg"
+				id: "3CF4B92923D9CC1D"
+				title: "&e&lKill The Koboletons"
+				type: "kill"
+				value: 5L
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7E903DF0431EA6E6"
+			]
+			description: ["&e&lThe Kobolediator&r&r acts as the mid-boss of the &l&eCursed Pyramid&r&r. It is a higher species of &eKoboleton&r, and is a dinosaur that boasts a size that is more than twice that of the player. The combination of the huge pedestal, splendid armor, a huge sword, and a head studded with large goat horns, gives it an intense appearance that is intimidating just by looking at it. Its shoulders and hands are equipped with armor believed to be made of ancient metal, which gives it the best defense among the Koboleton series. Upon death, it drops &eancient metal&r and a &e&lKobolediator Skull&r&r which is used to craft the &eBone Reptile Helmet&r."]
+			id: "4CCBA49276F8F036"
+			rewards: [
+				{
+					id: "27D064E0A65F3CD1"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "3CF6083042F395CF"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				icon: "cataclysm:kobolediator_spawn_egg"
+				id: "79E9A2B65BF99789"
+				title: "&e&lKill The Kobolediator"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7E903DF0431EA6E6"
+			]
+			description: ["&e&lThe Wadjet&r&r is a female monster that acts as the mid-boss of the &e&lCursed Pyramid&r&r. She has the form of a snake with arms, unlike &eKoboleton&r and &eKobolediator&r, who have the form of dinosaurs . She has a slender and sleek appearance, and is equipped with armor that is believed to be made of &e&lancient meta&rl&r."]
+			id: "5B48AADB311BB07E"
+			rewards: [
+				{
+					id: "5D90491FCFB9BAF0"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "3BBB43D4E364A867"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				icon: "cataclysm:wadjet_spawn_egg"
+				id: "6ECFD55062D39F37"
+				title: "&e&lKill The Wadjet"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "5F3C05D6CBD06784"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "71C57146EB90B733"
+				item: { Count: 999, id: "minecraft:barrier" }
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -3.25d
+			y: 7.75d
+		}
+	]
+	title: "&eCataclysm"
+}

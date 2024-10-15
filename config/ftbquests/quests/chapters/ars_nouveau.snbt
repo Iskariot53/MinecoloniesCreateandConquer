@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveau"
+	group: "31CA1CE9A64781BD"
+	icon: "ars_nouveau:imbuement_chamber"
+	id: "79B23D5582234EAE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		icon: "ars_nouveau:source_gem"
+		id: "40CD64536505D590"
+		tasks: [{
+			id: "7C8B84F8A30E9B37"
+			title: "Welcome to Ars Nouveau!"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&eArs Nouveau"
+}

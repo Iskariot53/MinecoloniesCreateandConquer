@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism"
+	group: "31CA1CE9A64781BD"
+	icon: "mekanism:quantum_entangloporter"
+	id: "0D98B33203B576DF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		icon: "mekanism:ingot_osmium"
+		id: "71070D1348F6EBF2"
+		tasks: [{
+			id: "62691EBB65E200D9"
+			title: "Welcome to Mekanism!"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&eMekanism"
+}

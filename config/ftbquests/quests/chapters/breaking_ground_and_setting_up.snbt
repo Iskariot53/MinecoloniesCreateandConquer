@@ -1,0 +1,1994 @@
+{
+	autofocus_id: "771588CF1624B99F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "breaking_ground_and_setting_up"
+	group: "5B6588F2B5558488"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create:wrench"
+	}
+	id: "6E33C8DEFB2AF60A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			description: [
+				"Wether you choose to go the humble route of farming with the aid of water wheel, mob caging and botany mechanics, the pathway to technological superiority through advancments in metallurgy, electronics, and machine upgrades. Or if you prefer the way of the wanderer, endlessly exploring and dungeon delving. We have balanced the loot tables so every strategy is a viable strategy to success, but their are some decisions to make in general, you have many options at your disposal to decide from."
+				""
+				"The next few quests will cover some of these options, so we can better decide how best to establish ourselves, and what would be a good idea to work towards."
+			]
+			icon: "minecraft:writable_book"
+			id: "771588CF1624B99F"
+			rewards: [
+				{
+					id: "573C6A3DAF033930"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "18044ED061A229B8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "The start of an empire"
+			tasks: [{
+				id: "66E2F4211A68508D"
+				title: "Check, Check, Check.."
+				type: "checkmark"
+			}]
+			title: "The Basics"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"771588CF1624B99F"
+			]
+			description: ["First things first, As with any other Minecraft playthrough let's get ourselves at least a diamond pickaxe. "]
+			id: "3126617D43B60448"
+			rewards: [
+				{
+					id: "1C2B3E49C868026A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2088B4F5BC511266"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Let's not get ahead of ourselves..."
+			tasks: [{
+				id: "5DF2E4CF75F5E6B1"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Vanilla Gear"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["771588CF1624B99F"]
+			description: ["From simplistic drawers and racks, to large scale logistic networks, a variety of storage options have been made available to you, take your pick!"]
+			icon: "minecraft:chest"
+			id: "4F98CC4F3B2B2CF9"
+			rewards: [{
+				id: "07B9471C9AFF01E0"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.25d
+			subtitle: "Storing all the things"
+			tasks: [{
+				id: "7AA0D0D15E5106B2"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			x: 3.4285714285714306d
+			y: -3.857142857142854d
+		}
+		{
+			dependencies: ["771588CF1624B99F"]
+			description: ["From catching and breeding resource laden mobs to grinding stone and sifting the by-products, a multitude of farming methods are at your disposal."]
+			icon: "minecraft:wheat"
+			id: "72ABF1E13212EB7A"
+			rewards: [{
+				id: "70905670369BBAA9"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.25d
+			subtitle: "Farming all the things"
+			tasks: [{
+				id: "01317A17499831BE"
+				title: "Resource Production"
+				type: "checkmark"
+			}]
+			x: -4.160714285714278d
+			y: -3.857142857142854d
+		}
+		{
+			dependencies: ["4F98CC4F3B2B2CF9"]
+			description: ["Sophistaced backpacks allow you to increase your on-the-go inventory as well as allow for upgrades such as automatic feeding and tank upgrades!"]
+			id: "52C1ABEEAA3AEEDB"
+			rewards: [
+				{
+					id: "15A4A2213E901266"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "7B220AE648F452AC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "No introduction needed"
+			tasks: [{
+				id: "6D6C482B14FFFD76"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F98CC4F3B2B2CF9"]
+			description: ["Danks, easily configured, can be used for picking up and storing VERY large amounts of items in bulk. They're great for mining and gathering resources while keeping your pack and inventory clean."]
+			id: "3A62EDEC4F73063C"
+			rewards: [
+				{
+					id: "1E689FD4E15BEF91"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "37CF01551CFB52FB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Mini - Bulk Container"
+			tasks: [{
+				id: "39557F0C1B1FB2C4"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			title: "Danks"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F98CC4F3B2B2CF9"]
+			description: [
+				"Tom's Simple Storage is a storage mod allowing many of the functionalities that more advanced storage mods offer, simplified! "
+				""
+				"A good option for those new to logistics and item networking."
+			]
+			icon: "toms_storage:ts.storage_terminal"
+			id: "23E17B3FF501BEA0"
+			rewards: [
+				{
+					id: "47C57FB51141B507"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "352F671C09CD0FF8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Not as advanced, but nice and simple"
+			tasks: [{
+				id: "535FE27C35EE82AB"
+				title: "Simple!"
+				type: "checkmark"
+			}]
+			title: "Tom's Simple Storage"
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4F98CC4F3B2B2CF9"]
+			description: ["Advanced storage and autocrafting solutions."]
+			icon: "ae2:controller"
+			id: "4AA5047E39931F84"
+			rewards: [
+				{
+					id: "491054B5BA72D7BA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "459982B837390B5E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Advanced, not so nice and simple"
+			tasks: [{
+				id: "4D2104DA156D3C6F"
+				title: "Not so simple"
+				type: "checkmark"
+			}]
+			title: "Applied Energistics 2"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F98CC4F3B2B2CF9"]
+			description: [
+				"Iron Chests are great for storing large amounts of items in a single chest. While limited, they are a great option in the early game and even later."
+				""
+				"Iron Furnaces are likely going to be your primary means of smelting for most of the early game, they are highly upgradable, although you will notice their are no generator augments. No, this is not a bug."
+			]
+			id: "6B4F90920F0A78A7"
+			rewards: [
+				{
+					id: "58B749C0341E7A44"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "37FDD5790D6859F8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Great for starting out!"
+			tasks: [
+				{
+					id: "77D7A68492ED244D"
+					item: "ironfurnaces:iron_furnace"
+					type: "item"
+				}
+				{
+					id: "2CD3BC70D9418740"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4F98CC4F3B2B2CF9"]
+			description: [
+				"Great for when you need a storage container that only holds a single item, or multiple of a few item."
+				""
+				"With both Storage Racks and Functional Storage you can craft a controller allowing you to access your whole early game storage from 1 block!"
+			]
+			icon: "storageracks:stone_controller"
+			id: "11CB742A8CEE0CB0"
+			rewards: [
+				{
+					id: "66AA7A7D5E0B06B0"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "533679BDA8BB6246"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Another good option for the early game"
+			tasks: [{
+				id: "2D55AEE5C080FB69"
+				item: "functionalstorage:oak_1"
+				type: "item"
+			}]
+			title: "Storage Racks and Functional Storage"
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4F98CC4F3B2B2CF9"]
+			description: [
+				"Carry, store and access your things from anywhere in the world with ender storage!"
+				""
+				"&cNOTE&r: If someone else gets your color code they may gain access to your chest."
+			]
+			id: "21F4FDA4DE601AF1"
+			rewards: [
+				{
+					id: "36087F38BC6A4732"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2316E530887CA408"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Can be color coded"
+			tasks: [
+				{
+					id: "168B6C825AE34677"
+					item: {
+						Count: 1
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46F4C4D70C14E86F"
+					item: {
+						Count: 1
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "542F0CBCEE0A4164"
+					item: {
+						Count: 1
+						id: "enderchests:ender_bag"
+						tag: {
+							code: "000"
+							open: 0b
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ender Storage"
+			x: 1.7142857142857224d
+			y: -3.5714285714285694d
+		}
+		{
+			dependencies: ["72ABF1E13212EB7A"]
+			description: ["hopper botany pots can be used as a compact way of farming resources if tech and automation isn't exactly your thing."]
+			icon: "botanypots:terracotta_hopper_botany_pot"
+			id: "4F028FCAAFC2AD22"
+			rewards: [
+				{
+					id: "7B582BEBB2A422B1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "0EA597FE190E4858"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Botany made easy"
+			tasks: [{
+				id: "46A34348C7D2C688"
+				type: "checkmark"
+			}]
+			title: "Botany Pots"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["72ABF1E13212EB7A"]
+			description: ["Craft a dna sampler and punch a mob while holding it to sample its dna, their are different tiers of samplers, and different mobs require different environments be provided inside of their cages."]
+			icon: "cagedmobs:mob_cage"
+			id: "5EE45B1CFDB10215"
+			rewards: [
+				{
+					id: "063783DD027499F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "2C67751CFC790637"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "They're fiiiine"
+			tasks: [{
+				id: "1CABFE003ECDD3EC"
+				type: "checkmark"
+			}]
+			title: "Hopping cages"
+			x: -4.303571428571416d
+			y: -5.464285714285712d
+		}
+		{
+			dependencies: ["72ABF1E13212EB7A"]
+			description: [
+				"Productive bees can be found throughout the world and bred to produce a wide range of resources. "
+				""
+				"Refer to the \"Productive Bees\" quest chapter for more info!"
+			]
+			icon: "productivebees:honey_treat"
+			id: "4121A43B2DC07C1B"
+			rewards: [
+				{
+					id: "4D134315BFB5480C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "4F67C807E47A8B81"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Resources from busy little bees"
+			tasks: [{
+				id: "12899471313D7A16"
+				title: "Bees are the knees"
+				type: "checkmark"
+			}]
+			title: "Productive Bees"
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["72ABF1E13212EB7A"]
+			description: [
+				"You can use millstones, crushing wheels and more to prepare materials to be sifted for resources, if you like the stone block approach."
+				""
+				"Refer to the \"&6Sifting&r\" section of \"Resource Production\" to learn more!"
+			]
+			icon: "createsifter:sifter"
+			id: "60CD0AF0BA5D46E5"
+			rewards: [
+				{
+					id: "47049E4A0BED147C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "7F138108CC4A51BE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Sifting Materials"
+			tasks: [
+				{
+					id: "3401050B66988D34"
+					title: "Pans out i guess"
+					type: "checkmark"
+				}
+				{
+					id: "361FB6B7C8D84789"
+					item: "create:millstone"
+					type: "item"
+				}
+			]
+			title: "Sifting for resources"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72ABF1E13212EB7A"]
+			description: [
+				"Roost resource producing chickens can be found throughout the world. Just as with bees these can be bred and used to produce a multitude of resources, for all intents and purposes anything you can get from one, you can get from the other."
+				""
+				"Refer to the \"Roost Ultimate\" chapter for more info!"
+			]
+			icon: {
+				Count: 1
+				id: "chicken_roost:c_sand"
+				tag: { }
+			}
+			id: "517B276D1D59EC02"
+			rewards: [
+				{
+					id: "189C12DA2CB3501F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "5F6AA2852F4BE1C8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Resource chickens! "
+			tasks: [{
+				id: "3CF2610FCD05509D"
+				title: "Roost"
+				type: "checkmark"
+			}]
+			title: "Roost Ultimate"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72ABF1E13212EB7A"]
+			description: [
+				"While not a viable replacement for other methods, you will notice that of the many different dungeons, structures, NPCs and more... Exploring is usually always a good way to gather resources and find what you need to make moving forward in life easier."
+				""
+				"Adventuring and looting that new structure you just found is always a good idea, if you can manage it, pillage those chests and rack up those &cslayer rewards&r!"
+			]
+			icon: {
+				Count: 1
+				id: "create_sa:rose_quartz_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "701DB69F95BE961D"
+			rewards: [
+				{
+					id: "0E98D6480D96C599"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4EF79BEF61325953"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Spelunking and dungeoneering"
+			tasks: [{
+				id: "7590A67C07011638"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "\"Fortune n glory, kid... Fortune n glory\""
+			x: -2.482142857142854d
+			y: -3.5714285714285694d
+		}
+		{
+			dependencies: [
+				"4F98CC4F3B2B2CF9"
+				"72ABF1E13212EB7A"
+				"52C1ABEEAA3AEEDB"
+				"3A62EDEC4F73063C"
+				"5EE45B1CFDB10215"
+				"4F028FCAAFC2AD22"
+				"3126617D43B60448"
+			]
+			description: ["Wether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided."]
+			hide: true
+			hide_dependency_lines: true
+			icon: "design_decor:industrial_gear_large"
+			id: "626B4E8865E9892C"
+			rewards: [{
+				id: "13624C9FED49A672"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.25d
+			subtitle: "Here we go"
+			tasks: [{
+				id: "00EE976A2B32EB00"
+				title: "Basic Automation"
+				type: "checkmark"
+			}]
+			title: "Stress, Power and Basic Automation"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["626B4E8865E9892C"]
+			description: ["If you like the bee's route and have excess honey, you can always use some of it to get a head start on electricity! they're not the greatest generators, but they do provide an early game generator for the water wheel and windmill averse."]
+			id: "564103C41CAFF58C"
+			rewards: [
+				{
+					id: "26F6271B161554D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C8CF150E8216593"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "may as well make some power out of it"
+			tasks: [{
+				id: "5E92B39817A8D9C2"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["626B4E8865E9892C"]
+			description: [
+				"As with any world featuring &eCreate&r, this is going to be your go-to method for getting started automating. When placed with a water source flowing past, they generate stress, attached shafts and gearboxs can be used to transfer stress from wheel to machines. Eventually you will be able to convert this stress into FE."
+				""
+				"Alternate forms of &4power generation&r have been provided to give some felixibility and options in gameplay. While the pack has been structured to lightly integrate mods, providing progression but also allowing for freedom of choice whenever possible... it will be impossible to avoid a few core mods such as Create if you choose to progress through certain paths, with the focus being changing how you \"reach\" a mod, rather than how it works. "
+				""
+				"The intent being: &9You will require at least some minimal infrastructure from certain mods, but not be forced to rely on it entirely if you choose not to&r, you will unlock other options and can choose to use those. (some tech and late game progression aside)"
+			]
+			id: "0B85AB53019A933E"
+			rewards: [
+				{
+					id: "75AE05BF72C14F0B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "50F3C5F94D0560F9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "You spin me right round"
+			tasks: [{
+				id: "122B14C6EA82231E"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["626B4E8865E9892C"]
+			description: ["Not the fastest or the most powerful generators. But they're not called &cpitiful&r for no reason. Still, they are an early means of power generation for the more, stress averse."]
+			id: "360EE5A27F4FDB47"
+			rewards: [
+				{
+					id: "0A52A9D00E41A754"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71652A59097CE775"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Name says it all"
+			tasks: [{
+				id: "705864E015D9FB4B"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			title: "Pitiful Generator"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"360EE5A27F4FDB47"
+				"0B85AB53019A933E"
+				"564103C41CAFF58C"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Now that you have a way to recharge and/or refill it, it's time to make a &6jetpack&r and make exploring and moving about in general a much easier affair."]
+			id: "4D2E03A6EB864CF2"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "5CD5BA6E65D509B0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3C7830ED6E0E9682"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Not the greatest, but it's a start"
+			tasks: [
+				{
+					id: "4C5A34B92E300C27"
+					item: {
+						Count: 1
+						id: "create_sa:andesite_jetpack_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "043D4D96944C7F33"
+					item: {
+						Count: 1
+						id: "create_sa:copper_jetpack_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D9FF1F248D707BD"
+					item: {
+						Count: 1
+						id: "ironjetpacks:jetpack"
+						tag: {
+							Id: "ironjetpacks:wood"
+							Throttle: 1.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Powered Flight"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72ABF1E13212EB7A"]
+			description: [
+				"Hostile neural networks is an advanced means of farming mob drops in a lag friendly way. More on this later!"
+				""
+				"(unofficial hint from the devs, this is going to be the best way to farm mobs aside from possibly the wannabee)"
+			]
+			hide_details_until_startable: false
+			icon: "hostilenetworks:sim_chamber"
+			id: "63EBDB6E11473DF6"
+			rewards: [
+				{
+					id: "1BB1131AC2A8C72C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "338375D772815B58"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Simulation in a simulation, huh?"
+			tasks: [{
+				id: "6D457F44C28030A7"
+				type: "checkmark"
+			}]
+			title: "Hostile Neural Networks"
+			x: -3.482142857142847d
+			y: -2.5357142857142776d
+		}
+		{
+			dependencies: [
+				"4F98CC4F3B2B2CF9"
+				"72ABF1E13212EB7A"
+				"5EE45B1CFDB10215"
+				"4F028FCAAFC2AD22"
+				"52C1ABEEAA3AEEDB"
+				"3A62EDEC4F73063C"
+			]
+			description: ["Flux networks can be created and once a &2controller&r has been crafted, &cplugs&r and &9points&r can be used to distribute power throughout your network. Power can then be distributed directly to players as well, charging curios, hotbar and other slots!"]
+			hide: true
+			hide_dependency_lines: true
+			icon: "fluxnetworks:flux_controller"
+			id: "72050B5553410FC6"
+			rewards: [
+				{
+					id: "2495A1111D049DEA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "5C6265C2D4FB2B09"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Wireless Power Networks"
+			tasks: [{
+				id: "75AFFC536839C7A1"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4F98CC4F3B2B2CF9"
+				"72ABF1E13212EB7A"
+				"5EE45B1CFDB10215"
+				"4F028FCAAFC2AD22"
+				"52C1ABEEAA3AEEDB"
+				"3A62EDEC4F73063C"
+			]
+			description: [
+				"The crafting automat can be used to automate single recipes, making some aspects of early progression not so tedius. While not meant to serve as an ACTUAL replacement for autocrafting, it does make repeatedly crafted recipes for things such as pickaxes and cogs not SO bad until actual automation can be achieved."
+				""
+				"simply place the automat and supply it with the ingredients for the recipe, introduce a redstone signal and you have your crafted items on demand!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "328F2E09297C9A18"
+			rewards: [
+				{
+					id: "7128C1D4F6578D2B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "0D79CC724BAB3B9B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "An autocrafting table"
+			tasks: [{
+				id: "3A276D31D998194E"
+				item: "craftingautomat:autocrafter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3126617D43B60448"]
+			description: [
+				"The charm belt can be equipped to hold mob charms. Charms can be crafted using recipes found in &aJEI&r, most of the time this is going to involve having killed and collected enough of the respective mobs reliquary drops for the recipe materials."
+				""
+				"Any time a charm is added to the empty slot, a new slot is generated. Most \"basic\" mobs in the world have a craftable charm that can be added to the belt to render them &9passive&r to the player."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "11A05C0C12AEC2C0"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "7C9F1E735140A06D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "716AC47D231C65C9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC613B4D8780F60"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Collecting Mob Charms"
+			tasks: [{
+				id: "5619D79F5F045E00"
+				item: "reliquary:mob_charm_belt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3126617D43B60448"]
+			description: ["The tool belt can hold and be used to quickly switch between held items, craftable &6pouches&r can be added to it to &eincrease&r the number of tools it is able to hold."]
+			hide: true
+			hide_dependency_lines: true
+			id: "37571112636254D1"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "31480C413E5DCE7C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5F38386BC5701024"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Save some hotbar and inventory slots"
+			tasks: [{
+				id: "59FF91E2F4728FC9"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3126617D43B60448"]
+			description: [
+				"Curios and hot key selection has been added to the &6spyglass&r, providing a vanilla friendly way to zoom in on things from a distance. "
+				""
+				"This world is going to be a very rough and dangerous place, at least at first. While designed in a way to get progessively easier provided enough effort, this pack isn't supposed to be a walk in the park... You're going to die, probably &n&o&ca lot&r&r&r, difficulty is going to vary from player to player but the early game will be particularly unforgiving if you are not cautious, Our goal was not to produce an expert level difficulty pack, but something \"challenging yet fun\", we hope and strive to hit that mark. Always be wary and check things out if you can before diving in."
+				""
+				" &eGood Luck!&r "
+				""
+				"Any feedback or suggestions regarding the packs difficulty, good or bad, are welcomed to be heard in the &9MCC discord&r. If you are not already there, you should change that... "
+				""
+				"it's where all the cool kids are."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "50C3CF313092C2E0"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "5B981A179C835A35"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "70E3690049FE7985"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32C0CB09D2F6609A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Zooming In From A Safe Distance"
+			tasks: [{
+				id: "7A9EDD7EDF28B55F"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3126617D43B60448"]
+			description: [
+				"you can choose to stick with traditional sword, bow and shield tactics. However it is highly recommened you craft a &egun bench&r and give everything the pack has to offer a try, you'd be surprised how much fun it is!"
+				""
+				"The weapons provided are available in progressive tiers, and are highly &9customizable&r and even &denchantable&r!"
+				""
+				"Refer to the \"&3Locked and Loaded&r\" secton of \"Optional Quests\" for more info."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "4CEB772EDB7768E1"
+			rewards: [
+				{
+					id: "57F201AEDE69882D"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "715132453EC05F43"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Personal protection, done right"
+			tasks: [{
+				id: "0C7A962418894E02"
+				item: "scguns:gun_bench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"564103C41CAFF58C"
+				"0B85AB53019A933E"
+				"360EE5A27F4FDB47"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The 3x3 mechanical crafting grid is going to be a &9mainstay&r in virtually every base, it is worth setting up an area for &9longterm&r use as many items and recipes within the pack are &9only&r obtainable/completable via the mechanical grid, or &9at least at first&r. "
+				""
+				"It is worth noting that only the 3x3 grid will be required for most integrations. "
+				""
+				"while progressing through technologies, an upgraded grid is required, but the 3x3 alone will open all that the pack has to offer in other areas and mods, again, &cexcluding&r higher tier technology. "
+			]
+			hide: true
+			icon: "create:mechanical_crafter"
+			id: "17BDF7E9E9E70940"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "3B67B3CFEF267A55"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "68665DE5105434B4"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "The Mechanical Grid 1.0"
+			tasks: [{
+				count: 9L
+				id: "0566D4DFDAE65EE4"
+				item: { Count: 9, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			title: "The 3x3 mechanical grid"
+			x: -0.5d
+			y: 9.428571428571423d
+		}
+		{
+			dependencies: ["7DFB5B09F54FA60B"]
+			description: [
+				"Ah, the &edeployer&r, good luck finding many assembly lines that don't include at least 1 of these. "
+				""
+				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "1A21078ABCDD07F4"
+			rewards: [
+				{
+					id: "19AC557F449C571D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "780AA838BF893040"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7313A52228E60413"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Used in almost every assembly line"
+			tasks: [{
+				count: 3L
+				id: "24D5C9058390BD98"
+				item: { Count: 3, id: "create:deployer" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7DFB5B09F54FA60B"]
+			description: [
+				"The &emechanical press&r is needed for producing sheet metals among other things. "
+				""
+				"Refer to the \"&6Create&r\" chapter of \"Core Mods\" for more info!"
+			]
+			id: "6510789A0795CF6A"
+			rewards: [
+				{
+					id: "0D453162406A397B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "0D1B765688640875"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Hot off the press"
+			tasks: [{
+				id: "42E55AF62B96AB2B"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.285714285714263d
+		}
+		{
+			dependencies: ["7DFB5B09F54FA60B"]
+			description: [
+				"Guess what the &eenergizer&r does?"
+				""
+				"It energizes things, silly... who wouldv'e guessed?"
+				""
+				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "54E921560B376491"
+			rewards: [
+				{
+					id: "0B02D1B4D7D4E15E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "0E3629F0F2554D30"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bunny -not- included"
+			tasks: [{
+				id: "6006177E8C764ED1"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: [
+				"The almighty &6Tempad&r. "
+				""
+				"Already /sethome and could use another? "
+				""
+				"Have a waystone you would like to teleport to yet while out adventuring the world there are simply none to be found and teleport from?"
+				""
+				"The Tempad allows a player to open a &dtemporary portal&r to any location in the world on the fly, it even automatically stores the location of tagged&3 waystones&r! "
+				""
+				"It also allows the user to export coordinates to &3location cards&r, which are automatically generated in the players inventory, give the location card to others and they can now open portals to the same location! "
+				""
+				"Note: The usual cooldown and consumption of exporting has been &cdisabled&r, you can freely make and share location cards as much as you like."
+			]
+			hide: true
+			id: "65C70FDB98BD8CC7"
+			optional: true
+			rewards: [
+				{
+					id: "7C4EED2817343388"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "0532D5BFEC46E0D1"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Instantly travel any where, any time"
+			tasks: [{
+				id: "5B42A94FFF9D53E0"
+				item: {
+					Count: 1
+					id: "tempad:tempad"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["045FC46B3A8BB2B2"]
+			description: [
+				"The &dimbuement chamber&r is used for creating source gems, amongst other things, and is going to be needed along our road of magical enlightenment."
+				""
+				"Good luck reaching the peaks of magic and weaponry without one."
+				""
+				"Refer to the \"&5Ars Nouveau&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "13653CA5E18B1111"
+			rewards: [
+				{
+					id: "4E7015C062747FF3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "257DA976F433569E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Turning source into gemstones"
+			tasks: [{
+				id: "3C846B081D23310C"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0B85AB53019A933E"
+				"360EE5A27F4FDB47"
+				"564103C41CAFF58C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"who &odoesn't&r have a place to store the &4blood&r of the sacrificed for dark rituals, right?"
+				""
+				"Jokes aside. The blood altar is going to be your key to accessing the darker side of magic in the MCC world."
+				""
+				"Refer to the \"&cBlood Magic&r\" section of the \"Core Mods\" for more info!"
+			]
+			hide_dependency_lines: true
+			id: "55630B6107F0B42B"
+			rewards: [
+				{
+					id: "4EBADEF49ABF2FBD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "401D31DF687C52C0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Embrace the darkness"
+			tasks: [
+				{
+					id: "338DC66EF0AD4956"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+				{
+					id: "1A89C29785D84CE1"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"360EE5A27F4FDB47"
+				"0B85AB53019A933E"
+				"564103C41CAFF58C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &epetal apothecary&r is your entry way into the world of Botania, taking the path of nature magic. Collect magic flowers found throughout the world and use the petals obtained to get started. "
+				""
+				"Refer to the \"&aBotania&r\" chapter of \"Core Mods\" for more info!"
+			]
+			hide_dependency_lines: true
+			id: "579F37CE436DA670"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "49097B1115DDF009"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2CA4EAF0DA728FF2"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Flower power"
+			tasks: [{
+				id: "6377BB8039A646F1"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: ["Many &eMANY&r recipes will require these mechanisms, so make a &6dedicated assembly line&r for them."]
+			hide: true
+			hide_dependency_lines: false
+			id: "3E49F7BA2D2D9DBF"
+			optional: true
+			rewards: [
+				{
+					id: "5C5F5534790276FE"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "4864389C9467185D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Ya... this one isn't really optional"
+			tasks: [{
+				count: 3L
+				id: "00EE65B89A91228C"
+				item: { Count: 8, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: ["If bullets didn't solve the problem... you just didn't use enough bullets yet, this is always the case."]
+			hide: true
+			hide_dependency_lines: false
+			id: "7ECEAD20A6ABF2F9"
+			optional: true
+			rewards: [
+				{
+					id: "6468D6132783475F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0F7903F502731C85"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5EC07F957CFC326D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Manufacturing ammunition"
+			tasks: [
+				{
+					id: "704D9769A0D61F79"
+					item: {
+						Count: 1
+						id: "scguns:small_casing_mold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "586444E9F84552B8"
+					item: {
+						Count: 1
+						id: "scguns:medium_casing_mold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56E1479C36AF4177"
+					item: {
+						Count: 1
+						id: "scguns:large_casing_mold"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Casing molds"
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: ["Pretty self explanatory, the &amending rune&r will repair your equipment, when held in your &6main hand&r, and provided you have the &2XP&r for it to burn."]
+			hide: true
+			id: "3E2502A84EE5ED7C"
+			optional: true
+			rewards: [
+				{
+					id: "082E4309198CA8C3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "75C927713EBF86C5"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Nice in the early game"
+			tasks: [{
+				id: "0E484B7467E1B672"
+				item: {
+					Count: 1
+					id: "create_things_and_misc:mending_rune"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: ["&dQuantum mechanisms&r are a crucial component in the construction of &6teleporters&r. Telejuice is another potential idea for something worth automating, if setting up a teleporter network is something that piques your interest,"]
+			hide: true
+			id: "157768F2C05BDBDD"
+			optional: true
+			rewards: [
+				{
+					id: "4B8243028B60CC11"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "76FDB80B356F294F"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "42BE1CBEE9139F28"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Warping space and time"
+			tasks: [{
+				id: "1FFB945D08911C0F"
+				item: "createteleporters:quantum_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: ["Used for many useful things, the construction of &eProtection Pixel&r armors being a a prime example."]
+			hide: true
+			hide_dependency_lines: false
+			id: "3C4614655C75AD6F"
+			optional: true
+			rewards: [
+				{
+					id: "069315CCF3F0F61D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "613F7B5F2EB483CE"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "283C466640C9A550"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Reinforced Plating"
+			tasks: [{
+				id: "79B1DA8C1B116E03"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: [
+				"&aNuclear fuel&r for reactors is made exclusively via &6assembly line&r, their are 2 variations of the recipe. "
+				""
+				"The \"base\" recipe provides fuel at a 1:1 ratio, converting &ethorium&r into &anuclear fuel&r. while not very efficient, you can at least power your reactor with little risk of &cradiation&r. "
+				""
+				"The &cradiation&r effects experienced due to mistakes at this point are very minimalist compared to what you are probably used to. It can be negated by a full set of leather armor, and if the reactor were to be \"unsealed\" the effects of radiation will dissipate once re-sealed."
+				""
+				"The \"improved\" recipe converts &2irradium&r into &anuclear fuel&r at a 1:12 ratio, HOWEVER, this comes with the added trade off of producing radioactive nuclear waste in the process. The &cradiation&r caused by this waste is &o&nEXACTLY&r&r what you are used to, it will irradiate the environment killing anything in its vicinity and dissipates VERY slowly. Be very careful handling and processing this waste, releasing enough of it at once will effectively \"kill\" a base and render it unusable. "
+				"&e*************************************************&r"
+				"If you are not well versed in nuclear waste management, it is HIGHLY recommended to build these set ups in their own isolated environment. Very far away from anything and everything you care about... "
+				"&e*************************************************&r"
+				"&n&eYou have been warned&r&r"
+			]
+			hide: true
+			id: "5057087F615D440F"
+			optional: true
+			rewards: [
+				{
+					id: "44E8F4D9D0E50090"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4CEA8917584D5B2C"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "410D74ABC97B12DD"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Totally safe. seriously... probably..."
+			tasks: [{
+				id: "6F8AA3582A83277F"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"0B85AB53019A933E"
+				"360EE5A27F4FDB47"
+				"564103C41CAFF58C"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &dspell book&r, while limited at first, will be the beginning and key to most of your magical interactions with the world, as far as ars magic is concerned at least. "
+				""
+				"Refer to the \"&5Ars Nouveau&r\" chapter of \"Core Mods\" to learn more!"
+			]
+			hide_dependency_lines: true
+			id: "045FC46B3A8BB2B2"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "078714BB112E9055"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6E609CD113D58611"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Magic spells sold separately"
+			tasks: [{
+				id: "4EC7589C6FC96C60"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.821428571428555d
+		}
+		{
+			dependencies: ["045FC46B3A8BB2B2"]
+			description: [
+				"paired with the imbuement chamber, the &denchanting apparatus&r will be required for progression into the higher tiers of magic and to reach the &3celestial arsenal&r."
+				""
+				"Refer to the \"&5Ars Nouveau&r\" section of \"Core Mods\" for more info! "
+			]
+			id: "001BBFE075B35C84"
+			rewards: [
+				{
+					id: "04117DBE9AE96C49"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "711EBF9DBA6D6D27"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "A different kind of enchanting"
+			tasks: [{
+				id: "6F6E42891CA0BCBB"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["55630B6107F0B42B"]
+			description: [
+				"While it wont actually help with performing alchemy, the &6alchemy table&r is going to be required not only for blood magic progression, but it is a necessary component to reaching the &3celestial arsenal&r as well."
+				""
+				"Refer to the \"&cBlood Magic&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "71620C7CDB2A09D8"
+			rewards: [
+				{
+					id: "0C3B8879DEB956C9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "23C44A82A67E105A"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Has nothing to do with alchemy, but we didnt make the mod :)"
+			tasks: [{
+				id: "1D1699F925E95014"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["71620C7CDB2A09D8"]
+			description: [
+				"The &4hellfire forge&r is yet another crafting block, powered by demonic will. It is also a necessary component to reaching the celestial arsenal."
+				""
+				"Refer to the \"&cBlood Magic&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "51AECAA37271ED0A"
+			rewards: [
+				{
+					id: "076CC8561E4FFA52"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "00E9232C9A7B8763"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Powered by the will of the damned"
+			tasks: [{
+				id: "0B5871A5995DD686"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			title: "Hellfire Forge"
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["579F37CE436DA670"]
+			description: [
+				"&aTerrasteel&r, required for the construction of the elven gateway core, a necessary component in contructing the &dportal to Alfheim&r. "
+				""
+				"Establishing trade with the elves and using the secrets obtained from them is a key component to accessing the &3celestial arsenal&r."
+				""
+				"Refer to the \"&aBotania&r\" section of \"Core Mods\" for more info"
+			]
+			id: "44B58A51C7F53BD1"
+			rewards: [
+				{
+					id: "55A39D24B8AE7252"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "288EF23BDA7FD054"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Needed for the elven gateway"
+			tasks: [{
+				id: "6B67B5C3D0A40A0F"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["44B58A51C7F53BD1"]
+			description: [
+				"The elven gateway core is required to construct the &dportal to Alfheim&r. While not open to visitors, the elves of Alfheim do have some invaluable things to offer, especially if you hope to ever reach the &3celestial arsenal&r."
+				""
+				"Refer to the \"&aBotania&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "6A8C6386F4A75428"
+			rewards: [
+				{
+					id: "79BDEFE600FC80D5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "60E55604C30BD36E"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "6DE479FD64AF8986"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Kinda shy, but these elves give nice stuff!"
+			tasks: [{
+				id: "2668E72D4B44EDBF"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"1A21078ABCDD07F4"
+				"6510789A0795CF6A"
+				"54E921560B376491"
+			]
+			description: [
+				"Now that you have some of the basic components for industrializing the world, over the next few quests will be some examples of things either worth making a dedicated line for, or if nothing else making at least once at some point in your progress. "
+				""
+				"(DO NOT under estimate the power and utility of the &eTempad&r. Yes, you want one ASAP)"
+				""
+				"There are many more things worth automating via assembly line. Bare in mind that the list is limited, but some items can &oonly&r be obtained via assembly line. As always &aJEI&r is your friend here."
+			]
+			id: "594A3B3C9462F128"
+			rewards: [{
+				id: "72E40B725C1B83F8"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "The factory... must grow"
+			tasks: [{
+				id: "5262AFD1BA2507FA"
+				title: "Assembly Lines"
+				type: "checkmark"
+			}]
+			title: "Assembly Lines"
+			x: -0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["17BDF7E9E9E70940"]
+			description: [
+				"The automated assembly line is going be another&9 mainstay&r if you truly want to experience &9everything&r this pack has to offer. "
+				""
+				"Starting an area for &ededicated assembly lines&r is going to be a very wise thing to do, many things can be made from the same line, but their will be multiple instances in which you may want to build specific lines dedicated to specific processes, always producing specific things. Ammunition being a prime example."
+				""
+				"The next few quests will give you some ideas of parts and components to work towards in creating your first assembly lines. Refer to the \"&6Create&r\" chapter of core mods for information on how to craft them."
+			]
+			id: "7DFB5B09F54FA60B"
+			rewards: [{
+				id: "7EFECCF841590C36"
+				type: "xp"
+				xp: 15
+			}]
+			size: 2.0d
+			subtitle: "Time for an industrial revolution"
+			tasks: [{
+				id: "7599BA55BBDFE3C5"
+				title: "Automated Assembly"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 11.67857142857141d
+		}
+		{
+			dependencies: ["4868F382B1EE7C56"]
+			description: [
+				"If you have made it to this point and built or acquired everything contained in this chapter (barring a few assembly line examples) then most of what the pack has to offer is available to you. &eProvided you utilize it&r, the infrastructure you have constructed or unlocked the ability to construct will see you through almost &eanything&r you may want to do or explore aside from the highest tiers of technology and weaponry."
+				""
+				"we'll need some more spice for &othose&r recipes! "
+			]
+			hide: true
+			id: "2432A9D7BE9F8BB4"
+			rewards: [
+				{
+					id: "5273BD9E90426D95"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 5
+					id: "0FD3D469E9E88C29"
+					item: "levelhearts:heart_container"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Well... kinda"
+			tasks: [{
+				id: "622BFC0973FA092D"
+				title: "Now we're really ready"
+				type: "checkmark"
+			}]
+			x: -0.4642857142857153d
+			y: 24.428571428571416d
+		}
+		{
+			dependencies: ["6C98BE9E0BC7E0C8"]
+			description: [
+				"Refining &7latex&r inevitably leads to &eplastic&r, used in all sorts of che.. efficiently produced gadgets and gizmos. "
+				""
+				"If progression to the end of the tech tree and fleshing out everything the pack has to offer in general is something you're interested in, then you will want to make a set up for keeping a steady supply of plastic on hand."
+				""
+				"Refer to the \"&6Industrial Foregoing&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "4868F382B1EE7C56"
+			rewards: [
+				{
+					id: "5B4D9E8878D7DF63"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5E2F24F606AD1B48"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "\"Feels cheap... just saying\""
+			tasks: [{
+				count: 8L
+				id: "110822844BA9F8D2"
+				item: { Count: 8, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 22.5d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: [
+				"&eFluid extractors&r are the first step to &3plastic production&r, a highly utilized ingredient across many recipes, especially useful as you head into higher tiers of technology."
+				""
+				"i mean... everythings made out of plastic in today's age... what did you expect?"
+				""
+				"Refer to the \"&6Industrial Foregoing&r\" chapter of \"Core Mods\" for more info!"
+			]
+			id: "6C98BE9E0BC7E0C8"
+			rewards: [
+				{
+					id: "00D3D1DBBAF63C45"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2BDFE5B184C1AD52"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "063F7DC3D90C0593"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6CE15FB2421108C4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Collecting latex"
+			tasks: [{
+				id: "2256AEC84EEAEDC0"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"771588CF1624B99F"
+			]
+			description: [
+				"So you have found a place to settle down and get started? Awesome! This line of quests will guide you through progressing into what the you are capable of in the pack while maintaining as much of the \"sandbox\" nature of the game as possible. As discussed in \"Getting Started\", you will want to create a Bank Terminal ASAP. "
+				""
+				"This will grant you access to the Slayer Rewards and Shops functions at the bottom of the quest book chapter section, Their are multiple types and tiers of shops which will open and become available to you through your playing of the pack and advancing through the different quest chapters in the quest book."
+				""
+				"Quests, Challenges, and Slayer Tasks are the only way to obtain Numi Coins and they are the only currency the shops take. If you choose their are also vendor blocks you can use to make shops to sell items to other players using them! You can use the id card's to share access to terminals and multiple numismatic blocks!"
+				""
+				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
+			]
+			id: "3B38BC10347BDA7D"
+			rewards: [
+				{
+					id: "20785E0127711188"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "56F235B769DFBDC4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "It's Important"
+			tasks: [{
+				id: "0508D23E33025ECC"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			title: "The Bank Terminal"
+			x: -0.5d
+			y: -6.75d
+		}
+		{
+			dependencies: ["3126617D43B60448"]
+			description: [
+				"Supply scamps are passive mobs found in the world, while not immortal, they are pretty tough and ignored by most hostile mobs. Once tamed with &6ancient brass&r, found as loot in structures, your scamp will follow and collect items it finds on the ground, storing them in its internal inventory. "
+				""
+				"The face plates can be changed with dye!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "scguns:ancient_brass"
+			}
+			id: "516600488B9BC914"
+			rewards: [
+				{
+					id: "67AB7E80D2AE5199"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "6F15B31C1E7C8D0F"
+					item: "scguns:ancient_brass"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A2D13EE6F058E97"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "A little storage buddy"
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "2B158031836B4437"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Supply Scamps"
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	title: "&eBreaking Ground and Setting Up"
+}

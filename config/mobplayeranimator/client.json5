@@ -1,0 +1,20 @@
+{
+	"is_emf_animation_halt_enabled": true,
+	"emf_animation_halt_blacklist": [],
+	"emf_animation_halt_animation_blacklist": [
+		"seriousplayeranimations:blank_loop"
+	],
+	"emf_force_vanilla_models": [
+		"minecraft:vindicator"
+	],
+	/* For these entities, apply specific model modifications to their EMF model to adjust it during an EMF animation halt. 
+	   
+	   Refer to the wiki for formatting instructions: https://github.com/Thelnfamous1/Mob-Player-Animator/wiki/EMF-Model-Modifiers. 
+	   
+	   Use a JSON validator such as https://jsonlint.com/ to ensure your JSON strings are correct.
+	*/
+	"emf_model_modifiers": {
+		"minecraft:vindicator": "{\"part_modifiers\":{\"body#EMF_body#EMF_arms_rotation\":{\"visible\":false},\"left_leg#EMF_left_leg\":{\"offset_position\":[0.0,12.0,0.0]},\"left_arm\":{\"visible\":true},\"right_leg#EMF_right_leg\":{\"offset_position\":[0.0,12.0,0.0]},\"right_arm\":{\"visible\":true}}}"
+	},
+	"guess_emf_part_modifier_animated_groups": true
+}

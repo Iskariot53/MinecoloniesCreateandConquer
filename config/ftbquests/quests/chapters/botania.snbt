@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "31CA1CE9A64781BD"
+	icon: "botania:pure_daisy"
+	id: "6F379C74A5FFBE73"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		icon: "botania:white_mystical_flower"
+		id: "585F7153AFC98B12"
+		tasks: [{
+			id: "1CABFD2B0D0E19F9"
+			title: "Welcome to Botania"
+			type: "checkmark"
+		}]
+		x: 1.0d
+		y: 0.5d
+	}]
+	title: "&eBotania"
+}

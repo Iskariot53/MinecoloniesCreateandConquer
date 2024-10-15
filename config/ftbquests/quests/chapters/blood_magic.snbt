@@ -1,0 +1,22 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "31CA1CE9A64781BD"
+	icon: "bloodmagic:altar"
+	id: "503DA522454331CE"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		icon: "bloodmagic:altar"
+		id: "305904786B9CF570"
+		tasks: [{
+			id: "5A61AC69B9333749"
+			title: "Welcome to Blood Magic!"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&eBlood Magic"
+}

@@ -1,0 +1,21 @@
+
+[buildhouse]
+	#menu.comment.blocks_per_second
+	#Range: 1 ~ 5
+	blocksPerSecond = 2
+	#menu.comment.ground_blocks_per_second
+	#Range: 1 ~ 5
+	groundBlocksPerSecond = 2
+	#menu.comment.entities_per_second
+	#Range: 1 ~ 5
+	entitiesPerSecond = 2
+	#menu.comment.shuflle_generation_blocks
+	shufllegenerationblocks = false
+	#menu.comment.ground_generation_active
+	groundGenerationActive = true
+	#menu.comment.ground_generation_type
+	#Range: 1 ~ 6
+	groundGenerationType = 1
+	#menu.comment.capsule_dimension_restricted
+	capsuleDimensionRestricted = true
+

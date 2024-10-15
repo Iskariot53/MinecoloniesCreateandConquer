@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:sword_or_axe",
+    "apotheosis:weapon_tome",
+    "twilightforest:block_and_chain"
+  ],
+  "incompatible": [
+    "ensorcellation:damage_illager",
+    "ensorcellation:magic_edge",
+    "minecraft:bane_of_arthropods",
+    "ensorcellation:instigating",
+    "apotheosis:bane_of_illagers",
+    "deeperdarker:sculk_smite",
+    "endlessbiomes:vwooping",
+    "minecraft:sharpness",
+    "minecraft:smite",
+    "ensorcellation:damage_villager"
+  ]
+}

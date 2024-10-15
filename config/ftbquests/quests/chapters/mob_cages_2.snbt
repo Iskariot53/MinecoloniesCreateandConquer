@@ -1,0 +1,681 @@
+{
+	autofocus_id: "1C2BB9B04F4789BB"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mob_cages_2"
+	group: "73E078B9278C6A11"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "cagedmobs:hopping_mob_cage"
+	}
+	id: "1C94C59905280E25"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5EE45B1CFDB10215"
+			]
+			description: [
+				"Mob farms can be time-consuming and require a ton of work, whether you build them the simple vanilla way or with spawners. However, the &2&lCaged Mobs&r&r mod solves this issue by offering a smooth and lag-free method to gather resources from your favorite entities! &2&lCaged Mobs&r&r allows you to imprison various types of mobs in cages to easily collect their drops. It also includes numerous upgrades to make your resource farming more efficient."
+				""
+				"Craft a &2Hopping Mob Cage&r to get started! A hopping mob cage is simply a cage combined with a hopper, enabling you to automatically transfer any drops into the inventory placed below it."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cagedmobs:hopping_mob_cage"
+			}
+			icon_scale: 1.2d
+			id: "729453D5C23D665E"
+			rewards: [
+				{
+					id: "392426CBFEDFE43F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "062A43CCDE6CD957"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Hopping Mob Cage"
+			tasks: [{
+				id: "3E2A745696712686"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:hopping_mob_cage"
+				}
+				type: "item"
+			}]
+			title: "&2&lMob Cages"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["729453D5C23D665E"]
+			description: [
+				"For the &2mob cage&r to function properly, you need to fill it with an item that creates the &2ideal environment&r for your chosen entity. There are many different environments, and the item you use must correspond to the habitat in which the mob naturally spawns and lives. Here are a few examples (&cfor other environments, refer to the JEI recipes&r):"
+				""
+				"- &2&lAnimals and Neutral Mobs:&r&r Grass blocks/Hay Bale"
+				"- &3&lCold Biome Mobs:&r&r Snow Blocks/Blue Ice"
+				"- &e&lDesert&r &land &bUnderwater&r &lMobs:&r&r&r Sand"
+				"- &4&lMonsters:&r&r Stone/Diamond Ore"
+				"- &c&lNether Mobs:&r&r Magma Blocks/Gilded Blackstone"
+				"- &5&lEnd Mobs:&r&r End Stone"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:hay_block"
+			}
+			id: "53ABCA8CE10AD489"
+			rewards: [{
+				id: "38B1462B4D85C975"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66EB2F5949C01D2C"
+				type: "checkmark"
+			}]
+			title: "&2&lCheck out the unique environments"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"729453D5C23D665E"
+				"53ABCA8CE10AD489"
+			]
+			description: [
+				"To imprison any mob in a cage, you first need to obtain its &2DNA sample&r. There are &c3&r types of &l&2DNA Samplers&r&r, each designed for specific types of mobs. The stronger the mob, the higher the tier of &2&lDNA Sampler&r&r required. (&cCheck JEI to see which mobs require which sampler&r)."
+				""
+				"To obtain a DNA sample from any entity, simply hit it while holding the &l&2DNA Sampler&r&r in your main hand. Once the sample is collected, click on a cage to imprison the mob. Captured the wrong entity? Just crouch and right-click with the DNA Sampler to remove the previous sample."
+			]
+			id: "31F43D874B481B87"
+			rewards: [
+				{
+					id: "729BFBACFF61D2EC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1DA0945D641E9BCE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "DNA Samplers"
+			tasks: [{
+				id: "6E67688E98A13235"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:tag"
+					tag: {
+						value: "cagedmobs:dna_samplers"
+					}
+				}
+				title: "DNA Sampler"
+				type: "item"
+			}]
+			title: "&2&lCapture your first mob"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"729453D5C23D665E"
+				"31F43D874B481B87"
+			]
+			description: ["Kills entities inside the cage with &2lightning&r. This upgrade is essential for collecting specific drops such as &2mob heads&r, &2charged creeper drops&r, and more (refer to JEI recipes for details)."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3850842135C89420"
+			rewards: [
+				{
+					id: "25A7402F27E365C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3FB973F450967919"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "301ED39608128BC4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:lightning_upgrade"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"729453D5C23D665E"
+				"31F43D874B481B87"
+			]
+			description: ["Kills entities inside the cage with &2arrows&r. This upgrade is essential for collecting specific drops such as &2music discs from creepers&r, and more (refer to JEI recipes for details)."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "31D7F71678919C10"
+			rewards: [
+				{
+					id: "2A6588AF4D0A54A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4CD753B9E9F18D31"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "580855CB3AC3D3C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:arrow_upgrade"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"729453D5C23D665E"
+				"31F43D874B481B87"
+			]
+			description: ["Automatically &2cooks&r cookable entity drops."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2B7A51C8CAE15F2A"
+			rewards: [
+				{
+					id: "682C3217F1E1078B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "728EFE0259FAE16B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AFF68D50F1FDC73"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:cooking_upgrade"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"729453D5C23D665E"
+				"31F43D874B481B87"
+			]
+			description: ["Applies &2Looting III&r to the cage drops. This upgrade can stack."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "01F1AC10A3365ABC"
+			rewards: [
+				{
+					id: "68767C78A5999B2E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3ED6195CDD71416D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31D99F3835BB6702"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:looting_upgrade"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"729453D5C23D665E"
+				"31F43D874B481B87"
+			]
+			description: ["Entities killed inside the cage drop &2Crystallized Experience&r. This upgrade can stack."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "3E60381A9A1149ED"
+			rewards: [
+				{
+					id: "6BDF683B74C6AC44"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1DD630A7A11E3047"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50CAD7EEDDC46748"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:experience_upgrade"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"729453D5C23D665E"
+				"31F43D874B481B87"
+			]
+			description: ["Increases the cage's &2speed by 50%&r. This upgrade can stack."]
+			hide_dependency_lines: true
+			id: "190F60E63A1CE6C2"
+			rewards: [
+				{
+					id: "39ABD362F76BDB2D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 7
+					id: "17F026B7243838DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A27B643BBD68653"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:speed_i_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["190F60E63A1CE6C2"]
+			description: ["Increases the cage's &2speed by 100%&r. This upgrade can stack."]
+			hide_dependency_lines: false
+			id: "525AD57340AB14D1"
+			rewards: [
+				{
+					id: "0A620C91D3C5B192"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5059CB4A41277244"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B47D32F8694999E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:speed_ii_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["525AD57340AB14D1"]
+			description: ["Increases the cage's &2speed by 200%&r. This upgrade can stack."]
+			id: "3C5DB2127560C5B4"
+			rewards: [
+				{
+					id: "395342EDA2F46A0C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "147F56F3B1DB6DD0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E21158043ECFF70"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:speed_iii_upgrade"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"4F028FCAAFC2AD22"
+			]
+			description: [
+				"The &2&lBotany Pots&r&r mod provides an easy and convenient way to grow and harvest certain types of crops. When combined with the &2&lBotany Trees&r&r mod, it also allows you to grow trees inside the Botany Pot. This can be used for decorative purposes or as a mini crop or wood farm."
+				""
+				"A &2&lHopper Botany Pot&r&r automates the process by harvesting the crop or tree, placing the drops into any inventory beneath it, and replanting the seed or sapling."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botanypots:green_concrete_hopper_botany_pot"
+			}
+			icon_scale: 1.4d
+			id: "3002ABD3A1AAF1A7"
+			rewards: [{
+				id: "6AD2675621C1834B"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "Introduction"
+			tasks: [{
+				id: "7AAF7C8A412659F0"
+				type: "checkmark"
+			}]
+			title: "&2&lBotany Pots"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3002ABD3A1AAF1A7"]
+			description: [
+				"To get started, first craft a &l&2Hopper Botany Pot&r&r. Next, consider the type of crop you want to grow and the soil it requires. There are various types of soil blocks, and certain crops need specific soils. For example, wheat grows in dirt, while nether wart requires soul sand (&ccheck JEI for the appropriate types of soil blocks for each crop or sapling&r). Once you have the appropriate soil and seed, simply right-click the Botany Pot with the soil first, followed by the seed to begin the growth process. Crops may take some time to grow, but you can speed it up using bone meal or other fertilizers."
+				""
+				"Each &2&lHopper Botany Pot&r&r has its own 12-slot inventory. If the pot is not placed above a block with an inventory, it will fill its own inventory and stop growing once it’s full. Be sure to clear some space to keep the crops growing."
+			]
+			id: "7C3181ED07B8D3C4"
+			rewards: [
+				{
+					id: "08E532ECFBD4CBD6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3CB02DA7DBD413FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Hopper Botany Pot"
+			tasks: [{
+				id: "2CE9F26CA27BAE83"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:hopper_botany_pots"
+					}
+				}
+				title: "Hopper Botany Pot"
+				type: "item"
+			}]
+			title: "&2&lGetting Started"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3002ABD3A1AAF1A7"]
+			description: ["Did you know that normal Botany Pots are &6one of the rarest items&r in our modpack? Well, it looks like you're the lucky one who chose the Nubekube v1.0 starter hut and obtained this rare item. Cherish it and keep it stored in a safe place—you never know, it might unlock some opportunities for you in the future."]
+			id: "51ABE2FCD3F79E4E"
+			invisible: true
+			rewards: [
+				{
+					id: "1BE4D5ACFF918CA0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "66C4314B7EA07BFC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "That’s a lot of pot-ential!"
+			tasks: [{
+				id: "5C8AE2EB7288901D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botanypots:terracotta_botany_pot"
+				}
+				type: "item"
+			}]
+			title: "&2&lHow did you get this? :O"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "1C2BB9B04F4789BB"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "19ACD0B6B9012113"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: 0.0d
+			y: -1.0d
+		}
+	]
+	title: "&eMob Cages and Botany Pots"
+}

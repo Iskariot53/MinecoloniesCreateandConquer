@@ -1,0 +1,721 @@
+{
+	autofocus_id: "5EDA313229862382"
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "toms_simple_storage"
+	group: "205034DE57B28B09"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "toms_storage:ts.inventory_connector"
+	}
+	id: "5E8B386358D2260F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["23E17B3FF501BEA0"]
+			description: [
+				"Are you looking for a better storage system that offers a ton of functionality while remaining simple and easy to understand? You've come to the right place!"
+				""
+				"&l&eTom's Simple Storage&r&r, as the name suggests, is a simple vanilla style storage mod that provides a straightforward and easy-to-use network for all of your storage needs."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:chest"
+			}
+			icon_scale: 1.3d
+			id: "5975E292A7528076"
+			rewards: [{
+				id: "53975DDE17415A06"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "26C6F3673D29AE2F"
+				type: "checkmark"
+			}]
+			title: "&lWelcome to Tom's Simple Storage!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5975E292A7528076"]
+			description: ["The &e&lStorage Terminal&r&r allows you to access the inventory of any block that can hold items, such as chests or crates by simply placing it on the inventory block."]
+			id: "03C85DC2F154684B"
+			rewards: [
+				{
+					id: "4CDF4DC37BC35689"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "09E99E0B346AFBDC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "66273EA29B8AF47A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.storage_terminal"
+				}
+				type: "item"
+			}]
+			title: "&lStorage Terminal"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03C85DC2F154684B"]
+			description: ["The &e&lCrafting Terminal&r&r is an upgraded version of the Storage Terminal, featuring a built-in crafting table. It also integrates with &eJEI&r for automatic interaction with the terminal."]
+			icon_scale: 1.5d
+			id: "78DC4A5D9E49BE0E"
+			rewards: [
+				{
+					id: "2D1609F2F1A14E79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "41B830124ADAC857"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "746C9088644E33AD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.crafting_terminal"
+				}
+				type: "item"
+			}]
+			title: "&lCrafting Terminal"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["03C85DC2F154684B"]
+			description: [
+				"Now that you know how to connect a single chest or crate to your terminal, how do you connect multiple to expand your storage? You can do this with an &e&lInventory Connector&r&r block! "
+				""
+				"Simply place the &e&lInventory Connector&r&r block against a storage block like a chest or crate, then attach the terminal to the Inventory Connector. You can stack chests or crates on top of each other or side by side to increase storage, and access all of them through the terminal."
+			]
+			id: "6CE068D4A1B95EB9"
+			rewards: [
+				{
+					id: "7FBE0EA7A3E07805"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "2081983A2C428A71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "71E7BF671080B400"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.inventory_connector"
+				}
+				type: "item"
+			}]
+			title: "&lInventory Connector"
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6CE068D4A1B95EB9"]
+			description: [
+				"Now you can store large amounts of items, but what if you have items in two different areas and want to access both from a single terminal? This is where the &e&lInventory Cable&r&r and &e&lInventory Cable Connector&r&r come into play!"
+				""
+				"Place the &e&lInventory Cable Connector&r&r on the storage block, then connect it to the &c&lInventory Connector block&r&r using &e&lInventory Cables&r&r. Repeat this for as many storage blocks as needed, and all of them will be accessible through the terminal."
+			]
+			id: "06F6FB4557C2EFCB"
+			rewards: [
+				{
+					id: "1652F975A1551F1E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "0E12191E9C1B8071"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 6L
+					id: "74C22635ECAB0A7D"
+					item: {
+						Count: 6
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "6A9D8AD6F9ECEF6D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_cable_connector"
+					}
+					type: "item"
+				}
+			]
+			title: "&lInventory Cables and Cable Connectors"
+			x: 7.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6CE068D4A1B95EB9"]
+			description: ["&e&lInventory Trims&r&r work similarly to &cInventory Cables&r. Place Inventory Trims between an Inventory Connector block and any storage block to access it through the terminal."]
+			id: "43763E012BBF5951"
+			rewards: [
+				{
+					id: "4FC020E4104272E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "731F8B41D6778125"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "1E5829CCB1E9E1C8"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.trim"
+				}
+				type: "item"
+			}]
+			title: "&lInventory Trims"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06F6FB4557C2EFCB"]
+			description: [
+				"The &e&lBasic Inventory Hopper&r&r allows you to pull items from an inventory and send them elsewhere in the network. Simply place the Inventory Hopper against the storage block and connect it with cables. You can also set a &efilter&r by right-clicking on the hopper with an item or filter. To remove the filter, shift-right-click on the hopper."
+				""
+				"If you want to send specific items to certain chests, use a &l&eFiltered Inventory Cable Connector&r&r. Place it against the storage block and connect it with inventory cables. To &efilter&r the items allowed into the storage block, right-click on the connector and you can assign up to nine different items."
+				""
+				"Now that you've created a simple auto-sorting setup, you can easily sort items from something like a skeleton farm for example. However, you might face one problem: skeletons also drop bows and armor, which you may not want in your system. This is where the &e&lOpen Crate&r&r comes in play. The &e&lOpen Crate&r&r will automatically pull out any items from the system and drop them on the ground if they can't be sorted into any chests. You can place it with some lava in front of it to burn unwanted items. (&l&cMake sure there's something to destroy the items the Open Crate drops, or else a large number of item entities on the ground could cause significant lag!&r&r)"
+			]
+			id: "483153D5181940D0"
+			rewards: [
+				{
+					id: "537DBCDB8F163107"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7FC6274B9F994B03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "5973DB2AB29FF5F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_hopper_basic"
+					}
+					type: "item"
+				}
+				{
+					id: "349E8A1D91149A7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_cable_connector_filtered"
+					}
+					type: "item"
+				}
+				{
+					id: "0715D1171B16D70A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.open_crate"
+					}
+					type: "item"
+				}
+			]
+			title: "&lA Simple Setup to Auto-Sort Items"
+			x: 9.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["483153D5181940D0"]
+			description: [
+				"An &e&lItem Filter&r&r allows you to filter multiple items, damage and NBT data."
+				""
+				"A &e&lTag Item Filter&r&r allows you to filter items based on a tag."
+				""
+				"A &e&lPolymorphic Item Filter&r&r only allow inserting items that already exist in the inventory."
+				""
+				"After setting up a Filter, click with it on the &e&lBasic Inventory Hopper&r&r to use it."
+			]
+			id: "480754D635A66A50"
+			rewards: [
+				{
+					id: "10FB173792CFC0F9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2B0BEC20E87347F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "5A9CABFE8443C973"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.item_filter"
+					}
+					type: "item"
+				}
+				{
+					id: "3E8B4299F8E2437D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.tag_item_filter"
+					}
+					type: "item"
+				}
+				{
+					id: "1AAFBFA3EB59EDFF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.polymorphic_item_filter"
+					}
+					type: "item"
+				}
+			]
+			title: "&lHopper Filters"
+			x: 11.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03C85DC2F154684B"]
+			description: ["The &e&lWireless Terminal&r&r extends your range, allowing you to interact with any terminal within &c16&r blocks or less, as long as it is &ein your line of sight&r."]
+			id: "43313C5DC0B1A869"
+			rewards: [
+				{
+					id: "36839F5EB0E749A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "684C8A8F4C540B1C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2A969C4B834CD4F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.wireless_terminal"
+				}
+				type: "item"
+			}]
+			title: "&lWireless Terminal"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43313C5DC0B1A869"]
+			description: [
+				"The &e&lAdvanced Wireless Terminal&r&r is an upgraded version of the &eWireless Terminal&r, allowing you to access the terminal's inventory from up to &c64&r blocks away. Shift + right-click your storage terminal to bind your wireless terminal to it."
+				""
+				"Building a &elevel 1 beacon&r within range of the regular terminal will let you access its inventory from &9anywhere in the same dimension&r."
+				""
+				"Building a &elevel 4 beacon&r within range of the regular terminal will let you access its inventory from &9anywhere across any dimension&r."
+			]
+			id: "7AF413345F4556FF"
+			rewards: [
+				{
+					id: "273684D349C9F729"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0BCFCF3B04F8E1CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "56AA4292D2C98B68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.adv_wireless_terminal"
+				}
+				type: "item"
+			}]
+			title: "&lAdvanced Wireless Terminal"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06F6FB4557C2EFCB"]
+			description: ["The &e&lLevel Emitter&r&r emits a redstone signal based on the contents of the inventory. For example, you can place one on top of an &eInventory Connector&r and configure it to emit a redstone signal when your diamonds fill up an entire chest."]
+			id: "5071993FEB516DF2"
+			rewards: [
+				{
+					id: "5D9EBAB22CC64CDC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3850C41E5CA08D4B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53814FB193B84505"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.level_emitter"
+				}
+				type: "item"
+			}]
+			title: "&lLevel Emitter"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06F6FB4557C2EFCB"]
+			description: ["&e&lFramed Inventory Cables&r&r and &e&lFramed Inventory Cable Connectors&r&r are used to create a storage system without compromising the aesthetics of your base. When these items are placed, you can use a &l&ePaint Kit&r&r. Simply shift-right-click any full-sized block with the &l&ePaint Kit&r&r, then right-click your cables and connectors to transform them into any other block, ensuring your building's appearance remains intact."]
+			id: "67A58B04577F0602"
+			rewards: [
+				{
+					id: "24FA5D6070BA07BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "221B4507CEC3ACF7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0F510E97E92FDCA1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_cable_framed"
+					}
+					type: "item"
+				}
+				{
+					id: "44EF491F95593351"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.inventory_cable_connector_framed"
+					}
+					type: "item"
+				}
+				{
+					id: "1B66527B36A3D455"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "toms_storage:ts.paint_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&lFramed Cables and Cable Connectors"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5975E292A7528076"]
+			description: ["The &e&lInventory Proxy block&r&r allows you to extend the face of a block. Each block has &c6 sides&r by default, but if you have a machine that requires power, an input, an output, fluid input, fluid output, and redstone control, you may run into a problem if you need another side. This block enables you to extend it, providing an additional &c4 sides&r for use with your machine."]
+			id: "7C8E2FFA1BD65AE6"
+			rewards: [
+				{
+					id: "55B91F3D30C191E0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "1A9BB2042FC3CAAB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4DD9FEB722CABFCB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "toms_storage:ts.inventory_proxy"
+				}
+				type: "item"
+			}]
+			title: "&lInventory Proxy"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "5EDA313229862382"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "67CA9A067CA67384"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: 3.5d
+			y: 2.0d
+		}
+	]
+	title: "&eTom's Simple Storage"
+}

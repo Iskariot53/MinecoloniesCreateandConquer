@@ -1,0 +1,698 @@
+{
+	autofocus_id: "16943E83E6312305"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "roost"
+	group: "73E078B9278C6A11"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "chicken_roost:c_diamond"
+		tag: { }
+	}
+	id: "7F753391C4A08141"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"517B276D1D59EC02"
+			]
+			description: [
+				"&l&cRoost Ultimate&r&r is a comprehensive expansion for Minecraft that opens up a new dimension of chicken breeding and resource production. Immerse yourself in a world of diverse chicken breeds, experiment with breeding, and optimize your resource yield. Enjoy the challenges and rewards this mod brings, and experience the game in a whole new way."
+				""
+				"Let’s start by crafting the &d&lRoost Ultimate Book&r&r, your starter guide for diving into the mod. Some basic chickens naturally spawn in specific biomes, and the last page of the book provides information on where different chickens can be found in the world."
+				""
+				"Aside from the &l&6Chicken Stick-Wrench&r&r looking cool in your hand, it’s the primary tool used to pick up any chickens you find while exploring. Craft one and get ready to chase down some chickens!"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "chicken_roost:chicken_stick"
+			}
+			id: "1C06D0643A1A3CD6"
+			rewards: [
+				{
+					id: "38D5E598120B9508"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "435F4A934C21E6F7"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "I'm not counting any chickens."
+			tasks: [
+				{
+					id: "6DE15EF46EB2ED24"
+					item: "chicken_roost:book"
+					type: "item"
+				}
+				{
+					id: "74E31978507842CB"
+					item: "chicken_roost:chicken_stick"
+					type: "item"
+				}
+			]
+			title: "Don't count your chickens before they hatch!"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1C06D0643A1A3CD6"
+				"4386DFA29FCEDD4D"
+				"517B276D1D59EC02"
+			]
+			description: ["Catch your first vanilla chicken using the &6&lChicken Stick&r&r. Vanilla chickens are essential for crafting the &l&eBreeder&r&r block, which is the core of the Roost Ultimate mod. Most of your chicken breeding will be done inside the Breeder to obtain all types of chickens from Tier 1 to Tier 9."]
+			hide: true
+			id: "6C435C7136BA92C9"
+			rewards: [{
+				id: "492377D4C490284E"
+				type: "xp"
+				xp: 3
+			}]
+			subtitle: "Wow.. did you think those were useless now?"
+			tasks: [{
+				count: 4L
+				id: "2240C5574AAAE67B"
+				item: {
+					Count: 1
+					id: "chicken_roost:c_vanilla"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Catch your first vanilla chicken!"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"6C435C7136BA92C9"
+				"01079DE692B0FDC1"
+				"517B276D1D59EC02"
+			]
+			description: [
+				"A simple Roost setup consists of at least &l&91 Roost, 1 Breeder, and 1 Trainer."
+				""
+				"Craft 1 of each to get started (again, JEI is your best friend)."
+				""
+				"&l&cBreeder&r&r: The Breeder allows you to create new chicken breeds. Each chicken variant has its own resource outputs, such as feathers, iron, or gold. Experiment with the Breeder to obtain the perfect chickens for your needs. Open the Breeder, input a chicken and some seeds to start the breeding process. Each tier of chickens requires a specific tier of chicken seeds for breeding, so check the third page of your &l&dRoost Ultimate Book&r&r for more information!"
+				""
+				"{@pagebreak}"
+				""
+				"&l&cRoost&r&r: This special chicken coop offers resource production. Chickens in the Roost not only produce typical resources like eggs and feathers but can also generate &4&nhigh-quality&r&r materials such as iron, gemstones, or magical items. Utilize these resources to craft powerful tools, armor, and items. Open the Roost, input a chicken and some chicken seeds to start resource production. Similar to the Breeder, each tier of chickens requires a specific tier of chicken seeds for resource production, so check the fourth page of your &l&dRoost Ultimate Book&r&r for more information!"
+				""
+				"{@pagebreak}"
+				""
+				"&l&3Trainer&r&r: The Trainer is used to level up your chickens and improve their statistics, allowing them to produce more resources, faster. You may have already noticed that each chicken seed provides some extra XP; that XP is used to train your chickens. Unlike the Breeder and Roost, you can use any tier of seeds for any tier of chickens. However, the higher the seed tier, the more XP it provides, and the faster the leveling process is. All chickens &lMAX&r out at &l&6Level 60&r&r, but each tier requires a different amount of XP to level up—the higher the tier, the more XP is required."
+			]
+			hide: true
+			id: "2F4EC3771D41D693"
+			rewards: [
+				{
+					id: "0CAC5501A96EDF50"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C8509EEB2E93A91"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Craft the main blocks needed to get started!"
+			tasks: [
+				{
+					id: "2839CBD0D5D01E8E"
+					item: "chicken_roost:breeder"
+					type: "item"
+				}
+				{
+					id: "0611B4C53C7AA9C1"
+					item: "chicken_roost:roost"
+					type: "item"
+				}
+				{
+					id: "00498C57703E61F9"
+					item: "chicken_roost:trainer"
+					type: "item"
+				}
+			]
+			title: "Create your first Roost setup"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1C06D0643A1A3CD6"
+				"4386DFA29FCEDD4D"
+				"517B276D1D59EC02"
+			]
+			description: [
+				"Chickens have different tiers depending on the type of resources they can produce. Chickens of higher tiers can provide more valuable resources that are harder to obtain or belong in the end-game."
+				""
+				"Find any &l&cTier 1 Chicken&r&r by picking it up with your Chicken Stick, then craft a &lSoul Extractor&r."
+				""
+				"A &lSoul Extractor&r, as the name suggests, is used to extract different tiers of souls from chickens. Each chicken soul is used to craft a different tier of chicken seeds (JEI is your best friend) and for &6Soul Breeding&r. But don’t get ahead of yourself—let's take baby steps for now."
+				""
+				"Place your &lSoul Extractor&r down, open it, and input your &l&cTier 1 chicken&r&r. After a few seconds, the soul will be extracted, and you will have a &l&cChicken Soul Tier 1&r&r. Combine it with some wheat seeds in a crafting table to get &l&cChicken Seeds Tier 1&r&r."
+				""
+				"&lChicken Seeds&r are crucial—without them, you CAN'T breed, train, or even produce resources with your chickens. Don’t worry though; you don't need to repeat this process for every handful of seeds. The great thing about all tiers of chicken seeds is that you can grow and harvest them in &l&eBotany Pots&r&r for more seeds and souls of the same tier. Now you no longer have any reason to harm those poor chickens for their souls—you cruel monster. Isn’t that amazing! C:"
+			]
+			hide: true
+			id: "01079DE692B0FDC1"
+			rewards: [
+				{
+					id: "61F616A975C3314B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "799E61F52356DB55"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Chicken Souls and Chicken Seeds"
+			tasks: [
+				{
+					id: "501B108899C439F3"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier1"
+						}
+					}
+					title: "Tier 1 Chicken"
+					type: "item"
+				}
+				{
+					id: "2F14E07AB5C9FA03"
+					item: "chicken_roost:soul_extractor"
+					type: "item"
+				}
+				{
+					id: "26E0A55BB4CE8BE5"
+					item: "chicken_roost:chicken_essence_tier_1"
+					type: "item"
+				}
+				{
+					id: "5ADB3B75DFB4C4A9"
+					item: "chicken_roost:chicken_food_tier_1"
+					type: "item"
+				}
+			]
+			title: "Taking your first steps"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"2F4EC3771D41D693"
+				"517B276D1D59EC02"
+			]
+			description: [
+				"Now that you have learnt the basics, it is time to start looking into obtaining chickens of higher tiers."
+				"Obtain a &l&9Tier 2 Chicken&r&r to be able to extract a &l&9Tier 2 Chicken Soul&r&r and make some &l&9Tier 2 Chicken Seeds&r&r."
+			]
+			hide: true
+			id: "1A4AD68A9B4E4694"
+			rewards: [
+				{
+					id: "6546C890AA311564"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "16D224DF0A918A31"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 2 everything"
+			tasks: [
+				{
+					id: "663AC8264CE1A122"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier2"
+						}
+					}
+					title: "Tier 2 Chicken"
+					type: "item"
+				}
+				{
+					id: "1AFA7AB55CAA4951"
+					item: "chicken_roost:chicken_essence_tier_2"
+					type: "item"
+				}
+				{
+					id: "3CB47DFFA51D8AF3"
+					item: "chicken_roost:chicken_food_tier_2"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Chickens"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1A4AD68A9B4E4694"
+				"517B276D1D59EC02"
+			]
+			description: ["Obtain a &l&2Tier 3 Chicken&r&r to be able to extract a &l&2Tier 3 Chicken Soul&r&r and make some &l&2Tier 3 Chicken Seeds&r&r."]
+			hide: true
+			id: "5F88C2724BD3710D"
+			rewards: [
+				{
+					id: "403B3EB010D3E16E"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 6
+					id: "005501709B511D56"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 3 everything"
+			tasks: [
+				{
+					id: "057E8B8DE184F374"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier3"
+						}
+					}
+					title: "Tier 3 Chicken"
+					type: "item"
+				}
+				{
+					id: "12ACD83D27D3AD2A"
+					item: "chicken_roost:chicken_essence_tier_3"
+					type: "item"
+				}
+				{
+					id: "157920220DDB793D"
+					item: "chicken_roost:chicken_food_tier_3"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5F88C2724BD3710D"
+				"517B276D1D59EC02"
+			]
+			description: ["Obtain a &l&eTier 4 Chicken&r&r to be able to extract a &l&eTier 4 Chicken Soul&r&r and make some &l&eTier 4 Chicken Seeds&r&r."]
+			hide: true
+			id: "3FD822D14A220FDF"
+			rewards: [
+				{
+					id: "40D56E1FC319442B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 7
+					id: "445F53F6E3B9B10A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 4 everything"
+			tasks: [
+				{
+					id: "5A5CFA2B04F6EBC8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier4"
+						}
+					}
+					title: "Tier 4 Chicken"
+					type: "item"
+				}
+				{
+					id: "2DB452362A9119C9"
+					item: "chicken_roost:chicken_essence_tier_4"
+					type: "item"
+				}
+				{
+					id: "28A8DA2BF64A2EFA"
+					item: "chicken_roost:chicken_food_tier_4"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3FD822D14A220FDF"
+				"517B276D1D59EC02"
+			]
+			description: ["Obtain a &l&3Tier 5 Chicken&r&r to be able to extract a &l&3Tier 5 Chicken Soul&r&r and make some &l&3Tier 5 Chicken Seeds&r&r."]
+			hide: true
+			id: "672BFCAB5B703608"
+			rewards: [
+				{
+					id: "7445B3A9FBC04542"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "62C75E6BD3A22BEF"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 5 everything"
+			tasks: [
+				{
+					count: 2L
+					id: "68DCB8B67AF6F81B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier5"
+						}
+					}
+					title: "Tier 5 Chicken"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "38DBCEF6B35EF30A"
+					item: "chicken_roost:chicken_essence_tier_5"
+					type: "item"
+				}
+				{
+					id: "33E2EED481E74EE6"
+					item: "chicken_roost:chicken_food_tier_5"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"672BFCAB5B703608"
+				"517B276D1D59EC02"
+			]
+			description: ["Obtain a &l&cTier 6 Chicken&r&r to be able to extract a &l&cTier 6 Chicken Soul&r&r and make some &l&cTier 6 Chicken Seeds&r&r."]
+			hide: true
+			id: "1A675526ABF1871F"
+			rewards: [
+				{
+					id: "288E8D305A51C2E6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "775805FC53848294"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 6 everything"
+			tasks: [
+				{
+					count: 3L
+					id: "54204024FCC593F5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier6"
+						}
+					}
+					title: "Tier 6 Chicken"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3A2560805481D023"
+					item: "chicken_roost:chicken_essence_tier_6"
+					type: "item"
+				}
+				{
+					id: "04B3561D3F436A23"
+					item: "chicken_roost:chicken_food_tier_6"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1A675526ABF1871F"
+				"517B276D1D59EC02"
+			]
+			description: ["Obtain a &l&7Tier 7 Chicken&r&r to be able to extract a &l&7Tier 7 Chicken Soul&r&r and make some &l&7Tier 7 Chicken Seeds&r&r."]
+			hide: true
+			id: "389A22E99EF7CCF6"
+			rewards: [
+				{
+					id: "4E06A2B52D1AE48F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C15B533735C9C79"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 7 everything"
+			tasks: [
+				{
+					count: 4L
+					id: "4A188044CA4BD919"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier7"
+						}
+					}
+					title: "Tier 7 Chicken"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7585901E20EB0875"
+					item: "chicken_roost:chicken_essence_tier_7"
+					type: "item"
+				}
+				{
+					id: "469277119C300FC7"
+					item: "chicken_roost:chicken_food_tier_7"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"389A22E99EF7CCF6"
+				"517B276D1D59EC02"
+			]
+			description: ["Obtain a &l&2Tier 8 Chicken&r&r to be able to extract a &l&2Tier 8 Chicken Soul&r&r and make some &l&2Tier 8 Chicken Seeds&r&r."]
+			hide: true
+			id: "64D6890763153102"
+			rewards: [
+				{
+					id: "5B156A901BA9D45C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40691C60E7028E7B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 8 everything"
+			tasks: [
+				{
+					count: 4L
+					id: "48C232A6132FBFDC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier8"
+						}
+					}
+					title: "Tier 8 Chicken"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "11EDE72FCB3C17DA"
+					item: "chicken_roost:chicken_essence_tier_8"
+					type: "item"
+				}
+				{
+					id: "27E06B8A1667B9AC"
+					item: "chicken_roost:chicken_food_tier_8"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"64D6890763153102"
+				"517B276D1D59EC02"
+			]
+			description: ["Obtain a &l&5Tier 9 Chicken&r&r to be able to extract a &l&5Tier 9 Chicken Soul&r&r and make some &l&5Tier 9 Chicken Seeds&r&r."]
+			hide: true
+			id: "477692F18537EC03"
+			rewards: [
+				{
+					id: "7BA6050A3E46E430"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "23AE9A5621C6B4EE"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "You made it to the last Tier! :D"
+			tasks: [
+				{
+					count: 4L
+					id: "63ED513C4FA6F39C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:roost/tier9"
+						}
+					}
+					title: "Tier 9 Chicken"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "42BB2B992CD4FF91"
+					item: "chicken_roost:chicken_essence_tier_9"
+					type: "item"
+				}
+				{
+					id: "1932128E448E906A"
+					item: "chicken_roost:chicken_food_tier_9"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1A675526ABF1871F"
+				"517B276D1D59EC02"
+			]
+			description: [
+				"Now that you have obtained the 6 Tiers of Chicken Souls, you can craft a &l&6Soul Breeder&r&r!"
+				""
+				"Do you have a chicken that you want another of, but you don’t feel like going through the tiring process of basic breeding and all the extra steps? The &l&6Soul Breeder&r&r has got you covered!"
+				""
+				"Input any chicken into the Soul Breeder along with a Chicken Soul that is &n&ethe same tier as the chicken or a tier higher&r&r to soul breed it and obtain a second chicken of the same type!"
+			]
+			hide: true
+			id: "32E228C76C3960C3"
+			rewards: [
+				{
+					id: "18A7A09124EB384B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2FFB1722D902E491"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Hey you.. wanna dupe some chickens? *wink*"
+			tasks: [{
+				id: "0DE909BC796EB9B3"
+				item: "chicken_roost:soul_breeder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "16943E83E6312305"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "0ADA1B5BEAAB0553"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -2.5d
+			y: 0.5d
+		}
+	]
+	title: "&eRoost Ultimate"
+}

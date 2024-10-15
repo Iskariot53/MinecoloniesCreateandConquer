@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "apotheosis:weapon_tome",
+    "cataclysm:gauntlet_of_guard",
+    "cataclysm:gauntlet_of_bulwark",
+    "cataclysm:the_incinerator",
+    "cataclysm:meat_shredder",
+    "cataclysm:void_forge",
+    "cataclysm:tidal_claws",
+    "cataclysm:infernal_forge",
+    "blue_skies:spike_shield",
+    "blue_skies:crushing_hammer",
+    "twilightforest:block_and_chain",
+    "farmersdelight:skillet"
+  ],
+  "incompatible": [
+    "apotheosis:shield_bash",
+    "ensorcellation:damage_illager",
+    "ensorcellation:magic_edge",
+    "minecraft:bane_of_arthropods",
+    "ensorcellation:damage_ender",
+    "ensorcellation:instigating",
+    "minecraft:impaling",
+    "deeperdarker:sculk_smite",
+    "endlessbiomes:vwooping",
+    "minecraft:smite",
+    "ensorcellation:damage_villager"
+  ]
+}

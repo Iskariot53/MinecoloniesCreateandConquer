@@ -1,0 +1,5171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "productive_bees"
+	group: "73E078B9278C6A11"
+	icon: "luphieclutteredmod:luphie_bee_lamp"
+	id: "707349D42B2378BD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["374D27B6E8DB7066"]
+			description: [
+				"To start your way down the road of &6Productive Bees&r, we will first need to acquire some resources from their vanilla counterparts."
+				""
+				"&ehoneycomb&r and &ehoney bottles&r are the foundation and fuel of any healthy swarm, we will want to automate and store these in bulk, eventually."
+			]
+			id: "49735C24C8F46C97"
+			rewards: [
+				{
+					id: "7CAA3BE86DD1F40C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "4C8B8C5A9B843649"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Beeginning with the basics"
+			tasks: [
+				{
+					count: 4L
+					id: "64C28F0AED54294A"
+					item: { Count: 4, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+				{
+					id: "3EE55E305ED53317"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			title: "Vanilla Materials"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4121A43B2DC07C1B"]
+			description: [
+				"In this chapter we will cover everything you need to know about &6Productive Bees&r, from the beeginners basics to some of the more advanced tips and keeping techniques as you grow and expand your facilibees to support them. "
+				""
+				"First things first, let's find ourselves a vanilla bee nest so we can get started harvesting honey and honeycomb."
+				""
+				"(No, the bee puns won't be stopping, not sorry)"
+			]
+			hide: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:bee_nest"
+			}
+			id: "374D27B6E8DB7066"
+			rewards: [
+				{
+					id: "3FA17BA4BFA7C3FE"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "31C3A1B3C1FC7ED3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Beefore we get ahead of ourselves"
+			tasks: [{
+				id: "43EF9DD0BE50803A"
+				title: "Welcome to Porductive Bees!"
+				type: "checkmark"
+			}]
+			title: "Welcome to Productive Bees!"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49735C24C8F46C97"]
+			description: ["The basic &6bee cage&r can be used to catch and store any bee, they may seem limited but there are a few niche situations in which the one time use cages are going to be preferred over the sturdy variant. They're also the only ones you can craft where as sturdy reusable cages are only found as &eloot&r."]
+			id: "0BA2EB1462A10A39"
+			rewards: [
+				{
+					id: "5CEFEE92FF2AE26C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "54A664326D288F97"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "1 time use cages"
+			tasks: [{
+				count: 4L
+				id: "7F7F0AA4760F6826"
+				item: { Count: 4, id: "productivebees:bee_cage" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BA2EB1462A10A39"]
+			description: ["If for whatever reason you lose the tome provided within the starter hut or you opted to not use the huts at all, The Big Book of Bees is easily crafted with a bee cage and a book."]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "productivebees:guide"
+				}
+			}
+			id: "73931D120F3C453D"
+			rewards: [{
+				id: "03EF30452E16625C"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			subtitle: "Just in case"
+			tasks: [{
+				id: "39D587CCE8C01B2A"
+				title: "The Big Book of Bees"
+				type: "checkmark"
+			}]
+			title: "The Big Book of Bees"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BA2EB1462A10A39"]
+			description: ["The &enest locator&r it essentially a compass, specially made for finding &6bee nests&r."]
+			id: "58F5764607FE31DA"
+			rewards: [
+				{
+					id: "1F404015EA7F9451"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7B171C9DDD78E08B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "If you prefer finding them"
+			tasks: [{
+				id: "700712ECBA2726D7"
+				item: {
+					Count: 1
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0BA2EB1462A10A39"]
+			description: ["To get started we're going to need to to automate the production of honey bottles and honey comb. The basic hive is the first step in moving from manual to automatic collection."]
+			id: "79161CA712E9F7D0"
+			rewards: [
+				{
+					id: "5C794C8029B63A99"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "0AF60C128AD0B1DF"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: " Collecting honey and comb"
+			tasks: [{
+				id: "0CE8EA0B16931F4D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:hives"
+					}
+				}
+				title: "Any #forge:hives"
+				type: "item"
+			}]
+			title: "Getting our vanilla bees set up"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79161CA712E9F7D0"]
+			description: [
+				"The primary difference between the standard hive VS. the advanced? &eThe inventory and its GUI&r."
+				""
+				"The advanced hive has an internal inventory, allowing it to store bottles for filling, as well as allowing it to produce honeycomb automatically (provided it has the inventory space)."
+				""
+				"Yes, &3pipes&r can be used to insert/remove items from the hives! "
+			]
+			id: "0B7B4C27767760A1"
+			rewards: [
+				{
+					id: "32F2EB33BD8B7BC3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "78E9A0CE182F5E77"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Much better"
+			tasks: [
+				{
+					id: "7ADB6EF272BF3CB7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:advanced_beehives"
+						}
+					}
+					title: "Any #productivebees:advanced_beehives"
+					type: "item"
+				}
+				{
+					id: "2FAFFFCEF8B738EC"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "productivebees:expansion_boxes"
+						}
+					}
+					title: "Any #productivebees:expansion_boxes"
+					type: "item"
+				}
+			]
+			title: "Automatic Hives"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0B7B4C27767760A1"]
+			description: [
+				"combining honeycombs and honey (no, it doesn't make sense, but go with it) makes honey treats, these can be used on solitary bee nests to spawn the bee associated with the type of nest the treat is used on. They're useful for feeding babees in an incubator as well as combining with genes to change genetics! (more on that later)."
+				""
+				"&6You will definitely want to automate the production of all 3&r: honey bottles, honey combs &oand&r honey treats. These are your 3 primary resources for bees. "
+				""
+				"You will use more of all 3 than you can count."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "1CC5B5C8271FEC0E"
+			rewards: [
+				{
+					id: "15F8685FA7EB9581"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 3
+					id: "37BC2ED28E69A27B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Bees love these"
+			tasks: [{
+				id: "28CD4ACAD2279769"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0B7B4C27767760A1"]
+			description: ["The centrifuge is used to process combs into various resources as well as separating genes from squashed bee material."]
+			hide: true
+			hide_dependency_lines: true
+			id: "579409C3F3A2F2F0"
+			rewards: [
+				{
+					id: "1B1BD27AE0C18744"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "543B0066212C72BE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The work horse of any apiary."
+			tasks: [{
+				id: "157C6D3E60DDA1C8"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["579409C3F3A2F2F0"]
+			description: ["The powered centrifuge uses &cRF&r to process materials at &6higher speeds&r."]
+			id: "0895EF6E5296A1E8"
+			rewards: [
+				{
+					id: "6BF1309D5DAABBF1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1F11386DA9C12442"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Faster and Better"
+			tasks: [{
+				id: "05ACF6BCA9214B0F"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.8392857142857082d
+		}
+		{
+			dependencies: ["0895EF6E5296A1E8"]
+			description: [
+				"The &cheated&r centrifuge is the fastest way to process combs, it also &6eliminates the production of wax&r, which is a good and bad thing."
+				""
+				"&nIts recommended not to use heated centrifuges exclusively&r."
+				""
+				"Or else you will completely eliminate the production of wax, which you need lots of for upgrades."
+			]
+			id: "530DFF4F3A9CCB42"
+			rewards: [
+				{
+					id: "61E17D4789177B4E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "79FE00915452DC15"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "More Faster, More Better"
+			tasks: [{
+				id: "46FCD48BE05C52BE"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			hide: true
+			hide_dependency_lines: true
+			id: "4745DE7E72238D40"
+			tasks: [{
+				id: "1F5F2588A452B626"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4745DE7E72238D40"]
+			description: ["Speed upgrades will decrease the amount of time a bee spends in its hive after every trip, When placed in centrifuges or any other block it decreases the operation time."]
+			id: "00E32809B273084F"
+			subtitle: "Feeling the need for speed?"
+			tasks: [{
+				id: "39215F92287A0A53"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B7EB59164BFECB7"]
+			description: ["The block upgrade causes bee to provide their combs in block form rather than just singular combs."]
+			id: "38A6143F44837211"
+			subtitle: "Comb blocks"
+			tasks: [{
+				id: "450388EDB7E4BB13"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4745DE7E72238D40"]
+			description: ["Causes the catcher to only collect adult bee."]
+			id: "7DC30599E114A3A1"
+			subtitle: "No more babees, please"
+			tasks: [{
+				id: "2837FE0877B49846"
+				item: "productivebees:upgrade_not_babee"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4745DE7E72238D40"]
+			description: ["The anti-teleportation upgrade will stop any bees that live within the hive that it is installed in from teleporting anymore."]
+			id: "682179B547AC48A5"
+			subtitle: "Let's see them get out now"
+			tasks: [{
+				id: "2CCA6A2DAF9593C6"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4745DE7E72238D40"]
+			description: [
+				"The babee upgrade can be used in a hive to provide a small chance for the bees within to breed without you having to do anything, providing that they would normally be capable of breeding otherwise."
+				""
+				"It can also be used in a catcher to make the catcher catch &oonly babees&r and not adults"
+			]
+			id: "4C8A24C2E2C2E995"
+			subtitle: "Need more babees?"
+			tasks: [{
+				id: "06A751D2988F9F88"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4745DE7E72238D40"]
+			description: ["When installed in a hive, the gene sampler will extract small gene samples from the bees working within the hive periodically, multiple upgrades will increase the yield."]
+			id: "70C9E4903746E071"
+			subtitle: "They're fiiiine"
+			tasks: [{
+				id: "75ED970F57162330"
+				item: "productivebees:upgrade_bee_sampler"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["682179B547AC48A5"]
+			description: [
+				"If going big with bees, then these are a must have to eliminate performance issues caused by things like entity pathing AI calculations."
+				""
+				"The simulator upgrade causes the bees to remain within their hives and simulate a trip to their feeding flower/block/slab."
+				""
+				""
+				"For this to work the flower, block or slab must be placed 1 BLOCK IN FRONT OF AND &n&l&oBELOW&r&r&r the entrance to the hive."
+			]
+			id: "28C43D8DA14233E8"
+			subtitle: "YOU NEED THESE"
+			tasks: [{
+				id: "289E39F33853ADB6"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4745DE7E72238D40"]
+			description: [
+				"The range upgrade will increase the effective range of specialty bees like the farmer, rancher and hoarder bee by 1 block per upgrade. "
+				""
+				"It can also be placed into a catcher to increase the range in which it can catch bees and make it actually worth using, otherwise don't bother."
+			]
+			id: "5EB495D8571A9118"
+			subtitle: "Expansion without boxes"
+			tasks: [{
+				id: "1821C976F84F1909"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4745DE7E72238D40"]
+			description: ["The Alpha upgrade will increase the number of combs produced by any given bee per trip by %120."]
+			id: "0C4065E442FF26E2"
+			subtitle: "Now we're talking production."
+			tasks: [{
+				id: "7F434191EFF0437A"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C4065E442FF26E2"]
+			description: ["The beta upgrade functions the same as the alpha upgrade, but this one provides a %150 increase to combs yielded."]
+			id: "3B7EB59164BFECB7"
+			subtitle: "Need more production"
+			tasks: [{
+				id: "2DF0D7BA7EC7A043"
+				item: "productivebees:upgrade_productivity_2"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3B7EB59164BFECB7"
+				"28C43D8DA14233E8"
+			]
+			description: ["The gamma upgrade is essentially the same as the beta upgrade, except it provides a %200 boost to production as well as functioning as a simulator upgrade."]
+			id: "4E23C99DB4D1F7BD"
+			subtitle: "More"
+			tasks: [{
+				id: "72F614CF24EF5D9F"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4E23C99DB4D1F7BD"
+				"38A6143F44837211"
+			]
+			description: ["The omega upgrade. The pinnacle of bee production. it grants a %260 bonus to production as well as functions as BOTH a simulator AND a block upgrade."]
+			id: "7EF793431CB519F0"
+			subtitle: "MOAR"
+			tasks: [{
+				id: "045FDA063FDBCBFE"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["The home of the &3crystalline&r bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "3776E78E513B95F2"
+			rewards: [
+				{
+					id: "6A455131647356A8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "106AE37906F2A013"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Iron Sword + Nether Quartz Ore"
+			tasks: [{
+				id: "6AA1D5C1760EF1FB"
+				item: "productivebees:nether_quartz_nest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: [
+				"&6Solitary bees&r and their nests can be found throughout the world, different nests can be found in different biomes and dimensions, we'll need to hunt some of these down in order to breed them for the resource producing bees we're all actually after."
+				""
+				"&aJEI&r will be the best way to determine what nest to use for the bee you're hunting. They are also craftable using the respective nest material + a sword of varying materials, depending on the nest."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "27C3E7FB9ADD2FA0"
+			rewards: [
+				{
+					id: "189F419070313A81"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "2057292E7C8AE8D6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "You can find them, OR"
+			tasks: [{
+				id: "14A1DEEB37A06DE9"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "productivebees:solitary_overworld_nests"
+					}
+				}
+				title: "Any #productivebees:solitary_overworld_nests"
+				type: "item"
+			}]
+			title: "Overworld Nests"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["The home of the &eglowing&r bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "589823025F8C78D2"
+			rewards: [
+				{
+					id: "5F07EB8F4217DBEB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4EECB879A77D056B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Wooden Sword + Glowstone"
+			tasks: [{
+				id: "49923C5A02878752"
+				item: "productivebees:glowstone_nest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["The home of the &bghostly&r bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "0CDDB924182973FF"
+			rewards: [
+				{
+					id: "328EA681695F925C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "751467FFF00D93F5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Wooden Sword + Soul Sand"
+			tasks: [{
+				id: "5B0EE92558C641DF"
+				item: "productivebees:soul_sand_nest"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["The home of the &cmagmatic&r bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "054DC93067884DA6"
+			rewards: [
+				{
+					id: "36C9DF21591E1418"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "73F4CA173EBACED9"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Iron Sword + Nether Bricks"
+			tasks: [{
+				id: "35218AC9D109720C"
+				item: "productivebees:nether_brick_nest"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["The home of the &0draconic&r bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "6C08D0E6135ECE97"
+			rewards: [
+				{
+					id: "7005FC6A3846A8DD"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "25D5108AFA3418E5"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Diamond Sword + Obsidian"
+			tasks: [{
+				id: "5014CC68B77D9195"
+				item: "productivebees:obsidian_nest"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["The home of the &dender&r bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "3D80E0453827CB27"
+			rewards: [
+				{
+					id: "5869C51335642584"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "526919C22CF4FBA9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Iron Sword + End Stone"
+			tasks: [{
+				id: "7713CE47D4D8F86D"
+				item: "productivebees:end_stone_nest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &6wooden&r nest to spawn a yellow carpenter bee. (use JEI to determine which wood to use for which bee)."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "642F8A704D9EBFA7"
+			rewards: [
+				{
+					id: "0F99D6B37EF11840"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2C7556F76DD1AB4C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Wood nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "7ADC2EA595A49858"
+				observe_type: 5
+				timer: 0L
+				title: "Find a yellow carpenter bee"
+				to_observe: "productivebees:yellow_black_carpenter_bee"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &6wooden&r nest to obtain a gree carpenter bee. (use JEI to determine which wood for which type of carpenter bee)."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "30A2795DDB5738A9"
+			rewards: [
+				{
+					id: "2CA0A4B89222079C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1C4638D956B8F718"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Wood nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "458C517D3D1261A0"
+				observe_type: 5
+				timer: 0L
+				title: "Find a green carpenter bee"
+				to_observe: "productivebees:green_carpenter_bee"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &areed&r nest to spawn a reed bee if you sannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "52AE104474C902F2"
+			rewards: [
+				{
+					id: "60C151B3CCD49111"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0DA4343B9F1316AE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Look near rivers"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3B07531AC37F1FF7"
+				observe_type: 5
+				timer: 0L
+				title: "Find a reed bee"
+				to_observe: "productivebees:reed_bee"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a snow nest to spawn a sweat bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "4EA048C35F3DDF3D"
+			rewards: [
+				{
+					id: "6565FF3B6DF41698"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3A991D419BACF3FC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Cold areas"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "50910F15C9ECFB6D"
+				observe_type: 5
+				timer: 0L
+				title: "Find a sweat bee"
+				to_observe: "productivebees:sweat_bee"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &6dark oak&r, &dcherry&r or &cacacia&r nest to spawn a blue banded bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "62BB492DEB62CA4A"
+			rewards: [
+				{
+					id: "4883D39544BBBBC9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4E28241E572A2A9A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Dark oak, cherry and acacia nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "6C59AFEED74211BE"
+				observe_type: 5
+				timer: 0L
+				title: "Find a blue banded bee"
+				to_observe: "productivebees:blue_banded_bee"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &6dirt&r nest to spawn a leafcutter bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "55D2A095F821FACF"
+			rewards: [
+				{
+					id: "592A989238655E0D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "342C2C49CBFD703E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Dirt nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2F451578944B014C"
+				observe_type: 5
+				timer: 0L
+				title: "Find a leafcutter bee"
+				to_observe: "productivebees:leafcutter_bee"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["The nomad bee has a small chance to spawn and take the nest of the &7ashy mining bee&r."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "683D320D0550F5D2"
+			rewards: [
+				{
+					id: "7C8385B58B2C349E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "556B23243F4669D5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Nest thief"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "1848FCD17ECF06C9"
+				observe_type: 5
+				timer: 0L
+				title: "Find a nomad bee"
+				to_observe: "productivebees:nomad_bee"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["The neon cuckoo bee wil periodically move into the nest of the &9blue banded bee&r."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "1ED89471EB68D98D"
+			rewards: [
+				{
+					id: "5B7ABBA4E462968F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "7260DB064980D37E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Nest thief"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "4B979C37C46C37F1"
+				observe_type: 5
+				timer: 0L
+				title: "Find a neon cuckoo bee"
+				to_observe: "productivebees:neon_cuckoo_bee"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &7gravel&r or &7stone&r nest to spawn a digger bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "0155DD9149A294EF"
+			rewards: [
+				{
+					id: "12D68DB4E1FFA7D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "315EF517D48352CF"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Gravel or stone"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "6A4B835D63076AAC"
+				observe_type: 5
+				timer: 0L
+				title: "Find a digger bee"
+				to_observe: "productivebees:digger_bee"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &esand&r, &7gravel&r or&6 dirt &rnest to spawn a chocolate mining bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "1B0961593E2BB06A"
+			rewards: [
+				{
+					id: "0297DB9C655A85D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "5FA14FA6CE0E2515"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Sand, gravel or dirt nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "5192854682D3DF80"
+				observe_type: 5
+				timer: 0L
+				title: "Find a chocolate mining bee"
+				to_observe: "productivebees:chocolate_mining_bee"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &esand&r, &7gravel&r or &6dirt&r nest to spawn an ashy mining bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "74CED089C7C570EE"
+			rewards: [
+				{
+					id: "029F033AB75DEDDC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "5B9BF9FC48A949A4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Sand, gravel and dirt nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2E0FAFFC870F5142"
+				observe_type: 5
+				timer: 0L
+				title: "Find an ashy mining bee"
+				to_observe: "productivebees:ashy_mining_bee"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"38A6143F44837211"
+				"00E32809B273084F"
+			]
+			description: [
+				"Not all upgrades are created equally."
+				""
+				"As a &6general&r rule: "
+				""
+				"&aSpeed&r upgrades are best in machine blocks, like centrifuges."
+				""
+				"&9Omega&r upgrades are best for hives."
+				""
+				"A hive with 4 omega upgrades will outpace a hive with a combination of them with speed."
+				""
+				"While slow, with patience, pokey pokey upgrades are oftentimes the easiest way to duplicate a bee species. Especially the more \"exotic\" bees"
+			]
+			hide_dependency_lines: true
+			icon: "productivebees:upgrade_productivity_4"
+			id: "3825DE01F400EA4D"
+			size: 2.0d
+			subtitle: "This is the way"
+			tasks: [{
+				id: "63E03E64BA6D80EB"
+				title: "So which is best?"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &7stone&r or &areed&r nest to spawn a mason bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "0BCA00285412FC60"
+			rewards: [
+				{
+					id: "3CBE8EA0835EC0BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "14F2F3DBB87EAE5F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Stone or reed nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3940D7A919DE5C99"
+				observe_type: 5
+				timer: 0L
+				title: "Find a mason bee"
+				to_observe: "productivebees:mason_bee"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Use a honey treat on a &6spruce&r nest to spawn a resin bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "47F1D527F27D77EF"
+			rewards: [
+				{
+					id: "61E0D72A35DA913C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "11B27ED5BD97656C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Spruce nests"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "66DA8DF3FF6BB497"
+				observe_type: 5
+				timer: 0L
+				title: "Find a resin bee"
+				to_observe: "productivebees:resin_bee"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["Using a honey treat on a stick, you can mount and fly a bumblebee, just like vanilla pigs with wings!"]
+			hide: false
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:saddle"
+			id: "6B13C10FE0817C26"
+			rewards: [
+				{
+					id: "34EBF9B7092E2F3A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "18BD52A6AB89ACAA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Woah there bee biscuit"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "productivebees:treat_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "44DD4724AE798804"
+				observe_type: 5
+				timer: 0L
+				to_observe: "productivebees:bumble_bee"
+				type: "observation"
+			}]
+			title: "One you can ride!"
+			x: -0.035714285714277594d
+			y: 7.267857142857146d
+		}
+		{
+			dependencies: ["3776E78E513B95F2"]
+			description: ["Use nether quartz on a &7quartz&r nest to spawn a crystalline bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "2B23AD177049428C"
+			rewards: [
+				{
+					id: "608C39BE69459ACC"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "75598900216A17B6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Not as fragile as its name implies"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "418B7CBFE8ABF7B2"
+				observe_type: 5
+				timer: 0L
+				title: "Find a crystalline bee"
+				to_observe: "productivebees:crystalline"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["589823025F8C78D2"]
+			description: [
+				"Craft a &eglowstone&r nest, and use glowstone dust as bait to spawn a glowing bee if you cannot find one (good luck)."
+				""
+				"These can be notoriously difficult to find, just craft and bait the nest if so."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "25DD01A25EBDFE0A"
+			rewards: [
+				{
+					id: "2050F85174F95463"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "11F7A3DB06320A92"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Just go ahead and craft the nest for this one"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "06AD8723E17F034F"
+				observe_type: 5
+				timer: 0L
+				title: "Find a glowing bee"
+				to_observe: "productivebees:glowing"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["054DC93067884DA6"]
+			description: ["Use magma cream on a &cnether brick&r nest to spawn a magmatic bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "612DB4407ADEEDEE"
+			rewards: [
+				{
+					id: "2CDDA4FB199FC58D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "27211ADB4C947CD5"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Found around nether fortresses"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "27EE17FD07458B36"
+				observe_type: 5
+				timer: 0L
+				title: "Find a magmatic bee"
+				to_observe: "productivebees:magmatic"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5AF7AD2AFE15D5FD"]
+			description: ["Use a honey treat on a slimy nest to spawn a slimy bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "20635A3C82EA9451"
+			rewards: [
+				{
+					id: "25CEDD79D0BD6ED0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "50C3B093C6E399BB"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "ew... it's sticky"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2DA3480D11AE9DEF"
+				observe_type: 5
+				timer: 0L
+				title: "Find a slimy bee"
+				to_observe: "productivebees:slimy"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["27C3E7FB9ADD2FA0"]
+			description: ["Sugarbag bees have a very small chance to spawn inside of &6cocoa bean pods&r, grow and break as many pods as you can and you should *eventually* spawn at least 1. They produce a comb very useful as an early game food supply. provided you have chosen an origin that allows you to eat it."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "24D263576EA9EAB9"
+			rewards: [
+				{
+					id: "296CD16AF7A87FC4"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "06686263017EE6D1"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "This one can be quick, can take a whille."
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "5EF41BEDBCCCCC54"
+				observe_type: 5
+				timer: 0L
+				title: "Find a sugarbag bee"
+				to_observe: "productivebees:sugarbag"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0CDDB924182973FF"]
+			description: ["Use a ghast tear on a &6soul sand&r nest to spawn a ghostly bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "0B87874066386C35"
+			rewards: [
+				{
+					id: "4ECC3E724D707A4E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "124B612C185A5400"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "This ones \"fun\""
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "6054DB848B076888"
+				observe_type: 5
+				timer: 0L
+				title: "Find a ghostly bee"
+				to_observe: "productivebees:ghostly"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"1CC5B5C8271FEC0E"
+				"27C3E7FB9ADD2FA0"
+			]
+			description: [
+				"Bees will occasionally be caught while fishing, and are usually not very happy, but if you're quick you can catch them before they sting you and inevitably die. "
+				""
+				"Different bees are caught from fishing in &6different biomes&r, use &aJEI &rfor information on locating a specific bees biome location."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "284B2602637F5596"
+			rewards: [{
+				id: "7F261292FF9AD61B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Ya... that's a thing"
+			tasks: [{
+				id: "3B3B3E27081D6D28"
+				title: "Fishing for bees"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"27C3E7FB9ADD2FA0"
+				"1CC5B5C8271FEC0E"
+			]
+			description: ["Not all bees are created equally... as such... not all bees work equally, here are some examples of \"specialty\" bees bred for a specific job, rather than just producing combs."]
+			hide: true
+			hide_dependency_lines: true
+			icon: "thermal:iron_gear"
+			id: "00D738AD58B0E84A"
+			rewards: [{
+				id: "7F4585DD232F179C"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Worker bees"
+			tasks: [{
+				id: "560433BAA5660024"
+				title: "Specialty bees"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["6C08D0E6135ECE97"]
+			description: [
+				"Use &ddragons breath&r on an obsidian nest to spawn a draconic bee. These are the key to the most powerful upgrades for your bees."
+				""
+				"When working in the end they do not need a flower source, when in the overworld they require a &5dragon egg&r for a flower."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "0E890DBF19049A6D"
+			rewards: [
+				{
+					id: "7367A9E7AF9CC7FB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "35B5AE44F9ACE7B5"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2C1F320976EFBEC3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Go see if the ender dragon's nice enough to help"
+			tasks: [
+				{
+					icon: "productivebees:bee_cage"
+					id: "2E5E77BB5ED682FD"
+					observe_type: 5
+					timer: 0L
+					title: "Find a draconic bee"
+					to_observe: "productivebees:draconic"
+					type: "observation"
+				}
+				{
+					id: "70544FF5E3173A62"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "537BDDA5FB41F747"
+					item: "productivebees:draconic_dust"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["284B2602637F5596"]
+			description: ["Use a fishing rod to catch a water bee."]
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "3A22D022867F9AC9"
+			rewards: [
+				{
+					id: "7833AD7740D5CC39"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "25862A0F0198D8BC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "River bees"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2AF893AF6E8356AD"
+				observe_type: 5
+				timer: 0L
+				title: "Find a water bee"
+				to_observe: "productivebees:water"
+				type: "observation"
+			}]
+			title: "Find a water bee"
+			x: 5.999999999999993d
+			y: 10.124999999999993d
+		}
+		{
+			dependencies: ["284B2602637F5596"]
+			description: [
+				"Use a fishing rod to catch a &3prismarine&r bee."
+				""
+				"This is the best way to get the works in \"&6any&r\" weather gene."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "74BB924138418DD3"
+			rewards: [
+				{
+					id: "664ACC2F46037214"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4D2D6FFBD229881F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Always has \"any\" weather gene"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "19A2ADA9DB6CAEFD"
+				observe_type: 5
+				timer: 0L
+				title: "Find a prismarine bee"
+				to_observe: "productivebees:prismarine"
+				type: "observation"
+			}]
+			x: 5.999999999999993d
+			y: 11.910714285714278d
+		}
+		{
+			dependencies: ["284B2602637F5596"]
+			description: ["Use a fishing rod to catch an oily bee."]
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "3D7F0641EB55CA01"
+			rewards: [
+				{
+					id: "3FC23D63D9D06AEB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "17E1D4ECDA7EA903"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Offshore oily bee"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2F88D672CE00A605"
+				observe_type: 5
+				timer: 0L
+				title: "Find an oily bee"
+				to_observe: "productivebees:oily"
+				type: "observation"
+			}]
+			x: 7.035714285714278d
+			y: 11.94642857142857d
+		}
+		{
+			dependencies: ["00D738AD58B0E84A"]
+			description: [
+				"Use a &8hopper&r on a vanilla be to convert it into a collector bee. "
+				""
+				"Collector bees will gather all &eitem&r entities within range of their hive and bring them back for storage!"
+			]
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "693B69D43BE2CC18"
+			rewards: [
+				{
+					id: "2DE8A95E25A1807D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0CE14FE3260D7DA4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Item collection via bee"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "0EC997BB42002133"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a collector bee"
+				to_observe: "productivebees:collector_bee"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["00D738AD58B0E84A"]
+			description: [
+				"Use a &dshulker shell&r on a collector bee to convert it into a hoarder bee."
+				""
+				"They are an upgraded variant of their lesser brethren."
+			]
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "10858AECE0E9835F"
+			rewards: [
+				{
+					id: "4653E75DD8795C2E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "4012D2BF3DA69201"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "A better collector bee"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "089279FD8D5BDD76"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a hoarder bee"
+				to_observe: "productivebees:hoarder_bee"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["00D738AD58B0E84A"]
+			description: [
+				"Breeding a yellow carpenter bee with a green one will yield lumber bees."
+				""
+				"Lumber bees will replicate &ojust about&r any type of log or wood given to them as a flowering block. Check &aJEI&r for a full list of all wood types they will accept."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "73592FC0A4AB0C92"
+			rewards: [
+				{
+					id: "230FC089982DEA73"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "11E6977CBD808864"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Infinite wood, anyone?"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3056EF15349DF84A"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a lumber bee"
+				to_observe: "productivebees:lumber_bee"
+				type: "observation"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["00D738AD58B0E84A"]
+			description: [
+				"Breeding a chocolate mining bee with a digger bee will yield quarry bees."
+				""
+				"Much like the lumber bee, the quarry bee will accept &oalmost&r any type of stone given to it as a flowering block and replicate it. Check &aJEI&r for a full list of types acceptable as flowering blocks."
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "6599AFF4623F28C0"
+			rewards: [
+				{
+					id: "0D9045BEF60AABE5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "30D3E20CDD6B69C4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "A stone gen with wings!"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "678BCA56B861AD8D"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a quarry bee"
+				to_observe: "productivebees:quarry_bee"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["00D738AD58B0E84A"]
+			description: [
+				"Breed a lumber bee with a sweat bee to obtain a rancher bee."
+				""
+				"Rancher bees will periodically travel to mobs within range of their hives and bring back the drops it collects."
+			]
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "65611CA18916BA84"
+			rewards: [
+				{
+					id: "79FD9DACB8123506"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "46D6769CEA704832"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Mob farming bee."
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2B9EEC5273C8FB05"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a rancher bee"
+				to_observe: "productivebees:rancher_bee"
+				type: "observation"
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["284B2602637F5596"]
+			description: ["Use a fishing rod to catch a sponge bee."]
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "637FB30FCBAF4440"
+			rewards: [
+				{
+					id: "79602EA97A629386"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "05C59BC3DAF2D754"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Him squishy"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2E00420481E2655F"
+				observe_type: 5
+				timer: 0L
+				title: "Find a sponge bee"
+				to_observe: "productivebees:sponge"
+				type: "observation"
+			}]
+			x: 7.071428571428562d
+			y: 10.124999999999993d
+		}
+		{
+			dependencies: ["00D738AD58B0E84A"]
+			description: [
+				"Breed a farmer bee and a rancher bee to obtain a cubee."
+				""
+				"Cubees travel around to mobs within range of their hives and &dencourages them to breed&r."
+			]
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "5496A3688BEE3C83"
+			rewards: [
+				{
+					id: "71ABB9B213D036BF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "781B4470AEE26CC6"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The cupid bee"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "7F4F8379B669D06F"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a cubee"
+				to_observe: "productivebees:cupid_bee"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["00D738AD58B0E84A"]
+			description: [
+				"Breed a sugarbag bee with a neon cuckoo bee to obtain a pepto beesmol."
+				""
+				"Keep pepto beesmol on hand for &dquick remedies&r to unpleasant ailments."
+				""
+				"&6Provides temporary&r: Regeneration, absorbtion, haste, strength, saturation, luck as well as instant healing buffs. Along side all of this it also provides sugarbagcombs for eating! "
+				""
+				"(does not help with indegestion... sorry)"
+			]
+			id: "4AC862528DF87B7E"
+			rewards: [
+				{
+					id: "4A96295C43650C6D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "426B71E196D45441"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1C9DF2A148F12A6C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Someone called for the doctor?"
+			tasks: [{
+				id: "752D03B3DC22BECA"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pepto_bismol"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Acquire a pepto beesmol"
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4AC862528DF87B7E"]
+			description: [
+				"Use bee squishing, genetics and incubation to obtain the &6spawn eggs&r of the following bees: "
+				""
+				"pepto beesmol x2"
+				"hoarder bee x2"
+				"rancher bee x1"
+				"cubee x1"
+				""
+				"Then craft them with 2 &3echo shards&r and a copy of &9music disc #5&r to obtain a wannabee spawn egg."
+				""
+				"These things are one of, &oBOTH&r, the most TPS friendly &oand&r the most productive mob farms you can build in almost any pack they are present in. They can farm virtually any mob that you can find a way to get encased in resin/amber, leading to some very interesting farms. You can even farm &eapotheosis items and gems&r with them! "
+			]
+			id: "71A609F70B6B6958"
+			rewards: [
+				{
+					id: "0FBAB2284607A20F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 3
+					id: "10E3DC40E7A7C005"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "48329F3631046780"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5903DD4D59759BC3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "The Wannabee Farm"
+			tasks: [{
+				id: "21B3699DE25396D0"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:wanna"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Acquire a wannabee"
+			x: -11.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5EAC29DB29A4950E"]
+			description: ["Craft the bee nest helmet. The helmet has a chance to spawn a highly aggressive kamikazbee to attack anything that struck you with reckless abandon. While useful in this nature alone, they are also the &oonly&r bees who naturally spawn with the \"very high\" productivity gene, making capturing them for genetics a top priority for anyone truly looking to go big with bees."]
+			hide: true
+			hide_dependency_lines: true
+			id: "281D776A33FBE67D"
+			rewards: [
+				{
+					id: "2E0FE61A0AEC19F0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4A167BAF0EDCBB75"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Personal \"Bee\"fence"
+			tasks: [{
+				id: "0343434DB58B6D90"
+				item: {
+					Count: 1
+					id: "productivebees:bee_nest_diamond_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["281D776A33FBE67D"]
+			description: ["Equip a bee nest helmet and spawn a kamikazbee. The unchecked aggression of the kamikazbee makes them hard to gain control of, but if you can, they can be used to harvest the most highly productive genes available."]
+			icon: "luphieclutteredmod:luphie_angry_bee_lamp"
+			id: "77388DD8E7921408"
+			rewards: [
+				{
+					id: "2C53C76D5F6F5597"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4BA4FA7540CBEB39"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "02CF6E3FDB1EB05E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Very High Productivity"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "1ED4E46960629069"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a kamikazbee"
+				to_observe: "productivebees:kamikazbee"
+				type: "observation"
+			}]
+			x: 8.535714285714278d
+			y: 7.232142857142847d
+		}
+		{
+			dependencies: ["439EE8098C13A7AA"]
+			description: ["When supplied with flowers (or whatever the respective breeding item is for the bees being bred) and bees that can breed, the breeding chamber will automate this process, just don't forget to provide it with both &cpower&r and &6cages&r to house the babees produced."]
+			hide_dependency_lines: false
+			id: "1BFA11C779ED435C"
+			rewards: [
+				{
+					id: "52AD20EBC50D2BF8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "7B796A7915184D94"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "The love shack"
+			tasks: [{
+				id: "4BE646E07C089C8F"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BFA11C779ED435C"]
+			description: [
+				"Incubators are great for raising babees quickly, simply fill it with &6honey treats&r and a caged babee and wait!"
+				""
+				"Once you have type genes at your disposal, the incubator can also be used to combine the gene with an egg to create the spawn egg of the respective bee type the gene was extracted from."
+				""
+				"&cNOTE:&r gene incubation only works for \"type\" genes, all other genes used on the treat to incubate the egg will be lost. "
+				""
+				"Change the new bees stats &o&eafter&r&r it has been spawned."
+			]
+			id: "58BCD239183B28AD"
+			rewards: [
+				{
+					id: "0E6703FDA6A05FF2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1A033695FAA26456"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Raising babees and making spawn eggs."
+			tasks: [{
+				id: "515FB98416BA44A3"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F2742803A0D209E"]
+			description: [
+				"Once centrifuged into singular gene samples, you will want to feed these genes into an indexer."
+				""
+				"you will notice that genes are harvested in percentages. &eA single bee will never provide a 100% sample&r of its genetics and as such, this is where the indexer comes into play."
+				""
+				"When provided with samples, &6the indexer will collect and combine all \"like\" genes&r until it has accumulated enough genes to create a %100 sample at which point it will begin creating another \"complete\" sample of the gene. "
+				""
+				"It is for this reason that you will almost certainly want to make a small dedicated breeding set up, just for breeding a few sets of bees with \"perfect genes\" for squishing in order to automate a gene supply for perfecting the genes of future bees."
+				""
+				"Gene samples can be crafted with a honey treat and fed to a bee to cause the bee to inherit the stats added to the treat. &9Multiple&r stats can be combined into the same honey treat."
+				""
+				"Note: the indexer does not use power, it only needs a &credstone signal&r to be applied."
+			]
+			id: "2EF32806E1739F1A"
+			rewards: [
+				{
+					id: "1273F84E2D8D1276"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "61015B78EF184436"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Genetic modification."
+			tasks: [{
+				id: "73ED60F17BA76987"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2B23AD177049428C"
+				"74CED089C7C570EE"
+			]
+			description: ["Breed a crystalline bee with an ashy mining bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:copper_ingot"
+			id: "7305ABB0B70273EC"
+			rewards: [
+				{
+					id: "4BFAA9E7B63F5A8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "192AEAC64E565351"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "592A374CAA69628B"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a copper bee"
+				to_observe: "productivebees:copper"
+				type: "observation"
+			}]
+			x: -5.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"612DB4407ADEEDEE"
+				"55D2A095F821FACF"
+			]
+			description: ["Breed a magmatic bee with a leaf cutter bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:coal"
+			id: "45A07D6919957C62"
+			rewards: [
+				{
+					id: "3FA9182B3D889C51"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "71D3A238E559D5A0"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3243BE98C6C047F5"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a coal bee"
+				to_observe: "productivebees:coal"
+				type: "observation"
+			}]
+			title: "Acquire a coal bee"
+			x: -6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"612DB4407ADEEDEE"
+				"4EA048C35F3DDF3D"
+			]
+			description: ["Breed a magmatic bee with a sweat bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:obsidian"
+			id: "498613C3ED5FE24A"
+			rewards: [
+				{
+					id: "7DF26FF58B86C6F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "762F96A00CA29661"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "44F21DE471FAF500"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an obsidian bee"
+				to_observe: "productivebees:obsidian"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"683D320D0550F5D2"
+				"612DB4407ADEEDEE"
+			]
+			description: ["Breed a blazing bee with a nomad bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:blaze_powder"
+			id: "367D4EF662178DFB"
+			rewards: [
+				{
+					id: "01B770D927A61265"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "05BFA5F375759400"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "70A78884D09334FC"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a Blazing bee"
+				to_observe: "productivebees:blazing"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["303E5FEBA512547F"]
+			description: ["Feed TNT to a vanilla bee to convert it."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:gunpowder"
+			id: "4515B2F4675BE4FB"
+			rewards: [
+				{
+					id: "79CF00C95FB50A7D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "495B87FBBA80C3BE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "57C41A0C1456AC96"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a creebee"
+				to_observe: "productivebees:creeper_bee"
+				type: "observation"
+			}]
+			title: "Acquire a creebee"
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"52AE104474C902F2"
+				"47F1D527F27D77EF"
+			]
+			description: ["Breed a reed bee with a resin bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:string"
+			id: "2FDD9D5DD1F94ABF"
+			rewards: [
+				{
+					id: "42D32B9AA69D9452"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6DE5BA0E4ADAAF27"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "267719275AC1D996"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a silky bee"
+				to_observe: "productivebees:silky"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0155DD9149A294EF"]
+			description: ["Feed sculk to a digger bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:echo_shard"
+			id: "2050242522D202DD"
+			rewards: [
+				{
+					id: "4A04A2EDBC7589B8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "5A96F6CA0EEAFD75"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "538FF059B5F47525"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a sculk bee"
+				to_observe: "productivebees:sculk"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"612DB4407ADEEDEE"
+				"45A07D6919957C62"
+			]
+			description: ["Breed a magmatic bee with a coal bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:sulfur_dust"
+			id: "2C211ABB1F2A6084"
+			rewards: [
+				{
+					id: "27C9FC95A5A7D79C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "27DED7E63E4B2BCA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "48212B5E579B9ADA"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a sulfur bee"
+				to_observe: "productivebees:sulfur"
+				type: "observation"
+			}]
+			title: "Acquire a sulfur bee"
+			x: -5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"25DD01A25EBDFE0A"
+				"1B0961593E2BB06A"
+			]
+			description: ["Breed a chocolate mining bee with a glowing bee. This bee emits a redstone signal so be careful, it can open doors."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:redstone"
+			id: "3801CE956A146F48"
+			rewards: [
+				{
+					id: "132F3F3DD42D6B56"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "61DFECCF5758E222"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "7C689167996E504B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "productivebees:redstone"
+				type: "observation"
+			}]
+			title: "Acquire a redstone bee"
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"3801CE956A146F48"
+				"62BB492DEB62CA4A"
+			]
+			description: ["Breed a redstone and a blue banded bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:lapis_lazuli"
+			id: "11F38F627F49DCAE"
+			rewards: [
+				{
+					id: "720B8DF8BC760448"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "369B0AA60EEE3AA3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "13F329B03F806E4F"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a lapis bee"
+				to_observe: "productivebees:lapis"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"4EA048C35F3DDF3D"
+				"746503BBE1C24E6E"
+			]
+			description: ["Breed a sweat bee with an iron bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create:zinc_ingot"
+			id: "1FA0FF08715F6E77"
+			rewards: [
+				{
+					id: "53EDC3EF53B0D0C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "1CCC24E32B27BA34"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "0BDEE1CB4A7D1E26"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a zinc bee"
+				to_observe: "productivebees:zinc"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"7305ABB0B70273EC"
+				"1FA0FF08715F6E77"
+			]
+			description: ["Breed a copper bee with a zinc bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create:brass_ingot"
+			id: "05B51A9CB2D9EE54"
+			rewards: [
+				{
+					id: "6F9B8B030262BB8C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "35C741698A60B067"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "05C2BDC7998C7D66"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a brass bee"
+				to_observe: "productivebees:brass"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"2B23AD177049428C"
+				"74CED089C7C570EE"
+			]
+			description: ["Breed a crystalline bee with an ashy mining bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:iron_ingot"
+			id: "746503BBE1C24E6E"
+			rewards: [
+				{
+					id: "171474FD20CD2B1C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3641D848AC48BD44"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "33C46E0CC2F814AA"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an iron bee"
+				to_observe: "productivebees:iron"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4EA048C35F3DDF3D"]
+			description: ["Feed some snow or ice to a sweat bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:snowball"
+			id: "28CB240B7943AC7B"
+			rewards: [
+				{
+					id: "6D13BF8A67A654BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "3ABB5BDFC8944F4F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "0E73E6EFD8B08CF9"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a frosty bee"
+				to_observe: "productivebees:frosty"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"62BB492DEB62CA4A"
+				"1B0961593E2BB06A"
+				"2B23AD177049428C"
+				"0155DD9149A294EF"
+				"0B87874066386C35"
+				"25DD01A25EBDFE0A"
+				"30A2795DDB5738A9"
+				"55D2A095F821FACF"
+				"612DB4407ADEEDEE"
+				"0BCA00285412FC60"
+				"1ED89471EB68D98D"
+				"683D320D0550F5D2"
+				"52AE104474C902F2"
+				"47F1D527F27D77EF"
+				"20635A3C82EA9451"
+				"24D263576EA9EAB9"
+				"4EA048C35F3DDF3D"
+				"642F8A704D9EBFA7"
+				"74CED089C7C570EE"
+			]
+			description: ["Advanced hives placed in dark, unlit areas, will naturally spawn both &azombees&r and &7skeletal&r bees. While you will most likely want a &ofew&r skeletal bees at some point, the undead bees are typically a nuisance in general more than anything as they spawn and take up the space of the bees you do want to access the hives. Keeping your bee keeping area well lit is a very easy way to solve any problems caused by them, if they are spawning in an area you do not want them in, this is because at least 1 of the hives in the area is &enot lit well enough&r."]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "minecraft:torch"
+			id: "303E5FEBA512547F"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "01A8B3586B1312A8"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			subtitle: "Undead and unwanted visitors"
+			tasks: [{
+				id: "787356157611CFF7"
+				title: "Light up your hives!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["303E5FEBA512547F"]
+			description: ["Zombees will spawn and take space in any advanced hive placed in too dark of an area."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:rotten_flesh"
+			id: "035E5B628D21FA20"
+			rewards: [
+				{
+					id: "53079044F45D82BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "2163DAB48A52FBAE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Keep your hives lit or these guys will take over!"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "607B918B6D697ECE"
+				observe_type: 5
+				timer: 0L
+				title: "Have a zombee move in"
+				to_observe: "productivebees:zombie"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["303E5FEBA512547F"]
+			description: ["If you need them for converting you can easily obtain skeletal bees by placing an advanced bee hive in the dark and waiting. Light the are around the hive sufficiently to stop them from spawning."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:bone"
+			id: "7551EF4FE53DDAC8"
+			rewards: [
+				{
+					id: "5A7527E949DD6439"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "1606ECC043B35504"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Keep the hive nice and dark!"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "45B2DCA458966BDA"
+				observe_type: 5
+				timer: 0L
+				title: "Have a skeletal bee move in."
+				to_observe: "productivebees:skeletal"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7551EF4FE53DDAC8"]
+			description: ["Feed a wither rose to a skeletal bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:wither_skeleton_skull"
+			id: "1E71804FF64DA2CF"
+			rewards: [
+				{
+					id: "08291D94DC117942"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "1F1A84FF2B4CB2F7"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "4E4D9E983F568316"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a withered bee"
+				to_observe: "productivebees:withered"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["05B51A9CB2D9EE54"]
+			description: ["Obtain a brass bee spawn egg and use it to craft a philolite bee spawn egg."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create_unbreakable:philolite"
+			id: "1A9B0666A72A624F"
+			rewards: [
+				{
+					id: "492B5875E39B3A2B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "31141690E42BB293"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Mechanical Crafting"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "52CE66D7B2434D4A"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a philolite bee"
+				to_observe: "productivebees:philolite"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["05B51A9CB2D9EE54"]
+			description: ["Obtain a brass bee spawn egg and use it to craft a luminarchy bee spawn egg."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create_unbreakable:luminarchy"
+			id: "3010CB0CBDC70CB5"
+			rewards: [
+				{
+					id: "141772FB8B6364FA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "10499DFDE96674EA"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Mechanical Crafting"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "1D4BA4CCB62C060E"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a luminarchy bee"
+				to_observe: "productivebees:luminarchy"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"3801CE956A146F48"
+				"498613C3ED5FE24A"
+			]
+			description: ["Obtain a redstone bee spawn egg, and use it as a flower in a feeding slab for an obsidian bee, the obsidian bee will eventually convert the egg into a flux dust bee spawn egg."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "fluxnetworks:flux_dust"
+			id: "586835F71B623971"
+			rewards: [
+				{
+					id: "316A52E24B5F76E4"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "6BE0CE499AF28910"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Item Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3FBCEBAB3FBE9BED"
+				observe_type: 5
+				timer: 0L
+				to_observe: "productivebees:flux"
+				type: "observation"
+			}]
+			title: "Acquire a flux dust bee"
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"52AE104474C902F2"
+				"683D320D0550F5D2"
+			]
+			description: ["Breed a reed bee with a nomad bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "ae2:silicon"
+			id: "5FA58A68858C6A9A"
+			rewards: [
+				{
+					id: "205AA8EB8BA6272E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7ADF058A4C150A6E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "633097EAEA7EFB16"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a silicon bee"
+				to_observe: "productivebees:silicon"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"0B87874066386C35"
+				"7551EF4FE53DDAC8"
+				"035E5B628D21FA20"
+			]
+			description: ["Breed a ghostly bee with another type of undead bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "tombstone:grave_dust"
+			id: "1D514E8FB2246A4A"
+			min_required_dependencies: 2
+			rewards: [
+				{
+					id: "37E4FC5CCEB21A08"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "1C8A0A236F5BAE7A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "48F5FC67108D0777"
+				observe_type: 5
+				timer: 0L
+				to_observe: "productivebees:grave"
+				type: "observation"
+			}]
+			title: "Acquire a grave bee"
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["220D6A97C5D12DC6"]
+			description: ["Feed a block of rose quartz to a diamond bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create:rose_quartz"
+			id: "5152ACFB10052852"
+			rewards: [
+				{
+					id: "69F0ABCFF9D85F19"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7610B510E2359545"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "33559FB8C6634DC3"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a rose quartz bee"
+				to_observe: "productivebees:rose_quartz"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"6BE0F4935A898C44"
+				"2B23AD177049428C"
+			]
+			description: ["Breed an ender bee with a crystalline bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "ae2:certus_quartz_dust"
+			id: "4AAAC0241B45AA06"
+			rewards: [
+				{
+					id: "2934987FC08C46D0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "626748A7B5C70230"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "4559C9CC63D22AD5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "productivebees:spacial"
+				type: "observation"
+			}]
+			title: "Acquire a spatial bee"
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["303E5FEBA512547F"]
+			description: ["Place an amethyst bee spawn egg into an enchanting apparatus surrounded by source gems."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "ars_nouveau:source_gem"
+			id: "2CB0F40EC9BC1132"
+			rewards: [
+				{
+					id: "00AE6DF669B9DE9A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "38BE35691DAE918E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "39875BB7645012D3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Enchanting Apparatus"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "56F10F48F3BCCD87"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an arcane bee"
+				to_observe: "productivebees:arcane"
+				type: "observation"
+			}]
+			title: "Acquire an Arcane bee"
+			x: 2.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["3D80E0453827CB27"]
+			description: ["Use a piece of popped chorus fruit on an end stone nest to spawn an ender bee if you cannot find one."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "luphieclutteredmod:luphie_bee_lamp"
+			id: "6BE0F4935A898C44"
+			rewards: [
+				{
+					id: "478DE1EE6DAF8AF5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "663093B37598304E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Popped chorus fruit"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "38C398664FAA3325"
+				observe_type: 5
+				timer: 0L
+				title: "Find an ender bee"
+				to_observe: "productivebees:ender"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4AAAC0241B45AA06"]
+			description: ["Feed a fluix pearl to a spatial bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "ae2:fluix_crystal"
+			id: "423643A2F359889D"
+			rewards: [
+				{
+					id: "5DD49B2D5394D3E1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "2DC837C33CF90E6D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3348ED1D5842E723"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a fluix bee"
+				to_observe: "productivebees:fluix"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["220D6A97C5D12DC6"]
+			description: ["Feed a block of apatite to a diamond bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:apatite"
+			id: "09625551CD317B28"
+			rewards: [
+				{
+					id: "339819033C0F34BA"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "20325D3393522531"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "13234420E36EFF62"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an apatite bee"
+				to_observe: "productivebees:apatite"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"7305ABB0B70273EC"
+				"20DF26B506B5FC96"
+			]
+			description: ["Breed a copper bee and a tin bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:bronze_ingot"
+			id: "1375960CA88B29CD"
+			rewards: [
+				{
+					id: "7AB33AA353EEEF6C"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "2FE1A57C26712464"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3B767C1079613226"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a bronze bee"
+				to_observe: "productivebees:bronze"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"746503BBE1C24E6E"
+				"0BCA00285412FC60"
+			]
+			description: ["Breed an iron bee with a mason bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:gold_ingot"
+			id: "1E8D1F69C6E842E1"
+			rewards: [
+				{
+					id: "4112574D20EBB69F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "5BE2FAD8E3B311A7"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "6C37CD3119223FB1"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a gold bee"
+				to_observe: "productivebees:gold"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"746503BBE1C24E6E"
+				"0BCA00285412FC60"
+			]
+			description: ["Breed an iron bee with a mason bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:silver_ingot"
+			id: "10C6AA32FD92C5E6"
+			rewards: [
+				{
+					id: "50C45897D04B6AC7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "1131E929A7E5952D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "66872CB73BB7C9BC"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a silver bee"
+				to_observe: "productivebees:silver"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"6BE0F4935A898C44"
+				"1E8D1F69C6E842E1"
+			]
+			description: ["Breed an ender bee and a gold bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "chicken_roost:ingot_platinum"
+			id: "1A928D3BFC41C8E9"
+			rewards: [
+				{
+					id: "6D0C4B79F4BA4E87"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0196DA3AACB0C887"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "5DC5BEF9ABD696F5"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a platinum bee"
+				to_observe: "productivebees:platinum"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"746503BBE1C24E6E"
+				"62BB492DEB62CA4A"
+			]
+			description: ["Breed an iron bee and a blue banded bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:lead_ingot"
+			id: "00133F24F615C219"
+			rewards: [
+				{
+					id: "171B4FC823603930"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "048427A28ADD064D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "67D4EC0C86CE8362"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a lead bee"
+				to_observe: "productivebees:lead"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"4515B2F4675BE4FB"
+				"746503BBE1C24E6E"
+			]
+			description: ["Breed a creebee and an iron bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "mekanism:ingot_uranium"
+			id: "0DDC127F1CB70026"
+			rewards: [
+				{
+					id: "08BA192109616589"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "27659E50C4F9747B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "067732D0A2A97E6C"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a radioactive bee"
+				to_observe: "productivebees:uranium"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"2B23AD177049428C"
+				"74CED089C7C570EE"
+			]
+			description: ["Breed a crystalline bee with an ashy mining bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:tin_ingot"
+			id: "20DF26B506B5FC96"
+			rewards: [
+				{
+					id: "7D034C44B29D7068"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "066AB34F0E718550"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "0CC6FA0267935C43"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a tin bee"
+				to_observe: "productivebees:tin"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"746503BBE1C24E6E"
+				"4EA048C35F3DDF3D"
+			]
+			description: ["Breed and iron bee and a sweat bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:nickel_ingot"
+			id: "60D14B97285106EB"
+			rewards: [
+				{
+					id: "01A58AC90D0270C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "45D652778E9C4A58"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "7111C0DB2B0C1884"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a nickel bee"
+				to_observe: "productivebees:nickel"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"60D14B97285106EB"
+				"746503BBE1C24E6E"
+			]
+			description: ["Breed a nickel and an iron bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:invar_ingot"
+			id: "638E3F3B2052E0B0"
+			rewards: [
+				{
+					id: "5AE761D0188AD320"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "0272B973ECCD5455"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "36EA86535D8A05E7"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an invar bee"
+				to_observe: "productivebees:invar"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"60D14B97285106EB"
+				"7305ABB0B70273EC"
+			]
+			description: ["Breed a nickel and a copper bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:constantan_ingot"
+			id: "186C34E5AB33B63C"
+			rewards: [
+				{
+					id: "061EDDBF2C99E96A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "5B94A84D5B64F766"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "18CE74446F563C39"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a constantan bee"
+				to_observe: "productivebees:constantan"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"1E8D1F69C6E842E1"
+				"10C6AA32FD92C5E6"
+			]
+			description: ["Breed a gold bee and a silver bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:electrum_ingot"
+			id: "40DEADF236743A5A"
+			rewards: [
+				{
+					id: "418AA919585936DB"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "733A62054F642D40"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "18A31675234A9339"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an electrum bee."
+				to_observe: "productivebees:electrum"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"10C6AA32FD92C5E6"
+				"20DF26B506B5FC96"
+			]
+			description: ["Breed a silver bee and a tin bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:lumium_ingot"
+			id: "335F35639C497379"
+			rewards: [
+				{
+					id: "2F62C0E5F1EDEF70"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "476170FBAACFDF67"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "0746E33F514F2867"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a lumium bee"
+				to_observe: "productivebees:lumium"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"10C6AA32FD92C5E6"
+				"7305ABB0B70273EC"
+			]
+			description: ["Breed a copper bee and a silver bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:signalum_ingot"
+			id: "460E95EBAF18895C"
+			rewards: [
+				{
+					id: "02D72727AC9EE4DD"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "7F5CE58CC15A528E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "1FF0D58D0E3611DE"
+				observe_type: 5
+				timer: 0L
+				title: "Avquire a signalum bee"
+				to_observe: "productivebees:signalum"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"00133F24F615C219"
+				"220D6A97C5D12DC6"
+				"1A928D3BFC41C8E9"
+			]
+			description: ["Breed a lead bee with either a platinum bee or a diamond bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:enderium_ingot"
+			id: "58394B4AE5454FB4"
+			rewards: [
+				{
+					id: "14BA82EDB6B90CE4"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "69D548F8E258C706"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "5D047184D670680F"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an enderium bee"
+				to_observe: "productivebees:enderium"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1E8D1F69C6E842E1"]
+			description: ["Feed a block of copper to a gold bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create_villagerology:rose_gold_ingot"
+			id: "13861BF926337F44"
+			rewards: [
+				{
+					id: "43F155E930613103"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4D366D68E0A587D8"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "7A456BBE27067820"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a rose gold bee"
+				to_observe: "productivebees:rose_gold"
+				type: "observation"
+			}]
+			x: -4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"746503BBE1C24E6E"
+				"45A07D6919957C62"
+			]
+			description: ["Breed an iron bee and a coal bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:steel_ingot"
+			id: "087056D7E6E82FB3"
+			rewards: [
+				{
+					id: "6B5BED1D921E3D91"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "2F1155815559C6BA"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "4E8C2DB75CDEDD72"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a steel bee"
+				to_observe: "peoductivebees:steel"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["4AAAC0241B45AA06"]
+			description: ["Obtain a spatial bee spawn egg, then throw it and a skysteel block into a lava source block."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "megacells:sky_steel_ingot"
+			id: "774B7AAAD1A84617"
+			rewards: [
+				{
+					id: "6A79428436691D05"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3BBC39210DBDDAC4"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "In-World Transformation"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "547D0A550320173B"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a sky steel bee"
+				to_observe: "productivebees:sky_steel"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["303E5FEBA512547F"]
+			description: ["Trade a manasteel bee spawn egg for an elementium bee spawn egg using a portal to alfheim."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "botania:elementium_ingot"
+			id: "75CE2934A9C3F18E"
+			rewards: [
+				{
+					id: "36C3D250ABF84602"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "26EBA883689C2C3D"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Elven Trade"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "1538371EB965834B"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an elementium bee"
+				to_observe: "productivebees:elementium"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["6FDEB4E9AC050F9F"]
+			description: ["Obtain a manasteel bee spawn egg, then combine it with a mana pearl and mana diamond on a terrestrial agglomeration plate."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "botania:terrasteel_ingot"
+			id: "5F621BDE9085F723"
+			rewards: [
+				{
+					id: "2D95470667D8B326"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5BF058AD76D1BE78"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "615AEE489731440D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Terrestrial Agglomeration"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "1955D210296383C9"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a terrasteel bee"
+				to_observe: "productivebees:terrasteel"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["746503BBE1C24E6E"]
+			description: ["Obtain an iron bee spawn egg, then throw it into a mana pool."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "botania:manasteel_ingot"
+			id: "6FDEB4E9AC050F9F"
+			rewards: [
+				{
+					id: "5D0C70AF7FCF06CB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7AE9A51C35D48033"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Botania Mana Pool"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "1A69ADE737CFD0FA"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a manasteel bee"
+				to_observe: "productivebees:manasteel"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"0184227CE952621D"
+				"09625551CD317B28"
+				"0E890DBF19049A6D"
+			]
+			description: ["First, obtain both an ancient bee spawn egg and an apatite bee spawn egg. Next craft them together along with 3 bottles of dragons breathe."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal_extra:dragonsteel_ingot"
+			id: "5544D375A08BC1A0"
+			rewards: [
+				{
+					id: "0951C26ACCE2295A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "355B4EC57DD7C428"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "261B545B00F9DC60"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Crafting"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "586BD2D4D08A8E51"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a dragonsteel bee"
+				to_observe: "productivebees:dragonsteel"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["220D6A97C5D12DC6"]
+			description: ["Feed a block of netherite to a diamond bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:netherite_scrap"
+			id: "0184227CE952621D"
+			rewards: [
+				{
+					id: "62469D246C31BB90"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "1C7ECEF66BB7F001"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "19D03572C40C3AF4"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an ancient bee"
+				to_observe: "productivebees:ancient"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"11F38F627F49DCAE"
+				"6BE0F4935A898C44"
+			]
+			description: ["Breed a lapis bee with an ender bee"]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:diamond"
+			id: "220D6A97C5D12DC6"
+			rewards: [
+				{
+					id: "10A9CDA4F30853D3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "026226FAB1F2BCE1"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "41F6B75B65C4D9FA"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a diamond bee"
+				to_observe: "productivebees:diamond"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"220D6A97C5D12DC6"
+				"20635A3C82EA9451"
+			]
+			description: ["Breed a diamond bee with a slimy bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "minecraft:emerald"
+			id: "44E384D32758F281"
+			rewards: [
+				{
+					id: "6CEB927B6073EBAF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "1C01910E8244DD6F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2C668EF04A176CE5"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an emerald bee"
+				to_observe: "productivebees:emerald"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"74BB924138418DD3"
+				"60D14B97285106EB"
+			]
+			description: ["Breed a prismarine bee with a nickel bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermalendergy:prismalium_ingot"
+			id: "3D66D08800B731EE"
+			rewards: [
+				{
+					id: "4C23092C89A1A123"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "0CD9ABCCA913201F"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "331F3B9B48514A05"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a prismalium bee"
+				to_observe: "productivebees:prismalium"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"6BE0F4935A898C44"
+				"1E8D1F69C6E842E1"
+			]
+			description: ["Obtain the spawn egg of an amethyst, gold and ender bee then craft them all together."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermalendergy:melodium_ingot"
+			id: "5F248E43BBFE1268"
+			rewards: [
+				{
+					id: "16044D36B1E4581B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "71DB89772BB882CF"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "026A6547473AE53C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Crafting"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2F03A2F602A480D9"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a melodium bee"
+				to_observe: "productivebees:melodium"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"0184227CE952621D"
+				"6599AFF4623F28C0"
+			]
+			description: ["Obtain an ancient bee spawn egg and a quarry bee spawn egg then combine them together with a nether star in a crafting table."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermalendergy:stellarium_ingot"
+			id: "1CE1087CB610DCBD"
+			rewards: [
+				{
+					id: "0F2AE95D4776E322"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "19885178C2E3C7CA"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Crafting"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "110F988FC75F6527"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a stellarium bee"
+				to_observe: "productivebees:stellarium"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"19CC579914069E61"
+				"25DD01A25EBDFE0A"
+			]
+			description: ["Breed an osmium bee with a glowing bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "mekanism:ingot_refined_glowstone"
+			id: "2143BC0DFFD712DF"
+			rewards: [
+				{
+					id: "474E509CBA2F49FD"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "1EEA8F504741E942"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "603C97CFDC36815B"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a refine glowstone bee"
+				to_observe: "productivebees:refined_glowstone"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"19CC579914069E61"
+				"498613C3ED5FE24A"
+			]
+			description: ["Breed an osmium bee with an obsidian bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "mekanism:ingot_refined_obsidian"
+			id: "7BDDB77EEBE03303"
+			rewards: [
+				{
+					id: "54E91F96E1615998"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 7
+					id: "652DE4E9BC69E5A3"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "269E6D08E6396407"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a refined obsidian bee"
+				to_observe: "productivebees:refined_obsidian"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["683D320D0550F5D2"]
+			description: ["Obtain a nomad bee spawn egg and place it on a tier 2 blood altar."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "bloodmagic:altar"
+			id: "308E90210D36D709"
+			rewards: [
+				{
+					id: "343C34034B381B94"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "53D1110D960C47D6"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			subtitle: "Blood Altar"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2E400494889893D9"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a hematophagus bee"
+				to_observe: "productivebees:hematophagous"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["0DDC127F1CB70026"]
+			description: ["Feed a polonium pellet to a radioactive bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "mekanism:radioactive_waste_barrel"
+			id: "43353EB782A1A5DF"
+			rewards: [
+				{
+					id: "21C57517360FF23C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "158D8825DE32D8A7"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "3CA5F50025C696C3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "56ED4E9A1673F376"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "432D579FC873A547"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a wasted radioactive bee"
+				to_observe: "productivebees:wasted_radioactive"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["20635A3C82EA9451"]
+			description: ["Feed pink slime to a slimy bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "industrialforegoing:pink_slime_ingot"
+			id: "34C0A051E3FA567D"
+			rewards: [
+				{
+					id: "5A44E8C16996D34E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "61DE9CD35D57A9B3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "29C0F3FA35952F12"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "182166C6B9A4166D"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a pink slimy bee"
+				to_observe: "productivebees:pink_slimy"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["226D9E7D5808E82A"]
+			description: ["Combine: 4 runes of mana, 1 rune of greed, 1 pure bee spawn egg and 1 livingrock block in a runic altar."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "botania:mana_pool"
+			id: "49F5F317987C35B8"
+			rewards: [
+				{
+					id: "161063DAB0B6B3F0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "404703A85B890995"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "168545EE94D1AAB3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Runic Altar"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "22F958F68B508490"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a mana bee"
+				to_observe: "productivebees:mana"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["303E5FEBA512547F"]
+			description: ["Combine: 3 mystical flowers, 1 bucket of water, 1 bee spawn egg and 1 honey treat in a petal apothecary."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "botania:pure_daisy"
+			id: "226D9E7D5808E82A"
+			rewards: [
+				{
+					id: "2FBB6E43E7AD031B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "368CCBDEAD38C5AF"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A24F53ECD8DAC94"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Petal Apothecary"
+			tasks: [{
+				id: "08BD2CD08566394B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "productivebees:pure"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"47F1D527F27D77EF"
+				"73592FC0A4AB0C92"
+			]
+			description: ["Breed a resin bee with a lumber bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "industrialforegoing:plastic"
+			id: "5D3397CDD49AAAE4"
+			rewards: [
+				{
+					id: "136D56B8BE020A77"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "64AF8AA625CBFF4E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "57F513DCBD9930F0"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a plastic bee"
+				to_observe: "productivebees:plastic"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"746503BBE1C24E6E"
+				"1ED89471EB68D98D"
+			]
+			description: ["Breed an iron bee with a neon cuckoo bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "mekanism:ingot_osmium"
+			id: "19CC579914069E61"
+			rewards: [
+				{
+					id: "2BFA873CA13A20C1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "17FF55F48CD78C2E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "75D33D932325B731"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an osmium bee"
+				to_observe: "productivebees:osmium"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["47F1D527F27D77EF"]
+			description: ["If you're reading this, a method for obtaining amber bee spawn eggs (other than finding them in ruins as usual) has not been implemented yet, this means &eresin bees have been enabled with the ability to encase mobs in resin&r (amber) still and you can use those for obtaining your encased mobs."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "productivebees:amber"
+			id: "54961C3BE7126035"
+			rewards: [
+				{
+					id: "14361FB43F67019D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5C2EF8640E07C539"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "4C1ED1305C46324F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Resin works for now"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "0D192F6995B1E2EE"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an amber bee"
+				to_observe: "productivebees:amber"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["05B51A9CB2D9EE54"]
+			description: ["Obtain a brass bee spawn egg, combine with 4 malachite blocks, 2 end stone blocks and 2 palerock blocks in a mechanical crafting grid."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "enlightened_end:malachite"
+			id: "65CF8E02D982335E"
+			rewards: [
+				{
+					id: "61C60F9F9706929A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "192E89D2EA2E3D7C"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "64FB41E237EC80E7"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "327EB9B453CEF5CC"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Mechanical Crafting"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "30FEA769B7DE19F2"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a malachite bee"
+				to_observe: "productivebees:malachite"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["05B51A9CB2D9EE54"]
+			description: ["Obtain a brass bee spawn egg, combine with 4 bismuth blocks, 2 end stone blocks and 2 palerock blocks in a mechanical crafting grid."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "enlightened_end:bismuth_ingot"
+			id: "1BEE6E1D7AF0105F"
+			rewards: [
+				{
+					id: "7B8AC6D0C66589F5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "79883EB055803FDB"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "1DF89B80496EF1AF"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6228EC7919DAD732"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Mechanical Crafting"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "277A91A9BD3E98BA"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a bismuth bee"
+				to_observe: "productivebees:bismuth"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["1BEE6E1D7AF0105F"]
+			description: ["Feed an irradium bar to a bismuth bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "enlightened_end:irradium_bar"
+			id: "7F7D87E3C0C1E931"
+			rewards: [
+				{
+					id: "2A3F1EB6AC00A37C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "0229A50486849523"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "12BD1262A3027BAF"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "40C5BAE1A46A9A1E"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "004A1534CA8F86A4"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an irradium bee"
+				to_observe: "productivebees:irradium"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["34C0A051E3FA567D"]
+			description: ["Feed an ether gas bucket to a pink slimy bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "industrialforegoing:ether_gas_bucket"
+			id: "691DF9BAB4C57FA0"
+			rewards: [
+				{
+					id: "6BCED2197F920EE8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3C6437BC838DCE63"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "77BD9368D8BDC591"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Conversion"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "38ABC9DF23FFA4F4"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an ether gas bee"
+				to_observe: "productivebees:ether_gas"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"2B23AD177049428C"
+				"74CED089C7C570EE"
+			]
+			description: ["Breed a crystalline bee with an ashy mining bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "blocksyouneed_luna:aluminum_ingot"
+			id: "598185E77ACA8553"
+			rewards: [
+				{
+					id: "4AAB08856F02C48F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "64DDAFC0021F448B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2CB86DB746200509"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an aluminum bee"
+				to_observe: "productivebees:aluminum"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["308E90210D36D709"]
+			description: [
+				"Obtain a regenerative bee spawn egg and use a hellfire forge to forge a hellfire bee spawn egg. "
+				""
+				"(JEI will help a lot on this one.)"
+			]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "bloodmagic:rawdemonite"
+			id: "0B97B0BC5EE74D19"
+			rewards: [
+				{
+					id: "4B6422EFB2F0D3A2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7BD6C57AAE6A858F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1DE88EC3A8FA2367"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Hellfire Forge"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "09EE3EA1E53CA986"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire a hellfire bee"
+				to_observe: "productivebees:hellfire"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"45A07D6919957C62"
+				"4515B2F4675BE4FB"
+			]
+			description: ["Breed a coal bee with a creebee,"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "thermal:niter_dust"
+			id: "371B67ABA6F578B3"
+			rewards: [
+				{
+					id: "26D64FBBD9A4E91A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "1DFF9B3F8D310998"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "3A6183F69E2C82C9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "productivebees:niter"
+				type: "observation"
+			}]
+			title: "Acquire a niter bee"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"1CC5B5C8271FEC0E"
+				"58BCD239183B28AD"
+			]
+			description: [
+				"To build a genetics set up you need to:"
+				""
+				"Place a &6piston&r ,&nfacing down&r, above a bottler supplied with bottles. With a 1 block gap in between."
+				""
+				"Use the piston to squish the bee and obtain its &dmaterials&r."
+				""
+				"Feed the squashed bee materials into a centrifuge to separate the genes."
+				""
+				"Take the genes from the centrifuge and insert them into a gene indexer to be combined into 100% genes, and apply a &credstone signal&r."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "minecraft:piston"
+			id: "5EAC29DB29A4950E"
+			rewards: [{
+				id: "0F37886CD8DE8E5B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "This is always fun"
+			tasks: [{
+				id: "55982478A10C86BE"
+				title: "Bee genetics"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EAC29DB29A4950E"]
+			description: [
+				"The bottler can be placed next to a centrifuge &oOR&r have &eliquid honey&r piped into it directly and if given a supply of empty bottles, will bottle honey for you automatically."
+				""
+				"Once you have a genetics set up in which a piston is placed above the bottler, it can also be used to squash bees and collect their genetic material, provided it has bottles to contain them. This \"&dbee material&r\" must then be &6centrifuged&r to separate the respective &dgenes&r."
+			]
+			id: "1F2742803A0D209E"
+			rewards: [
+				{
+					id: "31512A487E9A0694"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "34065D08D71EE2F4"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "For bottling, of course"
+			tasks: [{
+				id: "1D719CC51B490088"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B7B4C27767760A1"]
+			description: [
+				"If you're going to be taking the path of the apiarist, which is always a wise endeavor, you're also going to have access to &6supplemental power&r via &ehoney generator&r. "
+				""
+				"&cPower constraints&r can be a very limiting factor, especially in the early game. If this is an issue you are facing or maybe you just want more power for the future then producing honey in excess and converting it to energy is a wise decision, at least until you have better options for power generation at your disposal."
+			]
+			hide_dependency_lines: true
+			id: "1AA52106B4E55D61"
+			rewards: [
+				{
+					id: "735D4B041682B102"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "373D5BE87B3BDE8B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Auxiliary power"
+			tasks: [{
+				id: "51CAA9CF509169E0"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1CC5B5C8271FEC0E"]
+			description: ["The home of the &aslimy&r bee."]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "5AF7AD2AFE15D5FD"
+			rewards: [
+				{
+					id: "570BFE93855A1DDC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "644CCBF7330BCE66"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Iron Sword + Slime Block"
+			tasks: [{
+				id: "24C7EE32733E8AB8"
+				item: "productivebees:slimy_nest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0E890DBF19049A6D"]
+			description: ["A specially made home for draconic bees to harvest dragons breath."]
+			id: "18E742B005126239"
+			rewards: [
+				{
+					id: "737F1E054F9FD664"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "518748F2949016FC"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "62B37804B417122C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "A specially made hive, carved from the egg of the ends ruler."
+			tasks: [{
+				id: "2C8DDD4F68DC6F84"
+				item: "productivebees:dragon_egg_hive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"44E384D32758F281"
+				"11F38F627F49DCAE"
+			]
+			description: ["Breed an emerald bee with a lapis bee."]
+			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "create:experience_nugget"
+			id: "60BF6A032D994339"
+			rewards: [
+				{
+					id: "0B20B6A915B24A54"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "7E5B1C1F74067D26"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			subtitle: "Bee Breeding"
+			tasks: [{
+				icon: "productivebees:bee_cage"
+				id: "2B34269A9F24E0AE"
+				observe_type: 5
+				timer: 0L
+				title: "Acquire an experience bee"
+				to_observe: "productivebees:experience"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0BA2EB1462A10A39"]
+			description: [
+				"When filled with cages, the catcher will automatically catch any bees that fly over it or within range when upgraded, "
+				""
+				""
+				"Tip: if you dont use range upgrades, it isn't even worth using the catcher at all. You may as well put your cages in a chest and wait for the chest to catch bees (which isn't going to happen)."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "439EE8098C13A7AA"
+			rewards: [
+				{
+					id: "71B21659F17D5451"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "7C40FA18E21C223D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "An automated bee trap."
+			tasks: [{
+				id: "5C7680DEA7161B76"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B7B4C27767760A1"]
+			description: [
+				"The feeding slab is a great way to provide a \"feeding point\" for multiple bees to feed different flowering items from a &esingle block space&r, and are very useful in conjunction with &6simulation&r upgrades. A single slab can hold up to 3 items, allowing different types of bees to share the same slab. They can also be stacked, effectively doubling this. Lumber and quarry bees will eat from the slab and produce from the items provided in the slab at random if their are multiple outputs possible."
+				""
+				"In short, they allow you to place 6 flowers or \"flowering items\" in the same spot."
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "14C59C043DA6A9CB"
+			rewards: [
+				{
+					id: "3E81A19AC9C51D66"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6D8848A51E414257"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "Can be honeylogged for regeneration effects!"
+			tasks: [{
+				id: "2A3CBFDE750E97C5"
+				item: "productivebees:feeder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+	]
+	title: "&eProductive Bees&r"
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:armor",
+    "apotheosis:boots_tome",
+    "apotheosis:chestplate_tome",
+    "apotheosis:helmet_tome",
+    "apotheosis:leggings_tome",
+    "lost_aether_content:swetty_mask"
+  ],
+  "incompatible": [
+    "minecraft:protection",
+    "minecraft:fire_protection",
+    "endlessbiomes:vwooping",
+    "minecraft:projectile_protection",
+    "minecraft:blast_protection"
+  ]
+}

@@ -1,0 +1,15 @@
+
+#Endermen Projection Settings
+[protName]
+
+	[protName.ore_protector]
+		#If set to 'true' Endermen will protect Nether Ores
+		piglinGuard = true
+		#Set to false if you want the Endermen to attack when using Silk Touch Tools
+		silkEffect = true
+		#Set range that Endermen will aggro when mining ores(Default = 16)
+		#Range: 0 ~ 64
+		protectionRange = 16
+		#Add Blocks to be protected by Endermen (Example: 'minecraft:glowstone')
+		protectedBlocks = ["beo:end_emerald_ore", "beo:end_diamond_ore", "beo:end_gold_ore", "beo:end_lapis_ore", "beo:end_redstone_ore", "minecraft:nether_gold_ore", "beo:end_silver_ore", "beo:end_iron_ore", "beo:end_lead_ore", "beo:end_nickel_ore", "beo:end_coal_ore", "beo:end_copper_ore", "beo:end_aluminum_ore", "beo:end_tin_ore", "beo:end_osmium_ore", "beo:end_uranium_ore", "beo:end_zinc_ore", "minecraft:glowstone", "minecraft:nether_quartz_ore"]
+
