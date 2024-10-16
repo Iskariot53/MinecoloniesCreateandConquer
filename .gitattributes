@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*text eol=lf
+git add --renormalize .  # Update index with renormalized files
+git status               # Show the files that will be normalized
+git commit -m "Introduce end-of-line normalization"
