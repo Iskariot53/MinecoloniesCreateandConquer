@@ -1,6 +1,23 @@
-# Auto detect text files and perform LF normalization
+# Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
 *text eol=lf
-git add --renormalize .  # Update index with renormalized files
-git status               # Show the files that will be normalized
-git commit -m "Introduce end-of-line normalization"
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.c text
+*.h text
+
+# Declare files that will always have CRLF line endings on checkout.
+*.sh text eol=lf
+*.bat text eol=crlf
+*.json eol=lf
+*.json5 eol=lf
+*.cfg eol=lf
+*.toml eol=lf
+*.ini eol=lf
+*.md eol=lf
+*.properties eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
