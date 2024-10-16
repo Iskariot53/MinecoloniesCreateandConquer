@@ -35,6 +35,8 @@ screenshots/
 !InstanceSync*.jar
 **/*.jar.disabled
 **/*.jar.meta
+**/local/
+**/blueprints/
 
 # Utilities
 .ReAuth.cfg
