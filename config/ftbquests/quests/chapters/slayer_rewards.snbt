@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
+	default_repeatable_quest: true
 	filename: "slayer_rewards"
 	group: "349A9F115A2C6332"
 	hide_quest_details_until_startable: true
@@ -24,7 +25,15 @@
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["Slay 10 Zombies"]
-			icon: "minecraft:rotten_flesh"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:rotten_flesh"
+			}
 			id: "1C7E1BFA0EC5DD37"
 			rewards: [
 				{
@@ -39,7 +48,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Zombies = 2 Spurs"
+			subtitle: "10 Zombies = 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
@@ -54,7 +63,15 @@
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["Slay 10 skeleton"]
-			icon: "minecraft:skeleton_skull"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:skeleton_skull"
+			}
 			id: "0EC17DD7C7D55A21"
 			rewards: [
 				{
@@ -69,7 +86,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Skeletons = 2 Spurs"
+			subtitle: "10 Skeletons = 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -84,7 +101,15 @@
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["Slay 10 Spiders"]
-			icon: "apotheosis:prismatic_web"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:prismatic_web"
+			}
 			id: "07511B7AA1EB54DD"
 			rewards: [
 				{
@@ -99,7 +124,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Spiders = 2 Spurs"
+			subtitle: "10 Spiders = 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -118,7 +143,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:rotten_flesh"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:rotten_flesh"
+			}
 			id: "6BB1012D741D4BC9"
 			rewards: [
 				{
@@ -139,7 +172,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "25 Zombies = 1 Bevel 2 Spurs"
+			subtitle: "25 Zombies = 1 Bevel 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:rotten_flesh"
@@ -158,7 +191,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:skeleton_skull"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:skeleton_skull"
+			}
 			id: "79E744AFFEA23F2B"
 			rewards: [
 				{
@@ -178,7 +219,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Skeletons = 1 Bevel 2 Spurs"
+			subtitle: "25 Skeletons = 1 Bevel 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -197,7 +238,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "apotheosis:prismatic_web"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:prismatic_web"
+			}
 			id: "4742842B42430587"
 			rewards: [
 				{
@@ -217,7 +266,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 spiders = 1 Bevel 2 Spurs"
+			subtitle: "25 spiders = 1 Bevel 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -231,7 +280,15 @@
 		}
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
-			icon: "minecraft:magma_cream"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:magma_cream"
+			}
 			id: "4A873D78E9659609"
 			rewards: [
 				{
@@ -246,7 +303,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Magma Cubes = 4 Spurs"
+			subtitle: "10 Magma Cubes = 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -265,7 +322,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:magma_cream"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:magma_cream"
+			}
 			id: "28D5DA266924F268"
 			rewards: [
 				{
@@ -285,7 +350,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Magma Cubes = 1 Bevel 4 Spurs"
+			subtitle: "25 Magma Cubes = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -302,6 +367,11 @@
 			description: ["Slay 10 Pillagers"]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:white_banner"
 				tag: {
 					BlockEntityTag: {
@@ -361,7 +431,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Pillagers = 4 Spurs"
+			subtitle: "10 Pillagers = 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -388,6 +458,11 @@
 			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:white_banner"
 				tag: {
 					BlockEntityTag: {
@@ -452,7 +527,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Pillagers = 1 Bevel 4 Spurs"
+			subtitle: "25 Pillagers = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -472,7 +547,15 @@
 		}
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
-			icon: "minecraft:piglin_head"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:piglin_head"
+			}
 			id: "7598B18337E19F15"
 			rewards: [
 				{
@@ -487,7 +570,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Piglin = 4 Spurs"
+			subtitle: "10 Piglin = 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				id: "4CA71FB3EBF2CB77"
@@ -505,7 +588,15 @@
 				"7598B18337E19F15"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:piglin_head"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:piglin_head"
+			}
 			id: "74670BA4FEC49997"
 			rewards: [
 				{
@@ -525,7 +616,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Piglin = 1 Bevel 4 Spurs"
+			subtitle: "25 Piglin = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: "minecraft:piglin_head"
@@ -541,6 +632,11 @@
 			dependencies: ["4386DFA29FCEDD4D"]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:iron_axe"
 				tag: {
 					Damage: 0
@@ -560,7 +656,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Vindicator = 6 Spurs"
+			subtitle: "10 Vindicator = 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -587,6 +683,11 @@
 			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:iron_axe"
 				tag: {
 					Damage: 0
@@ -611,7 +712,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Vindicator = 1 Bevel 6 Spurs"
+			subtitle: "25 Vindicator = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -631,7 +732,15 @@
 		}
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
-			icon: "minecraft:blaze_rod"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blaze_rod"
+			}
 			id: "7CAD02BF85D397C3"
 			rewards: [
 				{
@@ -646,7 +755,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Blaze = 6 Spurs"
+			subtitle: "10 Blaze = 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -665,7 +774,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:blaze_rod"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blaze_rod"
+			}
 			id: "7D503D0E390C5C07"
 			rewards: [
 				{
@@ -685,7 +802,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Blaze = 1 Bevel 6 Spurs"
+			subtitle: "25 Blaze = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -699,7 +816,15 @@
 		}
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
-			icon: "minecraft:gold_block"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gold_block"
+			}
 			id: "4374957728C891E9"
 			rewards: [
 				{
@@ -714,7 +839,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Piglin Brutes = 6 Spurs"
+			subtitle: "10 Piglin Brutes = 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -733,7 +858,15 @@
 				"4374957728C891E9"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:gold_block"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gold_block"
+			}
 			id: "141CDC79456D445D"
 			rewards: [
 				{
@@ -753,7 +886,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Piglin Brutes = 1 Bevel 6 Spurs"
+			subtitle: "25 Piglin Brutes = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -969,11 +1102,19 @@
 			y: -12.5d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			dependencies: ["7F141BAED60DBD76"]
 			hide: true
 			hide_dependency_lines: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "59C7AB21F0B82E8C"
 			rewards: [
 				{
@@ -1028,11 +1169,19 @@
 			y: -11.0d
 		}
 		{
-			can_repeat: false
+			can_repeat: true
 			dependencies: ["7F141BAED60DBD76"]
 			hide: true
 			hide_dependency_lines: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "730EC1EBC58557AC"
 			require_sequential_tasks: true
 			rewards: [
@@ -1181,7 +1330,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:rotten_flesh"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:rotten_flesh"
+			}
 			id: "7256850771D7EF85"
 			rewards: [
 				{
@@ -1203,7 +1360,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Zombies = 2 Bevels 2 Spurs"
+			subtitle: "50 Zombies = 2 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:rotten_flesh"
@@ -1222,7 +1379,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:skeleton_skull"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:skeleton_skull"
+			}
 			id: "2301940294F6567C"
 			rewards: [
 				{
@@ -1244,7 +1409,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Skeletons = 2 Bevels 2 Spurs"
+			subtitle: "50 Skeletons = 2 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -1263,7 +1428,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "apotheosis:prismatic_web"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:prismatic_web"
+			}
 			id: "7DC6C9D087132317"
 			rewards: [
 				{
@@ -1285,7 +1458,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Spiders = 2 Bevels 2 Spurs"
+			subtitle: "50 Spiders = 2 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -1306,6 +1479,11 @@
 			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:white_banner"
 				tag: {
 					BlockEntityTag: {
@@ -1372,7 +1550,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Pillagers = 2 Bevels 4 Spurs"
+			subtitle: "50 Pillagers = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -1397,7 +1575,15 @@
 				"74670BA4FEC49997"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:piglin_head"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:piglin_head"
+			}
 			id: "6A78A940F9CF814F"
 			rewards: [
 				{
@@ -1419,7 +1605,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Piglin = 2 Bevels 4 Spurs"
+			subtitle: "50 Piglin = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: "minecraft:piglin_head"
@@ -1438,7 +1624,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:magma_cream"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:magma_cream"
+			}
 			id: "08C7F32669387005"
 			rewards: [
 				{
@@ -1460,7 +1654,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Magma Cubes = 2 Bevels 4 Spurs"
+			subtitle: "50 Magma Cubes = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -1481,6 +1675,11 @@
 			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:iron_axe"
 				tag: {
 					Damage: 0
@@ -1507,7 +1706,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Vindicator = 2 Bevel 6 Spurs"
+			subtitle: "50 Vindicator = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -1532,7 +1731,15 @@
 				"7D503D0E390C5C07"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:blaze_rod"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blaze_rod"
+			}
 			id: "6DD69C0C1529E25A"
 			rewards: [
 				{
@@ -1554,7 +1761,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Blaze = 2 Bevels 6 Spurs"
+			subtitle: "50 Blaze = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -1573,7 +1780,15 @@
 				"141CDC79456D445D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:gold_block"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gold_block"
+			}
 			id: "50FC161949CF6A8F"
 			rewards: [
 				{
@@ -1595,7 +1810,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Piglin Brutes = 2 Bevels 6 Spurs"
+			subtitle: "50 Piglin Brutes = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -1614,7 +1829,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:rotten_flesh"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:rotten_flesh"
+			}
 			id: "3CBD3208E9D0046B"
 			rewards: [
 				{
@@ -1634,9 +1857,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "407772E32741AAFC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Zombies = 3 Bevels 2 Spurs"
+			subtitle: "100 Zombies = 3 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:rotten_flesh"
@@ -1655,7 +1891,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:skeleton_skull"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:skeleton_skull"
+			}
 			id: "5E5ADC489FE75022"
 			rewards: [
 				{
@@ -1675,9 +1919,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "3B52633DDC1A6313"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Skeletons = 3 Bevels 2 Spurs"
+			subtitle: "100 Skeletons = 3 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -1696,7 +1953,15 @@
 				"4386DFA29FCEDD4D"
 			]
 			dependency_requirement: "all_started"
-			icon: "apotheosis:prismatic_web"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:prismatic_web"
+			}
 			id: "77FD90BB06FA8286"
 			rewards: [
 				{
@@ -1716,9 +1981,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "6D99CC79BC3466A7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Spiders = 3 Bevels 2 Spurs"
+			subtitle: "100 Spiders = 3 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -1737,7 +2015,15 @@
 				"08C7F32669387005"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:magma_cream"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:magma_cream"
+			}
 			id: "0007FB86B9491934"
 			rewards: [
 				{
@@ -1757,9 +2043,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "118E4D1D287FC2CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Magma Cubes = 3 Bevels 4 Spurs"
+			subtitle: "100 Magma Cubes = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -1780,6 +2079,11 @@
 			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:white_banner"
 				tag: {
 					BlockEntityTag: {
@@ -1844,9 +2148,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "5D5FA7FEFC57A7EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Pillagers = 3 Bevels 4 Spurs"
+			subtitle: "100 Pillagers = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -1871,7 +2188,15 @@
 				"6A78A940F9CF814F"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:piglin_head"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:piglin_head"
+			}
 			id: "63A3C949C4B15ECF"
 			rewards: [
 				{
@@ -1891,9 +2216,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "5B947B6860BE6ADA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Piglin = 3 Bevels 4 Spurs"
+			subtitle: "100 Piglin = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: "minecraft:piglin_head"
@@ -1914,6 +2252,11 @@
 			dependency_requirement: "all_started"
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:iron_axe"
 				tag: {
 					Damage: 0
@@ -1938,9 +2281,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "109E61EA2D4FC88A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Vindicator = 3 Bevels 6 Spurs"
+			subtitle: "100 Vindicator = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -1965,7 +2321,15 @@
 				"6DD69C0C1529E25A"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:blaze_rod"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blaze_rod"
+			}
 			id: "5B18C089065B575B"
 			rewards: [
 				{
@@ -1985,9 +2349,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "583D8C34E01F3463"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Blaze = 3 Bevels 6 Spurs"
+			subtitle: "100 Blaze = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -2006,7 +2383,15 @@
 				"50FC161949CF6A8F"
 			]
 			dependency_requirement: "all_started"
-			icon: "minecraft:gold_block"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gold_block"
+			}
 			id: "338AC05652CC2C49"
 			rewards: [
 				{
@@ -2026,9 +2411,22 @@
 					item: "numismatics:spur"
 					type: "item"
 				}
+				{
+					id: "647775EFE0074AAC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
 			]
 			size: 1.5d
-			subtitle: "100 Piglin Brutes = 3 Bevels 6 Spurs"
+			subtitle: "100 Piglin Brutes = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -2041,9 +2439,18 @@
 			y: -11.0d
 		}
 		{
+			can_repeat: false
 			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["Endermen have started to inhabit the overworld, even developing adaptations to specific biome conditions. Hunt some of every variant you can find and thin out the numbers a little bit... do a good enough job and eye think you may get some help reaching their home dimension."]
-			icon: "supplementaries:enderman_head"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "supplementaries:enderman_head"
+			}
 			id: "7F141BAED60DBD76"
 			progression_mode: "linear"
 			rewards: [{
@@ -2119,6 +2526,7 @@
 			y: -12.5d
 		}
 		{
+			can_repeat: false
 			dependencies: [
 				"0C251D401C905352"
 				"37C70F25AC2183F3"
@@ -2129,6 +2537,11 @@
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "endrem:cryptic_eye"
 				tag: {
 					Damage: 0
@@ -2158,6 +2571,7 @@
 			y: -11.964285714285715d
 		}
 		{
+			can_repeat: false
 			dependencies: [
 				"5F22C3C63C9489DF"
 				"59C7AB21F0B82E8C"
@@ -2172,6 +2586,11 @@
 			hide_text_until_complete: false
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "endrem:witch_eye"
 				tag: {
 					Damage: 0
@@ -2202,6 +2621,7 @@
 			y: -13.142857142857146d
 		}
 		{
+			can_repeat: false
 			dependencies: [
 				"3DEC224E6DAE8C32"
 				"730EC1EBC58557AC"
@@ -2216,6 +2636,11 @@
 			hide_text_until_complete: false
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "endrem:exotic_eye"
 				tag: {
 					Damage: 0
@@ -2245,6 +2670,7 @@
 			y: -11.964285714285715d
 		}
 		{
+			can_repeat: false
 			dependencies: [
 				"3A37A3F61707B75F"
 				"109231EE16FEB4B7"
@@ -2256,6 +2682,11 @@
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "endrem:undead_eye"
 				tag: {
 					Damage: 0
@@ -2286,7 +2717,7 @@
 		}
 		{
 			description: [
-				"&cThe Nightmare Stalker&r is a mini-boss you will randomly encounter while playing. After &e3 in-game days&r, you will begin to see the the occasional warning to the effect of \"&6you are being stalked&r\" and The Nightmare Stalker will begin to spawn."
+				"&cThe Nightmare Stalker&r is a mini-boss you will randomly encounter while playing. After &e3 in-game days&r, you will begin to see warnings to the effect of \"&6you are being stalked&r\" and The Nightmare Stalker will begin to spawn."
 				""
 				"The boss has a base HP of 70, the ability to both inflict harmful status effects upon you &oand&r render itself, well... everything but it's &3eyes&r... invisible."
 				""
@@ -2306,6 +2737,66 @@
 				id: "born_in_chaos_v1:nightmare_stalker_skull"
 			}
 			id: "23193C4466AAF035"
+			rewards: [
+				{
+					id: "76C68F2B0C715E14"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2A47074C13BAE5AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "01270A6BC404CA14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "26EFCFDBD5300813"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+				{
+					id: "299DED5BC255C46C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:yellow_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			subtitle: "Watch your back!"
 			tasks: [{
@@ -2323,6 +2814,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Slayer Tasl: Kill The Nightmare Stalker"
 			x: -13.5d
 			y: -8.5d
 		}
@@ -2338,6 +2830,39 @@
 				id: "born_in_chaos_v1:nightmare_stalker_skull"
 			}
 			id: "270E7686D900E076"
+			rewards: [
+				{
+					id: "5DE43716B491E56E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "160434172F2BF9CC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2437CC01A452E765"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
@@ -2351,6 +2876,66 @@
 		{
 			dependencies: ["270E7686D900E076"]
 			id: "683445EC2D09AF10"
+			rewards: [
+				{
+					id: "5404E64F588FDF8F"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "4C5B000556E83B9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0CF2916CAEEF82D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5001DBD06127B95C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "5930505AF6584FE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
@@ -2373,6 +2958,40 @@
 		{
 			dependencies: ["683445EC2D09AF10"]
 			id: "14C492C4A7D7CA80"
+			rewards: [
+				{
+					id: "2816FC5D7712F1BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1EC2A3F3C1FF7B85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "19D9F653322D1E1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
@@ -2426,7 +3045,37 @@
 			y: -8.5d
 		}
 		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:decorated_pot"
+			}
 			id: "44947D27C265DE11"
+			rewards: [
+				{
+					id: "74DF7D36B54312D3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6B2E9D1E6416AE83"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "realmrpg_demons:chort"
 				id: "64E44B026FDA733C"
@@ -2470,7 +3119,37 @@
 			y: -8.5d
 		}
 		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:phantom_membrane"
+			}
 			id: "094E5BA2EC046D84"
+			rewards: [
+				{
+					id: "18CFC9389A64D694"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "4FE1790AEB4C599E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:phantom"
 				id: "52AA97B2707DC178"
@@ -2481,7 +3160,37 @@
 			y: -8.5d
 		}
 		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blocksyouneed_luna:open_barrel"
+			}
 			id: "3AEDAD6C21C81D12"
+			rewards: [
+				{
+					id: "7AB755983645AF51"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "557C7A368C89D3CE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
 				id: "0EB1361349C7649B"
@@ -2503,6 +3212,40 @@
 				id: "born_in_chaos_v1:nightmare_stalker_skull"
 			}
 			id: "12395919BC443F49"
+			rewards: [
+				{
+					id: "1882907171E7E662"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "1D6A23422E5DF331"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "428BAF6E63C395A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 2.5d
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
@@ -2510,11 +3253,44 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: -13.5d
-			y: -0.5d
+			x: -13.44642857142857d
+			y: -0.8214285714285623d
 		}
 		{
 			id: "434326D1A0F3AE8D"
+			rewards: [
+				{
+					id: "20588AD33384CF9E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1E06179950862381"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6B60CBE3CB92F5B2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:warden"
@@ -2522,11 +3298,45 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Slayer Task: Kill The Warden"
 			x: -9.5d
 			y: -5.5d
 		}
 		{
 			id: "7D6A99E680B3EF1D"
+			rewards: [
+				{
+					id: "10B6A244F997D521"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "27A0F1F0369167C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "25DE4B92D49594B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:wither"
@@ -2534,11 +3344,45 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Slayer Task: Kill The Wither"
 			x: -7.0d
 			y: -5.5d
 		}
 		{
 			id: "0F1EF7B6A7B0CE03"
+			rewards: [
+				{
+					id: "34E9CCDB61E66590"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "555F3C4DF4C35F9F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2351BF01DD10C1AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -2546,12 +3390,47 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Slayer Task: Kill The Ender Dragon"
 			x: -4.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["434326D1A0F3AE8D"]
 			id: "4DE5ADF73C780301"
+			rewards: [
+				{
+					id: "33525F0C76AD19DC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "5C2EF1B6E78A7A1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4FB8EDC78F28B009"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				entity: "minecraft:warden"
@@ -2565,6 +3444,40 @@
 		{
 			dependencies: ["4DE5ADF73C780301"]
 			id: "3E725771D86638F1"
+			rewards: [
+				{
+					id: "216AB952379C6CC7"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "76D368985C623950"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5276F7FE1668D91F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.5d
 			tasks: [{
@@ -2579,6 +3492,40 @@
 		{
 			dependencies: ["7D6A99E680B3EF1D"]
 			id: "1645896B7381C961"
+			rewards: [
+				{
+					id: "302C288720621E35"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "3911D8AD20E60FAA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "79A24149C9CDA44D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				entity: "minecraft:wither"
@@ -2592,6 +3539,40 @@
 		{
 			dependencies: ["1645896B7381C961"]
 			id: "0BDA1AE460792C87"
+			rewards: [
+				{
+					id: "69B7C9703C5EBEA7"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "7201CD9048A3827B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7240A44B9759AE9B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 2.5d
 			tasks: [{
 				entity: "minecraft:wither"
@@ -2605,6 +3586,40 @@
 		{
 			dependencies: ["0F1EF7B6A7B0CE03"]
 			id: "2D36E3E2E1FC0B8F"
+			rewards: [
+				{
+					id: "4A90523C7943B27A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "3E2EB5AF939123B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "71F3334B719936A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -2618,6 +3633,40 @@
 		{
 			dependencies: ["2D36E3E2E1FC0B8F"]
 			id: "19B74259947BC780"
+			rewards: [
+				{
+					id: "674B95EABF218D0B"
+					type: "xp"
+					xp: 250
+				}
+				{
+					count: 3
+					id: "47AD1A6C8E3310EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "295E56D1843CD7FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+			]
 			size: 2.5d
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -2858,7 +3907,50 @@
 		}
 		{
 			dependencies: ["3AEDAD6C21C81D12"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blocksyouneed_luna:open_barrel"
+			}
 			id: "53A1A77A05301296"
+			rewards: [
+				{
+					id: "3A1BD056B0FCBEFA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3AAF9152F4D4E971"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2504104BA43C4DA2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
 				id: "2B69F655EA8D4A64"
@@ -2870,7 +3962,51 @@
 		}
 		{
 			dependencies: ["53A1A77A05301296"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blocksyouneed_luna:open_barrel"
+			}
 			id: "2ADAADB43D2652CC"
+			rewards: [
+				{
+					id: "30277D081187CB45"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "089F523FEE32AE7B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6E458B931D4B7EE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
@@ -2883,7 +4019,64 @@
 		}
 		{
 			dependencies: ["2ADAADB43D2652CC"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blocksyouneed_luna:open_barrel"
+			}
 			id: "34821D334D09BC5B"
+			rewards: [
+				{
+					id: "468891492DC6D0C5"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 3
+					id: "21E38B082D1227FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B1C5D01807EBF46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "1DF7C6C186A8E62C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
@@ -2896,7 +4089,50 @@
 		}
 		{
 			dependencies: ["094E5BA2EC046D84"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:phantom_membrane"
+			}
 			id: "3CB261D882683C37"
+			rewards: [
+				{
+					id: "169D5CED01E582DA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "34C1F4D392B04E35"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "678FECEFC83C57E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "minecraft:phantom"
 				id: "3AC0C1C3BDDEA820"
@@ -2908,7 +4144,51 @@
 		}
 		{
 			dependencies: ["3CB261D882683C37"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:phantom_membrane"
+			}
 			id: "332C6147CF03B339"
+			rewards: [
+				{
+					id: "6A8F2B60D9D58099"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "5857BD8CE0C8C676"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3145CAC61DBB8108"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				entity: "minecraft:phantom"
@@ -2921,7 +4201,64 @@
 		}
 		{
 			dependencies: ["332C6147CF03B339"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:phantom_membrane"
+			}
 			id: "01324225091A59A5"
+			rewards: [
+				{
+					id: "56522517743A23DF"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 3
+					id: "23C4E08EB51C5032"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3885BC34E5D6BA15"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "192DC50C08D9205E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "minecraft:phantom"
@@ -2934,7 +4271,50 @@
 		}
 		{
 			dependencies: ["44947D27C265DE11"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:decorated_pot"
+			}
 			id: "37CA36ACA032ADDA"
+			rewards: [
+				{
+					id: "51B693416EF7FC66"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "12E5F34D095FA296"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E00C0585BA9A387"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "realmrpg_demons:chort"
 				id: "511DD674140749D3"
@@ -2946,7 +4326,51 @@
 		}
 		{
 			dependencies: ["37CA36ACA032ADDA"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:decorated_pot"
+			}
 			id: "14A18670ADD58160"
+			rewards: [
+				{
+					id: "093FF1D9EB658809"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "02DE46E7F4964B3A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3B824A9FEDE71846"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				entity: "realmrpg_demons:chort"
@@ -2959,7 +4383,64 @@
 		}
 		{
 			dependencies: ["14A18670ADD58160"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:decorated_pot"
+			}
 			id: "260CF7D0EED04AB3"
+			rewards: [
+				{
+					id: "0A09D1F76AF4288F"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 3
+					id: "432BA7545FF80ACC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3C9FBA986660D3AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "139E5190B10E1F19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "realmrpg_demons:chort"
@@ -2969,6 +4450,516 @@
 			}]
 			x: -28.5d
 			y: -3.75d
+		}
+		{
+			id: "1B84D538D00747D2"
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				id: "5476D639BD04E012"
+				type: "kill"
+				value: 10L
+			}]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			id: "6E228A1F474BBD86"
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "0C669CA5CAA9DC1F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -28.5d
+			y: -1.5d
+		}
+		{
+			id: "4D8993B7F0235F73"
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "391D3F7414CA38D9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -27.0d
+			y: -1.5d
+		}
+		{
+			id: "6EFABE82954D5320"
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "3F562AF60C56477C"
+				type: "kill"
+				value: 10L
+			}]
+			x: -25.5d
+			y: -1.5d
+		}
+		{
+			id: "7E40816168CCCE46"
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				id: "5B26097AF9E2D5F4"
+				type: "kill"
+				value: 10L
+			}]
+			x: -24.0d
+			y: -1.5d
+		}
+		{
+			id: "2E94B3CD97483F9A"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				id: "55972261F99E85FD"
+				type: "kill"
+				value: 10L
+			}]
+			x: -22.5d
+			y: -1.5d
+		}
+		{
+			id: "1D40436520E0535A"
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				id: "1A2F073923C7156C"
+				type: "kill"
+				value: 10L
+			}]
+			x: -18.0d
+			y: -1.5d
+		}
+		{
+			id: "53A57C7228E05A59"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "53FD2508F92C5E2F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -21.0d
+			y: -1.5d
+		}
+		{
+			id: "58BDE0311F55FC4B"
+			tasks: [{
+				entity: "realmrpg_demons:demon"
+				id: "07A9D65F82D8DF12"
+				type: "kill"
+				value: 10L
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E228A1F474BBD86"]
+			id: "15F5EFC353550D0F"
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "60A92EACB8E1A337"
+				type: "kill"
+				value: 25L
+			}]
+			x: -28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15F5EFC353550D0F"]
+			id: "5E96D5112D501540"
+			size: 1.25d
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "2065426B6023DB82"
+				type: "kill"
+				value: 50L
+			}]
+			x: -28.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E96D5112D501540"]
+			id: "1BB5BE986E2C307A"
+			size: 1.5d
+			tasks: [{
+				entity: "ars_nouveau:wilden_guardian"
+				id: "06FE30A280E73EC2"
+				type: "kill"
+				value: 100L
+			}]
+			x: -28.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D8993B7F0235F73"]
+			id: "65E4E0FDE193B613"
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "13C3C1C5D38BAF18"
+				type: "kill"
+				value: 25L
+			}]
+			x: -27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65E4E0FDE193B613"]
+			id: "740E89C4D54333A3"
+			size: 1.25d
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "3212AD9ACFB78BDA"
+				type: "kill"
+				value: 50L
+			}]
+			x: -27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["740E89C4D54333A3"]
+			id: "01A42B8CD9B07411"
+			size: 1.5d
+			tasks: [{
+				entity: "ars_nouveau:wilden_hunter"
+				id: "3985EC91CCADC187"
+				type: "kill"
+				value: 100L
+			}]
+			x: -27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EFABE82954D5320"]
+			id: "25DB6595C717195F"
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "702C3C7B0A6C0B3A"
+				type: "kill"
+				value: 25L
+			}]
+			x: -25.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25DB6595C717195F"]
+			id: "60C86EEB5B2347F7"
+			size: 1.25d
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "69B1C7655A1925CD"
+				type: "kill"
+				value: 50L
+			}]
+			x: -25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["60C86EEB5B2347F7"]
+			id: "117D4D58E5FEA5CF"
+			size: 1.5d
+			tasks: [{
+				entity: "ars_nouveau:wilden_stalker"
+				id: "0E1EDECD33C0FD73"
+				type: "kill"
+				value: 100L
+			}]
+			x: -25.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E40816168CCCE46"]
+			id: "3A37E234F6ACAE77"
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				id: "5E27019F815B4F29"
+				type: "kill"
+				value: 25L
+			}]
+			x: -24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A37E234F6ACAE77"]
+			id: "327A86D3166CBBE1"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				id: "5CF5CEC0E4C9F698"
+				type: "kill"
+				value: 50L
+			}]
+			x: -24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["327A86D3166CBBE1"]
+			id: "261074C1F2904FF3"
+			size: 1.5d
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				id: "5F31C351DBCF52F1"
+				type: "kill"
+				value: 100L
+			}]
+			x: -24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E94B3CD97483F9A"]
+			id: "0AA90A379EEF1531"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				id: "175C2C24482D32D0"
+				type: "kill"
+				value: 25L
+			}]
+			x: -22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AA90A379EEF1531"]
+			id: "59C7E85F8DE68623"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				id: "47C9FEC5F939A411"
+				type: "kill"
+				value: 50L
+			}]
+			x: -22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59C7E85F8DE68623"]
+			id: "35D35F76446C2B9D"
+			size: 1.5d
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				id: "6BC48C0E5B7DDF48"
+				type: "kill"
+				value: 100L
+			}]
+			x: -22.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53A57C7228E05A59"]
+			id: "636346E1DB31CBD2"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "04980D8E212973A3"
+				type: "kill"
+				value: 25L
+			}]
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["636346E1DB31CBD2"]
+			id: "6E7E61E781D03163"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "7544C63DE0AC4C02"
+				type: "kill"
+				value: 50L
+			}]
+			x: -21.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E7E61E781D03163"]
+			id: "2028304431DF86EE"
+			size: 1.5d
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "10E812F45CF57710"
+				type: "kill"
+				value: 100L
+			}]
+			x: -21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B84D538D00747D2"]
+			id: "0A5BC464C97C98EC"
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				id: "3385542CE2061229"
+				type: "kill"
+				value: 25L
+			}]
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A5BC464C97C98EC"]
+			id: "0709E7A927B3104F"
+			size: 1.25d
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				id: "466CFFB514DFDF09"
+				type: "kill"
+				value: 50L
+			}]
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0709E7A927B3104F"]
+			id: "7CCC31105BD811F4"
+			size: 1.5d
+			tasks: [{
+				entity: "alexsmobs:mimicube"
+				id: "7E6E09F8699DD9B6"
+				type: "kill"
+				value: 100L
+			}]
+			x: -19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D40436520E0535A"]
+			id: "50199C5794F10716"
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				id: "60F5F1A3818C490E"
+				type: "kill"
+				value: 25L
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50199C5794F10716"]
+			id: "2C5492480F6E00EB"
+			size: 1.25d
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				id: "5E112D9AE4B46D4E"
+				type: "kill"
+				value: 50L
+			}]
+			x: -18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C5492480F6E00EB"]
+			id: "1B013284506D5648"
+			size: 1.5d
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				id: "5DF3A2919270BB87"
+				type: "kill"
+				value: 100L
+			}]
+			x: -18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["12395919BC443F49"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "born_in_chaos_v1:nightmare_stalker_skull"
+			}
+			id: "5E3E26C8DA0BE5AF"
+			rewards: [
+				{
+					id: "4EA96E78F64C193F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "281A5142B2ECFF4D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5F41DF73466BAE7C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "levelhearts:heart_container"
+					}
+					type: "item"
+				}
+				{
+					id: "6B0F750BF115FF41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:soul_heart_crystal"
+					}
+					type: "item"
+				}
+			]
+			size: 3.0d
+			subtitle: "I'm not stuck dealing with you... you're stuck dealing with me"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "7A82A994F81E1C3F"
+				type: "kill"
+				value: 50L
+			}]
+			x: -13.44642857142857d
+			y: 2.3571428571428683d
+		}
+		{
+			dependencies: ["58BDE0311F55FC4B"]
+			id: "7E4647D31FAB5C7F"
+			tasks: [{
+				entity: "realmrpg_demons:demon"
+				id: "19697D519E8E8DEC"
+				type: "kill"
+				value: 25L
+			}]
+			x: -16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E4647D31FAB5C7F"]
+			id: "459B1D856445DD73"
+			size: 1.25d
+			tasks: [{
+				entity: "realmrpg_demons:demon"
+				id: "4F1BBC9948AA798A"
+				type: "kill"
+				value: 50L
+			}]
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["459B1D856445DD73"]
+			id: "308924857D973B82"
+			size: 1.5d
+			tasks: [{
+				entity: "realmrpg_demons:demon"
+				id: "17E13F53DC206C1E"
+				type: "kill"
+				value: 100L
+			}]
+			x: -16.5d
+			y: 3.0d
 		}
 	]
 	title: "&dSlayer Rewards"

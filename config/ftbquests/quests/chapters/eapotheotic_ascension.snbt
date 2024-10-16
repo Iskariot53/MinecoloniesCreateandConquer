@@ -70,7 +70,7 @@
 		{
 			dependencies: ["375EB6ADD26E0668"]
 			description: [
-				"Gem dust can be obtained a few different ways, bare in mind that the gem will be destroyed in the process and as such it's only advisable to crush low-tier gems or gems you have no need for or interest in."
+				"Gem dust can be obtained a few different ways, bear in mind that the gem will be destroyed in the process and as such it's only advisable to crush low-tier gems or gems you have no need for or interest in."
 				""
 				"The first method available to you will be crushing them with a &8falling anvil&r. Simply throw the gems to be crushed on the ground and drop an anvil on them. Easy!"
 				""
@@ -678,7 +678,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain an esoteric gem"
+			subtitle: "Obtain an esoteric jewel"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/esoteric_gem"
 				criterion: ""
@@ -1011,7 +1011,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Heirloom"
+			subtitle: "Heirloom rarity material"
 			tasks: [{
 				id: "44F95E31F153E9C9"
 				item: {

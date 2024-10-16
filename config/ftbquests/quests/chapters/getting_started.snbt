@@ -1,5 +1,4 @@
 {
-	autofocus_id: "613C7011A8A8033C"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "getting_started"
@@ -77,15 +76,7 @@
 				}
 				{
 					id: "2BCA1C627F304ADE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
+					item: "numismatics:spur"
 					type: "item"
 				}
 			]
@@ -111,15 +102,7 @@
 			rewards: [
 				{
 					id: "6FD23593316F7E2D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "origins:orb_of_origin"
-					}
+					item: "origins:orb_of_origin"
 					type: "item"
 				}
 				{
@@ -129,15 +112,7 @@
 				}
 				{
 					id: "58608783DB9344A8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
+					item: "numismatics:spur"
 					type: "item"
 				}
 			]
@@ -242,15 +217,7 @@
 				}
 				{
 					id: "695B574F32129B63"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
+					item: "numismatics:spur"
 					type: "item"
 				}
 			]
@@ -377,6 +344,13 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7FC67EC0016926BD"
+					table_id: 2996026712461665857L
+					title: "&6&lChoose Your Starter Hut:"
+					type: "choice"
+				}
 			]
 			subtitle: "A home in your hand!"
 			tasks: [{
@@ -401,15 +375,7 @@
 				{
 					count: 2
 					id: "3B1DCD308281D401"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
+					item: "numismatics:spur"
 					type: "item"
 				}
 			]
