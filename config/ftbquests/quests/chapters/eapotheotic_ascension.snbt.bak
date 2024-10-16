@@ -74,7 +74,7 @@
 				""
 				"The first method available to you will be crushing them with a &8falling anvil&r. Simply throw the gems to be crushed on the ground and drop an anvil on them. Easy!"
 				""
-				"Next will be the&6 salvaging table&r. This requires gem dust to craft."
+				"Next will be the&6 salvaging table&r. Which requires gem dust to craft."
 				""
 				"Lastly, the ability to crush and salvage gems, jewels and affixed armor to provide materials is one of the many integrations that has been provided to &ecrushing wheels&r."
 			]
@@ -122,11 +122,11 @@
 		{
 			dependencies: ["375EB6ADD26E0668"]
 			description: [
-				"&9Affixes&r are modifiers added to armor and weapons that add extra stats and effects beyond what the item would normally provide, pretty cool huh?"
+				"&9Affixes are modifiers&r added to armor and weapons that add extra stats and effects beyond what the item would normally provide, pretty cool huh?"
 				""
 				"Affixes come in many rarities and this will be discernable by the &6color&r of the name of the affixed item."
 				""
-				"Affixes can provide anything from added stats to enchantability bonues and will scale with the level of rarity. There will always be a threshold for any given rarity. Meaning that 2 items with the exact same affix will not necessarily give the exact same stat boost to the stat, it is entirely possible to roll higher or lower within the threshold of stats the affix level can provide."
+				"Affixes can provide anything from added stats to enchantability bonues and will scale with the level of rarity. Their will always be a threshold for any given rarity. Meaning that 2 items with the exact same affix will not necessarily give the exact same stat boost to the stat, it is entirely possible to roll higher or lower within the threshold of stats the affix level can provide."
 			]
 			id: "1CDD59D36902239A"
 			rewards: [
@@ -691,7 +691,7 @@
 		{
 			dependencies: ["5DE31936F9212582"]
 			description: [
-				"Once you have some gem dust, you can craft a &6salvaging table&r, used for &ebreaking down gems and affixed items&r you don't want for materials that can be used to upgrade other gems and items you &odo&r want. Each tier of gem and affix provides its own unique salvage material respective to its rarity."
+				"Once you have some gem dust you can craft a &6salvaging table&r, used for &ebreaking down gems and affixed items&r you don't want for materials that can be used to upgrade other gems and items you &odo&r want. Each tier of gem and affix provides it's own unique salvage material respective to it's rarity."
 				""
 				"&9Note&r: This functionality has been added to &3crushing wheels&r as well!"
 			]
@@ -1276,7 +1276,7 @@
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&6The Sigil of Enhancement&r is used to power the &eaugmentation table&r."]
+			description: ["&6The Sigil of Enhancement&r i used to power the &eaugmentation table&r."]
 			id: "459ED7497729B8B5"
 			rewards: [
 				{
@@ -1423,7 +1423,7 @@
 			description: [
 				"The standard reforging table, when provided with sigils of rebirth, can be used to reforge affixes up to &o&6mythic&r&r. This is a good place to focus on getting good affixes to start with in your later game gear progression, but no they are not the most powerful affixes, simply the most powerful ones ones &o&eEASILY OBTAINED&r&r. Higher tiers of more powerful affixes &ocan&r be found, and this is the only way to obtain them. "
 				""
-				"This is to preserve the adventuring aspects of the game, the best gear shouldn't be obtained from feeding an endless supply of materials into a table anyways."
+				"This is to preserve the adventuring aspects of the game, the best gear shouldn't be obtained from feeding an endless supply of mats into a table anyways."
 				""
 				"Tiers such as ancient and esoteric can roll the same affixes with higher values, but luck is required."
 				""
