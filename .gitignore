@@ -1,5 +1,9 @@
 *.bak
 # Folders/wildcards
+**/modernfix
+backups/backups.json
+**shaderpacks/
+**xaero/
 /dumps/
 /crash-reports/
 /.mixin.out/
