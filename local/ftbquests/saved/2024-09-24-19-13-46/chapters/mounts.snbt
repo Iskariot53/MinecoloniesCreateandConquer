@@ -1,0 +1,1460 @@
+{
+	autofocus_id: "5A87F488E638E388"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "mounts"
+	group: "40D70F6AEAC8BA2E"
+	icon: "simplehats:dragonskullender"
+	id: "3806A1D87EFF57DA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			description: [
+				"&l&6Animalistic Mounts&r&r are special mounts that can only be &nsummoned&r by the player,"
+				"each mount has different behaviors and special abilities!"
+				""
+				"To get started, you need at least &l&32x Soul Bottles&r&r and &l&e4x Colored Eyes&r&r."
+				""
+				"&l&3Soul Bottles&r&r can be obtained by clicking on &lSoul Sand&r using a &lWater Bottle&r."
+				"&l&eColored Eyes&r&r are craftable using an &lEye of Ender&r surrounded by any type of &ldye&r."
+			]
+			icon: "animalistic_a:soul_bottle"
+			id: "1F76CF6FBA5AEA93"
+			rewards: [
+				{
+					id: "4DEB5BCDBAA5ED39"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					id: "117DD406A47866EA"
+					type: "xp"
+					xp: 5
+				}
+			]
+			size: 2.0d
+			subtitle: "Let's prepare to summon our favorite Mounts!"
+			tasks: [
+				{
+					count: 2L
+					id: "488F4CCDD31A3290"
+					item: "animalistic_a:soul_bottle"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "35E4947E64023579"
+					item: "animalistic_a:colored_eye"
+					type: "item"
+				}
+			]
+			title: "Your Favorite Animalistic Mounts!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1F76CF6FBA5AEA93"
+			]
+			description: [
+				"Use 1x of your &l&3Soul Bottles&r&r to craft the Summoning Table."
+				"Each mount is summoned in your world via this table using a &l&3Soul Bottle&r&r, &l&cSaddle&r&r and the &l&6Talisman&r&r related to that mount!"
+				""
+				"After summoning any mount, click on it to tame it. Shift click it to make it sit and stay in place."
+			]
+			id: "5B64DE7E58D4D27B"
+			rewards: [
+				{
+					count: 2
+					id: "506CF8280F7523A1"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "7080683A56859762"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Craft a Summoning Table"
+			tasks: [{
+				id: "65B5ED4DAD872EA2"
+				item: "animalistic_a:mesainvo"
+				type: "item"
+			}]
+			title: "Craft a Summoning Table"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Red Talisman is used to summon &c&lThe Red Panda Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps with the \"Space\" key, and defends you from enemies."
+				""
+				"&l&4Favorite Food:&r&r Bamboo and Sugar Cane."
+			]
+			id: "4B23FD91992362FC"
+			rewards: [
+				{
+					id: "023326652BF47706"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "0F1BA252D3A396A7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.0d
+			subtitle: "Craft a Red Talisman"
+			tasks: [{
+				id: "627E55FA22075BD4"
+				item: "animalistic_a:red_talisman"
+				type: "item"
+			}]
+			title: "Red Panda Mount"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Gold Talisman is used to summon &l&6The Tiger Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps with the \"Space\" key, and defends you from enemies. While mounted you can attack with the \"V\" key. (check your keybinds)"
+				""
+				"&l&4Favorite Food:&r&r All kinds of Meat."
+			]
+			id: "7B579DA1D9D8D845"
+			rewards: [
+				{
+					id: "3E54A02B9A74F469"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "6909F4A841B4761C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Gold Talisman"
+			tasks: [{
+				id: "63664F709F770C3F"
+				item: "animalistic_a:orange_talisman"
+				type: "item"
+			}]
+			title: "Tiger Mount"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Blue Talisman is used to summon &l&bThe Blue Bird Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, flies with the \"Space\" key, and defends you from enemies."
+				""
+				"&l&4Favorite Food:&r&r Carrots, Potatoes and Beets."
+			]
+			id: "692E907218A61497"
+			rewards: [
+				{
+					id: "79CB4F49F61BB58C"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "6151A9697F1A5701"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Blue Talisman"
+			tasks: [{
+				id: "64AD0FD6B162E1AD"
+				item: "animalistic_a:blue_talisman"
+				type: "item"
+			}]
+			title: "Blue Bird Mount"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The White Talisman is used to summon &l&eThe Duck&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It will follow you everywhere while carrying a chest with extra inventory, it can't be ridden."
+				""
+				"&l&4Favorite Food:&r&r All kinds of Seeds."
+			]
+			id: "33C2F0A1A0B2B75F"
+			rewards: [
+				{
+					id: "40D91103C032F20A"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "702D6931031208B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a White Talisman"
+			tasks: [{
+				id: "71B6DF1984C12D36"
+				item: "animalistic_a:white_talisman"
+				type: "item"
+			}]
+			title: "Duck"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Purple Talisman is used to summon &l&5The Alpha Bat Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, flies with the \"Space\" key, and defends you from enemies. While mounted it gives you Night Vision when you press \"V\". (check your keybinds)"
+				""
+				"&l&4Favorite Food:&r&r Spider Eyes."
+			]
+			id: "0083172DAF676F02"
+			rewards: [
+				{
+					id: "777BCBED2F3DE40E"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "03BFCC6FB9CD2D20"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Purple Talisman"
+			tasks: [{
+				id: "63FB28A2CC59649C"
+				item: "animalistic_a:purple_talisman"
+				type: "item"
+			}]
+			title: "Alpha Bat Mount"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Pink Talisman is used to summon &l&dThe Mystic Owl Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps with the \"Space\" key, defends you from enemies and glides by pressing the \"Space\" key twice."
+				""
+				"&l&4Favorite Food:&r&r All kinds of Uncooked Meat."
+			]
+			id: "7AABCEFE8D3D1FCD"
+			rewards: [
+				{
+					id: "22B5CA64D941579E"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "0B1DB59A83B873E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Pink Talisman"
+			tasks: [{
+				id: "7560F599D269AF33"
+				item: "animalistic_a:pink_talisman"
+				type: "item"
+			}]
+			title: "Mystic Owl Mount"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Gray Talisman is used to summon &l&7The Mechanical Wolf Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps with the \"Space\" key, and defends you from enemies. While mounted you can shoot a target with the \"V\" key. (check your keybinds)"
+				""
+				"&l&4Favorite Food:&r&r All kinds of Meat, Bone and Iron."
+			]
+			id: "5A87F488E638E388"
+			rewards: [
+				{
+					id: "5471BAC2A40AA50B"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "1406E1C8B20A8E2E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Gray Talisman"
+			tasks: [{
+				id: "15876B22C874FDC3"
+				item: "animalistic_a:gray_talisman"
+				type: "item"
+			}]
+			title: "Mechanical Wolf Mount"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Yellow Talisman is used to summon &l&eThe Nymph Bird Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, flies with the \"Space\" key, and defends you from enemies."
+				""
+				"&l&4Favorite Food:&r&r Seeds."
+			]
+			id: "517FBC5C5EB83984"
+			rewards: [
+				{
+					id: "27F25EF16234A298"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "5E96800885D6BAA1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Yellow Talisman"
+			tasks: [{
+				id: "3F65C6D0AF0B18A3"
+				item: "animalistic_a:yellow_talisman"
+				type: "item"
+			}]
+			title: "Nymph Bird Mount"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Black Talisman is used to summon &l&0The Secretary Bird Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, does NOT fly but it runs very fast, and defends you from enemies."
+				""
+				"&l&4Favorite Food:&r&r Seeds."
+			]
+			id: "6E9699325EC1AE02"
+			rewards: [
+				{
+					id: "636A8A5A3B19B6F2"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "27DC762396B39649"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Black Talisman"
+			tasks: [{
+				id: "1ADD90626F9215BD"
+				item: "animalistic_a:black_talisman"
+				type: "item"
+			}]
+			title: "Secretary Bird Mount"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Orange Talisman is used to summon &l&6The Ferret Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps with the \"Space\" key, and defends you from enemies. While mounted you can attack with the \"V\" key. (check your keybinds)"
+				""
+				"&l&4Favorite Food:&r&r Chicken and Rabbit."
+			]
+			id: "29BA78B794BC982E"
+			rewards: [
+				{
+					id: "30BAC1D7E8714246"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "79F76E5265584A99"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Orange Talisman"
+			tasks: [{
+				id: "49EBACFECB57ED1E"
+				item: "animalistic_a:oro_talisman"
+				type: "item"
+			}]
+			title: "Ferret Mount"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Amber Talisman is used to summon &l&6The Sloth&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It follows you everywhere and can't be ridden. If you feed it berries, it will give you Night Vision."
+				""
+				"&l&4Favorite Food:&r&r Grass and Leaves."
+			]
+			id: "49B368AACB33032D"
+			rewards: [
+				{
+					id: "635F5CDA7EB3EE3A"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "68A3CA19124334A1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Amber Talisman"
+			tasks: [{
+				id: "48A15908191229A3"
+				item: "animalistic_a:amber_talisman"
+				type: "item"
+			}]
+			title: "Sloth"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Cyan Talisman is used to summon &l&3The Shark Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted in and out of water, when mounted in water it will give you Water Breathing."
+				""
+				"&l&4Favorite Food:&r&r All kinds of Meat."
+			]
+			id: "03EE3310E76C708A"
+			rewards: [
+				{
+					id: "015F8476A40F4F6B"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "3AF35A52EFA0B9CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft a Cyan Talisman"
+			tasks: [{
+				id: "60FDE7C2894B5918"
+				item: "animalistic_a:cyan_talisman"
+				type: "item"
+			}]
+			title: "Shark Mount"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Aqua Talisman is used to summon &l&bThe Blue Dragon Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be ridden in and out of water, but it is faster in water."
+				""
+				"&l&4Favorite Food:&r&r Seagrass, Sea Pickle and Kelp."
+			]
+			id: "0A0B9A663E93EEC1"
+			rewards: [
+				{
+					id: "338E38081A6FB8EF"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "042C073C41EB0841"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Aqua Talisman"
+			tasks: [{
+				id: "6EC94CC7223245F2"
+				item: "animalistic_a:aqua_talisman"
+				type: "item"
+			}]
+			title: "Blue Dragon Mount"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"5B64DE7E58D4D27B"
+			]
+			description: [
+				"The Anicnet Talisman is used to summon &l&7The Spider Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps VERY HIGH with the \"Space\" key, and defends you from enemies."
+				""
+				"&l&4Favorite Food:&r&r Chorus Fruit"
+			]
+			id: "5C1F8A03C5D03ACF"
+			rewards: [
+				{
+					id: "6440EF2203C75864"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "3DC8B0C3860D5223"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Craft an Ancient Talisman"
+			tasks: [{
+				id: "6723EE0178876072"
+				item: "animalistic_a:ancient_talisman"
+				type: "item"
+			}]
+			title: "Spider Mount"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"29BA78B794BC982E"
+			]
+			description: [
+				"The Special Orange Talisman is used to summon &l&6The White Ferret Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps with the \"Space\" key, and defends you from enemies. While mounted you can attack with the \"V\" key. (check your keybinds)"
+				""
+				"&l&4Favorite Food:&r&r Chicken and Rabbit."
+			]
+			id: "1E46D7E28DDF9C5E"
+			rewards: [
+				{
+					id: "60FA770A908A24BD"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "14F1F77ECE16D36F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft a Special Orange Talisman"
+			tasks: [{
+				id: "1A6B06DB17D76F68"
+				item: "animalistic_a:special_ore_talisman"
+				type: "item"
+			}]
+			title: "White Ferret Mount"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"7B579DA1D9D8D845"
+			]
+			description: [
+				"The Special Gold Talisman is used to summon &l&6The Albino Tiger Mount&r&r via the summoning table."
+				""
+				"&l&4Traits and Abilities:&r&r It can be mounted, jumps with the \"Space\" key, and defends you from enemies. While mounted you can attack with the \"V\" key. (check your keybinds)"
+				""
+				"&l&4Favorite Food:&r&r All kinds of Meat."
+			]
+			id: "4BCF80E5E2A92C8E"
+			rewards: [
+				{
+					id: "2744A689E1261FAE"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "15F0F5465666128C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "Craft a Special Gold Talisman"
+			tasks: [{
+				id: "7129A76472BCD228"
+				item: "animalistic_a:special_orange_talisman"
+				type: "item"
+			}]
+			title: "Albino Tiger Mount"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"29AD419B0E2D665C"
+				"1CD308F546528AF3"
+				"0115F9DE6A2431BE"
+				"219044C07E0A73A9"
+				"24B6A071543535A9"
+				"4EC2FE8681D648D2"
+				"78677585EF444800"
+				"6C6CF1BA5E630144"
+				"1C0B25005CC8E6D5"
+				"454E9BB0ACE04360"
+				"16BBCAB598D285E6"
+				"145C3C83F9795988"
+				"17C79A117BBD25EF"
+				"6D050498AEE0948C"
+				"6A8ED46CFAE877F5"
+				"05306734273ACC5F"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"It's time to have your main character moment and befriend a &l&5Dragon&r&r!"
+				"Dragons are special mounts that can be summoned by hatching a &l&8Dragon Egg&r&r in a specific habitat."
+				""
+				"To summon any type of dragon, you need an &lEnder Dragon Egg&r, you obtain a dragon egg by slaying the Edner Dragon. Left-Click the Egg so it teleports to a safer location then Right-Click it to start its hatching process, then you can mine the egg by Left-Clicking it."
+				""
+				"You can transform any dragon egg into any other type of dragon egg by creating the right conditions for them to change, then right-clicking them to start the hatching process, which takes 600 seconds for the egg to hatch. To turn any dragon egg back into a normal ender dragon egg, you need to place the egg into dragon's breath during the Ender Dragon Fight."
+				""
+				"You can breed or tame dragons by feeding them their favorite food. Shift-Click a tamed dragon OR click it while holding a bone to make it sit in place. You can restore your dragon's health by feeding it any type of meat"
+			]
+			icon: "minecraft:dragon_egg"
+			id: "1C313132E86D4928"
+			rewards: [
+				{
+					id: "003D9BE81132B48C"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					id: "71E9354EED12FE8E"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			size: 2.5d
+			subtitle: "How to Train Your Dragon"
+			tasks: [{
+				id: "5A7ADC5D35BE0AC6"
+				title: "Dragon Mounts"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&2Forest Dragon&r&r Egg,"
+				"place &l&2leaves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:forest"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "78677585EF444800"
+			rewards: [{
+				id: "25964249942C9BD1"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Forest Dragon Egg"
+			tasks: [
+				{
+					id: "0DA92B787BBED370"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "499B41858E368704"
+					item: "minecraft:oak_leaves"
+					type: "item"
+				}
+			]
+			title: "Forest Dragon"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&6Fire Dragon&r&r Egg,"
+				"place &l&6magma blocks&r&r in a 3x3 area under the Egg or surround the egg by &l&6lava&r&r then right-click it to start the hatching process."
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:fire"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "4EC2FE8681D648D2"
+			rewards: [{
+				id: "01936C72F6A103C4"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Fire Dragon Egg"
+			tasks: [
+				{
+					id: "44BF6713F34539B7"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4A0BCD62717B5BFA"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "62BFB1ACBC1FD6DC"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			title: "Fire Dragon"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into an &lIce Dragon&r Egg,"
+				"place &lsnow or ice blocks&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:ice"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "1C0B25005CC8E6D5"
+			rewards: [{
+				id: "2543831F043A676B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into an Ice Dragon Egg"
+			tasks: [
+				{
+					id: "5A2CB8B44F753644"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "273187550EA7A904"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6D15D5A21E4B068F"
+					item: "minecraft:ice"
+					type: "item"
+				}
+			]
+			title: "Ice Dragon"
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&bWater Dragon&r&r Egg,"
+				"surround the egg by &l&bwater&r&r in a 3x3 area then right-click it to start the hatching process."
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:water"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "6D050498AEE0948C"
+			rewards: [{
+				id: "6ED64EE8005C4E76"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Water Dragon Egg"
+			tasks: [
+				{
+					id: "0FB0C4CA13F5B3C7"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "671E36AE75A6702A"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			title: "Water Dragon"
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&cNether Dragon&r&r Egg,"
+				"place &l&cblackstone or basalt blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:nether"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "454E9BB0ACE04360"
+			rewards: [{
+				id: "73AB8F689C61C971"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Nether Dragon Egg"
+			tasks: [
+				{
+					id: "69C2986BB6A063E5"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "184B00F2558FB1DC"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "704B5E541C5D25F1"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
+			title: "Nether Dragon"
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into an &lAether Dragon&r Egg,"
+				"place it &labove Y=200&r."
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:aether"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "1CD308F546528AF3"
+			rewards: [{
+				id: "4BE4C5EB2106F0C7"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into an Aether Dragon Egg"
+			tasks: [
+				{
+					id: "1EAC095FF2EA9473"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "55F1AE31E73AFB5A"
+					item: "twilightforest:fluffy_cloud"
+					type: "item"
+				}
+			]
+			title: "Aether Dragon"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &lGhost Dragon&r Egg,"
+				"place it &lbelow Y=0&r"
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:ghost"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "6C6CF1BA5E630144"
+			rewards: [{
+				id: "0F2341419F94FC02"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Ghost Dragon Egg"
+			tasks: [
+				{
+					id: "5D7E23F17ED27C23"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "06CB38A343EECD0F"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_invisibility"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ghost Dragon"
+			x: 13.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To hatch the &l&5Ender Dragon&r&r Egg, simply right-click it to start the hatching process."
+				""
+				"You can breed or tame it by feeding it &lFish&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "dragonmounts:end"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "24B6A071543535A9"
+			rewards: [{
+				id: "70A4B9A2B443D108"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Hatch The Ender Dragon Egg"
+			tasks: [
+				{
+					id: "2CC82E3C2B072448"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "157CD599010278C3"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "78559E3101D18E6C"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			title: "Ender Dragon"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into an &l&dAurora Dragon&r&r Egg,"
+				"place &l&dAmethyst Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&dAmethyst Crystals&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:aurora"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "0115F9DE6A2431BE"
+			rewards: [{
+				id: "799598CCDB1DC3BE"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into an Aurora Dragon Egg"
+			tasks: [
+				{
+					id: "1F942442334406D9"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6E65D3238B7473F0"
+					item: "minecraft:amethyst_block"
+					type: "item"
+				}
+			]
+			title: "Aurora Dragon"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into an &l&8Enchantment Dragon&r&r Egg,"
+				"place &l&8Bookshelves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&8Books&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:enchant"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "219044C07E0A73A9"
+			rewards: [{
+				id: "474A78AB003EA843"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into an Enchantment Dragon Egg"
+			tasks: [
+				{
+					id: "5733D259CB9EC186"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2A9095A4318E0E31"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			title: "Enchantment Dragon"
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&9Storm Dragon&r&r Egg,"
+				"place &l&9Copper Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&9Copper Ingots&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:storm"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "16BBCAB598D285E6"
+			rewards: [{
+				id: "13A7533D757CE473"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Storm Dragon Egg"
+			tasks: [
+				{
+					id: "675702098C54942C"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "519821C3E2F58463"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+			]
+			title: "Storm Dragon"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&eSunlight Dragon&r&r Egg,"
+				"place &l&eGold Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&eGold Ingots&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:sunlight"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "145C3C83F9795988"
+			rewards: [{
+				id: "426B99C24DF9876B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Sunlight Dragon Egg"
+			tasks: [
+				{
+					id: "0432A238F62D1A34"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2B8DA69E24C965F0"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			title: "Sunlight Dragon"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&3Sylphid Dragon&r&r Egg,"
+				"place &l&3Prismarine Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&3Prismarine Shards&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:sylphid"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "29AD419B0E2D665C"
+			rewards: [{
+				id: "549E74EB79FB9B8D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Sylphid Dragon Egg"
+			tasks: [
+				{
+					id: "2EC8351DCBB050B4"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0DC6B7E9B7662582"
+					item: "minecraft:prismarine"
+					type: "item"
+				}
+			]
+			title: "Sylphid Dragon"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&cTerra Dragon&r&r Egg,"
+				"place &l&cBrick Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&cBricks&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:terra"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "17C79A117BBD25EF"
+			rewards: [{
+				id: "417FD28CD72098E1"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Terra Dragon Egg"
+			tasks: [
+				{
+					id: "6E5B131F95955929"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7C519A0AB04FF0B4"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+			]
+			title: "Terra Dragon"
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&0Wither Dragon&r&r Egg,"
+				"place &l&0Wither Skeleton Skulls&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&0Soul Lanterns&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:wither"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "6A8ED46CFAE877F5"
+			rewards: [{
+				id: "322C1805749E6C63"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Wither Dragon Egg"
+			tasks: [
+				{
+					id: "12E98E360EAF75BC"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4E9AD58DFD7BE8C9"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "Wither Dragon"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"1E46EC2070FF8F32"
+			]
+			description: [
+				"To transform a dragon egg into a &l&2Zombie Dragon&r&r Egg,"
+				"place &l&2Iron Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				""
+				"You can tame and breed this dragon with &l&2Rotten Flesh&r&r."
+			]
+			icon: {
+				Count: 1
+				id: "dragonmounts:dragon_egg"
+				tag: {
+					BlockEntityTag: {
+						Breed: "evenmoredragons:zombie"
+						id: "dragonmounts:dragon_egg"
+					}
+				}
+			}
+			id: "05306734273ACC5F"
+			rewards: [{
+				id: "58AA99802D4CAB3B"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Transform a Dragon Egg Into a Zombie Dragon Egg"
+			tasks: [
+				{
+					id: "2CC42745647B717F"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0DF75428A00A6042"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			title: "Zombie Dragon"
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+	title: "Mounts"
+}
