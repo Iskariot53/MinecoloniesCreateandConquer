@@ -57,4 +57,6 @@ craftingTable.remove(<item:mekanism:module_frost_walker_unit>);
 craftingTable.remove(<item:reliquary:magicbane>);
 craftingTable.remove(<item:reliquary:fertile_lily_pad>);
 
+craftingTable.remove(<item:bhc:blade_of_vitality>);
+
 //template:craftingTable.remove(<item:>);
