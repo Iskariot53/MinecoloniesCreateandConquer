@@ -5,6 +5,11 @@
 	group: "46EE86D2C5C12C78"
 	icon: {
 		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
 		id: "scguns:prush_gun"
 		tag: {
 			AmmoCount: 17
@@ -14,6 +19,2775 @@
 	id: "019CB542632013AF"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4CEB772EDB7768E1"]
+			hide_dependent_lines: true
+			id: "04F5E10803F9EB28"
+			subtitle: "Your new gunsmithing table"
+			tasks: [{
+				id: "08C117DB3F8B254C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gun_bench"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "0E758ADA20F75254"
+			subtitle: "We're gonna need to hold it some how"
+			tasks: [{
+				id: "3280B785266D9530"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gun_grip"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "2FE906280AA4EBB7"
+			tasks: [{
+				id: "7B4AAF4FA62D75C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:stone_gun_barrel"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "24A447A07D79ED00"
+			tasks: [{
+				id: "63D1593D1FC3D6EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:firing_unit"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "22CBD24B5D2C0AA6"
+			tasks: [{
+				id: "12EE43BC2358D981"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:rapid_firing_unit"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "06CCD91482A2551B"
+			tasks: [{
+				id: "0912119464513BE3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gun_parts"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "16888B7345E3CABF"
+			tasks: [{
+				id: "1BBCC97EC2A45CC4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:heavy_gun_parts"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["03C80115171EB2FC"]
+			hide_dependent_lines: true
+			id: "2B5FF0E86B673C1C"
+			tasks: [{
+				id: "303F64C38639C67E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:blank_mold"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "690787B4E38A4637"
+			tasks: [{
+				id: "630C68E2B32071B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:small_casing_mold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "0A249D495D534FAF"
+			tasks: [{
+				id: "4BA6FEE0F63EF8D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:medium_casing_mold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "5BE376577D6C0E0D"
+			tasks: [{
+				id: "640AD4890DDC1E3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:large_casing_mold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "458DD56D642D0C31"
+			tasks: [{
+				id: "1BE944B72A7DA60A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:bullet_mold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "13444A0E996FBD68"
+			tasks: [{
+				id: "4FA54BFF97E504BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:disc_mold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "107AE9F2F529A0CC"
+			tasks: [{
+				id: "3976D3192987A2C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gun_parts_mold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "6814CB57B13933BD"
+			tasks: [{
+				id: "3B1D3B37D8C762C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gun_magazine"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "5D3C0DE6F28E1A01"
+			tasks: [{
+				id: "40AF9B34397056C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:copper_gun_frame"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "63686D1DAC0E466A"
+			tasks: [{
+				id: "5F8F1FFA95FC6B35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:iron_gun_frame"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "1DD75A3C04FD3411"
+			tasks: [{
+				id: "4A7E9212E3C37680"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:treated_brass_gun_frame"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "19DB7F0FB58D0A1B"
+			tasks: [{
+				id: "4D05CD611B0F19FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:diamond_steel_gun_frame"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "6FFBACAFBF46226D"
+			tasks: [{
+				id: "07EBD01B05096C9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:scorched_gun_frame"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			id: "4067FDB555777E58"
+			tasks: [{
+				id: "7C80B9DDFB41C1D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gun_shelf"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "42CBE8EDAB2A61EA"
+			tasks: [{
+				id: "1F03208DC9DF735F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:copper_blueprint"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "0DF7262D734A77CE"
+			tasks: [{
+				id: "7C57A90ED497E684"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:iron_blueprint"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "39CB711E5A0E25D4"
+			tasks: [{
+				id: "6AD2FEF58996A1BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:treated_brass_blueprint"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "67CA3C145B206835"
+			tasks: [{
+				id: "1F4D1236EAAD5787"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:diamond_steel_blueprint"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "2F7AC6843EAF505C"
+			tasks: [{
+				id: "38D8110967A31372"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:ocean_blueprint"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "5043184486978233"
+			tasks: [{
+				id: "3DF7C31888EC3BFD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:piglin_blueprint"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "5AC495ECD7DD11B0"
+			tasks: [{
+				id: "1A10F160E8D7B535"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:deep_dark_blueprint"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "02376846C2E38F10"
+			tasks: [{
+				id: "23BD9CAAEB3B0619"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:end_blueprint"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "7B064B7FED666763"
+			tasks: [{
+				id: "376693C43A447B8B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:scorched_blueprint"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "349EE89C1F6B4377"
+			tasks: [{
+				id: "3ADD1470CF98D894"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gun_barrel"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "3658DE9ED672A3C4"
+			tasks: [{
+				id: "6DC705C17F52C263"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:heavy_gun_barrel"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0E758ADA20F75254"
+				"2FE906280AA4EBB7"
+			]
+			id: "2B693CD4EDB3C8B1"
+			tasks: [{
+				id: "037E1946A4F9255A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:flintlock_pistol"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2FE906280AA4EBB7"
+				"0E758ADA20F75254"
+			]
+			id: "2E6536D1B84CA68E"
+			tasks: [{
+				id: "1CAF9943B79754C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:handcannon"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2FE906280AA4EBB7"
+				"0E758ADA20F75254"
+			]
+			id: "57EE3FF022799586"
+			tasks: [{
+				id: "773A1C802307DCF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:musket"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2FE906280AA4EBB7"
+				"0E758ADA20F75254"
+			]
+			id: "256D3982DE3F8072"
+			tasks: [{
+				id: "265AFA81D12A3671"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:blunderbuss"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2FE906280AA4EBB7"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"6814CB57B13933BD"
+				"22CBD24B5D2C0AA6"
+			]
+			id: "4E04D2B51594EEBA"
+			tasks: [{
+				id: "41E33E22FF51CAFD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:repeating_musket"
+					tag: {
+						AmmoCount: 5
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"6814CB57B13933BD"
+				"24A447A07D79ED00"
+			]
+			id: "36C1BB8AD72AADC8"
+			tasks: [{
+				id: "28AEC5B27A8FACE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:pax"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "6F9B9A94B43A931E"
+			tasks: [{
+				id: "7033D23F3F05B261"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:winnie"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "64ED6BE6981B51F3"
+			tasks: [{
+				id: "356E46CA64388163"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:sawed_off_callwell"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "7604BB6E18618C8C"
+			tasks: [{
+				id: "68BA0359E50E6D3B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:callwell"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "6D002DFC3DC2CF08"
+			tasks: [{
+				id: "2112A5DC59133A80"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:saketini"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1DC2A831E87C134F"
+				"2FE906280AA4EBB7"
+				"0E758ADA20F75254"
+			]
+			id: "58FE53C589025D7A"
+			tasks: [{
+				id: "0E8C555C62423221"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:laser_musket"
+					tag: {
+						AmmoCount: 5
+						Damage: 0
+						Energy: 6400
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2F7AC6843EAF505C"
+				"3658DE9ED672A3C4"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+			]
+			id: "73E81955A82A8677"
+			tasks: [{
+				id: "3D0B668A88E62D19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:floundergat"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"6814CB57B13933BD"
+				"42CBE8EDAB2A61EA"
+			]
+			id: "1069B9609BEFD80C"
+			tasks: [{
+				id: "20146AEFDFDAE743"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:scrapper"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5D3C0DE6F28E1A01"
+				"22CBD24B5D2C0AA6"
+				"06CCD91482A2551B"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"42CBE8EDAB2A61EA"
+			]
+			id: "54B9C52921E658BF"
+			tasks: [{
+				id: "02BED4AEFC555B0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:rusty_gnat"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"6C57016525598242"
+				"0E758ADA20F75254"
+				"42CBE8EDAB2A61EA"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "7C87F9F7C2BD97CD"
+			tasks: [{
+				id: "3C3A6F5876AB57B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:umax_pistol"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"5D3C0DE6F28E1A01"
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"6814CB57B13933BD"
+			]
+			id: "633DA983518B73DF"
+			tasks: [{
+				id: "36A0FD5D00FE1DD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:makeshift_rifle"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "240EFC24A6F8C193"
+			tasks: [{
+				id: "1D599FC9FA9949E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:boomstick"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+			]
+			id: "1BBEF124439A64F6"
+			tasks: [{
+				id: "654471C78D646A33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:bruiser"
+					tag: {
+						AmmoCount: 3
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"5D3C0DE6F28E1A01"
+				"24A447A07D79ED00"
+			]
+			id: "4A0F2A9722417026"
+			tasks: [{
+				id: "745A3E338555941D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:llr_director"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"5D3C0DE6F28E1A01"
+				"1DD75A3C04FD3411"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+				"3475A072DB4D829B"
+			]
+			id: "6EE91765E722AC31"
+			tasks: [{
+				id: "507127CD376366D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:arc_worker"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"0DF7262D734A77CE"
+				"06CCD91482A2551B"
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"24A447A07D79ED00"
+			]
+			id: "1407ED8AA054E6C0"
+			tasks: [{
+				id: "6E3E1002F92C70C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:defender_pistol"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			id: "37D7B0D3C6FE060A"
+			tasks: [{
+				id: "2706EA6826AA52A1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:greaser_smg"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			id: "03D87404F5EE1C71"
+			tasks: [{
+				id: "376441AED9E041ED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:m3_carabine"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.0d
+		}
+		{
+			id: "6A95A0983B60240E"
+			tasks: [{
+				id: "6542FDD56F361F3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:combat_shotgun"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			id: "41758ADF87559B15"
+			tasks: [{
+				id: "67937E0F87450443"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:venturi"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			id: "66F8F7C5B157B82C"
+			tasks: [{
+				id: "24A82790A07507EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:iron_javelin"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			id: "5F657976367E4DE4"
+			tasks: [{
+				id: "43BF1CB35A8BC3DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:iron_spear"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			id: "3FF260A8C329AAAD"
+			tasks: [{
+				id: "470381707A11E26D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:auvtomag"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			id: "7424FDADF1F77FF1"
+			tasks: [{
+				id: "6ABA4E8109124446"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:pulsar"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			id: "2D61C2D52A850480"
+			tasks: [{
+				id: "35FBA93CF908C360"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gyrojet_pistol"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			id: "41B1EB2D555C2C6F"
+			tasks: [{
+				id: "16C404224230B937"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:brawler"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			id: "5950080E8CA5F5A3"
+			tasks: [{
+				id: "18813F417B19D98B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:mk43_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "11C51099CA3B42C5"
+			tasks: [{
+				id: "4BF490448EB082E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:rocket_rifle"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			id: "2253139A3AAEEA22"
+			tasks: [{
+				id: "2C260105CD0B1F8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:marlin"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "736AE2B56F2990AC"
+			tasks: [{
+				id: "1DC15FF256C4DA2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:bomb_lance"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			id: "0941E210FDD247B3"
+			tasks: [{
+				id: "3BB7F80168CD8E63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:sequoia"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			id: "092D94BDCD1DE907"
+			tasks: [{
+				id: "0126467A45F5FF25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:krauser"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			id: "772A3C17952CB3A6"
+			tasks: [{
+				id: "1AFF4DB6501C7CA3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:soul_drummer"
+					tag: {
+						AmmoCount: 25
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "34BED5D24EA26BFB"
+			tasks: [{
+				id: "637D717ABB3D5DB7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:uppercut"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			id: "508C8EEED0C2E342"
+			tasks: [{
+				id: "2228F02E574762E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:prush_gun"
+					tag: {
+						AmmoCount: 17
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			id: "0C9A12D4F4C1979B"
+			tasks: [{
+				id: "6DC115F7CD950499"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:lockewood"
+					tag: {
+						AmmoCount: 17
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			id: "005A9F4F316C0226"
+			tasks: [{
+				id: "7FE11ADB5EA80CDE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:inertial"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.0d
+		}
+		{
+			id: "23D19350B939DB93"
+			tasks: [{
+				id: "41BD79F61264AD95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:mas_55"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.0d
+		}
+		{
+			id: "61BCFFCE74516CF5"
+			tasks: [{
+				id: "650F01F028F3E360"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:plasgun"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			id: "3A7C5008F66906B0"
+			tasks: [{
+				id: "247B55DEDF008456"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:cyclone"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			id: "2B61F93068EDB3E6"
+			tasks: [{
+				id: "7E400E7A105EF776"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:m22_waltz"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 13.0d
+		}
+		{
+			id: "77E20ED5BDFE4F42"
+			tasks: [{
+				id: "5926436F6E869518"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:waltz_conversion"
+					tag: {
+						AmmoCount: 5
+						Damage: 0
+						Energy: 6400
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			id: "49C3AA4C97740EFF"
+			tasks: [{
+				id: "2E5DB4A322F67F55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:osgood_50"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 13.0d
+		}
+		{
+			id: "26F80CC2445EE99D"
+			tasks: [{
+				id: "13E1DDEDCC2510B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:cogloader"
+					tag: {
+						AmmoCount: 46
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			id: "72946B6D4B954A6B"
+			tasks: [{
+				id: "11C16C71F92D7C5D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gale"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			id: "4D7DD6CA82CF5844"
+			tasks: [{
+				id: "403A2DBECA57C4F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:jackhammer"
+					tag: {
+						AmmoCount: 12
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			id: "24A70D851D3F27C1"
+			tasks: [{
+				id: "421F54A83351B65A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:howler"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			id: "7298E1016C85F1DF"
+			tasks: [{
+				id: "7301AFE3632E4E08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:howler_conversion"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			id: "7765FBC33211B013"
+			tasks: [{
+				id: "3510D19D655441BA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gauss_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			id: "1856855D114DE194"
+			tasks: [{
+				id: "6BE732899E6907F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:spitfire"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			id: "63A15414C7ED69B0"
+			tasks: [{
+				id: "00FC336294D9983C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:gattaler"
+					tag: {
+						AmmoCount: 90
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			id: "159E4157B46E678E"
+			tasks: [{
+				id: "69DCC32ECD945092"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:thunderhead"
+					tag: {
+						AmmoCount: 32
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			id: "6F061AB71DA3706A"
+			tasks: [{
+				id: "2CD0F3ABE5DBF2A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:dozier_rl"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			id: "4EADE8E8165EE282"
+			tasks: [{
+				id: "69BBF8E1AC036809"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:blasphemy"
+					tag: {
+						AmmoCount: 5
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			id: "63DB2D4A87D53E89"
+			tasks: [{
+				id: "0EBDA8C2618EE464"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:pyroclastic_flow"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			id: "396E10193F6DDBFD"
+			tasks: [{
+				id: "1CD237012EA73CAA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:freyr"
+					tag: {
+						AmmoCount: 24
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.0d
+		}
+		{
+			id: "4FCE5A4728075946"
+			tasks: [{
+				id: "62A0F16C68D491AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:vulcanic_repeater"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 14.0d
+		}
+		{
+			id: "37F101B47AF91025"
+			tasks: [{
+				id: "3BF447EE328602B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:super_shotgun"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.0d
+		}
+		{
+			id: "4E3875CD24564F07"
+			tasks: [{
+				id: "19470314687757CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:whispers"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 14.0d
+		}
+		{
+			id: "6BBF13246BCA138B"
+			tasks: [{
+				id: "28F5E3BCAA65E7EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:echoes_2"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 14.0d
+		}
+		{
+			id: "191D9B0B51D7AE83"
+			tasks: [{
+				id: "73631D7F04A979B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:sculk_resonator"
+					tag: {
+						AmmoCount: 5
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			id: "51E1744C40AE8ECF"
+			tasks: [{
+				id: "76CE34D607BE7EEB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:carapice"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			id: "2EFFC156F5C9D325"
+			tasks: [{
+				id: "20E0735303C9F856"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:shellurker"
+					tag: {
+						AmmoCount: 14
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			id: "33DD750850E9E0FE"
+			tasks: [{
+				id: "41DFB1A9F252B756"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:dark_matter"
+					tag: {
+						AmmoCount: 48
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			id: "29759378E50FAB37"
+			tasks: [{
+				id: "5D0D087582B0A1C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:lone_wonder"
+					tag: {
+						AmmoCount: 23
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			id: "03F8E687B798BDE8"
+			tasks: [{
+				id: "6573AABBF0F0C2D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:raygun"
+					tag: {
+						AmmoCount: 17
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			id: "6CD2EC6E61469D01"
+			tasks: [{
+				id: "64540100BBF8C8F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:rat_king_and_queen"
+					tag: {
+						AmmoCount: 16
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			id: "04DE21831C47926F"
+			tasks: [{
+				id: "6930F85D51BBCFA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:locust"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			id: "11AAA282987BC3A6"
+			tasks: [{
+				id: "5235391905B8860F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:newborn_cyst"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			id: "22A58E407C4F1CD3"
+			tasks: [{
+				id: "3341A8EC0E52224F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:earths_corpse"
+					tag: {
+						AmmoCount: 75
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			id: "798F581D7C7F2C92"
+			tasks: [{
+				id: "161BF6AB48B61039"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:astella"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			id: "7E1924AC037B51BA"
+			tasks: [{
+				id: "3C61165CCE0E6921"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:team_log"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "1DC2A831E87C134F"
+			tasks: [{
+				id: "2E95C348BB43C368"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:plasma_core"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "2DCA3C116E078EEA"
+			tasks: [{
+				id: "064668EB4DDD52D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:small_copper_casing"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "14539E8D95A919F2"
+			tasks: [{
+				id: "7851BCA99C4866E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:medium_copper_casing"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "533C47031EECD2D4"
+			tasks: [{
+				id: "62993FC75772CE73"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:small_iron_casing"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "6C57016525598242"
+			tasks: [{
+				id: "6D768AD8DC663C26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:large_iron_casing"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "239C6FF3264DBFCA"
+			tasks: [{
+				id: "0B260EEE44D5BB8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:small_diamond_steel_casing"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "5052C4DB111E06C5"
+			tasks: [{
+				id: "198A9BBFFE5C7450"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:small_brass_casing"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "3BB53919E4CBF6DE"
+			tasks: [{
+				id: "41633F8EABC383CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:medium_diamond_steel_casing"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "06027682FC2EB1AE"
+			tasks: [{
+				id: "4E5118EAB26B714F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:medium_brass_casing"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "0870C39D2FED7539"
+			tasks: [{
+				id: "08B8D2184828A363"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:large_brass_casing"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2B5FF0E86B673C1C"]
+			hide_dependent_lines: true
+			id: "22DF485C3BA747F2"
+			tasks: [{
+				id: "325E2F125173BD85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:shulker_casing"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "03C80115171EB2FC"
+			tasks: [{
+				id: "71A2E4DAA3816C85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:mechanical_press"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["13444A0E996FBD68"]
+			hide_dependent_lines: true
+			id: "3475A072DB4D829B"
+			tasks: [{
+				id: "506F8BB3E182987B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:copper_disc"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			id: "01D316F966B4A09F"
+			tasks: [{
+				id: "75534FB4E8D9A0B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:treated_brass_ingot"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
 	title: "&eLocked and Loaded"
 }
