@@ -5548,6 +5548,15 @@
 			id: "6E228A1F474BBD86"
 			tasks: [{
 				entity: "ars_nouveau:wilden_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:wilden_spike"
+				}
 				id: "0C669CA5CAA9DC1F"
 				type: "kill"
 				value: 10L
