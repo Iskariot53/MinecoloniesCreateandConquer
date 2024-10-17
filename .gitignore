@@ -9,13 +9,13 @@
 *.bak
 
 #specifics to ignore
-config/jecalculation/record.json
-config/oculus.properties
-config/packetfixer.properties
-config/xaerominimap_entities.json
-/config/fancymenu
-config/libraryferret_1.properties
-/config/NoChatReports
-/config/spawnbalanceutility
-/config/jecalculation
-config/spawnbalanceutility/AllMobEntities.rpt
+**config/jecalculation/record.json
+**config/oculus.properties
+**config/packetfixer.properties
+**config/xaerominimap_entities.json
+**/config/fancymenu
+**config/libraryferret_1.properties
+**/config/NoChatReports
+**/config/spawnbalanceutility
+**/config/jecalculation
+**config/spawnbalanceutility/AllMobEntities.rpt
