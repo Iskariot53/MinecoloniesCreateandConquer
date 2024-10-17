@@ -2310,7 +2310,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Vindicators"
+			title: "Slayer Task: 100x Vindicator"
 			x: -19.5d
 			y: -11.0d
 		}
@@ -2533,7 +2533,7 @@
 				"60A646203FDD701B"
 				"08E693958C6BD51C"
 			]
-			description: ["Track down the Dark Oak, Flower Fields, Windswept Hills and Savannah Enderman variants and slay 10 of each."]
+			description: ["Tracked down the: Dark Oak, Flower Fields, Windswept Hills and Savannah Enderman variants and slay 10 of each."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -3013,34 +3013,131 @@
 		}
 		{
 			id: "2C42397D50E87104"
+			rewards: [
+				{
+					id: "041F49031CFC39A9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "1C6DDAE62A0CCC69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:dark_charge"
+				}
 				id: "6B52FC91D9818119"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Dark Vortex"
 			x: -21.0d
 			y: -8.5d
 		}
 		{
 			id: "4B39B7DFDD288440"
+			rewards: [
+				{
+					id: "614A7A50F76F99FA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "538E0A23732BE3B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "10 Deepling = 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "1A10733252D93C02"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Deepling"
 			x: -22.5d
 			y: -8.5d
 		}
 		{
 			id: "0AC4B1CC0A44CEE8"
+			rewards: [
+				{
+					id: "087954A446205325"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "04BEEFAF78E2DEAC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "10 Evokers = 1 Bevel"
 			tasks: [{
 				entity: "minecraft:evoker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:totem_of_undying"
+				}
 				id: "7FEF097F6D9431C0"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Evokers"
 			x: -19.5d
 			y: -8.5d
 		}
@@ -3076,45 +3173,150 @@
 					type: "item"
 				}
 			]
+			subtitle: "10 Chort = 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:decorated_pot"
+				}
 				id: "64E44B026FDA733C"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Chort"
 			x: -28.5d
 			y: -8.5d
 		}
 		{
 			id: "1F75248F8ABCBE8D"
+			rewards: [
+				{
+					id: "6C49F3AB5A1FAFC1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "5E63BC03C412907C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "10 Bone Serpents = 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:bone_serpent_tooth"
+				}
 				id: "5FA0EF50E751B12B"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Bone Serpents"
 			x: -24.0d
 			y: -8.5d
 		}
 		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "quark:dragon_scale"
+			}
 			id: "4D6E5F52202F5B6D"
+			rewards: [
+				{
+					id: "5A6D3775D93C32E9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7AF342AD74DA1DA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "10 Ender Wyrms = 1 Bevel"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quark:dragon_scale"
+				}
 				id: "706CE2E4F0ECF7BC"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Ender Wyrms"
 			x: -16.5d
 			y: -8.5d
 		}
 		{
 			id: "2EBF2097C5869E6E"
+			rewards: [
+				{
+					id: "028996407AA98756"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3AB34037E6691F44"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "10 Mimics = 1 Bevel"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "2AA8A4E8E9916AB1"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Mimics"
 			x: -18.0d
 			y: -8.5d
 		}
@@ -3150,12 +3352,23 @@
 					type: "item"
 				}
 			]
+			subtitle: "10 Phantoms = 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:phantom_membrane"
+				}
 				id: "52AA97B2707DC178"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Phantoms"
 			x: -27.0d
 			y: -8.5d
 		}
@@ -3191,12 +3404,23 @@
 					type: "item"
 				}
 			]
+			subtitle: "10 Barrel Zombies = 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "blocksyouneed_luna:open_barrel"
+				}
 				id: "0EB1361349C7649B"
 				type: "kill"
 				value: 10L
 			}]
+			title: "Slayer Task: 10x Barrel Zombies"
 			x: -25.5d
 			y: -8.5d
 		}
@@ -3680,228 +3904,987 @@
 		{
 			dependencies: ["4D6E5F52202F5B6D"]
 			id: "5C3934171619F1EA"
+			rewards: [
+				{
+					id: "359EF2E1ADED34F1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "7F92065E21B572A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "25 Ender Wyrm = 2 Bevels"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quark:dragon_scale"
+				}
 				id: "34D80210B8B35173"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Ender Wyrms"
 			x: -16.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["5C3934171619F1EA"]
 			id: "49752062B4FE478E"
+			rewards: [
+				{
+					id: "2142DF11FE0D4150"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "64C8D18C375AB356"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "50 Ender Wyrm = 3 Bevels"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quark:dragon_scale"
+				}
 				id: "42AC13BEBB00BB39"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50x Ender Wyrm"
 			x: -16.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["49752062B4FE478E"]
 			id: "6D7BB1313C5C3A6C"
+			rewards: [
+				{
+					id: "7E3D7F96A5F7A6F1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "15BDAC2A3C968038"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "69D8A6CF6E6FEDD5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "100 Ender Wyrms = 4 Bevels"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quark:dragon_scale"
+				}
 				id: "505D47CB6C3C68D7"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100x Ender Wyrms"
 			x: -16.5d
 			y: -3.75d
 		}
 		{
 			dependencies: ["2EBF2097C5869E6E"]
 			id: "25BFDE5248D073D5"
+			rewards: [
+				{
+					id: "3D2FBA89E3B49E83"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "6BC2F2DC113D7C85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "25 Mimics = 2 Bevels"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "3BB966F25EAF2ACB"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Mimics"
 			x: -18.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["25BFDE5248D073D5"]
 			id: "66D5E35A44C4CA41"
+			rewards: [
+				{
+					id: "18ACDEF08955DC2A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "681BEDFEB4AC3475"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "50 Mimics = 3 Bevels"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "72F23DE571962534"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50x Mimics"
 			x: -18.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["66D5E35A44C4CA41"]
 			id: "165710BD4515D76E"
+			rewards: [
+				{
+					id: "7B557E404918324D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "50A02D17D8B8AAE7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1BDA63611B380648"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "100 Mimics = 4 Bevels"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "21B7C2283C995CEC"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100 Mimics"
 			x: -18.0d
 			y: -3.75d
 		}
 		{
 			dependencies: ["0AC4B1CC0A44CEE8"]
 			id: "4A742AB34A4A6269"
+			rewards: [
+				{
+					id: "1A88AE9BEE150193"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "0C9984493EA99E3C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "25 Evokers = 2 Bevels"
 			tasks: [{
 				entity: "minecraft:evoker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:totem_of_undying"
+				}
 				id: "36D5213BBC7581DB"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Evoker"
 			x: -19.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["4A742AB34A4A6269"]
 			id: "3111A3FF4349341B"
+			rewards: [
+				{
+					id: "533BAE576B0219B3"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "23A1CE9F63DAAD1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "50 Evokers = 3 Bevels"
 			tasks: [{
 				entity: "minecraft:evoker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:totem_of_undying"
+				}
 				id: "626D1DFF9EC78A8A"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50x Evokers"
 			x: -19.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["3111A3FF4349341B"]
 			id: "11ED3E09539CA9DA"
+			rewards: [
+				{
+					id: "4E2420975F574ED7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "132865EC3B466C71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "159B1D8F53939110"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "100 Evokers = 4 Bevels"
 			tasks: [{
 				entity: "minecraft:evoker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:totem_of_undying"
+				}
 				id: "182B9FAC9D420B0A"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100x Evokers"
 			x: -19.5d
 			y: -3.75d
 		}
 		{
 			dependencies: ["2C42397D50E87104"]
 			id: "66CE28BAB7F853BC"
+			rewards: [
+				{
+					id: "3DFA3790325C5559"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "456274CFD24B26A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "65AAF00C16B76438"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "25 Dark Vortex = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:dark_charge"
+				}
 				id: "7CCE9AFDFC5CC0A6"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Dark Vortex"
 			x: -21.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["66CE28BAB7F853BC"]
 			id: "31B9D7369633A629"
+			rewards: [
+				{
+					id: "0A08A398C8ECBE84"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "5C94064363346D1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7985E9336CD12B83"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "50 Dark Vortex = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:dark_charge"
+				}
 				id: "4CDDABD12D3E75FF"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50 Dark Vortex"
 			x: -21.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["31B9D7369633A629"]
 			id: "34D997AF9BBB3B1A"
+			rewards: [
+				{
+					id: "760A8E963D8FFD16"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "0AF65F0B9AD98FDD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "54EB65E82C43CD9C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6DAA341954A5ACF7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "100 Dark Vortex = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:dark_charge"
+				}
 				id: "2F5FE5F4A6723129"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100x Dark Vortex"
 			x: -21.0d
 			y: -3.75d
 		}
 		{
 			dependencies: ["4B39B7DFDD288440"]
 			id: "2E2DA5C83BAE5AB6"
+			rewards: [
+				{
+					id: "1B26E6CC1C5B8600"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4350F88ED63D8677"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "13B2F3AA70824053"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "25 Deepling = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "612E96FE1798D447"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: x25 Deepling"
 			x: -22.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2E2DA5C83BAE5AB6"]
 			id: "35BA9699FC90BCB4"
+			rewards: [
+				{
+					id: "6D48E27A6AC0595A"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "64D8E1B0ACD15D14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "692418552F00C986"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "50 Deepling = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "0C3E64F2FD1785C5"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: x50 Deepling"
 			x: -22.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["35BA9699FC90BCB4"]
 			id: "4FB4143DA3A76E51"
+			rewards: [
+				{
+					id: "240B17100344D347"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "4CD44006A034CBEE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "7DC3D69D7B75DAA1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "6B1B4C6481EF2499"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "100 Deepling = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
 				id: "19C8C84A7C4D5D71"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: x100 Deepling"
 			x: -22.5d
 			y: -3.75d
 		}
 		{
 			dependencies: ["1F75248F8ABCBE8D"]
 			id: "35DB43971F03F4B4"
+			rewards: [
+				{
+					id: "19B64FDF5801D97B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1304161787A55CDF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "21DB139EF98092C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "25 Bone Serpents = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:bone_serpent_tooth"
+				}
 				id: "3D55E6E4CDCE45AE"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Bone Serpents"
 			x: -24.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["35DB43971F03F4B4"]
 			id: "57A0D12893B8698D"
+			rewards: [
+				{
+					id: "7FFC87CCE0BFD144"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "5168A989E3DFDE3C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0D38DEE424BCDFF5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "50 Bone Serpents = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:bone_serpent_tooth"
+				}
 				id: "79F4463970DB2C0C"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50x Bone Serpents"
 			x: -24.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["57A0D12893B8698D"]
 			id: "58FE28071B378C34"
+			rewards: [
+				{
+					id: "080DD047E47BC661"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "7C0F776AF138B5B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "15AB2DF1D8282A92"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+				{
+					id: "78E79145D3655A5C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:red_heart"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "100 Bone Serpents = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:bone_serpent_tooth"
+				}
 				id: "60780B095BDF231D"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100x Bone Serpents"
 			x: -24.0d
 			y: -3.75d
 		}
@@ -3951,12 +4934,23 @@
 					type: "item"
 				}
 			]
+			subtitle: "25 Barrel Zombies = 1 Bevels 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "blocksyouneed_luna:open_barrel"
+				}
 				id: "2B69F655EA8D4A64"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Barrel Zombies"
 			x: -25.5d
 			y: -7.0d
 		}
@@ -4008,12 +5002,23 @@
 				}
 			]
 			size: 1.25d
+			subtitle: "50 Barrel Zombies = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "blocksyouneed_luna:open_barrel"
+				}
 				id: "1DBF5960435749B4"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50x Barrel Zombies"
 			x: -25.5d
 			y: -5.5d
 		}
@@ -4078,12 +5083,23 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "100 Barrel Zombies = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "blocksyouneed_luna:open_barrel"
+				}
 				id: "07D05ACE00E9D209"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100x Barrel Zombies"
 			x: -25.5d
 			y: -3.75d
 		}
@@ -4133,12 +5149,23 @@
 					type: "item"
 				}
 			]
+			subtitle: "25 Phantoms = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:phantom_membrane"
+				}
 				id: "3AC0C1C3BDDEA820"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Phantoms"
 			x: -27.0d
 			y: -7.0d
 		}
@@ -4190,12 +5217,23 @@
 				}
 			]
 			size: 1.25d
+			subtitle: "50 Phantoms = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:phantom_membrane"
+				}
 				id: "6FC3C52FAEFD312E"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50x Phantoms"
 			x: -27.0d
 			y: -5.5d
 		}
@@ -4260,12 +5298,23 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "100 Phantoms = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:phantom_membrane"
+				}
 				id: "666CDE74699ECED2"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100x Phantoms"
 			x: -27.0d
 			y: -3.75d
 		}
@@ -4315,12 +5364,23 @@
 					type: "item"
 				}
 			]
+			subtitle: "25 Chort = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:decorated_pot"
+				}
 				id: "511DD674140749D3"
 				type: "kill"
 				value: 25L
 			}]
+			title: "Slayer Task: 25x Chort"
 			x: -28.5d
 			y: -7.0d
 		}
@@ -4372,12 +5432,23 @@
 				}
 			]
 			size: 1.25d
+			subtitle: "50 Chort = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:decorated_pot"
+				}
 				id: "6B0F62329B2DB9D8"
 				type: "kill"
 				value: 50L
 			}]
+			title: "Slayer Task: 50x Chort"
 			x: -28.5d
 			y: -5.5d
 		}
@@ -4442,12 +5513,23 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "100 Chort = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:decorated_pot"
+				}
 				id: "7B84225E06B18814"
 				type: "kill"
 				value: 100L
 			}]
+			title: "Slayer Task: 100x Chort"
 			x: -28.5d
 			y: -3.75d
 		}
