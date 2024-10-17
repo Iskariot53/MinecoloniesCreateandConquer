@@ -108,7 +108,7 @@
 			}]
 			title: "&c&lNether"
 			x: 0.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -993,6 +993,40 @@
 			title: "AUTOFOCUS"
 			x: -2.75d
 			y: 5.75d
+		}
+		{
+			dependencies: ["635B2979C6A9CBDB"]
+			description: ["Are you disappointed that the boss structure you just found has already been raided? Don’t worry! The &c&lBrimstone Nectar&r&r allows you to &ereset&r nearby boss structures when used, so you can defeat the bosses in the same location repeatedly!"]
+			id: "324CBE05EE84729A"
+			rewards: [{
+				id: "7065BD72C6389299"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "11E246D6F31B9FA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:brimstone_nectar"
+				}
+				type: "item"
+			}]
+			title: "&l&cBrimstone Nectar"
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "&eBosses of Mass Destruction"
