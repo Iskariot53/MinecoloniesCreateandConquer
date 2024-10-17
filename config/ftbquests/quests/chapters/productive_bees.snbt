@@ -56,16 +56,7 @@
 				""
 				"(No, the bee puns won't be stopping, not sorry)"
 			]
-			hide: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "minecraft:bee_nest"
-			}
+			icon: "minecraft:bee_nest"
 			id: "374D27B6E8DB7066"
 			rewards: [
 				{

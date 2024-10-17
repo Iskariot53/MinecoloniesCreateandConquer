@@ -1439,7 +1439,7 @@
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
-			description: ["&dQuantum mechanisms&r are a crucial component in the construction of &6teleporters&r. Telejuice is another potential idea for something worth automating, if setting up a teleporter network is something that piques your interest,"]
+			description: ["&dQuantum mechanisms&r are a cruciel component in the construction of &6teleporters&r. Telejuice is another potential idea for something worth automating, if setting up a teleporter network is something that piques your interest,"]
 			hide: true
 			id: "157768F2C05BDBDD"
 			optional: true
@@ -1942,21 +1942,13 @@
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"Supply scamps are passive mobs found in the world, while not immortal, they are pretty tough and ignored by most hostile mobs. Once tamed with &6ancient brass&r, found as loot in structures, your scamp will follow and collect items it finds on the ground, storing them in its internal inventory. "
+				"Supply scamps are passive mobs found in the world, while not immortal, they are pretty tough and ignored by most hostile mobs. Once tamed with &6ancient brass&r your scamp will follow and collect items it finds on the ground, storing them in its internal inventory. "
 				""
 				"The face plates can be changed with dye!"
 			]
 			hide: true
 			hide_dependency_lines: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "scguns:ancient_brass"
-			}
+			icon: "scguns:ancient_brass"
 			id: "516600488B9BC914"
 			rewards: [
 				{

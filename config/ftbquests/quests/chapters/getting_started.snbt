@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0A4196BD7B0FC574"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "getting_started"
@@ -333,23 +334,8 @@
 				{
 					count: 2
 					id: "2871F0AC960E5D18"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
+					item: "numismatics:spur"
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7FC67EC0016926BD"
-					table_id: 2996026712461665857L
-					title: "&6&lChoose Your Starter Hut:"
-					type: "choice"
 				}
 			]
 			subtitle: "A home in your hand!"
