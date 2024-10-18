@@ -1,0 +1,56 @@
+{
+	id: "4D4B33613E365D5D"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecolonies:blockminecoloniesrack"
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:chest"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:lantern"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:torch"
+			}
+		}
+	]
+	title: "Minecolonies Misc"
+}

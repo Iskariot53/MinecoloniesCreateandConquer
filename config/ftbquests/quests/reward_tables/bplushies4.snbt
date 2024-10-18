@@ -1,0 +1,63 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "plushie_buddies:plushie_warden"
+	}
+	id: "5C498BAB3F58296B"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_elder_guardian"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_wither"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_warden"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_enderdragon"
+				tag: { }
+			}
+		}
+	]
+	title: "&bPlushies#4"
+}

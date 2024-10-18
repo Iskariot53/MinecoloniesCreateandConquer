@@ -1,0 +1,143 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecraft:oak_leaves"
+	}
+	id: "69ADB1BFE7196815"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "foliage_bundle_1"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:dark_oak_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:spruce_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:jungle_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:acacia_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:azalea_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:flowering_azalea_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:cherry_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "biomesoplenty:flowering_oak_leaves"
+			}
+			weight: 0.01f
+		}
+	]
+	title: "&6Foliage Bundle#1"
+}

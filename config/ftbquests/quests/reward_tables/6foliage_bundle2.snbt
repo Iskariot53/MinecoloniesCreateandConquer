@@ -1,0 +1,117 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "autumnity:orange_maple_leaves"
+	}
+	id: "015790197167924B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "foliage_bundle_2"
+	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:birch_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "autumnity:yellow_maple_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "biomesoplenty:yellow_autumn_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "autumnity:orange_maple_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "biomesoplenty:orange_autumn_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "autumnity:red_maple_leaves"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "biomesoplenty:maple_leaves"
+			}
+			weight: 0.01f
+		}
+	]
+	title: "&6Foliage Bundle#2"
+}

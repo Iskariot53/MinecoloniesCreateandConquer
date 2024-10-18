@@ -1,0 +1,61 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "plushie_buddies:plushie_yoga"
+	}
+	id: "3A3FA61600E343DA"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_peter"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_yoga"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_emperor"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_dark_father"
+			}
+		}
+	]
+	title: "&bPlushies#5"
+}
