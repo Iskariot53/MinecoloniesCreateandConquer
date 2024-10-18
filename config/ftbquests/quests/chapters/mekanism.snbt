@@ -8,7 +8,16 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [{
-		icon: "mekanism:ingot_osmium"
+		dependencies: ["4386DFA29FCEDD4D"]
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "mekanism:ingot_osmium"
+		}
 		id: "71070D1348F6EBF2"
 		tasks: [{
 			id: "62691EBB65E200D9"

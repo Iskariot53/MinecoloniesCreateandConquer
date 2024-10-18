@@ -8,7 +8,16 @@
 	order_index: 5
 	quest_links: [ ]
 	quests: [{
-		icon: "bloodmagic:altar"
+		dependencies: ["4386DFA29FCEDD4D"]
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "bloodmagic:altar"
+		}
 		id: "305904786B9CF570"
 		tasks: [{
 			id: "5A61AC69B9333749"

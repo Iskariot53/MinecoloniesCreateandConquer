@@ -1,10 +1,16 @@
 {
+	autofocus_id: "67C1B1AABD91D7BE"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "industrial_foregoing"
 	group: "31CA1CE9A64781BD"
 	icon: {
 		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
 		id: "industrialforegoing:speed_addon_1"
 		tag: {
 			TitaniumAugment: {
@@ -17,7 +23,16 @@
 	quest_links: [ ]
 	quests: [
 		{
-			icon: "industrialforegoing:machine_frame_pity"
+			dependencies: ["4386DFA29FCEDD4D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "industrialforegoing:machine_frame_pity"
+			}
 			id: "33B295CC0DBBE25D"
 			size: 1.5d
 			tasks: [{

@@ -8,7 +8,16 @@
 	order_index: 4
 	quest_links: [ ]
 	quests: [{
-		icon: "botania:white_mystical_flower"
+		dependencies: ["4386DFA29FCEDD4D"]
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "botania:white_mystical_flower"
+		}
 		id: "585F7153AFC98B12"
 		tasks: [{
 			id: "1CABFD2B0D0E19F9"

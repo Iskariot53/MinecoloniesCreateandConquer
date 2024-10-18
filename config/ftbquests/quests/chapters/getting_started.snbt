@@ -76,7 +76,15 @@
 				}
 				{
 					id: "2BCA1C627F304ADE"
-					item: "numismatics:spur"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 			]
@@ -331,8 +339,15 @@
 					xp: 10
 				}
 				{
+					exclude_from_claim_all: true
+					id: "7FC67EC0016926BD"
+					table_id: 2996026712461665857L
+					title: "&6&lChoose Your Starter Hut:"
+					type: "choice"
+				}
+				{
 					count: 2
-					id: "2871F0AC960E5D18"
+					id: "314A08CF6F1AA213"
 					item: {
 						Count: 1
 						ForgeCaps: {
@@ -343,13 +358,6 @@
 						id: "numismatics:spur"
 					}
 					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7FC67EC0016926BD"
-					table_id: 2996026712461665857L
-					title: "&6&lChoose Your Starter Hut:"
-					type: "choice"
 				}
 			]
 			subtitle: "A home in your hand!"

@@ -8,7 +8,16 @@
 	order_index: 3
 	quest_links: [ ]
 	quests: [{
-		icon: "thermal:tin_ingot"
+		dependencies: ["4386DFA29FCEDD4D"]
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "thermal:tin_ingot"
+		}
 		id: "589BAA0339230F21"
 		tasks: [{
 			id: "6FE34F751A5AD9F7"
