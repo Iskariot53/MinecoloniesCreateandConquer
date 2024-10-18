@@ -528,6 +528,15 @@
 			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:dragon_head"
+			}
 			id: "1E46EC2070FF8F32"
 			rewards: [{
 				id: "004F5CFA6499D61D"

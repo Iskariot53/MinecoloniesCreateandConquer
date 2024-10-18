@@ -111,8 +111,10 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Made from anthralite and iron, &cfiring units&r are a base component it most firearms."]
 			hide_dependent_lines: true
 			id: "24A447A07D79ED00"
+			subtitle: "Standard firing unit"
 			tasks: [{
 				id: "63D1593D1FC3D6EB"
 				item: {
@@ -131,8 +133,10 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Made with a combination of anthralite and iron, &crapid firing units&r are used for multiple automatic weapons."]
 			hide_dependent_lines: true
 			id: "22CBD24B5D2C0AA6"
+			subtitle: "Automatics"
 			tasks: [{
 				id: "12EE43BC2358D981"
 				item: {
@@ -191,8 +195,14 @@
 		}
 		{
 			dependencies: ["03C80115171EB2FC"]
+			description: [
+				"5 Anthralite ingots can be used to craft blank molds, used for crafting molds used for many things from producing ammunition to music discs."
+				""
+				"Place the blank mold into a stonecutter to choose the type of molding you would like to cut it into."
+			]
 			hide_dependent_lines: true
 			id: "2B5FF0E86B673C1C"
+			subtitle: "Making your first molds"
 			tasks: [{
 				id: "303F64C38639C67E"
 				item: {
@@ -211,8 +221,10 @@
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
+			description: ["Used for crafting various small caliber casings."]
 			hide_dependent_lines: true
 			id: "690787B4E38A4637"
+			subtitle: "Making small casings"
 			tasks: [{
 				id: "630C68E2B32071B4"
 				item: {
@@ -234,8 +246,10 @@
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
+			description: ["Used for crafting various medium caliber casings."]
 			hide_dependent_lines: true
 			id: "0A249D495D534FAF"
+			subtitle: "Making medium casings"
 			tasks: [{
 				id: "4BA6FEE0F63EF8D2"
 				item: {
@@ -257,8 +271,10 @@
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
+			description: ["Used for crafting various large caliber casings."]
 			hide_dependent_lines: true
 			id: "5BE376577D6C0E0D"
+			subtitle: "Making large casings"
 			tasks: [{
 				id: "640AD4890DDC1E3E"
 				item: {
@@ -280,8 +296,10 @@
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
+			description: ["Bullet molds are used for molding metals into bullets."]
 			hide_dependent_lines: true
 			id: "458DD56D642D0C31"
+			subtitle: "Making bullets"
 			tasks: [{
 				id: "1BE944B72A7DA60A"
 				item: {
@@ -303,8 +321,10 @@
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
+			description: ["The disc mold is used for making both copper discs and music discs."]
 			hide_dependent_lines: true
 			id: "13444A0E996FBD68"
+			subtitle: "Making discs"
 			tasks: [{
 				id: "4FA54BFF97E504BD"
 				item: {
@@ -326,8 +346,10 @@
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
+			description: ["Used for molding gun parts from iron, treated iron or anthralite."]
 			hide_dependent_lines: true
 			id: "107AE9F2F529A0CC"
+			subtitle: "Making gun parts"
 			tasks: [{
 				id: "3976D3192987A2C2"
 				item: {
@@ -892,7 +914,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -920,7 +942,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 8.5d
 		}
 		{
@@ -948,7 +970,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 8.5d
 		}
 		{
@@ -976,7 +998,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -1004,7 +1026,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 8.5d
 		}
 		{
@@ -1032,7 +1054,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -5.0d
 			y: 8.5d
 		}
 		{
@@ -3033,8 +3055,10 @@
 		}
 		{
 			dependencies: ["7005C05D344840A7"]
+			description: ["There are a few ways to create plasma cores, &aJEI&r will be your friend here. You can energize either redstone into plasma and use a press from that point or you can energize an energy core itself, which is easier but cost more &cRF&r."]
 			hide_dependent_lines: true
 			id: "1DC2A831E87C134F"
+			subtitle: "Next generation energy core"
 			tasks: [{
 				id: "2E95C348BB43C368"
 				item: {
@@ -3052,7 +3076,10 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"690787B4E38A4637"
+			]
 			hide_dependent_lines: true
 			id: "2DCA3C116E078EEA"
 			tasks: [{
@@ -3072,7 +3099,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"0A249D495D534FAF"
+			]
 			hide_dependent_lines: true
 			id: "14539E8D95A919F2"
 			tasks: [{
@@ -3092,7 +3122,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"690787B4E38A4637"
+			]
 			hide_dependent_lines: true
 			id: "533C47031EECD2D4"
 			tasks: [{
@@ -3112,7 +3145,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"5BE376577D6C0E0D"
+			]
 			hide_dependent_lines: true
 			id: "6C57016525598242"
 			tasks: [{
@@ -3132,7 +3168,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"690787B4E38A4637"
+			]
 			hide_dependent_lines: true
 			id: "239C6FF3264DBFCA"
 			tasks: [{
@@ -3152,7 +3191,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"690787B4E38A4637"
+			]
 			hide_dependent_lines: true
 			id: "5052C4DB111E06C5"
 			tasks: [{
@@ -3172,7 +3214,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"0A249D495D534FAF"
+			]
 			hide_dependent_lines: true
 			id: "3BB53919E4CBF6DE"
 			tasks: [{
@@ -3192,7 +3237,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"0A249D495D534FAF"
+			]
 			hide_dependent_lines: true
 			id: "06027682FC2EB1AE"
 			tasks: [{
@@ -3212,7 +3260,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"5BE376577D6C0E0D"
+			]
 			hide_dependent_lines: true
 			id: "0870C39D2FED7539"
 			tasks: [{
@@ -3232,7 +3283,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"0A249D495D534FAF"
+			]
 			hide_dependent_lines: true
 			id: "22DF485C3BA747F2"
 			tasks: [{
@@ -3300,8 +3354,10 @@
 		}
 		{
 			dependencies: ["13444A0E996FBD68"]
+			description: ["While limited in uses for now, copper discs are a required ingredient for the arc worker."]
 			hide_dependent_lines: true
 			id: "3475A072DB4D829B"
+			subtitle: "Making copper discs"
 			tasks: [{
 				id: "506F8BB3E182987B"
 				item: {
@@ -3320,7 +3376,9 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Treated brass blend is made by combining a brass ingot, nether quartz, blaze powder and redstone dust into a macerator or mixing basin set up. "]
 			id: "01D316F966B4A09F"
+			subtitle: "Making treated brass ingots"
 			tasks: [{
 				id: "75534FB4E8D9A0B5"
 				item: {
@@ -3339,7 +3397,9 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Treated iron blend is made by combining iron, flint, charcoal and niter dust in a macerator or mixing basin set up."]
 			id: "7D89E0F2C8277CFF"
+			subtitle: "Making treated iron ingots"
 			tasks: [{
 				id: "3EC540B6274D0984"
 				item: {
@@ -3450,7 +3510,9 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Diamond steel blend is made by combining anthralite, diamond, redstone dust and lapis lazuli in a macerator or mixing basin set up."]
 			id: "263D42D3ABC834AF"
+			subtitle: "Making diamond steel ingots"
 			tasks: [{
 				id: "3BB550F4D2460CD8"
 				item: {
@@ -3469,8 +3531,10 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Made by pressing a redstone block, large iron casing and a nether star fragment, energy cores are the first step towards some of the more high-tech weapons the mod has to offer."]
 			hide_dependent_lines: true
 			id: "7005C05D344840A7"
+			subtitle: "Energy weapons"
 			tasks: [{
 				id: "0C8B9E8BF6C27287"
 				item: {
@@ -3489,7 +3553,9 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Scorched blend is made by combining netherite, vehement coal, dragons breath and a nether star fragment in a macerator or mixing basin set up."]
 			id: "50467D38C332DC52"
+			subtitle: "Making scorched ingots"
 			tasks: [{
 				id: "70EAC3FBB3E0AED0"
 				item: {
@@ -3729,7 +3795,13 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: [
+				"Various &aammo boxes&r can be made to store different types of ammo, saving you inventory space. "
+				""
+				"They're even &dcurios&r compatible!"
+			]
 			id: "205E2723847343E3"
+			subtitle: "More ammo = More better"
 			tasks: [{
 				id: "09CD4C47C82C0374"
 				item: {
@@ -3748,7 +3820,9 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["When combined with a &3gun in an anvil&r, the &6repair kit&r will repair any damage to the firearm."]
 			id: "0AB3CBFE02A01E8D"
+			subtitle: "Keeping your guns maintained"
 			tasks: [{
 				id: "2C771395BAEAE122"
 				item: {
@@ -4190,8 +4264,13 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["2B5FF0E86B673C1C"]
+			dependencies: [
+				"2B5FF0E86B673C1C"
+				"0A249D495D534FAF"
+			]
+			description: ["Empty cells are made by molding an iron ingot with a medium casing mold and are essentially used as a magazine for things other than bullets. They are commonly used for producing &cenergy&r, &eshock&r and &3sculk&r cells for weapons that require them."]
 			id: "17D16583FB6D2EDE"
+			subtitle: "Pretty much another type of magazine"
 			tasks: [{
 				id: "6BA8F1C93CD61A9E"
 				item: {
@@ -4210,7 +4289,13 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: [
+				"The &3empty casing pouch&r can be used to automatically collect, separate and store empty casings, saving you materials and some inventory space."
+				""
+				"They're also &dcurios&r compatible!"
+			]
 			id: "3E374EC72AEF9978"
+			subtitle: "Recycle and re-use"
 			tasks: [{
 				id: "3F1BA72DBE68628D"
 				item: {
@@ -4224,7 +4309,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.0d
 			y: 3.5d
 		}
 		{
