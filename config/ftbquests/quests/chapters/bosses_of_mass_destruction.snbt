@@ -974,27 +974,6 @@
 			y: 10.5d
 		}
 		{
-			description: [""]
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			hide_text_until_complete: true
-			id: "432693CB67523575"
-			invisible: true
-			optional: true
-			size: 0.5d
-			subtitle: "why are you in editing mode you lil cheater "
-			tasks: [{
-				count: 999L
-				id: "7B63A3DC572364FF"
-				item: "minecraft:barrier"
-				type: "item"
-			}]
-			title: "AUTOFOCUS"
-			x: -2.75d
-			y: 5.75d
-		}
-		{
 			dependencies: ["635B2979C6A9CBDB"]
 			description: ["Are you disappointed that the boss structure you just found has already been raided? Don’t worry! The &c&lBrimstone Nectar&r&r allows you to &ereset&r nearby boss structures when used, so you can defeat the bosses in the same location repeatedly!"]
 			id: "324CBE05EE84729A"
