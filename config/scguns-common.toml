@@ -30,9 +30,6 @@
 		#Damage dealt by the Enemy Guns
 		#Range: 0.0 ~ 1.7976931348623157E308
 		enemyBulletDamage = 4.5
-		#Multiplier to adjust the capacity of all ammo boxes.
-		#Range: 0.1 ~ 100.0
-		ammoBoxCapacityMultiplier = 1.0
 
 		#Properties related to gun griefing
 		[common.gameplay.griefing]
@@ -47,10 +44,6 @@
 			fragileBlockBreakChance = 0.5
 			#If true, allows guns enchanted with Fire Starter to light and spread fires on blocks
 			setFireToBlocks = true
-
-		[common.gameplay.gameplay]
-			#Set to false to disable the spawning of casing items when firing guns.
-			spawnCasings = true
 
 	#Properties relating to network
 	[common.network]
