@@ -66,111 +66,1153 @@
 			y: -4.5d
 		}
 		{
-			can_repeat: true
 			dependencies: ["3B38BC10347BDA7D"]
-			description: ["You can build a wall with a door"]
-			hide_dependency_lines: true
-			icon: "quark:vertical_oak_planks"
-			id: "27CE78EC40085F90"
-			rewards: [
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_log"
+			}
+			id: "603D44033D7427FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2815331023DC7662"
+				table_id: 8582910852494163327L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "018D7856A58B1DCA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "16x Logs - 1 Sprocket"
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:stripped_oak_log"
+			}
+			id: "163C97673BBAE157"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5181FB96E978BEBC"
+				table_id: 4659240128554541653L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "11310580BB48E537"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "16x Stripped Logs - 1 Sprocket"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_planks"
+			}
+			id: "7F6F867A1A82CB56"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AB40B2BC77A68E6"
+				table_id: 8359439924187625768L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7E5DDC5DD22DA708"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Planks - 1 Sprocket"
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_fox"
+			}
+			id: "1B354E69E3C82EC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FF414A4CCD5D749"
+				table_id: 7625560926030287225L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "438E729B113AD6B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Animal Plushie - 1 Cog"
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_sniffer"
+			}
+			id: "5CD05E8D5E0D7CB1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13E168A678CB6C71"
+				table_id: 2574287654417104955L
+				type: "choice"
+			}]
+			tasks: [
 				{
-					count: 16
-					id: "3FDFCDEF065D8B84"
-					item: "quark:vertical_oak_planks"
+					id: "23B3CCDB0B944054"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
 					type: "item"
 				}
 				{
-					id: "699F7721E145D9E2"
-					item: "minecraft:oak_door"
+					id: "6153543C47513907"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
 					type: "item"
 				}
 			]
-			subtitle: ":o"
+			title: "Unique Animal Plushie - 1 Cog 1 Sprocket"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_guardian"
+			}
+			id: "56AD610328F4FA00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A6E2AA96B4D3802"
+				table_id: 5130122852303033643L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "5E80B8CBC90D3CFF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6F8E59C9E2B0A181"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			title: "Hostile Plushie - 1 Cog 2 Sprockets"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_warden"
+			}
+			id: "2A99381745150FC7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B0B4552E8281FF9"
+				table_id: 6649999892407658859L
+				type: "choice"
+			}]
 			tasks: [{
-				id: "5F660CEDFC636A3A"
-				item: "numismatics:sprocket"
+				count: 3L
+				id: "2D252B1141C6AA35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
 				type: "item"
 			}]
-			title: "simple oak example"
+			title: "Boss Plushie - 3 Cogs"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "plushie_buddies:plushie_yoga"
+			}
+			id: "3D3A64A7DC531FA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "272D5FAF9EB9BEB8"
+				table_id: 4197255991166976986L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 3L
+					id: "6B05016A60180019"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4F67AA8854AD7427"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			title: "Special Plushie - 3 Cogs 2 Sprockets"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blue_stained_glass"
+			}
+			id: "3E98C41BD7C12FB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A24C8DD4E670D47"
+				table_id: 8906704960584967377L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "54AC82FC2F5A782C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Glass Bundle - 1 Cog"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "connectedglass:clear_glass_pink"
+			}
+			id: "0EA497176D69D56B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38AE4FA5BB35ECD8"
+				table_id: 800621400644280805L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7BED672DC5523E3B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Clear Glass Bundle - 1 Cog"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "connectedglass:borderless_glass_lime"
+			}
+			id: "241B079779F9ABF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03D531DF0D657AC0"
+				table_id: 6446457456499514794L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "11F7EA8A40318B94"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Connected Glass Bundle - 1 Cog"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:red_wool"
+			}
+			id: "0DB787C4435ABDE5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E5869444F0D4E00"
+				table_id: 487679185985216349L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20DDBA6F31A5889C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Wool Bundle - 1 Cog"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blue_stained_glass"
+			}
+			id: "476502B9799BE282"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "229F7C200DBA3AD4"
+				table_id: 6879448221410145939L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "561AF72AFE28B7C7"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Glass - 3 Sprockets"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "connectedglass:clear_glass_pink"
+			}
+			id: "50D78A504EA65A2F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "279EF6270D961074"
+				table_id: 3647681908819615094L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "33832D381E28E5CB"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Clear Glass - 3 Sprockets"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "connectedglass:borderless_glass_lime"
+			}
+			id: "70329897C6AE56AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "174AE5E2BCCDC584"
+				table_id: 6874772345273829038L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "3413C14536841EC4"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Connecting Glass - 3 Sprockets"
 			x: -1.5d
 			y: -4.5d
 		}
 		{
-			can_repeat: true
 			dependencies: ["3B38BC10347BDA7D"]
-			description: ["Assorted oak planks and double doors"]
-			hide_dependency_lines: true
-			icon: "quark:vertical_oak_planks"
-			id: "24F73A165358C7E4"
-			rewards: [
-				{
-					count: 32
-					id: "4E2FB32A307F2997"
-					item: "quark:vertical_oak_planks"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
 				}
-				{
-					count: 16
-					id: "60D82E0EBA5244F5"
-					item: "minecraft:oak_planks"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "49FF57270051A2AF"
-					item: "minecraft:oak_door"
-					type: "item"
-				}
-			]
-			subtitle: ":O"
+				id: "minecraft:red_wool"
+			}
+			id: "360DF0F309815997"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B8D1C6C42F65E6D"
+				table_id: 3738943253049462850L
+				type: "choice"
+			}]
 			tasks: [{
-				count: 2L
-				id: "5EB32D8E15A7E4A8"
-				item: "numismatics:sprocket"
+				count: 3L
+				id: "5307AD80F8A53315"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
 				type: "item"
 			}]
-			title: "Simple oak example tier 2"
+			title: "64x Wool - 3 Sprockets"
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:white_terracotta"
+			}
+			id: "6401E3F6EA4B567C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20CF9CC4C93149E3"
+				table_id: 8500979505305584087L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "65A31BE8DE1BD7F1"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Terracotta - 3 Sprockets"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:purple_concrete"
+			}
+			id: "518C6A7D876F2A7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4924F3B881634070"
+				table_id: 6315920966091574126L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "49841142295B4A0C"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Concrete - 3 Sprockets"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:cobblestone"
+			}
+			id: "511051D95C3A59F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "421A9827136827C5"
+				table_id: 1109808910719597119L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "52B89610DCC84B9E"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Stone - 3 Sprockets"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:white_terracotta"
+			}
+			id: "6B7E902C36C46542"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50FD7232A3552F09"
+				table_id: 2874912574063406365L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "18958C3C21537332"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Terracotta Bundle - 1 Cog"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:purple_concrete"
+			}
+			id: "576E9A6E5864372E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "336E69B2CFAF7771"
+				table_id: 657345127214935752L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "428D450F8D96EC42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Concrete Bundle - 1 Cog"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:cobblestone"
+			}
+			id: "54E9DF55411115FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "030A2F8ED0AD239F"
+				table_id: 7163178586955558354L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7E3ECB3B4090EE0E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Stone Bundle - 1 Cog"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oak_leaves"
+			}
+			id: "24CD87B8212D38E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A14EB9E76045E0D"
+				table_id: 7614937982727448597L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "404B2421CBA403B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Foliage Bundle#1 - 1 Cog"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:brain_coral"
+			}
+			id: "378F79A3FF795F58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "363799DD4C2F3EDC"
+				table_id: 6460804685841258064L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2341D62DE1B16DDD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Coral Bundle - 1 Cog"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:exposed_copper"
+			}
+			id: "2D426110EE274284"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51C6DB8ED131EEAB"
+				table_id: 4535874760033686437L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3321178FF03B2F86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Copper Bundle - 1 Cog"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:yellow_dye"
+			}
+			id: "23008533492BA56E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "537C9E3F8C475613"
+				table_id: 6829799181132698125L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4A21CE81E58B5496"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Dye Bundle - 1 Cog"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "autumnity:orange_maple_leaves"
+			}
+			id: "415E4DDA8D9BF3EE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C4AD587E76ED7EA"
+				table_id: 96704355962950219L
+				type: "loot"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4221DF196684B57D"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "Foliage Bundle#2 - 3 Sprockets"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
-			hide_dependency_lines: true
-			icon: "mcwroofs:oak_planks_top_roof"
-			id: "375FA47145A4C59C"
-			rewards: [
-				{
-					count: 16
-					id: "7FD66A92E51B0DC1"
-					item: "minecraft:oak_log"
-					type: "item"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
 				}
-				{
-					id: "04FFA23228B56438"
-					item: "minecraft:oak_hanging_sign"
-					type: "item"
-				}
-				{
-					count: 12
-					id: "3A15E3483AD24B85"
-					item: "mcwroofs:oak_planks_steep_roof"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "111647872312D8AD"
-					item: "mcwroofs:oak_planks_top_roof"
-					type: "item"
-				}
-			]
+				id: "minecraft:brain_coral"
+			}
+			id: "55BBA465D097BF32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AE712FC7DB8813"
+				table_id: 178785433230797016L
+				type: "choice"
+			}]
 			tasks: [{
-				id: "2073A159D2BD2A9C"
-				item: "numismatics:cog"
+				count: 3L
+				id: "45E9E754B6D800FB"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
 				type: "item"
 			}]
-			title: "Slightly more expensive package example"
-			x: 0.0d
-			y: -4.5d
+			title: "64x Coral - 3 Sprockets"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:exposed_copper"
+			}
+			id: "7214275F8D4B49D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78248BB8423E6C17"
+				table_id: 5070413260359073201L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "136712527064CBBC"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Copper - 3 Sprockets"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:yellow_dye"
+			}
+			id: "3129D052BCF3A901"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "694AE8E0B3C69712"
+				table_id: 1235087989760693983L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7786D507E593F347"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			title: "64x Dye - 3 Sprockets"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "7A47240A81C9CA5B"
+			tasks: [{
+				id: "20E2C7B5F96E804A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "193DC91D12D6F7C2"
+			tasks: [{
+				count: 3L
+				id: "73402AB5168B1743"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "&dRewards Shop"

@@ -229,6 +229,19 @@
 			}
 			weight: 0.01f
 		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:terracotta"
+			}
+			weight: 0.0f
+		}
 	]
 	title: "&6Terracotta Bundle"
 }

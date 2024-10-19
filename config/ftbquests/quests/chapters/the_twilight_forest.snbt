@@ -1,8 +1,9 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "octagon"
 	filename: "the_twilight_forest"
 	group: "343FE59C9ED4AF54"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -15,6 +16,370 @@
 	id: "683B6A4D65B65D19"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			description: [
+				"The &l&2Twilight Forest&r&r realm is an expansive world, similar to other Minecraft dimensions, but it is densely forested. This dimension has a distinct enchanted, fairy tale, and mythological atmosphere, setting it apart from the Overworld. As you explore the Twilight Forest, you'll encounter a variety of dungeons, bosses, structures, trees, and numerous unique items. There is much to discover in this magical realm."
+				""
+				"To get started, you must first create a special portal. This portal is made by forming a 2×2 pool of water, only 1 block deep. The pool must then be surrounded by any naturally generated plants (flowers for example). Once surrounded, the portal is activated by throwing a diamond into the water. The water will turn purple, and a bolt of lightning will strike the portal, dealing minor damage to nearby players."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "twilightforest:twilight_portal_miniature_structure"
+			}
+			icon_scale: 2.0d
+			id: "7EE137CFDCBB88DF"
+			rewards: [
+				{
+					id: "38F3FFADBDE92FE8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "567D08AD4C0181FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:twilight_portal_miniature_structure"
+				}
+				id: "7A2C14F98DD2AF10"
+				type: "dimension"
+			}]
+			title: "&2&lVisit The Twilight Forest"
+			x: -9.0d
+			y: -9.75d
+		}
+		{
+			dependencies: ["7EE137CFDCBB88DF"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "twilightforest:naga_trophy"
+			}
+			id: "224C2A4CAABD226E"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "52FF9ECF82CFFAF8"
+				type: "advancement"
+			}]
+			title: "&2&lSlay The Naga"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["224C2A4CAABD226E"]
+			id: "238BA4DDD4B10E64"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:lich_trophy"
+				}
+				id: "4BC359A0BC66B95E"
+				type: "advancement"
+			}]
+			title: "&2&lSlay The Lich"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7EE137CFDCBB88DF"]
+			id: "5F702BEE6C1C9852"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:quest_ram_trophy"
+				}
+				id: "67E45CB91EF1BAF5"
+				title: "&2&lThe Quest Ram"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["238BA4DDD4B10E64"]
+			id: "0CDBF9C116B9F573"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:minoshroom_trophy"
+				}
+				id: "3D1FB3EA41D5FE30"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2&lSlay The Minoshroom"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0CDBF9C116B9F573"]
+			id: "63EF394154FAD7C5"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "3BD3F7186423BCD7"
+				type: "advancement"
+			}]
+			title: "&2&lUnlock The Fire Swamp"
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["63EF394154FAD7C5"]
+			id: "39A8F24D2A4A03A0"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "2BECD2C19293654B"
+				type: "advancement"
+			}]
+			title: "&2&lSlay The Hydra"
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["39A8F24D2A4A03A0"]
+			id: "6ACE6710E64ACF68"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "7DD638AA98D6D274"
+				type: "advancement"
+			}]
+			title: "&2&lSlay The Knight Phantom"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6ACE6710E64ACF68"]
+			id: "7264C093510330F7"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:ur_ghast_trophy"
+				}
+				id: "72F2D01D4B007771"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2&lSlay The Ur-Ghast"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7264C093510330F7"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "twilightforest:alpha_yeti_trophy"
+			}
+			id: "43F71D97827116DD"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:alpha_yeti_trophy"
+				}
+				id: "79EFBA783DD6CD7D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2&lSlay The Alpha Yeti"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43F71D97827116DD"]
+			id: "1B3CAAFB0ED99518"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "69368B5CC4A47BD9"
+				type: "advancement"
+			}]
+			title: "&2&lSlay The Snow Queen"
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B3CAAFB0ED99518"]
+			id: "4D7F9BE3FE00F696"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "twilightforest:troll"
+					criterion: ""
+					id: "41F3F109BE715F03"
+					type: "advancement"
+				}
+				{
+					advancement: "twilightforest:beanstalk"
+					criterion: ""
+					id: "6A5D895B0542149F"
+					type: "advancement"
+				}
+			]
+			title: "&2&lMagic Beans"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D7F9BE3FE00F696"]
+			id: "353A06EAE19F5598"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:giants"
+				criterion: ""
+				id: "10E4AA4335DF4144"
+				type: "advancement"
+			}]
+			title: "&2&lSlay A Giant Miner"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["353A06EAE19F5598"]
+			id: "3704ECA09DAC9D7A"
+			size: 1.5d
+			tasks: [{
+				id: "6793D5B94A2B1CFF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&2&lLamp of Cinders"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3704ECA09DAC9D7A"]
+			id: "4E6C6EC0F82818A0"
+			size: 1.5d
+			tasks: [{
+				biome: "twilightforest:thornlands"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:thorn_rose"
+				}
+				id: "6F9C509175663B8F"
+				type: "biome"
+			}]
+			title: "&2&lVisit The Thornlands"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E6C6EC0F82818A0"]
+			id: "031BF5A5DDEA7DDF"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:castle_brick"
+				}
+				id: "0FC4ED57E83E397B"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			title: "&2&lFinal Castle"
+			x: -6.0d
+			y: -2.5d
+		}
+	]
 	title: "&eThe Twilight Forest"
 }
