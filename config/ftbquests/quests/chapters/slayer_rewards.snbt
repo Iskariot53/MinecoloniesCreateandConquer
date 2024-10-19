@@ -1,4 +1,5 @@
 {
+	autofocus_id: "23193C4466AAF035"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	default_repeatable_quest: true
@@ -2867,6 +2868,15 @@
 			size: 1.25d
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:nightmare_stalker_skull"
+				}
 				id: "635277A0374D67F7"
 				type: "kill"
 				value: 3L
@@ -3487,6 +3497,15 @@
 			size: 2.5d
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:nightmare_stalker_skull"
+				}
 				id: "2CE1C379CEA0D276"
 				type: "kill"
 				value: 20L
@@ -7447,6 +7466,15 @@
 			subtitle: "I'm not stuck dealing with you... you're stuck dealing with me"
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:nightmare_stalker_skull"
+				}
 				id: "7A82A994F81E1C3F"
 				type: "kill"
 				value: 35L
@@ -7630,7 +7658,7 @@
 				type: "xp"
 				xp: 100
 			}]
-			size: 1.5d
+			size: 2.0d
 			subtitle: "On our way to the celestial arsenal, are we?"
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
@@ -7648,8 +7676,8 @@
 				value: 1L
 			}]
 			title: "Slayer Task: Kill The Wilden Chimera"
-			x: -7.0d
-			y: 2.5d
+			x: -6.982142857142861d
+			y: 2.392857142857146d
 		}
 	]
 	title: "&dSlayer Rewards"

@@ -5,6 +5,11 @@
 	group: "46EE86D2C5C12C78"
 	icon: {
 		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
 		id: "protection_pixel:hunter_helmet"
 		tag: {
 			Damage: 0
@@ -13,6 +18,1699 @@
 	id: "6453B19C279B827E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["0F8B14581586FFE2"]
+			description: ["When provided with lava and stood on top of, the &6armor load platform&r is used for applying different armor sets and configurations and is your &ekey to most interactions regarding armor&r provided from the mod."]
+			id: "3105B7765AFF237E"
+			rewards: [
+				{
+					id: "6DB1814D8D5CFE19"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3E203B4063EEA1E7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Stand on me!"
+			tasks: [{
+				id: "1F449066A1C59BAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:armorloadplatform"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47AD12BE694CA048"]
+			id: "529F3017ADAC174C"
+			rewards: [
+				{
+					id: "1D96FE173DE312A1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0F72E4EE71618359"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1258E9A587212DAB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5558D97D7C0E1764"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_sabers:brass_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47AD12BE694CA048"]
+			id: "1DEDA120304D62FF"
+			rewards: [
+				{
+					id: "28E1422764AFCFFD"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "09CCA3F3DD74FBB0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1E26355FD6D0B985"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DBA2EE4C2729581"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_sabers:zinc_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47AD12BE694CA048"]
+			id: "352823B6BE85757E"
+			rewards: [
+				{
+					id: "34BD65905F966E9A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "15E512A4419C33F4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38484A54FB7F4414"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_sabers:copper_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["352823B6BE85757E"]
+			id: "76BC64BE09ADE96A"
+			rewards: [
+				{
+					id: "43420CF2EAFDFF26"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "19BFD184B21C1487"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "519534638414A03C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_sabers:double_copper_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DEDA120304D62FF"]
+			id: "1FCBEB2E4A09A4A5"
+			rewards: [
+				{
+					id: "3BD97A89C0F225AA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "4B24B290EB401312"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F8957F88A46C31A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_sabers:double_zinc_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["529F3017ADAC174C"]
+			id: "3F2037AE138A0C32"
+			rewards: [
+				{
+					id: "02BB166D282011D5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 6
+					id: "52AFBB853E13C5E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49F21F8C0CECFD68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_sabers:double_brass_saber_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F8B14581586FFE2"]
+			description: [
+				"To get your very own lightsaber, you will first need to gather: 4 deployers, 1 mechanical press and an energizer. &6This is also the order in which the assembly line must be built&r. "
+				""
+				"Refer to &aJEI&r for a visual aid on how to order the line, if needed."
+				""
+				"While a different material is used for the base of any given saber, it's worth noting that the general materials for the recipe is the same for each:"
+				""
+				"Base material + a cogheel, electron tube, 2 polished rose quartz, pressed then energized."
+			]
+			id: "47AD12BE694CA048"
+			rewards: [
+				{
+					id: "2FEDD1ED0F9DB53B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "56AB11142246196D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Grandmaster Steve in-bound!"
+			tasks: [
+				{
+					id: "12DF4E9E066561DD"
+					title: "Lightsaber Assembly"
+					type: "checkmark"
+				}
+				{
+					count: 4L
+					id: "2683DD4D4142B806"
+					item: {
+						Count: 4
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					id: "671E754DAE2ABE0E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_press"
+					}
+					type: "item"
+				}
+				{
+					id: "2E1CBA900C6F13D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create_new_age:energiser_t1"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17BDF7E9E9E70940"]
+			description: [
+				"From steam driven &9power-armor&r to &aplasma blades&r, this chapter has you covered! "
+				""
+				"Let's hope you took the time to get your assembly line floor ready, virtually everything contained in this chapter requires either &6mechanical crafting or an assembly line to craft&r."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			id: "0F8B14581586FFE2"
+			rewards: [{
+				id: "1ACC1CEEA264E560"
+				type: "xp"
+				xp: 10
+			}]
+			size: 2.0d
+			subtitle: "May the kinetic force be with you"
+			tasks: [{
+				id: "07A30FAF267CF274"
+				title: "Getting started with Protection Pixel and Lightsabers"
+				type: "checkmark"
+			}]
+			title: "Welcome to Do, or do not, there is no \"try\""
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			id: "2FB6B3851F80BD65"
+			rewards: [
+				{
+					id: "28C33924341ADCFF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 6
+					id: "593F51ABB1A23761"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4848A6E62286DFBF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:brassarmorplate"
+					tag: {
+						Damage: 0
+						armor: 2.0d
+						toughness: 1.0d
+						weight: 2.0d
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			id: "0C0A5EE4B3C99558"
+			rewards: [
+				{
+					id: "0FB4733F66F0E552"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "4DA334B7345E9E8D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63B528634BF0A7C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:ironarmorplate"
+					tag: {
+						Damage: 0
+						armor: 1.0d
+						toughness: 0.0d
+						weight: 1.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			id: "683CC5098C25ED16"
+			rewards: [
+				{
+					id: "221EF84F683414E1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "48BFF18B5B87B9DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "378087558D79B40A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B97A760A517B19F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:alloyarmorplate"
+					tag: {
+						Damage: 0
+						armor: 2.0d
+						toughness: 1.0d
+						weight: 1.5d
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			description: ["Reinforced plating used for upgrading armor sets."]
+			id: "1C4668CF39CED797"
+			rewards: [
+				{
+					id: "6F2FF01AF9C1649F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "296A8924E6655F1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "1 Netherite ingot = 2 sheets"
+			tasks: [{
+				id: "68548DBF075CC935"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:smallnetheritesheet"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			description: ["Sturdier plating for upgrading armor sets, made from pouring lava over obsidian dust and pressing."]
+			id: "4EE1BF4A38C6021C"
+			rewards: [
+				{
+					id: "5438BC68044E9240"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4702C4BEE982E441"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "388DB9380F623BA4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obsidian dust + lava"
+			tasks: [{
+				id: "0CEDB607CFFFB559"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:sturdy_sheet"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "7E79DE36E19AD271"
+			tasks: [{
+				id: "66F34FA4F73FE681"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:reinforcedfiber"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"2FB6B3851F80BD65"
+				"683CC5098C25ED16"
+				"0C0A5EE4B3C99558"
+			]
+			dependency_requirement: "one_completed"
+			id: "315341620AF27DC9"
+			tasks: [{
+				id: "7DBF59C326AFD542"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:armorplatekit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7432E85A38B6F227"
+				"654A56A024540E3A"
+			]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "4284558E8C25DD96"
+			subtitle: "Powering your suit - Part 3"
+			tasks: [{
+				id: "0C966102061E4C8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:powerengine"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "7432E85A38B6F227"
+			subtitle: "Powering your suit - Part 2"
+			tasks: [{
+				id: "4D39141E700F6451"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:emptywatertank"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "654A56A024540E3A"
+			subtitle: "Powering your suit - Part 1"
+			tasks: [{
+				id: "5A743E1221039401"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:flarerod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "0AE5C8215A851FBE"
+			tasks: [{
+				id: "280BF9A5D09FB66D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:chestplatelining"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "7B70C7FF25089267"
+			tasks: [{
+				id: "5EE986D37E3EEB50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:leggingslining"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7E79DE36E19AD271"]
+			id: "29DC4259E8DF9A3F"
+			tasks: [{
+				id: "4D1AAA496BB595B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:socks_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0AE5C8215A851FBE"]
+			id: "4FB3EEEE22C28AFA"
+			tasks: [{
+				id: "15EFC2507FAC5EC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:breaker_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0AE5C8215A851FBE"]
+			id: "5AC5F2A7CA9A9ECF"
+			tasks: [{
+				id: "049BD9ACA852F687"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:wingsofprism_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0AE5C8215A851FBE"]
+			id: "013153008656C0DF"
+			tasks: [{
+				id: "44792FEC99FBED90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:magneticstorm_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0AE5C8215A851FBE"]
+			id: "720F0B0FBF1D2A82"
+			tasks: [{
+				id: "0F13D788B60EE86C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:workerhornet_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0AE5C8215A851FBE"]
+			id: "057CB886A072DE51"
+			tasks: [{
+				id: "331B041F2E8B1AE5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:pioneer_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0AE5C8215A851FBE"]
+			id: "7EC205E06AB8DB88"
+			tasks: [{
+				id: "23A33B3AA80C5EB6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:hellsnake_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["7B70C7FF25089267"]
+			id: "7678A9D655DC2199"
+			tasks: [{
+				id: "15A77A46CDB01A65"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:slingshot_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7B70C7FF25089267"]
+			id: "7BC15DB3889FD785"
+			tasks: [{
+				id: "42FA5C1BFE6C3D20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:anchorpoint_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7B70C7FF25089267"]
+			id: "067287BB45607586"
+			tasks: [{
+				id: "0575092C9C630979"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:buoyancy_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "25616B3365E33789"
+			tasks: [{
+				id: "343A818D5A00B01E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:plague_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "21750DD6E5DA8AF0"
+			tasks: [{
+				id: "33FD28E3F427AB19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:lancer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "2AE7D3B0DF259203"
+			tasks: [{
+				id: "7B92FB0C926BA0D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:hammer_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "4261A497B537C7BC"
+			tasks: [{
+				id: "5428238D42F4A92E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:hunter_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "4843ACB2DB3D4F70"
+			tasks: [{
+				id: "1CE5ADC70B5ACD4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:closed_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			hide_dependency_lines: true
+			id: "46A6132475FD38FA"
+			tasks: [{
+				id: "7BEA3F5AB9E951F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:bloodprisoner_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4FB3EEEE22C28AFA"]
+			id: "7F3E86B2686EC067"
+			tasks: [{
+				id: "75E75A4FE6508519"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:breakeras_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5AC5F2A7CA9A9ECF"]
+			id: "27E24AF6100D3617"
+			tasks: [{
+				id: "517D3CB2FD0CB1F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:wingsofprismas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["720F0B0FBF1D2A82"]
+			id: "1874F09837ACA9DC"
+			tasks: [{
+				id: "63DEE42D834EE78C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:workerhornetas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["013153008656C0DF"]
+			id: "46E58415C1E4073E"
+			tasks: [{
+				id: "2CE3BBB3D6C445AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:magneticstormas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["057CB886A072DE51"]
+			id: "3078D0BE35182821"
+			tasks: [{
+				id: "2E337B36E550952C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:pioneeras_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["7EC205E06AB8DB88"]
+			id: "512D6ADC7EA46394"
+			tasks: [{
+				id: "3BE680D0EE01C793"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:hellsnakeas_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0AE5C8215A851FBE"]
+			id: "36C69E016FD09084"
+			subtitle: "EXPERIMENTAL"
+			tasks: [{
+				id: "1FD310B705F23698"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:floatshield_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["25616B3365E33789"]
+			hide_dependency_lines: false
+			id: "403F8AC522776849"
+			tasks: [{
+				id: "3308D82191D220A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:plagueas_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["21750DD6E5DA8AF0"]
+			hide_dependency_lines: false
+			id: "655EBEAADA50F75C"
+			tasks: [{
+				id: "383D4D6A6B36956B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:lanceras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2AE7D3B0DF259203"]
+			hide_dependency_lines: false
+			id: "6057A82843D23BDB"
+			tasks: [{
+				id: "062A712574F9168E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:hammeras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4261A497B537C7BC"]
+			hide_dependency_lines: false
+			id: "35F9572CB6D06F40"
+			tasks: [{
+				id: "2ABD6D0994CCC043"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:hunteras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4843ACB2DB3D4F70"]
+			id: "586BA0EF2FC05CB4"
+			tasks: [{
+				id: "6F32908B563BAD8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:closedas_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["46A6132475FD38FA"]
+			id: "5E82F10681042875"
+			tasks: [{
+				id: "11EE5291BFA1E461"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:bloodprisoneras_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["7678A9D655DC2199"]
+			id: "00920BB98099203B"
+			tasks: [{
+				id: "177DA8835DF9E2CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:slingshotas_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7BC15DB3889FD785"]
+			id: "5F6BC08DC21828B7"
+			tasks: [{
+				id: "58BA34CEA7A9EAA1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:anchorpointas_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["067287BB45607586"]
+			id: "12255B192C90CCB4"
+			tasks: [{
+				id: "0CAF378A9848FA10"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:buoyancyas_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4284558E8C25DD96"]
+			id: "6F4092F6A865BADC"
+			tasks: [{
+				id: "52099E84795FBD4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:maneuveringwing"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4284558E8C25DD96"]
+			id: "39AD7AFC32F31235"
+			tasks: [{
+				id: "7981E23CD8ADBA9A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:tacticaloxygensupplydevice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4284558E8C25DD96"]
+			id: "0D9F80B41785E2D2"
+			tasks: [{
+				id: "5668FEE29D6356AD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:heatpulsethruster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4284558E8C25DD96"]
+			id: "61D345239941FF87"
+			tasks: [{
+				id: "64F48FF561F624FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:pneumaticgrenadelauncharm"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4284558E8C25DD96"]
+			id: "7286062FDA2D5D7E"
+			tasks: [{
+				id: "49217AAEE3507FC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:steambooster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4284558E8C25DD96"]
+			id: "10E05126565075CF"
+			tasks: [{
+				id: "2870ACC4B04EDC6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "protection_pixel:pneumaticgrenade"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.5d
+		}
+	]
 	title: "&eDo, or do not, there is no \"try\""
 }

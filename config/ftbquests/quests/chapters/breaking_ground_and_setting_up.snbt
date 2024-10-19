@@ -587,10 +587,18 @@
 				"4F028FCAAFC2AD22"
 				"3126617D43B60448"
 			]
-			description: ["Wether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided."]
+			description: ["Wether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided. Let's build what we need to recharge or refill it, the next few chapters will explore the options."]
 			hide: true
 			hide_dependency_lines: true
-			icon: "design_decor:industrial_gear_large"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "design_decor:industrial_gear_large"
+			}
 			id: "626B4E8865E9892C"
 			rewards: [{
 				id: "13624C9FED49A672"
@@ -889,7 +897,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collecting Mob Charms"
+			subtitle: "Collecting mob charms"
 			tasks: [{
 				id: "5619D79F5F045E00"
 				item: "reliquary:mob_charm_belt"
@@ -961,7 +969,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Zooming In From A Safe Distance"
+			subtitle: "Zooming in from a safe distance"
 			tasks: [{
 				id: "7A9EDD7EDF28B55F"
 				item: "minecraft:spyglass"
@@ -1400,7 +1408,7 @@
 					type: "item"
 				}
 			]
-			title: "Casing molds"
+			title: "Casing Molds"
 			x: -1.0d
 			y: 17.5d
 		}
@@ -1466,7 +1474,7 @@
 				item: "createteleporters:quantum_mechanism"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: 18.5d
 		}
 		{
@@ -1544,7 +1552,7 @@
 				item: "create_new_age:nuclear_fuel"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 18.5d
 		}
 		{
@@ -1980,6 +1988,63 @@
 			title: "Supply Scamps"
 			x: -0.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["594A3B3C9462F128"]
+			description: ["When struck with &6lightning&r (go figure) the lightning rod, connector and battery can be used to provide an extra boost to your power reserves. They actually make a fairly impressive amount of power (&e24Kfe&r) per strike, extremely useful for helping manage early game power constraints."]
+			id: "020B554BDF65651E"
+			rewards: [
+				{
+					id: "5D1B9933F4195D02"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "795CCBC1F7C02DCF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Every little bit helps!"
+			tasks: [
+				{
+					id: "2D4E880C0AC9A694"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "scguns:lightning_rod_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "611B87FAC7155E6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "scguns:lightning_battery"
+					}
+					type: "item"
+				}
+			]
+			title: "Supplemental Power"
+			x: -0.5d
+			y: 18.5d
 		}
 	]
 	title: "&eBreaking Ground and Setting Up"
