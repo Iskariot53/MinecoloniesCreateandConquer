@@ -21,7 +21,7 @@
 	quests: [
 		{
 			dependencies: ["0F8B14581586FFE2"]
-			description: ["When provided with lava and stood on top of, the &6armor load platform&r is used for applying different armor sets and configurations and is your &ekey to most interactions regarding armor&r provided from the mod."]
+			description: ["When provided with lava, stand on the armor load platform with armor equipped, and press &6R-shift&r to open the menu. the armor load platform is used for applying plates to armor sets, configurations and is your &ekey to most interactions regarding your armor&r provided from the mod."]
 			id: "3105B7765AFF237E"
 			rewards: [
 				{
@@ -460,7 +460,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["3105B7765AFF237E"]
+			dependencies: ["185F461DB2C89BC3"]
 			id: "2FB6B3851F80BD65"
 			rewards: [
 				{
@@ -483,6 +483,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Tier 2 plating"
 			tasks: [{
 				id: "4848A6E62286DFBF"
 				item: {
@@ -503,10 +504,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["3105B7765AFF237E"]
+			dependencies: ["185F461DB2C89BC3"]
 			id: "0C0A5EE4B3C99558"
 			rewards: [
 				{
@@ -529,6 +530,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Tier 1 plating"
 			tasks: [{
 				id: "63B528634BF0A7C6"
 				item: {
@@ -552,7 +554,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3105B7765AFF237E"]
+			dependencies: [
+				"1C4668CF39CED797"
+				"185F461DB2C89BC3"
+			]
 			id: "683CC5098C25ED16"
 			rewards: [
 				{
@@ -588,6 +593,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Tier 3 plating"
 			tasks: [{
 				id: "4B97A760A517B19F"
 				item: {
@@ -611,7 +617,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["3105B7765AFF237E"]
+			dependencies: ["185F461DB2C89BC3"]
 			description: ["Reinforced plating used for upgrading armor sets."]
 			id: "1C4668CF39CED797"
 			rewards: [
@@ -649,11 +655,11 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["3105B7765AFF237E"]
+			dependencies: ["185F461DB2C89BC3"]
 			description: ["Sturdier plating for upgrading armor sets, made from pouring lava over obsidian dust and pressing."]
 			id: "4EE1BF4A38C6021C"
 			rewards: [
@@ -704,13 +710,15 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: -1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
+			description: ["Used for crafting protective lining socks... for some reason. Nothing else."]
 			hide_dependency_lines: true
 			id: "7E79DE36E19AD271"
+			subtitle: "Don't forget the socks!"
 			tasks: [{
 				id: "66F34FA4F73FE681"
 				item: {
@@ -729,35 +737,13 @@
 		}
 		{
 			dependencies: [
-				"2FB6B3851F80BD65"
-				"683CC5098C25ED16"
-				"0C0A5EE4B3C99558"
-			]
-			dependency_requirement: "one_completed"
-			id: "315341620AF27DC9"
-			tasks: [{
-				id: "7DBF59C326AFD542"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "protection_pixel:armorplatekit"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: [
 				"7432E85A38B6F227"
 				"654A56A024540E3A"
+			]
+			description: [
+				"The combustion reactor generates steam by boiling water through the reaction of flarerods and water tanks, which produces steam and powers the armors operation. If the player does not activate the reactor when equipping the armor, not only will the special functions of the armor not work, but the player will also experience slowness, mining fatigue, and weakness effects."
+				""
+				"Players need &9water tanks&r and &6flarerods&r to activate the reactor. The projected run-time of the reactor is displayed, in minutes, in the GUI."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -781,10 +767,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
+			description: ["Disposable water tanks are the second 1/2 of the armors fuel system. When both a water tank and flare rods are placed into a &6combustion reactor&r, they will generate steam and power the armor set."]
 			hide_dependency_lines: true
 			id: "7432E85A38B6F227"
 			subtitle: "Powering your suit - Part 2"
@@ -801,11 +788,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.0d
+			x: 0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
+			description: ["Flare rods are 1/2 of the fuel that powers your suits combustion reactor. The &6more flarerods&r you add, the &emore weight&r can be carried."]
 			hide_dependency_lines: true
 			id: "654A56A024540E3A"
 			subtitle: "Powering your suit - Part 1"
@@ -825,8 +813,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: -0.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
@@ -872,7 +860,13 @@
 		}
 		{
 			dependencies: ["7E79DE36E19AD271"]
+			description: [
+				"Yes, it's stupid and doesn't make sense, we didn't make the mod. :D"
+				""
+				"Anyways... protective lining socks allow for moving more freely in heavy armors."
+			]
 			id: "29DC4259E8DF9A3F"
+			subtitle: "Pretty dumb... but ok?"
 			tasks: [{
 				id: "4D1AAA496BB595B8"
 				item: {
@@ -1710,6 +1704,28 @@
 			}]
 			x: 0.0d
 			y: 19.5d
+		}
+		{
+			dependencies: ["3105B7765AFF237E"]
+			description: [
+				"Armors can be improved and modified with armor plates of different values, allowing them to adapt to various situations without the need for armor replacement."
+				""
+				"At the same time, the armor plate also provides a new way of &9repairing armor&r."
+			]
+			id: "185F461DB2C89BC3"
+			rewards: [{
+				id: "1C228FA3B825265F"
+				type: "xp"
+				xp: 15
+			}]
+			subtitle: "Mix and Match!"
+			tasks: [{
+				id: "2DB96E4063DF35B4"
+				title: "Plating your armor"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "&eDo, or do not, there is no \"try\""
