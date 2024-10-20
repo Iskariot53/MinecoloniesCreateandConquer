@@ -1526,9 +1526,11 @@
 				exclude_from_claim_all: true
 				id: "3F9761BCEE660019"
 				table_id: 1672579983177570807L
+				title: "Perimeter Expansion Kit"
 				type: "loot"
 			}]
 			tasks: [{
+				count: 2L
 				id: "7E38230548117BB9"
 				item: {
 					Count: 1
@@ -1541,6 +1543,7 @@
 				}
 				type: "item"
 			}]
+			title: "Perimeter Expansion Kit - 1 Cog"
 			x: -9.0d
 			y: -0.5d
 		}
