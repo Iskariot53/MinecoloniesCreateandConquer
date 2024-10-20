@@ -377,26 +377,90 @@ import crafttweaker.api.recipe.IRecipeManager;
 	//KERES
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:keres");
 
-		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.keres", {
-		  "type": "celestisynth:starlit_factory",
-		  "core_material": {
-			"item": "celestisynth:crimson_piece"
-		  },
-		  "extra_core_material": {
-			"item": "ojs_rpg_origins:scythe_upgrade"
-		  },
-		  "forging_time": 800,
-		  "result": "celestisynth:keres",
-		  "supporting_core_material": {
-			"item": "celestisynth:crimson_piece"
-		  },
-		  "supporting_material_bottom": {
-			"item": "minecraft:netherite_ingot"
-		  },
-		  "supporting_material_middle": {
-			"item": "celestisynth:celestial_netherite_ingot"
-		  },
-		  "supporting_material_top": {
-			"item": "minecraft:netherite_ingot"
-		  }
-		});
+//		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.keres", {
+//		  "type": "celestisynth:starlit_factory",
+//		  "core_material": {
+//			"item": "celestisynth:crimson_piece"
+//		  },
+//		  "extra_core_material": {
+//			"item": "ojs_rpg_origins:scythe_upgrade"
+//		  },
+//		  "forging_time": 800,
+//		  "result": "celestisynth:keres",
+//		  "supporting_core_material": {
+//			"item": "celestisynth:crimson_piece"
+//		  },
+//		  "supporting_material_bottom": {
+//			"item": "minecraft:netherite_ingot"
+//		  },
+//		  "supporting_material_middle": {
+//			"item": "celestisynth:celestial_netherite_ingot"
+//		  },
+//		  "supporting_material_top": {
+//			"item": "minecraft:netherite_ingot"
+//		  }
+//		});
+
+
+//CELEST ARMOR
+	//SOLAR CRYSTAL HELMET
+		craftingTable.remove(<item:celestisynth:solar_crystal_helmet>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.solar_crystal_helmet", <item:celestisynth:solar_crystal_helmet>, 
+		[[<item:celestisynth:solar_crystal>, <item:minecraft:gold_block>, <item:celestisynth:solar_crystal>], 
+		[<item:celestisynth:solar_crystal>, <item:minecraft:iron_helmet>, <item:celestisynth:solar_crystal>]]);
+		
+	//SOLAR CRYSTAL CHESTPLATE
+		craftingTable.remove(<item:celestisynth:solar_crystal_chestplate>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.solar_crystal_chestplate", <item:celestisynth:solar_crystal_chestplate>, 
+		[[<item:celestisynth:solar_crystal>, <item:minecraft:gold_block>, <item:celestisynth:solar_crystal>], 
+		[<item:celestisynth:solar_crystal>, <item:minecraft:iron_chestplate>, <item:celestisynth:solar_crystal>], 
+		[<item:celestisynth:solar_crystal>, <item:celestisynth:solar_crystal>, <item:celestisynth:solar_crystal>]]);
+		
+	//SOLAR CRYSTAL LEGGINGS
+		craftingTable.remove(<item:celestisynth:solar_crystal_leggings>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.solar_crystal_leggings", <item:celestisynth:solar_crystal_leggings>, 
+		[[<item:celestisynth:solar_crystal>, <item:minecraft:gold_block>, <item:celestisynth:solar_crystal>], 
+		[<item:celestisynth:solar_crystal>, <item:minecraft:iron_leggings>, <item:celestisynth:solar_crystal>], 
+		[<item:celestisynth:solar_crystal>, <item:minecraft:air>, <item:celestisynth:solar_crystal>]]);
+
+	//SOLAR CRYSTAL BOOTS
+		craftingTable.remove(<item:celestisynth:solar_crystal_boots>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.solar_crystal_boots", <item:celestisynth:solar_crystal_boots>, 
+		[[<item:celestisynth:solar_crystal>, <item:minecraft:iron_boots>, <item:celestisynth:solar_crystal>], 
+		[<item:celestisynth:solar_crystal>, <item:minecraft:gold_block>, <item:celestisynth:solar_crystal>]]);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	//LUNAR STONE HELMET
+		craftingTable.remove(<item:celestisynth:lunar_stone_helmet>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.lunar_stone_helmet", <item:celestisynth:lunar_stone_helmet>, 
+		[[<item:celestisynth:lunar_stone>, <item:minecraft:gold_block>, <item:celestisynth:lunar_stone>], 
+		[<item:celestisynth:lunar_scrap>, <item:minecraft:iron_helmet>, <item:celestisynth:lunar_scrap>]]);
+		
+	//LUNAR STONE CHESTPLATE
+		craftingTable.remove(<item:celestisynth:lunar_stone_chestplate>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.lunar_stone_chestplate", <item:celestisynth:lunar_stone_chestplate>, 
+		[[<item:celestisynth:lunar_stone>, <item:minecraft:gold_block>, <item:celestisynth:lunar_stone>], 
+		[<item:celestisynth:lunar_scrap>, <item:minecraft:iron_chestplate>, <item:celestisynth:lunar_scrap>], 
+		[<item:celestisynth:lunar_scrap>, <item:celestisynth:lunar_scrap>, <item:celestisynth:lunar_scrap>]]);
+		
+	//LUNAR STONE LEGGINGS
+		craftingTable.remove(<item:celestisynth:lunar_stone_leggings>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.lunar_stone_leggings", <item:celestisynth:lunar_stone_leggings>, 
+		[[<item:celestisynth:lunar_stone>, <item:minecraft:gold_block>, <item:celestisynth:lunar_stone>], 
+		[<item:celestisynth:lunar_scrap>, <item:minecraft:iron_leggings>, <item:celestisynth:lunar_scrap>], 
+		[<item:celestisynth:lunar_scrap>, <item:minecraft:air>, <item:celestisynth:lunar_scrap>]]);
+
+	//LUNAR STONE BOOTS
+		craftingTable.remove(<item:celestisynth:lunar_stone_boots>);
+		
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.lunar_stone_boots", <item:celestisynth:lunar_stone_boots>, 
+		[[<item:celestisynth:lunar_scrap>, <item:minecraft:iron_boots>, <item:celestisynth:lunar_scrap>], 
+		[<item:celestisynth:lunar_stone>, <item:minecraft:gold_block>, <item:celestisynth:lunar_stone>]]);
