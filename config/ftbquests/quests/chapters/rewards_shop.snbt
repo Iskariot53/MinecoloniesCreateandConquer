@@ -540,8 +540,8 @@
 				type: "item"
 			}]
 			title: "Wool Bundle - 1 Cog"
-			x: -0.5d
-			y: -2.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -680,8 +680,8 @@
 				type: "item"
 			}]
 			title: "64x Wool - 3 Sprockets"
-			x: 0.5d
-			y: -2.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -715,8 +715,8 @@
 				type: "item"
 			}]
 			title: "64x Terracotta - 3 Sprockets"
-			x: 0.5d
-			y: -1.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -750,8 +750,8 @@
 				type: "item"
 			}]
 			title: "64x Concrete - 3 Sprockets"
-			x: 0.5d
-			y: 0.5d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -785,8 +785,8 @@
 				type: "item"
 			}]
 			title: "64x Stone - 3 Sprockets"
-			x: -2.0d
-			y: 2.5d
+			x: 0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -820,8 +820,8 @@
 				type: "item"
 			}]
 			title: "Terracotta Bundle - 1 Cog"
-			x: -0.5d
-			y: -1.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -855,8 +855,8 @@
 				type: "item"
 			}]
 			title: "Concrete Bundle - 1 Cog"
-			x: -0.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -889,8 +889,8 @@
 				type: "item"
 			}]
 			title: "Stone Bundle - 1 Cog"
-			x: -3.0d
-			y: 2.5d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -924,8 +924,8 @@
 				type: "item"
 			}]
 			title: "Foliage Bundle#1 - 1 Cog"
-			x: -3.0d
-			y: 1.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -959,7 +959,7 @@
 			}]
 			title: "Coral Bundle - 1 Cog"
 			x: -0.5d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -992,8 +992,8 @@
 				type: "item"
 			}]
 			title: "Copper Bundle - 1 Cog"
-			x: -3.0d
-			y: 4.0d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1027,7 +1027,7 @@
 			}]
 			title: "Dye Bundle - 1 Cog"
 			x: -0.5d
-			y: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1062,8 +1062,8 @@
 				type: "item"
 			}]
 			title: "Foliage Bundle#2 - 3 Sprockets"
-			x: -2.0d
-			y: 1.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1098,7 +1098,7 @@
 			}]
 			title: "64x Coral - 3 Sprockets"
 			x: 0.5d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1132,8 +1132,8 @@
 				type: "item"
 			}]
 			title: "64x Copper - 3 Sprockets"
-			x: -2.0d
-			y: 4.0d
+			x: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1168,46 +1168,7 @@
 			}]
 			title: "64x Dye - 3 Sprockets"
 			x: 0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3B38BC10347BDA7D"]
-			id: "7A47240A81C9CA5B"
-			tasks: [{
-				id: "20E2C7B5F96E804A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "numismatics:cog"
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["3B38BC10347BDA7D"]
-			id: "193DC91D12D6F7C2"
-			tasks: [{
-				count: 3L
-				id: "73402AB5168B1743"
-				item: {
-					Count: 3
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "numismatics:sprocket"
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 5.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
@@ -1368,7 +1329,6 @@
 			id: "133B1A824C860096"
 			rewards: [{
 				id: "18389676AE983B1D"
-				table_id: 825963059771513761L
 				title: "Roll for a random Flawless Gem"
 				type: "random"
 			}]
@@ -1410,7 +1370,6 @@
 			id: "68C389DEA20766C3"
 			rewards: [{
 				id: "3A6081CF876D10C6"
-				table_id: 3488895467592365434L
 				title: "Roll for a random Perfect Gem"
 				type: "random"
 			}]
@@ -1455,7 +1414,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7C88AF3C6ECFF818"
-				table_id: 4125585060409553665L
 				type: "loot"
 			}]
 			tasks: [{
@@ -1490,7 +1448,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "33F67057374A3074"
-				table_id: 6500344699853423663L
 				type: "choice"
 			}]
 			tasks: [{
@@ -1525,7 +1482,6 @@
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3F9761BCEE660019"
-				table_id: 1672579983177570807L
 				title: "Perimeter Expansion Kit"
 				type: "loot"
 			}]
