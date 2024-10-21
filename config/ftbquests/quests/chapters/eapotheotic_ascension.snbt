@@ -1561,6 +1561,282 @@
 			x: -8.0d
 			y: 3.0d
 		}
+		{
+			dependencies: ["375EB6ADD26E0668"]
+			description: ["Apothesos mob spawners work a little bit differently here, some of the stats are capped lower than you are probably used to. Some of the required items to change stats and modifiers have been changed slightly as well. Luckily for you, through hard work and progress, you will eventually unlock multiple other means of meeting your mob farming needs."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:spawner"
+			}
+			id: "617C3F408AAA1C1B"
+			size: 2.0d
+			subtitle: "They're a little bit different here"
+			tasks: [{
+				id: "3D8B314BD53C1CD9"
+				title: "Mcc Apothic spawners"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.464285714285715d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "067FA5C289FD4FEF"
+			subtitle: "Ignores Light Conditions"
+			tasks: [{
+				id: "69B3865DE012722E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:soul_lantern"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "5917DA44D16648CD"
+			subtitle: "Spawns Babies"
+			tasks: [{
+				id: "0061FA30451DEDD8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:turtle_egg"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "28F81AB617E77D06"
+			subtitle: "+ Spawn Count"
+			tasks: [{
+				id: "215B58E8C40AE590"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:echo_shard"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "785543718448CCE7"
+			subtitle: "- Max Delay"
+			tasks: [{
+				id: "01C71EADE03967EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "622A49534DFDC1E4"
+			subtitle: "+ Max Entities"
+			tasks: [{
+				id: "4F25DEE2AE97AFA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "6F332E6682D5B0B0"
+			subtitle: "Silence"
+			tasks: [{
+				id: "3FF97C7FEED03C86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "1BECBF73E0153C12"
+			subtitle: "No AI"
+			tasks: [{
+				id: "63F80205DD2F5D2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:chorus_fruit"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "148F023E12BF1494"
+			subtitle: "- Min Spawn delay"
+			tasks: [{
+				id: "3C9FE972077FA8EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:treated_brass_ingot"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "1272996A113663C4"
+			subtitle: "Redstone Sensitive"
+			tasks: [{
+				id: "2B60E93A6FD2B0FA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:comparator"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "2A21BF872E30B02B"
+			subtitle: "Ignore players"
+			tasks: [{
+				id: "4F989F74548171C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "industrialforegoing:ether_gas_bucket"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "40F6AE83FEC2D255"
+			subtitle: "Ignores Spawn Conditions"
+			tasks: [{
+				id: "0F12E1137DD90E01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enlightened_end:irradium_bar"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["617C3F408AAA1C1B"]
+			id: "2B1DAACDAD3EDA01"
+			subtitle: "+ Activation Range"
+			tasks: [{
+				id: "251A5E5F5A462C3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:prismarine_crystals"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			description: ["Hold nether quartz in your &6off hand&r slot, while using the required item on the spawner to revert any changes to settings needed."]
+			id: "37C05D5F67CA0AA6"
+			subtitle: "Nether quartz in off-hand"
+			tasks: [{
+				id: "233707B6AC9943B8"
+				title: "Inverting spawner settings"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
 	]
 	title: "&eApotheotic Ascension"
 }
