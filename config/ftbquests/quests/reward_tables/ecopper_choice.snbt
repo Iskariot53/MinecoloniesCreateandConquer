@@ -1,0 +1,56 @@
+{
+	id: "465DB9FF0021FDB1"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:exposed_copper"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:weathered_copper"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:oxidized_copper"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:copper_block"
+			}
+		}
+	]
+	title: "&eCopper Choice"
+}
