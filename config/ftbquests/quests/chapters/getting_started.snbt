@@ -39,7 +39,7 @@
 				"A completely reworked health and stat calculating system. Quests. Missions. Bounties. And so... SO much more! "
 				""
 				"{@pagebreak}"
-				"Choose your origin and start your colony whenever you're ready, or don't, the pack is designed in such a way that you can choose to completely ignore the colony building aspect of the pack, with no downside. Likewise theirs no downside to choosing a human origin and remaining within your castle walls, never fighting a boss. We HIGHLY suggest trying both, but understand some things aren't for everybody. So the pack has been structured in such a way that the \"colony building\" and \"adventuring\" aspects of the pack can be played completely independant of each other, should you choose to do so."
+				"Choose your origin and start your colony whenever you're ready, or don't, the pack is designed in such a way that you can choose to completely ignore the colony building aspect of the pack, with no downside. Likewise there's no downside to choosing a human origin and remaining within your castle walls, never fighting a boss. We HIGHLY suggest trying both, but understand some things aren't for everybody. So the pack has been structured in such a way that the \"colony building\" and \"adventuring\" aspects of the pack can be played completely independant of each other, should you choose to do so."
 				""
 				"{@pagebreak}"
 				"Capsules can be crafted and used to move your builds and most animals are tamable. pick your favorite starter home, find a place to get started and enjoy!"
@@ -137,7 +137,7 @@
 			dependencies: ["613C7011A8A8033C"]
 			description: [
 				"Use a supply camp or supply ship to get many of the earlier huts and resources associated with minecolonies, such as the build tool and townhall"
-				"However, on many servers these items are banned and this can make getting started a bit different than normal. Use a build tool to place your townhall, found your colony, and then place and &9build the builders hut FIRST.&r then have your builder build the town hall. All buildings and the level which they can be upgraded to within a colony are directly dependant on the builder and the builders hut level, so you need a level 1 builders hut to build your level 1 townhall, houses, etc. and this trend will continue on throughout the mods progression. The Tavern has a max level of 3 but most if not all other huts can be upgraded to 5, provided their is a level 5 builder to build/upgrade it."
+				"However, on many servers these items are banned and this can make getting started a bit different than normal. Use a build tool to place your townhall, found your colony, and then place and &9build the builders hut FIRST.&r then have your builder build the town hall. All buildings and the level which they can be upgraded to within a colony are directly dependant on the builder and the builders hut level, so you need a level 1 builders hut to build your level 1 townhall, houses, etc. and this trend will continue on throughout the mods progression. The Tavern has a max level of 3 but most if not all other huts can be upgraded to 5, provided there is a level 5 builder to build/upgrade it."
 			]
 			icon: {
 				Count: 1
@@ -173,7 +173,7 @@
 		}
 		{
 			dependencies: ["6DC66F240EF37760"]
-			description: ["Alot of what is going to be most easily available to you tech-wise in the early game will be &6Create&r, leading into mekanism for now. Mekanism and its machines &4&oDO NOT&r&r generate power, you will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress powered Alternators, generators and motors. However their are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r for early game electricity! "]
+			description: ["A lot of what is going to be most easily available to you tech-wise in the early game will be &6Create&r, leading into Mekanism for now. Mekanism and its machines &4&oDO NOT&r&r generate power, you will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress powered alternators, generators and motors. However there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r for early game electricity! "]
 			icon: "create:large_cogwheel"
 			id: "7FA3787123BC491F"
 			rewards: [
@@ -241,7 +241,7 @@
 		}
 		{
 			dependencies: ["7FA3787123BC491F"]
-			description: ["Multiple mods in the pack provide a means to protect and secure your things. Heres a mega torch for now, but it's not going to help much by itself, or for very long..."]
+			description: ["Multiple mods in the pack provide a means to protect and secure your things. Here's a mega torch for now, but it's not going to help much by itself, or for very long..."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -314,7 +314,7 @@
 				"&4MOST CAPSULES YOU FIND ARE NOT REUSABLE, ONCE PLACED, THEY CANNOT BE PUT BACK INSIDE AS THE ORIGINAL CAPSULE DISAPPEARS ON USE!&r"
 				""
 				""
-				"Using JEI you can find recipes to craft multiple types and sizes of your own capsules to store and move many things. &9As a general rule you can store and move any vanilla item or container and many different modded blocks and containers, however theirs a few things you should never EVER try to move with a capsule.&r: ANY type of cable or machine/parts, multi-block structure, mobs/entities, any type of bulk storage... "
+				"Using JEI you can find recipes to craft multiple types and sizes of your own capsules to store and move many things. &9As a general rule you can store and move any vanilla item or container and many different modded blocks and containers, however there's a few things you should never EVER try to move with a capsule.&r: ANY type of cable or machine/parts, multi-block structure, mobs/entities, any type of bulk storage... "
 				""
 				"In short, be smart, be careful and DON'T use them around anything you care about without some testing first. They have been blacklisted against most tech mods and are incompatible with many others,"
 				""
@@ -371,7 +371,7 @@
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["It is highly recommended for carnivores to look up the mob cages mod in Jei sooner rather than later."]
+			description: ["It is highly recommended for carnivores to look up the mob cages mod in JEI sooner rather than later."]
 			icon: "minecraft:cooked_beef"
 			id: "69F61E7551B10F85"
 			rewards: [
@@ -429,7 +429,7 @@
 		}
 		{
 			dependencies: ["0BD601443B63B208"]
-			description: ["Have fun and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs and provide the link in the approriate channel of the &9MCC discord&r. Have any ideas or suggestions? please let us know, Thanks!"]
+			description: ["Have fun and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs and provide the link in the appropriate channel of the &9MCC discord&r. Have any ideas or suggestions? please let us know, Thanks!"]
 			icon: {
 				Count: 1
 				id: "create_sa:experience_sword"
@@ -521,7 +521,7 @@
 			description: [
 				"From here on out a lot of quests and tasks will be rewarded with: Spurs, Bevels, Sprockets, Cogs, Crowns, and Suns. "
 				""
-				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting numismatics coinage, from here on out we will be refering to them as \"&6Numi Coins&r\" for short hand and simplicities sake."
+				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting numismatics coinage, from here on out we will be refering to them as \"&6Numi Coins&r\" for short hand and simplicity's sake."
 			]
 			icon: "numismatics:bank_terminal"
 			id: "0BD601443B63B208"
