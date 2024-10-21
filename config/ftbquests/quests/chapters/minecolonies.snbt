@@ -30,8 +30,8 @@
 	quests: [
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"2427432B9F7590B7"
+				"0A4196BD7B0FC574"
 			]
 			description: [
 				"Ever dreamed of starting your own &l&6Town&r&r, taking the lead, and watching your creation grow and prosper? Well, this is the perfect mod for you!"
@@ -90,8 +90,8 @@
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"37C818A6876BE461"
+				"0A4196BD7B0FC574"
 			]
 			description: [
 				"&l&6Minecolonies&r&r also offers you a ton of different &6colony styles&r to choose from. Some styles might be &nmore difficult&r to progress through than others, so choose wisely! Or, you could mix and match styles for each building—who's stopping you?"
@@ -142,8 +142,8 @@
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"4EA0CFA39CDC5B61"
+				"0A4196BD7B0FC574"
 			]
 			description: [
 				"Due to the &6protected&r area of each colony, you must carefully scout your surroundings to ensure you are clear of any other colonies nearby, as they may prevent you from placing your &6&lTown Hall&r&r or limit the area available for your colony in that direction (&9in multiplayer, etc&r.). If there is another colony too close to your current position, you &c&lwon't&r&r be able to place a &l&6Town Hall&r&r."
@@ -219,10 +219,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7AA37760F9C6BA7D"
-			]
+			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
 				"Before anything can be built, you need a &l&6Builder&r&r. The Builder must construct their own &6&lBuilder's Hut&r&r before building any other huts, and they cannot &nbuild or upgrade&r a hut to a &9higher&r level than their own hut's level. Craft the &6&lBuilder's Hut&r&r block and place it down, following the previous example, to begin the construction process."
 				""
@@ -282,10 +279,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["Your colonists will need a &6house&r and a &6place to sleep&r, so it is recommended to build a &6&lTavern&r&r next. The &6&lTavern&r&r also allows &6visitors&r to come to your colony, and you can &6recruit&r them to stay as citizens."]
 			hide: true
 			icon: {
@@ -337,10 +331,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B3C2C300801BCEE"
-			]
+			dependencies: ["3B3C2C300801BCEE"]
 			description: ["Citizens will go to the &6&lResidence&r&r they are assigned to at night to sleep. The &6Resi&ldence&r&r is also a way to get &6more&r citizens for your colony. For additional citizens to spawn, you first &9have to have enough space&r in your &6Residences&r to house your &6first four citizens&r. After you have created enough space for your &6initial four citizens&r, you have two options for your colony to grow. The first way is to have a free bed in your colony. You can also make space for a new citizen, go to the Tavern, wait for a &6traveler&r to show up, and then give them the items they request to &6recruit&r them."]
 			hide: true
 			icon: {
@@ -392,10 +383,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lRestaurant&r&r is where the &6Cook&r will cook food, provided they have the &nnecessary ingredients&r and &nfuel&r. When citizens are &6hungry&r, they will come to the &6&lRestaurant&r&r and the &6Cook&r will give them food. The &6Assistant Cook&r also works at the Restaurant. They craft needed food to help &6supply&r the colony."]
 			id: "2E9E12CAEE6E6A4C"
 			rewards: [
@@ -473,10 +461,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"2E9E12CAEE6E6A4C"
-			]
+			dependencies: ["2E9E12CAEE6E6A4C"]
 			description: ["The &6&lBakery&r&r will craft &9bread dough&r, &9cookie dough&r, &9cake dough&r, and &9raw pumpkin pie&r, then &6bake&r these in a furnace to create bread, cookies, cakes, and pumpkin pies. They will only do this &nupon request&r, whether from the &6Cook&r, the &6Postbox&r, or as a minimum stock in the &6Warehouse&r."]
 			id: "7F8AD0BECEF17D93"
 			rewards: [
@@ -519,10 +504,7 @@
 			y: 4.125d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"2E9E12CAEE6E6A4C"
-			]
+			dependencies: ["2E9E12CAEE6E6A4C"]
 			description: ["The &6&lCookery&r&r is where the &6Chef&r will create food for your citizens. Food will be cooked when requested, use this conjunction with your &6&lRestaurants&r&r to automatically keep your Restaurants &6stocked&r with food."]
 			id: "00C79D7593BD9909"
 			rewards: [
@@ -572,10 +554,7 @@
 			y: 4.875d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lFisher's Hut&r&r is where the &6&lFisher&r&r will catch fish. The &6Fisher&r requires a &9fishing rod&r and a &9body of water of a minimum of 7 blocks wide, 7 blocks long and 2 blocks deep&r to be able to work, and the water must be near the hut."
 				"Upgrading the &6Fisher's Hut&r will expand the range at which the &6Fisher&r can fish, and the higher the level of the &6Fisher's Hut&r, the more loot the &6Fisher&r will be fishing out (&9instead of fish&r). This includes &9prismarine and sponges&r!"
@@ -622,10 +601,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lUniversity&r&r is where a &6&lResearcher&r&r will &9research various upgrades&r to your colony. Each &6Researcher&r can start their own research, but more Researchers &cdoes not&r lower the &9amount of time&r each individual research takes. For example, having two &6Researchers&r but only one research in progress does not decrease the time that single research takes."]
 			id: "5DE1C3B17B55B4D1"
 			rewards: [
@@ -676,7 +652,6 @@
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"7A4231E1D13D27A9"
 				"47B549546A02C8F5"
 				"4F738E96A298B07E"
@@ -725,10 +700,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lShepherd's Hut&r&r is where the &6Shepherd&r will &9breed and butcher sheep&r for food and wool. You will have to capture and bring in &ctwo sheep&r to the &6&lShepherd's Hut&r&r, as the &6Shepherd&r will &cnot&r catch and bring in any sheep."]
 			hide_dependency_lines: true
 			id: "47B549546A02C8F5"
@@ -779,10 +751,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lChicken Farmer's Hut&r&r is where the &6Chicken Farmer&r will raise chickens, collect eggs, and butcher chickens for food. You will have to capture and bring in &ctwo chickens&r to the &l&6Chicken Farmer's Hut&r&r, as the &6Chicken Farmer&r will &cnot&r catch and bring in any chickens."]
 			hide_dependency_lines: true
 			id: "17E0353A98922300"
@@ -833,10 +802,7 @@
 			y: 2.65d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lCowhand's Hut&r&r is where the &6&lCowhand&r&r will breed, butcher, and milk (&9if you have the option enabled&r) cows for food and leather. You will have to capture and bring in &ctwo cows&r to the &6&lCowhand's Hut&r&r, as the &6Cowhand&r will &cnot&r catch and bring in any cows."]
 			hide_dependency_lines: true
 			id: "30B9E7520C2936E0"
@@ -887,10 +853,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lRabbit Hutch&r&r is where the &6&lRabbit Herder&r&r will raise and butcher rabbits. You will have to capture and bring in &ctwo rabbits&r to the &l&6Rabbit Hutch&r&r, as the &6Rabbit Herder&r will not catch and bring in any rabbits."]
 			hide_dependency_lines: true
 			id: "39C5A2B73D30D109"
@@ -941,10 +904,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lSwineherd's Hut&r&r is where the &6&lSwineherd&r&r will breed and butcher pigs for food. You will have to capture and bring in &ctwo pigs&r to the &l&6Swineherd's Hut&r&r, as the &6Swineherd&r will &cnot&r catch and bring in any pigs."]
 			hide_dependency_lines: true
 			id: "4F738E96A298B07E"
@@ -995,10 +955,7 @@
 			y: 4.35d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lMine&r&r is where you can hire a &6&lMiner&r&r to work the mine, or a &l&6Quarrier&r&r to work the &6&lQuarry&r&r. &9If you hire a Quarrier, there will be no Miner at this Mine&r."
 				""
@@ -1070,10 +1027,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lFarm&r&r is where the &6&lFarmer&r&r will grow crops for your colony. Before the &6Farmer&r can start, you will have to give them a &9hoe&r, an &9axe&r, and &9the crop you want to cultivate&r."
 				"The &6Farmer&r will also craft seeds, carved pumpkins, hay bales, Compost, and coarse dirt. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials."
@@ -1144,10 +1098,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: ["The &6&lForester's Hut&r&r is where the &6&lForester&r&r chops down trees. The &6Forester&r will cut down any tree in an approximate &c150&r block area (&9from themselves&r) that is not in a hut schematic and doesn't have cobblestone placed beneath it. Or you can optionally configure a specific chopping zone that they will use instead by using the &l&6Forest Tool&r&r."]
 			id: "2D1908A2F64A80C9"
 			rewards: [
@@ -1189,10 +1140,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lWarehouse&r&r is the &6central storage&r from where a &6&lCourier&r&r will store and retrieve everything your workers harvest, craft, or need. Items will be stored in &9Racks&r."
 				""
@@ -1238,10 +1186,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lCourier&r&r runs back and forth from the &6Warehouse&r to all the worker huts in your colony, delivering materials to workers and putting finished products in the &6Warehouse&r. Each &6&lCourier&r&r needs &9their own hut&r, and you can have up to &c10&r &9Couriers per Warehouse&r, depending on the Warehouse's level (&92 per Warehouse level&r)."
 				""
@@ -1288,10 +1233,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lApiary&r&r is where the &6&lBeekeeper&r&r works. The &6&lBeekeeper&r&r breeds bees and harvests honeycombs or honey bottles (&9you can choose which on the second page of the Apiary's GUI&r)."
 				""
@@ -1348,10 +1290,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lEnchanter's Tower&r&r is where the &6&lEnchanter&r&r will create enchanted books, as long as they have &9&lAncient Tomes&r&r. The &6Enchanter&r will observe other workers throughout their daily routines in order to &9collect experience&r to create enchanted books. The higher their &lM&9ana&r&r level, the &9more XP&r they will collect per trip. They will &cnot&r apply the enchanted books to tools and armor, you must do that yourself. Enchanters do &cnot&r take XP from workers, they simply gain it by &nobserving&r."
 				""
@@ -1421,10 +1360,7 @@
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7A4231E1D13D27A9"
-			]
+			dependencies: ["7A4231E1D13D27A9"]
 			description: [
 				"The &6&lGuard Tower&r&r will employ and house one &6&lGuard&r&r to protect your colony. The new &6Guard&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Guard Tower&r, that becomes their &9new residence&r and the bed in the house will open up for another new citizen. Colonists like to feel safe, so building &6Guard Towers&r close to colonists' work and homes can improve their &9happiness&r. Additionally, if you place &6Guard Towers&r near your colony border and level them up, your border will &9expand&r."
 				""
@@ -1471,10 +1407,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"14840116BC6E52B7"
-			]
+			dependencies: ["14840116BC6E52B7"]
 			description: [
 				"The &6&lBarracks Tower&r&r will employ and house one &6&lGuard&r&r for every level built. Each new &6Guard&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Barracks Tower&r, that becomes their &9new residence&r and the bed in the house will open up for another new citizen."
 				""
@@ -1520,10 +1453,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"07FED65149F877AA"
-			]
+			dependencies: ["07FED65149F877AA"]
 			description: ["The &6&lCombat Academy&r&r is where your &6Knights in Training&r will train to become &l&6Knights&r&r. This also allows them to level up &cwithout a risk of dying&r to mobs. A new &6Knight in Training&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Combat Academy&r, that becomes their new residence and the bed in the house will open up for another new citizen."]
 			id: "2F1EE7ACA3CCFB42"
 			rewards: [
@@ -1565,10 +1495,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"07FED65149F877AA"
-			]
+			dependencies: ["07FED65149F877AA"]
 			description: ["The &6&lArchery&r&r is where your &6Archers in Training&r will train to become &l&6Archers&r&r. This also allows them to level up &cwithout a risk of dying&r to mobs. A new &6Archer in Training&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Archery&r, that becomes their new residence and the bed in the house will open up for another new citizen."]
 			id: "2CB763BBC7B0F688"
 			rewards: [
@@ -1610,10 +1537,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"07FED65149F877AA"
-			]
+			dependencies: ["07FED65149F877AA"]
 			description: [
 				"The &6&lBarracks&r&r is the &9ultimate protection&r for your colony. Each &6&lBarracks&r&r can hold multiple &l&6Barracks Towers&r&r within its structure. The &6Barracks Tower&r (&9unlike the normal Guard tower&r) will employ and house one &6Guard&r for &9every level built&r, for a total of &c5&r &6Guards&r per &6Barracks Tower&r! Each new Guard will &9need a bed in a Residence&r in order to spawn. However, once they are hired at the &6Barracks Tower&r, that becomes &9their new residence&r and the bed in the house will open up for another new citizen."
 				"&6Colonists&r like to feel safe, so building &6Barracks&r close to colonists' work and homes can &9improve their happiness&r."
@@ -1658,10 +1582,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lGraveyard&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lUndertaker&r&r will bury your deceased citizens. "]
 			id: "034FBE8B8E8651BC"
 			rewards: [
@@ -1703,10 +1624,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
 				"The &l&6Mystical Site&r&r &9requires research&r at the &6University&r to be built, and is a simple building that &9increase a colony's overall happiness&r level. It has no worker and increases colonists' happiness just by existing."
 				""
@@ -1754,10 +1672,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
 				"The &6&lLibrary&r&r &9requires research&r at the &6University&r to be built, and is a way for you to raise your adult citizens' &6&lIntelligence&r&r skill, which influences all other skill increases (&9at other jobs&r). A citizen will randomly level up their &6Intelligence&r as long as they're assigned to the &l&6Library&r&r. Being a &6Library Student&r is their &9full-time job&r, so you &ccan't&r have one citizen work at the &6Library&r and another worker hut at the same time."
 				""
@@ -1803,10 +1718,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
 				"The &6&lSchool&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lTeacher&r&r will level up the &6Pupils'&r (&9children&r) &6Intelligence&r skill. &9Paper&r will increase the leveling speed of the &6Pupils&r."
 				""
@@ -1859,10 +1771,7 @@
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lHospital&r&r &9requires research&r at the &6University&r to be built, and is where &9injured&r or &9sick&r citizens go. The &6&lHealer&r&r will heal them with various items."]
 			id: "4B7797941C20496E"
 			rewards: [
@@ -1911,10 +1820,7 @@
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
 				"The &6&lNether Mine&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lNether Miner&r&r works. The &6Nether Miner&r travels into the &cNether&r and mines resources found there. The level of the hut determines what items the &6Nether Miner&r brings back."
 				""
@@ -1967,10 +1873,7 @@
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lComposter's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6Composter&r will turn organic materials into the &6Compost Barrel&r to make compost or dirt."]
 			id: "77D84FE0B729775E"
 			rewards: [
@@ -2012,10 +1915,7 @@
 			y: 14.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"77D84FE0B729775E"
-			]
+			dependencies: ["77D84FE0B729775E"]
 			description: ["The &6&lFlower Shop&r&r &9requires research&r at the &6University&r to be built, and is where your &6&lFlorist&r&r will grow flowers for your colony, if given Compost and an axe."]
 			id: "77EEBD84A84DFD36"
 			rewards: [
@@ -2057,10 +1957,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lSawmill&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lCarpenter&r&r will craft any items made of at least &c75% wood&r, as well as a few other items including Racks, as well as Domum Ornamentum blocks that include wood. For them to do this, you must &9teach&r the &6Sawmill&r the recipes and the &6Carpenter&r must &9receive a request&r for an item from another worker."]
 			id: "4E2B4BFA5EF80546"
 			rewards: [
@@ -2102,10 +1999,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4E2B4BFA5EF80546"
-			]
+			dependencies: ["4E2B4BFA5EF80546"]
 			description: [
 				"The &6&lCrusher's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lCrusher&r&r will take items and crush them into other blocks. "
 				""
@@ -2151,10 +2045,7 @@
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4E2B4BFA5EF80546"
-			]
+			dependencies: ["4E2B4BFA5EF80546"]
 			description: ["The &6&lStonemason's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lStonemason&r&r will craft &c3x3&r recipes made entirely out of different types of stone. The &6Stonemason&r will only work when they &9receive a request&r from another worker and have the &9needed&r materials. You will also need to &9teach&r the &6Stonemason's Hut&r the recipes you want the &6Stonemason&r to craft."]
 			id: "377C36AD367DB60D"
 			rewards: [
@@ -2196,10 +2087,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4E2B4BFA5EF80546"
-			]
+			dependencies: ["4E2B4BFA5EF80546"]
 			description: ["The &6&lBlacksmith's Hut&r&r &9requires research&r at the &6University&r to be built, and is a &c3x3&r crafter and can make any vanilla tools, armor, swords, and shields (&9no bows or redstone items&r). The &6Blacksmith's Hut&r will work when they &9receive a request&r for any of those items from another worker."]
 			id: "093039CD2C51183B"
 			rewards: [
@@ -2241,10 +2129,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4E2B4BFA5EF80546"
-			]
+			dependencies: ["4E2B4BFA5EF80546"]
 			description: [
 				"The &6&lSmeltery&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lSmelter&r&r will smelt ores into ingots."
 				""
@@ -2290,10 +2175,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4E2B4BFA5EF80546"
-			]
+			dependencies: ["4E2B4BFA5EF80546"]
 			description: ["The &6&lStone Smeltery&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lStone Smelter&r&r will smelt different types of stone. The &6Stone Smelter&r will only work when they have been &9taught&r the recipe, &9receive a request&r from another worker, and have the &9needed&r materials."]
 			id: "14251EA8EF4DA3D6"
 			rewards: [
@@ -2335,10 +2217,7 @@
 			y: 15.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4E2B4BFA5EF80546"
-			]
+			dependencies: ["4E2B4BFA5EF80546"]
 			description: ["The &6&lSifter's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lSifter&r&r will sift through dirt, gravel, sand, or soul sand to find loot. Doing this will make the block the &6Sifter&r is sifting &cdisappear&r. You can choose between &9four meshes&r. The &9higher&r the level of the &9mesh&r, the &9higher&r the likelihood that the &6Sifter&r will find loot. The &6Sifter's Hut&r can sift a &ccertain amount&r of blocks per day."]
 			id: "58003B4EA4064BB5"
 			rewards: [
@@ -2380,10 +2259,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lAlchemist Tower&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lAlchemist&r&r works. The &6Alchemist&r brews potions, harvests netherwart and mistletoe."]
 			id: "77836607BA702351"
 			rewards: [
@@ -2432,10 +2308,7 @@
 			y: 16.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lConcrete Mixer's Hut&r&r &9requires research&r at the &6University&r to be built, and will craft all types of concrete powder and place them in flowing water (&9built in to their hut&r), then mine the resulting concrete. The &l&6Concrete Mixer's Hut&r&r will only make concrete and concrete powder when they &9receive a request&r for a block and have the &9needed&r materials. (&9All their recipes are pretaught&r)"]
 			id: "6898C03FFF9BEEE4"
 			rewards: [
@@ -2484,10 +2357,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
 				"The &6&lPlantation&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lPlanter&r&r will grow a variety of plants. Each plant is grown on &9fields&r, which can be schematics (&9part of your style pack&r) that the &6Builder&r can construct, these &cdo not&r work like &6Farmer's Hut&r fields where you only have to place a scarecrow down!"
 				"The &6&lPlanter&r&r can also craft paper, books, sugar, and anything made with bamboo. The &6Planter&r will only make these items when they have been &9taught&r the recipes, &9receive a request&r for an item, and have the &9needed&r materials."
@@ -2539,10 +2409,7 @@
 			y: 16.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lMechanic's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lMechanic&r&r will craft redstone items, rails, minecarts, clocks, compasses, and many other items that &cno other crafter&r can make. For the &l&6Mechanic&r&r to work, they must &9receive a request&r from another worker and have the &9necessary&r materials. The &6&lMechanic's Hut&r&r must also have been &9taught&r the crafting recipes for all the items you want the &6Mechanic&r to be able to craft."]
 			id: "532251F10407CD16"
 			rewards: [
@@ -2591,10 +2458,7 @@
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lFletcher's Hut&r&r requires research at the &6University&r to be built, and is where the &6&lFletcher&r&r will craft arrows and items that use string or wool, such as bows, fishing rods, and paintings. For the &6Fletcher&r to work, they must &9receive a request&r from another worker and have the &9necessary&r materials. The &6Fletcher's Hut&r must also have &9been taught&r the crafting recipes for all the items you want the &6Fletcher&r to be able to craft."]
 			id: "0E51F4FF8498D40D"
 			rewards: [
@@ -2643,10 +2507,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lDyer's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lDyer&r&r will craft dyes and dye other items, including red nether bricks and dark prismarine. They won't dye concrete or concrete powder, though. The &6Dyer&r will only do this if they &9receive a request&r from another worker and have the &9necessary&r materials. The &6Dyer's Hut&r automatically knows how to make green dye and red sand, but you must &9teach it the recipes&r for the other dyes and the dyed items."]
 			id: "4F93846C439B8EC8"
 			rewards: [
@@ -2695,10 +2556,7 @@
 			y: 13.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5DE1C3B17B55B4D1"
-			]
+			dependencies: ["5DE1C3B17B55B4D1"]
 			description: ["The &6&lGlassblower's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lGlassblower&r&r will smelt sand into glass and make glass panes from glass blocks. For the &6Glassblower&r to work, they must &9receive a request&r from another worker and have the &9necessary&r materials, including &cfuel&r if they're smelting sand into glass. The &6Glassblower's Hut&r must also have been taught the crafting recipe for glass panes."]
 			id: "07A1ABE59F38F2BD"
 			rewards: [
@@ -2747,7 +2605,7 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["0A4196BD7B0FC574"]
 			description: [
 				"Selecting where to build your colony is &9very important&r, especially in the &6&lMCC&r&r world. While this logic applies whenever you build a colony, the challenges it helps you circumvent in this world are not only the usual ones but also much more."
 				""
@@ -2816,10 +2674,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7AA37760F9C6BA7D"
-			]
+			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
 				"&6&lBuilder's Goggles:&r&r Allow you to see build previews."
 				""
@@ -2935,10 +2790,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7AA37760F9C6BA7D"
-			]
+			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
 				"&6&lResource Scroll:&r&r The resource scroll is an easy way to tell what one of your Builder needs. It's like a portable second page of the Builder's Hut! &9Sneak + right-click&r on a &cBuilder's Hut&r to register the resource scroll."
 				""
@@ -3007,10 +2859,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7AA37760F9C6BA7D"
-			]
+			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
 				"&6&lPostbox:&r&r The postbox is for the player to request items from the Warehouse. A Courier will deliver them to the postbox."
 				""
@@ -3078,10 +2927,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7AA37760F9C6BA7D"
-			]
+			dependencies: ["7AA37760F9C6BA7D"]
 			description: ["The &6&lRallying Banner&r&r will summon your &9Guards&r to you when used. It's especially useful in &craids&r, as Guards don't automatically know where to find the raiders."]
 			hide_dependency_lines: true
 			id: "1665F1A15B6A0F53"
@@ -3133,10 +2979,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7AA37760F9C6BA7D"
-			]
+			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
 				"The &6&lAncient Tome&r&r is a glowing book that's dropped by &craiders&r (&9barbarians, pirates, vikings, egyptian raiders, etc&r) during raids. The &6&lAncient Tome&r&r &ccannot&r be crafted and is only available as a drop."
 				""
@@ -3191,10 +3034,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7AA37760F9C6BA7D"
-			]
+			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
 				"&6&lMinecolonies for ComputerCraft&r&r provides an integration between the &6Minecolonies&r and &6ComputerCraft&r mods, allowing you to read various bits of information about your colony. This can be used for status displays and automation, among other things."
 				""
