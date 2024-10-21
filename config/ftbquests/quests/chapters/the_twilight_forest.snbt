@@ -1,4 +1,5 @@
 {
+	autofocus_id: "3A1153158D4476EA"
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "the_twilight_forest"
@@ -77,6 +78,11 @@
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
+			description: [
+				"The &e&lNaga Courtyard&r&r is a large, walled structure made of various stones and Nagastone. Inside, there are hedges of Twilight Oak Leaves, pillars of Polished Andesite and Etched Nagastone, and decorative features. At the center is a Boss Spawner for the Naga."
+				""
+				"The &e&lNaga&r&r is a serpent that lurks in the courtyard, appearing as a massive green snake-like creature with a human-like face and subtly colored scales."
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -87,6 +93,27 @@
 				id: "twilightforest:naga_trophy"
 			}
 			id: "224C2A4CAABD226E"
+			rewards: [
+				{
+					id: "6BFA63E4B3553B42"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "2107FF90BA0A1540"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "twilightforest:progress_naga"
@@ -100,7 +127,33 @@
 		}
 		{
 			dependencies: ["224C2A4CAABD226E"]
+			description: [
+				"The &e&lLich Tower&r&r is a major landmark, featuring a tall structure with sprawling branches of smaller rooms made of Stone Bricks and Birch Planks. At the top, there is a Boss Spawner for the Twilight Lich."
+				""
+				"The &l&eTwilight Lich&r&r, or simply the Lich, resides at the top of the tower. It appears as a tall humanoid skeleton wearing a purple cape and a large golden crown, surrounded by a wall of shields that may be breakable."
+			]
 			id: "238BA4DDD4B10E64"
+			rewards: [
+				{
+					id: "1D3251096631C8B6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "3A763A6F53DDC3F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "twilightforest:progress_lich"
@@ -124,6 +177,26 @@
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
 			id: "5F702BEE6C1C9852"
+			rewards: [
+				{
+					id: "35C2EAE8FDB97C51"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5729FF3CDEF9137F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "twilightforest:quest_ram"
 				criterion: ""
@@ -141,11 +214,37 @@
 				type: "advancement"
 			}]
 			x: -6.0d
-			y: -11.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
+			description: [
+				"The &e&lLabyrinth&r&r is a major landmark that appears as an unremarkable hill in the Twilight Swamp, leading to an underground structure of sprawling maze passages. Deep within, a fenced-off room contains a Boss Spawner for the Minoshroom."
+				""
+				"The &e&lMinoshroom&r&r is a mini-boss lurking in its prison at the bottom of the Labyrinth, resembling a bizarre hybrid of a Mooshroom and a Minotaur."
+			]
 			id: "0CDBF9C116B9F573"
+			rewards: [
+				{
+					id: "1B1DE6454F2EA4B8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "65D526D34C2AD7C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "twilightforest:minoshroom"
@@ -168,7 +267,28 @@
 		}
 		{
 			dependencies: ["0CDBF9C116B9F573"]
+			description: ["&e&lMeef Stroganoff&r&r is a food item that can only be obtained after defeating the Minoshroom. Upon consuming Meef Stroganoff, the player is rewarded with the Advancement: Mighty Stroganoff, granting access to both the Fire Swamp and the Hydra."]
 			id: "63EF394154FAD7C5"
+			rewards: [
+				{
+					id: "54A47DA0F68C9F27"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "46F4A4B8E54A4187"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "twilightforest:progress_labyrinth"
 				criterion: ""
@@ -181,7 +301,33 @@
 		}
 		{
 			dependencies: ["63EF394154FAD7C5"]
+			description: [
+				"Resembling a large Hollow Hill, the &e&lHydra Lair&r&r rises from the flat swamplands, providing a home for the multi-headed Hydra in the Fire Swamp. The Hydra has hollowed out the hill for shelter, forcing challengers to approach head-on in an area devoid of cover."
+				""
+				"The &e&lHydra&r&r is a massive creature with two stumpy legs and a wide, scaly body. Its serpentine necks end in heads resembling those of the Ender Dragon, covered in blue-green and dark blue scales."
+			]
 			id: "39A8F24D2A4A03A0"
+			rewards: [
+				{
+					id: "5F6D43587F0CAEB8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "5F1A942E3359B4E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "twilightforest:progress_hydra"
@@ -195,13 +341,48 @@
 		}
 		{
 			dependencies: ["39A8F24D2A4A03A0"]
+			description: [
+				"Ancient and forlorn, the &e&lGoblin Knight Strongholds&r&r lie among the dense canopy of the Dark Forest. They are difficult to spot in the darkness, with little above ground aside from broken walls and cracked bricks. However, beneath the surface is a vast complex of rooms, hallways, and tombs. Some explorers have noted similarities to the labyrinths beneath the Twilight Swamp, but these fortresses offer a different challenge."
+				""
+				"The &e&lKnight Phantoms&r&r inhabit a brick-layered room in the Goblin Knight Stronghold. They appear as ghostly figures of Phantom Armor and have a spooky look when attacking."
+			]
 			id: "6ACE6710E64ACF68"
+			rewards: [
+				{
+					id: "6F5324DA0D135008"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "6BCCE2743920608B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
-				advancement: "twilightforest:progress_knights"
-				criterion: ""
-				id: "7DD638AA98D6D274"
-				type: "advancement"
+				entity: "twilightforest:knight_phantom"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:knight_phantom_trophy"
+				}
+				id: "28800D3DEDC8E75F"
+				type: "kill"
+				value: 1L
 			}]
 			title: "&2&lSlay The Knight Phantom"
 			x: 4.0d
@@ -209,7 +390,33 @@
 		}
 		{
 			dependencies: ["6ACE6710E64ACF68"]
+			description: [
+				"Rising ominously over the Dark Forest, the &e&lDark Towers&r&r seem to pierce the sky. These immense structures contain unique rooms, obstacles, treasures, and monsters for adventurers to explore. They are typically found at the heart of the Dark Forest, where the thick foliage takes on a strange autumn hue, likely due to the Tower's sinister influence."
+				""
+				"At the top of the Dark Tower flies the &l&eUr-Ghast&r&r, a large supernatural creature with many waving tentacles, covered in what may be blood or Carminite. It resembles the Carminite Ghastguard in stalking players and the Nether-exclusive Ghasts but is much larger and more dangerous."
+			]
 			id: "7264C093510330F7"
+			rewards: [
+				{
+					id: "6D1C336358668897"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "6385CCB3C7EAC2AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "twilightforest:ur_ghast"
@@ -232,6 +439,11 @@
 		}
 		{
 			dependencies: ["7264C093510330F7"]
+			description: [
+				"Nestled among the hills and fir trees of the Snowy Forest, the &e&lYeti Cave&r&r appears as a square-shaped hill with four entrances leading to its ice-covered interior, where packed ice hangs from stalactites. Many fierce Yetis inhabit these frigid caves, ruled by a larger &eAlpha Yeti&r."
+				""
+				"The &e&lAlpha Yeti&r&r is significantly bigger than the other Yetis in its pack, with six large blue horns, and it is constantly aggressive toward players."
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -242,6 +454,27 @@
 				id: "twilightforest:alpha_yeti_trophy"
 			}
 			id: "43F71D97827116DD"
+			rewards: [
+				{
+					id: "2D38C333BBAEA6C8"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "3CF3E76DC63831B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				entity: "twilightforest:alpha_yeti"
@@ -264,7 +497,33 @@
 		}
 		{
 			dependencies: ["43F71D97827116DD"]
+			description: [
+				"Standing over the desolate glaciers, the &e&lAurora Palace&r&r is a striking sight for adventurers in the Twilight Forest, with walls that constantly shift in various colors. However, dangers within will fiercely defend their magical home."
+				""
+				"The &e&lSnow Queen&r&r resides in an ice-encrusted room near the top of the Aurora Palace. She is one of the most human-like creatures in the Twilight Forest, with large violet eyes and pale blue skin, and is immediately hostile to intruders, launching one of three main attack patterns."
+			]
 			id: "1B3CAAFB0ED99518"
+			rewards: [
+				{
+					id: "6CD9D730F6137202"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 2
+					id: "03C2D3108D7B86FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "twilightforest:progress_glacier"
@@ -278,19 +537,51 @@
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
+			description: [
+				"&e&lMagic Beans&r&r are a collection of colorful beans can be found in smaller vaults in the Troll Caves. A Diamond Pickaxe or a pickaxe of similar strength is normally needed to crack the vault open and claim the beans. You may also get Magic Beans as a very lucky drop from killing &eTrolls&r."
+				""
+				"When Magic Beans are planted in Uberous Soil, they will grow a giant beanstalk, reaching to cloud level. This serves as a convenient way to access the Cloud Cottage over the Highlands."
+			]
 			id: "4D7F9BE3FE00F696"
+			rewards: [
+				{
+					id: "5F204528F1B13B64"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0324ABECEE870F5E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [
 				{
-					advancement: "twilightforest:troll"
-					criterion: ""
-					id: "41F3F109BE715F03"
-					type: "advancement"
+					id: "6C05A6E46EBC77D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:magic_beans"
+					}
+					type: "item"
 				}
 				{
 					advancement: "twilightforest:beanstalk"
 					criterion: ""
-					id: "6A5D895B0542149F"
+					id: "03D1E0957E25B2E7"
 					type: "advancement"
 				}
 			]
@@ -300,7 +591,32 @@
 		}
 		{
 			dependencies: ["4D7F9BE3FE00F696"]
+			description: [
+				"Once the magic beans have been planted in Uberous Soil, the resulting beanstalk provides a quick climb to the cloud. It’s recommended to place torches along the beanstalk to illuminate the darkness beneath."
+				""
+				"The next task is to fight and defeat a &e&lGiant&r&r carrying a &l&eGiant's Pickaxe&r&r. This oversized stone tool is strong enough to crack open the Giant Obsidian vault, which contains the Lamp of Cinders."
+			]
 			id: "353A06EAE19F5598"
+			rewards: [
+				{
+					id: "32F66EB61D051E01"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5A36476B643CF2EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "twilightforest:giants"
@@ -314,7 +630,28 @@
 		}
 		{
 			dependencies: ["353A06EAE19F5598"]
+			description: ["The &e&lLamp of Cinders&r&r is a tool found in the central vault of the Troll Caves, which requires the Giant's Pickaxe to open. It is used to burn through the Thorns that fill the Thornlands biome. The lamp can be used in two ways: it can burn individual blocks by clicking on them, or it can be \"charged\" by holding the button to burn an entire area. The Lamp of Cinders has no usage limit."]
 			id: "3704ECA09DAC9D7A"
+			rewards: [
+				{
+					id: "2B72AA50444A7D35"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "689098C984E77F51"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "6793D5B94A2B1CFF"
@@ -338,7 +675,32 @@
 		}
 		{
 			dependencies: ["3704ECA09DAC9D7A"]
+			description: [
+				"As explorers ventured deeper into the Twilight Highlands, they encountered a thick, spiny wall of foliage, impervious to cutting or burning attempts to access the Final Plateau. Disturbingly, any sections cut would regrow almost instantaneously, injuring one impatient adventurer. This natural yet unnatural barrier became known as the &l&eThornlands&r&r."
+				""
+				"Only the powerful &eLamp of Cinders&r can burn the Thorns and stop their rapid regeneration, clearing a path to the Final Plateau and the Final Castle beyond."
+			]
 			id: "4E6C6EC0F82818A0"
+			rewards: [
+				{
+					id: "26EE83E3821948BD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2AF382032A7D5A06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				biome: "twilightforest:thornlands"
@@ -360,7 +722,33 @@
 		}
 		{
 			dependencies: ["4E6C6EC0F82818A0"]
+			description: [
+				"Once the player has traversed the Thornlands, they will encounter the &l&eFinal Castle&r&r, a structure that spawns in the &eFinal Plateau&r. It is primarily made of white castle bricks in different variants, some of which are engraved with colored runes and covered with force fields."
+				""
+				"Currently, the Final Castle is a work in progress, with no active achievements and no mobs spawning inside."
+			]
+			hide_dependency_lines: false
 			id: "031BF5A5DDEA7DDF"
+			rewards: [
+				{
+					id: "6F09F49B9F8A4C5B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "4AAD37865F7BC1AE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				icon: {
@@ -379,6 +767,2747 @@
 			title: "&2&lFinal Castle"
 			x: -6.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["224C2A4CAABD226E"]
+			description: ["&e&lNaga Scale Armor&r&r is armor made from Naga Scales. This armor set consists of only Chestplate and Leggings."]
+			id: "63C1EC8559D1E68B"
+			rewards: [
+				{
+					id: "1B1878B9BF7D8D6F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1469A57E635260BA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3986606C28A52102"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34DC8BCE9B2BCBEA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Naga Scale Armor"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["238BA4DDD4B10E64"]
+			description: ["The &l&eScepter of Twilight&r&r, dropped by the Lich, shoots projectiles resembling the Lich's, with a texture like Ender Pearls and a blue-green particle effect. Slightly affected by gravity, they deal 2.5 hearts of damage—four hits for Skeletons and Creepers, three for Spiders, and five for Zombies. The scepter cannot interact with End Crystals or the Ender Dragon."]
+			id: "6F765560F3AF0737"
+			rewards: [
+				{
+					id: "03C9A29F9EBEACBA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2FE89D794F2F741D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "500485E27FE91067"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["238BA4DDD4B10E64"]
+			description: ["The &e&lScepter of Life Draining&r&r drains life energy from any mob it right-clicks, producing pink particle effects. To use it, hold right-click while looking at an enemy, causing them to float and transferring energy to the user for faster healing. If interrupted, the enemy gets the Slowness debuff and approaches slowly, allowing the player to recharge the scepter. It does not work against the Ender Dragon."]
+			id: "1D34C364554673D1"
+			rewards: [
+				{
+					id: "655D4285B9D98F9F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "01A540FA95121E13"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "779AA4B03637EEE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["238BA4DDD4B10E64"]
+			description: ["Summon your own powerful Zombies with the &l&eZombie Scepter&r&r! These Zombies are strong, fast, immune to sunlight, and ready to attack. They follow you and target enemies but self-immolate after about a minute. Unlike regular Zombies, they are not undead, are affected by potions, and can be targeted by the Wither. Summoned Zombies do not scare, target, or corrupt Villagers, and baby or chicken jockey variants do not exist."]
+			id: "3D24BA08A1F6F341"
+			rewards: [
+				{
+					id: "0E1D59D7A89EECEF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4A8180E89C9EA7B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68B0D96C51334572"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["238BA4DDD4B10E64"]
+			description: ["The &e&lScepter of Fortification&r&r summons five shields around the player or target entity and produces a popping sound when used. These shields resemble those of the Lich but break upon damage, except from drowning, falling, or void damage. They can be restored after the scepter's cooldown, indicated by the remaining shields, but only five can be active at once."]
+			id: "0E8B64CE67FC2ED6"
+			rewards: [
+				{
+					id: "72914EE1830B072E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6AED26F4A1A6C2FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CDD38A4005A5702"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0CDBF9C116B9F573"]
+			description: ["The &e&lDiamond Minotaur Axe&r&r is a unique axe that is dropped when the Minoshroom is killed. The Diamond Minotaur Axe is unique in that it has extra charge damage, meaning that when it is used while the player is sprinting, extra damage will be dealt to whatever monster it attacks."]
+			id: "61F6FCB0EA0E6EE3"
+			rewards: [
+				{
+					id: "7E37382CCFD7514A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0DEA5C1F384A0EF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4CDDCC9877E3598B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["39A8F24D2A4A03A0"]
+			description: ["&e&lFiery Armor&r&r is armor made from Fiery Ingots and has the innate skill to burn attackers."]
+			id: "5E22B54E7749BB31"
+			rewards: [
+				{
+					id: "4CCFB99E92788F90"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "57E78B5B8A9BF0A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "76D4850461DB7B4B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2134D08E93DB241F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79249D1EE6D080EF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56A01773505A474A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fiery Armor"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["39A8F24D2A4A03A0"]
+			description: ["&e&lFiery Sword and Pickaxe&r&r are made from Fiery Ingots and have the ability to burn attackers, and auto-smelt blocks."]
+			id: "72BE5D51B75EAB98"
+			rewards: [
+				{
+					id: "25C52140DAEEF833"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2CF10DB345D6C0A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19D217B1380602B8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "227D3FE8084F4E71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:fiery_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fiery Sword and Pickaxe"
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6ACE6710E64ACF68"]
+			description: ["&e&lPhantom Armor&r&r is a special set of armor that can be obtained after slaying a Knight Phantom. There is only two parts to this set. This armor is also unique in that it will not be lost on death."]
+			id: "3B62B0D9334A609C"
+			rewards: [
+				{
+					id: "2CB8F0446853A52F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7317C6C6FD9094B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B352BD27D21978F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:phantom_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77DB75B0012E2694"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:phantom_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Phantom Armor"
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6ACE6710E64ACF68"]
+			description: ["&e&lKnightmetal Armor&r&r is an armor set made from Knightmetal Ingots."]
+			id: "2BC383AAEC8C05B4"
+			rewards: [
+				{
+					id: "329926077BAAA672"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "11EC45827CF55D8A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5D73B556C6B844C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42846E5692425D4D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A8341DEA176DF32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38160EF45F360EB4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Knightmetal Armor"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6ACE6710E64ACF68"]
+			description: ["&e&lKnightmetal Tools and Weapons&r&r are made from Knightmetal Ingots."]
+			id: "7E1CF7ACBD6043AB"
+			rewards: [
+				{
+					id: "4DBF947F921F8297"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6783B3AA2B17429C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D70C5E144048184"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "273762F2BEFB6488"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D2B9D6F7D9D279C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "074B344EDC47ECFB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:knightmetal_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17DA89D6DBDD87F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:block_and_chain"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Knightmetal Tools and Weapons"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43F71D97827116DD"]
+			description: [
+				"&e&lAlpha Yeti Fur&r&r is an item that is always dropped by the Alpha Yeti. "
+				""
+				"&e&lYeti Armor&r&r is armor made from Alpha Yeti Fur. Making contact with an entity wearing this armor will inflict the attacker with Frosted III."
+			]
+			id: "79D9541D4D3A31BF"
+			rewards: [
+				{
+					id: "3ACC7C336BE1A5F9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5B0634AE9A7FE726"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "71BEBBF0EB5C990B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66EBDA6697B81780"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EF02BA5FFEE24AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40B8AF746DC69940"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Yeti Armor"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["43F71D97827116DD"]
+			description: [
+				"&e&lArctic Fur&r&r is an item dropped by Yetis and Winter Wolves."
+				""
+				"&e&lArctic Armor&r&r is armor made from Arctic Fur. "
+			]
+			id: "40B42B2D21A31F1A"
+			rewards: [
+				{
+					id: "328158A2938D7183"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2527EAB9AB055014"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "67B65C83EE13A192"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:arctic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31D5D0085F711C45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:arctic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "686814D6F28EE55A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:arctic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501932F1525F7B09"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:arctic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Arctic Armor"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1B3CAAFB0ED99518"]
+			description: ["The &e&lSeeker Bow&r&r is one of two bows that can drop from the Snow Queen. Arrows fired from this bow will attempt to hone in onto nearby targets. Seeker arrows cannot land critical hits."]
+			id: "5F9BCB81EDC7B5CC"
+			rewards: [
+				{
+					id: "61A5878ABDA30AC3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4A66D66471697843"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02042FE7D80BBF77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B3CAAFB0ED99518"]
+			description: ["The &e&lTri-bow&r&r is one of two bows dropped by the Snow Queen upon defeat. When fired, it shoots three vertically aligned arrows at once, similar to the Multishot enchantment on crossbows, but it only uses one arrow and reduces durability by one. This bow is highly effective against single targets if all shots hit, as well as against multiple targets."]
+			id: "02056C28AB828C96"
+			rewards: [
+				{
+					id: "130F347DF11D9F10"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7191173B20CCCB1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D678382BF9CCFA8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EE137CFDCBB88DF"]
+			description: [
+				"&e&lRaven Feather&r&r is an item dropped by Ravens, each one dropping up to 2 of these."
+				""
+				"&e&lTorchberries&r&r are an item found by harvesting Torchberry Plants or slaying Skeleton Druids. "
+			]
+			id: "06B12750EF857686"
+			rewards: [
+				{
+					id: "73EF54AF0AED3165"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "429EB0C69CEF5205"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3D3708ED39883BC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:raven_feather"
+					}
+					type: "item"
+				}
+				{
+					id: "22DE4D5E0B80DDBF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:torchberries"
+					}
+					type: "item"
+				}
+			]
+			title: "Raven Feather and Torchberries"
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["06B12750EF857686"]
+			description: ["&e&lMagic Map Focus&r&r is an item crafted from a Raven Feather, Torchberries and Glowstone Dust."]
+			id: "3EC49822628FE9B3"
+			rewards: [
+				{
+					id: "5B35C3085CA53690"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4BF82D2F573F2638"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C737728AB7B7349"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:magic_map_focus"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3EC49822628FE9B3"]
+			description: [
+				"&e&lMagic Maps&r&r are vital for explorers in the Twilight Forest, as they are linked to the dimension and reveal important details about the surrounding areas."
+				""
+				"While similar to an Overworld map, Magic Maps only work in the Twilight Forest and reveal an area four times larger upon first use. However, they cannot expand beyond their initial view, so multiple maps are needed for extensive exploration."
+				""
+				"Instead of showing terrain, Magic Maps display the biomes and boundaries of the Twilight Forest in different colors, allowing users to quickly identify their location and nearby regions, including areas under magical protection."
+				""
+				"The map’s magical focus detects major landmarks with distinct icons, making it easy for explorers to navigate and plan their journey in the Twilight Forest."
+			]
+			id: "0E15E3DEA2EF1D63"
+			rewards: [
+				{
+					id: "61625384323B1FFC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "11F086D8445D1AB5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35851EA8E338F8F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:magic_map"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["238BA4DDD4B10E64"]
+			description: [
+				"The &e&lMaze Map&r&r is useful mostly for finding your way around the various mazes in the Twilight Forest. Like a vanilla map, it can see past walls and various places that you can normally not see. The Maze Map is special with this, as it will show you a slice of the world at your current depth or altitude, allowing you to find your way through caves and other structures. It is also zoomed in enough to show even the thinnest walls."
+				""
+				"&e&lMaze Map Focus&r&r is an item found in chests and rarely dropped by Minotaurs. Adventurers are most likely to find a Maze Map Focus by searching chests in a Labyrinth. It is used to craft a Maze Map."
+			]
+			id: "5220FB0D131C6F95"
+			rewards: [
+				{
+					id: "1FF03800B2EEDAB8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0E91A627866A3B7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "456BD2A11C1A7ED7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:maze_map"
+				}
+				type: "item"
+			}]
+			title: "&2&lMaze Map"
+			x: -1.999999999999993d
+			y: -6.25d
+		}
+		{
+			dependencies: ["5220FB0D131C6F95"]
+			description: ["What if a &e&lMaze Map&r&r could see through stone to reveal hidden treasures? With an upgrade, the &e&lOre Map&r&r can. Though pricey, it detects ores above or below its layer and displays them in their respective colors. Starting blank, users must activate it to reveal the map. A useful trick is to create it on a layer with rare ores and navigate above ground to uncover what lies beneath."]
+			id: "49F76BDDF2D28E43"
+			rewards: [
+				{
+					id: "334513A4B517CC7E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5DA776F411ADAF57"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18517B7848BD3B23"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:ore_map"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["031BF5A5DDEA7DDF"]
+			description: ["Find an &e&lInactive Thorncutter&r&r inside a chest atop the Final Castle within the purple forcefield. When &e&lThorncutter&r&r is completed, you can harvest Thorns."]
+			hide_dependency_lines: true
+			id: "1701F87490DD6A9F"
+			rewards: [
+				{
+					id: "7700A1F547162E1E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7110018768EDF641"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6658F5DEBB82CFB7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tflostblocks:thorncutter_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5220FB0D131C6F95"]
+			description: ["The &e&lMazebreaker&r&r is a special kind of Pickaxe only found in Labyrinth treasure vaults, viewable with a Maze Map. The Mazebreaker can mine through all types of Mazestone while only losing one durability point, whereas breaking Mazestone with any other pickaxe will lower that pickaxe's durability 16x faster. By default, the Mazebreaker is enchanted with Efficiency IV, Unbreaking III and Fortune II."]
+			id: "707871C62A831E84"
+			rewards: [
+				{
+					id: "5E2B14270788EBBF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6603610E9F17F975"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36D51666418F423D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.214285714285708d
+			y: -5.250000000000014d
+		}
+		{
+			dependencies: ["5F702BEE6C1C9852"]
+			description: [
+				"The &e&lCrumble Horn&r&r is one of the rewards for completing the Questing Ram's quest. If the quest is completed, this (along with one of each of the resource blocks) will be given to the player by the Quest Ram."
+				""
+				"When the Crumble Horn is used, blocks around the player will begin to crumble into other blocks. The sound of a baaing sheep can also be heard emanating from the Crumble Horn when it is used."
+				""
+				"When the crumble horn is used in a &eDispenser&r, it will attempt to crumble the block in front of it. This action takes one durability to complete. Unlike other damageable items that can be used in the dispenser, the crumble horn will not break when depleted. If the durability hits zero it will instead refuse to fire again."
+			]
+			id: "31F9DFD0F505AE02"
+			rewards: [
+				{
+					id: "2588D3034BC9ACF4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2243AA47D0E682BB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5349FCC0B668128B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:crumble_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"0CDBF9C116B9F573"
+				"7264C093510330F7"
+				"76B211025E5ACC90"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&e&lSteeleaf Armor and Tools&r&r are made from Steeleaf."
+				""
+				"&e&lSteeleaf&r&r is found in Labyrinth, Hollow Hill, and Dark Tower chests."
+			]
+			hide_dependency_lines: true
+			id: "2F2BA092915A7910"
+			rewards: [
+				{
+					id: "48C3D2107B9D6420"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "53D5762426CFEBC4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "30C542215FAAA8A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "770514EF6AE62C53"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75B5D26548DD4671"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F027D4EEF3A6B2D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05B2BBFAC6A5DB8E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:looting"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37586D2FC6DC850E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CF98B0BA8102924"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "768FEFF2E41CB899"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A50F8D33E28B623"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:steeleaf_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Steeleaf Armor and Tools"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DFA298A49BB99F4"]
+			description: ["&e&lIronwood Armor and Tools&r&r are made from Ironwood Ingots."]
+			id: "0E88C9364E12FEB3"
+			rewards: [
+				{
+					id: "7A42F8B07515B57A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "27F8681760822826"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "54F25AB34AD26D43"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "121BC2D3659E0222"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37024262A6165AC2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BBBF1280E71E65F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C3DD12E8D52EFD3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A8458B8455D7357"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_pickaxe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53855495557FF040"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "410E71725510F534"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_shovel"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "786509DC8DFC31BA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:ironwood_hoe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ironwood Armor and Tools"
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["353A06EAE19F5598"]
+			description: ["Mine all types of giant blocks using the &e&lGiant's Pickaxe&r&r."]
+			id: "4A02F6F1822B0F69"
+			rewards: [
+				{
+					id: "43DBF10B17E7BC03"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "183E95EC80F53D1C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6044204A19D784D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:giant_log"
+					}
+					type: "item"
+				}
+				{
+					id: "400E5321DF3F1D61"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:giant_leaves"
+					}
+					type: "item"
+				}
+				{
+					id: "5AA33A4A5A530E1B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:giant_cobblestone"
+					}
+					type: "item"
+				}
+				{
+					id: "3D5B3143B65B8D50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "twilightforest:giant_obsidian"
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76B211025E5ACC90"]
+			description: ["The &e&lOre Magnet&r&r is a treasure found in Hollow Hill chests. To use it, point the magnet at the ground or a wall, charge it up, and release. If you’re lucky, it will pull anything from an ore block to an entire vein to the surface, bringing up to 24 blocks, plus a few extra."]
+			hide_dependency_lines: true
+			id: "2EFA532622EB7946"
+			rewards: [
+				{
+					id: "0431ECAE456257A6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2424BF597D0A3DCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77BAC60C50FCEA8B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:ore_magnet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B3CAAFB0ED99518"]
+			description: ["The &e&lGlass Sword&r&r is a weapon that can occasionally be found in Aurora Palaces. Glass Swords cannot be crafted, and have no skills. The Glass Sword has the highest damage rating of all swords in the Twilight Forest, rating at 40 damage. Once the Glass Sword makes contact with the target, it will smash to pieces."]
+			hide_dependency_lines: true
+			id: "6AB19CF23F9B5A16"
+			rewards: [
+				{
+					id: "3F032D211848BA58"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3B8E2244CA13AE46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0244E5FA1A507A7A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3CAAFB0ED99518"]
+			description: ["The &e&lIce Sword&r&r is a weapon that can be found in Aurora Palaces. Ice Swords cannot be crafted, and inflict 10 seconds of Frosted III on targets, reducing their movement speed."]
+			hide_dependency_lines: true
+			id: "622B8EEE00C9F620"
+			rewards: [
+				{
+					id: "2F1C361B0EBEB9FA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "137E712221DC823C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5010B5469342BC4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"238BA4DDD4B10E64"
+				"76B211025E5ACC90"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The &e&lPeacock Feather Fan&r&r is a unique item found in Lich Towers and Medium Hollow Hills in the Twilight Forest. When used, it pushes entities in front of the player backwards, including mobs, dropped items, blocks, and even the player. The fan’s strong winds can uproot flowers and grasses. If the player runs and jumps while using the fan, it produces a high-jump effect."]
+			hide_dependency_lines: true
+			id: "64587A7056D3BE7D"
+			rewards: [
+				{
+					id: "6461EAAE4C90D03C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4020FC0B5CBC2D04"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53C5EE16D8C2A34A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:peacock_feather_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["76B211025E5ACC90"]
+			description: ["&e&lTransformation Powder&r&r is a bright blue magical item found in Hollow Hills treasure chests. It can transform Twilight items into dimensional items and change otherworldly creatures into Twilight Forest creatures and vice versa. This powder can alter the environment or help escape dangerous creatures by turning them into harmless mobs."]
+			hide_dependency_lines: true
+			id: "09FD0BBC59643076"
+			rewards: [
+				{
+					id: "200745E2BE59C397"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5B6A951645416003"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "621A9451721C2F52"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:transformation_powder"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5220FB0D131C6F95"]
+			description: [
+				"The &e&lCharm of Keeping&r&r is a small item resembling a lock. When the player dies, the charm will activate and attempt to preserve a portion of the player's inventory and give it to the player once they respawn. The charm is consumed in this process."
+				""
+				"The &e&llevel I charm&r&r is bronze and will keep the player's armor, currently selected item, and the off-hand item. It can be found in some treasure chests, or as a rare drop from Maze Slimes."
+			]
+			id: "4D66C8BBEDAD4A2F"
+			rewards: [
+				{
+					id: "69E69A546C0FEE0D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7DC6512B955A4D85"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19A2B07DB6943B55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:charm_of_keeping_1"
+				}
+				type: "item"
+			}]
+			x: -1.1428571428571317d
+			y: -7.035714285714306d
+		}
+		{
+			dependencies: ["4D66C8BBEDAD4A2F"]
+			description: ["The &e&llevel II charm&r&r is silver and will keep the player's armor and full hotbar."]
+			id: "76D9A2260275CEDD"
+			rewards: [
+				{
+					id: "247FDAFBE5081A02"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1FE8A42D239BF1D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34C1486125D81EB3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:charm_of_keeping_2"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["76D9A2260275CEDD"]
+			description: ["The &e&llevel III charm&r&r is gold and will keep a player's entire inventory. "]
+			id: "5458ED1325250C81"
+			rewards: [
+				{
+					id: "25A2122F3E4201F1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "64FA09637CF6176E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C6F8B218B616508"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:charm_of_keeping_3"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["76B211025E5ACC90"]
+			description: ["The &e&lCharm of Life I&r&r will heal the player back to 4 hearts, and bestow Regeneration I for the next 10 seconds. Charm of Life I can be found in medium and large Hollow Hills, Leaf Dungeons, Lich Towers, Goblin Knight Strongholds, Dark Towers and Aurora Palaces."]
+			hide_dependency_lines: true
+			id: "7F3DA56DAB79AC1E"
+			rewards: [
+				{
+					id: "3EF1B86A96CA5829"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3CF98D28585F4ECD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20AC8340F7F700D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:charm_of_life_1"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7F3DA56DAB79AC1E"]
+			description: ["The &e&lCharm of Life II&r&r will heal the player fully, and activate Regeneration IV, Resistance and Fire Resistance for the next 30 seconds."]
+			id: "6A2072648BBBEDAA"
+			rewards: [
+				{
+					id: "3F710B23D5FD3BDB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "19D4097084F54031"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BA10308B18C1680"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:charm_of_life_2"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7EE137CFDCBB88DF"]
+			description: [
+				"The &e&lTree of Time&r&r is a magical tree that cannot be found naturally in the Forest and must be grown from a Tree of Time Sapling, which can be found in \"tree dungeons\" within massive Twilight Oak trees."
+				""
+				"The Tree of Time accelerates the growth of nearby plants. Its clock ticks, and right-clicking it will turn the clock gray and stop it."
+			]
+			hide_dependency_lines: true
+			id: "631758525E8CB77C"
+			rewards: [
+				{
+					id: "5FB0F0D7F3E96EEF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5BBF187BB624E083"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E2001777F6CAF6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:time_sapling"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"76B211025E5ACC90"
+				"238BA4DDD4B10E64"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The &e&lMoonworm Queen&r&r is a peculiar green insect found in some Hollow Hill and Lich Tower chests. It contains Moonworm eggs that can attach to walls or any solid surface. By holding the button like a bow, the Queen can fire Moonworms as projectiles that stick upon landing. It can also shoot Moonworms through a Dispenser when powered with a Moonworm Queen inside."]
+			hide_dependency_lines: true
+			id: "3CB4CE1D7B55CD2B"
+			rewards: [
+				{
+					id: "3E26C49D0E1907FC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "365443DB59546D80"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A8C39ED36748B69"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1B3CAAFB0ED99518"]
+			description: ["&e&lIce Bow&r&r is a weapon that can be found in the Aurora Palace. The Ice Bow acts like a normal bow, but when an arrow from an Ice Bow hits a target, they will be covered in ice and inflicted with Frosted III for 10 seconds. This bow is useful to slow down moving targets or make escape from a monster easy. Ice Bows cannot be crafted, but they can be repaired with any type of Ice using an Anvil."]
+			hide_dependency_lines: true
+			id: "2B596E2520D0539D"
+			rewards: [
+				{
+					id: "247288E2989E1FA7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2D353F1401058BA4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B87021D3C4607BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B3CAAFB0ED99518"]
+			description: ["&e&lEnder Bow&r&r is a weapon that can be found in Aurora Palaces. The Ender Bow fires like a normal Bow, but if the arrow from the Ender Bow hits a creature then both the user and creature will swap places."]
+			hide_dependency_lines: true
+			id: "6D09FA6FE768A4D1"
+			rewards: [
+				{
+					id: "744F7BEFE0E5585D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "405E8E69D2CE9AED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BD7D62D38DDC76F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:ender_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CDBF9C116B9F573"]
+			description: [
+				"&e&lRed Thread&r&r is a placeable item found in Labyrinth chests, serving as a navigation tool."
+				""
+				"When placed and held by the player, it lights up and is visible through surfaces, helping trace steps. It can attach to solid surfaces, allowing up to six Red Threads to occupy the same block."
+			]
+			hide_dependency_lines: true
+			id: "5E48E915C1B4ABE9"
+			rewards: [
+				{
+					id: "64AB34D4823D97B8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "726A76970BA77BCC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "579043BFDABB97EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:red_thread"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EE137CFDCBB88DF"]
+			id: "76B211025E5ACC90"
+			rewards: [
+				{
+					id: "291A3F93D6E34D1F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "134F61C504073140"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone"
+					}
+					id: "4BC6AF388C9902E8"
+					structure: "twilightforest:small_hollow_hill"
+					title: "Find a Small Hollow Hill"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone"
+					}
+					id: "5DEBBB9F24FF20D2"
+					structure: "twilightforest:medium_hollow_hill"
+					title: "Find a Medium Hollow Hill"
+					type: "structure"
+				}
+				{
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone"
+					}
+					id: "7B048194902CFC49"
+					structure: "twilightforest:large_hollow_hill"
+					title: "Find a Large Hollow Hill"
+					type: "structure"
+				}
+			]
+			title: "&2&lHollow Hills"
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7EE137CFDCBB88DF"]
+			description: ["Sometimes Roots form strange, ore-like clusters, called &l&eLiveroots&r&r. Liveroots appear as roots webbed with a bright yellow-green color. They typically appear in clusters of between 4 and 8 blocks and can be found anywhere underground in the Twilight Forest. Breaking Liveroots without silk touch gives Liveroot, which forms a key ingredient in the creation of &l&eRaw Ironwood&r&r."]
+			hide_dependency_lines: true
+			id: "7DFA298A49BB99F4"
+			rewards: [
+				{
+					id: "77C0438A4BF35ED7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3B74C8FA988BA3EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "5FA5260598FF2006"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:liveroot"
+				}
+				type: "item"
+			}]
+			title: "Liveroot"
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7EE137CFDCBB88DF"]
+			description: ["Eat &5&lALL&r&r of the Food exclusive to the Twilight Forest."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "twilightforest:experiment_115"
+			}
+			icon_scale: 2.0d
+			id: "3DDCBD68E14BE832"
+			invisible: true
+			rewards: [
+				{
+					id: "2BFBF11D2FCD4A64"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "5BA7AFE50D1ED716"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "twilightforest:twilight_dinner"
+				criterion: ""
+				id: "29191D7F299151A1"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "3A1153158D4476EA"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "0C578D5C9E2E7192"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -3.75d
+			y: -4.75d
 		}
 	]
 	title: "&eThe Twilight Forest"

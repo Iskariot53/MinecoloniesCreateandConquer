@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "rsquare"
 	filename: "dimensional_dungeons"
 	group: "343FE59C9ED4AF54"
 	icon: {
@@ -15,6 +15,348 @@
 	id: "0997701C3A1E97E0"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"701DB69F95BE961D"
+				"4386DFA29FCEDD4D"
+			]
+			description: [
+				"&e&lDimensional Dungeons&r&r adds procedurally generated, renewable dungeons in a separate dimension accessible via a portal from the Overworld. This provides challenging, replayable content."
+				""
+				"In the dungeon dimension, &cbuilding and block breaking are limited&r, creating an adventure mode-like experience. The dungeons are filled with enemies and valuable loot, with many treasure rooms requiring puzzles that test Minecraft game mechanics."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "dimdungeons:guide_book"
+				}
+			}
+			id: "44DDB3663F0AB1C1"
+			rewards: [
+				{
+					id: "62B578690C0FD4A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "dimdungeons:guide_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DC1F8E0DDCCA630"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "2BC2B2F584F69E5B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "1B76491A0E52715A"
+				type: "checkmark"
+			}]
+			title: "&e&lWelcome to Dimensional Dungeons!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44DDB3663F0AB1C1"]
+			description: ["To get started you'll need to build a portal. Craft the materials required and check the Portals section in your guide book to get started."]
+			id: "3426B52C31501E4A"
+			tasks: [
+				{
+					count: 2L
+					id: "39B1C698553818FA"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "dimdungeons:block_gilded_portal"
+					}
+					type: "item"
+				}
+				{
+					id: "1099329470CC3AAE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "dimdungeons:block_portal_keyhole"
+					}
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "33AC8043A0168F77"
+					item: {
+						Count: 9
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+			]
+			title: "&e&lGetting Started"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3426B52C31501E4A"]
+			description: [
+				"After creating your portal, you'll need a key. It's recommended to craft multiple keys."
+				""
+				"&e&lBlank keys&r&r must be activated before use. Right-click with the blank key on an &eend portal frame&r to inscribe the name and location of a randomly generated dungeon. The frame doesn't need to be part of a valid portal. If all frames are occupied, you can break an eye of ender without disrupting The End portal."
+				""
+				"Once activated, place the key in your portal's keyhole block. Removing the key (by right-clicking the keyhole block again) will close the portal. Keys can only be inscribed once, but can be reused to reopen the same dungeon."
+			]
+			id: "6137ED1ED375ED3C"
+			tasks: [{
+				id: "098E15655CCA0146"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:item_portal_key"
+				}
+				type: "item"
+			}]
+			title: "&e&lBlank Portal Key"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6137ED1ED375ED3C"]
+			description: ["Enter your first Dimensional Dungeon!"]
+			hide_dependent_lines: true
+			id: "49F179F14CDEEFA3"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
+				criterion: ""
+				id: "03B026D0553B3ED5"
+				type: "advancement"
+			}]
+			title: "&e&lInto The Dungeon"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"44DDB3663F0AB1C1"
+				"49F179F14CDEEFA3"
+			]
+			description: ["While exploring dungeons you may rarely find portal keyhole blocks. These contain &l&eAdvanced Portal Keys&r&r, and this is the only way to find these keys. These keys open portals to dungeons that are TWICE as large with much higher quality loot!"]
+			id: "2AF3774E05A28DDB"
+			tasks: [{
+				id: "3E776CA54F02A5F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:item_blank_advanced_key"
+				}
+				type: "item"
+			}]
+			title: "&eAdvanced Keys"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AF3774E05A28DDB"]
+			description: ["To use the &l&eAdvanced Portal Key&r&r, you need to upgrade your portal. The upgraded build requires two &e&lportal crown&r&r blocks, which can only be found in dungeon chests. You will also need two banners, either purple or white. Refer to the portals section in your guidebook for more details."]
+			id: "3F22C4B4E0761D9B"
+			tasks: [{
+				count: 2L
+				id: "418B4B4C376D8DB2"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:block_portal_crown"
+				}
+				type: "item"
+			}]
+			title: "&e&lPortal Ugrade!"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6137ED1ED375ED3C"]
+			description: ["The &e&lHomeward Pearl&r&r can be used to instantly warp you back to the entrance of the dungeon."]
+			hide_dependency_lines: true
+			id: "309EE6B27845AA01"
+			tasks: [{
+				id: "7FD3B0AF19A326E9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:item_homeward_pearl"
+				}
+				type: "item"
+			}]
+			title: "&e&lHomeward Pearl"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["309EE6B27845AA01"]
+			description: ["The &e&lPersonal Dimension Key&r&r turns your portal into a gateway to your own personal 8x8 chunk space."]
+			id: "0CBA2E4BF066C147"
+			tasks: [{
+				id: "44C9DA6DADB319FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:item_blank_build_key"
+				}
+				type: "item"
+			}]
+			title: "&e&lPersonal Dimension Key"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["22063A9DA9F5DB4A"]
+			description: [
+				"The &e&lTeleporter Hub Key&r&r is a powerful reward found only in advanced dungeons. Teleporter hubs function like one-room dungeons, featuring eight entrances without mobs or treasure."
+				""
+				"Upon entering a teleporter hub, you'll find eight doors and seven keyholes. Placing keys into the portal frames will connect to those doors. You can build portal frames in various locations, including your personal pocket dimension, a friend's base, strongholds, and the outer end islands, allowing you to link up to eight remote locations."
+				""
+				"&e&lTeleporter Hub Keys&r&r are unique and irreplaceable, so handle them carefully. You can find more Blank Teleporter Hub Keys in advanced dungeons to create additional hubs if needed."
+			]
+			hide_dependency_lines: true
+			id: "1239255AEB0D8967"
+			invisible: true
+			tasks: [{
+				id: "6E35BF3266786839"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:item_blank_teleporter_key"
+				}
+				type: "item"
+			}]
+			title: "&e&lTeleporter Hub Key"
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49F179F14CDEEFA3"]
+			description: ["The &e&lBell of Secrets&r&r is a useful item for your hotbar in dimensional dungeons. When used in most rooms, it plays a short two-note chime. However, if the room contains a chest, it will play an extended eight-note chime, indicating you should search the room for a secret chest. This extended chime will come from the direction of the chest, helping you locate it using stereo sound."]
+			id: "45BF148DC9FD2012"
+			invisible: true
+			tasks: [{
+				id: "63A99F6673B3907C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:item_secret_bell"
+				}
+				type: "item"
+			}]
+			title: "&e&lBell of Secrets"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["49F179F14CDEEFA3"]
+			description: [
+				"The &e&lKey Inscribing Station&r&r is used in place of an End Portal Frame to activate all types of keys and is only available as loot inside the dungeons."
+				""
+				"The Key Inscribing Station has three stages of damage, similar to an anvil, meaning each station can be used for three keys."
+			]
+			id: "145E49357945D189"
+			invisible: true
+			tasks: [{
+				id: "37DFF42C25AB31F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:block_key_charger"
+				}
+				type: "item"
+			}]
+			title: "&e&lKey Inscribing Station"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F22C4B4E0761D9B"]
+			id: "22063A9DA9F5DB4A"
+			tasks: [{
+				advancement: "dimdungeons:dungeons/enter_advanced_dungeon"
+				criterion: ""
+				id: "02CD349478CD085E"
+				type: "advancement"
+			}]
+			title: "&e&lThe Next Level"
+			x: -1.5d
+			y: 6.0d
+		}
+	]
 	title: "&eDimensional Dungeons"
 }

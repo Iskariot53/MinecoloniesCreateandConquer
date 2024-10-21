@@ -5,6 +5,11 @@
 	group: "46EE86D2C5C12C78"
 	icon: {
 		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
 		id: "celestisynth:rainfall_serenity"
 		tag: {
 			Damage: 0
@@ -12,12 +17,505 @@
 		}
 	}
 	id: "1E4F1C8B4EF69C77"
+	images: [
+		{
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/skin/frostbound_impact_crack_seabreeze.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.5d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash5.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependency: "59AA205FF5D612E0"
+			height: 1.0d
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.3750000000000142d
+			y: 9.159970238095248d
+		}
+		{
+			dependency: "59AA205FF5D612E0"
+			height: 2.0d
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 20.0d
+			width: 2.0d
+			x: 1.2678571428571388d
+			y: 12.073660714285737d
+		}
+		{
+			dependency: "59AA205FF5D612E0"
+			height: 0.5d
+			image: "bosses_of_mass_destruction:item/soul_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: 1.4464285714285552d
+			y: 10.287946428571452d
+		}
+		{
+			dependency: "59AA205FF5D612E0"
+			height: 0.5d
+			image: "bosses_of_mass_destruction:item/soul_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: -1.3035714285714448d
+			y: 9.838541666666679d
+		}
+		{
+			dependency: "59AA205FF5D612E0"
+			height: 0.5d
+			image: "bosses_of_mass_destruction:item/soul_star"
+			rotation: 0.0d
+			width: 0.5d
+			x: -0.267857142857153d
+			y: 11.395089285714306d
+		}
+		{
+			dependency: "59AA205FF5D612E0"
+			height: 1.5d
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.339285714285701d
+			y: 9.609375000000028d
+		}
+		{
+			dependency: "59AA205FF5D612E0"
+			height: 1.5d
+			image: "simplehats:item/hats/floatingstar"
+			rotation: 0.0d
+			width: 1.5d
+			x: -0.7321428571428612d
+			y: 11.145089285714306d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_wheel_impact/breezebreaker_wheel_impact4.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_wheel/breezebreaker_wheel2.png"
+			rotation: -20.0d
+			width: 3.0d
+			x: 8.142857142857139d
+			y: 4.808035714285715d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_slash/breezebreaker_slash2.png"
+			rotation: -160.0d
+			width: 3.0d
+			x: 7.928571428571431d
+			y: 5.236607142857146d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_wheel/breezebreaker_wheel1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_slash/breezebreaker_slash4.png"
+			rotation: 45.0d
+			width: 2.0d
+			x: 7.428571428571416d
+			y: 4.236607142857146d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.5d
+			image: "celestisynth:textures/entity/visuals/aquaflora_flower/aquaflora_flower2.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_slice_inverted/aquaflora_slice_inverted3.png"
+			rotation: 45.0d
+			width: 1.0d
+			x: 9.0d
+			y: 10.5d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_slice/aquaflora_slice3.png"
+			rotation: -45.0d
+			width: 1.0d
+			x: 6.892857142857139d
+			y: 10.272321428571423d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.892857142857139d
+			y: 9.27232142857143d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.142857142857146d
+			y: 10.950892857142854d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.0d
+			y: 8.84375d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.607142857142861d
+			y: 10.379464285714292d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/solaris_spin_soul.png"
+			rotation: -45.0d
+			width: 3.0d
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/solaris_spin.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/solaris_spin_soul/solaris_spin_soul1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.5d
+			y: 14.272321428571438d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/solaris_spin/solaris_spin1.png"
+			rotation: 180.0d
+			width: 2.0d
+			x: 8.67857142857143d
+			y: 15.629464285714292d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.5d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward_summon.png"
+			rotation: 180.0d
+			width: 3.5d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/poltergeist_retreat.png"
+			rotation: 180.0d
+			width: 3.0d
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward.png"
+			rotation: 45.0d
+			width: 0.5d
+			x: -1.5178571428571388d
+			y: 14.814732142857153d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 0.4464285714285765d
+			y: 16.957589285714292d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward.png"
+			rotation: 45.0d
+			width: 0.5d
+			x: 1.517857142857153d
+			y: 15.421875000000014d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.5d
+			image: "celestisynth:textures/entity/visuals/crescentia_strike/crescentia_strike2.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -8.19642857142857d
+			y: 14.957589285714292d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.5d
+			image: "celestisynth:textures/entity/visuals/crescentia_strike/crescentia_strike5.png"
+			rotation: -45.0d
+			width: 3.5d
+			x: -8.125d
+			y: 14.957589285714292d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/crescentia_strike.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.982142857142854d
+			y: 15.314732142857153d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/crescentia_strike/crescentia_strike1.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.5d
+			y: 16.5d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/crescentia_strike/crescentia_strike1.png"
+			rotation: 180.0d
+			width: 1.0d
+			x: -8.232142857142854d
+			y: 14.350446428571438d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/crescentia_strike/crescentia_strike1.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -6.660714285714285d
+			y: 14.850446428571438d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/frostbound_slash.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.5d
+			image: "celestisynth:textures/entity/visuals/skin/frostbound_slash_seabreeze.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -8.089285714285708d
+			y: 9.779017857142875d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/entity/visuals/frostbound_impact_crack.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -6.910714285714278d
+			y: 8.421875000000014d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/entity/visuals/frostbound_impact_crack.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -6.303571428571416d
+			y: 10.56473214285716d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/entity/visuals/frostbound_impact_crack.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.446428571428562d
+			y: 11.24330357142859d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/entity/visuals/frostbound_impact_crack.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.982142857142847d
+			y: 9.743303571428584d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.4d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot1.png"
+			rotation: 0.0d
+			width: 3.4d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_vanish_circle.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot6.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.660714285714292d
+			y: 5.671875000000014d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.303571428571431d
+			y: 5.457589285714299d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 1.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_shoot/rainfall_shoot4.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.625d
+			y: 4.3861607142857295d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/particle/rainfall_energy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -8.55357142857143d
+			y: 3.421875000000014d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/particle/rainfall_energy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -7.982142857142861d
+			y: 6.6361607142857295d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/particle/rainfall_energy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -6.517857142857146d
+			y: 4.529017857142875d
+		}
+		{
+			dependency: "6921EAADE3E74049"
+			height: 0.5d
+			image: "celestisynth:textures/particle/rainfall_energy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -9.517857142857146d
+			y: 5.279017857142875d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["27871561BE483CFC"]
+			dependencies: ["59AA205FF5D612E0"]
+			description: ["The &b&lStarlit Factory&r&r is crafted in a &eMechanical Crafter&r and used to forge all types of &b&lCelestial Weapons&r&r. It requires fuel to operate, such as &5Amethyst Shards&r, &5Celestial Core&r, or &5Heated Celestial Core&r."]
+			hide: true
+			hide_dependent_lines: true
+			icon_scale: 1.35d
 			id: "6921EAADE3E74049"
+			rewards: [
+				{
+					id: "6BA1A3E885CE92C7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3441C7E0C1335EA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
 			tasks: [{
 				id: "11D2976A5960B4FA"
 				item: {
@@ -31,20 +529,893 @@
 				}
 				type: "item"
 			}]
+			title: "&b&lStarlit Factory"
 			x: 0.0d
-			y: 1.5d
+			y: 10.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["5E29948F7393675B"]
+			description: [
+				"Looking for the coolest weapons and armor sets in the pack? Well... you've come to the right place!"
+				""
+				"&l&bCelesti&r&r&5&lsynth&r&r adds a ton of &5celestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &bswift and agile combat&r or &5powerful, heavy-hitting strikes&r, there's something for every playstyle."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "celestisynth:celestial_crafting_table"
+			}
 			id: "27871561BE483CFC"
+			rewards: [
+				{
+					id: "23ACA2D00C8A721A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7452ADB7B8A3574E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			tasks: [{
 				id: "304ADCBBF45C7A24"
-				title: "Crafting The Celestial Arsenal"
 				type: "checkmark"
 			}]
-			title: "Welcome to Celestial Arsenal!"
+			title: "&b&lWelcome to Celestial Arsenal!"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["27871561BE483CFC"]
+			description: [
+				"To dive into the mod, you first need to gather the three &5&lprimary&r&r materials of &l&bCelestisynth&r&r:"
+				""
+				"&9&lLunar Stone:&r&r Found deep within &ecaves&r in large water-filled deposits, often alongside sea lanterns and lapis lazuli ore."
+				""
+				"&3&lZephyr Deposit:&r&r Located high in the &emountains&r, typically at &eY=130&r or higher."
+				""
+				"&b&lWintereis:&r&r Found deep in &ecaves within cold biomes&r, typically below &eY=60&r. Requires silk touch to obtain the full block."
+			]
+			id: "189FF174FC1C2473"
+			rewards: [
+				{
+					id: "1C5B42CD79C67F6A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7702B3AD222F8D76"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "61A8371739239707"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "69214B85CEABF7A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:zephyr_deposit"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C87C7C7709D4596"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:wintereis"
+					}
+					type: "item"
+				}
+			]
+			title: "&b&lLunar Stone, Zephyr Deposit and Wintereis"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27871561BE483CFC"]
+			id: "7A17693E80EBB442"
+			tasks: [{
+				id: "4B39167DEE303D4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_core"
+				}
+				type: "item"
+			}]
+			title: "&b&lCelestial Core"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A17693E80EBB442"]
+			id: "2C1A0E103CA5AA4F"
+			tasks: [{
+				id: "6976A148C40E76C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_core_heated"
+				}
+				type: "item"
+			}]
+			title: "&b&lHeated Celestial Core"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C1A0E103CA5AA4F"]
+			id: "53D8C30587EAA278"
+			tasks: [{
+				id: "3BC8E7DF6072EDF4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:supernal_netherite_ingot"
+				}
+				type: "item"
+			}]
+			title: "&b&lSupernal Netherite Ingot"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["53D8C30587EAA278"]
+			id: "0E52818FCB29BDD3"
+			tasks: [{
+				id: "75C37183DBAEC8D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:celestial_netherite_ingot"
+				}
+				type: "item"
+			}]
+			title: "&b&lCelestial Netherite Ingot"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["189FF174FC1C2473"]
+			id: "2869B8A204348510"
+			tasks: [{
+				id: "07F9F22F10B313DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:lunar_scrap"
+				}
+				type: "item"
+			}]
+			title: "&b&lLunar Scrap"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2869B8A204348510"]
+			id: "369C892EB0581142"
+			tasks: [{
+				id: "5E5E20D979108235"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starstruck_scrap"
+				}
+				type: "item"
+			}]
+			title: "&b&lStarstruck Scrap"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["189FF174FC1C2473"]
+			id: "555D4DADFBF2B843"
+			tasks: [{
+				id: "5DC30EDD2BA34F99"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:wintereis_shard"
+				}
+				type: "item"
+			}]
+			title: "&b&lWintereis Shard"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["27871561BE483CFC"]
+			id: "1B186ABB2F71E3F9"
+			tasks: [{
+				id: "7C6193404BBA3BBB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:crimson_piece"
+				}
+				type: "item"
+			}]
+			title: "&b&lCrimson Piece"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["27871561BE483CFC"]
+			id: "17E40687DBED628B"
+			tasks: [{
+				id: "021DD93BA240D156"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starstruck_feather"
+				}
+				type: "item"
+			}]
+			title: "&b&lStarstruck Feather"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27871561BE483CFC"]
+			id: "43C4BFAEF725409A"
+			tasks: [{
+				id: "020EC9656E4F5E54"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:eyebomination"
+				}
+				type: "item"
+			}]
+			title: "&b&lEyebomination"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27871561BE483CFC"]
+			id: "6C9279FE5598D9EC"
+			tasks: [{
+				id: "092AC7AA4AB524F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solar_crystal"
+				}
+				type: "item"
+			}]
+			title: "&b&lSolar Crystal"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"369C892EB0581142"
+				"0E52818FCB29BDD3"
+			]
+			hide: true
+			id: "416D35FAEF7E007C"
+			tasks: [{
+				count: 4L
+				id: "7F36B39BC945DAE6"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ccextras:arcanite_dust"
+				}
+				type: "item"
+			}]
+			title: "&b&lArcanite Dust"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["416D35FAEF7E007C"]
+			hide: true
+			id: "59AA205FF5D612E0"
+			tasks: [{
+				count: 4L
+				id: "3E59016A3F9BD006"
+				item: {
+					Count: 4
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ccextras:arcanite_ingot"
+				}
+				type: "item"
+			}]
+			title: "&b&lArcanite Ingot"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6921EAADE3E74049"]
+			description: ["A laser-shooting futuristic longbow that can pierce through targets. Used for damage from long distances."]
+			hide: true
+			icon_scale: 2.0d
+			id: "2258C0AF2913A3F5"
+			rewards: [
+				{
+					id: "2689B66DD23D1124"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "2DB471FC83371397"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "044934C65981CA98"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lRainfall Serenity"
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6921EAADE3E74049"]
+			description: ["A shimmering scythe that is seemingly made of ice. Used for area control and balanced damage."]
+			hide: true
+			icon_scale: 1.8d
+			id: "38B303D486C6CD35"
+			rewards: [
+				{
+					id: "58FBD3AAB14CABC9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "63E837D786A93747"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "01B330AE8A8BBE9F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lFrostbound"
+			x: -8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6921EAADE3E74049"]
+			description: ["A very light blade with a pointy tip adorned with plants and flowers. Used for area control and continuous damage."]
+			hide: true
+			icon_scale: 1.8d
+			id: "07EBC617228EB7C2"
+			rewards: [
+				{
+					id: "638EC87F30CBF02F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "3013B707859B8F56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5549D3D2E9E4A9C4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lAquaflora"
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6921EAADE3E74049"]
+			description: ["An ominous heavy axe filled with the eyes of ender. Used for massive burst damage."]
+			hide: true
+			icon_scale: 1.5d
+			id: "50BD0780ABCBCEFC"
+			rewards: [
+				{
+					id: "4EBBE2CC2FDA036C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "13D14F8F4E1BEC16"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "18352536683116FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lPoltergeist"
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6921EAADE3E74049"]
+			description: ["A sharp, tall, and slim sword that can be used for movement and burst damage."]
+			hide: true
+			icon_scale: 1.8d
+			id: "0D5BBEC15DB5A793"
+			rewards: [
+				{
+					id: "52FBBE77E0538C25"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "79F42D6DA24185AE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7464CC828ACA2BAF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lBreezebreaker"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6921EAADE3E74049"]
+			description: ["A shiny sickle that can be used for defensive buffs and continuous damage."]
+			hide: true
+			icon_scale: 1.8d
+			id: "76965FFDA13F0C33"
+			rewards: [
+				{
+					id: "2A1ACC249C6C95CD"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "531FE309A868E8C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "28871DE6268F41EF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lCrescentia"
+			x: -8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["6921EAADE3E74049"]
+			description: ["A flaming sword that can be used for movement and continuous damage."]
+			hide: true
+			icon_scale: 1.8d
+			id: "3BFDBA0115E6288E"
+			rewards: [
+				{
+					id: "3EBB09605D65E886"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "01A750112F4D5D29"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "009A23E253CBFB7E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lSolaris"
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2869B8A204348510"]
+			hide: true
+			id: "46D223145235C00D"
+			tasks: [
+				{
+					id: "78A626F8FF7B7585"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7430F26E136173CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54D143100869644D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77E109A1294AA1BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:lunar_stone_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&lLunar Stone Armor"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C9279FE5598D9EC"]
+			hide: true
+			id: "34235C45500448B4"
+			tasks: [
+				{
+					id: "1C57726334F550D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "563FA49678CBF0D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3185AB6C68BD7767"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0415D97DC427543A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:solar_crystal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&b&lSolar Crystal Armor"
+			x: -3.5d
+			y: -2.0d
 		}
 	]
 	title: "&eCelestial Arsenal"
