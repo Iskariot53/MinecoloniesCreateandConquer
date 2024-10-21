@@ -37,10 +37,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"701DB69F95BE961D"
-			]
+			dependencies: ["701DB69F95BE961D"]
 			description: [
 				"&5&lBosses of Mass Destruction&r&r introduces four intriguing yet challenging bosses into Minecraft, each located in &ndifferent dimensions&r:"
 				""
@@ -67,10 +64,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"635B2979C6A9CBDB"
-			]
+			dependencies: ["635B2979C6A9CBDB"]
 			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
@@ -89,10 +83,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"635B2979C6A9CBDB"
-			]
+			dependencies: ["635B2979C6A9CBDB"]
 			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
@@ -111,10 +102,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"635B2979C6A9CBDB"
-			]
+			dependencies: ["635B2979C6A9CBDB"]
 			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true

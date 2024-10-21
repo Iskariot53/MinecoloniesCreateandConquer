@@ -20,7 +20,7 @@
 			image: "cataclysm:item/abyss_eye"
 			rotation: 0.0d
 			width: 2.2d
-			x: 0.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -28,7 +28,7 @@
 			image: "cataclysm:textures/entity/flame_strike_sigil.png"
 			rotation: 0.0d
 			width: 2.3d
-			x: 0.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
@@ -36,7 +36,7 @@
 			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
 			rotation: 45.0d
 			width: 2.5d
-			x: 0.015306122448983217d
+			x: 7.015306122448983d
 			y: 1.5045918367347006d
 		}
 	]
@@ -44,10 +44,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"701DB69F95BE961D"
-			]
+			dependencies: ["701DB69F95BE961D"]
 			description: [
 				"&5&lCataclysm&r&r is a mod that adds &d&ldifficult dungeons&r&r, mini-bosses, challenging &6&lboss-fights&r&r, &9&lpowerful items&r&r and much more."
 				""
@@ -72,14 +69,11 @@
 				title: "Cataclysm"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 7.0d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"770E1E1A22DC34B9"
-				"4386DFA29FCEDD4D"
-			]
+			dependencies: ["770E1E1A22DC34B9"]
 			hide: true
 			id: "124DA55573C04363"
 			tasks: [{
@@ -88,14 +82,11 @@
 				type: "item"
 			}]
 			title: "The hardest thing to see is what is in front of your eyes!"
-			x: 0.0d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"67A3DF8585A4EEA5"
-			]
+			dependencies: ["67A3DF8585A4EEA5"]
 			description: ["Craft &4&lThe Eye of Mech&r&r and use it to point you to the &4&lAncient Factory&r&r"]
 			id: "6692DD7C85BD9515"
 			rewards: [
@@ -117,14 +108,11 @@
 				type: "item"
 			}]
 			title: "&4&lEye of Mech"
-			x: -3.5d
+			x: 3.5d
 			y: 6.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7E48762E362296E1"
-			]
+			dependencies: ["7E48762E362296E1"]
 			description: ["Craft &b&lThe Eye of Flame&r&r and use it to point you to the &b&lBurning Arena&r&r"]
 			id: "42F1A59EDD775B9D"
 			rewards: [
@@ -146,14 +134,11 @@
 				type: "item"
 			}]
 			title: "&b&lEye of Flame"
-			x: 7.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7FE120BB4478F1BF"
-			]
+			dependencies: ["7FE120BB4478F1BF"]
 			description: ["Craft &d&lThe Eye of Void&r&r and use it to point you to the &d&lRuined Citadel&r&r"]
 			id: "3DC5283FBA1D580B"
 			rewards: [
@@ -175,14 +160,11 @@
 				type: "item"
 			}]
 			title: "&d&lEye of Void"
-			x: 10.5d
+			x: 17.5d
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7E48762E362296E1"
-			]
+			dependencies: ["7E48762E362296E1"]
 			description: ["Craft &c&lThe Eye of Monstrous&r&r and use it to point you to the &c&lSoul Forge&r&r"]
 			id: "51BA8A49FD6DFA12"
 			rewards: [
@@ -204,14 +186,11 @@
 				type: "item"
 			}]
 			title: "&c&lEye of Monstrous"
-			x: 3.5d
+			x: 10.5d
 			y: 6.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"67A3DF8585A4EEA5"
-			]
+			dependencies: ["67A3DF8585A4EEA5"]
 			description: ["Craft &5&lThe Eye of Abyss&r&r and use it to point you to the &5&lSunken City&r&r"]
 			id: "7690681ADC1DE526"
 			rewards: [
@@ -233,14 +212,11 @@
 				type: "item"
 			}]
 			title: "&5&lEye of Abyss"
-			x: 0.0d
+			x: 7.0d
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"67A3DF8585A4EEA5"
-			]
+			dependencies: ["67A3DF8585A4EEA5"]
 			description: ["Craft &e&lThe Eye of Desert&r&r and use it to point you to the &e&lCursed Pyramid&r&r"]
 			id: "17FD2966AAFEA66B"
 			rewards: [
@@ -262,14 +238,11 @@
 				type: "item"
 			}]
 			title: "&e&lEye of Desert"
-			x: -7.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"124DA55573C04363"
-			]
+			dependencies: ["124DA55573C04363"]
 			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
@@ -284,14 +257,11 @@
 				type: "dimension"
 			}]
 			title: "&c&lNether"
-			x: 0.0d
+			x: 7.0d
 			y: 5.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"124DA55573C04363"
-			]
+			dependencies: ["124DA55573C04363"]
 			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
@@ -306,14 +276,11 @@
 				type: "dimension"
 			}]
 			title: "&2&lOverworld"
-			x: -7.5d
+			x: -0.5d
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"124DA55573C04363"
-			]
+			dependencies: ["124DA55573C04363"]
 			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
@@ -328,19 +295,24 @@
 				type: "dimension"
 			}]
 			title: "&d&lEnd"
-			x: 7.5d
+			x: 14.5d
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3DC5283FBA1D580B"
-			]
+			dependencies: ["3DC5283FBA1D580B"]
 			description: [
 				"&d&lThe Ruined Citadel&r&r Structure can be found in the End, and is home to &d&lEndermaptera&r&r the &l&dEnder Golem&r&r and the &l&dEnder Guardian&r&r. There are &n3&r layers to the structure: The upper and middle layers look the same inside, while the lower layer is hidden and houses a secret arena."
 				"Approach the &d&lAltar of Void&r&r at the lowest layer to summon the &l&dEnder Guardian&r&r"
 			]
-			icon: "cataclysm:altar_of_void"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:altar_of_void"
+			}
 			id: "63B7E12FB2879ADF"
 			rewards: [
 				{
@@ -368,14 +340,11 @@
 				type: "structure"
 			}]
 			title: "&d&lRuined Citadel"
-			x: 10.5d
+			x: 17.5d
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"63B7E12FB2879ADF"
-				"4386DFA29FCEDD4D"
-			]
+			dependencies: ["63B7E12FB2879ADF"]
 			dependency_requirement: "all_started"
 			description: ["Hidden on the lowest level, this Golem-like boss will spawn upon approaching the altar in the center of the room. After losing some health, the &d&lEnder Guardian&r&r will shatter the floor, revealing a large boss arena. Upon death, it drops the &l&dGauntlet of Guard&r&r, as well as a chance to drop The Citadels Last Stand music disc."]
 			id: "0CCA0F3A3226B20F"
@@ -405,14 +374,11 @@
 				value: 1L
 			}]
 			title: "&d&lKill The Ender Guardian"
-			x: 10.5d
+			x: 17.5d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"63B7E12FB2879ADF"
-			]
+			dependencies: ["63B7E12FB2879ADF"]
 			description: [
 				"These slow Golem-like bosses have both melee and ranged shockwave attacks. Multiple can be found through the first two levels. On death they drop a &d&lVoid Core&r&r."
 				"&d&lThe Void Core&r&r summons void runes that come out of the ground to deal damage."
@@ -439,14 +405,11 @@
 				value: 2L
 			}]
 			title: "&d&lKill The Ender Golems"
-			x: 11.5d
+			x: 18.5d
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"63B7E12FB2879ADF"
-			]
+			dependencies: ["63B7E12FB2879ADF"]
 			description: ["These small insects spawn all over the &l&dRuined Citadel&r&r, and drop &d&lVoid Jaws&r&r, which are used to make &n&dVoid Scatter Arrows&r&r."]
 			id: "3C9E1802428B21A9"
 			rewards: [
@@ -470,16 +433,21 @@
 				value: 5L
 			}]
 			title: "&d&lKill The Endermapteras"
-			x: 9.5d
+			x: 16.5d
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"42F1A59EDD775B9D"
-			]
+			dependencies: ["42F1A59EDD775B9D"]
 			description: ["&b&lThe Burning Arena&r&r structure can be found in the Nether, and is home to the &l&bIgnis&r&r. Hidden around the structure are multiple Ancient Debris blocks."]
-			icon: "cataclysm:altar_of_fire"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:altar_of_fire"
+			}
 			id: "7898B296C38F3D94"
 			rewards: [
 				{
@@ -507,14 +475,11 @@
 				type: "structure"
 			}]
 			title: "&b&lBurning Arena"
-			x: 7.0d
+			x: 14.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"64D3D273E0077888"
-			]
+			dependencies: ["64D3D273E0077888"]
 			description: ["On the upper level of the arena, is the &l&bAltar of Fire&r&r. Place &l&bBurning Ashes&r&r inside, and it will summon &l&bThe Ignis&r&r. Ignis has strong sword attacks, as well as ranged shockwave attacks with his sword. In his second phase, he will turn from &cfiery red&r to &bicy cold&r. On death, he drops &l&bIgnitium Ingots&r&r, as well as a chance to drop the Blaze of the Inferno music disc."]
 			id: "7F3593717A5A0B9D"
 			rewards: [
@@ -543,14 +508,11 @@
 				value: 1L
 			}]
 			title: "&b&lKill The Ignis"
-			x: 7.0d
+			x: 14.0d
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"0CCA0F3A3226B20F"
-			]
+			dependencies: ["0CCA0F3A3226B20F"]
 			description: ["&d&lThe Gauntlet of Guard&r&r is a huge gauntlet that covers the entire arm, you can right-click with it to pull creatures to yourself. Another unique feature is that it increases the player's defense when holding it."]
 			hide_dependent_lines: true
 			id: "35B0B5A25069DDCA"
@@ -572,14 +534,11 @@
 				type: "item"
 			}]
 			title: "&d&lGauntlet of Guard"
-			x: 10.5d
+			x: 17.5d
 			y: 11.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7898B296C38F3D94"
-			]
+			dependencies: ["7898B296C38F3D94"]
 			description: ["These spinning, shielded mobs will spawn on the lower level of the arena. &b&lThe Ignited Revenant&r&r is a mini-boss blocking the path to Ignis, defeat them to gain &b&lBurning Ashes&r&r."]
 			id: "64D3D273E0077888"
 			rewards: [
@@ -602,14 +561,11 @@
 				value: 2L
 			}]
 			title: "&b&lKill The Ignited Revenants"
-			x: 7.0d
+			x: 14.0d
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7F3593717A5A0B9D"
-			]
+			dependencies: ["7F3593717A5A0B9D"]
 			description: ["Reward for defeating &l&bIgnis&r&r. It is used to either &b&nupgrade your netherite armor&r&r to get some cool buffs or to craft some &b&nspecial weapons&r&r."]
 			id: "21AEDCF08E97F22C"
 			rewards: [
@@ -631,14 +587,11 @@
 				type: "item"
 			}]
 			title: "&b&lIgnitium"
-			x: 7.0d
+			x: 14.0d
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"21AEDCF08E97F22C"
-			]
+			dependencies: ["21AEDCF08E97F22C"]
 			description: ["&b&lThe Incinerator&r&r is one of the coolest weapons out there! An Ignitium extra-large sword that can be crafted with 2 Ignitium ingots, 4 Blaze rods, and a Netherite sword as a reward for defeating Ignis. It is also the weapon used by Ignis. By holding down the right-click button for 3 seconds and then releasing it, you can use the &b&lFlame Burst&r&r skill that Ignis used as a special move during Phase 3."]
 			id: "0BC727E0B269BE1B"
 			rewards: [
@@ -659,14 +612,11 @@
 				type: "item"
 			}]
 			title: "&b&lThe Incinerator"
-			x: 7.5d
+			x: 14.5d
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"21AEDCF08E97F22C"
-			]
+			dependencies: ["21AEDCF08E97F22C"]
 			description: ["&b&lThe Bulwark of the Flame&r&r is the shield used by &l&bIgnis&r&r, it is a shield with infinite durability and special abilities, if you stop using it while crouching, it will charge forward and deal damage to whatever is in front of you, and if the target hit by it hits a wall, it will take additional damage and be stunned."]
 			hide_dependent_lines: true
 			id: "5A5B3B19E2DA3E79"
@@ -688,14 +638,11 @@
 				type: "item"
 			}]
 			title: "&b&lBulwark of the Flame"
-			x: 6.5d
+			x: 13.5d
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"51BA8A49FD6DFA12"
-			]
+			dependencies: ["51BA8A49FD6DFA12"]
 			description: ["&c&lThe Soul Forge&r&r structure can be found in the Nether, and is home to the &l&cNetherite Monstrosity&r&r. While it has a bunch of Ancient Debris scattered around the structure, there are no other mobs inside."]
 			id: "0A45F1E7BEC33CBE"
 			rewards: [
@@ -724,14 +671,11 @@
 				type: "structure"
 			}]
 			title: "&c&lThe Soul Forge"
-			x: 3.5d
+			x: 10.5d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"0A45F1E7BEC33CBE"
-			]
+			dependencies: ["0A45F1E7BEC33CBE"]
 			description: ["&c&lThe Netherite Monstrosity&r&r is a large Golem-like boss that uses close range attacks, and shoots lava. It can also heal by sucking in more lava. On death it drops the &cInfernal Forge pickaxe&r, and the &cMonstrous Horn&r, used to make the &cMonstrous Helm&r, as well as a chance to drop the Forged In Soul Fire music disc."]
 			id: "57721A0B508DA66B"
 			rewards: [
@@ -760,14 +704,11 @@
 				value: 1L
 			}]
 			title: "&c&lKill The Netherite Monstrosity"
-			x: 3.5d
+			x: 10.5d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"57721A0B508DA66B"
-			]
+			dependencies: ["57721A0B508DA66B"]
 			description: ["Make the &c&lMonstrous Helm&r&r in a smithing table by combining a &cNetherite Upgrade&r, A &cNetherite Helmet&r, and the &c&lMonstrous Horn&r&r obtained from killing the &l&cNetherite Monstrosity&r&r. When worn, it grants a superpower buff when your health drops below half, blowing away entities around you and increasing defense, knockback resistance, and HP recovery"]
 			id: "7C1958580597BAC7"
 			rewards: [
@@ -794,14 +735,11 @@
 				type: "item"
 			}]
 			title: "&c&lMonstrous Helm"
-			x: 4.0d
+			x: 11.0d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"57721A0B508DA66B"
-			]
+			dependencies: ["57721A0B508DA66B"]
 			description: ["Reward for defeating the &l&cNetherite Monstrosity&r&r. A very large &cNetherite hammer&r filled with lava. Right-clicking on a block while it is in the dominant hand inflicts area damage. Additionally, when health falls below half, fire attack power is added to the skill. It has a very high attack power, but its downside is its slow attack speed. Please note that it is classified as a &l&cpickaxe&r&r, so it can be used for &nmining&r."]
 			hide_dependent_lines: true
 			id: "3FA87B3B73CC4E44"
@@ -829,16 +767,21 @@
 				type: "item"
 			}]
 			title: "&c&lInfernal Forge"
-			x: 3.0d
+			x: 10.0d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7690681ADC1DE526"
-			]
+			dependencies: ["7690681ADC1DE526"]
 			description: ["&l&5The Sunken City&r&r is a large &nunderwater&r structure where the &5&lLeviathan&r&r can be found. The roof sticks out of the water allowing it to be seen from far away. The structure consists of a large central area with offshoots to the sides as well as loot and enemies."]
-			icon: "cataclysm:altar_of_abyss"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:altar_of_abyss"
+			}
 			id: "287C07762D663B92"
 			rewards: [
 				{
@@ -866,14 +809,11 @@
 				type: "structure"
 			}]
 			title: "&5&lSunken City"
-			x: 0.0d
+			x: 7.0d
 			y: 8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"287C07762D663B92"
-			]
+			dependencies: ["287C07762D663B92"]
 			description: [
 				"The &5&lDeeplings&r&r are sea monsters that guard &l&5The Sunken City&r&r. Each type of &5&lDeepling&r&r carries a different weapon. The &5&lDeepling Priest&r&r carries the &5&nAthame&r&r which is needed to craft the &l&5Abyssal Sacrifice&r&r."
 				""
@@ -937,14 +877,11 @@
 				}
 			]
 			title: "&5&lDeeplings and Coralssus"
-			x: -1.0d
+			x: 6.0d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"287C07762D663B92"
-			]
+			dependencies: ["287C07762D663B92"]
 			dependency_requirement: "all_started"
 			description: [
 				"&5&lThe Amethyst Crab&r&r spawns naturally in &2Lush Caves&r. Fortunately, it is a neutral mob and will not show aggression unless the player attacks first. Therefore, rest assured that there is little chance of you encountering one with poor equipment and getting killed."
@@ -974,17 +911,24 @@
 				value: 1L
 			}]
 			title: "&5&lKill The Amethyst Crab"
-			x: 1.0d
+			x: 8.0d
 			y: 9.0d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"287C07762D663B92"
 				"65E9C7523F88871F"
 			]
 			description: ["The true value of &5&lThe Amethyst Crab Meat&r&r is revealed when it is blessed through the &5&lAmethyst Altar&r&r in the &5&lSunken City&r&r. If you eat the &l&5Blessed Amethyst Crab Meat&r&r, you will receive the &5Amethyst Blessing buff&r, making you immune to the status effects of Leviathan: Darkness, Abyssal Burn, and Abyssal Fear debuffs. It can be said to be a necessity for &5&lThe Leviathan&r&r boss fight."]
-			icon: "cataclysm:blessed_amethyst_crab_meat"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:blessed_amethyst_crab_meat"
+			}
 			id: "2B0F58100458BB33"
 			optional: true
 			rewards: [
@@ -1022,12 +966,11 @@
 				}
 			]
 			title: "&5&lBlessed Amethyst Crab Meat"
-			x: 1.0d
+			x: 8.0d
 			y: 10.0d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"287C07762D663B92"
 				"2E11B29F77E7A2B9"
 			]
@@ -1059,14 +1002,11 @@
 				value: 1L
 			}]
 			title: "&5&lKill The Leviathan"
-			x: 0.0d
+			x: 7.0d
 			y: 11.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"287C07762D663B92"
-			]
+			dependencies: ["287C07762D663B92"]
 			description: ["Craft &5&lThe Abyssal Sacrifice&r&r which is offered at &5&lThe Altar of Abyss&r&r to summon &5&lThe Leviathan&r&r."]
 			id: "2E11B29F77E7A2B9"
 			tasks: [{
@@ -1075,14 +1015,11 @@
 				type: "item"
 			}]
 			title: "&5&lAbyssal Sacrifice"
-			x: 0.0d
+			x: 7.0d
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4A573817D50AF148"
-			]
+			dependencies: ["4A573817D50AF148"]
 			description: ["Reward for defeating &5The Leviathan&r. &l&5The Tidal Claw&r&r is an armored weapon, it is characterized by its appearance as if the inner head of &5Leviathan&r had been removed. This is the weapon with the &nhighest utility&r in the mod. If you press the left mouse button while facing an enemy, &l&5Leviathan's tentacles&r&r will be launched and bite the enemy, causing continuous damage by giving your enemies the &l&5abyssal curse&r&r. If you press the right mouse button, a &5&lgrappling hook&r&r will be fired, which pulls you towards whatever entity or block it latches onto."]
 			id: "624E28E31896F687"
 			rewards: [
@@ -1103,16 +1040,21 @@
 				type: "item"
 			}]
 			title: "&5&lTidal Claws"
-			x: -0.5d
+			x: 6.5d
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"4A573817D50AF148"
-			]
+			dependencies: ["4A573817D50AF148"]
 			description: ["&5&lThe Abyssal Egg&r&r can be placed down to hatch into your own &5&lBaby Leviathan&r&r. It will attack other sea creatures just like its mother.. you killed its mama you cruel monster >:("]
-			icon: "cataclysm:abyssal_egg"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:abyssal_egg"
+			}
 			id: "008723B0DB9AACC9"
 			rewards: [
 				{
@@ -1145,14 +1087,11 @@
 				}
 			]
 			title: "&5&lAbyssal Egg"
-			x: 0.5d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"6692DD7C85BD9515"
-			]
+			dependencies: ["6692DD7C85BD9515"]
 			description: ["&4&lThe Ancient Factory&r&r structure can be found &nunderground&r in the overworld, and is home to &l&4The Harbinger&r&r, surrounded on all sides by &nunbreakable&r Dungeon Blocks. This forces the player to go in through the main entrance."]
 			id: "67B51B4B14D1A6B5"
 			rewards: [
@@ -1189,14 +1128,11 @@
 				type: "structure"
 			}]
 			title: "&4&lAncient Factory"
-			x: -3.5d
+			x: 3.5d
 			y: 8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"67B51B4B14D1A6B5"
-			]
+			dependencies: ["67B51B4B14D1A6B5"]
 			description: ["&4&lThe Harbinger&r&r is a large Wither-like boss that requires a &n&lNether Star&r&r to be awoken. Right click on it with one, and the boss fight will start. It will move like a Wither, firing missiles, and occasionally activating its very large laser beam. Upon reaching half health, it will become immune to arrows. On death, it will drop a&4 &lWitherite Block&r&r and a Withering Meltdown music disc."]
 			id: "5D91A741B179B8CA"
 			rewards: [
@@ -1225,14 +1161,11 @@
 				value: 1L
 			}]
 			title: "&4&lKill The Harbinger"
-			x: -3.5d
+			x: 3.5d
 			y: 10.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"67B51B4B14D1A6B5"
-			]
+			dependencies: ["67B51B4B14D1A6B5"]
 			description: ["&4&lThe Watchers&r&r are small bots that watch over &4&lThe Ancient Factory&r&r and fire lasers."]
 			id: "6AA4C2D29DED6F3C"
 			rewards: [
@@ -1256,14 +1189,11 @@
 				value: 5L
 			}]
 			title: "&4&lKill The Watchers"
-			x: -4.5d
+			x: 2.5d
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"67B51B4B14D1A6B5"
-			]
+			dependencies: ["67B51B4B14D1A6B5"]
 			description: ["&4&lThe Prowler&r&r is the mini-boss of the ancient factory. It is a mob with a heavy body, and its lower body resembles a tank , its right arm is a weapon arm integrated with a &4meat shredder&r, and its left arm is replaced with a &4missile battery&r. Normally, it stays inactive to save energy, but when the player approaches, its body lights up and starts up."]
 			id: "07182C63528D9BF0"
 			rewards: [
@@ -1286,14 +1216,11 @@
 				value: 1L
 			}]
 			title: "&4&lKill The Prowler"
-			x: -2.5d
+			x: 4.5d
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5D91A741B179B8CA"
-			]
+			dependencies: ["5D91A741B179B8CA"]
 			description: ["Reward for defeating &l&4The Harbinger&r&r, it is used to either craft &4weapons&r or the &4&lMechanical Fusion Anvil&r&r."]
 			id: "400E19B0C89958BA"
 			rewards: [
@@ -1323,14 +1250,11 @@
 				type: "item"
 			}]
 			title: "&4&lWitherite Ingots"
-			x: -3.5d
+			x: 3.5d
 			y: 11.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"400E19B0C89958BA"
-			]
+			dependencies: ["400E19B0C89958BA"]
 			description: ["The &4&lLaser Gatling Gun&r&r can be used to decimate enemies’ health quickly. &4&lGatling Guns&r&r act as fully &nautomatic rifles&r and can even set blocks on fire that the bullets touch. You can fire a lot of shots before they need to be reloaded, which will cost &41 Redstone Dust&r."]
 			id: "0C0DF9103213979A"
 			rewards: [
@@ -1357,14 +1281,11 @@
 				type: "item"
 			}]
 			title: "&l&4Laser Gatling"
-			x: -4.5d
+			x: 2.5d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"400E19B0C89958BA"
-			]
+			dependencies: ["400E19B0C89958BA"]
 			description: ["The &4&lWither Assault Shoulder Weapon&r&r is crafted from &l&4Witherite&r&r. It fires &4wither missiles&r that fly quickly in a straight line and is actually the first ranged weapon in the mod. If you fire while holding down the left shift key, you will fire a &4wither howitzer&r that leaves behind wither smoke. "]
 			hide_dependent_lines: true
 			id: "53EF8AE6C5EA40D5"
@@ -1386,14 +1307,11 @@
 				type: "item"
 			}]
 			title: "&4&lWither Assault Shoulder Weapon"
-			x: -3.5d
+			x: 3.5d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"400E19B0C89958BA"
-			]
+			dependencies: ["400E19B0C89958BA"]
 			description: ["Using &l&4Witherite Ingots&r&r, you can craft the &l&4Meat Shredder&r&r. This weapon is similar to what the &4&lProwler&r uses and allows you to deal consistent damage to enemies within a melee distance."]
 			id: "2D3B0F297001B077"
 			rewards: [
@@ -1414,14 +1332,11 @@
 				type: "item"
 			}]
 			title: "&4&lMeat Shredder"
-			x: -2.5d
+			x: 4.5d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"400E19B0C89958BA"
-			]
+			dependencies: ["400E19B0C89958BA"]
 			description: ["Once crafted, the &4&lMechanical Fusion Anvil&r&r can be placed in the world, and it has some nicely animated textures. Then you can use it, allowing you to &4upgrade&r your gear by combining powerful items together. This might combine their abilities or give them new ones altogether."]
 			id: "3C5994B4A10CFA17"
 			rewards: [
@@ -1442,12 +1357,11 @@
 				type: "item"
 			}]
 			title: "&4&lMechanical Fusion Anvil"
-			x: -3.5d
+			x: 3.5d
 			y: 13.5d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"3C5994B4A10CFA17"
 				"5A5B3B19E2DA3E79"
 				"35B0B5A25069DDCA"
@@ -1472,12 +1386,11 @@
 				type: "item"
 			}]
 			title: "&4&lGauntlet of Bulwark"
-			x: -2.5d
+			x: 4.5d
 			y: 14.5d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"3C5994B4A10CFA17"
 				"24CFFD464EE72B0A"
 				"3FA87B3B73CC4E44"
@@ -1508,12 +1421,11 @@
 				type: "item"
 			}]
 			title: "&4&lVoid Forge"
-			x: -3.5d
+			x: 3.5d
 			y: 14.5d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"3C5994B4A10CFA17"
 				"24CFFD464EE72B0A"
 				"53EF8AE6C5EA40D5"
@@ -1538,14 +1450,11 @@
 				type: "item"
 			}]
 			title: "&4&lVoid Assault Shoulder Weapon"
-			x: -4.5d
+			x: 2.5d
 			y: 14.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"17FD2966AAFEA66B"
-			]
+			dependencies: ["17FD2966AAFEA66B"]
 			description: ["&e&lThe Cursed Pyramid&r&r structure spawns in the overworld in &ndeserts&r, and is home to &e&lThe Ancient Remnant&r&r. The pyramid itself is a maze-like structure, and there is also a pseudo-library made up of carved bookcases here and there. Additionally, ancient relics such as pottery can be found everywhere."]
 			id: "7E903DF0431EA6E6"
 			rewards: [
@@ -1574,14 +1483,11 @@
 				type: "structure"
 			}]
 			title: "&e&lCursed Pyramid"
-			x: -7.0d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7E903DF0431EA6E6"
-			]
+			dependencies: ["7E903DF0431EA6E6"]
 			description: ["As you go deeper into &l&eThe Cursed Pyramid&r&r, you start to see &esuspicious sand&r here and there. If you &ebrush&r the suspicious sand, you have a chance to get a &l&edesert necklace&r&r. &e&lThe Necklace of the Desert&r&r is required to awoken &l&eThe Ancient Remnant&r&r."]
 			id: "06387AA1DCEA9FB3"
 			tasks: [{
@@ -1590,14 +1496,11 @@
 				type: "item"
 			}]
 			title: "&e&lNecklace of the Desert"
-			x: -7.0d
+			x: 0.0d
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"06387AA1DCEA9FB3"
-			]
+			dependencies: ["06387AA1DCEA9FB3"]
 			description: ["&e&lThe Ancient Remnant&r&r is a large dinosaur skeleton with a &ePharaoh's headdress&r that must be awoken with the &l&eNecklace of the Desert&r&r. Upon death, it drops the &e&lSandstorm in a Bottle&r&r, &e&lAncient Metal Block&r&r, &e&lRemnant's Skull&r&r, as well as a chance to drop the Sands of Dominion music disc."]
 			id: "0CE52E0611E65906"
 			rewards: [
@@ -1626,14 +1529,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.0d
+			x: 0.0d
 			y: 11.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"0CE52E0611E65906"
-			]
+			dependencies: ["0CE52E0611E65906"]
 			description: ["A few items are dropped by the &l&eAncient Remnant&r&r, with the first being the &l&eSandstorm in a Bottle&r&r. When equipped into the Belt slot, players can press &l&eX&r&r (&7check your keybinds&r) to turn into a tornado, dealing damage and flying a short distance."]
 			id: "25743EB95B9822F4"
 			rewards: [
@@ -1654,14 +1554,11 @@
 				type: "item"
 			}]
 			title: "&e&lSandstorm in a Bottle"
-			x: -7.5d
+			x: -0.5d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"0CE52E0611E65906"
-			]
+			dependencies: ["0CE52E0611E65906"]
 			description: [
 				"&e&lThe Modern Remnant&r&r can only be summoned after defeating the &l&eAncient Remnant&r&r. After obtaining the &eRemnant Skull&r, it can be right-clicked on the ground to summon the &e&lModern Remnant pet&r&r. It &cwon’t&r be tamed at first, so be careful. Hitting the &l&eModern Remnant&r&r at this point will cause it to become aggressive and attack you. To tame it, you’ll have to feed it a &l&cSniffer Egg&r&r."
 				"There are two different modes the &e&lModern Remnant&r&r can be switched between by right-clicking it. Like a Wolf, these are &esit&r and &efollow&r. Modern Remnants won’t attack other creatures freely. Instead, they’ll attack targets that attack you first, making them great to take on adventures."
@@ -1698,14 +1595,11 @@
 				}
 			]
 			title: "&e&lRemnant's Skull"
-			x: -6.5d
+			x: 0.5d
 			y: 12.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"0B25F1EAC3D97093"
-			]
+			dependencies: ["0B25F1EAC3D97093"]
 			id: "2D560EB8AF5B6380"
 			rewards: [
 				{
@@ -1762,14 +1656,11 @@
 				}
 			]
 			title: "&e&lBone Reptile Armor"
-			x: -7.5d
+			x: -0.5d
 			y: 14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"21AEDCF08E97F22C"
-			]
+			dependencies: ["21AEDCF08E97F22C"]
 			id: "14C6D176F030788D"
 			rewards: [
 				{
@@ -1841,14 +1732,11 @@
 				}
 			]
 			title: "&b&lIgnitium Armor"
-			x: 7.0d
+			x: 14.0d
 			y: 13.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7E903DF0431EA6E6"
-			]
+			dependencies: ["7E903DF0431EA6E6"]
 			description: ["&e&lKoboletons&r&r are small dinosaur skeletons that wield a &eKhopesh&r. Upon death they drop &eKoboleton Bones&r."]
 			id: "1E0DE6F4C85B8F86"
 			rewards: [
@@ -1872,14 +1760,11 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -8.0d
+			x: -1.0d
 			y: 9.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7E903DF0431EA6E6"
-			]
+			dependencies: ["7E903DF0431EA6E6"]
 			description: ["&e&lThe Kobolediator&r&r acts as the mid-boss of the &l&eCursed Pyramid&r&r. It is a higher species of &eKoboleton&r, and is a dinosaur that boasts a size that is more than twice that of the player. The combination of the huge pedestal, splendid armor, a huge sword, and a head studded with large goat horns, gives it an intense appearance that is intimidating just by looking at it. Its shoulders and hands are equipped with armor believed to be made of ancient metal, which gives it the best defense among the Koboleton series. Upon death, it drops &eancient metal&r and a &e&lKobolediator Skull&r&r which is used to craft the &eBone Reptile Helmet&r."]
 			id: "4CCBA49276F8F036"
 			rewards: [
@@ -1902,14 +1787,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -8.0d
+			x: -1.0d
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7E903DF0431EA6E6"
-			]
+			dependencies: ["7E903DF0431EA6E6"]
 			description: ["&e&lThe Wadjet&r&r is a female monster that acts as the mid-boss of the &e&lCursed Pyramid&r&r. She has the form of a snake with arms, unlike &eKoboleton&r and &eKobolediator&r, who have the form of dinosaurs . She has a slender and sleek appearance, and is equipped with armor that is believed to be made of &e&lancient meta&rl&r."]
 			id: "5B48AADB311BB07E"
 			rewards: [
@@ -1932,7 +1814,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.0d
+			x: 1.0d
 			y: 10.5d
 		}
 		{
@@ -1974,7 +1856,7 @@
 				type: "item"
 			}]
 			title: "&3&lEye of Curse"
-			x: -10.5d
+			x: -3.5d
 			y: 5.5d
 		}
 		{
@@ -2031,7 +1913,7 @@
 				type: "structure"
 			}]
 			title: "&3&lFrosted Prison"
-			x: -10.5d
+			x: -3.5d
 			y: 7.5d
 		}
 		{
@@ -2092,7 +1974,7 @@
 				value: 1L
 			}]
 			title: "&3&lKill The Maledictus"
-			x: -10.5d
+			x: -3.5d
 			y: 9.5d
 		}
 		{
@@ -2173,7 +2055,7 @@
 				}
 			]
 			title: "&3&lDraugrs"
-			x: -11.5d
+			x: -4.5d
 			y: 9.0d
 		}
 		{
@@ -2216,7 +2098,7 @@
 				value: 2L
 			}]
 			title: "&3&lKill The Aptrgangrs"
-			x: -9.5d
+			x: -2.5d
 			y: 9.0d
 		}
 		{
@@ -2238,7 +2120,7 @@
 				type: "item"
 			}]
 			title: "&3&lAptrgangr Head"
-			x: -9.5d
+			x: -2.5d
 			y: 8.0d
 		}
 		{
@@ -2280,7 +2162,7 @@
 				type: "item"
 			}]
 			title: "&3&lCursium Ingots"
-			x: -10.5d
+			x: -3.5d
 			y: 11.0d
 		}
 		{
@@ -2321,7 +2203,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: 0.0d
 			y: 13.0d
 		}
 		{
@@ -2362,7 +2244,7 @@
 				type: "item"
 			}]
 			title: "&3&lSoul Render"
-			x: -10.5d
+			x: -3.5d
 			y: 12.0d
 		}
 		{
@@ -2403,7 +2285,7 @@
 				type: "item"
 			}]
 			title: "&3&lThe Annihilator"
-			x: -9.5d
+			x: -2.5d
 			y: 12.0d
 		}
 		{
@@ -2445,7 +2327,7 @@
 				type: "item"
 			}]
 			title: "&3&lCursed Bow"
-			x: -11.5d
+			x: -4.5d
 			y: 12.0d
 		}
 		{
@@ -2538,7 +2420,7 @@
 				}
 			]
 			title: "&3&lCursium Armor"
-			x: -10.5d
+			x: -3.5d
 			y: 13.0d
 		}
 		{
@@ -2582,7 +2464,7 @@
 				type: "item"
 			}]
 			title: "&e&lAncient Spear"
-			x: -6.5d
+			x: 0.5d
 			y: 14.0d
 		}
 	]
