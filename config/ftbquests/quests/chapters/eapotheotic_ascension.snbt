@@ -1826,7 +1826,18 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["617C3F408AAA1C1B"]
 			description: ["Hold nether quartz in your &6off hand&r slot, while using the required item on the spawner to revert any changes to settings needed."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:quartz"
+			}
 			id: "37C05D5F67CA0AA6"
 			subtitle: "Nether quartz in off-hand"
 			tasks: [{
