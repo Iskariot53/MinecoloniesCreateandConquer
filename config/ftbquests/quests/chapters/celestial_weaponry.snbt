@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0733C611F35FA401"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "celestial_weaponry"
@@ -540,6 +541,7 @@
 				""
 				"&l&bCelesti&r&r&5&lsynth&r&r adds a ton of &5celestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &bswift and agile combat&r or &5powerful, heavy-hitting strikes&r, there's something for every playstyle."
 			]
+			hide: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1416,6 +1418,27 @@
 			title: "&b&lSolar Crystal Armor"
 			x: -3.5d
 			y: -2.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "0733C611F35FA401"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "51EFF8E4A42522CB"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -2.0d
+			y: 6.75d
 		}
 	]
 	title: "&eCelestial Arsenal"

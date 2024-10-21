@@ -3,6 +3,7 @@
 	default_quest_shape: "rsquare"
 	filename: "dimensional_dungeons"
 	group: "343FE59C9ED4AF54"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -17,10 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"701DB69F95BE961D"
-				"4386DFA29FCEDD4D"
-			]
+			dependencies: ["701DB69F95BE961D"]
 			description: [
 				"&e&lDimensional Dungeons&r&r adds procedurally generated, renewable dungeons in a separate dimension accessible via a portal from the Overworld. This provides challenging, replayable content."
 				""
