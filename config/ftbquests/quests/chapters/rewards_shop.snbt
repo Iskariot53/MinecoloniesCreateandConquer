@@ -63,7 +63,15 @@
 		{
 			dependencies: ["3B38BC10347BDA7D"]
 			description: ["4 heart pieces craft into 1 heart container, which grant 1 extra heart per container consumed."]
-			icon: "levelhearts:heart_piece"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "levelhearts:heart_piece"
+			}
 			id: "28C8ED42FFEEB1F9"
 			rewards: [{
 				id: "640B0A1ED9092007"
@@ -76,7 +84,7 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
-			title: "Heart Piece = 1 Cog"
+			title: "Heart Piece - 1 Cog"
 			x: -8.5d
 			y: -6.5d
 		}
@@ -1521,6 +1529,131 @@
 			}]
 			title: "Perimeter Expansion Kit - 1 Cog"
 			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3C5DB2127560C5B4"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cagedmobs:hopping_mob_cage"
+			}
+			id: "08A43A8E5D27945F"
+			rewards: [{
+				id: "7ABEB8B71B0F387F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cagedmobs:hopping_mob_cage"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2DD849318BCE1384"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Hopping Mob Cage - 4 Cogs"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C3181ED07B8D3C4"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botanypots:terracotta_hopper_botany_pot"
+			}
+			id: "048384C8AAE282FB"
+			rewards: [{
+				id: "08146C20293CF217"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botanypots:terracotta_hopper_botany_pot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "00424CFBE75464DB"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Hopper Botany Pot - 2 Cogs"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"250A47CC0072B020"
+				"5B7CFD38909BADF8"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "functionalstorage:framed_1"
+			}
+			id: "12A984BD07E5E68E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B1E2F9EB071EE07"
+				table_id: 4286206972743691205L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4AA8C2A8E72E4B98"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "8x Framed Drawers - 2 Cogs"
+			x: -11.0d
 			y: -0.5d
 		}
 	]
