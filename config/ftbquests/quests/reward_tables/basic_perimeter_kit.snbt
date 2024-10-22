@@ -1,0 +1,33 @@
+{
+	id: "173632A20BBA59F7"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "torchmaster:megatorch"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "securitycraft:sentry"
+			}
+		}
+	]
+	title: "Basic Perimeter Kit"
+}

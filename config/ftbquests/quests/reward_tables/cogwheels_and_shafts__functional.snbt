@@ -1,0 +1,46 @@
+{
+	id: "394105C1105EB301"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:shaft"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cogwheel"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:large_cogwheel"
+			}
+			weight: 0.0f
+		}
+	]
+	title: "Cogwheels and Shafts - Functional"
+}

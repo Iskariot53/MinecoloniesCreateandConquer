@@ -1,0 +1,72 @@
+{
+	id: "5A35DD10705B442F"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "pipez:item_pipe"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "pipez:fluid_pipe"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "pipez:energy_pipe"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "pipez:gas_pipe"
+			}
+			weight: 0.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_new_age:copper_wire"
+			}
+			weight: 0.0f
+		}
+	]
+	title: "Pipez and Wires"
+}
