@@ -1,31 +1,964 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "hexagon"
 	filename: "blood_magic"
 	group: "31CA1CE9A64781BD"
-	icon: "bloodmagic:altar"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "bloodmagic:altar"
+	}
 	id: "503DA522454331CE"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["4386DFA29FCEDD4D"]
-		icon: {
-			Count: 1
-			ForgeCaps: {
-				"celestisynth:celestisynthitemstackcapabilities": {
-					cs.aquaSkin: 0
+	quests: [
+		{
+			dependencies: ["55630B6107F0B42B"]
+			description: [
+				"Ever tried a magic mod in Minecraft and found it too tame? Not enough danger in crafting your gadgets? Tired of peaceful animals staring blankly at you? Then you're in the right place!"
+				""
+				"&4&lBlood Magic&r&r is an arcane art practiced by mages who harness power from a forbidden material: &l&4BLOOD&r&r. While it offers immense power, every action you take with this volatile magic could be deadly. You've been warned."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
 				}
 			}
-			id: "bloodmagic:altar"
+			icon_scale: 1.5d
+			id: "305904786B9CF570"
+			rewards: [
+				{
+					id: "59C303E571CD33F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "530FF11B382638FE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "1F5C21C11D5B3627"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "5A61AC69B9333749"
+				type: "checkmark"
+			}]
+			title: "&4&lWelcome to Blood Magic!"
+			x: 0.0d
+			y: 0.0d
 		}
-		id: "305904786B9CF570"
-		tasks: [{
-			id: "5A61AC69B9333749"
-			title: "Welcome to Blood Magic!"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+		{
+			dependencies: ["305904786B9CF570"]
+			description: [
+				"The &4&lBlood Altar&r&r is the core block of the mod, capable of converting raw blood into pure Life Essence. Once placed in the world, it starts small but grows in strength and size as you progress, so it's wise to dedicate a full room to it. Tier one is simply the Blood Altar on the ground, requiring no additional structure."
+				""
+				"To use the altar, it must be filled with blood, known as &4&lLP&r&r (&eLife Points&r), which is spent to craft items. This is where the &l&4Sacrificial Dagger&r&r comes in!"
+				""
+				"The &l&4Sacrificial Dagger&r&r is a basic tool for generating &eLP&r. Right-click to stab yourself, filling the altar with &e600mB of LP&r per stab. Though it's not much, keeping food or healing potions handy helps."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bloodmagic:altar"
+			}
+			id: "72E6728778BA8F48"
+			subtitle: "Getting Started"
+			tasks: [
+				{
+					id: "6C973DA8C7CBCA83"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:altar"
+					}
+					type: "item"
+				}
+				{
+					id: "6126631176A01D94"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:sacrificialdagger"
+						tag: {
+							sacrifice: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&4&lTier 1 Blood Altar"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E6728778BA8F48"]
+			id: "1F1A6444FA8CB90A"
+			rewards: [{
+				id: "01931B6790D516AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:basemonstersoul"
+					tag: {
+						souls: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F0752977CC3C0CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulsnare"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E6728778BA8F48"]
+			description: [
+				"Any &eLP&r generated, whether by stabbing yourself or fighting monsters, is transferred directly to the &4Blood Altar&r. Currently, this is useful only for crafting within the altar, but that’s just the beginning of &4Blood Magic&r."
+				""
+				"To craft a &4&lBlood Orb&r&r, fill the altar with &e2000 LP&r and right-click the altar with a Diamond. After crafting, right-click the orb in hand to bind it to you, as unbound &4&lBlood Orbs&r&r won’t collect &eLP&r."
+				""
+				"The &4&lWeak Blood Orb&r&r converts the Life Essence from the altar into stored energy. This stored Essence is kept in the owner's personal network and cannot be converted back into liquid form. Many items later in the game will draw LP from this network. The &4&lWeak Blood Orb&r&r can store up to &e5,000 LP&r."
+				""
+				"You can transfer &eLP&r into the orb by right-clicking it while holding it or by placing it in the &4Blood Altar&r. This will drain the altar’s blood until the orb is full or the altar is empty."
+			]
+			id: "02A839C999489FDC"
+			tasks: [{
+				id: "20078310B00935FA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:weakbloodorb"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F1A6444FA8CB90A"]
+			id: "2C149DFFFE9023C8"
+			tasks: [{
+				id: "19005C71917862DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulforge"
+				}
+				type: "item"
+			}]
+			title: "&4&lHellfire Forge"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C149DFFFE9023C8"]
+			id: "4F005EDF46EC5D17"
+			tasks: [{
+				id: "1D7C417D793DB9B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulgempetty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F005EDF46EC5D17"]
+			id: "5EB33A8D1A67BB4D"
+			tasks: [{
+				id: "558ABC7AF9E6383E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulgemlesser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EB33A8D1A67BB4D"]
+			id: "4DEDBADC96F40E8F"
+			tasks: [{
+				id: "34EE840EBBAF05F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulgemcommon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DEDBADC96F40E8F"]
+			id: "710D9F120A7081A7"
+			tasks: [{
+				id: "48C2F168FE885C2D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:soulgemgreater"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4F005EDF46EC5D17"]
+			id: "41CEA837D68F75FF"
+			tasks: [
+				{
+					id: "5F94E6E6CA2D0A1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DDBF0673A5BB77B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulpickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38D1A7409785A70A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "744A8D72044656D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulshovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3591DA398028BCE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:soulscythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Sentient Tools and Weapons"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72E6728778BA8F48"]
+			id: "402ED5DAF12B3CCD"
+			tasks: [{
+				id: "4B7DE4892F4609B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:blankslate"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["402ED5DAF12B3CCD"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bloodmagic:altar"
+			}
+			id: "249E50082676EC01"
+			tasks: [{
+				count: 8L
+				id: "7E31D51C4F8832E8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "bloodmagic:blankrune"
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "bloodmagic:speedrune"
+							}
+						]
+					}
+				}
+				title: "Runes"
+				type: "item"
+			}]
+			title: "&4&lTier 2 Blood Altar"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["402ED5DAF12B3CCD"]
+			id: "23ACD832D25BBF47"
+			tasks: [{
+				id: "106C1D1813C5BDD5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:alchemytable"
+				}
+				type: "item"
+			}]
+			title: "&4&lAlchemy Table"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["23ACD832D25BBF47"]
+			id: "28DE6C8C3AB0B079"
+			tasks: [{
+				id: "293F545ADE6E2032"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28DE6C8C3AB0B079"]
+			id: "76B608EE649B732F"
+			tasks: [{
+				id: "5160E69EFC432EF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:watersigil"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28DE6C8C3AB0B079"]
+			id: "5B0D3DCCC85E77AC"
+			tasks: [{
+				id: "654D2D2D07DDBCEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:lavasigil"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28DE6C8C3AB0B079"]
+			id: "4446EA7DAD0C22C9"
+			tasks: [{
+				id: "1CC0FC4324621319"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:divinationsigil"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["249E50082676EC01"]
+			id: "5562E10C3DC252A9"
+			tasks: [{
+				id: "61C0DF4A2DDCB5CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:daggerofsacrifice"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["402ED5DAF12B3CCD"]
+			id: "64B5CC69ED2E0B37"
+			tasks: [{
+				id: "71887961F7060F35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:speedrune"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["249E50082676EC01"]
+			id: "6C11FD253B66D55C"
+			tasks: [{
+				id: "6966CB47D6218494"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:reinforcedslate"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			id: "0F77A0AAE3648EA2"
+			tasks: [
+				{
+					id: "1B7A548AD947E057"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:sacrificerune"
+					}
+					type: "item"
+				}
+				{
+					id: "3CB513101FCEEF6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:selfsacrificerune"
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			id: "2189104C47DB4552"
+			tasks: [{
+				id: "51880EADC77E7B17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:apprenticebloodorb"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			id: "5982FDFE5D3873CE"
+			tasks: [{
+				id: "6D8BD0723DA87978"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:airsigil"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			id: "5767137DB69077C9"
+			tasks: [{
+				id: "42C07B1E9F8C3CD2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:growthsigil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			id: "37B4C9B7387EC882"
+			tasks: [{
+				id: "6FC9CDA46C6A544E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:voidsigil"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			id: "374C83C049CA5128"
+			tasks: [{
+				id: "354BE521B281E53F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:seersigil"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			id: "202CAFAB2C68F969"
+			tasks: [{
+				id: "2AE3C5B298968B3D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:miningsigil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C11FD253B66D55C"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bloodmagic:altar"
+			}
+			id: "49F016D06BF8D866"
+			tasks: [
+				{
+					count: 28L
+					id: "1ABA6C07BF4A1ED7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:blankrune"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:speedrune"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:sacrificerune"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "bloodmagic:selfsacrificerune"
+								}
+							]
+						}
+					}
+					title: "Runes"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "352E1D144384ADAA"
+					item: {
+						Count: 8
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_bricks"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "12697DF347FCB15B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "minecraft:sea_lantern"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "minecraft:glowstone"
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										"celestisynth:celestisynthitemstackcapabilities": {
+											cs.aquaSkin: 0
+										}
+									}
+									id: "minecraft:shroomlight"
+								}
+							]
+						}
+					}
+					title: "Light Source Blocks"
+					type: "item"
+				}
+			]
+			title: "&4&lTier 3 Blood Altar"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DEDBADC96F40E8F"]
+			id: "334460E76DDC16F7"
+			tasks: [{
+				id: "606B4C17C4951146"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:demoncrucible"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["334460E76DDC16F7"]
+			id: "2343FED8A10DCEE2"
+			tasks: [{
+				id: "138FF012FD5145C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:demoncrystallizer"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2343FED8A10DCEE2"]
+			id: "5CE57D438EA574E9"
+			tasks: [{
+				id: "36E1FEC30CC27E81"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:demonpylon"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+	]
 	title: "&eBlood Magic"
 }
