@@ -654,8 +654,10 @@
 				"55B45DFB8B74400C"
 			]
 			dependency_requirement: "one_completed"
+			description: ["&3Quartz fiber&r is used to share power between networks, while keeping them separate. This allows you to power subnetworks without needing to put energy acceptors and power cables everywhere. It can also be used to keep cables from connecting, although using cables of differing colors, or using a&8 Cable Anchor&r is cheaper and more effective."]
 			hide_dependency_lines: true
 			id: "3D36143AECED6DDC"
+			subtitle: "Cable sub-parts"
 			tasks: [{
 				id: "7ED9060C638AFD57"
 				item: {
@@ -693,7 +695,9 @@
 		}
 		{
 			dependencies: ["69AF46B1490B34C4"]
+			description: ["Covered cables offer no &oreal&r benefits over the Fluix ME Glass Cable. It can be used as an alternate aesthetic choice if you prefer the covered/colored look."]
 			id: "23B66F4C381C1019"
+			subtitle: "x16 Channels"
 			tasks: [{
 				id: "12A1A742AD56BCA2"
 				item: {
@@ -713,6 +717,7 @@
 		{
 			dependencies: ["23B66F4C381C1019"]
 			id: "215FAC2FA6D64DD5"
+			subtitle: "x64 Channels"
 			tasks: [{
 				id: "6FAC1629A682E0C9"
 				item: {
@@ -753,8 +758,27 @@
 				"7A33AF5CD7476775"
 				"4A719341AA53B1CC"
 			]
+			description: [
+				"The controller is the heart of the ME Network. Without it, a network is reffered to as \"ad-hoc\" and can only have a max of 16 channel-using devices total."
+				""
+				"It is not possible to have 2 controllers in one ME Network."
+				""
+				"The controller provides 32 Channels per face."
+				""
+				"The controller requires 6 AE/t per controller block to function. Each controller block can store &68000 AE&r, so larger networks might require additional energy storage."
+				""
+				"Multiblock Controllers can be built in a fairly free form but there &o&nare&r&r some general rules to follow: "
+				""
+				"{@pagebreak}"
+				"To make this easier, you can tell when your multiblock controller is valid or not by the color of the controller blocks. &cRed ME controller&r multi-blocks are not valid and you will know when you have correctly placed the structure when it begeins to cycle in color when powered."
+				""
+				"All controller blocks on a ME Network must be connected otherwise they will turn red."
+				"The maximum size a controller multi block can be is 7x7x7, otherwise it will turn red."
+				"A controller can have 2 adjacent blocks in at most 1 axis; if a block violates this rule, it will disable and turn red."
+			]
 			id: "38A8DAD3A173256D"
 			size: 1.5d
+			subtitle: "The heart of every major network"
 			tasks: [{
 				id: "2FD7962D05501530"
 				item: {
@@ -793,7 +817,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7A33AF5CD7476775"]
@@ -812,7 +836,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7A33AF5CD7476775"]
@@ -831,11 +855,12 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["527D99B5715B3DAE"]
 			id: "1446C0690EC5B754"
+			subtitle: "Energy cell 2.0"
 			tasks: [{
 				id: "23DB67BF6E66698A"
 				item: {
@@ -2129,7 +2154,13 @@
 		}
 		{
 			dependencies: ["4F9B5850D630B7C2"]
+			description: [
+				"The matter condenser intakes just about any form of \"matter\" and well... condenses it, silly... Also accepts water!"
+				""
+				"&dCondensed matter&r, lots of it, is required for things such as &9singularities&r, which are in turn required for quantum mechanics."
+			]
 			id: "28064FA66EE0953B"
+			subtitle: "Great for trash cans!"
 			tasks: [{
 				id: "47635C0A51585467"
 				item: {
@@ -2221,6 +2252,30 @@
 			}]
 			x: -9.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["69AF46B1490B34C4"]
+			description: [
+				"While ME networks are also constructed of adjacent ME-capable devices and machines, cables are the primary way of extending an ME network over longer distances."
+				""
+				"Different colored cables can be used to ensure other cables do not connect to each other, allowing channels to be distributed more efficiently. They also affect the color of terminals connected to them, so you can use the cable color you use to connect them to choose the color of your terminal.. Fluix cables connect to every other color indiscriminately."
+				""
+				"{@pagebreak}"
+				""
+				"If you are new to AE2 and unfamiliar or unsure with channels, &6use smart cable and dense smart cable&r wherever you can. It will show how channels are currently being routed through your network, making their behavior easier to understand and troubleshoot."
+				""
+				"These are not item or fluid or energy pipes. They have no internal inventory, pattern providers and machines do not \"push\" or \"pull\" things into them, all they do is connect AE2 network components together into an actual network. To import or export items, fluids, etc into or out of this network, you need specicfic components for this, such as &aimporters&r, &9exporters&r and &estorage buses&r."
+			]
+			hide_dependency_lines: true
+			id: "7D214A4E9FBE9A89"
+			subtitle: "some basics"
+			tasks: [{
+				id: "6B9CD362F723B733"
+				title: "General cable information."
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 	]
 	title: "&eApplied Energistics 2"
