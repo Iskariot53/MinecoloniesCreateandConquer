@@ -959,6 +959,25 @@
 			x: 10.0d
 			y: -6.0d
 		}
+		{
+			dependencies: ["49F016D06BF8D866"]
+			id: "3053E97B62B539F6"
+			tasks: [{
+				id: "6EAA65E7BE3C90CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:infusedslate"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
 	]
 	title: "&eBlood Magic"
 }
