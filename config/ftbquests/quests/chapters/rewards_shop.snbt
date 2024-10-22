@@ -1656,6 +1656,48 @@
 			x: -11.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["49F179F14CDEEFA3"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "dimdungeons:item_portal_key"
+			}
+			id: "05A3518A0BFFCA8A"
+			rewards: [{
+				id: "76090938C6CECDA1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dimdungeons:item_portal_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48A6CFFEBE1CDC0E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Blank Portal Key - 1 Cog"
+			x: -9.0d
+			y: 0.5d
+		}
 	]
 	title: "&dRewards Shop"
 }
