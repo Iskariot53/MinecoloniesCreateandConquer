@@ -1,6 +1,6 @@
 {
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "gear"
 	filename: "applied_energistics_2"
 	group: "205034DE57B28B09"
 	icon: {
@@ -15,6 +15,2213 @@
 	id: "34633DCECF1920EB"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4AA5047E39931F84"]
+			description: [
+				"Getting started with Applied Energistics 2, from here on referred to as \"ae2\" is a bit different in the MCC world. Meteors no longer spawn in the world being the first thing of note. Craft yourself a quartz wrench, and over the course of the next few chapters, you will find all the information needed to track down resources normally obtained from locating meteorites. (Hint: We hope you've made an &6energizer&r set-up). "
+				""
+				"The only other major change of note is the limitations of channels having been doubled from the default standard: "
+				""
+				"each section of basic ME cable as well as ad-hoc networks can support up to 16 channels."
+				""
+				"Dense ME cable can support up to 64 channels . "
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ae2:nether_quartz_wrench"
+			}
+			id: "2ED038A81358A49E"
+			rewards: [{
+				id: "2A4068C5C7256130"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.5d
+			subtitle: "Advanced logistics solutions."
+			tasks: [
+				{
+					id: "2028C937F7767E45"
+					title: "Getting started with Ae2"
+					type: "checkmark"
+				}
+				{
+					id: "38903810689BD801"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:quartz_wrench"
+						}
+					}
+					title: "Any #ae2:quartz_wrench"
+					type: "item"
+				}
+			]
+			title: "Welcome to Applied Energistics 2!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2ED038A81358A49E"]
+			description: [
+				"With meteors no longer ruining the beautiful terrain, this leads to an interesting question of \"how do i get certus?\""
+				""
+				"&eEnergizing&r"
+				""
+				"Energize a &3block of quartz&r with &64Kfe&r to convert it into damaged budding certus quartz. From here you will need to use \"in-world transformation\" recipes to obtain higher quality blocks. This is also a means for converting &7stone&r into &8sky stone&r, although placing an annhilation plane face up at build limit still works just the same. "
+				""
+				"&aYes&r, you can make &bflawless budding certus blocks&r in this pack, although the recipe is a little bit more expensive than the usual transformation for lesser quality blocks."
+				""
+				"(&eit's much easier if you use some of your first certus gathered to make a chicken or bee for this.&r) "
+			]
+			id: "64D7B14BB546AA95"
+			rewards: [
+				{
+					id: "1ACB2A36A445CB47"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3B24AED4E7FE5ACE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Gotta start somewhere."
+			tasks: [
+				{
+					id: "5D7EAF90ADCF4697"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:damaged_budding_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "373FCAD95DC22B4F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:sky_stone_block"
+					}
+					type: "item"
+				}
+			]
+			title: "Energizing quartz and stone"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64D7B14BB546AA95"]
+			id: "3F7AFC22A9E414A8"
+			tasks: [{
+				id: "3F0F240539CF4573"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:chipped_budding_quartz"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F7AFC22A9E414A8"]
+			id: "23FB30854CA7BAF9"
+			tasks: [{
+				id: "3009D558B62EC8AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:flawed_budding_quartz"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23FB30854CA7BAF9"]
+			id: "0437844BA6E8DB96"
+			tasks: [{
+				id: "3FB12718A95E0B2E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:flawless_budding_quartz"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["64D7B14BB546AA95"]
+			description: ["You can go the route of in-world transformation, or if you have already set up for bee keeping, this will probably be a better route than growing and harvesting crystals the old fashioned way, it's up to you."]
+			id: "18247C2CCD71DF3D"
+			rewards: [{
+				id: "4866A8CE5591069F"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "#1 of 2 easier ways to obtain certus"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spacial"
+						}
+					}
+				}
+				id: "43B0A31AD059CDDF"
+				observe_type: 5
+				timer: 0L
+				title: "Make a certus bee"
+				to_observe: "productivebees:spatial"
+				type: "observation"
+			}]
+			title: "Spatial (certus) Bee"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64D7B14BB546AA95"]
+			id: "4082E16DA772705A"
+			rewards: [{
+				id: "45F2AAF526867ED2"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "#2 of 2 easier ways to obtain certus"
+			tasks: [{
+				id: "500FA57E6FB9D257"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "chicken_roost:c_certusquartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64D7B14BB546AA95"]
+			description: ["Certus quartz is the primary resource utilized by the mod, at least in the early stages. Now that you have access to certus crystals and therefor dust, now it's time to work towards charging it."]
+			id: "55B45DFB8B74400C"
+			subtitle: "Everything works normally from here!"
+			tasks: [{
+				id: "50C06B3486D53FAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:certus_quartz_crystal"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["55B45DFB8B74400C"]
+			description: [
+				"When provided with power and certus quartz crystals, the charger.. well... charges them."
+				""
+				"This can also be accomplished via tesla coil charging if you prefer the Create route!"
+			]
+			id: "1F8E11D7CAFA5B63"
+			subtitle: "Charging certus"
+			tasks: [{
+				id: "2DB4D521FFB9473D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:charger"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F8E11D7CAFA5B63"]
+			id: "58738104E3AA3732"
+			tasks: [{
+				id: "2AC180FEC3F1C2D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "expatternprovider:ex_charger"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55B45DFB8B74400C"]
+			description: [
+				"Inscribers have 2 primary uses:"
+				" "
+				"Turning various materials to &6dust&r."
+				""
+				"as well as..."
+				""
+				"inscribing&e circuits&r as well as &9processors&r. "
+				""
+				"To do this you will need to insert the prerequisite press for the circuit or processor needed. It is advisable to set up a dedicated inscriber for each, at least early on."
+			]
+			id: "7A4FF3976EB91CEB"
+			subtitle: "Dusts, circuits and processors"
+			tasks: [{
+				id: "6E7C6E625C42AB5E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:inscriber"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7A4FF3976EB91CEB"]
+			id: "1C98BDF8B12F1341"
+			tasks: [{
+				id: "67E4BC731114F069"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "expatternprovider:ex_inscriber"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2ED038A81358A49E"]
+			description: ["Made with 16x&3 nether quartz&r, 4 stone and 1 precision mechanism."]
+			id: "7EF66B49E69B57E0"
+			subtitle: "Mechanical Crafting"
+			tasks: [{
+				id: "79949391C147392D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:silicon_press"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2ED038A81358A49E"]
+			description: ["Made with 16x &6gold ingots&r, 4 stone and 1 precision mechanism."]
+			id: "757A217506F440A2"
+			subtitle: "Mechanical Crafting"
+			tasks: [{
+				id: "189BB55180C35EC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:logic_processor_press"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2ED038A81358A49E"]
+			description: ["Made with 16x &7iron ingots&r, 4 stone and 1 precision mechanism."]
+			id: "22891E06BE664695"
+			tasks: [{
+				id: "148FB2D52E8CEDF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:calculation_processor_press"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2ED038A81358A49E"]
+			description: ["Made with 16x &bdiamonds&r, 4 stone and 1 precision mechanism."]
+			id: "7F7D5A012187CF4F"
+			tasks: [{
+				id: "2A024E686EBF264E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:engineering_processor_press"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A4FF3976EB91CEB"]
+			description: [
+				"One of the major differences you will notice if new to the swing of things is that ae2 uses its own native power, &dAE&r. While the ME Controller for a network can accept FE/RF directly, this is only true of the controllers, chargers, inscribers and the energy acceptor. Everything else requires &dAE&r."
+				""
+				"in short &cdo not&r try to power your storage system components directly with FE/RF. Feed power into an &6energy acceptor&r or directly into the controller(s). Then connect and power the rest of the network from there."
+			]
+			id: "4F9B5850D630B7C2"
+			subtitle: "Powering your first network"
+			tasks: [{
+				id: "0EAE75638B3C208F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:energy_acceptor"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55B45DFB8B74400C"]
+			description: [
+				"&dFluix crystals&r are going to be one of the most important resources for building your network. Fluix is used for crafting &3network cabling&r as well as most components and machines."
+				""
+				"This will be a heavily used resource, be it birds, bees or mechanically speaking, you will want to automate this process."
+				""
+				"To make your first batch of &dfluix crystals&r, throw &7nether quartz&r, &credstone dust&r and a &3charged certus crystal&r into water."
+			]
+			id: "4A719341AA53B1CC"
+			rewards: [
+				{
+					id: "722B0958DEF618DB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "48A6C01C1662441C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Automate this"
+			tasks: [
+				{
+					id: "453BC1F39D29DF4A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:fluix_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "151BA04FD699690B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:fluix_dust"
+					}
+					type: "item"
+				}
+			]
+			title: "Fluix"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4F9B5850D630B7C2"]
+			description: ["As your network grows, the power demands will inevitably grow with it. You'll notice that the network itself only holds a small amount of energy, adding a controller increases this. However, your network will almost certainly reach a point of demanding more power than it is capable of buffering at any given time. This is where we introduce the energy cell, allowing your network to buffer more power and avoid periodic network drops due to spikes in consumption."]
+			id: "527D99B5715B3DAE"
+			subtitle: "Network power buffer"
+			tasks: [{
+				id: "34875CBC59EB2CEE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7EF66B49E69B57E0"
+				"757A217506F440A2"
+				"22891E06BE664695"
+				"7F7D5A012187CF4F"
+				"7A4FF3976EB91CEB"
+				"1F8E11D7CAFA5B63"
+			]
+			description: ["Along with &dfluix crystals&r, &6processors&r are going to be used in &clarge quatities&r, you are going to want to automate the production process. Just as how fluix crystals are required for most things cable related, processors of one kind or another are going to be required for almost &eevery network component you will build&r."]
+			id: "7A33AF5CD7476775"
+			size: 2.0d
+			subtitle: "This too!"
+			tasks: [
+				{
+					id: "046243721B98B5CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:logic_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "41386F9DA2716409"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:calculation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "302C79C82CDD3B6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:engineering_processor"
+					}
+					type: "item"
+				}
+			]
+			title: "Processing processors"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"4A719341AA53B1CC"
+				"3D36143AECED6DDC"
+			]
+			hide_dependency_lines: true
+			id: "69AF46B1490B34C4"
+			tasks: [{
+				id: "2459921D2A07DD2D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7A4FF3976EB91CEB"
+				"55B45DFB8B74400C"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "3D36143AECED6DDC"
+			tasks: [{
+				id: "7ED9060C638AFD57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:quartz_fiber"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23B66F4C381C1019"]
+			id: "72F3A7D842D84C6A"
+			tasks: [{
+				id: "06006BFDD1FD37A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:fluix_smart_cable"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69AF46B1490B34C4"]
+			id: "23B66F4C381C1019"
+			tasks: [{
+				id: "12A1A742AD56BCA2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:fluix_covered_cable"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["23B66F4C381C1019"]
+			id: "215FAC2FA6D64DD5"
+			tasks: [{
+				id: "6FAC1629A682E0C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:fluix_covered_dense_cable"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72F3A7D842D84C6A"]
+			id: "54BCA40AC19FF61D"
+			tasks: [{
+				id: "22E7FA8617233627"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:fluix_smart_dense_cable"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7A33AF5CD7476775"
+				"4A719341AA53B1CC"
+			]
+			id: "38A8DAD3A173256D"
+			size: 1.5d
+			tasks: [{
+				id: "2FD7962D05501530"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:controller"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"65EAA584EE12D3D9"
+				"7E2C5C3483A9E51A"
+			]
+			description: ["FIrst craft an \"Illuminated Panel\", then use it to obtain your first ME terminal."]
+			id: "6012663645C252FB"
+			subtitle: "Viewing your network"
+			tasks: [{
+				id: "6473ECD3D2CA99B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:terminal"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7A33AF5CD7476775"]
+			id: "65EAA584EE12D3D9"
+			tasks: [{
+				id: "7E4733C98B56F812"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:annihilation_core"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7A33AF5CD7476775"]
+			id: "7E2C5C3483A9E51A"
+			tasks: [{
+				id: "6D2979BCEFCF9189"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:formation_core"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["527D99B5715B3DAE"]
+			id: "1446C0690EC5B754"
+			tasks: [{
+				id: "23DB67BF6E66698A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:dense_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6012663645C252FB"]
+			id: "0348661A4898AAAD"
+			tasks: [
+				{
+					id: "161926C34343F80C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "532301CC0FD8D4AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ae2:drive"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0348661A4898AAAD"
+				"7A33AF5CD7476775"
+			]
+			id: "7E514765BA6CAD3A"
+			tasks: [{
+				id: "39E0D246EF6C090D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:io_port"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7A33AF5CD7476775"]
+			id: "03308BA3DDCC5932"
+			tasks: [{
+				id: "06A667224E238BCF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:cell_workbench"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7A33AF5CD7476775"]
+			id: "1CCF84C68FCC71B6"
+			tasks: [{
+				id: "571A9C64CC5D24DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:basic_card"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1CCF84C68FCC71B6"]
+			id: "4C8D4A3A21BFB4EB"
+			tasks: [{
+				id: "25A4750990E428B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:redstone_card"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CCF84C68FCC71B6"]
+			id: "45CFEAD5C63639D5"
+			tasks: [{
+				id: "2DD2811EC2A0A104"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:void_card"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1CCF84C68FCC71B6"]
+			id: "46FE8D96751CBBE6"
+			tasks: [{
+				id: "4E910088FE776DA8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:crafting_card"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CCF84C68FCC71B6"]
+			id: "5B9ED16A573F5409"
+			tasks: [{
+				id: "74AA7623D6B8489C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:capacity_card"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1CCF84C68FCC71B6"]
+			id: "5D58607AE6F39E34"
+			tasks: [{
+				id: "3EAEE6303B76FA8E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:advanced_card"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5D58607AE6F39E34"]
+			id: "776835B618035847"
+			tasks: [{
+				id: "66CE7393F0839129"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:fuzzy_card"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D58607AE6F39E34"]
+			id: "58666599CFB277C2"
+			tasks: [{
+				id: "5D4B2A59617F3C16"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:inverter_card"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5D58607AE6F39E34"]
+			id: "200C91AA7F8AA55F"
+			tasks: [{
+				id: "628418D2E9DFED85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:energy_card"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5D58607AE6F39E34"]
+			id: "5ACAFFA907824F1E"
+			tasks: [{
+				id: "3337A8A07391B958"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:equal_distribution_card"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D58607AE6F39E34"]
+			id: "2F413BEACBF5135B"
+			tasks: [{
+				id: "35C44756914E4357"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:speed_card"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A33AF5CD7476775"]
+			hide_dependency_lines: true
+			id: "544DA5259949B3C7"
+			tasks: [{
+				id: "061FBA27F2C598DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:cell_component_1k"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["544DA5259949B3C7"]
+			id: "20810DF768F285DF"
+			tasks: [{
+				id: "669C78E8AE81483B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:cell_component_4k"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["20810DF768F285DF"]
+			id: "249AE9211DE6DCCB"
+			tasks: [{
+				id: "679DAE945E91AE07"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:cell_component_16k"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["249AE9211DE6DCCB"]
+			id: "2A0134E9C3AA3473"
+			tasks: [{
+				id: "7E13FAAA53C86DD3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:cell_component_64k"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2A0134E9C3AA3473"]
+			id: "10E94F3EEB4BD905"
+			tasks: [{
+				id: "1D2AFC0D43C160A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:cell_component_256k"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"10E94F3EEB4BD905"
+				"576308F3B27FC0DC"
+			]
+			id: "25081612033803DC"
+			tasks: [{
+				id: "1EF7013A24B25683"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:cell_component_1m"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["25081612033803DC"]
+			id: "28CC089AF7A0CB59"
+			tasks: [{
+				id: "7F4ABDFE5BE8E30E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:cell_component_4m"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["28CC089AF7A0CB59"]
+			id: "5F8047EB6FA4AA24"
+			tasks: [{
+				id: "370E1A5E66E5F03A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:cell_component_16m"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["5F8047EB6FA4AA24"]
+			id: "71637054BBF9B99B"
+			tasks: [{
+				id: "6E778B9BF3E21CAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:cell_component_64m"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["71637054BBF9B99B"]
+			id: "2D331886B1E79797"
+			tasks: [{
+				id: "07067B5463A75A7E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:cell_component_256m"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"544DA5259949B3C7"
+				"7D2462E72B5DCF40"
+			]
+			id: "05E3948832A40209"
+			tasks: [{
+				id: "69AB682637CC1AEB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:item_storage_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["10E94F3EEB4BD905"]
+			id: "576308F3B27FC0DC"
+			tasks: [{
+				id: "7F9143316D29614D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:sky_steel_ingot"
+				}
+				type: "item"
+			}]
+			x: -0.007142857142859782d
+			y: 17.25714285714284d
+		}
+		{
+			dependencies: [
+				"63F3D98D3B56C193"
+				"544DA5259949B3C7"
+			]
+			id: "7AB6131A2890E8E4"
+			tasks: [{
+				id: "576E903CA741CBF5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:1k_crafting_storage"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["63F3D98D3B56C193"]
+			id: "122EE295102E98A8"
+			tasks: [{
+				id: "1FC434451BE6A44B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:crafting_unit"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["63F3D98D3B56C193"]
+			id: "506D3D14BC08BEDF"
+			tasks: [{
+				id: "5D4CF84974CCE547"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:crafting_accelerator"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["63F3D98D3B56C193"]
+			id: "6D9CCDB12FF5B518"
+			tasks: [{
+				id: "6801DB4616B73355"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:pattern_provider"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["63F3D98D3B56C193"]
+			id: "4E9DB7997DD4EDF7"
+			tasks: [{
+				id: "649A35FD7F7BE250"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:molecular_assembler"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["63F3D98D3B56C193"]
+			id: "3E0EF49EEAB907C3"
+			tasks: [{
+				id: "06B19857DAD0621A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:blank_pattern"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["65EAA584EE12D3D9"]
+			hide_dependency_lines: true
+			id: "54B6C8FA074658E3"
+			tasks: [{
+				id: "0F8C1644F5934B79"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:import_bus"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E2C5C3483A9E51A"]
+			hide_dependency_lines: true
+			id: "482DA8042A4B1801"
+			tasks: [{
+				id: "6B5B21FE116DE88C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:export_bus"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54B6C8FA074658E3"]
+			id: "7EE526D3A8DFC285"
+			tasks: [{
+				id: "42DE3D12903E7065"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "expatternprovider:ex_import_bus_part"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["482DA8042A4B1801"]
+			id: "32C471BCDB7EA1A4"
+			tasks: [{
+				id: "340CE08768600288"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "expatternprovider:ex_export_bus_part"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"482DA8042A4B1801"
+				"54B6C8FA074658E3"
+			]
+			id: "616671B7D9F1058F"
+			tasks: [{
+				id: "79CCD82E03E71596"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:level_emitter"
+				}
+				type: "item"
+			}]
+			x: 8.464285714285715d
+			y: 3.750000000000007d
+		}
+		{
+			dependencies: [
+				"7E2C5C3483A9E51A"
+				"65EAA584EE12D3D9"
+			]
+			hide_dependency_lines: true
+			id: "63F3D98D3B56C193"
+			tasks: [{
+				id: "1834585D85680CD2"
+				title: "Auto-Crafting basics"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7A33AF5CD7476775"]
+			hide_dependency_lines: true
+			id: "7D2462E72B5DCF40"
+			tasks: [{
+				id: "7B41143765692B37"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:item_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["63F3D98D3B56C193"]
+			id: "7509CF6EA1077A41"
+			subtitle: "Optional"
+			tasks: [{
+				id: "67E2AA741C3DFED5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:crafting_monitor"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"6D9CCDB12FF5B518"
+				"4E9DB7997DD4EDF7"
+				"7AB6131A2890E8E4"
+				"506D3D14BC08BEDF"
+			]
+			id: "52EE3999CFEDA9B4"
+			tasks: [{
+				id: "447863D3BAABE95F"
+				title: "Some Pointers"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7A33AF5CD7476775"]
+			hide_dependency_lines: false
+			id: "05607C56B0320CD7"
+			tasks: [{
+				id: "7EFC2800229FE102"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:io_port"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["05607C56B0320CD7"]
+			id: "50661F8E42D7DCA0"
+			tasks: [{
+				id: "3B8788E6DF7BABD8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:spatial_io_port"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["05607C56B0320CD7"]
+			id: "641A790B8CDAD4A5"
+			tasks: [{
+				id: "350B2FAD8FDF1FC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "expatternprovider:ex_io_port"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["05607C56B0320CD7"]
+			id: "3A6584785944AF27"
+			tasks: [{
+				id: "74E83F6228E128F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:me_p2p_tunnel"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3A6584785944AF27"]
+			id: "089EC148C8AAF1EC"
+			tasks: [{
+				id: "051D1634320921BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:memory_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"32C471BCDB7EA1A4"
+				"7EE526D3A8DFC285"
+			]
+			id: "64011532D6F5F6B6"
+			tasks: [{
+				id: "69D0C6627AA9F61D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:storage_bus"
+				}
+				type: "item"
+			}]
+			x: 9.678571428571423d
+			y: 3.75d
+		}
+		{
+			dependencies: ["50661F8E42D7DCA0"]
+			id: "7C545842235F9DFF"
+			tasks: [{
+				id: "0A943008791FD745"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:spatial_pylon"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["50661F8E42D7DCA0"]
+			id: "5C7D9826EB556806"
+			tasks: [{
+				id: "4F78F9A1A4DAE20F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:spatial_anchor"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["50661F8E42D7DCA0"]
+			id: "082856DCE7FE2C38"
+			tasks: [{
+				id: "47799A08BADBFA68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:spatial_storage_cell_2"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["082856DCE7FE2C38"]
+			id: "027C93AD7E5D0D23"
+			tasks: [{
+				id: "1516BA57FC335768"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:spatial_storage_cell_16"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["027C93AD7E5D0D23"]
+			id: "3D7FD67B166B0E04"
+			tasks: [{
+				id: "7ED0FE6DBB7EEF5E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:spatial_storage_cell_128"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7D2462E72B5DCF40"]
+			hide_dependency_lines: true
+			id: "0F4282501ED109B5"
+			tasks: [{
+				id: "64084117D930F598"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:fluid_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7D2462E72B5DCF40"]
+			hide_dependency_lines: true
+			id: "62CF6DAE6B93FF66"
+			tasks: [{
+				id: "734C0C4BCB8E3525"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "appmek:chemical_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7D2462E72B5DCF40"]
+			hide_dependency_lines: true
+			id: "2A2768B6AE845E30"
+			tasks: [{
+				id: "1CC64289D642D365"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "appflux:fe_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7D2462E72B5DCF40"]
+			hide_dependency_lines: true
+			id: "321976A0AA6C4C59"
+			tasks: [{
+				id: "2042A09CF8390052"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "appbot:mana_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["7D2462E72B5DCF40"]
+			hide_dependency_lines: true
+			id: "2A53722702570F4E"
+			tasks: [{
+				id: "719F3961336ECDA5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "arseng:source_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["576308F3B27FC0DC"]
+			id: "0DA8CD1F89C5DC34"
+			tasks: [{
+				id: "56E2978DB3786AD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:mega_item_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 0.9642857142857153d
+			y: 17.25d
+		}
+		{
+			dependencies: ["0F4282501ED109B5"]
+			id: "174615075009CBC9"
+			tasks: [{
+				id: "2EADEDB321E219C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:mega_fluid_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["62CF6DAE6B93FF66"]
+			id: "56093D2875CA3AE1"
+			tasks: [{
+				id: "345E4045C2E80BEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:mega_chemical_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["321976A0AA6C4C59"]
+			id: "7485E129D56A12B6"
+			tasks: [{
+				id: "6554DF94C4D14BCB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:mega_mana_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2A53722702570F4E"]
+			id: "24617E8E689F7DA6"
+			tasks: [{
+				id: "26C8D7E24FD8CCDF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "megacells:mega_source_cell_housing"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["38A8DAD3A173256D"]
+			id: "6E3C73A89BE9CB85"
+			tasks: [{
+				id: "2110466A388E6449"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:wireless_access_point"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6E3C73A89BE9CB85"]
+			id: "3C14DEF222D49021"
+			tasks: [{
+				id: "4AE4D7B9AA4122E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:wireless_terminal"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6E3C73A89BE9CB85"]
+			id: "475840187805136F"
+			tasks: [{
+				id: "2802F71998B6B81C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:wireless_booster"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F9B5850D630B7C2"]
+			id: "28064FA66EE0953B"
+			tasks: [{
+				id: "47635C0A51585467"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:condenser"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28064FA66EE0953B"]
+			id: "5FA7113B0E256602"
+			tasks: [{
+				id: "699C9631B0B46FA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:singularity"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FA7113B0E256602"]
+			id: "1C761E69DB39289E"
+			tasks: [{
+				id: "6497C8514F4882FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:quantum_entangled_singularity"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C761E69DB39289E"]
+			id: "7E40EDE45D1B6CC1"
+			tasks: [{
+				id: "44067E0C0A6CE040"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:quantum_link"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C761E69DB39289E"]
+			id: "29845B4E040A1F1F"
+			tasks: [{
+				id: "590F8CDF695C0C35"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:quantum_ring"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+	]
 	title: "&eApplied Energistics 2"
 }

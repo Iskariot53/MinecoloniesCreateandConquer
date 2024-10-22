@@ -15,6 +15,432 @@
 	id: "727F3220F72E3AA6"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["60CD0AF0BA5D46E5"]
+			description: [
+				"Sifting is a great way to get started in resource generation and for what can be produced from it, great even into the late game! The primary limitation you will notice is the &o&erange&r&r of resources that can be acquired from this method. "
+				""
+				"While capable of producing most vanilla &cgems&r, &3ores&r and &9other resources&r, even some from other mods. You can only get so much from crushing and sifting stone and basalt by-products. However, for what it &o&eis&r&r capable of producing, the stone block approach works great and can see you through for as long as you need as well as most needs in a general sense."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:cobblestone"
+			}
+			id: "259D1FE054C42D8B"
+			rewards: [{
+				id: "045E79FA62201386"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Limited but quick and easy!"
+			tasks: [{
+				id: "1C0CB9CFDB31CD91"
+				title: "Getting started with sifting."
+				type: "checkmark"
+			}]
+			title: "Welcome to Sifting!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259D1FE054C42D8B"]
+			description: [
+				"If you plan to use sifting for a primary means of resource generation and more than getting the most out of your excess stone by crushing and sifting it. You're going to need some mechanical extruders to generate stone/basalt to be crushed and sifted."
+				""
+				"&6This is entirely optional&r and only necessary if you really want to lean on sifting for resources, extruders are not needed in any way for the sifting process to work, they just make life easier for those who prefer the stone and sky block life."
+			]
+			id: "62D68282050AC873"
+			rewards: [
+				{
+					id: "2447E000067BF061"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "1B8EFFCEF60C47ED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Might want at least 1 of these."
+			tasks: [{
+				id: "2F41879B9DE9075B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_mechanical_extruder:mechanical_extruder"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"62D68282050AC873"
+				"259D1FE054C42D8B"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Millstones and crushing wheels work very similarly in the sense that they can both grind things up for sifting, but you will notice &ethe items obtained from the recipes for each are slightly different&r, if you cannot find a recipe to answer your needs with one, always check the other. "
+				""
+				"&aJEI&r is going to be your friend here."
+			]
+			id: "50D2146A81A69519"
+			rewards: [
+				{
+					id: "4CE322D09DB95444"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "025919BCAF10844F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crushing wheels work too."
+			tasks: [{
+				count: 2L
+				id: "41860D664910DE96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:millstone"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50D2146A81A69519"]
+			description: [
+				"Neither sifters nor meshes produce the exact same resources. Any given tier of mesh or sifter can possibly produce different resources, with different weights for the resources provided from sifting through them. "
+				""
+				"As a general rule: The &6higher the tier&r of sifter/mesh used, the higher the chance it has for yielding &emore valuable resources&r, more frequently. They can also be water logged to produce an even wider range of resources!"
+				""
+				"Again, &aJEI&r is going to save you a lot of headache here."
+			]
+			id: "1C496A76CE535F1E"
+			rewards: [{
+				id: "0A1406D9D582E840"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Not all meshes are created equally."
+			tasks: [{
+				id: "7ECD69A0E10E0AF7"
+				title: "Setting up your sifting build."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C496A76CE535F1E"]
+			id: "1733BA723FFC7BC9"
+			rewards: [
+				{
+					id: "00F9643D2B8202F9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "2DDE476430AD3F18"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "49BDF4CE9A6F2B2E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createsifter:sifter"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"1C496A76CE535F1E"
+				"1733BA723FFC7BC9"
+			]
+			id: "73661C466376D119"
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "0A305A14A93FFA10"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createsifter:brass_sifter"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C496A76CE535F1E"]
+			id: "7A3F0C06345A1F23"
+			rewards: [
+				{
+					id: "34068C62C058F9E9"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 2
+					id: "2799BD6BEB04E647"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "408419DBC212E81F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C496A76CE535F1E"]
+			id: "1443B5C5691C049E"
+			rewards: [
+				{
+					id: "477AAE609D8565A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "74D14EB65129C5D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "7A8D084931A0863A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C496A76CE535F1E"]
+			id: "67D6CB053B0A0A39"
+			rewards: [
+				{
+					id: "6C8EE9AE773315D1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "0A47C681EF408434"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "7671094CA76E6321"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createsifter:zinc_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C496A76CE535F1E"]
+			id: "1A709B9396141015"
+			rewards: [
+				{
+					id: "55B9859AC690D5FF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "139A09DA12820C96"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "44BB6A58F6F050C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createsifter:brass_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C496A76CE535F1E"]
+			id: "6F0C7881C9F1B8DC"
+			rewards: [
+				{
+					id: "6104A6BFB6A47C21"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "587FE2B4906BD12C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "3C2E3535E9D628F2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createsifter:advanced_brass_mesh"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+	]
 	title: "&eSifting"
 }
