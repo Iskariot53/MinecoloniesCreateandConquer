@@ -87,6 +87,27 @@
 			dependencies: ["44DDB3663F0AB1C1"]
 			description: ["To get started you'll need to build a portal. Craft the materials required and check the Portals section in your guide book to get started."]
 			id: "3426B52C31501E4A"
+			rewards: [
+				{
+					id: "6124EB06D0845709"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "5751AADA11C078FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -144,6 +165,27 @@
 				"Once activated, place the key in your portal's keyhole block. Removing the key (by right-clicking the keyhole block again) will close the portal. Keys can only be inscribed once, but can be reused to reopen the same dungeon."
 			]
 			id: "6137ED1ED375ED3C"
+			rewards: [
+				{
+					id: "74C03EB4B590C10D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "124CD86028E4E11E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "098E15655CCA0146"
 				item: {
@@ -166,6 +208,27 @@
 			description: ["Enter your first Dimensional Dungeon!"]
 			hide_dependent_lines: true
 			id: "49F179F14CDEEFA3"
+			rewards: [
+				{
+					id: "4455FE9B3BE6B9A0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "16781C8CB7175E53"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "dimdungeons:dungeons/enter_basic_dungeon"
 				criterion: ""
@@ -183,6 +246,26 @@
 			]
 			description: ["While exploring dungeons you may rarely find portal keyhole blocks. These contain &l&eAdvanced Portal Keys&r&r, and this is the only way to find these keys. These keys open portals to dungeons that are TWICE as large with much higher quality loot!"]
 			id: "2AF3774E05A28DDB"
+			rewards: [
+				{
+					id: "583FAFC4DB498137"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "11B88F0704267477"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3E776CA54F02A5F1"
 				item: {
@@ -204,6 +287,26 @@
 			dependencies: ["2AF3774E05A28DDB"]
 			description: ["To use the &l&eAdvanced Portal Key&r&r, you need to upgrade your portal. The upgraded build requires two &e&lportal crown&r&r blocks, which can only be found in dungeon chests. You will also need two banners, either purple or white. Refer to the portals section in your guidebook for more details."]
 			id: "3F22C4B4E0761D9B"
+			rewards: [
+				{
+					id: "29CA218F98CE5B07"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "308275D6E934FCC9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "418B4B4C376D8DB2"
@@ -227,6 +330,27 @@
 			description: ["The &e&lHomeward Pearl&r&r can be used to instantly warp you back to the entrance of the dungeon."]
 			hide_dependency_lines: true
 			id: "309EE6B27845AA01"
+			rewards: [
+				{
+					id: "4B80396D520151B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "45FAB410D3BDF902"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7FD3B0AF19A326E9"
 				item: {
@@ -248,6 +372,27 @@
 			dependencies: ["309EE6B27845AA01"]
 			description: ["The &e&lPersonal Dimension Key&r&r turns your portal into a gateway to your own personal 8x8 chunk space."]
 			id: "0CBA2E4BF066C147"
+			rewards: [
+				{
+					id: "6E91525018CA200B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "038AA0ABF3D34381"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "44C9DA6DADB319FD"
 				item: {
@@ -277,6 +422,26 @@
 			hide_dependency_lines: true
 			id: "1239255AEB0D8967"
 			invisible: true
+			rewards: [
+				{
+					id: "330C7A8B994DD9D8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0FF1DEE36BAFBF7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E35BF3266786839"
 				item: {
@@ -299,6 +464,26 @@
 			description: ["The &e&lBell of Secrets&r&r is a useful item for your hotbar in dimensional dungeons. When used in most rooms, it plays a short two-note chime. However, if the room contains a chest, it will play an extended eight-note chime, indicating you should search the room for a secret chest. This extended chime will come from the direction of the chest, helping you locate it using stereo sound."]
 			id: "45BF148DC9FD2012"
 			invisible: true
+			rewards: [
+				{
+					id: "010A2E594CC777F2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "259707AA26491BB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "63A99F6673B3907C"
 				item: {
@@ -325,6 +510,26 @@
 			]
 			id: "145E49357945D189"
 			invisible: true
+			rewards: [
+				{
+					id: "70DB6215002F4D5D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2617E156A66B2839"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "37DFF42C25AB31F0"
 				item: {
@@ -345,6 +550,26 @@
 		{
 			dependencies: ["3F22C4B4E0761D9B"]
 			id: "22063A9DA9F5DB4A"
+			rewards: [
+				{
+					id: "1D469DA3B0683684"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "49B344F820721C36"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "dimdungeons:dungeons/enter_advanced_dungeon"
 				criterion: ""
