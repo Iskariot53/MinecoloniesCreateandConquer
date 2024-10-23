@@ -332,7 +332,7 @@
 				""
 				"as well as..."
 				""
-				"inscribing&e circuits&r as well as &9processors&r. "
+				"inscribing&e circuits&r and &9processors&r. "
 				""
 				"To do this you will need to insert the prerequisite press for the circuit or processor needed. It is advisable to set up a dedicated inscriber for each, at least early on."
 			]
@@ -419,6 +419,7 @@
 			dependencies: ["2ED038A81358A49E"]
 			description: ["Made with 16x &7iron ingots&r, 4 stone and 1 precision mechanism."]
 			id: "22891E06BE664695"
+			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "148FB2D52E8CEDF2"
 				item: {
@@ -439,6 +440,7 @@
 			dependencies: ["2ED038A81358A49E"]
 			description: ["Made with 16x &bdiamonds&r, 4 stone and 1 precision mechanism."]
 			id: "7F7D5A012187CF4F"
+			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "2A024E686EBF264E"
 				item: {
@@ -630,8 +632,14 @@
 				"4A719341AA53B1CC"
 				"3D36143AECED6DDC"
 			]
+			description: [
+				"Fluix ME glass cables are the simplest cables to make, transfers power and up to 16 channels. It comes in 17 different colors, the default being Fluix, and can be dyed any color using any of the 16 dyes."
+				""
+				"You can also paint cables with any forge compatible paint brush in world."
+			]
 			hide_dependency_lines: true
 			id: "69AF46B1490B34C4"
+			subtitle: "Your basic ME cable"
 			tasks: [{
 				id: "2459921D2A07DD2D"
 				item: {
@@ -676,7 +684,9 @@
 		}
 		{
 			dependencies: ["23B66F4C381C1019"]
+			description: ["While bearing some similarity to Fluix ME Covered Cable in appearance, they provide diagnostic functions and troubleshooting help by allowing you actually see the channel usage on the cables, the channels appear as lit colored lines that run along the black stripe on the cables giving you an understanding of how your channels are currently being routed through your network. For regular smart cables, the first four channels show as lines matching the color of the cable, the next four show as white lines, etc."]
 			id: "72F3A7D842D84C6A"
+			subtitle: "Cable, but smarter"
 			tasks: [{
 				id: "06006BFDD1FD37A4"
 				item: {
@@ -716,6 +726,11 @@
 		}
 		{
 			dependencies: ["23B66F4C381C1019"]
+			description: [
+				"Higher Capacity cable, can carry 64 channels unlike standard cable which can only carry 8, however it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels."
+				""
+				"Dense cables slightly override the \"shortest path\" behavior of channels, channels will always prioritize the shortest path to a dense cable, and then the shortest path through that dense cable to a controller."
+			]
 			id: "215FAC2FA6D64DD5"
 			subtitle: "x64 Channels"
 			tasks: [{
@@ -736,7 +751,9 @@
 		}
 		{
 			dependencies: ["72F3A7D842D84C6A"]
+			description: ["ME dense smart cable provides all the functionalities ove previous tiers of cables. Except lines representing channels on these cables represent multiple channels each."]
 			id: "54BCA40AC19FF61D"
+			subtitle: "Smart cable, but thicker "
 			tasks: [{
 				id: "22E7FA8617233627"
 				item: {
@@ -800,7 +817,11 @@
 				"65EAA584EE12D3D9"
 				"7E2C5C3483A9E51A"
 			]
-			description: ["FIrst craft an \"Illuminated Panel\", then use it to obtain your first ME terminal."]
+			description: [
+				"First craft an \"Illuminated Panel\", then use it to obtain your first ME terminal. Terminals are the primary method by which you interact with an AE2 network and for an AE2 network to interact with you. There are several variants with differing functions. They are considered cable sub-parts and will inherit the color of the cable they are attached to."
+				""
+				"Your basic terminal, allows you to do little more than view and access the contents of your network's storage and request things from your autocrafting setup though. to do more, you will need to upgrade it."
+			]
 			id: "6012663645C252FB"
 			subtitle: "Viewing your network"
 			tasks: [{
@@ -879,7 +900,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6012663645C252FB"]
+			dependencies: [
+				"6012663645C252FB"
+				"05607C56B0320CD7"
+			]
 			id: "0348661A4898AAAD"
 			tasks: [
 				{
@@ -913,30 +937,14 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"0348661A4898AAAD"
-				"7A33AF5CD7476775"
-			]
-			id: "7E514765BA6CAD3A"
-			tasks: [{
-				id: "39E0D246EF6C090D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "ae2:io_port"
-				}
-				type: "item"
-			}]
-			x: -1.5d
-			y: 10.5d
-		}
-		{
 			dependencies: ["7A33AF5CD7476775"]
+			description: [
+				"Using a cell workbench, cells can be filtered to only accept certain items, similar to how ME Storage Busses can be filtered."
+				""
+				"Items can be dragged into the slots from &aJEI&r even, if you don't actually have any of that item."
+			]
 			id: "03308BA3DDCC5932"
+			subtitle: "filtering and partitioning storage cells"
 			tasks: [{
 				id: "06A667224E238BCF"
 				item: {
@@ -950,8 +958,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 10.5d
+			x: -2.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7A33AF5CD7476775"]
@@ -1382,6 +1390,7 @@
 		{
 			dependencies: ["10E94F3EEB4BD905"]
 			id: "576308F3B27FC0DC"
+			subtitle: "In-world transformation"
 			tasks: [{
 				id: "7F9143316D29614D"
 				item: {
@@ -1403,7 +1412,9 @@
 				"63F3D98D3B56C193"
 				"544DA5259949B3C7"
 			]
+			description: ["Crafting storages are available in all cell sizes (1k, 4k, etc.). They store the ingredients and intermediate ingredients involved in a craft, so larger or more storages are required for the CPU to handle crafting jobs with more ingredients. Intermediate ingredients are the things made \"in -between\" the starting recipe ingredients and final product of a complex string of recipes. "]
 			id: "7AB6131A2890E8E4"
+			subtitle: "Not Optional"
 			tasks: [{
 				id: "576E903CA741CBF5"
 				item: {
@@ -1422,7 +1433,9 @@
 		}
 		{
 			dependencies: ["63F3D98D3B56C193"]
+			description: ["Crafting units simply fill space in a CPU in order to make it a solid rectangular prism, Which &oIS&r a requirement for the multi block to form, if you don't have enough of the other components. They are also a base ingredient in the other components."]
 			id: "122EE295102E98A8"
+			subtitle: "Optional"
 			tasks: [{
 				id: "1FC434451BE6A44B"
 				item: {
@@ -1441,7 +1454,9 @@
 		}
 		{
 			dependencies: ["63F3D98D3B56C193"]
+			description: ["Optional but you want these. Crafting co-processors make the system send out ingredient batches from pattern providers more frequently. This allows them to keep up with machines that process quickly. An example of this is a pattern provider surrounded by molecular assemblers being able to push ingredients faster than a single assembler can process, and thus distributing the ingredient batches between the surrounding assemblers rather than only supplying ingredients quickly enough to feed the single assembler, as it otherwise would have."]
 			id: "506D3D14BC08BEDF"
+			subtitle: "Optional, kinda"
 			tasks: [{
 				id: "5D4CF84974CCE547"
 				item: {
@@ -1460,7 +1475,18 @@
 		}
 		{
 			dependencies: ["63F3D98D3B56C193"]
+			description: [
+				"Pattern providers are the primary way in which your autocrafting system interacts with the world. They push the ingredients in their patterns to adjacent inventories, and items can be inserted into them in order to insert them into the network. Often a channel can be saved by piping the output of a machine back into a nearby pattern provider (This usually needs to be the one that pushed the ingredients) instead of using an ME Import Bus to pull the output of the machine into the network."
+				""
+				"Note: Since they push the ingredients directly from the crafting storage in a crafting CPU, they never actually contain the ingredients in their inventory, so you cannot pipe out directly from them. You have to have the provider push to another inventory (like a chest) then pipe your items/ingredients from that."
+				""
+				"{@pagebreak}"
+				"Another thing to note is the fact the provider has to push ALL of the ingredients at once, it cannot push in half-batches. This is useful to know as you can exploit this to your advantage."
+				""
+				"Pattern providers have a special interaction with interfaces on subnets: if the interface is unmodified (nothing in the request slots) the provider will skip the interface entirely and push directly to that subnet's storage, skipping the interface and not filling it with recipe batches, and more importantly, not inserting the next batch until there's space in the machine. This works correctly with blocking mode, the provider will monitor the slots in the machine for ingredients, instead of the slots in the interface. This will push both the thing to be smelted and the fuel directly into the corresponding slots in the furnace. You can use this to pattern provide into multiple sides of a machine, or multiple machines, as an example."
+			]
 			id: "6D9CCDB12FF5B518"
+			subtitle: "Not Optional"
 			tasks: [{
 				id: "6801DB4616B73355"
 				item: {
@@ -1479,7 +1505,13 @@
 		}
 		{
 			dependencies: ["63F3D98D3B56C193"]
+			description: [
+				"The molecular assembler takes input items and carries out the operation defined by an adjacent pattern provider, or the inserted crafting pattern, smithing table pattern, or stonecutting pattern, then pushes the product to adjacent inventories."
+				""
+				"Their main use is in conjunction with pattern providers. Pattern providers have special behavior in this case, and will send information about the relevant pattern along with the ingredients to adjacent assemblers. Since assemblers auto-eject the results of crafts to adjacent inventories (and thus into the return slots of the pattern provider), an assembler on a pattern provider is all that is needed to automate crafting patterns."
+			]
 			id: "4E9DB7997DD4EDF7"
+			subtitle: "Not Optional"
 			tasks: [{
 				id: "649A35FD7F7BE250"
 				item: {
@@ -1498,6 +1530,11 @@
 		}
 		{
 			dependencies: ["63F3D98D3B56C193"]
+			description: [
+				"Use blank patterns in a ME pattern encoding terminal to make a variety of different patterns for crafting, smithing, etc and inserted in ME pattern providers or molecular assemblers."
+				""
+				"These are where and how you store your recipes for autocrafting and the like."
+			]
 			id: "3E0EF49EEAB907C3"
 			tasks: [{
 				id: "06B19857DAD0621A"
@@ -1517,8 +1554,21 @@
 		}
 		{
 			dependencies: ["65EAA584EE12D3D9"]
+			description: [
+				"The import bus pulls items and fluids (and whatever else) from the inventory it's touching and pushes them into network storage."
+				""
+				"In the interest of lag reduction, if the import bus has not imported something recently, it goes into a kind of \"eco mode\" where it ticks slowly, and \"wakes up\" and accelerates to full speed (4 operations per second) when it successfully senses that it can import something again."
+				""
+				"{@pagebreak}"
+				"By default the bus will import anything it has access to. Items inserted into its filter slots will act as a whitelist, only allowing those specific items to be imported."
+				""
+				"Items and fluids can be dragged into the slots from &aJEI&r even if you don't actually have any of that item."
+				""
+				"Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item."
+			]
 			hide_dependency_lines: true
 			id: "54B6C8FA074658E3"
+			subtitle: "Subpart - Pulls things INTO your network."
 			tasks: [{
 				id: "0F8C1644F5934B79"
 				item: {
@@ -1537,8 +1587,21 @@
 		}
 		{
 			dependencies: ["7E2C5C3483A9E51A"]
+			description: [
+				"The export bus pulls items and fluids (and whatever else) from network storage and pushes them into the inventory it's touching."
+				""
+				"in the interest of lag reduction, if the export bus has not exported something recently, it goes into a kind of \"eco mode\" where it ticks slowly, and \"wakes up\" and accelerates to full speed (4 operations per second) when it successfully senses that it can export something again."
+				""
+				"{@pagebreak}"
+				"By default the bus will not export anything automatically. Items inserted into its filter slots will act as a whitelist, allowing those specific items to be exported."
+				""
+				"Items and fluids can be dragged into the slots from &aJEI&r even if you don't actually have any of that item."
+				""
+				"Right-click with a fluid container (like a bucket, fluid tank, etc) to set that fluid as a filter instead of the bucket or tank item."
+			]
 			hide_dependency_lines: true
 			id: "482DA8042A4B1801"
+			subtitle: "Subpart - Sends things FROM your network"
 			tasks: [{
 				id: "6B5B21FE116DE88C"
 				item: {
@@ -1598,7 +1661,19 @@
 				"482DA8042A4B1801"
 				"54B6C8FA074658E3"
 			]
+			description: [
+				"The level emitter emits a redstone signal depending on the quantity of an item in network storage."
+				""
+				"There is also a version that emits a redstone signal depending on the energy stored in your network."
+				""
+				"Items and fluids can be dragged into the slot from &aJEI&r even if you don't actually have any of that item."
+				""
+				"Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item."
+				""
+				"They are cable subparts."
+			]
 			id: "616671B7D9F1058F"
+			subtitle: "Doesn't use a channel"
 			tasks: [{
 				id: "79CCD82E03E71596"
 				item: {
@@ -1620,20 +1695,51 @@
 				"7E2C5C3483A9E51A"
 				"65EAA584EE12D3D9"
 			]
+			description: [
+				"Crafting CPUs manage crafting requests. They store the intermediate ingredients while crafting jobs with multiple steps are being carried out, and affect how big jobs can be, and to some extent how fast they are completed."
+				""
+				"Each crafting CPU handles 1 request or job, so if you want to request both a calculation processor and 256 smooth stone at once, you need 2 CPU multiblocks."
+				""
+				"{@pagebreak}"
+				"They can be set to handle requests from players, automation (export busses and interfaces), or both."
+				""
+				"R-click one to bring up its crafting status UI where you can check the progress on the crafting job the CPU is handling at any given moment.."
+			]
 			hide_dependency_lines: true
 			id: "63F3D98D3B56C193"
+			size: 1.5d
+			subtitle: " The brain of every major network "
 			tasks: [{
 				id: "1834585D85680CD2"
 				title: "Auto-Crafting basics"
 				type: "checkmark"
 			}]
+			title: "Crafting CPUs and Auto-crafting Basics"
 			x: -4.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["7A33AF5CD7476775"]
+			description: [
+				"Storage Cells are one of the primary methods of storage in Applied Energistics. They go in ME Drives or ME Chests."
+				""
+				"In short, bytes are the over call count of items inside, were as types are the types of an item inside. items with an NBT value will count as 2 separate item types even if they are effectively the same item."
+				""
+				"Meaning as an example: "
+				""
+				"3 iron swords will use 3 bytes AND 3 type slot."
+				"3 iron ingots will use 3 bytes and 1 type slot."
+				""
+				"However, once the capacity of the cell has been reached, if the cell containing the iron ingots has an empty type slot and has not been partitioned to exclude it, the iron ingots will now begin filling up and taking a second type slot. "
+				"The cell would now appear with 2 type slots in use for iron, once the first slot is full, if not restricted, iron can fill the entirety of the cell if that is desired. Or if not this is why you want to partition cells, use overflow destruction cards to stop one cell from overflowing into another, etc."
+				""
+				"This is a big part of why it is always recommended to keep tools, armor etc... anything nbt related out of your storage cells."
+				""
+				"Storage components can be removed from the housing if the cell is empty by shift-right clicking with the cell in your hand."
+			]
 			hide_dependency_lines: true
 			id: "7D2462E72B5DCF40"
+			subtitle: "The hoarding begins"
 			tasks: [{
 				id: "7B41143765692B37"
 				item: {
@@ -1652,6 +1758,7 @@
 		}
 		{
 			dependencies: ["63F3D98D3B56C193"]
+			description: ["The crafting monitor displays the job the CPU is handling at the moment. The screen can be colored with a Color Applicator."]
 			id: "7509CF6EA1077A41"
 			subtitle: "Optional"
 			tasks: [{
@@ -1677,7 +1784,18 @@
 				"7AB6131A2890E8E4"
 				"506D3D14BC08BEDF"
 			]
+			description: [
+				"Start with basic autocrafting with some normal things like crafting recipes, and the like. Once you have successfully automated some crafting patterns start experimenting with other forms of patterns. You can automate furnaces, smithing, just about any farm all with clever pattern control."
+				""
+				"It can also be a good idea not to queue an excessive amount of recipes at once, if the system is not keeping up to your liking you should probably look into upgrading crafting CPUs, co-processors and the like."
+				""
+				"{@pagebreak}"
+				"Processing Patterns are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply saying \"if a pattern provider pushes these ingredients to adjacent inventories, the ME system will recieve these items at some point in the near or distant future\". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really wierd stuff, like inputting the ingredients into an entire complex assembly line chain which will sort out the mess, take in other ingredients from infinitely-producing farms, the ME system does not care as long as it gets the product result the pattern specified."
+				""
+				"In fact, it doesn't even care if the ingredients make any sense in relation to the result. You could tell it \"1 oak fence = 1 echo shard\" and have your warden farm kill a warden upon an oak fence input trigger... and yes, it will still work."
+			]
 			id: "52EE3999CFEDA9B4"
+			subtitle: "Baby steps"
 			tasks: [{
 				id: "447863D3BAABE95F"
 				title: "Some Pointers"
@@ -1688,6 +1806,7 @@
 		}
 		{
 			dependencies: ["7A33AF5CD7476775"]
+			description: ["The IO Port allows you to rapidly fill or empty storage cells to or from network storage."]
 			hide_dependency_lines: false
 			id: "05607C56B0320CD7"
 			tasks: [{
@@ -1703,8 +1822,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 10.5d
+			x: 2.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["05607C56B0320CD7"]
@@ -1722,8 +1841,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.5d
+			x: 3.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["05607C56B0320CD7"]
@@ -1741,8 +1860,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 2.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["05607C56B0320CD7"]
@@ -1760,8 +1879,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: 10.5d
+			x: 4.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3A6584785944AF27"]
@@ -1780,15 +1899,17 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 10.5d
+			x: 5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
 				"32C471BCDB7EA1A4"
 				"7EE526D3A8DFC285"
 			]
+			description: [""]
 			id: "64011532D6F5F6B6"
+			subtitle: "Do not use excessively."
 			tasks: [{
 				id: "69D0C6627AA9F61D"
 				item: {
@@ -1821,8 +1942,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.5d
+			x: 5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["50661F8E42D7DCA0"]
@@ -1840,8 +1961,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: 3.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["50661F8E42D7DCA0"]
@@ -1859,8 +1980,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.5d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["082856DCE7FE2C38"]
@@ -1878,8 +1999,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 13.5d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["027C93AD7E5D0D23"]
@@ -1897,8 +2018,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 14.5d
+			x: 6.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["7D2462E72B5DCF40"]
@@ -2097,7 +2218,13 @@
 		}
 		{
 			dependencies: ["38A8DAD3A173256D"]
+			description: [
+				"Allows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed."
+				""
+				"A network can have any number of wireless access points with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup. Requires a channel to function and is used to bind wireless terminals to the network as well."
+			]
 			id: "6E3C73A89BE9CB85"
+			subtitle: "Going wireless"
 			tasks: [{
 				id: "2110466A388E6449"
 				item: {
@@ -2116,7 +2243,9 @@
 		}
 		{
 			dependencies: ["6E3C73A89BE9CB85"]
+			description: ["Wireless terminals are portable versions of the regular wired terminals. They have the exact same GUIs as their wired counterparts, except instead of slots for view cells, they have slots for upgrade cards."]
 			id: "3C14DEF222D49021"
+			subtitle: "Curios and hotkey compatible!"
 			tasks: [{
 				id: "4AE4D7B9AA4122E5"
 				item: {
@@ -2135,7 +2264,9 @@
 		}
 		{
 			dependencies: ["6E3C73A89BE9CB85"]
+			description: ["Used to increase the range of the wireless access point."]
 			id: "475840187805136F"
+			subtitle: "More range, please"
 			tasks: [{
 				id: "2802F71998B6B81C"
 				item: {
@@ -2179,7 +2310,9 @@
 		}
 		{
 			dependencies: ["28064FA66EE0953B"]
+			description: ["Made with 256k items or buckets in a Matter Condenser in singularity mode."]
 			id: "5FA7113B0E256602"
+			subtitle: "super dense ball of matter "
 			tasks: [{
 				id: "699C9631B0B46FA7"
 				item: {
@@ -2198,7 +2331,9 @@
 		}
 		{
 			dependencies: ["5FA7113B0E256602"]
+			description: ["Crafted by causing a reaction between Ender Dust and a Singularity. Any explosive force should work to trigger the reaction, tiny tnt has a radius the provides minimal risk of accidental damage and is sufficient to create the reaction. They can be labeled with things like an anvil to help keep track of which to are linked (entangled) to which."]
 			id: "1C761E69DB39289E"
+			subtitle: "1 singularity will make 2 Q.E singularities"
 			tasks: [{
 				id: "6497C8514F4882FF"
 				item: {
@@ -2216,7 +2351,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1C761E69DB39289E"]
+			dependencies: [
+				"1C761E69DB39289E"
+				"6C30B8D7568F7ABA"
+			]
 			id: "7E40EDE45D1B6CC1"
 			tasks: [{
 				id: "44067E0C0A6CE040"
@@ -2232,10 +2370,13 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["1C761E69DB39289E"]
+			dependencies: [
+				"1C761E69DB39289E"
+				"6C30B8D7568F7ABA"
+			]
 			id: "29845B4E040A1F1F"
 			tasks: [{
 				id: "590F8CDF695C0C35"
@@ -2251,13 +2392,20 @@
 				type: "item"
 			}]
 			x: -9.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["69AF46B1490B34C4"]
 			description: [
 				"While ME networks are also constructed of adjacent ME-capable devices and machines, cables are the primary way of extending an ME network over longer distances."
 				""
+				"When refering to importing and exporting, we are always talking about in relation to your storage network. "
+				""
+				"Stuff gets exported OUT of your network and into things and machines."
+				""
+				"Stuff gets imported IN to your network from things and machines etc."
+				""
+				"{@pagebreak}"
 				"Different colored cables can be used to ensure other cables do not connect to each other, allowing channels to be distributed more efficiently. They also affect the color of terminals connected to them, so you can use the cable color you use to connect them to choose the color of your terminal.. Fluix cables connect to every other color indiscriminately."
 				""
 				"{@pagebreak}"
@@ -2276,6 +2424,76 @@
 			}]
 			x: 4.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7D214A4E9FBE9A89"]
+			id: "37B0F1A299218255"
+			tasks: [{
+				id: "6D01897F5BC07F85"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:certus_quartz_cutting_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37B0F1A299218255"]
+			id: "654756E8A407CEDC"
+			tasks: [{
+				id: "5CA922F48E360D95"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2:cable_anchor"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["654756E8A407CEDC"]
+			id: "28C4E916AAF94BD0"
+			tasks: [{
+				id: "1D736CFE5F4B021E"
+				title: "Cable Facades"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C761E69DB39289E"]
+			description: [
+				"Quantum Network Bridges can extend a network over infinite distances and even between dimensions. They can only transfer using a finite number of channels in total though (regardless of how cables are connected to each face). For all intents and purposes they function as a wireless dense cable."
+				""
+				"{@pagebreak}"
+				"Quantum Rings are built by surrounding an ME Quantum Link Chamber with ME Quantum Ring blocks and can be built either horizontally or vertically. Then take 2 Quantum Entangled Singularities, place one each within the link chambers of 2 rings you would like to link together. For example one ring for your main storage, linked to a second ring at a resource producing outpost you've built to support your base."
+			]
+			id: "6C30B8D7568F7ABA"
+			subtitle: "Loooong distance logistics"
+			tasks: [{
+				id: "325CC8EF2680C13E"
+				title: "ME Quantum Network Bridge"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 3.0d
 		}
 	]
 	title: "&eApplied Energistics 2"
