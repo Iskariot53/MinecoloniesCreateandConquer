@@ -163,6 +163,11 @@
 		}
 		{
 			dependencies: ["72E6728778BA8F48"]
+			description: [
+				"To start with &l&4Blood Magic&r&r, you'll need to collect a few &l&bDemon Wills&r&r. &b&lSoul Snares&r&r are your key to this. Craft several and throw them at hostile mobs. When white particles appear around the mob, kill it to get a &bDemon Will&r."
+				""
+				"&e&lNote:&r&r Mobs with higher health drop Demon Wills with better quality—Endermen drop more than spiders, for example."
+			]
 			id: "1F1A6444FA8CB90A"
 			rewards: [
 				{
@@ -214,19 +219,19 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -7.0d
 		}
 		{
-			dependencies: ["72E6728778BA8F48"]
+			dependencies: ["687358F87B1976C9"]
 			description: [
-				"Any &eLP&r generated, whether by stabbing yourself or fighting monsters, is transferred directly to the &4Blood Altar&r. Currently, this is useful only for crafting within the altar, but that’s just the beginning of &4Blood Magic&r."
+				"To fill your Soul Network, you need to construct a Blood Orb."
 				""
-				"To craft a &4&lBlood Orb&r&r, fill the altar with &e2000 LP&r and right-click the altar with a Diamond. After crafting, right-click the orb in hand to bind it to you, as unbound &4&lBlood Orbs&r&r won’t collect &eLP&r."
+				"Blood Orbs can be charged with LP in two ways:"
 				""
-				"The &4&lWeak Blood Orb&r&r converts the Life Essence from the altar into stored energy. This stored Essence is kept in the owner's personal network and cannot be converted back into liquid form. Many items later in the game will draw LP from this network. The &4&lWeak Blood Orb&r&r can store up to &e5,000 LP&r."
-				""
-				"You can transfer &eLP&r into the orb by right-clicking it while holding it or by placing it in the &4Blood Altar&r. This will drain the altar’s blood until the orb is full or the altar is empty."
+				"Sacrificing 1 heart of health by right-clicking with the Blood Orb, which provides the Soul Network with 200 LP."
+				"Placing the Blood Orb inside a Blood Altar with Life Essence; the Orb will absorb it as quickly as possible."
+				"Each Tier of the Blood Altar has a separate Blood Orb. The Weak Blood Orb has a maximum capacity of 5,000 LP."
 			]
 			id: "02A839C999489FDC"
 			rewards: [
@@ -263,11 +268,12 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["1F1A6444FA8CB90A"]
+			description: ["The &b&lHellfire Forge&r&r is a core crafting mechanic in &l&4Blood Magic&r&r, alongside the &4Blood Altar&r. It allows you to use the &bDemon Will&r harvested from mobs to craft a variety of items."]
 			id: "2C149DFFFE9023C8"
 			rewards: [
 				{
@@ -305,11 +311,16 @@
 				type: "item"
 			}]
 			title: "&4&lHellfire Forge"
-			x: 4.5d
+			x: 5.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2C149DFFFE9023C8"]
+			description: [
+				"Crafting Snares and hunting mobs can be tedious for collecting Demon Will. The &b&lPetty Tartaric Gem&r&r is a beginner tool that stores up to &e64&r Demon Will. Keep one gem in your inventory to automatically absorb Demon Will from killed mobs."
+				""
+				"Craft two gems: place one in the Hellfire Forge and keep the other in your inventory. To absorb loose Demon Will, drop it on the ground and pick it up again. This minimizes inventory clutter and allows you to craft a sword that collects Demon Will without using Snares."
+			]
 			id: "4F005EDF46EC5D17"
 			rewards: [
 				{
@@ -333,6 +344,7 @@
 				}
 			]
 			tasks: [{
+				count: 2L
 				id: "1D7C417D793DB9B8"
 				item: {
 					Count: 1
@@ -346,11 +358,12 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4F005EDF46EC5D17"]
+			description: ["The &b&lLesser Tartaric Gem&r&r is the next tier up. While the Petty Tartaric Gem stores 64 Will, the Lesser Tartaric Gem can hold &e256&r."]
 			id: "5EB33A8D1A67BB4D"
 			rewards: [
 				{
@@ -387,11 +400,16 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["5EB33A8D1A67BB4D"]
+			dependencies: [
+				"5EB33A8D1A67BB4D"
+				"3053E97B62B539F6"
+			]
+			description: ["Although the Lesser Tartaric Gem holds 256 Will, it's still too small. By using another full gem, you can upgrade to &l&bCommon Tartaric Gems&r&r, which store up to &e1,024&r Will. This also means your sword will deal more damage when the gem is full."]
+			hide_dependency_lines: true
 			id: "4DEDBADC96F40E8F"
 			rewards: [
 				{
@@ -428,11 +446,16 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: -5.0d
 		}
 		{
-			dependencies: ["4DEDBADC96F40E8F"]
+			dependencies: [
+				"4DEDBADC96F40E8F"
+				"607639980E3285B1"
+			]
+			description: ["The &b&lGreater Tartaric Gem&r&r is the final tier of Tartaric Gems and can hold &e4,096&r Will, the maximum amount you can carry in a single gem."]
+			hide_dependency_lines: true
 			id: "710D9F120A7081A7"
 			rewards: [
 				{
@@ -469,11 +492,16 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
+			x: 11.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4F005EDF46EC5D17"]
+			description: [
+				"The &b&lSentient Sword&r&r is a far more effective tool for collecting Demon Will than the Soul Snare. Although it may appear weak initially, it gains power from the Wills you carry, making the crafting of a Tartaric Gem essential!"
+				""
+				"The Sentient Sword has proven to be a great success. However, you may find yourself curious about how other tools could benefit from similar enhancements..."
+			]
 			id: "41CEA837D68F75FF"
 			rewards: [
 				{
@@ -593,11 +621,12 @@
 				}
 			]
 			title: "Sentient Tools and Weapons"
-			x: 7.5d
+			x: 8.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["72E6728778BA8F48"]
+			description: ["The Blood Altar's primary function is to produce Slates. Each tier of Slate requires the previous tier and a more powerful Altar than the last."]
 			id: "402ED5DAF12B3CCD"
 			rewards: [
 				{
@@ -713,6 +742,11 @@
 		}
 		{
 			dependencies: ["402ED5DAF12B3CCD"]
+			description: [
+				"The Alchemy Table crafts items using LP from a Soul Network. The Soul Network used and the available recipe tiers depend on the Blood Orb inserted on the right side of the GUI."
+				""
+				"The Alchemy Table is used to craft various Blood Magic components and offers alternate recipes for some vanilla items as well."
+			]
 			id: "23ACD832D25BBF47"
 			rewards: [
 				{
@@ -755,6 +789,13 @@
 		}
 		{
 			dependencies: ["23ACD832D25BBF47"]
+			description: [
+				"Arcane Ashes are essential for creating Alchemy Arrays and can be crafted in the Alchemy Table using early-game items."
+				""
+				"To create an Alchemy Array, right-click while looking at a block with Arcane Ashes in hand. This consumes 1 durability out of 20 and draws a simple array that has no effects by itself."
+				""
+				"When you click on the Alchemy Array, it will consume an item from your hand and hold it in the array, determining its effect. Each effect requires a base item and a catalyst. The base is the first item clicked on the array, and the catalyst is the second. When you apply the base item, the array's design changes if valid, and it activates once the catalyst is applied. (Check JEI for all valid Alchemy Arrays.)"
+			]
 			id: "28DE6C8C3AB0B079"
 			rewards: [
 				{
@@ -798,6 +839,7 @@
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
+			description: ["The Water Sigil is a straightforward tool. Right-clicking with it while looking at a block drains 100 LP from your Soul Network to place a source block of water in the world. If there isn’t enough LP, it will instead drain health to cover the cost."]
 			id: "76B608EE649B732F"
 			rewards: [
 				{
@@ -833,11 +875,12 @@
 				}
 				type: "item"
 			}]
-			x: 8.357142857142868d
-			y: -3.65d
+			x: 8.35d
+			y: -3.7d
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
+			description: ["The Lava Sigil is the sister sigil to the Water Sigil. Right-clicking while holding the Lava Sigil creates a source block of lava on the ground for a cost of 1,000 LP. If you don’t have enough LP in your Soul Network, it will drain 5 hearts from you instead."]
 			id: "5B0D3DCCC85E77AC"
 			rewards: [
 				{
@@ -878,6 +921,13 @@
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
+			description: [
+				"The Divination Sigil is likely one of the first sigils you'll want to craft in Blood Magic. It has two primary uses:"
+				""
+				"- Right-clicking while aiming at the air with a bound sigil displays the amount of LP in your Soul Network."
+				""
+				"- Right-clicking on a Blood Altar reveals the altar's current tier, the amount of Life Essence stored, and its maximum capacity."
+			]
 			id: "4446EA7DAD0C22C9"
 			rewards: [
 				{
@@ -918,6 +968,11 @@
 		}
 		{
 			dependencies: ["249E50082676EC01"]
+			description: [
+				"Now that you have a Tier 2 Altar, you can obtain Life Essence from sources other than yourself."
+				""
+				"The Dagger of Sacrifice allows you to instantly kill any mob (hostile or passive) within 2 blocks of your Blood Altar, granting you a decent amount of LP. You can increase the LP gained per kill by using Runes of Sacrifice, as different entities provide varying amounts of LP."
+			]
 			id: "5562E10C3DC252A9"
 			rewards: [
 				{
@@ -958,6 +1013,7 @@
 		}
 		{
 			dependencies: ["1E9B01D3442000FB"]
+			description: ["The Speed Rune enhances all crafting operations of the Blood Altar. Each rune adds an additive increase of +20% to both the crafting speed and the speed at which progress is lost when the Altar is empty."]
 			id: "64B5CC69ED2E0B37"
 			rewards: [
 				{
@@ -1038,6 +1094,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
+			description: ["The Rune of Self Sacrifice increases the amount of Life Essence gained in the Blood Altar from actions that take health from non-player entities. Each rune provides an additive bonus of +10% per rune."]
 			id: "0F77A0AAE3648EA2"
 			rewards: [
 				{
@@ -1078,6 +1135,7 @@
 		}
 		{
 			dependencies: ["6C11FD253B66D55C"]
+			description: ["The Apprentice Blood Orb has a maximum capacity of 25000 LP."]
 			id: "2189104C47DB4552"
 			rewards: [
 				{
@@ -1118,6 +1176,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
+			description: ["The Air Sigil propels you in the direction you're facing at a cost of 50 LP per use. However, it does not grant any Feather Falling effect, so be cautious when landing! It's a fast way to get around, but it comes with some risk."]
 			id: "5982FDFE5D3873CE"
 			rewards: [
 				{
@@ -1239,6 +1298,7 @@
 		}
 		{
 			dependencies: ["6C11FD253B66D55C"]
+			description: ["The Seer's Sigil is an advanced version of the Divination Sigil. In addition to displaying the amount of LP in the bound player's Soul Network, it also provides more detailed information when looking at a Blood Altar."]
 			id: "374C83C049CA5128"
 			rewards: [
 				{
@@ -1474,6 +1534,11 @@
 		}
 		{
 			dependencies: ["4DEDBADC96F40E8F"]
+			description: [
+				"The &b&lDemon Crucible&r&r is crafted in the Hellfire Forge and is primarily used to release Will into the Aura. Each chunk can hold up to &e100&r Will, and the only initial way to fill the Aura is through the Demon Crucible."
+				""
+				"To use the Crucible, place it down and right-click it with a &b&lTartaric gem&r&r that has at least &e100&r Will. The gem will gradually empty into the Aura. It’s helpful to show chunk boundaries (&3F3 + G&r) so you can position a Crucible in each chunk."
+			]
 			id: "334460E76DDC16F7"
 			rewards: [
 				{
@@ -1509,11 +1574,18 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["334460E76DDC16F7"]
+			description: [
+				"The &b&lDemon Crystallizer&r&r is crafted in the Hellfire Forge and can be placed in the same chunk as the Demon Crucible. It will slowly draw Will from the Aura and form it into a &bcrystal&r that gradually grows larger, eventually developing seven spines."
+				""
+				"Instead of breaking the cluster with a pickaxe, which is not recommended, you can collect the crystals more easily. If your inventory holds at least &e1,000&r points of Will (in Tartaric Gems), right-click the cluster with an empty hand. This will give you up to seven \"secondary\" crystals while leaving the central upright crystal intact. You can continue harvesting from the same cluster as long as you keep infusing Will into your chunk."
+				""
+				"Note that the upright &bcrystal&r requires &e90-100&r Will from the Aura to form, making it significantly more expensive than the secondary spires, which typically cost &e50&r Will."
+			]
 			id: "2343FED8A10DCEE2"
 			rewards: [
 				{
@@ -1549,7 +1621,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: -7.0d
 		}
 		{
@@ -1589,7 +1661,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.0d
 			y: -6.0d
 		}
 		{
@@ -1833,6 +1905,13 @@
 		}
 		{
 			dependencies: ["02A839C999489FDC"]
+			description: [
+				"The &4&lIncense Altar&r&r is a multiblock structure that boosts self-sacrifice at a &l&4Blood Altar&r&r. Standing near it increases your &eLP&r gains based on the area's Tranquility."
+				""
+				"For a basic &eTier 1&r setup, place the altar within a 5-block radius (ideally on a 3x3 platform for future upgrades). When active, it emits flames and transforms your &4&lSacrificial Knife&r&r. Once the knife glows, you can sacrifice &e90%&r of your health near the &4&lBlood Altar&r&r with a right-click."
+				""
+				"The &eLP bonus&r you receive added to the &4&lBlood Altar&r&r depends on the area's &eTranquility&r. Hovering over the &4Incense Altar&r with a &3Divination Sigil&r or &3Seer's Sigil&r shows the total &eTranquility&r and the sacrifice bonus. When sacrificing, your LP is multiplied by (&e1 + bonus/100&r)."
+			]
 			id: "340DC8DD09F98C45"
 			rewards: [
 				{
@@ -1868,11 +1947,16 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["402ED5DAF12B3CCD"]
+			description: [
+				"Runes play a crucial role in Blood Magic, particularly for upgrading your Blood Altar. Each rune modifies the Altar in different ways, allowing you to customize it to suit your needs."
+				""
+				"At the first tier of the Blood Altar and Blood Orb, you can only craft a limited selection of runes. These runes are crafted using the Blood Orb, but don’t worry—you'll get the Blood Orb back, and it has no durability."
+			]
 			id: "1E9B01D3442000FB"
 			rewards: [
 				{
@@ -1913,6 +1997,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
+			description: ["To increase the bonus, you need to raise the area's &eTranquility&r by adding paths around your &l&4Incense Altar&r&r. Build three-wide paths using blocks like &eWooden Path&r, extending from the &l&e3x3&r&r set of solid reference blocks in all four cardinal directions. (&3check the guide book&r)"]
 			hide_dependency_lines: true
 			id: "736432772F3451F4"
 			rewards: [
@@ -1951,11 +2036,12 @@
 				type: "item"
 			}]
 			title: "Wooden Path"
-			x: 1.0d
+			x: 2.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
+			description: ["The Magician Blood Orb has a maximum capacity of 150000 LP."]
 			id: "6E2F3C5EF871D701"
 			rewards: [
 				{
@@ -2029,11 +2115,12 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
+			description: ["The &4&lTome of Peritia&r&r is a useful book for storing experience. Unlike other mods that hold experience in liquid or shard form, this tome retains it directly. To store a level of experience, shift-right-click the tome in your hand (or a partial level). Right-clicking with the tome will grant you up to the next level if there is enough experience stored. The total experience and its equivalent level are displayed on the tome's tooltip."]
 			id: "46491555900F2E9E"
 			rewards: [
 				{
@@ -2109,11 +2196,14 @@
 				type: "item"
 			}]
 			title: "Ritual Stone"
-			x: -3.0d
+			x: -4.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["66D3549B1EE32A7A"]
+			dependencies: [
+				"66D3549B1EE32A7A"
+				"49F016D06BF8D866"
+			]
 			id: "5E280E74DD99C87C"
 			rewards: [
 				{
@@ -2202,8 +2292,8 @@
 				}
 			]
 			title: "Inscription Tool"
-			x: -5.0d
-			y: 9.0d
+			x: -6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5E280E74DD99C87C"]
@@ -2284,7 +2374,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 12.5d
 		}
 		{
@@ -2602,7 +2692,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 11.0d
 		}
 		{
@@ -2641,7 +2731,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 10.0d
 		}
 		{
@@ -2680,7 +2770,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 12.5d
 		}
 		{
@@ -2723,7 +2813,7 @@
 				type: "item"
 			}]
 			title: "Stone Path"
-			x: 2.0d
+			x: 3.0d
 			y: -9.5d
 		}
 		{
@@ -2767,6 +2857,7 @@
 		}
 		{
 			dependencies: ["607639980E3285B1"]
+			description: ["The Master Blood Orb has a maximum capacity of 1M LP."]
 			id: "040277BDA6078F41"
 			rewards: [
 				{
@@ -2961,7 +3052,7 @@
 				type: "item"
 			}]
 			title: "Worn Stone Path"
-			x: 1.0d
+			x: 2.0d
 			y: -10.5d
 		}
 		{
@@ -3523,7 +3614,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 9.0d
 		}
 		{
@@ -3735,6 +3826,7 @@
 		}
 		{
 			dependencies: ["71F84BEE7B1E7DCE"]
+			description: ["The Archmage Blood Orb has a maximum capacity of 10M LP."]
 			id: "0AE475DCCCC8C1EA"
 			rewards: [
 				{
@@ -3813,7 +3905,7 @@
 				type: "item"
 			}]
 			title: "Obsidian Path"
-			x: 2.0d
+			x: 3.0d
 			y: -10.5d
 		}
 		{
@@ -3821,6 +3913,11 @@
 				"5806C8F535701AD6"
 				"18612C429179D483"
 				"3542FA6FA3D06D8B"
+			]
+			description: [
+				"&4&lHeretic's Armor&r&r is an upgrade of Blood Magic's Living Armor. It combines the abilities of &4&lBlood Magic's Living Armor&r&r and &d&lArs Nouveau's Magical Armor&r&r."
+				""
+				"The armor has access to both Magical Perks and Living Upgrades. Additionally, the chestplate has access to Living upgrade points."
 			]
 			hide_dependency_lines: true
 			id: "70FBD802A8A53834"
@@ -3922,6 +4019,13 @@
 			dependencies: [
 				"72E6728778BA8F48"
 				"20A73BE11D09BAFB"
+			]
+			description: [
+				"The &4&lTome of Blood&r&r is a special variant of the &dArs Nouveau&r spellbook, linked to the user's Soul Network. Its unique ability allows you to bypass the usual Mana cost limits of spells!"
+				""
+				"When casting a spell, the tome first uses the player's mana. If there's not enough, it will tap into the player's &4LP&r to cover the remaining cost, converting &410 LP&r per &dmana point&r."
+				""
+				"The &4&lTome of Blood&r&r can be crafted in the &4Blood Altar&r using a certain amount of blood. Higher-tier spellbooks can also be converted into &4&lTomes of Blood&r&r the same way. Alternatively, the tome can be upgraded in an &nAlchemy Table&r."
 			]
 			hide_dependency_lines: true
 			id: "3CE144FB7D87F2CF"
@@ -4135,6 +4239,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
+			description: ["The Rune of Self Sacrifice increases the amount of Life Essence gained in the Blood Altar from actions that use a player's health. Each rune provides an additive bonus of +10% per rune."]
 			id: "5C2B19A5E7B6BCE1"
 			rewards: [
 				{
@@ -4172,6 +4277,150 @@
 			}]
 			x: 1.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["23ACD832D25BBF47"]
+			description: ["&bMint Tea&r grants the Serene potion effect, providing a 10% bonus to blood gained from self-sacrifice in a &l&4Blood Altar&r&r. It also has a 5% chance to become toxic."]
+			hide_dependency_lines: true
+			id: "1A29D6459904BC8C"
+			rewards: [
+				{
+					id: "01FF684C2543D9DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "50697DE941B50D6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BA1843630A5072E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tomeofblood:mint_tea"
+				}
+				type: "item"
+			}]
+			x: -7.8d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2343FED8A10DCEE2"]
+			description: ["Releasing Will into the Aura and identifying the Will in an Aura can be tricky if your Crucible gets moved or destroyed. Once you can afford it, craft a &l&bDemon Will Aura Gauge&r&r. This tool displays the amount of each type of Will in your chunk's Aura. A panel with five bars will appear in the top left corner of your screen by default."]
+			id: "3AC0BEF78523B690"
+			rewards: [
+				{
+					id: "61CFA6B16F0022A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "2F46D57CEEC2D7C1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A97FA4A3C7C91F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:demonwillgauge"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["02A839C999489FDC"]
+			description: [
+				"Now that you have LP in your personal network, you can use it with the Lava Crystal. Placing the Lava Crystal in a furnace will remove 750 LP from your network, acting as a fuel source with a key difference: each smelt will cost 50 LP. If you run out of LP, you'll experience nausea until you either remove the Lava Crystal or add LP back to your network, at which point smelting will stop."
+				""
+				"Each time you remove and replace the Lava Crystal in the furnace, it will again drain 750 LP from your network, which can deplete it quickly. To avoid this, fill up your network, bind the Crystal to yourself, and keep it in the furnace without taking it out."
+			]
+			id: "016A57EA8AB738C5"
+			tasks: [{
+				id: "4B0E922B52E44906"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:lavacrystal"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["72E6728778BA8F48"]
+			description: [
+				"The Soul Network connects your soul to all your bound items, rituals, and blocks. It functions as a unique global storage of LP for each player, allowing for addition and extraction using bound items as intermediaries."
+				""
+				"When you right-click with an item that can be bound to the Soul Network, it becomes labeled as \"owned\" by you. Any action that incurs an LP cost will draw from your Soul Network. If the item cannot access enough LP from your network, it will instead deduct the cost directly from your health."
+			]
+			id: "687358F87B1976C9"
+			rewards: [
+				{
+					id: "4CD822CF4F12EADD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "62C58F65F6E17E48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2496084111A99B4B"
+				type: "checkmark"
+			}]
+			title: "&b&lSoul Network"
+			x: 1.5d
+			y: -7.0d
 		}
 	]
 	title: "&eBlood Magic"
