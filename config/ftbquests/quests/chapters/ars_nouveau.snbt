@@ -7,25 +7,135 @@
 	id: "79B23D5582234EAE"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["4386DFA29FCEDD4D"]
-		icon: {
-			Count: 1
-			ForgeCaps: {
-				"celestisynth:celestisynthitemstackcapabilities": {
-					cs.aquaSkin: 0
+	quests: [
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
 				}
+				id: "ars_nouveau:source_gem"
 			}
-			id: "ars_nouveau:source_gem"
+			id: "40CD64536505D590"
+			tasks: [{
+				id: "7C8B84F8A30E9B37"
+				title: "Welcome to Ars Nouveau!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
-		id: "40CD64536505D590"
-		tasks: [{
-			id: "7C8B84F8A30E9B37"
-			title: "Welcome to Ars Nouveau!"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+		{
+			id: "20A73BE11D09BAFB"
+			tasks: [{
+				id: "1E235DCC349AB368"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:novice_spell_book"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "1628B05C9134984A"
+			tasks: [{
+				id: "6D3AE6EE129E0AE9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:wilden_tribute"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "18612C429179D483"
+			tasks: [{
+				id: "4BAF7CE616FDE94C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:enchanting_apparatus"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "3542FA6FA3D06D8B"
+			tasks: [{
+				id: "30E7E5856CC6961B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:magebloom_fiber"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "643B53AB75DA4DEB"
+			tasks: [{
+				id: "3B073286636A45B4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:conjuration_essence"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "505D987EB8D4FDBF"
+			tasks: [{
+				id: "5950505E810D560B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:scribes_table"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+	]
 	title: "&eArs Nouveau"
 }

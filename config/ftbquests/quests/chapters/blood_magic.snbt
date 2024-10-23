@@ -81,8 +81,8 @@
 				type: "checkmark"
 			}]
 			title: "&4&lWelcome to Blood Magic!"
-			x: -3.0d
-			y: -4.0d
+			x: -6.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["305904786B9CF570"]
@@ -103,6 +103,28 @@
 				id: "bloodmagic:altar"
 			}
 			id: "72E6728778BA8F48"
+			rewards: [
+				{
+					id: "64E7693E12B8D14B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "48EE3296A6810AAA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			subtitle: "Getting Started"
 			tasks: [
 				{
@@ -136,28 +158,49 @@
 				}
 			]
 			title: "&4&lTier 1 Blood Altar"
-			x: 4.0d
-			y: -2.0d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["72E6728778BA8F48"]
 			id: "1F1A6444FA8CB90A"
-			rewards: [{
-				id: "01931B6790D516AE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			rewards: [
+				{
+					id: "01931B6790D516AE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 5.0d
 						}
 					}
-					id: "bloodmagic:basemonstersoul"
-					tag: {
-						souls: 5.0d
-					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "47AC3B3148DC94B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "16D92C56D1EBD5D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4F0752977CC3C0CA"
 				item: {
@@ -171,8 +214,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["72E6728778BA8F48"]
@@ -186,6 +229,27 @@
 				"You can transfer &eLP&r into the orb by right-clicking it while holding it or by placing it in the &4Blood Altar&r. This will drain the altar’s blood until the orb is full or the altar is empty."
 			]
 			id: "02A839C999489FDC"
+			rewards: [
+				{
+					id: "2A71962220397B86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1108D99C45435B00"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "20078310B00935FA"
 				item: {
@@ -199,12 +263,34 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -2.0d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1F1A6444FA8CB90A"]
 			id: "2C149DFFFE9023C8"
+			rewards: [
+				{
+					id: "48238DF6DA217C5A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3EB803941D2E121F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			tasks: [{
 				id: "19005C71917862DF"
 				item: {
@@ -219,12 +305,33 @@
 				type: "item"
 			}]
 			title: "&4&lHellfire Forge"
-			x: 7.0d
-			y: -2.0d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2C149DFFFE9023C8"]
 			id: "4F005EDF46EC5D17"
+			rewards: [
+				{
+					id: "795878DF5A8D98D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0865815C66F10126"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1D7C417D793DB9B8"
 				item: {
@@ -239,12 +346,33 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 7.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4F005EDF46EC5D17"]
 			id: "5EB33A8D1A67BB4D"
+			rewards: [
+				{
+					id: "279E21461B74D879"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "126CBD6520B750F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "558ABC7AF9E6383E"
 				item: {
@@ -259,12 +387,33 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 8.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["5EB33A8D1A67BB4D"]
 			id: "4DEDBADC96F40E8F"
+			rewards: [
+				{
+					id: "783F63F1E1FA3B8A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "744AC02163927796"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "34EE840EBBAF05F8"
 				item: {
@@ -279,12 +428,33 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: 9.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4DEDBADC96F40E8F"]
 			id: "710D9F120A7081A7"
+			rewards: [
+				{
+					id: "0A158740CC0DA2C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1824A47041C6F64D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "48C2F168FE885C2D"
 				item: {
@@ -299,12 +469,33 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.0d
+			x: 10.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4F005EDF46EC5D17"]
 			id: "41CEA837D68F75FF"
+			rewards: [
+				{
+					id: "6C5FC3F4BC5D6AE6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "4BDFF024F0CEEC6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5F94E6E6CA2D0A1A"
@@ -402,12 +593,33 @@
 				}
 			]
 			title: "Sentient Tools and Weapons"
-			x: 8.0d
-			y: -3.0d
+			x: 7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["72E6728778BA8F48"]
 			id: "402ED5DAF12B3CCD"
+			rewards: [
+				{
+					id: "050980074DBD7440"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "50F8002B34C064A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4B7DE4892F4609B7"
 				item: {
@@ -421,8 +633,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["402ED5DAF12B3CCD"]
@@ -436,6 +648,28 @@
 				id: "bloodmagic:altar"
 			}
 			id: "249E50082676EC01"
+			rewards: [
+				{
+					id: "17256053A46E2235"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "328C05EA303439D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			tasks: [{
 				count: 8L
 				id: "7E31D51C4F8832E8"
@@ -474,12 +708,34 @@
 				type: "item"
 			}]
 			title: "&4&lTier 2 Blood Altar"
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["402ED5DAF12B3CCD"]
 			id: "23ACD832D25BBF47"
+			rewards: [
+				{
+					id: "5EB4AF3F941CD300"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0F09477B031A980B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			tasks: [{
 				id: "106C1D1813C5BDD5"
 				item: {
@@ -494,12 +750,33 @@
 				type: "item"
 			}]
 			title: "&4&lAlchemy Table"
-			x: 7.0d
-			y: -1.0d
+			x: 4.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["23ACD832D25BBF47"]
 			id: "28DE6C8C3AB0B079"
+			rewards: [
+				{
+					id: "7690CDAA8D1027D8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0DC462ACAD74E8D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "293F545ADE6E2032"
 				item: {
@@ -516,12 +793,33 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -1.0d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
 			id: "76B608EE649B732F"
+			rewards: [
+				{
+					id: "79D56D1656354CCA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7A149D17A0210E76"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5160E69EFC432EF6"
 				item: {
@@ -535,12 +833,33 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -1.0d
+			x: 8.357142857142868d
+			y: -3.65d
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
 			id: "5B0D3DCCC85E77AC"
+			rewards: [
+				{
+					id: "5EEA13C1EEA3174F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "532CE48DFCCC98E1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "654D2D2D07DDBCEC"
 				item: {
@@ -554,12 +873,33 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
 			id: "4446EA7DAD0C22C9"
+			rewards: [
+				{
+					id: "6CC7AF9F674A1F54"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "320CA82EF716914A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1CC0FC4324621319"
 				item: {
@@ -573,12 +913,33 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: -1.0d
+			x: 8.35d
+			y: -2.3d
 		}
 		{
 			dependencies: ["249E50082676EC01"]
 			id: "5562E10C3DC252A9"
+			rewards: [
+				{
+					id: "06F59B54CE586FA8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "11A54D779E11B25E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "61C0DF4A2DDCB5CE"
 				item: {
@@ -592,12 +953,33 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["402ED5DAF12B3CCD"]
+			dependencies: ["1E9B01D3442000FB"]
 			id: "64B5CC69ED2E0B37"
+			rewards: [
+				{
+					id: "5A4811DD8881863D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7503EFB6D568762E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "71887961F7060F35"
 				item: {
@@ -611,12 +993,33 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["249E50082676EC01"]
 			id: "6C11FD253B66D55C"
+			rewards: [
+				{
+					id: "59EC5855EFDD0AB4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "75E7D62CEBF19C5E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6966CB47D6218494"
 				item: {
@@ -630,28 +1033,21 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["6C11FD253B66D55C"]
+			dependencies: ["2189104C47DB4552"]
 			id: "0F77A0AAE3648EA2"
-			tasks: [
+			rewards: [
 				{
-					id: "1B7A548AD947E057"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "bloodmagic:sacrificerune"
-					}
-					type: "item"
+					id: "7C4D8F43145EA7B7"
+					type: "xp"
+					xp: 10
 				}
 				{
-					id: "3CB513101FCEEF6F"
+					count: 5
+					id: "5D6CF26341CEA537"
 					item: {
 						Count: 1
 						ForgeCaps: {
@@ -659,17 +1055,51 @@
 								cs.aquaSkin: 0
 							}
 						}
-						id: "bloodmagic:selfsacrificerune"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 1.0d
+			tasks: [{
+				id: "1B7A548AD947E057"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:sacrificerune"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6C11FD253B66D55C"]
 			id: "2189104C47DB4552"
+			rewards: [
+				{
+					id: "582B74760731B970"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "34AE06C857ACE8B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "51880EADC77E7B17"
 				item: {
@@ -683,12 +1113,33 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["6C11FD253B66D55C"]
+			dependencies: ["2189104C47DB4552"]
 			id: "5982FDFE5D3873CE"
+			rewards: [
+				{
+					id: "455FCAF9C8D24448"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "0C4809349099DB82"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D8BD0723DA87978"
 				item: {
@@ -702,12 +1153,33 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["6C11FD253B66D55C"]
+			dependencies: ["2189104C47DB4552"]
 			id: "5767137DB69077C9"
+			rewards: [
+				{
+					id: "38F66CCE7846256B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1BA72D0EFA1DB54D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "42C07B1E9F8C3CD2"
 				item: {
@@ -722,12 +1194,33 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["6C11FD253B66D55C"]
+			dependencies: ["2189104C47DB4552"]
 			id: "37B4C9B7387EC882"
+			rewards: [
+				{
+					id: "5B71D8B0CF3C4FE0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1F4EB2161FA55F38"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6FC9CDA46C6A544E"
 				item: {
@@ -741,12 +1234,33 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C11FD253B66D55C"]
 			id: "374C83C049CA5128"
+			rewards: [
+				{
+					id: "346149F3461C0181"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "34C71D8FF7669230"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "354BE521B281E53F"
 				item: {
@@ -760,12 +1274,33 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["6C11FD253B66D55C"]
+			dependencies: ["2189104C47DB4552"]
 			id: "202CAFAB2C68F969"
+			rewards: [
+				{
+					id: "675CF29F8F2057CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "1AFFAC89376DE4E1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2AE3C5B298968B3D"
 				item: {
@@ -780,8 +1315,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 1.0d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6C11FD253B66D55C"]
@@ -795,6 +1330,27 @@
 				id: "bloodmagic:altar"
 			}
 			id: "49F016D06BF8D866"
+			rewards: [
+				{
+					id: "1A35EBB3E17B01C0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "105C574DDDC703FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			tasks: [
 				{
 					count: 20L
@@ -913,12 +1469,33 @@
 				}
 			]
 			title: "&4&lTier 3 Blood Altar"
-			x: 4.0d
-			y: 2.0d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4DEDBADC96F40E8F"]
 			id: "334460E76DDC16F7"
+			rewards: [
+				{
+					id: "4227D5D7691008C9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "799DF0446BB4728A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "606B4C17C4951146"
 				item: {
@@ -932,12 +1509,33 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.0d
+			x: 9.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["334460E76DDC16F7"]
 			id: "2343FED8A10DCEE2"
+			rewards: [
+				{
+					id: "0DDF1365DDD3372F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "60FE02417DBE6198"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "138FF012FD5145C8"
 				item: {
@@ -951,12 +1549,33 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.0d
+			x: 9.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2343FED8A10DCEE2"]
 			id: "5CE57D438EA574E9"
+			rewards: [
+				{
+					id: "69E88090858A0A00"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "66E380536E20A54A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "36E1FEC30CC27E81"
 				item: {
@@ -976,6 +1595,26 @@
 		{
 			dependencies: ["49F016D06BF8D866"]
 			id: "3053E97B62B539F6"
+			rewards: [
+				{
+					id: "77248F1B7F167818"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B7C896E0B783E81"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6EAA65E7BE3C90CC"
 				item: {
@@ -989,12 +1628,32 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
 			id: "039BDCE58CC1E178"
+			rewards: [
+				{
+					id: "2F4EDB092EBB7CE8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "16655D200F2CB37E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "44A975D0F2B568A0"
 				item: {
@@ -1009,12 +1668,32 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.0d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
 			id: "0228C94767CD9066"
+			rewards: [
+				{
+					id: "52054C04FF920B65"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12B6EB6984D9D1BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2384749F62CF4066"
 				item: {
@@ -1031,12 +1710,32 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 2.321428571428598d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
 			id: "06E283F42F402797"
+			rewards: [
+				{
+					id: "76559068FBB7A50B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "30F4B6304B2C5836"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "06817278B27C55B3"
 				item: {
@@ -1051,12 +1750,32 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
-			y: 3.0d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
 			id: "6F6657252C5B3F51"
+			rewards: [
+				{
+					id: "400AFB66E4298DB5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "66006E315302BB2D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "50C6579CB6F675C3"
 				item: {
@@ -1070,12 +1789,32 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
 			id: "3E158EB87B5BB01D"
+			rewards: [
+				{
+					id: "68BF8A60422D260D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "492C249D243DD5B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0662D16674B0A960"
 				item: {
@@ -1089,12 +1828,33 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["02A839C999489FDC"]
 			id: "340DC8DD09F98C45"
+			rewards: [
+				{
+					id: "400EF6A6F748467A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "595341B2408004B1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3CA452EF160BCAFB"
 				item: {
@@ -1108,12 +1868,33 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["402ED5DAF12B3CCD"]
 			id: "1E9B01D3442000FB"
+			rewards: [
+				{
+					id: "66AEB4A048F8D008"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6E4A99AD366884A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E8065F1F51DDF3F"
 				item: {
@@ -1127,13 +1908,34 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
 			hide_dependency_lines: true
 			id: "736432772F3451F4"
+			rewards: [
+				{
+					id: "087A2E34E3E0C4BF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "256E68D5537FDD14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "78709D7DDBDC7B09"
@@ -1149,12 +1951,32 @@
 				type: "item"
 			}]
 			title: "Wooden Path"
-			x: 4.5d
-			y: -4.0d
+			x: 1.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
 			id: "6E2F3C5EF871D701"
+			rewards: [
+				{
+					id: "41E4F8EF1AC75BF0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1AC664BF1A738E5C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5DC4DD7B32FC45DA"
 				item: {
@@ -1168,12 +1990,32 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: -1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["7E07A4964DED7E78"]
 			id: "71FAB1AB3B95AF22"
+			rewards: [
+				{
+					id: "47968AB11C9FF06C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "666D4CF599636DA9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "662429A55D9F3D0F"
 				item: {
@@ -1187,12 +2029,32 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 4.0d
+			x: -6.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
 			id: "46491555900F2E9E"
+			rewards: [
+				{
+					id: "2449F55D12D114B6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CE978BF7E6D4699"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "34826CE88DEBE58E"
 				item: {
@@ -1206,12 +2068,32 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: -1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
 			id: "0220B93C98104CB3"
+			rewards: [
+				{
+					id: "6BD0F0114194ED79"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5C76E883C540C1FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "2B6DF75AA313C6D0"
@@ -1227,12 +2109,32 @@
 				type: "item"
 			}]
 			title: "Ritual Stone"
-			x: 0.0d
-			y: 3.0d
+			x: -3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["66D3549B1EE32A7A"]
 			id: "5E280E74DD99C87C"
+			rewards: [
+				{
+					id: "371384D0A82A52A1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0DE93500DA36AAD3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "55F4A2C84F04DE48"
@@ -1300,12 +2202,32 @@
 				}
 			]
 			title: "Inscription Tool"
-			x: -2.0d
-			y: 3.0d
+			x: -5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5E280E74DD99C87C"]
 			id: "7C3F9C6EA7D535A5"
+			rewards: [
+				{
+					id: "5CCA920330D24735"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3995522D04F10265"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "69F791C405F523A0"
 				item: {
@@ -1320,12 +2242,32 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["71FAB1AB3B95AF22"]
 			id: "32181FE54475DACC"
+			rewards: [
+				{
+					id: "1C317931E0A4244A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "25E0C8493C343F1D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A1B91174CF638ED"
 				item: {
@@ -1342,12 +2284,32 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -4.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["7C3F9C6EA7D535A5"]
 			id: "5E6FFDC1C3DEFFCB"
+			rewards: [
+				{
+					id: "0C881E98835F0DAA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "564187D6E47A7D2A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "07845ED6A7332068"
 				item: {
@@ -1361,12 +2323,32 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
-			y: 3.0d
+			x: -7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
 			id: "5806C8F535701AD6"
+			rewards: [
+				{
+					id: "709BA2DD8083580A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C40E68CCA140DA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3CB0DF2B1803F1E1"
@@ -1438,8 +2420,8 @@
 				}
 			]
 			title: "Living Armour"
-			x: 2.0d
-			y: 2.0d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1456,6 +2438,27 @@
 				id: "bloodmagic:altar"
 			}
 			id: "626F3C12DF9FDD3F"
+			rewards: [
+				{
+					id: "28681F9E28F65DE7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2BED4C2A408F8079"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			tasks: [
 				{
 					count: 28L
@@ -1560,12 +2563,32 @@
 				}
 			]
 			title: "&4&lTier 4 Blood Altar"
-			x: 4.0d
-			y: 4.0d
+			x: 0.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["50E780E4536B6163"]
 			id: "7E07A4964DED7E78"
+			rewards: [
+				{
+					id: "1E2DF6E94A775B1F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "654E035600580FAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "789DEF3231E457C4"
 				item: {
@@ -1579,12 +2602,32 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -6.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7C3F9C6EA7D535A5"]
 			id: "50E780E4536B6163"
+			rewards: [
+				{
+					id: "67743449DF2B306E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7EC17D8D087B9544"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3EEC54DF016BB2D0"
 				item: {
@@ -1598,12 +2641,32 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -6.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["32181FE54475DACC"]
 			id: "7F8A570C7B29DCEE"
+			rewards: [
+				{
+					id: "5F7029323351C6B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "13466AB3EADD7A43"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0217F583DD60D5D4"
 				item: {
@@ -1617,13 +2680,34 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.0d
+			x: -2.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
 			hide_dependency_lines: true
 			id: "24108303E8A49753"
+			rewards: [
+				{
+					id: "5A41918E3FDA8458"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "32B0736EFE536551"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "7961E8C0556C3D19"
@@ -1639,12 +2723,32 @@
 				type: "item"
 			}]
 			title: "Stone Path"
-			x: 4.5d
-			y: -5.0d
+			x: 2.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["626F3C12DF9FDD3F"]
 			id: "607639980E3285B1"
+			rewards: [
+				{
+					id: "5D1CD5782B88E336"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "29F8FB8E985E7A2B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "33FC0217550C53E8"
 				item: {
@@ -1658,12 +2762,32 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 5.0d
+			x: 0.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["607639980E3285B1"]
 			id: "040277BDA6078F41"
+			rewards: [
+				{
+					id: "499C48E157D9D9D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "50DCAC6DF263564D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "69F7A164E878CB71"
 				item: {
@@ -1677,12 +2801,32 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 1.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
 			id: "0F8B2583A73E62CA"
+			rewards: [
+				{
+					id: "2317D8E877FA0A23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77126DC60E7A317C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "41451231B5FCD1A4"
 				item: {
@@ -1696,12 +2840,32 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
 			id: "62673C3CE035ECED"
+			rewards: [
+				{
+					id: "643824141C24D940"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "715A639A2C996235"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0F54B11D56A4DAFD"
 				item: {
@@ -1715,12 +2879,32 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 4.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
 			id: "0F9EE9D9375C1AB4"
+			rewards: [
+				{
+					id: "7645B857840935CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "63C1B9306BB8F1DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "54B120043B4E83FB"
 				item: {
@@ -1734,13 +2918,34 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.0d
+			x: 3.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
 			hide_dependency_lines: true
 			id: "2D7C3E569DD03E38"
+			rewards: [
+				{
+					id: "525BB6D70357205A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7F479D7C4EE32357"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "738BDB9A45B54752"
@@ -1756,12 +2961,32 @@
 				type: "item"
 			}]
 			title: "Worn Stone Path"
-			x: 4.5d
-			y: -6.0d
+			x: 1.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["607639980E3285B1"]
+			dependencies: ["626F3C12DF9FDD3F"]
 			id: "20AB40199DC6551F"
+			rewards: [
+				{
+					id: "36594B8317179B77"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CD2FF5A22CB81A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "00BDD2C3582AF998"
 				item: {
@@ -1775,12 +3000,32 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 3.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["20AB40199DC6551F"]
 			id: "60A7E36F597144C4"
+			rewards: [
+				{
+					id: "2387682877AC9B4C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2B4278BBE2A4EA0A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "75329CB341B7AB5E"
 				item: {
@@ -1795,11 +3040,34 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["60A7E36F597144C4"]
+			dependencies: [
+				"60A7E36F597144C4"
+				"040277BDA6078F41"
+			]
 			id: "6061304119AB2DCB"
+			rewards: [
+				{
+					id: "502E4D7F25EB5506"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2033488244F365E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "30FD4491F0DAEFA9"
 				item: {
@@ -1813,12 +3081,35 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 1.5d
+			y: 14.5d
 		}
 		{
-			dependencies: ["60A7E36F597144C4"]
+			dependencies: [
+				"60A7E36F597144C4"
+				"040277BDA6078F41"
+			]
 			id: "3833169F32C303FC"
+			rewards: [
+				{
+					id: "147E16111B7D71C5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "32E9995E00BC2E8C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7EB5771E77EC8820"
 				item: {
@@ -1833,12 +3124,32 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 1.5d
+			y: 13.5d
 		}
 		{
-			dependencies: ["607639980E3285B1"]
+			dependencies: ["626F3C12DF9FDD3F"]
 			id: "5DC43B44FE21B477"
+			rewards: [
+				{
+					id: "2D9BACC7B5832942"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7453C312FC00DDE2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "66F413FFE16558D6"
 				item: {
@@ -1855,12 +3166,35 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.0d
+			x: -2.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["5DC43B44FE21B477"]
+			dependencies: [
+				"5DC43B44FE21B477"
+				"607639980E3285B1"
+			]
 			id: "1F2CE57DECFAE7CD"
+			rewards: [
+				{
+					id: "5C2B3760745208CA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6912C29B611BF235"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1039C23C6DC8A615"
 				item: {
@@ -1875,12 +3209,32 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 6.0d
+			x: -2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
 			id: "425D8E0A762627D7"
+			rewards: [
+				{
+					id: "2F8D1CA08117D1FD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10A400BF915A4CEC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "78CE40E65AC7889F"
 				item: {
@@ -1894,12 +3248,32 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.0d
+			x: 1.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
 			id: "10F5E126E942D3DD"
+			rewards: [
+				{
+					id: "19923E6A6597A240"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D772268B47028FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3B741D6306E30E99"
 				item: {
@@ -1913,11 +3287,14 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 3.0d
+			y: 15.5d
 		}
 		{
-			dependencies: ["10A78F868F365E8D"]
+			dependencies: [
+				"10A78F868F365E8D"
+				"626F3C12DF9FDD3F"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1928,6 +3305,28 @@
 				id: "bloodmagic:altar"
 			}
 			id: "3FF279332FBAE5A9"
+			rewards: [
+				{
+					id: "0B94DF1462BC7B0F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "60BF0B808E4324CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
 			tasks: [
 				{
 					count: 52L
@@ -2045,12 +3444,33 @@
 				}
 			]
 			title: "&4&lTier 5 Blood Altar"
-			x: 4.0d
-			y: 6.0d
+			x: 0.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["1F2CE57DECFAE7CD"]
 			id: "10A78F868F365E8D"
+			rewards: [
+				{
+					id: "28484173E47B7FD7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "6CDE2811377F1AE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1F0696A5D34E0706"
 				item: {
@@ -2064,12 +3484,32 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: -2.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["0220B93C98104CB3"]
 			id: "66D3549B1EE32A7A"
+			rewards: [
+				{
+					id: "66926263EE58410F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1EAD81B87DD2A1F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "78127CCA8EB7AC81"
 				item: {
@@ -2083,12 +3523,33 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: -4.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1F2CE57DECFAE7CD"]
 			id: "61A3F5603EF73698"
+			rewards: [
+				{
+					id: "485E33EF397ABFF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "02552ACFF4080F8A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "708104C2E6EEA064"
 				item: {
@@ -2102,12 +3563,33 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 6.0d
+			x: -3.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["61A3F5603EF73698"]
 			id: "1DBC1430B85642D7"
+			rewards: [
+				{
+					id: "0D7D562F6CF920CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "52AE93255DC48D45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2E07730789F5B4F7"
 				item: {
@@ -2208,12 +3690,33 @@
 				type: "item"
 			}]
 			title: "Reinforced Rune"
-			x: 11.5d
-			y: 6.0d
+			x: -5.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["3FF279332FBAE5A9"]
 			id: "71F84BEE7B1E7DCE"
+			rewards: [
+				{
+					id: "6E94BD5C935FF50E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "6FB7256DBF5FAE5F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "294B4645F66014DF"
 				item: {
@@ -2227,12 +3730,33 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.0d
+			x: 0.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["71F84BEE7B1E7DCE"]
 			id: "0AE475DCCCC8C1EA"
+			rewards: [
+				{
+					id: "33F85DE4063C6CF6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "54134786BED62748"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "663F2CCECEC3E50B"
 				item: {
@@ -2246,13 +3770,34 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: 1.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["0AE475DCCCC8C1EA"]
 			hide_dependency_lines: true
 			id: "721B9896FCFE832B"
+			rewards: [
+				{
+					id: "1AAF76F5FD184FB7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "749FDB6CD441C9F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "79611EE780352048"
@@ -2268,12 +3813,37 @@
 				type: "item"
 			}]
 			title: "Obsidian Path"
-			x: 4.5d
-			y: -7.0d
+			x: 2.0d
+			y: -10.5d
 		}
 		{
-			dependencies: ["5806C8F535701AD6"]
+			dependencies: [
+				"5806C8F535701AD6"
+				"18612C429179D483"
+				"3542FA6FA3D06D8B"
+			]
+			hide_dependency_lines: true
 			id: "70FBD802A8A53834"
+			rewards: [
+				{
+					id: "18D61739C2206264"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04F335A56DE50BAD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "4991E11228F2709A"
@@ -2345,12 +3915,37 @@
 				}
 			]
 			title: "Heretic's Mage Armor"
-			x: 0.5d
-			y: 0.0d
+			x: -7.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["72E6728778BA8F48"]
+			dependencies: [
+				"72E6728778BA8F48"
+				"20A73BE11D09BAFB"
+			]
+			hide_dependency_lines: true
 			id: "3CE144FB7D87F2CF"
+			rewards: [
+				{
+					id: "298EFC62EA416C57"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "6652A0844552BB5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4608426494FF30A5"
 				item: {
@@ -2364,12 +3959,33 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["3CE144FB7D87F2CF"]
 			id: "011897A120FBF8F8"
+			rewards: [
+				{
+					id: "599DB832C543E2FE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "125DD9FED22EE86D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "24328FDDE802F86A"
 				item: {
@@ -2383,12 +3999,35 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: -6.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["011897A120FBF8F8"]
+			dependencies: [
+				"011897A120FBF8F8"
+				"1628B05C9134984A"
+			]
 			id: "4BD9D008A6F71B8F"
+			rewards: [
+				{
+					id: "1AAE88DC99F07EB0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FAB779E6048AA73"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4D03DD20BB9A0B38"
 				item: {
@@ -2402,12 +4041,37 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.0d
+			x: -5.0d
+			y: -7.5d
 		}
 		{
-			dependencies: ["41CEA837D68F75FF"]
+			dependencies: [
+				"41CEA837D68F75FF"
+				"505D987EB8D4FDBF"
+			]
+			hide_dependency_lines: true
 			id: "1B9E81B15D60AF58"
+			rewards: [
+				{
+					id: "40AEFC459544B219"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "31A29F31262F03E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3CEB8847AAAD4CAD"
 				item: {
@@ -2421,12 +4085,38 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["41CEA837D68F75FF"]
+			dependencies: [
+				"41CEA837D68F75FF"
+				"505D987EB8D4FDBF"
+				"643B53AB75DA4DEB"
+			]
+			hide_dependency_lines: true
 			id: "0630D2A82ECC1041"
+			rewards: [
+				{
+					id: "0F09D22F207229D7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "263D4F9654D3FDC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "20C6A5C130E552F7"
 				item: {
@@ -2440,8 +4130,48 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2189104C47DB4552"]
+			id: "5C2B19A5E7B6BCE1"
+			rewards: [
+				{
+					id: "1E26A66B3462D031"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7AB7A4F47A1A85D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "204F09602356D0CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bloodmagic:selfsacrificerune"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "&eBlood Magic"
