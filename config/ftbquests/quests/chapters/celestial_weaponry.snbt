@@ -804,7 +804,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["27871561BE483CFC"]
+			dependencies: ["447913326559D54F"]
 			id: "1B186ABB2F71E3F9"
 			tasks: [{
 				id: "7C6193404BBA3BBB"
@@ -820,8 +820,8 @@
 				type: "item"
 			}]
 			title: "&b&lCrimson Piece"
-			x: 2.0d
-			y: -2.0d
+			x: 3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["27871561BE483CFC"]
@@ -1439,6 +1439,38 @@
 			title: "AUTOFOCUS"
 			x: -2.0d
 			y: 6.75d
+		}
+		{
+			dependencies: ["27871561BE483CFC"]
+			description: [
+				"Monoliths can be found spawning through various locations in the world. The primary things you need to know about monoliths are as follows:"
+				""
+				"They spawn very strong, hostile monsters, known as Traversers. They have multiple abilities for dealing and avoiding damage as well as being highly mobile."
+				""
+				"Monoliths found in the overworld require a crimson piece to activate and spawn more Traversers. Crimson pieces are only obtained from&c killing traversers."
+				"&r"
+				"Monoliths found in nether fortresses automatically begin spawning. Meaning you have to find your first monolith in THE NETHER, before being able to use the overworld monoliths with the crimson pieces obtained from the nether."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createdeco:decal_warning"
+			}
+			id: "447913326559D54F"
+			size: 1.5d
+			subtitle: "Using Monoliths"
+			tasks: [{
+				id: "1147AFB7EAF71FE9"
+				title: "Monoliths and Traverser"
+				type: "checkmark"
+			}]
+			title: "Monoliths and Traversers"
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 	title: "&eCelestial Arsenal"

@@ -2037,7 +2037,7 @@
 				}
 				type: "item"
 			}]
-			title: "Acquire a wannabee"
+			title: "Acquire a Wannabee"
 			x: -11.0d
 			y: 11.0d
 		}
@@ -4471,7 +4471,15 @@
 			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "botania:pure_daisy"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:pure_daisy"
+			}
 			id: "226D9E7D5808E82A"
 			rewards: [
 				{
@@ -4493,12 +4501,23 @@
 			]
 			subtitle: "Petal Apothecary"
 			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:sturdy_bee_cage"
+				}
 				id: "08BD2CD08566394B"
 				observe_type: 5
 				timer: 0L
+				title: "Acquire a pure bee"
 				to_observe: "productivebees:pure"
 				type: "observation"
 			}]
+			title: "Acquire a pure bee"
 			x: -1.0d
 			y: 22.5d
 		}
