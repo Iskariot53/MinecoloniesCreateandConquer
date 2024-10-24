@@ -24,6 +24,11 @@
 	quests: [
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
+			description: [
+				"Industrial foregoing is another tech and automation mod whose progress is integrated into core gameplay. While many things from this chapter can be ignored if you so choose, if you wish to reach the full extent of endgame content, you will need to at very least obtain a means to produce both: &eplastic&r and &3ether gas&r."
+				""
+				"&n&6Note: You will need a 3x3 mechanical grid to progress through this chapter.&r&r"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -34,12 +39,27 @@
 				id: "industrialforegoing:machine_frame_pity"
 			}
 			id: "33B295CC0DBBE25D"
-			size: 1.5d
-			tasks: [{
-				id: "58C034695D900E74"
-				title: "Welcome to Industrial Foregoing!"
-				type: "checkmark"
+			rewards: [{
+				id: "10F70B600D05B1D0"
+				type: "xp"
+				xp: 5
 			}]
+			size: 1.5d
+			subtitle: "Industrialize the world!"
+			tasks: [{
+				id: "43AACFC5F93A2168"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "industrialforegoing:machine_frame_pity"
+				}
+				type: "item"
+			}]
+			title: "Welcome to Industrial Foregoing!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -69,7 +89,30 @@
 		}
 		{
 			dependencies: ["33B295CC0DBBE25D"]
+			description: ["Fluid Extractors, when placed with its operational face (the side with the black circle) towards a log, will begin to extract liquid Latex out of the log, at a rate of 4 mB per second, eventually stripping and then breaking the log."]
 			id: "7CB1FCF385AB0903"
+			rewards: [
+				{
+					id: "467C7ED36978D564"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "7197FCF7C7CD55CA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Obtaining latex"
 			tasks: [{
 				id: "2B7562681CC73B58"
 				item: "industrialforegoing:fluid_extractor"
@@ -80,7 +123,30 @@
 		}
 		{
 			dependencies: ["33B295CC0DBBE25D"]
+			description: ["Basic, but it works. The pitiful generator will burn most \"burnable\" fuels and slowly generate FE. They are not very efficient and will continue burning (and wasting) fuel, even if the power output buffer is full, they will not stop burning and attempting to generate power, wether they currently can or not."]
 			id: "21C67F443586C6AE"
+			rewards: [
+				{
+					id: "5CD1CCCEB1F0D381"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "5E683528444864CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Pitiful..."
 			tasks: [{
 				id: "4BAB730109988666"
 				item: "industrialforegoing:pitiful_generator"
@@ -91,7 +157,30 @@
 		}
 		{
 			dependencies: ["7CB1FCF385AB0903"]
+			description: ["Liquid latex can be piped directly into the Latex Processing Unit or transferred manually by bucket if needed. Unlike extractors, these machines require power and water to run."]
 			id: "3BCF428D32DC21BF"
+			rewards: [
+				{
+					id: "2F0751117B153AD6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 6
+					id: "4FCE5F0CBFFD8D13"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Processing latex into rubber"
 			tasks: [{
 				id: "4F2B41E6F2E34EB6"
 				item: "industrialforegoing:latex_processing_unit"
@@ -102,7 +191,34 @@
 		}
 		{
 			dependencies: ["3BCF428D32DC21BF"]
+			description: [
+				"Once processed in a processing unit, tiny dry rubber is then crafted into dry rubber, which is in turn smelted into &6plastic&r."
+				""
+				"Automate the entire process from logs + fluid extractor to plastic, this will make your life a lot easier."
+			]
 			id: "67C1B1AABD91D7BE"
+			rewards: [
+				{
+					id: "036FBF78DF09CBD6"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "1F6CD7737650D095"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "9 Tiny dry rubber = 1 Dry rubber"
 			tasks: [{
 				count: 4L
 				id: "391478A14B6E69F3"
@@ -114,8 +230,37 @@
 		}
 		{
 			dependencies: ["67C1B1AABD91D7BE"]
+			description: [
+				"Used in many, MANY recipes... Plastic production is going to be a major basis for your progression through out the entirety of the tech tree. "
+				""
+				"While ether gas is only required for later game tech progression, making plastic is going to be unavoidable if you want to progress to more productive/efficient machines and technologies."
+				""
+				"Again, the automation of this process is &ohighly&r advised, and borders not even being optional."
+			]
 			id: "3D4155EE85E93B3E"
+			rewards: [
+				{
+					id: "7FC330655CB89CA0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "70D7784779034A19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
+			subtitle: "A staple of tech progression"
 			tasks: [{
 				id: "08696DC78BDEEEAC"
 				item: "industrialforegoing:plastic"
@@ -126,7 +271,29 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: ["While the dissolution chamber has many functions, the primary things you will want it for more immediately will be for producing higher tiers of machine frames and machine upgrades in general."]
 			id: "18637DEC415FBBB9"
+			rewards: [
+				{
+					id: "615EB9F4F2E61930"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3F16AB09DEA527A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Making machine frames and upgrades"
 			tasks: [{
 				id: "450220E34F34CA11"
 				item: "industrialforegoing:dissolution_chamber"
@@ -137,7 +304,22 @@
 		}
 		{
 			dependencies: ["18637DEC415FBBB9"]
+			description: [
+				"Simple machine frames are crafted via mechanical crafting exclusive recipes."
+				""
+				"Simple machine frames are made with: "
+				""
+				"2x nether brass"
+				"2x nether brick"
+				"2x plastic"
+				"1x pity machine frame"
+				"1x gold gear"
+				"1x precision mechanism"
+				""
+				"&6Placed into a 3x3 mechanical grid&r. &aJEI&r can provide you with the specific shape in which the recipe needs to be placed into the grid."
+			]
 			id: "13D06CA200A91C28"
+			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "45C344D4F7E2BFF8"
 				item: "industrialforegoing:machine_frame_simple"
@@ -148,7 +330,13 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: [
+				"The mob slaughter factory is used to process mobs and animals into liquid meat and pink slime. The animals killed by this machine will not produce drops or experience."
+				""
+				"Mobs killed will produce 5 mb of liquid meat per HP and 1 mb of pink slime per HP."
+			]
 			id: "11C6AAD5E91C79B6"
+			subtitle: "Farming pink slime and liquid meat."
 			tasks: [{
 				id: "1CB2DA0EA58FE1E4"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -160,6 +348,7 @@
 		{
 			dependencies: ["11C6AAD5E91C79B6"]
 			id: "05CC4211C4E2F99E"
+			subtitle: "Farmed from mob slaughter factories"
 			tasks: [{
 				id: "287CCA2F6307AAE5"
 				item: "industrialforegoing:pink_slime_bucket"
@@ -174,6 +363,7 @@
 				"13D06CA200A91C28"
 			]
 			id: "112A9B8C8A737352"
+			subtitle: "Standard Recipe"
 			tasks: [{
 				id: "527E41C733B637D6"
 				item: "industrialforegoing:machine_frame_advanced"
@@ -187,7 +377,9 @@
 				"112A9B8C8A737352"
 				"7DCFE8D3D3D030AB"
 			]
+			description: ["Used for the most advanced machine frames, and therefor the most advanced IF machines. "]
 			id: "6DC065159F905D68"
+			subtitle: "Standard Recipe"
 			tasks: [{
 				id: "1FE19A55286D9488"
 				item: "industrialforegoing:machine_frame_supreme"
@@ -429,7 +621,9 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: ["The Laser Drill is used to convert power into working operations for laser bases. The laser drill must be placed one block away from the laser base with the back of the machine facing the laser base. Proper placement is indicated by a visual effect connecting the laser drill to the laser base. "]
 			id: "2DEFA925E78A3A3E"
+			subtitle: "Required for ether production"
 			tasks: [{
 				id: "10908519B89C3387"
 				item: "industrialforegoing:laser_drill"
@@ -440,7 +634,9 @@
 		}
 		{
 			dependencies: ["2DEFA925E78A3A3E"]
+			description: ["The fluid laser base is a machine used with one or multiple laser drills to produce ores. Laser lenses can be used to select which fluid the laser base will extract. When a purple laser lense is inserted and the base placed above a wither, it will attempt to extract ether. When placed in the nether with an orange lense inserted, it will attempt to extract lava. In the GUI of the laser base, the bar on the left displays the amount of work that has been performed by the laser drill(s). When it reaches 100%, one bucket of fluid is produced. Work changes by 1% every time a laser drill completes an operation."]
 			id: "549AD8EF3E9A90F7"
+			subtitle: "Fluid void miner"
 			tasks: [{
 				id: "6D938A00A801DAA5"
 				item: "industrialforegoing:fluid_laser_base"
@@ -451,7 +647,9 @@
 		}
 		{
 			dependencies: ["2DEFA925E78A3A3E"]
+			description: ["The ore laser base is a machine used with one or multiple laser drills to produce ores. Laser lenses can be used to increase or decrease the chances of specific ores. The laser base can hold up to six lenses. In the GUI of the laser base, the bar on the left displays the amount of work that has been performed by the Laser Drill(s). When it reaches 100%, one block of ore is produced. Work changes by 1% every time a laser drill completes an operation."]
 			id: "591CBA05856D958C"
+			subtitle: "Infinite void miner"
 			tasks: [{
 				id: "64353422361D535F"
 				item: "industrialforegoing:ore_laser_base"
@@ -462,7 +660,13 @@
 		}
 		{
 			dependencies: ["0A4C2EEA3BB31EAC"]
+			description: [
+				"Ether gas is used in the production or at least in accessing multiple late game items and machines. "
+				""
+				"If late game tech and progression is your goal?... Automate this process."
+			]
 			id: "7DCFE8D3D3D030AB"
+			subtitle: "This is all that is \"required\" from IF"
 			tasks: [{
 				id: "0605AF9F220A4E2B"
 				item: "industrialforegoing:ether_gas_bucket"
@@ -499,6 +703,7 @@
 		{
 			dependencies: ["549AD8EF3E9A90F7"]
 			id: "27F3261702E8B6F2"
+			subtitle: "Required for ether production"
 			tasks: [{
 				id: "59B62157F2D9FF93"
 				item: "industrialforegoing:laser_lens10"
@@ -509,7 +714,13 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: [
+				"The stasis chamber can be used to trap entities in stasis, in short: it freezes them in place."
+				""
+				"A wither within a &6stasis chamber&r. With a &6fluid laser drill&r, containing a &dpurple laser lense&r, placed above it. Are the basis for starting &3ether gas&r production."
+			]
 			id: "0A4C2EEA3BB31EAC"
+			subtitle: "Required for ether production"
 			tasks: [{
 				id: "1E28899CDF53C3D1"
 				item: "industrialforegoing:stasis_chamber"
@@ -564,6 +775,11 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: [
+				"With the absence of the likes of fusion reactors, the mycelial power grid is by far the most powerful generator in the world. While few things, if anything, in the pack will require this level of power production, it is a viable option if you cannot get your power grid running efficiently. Or if you just want a lot of power."
+				""
+				"The only exception being antimatter... you're gonna need &nA LOT&r of power for that... so make sure to build an induction matrix and start storing energy reserves sooner rather than later if you plan to progress to this point."
+			]
 			id: "64198B81337A34FE"
 			subtitle: "The most powerful reactor in the MCC world"
 			tasks: [{
@@ -797,8 +1013,16 @@
 		}
 		{
 			dependencies: ["6DC065159F905D68"]
+			description: [
+				"When surrounded by the mycelial generators AND &eall generators are currently running&r. The Mycelial Reactor will output 25mfe/t."
+				""
+				"To put this in perspective it produces 5mfe/t MORE than a \"base\" level fusion reactor would from mekanism, which are not present. "
+				""
+				"(Just a little salt laden reminder for you.)"
+			]
 			hide_dependency_lines: true
 			id: "4E4B991E67B93047"
+			subtitle: "Produces 25mfe per tick when all others are running"
 			tasks: [{
 				id: "4C4DA8175F3AC37A"
 				item: "industrialforegoing:mycelial_reactor"
@@ -905,6 +1129,50 @@
 			}]
 			x: -8.0d
 			y: 23.0d
+		}
+		{
+			dependencies: ["7DCFE8D3D3D030AB"]
+			id: "1F9BFADE9C87C0C1"
+			tasks: [{
+				id: "6BD6F5053101F34E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "chicken_roost:c_ether"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["7DCFE8D3D3D030AB"]
+			id: "5B7C670915E05F23"
+			tasks: [{
+				id: "4851BDE166A1522F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ether_gas"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 22.5d
 		}
 	]
 	title: "&eIndustrial Foregoing"

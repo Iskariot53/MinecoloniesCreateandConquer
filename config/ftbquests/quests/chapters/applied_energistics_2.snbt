@@ -37,11 +37,27 @@
 				id: "ae2:nether_quartz_wrench"
 			}
 			id: "2ED038A81358A49E"
-			rewards: [{
-				id: "2A4068C5C7256130"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2A4068C5C7256130"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2C111985EB6714A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Advanced logistics solutions."
 			tasks: [
@@ -142,6 +158,27 @@
 		{
 			dependencies: ["64D7B14BB546AA95"]
 			id: "3F7AFC22A9E414A8"
+			rewards: [
+				{
+					id: "0AD61C09140C99FB"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 2
+					id: "7F96BD9E031C700B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3F0F240539CF4573"
 				item: {
@@ -161,6 +198,27 @@
 		{
 			dependencies: ["3F7AFC22A9E414A8"]
 			id: "23FB30854CA7BAF9"
+			rewards: [
+				{
+					id: "406F937F1E62F2E2"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 3
+					id: "73B61847C3C7A9A7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3009D558B62EC8AB"
 				item: {
@@ -180,6 +238,26 @@
 		{
 			dependencies: ["23FB30854CA7BAF9"]
 			id: "0437844BA6E8DB96"
+			rewards: [
+				{
+					id: "42F322888463BAD6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5E0AA195152D8A8B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3FB12718A95E0B2E"
 				item: {
@@ -234,6 +312,7 @@
 		}
 		{
 			dependencies: ["64D7B14BB546AA95"]
+			description: ["You can go the route of in-world transformation, or if you have already set up for roosting chickens, this will probably be a better route than growing and harvesting crystals the old fashioned way, it's up to you."]
 			id: "4082E16DA772705A"
 			rewards: [{
 				id: "45F2AAF526867ED2"
@@ -262,6 +341,27 @@
 			dependencies: ["64D7B14BB546AA95"]
 			description: ["Certus quartz is the primary resource utilized by the mod, at least in the early stages. Now that you have access to certus crystals and therefor dust, now it's time to work towards charging it."]
 			id: "55B45DFB8B74400C"
+			rewards: [
+				{
+					id: "62732734734BD5BA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 6
+					id: "0020C730893F4850"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Everything works normally from here!"
 			tasks: [{
 				id: "50C06B3486D53FAE"
@@ -287,6 +387,27 @@
 				"This can also be accomplished via tesla coil charging if you prefer the Create route!"
 			]
 			id: "1F8E11D7CAFA5B63"
+			rewards: [
+				{
+					id: "0BBCE6B6E4932684"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "3385B25B98848594"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Charging certus"
 			tasks: [{
 				id: "2DB4D521FFB9473D"
@@ -337,6 +458,27 @@
 				"To do this you will need to insert the prerequisite press for the circuit or processor needed. It is advisable to set up a dedicated inscriber for each, at least early on."
 			]
 			id: "7A4FF3976EB91CEB"
+			rewards: [
+				{
+					id: "1D1DAD6783B26586"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "2CE070B25232F6DC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Dusts, circuits and processors"
 			tasks: [{
 				id: "6E7C6E625C42AB5E"
@@ -377,6 +519,27 @@
 			dependencies: ["2ED038A81358A49E"]
 			description: ["Made with 16x&3 nether quartz&r, 4 stone and 1 precision mechanism."]
 			id: "7EF66B49E69B57E0"
+			rewards: [
+				{
+					id: "7885807866487099"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "7699BDC97A58897A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "79949391C147392D"
@@ -398,6 +561,27 @@
 			dependencies: ["2ED038A81358A49E"]
 			description: ["Made with 16x &6gold ingots&r, 4 stone and 1 precision mechanism."]
 			id: "757A217506F440A2"
+			rewards: [
+				{
+					id: "684DE145BBE385A6"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "4F48AD846C7BEDBB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "189BB55180C35EC6"
@@ -419,6 +603,27 @@
 			dependencies: ["2ED038A81358A49E"]
 			description: ["Made with 16x &7iron ingots&r, 4 stone and 1 precision mechanism."]
 			id: "22891E06BE664695"
+			rewards: [
+				{
+					id: "203F30158CFF283E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "57BB8129FBA530C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "148FB2D52E8CEDF2"
@@ -440,6 +645,27 @@
 			dependencies: ["2ED038A81358A49E"]
 			description: ["Made with 16x &bdiamonds&r, 4 stone and 1 precision mechanism."]
 			id: "7F7D5A012187CF4F"
+			rewards: [
+				{
+					id: "716CB901E2FCC1C7"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "250724DB94D61637"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "2A024E686EBF264E"
@@ -499,7 +725,6 @@
 					xp: 20
 				}
 				{
-					count: 5
 					id: "48A6C01C1662441C"
 					item: {
 						Count: 1
@@ -508,7 +733,7 @@
 								cs.aquaSkin: 0
 							}
 						}
-						id: "numismatics:spur"
+						id: "numismatics:bevel"
 					}
 					type: "item"
 				}
@@ -580,6 +805,26 @@
 			]
 			description: ["Along with &dfluix crystals&r, &6processors&r are going to be used in &clarge quatities&r, you are going to want to automate the production process. Just as how fluix crystals are required for most things cable related, processors of one kind or another are going to be required for almost &eevery network component you will build&r."]
 			id: "7A33AF5CD7476775"
+			rewards: [
+				{
+					id: "3BB5C3846D3C749D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5DC92FC7418D53D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "This too!"
 			tasks: [
@@ -794,6 +1039,40 @@
 				"A controller can have 2 adjacent blocks in at most 1 axis; if a block violates this rule, it will disable and turn red."
 			]
 			id: "38A8DAD3A173256D"
+			rewards: [
+				{
+					id: "5C8E1AB146905033"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "03171FF269E0BDF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32D8F36359CD967C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "The heart of every major network"
 			tasks: [{
@@ -823,6 +1102,27 @@
 				"Your basic terminal, allows you to do little more than view and access the contents of your network's storage and request things from your autocrafting setup though. to do more, you will need to upgrade it."
 			]
 			id: "6012663645C252FB"
+			rewards: [
+				{
+					id: "2C4343DD5C992D80"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 7
+					id: "015563D84C441652"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Viewing your network"
 			tasks: [{
 				id: "6473ECD3D2CA99B7"
@@ -843,6 +1143,27 @@
 		{
 			dependencies: ["7A33AF5CD7476775"]
 			id: "65EAA584EE12D3D9"
+			rewards: [
+				{
+					id: "4CA04E6F330EE6A9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "5DC2AD7AF2ECECE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7E4733C98B56F812"
 				item: {
@@ -862,6 +1183,27 @@
 		{
 			dependencies: ["7A33AF5CD7476775"]
 			id: "7E2C5C3483A9E51A"
+			rewards: [
+				{
+					id: "57C2841E98441526"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "3F9F1ABCD9100773"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6D2979BCEFCF9189"
 				item: {
@@ -904,7 +1246,29 @@
 				"6012663645C252FB"
 				"05607C56B0320CD7"
 			]
+			description: ["Using either an ME Chest or an ME drive, cells can be inserted and their contents interacted with manually. Terminals will make this much easier, providing a dedicated access point for storage mediums."]
 			id: "0348661A4898AAAD"
+			rewards: [
+				{
+					id: "67912ABF32F09D0D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "74D3DF8C994C9A14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Cells go here"
 			tasks: [
 				{
 					id: "161926C34343F80C"
@@ -933,6 +1297,7 @@
 					type: "item"
 				}
 			]
+			title: "ME Chests and Drives"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -944,6 +1309,27 @@
 				"Items can be dragged into the slots from &aJEI&r even, if you don't actually have any of that item."
 			]
 			id: "03308BA3DDCC5932"
+			rewards: [
+				{
+					id: "1EE52EDD56827276"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "63DFDB3F92DCFCC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "filtering and partitioning storage cells"
 			tasks: [{
 				id: "06A667224E238BCF"
@@ -1809,6 +2195,28 @@
 			description: ["The IO Port allows you to rapidly fill or empty storage cells to or from network storage."]
 			hide_dependency_lines: false
 			id: "05607C56B0320CD7"
+			rewards: [
+				{
+					id: "0469469F6098873A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "25393EAA3DAE75CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Input/Output"
 			tasks: [{
 				id: "7EFC2800229FE102"
 				item: {
@@ -1861,7 +2269,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["05607C56B0320CD7"]
@@ -1879,11 +2287,12 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["3A6584785944AF27"]
+			hide_dependency_lines: true
 			id: "089EC148C8AAF1EC"
 			tasks: [{
 				id: "051D1634320921BD"
@@ -1899,8 +2308,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 9.5d
+			x: 6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -1942,7 +2351,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 10.5d
 		}
 		{
@@ -1962,7 +2371,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["50661F8E42D7DCA0"]
