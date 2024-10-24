@@ -7,25 +7,660 @@
 	id: "0D98B33203B576DF"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["4386DFA29FCEDD4D"]
-		icon: {
-			Count: 1
-			ForgeCaps: {
-				"celestisynth:celestisynthitemstackcapabilities": {
-					cs.aquaSkin: 0
+	quests: [
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			description: ["As with any other playthrough in a pack involving Mekanism, start off by gathering some osmium ingots. Osmium chickens and/or bees, or even laser drills will aid in making this resource less painfully sustainable."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
 				}
+				id: "mekanism:ingot_osmium"
 			}
-			id: "mekanism:ingot_osmium"
-		}
-		id: "71070D1348F6EBF2"
-		tasks: [{
-			id: "62691EBB65E200D9"
+			id: "71070D1348F6EBF2"
+			rewards: [
+				{
+					id: "77CD043349B4E61A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 4
+					id: "7DDA405C6C316724"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "This stuffs a little bit harder to find than usual"
+			tasks: [{
+				count: 6L
+				id: "5CF85FD278F2DA6D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:ingot_osmium"
+				}
+				type: "item"
+			}]
 			title: "Welcome to Mekanism!"
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71070D1348F6EBF2"]
+			id: "744BF2D2E55A1511"
+			tasks: [{
+				id: "48BA68D98D82DF8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:metallurgic_infuser"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A54CB7CC678C553"]
+			id: "0DFEC0DF582D9988"
+			tasks: [{
+				id: "27C16BAB6900FC12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:enrichment_chamber"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.285714285714292d
+		}
+		{
+			dependencies: ["744BF2D2E55A1511"]
+			id: "63440E310364A62A"
+			tasks: [
+				{
+					id: "245D6E717FCFB082"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mekanism:enriched_iron"
+					}
+					type: "item"
+				}
+				{
+					id: "301ED8DE75926FE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/steel"
+						}
+					}
+					title: "Any #forge:dusts/steel"
+					type: "item"
+				}
+				{
+					id: "00AD1133B558E012"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/steel"
+						}
+					}
+					title: "Any #forge:ingots/steel"
+					type: "item"
+				}
+			]
+			title: "Enriching iron to make steel"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63440E310364A62A"]
+			id: "1A54CB7CC678C553"
+			size: 1.5d
+			tasks: [{
+				id: "63BE4571A3BA22D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:steel_casing"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DFEC0DF582D9988"]
+			id: "64C7CCAD15697CAF"
+			tasks: [{
+				id: "4447476B165D6E0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:enriched_carbon"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0DFEC0DF582D9988"]
+			id: "5157EFB7AFF4E525"
+			tasks: [{
+				id: "32CA5817D6E18026"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:enriched_redstone"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DFEC0DF582D9988"]
+			id: "72DCC1B8F79DDF5D"
+			tasks: [{
+				id: "1B6353D975F4B399"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:enriched_diamond"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DFEC0DF582D9988"]
+			id: "4C4BC66202FE4CEA"
+			tasks: [{
+				id: "27FCC9D87E7F48A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:enriched_refined_obsidian"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4B014E76BB899429"]
+			id: "4D97B36C553829F3"
+			tasks: [{
+				id: "0E097C48250DB1D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:chemical_oxidizer"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["38FEAC55F958F1AF"]
+			id: "45C5145795B1BD29"
+			tasks: [{
+				id: "3906B4DFC98B94DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:isotopic_centrifuge"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3529BF2321A4EC4E"]
+			id: "0BC1B7B07FC3E8F1"
+			tasks: [{
+				id: "7EC13BD9798B8ED6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:solar_neutron_activator"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["45C5145795B1BD29"]
+			id: "5E2E8F6B86F18A15"
+			tasks: [{
+				id: "625E65011AE5DC72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pellet_plutonium"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["0BC1B7B07FC3E8F1"]
+			id: "73EFA418A2DD6732"
+			tasks: [{
+				id: "6CEBCCBDFC6D6CBB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pellet_polonium"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4B014E76BB899429"]
+			id: "3529BF2321A4EC4E"
+			tasks: [{
+				id: "41409EAD79291502"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pressurized_reaction_chamber"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["744BF2D2E55A1511"]
+			hide_dependency_lines: true
+			id: "68B188F4166F5D7F"
+			tasks: [{
+				id: "7207C39E254E0BFB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:alloy_infused"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["68B188F4166F5D7F"]
+			id: "0DD4E9D455135EA9"
+			tasks: [{
+				id: "1C7510B119A3EA8B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:alloy_reinforced"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0DD4E9D455135EA9"]
+			id: "2ABD0207F3170B90"
+			tasks: [{
+				id: "799D302F88171EEC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:alloy_atomic"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["744BF2D2E55A1511"]
+			hide_dependency_lines: true
+			id: "4B014E76BB899429"
+			tasks: [{
+				id: "215A91C5B777C1E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:basic_control_circuit"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B014E76BB899429"]
+			id: "0653F1F63884FF23"
+			tasks: [{
+				id: "21359DE4FA38C427"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:advanced_control_circuit"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0653F1F63884FF23"]
+			id: "1FD8BF9F8FD76037"
+			tasks: [{
+				id: "048DCDD1C5202C24"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:elite_control_circuit"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1FD8BF9F8FD76037"]
+			id: "38FEAC55F958F1AF"
+			tasks: [{
+				id: "2E62D2E8B04C4014"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:ultimate_control_circuit"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4B014E76BB899429"]
+			id: "4FA8A47B669B78FE"
+			tasks: [{
+				id: "431C4F61DD71A6F4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:electrolytic_separator"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5E2E8F6B86F18A15"
+				"73EFA418A2DD6732"
+			]
+			id: "62135299C53DAEC4"
+			subtitle: "Anti-matter"
+			tasks: [{
+				id: "7655D66335781688"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:sps_casing"
+				}
+				type: "item"
+			}]
+			title: "The Supercritical Phase Shifter"
+			x: 0.0d
+			y: 20.5d
+		}
+		{
+			dependencies: [
+				"62135299C53DAEC4"
+				"6B78992C7D17BD78"
+			]
+			id: "0AA9DD3766093E67"
+			size: 1.5d
+			tasks: [{
+				id: "403456746519EE4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pellet_antimatter"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.5d
+		}
+		{
+			dependencies: [
+				"118623DACF6DC891"
+				"38FEAC55F958F1AF"
+			]
+			id: "6B78992C7D17BD78"
+			tasks: [{
+				id: "3FD225D4E0A2CD7F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:chemical_crystallizer"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["0653F1F63884FF23"]
+			hide_dependency_lines: true
+			id: "118623DACF6DC891"
+			tasks: [{
+				id: "39E7AE37355B9A1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:osmium_compressor"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"0BC1B7B07FC3E8F1"
+				"45C5145795B1BD29"
+			]
+			hide_dependency_lines: true
+			id: "46A87BCB7D8F979B"
+			tasks: [{
+				id: "7DF667C1AD9B9345"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "chicken_roost:c_wastedradioactive"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"0BC1B7B07FC3E8F1"
+				"45C5145795B1BD29"
+			]
+			hide_dependency_lines: true
+			id: "794D846686D3A832"
+			tasks: [{
+				id: "273CB2B798BDED16"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:wasted_radioactive"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+	]
 	title: "&eMekanism"
 }
