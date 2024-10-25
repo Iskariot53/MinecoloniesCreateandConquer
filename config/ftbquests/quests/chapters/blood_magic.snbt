@@ -233,7 +233,7 @@
 				"- Placing the Blood Orb inside a Blood Altar with Life Essence; the Orb will absorb it as quickly as possible."
 				""
 				""
-				"Each Tier of the Blood Altar has a separate Blood Orb. The Weak Blood Orb has a maximum capacity of &e5,000&r LP."
+				"Each Tier of the Blood Altar has a separate Blood Orb. The &4&lWeak Blood Orb&r&r has a maximum capacity of &e5,000&r LP."
 			]
 			id: "02A839C999489FDC"
 			rewards: [
@@ -746,7 +746,7 @@
 		{
 			dependencies: ["402ED5DAF12B3CCD"]
 			description: [
-				"The Alchemy Table crafts items using LP from a Soul Network. The Soul Network used and the available recipe tiers depend on the Blood Orb inserted on the right side of the GUI."
+				"The &4&lAlchemy Table&r&r crafts items using &eLP&r from a Soul Network. The Soul Network used and the available recipe tiers depend on the &4&lBlood Orb&r&r inserted on the right side of the GUI."
 				""
 				"The Alchemy Table is used to craft various Blood Magic components and offers alternate recipes for some vanilla items as well."
 			]
@@ -793,11 +793,11 @@
 		{
 			dependencies: ["23ACD832D25BBF47"]
 			description: [
-				"Arcane Ashes are essential for creating Alchemy Arrays and can be crafted in the Alchemy Table using early-game items."
+				"&7&lArcane Ashes&r&r are essential for creating &7&lAlchemy Arrays&r&r and can be crafted in the Alchemy Table using early-game items."
 				""
 				"To create an Alchemy Array, right-click while looking at a block with Arcane Ashes in hand. This consumes 1 durability out of 20 and draws a simple array that has no effects by itself."
 				""
-				"When you click on the Alchemy Array, it will consume an item from your hand and hold it in the array, determining its effect. Each effect requires a base item and a catalyst. The base is the first item clicked on the array, and the catalyst is the second. When you apply the base item, the array's design changes if valid, and it activates once the catalyst is applied. (Check JEI for all valid Alchemy Arrays.)"
+				"When you click on the Alchemy Array, it will consume an item from your hand and hold it in the array, determining its effect. Each effect requires a base item and a catalyst. The base is the first item clicked on the array, and the catalyst is the second. When you apply the base item, the array's design changes if valid, and it activates once the catalyst is applied. (&eCheck JEI for all valid Alchemy Arrays&r.)"
 			]
 			id: "28DE6C8C3AB0B079"
 			rewards: [
@@ -842,7 +842,7 @@
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
-			description: ["The Water Sigil is a straightforward tool. Right-clicking with it while looking at a block drains 100 LP from your Soul Network to place a source block of water in the world. If there isn’t enough LP, it will instead drain health to cover the cost."]
+			description: ["The &b&lWater Sigil&r&r is a straightforward tool. Right-clicking with it while looking at a block drains 100 LP from your Soul Network to place a source block of water in the world. If there isn’t enough LP, it will instead drain health to cover the cost."]
 			id: "76B608EE649B732F"
 			rewards: [
 				{
@@ -883,7 +883,7 @@
 		}
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
-			description: ["The Lava Sigil is the sister sigil to the Water Sigil. Right-clicking while holding the Lava Sigil creates a source block of lava on the ground for a cost of 1,000 LP. If you don’t have enough LP in your Soul Network, it will drain 5 hearts from you instead."]
+			description: ["The &c&lLava Sigil&r&r is the sister sigil to the Water Sigil. Right-clicking while holding the Lava Sigil creates a source block of lava on the ground for a cost of 1,000 LP. If you don’t have enough LP in your Soul Network, it will drain 5 hearts from you instead."]
 			id: "5B0D3DCCC85E77AC"
 			rewards: [
 				{
@@ -925,7 +925,7 @@
 		{
 			dependencies: ["28DE6C8C3AB0B079"]
 			description: [
-				"The Divination Sigil is likely one of the first sigils you'll want to craft in Blood Magic. It has two primary uses:"
+				"The &6&lDivination Sigil&r&r is likely one of the first sigils you'll want to craft in Blood Magic. It has two primary uses:"
 				""
 				"- Right-clicking while aiming at the air with a bound sigil displays the amount of LP in your Soul Network."
 				""
@@ -972,9 +972,9 @@
 		{
 			dependencies: ["249E50082676EC01"]
 			description: [
-				"Now that you have a Tier 2 Altar, you can obtain Life Essence from sources other than yourself."
+				"Now that you have a Tier 2 Altar, you can obtain &4Life Essence&r from sources &nother than yourself&r."
 				""
-				"The Dagger of Sacrifice allows you to instantly kill any mob (hostile or passive) within 2 blocks of your Blood Altar, granting you a decent amount of LP. You can increase the LP gained per kill by using Runes of Sacrifice, as different entities provide varying amounts of LP."
+				"The &4&lDagger of Sacrifice&r&r allows you to instantly kill any mob (hostile or passive) within 2 blocks of your Blood Altar, granting you a decent amount of LP. You can increase the LP gained per kill by using Runes of Sacrifice, as different entities provide varying amounts of LP."
 			]
 			id: "5562E10C3DC252A9"
 			rewards: [
@@ -1016,7 +1016,7 @@
 		}
 		{
 			dependencies: ["1E9B01D3442000FB"]
-			description: ["The Speed Rune enhances all crafting operations of the Blood Altar. Each rune adds an additive increase of +20% to both the crafting speed and the speed at which progress is lost when the Altar is empty."]
+			description: ["The &b&lSpeed Rune&r&r enhances all crafting operations of the Blood Altar. Each rune adds an additive increase of &e+20%&r to both the crafting speed and the speed at which progress is lost when the Altar is empty."]
 			id: "64B5CC69ED2E0B37"
 			rewards: [
 				{
@@ -1097,7 +1097,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
-			description: ["The Rune of Self Sacrifice increases the amount of Life Essence gained in the Blood Altar from actions that take health from non-player entities. Each rune provides an additive bonus of +10% per rune."]
+			description: ["The &4&lRune of Sacrifice&r&r increases the amount of Life Essence gained in the Blood Altar from actions that take health from non-player entities. Each rune provides an additive bonus of &e+10%&r per rune."]
 			id: "0F77A0AAE3648EA2"
 			rewards: [
 				{
@@ -1138,7 +1138,7 @@
 		}
 		{
 			dependencies: ["6C11FD253B66D55C"]
-			description: ["The Apprentice Blood Orb has a maximum capacity of 25000 LP."]
+			description: ["The &4&lApprentice Blood Orb&r&r has a maximum capacity of &e25,000&r LP."]
 			id: "2189104C47DB4552"
 			rewards: [
 				{
@@ -1179,7 +1179,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
-			description: ["The Air Sigil propels you in the direction you're facing at a cost of 50 LP per use. However, it does not grant any Feather Falling effect, so be cautious when landing! It's a fast way to get around, but it comes with some risk."]
+			description: ["The &3&lAir Sigil&r&r propels you in the direction you're facing at a cost of 50 LP per use. However, it does not grant any Feather Falling effect, so be cautious when landing! It's a fast way to get around, but it comes with some risk."]
 			id: "5982FDFE5D3873CE"
 			rewards: [
 				{
@@ -1220,7 +1220,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
-			description: ["The Sigil of the Green Grove has multiple uses; it can draw LP from your Soul Network to nourish and accelerate the growth of nearby plants."]
+			description: ["The &2&lSigil of the Green Grove&r&r has multiple uses; it can draw LP from your Soul Network to nourish and accelerate the growth of nearby plants."]
 			id: "5767137DB69077C9"
 			rewards: [
 				{
@@ -1262,7 +1262,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
-			description: ["The Void Sigil allows you to destroy any fluid block when you right-click while looking at it, costing 50 LP per block. It’s useful for clearing out annoying lava flows without the hassle of placing and breaking individual blocks."]
+			description: ["The &d&lVoid Sigil&r&r allows you to destroy any fluid block when you right-click while looking at it, costing 50 LP per block. It’s useful for clearing out annoying lava flows without the hassle of placing and breaking individual blocks."]
 			id: "37B4C9B7387EC882"
 			rewards: [
 				{
@@ -1344,7 +1344,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
-			description: ["The Sigil of the Fast Miner activates with a shift + right-click and consumes 100 LP every 5 seconds to apply the Haste potion effect. This significantly increases your mining, digging, and cutting speeds."]
+			description: ["The &c&lSigil of the Fast Miner&r&r activates with a shift + right-click and consumes 100 LP every 5 seconds to apply the Haste potion effect. This significantly increases your mining, digging, and cutting speeds."]
 			id: "202CAFAB2C68F969"
 			rewards: [
 				{
@@ -1713,7 +1713,7 @@
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
-			description: ["The Sigil of the Blood Lamp is a useful tool for miners, dungeon delvers, or anyone who dislikes dark areas and finds torches and glowstone blocks obstructive. When used, this sigil launches a Blood Light in the direction you’re facing. Upon hitting a block, it spawns a nearly invisible light source at a cost of 10 LP."]
+			description: ["The &e&lSigil of the Blood Lamp&r&r is a useful tool for miners, dungeon delvers, or anyone who dislikes dark areas and finds torches and glowstone blocks obstructive. When used, this sigil launches a Blood Light in the direction you’re facing. Upon hitting a block, it spawns a nearly invisible light source at a cost of 10 LP."]
 			id: "039BDCE58CC1E178"
 			rewards: [
 				{
@@ -1754,7 +1754,7 @@
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
-			description: ["The Sigil of Holding can store up to 5 other Sigils at once, granting you their passive effects and enabling you to activate them easily. Press its hotkey (check your keybinds) while holding it to open its inventory. You can cycle through its inventory by holding shift and using your mouse wheel to scroll forward or backward."]
+			description: ["The &6&lSigil of Holding&r&r can store up to 5 other Sigils at once, granting you their passive effects and enabling you to activate them easily. Press its hotkey (check your keybinds) while holding it to open its inventory. You can cycle through its inventory by holding shift and using your mouse wheel to scroll forward or backward."]
 			id: "0228C94767CD9066"
 			rewards: [
 				{
@@ -1797,7 +1797,7 @@
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
-			description: ["The Sigil of Magnetism extends the player's item pickup range to 7 blocks when active. You can toggle it on or off by holding the sigil in your hand and then pressing shift + right-click. While active, it consumes 50 LP every 5 seconds."]
+			description: ["The &2&lSigil of Magnetism&r&r extends the player's item pickup range to 7 blocks when active. You can toggle it on or off by holding the sigil in your hand and then pressing shift + right-click. While active, it consumes 50 LP every 5 seconds."]
 			id: "06E283F42F402797"
 			rewards: [
 				{
@@ -1838,7 +1838,7 @@
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
-			description: ["The Rune of Capacity increases the Blood Altar's capacity by an additive +20% per rune."]
+			description: ["The &c&lRune of Capacity&r&r increases the Blood Altar's capacity by an additive &e+20%&r per rune."]
 			id: "6F6657252C5B3F51"
 			rewards: [
 				{
@@ -1878,7 +1878,7 @@
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
-			description: ["The Displacement Rune increases the flow rate of Life Essence into and out of the Altar when pumping to and from an external tank multiplicatively by +20%."]
+			description: ["The &1&lDisplacement Rune&r&r increases the flow rate of Life Essence into and out of the Altar when pumping to and from an external tank multiplicatively by &e+20%.&r"]
 			id: "3E158EB87B5BB01D"
 			rewards: [
 				{
@@ -1966,7 +1966,7 @@
 		{
 			dependencies: ["402ED5DAF12B3CCD"]
 			description: [
-				"Runes play a crucial role in Blood Magic, particularly for upgrading your Blood Altar. Each rune modifies the Altar in different ways, allowing you to customize it to suit your needs."
+				"&7&lRunes&r&r play a crucial role in Blood Magic, particularly for upgrading your &l&4Blood Altar&r&r. Each rune modifies the Altar in different ways, allowing you to customize it to suit your needs."
 				""
 				"At the first tier of the Blood Altar and Blood Orb, you can only craft a limited selection of runes. These runes are crafted using the Blood Orb, but don’t worry—you'll get the Blood Orb back, and it has no durability."
 			]
@@ -2054,7 +2054,7 @@
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
-			description: ["The Magician Blood Orb has a maximum capacity of 150000 LP."]
+			description: ["The &4&lMagician Blood Orb&r&r has a maximum capacity of &e150,000&r LP."]
 			id: "6E2F3C5EF871D701"
 			rewards: [
 				{
@@ -2094,7 +2094,7 @@
 		}
 		{
 			dependencies: ["7E07A4964DED7E78"]
-			description: ["The Alchemical Reaction Chamber functions as a furnace, provides a method for ore tripling, can revert Blood Orbs, Netherite, and Reinforced Runes, and is currently the only way to obtain Weak Blood Shards."]
+			description: ["The &3&lAlchemical Reaction Chamber&r&r functions as a furnace, provides a method for ore tripling, can revert Blood Orbs, Netherite, and Reinforced Runes, and is currently the only way to obtain Weak Blood Shards."]
 			id: "71FAB1AB3B95AF22"
 			rewards: [
 				{
@@ -2174,7 +2174,7 @@
 		}
 		{
 			dependencies: ["6E2F3C5EF871D701"]
-			description: ["Ritual Stones serve as the canvas for your Rituals. They not only look appealing but can also be manually painted using various Elemental Inscription Tools."]
+			description: ["&7&lRitual Stones&r&r serve as the canvas for your Rituals. They not only look appealing but can also be manually painted using various Elemental Inscription Tools."]
 			id: "0220B93C98104CB3"
 			rewards: [
 				{
@@ -2219,7 +2219,7 @@
 				"49F016D06BF8D866"
 				"0220B93C98104CB3"
 			]
-			description: ["The four base Elemental Inscription Tools can be crafted in your Altar for 1000 LP each."]
+			description: ["The four base &lElemental Inscription Tools&r can be crafted in your Altar for &e1000&r LP each."]
 			id: "5E280E74DD99C87C"
 			rewards: [
 				{
@@ -2317,13 +2317,13 @@
 				"0220B93C98104CB3"
 			]
 			description: [
-				"Crafting rituals is a complex process; even with the correct Inscription Tools, you can't simply place runic inscriptions randomly and expect results. Fortunately, the Ritual Diviner is here to assist."
+				"Crafting rituals is a complex process; even with the correct Inscription Tools, you can't simply place runic inscriptions randomly and expect results. Fortunately, the &9&lRitual Diviner&r&r is here to assist."
 				""
 				"Hold shift + right-click or left-click while looking at the air to cycle through the available rituals in either direction. You can also change the direction the completed ritual will face by right-clicking."
 				""
-				"To build the currently selected ritual, simply right-click while looking at a Master Ritual Stone. The Diviner will construct the ritual using any Ritual Stones you have in your inventory. It's almost like magic!"
+				"To build the currently selected ritual, simply right-click while looking at a &l&eMaster Ritual Stone&r&r. The &l&9Diviner&r&r will construct the ritual using any &7Ritual Stones&r you have &nin your inventory&r. It's almost like magic!"
 				""
-				"Select the Edge of the Hidden Realm Ritual with the Ritual Diviner, then click on a Master Ritual Stone to build it."
+				"Select the &b&lEdge of the Hidden Realm Ritual&r&r with the &9&lRitual Diviner&r&r, then click on a &e&lMaster Ritual Stone&r&r to build it."
 			]
 			id: "7C3F9C6EA7D535A5"
 			rewards: [
@@ -2380,7 +2380,7 @@
 		}
 		{
 			dependencies: ["71FAB1AB3B95AF22"]
-			description: ["The Sanguine Reverter is used to create Weak Blood Shards and to revert Blood Orbs, Netherite, and Reinforced Runes back to their original crafting materials."]
+			description: ["The &3&lSanguine Reverter&r&r is used to create Weak Blood Shards and to revert Blood Orbs, Netherite, and Reinforced Runes back to their original crafting materials."]
 			id: "32181FE54475DACC"
 			rewards: [
 				{
@@ -2424,9 +2424,9 @@
 		{
 			dependencies: ["7B0A4072E01288EC"]
 			description: [
-				"Keys are the primary means of navigating Dungeons. They can be found in Dungeon chests within the Demon Realm or crafted. The most basic type is the Iron Key, which spawns in The Antchamber and the nearby levels of the Demon Realm."
+				"&lKeys&r are the primary means of navigating Dungeons. They can be found in Dungeon chests within the &b&lDemon Realm&r&r or crafted. The most basic type is the &lIron Key&r, which spawns in The Antchamber and the nearby levels of the Demon Realm."
 				""
-				"As you explore Dungeons, you may encounter a Spatial Distortion, which can either lead you to a unique, uncraftable key or to a door that only that key can open. Spatial Distortions only appear within the Demon Realm, and you will never find them in The Antchamber."
+				"As you explore Dungeons, you may encounter a &cSpatial Distortion&r, which can either lead you to a unique, uncraftable key or to a door that only that key can open. &cSpatial Distortions&r only appear within the &b&lDemon Realm&r&r, and you will never find them in The Antchamber."
 			]
 			id: "5E6FFDC1C3DEFFCB"
 			rewards: [
@@ -2468,11 +2468,11 @@
 		{
 			dependencies: ["6E2F3C5EF871D701"]
 			description: [
-				"Living Armor is unique in Blood Magic because it upgrades and levels up as you wear it, depending on your activities. These bonuses can increase in power, and the armor can also be enchanted."
+				"&4&lLiving Armor&r&r is unique in Blood Magic because it &eupgrades and levels up as you wear it&r, depending on your activities. These bonuses can increase in power, and the armor can also be enchanted."
 				""
-				"It's crucial to wear the entire set for the upgrades to function."
+				"It's crucial to &ewear the entire set&r for the upgrades to function."
 				""
-				"Living Armor begins at an Iron-equivalent level and starts with 100 Upgrade Points, which can be spent to train it in specific areas. There may be ways to exceed this initial limitation. You can check its progress by holding shift while hovering over the armor."
+				"&4&lLiving Armor&r&r begins at an Iron-equivalent level and starts with 100 Upgrade Points, which can be spent to train it in specific areas. There may be ways to exceed this initial limitation. You can check its progress by holding shift while hovering over the armor."
 			]
 			id: "5806C8F535701AD6"
 			rewards: [
@@ -2715,7 +2715,7 @@
 		}
 		{
 			dependencies: ["50E780E4536B6163"]
-			description: ["Alternatively, if the plant matures while a mob (such as a cow) is standing on top of it, it will leach health from the entity to satisfy its dark hungers, resulting in the growth of Saturated Tau."]
+			description: ["Alternatively, if the plant matures while a mob (such as a cow) is &estanding on top of it&r, it will leach health from the entity to satisfy its dark hungers, resulting in the growth of &l&6Saturated Tau&r&r."]
 			id: "7E07A4964DED7E78"
 			rewards: [
 				{
@@ -2756,9 +2756,9 @@
 		{
 			dependencies: ["7B0A4072E01288EC"]
 			description: [
-				"Tau Fruit can be found in Simple Dungeons and can subsequently be farmed. As a native of the Demon Realm, its lifecycle is a bit more complex than that of a regular potato."
+				"&4&lTau Fruit&r&r can be found in Simple Dungeons and can subsequently be farmed. As a native of the &b&lDemon Realm&r&r, its lifecycle is a bit more complex than that of a regular potato."
 				""
-				"The Tau Fruit will mature into one of two varieties, depending on the conditions in which it is grown. By default, it grows into a regular Tau Fruit, which can be converted into Tau Oil."
+				"The &4&lTau Fruit&r&r will mature into one of two varieties, depending on the conditions in which it is grown. By default, it grows into a regular &l&4Tau Fruit&r&r, which can be converted into &cTau Oil&r."
 			]
 			id: "50E780E4536B6163"
 			rewards: [
@@ -2881,7 +2881,7 @@
 		}
 		{
 			dependencies: ["607639980E3285B1"]
-			description: ["The Master Blood Orb has a maximum capacity of 1M LP."]
+			description: ["The &4&lMaster Blood Orb&r&r has a maximum capacity of &e1M&r LP."]
 			id: "040277BDA6078F41"
 			rewards: [
 				{
@@ -2921,7 +2921,7 @@
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
-			description: ["The Rune of Augmented Capacity enhances the Blood Altar's capacity by a multiplicative +7.5% for each rune applied, with these effects stacking after the regular Capacity runes."]
+			description: ["The &4&lRune of Augmented Capacity&r&r enhances the Blood Altar's capacity by a multiplicative &e+7.5%&r for each rune applied, with these effects stacking after the regular Capacity runes."]
 			id: "0F8B2583A73E62CA"
 			rewards: [
 				{
@@ -2961,7 +2961,7 @@
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
-			description: ["The Acceleration Rune enhances the speed of certain operations. Typically, the Charging Rune and Displacement Rune operate every 20 ticks, but each Acceleration Rune reduces this delay by one tick, down to a minimum of one operation per tick."]
+			description: ["The &9&lAcceleration Rune&r&r enhances the speed of certain operations. Typically, the Charging Rune and Displacement Rune operate every &e20&r ticks, but each Acceleration Rune reduces this delay by one tick, down to a minimum of one operation per tick."]
 			id: "62673C3CE035ECED"
 			rewards: [
 				{
@@ -3002,9 +3002,9 @@
 		{
 			dependencies: ["040277BDA6078F41"]
 			description: [
-				"The Charging Rune is a special upgrade that allows the Blood Altar to siphon LP into an internal buffer when it’s not actively crafting or filling a Blood Orb. When an item is placed inside the Altar, the stored charge is instantly consumed and applied to the item's crafting at a 1:1 ratio."
+				"The &2&lCharging Rune&r&r is a special upgrade that allows the Blood Altar to siphon LP into an internal buffer when it’s not actively crafting or filling a Blood Orb. When an item is placed inside the Altar, the stored charge is instantly consumed and applied to the item's crafting at a &e1:1&r ratio."
 				""
-				"The Blood Altar performs this charging tick once every 20 in-game ticks, which can be reduced by 1 tick for each Acceleration Rune applied."
+				"The Blood Altar performs this charging tick once every 2&e0&r in-game ticks, which can be reduced &eby&r 1 tick for each Acceleration Rune applied."
 			]
 			id: "0F9EE9D9375C1AB4"
 			rewards: [
@@ -3088,7 +3088,7 @@
 		}
 		{
 			dependencies: ["626F3C12DF9FDD3F"]
-			description: ["The basic Teleposition Focus swaps anything within a 1x1x1 block area directly above two teleposers."]
+			description: ["The basic &e&lTeleposition Focus&r&r swaps anything within a 1x1x1 block area directly above two teleposers."]
 			id: "20AB40199DC6551F"
 			rewards: [
 				{
@@ -3129,9 +3129,9 @@
 		{
 			dependencies: ["20AB40199DC6551F"]
 			description: [
-				"Teleposers enable Redstone-controlled teleportation. To use them, bind a Teleposition Focus to your target teleposer, place it in another teleposer, and apply a Redstone signal to the teleposer containing the focus. This will swap anything—blocks, items, entities, or players—within a defined area above the two teleposers."
+				"&e&lTeleposers&r&r enable Redstone-controlled teleportation. To use them, bind a &eTeleposition Focus&r to your target teleposer, place it in another teleposer, and apply a Redstone signal to the teleposer containing the focus. This will swap anything—blocks, items, entities, or players—within a defined area above the two teleposers."
 				""
-				"However, this comes at a cost: transporting blocks or entities via the teleposer will consume 1 LP for every two blocks traversed, with a maximum of 1000 LP per block/entity and a total limit of 10,000 LP."
+				"However, this comes at a cost: transporting blocks or entities via the teleposer will consume 1 LP for every two blocks traversed, with a maximum of &e1000&r LP per block/entity and a total limit of &e10,000&r LP."
 			]
 			id: "60A7E36F597144C4"
 			rewards: [
@@ -3175,7 +3175,7 @@
 				"60A7E36F597144C4"
 				"040277BDA6078F41"
 			]
-			description: ["The Teleposition Sigil allows the user to teleport to a linked Teleposer for a cost of 1000 LP per use. By shift-clicking on a Teleposer while holding the sigil, you can record its location and dimension, providing a quick means of returning home."]
+			description: ["The &5&lTeleposition Sigil&r&r allows the user to teleport to a linked Teleposer for a cost of 1000 LP per use. By shift-clicking on a Teleposer while holding the sigil, you can record its location and dimension, providing a quick means of returning home."]
 			id: "6061304119AB2DCB"
 			rewards: [
 				{
@@ -3218,7 +3218,7 @@
 				"60A7E36F597144C4"
 				"040277BDA6078F41"
 			]
-			description: ["The Sigil of Suppression, when activated by right-clicking, will temporarily remove all fluids within approximately a 6-block radius of its holder. After a short time, the liquid will return as if it never left. While this makes exploring the lava oceans of the Nether much easier, be cautious not to jump into deep water while the sigil is active!"]
+			description: ["The &l&5Sigil of Suppression&r&r, when activated by right-clicking, will temporarily remove all fluids within approximately a 6-block radius of its holder. After a short time, the liquid will return as if it never left. While this makes exploring the lava oceans of the Nether much easier, be cautious not to jump into deep water while the sigil is active!"]
 			id: "3833169F32C303FC"
 			rewards: [
 				{
@@ -3259,7 +3259,7 @@
 		}
 		{
 			dependencies: ["626F3C12DF9FDD3F"]
-			description: ["The two Dusk Elemental Inscription Tools can be crafted at your Altar for a cost of 2000 LP each."]
+			description: ["The two &d&lDusk Elemental Inscription Tools&r&r can be crafted at your Altar for a cost of &e2000&r LP each."]
 			id: "5DC43B44FE21B477"
 			rewards: [
 				{
@@ -3306,7 +3306,7 @@
 				"5DC43B44FE21B477"
 				"607639980E3285B1"
 			]
-			description: ["The basic Ritual Diviner can only create a limited selection of basic rituals. To unlock its full potential, you'll need to upgrade it."]
+			description: ["The basic &9&lRitual Diviner&r&r can only create a limited selection of &n&ebasic rituals&r&r. To unlock its full potential, you'll need to &nupgrade&r it."]
 			id: "1F2CE57DECFAE7CD"
 			rewards: [
 				{
@@ -3347,7 +3347,7 @@
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
-			description: ["The Ritual Tinkerer is an essential tool for advanced players aiming to maximize their Rituals. It features three main modes, which you can cycle through by holding Shift and right-clicking."]
+			description: ["The &d&lRitual Tinkerer&r&r is an essential tool for advanced players aiming to maximize their Rituals. It features three main modes, which you can cycle through by holding Shift and right-clicking."]
 			id: "425D8E0A762627D7"
 			rewards: [
 				{
@@ -3387,7 +3387,7 @@
 		}
 		{
 			dependencies: ["040277BDA6078F41"]
-			description: ["The Rune of the Orb boosts the capacity of the Blood Orb within the Altar by an additive +2% for each rune applied."]
+			description: ["The &b&lRune of the Orb&r&r boosts the capacity of the Blood Orb within the Altar by an additive &e+2%&r for each rune applied."]
 			id: "10F5E126E942D3DD"
 			rewards: [
 				{
@@ -3585,7 +3585,7 @@
 		}
 		{
 			dependencies: ["1F2CE57DECFAE7CD"]
-			description: ["Demonite Ore is exclusive to Dungeons, particularly in The Mines. To access this area, you need to locate a Foreman's Key within the maze-like structure and use it to unlock a Spatial Distortion. This ore can be processed into Hellforged Ingots or Hellforged Sand."]
+			description: ["&b&lDemonite Ore&r&r is exclusive to Dungeons, particularly in &l&3The Mines&r&r. To access this area, you need to locate a &e&lForeman's Key&r&r within the maze-like structure and use it to unlock a &cSpatial Distortion&r. This ore can be processed into &bHellforged Ingots&r or &bHellforged Sand&r."]
 			id: "10A78F868F365E8D"
 			rewards: [
 				{
@@ -3626,7 +3626,7 @@
 		}
 		{
 			dependencies: ["1F2CE57DECFAE7CD"]
-			description: ["Intricate Hellforged Parts can be obtained from the Demon Realm, enabling you to craft Reinforced Runes."]
+			description: ["&b&lIntricate Hellforged Parts&r&r can be obtained from the Demon Realm, enabling you to craft Reinforced Runes."]
 			id: "61A3F5603EF73698"
 			rewards: [
 				{
@@ -3689,7 +3689,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Time to upgrade your Runes!"
+			subtitle: "&6&lTime to upgrade your Runes!"
 			tasks: [{
 				id: "2E07730789F5B4F7"
 				item: {
@@ -3835,7 +3835,7 @@
 		}
 		{
 			dependencies: ["71F84BEE7B1E7DCE"]
-			description: ["The Archmage Blood Orb has a maximum capacity of 10M LP."]
+			description: ["The &4&lArchmage Blood Orb&r&r has a maximum capacity of &e10M&r LP."]
 			id: "0AE475DCCCC8C1EA"
 			rewards: [
 				{
@@ -4248,7 +4248,7 @@
 		}
 		{
 			dependencies: ["2189104C47DB4552"]
-			description: ["The Rune of Self Sacrifice increases the amount of Life Essence gained in the Blood Altar from actions that use a player's health. Each rune provides an additive bonus of +10% per rune."]
+			description: ["The &e&lRune of Self Sacrifice&r&r increases the amount of Life Essence gained in the Blood Altar from actions that use a player's health. Each rune provides an additive bonus of &e+10%&r per rune."]
 			id: "5C2B19A5E7B6BCE1"
 			rewards: [
 				{
@@ -4455,9 +4455,9 @@
 		{
 			dependencies: ["7C3F9C6EA7D535A5"]
 			description: [
-				"Your rituals require more than just the correct arrangement of blocks and Sigils. An effort of will is necessary to open a channel from your Soul Network to the ritual, and the Activation Crystal helps you focus enough to activate them."
+				"Your rituals require more than just the correct arrangement of blocks and Sigils. An effort of will is necessary to open a channel from your Soul Network to the ritual, and the &4&lActivation Crystal&r&r helps you focus enough to activate them."
 				""
-				"To activate the ritual, right-click with a bound Activation Crystal on a Master Ritual Stone—provided the ritual is properly assembled, of course."
+				"To activate the ritual, right-click with a &nbound &4Activation Crystal&r&r on a &eMaster Ritual Stone&r—provided the ritual is properly assembled, of course."
 			]
 			id: "7B0A4072E01288EC"
 			rewards: [
@@ -4498,7 +4498,7 @@
 		}
 		{
 			dependencies: ["20AB40199DC6551F"]
-			description: ["The Enhanced Teleposition Focus increases the area to a 3x3x3 block space centered above the teleposers."]
+			description: ["The &e&lEnhanced Teleposition Focus&r&r increases the area to a 3x3x3 block space centered above the teleposers."]
 			id: "790C0DED61E465E9"
 			rewards: [
 				{
@@ -4538,7 +4538,7 @@
 		}
 		{
 			dependencies: ["790C0DED61E465E9"]
-			description: ["The Reinforced Teleposition Focus further expands the area to a 5x5x5 block space centered above the two teleposers."]
+			description: ["The &e&lReinforced Teleposition Focus&r&r further expands the area to a 5x5x5 block space centered above the two teleposers."]
 			id: "36F40742F79B34A9"
 			rewards: [
 				{
@@ -4579,17 +4579,17 @@
 		{
 			dependencies: ["1F2CE57DECFAE7CD"]
 			description: [
-				"Unleashing Demon Will into the atmosphere has proven beneficial, especially for Rituals and condensing it into a Crystal Cluster. However, these crystals seem conflicted. The Resonance of the Faceted Crystal Ritual can help purify them."
+				"Unleashing &b&lDemon Will&r&r into the atmosphere has proven beneficial, especially for Rituals and condensing it into a Crystal Cluster. However, these crystals seem conflicted. The &5&lResonance of the Faceted Crystal Ritual&r&r can help purify them."
 				""
-				"This Ritual takes a well-grown Raw Crystal Cluster (at least 5 spires) positioned 2 blocks above the Master Ritual Stone and splits it into single-spire, aspected Will Crystal Clusters, placed above the four elemental Ritual Stones."
+				"This Ritual takes a well-grown &bRaw Crystal Cluster&r (at least 5 spires) &epositioned 2 blocks above the Master Ritual Stone&r and splits it into single-spire, aspected Will Crystal Clusters, placed above the four elemental Ritual Stones."
 				""
 				"Each type of Will can fuel Rituals and enhance your Sentient Tools in different ways:"
 				""
-				"-Raw Will: Increases damage."
-				"-Corrosive Will: May apply poison or wither effects."
-				"-Vengeful Will: Increases damage and attack speed, plus a movement speed buff."
-				"-Steadfast Will: Adds moderate damage and Absorption after kills."
-				"-Destructive Will: Boosts damage the most, but reduces attack speed."
+				"-&b&lRaw Will:&r&r Increases damage."
+				"-&a&lCorrosive Will:&r&r May apply poison or wither effects."
+				"-&c&lVengeful Will:&r&r Increases damage and attack speed, plus a movement speed buff."
+				"-&e&lSteadfast Will:&r&r Adds moderate damage and Absorption after kills."
+				"-&3&lDestructive Will:&r&r Boosts damage the most, but reduces attack speed."
 				""
 				"To use these Wills, place an empty Tartaric Gem in a Hellfire Forge near a Demon Crucible. Feed the Crucible with the desired Will Crystals, and the Tartaric Gem will fill with that aspect of Will. You can switch the Will type for Sentient Tools by right-clicking."
 			]
@@ -4668,7 +4668,7 @@
 		{
 			dependencies: ["32181FE54475DACC"]
 			id: "2713D4C90DFD4345"
-			subtitle: "Create a Weak Blood Shard"
+			subtitle: "&cCreate a Weak Blood Shard"
 			tasks: [{
 				id: "514F19B31EF8112B"
 				item: {

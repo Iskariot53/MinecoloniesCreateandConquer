@@ -897,7 +897,7 @@
 		}
 		{
 			dependencies: ["18612C429179D483"]
-			description: ["Crafting with the Enchanting Apparatus requires up to eight Arcane Pedestals, an Arcane Core, and the Enchanting Apparatus block."]
+			description: ["Crafting with the &l&dEnchanting Apparatus&r&r requires up to eight &eArcane Pedestals&r, an &eArcane Core&r, and the &dEnchanting Apparatus&r block."]
 			id: "2B1D941319C6128B"
 			rewards: [
 				{
@@ -956,7 +956,7 @@
 		{
 			dependencies: ["2B1D941319C6128B"]
 			description: [
-				"A brazier that may be used as decoration or for performing rituals. To light the brazier for decoration, cast a Light spell on the brazier. The color of the brazier corresponds with the color of the spell. Applying a redstone signal will disable a running ritual."
+				"A &d&lbrazier&r&r that may be used as decoration or for performing rituals. To light the brazier for decoration, cast a Light spell on the brazier. The color of the brazier corresponds with the color of the spell. Applying a redstone signal will disable a running ritual."
 				""
 				"Performing a ritual requires a &d&lRitual Brazier,&r&r and a &l&dtablet&r&r. Once you have obtained a tablet and brazier, place your brazier in the world and use a tablet on it. The brazier will ignite, and is awaiting activation. In this state, you may throw in any additional items as a way to augment the ritual. If you wish to augment a ritual, simply toss the item on top of the brazier."
 				""
@@ -1604,9 +1604,9 @@
 		{
 			dependencies: ["6CF308170079ADCC"]
 			description: [
-				"To begin summoning familiars, you will need to obtain a Bound Script of the entity you wish to befriend. These are acquired by performing the Ritual of Binding near the relevant entity. Once you have the Bound Script, use it to learn the familiar."
+				"To begin &esummoning familiars&r, you will need to obtain a &d&lBound Script&r&r of the entity you wish to befriend. These are acquired by performing the &dRitual of Binding&r near the relevant entity. Once you have the Bound Script, use it to learn the familiar."
 				""
-				"After using a Bound Script, you can access your list of familiars from the Spellbook crafting menu in the Familiars section. Selecting a familiar will summon it into the world, but it will also give you Familiar Sickness, temporarily preventing you from summoning another one for a short time."
+				"After using a Bound Script, you can access your list of familiars from the &dSpellbook&r crafting menu in the Familiars section. Selecting a familiar will summon it into the world, but it will also give you Familiar Sickness, temporarily preventing you from summoning another one for a short time."
 			]
 			id: "5E96FAABB9DF4C39"
 			rewards: [
@@ -2246,7 +2246,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: 3.0d
 			y: 11.0d
 		}
 		{
@@ -9770,7 +9770,7 @@
 		}
 		{
 			dependencies: ["615528DF4F844102"]
-			description: ["Enables the transport of source between Source Jars and other Source Relays. To pull source from jars, use the Dominion Wand on the jar, and then on the relay. To send between relays or from a relay to a jar, use the wand on the relay and then the target you wish to send source to. Relays may only reach up to 30 blocks away. To clear connections, sneak while using the Dominion Wand on the relay."]
+			description: ["&dEnables the transport of source between Source Jars and other Source Relays&r. To pull source from jars, use the Dominion Wand on the jar, and then on the relay. To send between relays or from a relay to a jar, use the wand on the relay and then the target you wish to send source to. Relays may only reach up to 30 blocks away. To clear connections, sneak while using the Dominion Wand on the relay."]
 			id: "77FA84CFD9E47E54"
 			rewards: [
 				{
@@ -9811,7 +9811,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay, but will support taking from and transferring to multiple jars at once. The splitter has a much larger through-put than the Source Relay, and will split this throughput amongst all of its jars. See the instructions on the Source Relay for use."]
+			description: ["Operates similar to the Source Relay, but will &dsupport taking from and transferring to multiple jars at once&r. The splitter has a much larger through-put than the Source Relay, and will split this throughput amongst all of its jars. See the instructions on the Source Relay for use."]
 			id: "3D8828F522087796"
 			rewards: [
 				{
@@ -9852,7 +9852,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay, but will deposit to jars it is not linked to within 5 blocks. See the instructions on the Source Relay for use."]
+			description: ["Operates similar to the Source Relay, but will &ddeposit to jars it is not linked to within 5 blocks&r. See the instructions on the Source Relay for use."]
 			id: "5D21774751A2BED4"
 			rewards: [
 				{
@@ -9893,7 +9893,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay: Splitter but can teleport source an endless distance between other Warp relays. For distances beyond 30 blocks, there is a chance that some source will be lost during warp."]
+			description: ["Operates similar to the Source Relay: Splitter but can &dteleport source an endless distance between other Warp relays&r. For distances beyond 30 blocks, there is a chance that some source will be lost during warp."]
 			id: "6B80ACB11BE88DCF"
 			rewards: [
 				{
@@ -9934,7 +9934,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay, but will automatically take from jars it is not linked to within 5 blocks. See the instructions on the Source Relay for use."]
+			description: ["Operates similar to the Source Relay, but will &dautomatically take from jars it is not linked to within 5 blocks&r. See the instructions on the Source Relay for use."]
 			id: "4D57912C67CD5074"
 			rewards: [
 				{
@@ -10131,7 +10131,7 @@
 		}
 		{
 			dependencies: ["5B61615F525ED5EF"]
-			description: ["This spell focus is attuned to the School of Air. While equipped, glyphs from this school will be both amplified and discounted, enhancing air-based spells. The lesser focus, however, comes with a drawback, weakening glyphs from the other elemental schools. The major focus offers an additional perk, granting Mana Regen I when the wearer is standing above Y-level 200 or is under the Shocked effect."]
+			description: ["This spell focus is attuned to the &dSchool of Air&r. While equipped, glyphs from this school will be both amplified and discounted, enhancing air-based spells. The lesser focus, however, comes with a drawback, weakening glyphs from the other elemental schools. The major focus offers an additional perk, granting Mana Regen I when the wearer is standing above &eY-level 200&r or is under the Shocked effect."]
 			id: "2160877BA8B6F12B"
 			rewards: [
 				{
@@ -10171,7 +10171,7 @@
 		}
 		{
 			dependencies: ["6CF95D590E3366E1"]
-			description: ["This spell focus is attuned to the School of Earth. While equipped, glyphs from this school will be amplified and discounted, boosting the power and efficiency of earth-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Mana Regen I when the wearer is standing below Y-level 0, providing a unique benefit in deep underground environments."]
+			description: ["This spell focus is attuned to the &dSchool of Earth&r. While equipped, glyphs from this school will be amplified and discounted, boosting the power and efficiency of earth-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Mana Regen I when the wearer is standing below &eY-level 0&r, providing a unique benefit in deep underground environments."]
 			id: "04A1A9580CE2902A"
 			rewards: [
 				{
@@ -10211,7 +10211,7 @@
 		}
 		{
 			dependencies: ["39BAD0152D10734E"]
-			description: ["This spell focus is attuned to the School of Fire. While equipped, glyphs from this school will be amplified and discounted, enhancing the strength and efficiency of fire-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Spell Damage II when the wearer is either on fire or submerged in lava, making it a powerful tool for mages who thrive in dangerous, fiery environments."]
+			description: ["This spell focus is attuned to the &dSchool of Fire&r. While equipped, glyphs from this school will be amplified and discounted, enhancing the strength and efficiency of fire-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Spell Damage II when the wearer is either &eon fire or submerged in lava&r, making it a powerful tool for mages who thrive in dangerous, fiery environments."]
 			id: "35C3697FACD98EC1"
 			rewards: [
 				{
@@ -10251,7 +10251,7 @@
 		}
 		{
 			dependencies: ["3DAE02920A11DBB3"]
-			description: ["This spell focus is attuned to the School of Water. While equipped, glyphs from this school will be amplified and discounted, enhancing water-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus grants Mana Regen I when the wearer is wet, and further boosts this to Mana Regen II and Dolphin's Grace while swimming, making it ideal for aquatic mages or those frequently near water."]
+			description: ["This spell focus is attuned to the &dSchool of Water&r. While equipped, glyphs from this school will be amplified and discounted, enhancing water-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus grants Mana Regen I &ewhen the wearer is wet&r, and further boosts this to Mana Regen II and Dolphin's Grace &ewhile swimming&r, making it ideal for aquatic mages or those frequently near water."]
 			id: "420795AD09FFD406"
 			rewards: [
 				{
@@ -10385,7 +10385,7 @@
 		}
 		{
 			dependencies: ["1628B05C9134984A"]
-			description: ["A special casting focus. Grants summons from spells additional duration, strength, speed, and deals damage to enemies that kill them. Additionally, casting spells that target you like Self and Orbit will cast a copy of the spell on your nearby summons."]
+			description: ["A special casting focus. Grants summons from spells additional duration, strength, speed, and deals damage to enemies that kill them. Additionally, casting spells that target you like &eSelf&r and &eOrbit&r will cast a copy of the spell on your nearby summons."]
 			id: "435EA78F77B205C2"
 			rewards: [
 				{
@@ -10425,7 +10425,7 @@
 		}
 		{
 			dependencies: ["435EA78F77B205C2"]
-			description: ["By imbuing the Focus of Summoning with evil energies, you can corrupt its powers toward Necromancy. This dark enhancement grants Glyphs from the Anima school two free Extend Time modifiers, significantly increasing the duration of summoning spells. The Heal spell receives two Amplify modifiers for greater restorative power. Additionally, the Charm spell gains a much higher chance of affecting undead mobs, turning them into loyal minions."]
+			description: ["By imbuing the &dFocus of Summoning&r with evil energies, you can corrupt its powers toward &dNecromancy&r. This dark enhancement grants Glyphs from the Anima school two free Extend Time modifiers, significantly increasing the duration of summoning spells. The Heal spell receives two Amplify modifiers for greater restorative power. Additionally, the Charm spell gains a much higher chance of affecting undead mobs, turning them into loyal minions."]
 			id: "5C67D2D04CE1D8F6"
 			rewards: [
 				{
@@ -10547,7 +10547,7 @@
 		}
 		{
 			dependencies: ["25809A8312BEA45C"]
-			description: ["This device generates rotational force for the Create mod. Placing a gold block in front of the wheel will increase its RPM, allowing for faster and more efficient mechanical power generation."]
+			description: ["This device &dgenerates rotational force&r for the Create mod. Placing a gold block in front of the wheel will increase its RPM, allowing for faster and more efficient mechanical power generation."]
 			id: "60D287AA88CA6A07"
 			rewards: [
 				{
@@ -10681,7 +10681,7 @@
 				}
 			]
 			title: "Better Casting"
-			x: 3.0d
+			x: -3.0d
 			y: 11.0d
 		}
 		{
@@ -10780,7 +10780,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["Increases max mana by a moderate amount."]
+			description: ["Increases &d&lmax mana&r&r by a moderate amount."]
 			id: "79218A38E5A51B67"
 			rewards: [
 				{
@@ -10820,7 +10820,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["Increases mana regeneration by a moderate amount."]
+			description: ["Increases &d&lmana regeneration&r&r by a moderate amount."]
 			id: "7B961572D3013D41"
 			rewards: [
 				{
@@ -11103,7 +11103,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["With the Wizard's Armarium, your wardrobe travels with you, allowing you to switch between three different armor and hotbar configurations."]
+			description: ["With the &l&dWizard's Armarium&r&r, your wardrobe travels with you, allowing you to switch between three different armor and hotbar configurations."]
 			id: "0BDA0D8AF33932FE"
 			rewards: [
 				{
@@ -11391,7 +11391,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["For the mage that craves every bit of data, the Numeric Mana Charm adds a precise numeric mana indicator while worn in the charm slot."]
+			description: ["For the mage that craves every bit of data, the &d&lNumeric Mana Charm&r&r adds a precise numeric mana indicator while worn in the charm slot."]
 			id: "625BC4059536940E"
 			rewards: [
 				{
@@ -12080,8 +12080,8 @@
 					type: "item"
 				}
 			]
-			title: "Upgrade your armor!"
-			x: 5.0d
+			title: "&5&lUpgrade your armor!"
+			x: -4.5d
 			y: 11.0d
 		}
 	]
