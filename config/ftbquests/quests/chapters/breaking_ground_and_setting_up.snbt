@@ -1052,7 +1052,7 @@
 			}]
 			title: "The 3x3 mechanical grid"
 			x: -0.5d
-			y: 9.428571428571423d
+			y: 9.035714285714292d
 		}
 		{
 			dependencies: ["7DFB5B09F54FA60B"]
@@ -1591,7 +1591,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 6.821428571428555d
+			y: 5.5714285714285765d
 		}
 		{
 			dependencies: ["045FC46B3A8BB2B2"]
@@ -2045,46 +2045,6 @@
 			title: "Supplemental Power"
 			x: -0.5d
 			y: 18.5d
-		}
-		{
-			dependencies: ["4D2E03A6EB864CF2"]
-			description: [
-				"Many things, the Celestial Arsenal being the prime example, are simply not meant to be obtained early in a play-through through smart gameplay and ingenuity, things can always be obtained more quickly using some ways above others."
-				""
-				"So it can be fun to go ahead and learn about and prepare for late game stuff, beforehand... right?"
-				""
-				"well.. Kinda."
-				""
-				"{@pagebreak}"
-				""
-				"Monoliths can be found spawning through various locations in the world. The primary things you need to know about monoliths are as follows:"
-				""
-				"They spawn very strong, hostile monsters, known as &cTraversers&r. They have multiple abilities for dealing and avoiding damage as well as being highly mobile."
-				""
-				"Monoliths found in the overworld require a crimson piece to activate and spawn more Traversers. &4Crimson pieces&r are only obtained from&c killing traversers."
-				"&r"
-				"Monoliths found in nether fortresses automatically begin spawning. Meaning you have to find your first monolith in THE NETHER, before being able to use the overworld monoliths with the crimson pieces obtained from the nether."
-				""
-				"{@pagebreak}"
-				""
-				"If you haven't figured it out yet... &cIt is highly advised to exercize caution&r when encountering an active monolith for the first time. Be prepared &9to fight&r, &ato run&r or &4to die&r."
-				""
-				"While not an intended thing.. They also spread, for now. More and more monoliths will continue to spawn so try not to leave any in the vicinity of builds or high traffic areas or else it is feesible for their spawning to have adverse effects on things such as the TPS of your worlds. "
-			]
-			id: "799537382C08918B"
-			rewards: [{
-				id: "0484B8446F9A8A92"
-				type: "xp"
-				xp: 5
-			}]
-			subtitle: "Don't get ahead of yourself!"
-			tasks: [{
-				id: "0E194505305C7E2B"
-				title: "Preparing The Celestial Arsenal"
-				type: "checkmark"
-			}]
-			x: -0.5d
-			y: 5.0d
 		}
 	]
 	title: "&eBreaking Ground and Setting Up"
