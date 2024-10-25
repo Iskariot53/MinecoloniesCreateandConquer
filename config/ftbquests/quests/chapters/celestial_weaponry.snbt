@@ -860,8 +860,8 @@
 				type: "item"
 			}]
 			title: "&b&lSolar Crystal"
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -1322,7 +1322,7 @@
 				}
 			]
 			title: "&b&lLunar Stone Armor"
-			x: 3.0d
+			x: 2.5d
 			y: 5.0d
 		}
 		{
@@ -1396,8 +1396,8 @@
 				}
 			]
 			title: "&b&lSolar Crystal Armor"
-			x: -3.5d
-			y: -2.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			description: [""]
@@ -1419,27 +1419,6 @@
 			title: "AUTOFOCUS"
 			x: -2.0d
 			y: 6.75d
-		}
-		{
-			dependencies: ["27871561BE483CFC"]
-			description: [""]
-			id: "772937EDE6EAC3C6"
-			tasks: [{
-				id: "2A1F18AF82F51BF2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "celestisynth:crimson_piece"
-				}
-				type: "item"
-			}]
-			title: "&4&lCrimson Piece"
-			x: 2.0d
-			y: -2.0d
 		}
 	]
 	title: "&eCelestial Arsenal"
