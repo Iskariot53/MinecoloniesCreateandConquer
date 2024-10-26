@@ -50,6 +50,8 @@ buttonAlignment = "RIGHT"
 		#The intensity of the custom bobbing animation while holding a gun
 		#Range: 0.0 ~ 2.0
 		bobbingIntensity = 1.0
+		#If enabled, enables cinematic camera effects on guns 
+		cinematicGunEffects = true
 
 	#Properties relating to particles
 	[client.particle]
