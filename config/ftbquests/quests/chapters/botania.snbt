@@ -1,9 +1,18 @@
 {
+	autofocus_id: "76D89F923391FFAF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "botania"
 	group: "31CA1CE9A64781BD"
-	icon: "botania:pure_daisy"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "botania:pure_daisy"
+	}
 	id: "6F379C74A5FFBE73"
 	order_index: 3
 	quest_links: [ ]
@@ -1998,6 +2007,7 @@
 			y: 22.5d
 		}
 		{
+			dependencies: ["4CEC896F997FA1E2"]
 			id: "7AEE296F4A7A950D"
 			subtitle: "The big bad botanical boss battle"
 			tasks: [{
@@ -2016,6 +2026,47 @@
 			title: "The Guardian of Gaia II"
 			x: 1.0d
 			y: 24.0d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "5541743AC51F286D"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "0ACDDAB4F06ED8CF"
+					type: "checkmark"
+				}
+				{
+					id: "062DD05247BAAE8B"
+					type: "checkmark"
+				}
+				{
+					id: "628EF385268FECDB"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
 		}
 	]
 	title: "&eBotania"

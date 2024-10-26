@@ -1,5 +1,5 @@
 {
-	autofocus_id: "615528DF4F844102"
+	autofocus_id: "643B53AB75DA4DEB"
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
 	filename: "ars_nouveau"
@@ -12083,6 +12083,47 @@
 			title: "&5&lUpgrade your armor!"
 			x: -4.5d
 			y: 11.0d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "5343778B03881B4A"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "04F72512D7467502"
+					type: "checkmark"
+				}
+				{
+					id: "69447F2907D77F55"
+					type: "checkmark"
+				}
+				{
+					id: "39246E2156004B08"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
 		}
 	]
 	title: "&eArs Nouveau"

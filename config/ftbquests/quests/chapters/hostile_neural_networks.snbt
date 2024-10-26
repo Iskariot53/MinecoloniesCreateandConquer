@@ -1,4 +1,5 @@
 {
+	autofocus_id: "78509D6A43BBC48E"
 	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
 	filename: "hostile_neural_networks"
@@ -7038,6 +7039,47 @@
 			}]
 			x: -0.5d
 			y: 0.5d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "3D7EEF0C342EB783"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "77EF637BAB176F7A"
+					type: "checkmark"
+				}
+				{
+					id: "4760CC68CAF3A2F4"
+					type: "checkmark"
+				}
+				{
+					id: "6118C7D85CC352B6"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
 		}
 	]
 	title: "&eHostile Neural Networks"

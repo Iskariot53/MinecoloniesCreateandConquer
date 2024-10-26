@@ -1,4 +1,5 @@
 {
+	autofocus_id: "1C496A76CE535F1E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "sifting"
@@ -440,6 +441,47 @@
 			}]
 			x: 2.0d
 			y: 6.0d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "35382D5C73522B1A"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "178D898366F6C17E"
+					type: "checkmark"
+				}
+				{
+					id: "0F3FEB8BCD8565DC"
+					type: "checkmark"
+				}
+				{
+					id: "09070778CAD50241"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
 		}
 	]
 	title: "&eSifting"

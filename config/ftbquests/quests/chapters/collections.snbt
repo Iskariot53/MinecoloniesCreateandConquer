@@ -1,5 +1,5 @@
 {
-	autofocus_id: "567F76C1FEEE3FEE"
+	autofocus_id: "6338F24EC3466E21"
 	consume_items: false
 	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
@@ -65,9 +65,21 @@
 			size: 1.5d
 			subtitle: "Down for a Tarot Reading?"
 			tasks: [{
-				id: "10366B6913379DB0"
-				title: "Let's Do Some Tarot Readings!"
-				type: "checkmark"
+				id: "1D391B533A1EAF82"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 22
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tarotcards:tarot_deck"
+				}
+				type: "item"
 			}]
 			title: "Down for a Tarot Reading?"
 			x: -6.5d
@@ -4277,6 +4289,47 @@
 			}]
 			x: 6.0d
 			y: -5.5d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "43072CAF4E49DFF3"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "58BC43F67A4AF81D"
+					type: "checkmark"
+				}
+				{
+					id: "144EC55DB4DE4526"
+					type: "checkmark"
+				}
+				{
+					id: "79D122F48A0FD64D"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
 		}
 	]
 	title: "&eFun Collection Quests"

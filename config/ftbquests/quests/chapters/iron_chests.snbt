@@ -1355,6 +1355,47 @@
 			x: -1.25d
 			y: 4.5d
 		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "3B5C4DAA0AB28DE8"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "767DC7937D49CECF"
+					type: "checkmark"
+				}
+				{
+					id: "77F46F01FF88CD46"
+					type: "checkmark"
+				}
+				{
+					id: "18E42CAEEB852A0F"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
+		}
 	]
 	title: "&eIron Chests and Furnaces"
 }

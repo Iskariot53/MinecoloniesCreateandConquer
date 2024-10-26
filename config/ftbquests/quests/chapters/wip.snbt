@@ -1,10 +1,16 @@
 {
+	autofocus_id: "05DCEC88971CA708"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "wip"
 	group: "5B6588F2B5558488"
 	icon: {
 		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
 		id: "celestisynth:solaris"
 		tag: {
 			Damage: 0
@@ -149,6 +155,47 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "0B7855F450C2F16D"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "085DB3A3B7DBC57E"
+					type: "checkmark"
+				}
+				{
+					id: "2A5D2A3FD02BE50F"
+					type: "checkmark"
+				}
+				{
+					id: "6848BE283E9DA406"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
+		}
 	]
-	title: "&eThe Road Less Traveled"
+	title: "&eThe Road Less Travelled"
 }

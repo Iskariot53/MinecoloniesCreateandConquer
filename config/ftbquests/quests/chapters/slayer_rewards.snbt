@@ -1,5 +1,5 @@
 {
-	autofocus_id: "23193C4466AAF035"
+	autofocus_id: "4D6E5F52202F5B6D"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	default_repeatable_quest: true
@@ -7678,6 +7678,47 @@
 			title: "Slayer Task: Kill The Wilden Chimera"
 			x: -6.982142857142861d
 			y: 2.392857142857146d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "176736E35123A54E"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "4C3C766E603F870C"
+					type: "checkmark"
+				}
+				{
+					id: "2BC4CF296F6817A4"
+					type: "checkmark"
+				}
+				{
+					id: "3EAB11AED2AFD7C2"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
 		}
 	]
 	title: "&dSlayer Rewards"

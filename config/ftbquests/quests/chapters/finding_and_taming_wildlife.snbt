@@ -15,6 +15,46 @@
 	id: "06C6621DA857FC8A"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: [
+			"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+			""
+			"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+		]
+		disable_toast: true
+		hide: true
+		hide_details_until_startable: false
+		hide_text_until_complete: false
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "architects_palette:hazard_sign"
+		}
+		icon_scale: 2.0d
+		id: "3442B2C4CD622819"
+		invisible: true
+		optional: true
+		tasks: [
+			{
+				id: "7EF2F7924469C576"
+				type: "checkmark"
+			}
+			{
+				id: "70EB2A6C182BD169"
+				type: "checkmark"
+			}
+			{
+				id: "727A9E816F105AA2"
+				type: "checkmark"
+			}
+		]
+		title: "&6&lQuests by TeamMCC for the MCC Modpack"
+		x: 6.0d
+		y: -2.0d
+	}]
 	title: "&eWildlife Taming and Husbandry"
 }

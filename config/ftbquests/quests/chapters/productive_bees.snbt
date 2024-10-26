@@ -1,9 +1,18 @@
 {
+	autofocus_id: "0B7B4C27767760A1"
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "productive_bees"
 	group: "73E078B9278C6A11"
-	icon: "luphieclutteredmod:luphie_bee_lamp"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "luphieclutteredmod:luphie_bee_lamp"
+	}
 	id: "707349D42B2378BD"
 	order_index: 2
 	quest_links: [ ]
@@ -5175,6 +5184,47 @@
 			}]
 			x: 6.5d
 			y: 5.5d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "0811E7EF963242D8"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "28014C23F957C4AD"
+					type: "checkmark"
+				}
+				{
+					id: "26D70B2E58ECD6F3"
+					type: "checkmark"
+				}
+				{
+					id: "031A2DE2C1D12E13"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
 		}
 	]
 	title: "&eProductive Bees&r"

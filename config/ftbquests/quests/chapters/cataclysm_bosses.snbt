@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4EC5CFF9BBFEC067"
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "cataclysm_bosses"
@@ -2466,6 +2467,68 @@
 			title: "&e&lAncient Spear"
 			x: 0.5d
 			y: 14.0d
+		}
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "615F37F6089B42F2"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "27BA924C9D73E22F"
+					type: "checkmark"
+				}
+				{
+					id: "72B616F85824C265"
+					type: "checkmark"
+				}
+				{
+					id: "7866ED1E88CF5AEE"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			id: "4EC5CFF9BBFEC067"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "0327BBBE9F5B6F09"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: 4.25d
+			y: 8.0d
 		}
 	]
 	title: "&eCataclysm"
