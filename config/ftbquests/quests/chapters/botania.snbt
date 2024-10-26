@@ -7,25 +7,2016 @@
 	id: "6F379C74A5FFBE73"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["4386DFA29FCEDD4D"]
-		icon: {
-			Count: 1
-			ForgeCaps: {
-				"celestisynth:celestisynthitemstackcapabilities": {
-					cs.aquaSkin: 0
+	quests: [
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			description: [
+				"Mystical flowers can be found scattered throughout the world. They can be crafted into &apetals&r which can then be used in botanical creations or even crushed into dyes! "
+				""
+				"Flowers can also be grown using floral fertilizer, you will learn more about this shortly."
+				""
+				"Different recipes will require different colored petals, so it's always wise to pick up any you do not already have."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:white_mystical_flower"
+			}
+			id: "585F7153AFC98B12"
+			size: 2.0d
+			subtitle: "Flower power"
+			tasks: [{
+				advancement: "botania:main/flower_pickup"
+				criterion: ""
+				id: "49C12E387F7DBF4F"
+				type: "advancement"
+			}]
+			title: "Welcome to Botania!"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["585F7153AFC98B12"]
+			description: [
+				"Floral fertilizer can be used to spawn a few flowers per use, it effectively works like bonemeal for creating mystical flowers when used"
+				""
+				"If you find yourself running low on a particular color, try burying a petal of that color and using some bone meal on it."
+			]
+			id: "08DDE1BA7270501B"
+			subtitle: "Gathering flowers the easy way"
+			tasks: [{
+				id: "3863F67A69DE5EBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:fertilizer"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["585F7153AFC98B12"]
+			description: [
+				"The petal apothecary, when provided with water, will accept any mystical petals thrown into it."
+				""
+				"Once the correct combination of petals have been provided, throwing any type of seeds in will finalize the crafting process."
+				"All Functional and Generating Flora are made here more information on this later in the questline (or even better, read through the respective sections in the lexicon)."
+				""
+				"Right clicking the apothecary with an empty hand will remove the last item thrown in. Right clicking with an empty hand &oafter&r the completion of a recipe will automatically pull and add another round of the recipes ingredients from your inventory, for up to 20 seconds after the recipe completes."
+				""
+				"If filled with lava, the apothecary will act as both a lightsource and an incernator, destroying any items that come into contact."
+			]
+			id: "34B1F78384E7FE7F"
+			subtitle: "Basic botanical crafting"
+			tasks: [{
+				id: "32670C20B95C21FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:apothecary_default"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34B1F78384E7FE7F"]
+			description: [
+				"The pure daisy is going to be a mainstay in your botanic journey. The first and most critical use is the conversion of wood and stone blocks into livingwood and livingstone, you are going to use these resources throughout your entire use of Botania, so automating this one earlier rather than later might be a good idea."
+				""
+				"Other uses for the pure daisy include: Purifying netherrack into cobblestone, soul sand into sand, blaze mesh into obsidian, water into snow, ice into packed ice, packed ice into blue ice, and end stone into cobbled deepslate which will also release a small cloud of ender air in the process."
+			]
+			id: "5571549F78AD7942"
+			subtitle: "Your first functional flower"
+			tasks: [{
+				id: "526EA6E799B3AE8F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:pure_daisy"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5571549F78AD7942"]
+			description: [
+				"Using 3 livingwood twigs and 2 petals, craft a wand of the forest, allowing you to manipulate, link and unlink flowers and botanic devices."
+				""
+				"The wand has two modes, bind mode and function mode."
+				"{@pagebreak}"
+				"Sneak-right click on a compatible block with the wand in hand to select it, then sneak-right click elsewhere to bind the two blocks."
+				""
+				"Sneak-right clicking a block in Function Mode rotates the block around the axis of the side that was clicked. Using the wand on the top of a chest will change the direction it faces. Most blocks with orientations can be reoriented this way."
+				""
+				"The two modes can be switched between by sneak-right clicking the wand in the air. A dispenser holding a wand will use the wand on the block it currently faces, when activated."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:twig_wand"
+				tag: {
+					color1: 0
+					color2: 3
 				}
 			}
-			id: "botania:white_mystical_flower"
+			id: "55D80F8F2BE16A7A"
+			subtitle: "Your botanical \"wrench\""
+			tasks: [
+				{
+					id: "7BF4B5AA4BB499D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "botania:livingwood_twig"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1670853BB13F1DEE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "itemfilters:tag"
+						tag: {
+							value: "botania:petals"
+						}
+					}
+					title: "Any #botania:petals"
+					type: "item"
+				}
+			]
+			title: "Wand of the Forest"
+			x: 1.0d
+			y: 5.5d
 		}
-		id: "585F7153AFC98B12"
-		tasks: [{
-			id: "1CABFD2B0D0E19F9"
-			title: "Welcome to Botania"
-			type: "checkmark"
-		}]
-		x: 1.0d
-		y: 0.5d
-	}]
+		{
+			dependencies: ["585F7153AFC98B12"]
+			description: ["Flower pouchs can hold up to 1 stack of all colors of mystical flowers as well as tall mystical flowers. It will automatically collect any mystical flowers you pick up and sneak-right clicking it on an inventory will empty its contents into the container."]
+			id: "7B850BCDE25616EF"
+			subtitle: "Saving some inventory space"
+			tasks: [{
+				id: "30C15015E6611354"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:flower_bag"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55D80F8F2BE16A7A"]
+			description: [
+				"Mana is Botanias form of \"energy\", learning to generate and properly manipulate it can get somewhat comlicated down the road. As for the basics? It's fairly straight forward."
+				""
+				"Generating flora are used to create Mana. Mana generated can be extracted and transferred with mana spreaders and stored in mana pools."
+				""
+				"The primary use of mana, is powering functional flora and well... you, the trinkets and magics you use will required stored mana (more on that later)."
+				""
+				"{@pagebreak}"
+				""
+				"The first step in generating mana is as follows:"
+				""
+				"Choose a starter flower - &cendoflames&r or &9hydroangeas&r."
+				""
+				"&cEndoflames&r last forever but require a burnable source be provided for them to consume (dropping them on the flower in any way works)."
+				""
+				"&9Hydroangeas&r die after about 3 days and consume water source blocks on the same Y level within a 3x3 block range to generate mana."
+				""
+				"{@pagebreak}"
+				""
+				"Next craft a &6mana spreader&r and &6mana pool&r, using your wand of the forest, link the flower to the spreader, then the mana spreader to the mana pool. supply the flower with its required resource and you're all done with your first mana set up!"
+			]
+			id: "775D35416263E2B5"
+			subtitle: "Generating mana and how it works"
+			tasks: [{
+				id: "7BCDFE4175FD8E8B"
+				title: "The Basics"
+				type: "checkmark"
+			}]
+			title: "The Basics of Mana"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			description: [
+				"Mana pools accept mana from mana spreaders, and any adjacent ones will fill from it automatically."
+				""
+				"All functional flora require a nearby mana pool to draw power from in order to operate."
+				""
+				"There are 2 types of mana pool, \"normal\" mana pools and the diluted mana pool. The diluted mana pool works exactly the same as the normal one, with the exception that it holds approx. 100x less mana, good for making small buffers where limited amounts of mana are needed and you don't want to store a large supply."
+			]
+			id: "25A502390EB93B31"
+			subtitle: "Mana storage"
+			tasks: [{
+				id: "4C394DE7D456FA49"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_pool"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			description: [
+				"Mana spreaders have a small internal buffer of mana, which will get filled by generating flora bound to it. (Flowers, when placed, auto-bind to the nearest spreader.) This buffer can be viewed by hovering over the spreader with a wand in hand. Their primary function is simple. Moving mana from one location to another. This process is handled without the use of pipes or wires."
+				""
+				"Holding a wand of the forest makes nearby spreaders display aiming beams. Hovering over a spreader highlights its target. The sparkles show where mana loss begins to occur."
+				""
+				"As long as the target of the spreader can accept mana and isn't full, the spreader will repeatedly fire mana bursts, which travel to their destination and transfer their Mana to it."
+				""
+				"{@pagebreak}"
+				""
+				"Spreadesr will only fire another mana burst when the last one reaches its target destination."
+				""
+				"Furthermore, a mana burst will start suffering mana loss after a small amount of time: this can be seen in the burst's appearance, as it thins out at that point."
+				""
+				"Applying a Redstone Signal to a spreader will pause its firing of bursts. If more control is needed, use a pulse mana spreader, as it fires upon a redstone signal in lieu of a target."
+				""
+				"{@pagebreak}"
+				""
+				"Right-clicking the spreader with a piece of wool will sleeve and silence it, reducing the potential noise of multiple spreaders in a small area."
+				""
+				"Right-clicking it while holding scaffolding will surround it in a sturdy frame. This allows it to support redstone components like buttons and levers on all sides. Redstone dust, repeaters, and the like can now also be placed on top of it. "
+			]
+			id: "46D18D5A3C7E5DFF"
+			subtitle: "Moving mana"
+			tasks: [{
+				id: "73ED2D2F55DE53AF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_spreader"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			id: "159792662A8F6A9F"
+			tasks: [{
+				id: "677731C46EF223B0"
+				title: "Generating Flora"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["775D35416263E2B5"]
+			id: "74974B293BF303C1"
+			tasks: [{
+				id: "087F10F521D22FE1"
+				title: "Functional Flora"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "6EF8EF579D32EAB0"
+			tasks: [{
+				id: "41ADE2D80FB84D43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:hydroangeas"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "1DA1F954B56E642B"
+			tasks: [{
+				id: "01D45BA3DCF535AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:endoflame"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: [
+				"The mana tablet is a portable item that can carry mana stored within itself. Other items contained in the inventory or curios slots can draw from it for their own use, making it essential for any botanist."
+				""
+				""
+				"Tossing a tablet into a Mana Pool will allow for flow of Mana between them."
+				"Sneak-right clicking on the Mana Pool with a wand of the forest (or using a dispenser containing one) will the direction in which mana will flow."
+				""
+				"Unlike normal, dropped mana tablets never despawn."
+			]
+			id: "4F66AAEF33D85B38"
+			subtitle: "Portable mana storage"
+			tasks: [{
+				id: "3975D6DD8CF48C8C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_tablet"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: [
+				"If you are familiar with the \"engineers goggles\" from the create mod. Then this will require little explanation, it's Botanias version of them."
+				""
+				"When equipped, the manaseer monocle automatically displays mana burst and functional ranges of flowers to the player without the need of holding the wand of the forest."
+			]
+			id: "6ED33F5A8C4852CD"
+			subtitle: "Visualizing your set ups"
+			tasks: [{
+				id: "5B550275AE05E791"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:monocle"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: ["Manastars can be used to display net-gain or net-loss of mana from a mana pool at any given time. If the manastar turns blue it is gaining mana, red means it is losing mana, pretty simple."]
+			id: "076633469576309F"
+			subtitle: "So whats going on in the mana pool?"
+			tasks: [{
+				id: "0C1CEB8836888F6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:manastar"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "4E6415314C1C1207"
+			tasks: [{
+				id: "5212DD81CF457737"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_string"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "674AB289787B179F"
+			tasks: [{
+				id: "19866119D37BC13C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:quartz_mana"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "0235A3E2044132D5"
+			tasks: [{
+				id: "4E89505F588D8B1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_diamond"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["25A502390EB93B31"]
+			id: "32A9EF5F4F5A432F"
+			tasks: [{
+				id: "599DED85E110D484"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_pearl"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			description: [
+				"The velocity lens will dramatically increase the speed at which a mana burst travels, but at the expense of initial capacity and faster mana loss. Meaning you will transfer mana faster but will \"lose\" mana in the process more readily. "
+				""
+				"They can be great but it is recommended &onot&r to use them until you have mana generation to the point of the loss being acceptable. Refrain from using them if you are still at a point of using mana virtually as fast as you can create it, as long as this is the case using the velocity lens is a bad idea."
+			]
+			id: "76D89F923391FFAF"
+			subtitle: "Mana moving FAST"
+			tasks: [{
+				id: "4D4806E0032CB59D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_speed"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			id: "04A3CE7E46200063"
+			tasks: [{
+				id: "58CCD34CC190389A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:manasteel_ingot"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["46D18D5A3C7E5DFF"]
+			description: [
+				"Mana lenses can be used to upgrade mana spreaders. The most basic mana lens does absolutely nothing."
+				""
+				"A lens can be dyed by crafting it with any color of dye to give it that color, or with a mana pearl to create a rainbow lens. These change the color of the fired burst. This is the least valuable thing to use lenses for, however, if you do not need an upgraded spreader it may be worth doing if it helps fit your aesthetic."
+				""
+				"{@pagebreak}"
+				""
+				"Lenses aren't just for fancy colors... They can be upgraded with many different materials to create all kinds of effects with their mana bursts."
+				"Keep in mind that a normal mana spreader must point at a mana-receiving block to fire. This is why a pulse mana spreader is recommended for certain lenses instead. Bear in mind, components such as pipes and hoppers can add or remove spreaders' lenses."
+			]
+			id: "498CEA081D94A5AB"
+			subtitle: "Tweaking your mana dispersion"
+			tasks: [{
+				id: "78DAC768A206FB44"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_normal"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			id: "310BB257C68EE1CB"
+			subtitle: "MORE mana per burst"
+			tasks: [{
+				id: "5818D65114EDDCBF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_power"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			id: "526384363131A0AA"
+			tasks: [{
+				id: "53BACA89AE4EA152"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_time"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["498CEA081D94A5AB"]
+			id: "112C035B003CABF3"
+			tasks: [{
+				id: "77D508C00FE070ED"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:lens_efficiency"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"25A502390EB93B31"
+				"46D18D5A3C7E5DFF"
+			]
+			description: [
+				"Black lotus can be found as loot throughout the world, a lot of people just mindlessly ignore them, which is fine later on when you have more mana than you know what to do with... However, especially early on, they are EXTREMELY useful for the large amount of mana they grant when dropped into a mana pool."
+				""
+				"Think of them as mana tablets you can loot."
+			]
+			id: "6118AE87E3739408"
+			subtitle: "THESE ARE NOT JUNK"
+			tasks: [{
+				id: "2E65EC4E9A714D46"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:black_lotus"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["72820219DBE77D92"]
+			description: ["Terrasteel is a magical alloy, infused with vast amounts of mana. Its creation it proves to be no small feat. To start, requires a terrestrial agglomeration plate placed over a checkerboard pattern of lapis lazuli blocks and livingrock or shimmerrock. This block then needs to be provided with mana, with sparks being the most efficient method."]
+			id: "02B9CDBCE083183B"
+			subtitle: "Making Terrasteel"
+			tasks: [{
+				id: "52DE2DE99ABCE1C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:terrasteel_ingot"
+				}
+				type: "item"
+			}]
+			title: "Terrestrial Agglomeration Plate"
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["15169FE8866CD32A"]
+			id: "09639200E03A54C2"
+			tasks: [{
+				id: "41F043E07B171629"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:elementium_ingot"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["04A3CE7E46200063"]
+			id: "72820219DBE77D92"
+			tasks: [{
+				id: "40F24D289FAA2762"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:terra_plate"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["5571549F78AD7942"]
+			hide_dependency_lines: true
+			id: "5D9CDC1CB8BA8EA3"
+			tasks: [{
+				id: "27BD7AE33F6CEB2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:runic_altar"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "4C3D61F312732CCD"
+			tasks: [{
+				id: "3985A8833594DD19"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_water"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "3E782B26DADD186E"
+			tasks: [{
+				id: "6AE9F03A1B66D232"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_fire"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "1447842048E39146"
+			tasks: [{
+				id: "3F6BF292A987511C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_earth"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "7E3DE4FCB7EA385C"
+			tasks: [{
+				id: "2B4EF6C09B2D0B63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_air"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "7F238EE9A1167EB9"
+			tasks: [{
+				id: "3E0C83CDC9B05263"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_spring"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "413BD213703238DD"
+			tasks: [{
+				id: "6664D50D55B7CA1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_summer"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "63E29195E8A7437B"
+			tasks: [{
+				id: "716013088F1B6A4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_autumn"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "48C379EAF298010F"
+			tasks: [{
+				id: "40C23558E7F1B301"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_winter"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "063A2B560823582C"
+			tasks: [{
+				id: "6311CB46BC44E8F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_mana"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "53E68B29DFA9CA66"
+			tasks: [{
+				id: "4F00FB73BC167E48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_lust"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "54AB3E71B41AB881"
+			tasks: [{
+				id: "68A5BF25A7F86E1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_gluttony"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "73C1CA8C3432BCAB"
+			tasks: [{
+				id: "547D484CBCEF3BCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_greed"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "380E38842E2C9ECE"
+			tasks: [{
+				id: "4E63E9D059B8D378"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_sloth"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "07C1996CECF0485C"
+			tasks: [{
+				id: "2293A302BA37FD48"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_wrath"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "1F3800E3E70028F3"
+			tasks: [{
+				id: "632F4230AE2D8C99"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_envy"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5D9CDC1CB8BA8EA3"]
+			id: "4A764120EA808884"
+			tasks: [{
+				id: "362AFB3BCF82080C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rune_pride"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["02B9CDBCE083183B"]
+			id: "15169FE8866CD32A"
+			tasks: [{
+				id: "2C49B263289A6FAA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:alfheim_portal"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "60A633CB92C4380E"
+			size: 1.5d
+			tasks: [{
+				id: "6CC755E83C62051B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:dandelifeon"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "0786CBC21C9C62EC"
+			tasks: [{
+				id: "60354A96C95C5359"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:thermalily"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "124C791F7EB4F9C8"
+			tasks: [{
+				id: "72A891851FD4EE0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rosa_arcana"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "3B093545AB861AB2"
+			tasks: [{
+				id: "2F5581C5534FAE93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:munchdew"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "1E9B144AD43DB095"
+			tasks: [{
+				id: "718A2B47F35B07A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:entropinnyum"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "496CBABFEF926FCC"
+			tasks: [{
+				id: "2F3731A12F7B9CFD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:kekimurus"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "2163E43C8D6F58EC"
+			tasks: [{
+				id: "709EE8CB0958F15D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gourmaryllis"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "242287085FA7718A"
+			tasks: [{
+				id: "24E0FB04507578A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:narslimmus"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "0E5CD382A9CF2116"
+			tasks: [{
+				id: "67286A2CC7B7E4AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:spectrolus"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "3DEA84347E3F9457"
+			tasks: [{
+				id: "7C39371A91D41257"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rafflowsia"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["159792662A8F6A9F"]
+			id: "4953A679E9CC31DC"
+			tasks: [{
+				id: "5F9D88EF21AB12C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:shulk_me_not"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "60A7D013A5A9DB4B"
+			tasks: [{
+				id: "6A8CA313C100EE6E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:bellethorn"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "2A53624D4A290BF6"
+			tasks: [{
+				id: "5FB6A6B95507C888"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:bergamute"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "25F90334E79A4BA0"
+			tasks: [{
+				id: "62DC770A482603D6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:dreadthorn"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "06D7055EAAF4F8FD"
+			tasks: [{
+				id: "6419B410DC8E205D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:heisei_dream"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "678BA6E0FDBA529F"
+			tasks: [{
+				id: "5BA7E2DBEB6B6E26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:tigerseye"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "591899C2EEE556DA"
+			tasks: [{
+				id: "313258B684A26C96"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:jaded_amaranthus"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "17AB109B31B13B1A"
+			size: 1.5d
+			tasks: [{
+				id: "5D6E5120B8FEA608"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:orechid"
+				}
+				type: "item"
+			}]
+			x: 13.374999999999986d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "019B5D7920DAC31C"
+			tasks: [{
+				id: "0151769261F88566"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:fallen_kanade"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "1F7F2DA602B5D2F2"
+			tasks: [{
+				id: "3859C55A5F64E9FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:exoflame"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "1AC2CB3D5AA69AA7"
+			tasks: [{
+				id: "706A2BB1C171A06F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:agricarnation"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "10F6C182A160BF70"
+			tasks: [{
+				id: "165C7A4611191205"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:hopperhock"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "0598F4791AC98A60"
+			tasks: [{
+				id: "0212B71343361A73"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:tangleberrie"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "61537DA632D4F793"
+			tasks: [{
+				id: "2F650B49F3B62F3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:jiyuulia"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "5DF3505465AB7382"
+			tasks: [{
+				id: "1FD35FBBCD24244B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:rannuncarpus"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "6DD0D2B0CCEE428D"
+			tasks: [{
+				id: "307FF65A6FD22154"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:hyacidus"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "10038EEBAD47FD33"
+			tasks: [{
+				id: "61664675FC1DF54F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:pollidisiac"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "0DED2EB3DA27FFFD"
+			tasks: [{
+				id: "4A59ED0222816332"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:clayconia"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "0A56E51EEA2A2F31"
+			tasks: [{
+				id: "1C874F00297E9856"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:loonium"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "7AF7C930D7951FA5"
+			tasks: [{
+				id: "2EA2A7F5AF8D3458"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:daffomill"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "641465DA01092C64"
+			tasks: [{
+				id: "0BE1102392A3C6F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:vinculotus"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "798367D4FF2C28B3"
+			tasks: [{
+				id: "4B6E6400F5572749"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:spectranthemum"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "68D744FE07264535"
+			tasks: [{
+				id: "4F96F3D94FC72407"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:medumone"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "137097D308BBDDFA"
+			tasks: [{
+				id: "5058EE0452B5CB83"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:marimorphosis"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "4F0BA283C5F285C8"
+			tasks: [{
+				id: "2BB3775B43301A17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:bubbell"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "7ED9900A3E2B933A"
+			tasks: [{
+				id: "330BBD4F36ABD815"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:solegnolia"
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "14BFA10329AB5698"
+			tasks: [{
+				id: "716B8DC5FEEDEA6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:orechid_ignem"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "7FAC67E26E772859"
+			tasks: [{
+				id: "122BEF46E22A7DD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:labellia"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2DF1230AFB800F95"
+				"09639200E03A54C2"
+			]
+			id: "745E25B61B899BCD"
+			tasks: [{
+				id: "306CFF8DB703567F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:elven_spreader"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["46D18D5A3C7E5DFF"]
+			hide_dependency_lines: true
+			id: "2DF1230AFB800F95"
+			tasks: [{
+				id: "17FD89C9E1E52A2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:redstone_spreader"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			id: "24EEB676E61B31E4"
+			tasks: [{
+				id: "7336C5FA6932069E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:redstone_root"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"745E25B61B899BCD"
+				"15169FE8866CD32A"
+				"4CEC896F997FA1E2"
+			]
+			id: "6A6C553A07792322"
+			tasks: [{
+				id: "77831255CEC3279C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gaia_spreader"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 21.5d
+		}
+		{
+			dependencies: [
+				"2B34CE966764F7D8"
+				"15169FE8866CD32A"
+				"09639200E03A54C2"
+			]
+			id: "53AEAF0267FC2CE6"
+			tasks: [{
+				id: "596571239C90AE9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gaia_pylon"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["04A3CE7E46200063"]
+			hide_dependency_lines: true
+			id: "34BBB5DD3224D05C"
+			tasks: [{
+				id: "0098A83AD20ACA14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:mana_pylon"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"34BBB5DD3224D05C"
+				"02B9CDBCE083183B"
+			]
+			id: "2B34CE966764F7D8"
+			tasks: [{
+				id: "39BE1C677842868D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:natura_pylon"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["53AEAF0267FC2CE6"]
+			description: [
+				"Gaia spirits are recieved as fragments of the power of the Goddess of Gaia upon her guardians defeat. This ritual requires an active beacon with gaia pylons surrounding it to act as a summoning altar, as well as a single terrasteel ingot to sacrific for summoning."
+				""
+				"To start the ritual, sneak and right click the beacon with the terrasteel ingot, take a step back, and prepare for a tough fight. Preparation is absolutely required, the fight with the Guardian of Gaia can be even harder than that with the Wither or Warden. Upon the guardian's defeat,   spirits of gaia will be dropped as a prize."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The difficulty and reward yielded by the ritual depends on the number of people participating. Performing the ritual with 5+ people in the vicinity can be a very big mistake, the guardians stats scale with the number of players present. Staying clear of the purple particle effects is also probably a good idea."
+			]
+			id: "4CEC896F997FA1E2"
+			subtitle: "The botanical boss battle"
+			tasks: [{
+				id: "6E1F2ECC2289FAA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:life_essence"
+				}
+				type: "item"
+			}]
+			title: "The Guardian of Gaia"
+			x: 1.0d
+			y: 22.5d
+		}
+		{
+			id: "7AEE296F4A7A950D"
+			subtitle: "The big bad botanical boss battle"
+			tasks: [{
+				id: "3DDAD123710192B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:gaia_ingot"
+				}
+				type: "item"
+			}]
+			title: "The Guardian of Gaia II"
+			x: 1.0d
+			y: 24.0d
+		}
+	]
 	title: "&eBotania"
 }
