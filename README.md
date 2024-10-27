@@ -14,4 +14,4 @@ When reporting an issue, follow the steps provided and answer as clearly and spe
 <br>
 
 #### Find our Modpack on CurseForge:
-+ [![Minecolonies - Create & Conquer](https://www.curseforge.com/minecraft/modpacks/minecolonies-create-conquer "Minecolonies - Create & Conquer")
++ [![Minecolonies - Create & Conquer](http://cf.way2muchnoise.eu/1092065.svg "MCC") Minecolonies - Create & Conquer](https://www.curseforge.com/minecraft/modpacks/minecolonies-create-conquer)
