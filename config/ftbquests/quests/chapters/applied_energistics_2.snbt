@@ -61,30 +61,23 @@
 			]
 			size: 1.5d
 			subtitle: "Advanced logistics solutions."
-			tasks: [
-				{
-					id: "2028C937F7767E45"
-					title: "Getting started with Ae2"
-					type: "checkmark"
-				}
-				{
-					id: "38903810689BD801"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "itemfilters:tag"
-						tag: {
-							value: "ae2:quartz_wrench"
+			tasks: [{
+				id: "38903810689BD801"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
-					title: "Any #ae2:quartz_wrench"
-					type: "item"
+					id: "itemfilters:tag"
+					tag: {
+						value: "ae2:quartz_wrench"
+					}
 				}
-			]
+				title: "Any #ae2:quartz_wrench"
+				type: "item"
+			}]
 			title: "Welcome to Applied Energistics 2!"
 			x: 0.0d
 			y: 0.0d
