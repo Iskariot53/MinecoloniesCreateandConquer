@@ -34,13 +34,13 @@
 				""
 				"{@pagebreak}"
 				""
-				"This Modpack is carefully designed to COMPLETELY overhaul the Minecraft experience. From custom biome generation to full on dimensional overhauls, from the HarvestCraft plants on the ground to the Dynamic Trees (yeah, even the trees dont work the same anymore). A completely overhauled combat mechanics system thanks to Better Combat, including the ability to wield new weapon types and classes like pole arms and 2 handed weapons, as well as utilize new special and combo moves! Last but not least, many... MANY bosses and dungeons thanks to the likes of L Enders Cataclysm, When Dungeons Arise, and thanks to Dimensional Dungeons you can enjoy a literally endless spree of dungeoneering within your own base! Create Numismatics introduces an in-game economy players can use to purchase goods and services from other players or if going it solo, in the \"Quest Shop\" chapter of this quest book. "
+				"This Modpack is carefully designed to COMPLETELY overhaul the Minecraft experience. From custom biome generation to full on dimensional overhauls, from the HarvestCraft plants on the ground to the Dynamic Trees (yeah, even the trees don't work the same anymore). A completely overhauled combat mechanics system thanks to Better Combat, including the ability to wield new weapon types and classes like pole arms and two-handed weapons, as well as utilize new special and combo moves! Last but not least, many... MANY bosses and dungeons thanks to the likes of L Enders Cataclysm, When Dungeons Arise, and thanks to Dimensional Dungeons you can enjoy a literally endless spree of dungeoneering within your own base! Create Numismatics introduces an in-game economy players can use to purchase goods and services from other players or if going it solo, in the \"Quest Shop\" chapter of this quest book. "
 				""
 				"{@pagebreak}"
 				"A completely reworked health and stat calculating system. Quests. Missions. Bounties. And so... SO much more! "
 				""
 				"{@pagebreak}"
-				"Choose your origin and start your colony whenever you're ready, or don't, the pack is designed in such a way that you can choose to completely ignore the colony building aspect of the pack, with no downside. Likewise there's no downside to choosing a human origin and remaining within your castle walls, never fighting a boss. We HIGHLY suggest trying both, but understand some things aren't for everybody. So the pack has been structured in such a way that the \"colony building\" and \"adventuring\" aspects of the pack can be played completely independant of each other, should you choose to do so."
+				"Choose your origin and start your colony whenever you're ready, or don't, the pack is designed in such a way that you can choose to completely ignore the colony building aspect of the pack, with no downside. Likewise there's no downside to choosing a human origin and remaining within your castle walls, never fighting a boss. We HIGHLY suggest trying both, but understand some things aren't for everybody. So the pack has been structured in such a way that the \"colony building\" and \"adventuring\" aspects of the pack can be played completely independent of each other, should you choose to do so."
 				""
 				"{@pagebreak}"
 				"Capsules can be crafted and used to move your builds and most animals are tamable. pick your favorite starter home, find a place to get started and enjoy!"
@@ -136,10 +136,7 @@
 		}
 		{
 			dependencies: ["613C7011A8A8033C"]
-			description: [
-				"Use a supply camp or supply ship to get many of the earlier huts and resources associated with minecolonies, such as the build tool and townhall"
-				"However, on many servers these items are banned and this can make getting started a bit different than normal. Use a build tool to place your townhall, found your colony, and then place and &9build the builders hut FIRST.&r then have your builder build the town hall. All buildings and the level which they can be upgraded to within a colony are directly dependant on the builder and the builders hut level, so you need a level 1 builders hut to build your level 1 townhall, houses, etc. and this trend will continue on throughout the mods progression. The Tavern has a max level of 3 but most if not all other huts can be upgraded to 5, provided there is a level 5 builder to build/upgrade it."
-			]
+			description: ["Use a supply camp or supply ship to get many of the early huts and resources associated with MineColonies, such as the build tool and town hall. However, on many servers, these items are banned, which can make getting started a bit different than normal. Use a build tool to place your town hall, found your colony, and then place and &9build the builder’s hut FIRST.&r Then have your builder construct the town hall. All buildings and the levels to which they can be upgraded within a colony are directly dependent on the builder and the builder’s hut level, so you need a level 1 builder’s hut to build your level 1 town hall, houses, etc. This trend will continue throughout the mod’s progression. The Tavern has a max level of 3, but most, if not all, other huts can be upgraded to 5, provided there is a level 5 builder to build/upgrade it."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -174,8 +171,16 @@
 		}
 		{
 			dependencies: ["6DC66F240EF37760"]
-			description: ["A lot of what is going to be most easily available to you tech-wise in the early game will be &6Create&r, leading into Mekanism for now. Mekanism and its machines &4&oDO NOT&r&r generate power, you will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress powered alternators, generators and motors. However there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r for early game electricity! "]
-			icon: "create:large_cogwheel"
+			description: ["A lot of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, leading into Mekanism for now. Mekanism and its machines &4&oDO NOT&r&r generate power, you will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress-powered alternators, generators, and motors. However, there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r for early game electricity! "]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:large_cogwheel"
+			}
 			id: "7FA3787123BC491F"
 			rewards: [
 				{
@@ -212,11 +217,19 @@
 		{
 			dependencies: ["69F61E7551B10F85"]
 			description: [
-				"This Pack features multiple routes to learn and advance in the arcane arts."
+				"This pack features multiple routes to learn and advance in the arcane arts."
 				""
-				"With the likes of schools of magic from mods such as: &dArs Nouveau&r, &cBlood Magic&r and &2Botania&r as well as many Compatibilities and integrations for each, you can farm your botanicals in new ways, as well as combine your Ars and Blood arsenal with the tome of blood and Heretics Armor among many other things."
+				"With the likes of schools of magic from mods such as: &dArs Nouveau&r, &cBlood Magic&r, and &2Botania&r as well as many compatibilities and integrations for each, you can farm your botanicals in new ways, as well as combine your Ars and Blood arsenal with the Tome of Blood and Heretic's Armor among many other things."
 			]
-			icon: "minecraft:experience_bottle"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:experience_bottle"
+			}
 			id: "2F84AAEDD67C3C61"
 			rewards: [
 				{
@@ -242,7 +255,7 @@
 		}
 		{
 			dependencies: ["7FA3787123BC491F"]
-			description: ["Multiple mods in the pack provide a means to protect and secure your things. Here's a mega torch for now, but it's not going to help much by itself, or for very long..."]
+			description: ["Multiple mods in the pack provide a means to protect and secure your belongings. Here’s a mega torch for now, but it won’t help much on its own or for very long..."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -280,8 +293,16 @@
 		}
 		{
 			dependencies: ["2F84AAEDD67C3C61"]
-			description: ["Craft a market and this will help make your herbivorous lifestyle a little easier... if you get down like that. Easy Villagers/Piglins is also a nice lag friendly way to get your farming and trading needs covered."]
-			icon: "minecraft:farmland"
+			description: ["Craft a market, as this will help make your herbivorous lifestyle a little easier... if you get down like that. Easy Villagers/Piglins is also a nice lag friendly way to get your farming and trading needs covered."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:farmland"
+			}
 			id: "67D70DF7521DF700"
 			rewards: [
 				{
@@ -309,7 +330,7 @@
 			description: [
 				"                                                                    &6Capsules&r"
 				""
-				"One of our favorite mods ever! You'll notice upon spawning into the world for the first time, you've been given a few starter home samples, conveniently pre-packed in a re-usable capsule, courtesy of the devs (they're actually the same ones we built and used for our own play!)"
+				"One of our favorite mods ever! This quest will let you choose a starter home sample, conveniently pre-packed in a re-usable capsule, courtesy of the devs (they're actually the same ones we built and used for our own play!)"
 				""
 				""
 				"&4MOST CAPSULES YOU FIND ARE NOT REUSABLE, ONCE PLACED, THEY CANNOT BE PUT BACK INSIDE AS THE ORIGINAL CAPSULE DISAPPEARS ON USE!&r"
@@ -321,10 +342,15 @@
 				""
 				"&4USE CAPSULES ON TECH/MAGIC/COMPLEX MODS AT YOUR OWN RISK. THEY ARE SAFE IN GENERAL BUT YOU HAVE BEEN WARNED&r"
 				""
-				"as close to a full list of blacklisted/incompatible mods as possible can be found in the capsule configurations, found in your config folder. For all intents and purposes most other blocks/entities are safe to be moved via capsule. &9Test First.&r Better safe then sorry."
+				"As close to a full list of blacklisted/incompatible mods as possible can be found in the capsule configurations, found in your config folder. For all intents and purposes most other blocks/entities are safe to be moved via capsule. &9Test First.&r Better safe then sorry."
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "capsule:capsule"
 				tag: {
 					color: 12244701
@@ -372,8 +398,16 @@
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["It is highly recommended for carnivores to look up the mob cages mod in JEI sooner rather than later."]
-			icon: "minecraft:cooked_beef"
+			description: ["It is highly recommended for carnivores to look up the Mob Cages mod in JEI sooner rather than later."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:cooked_beef"
+			}
 			id: "69F61E7551B10F85"
 			rewards: [
 				{
@@ -401,11 +435,19 @@
 		{
 			dependencies: ["0A4196BD7B0FC574"]
 			description: [
-				"A backpack will do for now, and the starter home options each come with enough storage space to get you by until you can find more long term accomodations."
+				"A backpack will do for now, and the starter home options each come with enough storage space to get you by until you can find more long-term accommodations."
 				""
-				"You have Storage Racks, Functional Storage, Tom's Simple Storage, Applied Energistics 2 as well as many of the core mods in the pack provide their own means of storage such as: Create's item vaults, Mekanism's QIO drive array, Ars Nouveau's storage lectern and much more!"
+				"You have Storage Racks, Functional Storage, Tom's Simple Storage, and Applied Energistics 2, as well as many of the core mods in the pack, which provide their own means of storage, such as: Create's item vaults, Mekanism's QIO drive array, Ars Nouveau's storage lectern, and much more!"
 			]
-			icon: "minecraft:chest"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:chest"
+			}
 			id: "36E76244E933E017"
 			rewards: [
 				{
@@ -430,9 +472,14 @@
 		}
 		{
 			dependencies: ["0BD601443B63B208"]
-			description: ["Have fun and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs and provide the link in the appropriate channel of the &9MCC discord&r. Have any ideas or suggestions? please let us know, Thanks!"]
+			description: ["Have fun, and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs, providing the link in the appropriate channel of the &9MCC Discord&r. Have any ideas or suggestions? Please let us know. Thanks!"]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "create_sa:experience_sword"
 				tag: {
 					Damage: 0
@@ -471,10 +518,15 @@
 			description: [
 				"A &2Nature's Compass&r will help you find that &dperfect&r biome to settle down in."
 				""
-				"While &6Dirt Buckets&r allow you to convert tree seeds into saplings"
+				"While &6Dirt Buckets&r allow you to convert tree seeds into saplings."
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "naturescompass:naturescompass"
 				tag: { }
 			}
@@ -520,11 +572,19 @@
 				"29428113245CF8E0"
 			]
 			description: [
-				"From here on out a lot of quests and tasks will be rewarded with: Spurs, Bevels, Sprockets, Cogs, Crowns, and Suns. "
+				"From here on out, many quests and tasks will be rewarded with Spurs, Bevels, Sprockets, Cogs, Crowns, and Suns."
 				""
-				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting numismatics coinage, from here on out we will be refering to them as \"&6Numi Coins&r\" for short hand and simplicity's sake."
+				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting Numismatics Coinage. From here on out, we will be referring to them as \"&6Numi Coins&r\" for shorthand and simplicity's sake."
 			]
-			icon: "numismatics:bank_terminal"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "numismatics:bank_terminal"
+			}
 			id: "0BD601443B63B208"
 			rewards: [
 				{
@@ -550,7 +610,7 @@
 		}
 		{
 			dependencies: ["32C249BE079B4054"]
-			description: ["You're really going to want to automate this process. While very inefficient, smashing 6 &7Iron&r or &eGold&r ingots together into plates will suffice for now."]
+			description: ["You're really going to want to automate this process. Though very inefficient, smashing 6 &7Iron&r or &eGold&r ingots together into plates will suffice for now."]
 			id: "1A8D6E6607B276B5"
 			rewards: [
 				{
@@ -584,7 +644,7 @@
 		}
 		{
 			dependencies: ["32C249BE079B4054"]
-			description: ["While not very efficient. Your rudimentary understandings of metals and tools do allow you to craft some blocks and items by hand. With time and progress, either magically or technologically, You will advance to more practical and efficient means."]
+			description: ["While not very efficient, your rudimentary understanding of metals and tools does allow you to craft some blocks and items by hand. With time and progress, either magically or technologically, you will advance to more practical and efficient means."]
 			id: "29428113245CF8E0"
 			rewards: [
 				{
@@ -620,9 +680,9 @@
 		{
 			dependencies: ["7A10879779D35FF1"]
 			description: [
-				"Our modpack offers a rewarding skill system through the Just Leveling mod, which adds passives, skills, and even cool titles! XP is now more important and useful than ever before."
+				"Our modpack offers a rewarding skill system through the Just Leveling mod, which adds passives, skills, and even cool titles! XP is more valuable and versatile than ever before."
 				""
-				"Open your Aptitudes Screen with the default \"Y\" key (check your keybinds). There are 8 main aptitudes, each featuring passives that can be upgraded from level 0 to 10, as well as skills that can be enabled or disabled depending on the level required. Plus, you can unlock cool titles as you level up!"
+				"Open your Aptitude Screen with the default \"Y\" key (check your keybinds). There are eight main aptitudes, each featuring passives that can be upgraded from level 0 to 10, as well as skills that can be enabled or disabled depending on the level required. Plus, you can unlock cool titles as you level up!"
 				""
 				"Gather XP, explore the various skills and passives, and choose which aptitude to level up first based on your playstyle!"
 			]

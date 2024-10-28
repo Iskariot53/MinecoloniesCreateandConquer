@@ -273,7 +273,7 @@
 		}
 		{
 			dependencies: ["1CC4682D04DA96C8"]
-			description: ["To craft new glyphs, use a spell book on the table to open the codex. Each glyph requires a set of items and experience points to unlock. Select a glyph by clicking on it in the menu, and hit select. Throw the items onto the table, and the table will scribe a new glyph. The table will also pull items from nearby inventories. Using the dominion wand on the table will disable auto-pull."]
+			description: ["To craft new glyphs, use a spell book on the table to open the codex. Each glyph requires a set of items and experience points to unlock. Select a glyph by clicking on it in the menu, then hit Select. Throw the items onto the table, and it will scribe a new glyph. The table will also pull items from nearby inventories. Using the dominion wand on the table will disable auto-pull."]
 			id: "505D987EB8D4FDBF"
 			rewards: [
 				{
@@ -956,11 +956,11 @@
 		{
 			dependencies: ["2B1D941319C6128B"]
 			description: [
-				"A &d&lbrazier&r&r that may be used as decoration or for performing rituals. To light the brazier for decoration, cast a Light spell on the brazier. The color of the brazier corresponds with the color of the spell. Applying a redstone signal will disable a running ritual."
+				"A &d&lbrazier&r&r serves as both decoration and a ritual tool. To light it for decoration, cast a Light spell; the brazier will change color based on the spell used. A redstone signal will disable any active ritual."
 				""
-				"Performing a ritual requires a &d&lRitual Brazier,&r&r and a &l&dtablet&r&r. Once you have obtained a tablet and brazier, place your brazier in the world and use a tablet on it. The brazier will ignite, and is awaiting activation. In this state, you may throw in any additional items as a way to augment the ritual. If you wish to augment a ritual, simply toss the item on top of the brazier."
+				"To perform a ritual, you need a &d&lRitual Brazier&r&r and a &dtablet&r&r. Place the brazier in the world and use the tablet on it to ignite it and await activation. You can augment the ritual by tossing additional items onto the brazier."
 				""
-				"To activate your ritual, interact with the brazier with an empty hand. Once activated, your ritual can no longer be augmented and has been consumed permanently. If a ritual requires source to operate, the brazier will pull from source jars within 6 blocks."
+				"To activate the ritual, interact with the brazier with an empty hand. Once activated, the ritual cannot be augmented and is permanently consumed. If a ritual requires a source to operate, the brazier will draw from source jars within 6 blocks."
 			]
 			id: "6CF308170079ADCC"
 			rewards: [
@@ -1604,9 +1604,9 @@
 		{
 			dependencies: ["6CF308170079ADCC"]
 			description: [
-				"To begin &esummoning familiars&r, you will need to obtain a &d&lBound Script&r&r of the entity you wish to befriend. These are acquired by performing the &dRitual of Binding&r near the relevant entity. Once you have the Bound Script, use it to learn the familiar."
+				"To begin &esummoning familiars&r, obtain a &d&lBound Script&r&r for the entity you wish to befriend by performing the &dRitual of Binding&r near it. Use the Bound Script to learn the familiar."
 				""
-				"After using a Bound Script, you can access your list of familiars from the &dSpellbook&r crafting menu in the Familiars section. Selecting a familiar will summon it into the world, but it will also give you Familiar Sickness, temporarily preventing you from summoning another one for a short time."
+				"Afterward, access your list of familiars from the &dSpellbook&r crafting menu in the Familiars section. Summoning a familiar will inflict Familiar Sickness, temporarily preventing you from summoning another for a short time."
 			]
 			id: "5E96FAABB9DF4C39"
 			rewards: [
@@ -10687,9 +10687,7 @@
 		{
 			dependencies: ["20A73BE11D09BAFB"]
 			description: [
-				"&d&lSpell Mana&r&r is used to cast spells with a Spellbook. The maximum amount of mana, and the speed at which it regenerates, may be increased by wearing special Mage Armor or by applying the Mana Boost or Mana Regen enchantments on your gear. Additionally, you will gain bonus mana and regeneration for each glyph unlocked in your spellbook."
-				""
-				"Adding glyphs to your spell book will also increase your maximum amount of mana and mana regeneration. This bonus also scales with the tier of your spell book."
+				"&d&lSpell Mana&r&r is used to cast spells with a Spellbook. You can increase your maximum mana and its regeneration speed by wearing special Mage Armor or applying the Mana Boost and Mana Regen enchantments. Additionally, each glyph unlocked in your spellbook grants bonus mana and regeneration, which scales with your spellbook's tier."
 				""
 				"&dSource Berries&r, found in Taigas, are essential for crafting Mana Regeneration potions."
 			]
