@@ -167,7 +167,7 @@
 			}]
 			title: "The Heart of Every Colony"
 			x: -0.5d
-			y: -5.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["6DC66F240EF37760"]
@@ -680,54 +680,6 @@
 		{
 			dependencies: ["7A10879779D35FF1"]
 			description: [
-				"Our modpack offers a rewarding skill system through the Just Leveling mod, which adds passives, skills, and even cool titles! XP is more valuable and versatile than ever before."
-				""
-				"Open your Aptitude Screen with the default \"Y\" key (check your keybinds). There are eight main aptitudes, each featuring passives that can be upgraded from level 0 to 10, as well as skills that can be enabled or disabled depending on the level required. Plus, you can unlock cool titles as you level up!"
-				""
-				"Gather XP, explore the various skills and passives, and choose which aptitude to level up first based on your playstyle!"
-			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "design_decor:arrow_up_sign"
-			}
-			id: "6727FFD03BC77E25"
-			rewards: [
-				{
-					id: "4BD15922D0C47182"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "7F0AF90C870FA4FA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Just Leveling"
-			tasks: [{
-				id: "7BE65AD85D803A81"
-				type: "checkmark"
-			}]
-			title: "It's time to Level Up!"
-			x: -0.5d
-			y: -8.5d
-		}
-		{
-			dependencies: ["6727FFD03BC77E25"]
-			description: [
 				"Ever wanted to send your friend a gift, trade with others, or ship items home while you're still deep in a cave or across the map? The Ender Mail mod has you covered!"
 				""
 				"Ender Mail allows you to employ Endermen as mail carriers to deliver packages anywhere in the world. You can have packages sent to specific coordinates or directly to a Locker if you know its unique ID."
@@ -783,7 +735,7 @@
 			}]
 			title: "My mailman is great—he always delivers!"
 			x: -0.5d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			description: [
