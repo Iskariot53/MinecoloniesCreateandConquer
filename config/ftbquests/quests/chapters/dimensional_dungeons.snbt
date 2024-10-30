@@ -268,17 +268,11 @@
 				}
 			]
 			tasks: [{
-				id: "3E776CA54F02A5F1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "dimdungeons:item_blank_advanced_key"
-				}
-				type: "item"
+				advancement: "dimdungeons:dungeons/find_advanced_key"
+				criterion: ""
+				id: "7439A0DA72C0977A"
+				title: "Find an Advanced Key"
+				type: "advancement"
 			}]
 			title: "&eAdvanced Keys"
 			x: -1.5d
