@@ -63,7 +63,7 @@
 	#Range: 1 ~ 3
 	level_max_concentration = 3
 	#Allows the perk Jailer [false/true|default:true]
-	allow_jailer = true
+	allow_jailer = false
 	#Defines the level max of the perk Jailer [1..5|default:5]
 	#Range: 1 ~ 5
 	level_max_jailer = 5
