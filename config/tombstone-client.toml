@@ -12,13 +12,13 @@
 	#Shows shield particles on villager [false/true|default:true]
 	show_shield_particle = false
 	#Allows the ghost to appear around you during Halloween [false/true|default:true]
-	allow_halloween_ghost = true
+	allow_halloween_ghost = false
 	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
 	date_in_mc_time = false
 	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
 	display_knowledge_message = true
 	#Equips elytra in priority when recovering your lost items [false/true|default:false]
-	equip_elytra_in_priority = false
+	equip_elytra_in_priority = true
 	#Automatically equip magic books in Curios slot [false/true|default:false]
 	equip_curio_slot_magic_book = false
 	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]
@@ -72,7 +72,7 @@
 	#Display or not the messages of earned of points in Alignment [false/true|default:true]
 	display_alignment_message = true
 	#Equips shield in priority when recovering your lost items [false/true|default:false]
-	equip_shield_in_priority = false
+	equip_shield_in_priority = true
 	#Sorts the inventory by filling the last slots first [false/true|default:false]
 	reverse_inventory_sorting = false
 

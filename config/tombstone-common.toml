@@ -16,9 +16,9 @@
 	#Allows to fill an existing grave instead of creating a new one [false/true|default:true]
 	allow_to_fill_existing_grave = true
 	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
-	nerf_ghostly_shape_teleport_with_key = true
+	nerf_ghostly_shape_teleport_with_key = false
 	#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
-	nerf_ghostly_shape_enemy_collision = true
+	nerf_ghostly_shape_enemy_collision = false
 	#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
 	nerf_ghostly_shape_open_chest = true
 	#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
@@ -101,7 +101,7 @@
 	unhandled_harmful_effects = ["minecraft:nausea"]
 	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
 	#Range: 1000 ~ 100000
-	easter_egg_spawn_rarity = 5000
+	easter_egg_spawn_rarity = 100000
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
