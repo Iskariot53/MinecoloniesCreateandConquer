@@ -581,11 +581,6 @@
 			dependencies: [
 				"4F98CC4F3B2B2CF9"
 				"72ABF1E13212EB7A"
-				"52C1ABEEAA3AEEDB"
-				"3A62EDEC4F73063C"
-				"5EE45B1CFDB10215"
-				"4F028FCAAFC2AD22"
-				"3126617D43B60448"
 			]
 			description: ["Wether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided. Let's build what we need to recharge or refill it, the next few chapters will explore the options."]
 			hide: true
@@ -1952,11 +1947,19 @@
 			description: [
 				"Supply scamps are passive mobs found in the world, while not immortal, they are pretty tough and ignored by most hostile mobs. Once tamed with &6ancient brass&r your scamp will follow and collect items it finds on the ground, storing them in its internal inventory. "
 				""
-				"The face plates can be changed with dye!"
+				"The easiest way to obtain ancient brass is killing cog mobs and regrettably, supply scamps! They also drop copper blueprints so killing 1 or 2 in order to get the brass to tame one is pretty useful, even if you don't want the scamp, they spawn pretty much everywhere in the overworld. The face plates can be changed with dye!"
 			]
 			hide: true
 			hide_dependency_lines: true
-			icon: "scguns:ancient_brass"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "scguns:ancient_brass"
+			}
 			id: "516600488B9BC914"
 			rewards: [
 				{
@@ -1979,11 +1982,9 @@
 			]
 			subtitle: "A little storage buddy"
 			tasks: [{
-				consume_items: true
-				count: 4L
-				id: "2B158031836B4437"
-				item: "create:brass_ingot"
-				type: "item"
+				id: "3B2AC326480DDD36"
+				title: "Taming supply scamps"
+				type: "checkmark"
 			}]
 			title: "Supply Scamps"
 			x: -0.5d
