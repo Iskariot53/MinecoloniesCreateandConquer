@@ -1558,7 +1558,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2427432B9F7590B7"]
+			dependencies: [
+				"2427432B9F7590B7"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1595,7 +1598,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["3C5DB2127560C5B4"]
+			dependencies: ["2427432B9F7590B7"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
