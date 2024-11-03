@@ -21,10 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["517B276D1D59EC02"]
 			description: [
 				"&l&cRoost Ultimate&r&r is a comprehensive expansion for Minecraft that opens up a new dimension of chicken breeding and resource production. Immerse yourself in a world of diverse chicken breeds, experiment with breeding, and optimize your resource yield. Enjoy the challenges and rewards this mod brings, and experience the game in a whole new way."
 				""
@@ -57,18 +54,11 @@
 			]
 			size: 1.5d
 			subtitle: "I'm not counting any chickens."
-			tasks: [
-				{
-					id: "6DE15EF46EB2ED24"
-					item: "chicken_roost:book"
-					type: "item"
-				}
-				{
-					id: "74E31978507842CB"
-					item: "chicken_roost:chicken_stick"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "74E31978507842CB"
+				item: "chicken_roost:chicken_stick"
+				type: "item"
+			}]
 			title: "Don't count your chickens before they hatch!"
 			x: 0.0d
 			y: -4.5d

@@ -4,6 +4,7 @@
 	default_quest_shape: "hexagon"
 	filename: "productive_bees"
 	group: "73E078B9278C6A11"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -65,7 +66,15 @@
 				""
 				"(No, the bee puns won't be stopping, not sorry)"
 			]
-			icon: "minecraft:bee_nest"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:bee_nest"
+			}
 			id: "374D27B6E8DB7066"
 			rewards: [
 				{

@@ -33,6 +33,9 @@
 		#Multiplier to adjust the capacity of all ammo boxes.
 		#Range: 0.1 ~ 100.0
 		ammoBoxCapacityMultiplier = 1.0
+		#Energy produced per tick by the Polar Generator. Adjust this value to balance the generator's output.
+		#Range: > 1
+		energyProductionRate = 50
 
 		#Properties related to gun griefing
 		[common.gameplay.griefing]
