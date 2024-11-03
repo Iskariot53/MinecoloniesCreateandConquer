@@ -1993,7 +1993,9 @@
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: ["When struck with &6lightning&r (go figure) the lightning rod, connector and battery can be used to provide an extra boost to your power reserves. They actually make a fairly impressive amount of power (&e24Kfe&r) per strike, extremely useful for helping manage early game power constraints."]
+			hide: true
 			id: "020B554BDF65651E"
+			optional: true
 			rewards: [
 				{
 					id: "5D1B9933F4195D02"
