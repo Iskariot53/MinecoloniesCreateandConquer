@@ -5,6 +5,7 @@
 	default_quest_shape: "rsquare"
 	filename: "collections"
 	group: "40D70F6AEAC8BA2E"
+	hide_quest_until_deps_complete: true
 	id: "51B960244202310D"
 	order_index: 3
 	quest_links: [ ]
@@ -4297,9 +4298,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

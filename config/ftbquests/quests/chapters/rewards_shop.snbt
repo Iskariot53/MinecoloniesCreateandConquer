@@ -8,6 +8,7 @@
 	filename: "rewards_shop"
 	group: "349A9F115A2C6332"
 	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
@@ -1257,7 +1258,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["04F5E10803F9EB28"]
+			dependencies: [
+				"04F5E10803F9EB28"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1299,7 +1303,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["4284558E8C25DD96"]
+			dependencies: [
+				"4284558E8C25DD96"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1348,7 +1355,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["4284558E8C25DD96"]
+			dependencies: [
+				"4284558E8C25DD96"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1396,7 +1406,10 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["43734D90BEC9A2BE"]
+			dependencies: [
+				"43734D90BEC9A2BE"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1438,7 +1451,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["47F9C0DC00029429"]
+			dependencies: [
+				"47F9C0DC00029429"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1488,7 +1504,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["2432A9D7BE9F8BB4"]
+			dependencies: [
+				"2432A9D7BE9F8BB4"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1523,7 +1542,10 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["2432A9D7BE9F8BB4"]
+			dependencies: [
+				"2432A9D7BE9F8BB4"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1598,7 +1620,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["2427432B9F7590B7"]
+			dependencies: [
+				"2427432B9F7590B7"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1641,7 +1666,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7C3181ED07B8D3C4"]
+			dependencies: [
+				"7C3181ED07B8D3C4"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1687,6 +1715,7 @@
 			dependencies: [
 				"250A47CC0072B020"
 				"5B7CFD38909BADF8"
+				"3B38BC10347BDA7D"
 			]
 			icon: {
 				Count: 1
@@ -1723,7 +1752,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["49F179F14CDEEFA3"]
+			dependencies: [
+				"49F179F14CDEEFA3"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2280,9 +2312,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

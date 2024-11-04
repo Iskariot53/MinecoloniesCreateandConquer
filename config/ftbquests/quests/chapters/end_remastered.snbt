@@ -40,8 +40,8 @@
 			]
 			dependency_requirement: "one_completed"
 			description: ["You will encounter and need to solve a variety of problems and puzzles... but with patience, perserverance (and maybe some sheer frustration) you will find the end portal, hidden deep within the castle."]
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: "minecraft:end_portal_frame"
 			id: "66724C7726B85288"
 			min_required_dependencies: 12
@@ -62,9 +62,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in desert pyramids. The old eye as a 10% chance to generate in any loot chest found inside"]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "406FE1016C817592"
 			rewards: [{
 				id: "3569E04C098436A1"
@@ -89,9 +89,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in Buried Treasure. The black eye has a 30% chance to generate in buried treasure chests."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "4B47FB33A67A8954"
 			rewards: [{
 				id: "6564097A739F8905"
@@ -116,9 +116,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in Igloos. The cold eye has a 70% chance to generate in chests found inside."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "76BFF547E05119C9"
 			rewards: [{
 				id: "5EBB34D36A09CC75"
@@ -143,9 +143,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in Pillager Outposts. The corrupted eye has a 30% chance to generate in loot chests found inside."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "07EC93A264EE50C0"
 			rewards: [{
 				id: "3A3B2AFF7E148087"
@@ -170,9 +170,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in Mineshafts. The lost eye has a 20% chance to generate in loot chests found inside."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "12303F29C1BFCD95"
 			rewards: [{
 				id: "30691C911E5DF508"
@@ -197,9 +197,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in a Nether Fortress. The nether eye has a 30% chance to generate in any loot chest found inside."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "5AFB997134EBEED9"
 			rewards: [{
 				id: "71E72A1A378363AC"
@@ -224,9 +224,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in Jungle Pyramids. The rogue eye has a 40% chance to generate in any loot chest found inside."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "7EAB62BE76CE8622"
 			rewards: [{
 				id: "5F5CCB4EFD183646"
@@ -251,9 +251,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Found in Bastion Remnants. The cursed eye has a 50% chance to generate in any loot chest found inside."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "6A5EE3F5E0221581"
 			rewards: [{
 				id: "6547F533990E02E6"
@@ -278,9 +278,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Obtained from Master Clerics. The evil eye can be purchased from master level cleric villagers for a random number of emeralds and a rabbits foot."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "18A292E848DF64BA"
 			rewards: [{
 				id: "441B306C7FE75920"
@@ -305,9 +305,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Obtained from killing Elder Guardians. The guardian eye has a 30% drop chance per kill. Not effected by looting."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "1ED0800AE2D7089C"
 			rewards: [{
 				id: "3C7C251639DCDE2F"
@@ -336,9 +336,9 @@
 				""
 				"(This is not effected by looting, sorry)"
 			]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "19335E4E6D4B0433"
 			rewards: [{
 				id: "5DC7C4241080A30E"
@@ -367,9 +367,9 @@
 				""
 				"(Not effected by looting, sorry)"
 			]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "1114C76FE406FCFD"
 			rewards: [{
 				id: "4D56B66F1FFE636A"
@@ -394,9 +394,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Obtained as 1 of 4 possible rewards  upon completion of the \"Ender Eradication\"  slayer task list."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "1F0AAB103F9F4639"
 			rewards: [{
 				id: "1CCA3A30C8B0CE65"
@@ -421,9 +421,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Obtained as 1 of 4 possible rewards  upon completion of the \"Ender Eradication\"  slayer task list.  It also can be obtained as a VERY small percentage chance to drop while enchanting items. 1.2% to be exact."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "3D137DE5A49DE091"
 			rewards: [{
 				id: "40A884889C022F2D"
@@ -448,9 +448,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Obtained as 1 of 4 possible rewards  upon completion of the \"Ender Eradication\"  slayer task list."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "72E83D30678C3BE2"
 			rewards: [{
 				id: "25DE201367F99729"
@@ -475,9 +475,9 @@
 		{
 			dependencies: ["5426DBB8C5F18767"]
 			description: ["Obtained as 1 of 4 possible rewards  upon completion of the \"Ender Eradication\"  slayer task list."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "0CAB03D3005E9BB0"
 			rewards: [{
 				id: "4DC2BC298EDA2ACD"
@@ -506,7 +506,16 @@
 				""
 				"In the following quests you will be given a brief description of where and how to obtain each of the eyes."
 			]
-			icon: "minecraft:ender_eye"
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "5426DBB8C5F18767"
 			rewards: [{
 				id: "77157A2D4E7D84B9"
@@ -525,9 +534,9 @@
 		{
 			dependencies: ["66724C7726B85288"]
 			description: ["            Kill the Ender Dragon."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -561,9 +570,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

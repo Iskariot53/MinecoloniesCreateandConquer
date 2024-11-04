@@ -25,6 +25,7 @@
 				""
 				"&4&lBlood Magic&r&r is an arcane art practiced by mages who harness power from a forbidden material: &l&4BLOOD&r&r. While it offers immense power, every action you take with this volatile magic could be deadly. You've been warned."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4692,9 +4693,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

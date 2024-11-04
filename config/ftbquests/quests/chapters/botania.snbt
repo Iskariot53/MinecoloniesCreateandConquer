@@ -26,6 +26,7 @@
 				""
 				"Different recipes will require different colored petals, so it's always wise to pick up any you do not already have."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4139,9 +4140,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

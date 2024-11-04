@@ -5,6 +5,7 @@
 	default_quest_shape: "octagon"
 	filename: "mounts"
 	group: "40D70F6AEAC8BA2E"
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -27,6 +28,7 @@
 				""
 				"&l&3Soul Bottles&r&r can be obtained by clicking on &lSoul Sand&r using a &lWater Bottle&r. &l&eColored Eyes&r&r are crafted using an &lEye of Ender&r surrounded by any type of &ldye&r."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -740,7 +742,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -791,7 +793,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -848,7 +850,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -905,7 +907,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -956,7 +958,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1013,7 +1015,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1064,7 +1066,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1120,7 +1122,7 @@
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1177,7 +1179,7 @@
 				""
 				"You can tame and breed this dragon with &l&dAmethyst Crystals&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1228,7 +1230,7 @@
 				""
 				"You can tame and breed this dragon with &l&8Books&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1279,7 +1281,7 @@
 				""
 				"You can tame and breed this dragon with &l&9Copper Ingots&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1330,7 +1332,7 @@
 				""
 				"You can tame and breed this dragon with &l&eGold Ingots&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1381,7 +1383,7 @@
 				""
 				"You can tame and breed this dragon with &l&3Prismarine Shards&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1432,7 +1434,7 @@
 				""
 				"You can tame and breed this dragon with &l&cBricks&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1483,7 +1485,7 @@
 				""
 				"You can tame and breed this dragon with &l&0Soul Lanterns&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1534,7 +1536,7 @@
 				""
 				"You can tame and breed this dragon with &l&2Rotten Flesh&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1577,9 +1579,9 @@
 		{
 			description: [""]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
+			hide_until_deps_visible: true
 			id: "37640623C70B848B"
 			invisible: true
 			optional: true
@@ -1602,9 +1604,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

@@ -33,6 +33,17 @@
         "value": 2048
       }
     },
+    "protection_pixel:suspension": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "attributeslib:prot_shred": {
       "enabled": false,
       "min": {
@@ -77,6 +88,17 @@
         "value": 1000
       }
     },
+    "protection_pixel:jumpboost": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "forge:entity_gravity": {
       "enabled": false,
       "min": {
@@ -108,6 +130,50 @@
       "max": {
         "default": 1000,
         "value": 1000
+      }
+    },
+    "protection_pixel:effectclear": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:highspeeddamageincrease": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:falldamagereduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:dynamicentityperception": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "minecolonies:mc_mob_damage": {
@@ -163,6 +229,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "protection_pixel:prostheticattack": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "forge:entity_reach": {
@@ -253,6 +330,28 @@
         "value": 40000
       }
     },
+    "protection_pixel:hellfire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:breathinswimming": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "attributeslib:dodge_chance": {
       "enabled": false,
       "min": {
@@ -330,6 +429,17 @@
         "value": 1024
       }
     },
+    "protection_pixel:shielda": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 25,
+        "value": 25
+      }
+    },
     "minecraft:generic.armor_toughness": {
       "enabled": true,
       "min": {
@@ -339,6 +449,17 @@
       "max": {
         "default": 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
         "value": 1000000
+      }
+    },
+    "protection_pixel:rocketassist": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "additionalentityattributes:dig_speed": {
@@ -396,6 +517,39 @@
         "value": 100
       }
     },
+    "protection_pixel:arrowmarking": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:magneticrange": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:pneumaticpickaxea": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:water_visibility": {
       "enabled": false,
       "min": {
@@ -405,6 +559,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "protection_pixel:magicdamagereduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "forge:nametag_distance": {
@@ -451,7 +616,29 @@
         "value": 1024
       }
     },
+    "protection_pixel:weakradiation": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:burnreduction": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -660,6 +847,17 @@
         "value": 10000
       }
     },
+    "protection_pixel:arrowbarrier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "botania:pixie_spawn_chance": {
       "enabled": false,
       "min": {
@@ -682,6 +880,17 @@
         "value": 1000000
       }
     },
+    "protection_pixel:magneticattracttarget": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "additionalentityattributes:lava_speed": {
       "enabled": false,
       "min": {
@@ -702,6 +911,17 @@
       "max": {
         "default": 128,
         "value": 128
+      }
+    },
+    "protection_pixel:healthconversion": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "attributeslib:arrow_damage": {
@@ -812,6 +1032,17 @@
       "max": {
         "default": 10,
         "value": 10
+      }
+    },
+    "protection_pixel:preventburial": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "aoa3:ranged_attack_damage": {

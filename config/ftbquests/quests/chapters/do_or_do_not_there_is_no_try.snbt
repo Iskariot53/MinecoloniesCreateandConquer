@@ -1950,9 +1950,9 @@
 		{
 			dependencies: ["0AE5C8215A851FBE"]
 			description: ["Living life on the wild side, huh? This chestplate is purely experimental, &cUSE AT YOUR OWN RISK&r."]
-			hide: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
+			hide_until_deps_visible: true
 			id: "36C69E016FD09084"
 			invisible: true
 			rewards: [
@@ -2607,9 +2607,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

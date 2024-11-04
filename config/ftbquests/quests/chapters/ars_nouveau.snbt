@@ -19,11 +19,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"045FC46B3A8BB2B2"
-			]
+			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["&d&lArs Nouveau&r&r is a magic mod inspired by Ars Magicka that allows players to craft their own spells, create magical artifacts, perform rituals, and much more. It introduces a flexible glyph-based spell system, letting players customize spells with different effects, shapes, and modifiers. Additionally, players can summon familiars, automate tasks with magical constructs, offering endless opportunities for creativity and progression in the game."]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -12089,9 +12087,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

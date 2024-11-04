@@ -24,7 +24,16 @@
 				""
 				"The next few quests will cover some of these options, so we can better decide how best to establish ourselves, and what would be a good idea to work towards."
 			]
-			icon: "minecraft:writable_book"
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:writable_book"
+			}
 			id: "771588CF1624B99F"
 			rewards: [
 				{
@@ -56,6 +65,7 @@
 				"771588CF1624B99F"
 			]
 			description: ["First things first, As with any other Minecraft playthrough let's get ourselves at least a diamond pickaxe. "]
+			hide_until_deps_visible: true
 			id: "3126617D43B60448"
 			rewards: [
 				{
@@ -583,8 +593,8 @@
 				"72ABF1E13212EB7A"
 			]
 			description: ["Wether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided. Let's build what we need to recharge or refill it, the next few chapters will explore the options."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -798,8 +808,8 @@
 				"3A62EDEC4F73063C"
 			]
 			description: ["Flux networks can be created and once a &2controller&r has been crafted, &cplugs&r and &9points&r can be used to distribute power throughout your network. Power can then be distributed directly to players as well, charging curios, hotbar and other slots!"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "fluxnetworks:flux_controller"
 			id: "72050B5553410FC6"
 			rewards: [
@@ -838,8 +848,8 @@
 				""
 				"simply place the automat and supply it with the ingredients for the recipe, introduce a redstone signal and you have your crafted items on demand!"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "328F2E09297C9A18"
 			rewards: [
 				{
@@ -870,8 +880,8 @@
 				""
 				"Any time a charm is added to the empty slot, a new slot is generated. Most \"basic\" mobs in the world have a craftable charm that can be added to the belt to render them &9passive&r to the player."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "11A05C0C12AEC2C0"
 			min_required_dependencies: 1
 			rewards: [
@@ -904,8 +914,8 @@
 		{
 			dependencies: ["3126617D43B60448"]
 			description: ["The tool belt can hold and be used to quickly switch between held items, craftable &6pouches&r can be added to it to &eincrease&r the number of tools it is able to hold."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "37571112636254D1"
 			min_required_dependencies: 1
 			rewards: [
@@ -942,8 +952,8 @@
 				""
 				"it's where all the cool kids are."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "50C3CF313092C2E0"
 			min_required_dependencies: 1
 			rewards: [
@@ -982,8 +992,8 @@
 				""
 				"Refer to the \"&3Locked and Loaded&r\" secton of \"Optional Quests\" for more info."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4CEB772EDB7768E1"
 			rewards: [
 				{
@@ -1021,7 +1031,7 @@
 				""
 				"while progressing through technologies, an upgraded grid is required, but the 3x3 alone will open all that the pack has to offer in other areas and mods, again, &cexcluding&r higher tier technology. "
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:mechanical_crafter"
 			id: "17BDF7E9E9E70940"
 			min_required_dependencies: 1
@@ -1164,7 +1174,7 @@
 				""
 				"Note: The usual cooldown and consumption of exporting has been &cdisabled&r, you can freely make and share location cards as much as you like."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "65C70FDB98BD8CC7"
 			optional: true
 			rewards: [
@@ -1316,8 +1326,8 @@
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: ["Many &eMANY&r recipes will require these mechanisms, so make a &6dedicated assembly line&r for them."]
-			hide: true
 			hide_dependency_lines: false
+			hide_until_deps_visible: true
 			id: "3E49F7BA2D2D9DBF"
 			optional: true
 			rewards: [
@@ -1345,8 +1355,8 @@
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: ["If bullets didn't solve the problem... you just didn't use enough bullets yet, this is always the case."]
-			hide: true
 			hide_dependency_lines: false
+			hide_until_deps_visible: true
 			id: "7ECEAD20A6ABF2F9"
 			optional: true
 			rewards: [
@@ -1410,7 +1420,7 @@
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: ["Pretty self explanatory, the &amending rune&r will repair your equipment, when held in your &6main hand&r, and provided you have the &2XP&r for it to burn."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3E2502A84EE5ED7C"
 			optional: true
 			rewards: [
@@ -1443,7 +1453,7 @@
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: ["&dQuantum mechanisms&r are a cruciel component in the construction of &6teleporters&r. Telejuice is another potential idea for something worth automating, if setting up a teleporter network is something that piques your interest,"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "157768F2C05BDBDD"
 			optional: true
 			rewards: [
@@ -1475,8 +1485,8 @@
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: ["Used for many useful things, the construction of &eProtection Pixel&r armors being a a prime example."]
-			hide: true
 			hide_dependency_lines: false
+			hide_until_deps_visible: true
 			id: "3C4614655C75AD6F"
 			optional: true
 			rewards: [
@@ -1521,7 +1531,7 @@
 				"&e*************************************************&r"
 				"&n&eYou have been warned&r&r"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5057087F615D440F"
 			optional: true
 			rewards: [
@@ -1803,7 +1813,7 @@
 				""
 				"we'll need some more spice for &othose&r recipes! "
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2432A9D7BE9F8BB4"
 			rewards: [
 				{
@@ -1917,6 +1927,7 @@
 				""
 				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
 			]
+			hide_until_deps_visible: true
 			id: "3B38BC10347BDA7D"
 			rewards: [
 				{
@@ -1949,8 +1960,8 @@
 				""
 				"The easiest way to obtain ancient brass is killing cog mobs and regrettably, supply scamps! They also drop copper blueprints so killing 1 or 2 in order to get the brass to tame one is pretty useful, even if you don't want the scamp, they spawn pretty much everywhere in the overworld. The face plates can be changed with dye!"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1993,7 +2004,7 @@
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: ["When struck with &6lightning&r (go figure) the lightning rod, connector and battery can be used to provide an extra boost to your power reserves. They actually make a fairly impressive amount of power (&e24Kfe&r) per strike, extremely useful for helping manage early game power constraints."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "020B554BDF65651E"
 			optional: true
 			rewards: [
@@ -2056,9 +2067,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

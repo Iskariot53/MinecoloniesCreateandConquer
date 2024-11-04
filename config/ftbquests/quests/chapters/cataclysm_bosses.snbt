@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["770E1E1A22DC34B9"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "124DA55573C04363"
 			tasks: [{
 				id: "21357AB8CC6943FE"
@@ -244,9 +244,9 @@
 		}
 		{
 			dependencies: ["124DA55573C04363"]
-			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "7E48762E362296E1"
 			invisible: true
 			tasks: [{
@@ -263,9 +263,9 @@
 		}
 		{
 			dependencies: ["124DA55573C04363"]
-			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "67A3DF8585A4EEA5"
 			invisible: true
 			tasks: [{
@@ -282,9 +282,9 @@
 		}
 		{
 			dependencies: ["124DA55573C04363"]
-			hide: true
 			hide_dependency_lines: false
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "7FE120BB4478F1BF"
 			invisible: true
 			tasks: [{
@@ -2475,9 +2475,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2512,9 +2512,9 @@
 		{
 			description: [""]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
+			hide_until_deps_visible: true
 			id: "4EC5CFF9BBFEC067"
 			invisible: true
 			optional: true

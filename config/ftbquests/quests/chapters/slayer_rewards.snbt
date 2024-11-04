@@ -6,6 +6,7 @@
 	filename: "slayer_rewards"
 	group: "349A9F115A2C6332"
 	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
@@ -24,7 +25,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			description: ["Slay 10 Zombies"]
 			icon: {
 				Count: 1
@@ -62,7 +66,10 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			description: ["Slay 10 skeleton"]
 			icon: {
 				Count: 1
@@ -100,7 +107,10 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			description: ["Slay 10 Spiders"]
 			icon: {
 				Count: 1
@@ -280,7 +290,10 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -364,7 +377,10 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			description: ["Slay 10 Pillagers"]
 			icon: {
 				Count: 1
@@ -547,7 +563,10 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -630,7 +649,10 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -732,7 +754,10 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -816,7 +841,10 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -901,8 +929,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "3A37A3F61707B75F"
 			rewards: [
@@ -930,8 +958,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "18ADE296D7E3ED62"
 			rewards: [
@@ -959,8 +987,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "5F22C3C63C9489DF"
 			rewards: [
@@ -988,8 +1016,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "0C251D401C905352"
 			rewards: [
@@ -1017,8 +1045,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "109231EE16FEB4B7"
 			rewards: [
@@ -1046,8 +1074,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "08E693958C6BD51C"
 			rewards: [
@@ -1075,8 +1103,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "3B6138DA30033E7E"
 			rewards: [
@@ -1105,8 +1133,8 @@
 		{
 			can_repeat: true
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1142,8 +1170,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "37C70F25AC2183F3"
 			rewards: [
@@ -1172,8 +1200,8 @@
 		{
 			can_repeat: true
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1210,8 +1238,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "3E9C08009319CD87"
 			rewards: [
@@ -1239,8 +1267,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "12B9A67636545376"
 			rewards: [
@@ -1268,8 +1296,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "60A646203FDD701B"
 			rewards: [
@@ -1297,8 +1325,8 @@
 		}
 		{
 			dependencies: ["7F141BAED60DBD76"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:ender_eye"
 			id: "4EA6A5C3BE2E6566"
 			rewards: [
@@ -2441,7 +2469,10 @@
 		}
 		{
 			can_repeat: false
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			description: ["Endermen have started to inhabit the overworld, even developing adaptations to specific biome conditions. Hunt some of every variant you can find and thin out the numbers a little bit... do a good enough job and eye think you may get some help reaching their home dimension."]
 			icon: {
 				Count: 1
@@ -2581,10 +2612,10 @@
 			]
 			dependency_requirement: "one_started"
 			description: ["Tracked down the: Nether Wastes, Soul Sand Valley, Warped Forest and Crimson Forest Enderman variants and slayed 10 of each."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2631,10 +2662,10 @@
 			]
 			dependency_requirement: "one_started"
 			description: ["Tracked down the: Swamp, Coral, Snowy and Ice Spikes Enderman variants and slayed 10 of each."]
-			hide: true
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2717,7 +2748,10 @@
 			y: -13.178571428571423d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			description: [
 				"&cThe Nightmare Stalker&r is a mini-boss you will randomly encounter while playing. After &e3 in-game days&r, you will begin to see warnings to the effect of \"&6you are being stalked&r\" and The Nightmare Stalker will begin to spawn."
 				""
@@ -3026,7 +3060,10 @@
 			y: -3.3928571428571317d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "2C42397D50E87104"
 			rewards: [
 				{
@@ -3070,7 +3107,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "4B39B7DFDD288440"
 			rewards: [
 				{
@@ -3117,7 +3157,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "0AC4B1CC0A44CEE8"
 			rewards: [
 				{
@@ -3160,7 +3203,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3213,7 +3259,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "1F75248F8ABCBE8D"
 			rewards: [
 				{
@@ -3257,7 +3306,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3309,7 +3361,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "2EBF2097C5869E6E"
 			rewards: [
 				{
@@ -3343,7 +3398,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3396,7 +3454,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3515,7 +3576,10 @@
 			y: -0.8214285714285623d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "434326D1A0F3AE8D"
 			rewards: [
 				{
@@ -3577,7 +3641,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "7D6A99E680B3EF1D"
 			rewards: [
 				{
@@ -3639,7 +3706,10 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "0F1EF7B6A7B0CE03"
 			rewards: [
 				{
@@ -5634,7 +5704,10 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "1B84D538D00747D2"
 			rewards: [
 				{
@@ -5691,7 +5764,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "6E228A1F474BBD86"
 			rewards: [
 				{
@@ -5735,7 +5811,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "4D8993B7F0235F73"
 			rewards: [
 				{
@@ -5779,7 +5858,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "6EFABE82954D5320"
 			rewards: [
 				{
@@ -5823,7 +5905,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "7E40816168CCCE46"
 			rewards: [
 				{
@@ -5866,7 +5951,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "2E94B3CD97483F9A"
 			rewards: [
 				{
@@ -5909,7 +5997,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "1D40436520E0535A"
 			rewards: [
 				{
@@ -5966,7 +6057,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "53A57C7228E05A59"
 			rewards: [
 				{
@@ -6012,7 +6106,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: [
+				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
+			]
 			id: "58BDE0311F55FC4B"
 			rewards: [
 				{
@@ -7686,9 +7783,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

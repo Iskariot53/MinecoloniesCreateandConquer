@@ -26,6 +26,7 @@
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["The first step in acquiring and adding special affixes to your gear is collecting &9gems&r and &djewels&r. You want to collect and hold onto all of them that you can (this also applies to affixed gear but more on that later)."]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1861,9 +1862,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

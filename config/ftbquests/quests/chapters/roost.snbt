@@ -70,7 +70,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Catch your first vanilla chicken using the &6&lChicken Stick&r&r. Vanilla chickens are essential for crafting the &l&eBreeder&r&r block, which is the core of the Roost Ultimate mod. Most of your chicken breeding will be done inside the Breeder to obtain all types of chickens from Tier 1 to Tier 9."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6C435C7136BA92C9"
 			rewards: [{
 				id: "492377D4C490284E"
@@ -114,7 +114,7 @@
 				""
 				"&l&3Trainer&r&r: The Trainer is used to level up your chickens and improve their statistics, allowing them to produce more resources, faster. You may have already noticed that each chicken seed provides some extra XP; that XP is used to train your chickens. Unlike the Breeder and Roost, you can use any tier of seeds for any tier of chickens. However, the higher the seed tier, the more XP it provides, and the faster the leveling process is. All chickens &lMAX&r out at &l&6Level 60&r&r, but each tier requires a different amount of XP to level up—the higher the tier, the more XP is required."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2F4EC3771D41D693"
 			rewards: [
 				{
@@ -168,7 +168,7 @@
 				""
 				"&lChicken Seeds&r are crucial—without them, you CAN'T breed, train, or even produce resources with your chickens. Don’t worry though; you don't need to repeat this process for every handful of seeds. The great thing about all tiers of chicken seeds is that you can grow and harvest them in &l&eBotany Pots&r&r for more seeds and souls of the same tier. Now you no longer have any reason to harm those poor chickens for their souls—you cruel monster. Isn’t that amazing! C:"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "01079DE692B0FDC1"
 			rewards: [
 				{
@@ -226,7 +226,7 @@
 				"Now that you have learnt the basics, it is time to start looking into obtaining chickens of higher tiers."
 				"Obtain a &l&9Tier 2 Chicken&r&r to be able to extract a &l&9Tier 2 Chicken Soul&r&r and make some &l&9Tier 2 Chicken Seeds&r&r."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1A4AD68A9B4E4694"
 			rewards: [
 				{
@@ -277,7 +277,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Obtain a &l&2Tier 3 Chicken&r&r to be able to extract a &l&2Tier 3 Chicken Soul&r&r and make some &l&2Tier 3 Chicken Seeds&r&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5F88C2724BD3710D"
 			rewards: [
 				{
@@ -327,7 +327,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Obtain a &l&eTier 4 Chicken&r&r to be able to extract a &l&eTier 4 Chicken Soul&r&r and make some &l&eTier 4 Chicken Seeds&r&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3FD822D14A220FDF"
 			rewards: [
 				{
@@ -377,7 +377,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Obtain a &l&3Tier 5 Chicken&r&r to be able to extract a &l&3Tier 5 Chicken Soul&r&r and make some &l&3Tier 5 Chicken Seeds&r&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "672BFCAB5B703608"
 			rewards: [
 				{
@@ -428,7 +428,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Obtain a &l&cTier 6 Chicken&r&r to be able to extract a &l&cTier 6 Chicken Soul&r&r and make some &l&cTier 6 Chicken Seeds&r&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1A675526ABF1871F"
 			rewards: [
 				{
@@ -479,7 +479,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Obtain a &l&7Tier 7 Chicken&r&r to be able to extract a &l&7Tier 7 Chicken Soul&r&r and make some &l&7Tier 7 Chicken Seeds&r&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "389A22E99EF7CCF6"
 			rewards: [
 				{
@@ -530,7 +530,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Obtain a &l&2Tier 8 Chicken&r&r to be able to extract a &l&2Tier 8 Chicken Soul&r&r and make some &l&2Tier 8 Chicken Seeds&r&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "64D6890763153102"
 			rewards: [
 				{
@@ -581,7 +581,7 @@
 				"517B276D1D59EC02"
 			]
 			description: ["Obtain a &l&5Tier 9 Chicken&r&r to be able to extract a &l&5Tier 9 Chicken Soul&r&r and make some &l&5Tier 9 Chicken Seeds&r&r."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "477692F18537EC03"
 			rewards: [
 				{
@@ -638,7 +638,7 @@
 				""
 				"Input any chicken into the Soul Breeder along with a Chicken Soul that is &n&ethe same tier as the chicken or a tier higher&r&r to soul breed it and obtain a second chicken of the same type!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "32E228C76C3960C3"
 			rewards: [
 				{
@@ -665,9 +665,9 @@
 		{
 			description: [""]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
+			hide_until_deps_visible: true
 			id: "16943E83E6312305"
 			invisible: true
 			optional: true
@@ -690,9 +690,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

@@ -29,6 +29,7 @@
 				""
 				"&n&6Note: You will need a 3x3 mechanical grid to progress through this chapter.&r&r"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -401,7 +402,15 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: [
+				"The bioreactor will intake organic materials and output biofuel, it is not a generator in terms of making FE. it's sole purpose is generating biofuel to convert into FE. The amount of biofuel produced is proportionate to the diversity of items provided to convert, meaning, providing it 3 different item types to convert will produce more fuel per item than using 2 item sources to produce your biofuel."
+				""
+				"{@pagebreak}"
+				""
+				"When fed with biofuel the biofuel generator will produce FE, pretty simple. It can also be used to power infinity items as well, if you go that route."
+			]
 			id: "2BF51756FD95A460"
+			subtitle: "Making and burning bio-fuels"
 			tasks: [
 				{
 					id: "216D3C115C65E00F"
@@ -419,7 +428,15 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: [
+				"When provided with FE the block placer will automatically place any blocks within its inventory into the world, in front of its working face (black spot)."
+				""
+				"If for any reason you block breaker/placer is not working even though it is supplied with power and blocks to place, it is usually due to claims/colony settings being set not NOT allow fake players."
+				""
+				"Breakers/placers are fake players and fake players MUST be enabled in both claims and colony settings for them to function inside of their boundaries."
+			]
 			id: "10A7C04C870A5163"
+			subtitle: "Automating block placement"
 			tasks: [{
 				id: "13E22EF3CA1909C2"
 				item: "industrialforegoing:block_placer"
@@ -430,7 +447,15 @@
 		}
 		{
 			dependencies: ["10A7C04C870A5163"]
+			description: [
+				"Block breakers are the counterpart to placers, and will break and collect any block placed in front of their working face (black spot)."
+				""
+				"If for any reason you block breaker/placer is not working even though it is supplied with power and blocks to place, it is usually due to claims/colony settings being set not NOT allow fake players."
+				""
+				"Breakers/placers are fake players and fake players MUST be enabled in both claims and colony settings for them to function inside of their boundaries."
+			]
 			id: "23C4B66B177FC645"
+			subtitle: "Automating block removal"
 			tasks: [{
 				id: "79E366F6AED2054C"
 				item: "industrialforegoing:block_breaker"
@@ -441,7 +466,9 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: ["Ranchers can be used for automating the more mundane tasks of things suchs as sheering sheep, milking cows, etc."]
 			id: "57F1C49F461902DE"
+			subtitle: "Auto-mob farming"
 			tasks: [{
 				id: "0E8E8D8E2C63713C"
 				item: "industrialforegoing:animal_rancher"
@@ -452,7 +479,9 @@
 		}
 		{
 			dependencies: ["57F1C49F461902DE"]
+			description: ["While not an actual feeding trough. The feeder will automatically feed any mobs within its working range, when provided with the appropriate food to feed them."]
 			id: "3A9686C2CF872006"
+			subtitle: "Auto-fedding trough (kinda)"
 			tasks: [{
 				id: "5C74380A4AE368D0"
 				item: "industrialforegoing:animal_feeder"
@@ -463,7 +492,9 @@
 		}
 		{
 			dependencies: ["3A9686C2CF872006"]
+			description: ["The separator can be used to separate babies from adults, handy when you need to maintain a supply of breeding stock and only want to harvest/slaughter from the extras produced from breeding."]
 			id: "5244DA4A140BE6BD"
+			subtitle: "Pretty self explanatory"
 			tasks: [{
 				id: "3E078113BBF467CB"
 				item: "industrialforegoing:animal_baby_separator"
@@ -515,7 +546,9 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: ["The planter sower will automatically plant seeds and saplings provided to it. You will notice in the GUI that the input is divided into 9 sections, this corresponds with the sowers working area, which is also divided into 9 sections. Seeds and saplings planted in any given section of the input will only be planted inthe corresponding section of working area, allowing you to separate and cultivate multiple things from one block with little fuss."]
 			id: "48A06D2929CADF5E"
+			subtitle: "Auto-crop farming"
 			tasks: [{
 				id: "64AE9D91BC280A64"
 				item: "industrialforegoing:plant_sower"
@@ -526,7 +559,9 @@
 		}
 		{
 			dependencies: ["48A06D2929CADF5E"]
+			description: ["The gatherer will harvest all plants and trees within its working area, producing sludge in the process which must be processed (or can be voided)"]
 			id: "078B565E7AEF5547"
+			subtitle: "Auto-harvesting"
 			tasks: [{
 				id: "4C68F1423F6D0F91"
 				item: "industrialforegoing:plant_gatherer"
@@ -1181,9 +1216,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

@@ -44,8 +44,9 @@
 				""
 				"However, if you prefer to start a colony from &nscratch&r, we've got you covered! This is a complete &6tutorial&r that covers the basics of each colony and guides you through the steps to start one. So buckle up, and let’s dive into it!"
 			]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -98,7 +99,8 @@
 				""
 				"In addition to the &6default colony styles&r that the &6&lMinecolonies&r&r mod offers, we’ve included even more styles with the help of the &6Stylecolonies&r and &6Byzantine Style Pack&r mods!"
 			]
-			hide: false
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -152,8 +154,9 @@
 				""
 				"Once the &6&lTown Hall&r&r block is placed and the colony is created, you will receive your initial &c4&r &6citizens&r. The &6&lTown Hall&r&r is where your citizens will take shelter and gather at night until you build them a &6Tavern&r or their own &6Residence&r."
 			]
-			hide: false
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -227,7 +230,7 @@
 				""
 				"The &l&6Builder&r&r will request the &9materials&r they need. Right-click on them when they have a &cred icon&r above their head to see their current material requests."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -281,7 +284,7 @@
 		{
 			dependencies: ["7A4231E1D13D27A9"]
 			description: ["Your colonists will need a &6house&r and a &6place to sleep&r, so it is recommended to build a &6&lTavern&r&r next. The &6&lTavern&r&r also allows &6visitors&r to come to your colony, and you can &6recruit&r them to stay as citizens."]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -333,7 +336,7 @@
 		{
 			dependencies: ["3B3C2C300801BCEE"]
 			description: ["Citizens will go to the &6&lResidence&r&r they are assigned to at night to sleep. The &6Resi&ldence&r&r is also a way to get &6more&r citizens for your colony. For additional citizens to spawn, you first &9have to have enough space&r in your &6Residences&r to house your &6first four citizens&r. After you have created enough space for your &6initial four citizens&r, you have two options for your colony to grow. The first way is to have a free bed in your colony. You can also make space for a new citizen, go to the Tavern, wait for a &6traveler&r to show up, and then give them the items they request to &6recruit&r them."]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2615,6 +2618,7 @@
 				""
 				"The &n&cdownside&r&r to this approach is that your colony won’t be loaded at all times. However, it’s an important consideration, at least until you have a &6well-established colony&r that can feed and defend itself independently."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3109,9 +3113,9 @@
 		{
 			description: [""]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
+			hide_until_deps_visible: true
 			id: "558087A37AF0671A"
 			invisible: true
 			optional: true
@@ -3134,9 +3138,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

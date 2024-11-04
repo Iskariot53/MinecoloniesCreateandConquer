@@ -25,6 +25,7 @@
 				""
 				"To get started, you must first create a special portal. This portal is made by forming a 2×2 pool of water, only 1 block deep. The pool must then be surrounded by any naturally generated plants (flowers for example). Once surrounded, the portal is activated by throwing a diamond into the water. The water will turn purple, and a bolt of lightning will strike the portal, dealing minor damage to nearby players."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3491,9 +3492,9 @@
 		{
 			description: [""]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
 			hide_text_until_complete: true
+			hide_until_deps_visible: true
 			id: "3A1153158D4476EA"
 			invisible: true
 			optional: true
@@ -3516,9 +3517,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

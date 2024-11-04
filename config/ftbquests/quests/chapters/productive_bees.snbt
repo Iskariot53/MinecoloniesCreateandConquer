@@ -311,8 +311,8 @@
 		{
 			dependencies: ["0B7B4C27767760A1"]
 			description: ["The centrifuge is used to process combs into various resources as well as separating genes from squashed bee material."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "579409C3F3A2F2F0"
 			rewards: [
 				{
@@ -396,8 +396,8 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "4745DE7E72238D40"
 			tasks: [{
 				id: "1F5F2588A452B626"
@@ -1254,9 +1254,9 @@
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
 			description: ["Using a honey treat on a stick, you can mount and fly a bumblebee, just like vanilla pigs with wings!"]
-			hide: false
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: false
 			icon: "minecraft:saddle"
 			id: "6B13C10FE0817C26"
 			rewards: [
@@ -1504,8 +1504,8 @@
 				""
 				"Different bees are caught from fishing in &6different biomes&r, use &aJEI &rfor information on locating a specific bees biome location."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				id: "minecraft:fishing_rod"
@@ -1534,8 +1534,8 @@
 				"1CC5B5C8271FEC0E"
 			]
 			description: ["Not all bees are created equally... as such... not all bees work equally, here are some examples of \"specialty\" bees bred for a specific job, rather than just producing combs."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:iron_gear"
 			id: "00D738AD58B0E84A"
 			rewards: [{
@@ -2062,8 +2062,8 @@
 		{
 			dependencies: ["5EAC29DB29A4950E"]
 			description: ["Craft the bee nest helmet. The helmet has a chance to spawn a highly aggressive kamikazbee to attack anything that struck you with reckless abandon. While useful in this nature alone, they are also the &oonly&r bees who naturally spawn with the \"very high\" productivity gene, making capturing them for genetics a top priority for anyone truly looking to go big with bees."]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "281D776A33FBE67D"
 			rewards: [
 				{
@@ -2234,9 +2234,9 @@
 				"74CED089C7C570EE"
 			]
 			description: ["Breed a crystalline bee with an ashy mining bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:copper_ingot"
 			id: "7305ABB0B70273EC"
 			rewards: [
@@ -2271,9 +2271,9 @@
 				"55D2A095F821FACF"
 			]
 			description: ["Breed a magmatic bee with a leaf cutter bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:coal"
 			id: "45A07D6919957C62"
 			rewards: [
@@ -2309,9 +2309,9 @@
 				"4EA048C35F3DDF3D"
 			]
 			description: ["Breed a magmatic bee with a sweat bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:obsidian"
 			id: "498613C3ED5FE24A"
 			rewards: [
@@ -2346,9 +2346,9 @@
 				"612DB4407ADEEDEE"
 			]
 			description: ["Breed a blazing bee with a nomad bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:blaze_powder"
 			id: "367D4EF662178DFB"
 			rewards: [
@@ -2417,9 +2417,9 @@
 				"47F1D527F27D77EF"
 			]
 			description: ["Breed a reed bee with a resin bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:string"
 			id: "2FDD9D5DD1F94ABF"
 			rewards: [
@@ -2451,9 +2451,9 @@
 		{
 			dependencies: ["0155DD9149A294EF"]
 			description: ["Feed sculk to a digger bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:echo_shard"
 			id: "2050242522D202DD"
 			rewards: [
@@ -2488,9 +2488,9 @@
 				"45A07D6919957C62"
 			]
 			description: ["Breed a magmatic bee with a coal bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:sulfur_dust"
 			id: "2C211ABB1F2A6084"
 			rewards: [
@@ -2526,9 +2526,9 @@
 				"1B0961593E2BB06A"
 			]
 			description: ["Breed a chocolate mining bee with a glowing bee. This bee emits a redstone signal so be careful, it can open doors."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:redstone"
 			id: "3801CE956A146F48"
 			rewards: [
@@ -2563,9 +2563,9 @@
 				"62BB492DEB62CA4A"
 			]
 			description: ["Breed a redstone and a blue banded bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:lapis_lazuli"
 			id: "11F38F627F49DCAE"
 			rewards: [
@@ -2600,9 +2600,9 @@
 				"746503BBE1C24E6E"
 			]
 			description: ["Breed a sweat bee with an iron bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "create:zinc_ingot"
 			id: "1FA0FF08715F6E77"
 			rewards: [
@@ -2637,9 +2637,9 @@
 				"1FA0FF08715F6E77"
 			]
 			description: ["Breed a copper bee with a zinc bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "create:brass_ingot"
 			id: "05B51A9CB2D9EE54"
 			rewards: [
@@ -2674,9 +2674,9 @@
 				"74CED089C7C570EE"
 			]
 			description: ["Breed a crystalline bee with an ashy mining bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:iron_ingot"
 			id: "746503BBE1C24E6E"
 			rewards: [
@@ -2708,9 +2708,9 @@
 		{
 			dependencies: ["4EA048C35F3DDF3D"]
 			description: ["Feed some snow or ice to a sweat bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:snowball"
 			id: "28CB240B7943AC7B"
 			rewards: [
@@ -2762,9 +2762,9 @@
 				"74CED089C7C570EE"
 			]
 			description: ["Advanced hives placed in dark, unlit areas, will naturally spawn both &azombees&r and &7skeletal&r bees. While you will most likely want a &ofew&r skeletal bees at some point, the undead bees are typically a nuisance in general more than anything as they spawn and take up the space of the bees you do want to access the hives. Keeping your bee keeping area well lit is a very easy way to solve any problems caused by them, if they are spawning in an area you do not want them in, this is because at least 1 of the hives in the area is &enot lit well enough&r."]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:torch"
 			id: "303E5FEBA512547F"
 			min_required_dependencies: 1
@@ -2885,9 +2885,9 @@
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
 			description: ["Obtain a brass bee spawn egg and use it to craft a philolite bee spawn egg."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "create_unbreakable:philolite"
 			id: "1A9B0666A72A624F"
 			rewards: [
@@ -2918,9 +2918,9 @@
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
 			description: ["Obtain a brass bee spawn egg and use it to craft a luminarchy bee spawn egg."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "create_unbreakable:luminarchy"
 			id: "3010CB0CBDC70CB5"
 			rewards: [
@@ -2954,9 +2954,9 @@
 				"498613C3ED5FE24A"
 			]
 			description: ["Obtain a redstone bee spawn egg, and use it as a flower in a feeding slab for an obsidian bee, the obsidian bee will eventually convert the egg into a flux dust bee spawn egg."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "fluxnetworks:flux_dust"
 			id: "586835F71B623971"
 			rewards: [
@@ -2991,9 +2991,9 @@
 				"683D320D0550F5D2"
 			]
 			description: ["Breed a reed bee with a nomad bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "ae2:silicon"
 			id: "5FA58A68858C6A9A"
 			rewards: [
@@ -3029,9 +3029,9 @@
 				"035E5B628D21FA20"
 			]
 			description: ["Breed a ghostly bee with another type of undead bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "tombstone:grave_dust"
 			id: "1D514E8FB2246A4A"
 			min_required_dependencies: 2
@@ -3064,9 +3064,9 @@
 		{
 			dependencies: ["220D6A97C5D12DC6"]
 			description: ["Feed a block of rose quartz to a diamond bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "create:rose_quartz"
 			id: "5152ACFB10052852"
 			rewards: [
@@ -3100,9 +3100,9 @@
 				"2B23AD177049428C"
 			]
 			description: ["Breed an ender bee with a crystalline bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "ae2:certus_quartz_dust"
 			id: "4AAAC0241B45AA06"
 			rewards: [
@@ -3134,9 +3134,9 @@
 		{
 			dependencies: ["303E5FEBA512547F"]
 			description: ["Place an amethyst bee spawn egg into an enchanting apparatus surrounded by source gems."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "ars_nouveau:source_gem"
 			id: "2CB0F40EC9BC1132"
 			rewards: [
@@ -3275,9 +3275,9 @@
 				"20DF26B506B5FC96"
 			]
 			description: ["Breed a copper bee and a tin bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:bronze_ingot"
 			id: "1375960CA88B29CD"
 			rewards: [
@@ -3312,9 +3312,9 @@
 				"0BCA00285412FC60"
 			]
 			description: ["Breed an iron bee with a mason bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:gold_ingot"
 			id: "1E8D1F69C6E842E1"
 			rewards: [
@@ -3349,9 +3349,9 @@
 				"0BCA00285412FC60"
 			]
 			description: ["Breed an iron bee with a mason bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:silver_ingot"
 			id: "10C6AA32FD92C5E6"
 			rewards: [
@@ -3386,9 +3386,9 @@
 				"1E8D1F69C6E842E1"
 			]
 			description: ["Breed an ender bee and a gold bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "chicken_roost:ingot_platinum"
 			id: "1A928D3BFC41C8E9"
 			rewards: [
@@ -3422,9 +3422,9 @@
 				"62BB492DEB62CA4A"
 			]
 			description: ["Breed an iron bee and a blue banded bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:lead_ingot"
 			id: "00133F24F615C219"
 			rewards: [
@@ -3459,9 +3459,9 @@
 				"746503BBE1C24E6E"
 			]
 			description: ["Breed a creebee and an iron bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "mekanism:ingot_uranium"
 			id: "0DDC127F1CB70026"
 			rewards: [
@@ -3496,9 +3496,9 @@
 				"74CED089C7C570EE"
 			]
 			description: ["Breed a crystalline bee with an ashy mining bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:tin_ingot"
 			id: "20DF26B506B5FC96"
 			rewards: [
@@ -3533,9 +3533,9 @@
 				"4EA048C35F3DDF3D"
 			]
 			description: ["Breed and iron bee and a sweat bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:nickel_ingot"
 			id: "60D14B97285106EB"
 			rewards: [
@@ -3642,9 +3642,9 @@
 				"10C6AA32FD92C5E6"
 			]
 			description: ["Breed a gold bee and a silver bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:electrum_ingot"
 			id: "40DEADF236743A5A"
 			rewards: [
@@ -3679,9 +3679,9 @@
 				"20DF26B506B5FC96"
 			]
 			description: ["Breed a silver bee and a tin bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:lumium_ingot"
 			id: "335F35639C497379"
 			rewards: [
@@ -3716,9 +3716,9 @@
 				"7305ABB0B70273EC"
 			]
 			description: ["Breed a copper bee and a silver bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:signalum_ingot"
 			id: "460E95EBAF18895C"
 			rewards: [
@@ -3787,9 +3787,9 @@
 		{
 			dependencies: ["1E8D1F69C6E842E1"]
 			description: ["Feed a block of copper to a gold bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "create_villagerology:rose_gold_ingot"
 			id: "13861BF926337F44"
 			rewards: [
@@ -3824,9 +3824,9 @@
 				"45A07D6919957C62"
 			]
 			description: ["Breed an iron bee and a coal bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal:steel_ingot"
 			id: "087056D7E6E82FB3"
 			rewards: [
@@ -3858,9 +3858,9 @@
 		{
 			dependencies: ["4AAAC0241B45AA06"]
 			description: ["Obtain a spatial bee spawn egg, then throw it and a skysteel block into a lava source block."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "megacells:sky_steel_ingot"
 			id: "774B7AAAD1A84617"
 			rewards: [
@@ -3997,9 +3997,9 @@
 				"0E890DBF19049A6D"
 			]
 			description: ["First, obtain both an ancient bee spawn egg and an apatite bee spawn egg. Next craft them together along with 3 bottles of dragons breathe."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermal_extra:dragonsteel_ingot"
 			id: "5544D375A08BC1A0"
 			rewards: [
@@ -4071,9 +4071,9 @@
 				"6BE0F4935A898C44"
 			]
 			description: ["Breed a lapis bee with an ender bee"]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:diamond"
 			id: "220D6A97C5D12DC6"
 			rewards: [
@@ -4108,9 +4108,9 @@
 				"20635A3C82EA9451"
 			]
 			description: ["Breed a diamond bee with a slimy bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:emerald"
 			id: "44E384D32758F281"
 			rewards: [
@@ -4145,9 +4145,9 @@
 				"60D14B97285106EB"
 			]
 			description: ["Breed a prismarine bee with a nickel bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermalendergy:prismalium_ingot"
 			id: "3D66D08800B731EE"
 			rewards: [
@@ -4182,9 +4182,9 @@
 				"1E8D1F69C6E842E1"
 			]
 			description: ["Obtain the spawn egg of an amethyst, gold and ender bee then craft them all together."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermalendergy:melodium_ingot"
 			id: "5F248E43BBFE1268"
 			rewards: [
@@ -4224,9 +4224,9 @@
 				"6599AFF4623F28C0"
 			]
 			description: ["Obtain an ancient bee spawn egg and a quarry bee spawn egg then combine them together with a nether star in a crafting table."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "thermalendergy:stellarium_ingot"
 			id: "1CE1087CB610DCBD"
 			rewards: [
@@ -4260,9 +4260,9 @@
 				"25DD01A25EBDFE0A"
 			]
 			description: ["Breed an osmium bee with a glowing bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "mekanism:ingot_refined_glowstone"
 			id: "2143BC0DFFD712DF"
 			rewards: [
@@ -4297,9 +4297,9 @@
 				"498613C3ED5FE24A"
 			]
 			description: ["Breed an osmium bee with an obsidian bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "mekanism:ingot_refined_obsidian"
 			id: "7BDDB77EEBE03303"
 			rewards: [
@@ -4331,9 +4331,9 @@
 		{
 			dependencies: ["683D320D0550F5D2"]
 			description: ["Obtain a nomad bee spawn egg and place it on a tier 2 blood altar."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "bloodmagic:altar"
 			id: "308E90210D36D709"
 			rewards: [
@@ -4364,9 +4364,9 @@
 		{
 			dependencies: ["0DDC127F1CB70026"]
 			description: ["Feed a polonium pellet to a radioactive bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "mekanism:radioactive_waste_barrel"
 			id: "43353EB782A1A5DF"
 			rewards: [
@@ -4409,9 +4409,9 @@
 		{
 			dependencies: ["20635A3C82EA9451"]
 			description: ["Feed pink slime to a slimy bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "industrialforegoing:pink_slime_ingot"
 			id: "34C0A051E3FA567D"
 			rewards: [
@@ -4448,9 +4448,9 @@
 		{
 			dependencies: ["226D9E7D5808E82A"]
 			description: ["Combine: 4 runes of mana, 1 rune of greed, 1 pure bee spawn egg and 1 livingrock block in a runic altar."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "botania:mana_pool"
 			id: "49F5F317987C35B8"
 			rewards: [
@@ -4486,9 +4486,9 @@
 		{
 			dependencies: ["303E5FEBA512547F"]
 			description: ["Combine: 3 mystical flowers, 1 bucket of water, 1 bee spawn egg and 1 honey treat in a petal apothecary."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4545,9 +4545,9 @@
 				"73592FC0A4AB0C92"
 			]
 			description: ["Breed a resin bee with a lumber bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "industrialforegoing:plastic"
 			id: "5D3397CDD49AAAE4"
 			rewards: [
@@ -4581,9 +4581,9 @@
 				"1ED89471EB68D98D"
 			]
 			description: ["Breed an iron bee with a neon cuckoo bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "mekanism:ingot_osmium"
 			id: "19CC579914069E61"
 			rewards: [
@@ -4615,9 +4615,9 @@
 		{
 			dependencies: ["47F1D527F27D77EF"]
 			description: ["If you're reading this, a method for obtaining amber bee spawn eggs (other than finding them in ruins as usual) has not been implemented yet, this means &eresin bees have been enabled with the ability to encase mobs in resin&r (amber) still and you can use those for obtaining your encased mobs."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "productivebees:amber"
 			id: "54961C3BE7126035"
 			rewards: [
@@ -4653,9 +4653,9 @@
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
 			description: ["Obtain a brass bee spawn egg, combine with 4 malachite blocks, 2 end stone blocks and 2 palerock blocks in a mechanical crafting grid."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "enlightened_end:malachite"
 			id: "65CF8E02D982335E"
 			rewards: [
@@ -4697,9 +4697,9 @@
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
 			description: ["Obtain a brass bee spawn egg, combine with 4 bismuth blocks, 2 end stone blocks and 2 palerock blocks in a mechanical crafting grid."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "enlightened_end:bismuth_ingot"
 			id: "1BEE6E1D7AF0105F"
 			rewards: [
@@ -4741,9 +4741,9 @@
 		{
 			dependencies: ["1BEE6E1D7AF0105F"]
 			description: ["Feed an irradium bar to a bismuth bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "enlightened_end:irradium_bar"
 			id: "7F7D87E3C0C1E931"
 			rewards: [
@@ -4786,9 +4786,9 @@
 		{
 			dependencies: ["34C0A051E3FA567D"]
 			description: ["Feed an ether gas bucket to a pink slimy bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "industrialforegoing:ether_gas_bucket"
 			id: "691DF9BAB4C57FA0"
 			rewards: [
@@ -4828,9 +4828,9 @@
 				"74CED089C7C570EE"
 			]
 			description: ["Breed a crystalline bee with an ashy mining bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "blocksyouneed_luna:aluminum_ingot"
 			id: "598185E77ACA8553"
 			rewards: [
@@ -4866,9 +4866,9 @@
 				""
 				"(JEI will help a lot on this one.)"
 			]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "bloodmagic:rawdemonite"
 			id: "0B97B0BC5EE74D19"
 			rewards: [
@@ -4954,8 +4954,8 @@
 				""
 				"Take the genes from the centrifuge and insert them into a gene indexer to be combined into 100% genes, and apply a &credstone signal&r."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "minecraft:piston"
 			id: "5EAC29DB29A4950E"
 			rewards: [{
@@ -5099,9 +5099,9 @@
 				"11F38F627F49DCAE"
 			]
 			description: ["Breed an emerald bee with a lapis bee."]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_visible: true
 			icon: "create:experience_nugget"
 			id: "60BF6A032D994339"
 			rewards: [
@@ -5137,8 +5137,8 @@
 				""
 				"Tip: if you dont use range upgrades, it isn't even worth using the catcher at all. You may as well put your cages in a chest and wait for the chest to catch bees (which isn't going to happen)."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "439EE8098C13A7AA"
 			rewards: [
 				{
@@ -5169,8 +5169,8 @@
 				""
 				"In short, they allow you to place 6 flowers or \"flowering items\" in the same spot."
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "14C59C043DA6A9CB"
 			rewards: [
 				{
@@ -5201,9 +5201,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

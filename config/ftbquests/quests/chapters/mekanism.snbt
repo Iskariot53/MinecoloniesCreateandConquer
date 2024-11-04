@@ -20,6 +20,7 @@
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["As with any other playthrough in a pack involving Mekanism, start off by gathering some osmium ingots. Osmium chickens and/or bees, or even laser drills will aid in making this resource less painfully sustainable."]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -677,9 +678,9 @@
 				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
 			]
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
