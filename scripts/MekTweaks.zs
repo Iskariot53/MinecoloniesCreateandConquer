@@ -1352,3 +1352,21 @@ craftingTable.remove(<item:mekaweapons:magnetizer>);
 [[<tag:items:forge:ingots/steel>, <item:mekanism:ingot_osmium>, <tag:items:forge:ingots/steel>],
 [<item:mekanism:ingot_osmium>, <item:mekanism:basic_control_circuit>, <item:mekanism:ingot_osmium>],
 [<tag:items:forge:ingots/steel>, <item:mekanism:ingot_osmium>, <tag:items:forge:ingots/steel>]]);
+
+craftingTable.remove(<item:mekaweapons:katana_blade>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekaweapons.katana_blade", <item:mekaweapons:katana_blade>,
+[[<item:minecraft:air>, <item:mekanism:pellet_plutonium>, <tag:items:forge:ingots/steel>],
+[<item:mekanism:alloy_atomic>, <item:mekanism:basic_control_circuit>, <item:mekanism:pellet_plutonium>],
+[<item:mekanism:ingot_refined_obsidian>, <item:mekanism:alloy_atomic>, <item:minecraft:air>]]);
+
+craftingTable.remove(<item:mekaweapons:bow_riser>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekaweapons.bow_riser", <item:mekaweapons:bow_riser>,
+[[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
+[<item:mekanism:ultimate_control_circuit>, <item:minecraft:air>, <item:mekanism:ultimate_control_circuit>],
+[<tag:items:forge:ingots/steel>, <item:mekanism:pellet_polonium>, <tag:items:forge:ingots/steel>]]);
+
+craftingTable.remove(<item:mekaweapons:bow_limb>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekaweapons.bow_limb", <item:mekaweapons:bow_limb>,
+[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+[<item:minecraft:string>, <item:minecraft:string>, <item:minecraft:string>],
+[<tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>]]);

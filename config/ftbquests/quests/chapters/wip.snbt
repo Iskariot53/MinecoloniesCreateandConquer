@@ -75,8 +75,8 @@
 				item: "industrialforegoing:ether_gas_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -3.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["206BBE6C92511589"]
@@ -86,19 +86,8 @@
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["206BBE6C92511589"]
-			id: "05DCEC88971CA708"
-			tasks: [{
-				id: "30CBF96E92E7923B"
-				item: "thermal:machine_frame"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -1.5d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["61D74FC3BD5023C6"]
@@ -108,8 +97,8 @@
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: -10.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["15CBA02058507A50"]
@@ -119,8 +108,8 @@
 				item: "enlightened_end:irradium_bar"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5E29948F7393675B"]
@@ -130,8 +119,8 @@
 				item: "scguns:scorched_ingot"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5E29948F7393675B"]
@@ -141,19 +130,8 @@
 				item: "celestisynth:celestial_netherite_ingot"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["05DCEC88971CA708"]
-			id: "27E9CC7FA9F67120"
-			tasks: [{
-				id: "3F9903B57E03120F"
-				item: "thermal_extra:advanced_refinery"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
+			x: -3.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -196,6 +174,509 @@
 			x: 30.0d
 			y: 30.0d
 		}
+		{
+			dependencies: [
+				"28841752C751A46F"
+				"1A7A0C78DDD9BCA1"
+				"18172AB4AD383F31"
+				"3F9759B64AF3B665"
+			]
+			id: "06DE55B8F9F4A557"
+			tasks: [{
+				id: "523B13DF46F2F07C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ccextras:arcanite_ingot"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"04B564A5A16F766D"
+				"2267C3843D1363D5"
+				"27B79CACDD006321"
+				"624F781575FB80FE"
+			]
+			id: "1DC8C706C321F8A5"
+			tasks: [{
+				id: "519058A4D7C16410"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ccextras:celestrium_ingot"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "1A09486B79BB3A91"
+			size: 1.5d
+			tasks: [{
+				id: "24FEAF2EA4CAFD50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:creative_ammo_box"
+				}
+				type: "item"
+			}]
+			x: 3.4285714285714306d
+			y: 10.357142857142861d
+		}
+		{
+			dependencies: [
+				"06DE55B8F9F4A557"
+				"1DC8C706C321F8A5"
+			]
+			id: "5408F21008F2B15F"
+			size: 2.0d
+			tasks: [{
+				id: "09A1E78E2F48D4DC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starlit_factory"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5E29948F7393675B"]
+			id: "1A7A0C78DDD9BCA1"
+			tasks: [{
+				id: "77F56CCFBC0106A6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enlightened_end:malachite"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E29948F7393675B"]
+			id: "28841752C751A46F"
+			tasks: [{
+				id: "152A2B278DC036EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_unbreakable:luminarchy"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E29948F7393675B"]
+			id: "18172AB4AD383F31"
+			tasks: [{
+				id: "0BD6828C9B3931F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starstruck_scrap"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E29948F7393675B"]
+			id: "2267C3843D1363D5"
+			tasks: [{
+				id: "289AD214601A8439"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_unbreakable:philolite"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E29948F7393675B"]
+			id: "04B564A5A16F766D"
+			tasks: [{
+				id: "7D9B0070B15C9563"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enlightened_end:bismuth_ingot"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E29948F7393675B"]
+			id: "624F781575FB80FE"
+			tasks: [{
+				id: "060D0016FA911F32"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:nitro_powder"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5408F21008F2B15F"
+				"29307362D6F4A8AD"
+			]
+			id: "1B157D0B0082F798"
+			tasks: [{
+				id: "44BCB6173DC12185"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekaweapons:mekabow"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"5408F21008F2B15F"
+				"29307362D6F4A8AD"
+			]
+			id: "31C6BBF1300F6C40"
+			tasks: [{
+				id: "45EA7FCF95151EF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekaweapons:mekatana"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "587A63C9A1A60104"
+			tasks: [{
+				id: "418896B7EF711868"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:everlasting_beef"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "1A56E7E473DFE5E1"
+			tasks: [{
+				id: "19664B5F365A04F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:scarf_of_invisibility"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "7C69595EA36712AE"
+			tasks: [{
+				id: "042D10A6B2E34F02"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:chorus_totem"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "0B12849B9C82F31A"
+			tasks: [{
+				id: "3D91920BB10586FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:vampiric_glove"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "2E8A7CFF375D0125"
+			tasks: [{
+				id: "036BD4D29EEA1EB5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:antidote_vessel"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "45D55F099A2FED2F"
+			tasks: [{
+				id: "674DA3E0EA204C00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ironfurnaces:rainbow_coal"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["188944FE101F78E4"]
+			id: "74855A39B2F24F18"
+			tasks: [{
+				id: "69ED0E4A4EFF06D2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pellet_plutonium"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["188944FE101F78E4"]
+			id: "66FCE1AB8CEB01E0"
+			tasks: [{
+				id: "3FB5293B2E637420"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pellet_polonium"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"74855A39B2F24F18"
+				"66FCE1AB8CEB01E0"
+			]
+			id: "29307362D6F4A8AD"
+			size: 2.0d
+			tasks: [{
+				id: "3D0DF64CA82F01F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pellet_antimatter"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B157D0B0082F798"]
+			id: "3460FD1C61873AD6"
+			tasks: [{
+				id: "051DE542DC121AA1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekaweapons:module_arrowenergy_unit"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1B157D0B0082F798"]
+			id: "3407D610DC7D1DFB"
+			tasks: [{
+				id: "171AB32F06448BE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekaweapons:module_drawspeed_unit"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["1B157D0B0082F798"]
+			id: "159A46CAA09A820B"
+			tasks: [{
+				id: "1AAC99BC10FA07EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekaweapons:module_autofire_unit"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 17.0d
+		}
+		{
+			dependencies: [
+				"29307362D6F4A8AD"
+				"1B157D0B0082F798"
+			]
+			id: "4C31BF9E4FB52D8F"
+			tasks: [{
+				id: "2A061E04C38C02FA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekaweapons:module_gravitydampener_unit"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 17.0d
+		}
 	]
-	title: "&eThe Road Less Travelled"
+	title: "&eThe Road Less Traveled"
 }
