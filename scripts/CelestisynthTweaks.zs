@@ -28,11 +28,11 @@ import crafttweaker.api.recipe.IRecipeManager;
 //STARLIT FACTORY
 	//MECHANICAL CRAFTING
 		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.starlit_factory", <item:celestisynth:starlit_factory>, 
-		[[<item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>], 
-		[<item:celestisynth:wintereis>, <item:ccextras:arcanite_ingot>, <item:celestisynth:celestial_netherite_ingot>, <item:ccextras:arcanite_ingot>, <item:celestisynth:wintereis>], 
+		[[<item:celestisynth:lunar_stone>, <item:celestisynth:wintereis>, <item:celestisynth:lunar_stone>, <item:celestisynth:wintereis>, <item:celestisynth:lunar_stone>], 
+		[<item:ccextras:celestrium_ingot>, <item:ccextras:arcanite_ingot>, <item:celestisynth:celestial_netherite_ingot>, <item:ccextras:arcanite_ingot>, <item:ccextras:celestrium_ingot>], 
 		[<item:celestisynth:zephyr_deposit>, <item:celestisynth:celestial_netherite_ingot>, <item:ars_nouveau:arcane_core>, <item:celestisynth:celestial_netherite_ingot>, <item:celestisynth:zephyr_deposit>], 
-		[<item:celestisynth:wintereis>,<item:ccextras:arcanite_ingot>,<item:celestisynth:celestial_netherite_ingot>,<item:ccextras:arcanite_ingot>,<item:celestisynth:wintereis>], 
-		[<item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>, <item:celestisynth:lunar_stone>]]);
+		[<item:ccextras:celestrium_ingot>,<item:ccextras:arcanite_ingot>,<item:celestisynth:celestial_netherite_ingot>,<item:ccextras:arcanite_ingot>,<item:ccextras:celestrium_ingot>], 
+		[<item:celestisynth:lunar_stone>, <item:celestisynth:wintereis>, <item:celestisynth:lunar_stone>, <item:celestisynth:wintereis>, <item:celestisynth:lunar_stone>]]);
 		
 //CRAFTING INGREDIENTS
 //CELESTIAL CORE
