@@ -4,6 +4,7 @@
 	default_quest_shape: "gear"
 	filename: "breaking_ground_and_setting_up"
 	group: "5B6588F2B5558488"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -44,7 +45,15 @@
 				{
 					count: 5
 					id: "18044ED061A229B8"
-					item: "numismatics:spur"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 			]

@@ -4,6 +4,7 @@
 	default_quest_shape: "rsquare"
 	filename: "industrial_foregoing"
 	group: "31CA1CE9A64781BD"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		ForgeCaps: {

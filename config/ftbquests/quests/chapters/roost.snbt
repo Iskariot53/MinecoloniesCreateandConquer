@@ -5,7 +5,7 @@
 	default_quest_shape: "hexagon"
 	filename: "roost"
 	group: "73E078B9278C6A11"
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		ForgeCaps: {

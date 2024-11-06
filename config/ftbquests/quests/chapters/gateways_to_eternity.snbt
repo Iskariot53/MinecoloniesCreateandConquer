@@ -4,7 +4,7 @@
 	default_quest_shape: "octagon"
 	filename: "gateways_to_eternity"
 	group: "6CD04B90601CFA1E"
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		ForgeCaps: {

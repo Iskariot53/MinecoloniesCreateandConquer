@@ -40,12 +40,16 @@
 				"Now that we have gathered all the &l&6Tarot Cards&r&r,"
 				"maybe it's time to craft a &l&6&nTarot Deck&r&r&r and prepare for a Tarot Reading?"
 			]
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
 					Parent: {
 						Items: [ ]
 						Size: 22
+					}
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
 					}
 				}
 				id: "tarotcards:tarot_deck"
@@ -548,8 +552,14 @@
 				""
 				" "
 			]
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "immersive_melodies:lute"
 				tag: { }
 			}
@@ -785,7 +795,16 @@
 				"0EB34BA512F8C9EC"
 			]
 			description: ["You have a good taste in &l&9Music&r&r! :D"]
-			icon: "bloodmagic:bleedingedge"
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bloodmagic:bleedingedge"
+			}
 			id: "451E62CBA4F0CC63"
 			rewards: [
 				{
@@ -1535,7 +1554,16 @@
 				"339C28C120E0B3AA"
 			]
 			description: ["Trade with villagers to obtain the cutest baby animal crates!"]
-			icon: "villagersellanimals:crate_zoglet"
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "villagersellanimals:crate_zoglet"
+			}
 			id: "3BCC8EBE0A133FA4"
 			rewards: [
 				{
@@ -1896,6 +1924,7 @@
 				"What are you gonna do with all these &l&dDrinks&r&r?"
 				"maybe it's time to open a &l&6Cafe&r&r!"
 			]
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2878,7 +2907,16 @@
 				"4BD7FB0FBB47C9B0"
 				"0C4809CE91BCCB22"
 			]
-			icon: "botania:cosmetic_witch_pin"
+			hide_until_deps_complete: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:cosmetic_witch_pin"
+			}
 			id: "723A0245E0ED6054"
 			rewards: [
 				{
@@ -3485,6 +3523,7 @@
 				"437E1CF585E0BBA9"
 				"68E1BA5225839F01"
 			]
+			hide_until_deps_complete: false
 			id: "7EF092E0FD0A3AC3"
 			rewards: [
 				{

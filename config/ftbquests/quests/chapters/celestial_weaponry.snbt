@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "celestial_weaponry"
 	group: "46EE86D2C5C12C78"
+	hide_quest_until_deps_complete: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
