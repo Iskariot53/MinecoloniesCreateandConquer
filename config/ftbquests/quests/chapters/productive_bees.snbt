@@ -66,6 +66,7 @@
 				""
 				"(No, the bee puns won't be stopping, not sorry)"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -312,6 +313,7 @@
 			dependencies: ["0B7B4C27767760A1"]
 			description: ["The centrifuge is used to process combs into various resources as well as separating genes from squashed bee material."]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "579409C3F3A2F2F0"
 			rewards: [
@@ -397,6 +399,7 @@
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "4745DE7E72238D40"
 			tasks: [{
@@ -1505,9 +1508,15 @@
 				"Different bees are caught from fishing in &6different biomes&r, use &aJEI &rfor information on locating a specific bees biome location."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "minecraft:fishing_rod"
 				tag: {
 					Damage: 0
@@ -1535,8 +1544,17 @@
 			]
 			description: ["Not all bees are created equally... as such... not all bees work equally, here are some examples of \"specialty\" bees bred for a specific job, rather than just producing combs."]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "thermal:iron_gear"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:iron_gear"
+			}
 			id: "00D738AD58B0E84A"
 			rewards: [{
 				id: "7F4585DD232F179C"
@@ -2764,8 +2782,17 @@
 			description: ["Advanced hives placed in dark, unlit areas, will naturally spawn both &azombees&r and &7skeletal&r bees. While you will most likely want a &ofew&r skeletal bees at some point, the undead bees are typically a nuisance in general more than anything as they spawn and take up the space of the bees you do want to access the hives. Keeping your bee keeping area well lit is a very easy way to solve any problems caused by them, if they are spawning in an area you do not want them in, this is because at least 1 of the hives in the area is &enot lit well enough&r."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_complete: false
 			hide_until_deps_visible: true
-			icon: "minecraft:torch"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:torch"
+			}
 			id: "303E5FEBA512547F"
 			min_required_dependencies: 1
 			rewards: [{
@@ -4955,8 +4982,17 @@
 				"Take the genes from the centrifuge and insert them into a gene indexer to be combined into 100% genes, and apply a &credstone signal&r."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
-			icon: "minecraft:piston"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:piston"
+			}
 			id: "5EAC29DB29A4950E"
 			rewards: [{
 				id: "0F37886CD8DE8E5B"
@@ -5010,6 +5046,7 @@
 				"&cPower constraints&r can be a very limiting factor, especially in the early game. If this is an issue you are facing or maybe you just want more power for the future then producing honey in excess and converting it to energy is a wise decision, at least until you have better options for power generation at your disposal."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "1AA52106B4E55D61"
 			rewards: [
 				{
@@ -5138,6 +5175,7 @@
 				"Tip: if you dont use range upgrades, it isn't even worth using the catcher at all. You may as well put your cages in a chest and wait for the chest to catch bees (which isn't going to happen)."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "439EE8098C13A7AA"
 			rewards: [
@@ -5170,6 +5208,7 @@
 				"In short, they allow you to place 6 flowers or \"flowering items\" in the same spot."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "14C59C043DA6A9CB"
 			rewards: [

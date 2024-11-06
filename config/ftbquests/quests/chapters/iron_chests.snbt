@@ -29,6 +29,7 @@
 				"&eFurnaces&r each have a logical &eupgrade path&r, as well as an upgrade item associated with them with few exceptions. Progressing through the logical upgrade path will yield an &eincrease in cook speed&r, as well as i&encreased effectiveness&r when using certain &l&eAugments&r&r."
 			]
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -61,6 +62,7 @@
 			]
 			description: ["&e&lIron Chests&r&r adds new better chests and trapped chests for the various metals in vanilla minecraft with varying sizes!"]
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

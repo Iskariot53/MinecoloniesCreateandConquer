@@ -199,9 +199,9 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 			"item": "ironfurnaces:rainbow_plating"
 		  },
 		  "extra_core_material": {
-			"item": "scguns:vehement_coal"
+			"item": "mekanism:pellet_antimatter"
 		  },
-		  "forging_time": 4800,
+		  "forging_time": 3600,
 		  "result": "ironfurnaces:rainbow_coal",
 		  "supporting_core_material": {
 			"item": "ironfurnaces:rainbow_plating"
@@ -215,7 +215,30 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 		  "supporting_material_top": {
 			"item": "ironfurnaces:rainbow_plating"
 		  }
-		});			
+		});
+<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("create.creative_blaze_cake", {
+		  "type": "celestisynth:starlit_factory",
+		  "core_material": {
+			"item": "ironfurnaces:rainbow_coal"
+		  },
+		  "extra_core_material": {
+			"item": "mekanism:pellet_antimatter"
+		  },
+		  "forging_time": 5200,
+		  "result": "create:creative_blaze_cake",
+		  "supporting_core_material": {
+			"item": "ironfurnaces:rainbow_coal"
+		  },
+		  "supporting_material_bottom": {
+			"item": "ironfurnaces:rainbow_plating"
+		  },
+		  "supporting_material_middle": {
+			"item": "create_enchantment_industry:hyper_experience_bottle"
+		  },
+		  "supporting_material_top": {
+			"item": "ironfurnaces:rainbow_plating"
+		  }
+		});					
 		
 		
 		

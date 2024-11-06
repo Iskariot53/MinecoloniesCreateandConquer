@@ -29,6 +29,7 @@
 				"The &3Gun Bench&r is the first step towards crafting your first firearm."
 			]
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "04F5E10803F9EB28"
 			rewards: [
 				{
@@ -51,6 +52,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			subtitle: "Your new gunsmithing table"
 			tasks: [{
 				id: "08C117DB3F8B254C"

@@ -28,6 +28,7 @@
 				""
 				"Craft a &2Hopping Mob Cage&r to get started! A hopping mob cage is simply a cage combined with a hopper, enabling you to automatically transfer any drops into the inventory placed below it."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -534,6 +535,7 @@
 				""
 				"A &2&lHopper Botany Pot&r&r automates the process by harvesting the crop or tree, placing the drops into any inventory beneath it, and replanting the seed or sapling."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

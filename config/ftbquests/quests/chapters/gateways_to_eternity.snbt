@@ -38,6 +38,7 @@
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			id: "1299BAB6531E8366"
 			rewards: [{
 				id: "60B2814D6962B123"
@@ -46,8 +47,10 @@
 			}]
 			tasks: [{
 				id: "1236F22DE1667277"
+				title: "Getting start with gateways"
 				type: "checkmark"
 			}]
+			title: "Gateways to Eternity"
 			x: 0.0d
 			y: 0.0d
 		}

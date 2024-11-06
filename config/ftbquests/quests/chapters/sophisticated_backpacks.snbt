@@ -29,6 +29,7 @@
 				"When your backpack is in your &ninventory&r, your &nchestplate&r or your &n\"Back\" Curio slot&r, you can access it using a key press (&cby default B&r)."
 			]
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

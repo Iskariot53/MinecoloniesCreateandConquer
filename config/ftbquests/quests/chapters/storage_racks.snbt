@@ -25,6 +25,7 @@
 				""
 				"&e&lStorage Racks&r&r provides an easy solution to organize all your Minecraft storage needs, allowing you to craft &eracks&r with various inventory sizes to keep your items neatly organized and easily accessible!"
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2222,6 +2223,7 @@
 		{
 			dependencies: ["11CB742A8CEE0CB0"]
 			description: ["&e&lFunctional Storage&r&r is a mod that adds a variety of drawers, allowing you to store large quantities of items while offering useful functionalities and upgrades."]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

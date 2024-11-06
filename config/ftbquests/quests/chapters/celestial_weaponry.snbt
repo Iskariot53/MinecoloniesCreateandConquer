@@ -491,7 +491,7 @@
 	quests: [
 		{
 			dependencies: ["59AA205FF5D612E0"]
-			description: ["The &b&lStarlit Factory&r&r is crafted in a &eMechanical Crafter&r and used to forge all types of &b&lCelestial Weapons&r&r. It requires fuel to operate, such as &5Amethyst Shards&r, &5Celestial Core&r, or &5Heated Celestial Core&r."]
+			description: ["The &b&lStarlit Factory&r&r is crafted in a &eMechanical Crafter&r and used to forge all types of &b&lCelestial Weapons&r&r. It requires fuel to operate, such as &5Amethyst Shards&r, &5Celestial Cores&r or &5Heated Celestial Cores&r."]
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
 			icon_scale: 1.35d
@@ -541,6 +541,7 @@
 				""
 				"&l&bCelesti&r&r&5&lsynth&r&r adds a ton of &5celestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &bswift and agile combat&r or &5powerful, heavy-hitting strikes&r, there's something for every playstyle."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

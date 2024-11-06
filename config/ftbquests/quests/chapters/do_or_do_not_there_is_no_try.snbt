@@ -434,6 +434,7 @@
 				""
 				"Let's hope you took the time to get your assembly line floor ready, virtually everything contained in this chapter requires either &6mechanical crafting or an assembly line to craft&r."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

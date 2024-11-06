@@ -1,5 +1,5 @@
 {
-	autofocus_id: "05DCEC88971CA708"
+	autofocus_id: "18172AB4AD383F31"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "wip"
@@ -36,6 +36,7 @@
 				""
 				"A good place to start will be upgrading the &6mechanical grid&r from 3x3 to &65x5&r allowing the crafting of more advanced machines, at least once we have access to &3ether&r, more on that in the following quests."
 			]
+			hide_until_deps_complete: true
 			id: "5E29948F7393675B"
 			rewards: [
 				{
@@ -80,7 +81,9 @@
 		}
 		{
 			dependencies: ["206BBE6C92511589"]
+			description: ["The recipe for steel casing has been augmented to now require &3ether&r, as well as for the ingredients to be &6compacted in a heated basin&r."]
 			id: "61D74FC3BD5023C6"
+			subtitle: "A little spicey here"
 			tasks: [{
 				id: "4490D02CF509D699"
 				item: "mekanism:steel_casing"
@@ -91,7 +94,27 @@
 		}
 		{
 			dependencies: ["61D74FC3BD5023C6"]
+			description: [
+				"The pressurized reaction chamber (PRC) is required for processing irradium into bars suitable for reactors. Setting up the process is no small"
+				"feat as you will not only require the PRC itslef and some &2irradium&r to process, but you will also require a supply of &3sulfuric acid&r and &auranium oxide&r for the reaction."
+				""
+				"The byproduct of this reaction is &cnuclear waste&r and is NOT to be taken lightly."
+				""
+				"{@pagebreak}"
+				""
+				"When using nuclear fuel created by thorium, the radiation levels experienced are quite minimal. In fact you could easily destroy part of your reactor wall and just replace the blocks with little to no ill effect."
+				""
+				"&c&nTHIS IS NOT TRUE OF THE RADIATION CAUSED BY NUCLEAR WASTE&r&r "
+				"Never break a block or pipe containing radioactive materials as a general rule:"
+				"Once you start processing irradium, other than the nuclear fuel created, none of its byproducts are safe to handle or be released by breaking the block or pipe containing it until you have crystallized it to it's pellet form. "
+				""
+				"{@pagebreak}"
+				"Waste will slowly and safely dissipate if collected in waste barrels, otherwise, the only way to safely removed processed nuclear material from your system is continuing the refinement process until you reached the ability to refine them either plutonium, polonium or the coveted antimatter pellets."
+				""
+				"&aJEI&r is your friend here, as always. Again: &6If in doubt. If it's not empty or a pellet yet it's probably not safe for you to break that block&r."
+			]
 			id: "15CBA02058507A50"
+			subtitle: "Starting nucelear waste management"
 			tasks: [{
 				id: "501BE18A63FE45EA"
 				item: "mekanism:pressurized_reaction_chamber"
@@ -225,7 +248,8 @@
 		{
 			dependencies: ["5408F21008F2B15F"]
 			id: "1A09486B79BB3A91"
-			size: 1.5d
+			size: 1.75d
+			subtitle: "Infinite Munitions"
 			tasks: [{
 				id: "24FEAF2EA4CAFD50"
 				item: {
@@ -239,16 +263,18 @@
 				}
 				type: "item"
 			}]
-			x: 3.4285714285714306d
-			y: 10.357142857142861d
+			x: 4.6785714285714235d
+			y: 11.464285714285715d
 		}
 		{
 			dependencies: [
 				"06DE55B8F9F4A557"
 				"1DC8C706C321F8A5"
 			]
+			description: ["The Starlit Factory is crafted in a Mechanical Crafter and used to forge all types of end game goodiea. It requires fuel to operate, such as amethyst shards, celestial cores or heated celestial cores."]
 			id: "5408F21008F2B15F"
 			size: 2.0d
+			subtitle: "Getting to the good stuff"
 			tasks: [{
 				id: "09A1E78E2F48D4DC"
 				item: {
@@ -428,7 +454,13 @@
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
+			description: [
+				"Everlasting Beef can be obtained from endlessy slaughtering mimics all day, but for those that RNGesus does not smile upon, there is always this route. "
+				""
+				"It has been tagged in a way that allows even the herbivores to enjoy! (just tell them it's tofu or something.. idk)"
+			]
 			id: "587A63C9A1A60104"
+			subtitle: "Infinite food source"
 			tasks: [{
 				id: "418896B7EF711868"
 				item: {
@@ -447,7 +479,13 @@
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
+			description: [
+				"useful in it of itself, The scarf of invisibility can be priceless for those who don't already have access to invisibility and take damage to sunlight."
+				""
+				"Plus, trolling... theres always trolling, good for that too."
+			]
 			id: "1A56E7E473DFE5E1"
+			subtitle: "You can't see me"
 			tasks: [{
 				id: "19664B5F365A04F5"
 				item: {
@@ -466,7 +504,9 @@
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
+			description: ["The chorus totem is a very special totem. Rather than just giving you a second chance form death, this totem will flat out teleport you away from danger BEFORE death, whever you would have otherwise taken a lethal blow."]
 			id: "7C69595EA36712AE"
+			subtitle: "Gotta go, bro"
 			tasks: [{
 				id: "042D10A6B2E34F02"
 				item: {
@@ -485,7 +525,9 @@
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
+			description: ["The vampiric glove allows melee users a lifesteal buff on strike."]
 			id: "0B12849B9C82F31A"
+			subtitle: "The best defence is more offence"
 			tasks: [{
 				id: "3D91920BB10586FF"
 				item: {
@@ -504,7 +546,9 @@
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
+			description: ["Useful for quickly negating negative status effects!"]
 			id: "2E8A7CFF375D0125"
+			subtitle: "Pretty sure it's just pepto bismol..."
 			tasks: [{
 				id: "036BD4D29EEA1EB5"
 				item: {
@@ -523,7 +567,9 @@
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
+			description: ["Rainbow coal can be used to smelt A LOT of items per chunk used."]
 			id: "45D55F099A2FED2F"
+			subtitle: "Not quite infinite"
 			tasks: [{
 				id: "674DA3E0EA204C00"
 				item: {
@@ -679,6 +725,63 @@
 			}]
 			x: -7.5d
 			y: 17.0d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "194F32052F90240A"
+			size: 1.5d
+			subtitle: "Creative stress relief"
+			tasks: [{
+				id: "00AECA8F4259AA5B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:creative_blaze_cake"
+				}
+				type: "item"
+			}]
+			x: 3.357142857142854d
+			y: 10.25d
+		}
+		{
+			dependencies: [
+				"1B157D0B0082F798"
+				"31C6BBF1300F6C40"
+			]
+			description: [
+				"If you're reading this, you're either a cheater or a very dedicated player. Through all the challenges... Some mundane , some obscure and some down right troublesome.. you persevered and obtained the most powerful weapons and items available to you. Way to go!"
+				""
+				"Now take a moment to buy yourself something nice."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2F8179EA21A649A9"
+			rewards: [{
+				count: 2
+				id: "5EEE26DF4A30EDBB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			subtitle: "Well Done!"
+			tasks: [{
+				id: "52B65E1A13E7B277"
+				title: "If you actually made it here..."
+				type: "checkmark"
+			}]
+			x: -5.25d
+			y: 19.42857142857143d
 		}
 	]
 	title: "&eThe Road Less Traveled"
