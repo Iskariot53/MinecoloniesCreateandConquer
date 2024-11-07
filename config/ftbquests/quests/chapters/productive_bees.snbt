@@ -4174,8 +4174,16 @@
 			description: ["Breed a prismarine bee with a nickel bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
-			icon: "thermalendergy:prismalium_ingot"
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermalendergy:prismalium_ingot"
+			}
 			id: "3D66D08800B731EE"
 			rewards: [
 				{
@@ -4253,8 +4261,16 @@
 			description: ["Obtain an ancient bee spawn egg and a quarry bee spawn egg then combine them together with a nether star in a crafting table."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
-			icon: "thermalendergy:stellarium_ingot"
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermalendergy:stellarium_ingot"
+			}
 			id: "1CE1087CB610DCBD"
 			rewards: [
 				{
@@ -4574,8 +4590,16 @@
 			description: ["Breed a resin bee with a lumber bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
-			icon: "industrialforegoing:plastic"
+			hide_until_deps_visible: false
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "industrialforegoing:plastic"
+			}
 			id: "5D3397CDD49AAAE4"
 			rewards: [
 				{

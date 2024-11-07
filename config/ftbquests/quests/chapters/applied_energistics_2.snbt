@@ -381,6 +381,7 @@
 				""
 				"This can also be accomplished via tesla coil charging if you prefer the Create route!"
 			]
+			hide_until_deps_complete: true
 			id: "1F8E11D7CAFA5B63"
 			rewards: [
 				{
@@ -452,6 +453,7 @@
 				""
 				"To do this you will need to insert the prerequisite press for the circuit or processor needed. It is advisable to set up a dedicated inscriber for each, at least early on."
 			]
+			hide_until_deps_complete: true
 			id: "7A4FF3976EB91CEB"
 			rewards: [
 				{
@@ -878,6 +880,7 @@
 				"You can also paint cables with any forge compatible paint brush in world."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "69AF46B1490B34C4"
 			subtitle: "Your basic ME cable"
 			tasks: [{
@@ -904,6 +907,7 @@
 			dependency_requirement: "one_completed"
 			description: ["&3Quartz fiber&r is used to share power between networks, while keeping them separate. This allows you to power subnetworks without needing to put energy acceptors and power cables everywhere. It can also be used to keep cables from connecting, although using cables of differing colors, or using a&8 Cable Anchor&r is cheaper and more effective."]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "3D36143AECED6DDC"
 			subtitle: "Cable sub-parts"
 			tasks: [{
@@ -1033,6 +1037,7 @@
 				"The maximum size a controller multi block can be is 7x7x7, otherwise it will turn red."
 				"A controller can have 2 adjacent blocks in at most 1 axis; if a block violates this rule, it will disable and turn red."
 			]
+			hide_until_deps_complete: true
 			id: "38A8DAD3A173256D"
 			rewards: [
 				{
@@ -1344,6 +1349,7 @@
 		}
 		{
 			dependencies: ["7A33AF5CD7476775"]
+			hide_until_deps_complete: true
 			id: "1CCF84C68FCC71B6"
 			tasks: [{
 				id: "571A9C64CC5D24DA"
@@ -1554,6 +1560,7 @@
 		{
 			dependencies: ["7A33AF5CD7476775"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "544DA5259949B3C7"
 			tasks: [{
 				id: "061FBA27F2C598DE"
@@ -1948,6 +1955,7 @@
 				"Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "54B6C8FA074658E3"
 			subtitle: "Subpart - Pulls things INTO your network."
 			tasks: [{
@@ -1981,6 +1989,7 @@
 				"Right-click with a fluid container (like a bucket, fluid tank, etc) to set that fluid as a filter instead of the bucket or tank item."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "482DA8042A4B1801"
 			subtitle: "Subpart - Sends things FROM your network"
 			tasks: [{
@@ -2087,6 +2096,7 @@
 				"R-click one to bring up its crafting status UI where you can check the progress on the crafting job the CPU is handling at any given moment.."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "63F3D98D3B56C193"
 			size: 1.5d
 			subtitle: " The brain of every major network "
@@ -2119,6 +2129,7 @@
 				"Storage components can be removed from the housing if the cell is empty by shift-right clicking with the cell in your hand."
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "7D2462E72B5DCF40"
 			subtitle: "The hoarding begins"
 			tasks: [{
@@ -2230,6 +2241,7 @@
 		}
 		{
 			dependencies: ["05607C56B0320CD7"]
+			hide_until_deps_complete: true
 			id: "50661F8E42D7DCA0"
 			tasks: [{
 				id: "3B8788E6DF7BABD8"
@@ -2249,6 +2261,7 @@
 		}
 		{
 			dependencies: ["05607C56B0320CD7"]
+			hide_until_deps_complete: true
 			id: "641A790B8CDAD4A5"
 			tasks: [{
 				id: "350B2FAD8FDF1FC0"
@@ -2268,6 +2281,7 @@
 		}
 		{
 			dependencies: ["05607C56B0320CD7"]
+			hide_until_deps_complete: true
 			id: "3A6584785944AF27"
 			tasks: [{
 				id: "74E83F6228E128F2"
@@ -2288,6 +2302,7 @@
 		{
 			dependencies: ["3A6584785944AF27"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "089EC148C8AAF1EC"
 			tasks: [{
 				id: "051D1634320921BD"
@@ -2303,8 +2318,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.5d
+			x: 6.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
