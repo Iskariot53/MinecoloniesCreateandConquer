@@ -4,6 +4,7 @@
 	default_quest_shape: "square"
 	filename: "sophisticated_backpacks"
 	group: "205034DE57B28B09"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
@@ -81,6 +82,7 @@
 				"Once the backpack is dyed, you can continue adding dyes which combine the current main, accent or both colors. You can &cwash away&r the color from any dyed backpack by holding it in your main hand and clicking with it on a &ccauldron with water&r."
 			]
 			hide_dependency_lines: false
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -123,6 +125,7 @@
 		{
 			dependencies: ["1A37DEDF6AA33C72"]
 			hide_dependency_lines: false
+			hide_until_deps_complete: false
 			id: "079942A04CC6A4CF"
 			rewards: [
 				{
@@ -164,6 +167,7 @@
 		{
 			dependencies: ["079942A04CC6A4CF"]
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			id: "7ABF901623D8CA28"
 			rewards: [
 				{
@@ -205,6 +209,7 @@
 		{
 			dependencies: ["7ABF901623D8CA28"]
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			id: "056C2665F5710C48"
 			rewards: [
 				{
@@ -245,6 +250,7 @@
 		{
 			dependencies: ["056C2665F5710C48"]
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			id: "51BCD6FF71ACC8AF"
 			rewards: [
 				{
@@ -534,6 +540,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "0DC612012D9F5CC8"
 			rewards: [
 				{
@@ -659,6 +666,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "78D0A8DE604F4EF5"
 			rewards: [
 				{
@@ -784,6 +792,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "398846F77C0A87CD"
 			rewards: [
 				{
@@ -909,6 +918,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "3293026C1A823B87"
 			rewards: [
 				{
@@ -1034,6 +1044,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "35DAB0A24A073B70"
 			rewards: [
 				{
@@ -1159,6 +1170,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "665D2B45126BFD6A"
 			rewards: [
 				{
@@ -1242,6 +1254,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "0BDADAF7B4756E90"
 			rewards: [
 				{
@@ -1325,6 +1338,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "01CCF23F30BCC1B7"
 			rewards: [
 				{
@@ -1369,6 +1383,7 @@
 				"00B9671338E0E8A4"
 				"01CCF23F30BCC1B7"
 			]
+			hide_until_deps_complete: false
 			id: "1CB1977A79D3F8D9"
 			rewards: [
 				{
@@ -1410,6 +1425,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "713F7914D703293A"
 			rewards: [
 				{
@@ -1451,6 +1467,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "0DE5AF56850D4B59"
 			rewards: [
 				{
@@ -1492,6 +1509,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "26AB28723901180C"
 			rewards: [
 				{
@@ -1533,6 +1551,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "097132287977D15D"
 			rewards: [
 				{
@@ -1574,6 +1593,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "10A03B6AFCB30520"
 			rewards: [
 				{
@@ -1615,6 +1635,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "05A9CF0A23D66D04"
 			rewards: [
 				{
@@ -1656,6 +1677,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "645B4A7596CB5DCA"
 			rewards: [
 				{
@@ -1697,6 +1719,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "313ADE5383FF8A23"
 			rewards: [
 				{
@@ -1738,6 +1761,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "42B812E36BAAB243"
 			rewards: [
 				{
@@ -1779,6 +1803,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "68F603E8C26416BB"
 			rewards: [
 				{
@@ -1820,6 +1845,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "1050B5B3A450BECA"
 			rewards: [
 				{
@@ -1861,6 +1887,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "34CF3E150AF1A648"
 			rewards: [
 				{
@@ -1902,6 +1929,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "1013135C12806093"
 			rewards: [
 				{
@@ -1942,6 +1970,7 @@
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
+			hide_until_deps_complete: false
 			id: "5BE0CE5858FCF50B"
 			rewards: [
 				{
@@ -2012,6 +2041,7 @@
 				"Each upgrade requires an &c&lUpgrade Base&r&r in its crafting recipe."
 			]
 			hide_dependency_lines: false
+			hide_until_deps_complete: false
 			id: "00B9671338E0E8A4"
 			rewards: [
 				{

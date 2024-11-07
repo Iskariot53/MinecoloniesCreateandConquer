@@ -1,9 +1,11 @@
 {
-	autofocus_id: "416D35FAEF7E007C"
+	autofocus_id: "50366C2104BBC50B"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "celestial_weaponry"
 	group: "46EE86D2C5C12C78"
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -36,7 +38,7 @@
 			y: 0.0d
 		}
 		{
-			dependency: "59AA205FF5D612E0"
+			dependency: "5408F21008F2B15F"
 			height: 1.0d
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
@@ -45,7 +47,7 @@
 			y: 9.159970238095248d
 		}
 		{
-			dependency: "59AA205FF5D612E0"
+			dependency: "5408F21008F2B15F"
 			height: 2.0d
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 20.0d
@@ -54,7 +56,7 @@
 			y: 12.073660714285737d
 		}
 		{
-			dependency: "59AA205FF5D612E0"
+			dependency: "5408F21008F2B15F"
 			height: 0.5d
 			image: "bosses_of_mass_destruction:item/soul_star"
 			rotation: 0.0d
@@ -63,7 +65,7 @@
 			y: 10.287946428571452d
 		}
 		{
-			dependency: "59AA205FF5D612E0"
+			dependency: "5408F21008F2B15F"
 			height: 0.5d
 			image: "bosses_of_mass_destruction:item/soul_star"
 			rotation: 0.0d
@@ -72,7 +74,7 @@
 			y: 9.838541666666679d
 		}
 		{
-			dependency: "59AA205FF5D612E0"
+			dependency: "5408F21008F2B15F"
 			height: 0.5d
 			image: "bosses_of_mass_destruction:item/soul_star"
 			rotation: 0.0d
@@ -81,7 +83,7 @@
 			y: 11.395089285714306d
 		}
 		{
-			dependency: "59AA205FF5D612E0"
+			dependency: "5408F21008F2B15F"
 			height: 1.5d
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
@@ -90,7 +92,7 @@
 			y: 9.609375000000028d
 		}
 		{
-			dependency: "59AA205FF5D612E0"
+			dependency: "5408F21008F2B15F"
 			height: 1.5d
 			image: "simplehats:item/hats/floatingstar"
 			rotation: 0.0d
@@ -490,10 +492,19 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["59AA205FF5D612E0"]
+			dependencies: ["5408F21008F2B15F"]
 			description: ["The &b&lStarlit Factory&r&r is crafted in a &eMechanical Crafter&r and used to forge all types of &b&lCelestial Weapons&r&r. It requires fuel to operate, such as &5Amethyst Shards&r, &5Celestial Cores&r or &5Heated Celestial Cores&r."]
 			hide_dependent_lines: true
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "celestisynth:starlit_factory"
+			}
 			icon_scale: 1.35d
 			id: "6921EAADE3E74049"
 			rewards: [
@@ -518,17 +529,8 @@
 			]
 			size: 2.0d
 			tasks: [{
-				id: "11D2976A5960B4FA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "celestisynth:starlit_factory"
-				}
-				type: "item"
+				id: "0FA047C433300A84"
+				type: "checkmark"
 			}]
 			title: "&b&lStarlit Factory"
 			x: 0.0d
@@ -593,6 +595,7 @@
 				""
 				"&b&lWintereis:&r&r Found deep in &ecaves within cold biomes&r, typically below &eY=60&r. Requires silk touch to obtain the full block."
 			]
+			hide_until_deps_complete: false
 			id: "189FF174FC1C2473"
 			rewards: [
 				{
@@ -660,11 +663,12 @@
 				}
 			]
 			title: "&b&lLunar Stone, Zephyr Deposit and Wintereis"
-			x: 2.0d
-			y: 2.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["27871561BE483CFC"]
+			hide_until_deps_complete: false
 			id: "7A17693E80EBB442"
 			tasks: [{
 				id: "4B39167DEE303D4E"
@@ -680,11 +684,12 @@
 				type: "item"
 			}]
 			title: "&b&lCelestial Core"
-			x: -2.0d
-			y: 2.0d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7A17693E80EBB442"]
+			hide_until_deps_complete: false
 			id: "2C1A0E103CA5AA4F"
 			tasks: [{
 				id: "6976A148C40E76C2"
@@ -705,6 +710,7 @@
 		}
 		{
 			dependencies: ["2C1A0E103CA5AA4F"]
+			hide_until_deps_complete: false
 			id: "53D8C30587EAA278"
 			tasks: [{
 				id: "3BC8E7DF6072EDF4"
@@ -725,6 +731,7 @@
 		}
 		{
 			dependencies: ["53D8C30587EAA278"]
+			hide_until_deps_complete: false
 			id: "0E52818FCB29BDD3"
 			tasks: [{
 				id: "75C37183DBAEC8D3"
@@ -741,10 +748,11 @@
 			}]
 			title: "&b&lCelestial Netherite Ingot"
 			x: -0.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["189FF174FC1C2473"]
+			hide_until_deps_complete: false
 			id: "2869B8A204348510"
 			tasks: [{
 				id: "07F9F22F10B313DA"
@@ -765,6 +773,7 @@
 		}
 		{
 			dependencies: ["2869B8A204348510"]
+			hide_until_deps_complete: false
 			id: "369C892EB0581142"
 			tasks: [{
 				id: "5E5E20D979108235"
@@ -781,10 +790,11 @@
 			}]
 			title: "&b&lStarstruck Scrap"
 			x: 0.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["189FF174FC1C2473"]
+			hide_until_deps_complete: false
 			id: "555D4DADFBF2B843"
 			tasks: [{
 				id: "5DC30EDD2BA34F99"
@@ -805,6 +815,7 @@
 		}
 		{
 			dependencies: ["27871561BE483CFC"]
+			hide_until_deps_complete: false
 			id: "17E40687DBED628B"
 			tasks: [{
 				id: "021DD93BA240D156"
@@ -821,10 +832,11 @@
 			}]
 			title: "&b&lStarstruck Feather"
 			x: -2.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["27871561BE483CFC"]
+			hide_until_deps_complete: false
 			id: "43C4BFAEF725409A"
 			tasks: [{
 				id: "020EC9656E4F5E54"
@@ -841,10 +853,11 @@
 			}]
 			title: "&b&lEyebomination"
 			x: 2.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["27871561BE483CFC"]
+			hide_until_deps_complete: false
 			id: "6C9279FE5598D9EC"
 			tasks: [{
 				id: "092AC7AA4AB524F7"
@@ -862,53 +875,6 @@
 			title: "&b&lSolar Crystal"
 			x: 0.0d
 			y: -2.5d
-		}
-		{
-			dependencies: [
-				"369C892EB0581142"
-				"0E52818FCB29BDD3"
-			]
-			hide_until_deps_visible: true
-			id: "416D35FAEF7E007C"
-			tasks: [{
-				count: 4L
-				id: "7F36B39BC945DAE6"
-				item: {
-					Count: 3
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "ccextras:arcanite_dust"
-				}
-				type: "item"
-			}]
-			title: "&b&lArcanite Dust"
-			x: 0.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["416D35FAEF7E007C"]
-			hide_until_deps_visible: true
-			id: "59AA205FF5D612E0"
-			tasks: [{
-				count: 4L
-				id: "3E59016A3F9BD006"
-				item: {
-					Count: 4
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "ccextras:arcanite_ingot"
-				}
-				type: "item"
-			}]
-			title: "&b&lArcanite Ingot"
-			x: 0.0d
-			y: 6.5d
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
@@ -1253,7 +1219,7 @@
 		}
 		{
 			dependencies: ["2869B8A204348510"]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "46D223145235C00D"
 			tasks: [
 				{
@@ -1327,7 +1293,7 @@
 		}
 		{
 			dependencies: ["6C9279FE5598D9EC"]
-			hide_until_deps_visible: true
+			hide_until_deps_complete: true
 			id: "34235C45500448B4"
 			tasks: [
 				{
@@ -1439,6 +1405,27 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			id: "50366C2104BBC50B"
+			invisible: true
+			optional: true
+			size: 0.5d
+			subtitle: "why are you in editing mode you lil cheater "
+			tasks: [{
+				count: 999L
+				id: "35B604FEEDE5755C"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: -2.25d
+			y: 4.75d
 		}
 	]
 	title: "&eCelestial Arsenal"

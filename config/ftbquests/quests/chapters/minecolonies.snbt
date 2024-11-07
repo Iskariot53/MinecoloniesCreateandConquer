@@ -4,8 +4,17 @@
 	default_quest_shape: "hexagon"
 	filename: "minecolonies"
 	group: "5B6588F2B5558488"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
-	icon: "minecolonies:blockhuttownhall"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecolonies:blockhuttownhall"
+	}
 	id: "65AAD4FF3CB2E745"
 	images: [
 		{
@@ -45,8 +54,8 @@
 				"However, if you prefer to start a colony from &nscratch&r, we've got you covered! This is a complete &6tutorial&r that covers the basics of each colony and guides you through the steps to start one. So buckle up, and let’s dive into it!"
 			]
 			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -99,8 +108,8 @@
 				""
 				"In addition to the &6default colony styles&r that the &6&lMinecolonies&r&r mod offers, we’ve included even more styles with the help of the &6Stylecolonies&r and &6Byzantine Style Pack&r mods!"
 			]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -155,8 +164,8 @@
 				"Once the &6&lTown Hall&r&r block is placed and the colony is created, you will receive your initial &c4&r &6citizens&r. The &6&lTown Hall&r&r is where your citizens will take shelter and gather at night until you build them a &6Tavern&r or their own &6Residence&r."
 			]
 			hide_dependent_lines: true
-			hide_until_deps_complete: true
-			hide_until_deps_visible: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2618,7 +2627,7 @@
 				""
 				"The &n&cdownside&r&r to this approach is that your colony won’t be loaded at all times. However, it’s an important consideration, at least until you have a &6well-established colony&r that can feed and defend itself independently."
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			icon: {
 				Count: 1
 				ForgeCaps: {

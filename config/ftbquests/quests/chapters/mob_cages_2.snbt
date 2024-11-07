@@ -448,6 +448,7 @@
 			dependencies: ["190F60E63A1CE6C2"]
 			description: ["Increases the cage's &2speed by 100%&r. This upgrade can stack."]
 			hide_dependency_lines: false
+			hide_until_deps_complete: true
 			id: "525AD57340AB14D1"
 			rewards: [
 				{
@@ -488,6 +489,7 @@
 		{
 			dependencies: ["525AD57340AB14D1"]
 			description: ["Increases the cage's &2speed by 200%&r. This upgrade can stack."]
+			hide_until_deps_complete: true
 			id: "3C5DB2127560C5B4"
 			rewards: [
 				{

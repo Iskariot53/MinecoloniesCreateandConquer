@@ -6,6 +6,7 @@
 	filename: "mounts"
 	group: "40D70F6AEAC8BA2E"
 	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -72,16 +73,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1F76CF6FBA5AEA93"
-			]
+			dependencies: ["1F76CF6FBA5AEA93"]
 			description: [
 				"Use 1x of your &l&3Soul Bottles&r&r to craft the Summoning Table."
 				"Each mount is summoned in your world via this table using a &l&3Soul Bottle&r&r, &l&cSaddle&r&r and the &l&6Talisman&r&r related to that mount!"
 				""
 				"After summoning any mount, click on it to tame it. Shift click it to make it sit and stay in place."
 			]
+			hide_until_deps_complete: false
 			id: "5B64DE7E58D4D27B"
 			rewards: [
 				{
@@ -107,10 +106,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Red Talisman is used to summon &c&lThe Red Panda Mount&r&r via the summoning table."
 				""
@@ -118,6 +114,7 @@
 				""
 				"&l&4Favorite Food:&r&r Bamboo and Sugar Cane."
 			]
+			hide_until_deps_complete: false
 			id: "4B23FD91992362FC"
 			rewards: [
 				{
@@ -143,10 +140,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Gold Talisman is used to summon &l&6The Tiger Mount&r&r via the summoning table."
 				""
@@ -154,6 +148,7 @@
 				""
 				"&l&4Favorite Food:&r&r All kinds of Meat."
 			]
+			hide_until_deps_complete: false
 			id: "7B579DA1D9D8D845"
 			rewards: [
 				{
@@ -178,10 +173,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Blue Talisman is used to summon &l&bThe Blue Bird Mount&r&r via the summoning table."
 				""
@@ -189,6 +181,7 @@
 				""
 				"&l&4Favorite Food:&r&r Carrots, Potatoes and Beets."
 			]
+			hide_until_deps_complete: false
 			id: "692E907218A61497"
 			rewards: [
 				{
@@ -213,10 +206,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The White Talisman is used to summon &l&eThe Duck&r&r via the summoning table."
 				""
@@ -224,6 +214,7 @@
 				""
 				"&l&4Favorite Food:&r&r All kinds of Seeds."
 			]
+			hide_until_deps_complete: false
 			id: "33C2F0A1A0B2B75F"
 			rewards: [
 				{
@@ -248,10 +239,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Purple Talisman is used to summon &l&5The Alpha Bat Mount&r&r via the summoning table."
 				""
@@ -259,6 +247,7 @@
 				""
 				"&l&4Favorite Food:&r&r Spider Eyes."
 			]
+			hide_until_deps_complete: false
 			id: "0083172DAF676F02"
 			rewards: [
 				{
@@ -283,10 +272,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Pink Talisman is used to summon &l&dThe Mystic Owl Mount&r&r via the summoning table."
 				""
@@ -294,6 +280,7 @@
 				""
 				"&l&4Favorite Food:&r&r All kinds of Uncooked Meat."
 			]
+			hide_until_deps_complete: false
 			id: "7AABCEFE8D3D1FCD"
 			rewards: [
 				{
@@ -318,10 +305,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Gray Talisman is used to summon &l&7The Mechanical Wolf Mount&r&r via the summoning table."
 				""
@@ -329,6 +313,7 @@
 				""
 				"&l&4Favorite Food:&r&r All kinds of Meat, Bone and Iron."
 			]
+			hide_until_deps_complete: false
 			id: "5A87F488E638E388"
 			rewards: [
 				{
@@ -353,10 +338,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Yellow Talisman is used to summon &l&eThe Nymph Bird Mount&r&r via the summoning table."
 				""
@@ -364,6 +346,7 @@
 				""
 				"&l&4Favorite Food:&r&r Seeds."
 			]
+			hide_until_deps_complete: false
 			id: "517FBC5C5EB83984"
 			rewards: [
 				{
@@ -388,10 +371,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Black Talisman is used to summon &l&0The Secretary Bird Mount&r&r via the summoning table."
 				""
@@ -399,6 +379,7 @@
 				""
 				"&l&4Favorite Food:&r&r Seeds."
 			]
+			hide_until_deps_complete: false
 			id: "6E9699325EC1AE02"
 			rewards: [
 				{
@@ -423,10 +404,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Orange Talisman is used to summon &l&6The Ferret Mount&r&r via the summoning table."
 				""
@@ -434,6 +412,7 @@
 				""
 				"&l&4Favorite Food:&r&r Chicken and Rabbit."
 			]
+			hide_until_deps_complete: false
 			id: "29BA78B794BC982E"
 			rewards: [
 				{
@@ -458,10 +437,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Amber Talisman is used to summon &l&6The Sloth&r&r via the summoning table."
 				""
@@ -469,6 +445,7 @@
 				""
 				"&l&4Favorite Food:&r&r Grass and Leaves."
 			]
+			hide_until_deps_complete: false
 			id: "49B368AACB33032D"
 			rewards: [
 				{
@@ -493,10 +470,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Cyan Talisman is used to summon &l&3The Shark Mount&r&r via the summoning table."
 				""
@@ -504,6 +478,7 @@
 				""
 				"&l&4Favorite Food:&r&r All kinds of Meat."
 			]
+			hide_until_deps_complete: false
 			id: "03EE3310E76C708A"
 			rewards: [
 				{
@@ -528,10 +503,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Aqua Talisman is used to summon &l&bThe Blue Dragon Mount&r&r via the summoning table."
 				""
@@ -539,6 +511,7 @@
 				""
 				"&l&4Favorite Food:&r&r Seagrass, Sea Pickle and Kelp."
 			]
+			hide_until_deps_complete: false
 			id: "0A0B9A663E93EEC1"
 			rewards: [
 				{
@@ -563,10 +536,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5B64DE7E58D4D27B"
-			]
+			dependencies: ["5B64DE7E58D4D27B"]
 			description: [
 				"The Anicnet Talisman is used to summon &l&7The Spider Mount&r&r via the summoning table."
 				""
@@ -574,6 +544,7 @@
 				""
 				"&l&4Favorite Food:&r&r Chorus Fruit"
 			]
+			hide_until_deps_complete: false
 			id: "5C1F8A03C5D03ACF"
 			rewards: [
 				{
@@ -598,10 +569,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"29BA78B794BC982E"
-			]
+			dependencies: ["29BA78B794BC982E"]
 			description: [
 				"The Special Orange Talisman is used to summon &l&6The White Ferret Mount&r&r via the summoning table."
 				""
@@ -633,10 +601,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"7B579DA1D9D8D845"
-			]
+			dependencies: ["7B579DA1D9D8D845"]
 			description: [
 				"The Special Gold Talisman is used to summon &l&6The Albino Tiger Mount&r&r via the summoning table."
 				""
@@ -669,7 +634,6 @@
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"29AD419B0E2D665C"
 				"1CD308F546528AF3"
 				"0115F9DE6A2431BE"
@@ -699,6 +663,8 @@
 			]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_complete: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
