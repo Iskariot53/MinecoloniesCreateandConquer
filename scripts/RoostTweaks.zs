@@ -55,6 +55,7 @@
 		<tag:items:forge:roost/tier5>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tier7>.addId(<resource:chicken_roost:c_ether>);
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
+		
 
 // RECIPES
 //CHERRY CHICKEN
@@ -2613,3 +2614,8 @@
 			"item": "thermal:invar_dust"
 		  }
 		});
+		
+		
+//BREEDER RECIPES
+	craftingTable.removeByName("chicken_roost:fafsa");
+	craftingTable.removeByName("chicken_roost:breeder");
