@@ -84,6 +84,7 @@
 				""
 				"The &e&lNaga&r&r is a serpent that lurks in the courtyard, appearing as a massive green snake-like creature with a human-like face and subtly colored scales."
 			]
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -177,6 +178,7 @@
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
+			hide_until_deps_complete: false
 			id: "5F702BEE6C1C9852"
 			rewards: [
 				{
@@ -772,6 +774,7 @@
 		{
 			dependencies: ["224C2A4CAABD226E"]
 			description: ["&e&lNaga Scale Armor&r&r is armor made from Naga Scales. This armor set consists of only Chestplate and Leggings."]
+			hide_until_deps_complete: false
 			id: "63C1EC8559D1E68B"
 			rewards: [
 				{
@@ -1787,6 +1790,7 @@
 				""
 				"&e&lTorchberries&r&r are an item found by harvesting Torchberry Plants or slaying Skeleton Druids. "
 			]
+			hide_until_deps_complete: false
 			id: "06B12750EF857686"
 			rewards: [
 				{
@@ -1843,6 +1847,7 @@
 		{
 			dependencies: ["06B12750EF857686"]
 			description: ["&e&lMagic Map Focus&r&r is an item crafted from a Raven Feather, Torchberries and Glowstone Dust."]
+			hide_until_deps_complete: false
 			id: "3EC49822628FE9B3"
 			rewards: [
 				{
@@ -1891,6 +1896,7 @@
 				""
 				"The map’s magical focus detects major landmarks with distinct icons, making it easy for explorers to navigate and plan their journey in the Twilight Forest."
 			]
+			hide_until_deps_complete: false
 			id: "0E15E3DEA2EF1D63"
 			rewards: [
 				{
@@ -2123,6 +2129,7 @@
 				""
 				"When the crumble horn is used in a &eDispenser&r, it will attempt to crumble the block in front of it. This action takes one durability to complete. Unlike other damageable items that can be used in the dispenser, the crumble horn will not break when depleted. If the durability hits zero it will instead refuse to fire again."
 			]
+			hide_until_deps_complete: false
 			id: "31F9DFD0F505AE02"
 			rewards: [
 				{
@@ -3328,6 +3335,7 @@
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
+			hide_until_deps_complete: false
 			id: "76B211025E5ACC90"
 			rewards: [
 				{
