@@ -1,6 +1,5 @@
 //machine frames and dissolution chamber
 
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("industrialforegoing:machine_frame_pity");
 craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [[<tag:items:minecraft:logs>, <tag:items:forge:storage_blocks/brass>, <tag:items:minecraft:logs>], [<tag:items:forge:storage_blocks/brass>, <tag:items:forge:storage_blocks/redstone>, <tag:items:forge:storage_blocks/brass>], [<tag:items:minecraft:logs>, <tag:items:forge:storage_blocks/brass>, <tag:items:minecraft:logs>]]);
@@ -9,7 +8,6 @@ craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.machine_frame_simple", <item:industrialforegoing:machine_frame_simple>, [[<item:industrialforegoing:plastic>, <item:industrialforegoing:machine_frame_pity>, <item:industrialforegoing:plastic>], [<item:minecraft:nether_brick>, <item:create:precision_mechanism>, <item:minecraft:nether_brick>], [<item:architects_palette:nether_brass_ingot>, <item:industrialforegoing:gold_gear>, <item:architects_palette:nether_brass_ingot>]]);
 
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("industrialforegoing:dissolution_chamber");
 craftingTable.remove(<item:industrialforegoing:dissolution_chamber>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.dissolution_chamber", <item:industrialforegoing:dissolution_chamber>, [[<item:industrialforegoing:plastic>, <tag:items:forge:chests>, <item:industrialforegoing:plastic>], [<item:minecraft:bucket>, <item:industrialforegoing:machine_frame_pity>, <item:minecraft:bucket>], [<tag:items:forge:storage_blocks/brass>, <item:industrialforegoing:diamond_gear>, <tag:items:forge:storage_blocks/brass>]]);

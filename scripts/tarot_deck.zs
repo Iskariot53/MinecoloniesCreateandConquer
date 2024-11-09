@@ -7,7 +7,6 @@ import crafttweaker.api.ingredient.IIngredient;
 import crafttweaker.api.data.ListData;
 
 craftingTable.remove(<item:tarotcards:tarot_deck>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("tarotcards:tarot_deck");
 
 <recipetype:ars_nouveau:imbuement>.addJsonRecipe("tarotcards.tarot_deck", {
   "type": "ars_nouveau:imbuement",

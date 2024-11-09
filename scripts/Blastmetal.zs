@@ -1,24 +1,24 @@
 craftingTable.remove(<item:blocksyouneed_luna:blastmetal>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("blocksyouneed_luna:blastmetal");
+
 
 craftingTable.remove(<item:blocksyouneed_luna:blastmetal_fence>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("blocksyouneed_luna:blastmetal_fence");
+
 
 import mods.create.CuttingManager;
 import crafttweaker.api.recipe.StoneCutterManager;
 
 craftingTable.remove(<item:blocksyouneed_luna:blastmetal_wall>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("blocksyouneed_luna:blastmetal_wall");
+
 <recipetype:minecraft:stonecutting>.remove(<item:blocksyouneed_luna:blastmetal_wall>);
 <recipetype:create:cutting>.remove(<item:blocksyouneed_luna:blastmetal_wall>);
 
 craftingTable.remove(<item:blocksyouneed_luna:blastmetal_stairs>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("blocksyouneed_luna:blastmetal_stairs");
+
 <recipetype:minecraft:stonecutting>.remove(<item:blocksyouneed_luna:blastmetal_stairs>);
 <recipetype:create:cutting>.remove(<item:blocksyouneed_luna:blastmetal_stairs>);
 
 craftingTable.remove(<item:blocksyouneed_luna:blastmetal_slab>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("blocksyouneed_luna:blastmetal_slab");
+
 <recipetype:minecraft:stonecutting>.remove(<item:blocksyouneed_luna:blastmetal_slab>);
 <recipetype:create:cutting>.remove(<item:blocksyouneed_luna:blastmetal_slab>);
 

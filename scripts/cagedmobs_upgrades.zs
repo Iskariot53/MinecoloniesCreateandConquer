@@ -1,19 +1,11 @@
 craftingTable.remove(<item:cagedmobs:speed_i_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:speed_i_upgrade");
 craftingTable.remove(<item:cagedmobs:speed_ii_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:speed_ii_upgrade");
 craftingTable.remove(<item:cagedmobs:speed_iii_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:speed_iii_upgrade");
 craftingTable.remove(<item:cagedmobs:looting_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:looting_upgrade");
 craftingTable.remove(<item:cagedmobs:arrow_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:arrow_upgrade");
 craftingTable.remove(<item:cagedmobs:cooking_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:cooking_upgrade");
 craftingTable.remove(<item:cagedmobs:lightning_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:lightning_upgrade");
 craftingTable.remove(<item:cagedmobs:experience_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:experience_upgrade");
 
 craftingTable.addShaped("cagedmobs.crafting/experience_upgrade", <item:cagedmobs:experience_upgrade>, [[<item:minecraft:experience_bottle>, <tag:items:forge:storage_blocks/coal>, <item:minecraft:experience_bottle>], [<tag:items:forge:dusts/redstone>, <item:create:experience_block>, <item:minecraft:blackstone>], [<item:minecraft:blackstone>, <tag:items:forge:storage_blocks/emerald>, <item:minecraft:blackstone>]]);
 

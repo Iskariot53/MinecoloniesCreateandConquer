@@ -1,32 +1,18 @@
 craftingTable.remove(<item:modularrouters:blank_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:blank_upgrade");
 craftingTable.remove(<item:modularrouters:blank_module>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:blank_module");
 craftingTable.remove(<item:modularrouters:speed_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:speed_upgrade");
 craftingTable.remove(<item:modularrouters:stack_upgrade>);
-#nowarn <recipetype:create:mixing>.removeByName("modularrouters:stack_upgrade");
 craftingTable.remove(<item:modularrouters:sender_module_3>);
-#nowarn <recipetype:create:mixing>.removeByName("modularrouters:sender_module_3");
 
 craftingTable.remove(<item:modularrouters:range_up_augment>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:range_up_augment");
 craftingTable.remove(<item:modularrouters:range_down_augment>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:range_down_augment");
 craftingTable.remove(<item:modularrouters:energy_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:energy_upgrade");
 craftingTable.remove(<item:modularrouters:energy_output_module>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:energy_output_module");
 craftingTable.remove(<item:modularrouters:modular_router>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:modular_router");
 craftingTable.remove(<item:modularrouters:player_module>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:player_module");
 craftingTable.remove(<item:modularrouters:security_upgrade>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("modularrouters:security_upgrade");
 craftingTable.remove(<item:modularrouters:vacuum_module>);
-#nowarn <recipetype:create:mixing>.removeByName("modularrouters:vacuum_module");
 craftingTable.remove(<item:modularrouters:xp_vacuum_augment>);
-#nowarn <recipetype:create:mixing>.removeByName("modularrouters:xp_vacuum_augment");
 
 
 craftingTable.addShaped("modularrouters.blank_upgrade", <item:modularrouters:blank_upgrade> * 4, [[<item:minecraft:paper>, <item:minecraft:paper>, <item:industrialforegoing:plastic>], [<item:minecraft:paper>, <tag:items:forge:gems/lapis>, <item:industrialforegoing:plastic>], [<item:minecraft:air>, <item:minecraft:paper>, <item:industrialforegoing:plastic>]]);

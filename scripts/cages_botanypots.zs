@@ -1,7 +1,5 @@
 craftingTable.remove(<item:cagedmobs:hopping_mob_cage>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:hopping_mob_cage");
 craftingTable.remove(<item:cagedmobs:mob_cage>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("cagedmobs:mob_cage");
 
 craftingTable.addShaped("cagedmobs.crafting/hopping_mob_cage", <item:cagedmobs:hopping_mob_cage>, [[<item:minecraft:iron_bars>, <item:minecraft:chain>, <item:minecraft:iron_bars>], [<tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>, <tag:items:forge:storage_blocks/iron>], [<tag:items:forge:dusts/redstone>, <item:create:smart_chute>, <tag:items:forge:dusts/redstone>]]);
 
@@ -11,287 +9,157 @@ craftingTable.addShaped("cagedmobs.crafting/hopping_mob_cage", <item:cagedmobs:h
 
 
 craftingTable.remove(<item:botanypots:terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:terracotta_hopper_botany_pot");
 
 
 craftingTable.remove(<item:botanypots:white_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:white_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:white_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:white_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:white_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:white_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:orange_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:orange_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:orange_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:orange_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:orange_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:orange_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:magenta_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:magenta_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:magenta_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:magenta_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:magenta_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:magenta_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:light_blue_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_blue_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:light_blue_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_blue_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:light_blue_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_blue_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:yellow_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:yellow_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:yellow_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:yellow_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:yellow_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:yellow_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:lime_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:lime_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:lime_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:lime_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:lime_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:lime_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:pink_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:pink_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:pink_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:pink_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:pink_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:pink_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:gray_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:gray_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:gray_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:gray_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:gray_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:gray_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:light_gray_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_gray_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:light_gray_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_gray_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:light_gray_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_gray_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:cyan_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:cyan_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:cyan_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:cyan_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:cyan_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:cyan_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:purple_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:purple_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:purple_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:purple_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:purple_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:purple_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:blue_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:blue_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:blue_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:blue_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:blue_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:blue_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:brown_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:brown_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:brown_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:brown_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:brown_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:brown_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:green_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:green_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:green_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:green_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:green_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:green_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:red_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:red_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:red_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:red_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:red_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:red_concrete_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:black_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:black_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:black_glazed_terracotta_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:black_glazed_terracotta_botany_pot");
 craftingTable.remove(<item:botanypots:black_concrete_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:black_concrete_botany_pot");
+
 
 
 
 //removing all the hopper botany pots recipes
 
 craftingTable.remove(<item:botanypots:white_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:white_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:white_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:white_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:white_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:white_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:white_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:white_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:white_concrete_hopper_botany_pot");
+
 
 craftingTable.remove(<item:botanypots:orange_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:orange_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:orange_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:orange_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:orange_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:orange_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:orange_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:orange_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:orange_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:magenta_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:magenta_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:magenta_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:magenta_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:magenta_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:magenta_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:magenta_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:magenta_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:magenta_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:light_blue_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_blue_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:light_blue_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_blue_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:light_blue_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_blue_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:light_blue_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:light_blue_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:light_blue_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:yellow_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:yellow_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:yellow_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:yellow_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:yellow_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:yellow_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:yellow_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:yellow_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:yellow_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:lime_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:lime_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:lime_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:lime_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:lime_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:lime_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:lime_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:lime_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:lime_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:pink_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:pink_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:pink_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:pink_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:pink_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:pink_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:pink_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:pink_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:pink_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:gray_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:gray_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:gray_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:gray_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:gray_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:gray_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:gray_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:gray_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:gray_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:light_gray_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_gray_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:light_gray_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_gray_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:light_gray_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:light_gray_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:light_gray_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:light_gray_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:light_gray_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:cyan_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:cyan_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:cyan_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:cyan_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:cyan_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:cyan_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:cyan_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:cyan_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:cyan_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:purple_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:purple_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:purple_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:purple_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:purple_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:purple_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:purple_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:purple_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:purple_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:blue_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:blue_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:blue_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:blue_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:blue_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:blue_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:blue_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:blue_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:blue_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:brown_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:brown_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:brown_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:brown_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:brown_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:brown_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:brown_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:brown_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:brown_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:green_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:green_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:green_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:green_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:green_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:green_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:green_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:green_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:green_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:red_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:red_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:red_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:red_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:red_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:red_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:red_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:red_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:red_concrete_hopper_botany_pot");
 
 craftingTable.remove(<item:botanypots:black_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:black_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:black_glazed_terracotta_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:black_glazed_terracotta_hopper_botany_pot");
 craftingTable.remove(<item:botanypots:black_concrete_hopper_botany_pot>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("botanypots:black_concrete_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:black_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:black_glazed_terracotta_hopper_botany_pot");
-#nowarn <recipetype:create:mixing>.removeByName("botanypots:black_concrete_hopper_botany_pot");
 
 
 

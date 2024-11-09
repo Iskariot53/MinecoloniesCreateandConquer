@@ -1,30 +1,27 @@
 //general ibl
 
 craftingTable.remove(<item:ironfurnaces:augment_generator>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("ironfurnaces:augment_generator");
 
 craftingTable.remove(<item:twilightforest:uncrafting_table>);
 
 craftingTable.remove(<item:botania:lens_storm>);
 
-#nowarn <recipetype:create:deploying>.removeByName("createcasing:creative_casing");
-#nowarn <recipetype:create:item_application>.removeByName("createcasing:creative_casing");
+<recipetype:create:deploying>.remove(<item:createcasing:creative_casing>);
+<recipetype:create:item_application>.remove(<item:createcasing:creative_casing>);
+craftingTable.remove(<item:createcasing:creative_gearbox>);
+craftingTable.remove(<item:createcasing:creative_mixer>);
+craftingTable.remove(<item:createcasing:creative_encased_chain_drive>);
+craftingTable.remove(<item:createcasing:creative_press>);
+craftingTable.remove(<item:createcasing:creative_depot>);
 
-#nowarn <recipetype:ars_nouveau:glyph>.removeByName("adamsarsplus:glyph_effectdomain");
+<recipetype:ars_nouveau:glyph>.removeByName("adamsarsplus:glyph_effectdomain");
 
-craftingTable.remove(<item:tarotcards:tarot_deck>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("tarotcards:tarot_deck");
 
 //end eyes
 
 craftingTable.remove(<item:endrem:witch_eye>);
-#nowarn <recipetype:create:mixing>.removeByName("endrem:witch_eye");
-
 craftingTable.remove(<item:endrem:undead_eye>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("endrem:undead_eye");
-
 craftingTable.remove(<item:endrem:exotic_eye>);
-#nowarn <recipetype:create:mechanical_crafting>.removeByName("endrem:exotic_eye");
 
 //Mek
 

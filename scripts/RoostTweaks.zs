@@ -2307,24 +2307,24 @@
 
 //CHANGING ROOST OUTPUTS TO RAW ORES
 //REMOVING CURRENT RECIPES
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier3/roostv3_copper");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_iron");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_tin");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_lead");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_zinc");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_gold");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_silver");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_signalum");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_lumium");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_constantan");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_enderium");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_osmium");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_bronze");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_steel");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_uranium");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_nickel");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_electrum");
-#nowarn	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_invar");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier3/roostv3_copper");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_iron");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_tin");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_lead");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_zinc");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_gold");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_silver");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_signalum");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_lumium");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_constantan");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier5/roostv5_enderium");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_osmium");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_bronze");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_steel");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_uranium");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_nickel");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_electrum");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_invar");
 
 //ROOST OUTPUTS
 	//COPPER CHICKEN
