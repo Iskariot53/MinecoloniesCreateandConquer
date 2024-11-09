@@ -16,6 +16,7 @@ craftingTable.remove(<item:createcasing:creative_depot>);
 
 <recipetype:ars_nouveau:glyph>.removeByName("adamsarsplus:glyph_effectdomain");
 
+craftingTable.remove(<item:ojs_rpg_origins:whelm>);
 
 //end eyes
 
