@@ -363,6 +363,20 @@
 				"05CC4211C4E2F99E"
 				"13D06CA200A91C28"
 			]
+			description: [
+				"Advanced machine frames are crafted via dissolution chambers supplied with pink slime."
+				""
+				"Advanced machine frames are made with: "
+				""
+				"2x netherite scrap"
+				"2x gold ingots"
+				"2x plastic"
+				"1x simple machine frame"
+				"1x diamond gear"
+				"1x precision mechanism"
+				""
+				"&aJEI&r can provide you with the specific shape in which the recipe needs to be placed into the chamber."
+			]
 			id: "112A9B8C8A737352"
 			subtitle: "Standard Recipe"
 			tasks: [{
@@ -505,7 +519,9 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: ["The fluid placer is the liquid equivalent of the block placer. When provided with a container holding a fluid it will place that fluid source block into the world at the cost of RF."]
 			id: "7F546D55D60D0161"
+			subtitle: "Outputting fluids into the world"
 			tasks: [{
 				id: "3B7531CCDC06AC6D"
 				item: "industrialforegoing:fluid_placer"
@@ -516,7 +532,9 @@
 		}
 		{
 			dependencies: ["7F546D55D60D0161"]
+			description: ["Likewise, the fluid collector is the liquid equivalent of the block breaker. When a fluid source block is placed into its working area it will intake the fluid at the cost of RF."]
 			id: "5AFDE605D99CF8F6"
+			subtitle: "Removing fluids from the world"
 			tasks: [{
 				id: "1CC752455EBC92A0"
 				item: "industrialforegoing:fluid_collector"
@@ -527,7 +545,9 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
+			description: ["Black hole units are storage units very similar to other storage blocks such as 1x1 drawers and bins. They hold 1 item type, that's it, but can hold a very large amount of that single item. They come in multiple tiers, requiring higher tiered frames to make higher tiered units."]
 			id: "77F3E143B9ED9DB7"
+			subtitle: "Bulk storage"
 			tasks: [
 				{
 					id: "2AC0377FEAA4F259"
@@ -559,7 +579,7 @@
 		}
 		{
 			dependencies: ["48A06D2929CADF5E"]
-			description: ["The gatherer will harvest all plants and trees within its working area, producing sludge in the process which must be processed (or can be voided)"]
+			description: ["The gatherer will harvest all plants and trees within its working area, producing sludge in the process which must be processed in a sludge refiner (or can be voided)."]
 			id: "078B565E7AEF5547"
 			subtitle: "Auto-harvesting"
 			tasks: [{
@@ -572,7 +592,13 @@
 		}
 		{
 			dependencies: ["13D06CA200A91C28"]
+			description: [
+				"When provided with RF and the respective fluid needed for growing the crop (water for overworld and lava for nether crops) the hydroponic bed will speed up seed growth."
+				""
+				"When provided with ether it substantially increases crop growth as well as automatically replants seeds too!"
+			]
 			id: "289E6D7CF8519542"
+			subtitle: "Need crops FASTER"
 			tasks: [{
 				id: "347D89055492AC71"
 				item: "industrialforegoing:hydroponic_bed"
@@ -583,7 +609,9 @@
 		}
 		{
 			dependencies: ["13D06CA200A91C28"]
+			description: ["The plant fertilizer, when provided with power and either bonemeal or fertilizer, will automatically bone meal plants in its working area, further increasing crop growth. Bear in mind that it will \"cycle\" through plants in its working area 1 at a time so if you try to grow things that will still accept bonemeal, even when fully grown, it will get stuck. So it's not a good idea to use it for things like sunflowers."]
 			id: "16F8AD9130E91E61"
+			subtitle: "FASTER"
 			tasks: [{
 				id: "7760349F1E6C1C61"
 				item: "industrialforegoing:plant_fertilizer"
@@ -594,7 +622,13 @@
 		}
 		{
 			dependencies: ["13D06CA200A91C28"]
+			description: [
+				"When provided with RF and placed over a pool of water atleast 3x3x1, the marine fisher will begin, wait for it...."
+				""
+				"Fishing. It is capable of catching virtually anything (live or dead) that can be obtained through the use of a fishing rod."
+			]
 			id: "027A1CB1D61A6B7B"
+			subtitle: "Auto-fishing"
 			tasks: [{
 				id: "05F10F1A29B4BC56"
 				item: "industrialforegoing:marine_fisher"
@@ -605,6 +639,7 @@
 		}
 		{
 			dependencies: ["13D06CA200A91C28"]
+			description: ["The mob detector counts the number of mob entities in its working area and emits a redstone signal equal to the number of mobs detected."]
 			id: "20F8479E4D04EE34"
 			tasks: [{
 				id: "52C8C8346CBB1FA3"
@@ -616,7 +651,9 @@
 		}
 		{
 			dependencies: ["13D06CA200A91C28"]
+			description: ["When provided with power the mob crusher will crush all mobs in its working area providing loot and essence (XP)."]
 			id: "399D4BB6EFB71E7B"
+			subtitle: "Player-mob kills"
 			tasks: [{
 				id: "77FF02675C47B583"
 				item: "industrialforegoing:mob_crusher"
@@ -627,7 +664,9 @@
 		}
 		{
 			dependencies: ["13D06CA200A91C28"]
+			description: ["When provided with RF and raw ore meat, the fermentation station is used to ferment raw ore meat into the selected type."]
 			id: "7D02AB190EBF3251"
+			subtitle: "Processing raw ore meat"
 			tasks: [{
 				id: "7B7A1E9641D11582"
 				item: "industrialforegoing:fermentation_station"
@@ -639,6 +678,7 @@
 		{
 			dependencies: ["13D06CA200A91C28"]
 			id: "1FA7D7CA9B0CACF0"
+			subtitle: "Bigger bulk storage options"
 			tasks: [
 				{
 					id: "550F7A255D87BD7A"
@@ -715,7 +755,9 @@
 				"112A9B8C8A737352"
 				"73CD77961FE5B424"
 			]
+			description: ["When fed with liquid meat and ore, the washing factory will produce raw ore meat of the given type."]
 			id: "65A9A761A1D88AEC"
+			subtitle: "Making raw ore meat"
 			tasks: [{
 				id: "1B53435E6DAF775B"
 				item: "industrialforegoing:washing_factory"
@@ -725,8 +767,13 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["05CC4211C4E2F99E"]
+			dependencies: [
+				"05CC4211C4E2F99E"
+				"18637DEC415FBBB9"
+			]
+			description: ["Pink slime ingots are made in a dissolution chamber by combining: 1 bucket of pink slime, 2 iron ingots and 2 gold ingots."]
 			id: "73CD77961FE5B424"
+			subtitle: "A really funky ingot..."
 			tasks: [{
 				id: "626909E1FD2A10EA"
 				item: "industrialforegoing:pink_slime_ingot"
@@ -1049,7 +1096,7 @@
 		{
 			dependencies: ["6DC065159F905D68"]
 			description: [
-				"When surrounded by the mycelial generators AND &eall generators are currently running&r. The Mycelial Reactor will output 25mfe/t."
+				"When surrounded by the mycelial generators AND &eall generators are currently running&r. The Mycelial Reactor will output 25MFE/t."
 				""
 				"To put this in perspective it produces 5mfe/t MORE than a \"base\" level fusion reactor would from mekanism, which are not present. "
 				""
@@ -1057,7 +1104,7 @@
 			]
 			hide_dependency_lines: true
 			id: "4E4B991E67B93047"
-			subtitle: "Produces 25mfe per tick when all others are running"
+			subtitle: "Produces 25MFE/t when all others are running simultaneously."
 			tasks: [{
 				id: "4C4DA8175F3AC37A"
 				item: "industrialforegoing:mycelial_reactor"
