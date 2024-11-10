@@ -1,5 +1,3 @@
-//machine frames and dissolution chamber
-
 craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.machine_frame_pity", <item:industrialforegoing:machine_frame_pity>, [[<tag:items:minecraft:logs>, <tag:items:forge:storage_blocks/brass>, <tag:items:minecraft:logs>], [<tag:items:forge:storage_blocks/brass>, <tag:items:forge:storage_blocks/redstone>, <tag:items:forge:storage_blocks/brass>], [<tag:items:minecraft:logs>, <tag:items:forge:storage_blocks/brass>, <tag:items:minecraft:logs>]]);
@@ -11,10 +9,6 @@ craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
 craftingTable.remove(<item:industrialforegoing:dissolution_chamber>);
 
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.dissolution_chamber", <item:industrialforegoing:dissolution_chamber>, [[<item:industrialforegoing:plastic>, <tag:items:forge:chests>, <item:industrialforegoing:plastic>], [<item:minecraft:bucket>, <item:industrialforegoing:machine_frame_pity>, <item:minecraft:bucket>], [<tag:items:forge:storage_blocks/brass>, <item:industrialforegoing:diamond_gear>, <tag:items:forge:storage_blocks/brass>]]);
-
-
-//mechanical crafting recipe additions
-
 
 craftingTable.remove(<item:industrialforegoing:iron_gear>);
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.iron_gear", <item:industrialforegoing:iron_gear>, [[<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>], [<tag:items:forge:ingots/iron>, <item:create:cogwheel>, <tag:items:forge:ingots/iron>], [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>]]);
@@ -204,9 +198,6 @@ craftingTable.remove(<item:industrialforegoingsouls:soul_laser_base>);
 
 craftingTable.remove(<item:industrialforegoing:meat_feeder>);
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.meat_feeder", <item:industrialforegoing:meat_feeder>, [[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/iron>, <item:industrialforegoing:plastic>], [<item:minecraft:glass_bottle>, <tag:items:forge:ingots/iron>, <item:minecraft:glass_bottle>], [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>]]);
-
-
-//black hole units
 
 craftingTable.remove(<item:industrialforegoing:common_black_hole_unit>);
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.common_black_hole_unit", <item:industrialforegoing:common_black_hole_unit>, [[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>], [<tag:items:forge:chests/wooden>, <item:industrialforegoing:iron_gear>, <tag:items:forge:chests/wooden>], [<tag:items:forge:chests/wooden>, <item:industrialforegoing:machine_frame_pity>, <tag:items:forge:chests/wooden>]]);

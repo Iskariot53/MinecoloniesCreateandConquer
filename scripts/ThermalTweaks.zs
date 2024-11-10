@@ -1,12 +1,8 @@
-//smithing template
-
 craftingTable.remove(<item:thermal_extra:augment_smithing_upgrade>);
 <recipetype:create:mechanical_crafting>.addRecipe("thermal_extra.augment_smithing_upgrade", <item:thermal_extra:augment_smithing_upgrade>,
 [[<item:industrialforegoing:plastic>, <item:thermal:invar_plate>, <item:industrialforegoing:plastic>],
 [<item:thermal:invar_plate>, <item:thermal:rf_coil>, <item:thermal:invar_plate>],
 [<item:industrialforegoing:plastic>, <item:thermal:invar_plate>, <item:industrialforegoing:plastic>]]);
-
-//dynamos
 
 craftingTable.remove(<item:thermal_extra:dynamo_frost>);
 <recipetype:create:mechanical_crafting>.addRecipe("thermal_extra.dynamo_frost", <item:thermal_extra:dynamo_frost>,
@@ -55,8 +51,6 @@ craftingTable.remove(<item:thermal:dynamo_disenchantment>);
 [[<item:industrialforegoing:plastic>, <item:thermal:rf_coil>, <item:industrialforegoing:plastic>],
 [<item:mekanism:ingot_osmium>, <item:thermal:silver_gear>, <item:mekanism:ingot_osmium>],
 [<item:minecraft:experience_bottle>, <item:create:precision_mechanism>, <item:minecraft:experience_bottle>]]);
-
-//augments and components
 
 craftingTable.remove(<item:thermal:redstone_servo>);
 <recipetype:create:mechanical_crafting>.addRecipe("thermal.redstone_servo", <item:thermal:redstone_servo>,
@@ -187,9 +181,6 @@ craftingTable.remove(<item:thermalendergy:resonant_catalyst_augment>);
 [<item:mekanism:ingot_osmium>, <item:thermalendergy:prismalium_plate>, <item:thermalendergy:vibrating_core>, <item:thermalendergy:prismalium_plate>, <item:mekanism:ingot_osmium>],
 [<item:industrialforegoing:plastic>, <item:create:brass_ingot>, <item:thermal:signalum_gear>, <item:create:brass_ingot>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
-
-
-//frames and machines
 
 craftingTable.remove(<item:thermal:machine_frame>);
 <recipetype:create:compacting>.addRecipe("thermal.machine_frame", <constant:create:heat_condition:heated>, [<item:thermal:machine_frame> %100], [<item:create:brass_ingot> * 4, <tag:items:thermal:glass/hardened> *4, <item:thermal:tin_gear>], [<fluid:industrialforegoing:ether_gas> * 250], 200);

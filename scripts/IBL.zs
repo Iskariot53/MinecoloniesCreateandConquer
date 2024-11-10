@@ -18,13 +18,9 @@ craftingTable.remove(<item:createcasing:creative_depot>);
 
 craftingTable.remove(<item:ojs_rpg_origins:whelm>);
 
-//end eyes
-
 craftingTable.remove(<item:endrem:witch_eye>);
 craftingTable.remove(<item:endrem:undead_eye>);
 craftingTable.remove(<item:endrem:exotic_eye>);
-
-//Mek
 
 craftingTable.remove(<item:mekanism:mekasuit_helmet>);
 craftingTable.remove(<item:mekanism:mekasuit_bodyarmor>);
@@ -51,7 +47,6 @@ craftingTable.remove(<item:mekanism:module_hydraulic_propulsion_unit>);
 craftingTable.remove(<item:mekanism:module_magnetic_attraction_unit>);
 craftingTable.remove(<item:mekanism:module_frost_walker_unit>);
 
-//reliquary
 craftingTable.remove(<item:reliquary:magicbane>);
 craftingTable.remove(<item:reliquary:fertile_lily_pad>);
 

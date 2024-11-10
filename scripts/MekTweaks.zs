@@ -1,9 +1,5 @@
-//compacting
-
 craftingTable.remove(<item:mekanism:steel_casing>);
 <recipetype:create:compacting>.addRecipe("mekanism.steel_casing", <constant:create:heat_condition:heated>, [<item:mekanism:steel_casing> %100], [<tag:items:forge:ingots/steel> * 4, <tag:items:forge:glass/silica> *4, <item:mekanism:ingot_osmium>], [<fluid:industrialforegoing:ether_gas> * 250], 200);
-
-//mechanical crafting primary machines 5x5
 
 craftingTable.remove(<item:mekanism:metallurgic_infuser>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.metallurgic_infuser", <item:mekanism:metallurgic_infuser>,
@@ -301,9 +297,6 @@ craftingTable.remove(<item:mekanism:meka_tool>);
 [<item:industrialforegoing:plastic>, <item:mekanism:pellet_polonium>, <item:mekanism:basic_induction_cell>, <item:mekanism:pellet_polonium>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
-
-//mechanical crafting components and lesser machines 3x3
-
 craftingTable.remove(<item:mekanism:electric_pump>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.electric_pump", <item:mekanism:electric_pump>,
 [[<item:industrialforegoing:plastic>, <item:minecraft:bucket>, <item:industrialforegoing:plastic>],
@@ -537,7 +530,6 @@ craftingTable.remove(<item:mekanism:ultimate_thermodynamic_conductor>);
 [[<item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>],
 [<item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:alloy_atomic>, <item:mekanism:elite_thermodynamic_conductor>],
 [<item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>]]);
-
 
 craftingTable.remove(<item:mekanism:restrictive_transporter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.restrictive_transporter", <item:mekanism:restrictive_transporter> *2,
@@ -1318,10 +1310,6 @@ craftingTable.remove(<item:mekanism:ultimate_sawing_factory>);
 [[<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>],
 [<tag:items:forge:gems/diamond>, <item:mekanism:elite_sawing_factory>, <tag:items:forge:gems/diamond>],
 [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>]]);
-
-
-//mekaweapons
-
 
 craftingTable.remove(<item:mekaweapons:module_arrowenergy_unit>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekaweapons.module_arrowenergy_unit", <item:mekaweapons:module_arrowenergy_unit>,

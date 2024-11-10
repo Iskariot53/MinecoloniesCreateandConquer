@@ -8,7 +8,6 @@ import crafttweaker.api.data.ListData;
 import crafttweaker.api.recipe.Brewing;
 import crafttweaker.api.recipe.IRecipeManager;
 
-//REMOVING RECIPES
 	craftingTable.remove(<item:celestisynth:celestial_crafting_table>);
 	craftingTable.remove(<item:celestisynth:starlit_factory>);
 	craftingTable.remove(<item:celestisynth:celestial_core>);
@@ -23,8 +22,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 	brewing.removeRecipeByReagent(<item:celestisynth:lunar_scrap>);
 	brewing.removeRecipeByReagent(<item:minecraft:feather>);
 	
-//ADDING NEW RECIPES
-
 //STARLIT FACTORY
 	//MECHANICAL CRAFTING
 		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.starlit_factory", <item:celestisynth:starlit_factory>, 
@@ -402,7 +399,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 //		});
 
 
-//CELEST ARMOR
 	//SOLAR CRYSTAL HELMET
 		craftingTable.remove(<item:celestisynth:solar_crystal_helmet>);
 		
@@ -432,8 +428,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.solar_crystal_boots", <item:celestisynth:solar_crystal_boots>, 
 		[[<item:celestisynth:solar_crystal>, <item:minecraft:iron_boots>, <item:celestisynth:solar_crystal>], 
 		[<item:celestisynth:solar_crystal>, <item:minecraft:gold_block>, <item:celestisynth:solar_crystal>]]);
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	//LUNAR STONE HELMET
 		craftingTable.remove(<item:celestisynth:lunar_stone_helmet>);

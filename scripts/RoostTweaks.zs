@@ -1,4 +1,3 @@
-// ADD ALL YOUR NEW CHICKENS TO THIS TAG IS IMPORTANT FOR TRAINER, SOUL BREEDER AND SOUL EXTRACTOR.
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_cherry>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_mangrove>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_cactus>);
@@ -24,11 +23,7 @@
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_latex>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_ether>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_wastedradioactive>);
-		
-// THIS TAGS ARE BASED ON YOUR NEW CHICKEN TIER
-// USE TAGS FROM ROOST/TIER1 - ROOST/TIER9 - BASED ON CHICKEN TIER
-
+		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_wastedradioactive>);		
 		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_cherry>);
 		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_mangrove>);
 		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_cactus>);
@@ -57,7 +52,6 @@
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
 		
 
-// RECIPES
 //CHERRY CHICKEN
 		//BREEDER
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cherrychicken1", {
@@ -1765,10 +1759,6 @@
 		});
 		
 		 craftingTable.removeByName("ccextras:wasted_radioactive_egg_recipe_temp");
-		
-		
-		
-//REMOVING USELESS CHICKENS
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_adamantium>);
@@ -1821,8 +1811,6 @@
 
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_manyullyn>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_manyullyn>);
-		
-//ADDING RECIPES TO EXISTING CHICKENS
 
 //GLASS CHICKEN
 	//BREEDER
@@ -2305,8 +2293,6 @@
 		  
 		});
 
-//CHANGING ROOST OUTPUTS TO RAW ORES
-//REMOVING CURRENT RECIPES
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier3/roostv3_copper");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_iron");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_tin");
@@ -2615,7 +2601,5 @@
 		  }
 		});
 		
-		
-//BREEDER RECIPES
 	craftingTable.removeByName("chicken_roost:fafsa");
 	craftingTable.removeByName("chicken_roost:breeder");

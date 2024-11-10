@@ -1,4 +1,3 @@
-//GATEWAYS RECIPE REMOVAL
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/slime"}));
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/enderman"}));
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/blaze"}));
@@ -12,8 +11,6 @@
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "apotheotic_additions:caves_gate"}));
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:overworldian_nights"}));
 	
-	
-//NEW RECIPES
 	//SLIME
 		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.slimegateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/slime"}),
 		[[<item:minecraft:slime_ball>, <item:reliquary:slime_pearl>, <item:minecraft:slime_ball>],
