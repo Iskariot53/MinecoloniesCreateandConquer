@@ -2257,26 +2257,8 @@
 	    //CRAFTING
 		craftingTable.addShaped("crafting.unobtainiumchicken", <item:chicken_roost:c_unobtainium>, 
 		[[<item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>], 
-		[<item:architects_palette:unobtanium>, <item:chicken_roost:chicken_essence_tier_9>, <item:architects_palette:unobtanium>], 
+		[<item:architects_palette:unobtanium>, <item:chicken_roost:c_platinum>, <item:architects_palette:unobtanium>], 
 		[<item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>]]);
-
-	//BREEDER
-		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.unobtaniumchicken", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier8orup"
-			},
-			{
-			  "item": "chicken_roost:c_platinum"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_unobtainium"
-			}
-		  
-		});
 		
 		//ROOST
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.unobtainiumchicken", {
