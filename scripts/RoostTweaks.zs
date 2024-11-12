@@ -24,6 +24,8 @@
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_ether>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_wastedradioactive>);		
+		
+		
 		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_cherry>);
 		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_mangrove>);
 		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_cactus>);
@@ -2258,6 +2260,24 @@
 		[<item:architects_palette:unobtanium>, <item:chicken_roost:chicken_essence_tier_9>, <item:architects_palette:unobtanium>], 
 		[<item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>]]);
 
+	//BREEDER
+		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.unobtaniumchicken", {
+		  "type": "chicken_roost:basic_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier8orup"
+			},
+			{
+			  "item": "chicken_roost:c_platinum"
+			}
+		  ],
+		  "output": 
+			{
+			  "item": "chicken_roost:c_unobtainium"
+			}
+		  
+		});
+		
 		//ROOST
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.unobtainiumchicken", {
 		  "type": "chicken_roost:roost_output",
