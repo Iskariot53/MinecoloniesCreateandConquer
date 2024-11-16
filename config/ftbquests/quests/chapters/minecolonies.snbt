@@ -1,5 +1,5 @@
 {
-	autofocus_id: "558087A37AF0671A"
+	autofocus_id: "6664CC4166B8FD3C"
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
 	filename: "minecolonies"
@@ -3118,27 +3118,6 @@
 			title: "&6&lMineColonies for ComputerCraft!"
 			x: 5.0d
 			y: 9.0d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			hide_details_until_startable: true
-			hide_text_until_complete: true
-			hide_until_deps_visible: true
-			id: "558087A37AF0671A"
-			invisible: true
-			optional: true
-			size: 0.5d
-			subtitle: "why are you in editing mode you lil cheater "
-			tasks: [{
-				count: 999L
-				id: "226FBC382BA6549C"
-				item: "minecraft:barrier"
-				type: "item"
-			}]
-			title: "AUTOFOCUS"
-			x: -3.0d
-			y: 3.0d
 		}
 		{
 			description: [

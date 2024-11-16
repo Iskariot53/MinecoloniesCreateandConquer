@@ -1,5 +1,5 @@
 {
-	autofocus_id: "18172AB4AD383F31"
+	autofocus_id: "06DE55B8F9F4A557"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "wip"
@@ -759,6 +759,15 @@
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "quark:diamond_heart"
+			}
 			id: "2F8179EA21A649A9"
 			rewards: [{
 				count: 2
@@ -774,6 +783,7 @@
 				}
 				type: "item"
 			}]
+			size: 1.5d
 			subtitle: "Well Done!"
 			tasks: [{
 				id: "52B65E1A13E7B277"

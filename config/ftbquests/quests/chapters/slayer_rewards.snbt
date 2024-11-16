@@ -5,7 +5,6 @@
 	default_repeatable_quest: true
 	filename: "slayer_rewards"
 	group: "349A9F115A2C6332"
-	hide_quest_details_until_startable: true
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: {
@@ -25,11 +24,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			description: ["Slay 10 Zombies"]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -66,10 +63,7 @@
 			y: -15.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			description: ["Slay 10 skeleton"]
 			icon: {
 				Count: 1
@@ -107,10 +101,7 @@
 			y: -15.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			description: ["Slay 10 Spiders"]
 			icon: {
 				Count: 1
@@ -151,9 +142,9 @@
 			can_repeat: true
 			dependencies: [
 				"1C7E1BFA0EC5DD37"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -199,9 +190,9 @@
 			can_repeat: true
 			dependencies: [
 				"0EC17DD7C7D55A21"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -246,9 +237,9 @@
 			can_repeat: true
 			dependencies: [
 				"07511B7AA1EB54DD"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -290,10 +281,7 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -333,9 +321,9 @@
 			can_repeat: true
 			dependencies: [
 				"4A873D78E9659609"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -377,10 +365,7 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			description: ["Slay 10 Pillagers"]
 			icon: {
 				Count: 1
@@ -469,10 +454,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"2510612F0F71FE0A"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -563,10 +548,7 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -604,10 +586,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"7598B18337E19F15"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -649,10 +631,7 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -700,10 +679,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"68D40D425DED7CCC"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -754,10 +733,7 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -797,9 +773,9 @@
 			can_repeat: true
 			dependencies: [
 				"7CAD02BF85D397C3"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -841,10 +817,7 @@
 			y: -14.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -883,10 +856,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"4374957728C891E9"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -928,10 +901,21 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "3A37A3F61707B75F"
 			rewards: [
 				{
@@ -957,10 +941,21 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "18ADE296D7E3ED62"
 			rewards: [
 				{
@@ -986,10 +981,21 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "5F22C3C63C9489DF"
 			rewards: [
 				{
@@ -1015,10 +1021,21 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "0C251D401C905352"
 			rewards: [
 				{
@@ -1044,10 +1061,21 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "109231EE16FEB4B7"
 			rewards: [
 				{
@@ -1073,10 +1101,21 @@
 			y: -16.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "08E693958C6BD51C"
 			rewards: [
 				{
@@ -1102,10 +1141,21 @@
 			y: -15.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "3B6138DA30033E7E"
 			rewards: [
 				{
@@ -1132,7 +1182,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -1169,10 +1222,21 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "37C70F25AC2183F3"
 			rewards: [
 				{
@@ -1199,7 +1263,10 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -1237,10 +1304,21 @@
 			y: -13.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "3E9C08009319CD87"
 			rewards: [
 				{
@@ -1266,10 +1344,21 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "12B9A67636545376"
 			rewards: [
 				{
@@ -1295,10 +1384,21 @@
 			y: -14.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "60A646203FDD701B"
 			rewards: [
 				{
@@ -1324,10 +1424,21 @@
 			y: -13.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "4EA6A5C3BE2E6566"
 			rewards: [
 				{
@@ -1356,9 +1467,9 @@
 			can_repeat: true
 			dependencies: [
 				"6BB1012D741D4BC9"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1405,9 +1516,9 @@
 			can_repeat: true
 			dependencies: [
 				"79E744AFFEA23F2B"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1454,9 +1565,9 @@
 			can_repeat: true
 			dependencies: [
 				"4742842B42430587"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1502,10 +1613,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"3EF98C7D3CB5559D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1600,10 +1711,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"74670BA4FEC49997"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1650,9 +1761,9 @@
 			can_repeat: true
 			dependencies: [
 				"28D5DA266924F268"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1698,10 +1809,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"07B14D21690C8C66"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1756,10 +1867,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"7D503D0E390C5C07"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1805,10 +1916,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"141CDC79456D445D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1855,9 +1966,9 @@
 			can_repeat: true
 			dependencies: [
 				"7256850771D7EF85"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1917,9 +2028,9 @@
 			can_repeat: true
 			dependencies: [
 				"2301940294F6567C"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1979,9 +2090,9 @@
 			can_repeat: true
 			dependencies: [
 				"7DC6C9D087132317"
-				"4386DFA29FCEDD4D"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2040,10 +2151,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"08C7F32669387005"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2102,10 +2213,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"51FD233D38007030"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2213,10 +2324,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"6A78A940F9CF814F"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2275,10 +2386,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"0682BF74872E9F05"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2346,10 +2457,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"6DD69C0C1529E25A"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2408,10 +2519,10 @@
 		{
 			can_repeat: true
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"50FC161949CF6A8F"
+				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "all_started"
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2469,10 +2580,7 @@
 		}
 		{
 			can_repeat: false
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			description: ["Endermen have started to inhabit the overworld, even developing adaptations to specific biome conditions. Hunt some of every variant you can find and thin out the numbers a little bit... do a good enough job and eye think you may get some help reaching their home dimension."]
 			icon: {
 				Count: 1
@@ -2490,7 +2598,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			size: 2.0d
+			size: 3.0d
 			subtitle: "What's with the enders?"
 			tasks: [{
 				id: "52F33343EFB25469"
@@ -2498,13 +2606,24 @@
 				type: "checkmark"
 			}]
 			title: "Ender Eradication"
-			x: -12.78571428571427d
-			y: -12.67857142857143d
+			x: -13.357142857142854d
+			y: -12.57142857142857d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "3DEC224E6DAE8C32"
 			rewards: [
 				{
@@ -2530,9 +2649,20 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["7F141BAED60DBD76"]
+			dependencies: [
+				"7F141BAED60DBD76"
+				"3B38BC10347BDA7D"
+			]
 			hide_dependency_lines: true
-			icon: "minecraft:ender_eye"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
 			id: "62E54AA5C7EC9208"
 			rewards: [
 				{
@@ -2564,6 +2694,7 @@
 				"37C70F25AC2183F3"
 				"60A646203FDD701B"
 				"08E693958C6BD51C"
+				"3B38BC10347BDA7D"
 			]
 			description: ["Tracked down the: Dark Oak, Flower Fields, Windswept Hills and Savannah Enderman variants and slayed 10 of each."]
 			hide_dependency_lines: true
@@ -2609,6 +2740,7 @@
 				"59C7AB21F0B82E8C"
 				"3E9C08009319CD87"
 				"12B9A67636545376"
+				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
 			description: ["Tracked down the: Nether Wastes, Soul Sand Valley, Warped Forest and Crimson Forest Enderman variants and slayed 10 of each."]
@@ -2659,6 +2791,7 @@
 				"730EC1EBC58557AC"
 				"3B6138DA30033E7E"
 				"62E54AA5C7EC9208"
+				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
 			description: ["Tracked down the: Swamp, Coral, Snowy and Ice Spikes Enderman variants and slayed 10 of each."]
@@ -2708,6 +2841,7 @@
 				"109231EE16FEB4B7"
 				"4EA6A5C3BE2E6566"
 				"18ADE296D7E3ED62"
+				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
 			description: ["Tracked down the: Mushroom Fields, Badlands, Desert and Cave Enderman variants and slayed 10 of each."]
@@ -2748,10 +2882,7 @@
 			y: -13.178571428571423d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			description: [
 				"&cThe Nightmare Stalker&r is a mini-boss you will randomly encounter while playing. After &e3 in-game days&r, you will begin to see warnings to the effect of \"&6you are being stalked&r\" and The Nightmare Stalker will begin to spawn."
 				""
@@ -2855,7 +2986,11 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["23193C4466AAF035"]
+			dependencies: [
+				"23193C4466AAF035"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2920,7 +3055,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["270E7686D900E076"]
+			dependencies: [
+				"270E7686D900E076"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "683445EC2D09AF10"
 			rewards: [
 				{
@@ -3003,7 +3142,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["683445EC2D09AF10"]
+			dependencies: [
+				"683445EC2D09AF10"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "14C492C4A7D7CA80"
 			rewards: [
 				{
@@ -3060,10 +3203,7 @@
 			y: -3.3928571428571317d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "2C42397D50E87104"
 			rewards: [
 				{
@@ -3107,10 +3247,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "4B39B7DFDD288440"
 			rewards: [
 				{
@@ -3157,10 +3294,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "0AC4B1CC0A44CEE8"
 			rewards: [
 				{
@@ -3203,10 +3337,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3259,10 +3390,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "1F75248F8ABCBE8D"
 			rewards: [
 				{
@@ -3306,10 +3434,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3361,10 +3486,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "2EBF2097C5869E6E"
 			rewards: [
 				{
@@ -3398,10 +3520,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3454,10 +3573,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3510,7 +3626,11 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["14C492C4A7D7CA80"]
+			dependencies: [
+				"14C492C4A7D7CA80"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -3576,10 +3696,7 @@
 			y: -0.8214285714285623d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "434326D1A0F3AE8D"
 			rewards: [
 				{
@@ -3641,10 +3758,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "7D6A99E680B3EF1D"
 			rewards: [
 				{
@@ -3706,10 +3820,7 @@
 			y: -5.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "0F1EF7B6A7B0CE03"
 			rewards: [
 				{
@@ -3771,7 +3882,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["434326D1A0F3AE8D"]
+			dependencies: [
+				"434326D1A0F3AE8D"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "4DE5ADF73C780301"
 			rewards: [
 				{
@@ -3821,7 +3936,11 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["4DE5ADF73C780301"]
+			dependencies: [
+				"4DE5ADF73C780301"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "3E725771D86638F1"
 			rewards: [
 				{
@@ -3872,7 +3991,11 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7D6A99E680B3EF1D"]
+			dependencies: [
+				"7D6A99E680B3EF1D"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "1645896B7381C961"
 			rewards: [
 				{
@@ -3922,7 +4045,11 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["1645896B7381C961"]
+			dependencies: [
+				"1645896B7381C961"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "0BDA1AE460792C87"
 			rewards: [
 				{
@@ -3972,7 +4099,11 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["0F1EF7B6A7B0CE03"]
+			dependencies: [
+				"0F1EF7B6A7B0CE03"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "2D36E3E2E1FC0B8F"
 			rewards: [
 				{
@@ -4022,7 +4153,11 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["2D36E3E2E1FC0B8F"]
+			dependencies: [
+				"2D36E3E2E1FC0B8F"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "19B74259947BC780"
 			rewards: [
 				{
@@ -4072,7 +4207,11 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["4D6E5F52202F5B6D"]
+			dependencies: [
+				"4D6E5F52202F5B6D"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "5C3934171619F1EA"
 			rewards: [
 				{
@@ -4116,7 +4255,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["5C3934171619F1EA"]
+			dependencies: [
+				"5C3934171619F1EA"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "49752062B4FE478E"
 			rewards: [
 				{
@@ -4161,7 +4304,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["49752062B4FE478E"]
+			dependencies: [
+				"49752062B4FE478E"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "6D7BB1313C5C3A6C"
 			rewards: [
 				{
@@ -4219,7 +4366,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["2EBF2097C5869E6E"]
+			dependencies: [
+				"2EBF2097C5869E6E"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "25BFDE5248D073D5"
 			rewards: [
 				{
@@ -4254,7 +4405,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["25BFDE5248D073D5"]
+			dependencies: [
+				"25BFDE5248D073D5"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "66D5E35A44C4CA41"
 			rewards: [
 				{
@@ -4290,7 +4445,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["66D5E35A44C4CA41"]
+			dependencies: [
+				"66D5E35A44C4CA41"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "165710BD4515D76E"
 			rewards: [
 				{
@@ -4339,7 +4498,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["0AC4B1CC0A44CEE8"]
+			dependencies: [
+				"0AC4B1CC0A44CEE8"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "4A742AB34A4A6269"
 			rewards: [
 				{
@@ -4383,7 +4546,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["4A742AB34A4A6269"]
+			dependencies: [
+				"4A742AB34A4A6269"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "3111A3FF4349341B"
 			rewards: [
 				{
@@ -4428,7 +4595,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["3111A3FF4349341B"]
+			dependencies: [
+				"3111A3FF4349341B"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "11ED3E09539CA9DA"
 			rewards: [
 				{
@@ -4486,7 +4657,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["2C42397D50E87104"]
+			dependencies: [
+				"2C42397D50E87104"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "66CE28BAB7F853BC"
 			rewards: [
 				{
@@ -4543,7 +4718,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["66CE28BAB7F853BC"]
+			dependencies: [
+				"66CE28BAB7F853BC"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "31B9D7369633A629"
 			rewards: [
 				{
@@ -4602,7 +4781,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["31B9D7369633A629"]
+			dependencies: [
+				"31B9D7369633A629"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "34D997AF9BBB3B1A"
 			rewards: [
 				{
@@ -4674,7 +4857,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["4B39B7DFDD288440"]
+			dependencies: [
+				"4B39B7DFDD288440"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "2E2DA5C83BAE5AB6"
 			rewards: [
 				{
@@ -4734,7 +4921,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["2E2DA5C83BAE5AB6"]
+			dependencies: [
+				"2E2DA5C83BAE5AB6"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "35BA9699FC90BCB4"
 			rewards: [
 				{
@@ -4796,7 +4987,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["35BA9699FC90BCB4"]
+			dependencies: [
+				"35BA9699FC90BCB4"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "4FB4143DA3A76E51"
 			rewards: [
 				{
@@ -4871,7 +5066,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["1F75248F8ABCBE8D"]
+			dependencies: [
+				"1F75248F8ABCBE8D"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "35DB43971F03F4B4"
 			rewards: [
 				{
@@ -4928,7 +5127,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["35DB43971F03F4B4"]
+			dependencies: [
+				"35DB43971F03F4B4"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "57A0D12893B8698D"
 			rewards: [
 				{
@@ -4987,7 +5190,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["57A0D12893B8698D"]
+			dependencies: [
+				"57A0D12893B8698D"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "58FE28071B378C34"
 			rewards: [
 				{
@@ -5059,7 +5266,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["3AEDAD6C21C81D12"]
+			dependencies: [
+				"3AEDAD6C21C81D12"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5125,7 +5336,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["53A1A77A05301296"]
+			dependencies: [
+				"53A1A77A05301296"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5193,7 +5408,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["2ADAADB43D2652CC"]
+			dependencies: [
+				"2ADAADB43D2652CC"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5274,7 +5493,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["094E5BA2EC046D84"]
+			dependencies: [
+				"094E5BA2EC046D84"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5340,7 +5563,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["3CB261D882683C37"]
+			dependencies: [
+				"3CB261D882683C37"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5408,7 +5635,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["332C6147CF03B339"]
+			dependencies: [
+				"332C6147CF03B339"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5489,7 +5720,11 @@
 			y: -3.75d
 		}
 		{
-			dependencies: ["44947D27C265DE11"]
+			dependencies: [
+				"44947D27C265DE11"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5555,7 +5790,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["37CA36ACA032ADDA"]
+			dependencies: [
+				"37CA36ACA032ADDA"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5623,7 +5862,11 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["14A18670ADD58160"]
+			dependencies: [
+				"14A18670ADD58160"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -5704,10 +5947,7 @@
 			y: -3.75d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "1B84D538D00747D2"
 			rewards: [
 				{
@@ -5764,10 +6004,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "6E228A1F474BBD86"
 			rewards: [
 				{
@@ -5811,10 +6048,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "4D8993B7F0235F73"
 			rewards: [
 				{
@@ -5858,10 +6092,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "6EFABE82954D5320"
 			rewards: [
 				{
@@ -5905,10 +6136,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "7E40816168CCCE46"
 			rewards: [
 				{
@@ -5951,10 +6179,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "2E94B3CD97483F9A"
 			rewards: [
 				{
@@ -5997,10 +6222,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "1D40436520E0535A"
 			rewards: [
 				{
@@ -6057,10 +6279,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "53A57C7228E05A59"
 			rewards: [
 				{
@@ -6106,10 +6325,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3B38BC10347BDA7D"
-			]
+			dependencies: ["3B38BC10347BDA7D"]
 			id: "58BDE0311F55FC4B"
 			rewards: [
 				{
@@ -6166,7 +6382,11 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6E228A1F474BBD86"]
+			dependencies: [
+				"6E228A1F474BBD86"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "15F5EFC353550D0F"
 			rewards: [
 				{
@@ -6223,7 +6443,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["15F5EFC353550D0F"]
+			dependencies: [
+				"15F5EFC353550D0F"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "5E96D5112D501540"
 			rewards: [
 				{
@@ -6282,7 +6506,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["5E96D5112D501540"]
+			dependencies: [
+				"5E96D5112D501540"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "1BB5BE986E2C307A"
 			rewards: [
 				{
@@ -6354,7 +6582,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4D8993B7F0235F73"]
+			dependencies: [
+				"4D8993B7F0235F73"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "65E4E0FDE193B613"
 			rewards: [
 				{
@@ -6411,7 +6643,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["65E4E0FDE193B613"]
+			dependencies: [
+				"65E4E0FDE193B613"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "740E89C4D54333A3"
 			rewards: [
 				{
@@ -6470,7 +6706,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["740E89C4D54333A3"]
+			dependencies: [
+				"740E89C4D54333A3"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "01A42B8CD9B07411"
 			rewards: [
 				{
@@ -6542,7 +6782,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6EFABE82954D5320"]
+			dependencies: [
+				"6EFABE82954D5320"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "25DB6595C717195F"
 			rewards: [
 				{
@@ -6599,7 +6843,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["25DB6595C717195F"]
+			dependencies: [
+				"25DB6595C717195F"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "60C86EEB5B2347F7"
 			rewards: [
 				{
@@ -6658,7 +6906,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["60C86EEB5B2347F7"]
+			dependencies: [
+				"60C86EEB5B2347F7"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "117D4D58E5FEA5CF"
 			rewards: [
 				{
@@ -6730,7 +6982,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7E40816168CCCE46"]
+			dependencies: [
+				"7E40816168CCCE46"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "3A37E234F6ACAE77"
 			rewards: [
 				{
@@ -6774,7 +7030,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3A37E234F6ACAE77"]
+			dependencies: [
+				"3A37E234F6ACAE77"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "327A86D3166CBBE1"
 			rewards: [
 				{
@@ -6819,7 +7079,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["327A86D3166CBBE1"]
+			dependencies: [
+				"327A86D3166CBBE1"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "261074C1F2904FF3"
 			rewards: [
 				{
@@ -6877,7 +7141,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["2E94B3CD97483F9A"]
+			dependencies: [
+				"2E94B3CD97483F9A"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "0AA90A379EEF1531"
 			rewards: [
 				{
@@ -6921,7 +7189,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0AA90A379EEF1531"]
+			dependencies: [
+				"0AA90A379EEF1531"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "59C7E85F8DE68623"
 			rewards: [
 				{
@@ -6966,7 +7238,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["59C7E85F8DE68623"]
+			dependencies: [
+				"59C7E85F8DE68623"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "35D35F76446C2B9D"
 			rewards: [
 				{
@@ -7024,7 +7300,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["53A57C7228E05A59"]
+			dependencies: [
+				"53A57C7228E05A59"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "636346E1DB31CBD2"
 			rewards: [
 				{
@@ -7071,7 +7351,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["636346E1DB31CBD2"]
+			dependencies: [
+				"636346E1DB31CBD2"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "6E7E61E781D03163"
 			rewards: [
 				{
@@ -7119,7 +7403,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["6E7E61E781D03163"]
+			dependencies: [
+				"6E7E61E781D03163"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "2028304431DF86EE"
 			rewards: [
 				{
@@ -7180,7 +7468,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1B84D538D00747D2"]
+			dependencies: [
+				"1B84D538D00747D2"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "0A5BC464C97C98EC"
 			rewards: [
 				{
@@ -7224,7 +7516,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0A5BC464C97C98EC"]
+			dependencies: [
+				"0A5BC464C97C98EC"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "0709E7A927B3104F"
 			rewards: [
 				{
@@ -7283,7 +7579,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0709E7A927B3104F"]
+			dependencies: [
+				"0709E7A927B3104F"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "7CCC31105BD811F4"
 			rewards: [
 				{
@@ -7341,7 +7641,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1D40436520E0535A"]
+			dependencies: [
+				"1D40436520E0535A"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "50199C5794F10716"
 			rewards: [
 				{
@@ -7385,7 +7689,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["50199C5794F10716"]
+			dependencies: [
+				"50199C5794F10716"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "2C5492480F6E00EB"
 			rewards: [
 				{
@@ -7444,7 +7752,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2C5492480F6E00EB"]
+			dependencies: [
+				"2C5492480F6E00EB"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "1B013284506D5648"
 			rewards: [
 				{
@@ -7502,7 +7814,11 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["12395919BC443F49"]
+			dependencies: [
+				"12395919BC443F49"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -7581,7 +7897,11 @@
 			y: 2.3571428571428683d
 		}
 		{
-			dependencies: ["58BDE0311F55FC4B"]
+			dependencies: [
+				"58BDE0311F55FC4B"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "7E4647D31FAB5C7F"
 			rewards: [
 				{
@@ -7625,7 +7945,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7E4647D31FAB5C7F"]
+			dependencies: [
+				"7E4647D31FAB5C7F"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "459B1D856445DD73"
 			rewards: [
 				{
@@ -7684,7 +8008,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["459B1D856445DD73"]
+			dependencies: [
+				"459B1D856445DD73"
+				"3B38BC10347BDA7D"
+			]
+			dependency_requirement: "one_completed"
 			id: "308924857D973B82"
 			rewards: [
 				{
@@ -7742,7 +8070,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["3B38BC10347BDA7D"]
 			description: [
 				"If not, you should be! "
 				""
@@ -7777,6 +8105,7 @@
 			y: 2.392857142857146d
 		}
 		{
+			dependencies: ["3B38BC10347BDA7D"]
 			description: [
 				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
 				""
@@ -7786,15 +8115,7 @@
 			hide_details_until_startable: false
 			hide_text_until_complete: false
 			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "architects_palette:hazard_sign"
-			}
+			icon: "architects_palette:hazard_sign"
 			icon_scale: 2.0d
 			id: "176736E35123A54E"
 			invisible: true

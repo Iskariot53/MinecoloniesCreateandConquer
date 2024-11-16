@@ -1,5 +1,5 @@
 {
-	autofocus_id: "3A1153158D4476EA"
+	autofocus_id: "0CDBF9C116B9F573"
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "the_twilight_forest"
@@ -84,7 +84,7 @@
 				""
 				"The &e&lNaga&r&r is a serpent that lurks in the courtyard, appearing as a massive green snake-like creature with a human-like face and subtly colored scales."
 			]
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
 			id: "5F702BEE6C1C9852"
 			rewards: [
 				{
@@ -1790,7 +1790,7 @@
 				""
 				"&e&lTorchberries&r&r are an item found by harvesting Torchberry Plants or slaying Skeleton Druids. "
 			]
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
 			id: "06B12750EF857686"
 			rewards: [
 				{
@@ -3335,7 +3335,7 @@
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
 			id: "76B211025E5ACC90"
 			rewards: [
 				{
@@ -3496,27 +3496,6 @@
 			}]
 			x: 5.0d
 			y: -8.0d
-		}
-		{
-			description: [""]
-			disable_toast: true
-			hide_details_until_startable: true
-			hide_text_until_complete: true
-			hide_until_deps_visible: true
-			id: "3A1153158D4476EA"
-			invisible: true
-			optional: true
-			size: 0.5d
-			subtitle: "why are you in editing mode you lil cheater "
-			tasks: [{
-				count: 999L
-				id: "0C578D5C9E2E7192"
-				item: "minecraft:barrier"
-				type: "item"
-			}]
-			title: "AUTOFOCUS"
-			x: -4.0d
-			y: -4.75d
 		}
 		{
 			description: [

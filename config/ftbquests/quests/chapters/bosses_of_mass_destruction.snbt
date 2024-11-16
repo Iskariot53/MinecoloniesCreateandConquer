@@ -43,6 +43,7 @@
 				""
 				"the &l&bNight Lich&r&r, &l&cNether Gauntlet&r&r, &l&dObsidilith&r&r, and &l&aVoid Blossom&r&r."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -964,6 +965,7 @@
 		{
 			dependencies: ["635B2979C6A9CBDB"]
 			description: ["Are you disappointed that the boss structure you just found has already been raided? Don’t worry! The &c&lBrimstone Nectar&r&r allows you to &ereset&r nearby boss structures when used, so you can defeat the bosses in the same location repeatedly!"]
+			hide_until_deps_complete: true
 			id: "324CBE05EE84729A"
 			rewards: [{
 				id: "7065BD72C6389299"
@@ -1046,7 +1048,6 @@
 			invisible: true
 			optional: true
 			size: 0.5d
-			subtitle: "why are you in editing mode you lil cheater "
 			tasks: [{
 				count: 999L
 				id: "15748D186458043A"
@@ -1055,7 +1056,7 @@
 			}]
 			title: "AUTOFOCUS"
 			x: 0.0d
-			y: 6.0d
+			y: 7.0d
 		}
 	]
 	title: "&eBosses of Mass Destruction"

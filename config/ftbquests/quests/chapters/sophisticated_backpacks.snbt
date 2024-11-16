@@ -2011,7 +2011,6 @@
 			invisible: true
 			optional: true
 			size: 0.5d
-			subtitle: "why are you in editing mode you lil cheater "
 			tasks: [{
 				count: 999L
 				id: "2BF079905F882EB5"
@@ -2019,8 +2018,8 @@
 				type: "item"
 			}]
 			title: "AUTOFOCUS"
-			x: -3.25d
-			y: 3.25d
+			x: 0.0d
+			y: 4.25d
 		}
 		{
 			dependencies: [
