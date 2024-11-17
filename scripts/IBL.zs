@@ -52,4 +52,6 @@ craftingTable.remove(<item:reliquary:fertile_lily_pad>);
 
 craftingTable.remove(<item:bhc:blade_of_vitality>);
 
+<recipetype:productivebees:bee_breeding>.removeByName("productivebees:bee_breeding/raw_materials/osmium_bee");
+
 //template:craftingTable.remove(<item:>);
