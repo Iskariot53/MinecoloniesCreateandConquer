@@ -1766,53 +1766,39 @@
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_adamantium>);
-		<recipetype:chicken_roost:basic_breedingnew>.remove(<item:chicken_roost:c_adamantium>);
-		
+		<recipetype:chicken_roost:basic_breedingnew>.remove(<item:chicken_roost:c_adamantium>);		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_tungstensteel>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_tungstensteel>);
-		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_tungstensteel>);
-		
+		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_tungstensteel>);		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_tungsten>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_tungsten>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_tungsten>);
 		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_tungsten>);
-		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_titanium>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_titanium>);
-		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_titanum>);
-		
+		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_titanum>);		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_iridium>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_iridium>);
-		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_iridium>);
-		
+		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_iridium>);		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_chrome>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_chrome>);
-		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_chrome>);
-		
-		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_vibranium>);
-		
+		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_chrome>);		
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_vibranium>);		
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_allthemodium>);
-
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_blutonium>);
-		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_blutonium>);
-		
-		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_slimesteel>);
-		
-		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_amethystbronze>);
-		
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_blutonium>);		
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_slimesteel>);		
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_amethystbronze>);		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_quartzenrichediron>);
-		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_quartzenrichediron>);
-		
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_quartzenrichediron>);		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_hepatizon>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_hepatizon>);
-
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_knightslime>);
-
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_cobald>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_cobald>);
-
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_manyullyn>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_manyullyn>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_osmium>);
 
 //GLASS CHICKEN
 	//BREEDER
@@ -2292,6 +2278,29 @@
 			{
 			  "item": "chicken_roost:c_paper"
 			}
+		  
+		});
+		//OSMIUM CHICKEN
+		//MECHANICAL CRAFTING
+			<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.osmium_chicken", <item:chicken_roost:c_osmium>, 
+			[[<item:chicken_roost:c_brass>, <item:mekanism:block_osmium>, <item:chicken_roost:c_brass>], 
+			[<item:mekanism:block_osmium>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:block_osmium>], 
+			[<item:chicken_roost:c_brass>, <item:mekanism:block_osmium>, <item:chicken_roost:c_brass>]]);
+			
+		//SOUL BREEDER
+			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.osmium_chicken", {
+		  "type": "chicken_roost:soul_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:souls/tier6andup"
+			},
+			{
+			  "item": "chicken_roost:c_osmium"
+			}
+		  ],
+		  "output": {
+			"item": "chicken_roost:c_osmium"
+		  }
 		  
 		});
 
