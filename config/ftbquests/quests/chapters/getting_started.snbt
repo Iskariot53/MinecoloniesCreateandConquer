@@ -255,7 +255,7 @@
 		}
 		{
 			dependencies: ["7FA3787123BC491F"]
-			description: ["Multiple mods in the pack provide a means to protect and secure your belongings. Here’s a mega torch for now, but it won’t help much on its own or for very long..."]
+			description: ["Multiple mods in the pack provide a means to protect and secure your belongings such as: SecurityCraft, Scorched Guns 2 and Create Big Cannons. FTB claims manager can also be used to help, to an extent. Here’s a mega torch for now, but it won’t help much on its own or for very long..."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -280,7 +280,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Submit 3 torches to recieve a mega torch"
+			subtitle: "Click the icon and submit 3 torches to recieve a mega torch!"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -288,7 +288,7 @@
 				item: { Count: 3, id: "minecraft:torch" }
 				type: "item"
 			}]
-			title: "FTB Teams Claims Manager and SecurityCraft"
+			title: "Protecting Yourself"
 			x: -2.5d
 			y: -6.0d
 		}
@@ -367,15 +367,26 @@
 					xp: 10
 				}
 				{
-					exclude_from_claim_all: true
-					id: "7FC67EC0016926BD"
-					table_id: 2996026712461665857L
-					title: "&6&lChoose Your Starter Hut:"
-					type: "choice"
+					id: "3F830EDBCCD86C0E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "capsule:capsule"
+						tag: {
+							color: 8096694
+							size: 5
+							state: 0
+						}
+					}
+					type: "item"
 				}
 				{
 					count: 2
-					id: "314A08CF6F1AA213"
+					id: "3D1E6F48271BD53B"
 					item: {
 						Count: 1
 						ForgeCaps: {
@@ -390,10 +401,19 @@
 			]
 			subtitle: "A home in your hand!"
 			tasks: [{
-				id: "0560C65098E2C974"
-				title: "Capsules!"
-				type: "checkmark"
+				id: "0DC232F1F688E4C3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "capsule:capsulemarker"
+				}
+				type: "item"
 			}]
+			title: "Capsules!"
 			x: -1.5d
 			y: -11.0d
 		}
