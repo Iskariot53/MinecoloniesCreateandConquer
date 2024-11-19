@@ -20,13 +20,13 @@
 	#Should workers work during the rain? [Default: false]
 	workersalwaysworkinrain = false
 	#Should special holiday content be displayed? [Default: true]
-	holidayfeatures = true
+	holidayfeatures = false
 	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	luckyblockchance = 1
 	#The minimum level a Town Hall has to be to allow teleportation to allied colonies. [Default: 3, min: 0, max: 5]
 	#Range: 0 ~ 5
-	minthleveltoteleport = 3
+	minthleveltoteleport = 5
 	#Food consumption modifier. [Default: 1.000000, min: 0.100000, max: 100.000000]
 	#Range: 0.1 ~ 100.0
 	foodmodifier = 1.0
@@ -37,7 +37,7 @@
 	forceloadcolony = true
 	#Set how long chunks stay loaded after player leaves, does not persist through restarts. Default: 10min [Default: 10, min: 1, max: 1440]
 	#Range: 1 ~ 1440
-	loadtime = 10
+	loadtime = 1
 	#This controls how many chunks are loaded with the "Chunk Load Colony" option. The higher this value, the fewer chunks will be loaded. (The innermost chunks will be loaded first.) 1 = load all claimed chunks. [Default: 3, min: 1, max: 15]
 	#Range: 1 ~ 15
 	colonyloadstrictness = 3
@@ -75,7 +75,7 @@
 	#Should players be allowed to use the /mc colony addOfficer command? [Default: true]
 	canplayeruseaddofficercommand = true
 	#Should players be allowed to use the /mc colony delete command? [Default: false]
-	canplayerusedeletecolonycommand = false
+	canplayerusedeletecolonycommand = true
 	#Should players be allowed to use the /mc colony requestsystem-reset command? [Default: false]
 	canplayeruseresetcommand = false
 
@@ -83,13 +83,13 @@
 [claims]
 	#Maximum claim range for a colony. This is the radius, measured in chunks. [Default: 20, min: 1, max: 250]
 	#Range: 1 ~ 250
-	maxColonySize = 20
+	maxColonySize = 40
 	#The minimum distance (in chunks) between colonies. [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
 	minColonyDistance = 8
 	#Initial claim size for a colony. This is the radius, measured in chunks. [Default: 4, min: 1, max: 15]
 	#Range: 1 ~ 15
-	initialColonySize = 4
+	initialColonySize = 8
 	#Max distance (in blocks) from world spawn for a colony. [Default: 30000, min: 1000, max: 2147483647]
 	#Range: > 1000
 	maxdistancefromworldspawn = 30000

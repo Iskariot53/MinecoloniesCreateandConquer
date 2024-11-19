@@ -1,5 +1,6 @@
 craftingTable.remove(<item:mekanism:steel_casing>);
 <recipetype:create:compacting>.addRecipe("mekanism.steel_casing", <constant:create:heat_condition:heated>, [<item:mekanism:steel_casing> %100], [<tag:items:forge:ingots/steel> * 4, <tag:items:forge:glass/silica> *4, <item:mekanism:ingot_osmium>], [<fluid:industrialforegoing:ether_gas> * 250], 200);
+<recipetype:mekanism:combining>.addRecipe("combining/steel_casing", (<item:mekanism:ingot_osmium> * 8), <item:industrialforegoing:machine_frame_advanced>, <item:mekanism:steel_casing>);
 
 craftingTable.remove(<item:mekanism:metallurgic_infuser>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.metallurgic_infuser", <item:mekanism:metallurgic_infuser>,
