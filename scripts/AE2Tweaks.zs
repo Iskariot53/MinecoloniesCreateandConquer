@@ -1,0 +1,2 @@
+//Adding inscriber recipe
+<recipetype:create:mechanical_crafting>.addRecipe("ae2.inscriber", <item:ae2:inscriber>, [[<tag:items:forge:ingots/steel>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/steel>], [<item:mekanism:alloy_atomic>, <item:minecraft:air>, <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/steel>]]);
