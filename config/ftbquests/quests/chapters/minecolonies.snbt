@@ -220,10 +220,17 @@
 					type: "item"
 				}
 				{
-					advancement: "minecolonies:minecolonies/place_townhall"
-					criterion: ""
-					id: "712104687FD8CCDD"
-					type: "advancement"
+					id: "01E2AB42D83E4D03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecolonies:blockhuttownhall"
+					}
+					type: "item"
 				}
 			]
 			title: "&6&lThe heartbeat of every community"
