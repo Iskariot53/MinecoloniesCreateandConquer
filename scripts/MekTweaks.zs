@@ -853,7 +853,7 @@ craftingTable.remove(<item:mekanism:ultimate_tier_installer>);
 craftingTable.remove(<item:mekanism:electrolytic_core>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.electrolytic_core", <item:mekanism:electrolytic_core>,
 [[<item:mekanism:alloy_infused>, <item:mekanism:dust_osmium>, <item:mekanism:alloy_infused>],
-[<item:mekanism:dust_iron>, <item:mekanism:alloy_infused>, <item:mekanism:dust_gold>],
+[<tag:items:forge:dusts/iron>, <item:mekanism:alloy_infused>, <tag:items:forge:dusts/gold>],
 [<item:mekanism:alloy_infused>, <item:mekanism:dust_osmium>, <item:mekanism:alloy_infused>]]);
 
 craftingTable.remove(<item:mekanism:teleportation_core>);
@@ -877,31 +877,31 @@ craftingTable.remove(<item:mekanism:upgrade_speed>);
 craftingTable.remove(<item:mekanism:upgrade_energy>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_energy", <item:mekanism:upgrade_energy>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
-[<item:mekanism:alloy_infused>, <item:mekanism:dust_gold>, <item:mekanism:alloy_infused>],
+[<item:mekanism:alloy_infused>, <tag:items:forge:dusts/gold>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_filter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_filter", <item:mekanism:upgrade_filter>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
-[<item:mekanism:alloy_infused>, <item:mekanism:dust_tin>, <item:mekanism:alloy_infused>],
+[<item:mekanism:alloy_infused>, <tag:items:forge:dusts/tin>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_muffling>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_muffling", <item:mekanism:upgrade_muffling>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
-[<item:mekanism:alloy_infused>, <item:mekanism:dust_steel>, <item:mekanism:alloy_infused>],
+[<item:mekanism:alloy_infused>, <tag:items:forge:dusts/steel>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_gas>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_gas", <item:mekanism:upgrade_gas>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
-[<item:mekanism:alloy_infused>, <item:mekanism:dust_iron>, <item:mekanism:alloy_infused>],
+[<item:mekanism:alloy_infused>, <tag:items:forge:dusts/iron>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_anchor>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_anchor", <item:mekanism:upgrade_anchor>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
-[<item:mekanism:alloy_infused>, <item:mekanism:dust_diamond>, <item:mekanism:alloy_infused>],
+[<item:mekanism:alloy_infused>, <tag:items:forge:dusts/diamond>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_stone_generator>);
