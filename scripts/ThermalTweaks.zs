@@ -35,10 +35,6 @@ craftingTable.remove(<item:thermal:dynamo_magmatic>);
 [<item:thermal:invar_ingot>, <item:create:precision_mechanism>, <item:thermal:invar_ingot>]]);
 
 craftingTable.remove(<item:thermal:dynamo_numismatic>);
-<recipetype:create:mechanical_crafting>.addRecipe("thermal.dynamo_numismatic", <item:thermal:dynamo_numismatic>,
-[[<item:industrialforegoing:plastic>, <item:thermal:rf_coil>, <item:industrialforegoing:plastic>],
-[<item:mekanism:ingot_osmium>, <item:thermal:tin_gear>, <item:mekanism:ingot_osmium>],
-[<item:thermal:constantan_ingot>, <item:create:precision_mechanism>, <item:thermal:constantan_ingot>]]);
 
 craftingTable.remove(<item:thermal:dynamo_lapidary>);
 <recipetype:create:mechanical_crafting>.addRecipe("thermal.dynamo_lapidary", <item:thermal:dynamo_lapidary>,
