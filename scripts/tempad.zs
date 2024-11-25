@@ -101,7 +101,7 @@ craftingTable.remove(<item:tempad:tempad>);
           "item": "ccextras:unfinished_component"
         },
         {
-            "item": "minecraft:echo_shard"
+            "item": "enlightened_end:irradium_block"
         }
       ],
       "results": [
