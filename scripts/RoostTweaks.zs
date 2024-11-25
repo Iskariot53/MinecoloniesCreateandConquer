@@ -51,8 +51,7 @@
 		<tag:items:forge:roost/tier4>.addId(<resource:chicken_roost:c_latex>);
 		<tag:items:forge:roost/tier5>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tier7>.addId(<resource:chicken_roost:c_ether>);
-		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
-		
+		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);		
 
 //CHERRY CHICKEN
 		//BREEDER
@@ -1402,7 +1401,6 @@
 		});
 		
 //SAP CHICKEN
-		//CREATE FILLING
 			<recipetype:create:filling>.addJsonRecipe("filling.sapchicken", {
 		  "type": "create:filling",
 		  "ingredients": [
@@ -1461,8 +1459,7 @@
 		 craftingTable.removeByName("ccextras:sap_egg_recipe_temp");
 		
 		
-//LATEX CHICKEN
-		//IF DISSOLUTION CHAMBER
+//LATEX CHICKEN		
 		 <recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("if.latexchicken", {
 		  "type": "industrialforegoing:dissolution_chamber",
 		  "input": [
@@ -1540,7 +1537,6 @@
 
 
 //HEMOPHILIAC CHICKEN
-		//BLOODMAGIC ALTAR
 		 <recipetype:bloodmagic:altar>.addJsonRecipe("bm.hemophiliacchicken", {
 		  "type": "bloodmagic:altar",
 		  "altarSyphon": 5000,
@@ -1761,12 +1757,9 @@
 		});
 		
 		 craftingTable.removeByName("ccextras:wasted_radioactive_egg_recipe_temp");
-		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_adamantium>);
-		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_adamantium>);
-		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_adamantium>);
-		<recipetype:chicken_roost:basic_breedingnew>.remove(<item:chicken_roost:c_adamantium>);		
+		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_adamantium>);		
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_tungstensteel>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_tungstensteel>);
 		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_tungstensteel>);		
@@ -1799,6 +1792,9 @@
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_manyullyn>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_manyullyn>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_osmium>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_unobtainium>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_unobtainium>);
+		
 
 //GLASS CHICKEN
 	//BREEDER
@@ -1972,58 +1968,6 @@
 		  ],
 		  "output": {
 			"item": "minecraft:nether_brick"
-		  }
-		});
-
-//NAUTILUS SHELL CHICKEN
-	//BREEDER
-		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.nautilusshellchicken", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_prismarineshard"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_nautilusshell"
-			}
-		  
-		});
-
-		//SOUL BREEDER
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.nautilusshellchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier1andup"
-			},
-			{
-			  "item": "chicken_roost:c_nautilusshell"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_nautilusshell"
-		  }
-		  
-		});
-		
-		//ROOST
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.nautilusshellchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_nautilusshell"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:nautilus_shell"
 		  }
 		});
 
@@ -2236,29 +2180,6 @@
 		  ],
 		  "output": {
 			"item": "ae2:charged_certus_quartz_crystal"
-		  }
-		});
-
-//UNOBTAINIUM CHICKEN
-	    //CRAFTING
-		craftingTable.addShaped("crafting.unobtainiumchicken", <item:chicken_roost:c_unobtainium>, 
-		[[<item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>], 
-		[<item:architects_palette:unobtanium>, <item:chicken_roost:c_platinum>, <item:architects_palette:unobtanium>], 
-		[<item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>, <item:architects_palette:unobtanium>]]);
-		
-		//ROOST
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.unobtainiumchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier9orup"
-			},
-			{
-			  "item": "chicken_roost:c_unobtainium"
-			}
-		  ],
-		  "output": {
-			"item": "architects_palette:unobtanium"
 		  }
 		});
 
