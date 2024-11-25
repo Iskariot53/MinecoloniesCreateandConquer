@@ -224,10 +224,10 @@ craftingTable.remove(<item:create_sabers:brass_saber_white>);
     "item": "create:zinc_block"
   }
 });
-<recipetype:create:sequenced_assembly>.addJsonRecipe("create_sabers.brass_saber_white", {
+<recipetype:create:sequenced_assembly>.addJsonRecipe("create_sabers.zinc2brass_saber_white", {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "create:brass_block"
+    "tag": "forge:zincsabers"
   },
   "loops": 1,
   "results": [
@@ -242,15 +242,15 @@ craftingTable.remove(<item:create_sabers:brass_saber_white>);
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         },
         {
-            "item": "create:cogwheel"
+            "item": "thermalendergy:stellarium_ingot"
         }
       ],
       "results": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ]
     },
@@ -258,15 +258,15 @@ craftingTable.remove(<item:create_sabers:brass_saber_white>);
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:brass_block"
+         "item": "ccextras:unfinished_component"
         },
         {
-            "item": "create:electron_tube"
+            "item": "createteleporters:quantum_mechanism"
         }
       ],
       "results": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ]
     },
@@ -274,15 +274,15 @@ craftingTable.remove(<item:create_sabers:brass_saber_white>);
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         },
         {
-            "item": "create:polished_rose_quartz"
+            "item": "enlightened_end:irradium_block"
         }
       ],
       "results": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ]
     },
@@ -290,15 +290,15 @@ craftingTable.remove(<item:create_sabers:brass_saber_white>);
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "create:brass_block"
+		  "item": "ccextras:unfinished_component"
         },
         {
-            "item": "create:polished_rose_quartz"
+            "item": "enlightened_end:irradium_block"
         }
       ],
       "results": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ]
     },
@@ -306,31 +306,141 @@ craftingTable.remove(<item:create_sabers:brass_saber_white>);
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ],
       "results": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ]
     },
     {
       "type": "create_new_age:energising",
-      "energy_needed": 12000,
+      "energy_needed": 120000,
 	  "ingredients": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ],
       "results": [
         {
-          "item": "create:brass_block"
+          "item": "ccextras:unfinished_component"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "create:brass_block"
+    "item": "ccextras:unfinished_component"
   }
-});  
+}); 
+ <recipetype:create:sequenced_assembly>.addJsonRecipe("create_sabers.copper2brass_saber_white", {
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "forge:coppersabers"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "create_sabers:brass_saber_white",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "thermalendergy:stellarium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+         "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "createteleporters:quantum_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "enlightened_end:irradium_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+		  "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "enlightened_end:irradium_block"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create_new_age:energising",
+      "energy_needed": 120000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+});
