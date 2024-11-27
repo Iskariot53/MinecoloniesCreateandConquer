@@ -5,7 +5,7 @@
 	#Meka-tana Settings
 	[weapons.mekatana]
 		#Base damage of the Meka-Tana, multiply it with Attack Amplification Units.
-		baseDamage = 50
+		baseDamage = 27
 		#Attack speed of the Meka-Tana.
 		#Range: -4.0 ~ 100.0
 		attackSpeed = -2.4
@@ -24,7 +24,7 @@
 	#Meka-Bow Settings
 	[weapons.mekabow]
 		#Attention: The final damage of Meka-Bow is based on how fast the arrow is going when hits, multiply it with Attack Amplification Units.
-		baseDamage = 50
+		baseDamage = 29
 		#Cost in Joules of using the Meka-Bow.
 		energyUsage = "625000"
 		#Cost in Joules of using the Meka-Bow with flame mode active.

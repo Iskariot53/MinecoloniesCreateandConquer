@@ -641,6 +641,7 @@
 			dependencies: ["13D06CA200A91C28"]
 			description: ["The mob detector counts the number of mob entities in its working area and emits a redstone signal equal to the number of mobs detected."]
 			id: "20F8479E4D04EE34"
+			subtitle: "Mob Sensors"
 			tasks: [{
 				id: "52C8C8346CBB1FA3"
 				item: "industrialforegoing:mob_detector"
@@ -813,7 +814,9 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: ["The Enchantment Factory is used to automatically enchant items when provided with Essence and power. Each operation applies a level 30 enchantment to the first item in the input slots, consuming 3,000 mB of Essence and 4,000 RF from the work energy buffer. "]
 			id: "1AACAE1C998B1BC7"
+			subtitle: "Automatic Enchanting"
 			tasks: [{
 				id: "149F3A2DC8371084"
 				item: "industrialforegoing:enchantment_factory"
@@ -824,7 +827,9 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: ["The Enchantment Extractor will remove the first enchantment from the item and output the item with the same damage value and any remaining enchantments along with a book containing the removed enchantment. This process does not clear the NBT of items, even when the last enchantment is removed. Most notably the repair cost will remain, which will increase the XP neeeded to repair or enchant the item on an anvil as if the removed enchantment were still present."]
 			id: "3FA3206857ACD468"
+			subtitle: "Harvesting Enchantments"
 			tasks: [{
 				id: "6753EFC37F3F306B"
 				item: "industrialforegoing:enchantment_extractor"
@@ -835,7 +840,9 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: ["The Enchantment Applicator requires an enchanted book and a tool or armor to receive the enchantment. Applying the enchantment consumes 100 mb of Essence from the internal tank for each level of experience that would be required using an Anvil. The Enchantment Applicator only accepts items that can be enchanted on an Enchantment Table"]
 			id: "40BD61CC9716E495"
+			subtitle: "Automatic Anvil"
 			tasks: [{
 				id: "7481504A227C0B05"
 				item: "industrialforegoing:enchantment_applicator"
@@ -846,7 +853,9 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: ["The Enchantment Sorter will accept input of any item, including non-enchantable items, and filter the enchanted items into the top row of output slots while non-enchanted items are pushed to the bottom output slots. Each set of output slots can be assigned a different face of the machine for extraction via pipes or hoppers."]
 			id: "10EB55AA16BF6C7A"
+			subtitle: "Sorting Enchanted Items"
 			tasks: [{
 				id: "47C1660E95A6D5E8"
 				item: "industrialforegoing:enchantment_sorter"
@@ -874,7 +883,9 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: ["The Mob Duplicator is used to spawn mobs based on the type of mob trapped in a Mob Imprisonment Tool and placed inside. It has a default spawning range of centered on the machine, which can be expanded with Range Addons. The Mob Duplicator will require Essence to spawn a mob (e.g., 120 mB of Essence for Cows and Pigs). The machine will not spawn mobs if there are 32 entities or no valid, unoccupied surfaces in the working area. Mobs spawned are only of the same type and are not exact copies."]
 			id: "2399827CAECFF568"
+			subtitle: "Industrial Mob Farming"
 			tasks: [{
 				id: "220F0D1C9BDC8B75"
 				item: "industrialforegoing:mob_duplicator"
@@ -885,6 +896,7 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
+			description: ["The Mob Crusher is used to kill mobs as if a player, producing Essence and mob drops. The default working range is 1x3x1 in front of the machine and can be expanded with Range Addons. The Mob Crusher deals 300 damage per operation, killing all Vanilla mobs, other than the Wither, in a single hit. The machine will collect any items or experience dropped by mobs into its internal inventory. 20 mb of Essence is produced per experience point of orbs collected. The Mob Crusher does not need to be powered to collect experience orbs, making it useful to turn Bottle o' Enchanting into essence. Adding the Adult Filter to the machine will prevent baby animals from being killed. "]
 			id: "6255F5FE7CFAC415"
 			tasks: [{
 				id: "3C3A08FAA5E6028C"

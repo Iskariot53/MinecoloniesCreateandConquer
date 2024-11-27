@@ -18,10 +18,6 @@ craftingTable.remove(<item:createcasing:creative_depot>);
 
 craftingTable.remove(<item:ojs_rpg_origins:whelm>);
 
-craftingTable.remove(<item:endrem:witch_eye>);
-craftingTable.remove(<item:endrem:undead_eye>);
-craftingTable.remove(<item:endrem:exotic_eye>);
-
 craftingTable.remove(<item:mekanism:mekasuit_helmet>);
 craftingTable.remove(<item:mekanism:mekasuit_bodyarmor>);
 craftingTable.remove(<item:mekanism:mekasuit_pants>);

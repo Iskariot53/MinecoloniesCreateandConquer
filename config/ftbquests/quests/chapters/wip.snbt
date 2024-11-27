@@ -793,6 +793,49 @@
 			x: -5.25d
 			y: 19.42857142857143d
 		}
+		{
+			dependencies: ["29307362D6F4A8AD"]
+			id: "4573CA9273C845EF"
+			tasks: [{
+				id: "4E8A523BCC824F05"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:dynamo_numismatic"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["188944FE101F78E4"]
+			id: "7D2A147003467889"
+			tasks: [{
+				id: "4EC43D1F66CC8373"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:brasssabers"
+					}
+				}
+				title: "Any #forge:brasssabers"
+				type: "item"
+			}]
+			title: "Brass Saber"
+			x: -7.0d
+			y: 2.0d
+		}
 	]
 	title: "&eThe Road Less Traveled"
 }
