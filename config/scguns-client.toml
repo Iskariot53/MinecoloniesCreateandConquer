@@ -52,6 +52,8 @@ buttonAlignment = "RIGHT"
 		bobbingIntensity = 1.0
 		#If enabled, enables cinematic camera effects on guns 
 		cinematicGunEffects = true
+		#If enabled, enables light sources when firing guns
+		fireLights = true
 
 	#Properties relating to particles
 	[client.particle]

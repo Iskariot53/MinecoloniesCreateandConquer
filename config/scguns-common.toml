@@ -50,6 +50,8 @@
 			fragileBlockBreakChance = 0.5
 			#If true, allows guns enchanted with Fire Starter to light and spread fires on blocks
 			setFireToBlocks = true
+			#If true, allows guns/lasers to break blocks
+			enableBlockBreaking = true
 
 		[common.gameplay.gameplay]
 			#Set to false to disable the spawning of casing items when firing guns.
