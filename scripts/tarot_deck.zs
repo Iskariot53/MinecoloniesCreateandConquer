@@ -1,13 +1,4 @@
-import crafttweaker.api.recipe.CraftingTableRecipeManager;
-import crafttweaker.api.data.MapData;
-import crafttweaker.api.data.IData;
-import stdlib.List;
-import crafttweaker.api.item.IItemStack;
-import crafttweaker.api.ingredient.IIngredient;
-import crafttweaker.api.data.ListData;
-
 craftingTable.remove(<item:tarotcards:tarot_deck>);
-
 <recipetype:ars_nouveau:imbuement>.addJsonRecipe("tarotcards.tarot_deck", {
   "type": "ars_nouveau:imbuement",
   "count": 1,

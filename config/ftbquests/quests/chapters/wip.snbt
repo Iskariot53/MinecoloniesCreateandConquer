@@ -263,8 +263,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.6785714285714235d
-			y: 11.464285714285715d
+			x: 3.2142857142857153d
+			y: 10.142857142857139d
 		}
 		{
 			dependencies: [
@@ -475,7 +475,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
@@ -499,7 +499,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 7.0d
 		}
 		{
@@ -520,7 +520,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 10.0d
 		}
 		{
@@ -541,7 +541,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 9.5d
 		}
 		{
@@ -563,7 +563,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
@@ -584,7 +584,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["188944FE101F78E4"]
@@ -744,54 +744,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.357142857142854d
-			y: 10.25d
-		}
-		{
-			dependencies: [
-				"1B157D0B0082F798"
-				"31C6BBF1300F6C40"
-			]
-			description: [
-				"If you're reading this, you're either a cheater or a very dedicated player. Through all the challenges... Some mundane , some obscure and some down right troublesome.. you persevered and obtained the most powerful weapons and items available to you. Way to go!"
-				""
-				"Now take a moment to buy yourself something nice."
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "quark:diamond_heart"
-			}
-			id: "2F8179EA21A649A9"
-			rewards: [{
-				count: 2
-				id: "5EEE26DF4A30EDBB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "numismatics:crown"
-				}
-				type: "item"
-			}]
-			size: 1.5d
-			subtitle: "Well Done!"
-			tasks: [{
-				id: "52B65E1A13E7B277"
-				title: "If you actually made it here..."
-				type: "checkmark"
-			}]
-			x: -5.25d
-			y: 19.42857142857143d
+			x: 2.0714285714285694d
+			y: 9.035714285714285d
 		}
 		{
 			dependencies: ["29307362D6F4A8AD"]
@@ -809,8 +763,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.5d
+			x: -13.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["188944FE101F78E4"]

@@ -6,7 +6,7 @@ import crafttweaker.api.item.IItemStack;
 			<attribute:minecraft:generic.attack_damage>, 
 			"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
 			"Set Power", 
-			7.0,   
+			26.0,   
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
 			
@@ -15,7 +15,7 @@ import crafttweaker.api.item.IItemStack;
 			<attribute:minecraft:generic.attack_damage>, 
 			"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
 			"Set Power", 
-			8.0,   
+			30.0,   
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
 			
@@ -24,7 +24,7 @@ import crafttweaker.api.item.IItemStack;
 			<attribute:minecraft:generic.attack_damage>, 
 			"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
 			"Set Power", 
-			5.0,   
+			28.0,   
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
 			
@@ -33,7 +33,7 @@ import crafttweaker.api.item.IItemStack;
 			<attribute:minecraft:generic.attack_damage>, 
 			"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
 			"Set Power", 
-			10.0,  
+			26.0,  
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
 			
@@ -42,7 +42,7 @@ import crafttweaker.api.item.IItemStack;
 			<attribute:minecraft:generic.attack_damage>, 
 			"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
 			"Set Power", 
-			2.0,   
+			12.0,   
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
 			
@@ -51,7 +51,7 @@ import crafttweaker.api.item.IItemStack;
 			<attribute:minecraft:generic.attack_damage>, 
 			"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
 			"Set Power", 
-			9.0,   
+			20.0,   
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
 			
