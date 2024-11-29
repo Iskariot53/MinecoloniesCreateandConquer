@@ -238,8 +238,28 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 		  "supporting_material_top": {
 			"item": "ironfurnaces:rainbow_plating"
 		  }
-		});					
-		
-		
-		
-		
+		});
+craftingTable.remove(<item:scguns:scorched_blueprint>);		
+<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("scguns.scorched_blueprint", {
+		  "type": "celestisynth:starlit_factory",
+		  "core_material": {
+			"item": "scguns:end_blueprint"
+		  },
+		  "extra_core_material": {
+			"item": "scguns:scorched_ingot"
+		  },
+		  "forging_time": 3600,
+		  "result": "scguns:scorched_blueprint",
+		  "supporting_core_material": {
+			"item": "scguns:deep_dark_blueprint"
+		  },
+		  "supporting_material_bottom": {
+			"item": "scguns:piglin_blueprint"
+		  },
+		  "supporting_material_middle": {
+			"item": "mekanism:pellet_antimatter"
+		  },
+		  "supporting_material_top": {
+			"item": "scguns:ocean_blueprint"
+		  }
+		});		

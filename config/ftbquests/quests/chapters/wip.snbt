@@ -218,8 +218,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: -4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -242,8 +242,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
@@ -263,8 +263,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.2142857142857153d
-			y: 10.142857142857139d
+			x: 3.0d
+			y: 9.964285714285715d
 		}
 		{
 			dependencies: [
@@ -744,11 +744,14 @@
 				}
 				type: "item"
 			}]
-			x: 2.0714285714285694d
-			y: 9.035714285714285d
+			x: 1.75d
+			y: 8.75d
 		}
 		{
-			dependencies: ["29307362D6F4A8AD"]
+			dependencies: [
+				"29307362D6F4A8AD"
+				"5B64AE900E9F6684"
+			]
 			id: "4573CA9273C845EF"
 			tasks: [{
 				id: "4E8A523BCC824F05"
@@ -763,8 +766,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 8.5d
+			x: -10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["188944FE101F78E4"]
@@ -787,8 +790,70 @@
 				type: "item"
 			}]
 			title: "Brass Saber"
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"06DE55B8F9F4A557"
+				"1DC8C706C321F8A5"
+				"5B64AE900E9F6684"
+			]
+			id: "263B5143F87AEA5F"
+			size: 1.5d
+			tasks: [{
+				id: "6AEA84C190B2D635"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:draconium_ingot"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.75d
+		}
+		{
+			dependencies: ["206BBE6C92511589"]
+			id: "3B611A664A6D8EFF"
+			tasks: [{
+				id: "02E7B33EF55EF598"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_frame"
+				}
+				type: "item"
+			}]
 			x: -7.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3B611A664A6D8EFF"]
+			id: "5B64AE900E9F6684"
+			tasks: [{
+				id: "50EBD6A3E1286C14"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:machine_smelter"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
 		}
 	]
 	title: "&eThe Road Less Traveled"
