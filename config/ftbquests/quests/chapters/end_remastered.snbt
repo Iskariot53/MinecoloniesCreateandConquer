@@ -533,38 +533,6 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["66724C7726B85288"]
-			description: ["            Kill the Ender Dragon."]
-			hide_dependency_lines: true
-			hide_details_until_startable: true
-			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "minecraft:dragon_head"
-			}
-			id: "1E46EC2070FF8F32"
-			rewards: [{
-				id: "004F5CFA6499D61D"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
-			subtitle: "Nuff said"
-			tasks: [{
-				entity: "minecraft:ender_dragon"
-				id: "5E18B505A5CB0A29"
-				title: "Slay the Dragon"
-				type: "kill"
-				value: 1L
-			}]
-			x: 0.0d
-			y: 5.0d
-		}
-		{
 			description: [
 				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
 				""
