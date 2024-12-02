@@ -1,6 +1,7 @@
 {
+	autofocus_id: "5F9076D1056A4053"
 	default_hide_dependency_lines: false
-	default_quest_shape: ""
+	default_quest_shape: "octagon"
 	filename: "world_exploration_quests"
 	group: "343FE59C9ED4AF54"
 	icon: {
@@ -13,48 +14,1203 @@
 		id: "artifacts:rooted_boots"
 	}
 	id: "0FA199A01E1957C1"
+	images: [
+		{
+			height: 3.0d
+			image: "supplementaries:textures/map_marker/ruined_portal.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "twilightforest:block/portal_barrier"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.8d
+			x: 13.005102040816318d
+			y: 4.341836734693878d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.8d
+			x: 13.005102040816318d
+			y: 3.66836734693878d
+		}
+	]
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
-			""
-			"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
-		]
-		disable_toast: true
-		hide_details_until_startable: false
-		hide_text_until_complete: false
-		hide_until_deps_visible: true
-		icon: {
-			Count: 1
-			ForgeCaps: {
-				"celestisynth:celestisynthitemstackcapabilities": {
-					cs.aquaSkin: 0
+	quests: [
+		{
+			description: [
+				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				""
+				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+			]
+			disable_toast: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "architects_palette:hazard_sign"
+			}
+			icon_scale: 2.0d
+			id: "5EFF8F2CA747D6BF"
+			invisible: true
+			optional: true
+			tasks: [
+				{
+					id: "159E7CF9AE84EED6"
+					type: "checkmark"
+				}
+				{
+					id: "3E6D821FE92A6600"
+					type: "checkmark"
+				}
+				{
+					id: "38C85D07D0A9F6C7"
+					type: "checkmark"
+				}
+			]
+			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			x: 30.0d
+			y: 30.0d
+		}
+		{
+			id: "5F9076D1056A4053"
+			size: 1.5d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "capsule:capsule"
+					tag: {
+						canRotate: 0b
+						color: 13421772
+						display: {
+							color: 12408663
+						}
+						label: "Starter 3"
+						size: 7
+						state: 2
+						structureName: "c-cuetsu-config_capsule_starters_starter_3-2"
+						upgraded: 0
+					}
+				}
+				id: "01CDC38D22E7DABD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "capsule:capsule"
+								tag: {
+									canRotate: 0b
+									color: 5544791
+									display: {
+										color: 12408663
+									}
+									label: "Starter 1"
+									size: 7
+									state: 2
+									structureName: "c-cuetsu-config_capsule_starters_starter_1-0"
+									upgraded: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "capsule:capsule"
+								tag: {
+									canRotate: 0b
+									color: 16777215
+									display: {
+										color: 9819623
+									}
+									label: "Starter 2"
+									size: 7
+									state: 2
+									structureName: "c-cuetsu-config_capsule_starters_starter_2-1"
+									upgraded: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "capsule:capsule"
+								tag: {
+									canRotate: 0b
+									color: 13421772
+									display: {
+										color: 12408663
+									}
+									label: "Starter 3"
+									size: 7
+									state: 2
+									structureName: "c-cuetsu-config_capsule_starters_starter_3-2"
+									upgraded: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Starter Hut"
+				type: "item"
+			}]
+			title: "Place down your starter hut"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F9076D1056A4053"]
+			id: "57B577946F686311"
+			tasks: [
+				{
+					id: "0E64E853D5B65FE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01B9421A96AE16FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AE4176C8ACD04B5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41B095ECAC1749B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:wooden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Wooden Tools"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F9076D1056A4053"]
+			id: "176584A2D866EA9E"
+			tasks: [
+				{
+					id: "4BB8D11D713CD1BE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77859F214E257479"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "387BE706EE9217A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43035C2413082625"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Leather Armor"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57B577946F686311"]
+			id: "199F66770B165AAF"
+			tasks: [
+				{
+					id: "2EE59CAF21A1F346"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CC32027C86B6932"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14B3D18FD8BE2AAC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Stone Tools"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"199F66770B165AAF"
+				"383AA31C127A19E3"
+			]
+			id: "55F6D39B18CE35DF"
+			tasks: [{
+				count: 16L
+				id: "571FE1291F14B7B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			title: "Iron Ingots"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F6D39B18CE35DF"]
+			id: "2878269C269174B3"
+			tasks: [
+				{
+					id: "5247D1BD3CBC04DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5ADD83A850B93375"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "462D2EBD3F11654F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F6D39B18CE35DF"]
+			id: "50DA579150018EFD"
+			tasks: [
+				{
+					id: "0BB6092E45EEC83E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "053F3025371B7A01"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "272521559EF76080"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "409D72A4D5ADBB91"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "29588B7CD833910C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Armor"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F6D39B18CE35DF"]
+			id: "5BBE97CFD87ABEE9"
+			tasks: [
+				{
+					id: "148D7078AF3EA004"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "7A06DB101F78EBF0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:lava_bucket"
+					}
+					type: "item"
+				}
+			]
+			title: "Water and Lava"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2878269C269174B3"]
+			id: "7862C2708A5A89CE"
+			tasks: [{
+				count: 3L
+				id: "785CC9F8DDBD9078"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			title: "Diamonds"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7862C2708A5A89CE"]
+			id: "28157880BD12D98C"
+			tasks: [
+				{
+					id: "32C2C23715ED3157"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A145940D41EA0D3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28FA76ACD1835CE3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Tools"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7862C2708A5A89CE"]
+			id: "58B5185D7DE3D7C5"
+			tasks: [
+				{
+					id: "2582EE696E3056FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27DC970EEA645EB5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1841F8ABE104941E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30F1C68181050DCA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Armor"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28157880BD12D98C"]
+			id: "16F908DC82227125"
+			tasks: [
+				{
+					count: 12L
+					id: "6CD4A27DF8542F56"
+					item: {
+						Count: 12
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "25B7CCEC4D6B9733"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Build a Nether Portal"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16F908DC82227125"]
+			icon_scale: 1.5d
+			id: "55D68E5A8B42E94F"
+			size: 0.75d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "3C33DD2DA722B47E"
+				title: "The Nether"
+				type: "dimension"
+			}]
+			title: "Visit the Nether Dimension"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F9076D1056A4053"]
+			id: "383AA31C127A19E3"
+			tasks: [{
+				id: "2CA82178E1B8F8EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:furnace"
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7862C2708A5A89CE"]
+			id: "45A00CB361AE1B7D"
+			tasks: [
+				{
+					id: "795EF2023BA78F4B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanting_table"
+					}
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "4388286ED98CE196"
+					item: {
+						Count: 15
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+			]
+			title: "Enchanting"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55D68E5A8B42E94F"]
+			id: "2AAEB834B450012E"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:nether_bricks"
+				}
+				id: "3CEAF3B38556D35A"
+				structure: "minecraft:fortress"
+				title: "Nether Fortress"
+				type: "structure"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["391A154256A1A353"]
+			id: "4940CD32B0802508"
+			tasks: [{
+				id: "689A7DC2B31D08A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			title: "Craft an Eye of Ender"
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"64DD92F5431960BC"
+				"2CB1B84AC28EA6D1"
+			]
+			id: "02E3B1E761BC38C5"
+			tasks: [
+				{
+					id: "44034678AAC783C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:smithing_table"
+					}
+					type: "item"
+				}
+				{
+					id: "5934A23B4B18AB08"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"55D68E5A8B42E94F"
+				"58B5185D7DE3D7C5"
+			]
+			id: "64DD92F5431960BC"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:piglin_head"
+				}
+				id: "331682D58E3A532F"
+				structure: "minecraft:bastion_remnant"
+				title: "Bastion Remnant"
+				type: "structure"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"58B5185D7DE3D7C5"
+				"02E3B1E761BC38C5"
+			]
+			id: "47BA0E1A6FEDB61B"
+			tasks: [
+				{
+					id: "7EBFEB2C00F8D182"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E8B4B93B83FBF2A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290079894D4E4685"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E3102040CF9C41C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Armor"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02E3B1E761BC38C5"]
+			id: "63D91E99B2AF1B20"
+			tasks: [
+				{
+					id: "519D429F9E936616"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5FF6BE8634A5CBD1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19892E8B4B9B6BBA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09098BE81BBDD855"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Netherite Tools"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55D68E5A8B42E94F"]
+			id: "2CB1B84AC28EA6D1"
+			tasks: [{
+				count: 4L
+				id: "28E5FD1F16A7D669"
+				item: {
+					Count: 4
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			title: "Netherite Ingots"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2AAEB834B450012E"]
+			id: "391A154256A1A353"
+			tasks: [{
+				id: "554AFCBBE423DCFF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:blaze_rod"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["391A154256A1A353"]
+			id: "74BF847BBEA0224A"
+			tasks: [{
+				id: "6724A57AB05EEDBF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:brewing_stand"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74BF847BBEA0224A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "reliquary:potion"
+				tag: {
+					effects: [{
+						duration: 1
+						name: "minecraft:saturation"
+						potency: 9
+					}]
 				}
 			}
-			id: "architects_palette:hazard_sign"
+			icon_scale: 1.5d
+			id: "27C0CAED40B28D03"
+			invisible: true
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:nether/all_effects"
+				criterion: ""
+				id: "2727DDD08400AB82"
+				type: "advancement"
+			}]
+			title: "How Did We Get Here?"
+			x: 15.0d
+			y: 8.25d
 		}
-		icon_scale: 2.0d
-		id: "5EFF8F2CA747D6BF"
-		invisible: true
-		optional: true
-		tasks: [
-			{
-				id: "159E7CF9AE84EED6"
-				type: "checkmark"
-			}
-			{
-				id: "3E6D821FE92A6600"
-				type: "checkmark"
-			}
-			{
-				id: "38C85D07D0A9F6C7"
-				type: "checkmark"
-			}
-		]
-		title: "&6&lQuests by TeamMCC for the MCC Modpack"
-		x: 2.5d
-		y: -2.5d
-	}]
+	]
 	title: "&eWorld Exploration Quests"
 }
