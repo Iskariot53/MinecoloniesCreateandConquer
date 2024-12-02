@@ -19,7 +19,11 @@
 	quests: [
 		{
 			dependencies: ["4386DFA29FCEDD4D"]
-			description: ["As with any other playthrough in a pack involving Mekanism, start off by gathering some osmium ingots. Osmium chickens and/or bees, or even laser drills will aid in making this resource less painfully sustainable."]
+			description: [
+				"As with any other playthrough in a pack involving Mekanism, start off by gathering some osmium ingots. Osmium chickens and/or bees, or even laser drills will aid in making this resource less painfully sustainable."
+				""
+				"It is particularly rare in MCC worlds. Generating 1 vein per chunk and up to 3 ores per vein."
+			]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -74,7 +78,13 @@
 		}
 		{
 			dependencies: ["71070D1348F6EBF2"]
+			description: [
+				"The metallurgic infuser will intake resources and then infuse them into another. Such as taking coal and infusing it into iron, making enriched iron, Or taking enriched iron and in turn enriching it again to make steel dust."
+				""
+				"Any infusion material that can be used in the infuser can also be enriched in an enrichment chamber to make that resource much more efficiently used by the infuser."
+			]
 			id: "744BF2D2E55A1511"
+			subtitle: "Infusing Alloys"
 			tasks: [{
 				id: "48BA68D98D82DF8C"
 				item: {
@@ -112,7 +122,9 @@
 		}
 		{
 			dependencies: ["744BF2D2E55A1511"]
+			description: ["To make you steel you must infuse iron with carbon (coal) in a metallurgic infuser. This will yield enriched iron, which will then need be infused with carbon a second time to make steel dust. Using enriched carbon is going to make this consume a lot less coal."]
 			id: "63440E310364A62A"
+			subtitle: "Making Steel"
 			tasks: [
 				{
 					id: "245D6E717FCFB082"
@@ -168,8 +180,10 @@
 		}
 		{
 			dependencies: ["63440E310364A62A"]
+			description: ["Compact 4 steel ingots 4 glass and 1 osmium ingot in a heated basin supplied with ether."]
 			id: "1A54CB7CC678C553"
 			size: 1.5d
+			subtitle: "Making Casings"
 			tasks: [{
 				id: "63BE4571A3BA22D2"
 				item: {

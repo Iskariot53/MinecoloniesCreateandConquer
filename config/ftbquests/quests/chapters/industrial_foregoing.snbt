@@ -46,7 +46,7 @@
 				xp: 5
 			}]
 			size: 1.5d
-			subtitle: "Industrialize the world!"
+			subtitle: "Industrialize The World!"
 			tasks: [{
 				id: "43AACFC5F93A2168"
 				item: {
@@ -73,7 +73,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Just in case"
+			subtitle: "Just in Case"
 			tasks: [{
 				id: "689BC30604B40AAE"
 				item: {
@@ -113,7 +113,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtaining latex"
+			subtitle: "Obtaining Latex"
 			tasks: [{
 				id: "2B7562681CC73B58"
 				item: "industrialforegoing:fluid_extractor"
@@ -181,7 +181,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Processing latex into rubber"
+			subtitle: "Processing Latex Into Rubber"
 			tasks: [{
 				id: "4F2B41E6F2E34EB6"
 				item: "industrialforegoing:latex_processing_unit"
@@ -219,7 +219,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "9 Tiny dry rubber = 1 Dry rubber"
+			subtitle: "9 Tiny Dry Rubber = 1 Dry Rubber"
 			tasks: [{
 				count: 4L
 				id: "391478A14B6E69F3"
@@ -293,8 +293,22 @@
 					}
 					type: "item"
 				}
+				{
+					count: 4
+					id: "567B21AA02CB715D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
 			]
-			subtitle: "Making machine frames and upgrades"
+			subtitle: "Making Machine Frames and Upgrades"
 			tasks: [{
 				id: "450220E34F34CA11"
 				item: "industrialforegoing:dissolution_chamber"
@@ -320,6 +334,40 @@
 				"&6Placed into a 3x3 mechanical grid&r. &aJEI&r can provide you with the specific shape in which the recipe needs to be placed into the grid."
 			]
 			id: "13D06CA200A91C28"
+			rewards: [
+				{
+					id: "3FC6C3A3D29C26B9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "29AF95ED17E7401A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "462D21FE787088BD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Mechanical Crafting"
 			tasks: [{
 				id: "45C344D4F7E2BFF8"
@@ -337,7 +385,41 @@
 				"Mobs killed will produce 5 mb of liquid meat per HP and 1 mb of pink slime per HP."
 			]
 			id: "11C6AAD5E91C79B6"
-			subtitle: "Farming pink slime and liquid meat."
+			rewards: [
+				{
+					id: "436AA4E1F2A900AC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7ED6AE02ABFB1884"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1ACC03640790C071"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Farming Pink Slime and Liquid Meat."
 			tasks: [{
 				id: "1CB2DA0EA58FE1E4"
 				item: "industrialforegoing:mob_slaughter_factory"
@@ -349,7 +431,41 @@
 		{
 			dependencies: ["11C6AAD5E91C79B6"]
 			id: "05CC4211C4E2F99E"
-			subtitle: "Farmed from mob slaughter factories"
+			rewards: [
+				{
+					id: "49486A3F02A446E6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6ECE52506E08CBF2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0FE5CFA5D81294C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Farmed From Mob Slaughter Factories"
 			tasks: [{
 				id: "287CCA2F6307AAE5"
 				item: "industrialforegoing:pink_slime_bucket"
@@ -378,6 +494,40 @@
 				"&aJEI&r can provide you with the specific shape in which the recipe needs to be placed into the chamber."
 			]
 			id: "112A9B8C8A737352"
+			rewards: [
+				{
+					id: "0C84BBF4826DD8FA"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "0990B2210E14E571"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "03C26FFD72F75D39"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Standard Recipe"
 			tasks: [{
 				id: "527E41C733B637D6"
@@ -394,6 +544,40 @@
 			]
 			description: ["Used for the most advanced machine frames, and therefor the most advanced IF machines. "]
 			id: "6DC065159F905D68"
+			rewards: [
+				{
+					id: "2313E836A8C9FEEC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "00BAA12429916FD5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5048404D8BC3E4A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Standard Recipe"
 			tasks: [{
 				id: "1FE19A55286D9488"
@@ -406,6 +590,28 @@
 		{
 			dependencies: ["3D4155EE85E93B3E"]
 			id: "4845CBF20535FDB7"
+			rewards: [
+				{
+					id: "0F77C5D45B1CAA24"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "049B91F1C56BE308"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Yet Another Belt/Pipe Option"
 			tasks: [{
 				id: "1F891E373BCFA29D"
 				item: "industrialforegoing:conveyor"
@@ -421,10 +627,44 @@
 				""
 				"{@pagebreak}"
 				""
-				"When fed with biofuel the biofuel generator will produce FE, pretty simple. It can also be used to power infinity items as well, if you go that route."
+				"When fed with biofuel the biofuel generator will produce FE, pretty simple. It can also be used to power infinity items as well, if you go that route for tools as well as being usable as a fuel to super heat blaze burners."
 			]
 			id: "2BF51756FD95A460"
-			subtitle: "Making and burning bio-fuels"
+			rewards: [
+				{
+					id: "7A10C1B0018C020C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3BDC272CDA9FCCAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "411C7B2A851EC3AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Making and Burning Bio-Fuels"
 			tasks: [
 				{
 					id: "216D3C115C65E00F"
@@ -450,7 +690,27 @@
 				"Breakers/placers are fake players and fake players MUST be enabled in both claims and colony settings for them to function inside of their boundaries."
 			]
 			id: "10A7C04C870A5163"
-			subtitle: "Automating block placement"
+			rewards: [
+				{
+					id: "49AB0275C8D4FF5D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0B88CF4388F58BFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Automating Block Placement"
 			tasks: [{
 				id: "13E22EF3CA1909C2"
 				item: "industrialforegoing:block_placer"
@@ -469,7 +729,27 @@
 				"Breakers/placers are fake players and fake players MUST be enabled in both claims and colony settings for them to function inside of their boundaries."
 			]
 			id: "23C4B66B177FC645"
-			subtitle: "Automating block removal"
+			rewards: [
+				{
+					id: "0592E9116953CB52"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4433E27DCE765ED9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Automating Block Removal"
 			tasks: [{
 				id: "79E366F6AED2054C"
 				item: "industrialforegoing:block_breaker"
@@ -482,7 +762,27 @@
 			dependencies: ["3D4155EE85E93B3E"]
 			description: ["Ranchers can be used for automating the more mundane tasks of things suchs as sheering sheep, milking cows, etc."]
 			id: "57F1C49F461902DE"
-			subtitle: "Auto-mob farming"
+			rewards: [
+				{
+					id: "45C23119A3AFAEF2"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "46DF8703696B95B5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Auto-Mob Farming"
 			tasks: [{
 				id: "0E8E8D8E2C63713C"
 				item: "industrialforegoing:animal_rancher"
@@ -495,7 +795,27 @@
 			dependencies: ["57F1C49F461902DE"]
 			description: ["While not an actual feeding trough. The feeder will automatically feed any mobs within its working range, when provided with the appropriate food to feed them."]
 			id: "3A9686C2CF872006"
-			subtitle: "Auto-fedding trough (kinda)"
+			rewards: [
+				{
+					id: "248A590BEAC568C0"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "09197D4D33822C59"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Auto-Feeding Trough (kinda)"
 			tasks: [{
 				id: "5C74380A4AE368D0"
 				item: "industrialforegoing:animal_feeder"
@@ -508,7 +828,27 @@
 			dependencies: ["3A9686C2CF872006"]
 			description: ["The separator can be used to separate babies from adults, handy when you need to maintain a supply of breeding stock and only want to harvest/slaughter from the extras produced from breeding."]
 			id: "5244DA4A140BE6BD"
-			subtitle: "Pretty self explanatory"
+			rewards: [
+				{
+					id: "668F0141DEB92FF4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5A9BEC4E53A46A67"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Pretty Self Explanatory"
 			tasks: [{
 				id: "3E078113BBF467CB"
 				item: "industrialforegoing:animal_baby_separator"
@@ -521,7 +861,27 @@
 			dependencies: ["3D4155EE85E93B3E"]
 			description: ["The fluid placer is the liquid equivalent of the block placer. When provided with a container holding a fluid it will place that fluid source block into the world at the cost of RF."]
 			id: "7F546D55D60D0161"
-			subtitle: "Outputting fluids into the world"
+			rewards: [
+				{
+					id: "76864028304FCAF5"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2A6740145DE27796"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Outputting Fluids Into The World"
 			tasks: [{
 				id: "3B7531CCDC06AC6D"
 				item: "industrialforegoing:fluid_placer"
@@ -534,7 +894,27 @@
 			dependencies: ["7F546D55D60D0161"]
 			description: ["Likewise, the fluid collector is the liquid equivalent of the block breaker. When a fluid source block is placed into its working area it will intake the fluid at the cost of RF."]
 			id: "5AFDE605D99CF8F6"
-			subtitle: "Removing fluids from the world"
+			rewards: [
+				{
+					id: "00273D11496216A9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0E968A0E3D914625"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Removing Fluids From The World"
 			tasks: [{
 				id: "1CC752455EBC92A0"
 				item: "industrialforegoing:fluid_collector"
@@ -547,7 +927,27 @@
 			dependencies: ["3D4155EE85E93B3E"]
 			description: ["Black hole units are storage units very similar to other storage blocks such as 1x1 drawers and bins. They hold 1 item type, that's it, but can hold a very large amount of that single item. They come in multiple tiers, requiring higher tiered frames to make higher tiered units."]
 			id: "77F3E143B9ED9DB7"
-			subtitle: "Bulk storage"
+			rewards: [
+				{
+					id: "59387E91A6D2ED57"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6DA29E0B9189F682"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Bulk Storage"
 			tasks: [
 				{
 					id: "2AC0377FEAA4F259"
@@ -560,7 +960,7 @@
 					type: "item"
 				}
 			]
-			title: "Pity black hole units"
+			title: "Pity Black Hole Units"
 			x: 2.0d
 			y: 8.5d
 		}
@@ -568,6 +968,26 @@
 			dependencies: ["3D4155EE85E93B3E"]
 			description: ["The planter sower will automatically plant seeds and saplings provided to it. You will notice in the GUI that the input is divided into 9 sections, this corresponds with the sowers working area, which is also divided into 9 sections. Seeds and saplings planted in any given section of the input will only be planted inthe corresponding section of working area, allowing you to separate and cultivate multiple things from one block with little fuss."]
 			id: "48A06D2929CADF5E"
+			rewards: [
+				{
+					id: "7E83F6A65A337E7D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "688E5AD697324AED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Auto-crop farming"
 			tasks: [{
 				id: "64AE9D91BC280A64"
@@ -581,7 +1001,27 @@
 			dependencies: ["48A06D2929CADF5E"]
 			description: ["The gatherer will harvest all plants and trees within its working area, producing sludge in the process which must be processed in a sludge refiner (or can be voided)."]
 			id: "078B565E7AEF5547"
-			subtitle: "Auto-harvesting"
+			rewards: [
+				{
+					id: "2DCD9CCA516AE1C9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4760E1C30BCD2182"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Auto-Harvesting"
 			tasks: [{
 				id: "4C68F1423F6D0F91"
 				item: "industrialforegoing:plant_gatherer"
@@ -598,7 +1038,27 @@
 				"When provided with ether it substantially increases crop growth as well as automatically replants seeds too!"
 			]
 			id: "289E6D7CF8519542"
-			subtitle: "Need crops FASTER"
+			rewards: [
+				{
+					id: "15A2D194FEBCE181"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5667A45FBB23311A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Need Crops FASTER"
 			tasks: [{
 				id: "347D89055492AC71"
 				item: "industrialforegoing:hydroponic_bed"
@@ -611,6 +1071,26 @@
 			dependencies: ["13D06CA200A91C28"]
 			description: ["The plant fertilizer, when provided with power and either bonemeal or fertilizer, will automatically bone meal plants in its working area, further increasing crop growth. Bear in mind that it will \"cycle\" through plants in its working area 1 at a time so if you try to grow things that will still accept bonemeal, even when fully grown, it will get stuck. So it's not a good idea to use it for things like sunflowers."]
 			id: "16F8AD9130E91E61"
+			rewards: [
+				{
+					id: "43172C3D75FF9492"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7894C8AE2AE7DD2F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "FASTER"
 			tasks: [{
 				id: "7760349F1E6C1C61"
@@ -628,7 +1108,27 @@
 				"Fishing. It is capable of catching virtually anything (live or dead) that can be obtained through the use of a fishing rod."
 			]
 			id: "027A1CB1D61A6B7B"
-			subtitle: "Auto-fishing"
+			rewards: [
+				{
+					id: "4A2D93C1B379692B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "630ECCB10DF422DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Auto-Fishing"
 			tasks: [{
 				id: "05F10F1A29B4BC56"
 				item: "industrialforegoing:marine_fisher"
@@ -641,6 +1141,26 @@
 			dependencies: ["13D06CA200A91C28"]
 			description: ["The mob detector counts the number of mob entities in its working area and emits a redstone signal equal to the number of mobs detected."]
 			id: "20F8479E4D04EE34"
+			rewards: [
+				{
+					id: "77C37B8612D95911"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "15769C87B3D8F31D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Mob Sensors"
 			tasks: [{
 				id: "52C8C8346CBB1FA3"
@@ -654,7 +1174,27 @@
 			dependencies: ["13D06CA200A91C28"]
 			description: ["When provided with power the mob crusher will crush all mobs in its working area providing loot and essence (XP)."]
 			id: "399D4BB6EFB71E7B"
-			subtitle: "Player-mob kills"
+			rewards: [
+				{
+					id: "3F96DE138AAB93DC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "314FBCE4C1AF03F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Player-Mob Kills"
 			tasks: [{
 				id: "77FF02675C47B583"
 				item: "industrialforegoing:mob_crusher"
@@ -667,7 +1207,27 @@
 			dependencies: ["13D06CA200A91C28"]
 			description: ["When provided with RF and raw ore meat, the fermentation station is used to ferment raw ore meat into the selected type."]
 			id: "7D02AB190EBF3251"
-			subtitle: "Processing raw ore meat"
+			rewards: [
+				{
+					id: "2B5EC5830034EEC8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "41F6611513798AA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Processing Raw Ore Meat"
 			tasks: [{
 				id: "7B7A1E9641D11582"
 				item: "industrialforegoing:fermentation_station"
@@ -679,7 +1239,27 @@
 		{
 			dependencies: ["13D06CA200A91C28"]
 			id: "1FA7D7CA9B0CACF0"
-			subtitle: "Bigger bulk storage options"
+			rewards: [
+				{
+					id: "1B7E3FC455192B3D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7985AE3B5B442D7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Bigger Bulk Storage Options"
 			tasks: [
 				{
 					id: "550F7A255D87BD7A"
@@ -692,6 +1272,7 @@
 					type: "item"
 				}
 			]
+			title: "Simple Black Hole Units"
 			x: 6.214285714285708d
 			y: 10.857142857142861d
 		}
@@ -699,7 +1280,54 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["The Laser Drill is used to convert power into working operations for laser bases. The laser drill must be placed one block away from the laser base with the back of the machine facing the laser base. Proper placement is indicated by a visual effect connecting the laser drill to the laser base. "]
 			id: "2DEFA925E78A3A3E"
-			subtitle: "Required for ether production"
+			rewards: [
+				{
+					id: "42363B9627DEABA1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "01A413C9F0F94818"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "48625FB43D672CE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "77429FCB061E4C7A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Required For Ether Production"
 			tasks: [{
 				id: "10908519B89C3387"
 				item: "industrialforegoing:laser_drill"
@@ -712,7 +1340,54 @@
 			dependencies: ["2DEFA925E78A3A3E"]
 			description: ["The fluid laser base is a machine used with one or multiple laser drills to produce fluids. Laser lenses can be used to select which fluid the laser base will extract. When a purple laser lense is inserted and the base placed above a wither, it will attempt to extract ether. When placed in the nether with an orange lense inserted, it will attempt to extract lava. In the GUI of the laser base, the bar on the left displays the amount of work that has been performed by the laser drill(s). When it reaches 100%, one bucket of fluid is produced. Work changes by 1% every time a laser drill completes an operation."]
 			id: "549AD8EF3E9A90F7"
-			subtitle: "Fluid void miner"
+			rewards: [
+				{
+					id: "35CB55CF1E7D63C2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "06B9312F566B6237"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3ED125F4B7233BA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4905301F4C18DF94"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Fluid Void Miner"
 			tasks: [{
 				id: "6D938A00A801DAA5"
 				item: "industrialforegoing:fluid_laser_base"
@@ -725,7 +1400,54 @@
 			dependencies: ["2DEFA925E78A3A3E"]
 			description: ["The ore laser base is a machine used with one or multiple laser drills to produce ores. Laser lenses can be used to increase or decrease the chances of specific ores. The laser base can hold up to six lenses. In the GUI of the laser base, the bar on the left displays the amount of work that has been performed by the Laser Drill(s). When it reaches 100%, one block of ore is produced. Work changes by 1% every time a laser drill completes an operation."]
 			id: "591CBA05856D958C"
-			subtitle: "Infinite void miner"
+			rewards: [
+				{
+					id: "3F31DBC503D965C0"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "71B4CDAFD82C9B36"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7354418B70839E05"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6DA4004D0E19BAD7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Infinite Void Miner"
 			tasks: [{
 				id: "64353422361D535F"
 				item: "industrialforegoing:ore_laser_base"
@@ -735,14 +1457,40 @@
 			y: 19.0d
 		}
 		{
-			dependencies: ["0A4C2EEA3BB31EAC"]
+			dependencies: [
+				"0A4C2EEA3BB31EAC"
+				"549AD8EF3E9A90F7"
+				"2DEFA925E78A3A3E"
+				"27F3261702E8B6F2"
+			]
 			description: [
 				"Ether gas is used in the production or at least in accessing multiple late game items and machines. "
 				""
 				"If late game tech and progression is your goal?... Automate this process."
 			]
 			id: "7DCFE8D3D3D030AB"
-			subtitle: "This is all that is \"required\" from IF"
+			rewards: [
+				{
+					id: "2F98FD9062A12925"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "2352A2950228DEE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "This Is All That Is \"Required\" From IF"
 			tasks: [{
 				id: "0605AF9F220A4E2B"
 				item: "industrialforegoing:ether_gas_bucket"
@@ -758,7 +1506,27 @@
 			]
 			description: ["When fed with liquid meat and ore, the washing factory will produce raw ore meat of the given type."]
 			id: "65A9A761A1D88AEC"
-			subtitle: "Making raw ore meat"
+			rewards: [
+				{
+					id: "20E875C9FD5E95CA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "64D19F47ADDD0972"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Making Raw Ore Meat"
 			tasks: [{
 				id: "1B53435E6DAF775B"
 				item: "industrialforegoing:washing_factory"
@@ -774,7 +1542,41 @@
 			]
 			description: ["Pink slime ingots are made in a dissolution chamber by combining: 1 bucket of pink slime, 2 iron ingots and 2 gold ingots."]
 			id: "73CD77961FE5B424"
-			subtitle: "A really funky ingot..."
+			rewards: [
+				{
+					id: "5FE35203610F82E9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "47B308AD4EF3A3FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "70CF00AA20F220C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A Really Funky Ingot..."
 			tasks: [{
 				id: "626909E1FD2A10EA"
 				item: "industrialforegoing:pink_slime_ingot"
@@ -786,7 +1588,28 @@
 		{
 			dependencies: ["549AD8EF3E9A90F7"]
 			id: "27F3261702E8B6F2"
-			subtitle: "Required for ether production"
+			rewards: [
+				{
+					id: "3FCD2F639C6B0679"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "58E8D4090EA8A902"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Required For Ether Production"
 			tasks: [{
 				id: "59B62157F2D9FF93"
 				item: "industrialforegoing:laser_lens10"
@@ -803,7 +1626,28 @@
 				"A wither within a &6stasis chamber&r. With a &6fluid laser drill&r, containing a &dpurple laser lense&r, placed above it. Are the basis for starting &3ether gas&r production."
 			]
 			id: "0A4C2EEA3BB31EAC"
-			subtitle: "Required for ether production"
+			rewards: [
+				{
+					id: "2B954E7221AADFAF"
+					type: "xp"
+					xp: 45
+				}
+				{
+					count: 2
+					id: "4FB4A714F4272F54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Required For Ether Production"
 			tasks: [{
 				id: "1E28899CDF53C3D1"
 				item: "industrialforegoing:stasis_chamber"
@@ -816,6 +1660,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["The Enchantment Factory is used to automatically enchant items when provided with Essence and power. Each operation applies a level 30 enchantment to the first item in the input slots, consuming 3,000 mB of Essence and 4,000 RF from the work energy buffer. "]
 			id: "1AACAE1C998B1BC7"
+			rewards: [
+				{
+					id: "17280B266621D287"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "2D0F7C832C600B4A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0A7A191BA3274991"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Automatic Enchanting"
 			tasks: [{
 				id: "149F3A2DC8371084"
@@ -829,6 +1706,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["The Enchantment Extractor will remove the first enchantment from the item and output the item with the same damage value and any remaining enchantments along with a book containing the removed enchantment. This process does not clear the NBT of items, even when the last enchantment is removed. Most notably the repair cost will remain, which will increase the XP neeeded to repair or enchant the item on an anvil as if the removed enchantment were still present."]
 			id: "3FA3206857ACD468"
+			rewards: [
+				{
+					id: "4DE18E057F7C13C9"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "7E56BB40B777C179"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "43DE7D01BBD533BD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Harvesting Enchantments"
 			tasks: [{
 				id: "6753EFC37F3F306B"
@@ -842,6 +1752,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["The Enchantment Applicator requires an enchanted book and a tool or armor to receive the enchantment. Applying the enchantment consumes 100 mb of Essence from the internal tank for each level of experience that would be required using an Anvil. The Enchantment Applicator only accepts items that can be enchanted on an Enchantment Table"]
 			id: "40BD61CC9716E495"
+			rewards: [
+				{
+					id: "199F92A71776EA31"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "7F96E3100C22242C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7015DBB45C8B6EFB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Automatic Anvil"
 			tasks: [{
 				id: "7481504A227C0B05"
@@ -855,6 +1798,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["The Enchantment Sorter will accept input of any item, including non-enchantable items, and filter the enchanted items into the top row of output slots while non-enchanted items are pushed to the bottom output slots. Each set of output slots can be assigned a different face of the machine for extraction via pipes or hoppers."]
 			id: "10EB55AA16BF6C7A"
+			rewards: [
+				{
+					id: "7F508E542A879CFA"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "56E982F74DABFEFF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0D5B5DE0848EB840"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Sorting Enchanted Items"
 			tasks: [{
 				id: "47C1660E95A6D5E8"
@@ -872,7 +1848,12 @@
 				"The only exception being antimatter... you're gonna need &nA LOT&r of power for that... so make sure to build an induction matrix and start storing energy reserves sooner rather than later if you plan to progress to that point."
 			]
 			id: "64198B81337A34FE"
-			subtitle: "The best mid-game power generation"
+			rewards: [{
+				id: "08B0FD2BAB77BAC8"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "The Best Mid-Game Power Generation"
 			tasks: [{
 				id: "1FBAA9DB216D57E9"
 				title: "The Mycelial Power Grid"
@@ -885,6 +1866,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["The Mob Duplicator is used to spawn mobs based on the type of mob trapped in a Mob Imprisonment Tool and placed inside. It has a default spawning range of centered on the machine, which can be expanded with Range Addons. The Mob Duplicator will require Essence to spawn a mob (e.g., 120 mB of Essence for Cows and Pigs). The machine will not spawn mobs if there are 32 entities or no valid, unoccupied surfaces in the working area. Mobs spawned are only of the same type and are not exact copies."]
 			id: "2399827CAECFF568"
+			rewards: [
+				{
+					id: "1A5B4216FE75428E"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "62B41F87161904E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "083BD3CB6C185F0D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Industrial Mob Farming"
 			tasks: [{
 				id: "220F0D1C9BDC8B75"
@@ -898,6 +1912,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["The Mob Crusher is used to kill mobs as if a player, producing Essence and mob drops. The default working range is 1x3x1 in front of the machine and can be expanded with Range Addons. The Mob Crusher deals 300 damage per operation, killing all Vanilla mobs, other than the Wither, in a single hit. The machine will collect any items or experience dropped by mobs into its internal inventory. 20 mb of Essence is produced per experience point of orbs collected. The Mob Crusher does not need to be powered to collect experience orbs, making it useful to turn Bottle o' Enchanting into essence. Adding the Adult Filter to the machine will prevent baby animals from being killed. "]
 			id: "6255F5FE7CFAC415"
+			rewards: [
+				{
+					id: "2FB10516B87A4344"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "1AB9F3C7E347E05A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4BD78506C1067CA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3C3A08FAA5E6028C"
 				item: "industrialforegoing:mob_crusher"
@@ -910,6 +1957,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["When supplied with power, bottles and the required ingredients, the potion brewer functions as an automated version of the vanilla brewing stand."]
 			id: "0EE55D55C22ADEDB"
+			rewards: [
+				{
+					id: "5E03780D1BA270F3"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "562F736CDA1C5E5B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5CA2DB72676E30A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Brewing v2.0"
 			tasks: [{
 				id: "042772FC123AFA4C"
@@ -923,6 +2003,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["When supplied with fermented ore meat and sand, the fluid sieving machine will then produce dust of the respective ore."]
 			id: "34DA943BEA48EC06"
+			rewards: [
+				{
+					id: "641141D9E44F7625"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "120E8973DACB32BB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5CB42E34454FE44E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Ore Meat Processing"
 			tasks: [{
 				id: "196EDFD2BE5A9CF8"
@@ -936,6 +2049,39 @@
 			dependencies: ["112A9B8C8A737352"]
 			description: ["When supplied with water, lava and power the material stonework factory can be programmed to make many different stone types/recipes. JEI  will be very useful here and can be used to see the whole range of possiblities."]
 			id: "1D4C452E6CFB4E08"
+			rewards: [
+				{
+					id: "753391EABF0D11DD"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "524B1DC5129C47A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "53329271F1DC5BE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Stone Generator v2.0"
 			tasks: [{
 				id: "350130C3657E5337"
@@ -948,6 +2094,39 @@
 		{
 			dependencies: ["112A9B8C8A737352"]
 			id: "7FE58D6DDE67B8A7"
+			rewards: [
+				{
+					id: "5F29A01C7430284F"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "5E848FDEB1471E2A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "408D37131BD9809D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Even Bigger Bulk Storage"
 			tasks: [
 				{
@@ -966,7 +2145,43 @@
 		}
 		{
 			dependencies: ["6DC065159F905D68"]
+			description: ["When supplied with power, soul sand and wither skeleton skulls the wither builder will automatically construct withers within its working area."]
 			id: "633FFE9FF9F16504"
+			rewards: [
+				{
+					id: "1E0281789DEB6B7A"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "05402598DF246DA6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7998A3285339C089"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Automated Wither Construction"
 			tasks: [{
 				id: "3994F6DE819926E8"
 				item: "industrialforegoing:wither_builder"
@@ -978,6 +2193,41 @@
 		{
 			dependencies: ["6DC065159F905D68"]
 			id: "070B9E78D5273338"
+			rewards: [
+				{
+					id: "77B5882841F5DF14"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "1915193EBFB1CCB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5A139CD6491BCC2F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A Central HUD for Black Holes"
 			tasks: [{
 				id: "031C67EB22E56791"
 				item: "industrialforegoing:black_hole_controller"
@@ -989,6 +2239,41 @@
 		{
 			dependencies: ["6DC065159F905D68"]
 			id: "33C3D6DCBADB6863"
+			rewards: [
+				{
+					id: "46DFBFE888E146BF"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "615E1510C0624FFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0CCEFF024F6B522C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The Biggest IF Bulk Storage"
 			tasks: [
 				{
 					id: "6F9618A02027A915"
@@ -1006,8 +2291,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The furnace mycelial generator will take any number of smeltable items (you'd be surprised what it accepts) and in turn produce FE."]
 			hide_dependency_lines: true
 			id: "7E53C02DE7996C0C"
+			rewards: [
+				{
+					id: "4A8CC1669E183C22"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "57E5DBEA20113E7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "50522EDD7428F39A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Smelting Power"
 			tasks: [{
 				id: "26ED9BFDBCF42FF2"
 				item: "industrialforegoing:mycelial_furnace"
@@ -1018,8 +2338,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The slimey mycelial generator converts slimeballs to FE."]
 			hide_dependency_lines: true
 			id: "4F92C086C8ABBCB2"
+			rewards: [
+				{
+					id: "2626662D8B857F85"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "27E1568FD02694E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7F6C3E95C9553E63"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Slime Power"
 			tasks: [{
 				id: "154E68B2249A3C14"
 				item: "industrialforegoing:mycelial_slimey"
@@ -1030,8 +2385,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The culinary mycelial generator convert food stuffs into FE."]
 			hide_dependency_lines: true
 			id: "21B93CF5EABF9DFF"
+			rewards: [
+				{
+					id: "44CEEE09F451FF38"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4111ADA832A7FFFB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4B3B8C5C60AD32B5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Food Power"
 			tasks: [{
 				id: "5C5331FA2BE7CDD8"
 				item: "industrialforegoing:mycelial_culinary"
@@ -1042,8 +2432,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The potion mycelial generator converts potions into FE."]
 			hide_dependency_lines: true
 			id: "530CF7FEE254EBE8"
+			rewards: [
+				{
+					id: "4AA5B5AE98EB278F"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7415CB30418B33C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "223CC9ECDF1E5906"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Potion Power"
 			tasks: [{
 				id: "40E78928BC9315B5"
 				item: "industrialforegoing:mycelial_potion"
@@ -1054,8 +2479,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The disenchantment mycelial generator converts enchanted books into FE."]
 			hide_dependency_lines: true
 			id: "242F190EB8F1181D"
+			rewards: [
+				{
+					id: "0922EAF962363142"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5D280B5A4E2EE324"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "201327A14FF41EC4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Enchantment Power"
 			tasks: [{
 				id: "098D13F5CF406A3E"
 				item: "industrialforegoing:mycelial_disenchantment"
@@ -1066,8 +2526,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The ender mycelial generator converts ender pearls and eyes into FE."]
 			hide_dependency_lines: true
 			id: "63FE47CB67984AFC"
+			rewards: [
+				{
+					id: "21B5AD13BD714E81"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6B2FB28A3F4C86D3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0074FE323ADBA676"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ender Power"
 			tasks: [{
 				id: "204AA107348E127A"
 				item: "industrialforegoing:mycelial_ender"
@@ -1078,8 +2573,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The explosive mycelial generator converts gunpowder or tnt into FE."]
 			hide_dependency_lines: true
 			id: "6BED49DA38FEA49E"
+			rewards: [
+				{
+					id: "461E00C23CD73D30"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "70E3381C813DF03E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "4D6E0FD69C621425"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Explosive Power"
 			tasks: [{
 				id: "238D6C5506E3F779"
 				item: "industrialforegoing:mycelial_explosive"
@@ -1090,8 +2620,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The frosty mycelial generator converts snow and ice products into FE."]
 			hide_dependency_lines: true
 			id: "471B64372CB87717"
+			rewards: [
+				{
+					id: "580D3D6FCE92CD66"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "669B8B4614C4B2C9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6CC65922FD117D2D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Ice Power"
 			tasks: [{
 				id: "37D9A71F01B18D73"
 				item: "industrialforegoing:mycelial_frosty"
@@ -1102,8 +2667,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The haliotosis mycelial generator converts dragons breath into FE."]
 			hide_dependency_lines: true
 			id: "4F3A89C3B469A578"
+			rewards: [
+				{
+					id: "2ECCC342CF1A262A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "31D8938C12790E7B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0BA937C43BC35D3B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Dragon Power"
 			tasks: [{
 				id: "3F45C4A8ADBA582A"
 				item: "industrialforegoing:mycelial_halitosis"
@@ -1123,6 +2723,26 @@
 			]
 			hide_dependency_lines: true
 			id: "4E4B991E67B93047"
+			rewards: [
+				{
+					id: "227886403F36CB16"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "1021E3047B191E33"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Produces 25MFE/t when all others are running simultaneously."
 			tasks: [{
 				id: "4C4DA8175F3AC37A"
@@ -1134,8 +2754,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The magma mycelial generator converts lava into FE."]
 			hide_dependency_lines: true
 			id: "02AB663DE2BC5787"
+			rewards: [
+				{
+					id: "0881D651ED3212D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "380DD1079020C1A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "239DA8C748E9DBC4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Lava Power"
 			tasks: [{
 				id: "2BE68093C3DBC5A5"
 				item: "industrialforegoing:mycelial_magma"
@@ -1146,8 +2801,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The pink mycelial generator converts pink blocks and items into FE."]
 			hide_dependency_lines: true
 			id: "4BE6122EDE48A7D6"
+			rewards: [
+				{
+					id: "13E715C0E396B479"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6F76234A902482CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3393B18EC011499E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Pink Power"
 			tasks: [{
 				id: "7201C7F73C64FB04"
 				item: "industrialforegoing:mycelial_pink"
@@ -1158,8 +2848,43 @@
 		}
 		{
 			dependencies: ["6DC065159F905D68"]
+			description: ["The nether star mycelial generator converts nether stars into FE."]
 			hide_dependency_lines: true
 			id: "2CB5522D82980ED3"
+			rewards: [
+				{
+					id: "02D0241983E48C3E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "51A4B9D753C83653"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7581874F1206DEA4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Nether Star Power"
 			tasks: [{
 				id: "7CBF5C481C12CABA"
 				item: "industrialforegoing:mycelial_netherstar"
@@ -1170,8 +2895,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The death mycelial generator converts vanilla undead drops into FE."]
 			hide_dependency_lines: true
 			id: "4754A5C4EEAEC058"
+			rewards: [
+				{
+					id: "0C1347276B5BF35E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "067A235AAD595537"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2AE344C37A1D5B90"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Undead Power"
 			tasks: [{
 				id: "7F109C0B1FD40197"
 				item: "industrialforegoing:mycelial_death"
@@ -1182,8 +2942,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The rocket mycelial generator converts rockets into FE."]
 			hide_dependency_lines: true
 			id: "7F085E77EC823069"
+			rewards: [
+				{
+					id: "654F12B90C279998"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2870FB6B7DE2A8AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7170B48EDF7F15E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Firework Power"
 			tasks: [{
 				id: "5DDBC27E2658564F"
 				item: "industrialforegoing:mycelial_rocket"
@@ -1194,8 +2989,43 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
+			description: ["The crimed mycelial generator converts mushrooms and mushroom by-products into FE."]
 			hide_dependency_lines: true
 			id: "0DBCC30F9C51929A"
+			rewards: [
+				{
+					id: "4F86EA53F347534D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "109F4217297B2345"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0DFDEC1F3847654E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mushroom Power"
 			tasks: [{
 				id: "1E41E82048339795"
 				item: "industrialforegoing:mycelial_crimed"
@@ -1206,8 +3036,43 @@
 		}
 		{
 			dependencies: ["6DC065159F905D68"]
+			description: ["The meatallurgic mycelial generator converts liquid meat and ingots into FE."]
 			hide_dependency_lines: true
 			id: "1BFB48618549043E"
+			rewards: [
+				{
+					id: "61562998C125A90E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "67076E90A27A893A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "009E5DE548A41E3C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Meatallurgic power"
 			tasks: [{
 				id: "59C35104D28E3A5D"
 				item: "industrialforegoing:mycelial_meatallurgic"
@@ -1218,11 +3083,24 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
-			description: [""]
+			description: ["You'll notice while attempting to keep the grid stable that certain generators generate different amounts of FE at different rates. Depending on where you are at in set up and what you have at your disposal to work with at the time, sometimes voiding excess is an easy method to keep certain things running. This is especially important considering the reactor only activates if all generators are currently running."]
 			hide_dependency_lines: true
-			icon: "trashcans:energy_trash_can"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "trashcans:energy_trash_can"
+			}
 			id: "460C61BD9A3C6AEE"
-			subtitle: "No small feat"
+			rewards: [{
+				id: "473BE32CD43B903F"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "No Small Feat"
 			tasks: [{
 				id: "33058A5C6C133A48"
 				title: "Keeping the grid stable"
@@ -1234,6 +3112,11 @@
 		{
 			dependencies: ["7DCFE8D3D3D030AB"]
 			id: "1F9BFADE9C87C0C1"
+			rewards: [{
+				id: "1BF8FBDE739952BE"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6BD6F5053101F34E"
 				item: {
@@ -1254,6 +3137,11 @@
 		{
 			dependencies: ["7DCFE8D3D3D030AB"]
 			id: "5B7C670915E05F23"
+			rewards: [{
+				id: "1A075BE45BF7DFC4"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4851BDE166A1522F"
 				item: {

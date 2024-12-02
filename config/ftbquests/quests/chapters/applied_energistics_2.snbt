@@ -1896,7 +1896,7 @@
 			description: [
 				"The molecular assembler takes input items and carries out the operation defined by an adjacent pattern provider, or the inserted crafting pattern, smithing table pattern, or stonecutting pattern, then pushes the product to adjacent inventories."
 				""
-				"Their main use is in conjunction with pattern providers. Pattern providers have special behavior in this case, and will send information about the relevant pattern along with the ingredients to adjacent assemblers. Since assemblers auto-eject the results of crafts to adjacent inventories (and thus into the return slots of the pattern provider), an assembler on a pattern provider is all that is needed to automate crafting patterns."
+				"Their main use is in conjunction with pattern providers. Pattern providers have special behavior in this case, and will send information about the relevant pattern along with the ingredients to adjacent assemblers. Since assemblers auto-eject the results of crafts to adjacent inventories (and thus into the return slots of the pattern provider), an assembler and a pattern provider is all that is needed to automate crafting patterns."
 			]
 			id: "4E9DB7997DD4EDF7"
 			subtitle: "Not Optional"

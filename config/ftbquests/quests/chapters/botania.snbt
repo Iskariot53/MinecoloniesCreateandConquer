@@ -98,7 +98,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gathering flowers the easy way"
+			subtitle: "Gathering Flowers, The Easy Way"
 			tasks: [{
 				id: "3863F67A69DE5EBC"
 				item: {
@@ -148,7 +148,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Basic botanical crafting"
+			subtitle: "Basic Botanical Crafting"
 			tasks: [{
 				id: "32670C20B95C21FB"
 				item: {
@@ -194,7 +194,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your first functional flower"
+			subtitle: "Your First Functional Flower"
 			tasks: [{
 				id: "526EA6E799B3AE8F"
 				item: {
@@ -259,7 +259,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your botanical \"wrench\""
+			subtitle: "Your Botanical \"Wrench\""
 			tasks: [
 				{
 					id: "7BF4B5AA4BB499D5"
@@ -322,7 +322,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Saving some inventory space"
+			subtitle: "Saving Some Inventory Space"
 			tasks: [{
 				id: "30C15015E6611354"
 				item: {
@@ -363,7 +363,12 @@
 				"Next craft a &6mana spreader&r and &6mana pool&r, using your wand of the forest, link the flower to the spreader, then the mana spreader to the mana pool. supply the flower with its required resource and you're all done with your first mana set up!"
 			]
 			id: "775D35416263E2B5"
-			subtitle: "Generating mana and how it works"
+			rewards: [{
+				id: "181BBA83A0545857"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Generating Mana and How It Works"
 			tasks: [{
 				id: "7BCDFE4175FD8E8B"
 				title: "The Basics"
@@ -406,7 +411,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana storage"
+			subtitle: "Mana Storage"
 			tasks: [{
 				id: "4C394DE7D456FA49"
 				item: {
@@ -467,7 +472,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Moving mana"
+			subtitle: "Moving Mana"
 			tasks: [{
 				id: "73ED2D2F55DE53AF"
 				item: {
@@ -639,7 +644,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Portable mana storage"
+			subtitle: "Portable Mana Storage"
 			tasks: [{
 				id: "3975D6DD8CF48C8C"
 				item: {
@@ -687,7 +692,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visualizing your set ups"
+			subtitle: "Visualizing Your Set Ups"
 			tasks: [{
 				id: "5B550275AE05E791"
 				item: {
@@ -732,7 +737,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "So whats going on in the mana pool?"
+			subtitle: "So What's Going On In The Mana Pools?"
 			tasks: [{
 				id: "0C1CEB8836888F6F"
 				item: {
@@ -949,7 +954,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana moving FAST"
+			subtitle: "Mana Moving FAST"
 			tasks: [{
 				id: "4D4806E0032CB59D"
 				item: {
@@ -993,7 +998,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Fantastically magical botanical alloys"
+			subtitle: "Fantastically Magical Botanical Alloys"
 			tasks: [{
 				id: "58CCD34CC190389A"
 				item: {
@@ -1023,12 +1028,27 @@
 				"Keep in mind that a normal mana spreader must point at a mana-receiving block to fire. This is why a pulse mana spreader is recommended for certain lenses instead. Bear in mind, components such as pipes and hoppers can add or remove spreaders' lenses."
 			]
 			id: "498CEA081D94A5AB"
-			rewards: [{
-				id: "05B4AD527B521C05"
-				type: "xp"
-				xp: 15
-			}]
-			subtitle: "Tweaking your mana dispersion"
+			rewards: [
+				{
+					id: "05B4AD527B521C05"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5FC76C51B046DE41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tweaking Your Mana Dispersion"
 			tasks: [{
 				id: "78DAC768A206FB44"
 				item: {
@@ -1354,7 +1374,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Trading with the elves of Alfheim"
+			subtitle: "Trading With The Elves Of Alfheim"
 			tasks: [{
 				id: "41F043E07B171629"
 				item: {
@@ -1417,7 +1437,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The agglomeration multi-block"
+			subtitle: "The Agglomeration Multi-Block"
 			tasks: [{
 				id: "40F24D289FAA2762"
 				item: {
@@ -2136,7 +2156,7 @@
 				"Note: Attempting to trade bread will cause a &csmall explosion&r, destroying most of the portal frame... for some stupid reason."
 			]
 			id: "15169FE8866CD32A"
-			subtitle: "The Portal to Alfheim"
+			subtitle: "The Portal To Alfheim"
 			tasks: [{
 				id: "2C49B263289A6FAA"
 				item: {
@@ -3692,7 +3712,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The better mana spreader"
+			subtitle: "The Better Mana Spreader"
 			tasks: [{
 				id: "306CFF8DB703567F"
 				item: {
@@ -3738,7 +3758,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Controlling your mana burts"
+			subtitle: "Controlling Your Mana Bursts"
 			tasks: [{
 				id: "17FD89C9E1E52A2B"
 				item: {
@@ -3842,7 +3862,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Now we're really moving mana!"
+			subtitle: "Now We're Really Moving Mana!"
 			tasks: [{
 				id: "77831255CEC3279C"
 				item: {
@@ -3888,7 +3908,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Preparing pylons for the Ritual of Gaia"
+			subtitle: "Preparing Pylons For The Ritual Of Gaia"
 			tasks: [{
 				id: "596571239C90AE9E"
 				item: {
@@ -3934,7 +3954,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana enchanting boosts"
+			subtitle: "Mana Enchanting Boosts"
 			tasks: [{
 				id: "0098A83AD20ACA14"
 				item: {
@@ -4005,7 +4025,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Channeling Alfheim commerce"
+			subtitle: "Channeling Alfheim Commerce"
 			tasks: [{
 				id: "39BE1C677842868D"
 				item: {
@@ -4069,7 +4089,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The botanical boss battle"
+			subtitle: "The Botanical Boss Battle"
 			tasks: [{
 				id: "6E1F2ECC2289FAA0"
 				item: {
@@ -4115,7 +4135,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The big bad botanical boss battle"
+			subtitle: "The Big Bad Botanical Boss Battle"
 			tasks: [{
 				id: "3DDAD123710192B6"
 				item: {
@@ -4181,7 +4201,7 @@
 				""
 				"These gifts, known as Relics of the Aesir, are player-bound and unique. (giving someone a relic they themselves didn't earn is a bad idea.)"
 				""
-				"These items are obtained from rolls of the dice of fate, and possess tremendous power. Relics will never be given to the same player twice, so if you have recieved one that you were not hoping for, keep it. Having it will ensure that you will not recieve it a second time from procedding rolls."
+				"These items are obtained from rolls of the dice of fate, and possess tremendous power. Relics will never be given to the same player twice, so if you have recieved one that you were not hoping for, keep it. Having it will ensure that you will not recieve it a second time from proceeding rolls."
 				""
 				"Once a relic is obtained, any pertinent information to it will magically appear within your copy of the Lexica Botania."
 			]
@@ -4191,7 +4211,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Phenomenal cosmic... plant... power?"
+			subtitle: "Phenomenal Cosmic... Plant?... Power?"
 			tasks: [{
 				id: "50A703587DB7C3DB"
 				item: {
@@ -4386,7 +4406,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Convert mana into power!"
+			subtitle: "Convert Mana Into Power!"
 			tasks: [{
 				id: "368E1DCBFEDC11E9"
 				item: {
@@ -4444,7 +4464,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana tablets are so yesterday...."
+			subtitle: "Mana Tablets Are So Yesterday...."
 			tasks: [{
 				id: "53B30026CD93A935"
 				item: {
@@ -4491,7 +4511,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Automating magic rods"
+			subtitle: "Automating Magic Rods"
 			tasks: [{
 				id: "5DCABE5ACB737E7D"
 				item: {
@@ -4546,7 +4566,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Controlling the weather with mana"
+			subtitle: "Controlling The Weather With Mana"
 			tasks: [{
 				id: "32DE91641DC73F54"
 				item: {
@@ -4592,7 +4612,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Speeding up flowers"
+			subtitle: "Speeding Up Flowers"
 			tasks: [{
 				id: "21CE51B1B3F14AEF"
 				item: {
