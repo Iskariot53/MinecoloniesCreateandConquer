@@ -1,5 +1,5 @@
 {
-	autofocus_id: "2CB1B84AC28EA6D1"
+	autofocus_id: "7862C2708A5A89CE"
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "world_exploration_quests"
@@ -2449,6 +2449,2309 @@
 			}]
 			x: 27.0d
 			y: 10.92857142857143d
+		}
+		{
+			id: "2839D6F192740BE0"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "3F7A56447B9E50D0"
+				structure: "integrated_villages:airship_village"
+				title: "Airship Village"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "3D07AFE6F1D8AB03"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "3CE3DD884467C5BE"
+				structure: "integrated_villages:cabin_village"
+				title: "Cabin Village"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "60AC19A91B2F4D4A"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "2A79EB90A7F98BEB"
+				structure: "integrated_villages:kutcha_village"
+				title: "Kutcha Village"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "4A6FD3C645E7CBD7"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "0D808BB421C13302"
+				structure: "integrated_villages:marketstead_village"
+				title: "Marketstead Village"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "35760521786B9273"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "610E75121499D888"
+				structure: "integrated_villages:mediterranean_village"
+				title: "Mediterranean Village"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "17155B468F57AE85"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "070130F502233A72"
+				structure: "integrated_villages:mossy_mounds"
+				title: "Mossy Mounds"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "0A6A008EB88945B8"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "28091E504B42304A"
+				structure: "integrated_villages:oasis_village"
+				title: "Oasis Village"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "16C2B0D125059BFC"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "017603C7C0DBDCB6"
+				structure: "integrated_villages:pirate_village"
+				title: "Pirate Village"
+				type: "structure"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "6CAD22A431A29E99"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "34698AB199FE7411"
+				structure: "integrated_villages:quark/minka_village"
+				title: "Minka Village"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "152A8B241EE6C617"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:emerald"
+				}
+				id: "6438EC4EBCC5E1C7"
+				structure: "integrated_villages:tavern_village"
+				title: "Tavern Village"
+				type: "structure"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"60AC19A91B2F4D4A"
+				"17155B468F57AE85"
+				"6CAD22A431A29E99"
+				"0A6A008EB88945B8"
+				"4A6FD3C645E7CBD7"
+				"3D07AFE6F1D8AB03"
+				"16C2B0D125059BFC"
+				"2839D6F192740BE0"
+				"35760521786B9273"
+				"152A8B241EE6C617"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "artifacts:villager_hat"
+			}
+			icon_scale: 2.0d
+			id: "114E7957C9DF5EE0"
+			rewards: [
+				{
+					id: "15EEE84A639FC7BF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5A1B91426C25D441"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "artifacts:villager_hat"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6E457DA58FAD4DC9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4939B1A37BC5A1A6"
+				type: "checkmark"
+			}]
+			title: "Visit all types of Villages!"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "11CBFCF3A51A811B"
+			rewards: [
+				{
+					id: "5205DD927D0C7C15"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "4E0C170428C6A297"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:black_steel_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4C9C15F359558806"
+				structure: "idas:ancient_mines"
+				title: "Ancient Mines"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "3582AE2542689AED"
+			rewards: [
+				{
+					id: "6038A3FEAB969367"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "137664C8E1E55796"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:amethyst_cluster"
+				}
+				id: "4136C7309693053E"
+				structure: "idas:apothecary_abode"
+				title: "Apothecary Abode"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			id: "462C37E42216E1A1"
+			rewards: [
+				{
+					id: "6B7095EFF7EC8068"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "2FB9B65E9B38BD0D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:relay_warp"
+				}
+				id: "50DC4B79D4E20325"
+				structure: "idas:ars_nouveau/archmages_tower"
+				title: "Archmage's Tower"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			id: "430E00872CDFDA95"
+			rewards: [
+				{
+					id: "7EC7F57241854161"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "72F0E7AF63328067"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "supplementaries:sack"
+					tag: {
+						BlockEntityTag: {
+							ForgeCaps: { }
+						}
+					}
+				}
+				id: "5B303E03021D6546"
+				structure: "idas:bazaar"
+				title: "Bazaar"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			id: "693872D82470D28E"
+			rewards: [
+				{
+					id: "55C27900D43439C9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "584102A2D121A51D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:sandcastle"
+				}
+				id: "63A3775A148A0346"
+				structure: "idas:desert_pyramid"
+				title: "Desert Pyramid"
+				type: "structure"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			id: "378F61B68695DA39"
+			rewards: [
+				{
+					id: "230CF4D0DFD87BC8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "123FD421D90E113D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:tendon_whip"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "518F6839E569792F"
+				structure: "idas:haunted_manor"
+				title: "Haunted Manor"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			id: "3F760147B6A4D5A8"
+			rewards: [
+				{
+					id: "7CDEEB1F94F815D3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "0A4B3597DB62C9C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bbb:sandstone_fence"
+				}
+				id: "39E8766BBBEB9CC8"
+				structure: "idas:labyrinth"
+				title: "Labyrinth"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "69097EC22620266F"
+			rewards: [
+				{
+					id: "63045D9C0910CF8E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "565A7BBE6DF4853D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:bee_on_head"
+				}
+				id: "1EBC2A5125304003"
+				structure: "queen_bee:beehive"
+				title: "Queen Bee Beehive"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "3F77F04D1C1EE321"
+			rewards: [
+				{
+					id: "53001B6C79CCA0DD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "183F0C14127BB24B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "plushie_buddies:plushie_pillager"
+				}
+				id: "44CF995335A65849"
+				structure: "idas:pillager_fortress"
+				title: "Pillager Fortress"
+				type: "structure"
+			}]
+			x: 20.0d
+			y: -4.5d
+		}
+		{
+			id: "2868BC4D50B27AEA"
+			rewards: [
+				{
+					id: "397A5B2B3C434BCF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "0A13C3599F43F7BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quark:tuff_pillar"
+				}
+				id: "4C24C396D1DE30E1"
+				structure: "idas:ruins_of_the_deep"
+				title: "Ruins of The Deep"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			id: "29DE0A0FD258B463"
+			rewards: [
+				{
+					id: "38BE344766F7F247"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "0FBD00C0FE2E2631"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "design_decor:brass_floor"
+				}
+				id: "0C42913BCE2CEC5F"
+				structure: "idas:tinkers_citadel"
+				title: "Tinker's Citadel"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			id: "1DFE3F1340DF52DE"
+			rewards: [
+				{
+					id: "0192372FD0A9A172"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "5ECB9200E6A9C5FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:flywheel"
+				}
+				id: "0CDEEC049E0694B7"
+				structure: "idas:tinkers_workshop"
+				title: "Tinker's Workshop"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			id: "69A8B5839855B4B6"
+			rewards: [
+				{
+					id: "4B20A5BEACF2E3F4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "243D028A545A6FF0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:time_sapling"
+				}
+				id: "6F69740D0B0A6D11"
+				structure: "idas:tree_of_wisdom"
+				title: "Tree of Wisdom"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: -6.0d
+		}
+		{
+			id: "41D9F561FE0110BF"
+			rewards: [
+				{
+					id: "42C05BAEA85F55D9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "6CB3421E88D33964"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:crying_obsidian"
+				}
+				id: "39FCC567142E8F88"
+				structure: "idas:necromancers_spire"
+				title: "Necromancer's Spire"
+				type: "structure"
+			}]
+			x: 20.0d
+			y: -7.5d
+		}
+		{
+			icon_scale: 1.5d
+			id: "32C4D3BF2AD70CA6"
+			rewards: [
+				{
+					id: "1876163FAEA91200"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "02B9398AAD3C739A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "plushie_buddies:plushie_warden"
+				}
+				id: "59053364AD841B37"
+				structure: "minecraft:ancient_city"
+				title: "Ancient City"
+				type: "structure"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			id: "038E24A1FB14217E"
+			rewards: [
+				{
+					id: "5100A5B408500F7F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "3F92B875594F564B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:yellow_concrete"
+				}
+				id: "16E732062FA75A07"
+				structure: "dungeons_arise:bandit_towers"
+				title: "Bandit Towers"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			id: "7316F2CCC433AABC"
+			rewards: [
+				{
+					id: "7C778E5C3BE0BBDC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "5783AF66E1CB90EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "pamhc2foodcore:freshwateritem"
+				}
+				id: "23CB96896BC8519D"
+				structure: "dungeons_arise:bathhouse"
+				title: "Bathhouse"
+				type: "structure"
+			}]
+			x: 19.0d
+			y: -5.0d
+		}
+		{
+			id: "1A120834CDDA48D2"
+			rewards: [
+				{
+					id: "634A4E88EE899613"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "26707CB609B8CAC9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cracked_stone_bricks"
+				}
+				id: "0F7C9F8901D32B16"
+				structure: "dungeons_arise:coliseum"
+				title: "Coliseum"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: -9.0d
+		}
+		{
+			id: "56E9CC231B51203A"
+			rewards: [
+				{
+					id: "6F5D71D5E30FE7BD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "488DD5055138CB9D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:netherite_ingot"
+				}
+				id: "572EA0C245513264"
+				structure: "dungeons_arise:foundry"
+				title: "Foundry"
+				type: "structure"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			id: "0AB9D5AAE7DB0F55"
+			rewards: [
+				{
+					id: "6299DA021F3A99A3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "68AA052F47788AAE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "spartanweaponry:illager_head"
+				}
+				id: "109C9670127E5140"
+				structure: "dungeons_arise:illager_fort"
+				title: "Illager Fort"
+				type: "structure"
+			}]
+			x: 13.0d
+			y: -8.0d
+		}
+		{
+			id: "30B4895A913629E7"
+			rewards: [
+				{
+					id: "20E4DEA7065F9A64"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "3A73E009BC03BB82"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:dark_prismarine"
+				}
+				id: "0FB81290C4217A85"
+				structure: "dungeons_arise:infested_temple"
+				title: "Infested Temple"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: -9.5d
+		}
+		{
+			id: "67353329D42533AB"
+			rewards: [
+				{
+					id: "215AF7F1DC10B36F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "78AD4A33BDB5F5C9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "plushie_buddies:plushie_frog"
+				}
+				id: "6DFBB31CAB1E8E22"
+				structure: "dungeons_arise:keep_kayra"
+				title: "Keep Kayra"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: -9.5d
+		}
+		{
+			id: "17BD0D76A8CDEBC7"
+			rewards: [
+				{
+					id: "66FAFC0F2B3CCCB7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "081AABF53F4BF926"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:powered_rail"
+				}
+				id: "4BE93B870B2D98BC"
+				structure: "dungeons_arise:mining_system"
+				title: "Mining System"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: -8.5d
+		}
+		{
+			id: "143010B48BC294DC"
+			rewards: [
+				{
+					id: "26F6C2354F7F8DD1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "20A96FCB475EE1CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:brown_mushroom_colony"
+				}
+				id: "0F251BD27F365AE5"
+				structure: "dungeons_arise:mushroom_mines"
+				title: "Mushroom Mines"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			id: "3021722724F642B9"
+			rewards: [
+				{
+					id: "3D4920B86608DD02"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "6F76B37B9C260F34"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "farmersdelight:red_mushroom_colony"
+				}
+				id: "005479B116834A2E"
+				structure: "dungeons_arise:mushroom_village"
+				title: "Mushroom Village"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			id: "6740EABD14A307BC"
+			rewards: [
+				{
+					id: "462A04677DE03CA9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "69039BB611FBEFF7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "enlightened_end:rooted_potion"
+					}
+				}
+				id: "7B59F6ED77C1EB5E"
+				structure: "dungeons_arise:plague_asylum"
+				title: "Plague Asylum"
+				type: "structure"
+			}]
+			x: 14.0d
+			y: -7.5d
+		}
+		{
+			id: "549C8FD7DCF41954"
+			rewards: [
+				{
+					id: "02A73960E5ACB1EF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "04B305AF53297752"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:blaze_powder"
+				}
+				id: "5FC53619EBB282CA"
+				structure: "dungeons_arise:scorched_mines"
+				title: "Scorched Mines"
+				type: "structure"
+			}]
+			x: 22.0d
+			y: -6.5d
+		}
+		{
+			id: "247C050E60F39E1C"
+			rewards: [
+				{
+					id: "725D15DC0397CB1F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "64BB170961DA4D58"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:totem_of_undying"
+				}
+				id: "544990ED82C51091"
+				structure: "dungeons_arise:shiraz_palace"
+				title: "Shiraz Palace"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			id: "741CF3C27F071949"
+			rewards: [
+				{
+					id: "7AD5F85CE4EB89D8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "7CBFEEEE5382A6EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "twilightforest:thorn_rose"
+				}
+				id: "1D474902C502C04F"
+				structure: "dungeons_arise:thornborn_towers"
+				title: "Thornborn Towers"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: -7.5d
+		}
+		{
+			id: "27AB4F2150B42C89"
+			rewards: [
+				{
+					id: "0C1CE46BCEC28B78"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "0AEBB3F4A1CD9079"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:phantom_membrane"
+				}
+				id: "6B7269C4E29B4EA4"
+				structure: "dungeons_arise:aviary"
+				title: "Aviary"
+				type: "structure"
+			}]
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			id: "60CA380E1AC799C3"
+			rewards: [
+				{
+					id: "14189B28A652AEB2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "5E84B282CF07518B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "36D9F8B943A2E47B"
+				structure: "dungeons_arise:heavenly_challenger"
+				title: "Heavenly Challenger"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			id: "3B8BC7F14564CDB5"
+			rewards: [
+				{
+					id: "76E981D2F38751C5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "4582889010FF92C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:golden_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7A3386E337D3F1B4"
+				structure: "dungeons_arise:heavenly_conqueror"
+				title: "Heavenly Conquerer"
+				type: "structure"
+			}]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			id: "24CCAFF4FA152629"
+			rewards: [
+				{
+					id: "49EDAC266E787CE9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "496EFEEA3C058B45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:saddle"
+				}
+				id: "364190D730B02EFB"
+				structure: "dungeons_arise:heavenly_rider"
+				title: "Heavenly Rider"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: -6.5d
+		}
+		{
+			id: "34E48B6B015B8395"
+			rewards: [
+				{
+					id: "45592F61B2D809D6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "0CCE02F9AF2B5619"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:storage_lectern"
+				}
+				id: "53CF9024D1C33C05"
+				structure: "ars_additions:arcane_library"
+				title: "Arcane Library"
+				type: "structure"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			id: "76E3542F9A9F56DE"
+			rewards: [
+				{
+					id: "3B8DFAB708B23DD7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "73ECBFD15BF48C9F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:slime_block"
+				}
+				id: "2279063B1A74A165"
+				structure: "ati_structures:ancient_temple"
+				title: "Ancient Temple"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: -9.0d
+		}
+		{
+			id: "6DA00F8554032A95"
+			rewards: [
+				{
+					id: "1C48438E5F15A5D4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "39C6867C2FBE737F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:dried_kelp_block"
+				}
+				id: "511D58A375F13527"
+				structure: "ati_structures:fortified_temple"
+				title: "Fortified Temple"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: -5.5d
+		}
+		{
+			id: "6E164CCA78603131"
+			rewards: [
+				{
+					id: "5D49C55F52A6E862"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "6CFAA1630ECF3E24"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:mud_brick_wall"
+				}
+				id: "23AF3B21A89D2172"
+				structure: "ati_structures:granite_fort"
+				title: "Granite Fort"
+				type: "structure"
+			}]
+			x: 19.0d
+			y: -6.0d
+		}
+		{
+			id: "1AFE93780FAD52BD"
+			rewards: [
+				{
+					id: "1E3E2E6ECE0F2550"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "7C061BD16035C1C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:bigstevehead"
+				}
+				id: "6B320C4CDB176256"
+				structure: "ati_structures:herobrine_stronghold"
+				title: "Herobrine Stronghold"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: -6.0d
+		}
+		{
+			id: "4A1F19EC97A3BCD1"
+			rewards: [
+				{
+					id: "4EF739233A5114AF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "273E875979BAD216"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:dead_horn_coral_block"
+				}
+				id: "615F9F90D5B725D4"
+				structure: "ati_structures:manor"
+				title: "Manor"
+				type: "structure"
+			}]
+			x: 17.0d
+			y: -8.0d
+		}
+		{
+			id: "1EDB990BDA6E9A88"
+			rewards: [
+				{
+					id: "0A01CB42F6DB8D7D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "6B477416404A5D5D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:calcite"
+				}
+				id: "7828EF718A3A4FFA"
+				structure: "ati_structures:marble_chateau"
+				title: "Marble Chateau"
+				type: "structure"
+			}]
+			x: 22.0d
+			y: -5.5d
+		}
+		{
+			id: "2356FB77A7D25E8C"
+			rewards: [
+				{
+					id: "728443710404E078"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "60ED983AC8372FBA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:nether_wart_block"
+				}
+				id: "350558F7FA871759"
+				structure: "ati_structures:monastery_tower"
+				title: "Monastery Tower"
+				type: "structure"
+			}]
+			x: 21.0d
+			y: -5.0d
+		}
+		{
+			id: "19CE036260DEF9D2"
+			rewards: [
+				{
+					id: "4C826419EA87E7E1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "53DAEC71023895BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:polished_deepslate_wall"
+				}
+				id: "3E538E3B1EDACB28"
+				structure: "ati_structures:old_fort"
+				title: "Old Fort"
+				type: "structure"
+			}]
+			x: 20.0d
+			y: -6.5d
+		}
+		{
+			id: "626C135150FD0A02"
+			rewards: [
+				{
+					id: "12C49F6E3220E3D8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "75DB0B27C4C01E7B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "spartanweaponry:drowned_head"
+				}
+				id: "7C61825AEEDF790D"
+				structure: "ati_structures:sinking_temple"
+				title: "Sinking Temple"
+				type: "structure"
+			}]
+			x: 20.0d
+			y: -5.5d
+		}
+		{
+			id: "22FBB3621E80B2D7"
+			rewards: [
+				{
+					id: "3FC6CD94411B8349"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "0C7E42E7C0E110AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "handcrafted:spruce_chair"
+				}
+				id: "38705C2DEF84CB20"
+				structure: "ati_structures:tavern"
+				title: "Tavern"
+				type: "structure"
+			}]
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			id: "508B35B8A96ECD48"
+			rewards: [
+				{
+					id: "7859320FA7DF320E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "4C50ECC248E2E0E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "plushie_buddies:plushie_villager"
+				}
+				id: "1412A878A9D1F7DF"
+				structure: "ati_structures:villager_inn"
+				title: "Villager Inn"
+				type: "structure"
+			}]
+			x: 21.0d
+			y: -7.0d
+		}
+		{
+			id: "761E98E7E19395D6"
+			rewards: [
+				{
+					id: "7D885691A243A447"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "019787FAAB2995E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "plushie_buddies:plushie_wandering_trader"
+				}
+				id: "6FB3D4A7ABE43AB3"
+				structure: "idas:winter_wagon"
+				title: "Winter Wagon"
+				type: "structure"
+			}]
+			x: 12.0d
+			y: -8.5d
+		}
+		{
+			id: "30B2ADF33BF82B1E"
+			rewards: [
+				{
+					id: "65A8999C7EF9692F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "766375FCEFDC861B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "plushie_buddies:plushie_vex"
+				}
+				id: "315B493C73BEFD9B"
+				structure: "minecraft:mansion"
+				title: "Mansion"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: -8.5d
+		}
+		{
+			id: "4AD83920AE3E726A"
+			rewards: [
+				{
+					id: "5B7D9D7C15B6DC5B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "28DAE306A5BB0703"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:waystone"
+				}
+				id: "053E33CFD2147DD8"
+				structure: "idas:nexus"
+				title: "Nexus"
+				type: "structure"
+			}]
+			x: 23.0d
+			y: -6.0d
 		}
 	]
 	title: "&eWorld Exploration Quests"
