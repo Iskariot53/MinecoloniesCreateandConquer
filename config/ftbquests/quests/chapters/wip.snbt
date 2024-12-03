@@ -70,6 +70,26 @@
 				"Refer to the \"&6Industrial Foregoing&r\" section of \"Core Mods\" for more info!"
 			]
 			id: "206BBE6C92511589"
+			rewards: [
+				{
+					id: "0966713D4414826A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "53E241EDD0D0386B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Smells like happy in here..."
 			tasks: [{
 				id: "0705E8D27A85E971"
@@ -83,6 +103,26 @@
 			dependencies: ["206BBE6C92511589"]
 			description: ["The recipe for steel casing has been augmented to now require &3ether&r, as well as for the ingredients to be &6compacted in a heated basin&r."]
 			id: "61D74FC3BD5023C6"
+			rewards: [
+				{
+					id: "4EAC4FD1F85F6D6D"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "52F9426F6B723934"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "A little spicey here"
 			tasks: [{
 				id: "4490D02CF509D699"
@@ -114,6 +154,27 @@
 				"&aJEI&r is your friend here, as always. Again: &6If in doubt. If it's not empty or a pellet yet it's probably not safe for you to break that block&r."
 			]
 			id: "15CBA02058507A50"
+			rewards: [
+				{
+					id: "344797BB0282E330"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "6A0EDCF8EEBF97F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Starting nucelear waste management"
 			tasks: [{
@@ -127,6 +188,27 @@
 		{
 			dependencies: ["15CBA02058507A50"]
 			id: "188944FE101F78E4"
+			rewards: [
+				{
+					id: "310586357ECC4FBD"
+					type: "xp"
+					xp: 70
+				}
+				{
+					count: 3
+					id: "19C9837D6ED2669A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "04BA6F6C8010AFD7"
 				item: "enlightened_end:irradium_bar"
@@ -138,6 +220,27 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "27B79CACDD006321"
+			rewards: [
+				{
+					id: "25BD0F3A0364844E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "2020BB968E1DFFDB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7CC67D554C94AE74"
 				item: "scguns:scorched_ingot"
@@ -149,6 +252,27 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "3F9759B64AF3B665"
+			rewards: [
+				{
+					id: "4E91820A7C85919D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "1B64E3AABF1F79AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "06F91F1659FA143C"
 				item: "celestisynth:celestial_netherite_ingot"
@@ -206,6 +330,27 @@
 				"3F9759B64AF3B665"
 			]
 			id: "06DE55B8F9F4A557"
+			rewards: [
+				{
+					id: "0457CDB990559D9B"
+					type: "xp"
+					xp: 80
+				}
+				{
+					count: 3
+					id: "1BC498AF5A7699E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "523B13DF46F2F07C"
 				item: {
@@ -230,6 +375,27 @@
 				"624F781575FB80FE"
 			]
 			id: "1DC8C706C321F8A5"
+			rewards: [
+				{
+					id: "49B61451969B89FE"
+					type: "xp"
+					xp: 80
+				}
+				{
+					count: 3
+					id: "6969CE8FADE934CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "519058A4D7C16410"
 				item: {
@@ -274,6 +440,27 @@
 			]
 			description: ["The Starlit Factory is crafted in a Mechanical Crafter and used to forge all types of end game goodiea. It requires fuel to operate, such as amethyst shards, celestial cores or heated celestial cores."]
 			id: "5408F21008F2B15F"
+			rewards: [
+				{
+					id: "0E0A007C67ADD865"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 2
+					id: "3E7C97F9ADAF6776"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "Getting to the good stuff"
 			tasks: [{
@@ -295,6 +482,39 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "1A7A0C78DDD9BCA1"
+			rewards: [
+				{
+					id: "4A3C3D317AF9FA7B"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "4036601F146AD634"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "18592E60494D9A37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Rare mineral found in The End"
 			tasks: [{
 				id: "77F56CCFBC0106A6"
@@ -315,6 +535,26 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "28841752C751A46F"
+			rewards: [
+				{
+					id: "34F66541EA9C9B37"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0FF73F5C231026D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "152A2B278DC036EA"
 				item: {
@@ -334,6 +574,39 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "18172AB4AD383F31"
+			rewards: [
+				{
+					id: "7DD3AEC243EA50A8"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "764B9E15CF16C928"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2CC8287F10C6FD08"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0BD6828C9B3931F8"
 				item: {
@@ -353,6 +626,26 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "2267C3843D1363D5"
+			rewards: [
+				{
+					id: "78ED18737F433BA1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "390C984ED19F64E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "289AD214601A8439"
 				item: {
@@ -372,6 +665,39 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "04B564A5A16F766D"
+			rewards: [
+				{
+					id: "1FAF88276A3EC601"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "4B8F27B6B59013AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "54DA2C17EA1F7911"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D9B0070B15C9563"
 				item: {
@@ -391,6 +717,39 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			id: "624F781575FB80FE"
+			rewards: [
+				{
+					id: "65E6041B182D6784"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "43954FB8409082DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2A30CC2366F74842"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "060D0016FA911F32"
 				item: {
@@ -413,6 +772,26 @@
 				"29307362D6F4A8AD"
 			]
 			id: "1B157D0B0082F798"
+			rewards: [
+				{
+					id: "2C1F0455B21CDE80"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "085E091732F237C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			size: 2.5d
 			tasks: [{
 				id: "44BCB6173DC12185"
@@ -436,6 +815,26 @@
 				"29307362D6F4A8AD"
 			]
 			id: "31C6BBF1300F6C40"
+			rewards: [
+				{
+					id: "2AAF69D994FD7768"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F17215512A78598"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			size: 2.5d
 			tasks: [{
 				id: "45EA7FCF95151EF9"
@@ -590,6 +989,27 @@
 		{
 			dependencies: ["188944FE101F78E4"]
 			id: "74855A39B2F24F18"
+			rewards: [
+				{
+					id: "2D5B9336984DFB35"
+					type: "xp"
+					xp: 85
+				}
+				{
+					count: 2
+					id: "06EC9E9E74547F14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "69ED0E4A4EFF06D2"
 				item: {
@@ -609,6 +1029,27 @@
 		{
 			dependencies: ["188944FE101F78E4"]
 			id: "66FCE1AB8CEB01E0"
+			rewards: [
+				{
+					id: "01F66BE9B71DD947"
+					type: "xp"
+					xp: 85
+				}
+				{
+					count: 2
+					id: "3CCFEBEED951921A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3FB5293B2E637420"
 				item: {
@@ -631,6 +1072,27 @@
 				"66FCE1AB8CEB01E0"
 			]
 			id: "29307362D6F4A8AD"
+			rewards: [
+				{
+					id: "4661E2F1B38D87BB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "6355F0D10A6482AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				id: "3D0DF64CA82F01F0"
@@ -754,6 +1216,27 @@
 				"5B64AE900E9F6684"
 			]
 			id: "4573CA9273C845EF"
+			rewards: [
+				{
+					id: "263E19B8C38278CE"
+					type: "xp"
+					xp: 150
+				}
+				{
+					count: 3
+					id: "01E85F99576AB486"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "4E8A523BCC824F05"
@@ -774,6 +1257,26 @@
 		{
 			dependencies: ["188944FE101F78E4"]
 			id: "7D2A147003467889"
+			rewards: [
+				{
+					id: "36CD62DEB1E0DA92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C4EAC03D73591C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4EC43D1F66CC8373"
 				item: {
@@ -802,6 +1305,26 @@
 				"5B64AE900E9F6684"
 			]
 			id: "263B5143F87AEA5F"
+			rewards: [
+				{
+					id: "7C37225C2F6D9165"
+					type: "xp"
+					xp: 120
+				}
+				{
+					id: "53E077ECC5B18D41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "6AEA84C190B2D635"
@@ -822,6 +1345,26 @@
 		{
 			dependencies: ["206BBE6C92511589"]
 			id: "3B611A664A6D8EFF"
+			rewards: [
+				{
+					id: "05F4B2D9F57E6E0E"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "0B27FE4CD22531BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "02E7B33EF55EF598"
 				item: {
@@ -841,6 +1384,27 @@
 		{
 			dependencies: ["3B611A664A6D8EFF"]
 			id: "5B64AE900E9F6684"
+			rewards: [
+				{
+					id: "69756A2E62EE5380"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "2BB2658AE57F1219"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "50EBD6A3E1286C14"
@@ -874,7 +1438,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 20.0d
 		}
 		{
@@ -893,8 +1457,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 22.5d
+			x: 0.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["48D9A81E2A9CB3F5"]
@@ -913,8 +1477,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 23.5d
+			x: -4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["48D9A81E2A9CB3F5"]
@@ -932,8 +1496,172 @@
 				}
 				type: "item"
 			}]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["675FC347FA9831A6"]
+			id: "5D6E4CAC853FA0A9"
+			tasks: [{
+				id: "2A841AAA4BB15809"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:awakened_core"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"5D6E4CAC853FA0A9"
+				"3DDF35E0E352281E"
+			]
+			id: "21C13E5E97353F66"
+			tasks: [{
+				id: "037B85C1681B69C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:chaotic_core"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"675FC347FA9831A6"
+				"1CC855C521C4EBAC"
+			]
+			id: "1DA9820F00A43B42"
+			tasks: [{
+				id: "4E2E62F69DE27DC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:wyvern_crafting_injector"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"1DA9820F00A43B42"
+				"5D6E4CAC853FA0A9"
+			]
+			id: "5778163C00743CB5"
+			tasks: [{
+				id: "25B216AA9BAF63F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:awakened_crafting_injector"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"5778163C00743CB5"
+				"3DDF35E0E352281E"
+			]
+			id: "27031A2DE57DB48C"
+			tasks: [{
+				id: "4A855033BACB05E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:chaotic_crafting_injector"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3DDF35E0E352281E"]
+			id: "7148B44E1EDDCAE8"
+			tasks: [{
+				id: "171646BFFE9E61D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:reactor_core"
+				}
+				type: "item"
+			}]
 			x: -1.0d
-			y: 23.5d
+			y: 28.5d
+		}
+		{
+			dependencies: ["3DDF35E0E352281E"]
+			id: "640CFEF8A54748B9"
+			tasks: [{
+				id: "480917FF964375D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:reactor_stabilizer"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["458654090B99F569"]
+			id: "3DDF35E0E352281E"
+			tasks: [{
+				id: "657C52721B660E5E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:chaos_shard"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 27.0d
 		}
 	]
 	title: "&eThe Road Less Traveled"
