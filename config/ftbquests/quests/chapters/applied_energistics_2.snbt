@@ -2187,7 +2187,7 @@
 				"In fact, it doesn't even care if the ingredients make any sense in relation to the result. You could tell it \"1 oak fence = 1 echo shard\" and have your warden farm kill a warden upon an oak fence input trigger... and yes, it will still work."
 			]
 			id: "52EE3999CFEDA9B4"
-			subtitle: "Baby steps"
+			subtitle: "Baby Steps"
 			tasks: [{
 				id: "447863D3BAABE95F"
 				title: "Some Pointers"
@@ -2954,6 +2954,29 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: [
+				"3C14DEF222D49021"
+				"475840187805136F"
+				"5FA7113B0E256602"
+			]
+			id: "08B34DE812C3235B"
+			tasks: [{
+				id: "64E36DA1D178C9C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ae2wtlib:quantum_bridge_card"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
 		}
 	]
 	title: "&eApplied Energistics 2"

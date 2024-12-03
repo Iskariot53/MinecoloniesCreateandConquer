@@ -84,6 +84,26 @@
 				"Any infusion material that can be used in the infuser can also be enriched in an enrichment chamber to make that resource much more efficiently used by the infuser."
 			]
 			id: "744BF2D2E55A1511"
+			rewards: [
+				{
+					id: "710991CA9742ADE0"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "76F7562FF6516309"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Infusing Alloys"
 			tasks: [{
 				id: "48BA68D98D82DF8C"
@@ -103,7 +123,29 @@
 		}
 		{
 			dependencies: ["1A54CB7CC678C553"]
+			description: ["The enrichment chamber can be used to make your infusion materials last &oa lot&r longer. "]
 			id: "0DFEC0DF582D9988"
+			rewards: [
+				{
+					id: "56BF5EA4C69E00BC"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "455043D48032361B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Enriching Resources"
 			tasks: [{
 				id: "27C16BAB6900FC12"
 				item: {
@@ -124,6 +166,40 @@
 			dependencies: ["744BF2D2E55A1511"]
 			description: ["To make you steel you must infuse iron with carbon (coal) in a metallurgic infuser. This will yield enriched iron, which will then need be infused with carbon a second time to make steel dust. Using enriched carbon is going to make this consume a lot less coal."]
 			id: "63440E310364A62A"
+			rewards: [
+				{
+					id: "1A1D000B21661AFA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "06FFAF6A16913EE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "17748EC2763F4ED0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Making Steel"
 			tasks: [
 				{
@@ -182,6 +258,26 @@
 			dependencies: ["63440E310364A62A"]
 			description: ["Compact 4 steel ingots 4 glass and 1 osmium ingot in a heated basin supplied with ether."]
 			id: "1A54CB7CC678C553"
+			rewards: [
+				{
+					id: "3AAEA260916CDFA5"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "1213C88AFC216AE5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			subtitle: "Making Casings"
 			tasks: [{
@@ -203,6 +299,40 @@
 		{
 			dependencies: ["0DFEC0DF582D9988"]
 			id: "64C7CCAD15697CAF"
+			rewards: [
+				{
+					id: "45FF223EB7F20B38"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7102498A1218A650"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63A93D2D9543D845"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4447476B165D6E0D"
 				item: {
@@ -222,6 +352,40 @@
 		{
 			dependencies: ["0DFEC0DF582D9988"]
 			id: "5157EFB7AFF4E525"
+			rewards: [
+				{
+					id: "024C0471E7029E16"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "12909CFCB8D76764"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "365CA826EBFF58C1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "32CA5817D6E18026"
 				item: {
@@ -241,6 +405,40 @@
 		{
 			dependencies: ["0DFEC0DF582D9988"]
 			id: "72DCC1B8F79DDF5D"
+			rewards: [
+				{
+					id: "371FFA3AC8DC46B4"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2A8744C31133F776"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "37F4855FF2E38FA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1B6353D975F4B399"
 				item: {
@@ -260,6 +458,40 @@
 		{
 			dependencies: ["0DFEC0DF582D9988"]
 			id: "4C4BC66202FE4CEA"
+			rewards: [
+				{
+					id: "1335E2C7E5D215C3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1A9801DDC1CBDEE4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "06569DDFE59262AE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "27FCC9D87E7F48A5"
 				item: {
@@ -278,7 +510,43 @@
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
+			description: ["Wasted radioactive eggs and combs can be processed in a chemical oxidizer in order to more safely and easily automate the production of waste."]
 			id: "4D97B36C553829F3"
+			rewards: [
+				{
+					id: "39F9D9CD512BF6B4"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "5AAFB7DB1435962F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "11188AA44B71D5AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Processing Eggs and Combs"
 			tasks: [{
 				id: "0E097C48250DB1D4"
 				item: {
@@ -292,12 +560,34 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 14.0d
+			x: -1.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["38FEAC55F958F1AF"]
+			description: ["The isotopic centrifuge will convert nuclear waste into plutonium gas, which does not decay. The plutonium pellets made from processing this gas will be needed on the way to producing and processing antimatter."]
 			id: "45C5145795B1BD29"
+			rewards: [
+				{
+					id: "61E9610FDC0CF1DA"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "5C007409279F3D46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Processing Nuclear Waste"
 			tasks: [{
 				id: "3906B4DFC98B94DD"
 				item: {
@@ -316,7 +606,29 @@
 		}
 		{
 			dependencies: ["3529BF2321A4EC4E"]
+			description: ["The solar neutron activator will convert nuclear waste into polonium gas, which does not decay. However, it will only do so during the day and when it has clear view of the sky. The polonium pellets made from processing this gas will be needed on the way to producing and processing antimatter."]
 			id: "0BC1B7B07FC3E8F1"
+			rewards: [
+				{
+					id: "7C41580E5B47795E"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "627A043B0BB87015"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Processing Nuclear Waste"
 			tasks: [{
 				id: "7EC13BD9798B8ED6"
 				item: {
@@ -334,8 +646,33 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["45C5145795B1BD29"]
+			dependencies: [
+				"45C5145795B1BD29"
+				"3529BF2321A4EC4E"
+			]
 			id: "5E2E8F6B86F18A15"
+			rewards: [
+				{
+					id: "3471153071723545"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "7F1841BD964C8FF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Now It's Finally Safe"
 			tasks: [{
 				id: "625E65011AE5DC72"
 				item: {
@@ -349,12 +686,37 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 17.5d
+			x: 2.0d
+			y: 19.0d
 		}
 		{
-			dependencies: ["0BC1B7B07FC3E8F1"]
+			dependencies: [
+				"0BC1B7B07FC3E8F1"
+				"3529BF2321A4EC4E"
+			]
 			id: "73EFA418A2DD6732"
+			rewards: [
+				{
+					id: "1508E1B313C5FD2D"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 3
+					id: "15FA21ACB7724EF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Now It's Finally Safe"
 			tasks: [{
 				id: "6CEBCCBDFC6D6CBB"
 				item: {
@@ -368,12 +730,35 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: 17.5d
+			x: -2.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
+			description: ["The pressurized reaction chamber intakes solids, fluids and gases which it then converts into a new solid with gaseous byproduct."]
 			id: "3529BF2321A4EC4E"
+			rewards: [
+				{
+					id: "369B93BC06B20E16"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 3
+					id: "6DF4FE3F0FE22D98"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The \"PRC\""
 			tasks: [{
 				id: "41409EAD79291502"
 				item: {
@@ -394,6 +779,27 @@
 			dependencies: ["744BF2D2E55A1511"]
 			hide_dependency_lines: true
 			id: "68B188F4166F5D7F"
+			rewards: [
+				{
+					id: "4369275ABD2F0766"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2567AD1937871DA4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Iron Infused With Redstone"
 			tasks: [{
 				id: "7207C39E254E0BFB"
 				item: {
@@ -413,6 +819,40 @@
 		{
 			dependencies: ["68B188F4166F5D7F"]
 			id: "0DD4E9D455135EA9"
+			rewards: [
+				{
+					id: "7218437B8245B121"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "3524D94AACB0A73F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "19456387FE294392"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Infused Alloy Infused With Diamond"
 			tasks: [{
 				id: "1C7510B119A3EA8B"
 				item: {
@@ -432,6 +872,28 @@
 		{
 			dependencies: ["0DD4E9D455135EA9"]
 			id: "2ABD0207F3170B90"
+			rewards: [
+				{
+					id: "2F56924036B8FDA4"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "2B9C277793AF5E3A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Reinforced Alloy Infused With Obsidian"
 			tasks: [{
 				id: "799D302F88171EEC"
 				item: {
@@ -452,6 +914,26 @@
 			dependencies: ["744BF2D2E55A1511"]
 			hide_dependency_lines: true
 			id: "4B014E76BB899429"
+			rewards: [
+				{
+					id: "736FC188D0CDE6A7"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3805145055798169"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "215A91C5B777C1E4"
 				item: {
@@ -465,12 +947,45 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
 			id: "0653F1F63884FF23"
+			rewards: [
+				{
+					id: "61E00AC8001043A0"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "639EA6ADA74D27F0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "7E9C675E4CEDFF32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "21359DE4FA38C427"
 				item: {
@@ -484,12 +999,33 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["0653F1F63884FF23"]
 			id: "1FD8BF9F8FD76037"
+			rewards: [
+				{
+					id: "264CE9B0619FC753"
+					type: "xp"
+					xp: 60
+				}
+				{
+					count: 2
+					id: "4B9CE01CAAA4E404"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "048DCDD1C5202C24"
 				item: {
@@ -503,12 +1039,46 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 9.5d
 		}
 		{
 			dependencies: ["1FD8BF9F8FD76037"]
 			id: "38FEAC55F958F1AF"
+			rewards: [
+				{
+					id: "188B8E45A125E709"
+					type: "xp"
+					xp: 65
+				}
+				{
+					count: 2
+					id: "1138D13439569724"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "3CF2046998535771"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2E62D2E8B04C4014"
 				item: {
@@ -522,12 +1092,35 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
+			description: ["The electrolytic separator can be used to both separate water into hydrogen and oxygen, as well as, separating brine into chlorine and sodium."]
 			id: "4FA8A47B669B78FE"
+			rewards: [
+				{
+					id: "41FCC2B4752BAAC2"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 2
+					id: "6D3C0D96B6715FA0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Fluid Separation"
 			tasks: [{
 				id: "431C4F61DD71A6F4"
 				item: {
@@ -549,7 +1142,42 @@
 				"5E2E8F6B86F18A15"
 				"73EFA418A2DD6732"
 			]
+			description: ["The Supercritical Phase Shifter or \"SPS\" is used to convert polonium gas into antimatter gas and is the true \"final\" stage of nuclear waste processing. Other than converting said antimatter gas into a pellet, of course."]
 			id: "62135299C53DAEC4"
+			rewards: [
+				{
+					id: "0DEB3732D9DEA335"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "0A9A243FF4AA6822"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2DDA5723EC89B945"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			subtitle: "Anti-matter"
 			tasks: [{
 				id: "7655D66335781688"
@@ -566,7 +1194,7 @@
 			}]
 			title: "The Supercritical Phase Shifter"
 			x: 0.0d
-			y: 20.5d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -574,7 +1202,29 @@
 				"6B78992C7D17BD78"
 			]
 			id: "0AA9DD3766093E67"
+			rewards: [
+				{
+					id: "1DB3E9C5128CED60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1AA01E76FB42A203"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
+			subtitle: "The End Game Mekanism Resource"
 			tasks: [{
 				id: "403456746519EE4E"
 				item: {
@@ -589,14 +1239,36 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 18.5d
+			y: 19.5d
 		}
 		{
 			dependencies: [
 				"118623DACF6DC891"
 				"38FEAC55F958F1AF"
 			]
+			description: ["The chemical crystallizer will be needed to convert antimatter gas into antimatter pellets."]
 			id: "6B78992C7D17BD78"
+			rewards: [
+				{
+					id: "0189CBB2EF041A2A"
+					type: "xp"
+					xp: 70
+				}
+				{
+					id: "47A57271F98DCC48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Crystallizing Slurries and Gases"
 			tasks: [{
 				id: "3FD225D4E0A2CD7F"
 				item: {
@@ -611,12 +1283,47 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 17.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["0653F1F63884FF23"]
+			description: ["The osmium compressor is used to compress and infuse osmium into different dusts into order to yield an ingot of the alloy from the mixture."]
 			hide_dependency_lines: true
 			id: "118623DACF6DC891"
+			rewards: [
+				{
+					id: "0FAF5589E7808878"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "65C38A24B0499344"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "39C8A1A4B7F50577"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Osmium Infusion"
 			tasks: [{
 				id: "39E7AE37355B9A1B"
 				item: {
@@ -631,13 +1338,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.5d
+			y: 16.0d
 		}
 		{
-			dependencies: [
-				"0BC1B7B07FC3E8F1"
-				"45C5145795B1BD29"
-			]
+			dependencies: ["4D97B36C553829F3"]
 			hide_dependency_lines: true
 			id: "46A87BCB7D8F979B"
 			tasks: [{
@@ -654,14 +1358,11 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 13.5d
 		}
 		{
-			dependencies: [
-				"0BC1B7B07FC3E8F1"
-				"45C5145795B1BD29"
-			]
+			dependencies: ["4D97B36C553829F3"]
 			hide_dependency_lines: true
 			id: "794D846686D3A832"
 			tasks: [{
@@ -682,7 +1383,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 12.5d
 		}
 		{
@@ -725,6 +1426,61 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["3529BF2321A4EC4E"]
+			description: ["HDPE, a much more advanced plastic, is used for many late game mekanism machines and multiblocks, It is made by processing liquid ethylene with oxygen and substrate in a PRC and is worth automating, although not necessarily on large scale. "]
+			id: "4B1FE35ACC2A0E2A"
+			rewards: [
+				{
+					id: "485564575255DBEE"
+					type: "xp"
+					xp: 55
+				}
+				{
+					count: 2
+					id: "5665F98BE31538A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6AA284FC73CCF225"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "More Plastic! :D"
+			tasks: [{
+				id: "1BD80E90D4E997B0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:hdpe_pellet"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
 		}
 	]
 	title: "&eMekanism"
