@@ -6,7 +6,6 @@
 	filename: "mounts"
 	group: "40D70F6AEAC8BA2E"
 	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -38,7 +37,7 @@
 				"6D050498AEE0948C"
 				"6A8ED46CFAE877F5"
 				"05306734273ACC5F"
-				"1E46EC2070FF8F32"
+				"4835EF94F7E12320"
 			]
 			description: [
 				"It's time to have your main character moment and befriend a &l&5Dragon&r&r! Dragons are special mounts that can be summoned by hatching a &l&8Dragon Egg&r&r in a specific habitat."
@@ -51,8 +50,7 @@
 			]
 			hide_details_until_startable: false
 			hide_text_until_complete: false
-			hide_until_deps_complete: false
-			hide_until_deps_visible: false
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -86,10 +84,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&2Forest Dragon&r&r Egg,"
 				"place &l&2leaves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -137,10 +132,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&6Fire Dragon&r&r Egg,"
 				"place &l&6magma blocks&r&r in a 3x3 area under the Egg or surround the egg by &l&6lava&r&r then right-click it to start the hatching process."
@@ -194,10 +186,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into an &lIce Dragon&r Egg,"
 				"place &lsnow or ice blocks&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -251,10 +240,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&bWater Dragon&r&r Egg,"
 				"surround the egg by &l&bwater&r&r in a 3x3 area then right-click it to start the hatching process."
@@ -302,10 +288,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&cNether Dragon&r&r Egg,"
 				"place &l&cblackstone or basalt blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -359,10 +342,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into an &lAether Dragon&r Egg,"
 				"place it &labove Y=200&r."
@@ -410,10 +390,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &lGhost Dragon&r Egg,"
 				"place it &lbelow Y=0&r"
@@ -467,10 +444,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To hatch the &l&5Ender Dragon&r&r Egg, simply right-click it to start the hatching process."
 				""
@@ -523,10 +497,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into an &l&dAurora Dragon&r&r Egg,"
 				"place &l&dAmethyst Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -574,10 +545,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into an &l&8Enchantment Dragon&r&r Egg,"
 				"place &l&8Bookshelves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -625,10 +593,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&9Storm Dragon&r&r Egg,"
 				"place &l&9Copper Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -676,10 +641,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&eSunlight Dragon&r&r Egg,"
 				"place &l&eGold Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -727,10 +689,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&3Sylphid Dragon&r&r Egg,"
 				"place &l&3Prismarine Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -778,10 +737,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&cTerra Dragon&r&r Egg,"
 				"place &l&cBrick Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -829,10 +785,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&0Wither Dragon&r&r Egg,"
 				"place &l&0Wither Skeleton Skulls&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
@@ -880,10 +833,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1E46EC2070FF8F32"
-			]
+			dependencies: ["4835EF94F7E12320"]
 			description: [
 				"To transform a dragon egg into a &l&2Zombie Dragon&r&r Egg,"
 				"place &l&2Iron Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
