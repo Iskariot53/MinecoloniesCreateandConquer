@@ -1,5 +1,5 @@
 {
-	autofocus_id: "5F9076D1056A4053"
+	autofocus_id: "2CB1B84AC28EA6D1"
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "world_exploration_quests"
@@ -277,8 +277,64 @@
 			image: "alexsmobs:textures/entity/void_worm/portal/portal_idle_1.png"
 			rotation: 0.0d
 			width: 3.5d
-			x: 25.82142857142857d
-			y: 7.0d
+			x: 29.32142857142857d
+			y: 8.92857142857143d
+		}
+		{
+			height: 0.4d
+			image: "chipped:block/netherrack/cracked_disordered_netherrack_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 11.891156462585045d
+			y: 4.8061224489796d
+		}
+		{
+			height: 0.4d
+			image: "chipped:block/netherrack/cracked_disordered_netherrack_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 11.896258503401363d
+			y: 5.142857142857153d
+		}
+		{
+			height: 0.4d
+			image: "chipped:block/netherrack/cracked_disordered_netherrack_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 14.142857142857146d
+			y: 5.132653061224488d
+		}
+		{
+			height: 0.4d
+			image: "chipped:block/netherrack/cracked_disordered_netherrack_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 12.557823129251716d
+			y: 5.132653061224488d
+		}
+		{
+			height: 0.4d
+			image: "chipped:block/netherrack/cracked_disordered_netherrack_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 12.222789115646265d
+			y: 5.122448979591837d
+		}
+		{
+			height: 0.4d
+			image: "chipped:block/netherrack/cracked_disordered_netherrack_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 12.231292517006814d
+			y: 4.806122448979593d
+		}
+		{
+			height: 0.4d
+			image: "chipped:block/netherrack/cracked_disordered_netherrack_bricks"
+			rotation: 0.0d
+			width: 0.4d
+			x: 12.222789115646265d
+			y: 4.489795918367349d
 		}
 	]
 	order_index: 0
@@ -646,6 +702,27 @@
 				"383AA31C127A19E3"
 			]
 			id: "55F6D39B18CE35DF"
+			rewards: [
+				{
+					id: "691E3EAFF417B7B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "74B6A927FFC39140"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 16L
 				id: "571FE1291F14B7B1"
@@ -667,6 +744,27 @@
 		{
 			dependencies: ["55F6D39B18CE35DF"]
 			id: "2878269C269174B3"
+			rewards: [
+				{
+					id: "262B089F8A53A66B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "36C826D8C3310C38"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "5247D1BD3CBC04DF"
@@ -723,6 +821,27 @@
 		{
 			dependencies: ["55F6D39B18CE35DF"]
 			id: "50DA579150018EFD"
+			rewards: [
+				{
+					id: "700020DC0C19DD30"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3514EC7B22C7CCBC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0BB6092E45EEC83E"
@@ -812,6 +931,27 @@
 		{
 			dependencies: ["55F6D39B18CE35DF"]
 			id: "5BBE97CFD87ABEE9"
+			rewards: [
+				{
+					id: "00D25C01CDDAEFEB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "51EC06A67B097272"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "148D7078AF3EA004"
@@ -847,6 +987,27 @@
 		{
 			dependencies: ["2878269C269174B3"]
 			id: "7862C2708A5A89CE"
+			rewards: [
+				{
+					id: "3E7311776F7B4A0F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "33F966C9C7C00D6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 3L
 				id: "785CC9F8DDBD9078"
@@ -868,6 +1029,27 @@
 		{
 			dependencies: ["7862C2708A5A89CE"]
 			id: "28157880BD12D98C"
+			rewards: [
+				{
+					id: "3D9EE7A8A1ABFA7D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "779F7C629E80F8ED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "32C2C23715ED3157"
@@ -925,6 +1107,27 @@
 		{
 			dependencies: ["7862C2708A5A89CE"]
 			id: "58B5185D7DE3D7C5"
+			rewards: [
+				{
+					id: "71B58847E89C0196"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "45C8E0C7B100E045"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "2582EE696E3056FE"
@@ -998,6 +1201,11 @@
 		{
 			dependencies: ["28157880BD12D98C"]
 			id: "16F908DC82227125"
+			rewards: [{
+				id: "61FB2EF087930B62"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					count: 12L
@@ -1038,6 +1246,11 @@
 			dependencies: ["16F908DC82227125"]
 			icon_scale: 1.5d
 			id: "55D68E5A8B42E94F"
+			rewards: [{
+				id: "358285C44D98C43F"
+				type: "xp"
+				xp: 10
+			}]
 			size: 0.75d
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -1071,6 +1284,27 @@
 		{
 			dependencies: ["7862C2708A5A89CE"]
 			id: "45A00CB361AE1B7D"
+			rewards: [
+				{
+					id: "6391899F0830C433"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6D42907695807FCA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "795EF2023BA78F4B"
@@ -1107,6 +1341,11 @@
 		{
 			dependencies: ["55D68E5A8B42E94F"]
 			id: "2AAEB834B450012E"
+			rewards: [{
+				id: "1B283E43C5D45FF2"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1122,12 +1361,18 @@
 				title: "Nether Fortress"
 				type: "structure"
 			}]
+			title: "Find a Nether Fortress"
 			x: 15.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["391A154256A1A353"]
 			id: "4940CD32B0802508"
+			rewards: [{
+				id: "73777728B1312F27"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "689A7DC2B31D08A3"
 				item: {
@@ -1151,6 +1396,27 @@
 				"2CB1B84AC28EA6D1"
 			]
 			id: "02E3B1E761BC38C5"
+			rewards: [
+				{
+					id: "6515A2E6F956773B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "4C068C68740E78EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "44034678AAC783C0"
@@ -1179,6 +1445,7 @@
 					type: "item"
 				}
 			]
+			title: "Time for an Upgrade"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -1188,6 +1455,11 @@
 				"58B5185D7DE3D7C5"
 			]
 			id: "64DD92F5431960BC"
+			rewards: [{
+				id: "7DD30D490F692C14"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1203,6 +1475,7 @@
 				title: "Bastion Remnant"
 				type: "structure"
 			}]
+			title: "Visit a Bastion Remnant"
 			x: 10.5d
 			y: 4.0d
 		}
@@ -1212,6 +1485,27 @@
 				"02E3B1E761BC38C5"
 			]
 			id: "47BA0E1A6FEDB61B"
+			rewards: [
+				{
+					id: "12543191C4BC9F35"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "0AB2FCC819EC1F7F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7EBFEB2C00F8D182"
@@ -1285,6 +1579,27 @@
 		{
 			dependencies: ["02E3B1E761BC38C5"]
 			id: "63D91E99B2AF1B20"
+			rewards: [
+				{
+					id: "7B61259DDDD93373"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "759A5A75D1120E71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "519D429F9E936616"
@@ -1358,6 +1673,26 @@
 		{
 			dependencies: ["64DD92F5431960BC"]
 			id: "2CB1B84AC28EA6D1"
+			rewards: [
+				{
+					id: "354B4B34E1E68DB0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "00039A7A135D45D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "28E5FD1F16A7D669"
@@ -1379,6 +1714,11 @@
 		{
 			dependencies: ["2AAEB834B450012E"]
 			id: "391A154256A1A353"
+			rewards: [{
+				id: "31AE0AC8F298B28E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "554AFCBBE423DCFF"
 				item: {
@@ -1398,6 +1738,11 @@
 		{
 			dependencies: ["391A154256A1A353"]
 			id: "74BF847BBEA0224A"
+			rewards: [{
+				id: "591DBB064D7E3652"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "6724A57AB05EEDBF"
 				item: {
@@ -1435,6 +1780,27 @@
 			icon_scale: 1.5d
 			id: "27C0CAED40B28D03"
 			invisible: true
+			rewards: [
+				{
+					id: "4550642858E4FA67"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 4
+					id: "193C9BA11E35C933"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				advancement: "minecraft:nether/all_effects"
@@ -1462,6 +1828,11 @@
 			}
 			icon_scale: 2.0d
 			id: "3779FD6DC7FAD7ED"
+			rewards: [{
+				id: "00D1142BA243B9BD"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -1488,11 +1859,27 @@
 			}
 			icon_scale: 2.0d
 			id: "4835EF94F7E12320"
-			rewards: [{
-				id: "5FCFCBDAD1A8D286"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
+			rewards: [
+				{
+					id: "4767B2207A1849B9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "354A6EFCAF75EAD4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			subtitle: "Nuff said"
 			tasks: [{
@@ -1508,6 +1895,11 @@
 		{
 			dependencies: ["4835EF94F7E12320"]
 			id: "1E02B9F072BCA25E"
+			rewards: [{
+				id: "3A67CE1950A1082D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 4L
 				id: "0F576EA61917492B"
@@ -1530,6 +1922,11 @@
 			dependencies: ["088E533EC2B90217"]
 			icon_scale: 2.0d
 			id: "1456A9EF30A6F0D0"
+			rewards: [{
+				id: "1662676FC75AED77"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1552,6 +1949,26 @@
 		{
 			dependencies: ["1456A9EF30A6F0D0"]
 			id: "2C82BD462E7022F6"
+			rewards: [
+				{
+					id: "1D3668FD483ABC77"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "00C92EBD4A654C14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "56BF4E0A2957E244"
 				item: {
@@ -1568,12 +1985,32 @@
 				}
 				type: "item"
 			}]
-			x: 33.5d
-			y: 3.0d
+			x: 35.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4835EF94F7E12320"]
 			id: "30FE96E2B157EE60"
+			rewards: [
+				{
+					id: "20D57737C5CC5BE8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "237D3A5AF23BC208"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7CAF7B5A881F1705"
 				item: {
@@ -1593,6 +2030,26 @@
 		{
 			dependencies: ["2AAEB834B450012E"]
 			id: "2CC9B74AE87B3E2B"
+			rewards: [
+				{
+					id: "333C2B15D536AE78"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "78A649DC5B111F46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 3L
 				id: "038E5B0AECC867AF"
@@ -1613,6 +2070,26 @@
 		{
 			dependencies: ["1456A9EF30A6F0D0"]
 			id: "3E50F91BA6B807EF"
+			rewards: [
+				{
+					id: "69A15D92063CD4F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7910FC67A27F244B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "029DE13D0181CBA4"
 				item: {
@@ -1632,6 +2109,11 @@
 		{
 			dependencies: ["1456A9EF30A6F0D0"]
 			id: "29AE625461ED44FC"
+			rewards: [{
+				id: "76498CC2D9BE0D28"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 2L
 				id: "51F9D5F07419AE4D"
@@ -1647,8 +2129,8 @@
 				type: "item"
 			}]
 			title: "Shulker Shells"
-			x: 35.5d
-			y: 4.5d
+			x: 37.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2CC9B74AE87B3E2B"]
@@ -1663,11 +2145,27 @@
 			}
 			icon_scale: 2.0d
 			id: "3DD12F8C1DF2CDFA"
-			rewards: [{
-				id: "4C38BDC524C51263"
-				type: "xp_levels"
-				xp_levels: 15
-			}]
+			rewards: [
+				{
+					id: "369C27E6FEFB8A9C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "68507C8DD2662F79"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
 			tasks: [{
 				entity: "minecraft:wither"
@@ -1682,6 +2180,26 @@
 		{
 			dependencies: ["3DD12F8C1DF2CDFA"]
 			id: "0C8951AF61856F34"
+			rewards: [
+				{
+					id: "262831AC427858BC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4645C728BBED65D6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "39473C90AEE80D60"
 				item: {
@@ -1701,6 +2219,11 @@
 		{
 			dependencies: ["4835EF94F7E12320"]
 			id: "088E533EC2B90217"
+			rewards: [{
+				id: "010682B81B983B8F"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
@@ -1711,8 +2234,14 @@
 			y: 0.4285714285714164d
 		}
 		{
-			dependencies: ["088E533EC2B90217"]
+			dependencies: ["3779FD6DC7FAD7ED"]
 			id: "0053793E3F98252F"
+			rewards: [{
+				id: "5D7F1608B5A97DA5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Put a Crimson Mosquito Larva inside a Capsid"
 			tasks: [
 				{
 					id: "1A5D789C8C4B4B6F"
@@ -1742,12 +2271,19 @@
 				}
 			]
 			title: "Capsid Transformation"
-			x: 29.0d
-			y: 4.0d
+			x: 25.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0053793E3F98252F"]
+			description: ["Drop the Mysterious Worm in the Void"]
 			id: "2923456767E589E6"
+			rewards: [{
+				id: "4158FD9FE412C7BE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Summon the Void Worm"
 			tasks: [{
 				id: "1660CD86F29D5311"
 				item: {
@@ -1761,13 +2297,43 @@
 				}
 				type: "item"
 			}]
-			x: 27.0d
-			y: 4.0d
+			x: 26.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2923456767E589E6"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexsmobs:void_worm_eye"
+			}
 			icon_scale: 1.5d
 			id: "0A62ED4F9A6E4797"
+			rewards: [
+				{
+					id: "20B4693CF547A166"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					count: 3
+					id: "6D46D5F628707A90"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -1799,12 +2365,32 @@
 				}
 			]
 			title: "Slay the Void Worm"
-			x: 25.464285714285694d
-			y: 6.571428571428569d
+			x: 28.964285714285694d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0A62ED4F9A6E4797"]
 			id: "2B24120304F7242B"
+			rewards: [
+				{
+					id: "653F0E35E15A8F66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "28DFD1B3051E1783"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4357287F4338C047"
 				item: {
@@ -1822,12 +2408,32 @@
 				type: "item"
 			}]
 			title: "Break Through Reality"
-			x: 27.5d
-			y: 9.0d
+			x: 31.0d
+			y: 10.92857142857143d
 		}
 		{
 			dependencies: ["0A62ED4F9A6E4797"]
 			id: "65AECC3C7EDB663C"
+			rewards: [
+				{
+					id: "79B397C5EF5A4943"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "51C411207BA8E9C9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "24BA47691079B4CA"
 				item: {
@@ -1841,8 +2447,8 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
-			y: 9.0d
+			x: 27.0d
+			y: 10.92857142857143d
 		}
 	]
 	title: "&eWorld Exploration Quests"
