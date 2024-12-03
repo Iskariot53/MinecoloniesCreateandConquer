@@ -874,7 +874,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 0.0d
 			y: 20.0d
 		}
 		{
@@ -893,8 +893,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 22.5d
+			x: 0.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["48D9A81E2A9CB3F5"]
@@ -913,8 +913,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.0d
-			y: 23.5d
+			x: -4.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["48D9A81E2A9CB3F5"]
@@ -932,8 +932,172 @@
 				}
 				type: "item"
 			}]
+			x: -2.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["675FC347FA9831A6"]
+			id: "5D6E4CAC853FA0A9"
+			tasks: [{
+				id: "2A841AAA4BB15809"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:awakened_core"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"5D6E4CAC853FA0A9"
+				"3DDF35E0E352281E"
+			]
+			id: "21C13E5E97353F66"
+			tasks: [{
+				id: "037B85C1681B69C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:chaotic_core"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"675FC347FA9831A6"
+				"1CC855C521C4EBAC"
+			]
+			id: "1DA9820F00A43B42"
+			tasks: [{
+				id: "4E2E62F69DE27DC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:wyvern_crafting_injector"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 22.0d
+		}
+		{
+			dependencies: [
+				"1DA9820F00A43B42"
+				"5D6E4CAC853FA0A9"
+			]
+			id: "5778163C00743CB5"
+			tasks: [{
+				id: "25B216AA9BAF63F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:awakened_crafting_injector"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"5778163C00743CB5"
+				"3DDF35E0E352281E"
+			]
+			id: "27031A2DE57DB48C"
+			tasks: [{
+				id: "4A855033BACB05E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:chaotic_crafting_injector"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3DDF35E0E352281E"]
+			id: "7148B44E1EDDCAE8"
+			tasks: [{
+				id: "171646BFFE9E61D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:reactor_core"
+				}
+				type: "item"
+			}]
 			x: -1.0d
-			y: 23.5d
+			y: 28.5d
+		}
+		{
+			dependencies: ["3DDF35E0E352281E"]
+			id: "640CFEF8A54748B9"
+			tasks: [{
+				id: "480917FF964375D1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:reactor_stabilizer"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["458654090B99F569"]
+			id: "3DDF35E0E352281E"
+			tasks: [{
+				id: "657C52721B660E5E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:chaos_shard"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 27.0d
 		}
 	]
 	title: "&eThe Road Less Traveled"

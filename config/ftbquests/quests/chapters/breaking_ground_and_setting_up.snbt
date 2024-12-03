@@ -1243,7 +1243,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"who &odoesn't&r have a place to store the &4blood&r of the sacrificed for dark rituals, right?"
+				"Who &odoesn't&r have a place to store the &4blood&r of the sacrificed for dark rituals, right?"
 				""
 				"Jokes aside. The blood altar is going to be your key to accessing the darker side of magic in the MCC world."
 				""
@@ -1601,7 +1601,7 @@
 		{
 			dependencies: ["045FC46B3A8BB2B2"]
 			description: [
-				"paired with the imbuement chamber, the &denchanting apparatus&r will be required for progression into the higher tiers of magic and to reach the &3celestial arsenal&r."
+				"Paired with the imbuement chamber, the &denchanting apparatus&r will be required for progression into the higher tiers of magic and to reach the &3Celestial Arsenal&r."
 				""
 				"Refer to the \"&5Ars Nouveau&r\" section of \"Core Mods\" for more info! "
 			]
@@ -1631,7 +1631,7 @@
 		{
 			dependencies: ["55630B6107F0B42B"]
 			description: [
-				"While it wont actually help with performing alchemy, the &6alchemy table&r is going to be required not only for blood magic progression, but it is a necessary component to reaching the &3celestial arsenal&r as well."
+				"While it wont actually help with performing alchemy, the &6alchemy table&r is going to be required not only for blood magic progression, but it is a necessary component to reaching the &3Celestial Arsenal&r as well."
 				""
 				"Refer to the \"&cBlood Magic&r\" section of \"Core Mods\" for more info!"
 			]
@@ -1660,7 +1660,7 @@
 		{
 			dependencies: ["71620C7CDB2A09D8"]
 			description: [
-				"The &4hellfire forge&r is yet another crafting block, powered by demonic will. It is also a necessary component to reaching the celestial arsenal."
+				"The &4hellfire forge&r is yet another crafting block, powered by demonic will. It is also a necessary component to reaching the &3Celestial Arsenal&r."
 				""
 				"Refer to the \"&cBlood Magic&r\" section of \"Core Mods\" for more info!"
 			]
@@ -1690,9 +1690,9 @@
 		{
 			dependencies: ["579F37CE436DA670"]
 			description: [
-				"&aTerrasteel&r, required for the construction of the elven gateway core, a necessary component in contructing the &dportal to Alfheim&r. "
+				"&aTerrasteel&r, required for the construction of the elven gateway core, a necessary component in contructing &dThe Portal to Alfheim&r. "
 				""
-				"Establishing trade with the elves and using the secrets obtained from them is a key component to accessing the &3celestial arsenal&r."
+				"Establishing trade with the elves and using the secrets obtained from them is a key component to accessing the &3Celestial Arsenal&r."
 				""
 				"Refer to the \"&aBotania&r\" section of \"Core Mods\" for more info"
 			]
@@ -1721,7 +1721,7 @@
 		{
 			dependencies: ["44B58A51C7F53BD1"]
 			description: [
-				"The elven gateway core is required to construct the &dportal to Alfheim&r. While not open to visitors, the elves of Alfheim do have some invaluable things to offer, especially if you hope to ever reach the &3celestial arsenal&r."
+				"The elven gateway core is required to construct &dThe Portal to Alfheim&r. While not open to visitors, the elves of Alfheim do have some invaluable things to offer, especially if you hope to ever reach the &3Celestial Arsenal&r."
 				""
 				"Refer to the \"&aBotania&r\" section of \"Core Mods\" for more info!"
 			]
@@ -1958,7 +1958,9 @@
 			description: [
 				"Supply scamps are passive mobs found in the world, while not immortal, they are pretty tough and ignored by most hostile mobs. Once tamed with &6ancient brass&r your scamp will follow and collect items it finds on the ground, storing them in its internal inventory. "
 				""
-				"The easiest way to obtain ancient brass is killing cog mobs and regrettably, supply scamps! They also drop copper blueprints so killing 1 or 2 in order to get the brass to tame one is pretty useful, even if you don't want the scamp, they spawn pretty much everywhere in the overworld. The face plates can be changed with dye!"
+				"The easiest way to obtain ancient brass is killing cog mobs and regrettably, supply scamps! They also drop copper blueprints so killing 1 or 2 in order to get the brass to tame one is pretty useful, even if you don't want the scamp, they spawn pretty much everywhere in the overworld. "
+				""
+				"The face plates can be changed with dye!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true

@@ -1,6 +1,6 @@
 {
 	// Allow the creation of backups automatically
-	"enabled": true,
+	"enabled": false,
 	// Permission level to use the /backup command
 	"command_permission_level": 3,
 	// Only send backup status to server ops
