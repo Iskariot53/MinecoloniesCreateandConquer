@@ -753,6 +753,7 @@
 				""
 				"in short &cdo not&r try to power your storage system components directly with FE/RF. Feed power into an &6energy acceptor&r or directly into the controller(s). Then connect and power the rest of the network from there."
 			]
+			hide_until_deps_complete: true
 			id: "4F9B5850D630B7C2"
 			rewards: [
 				{
@@ -5113,6 +5114,7 @@
 				"5FA7113B0E256602"
 			]
 			description: ["Even across dimensions!"]
+			hide_until_deps_complete: true
 			id: "08B34DE812C3235B"
 			rewards: [
 				{
