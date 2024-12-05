@@ -112,3 +112,255 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ccextras:unfinished_component"
   }
 });
+<recipetype:create:sequenced_assembly>.addJsonRecipe("ae2.printed_calculation_circuit",
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:certus_quartz_crystal"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "ae2:printed_calculation_processor",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "industrialforegoing:plastic"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+        {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create_new_age:energising",
+      "energy_needed": 2000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+});
+<recipetype:create:sequenced_assembly>.addJsonRecipe("ae2.printed_engineering_circuit",
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:diamond"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "ae2:printed_engineering_processor",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "industrialforegoing:plastic"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+        {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create_new_age:energising",
+      "energy_needed": 2000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+});
+<recipetype:create:sequenced_assembly>.addJsonRecipe("ae2.printed_logic_circuit",
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:gold_ingot"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "ae2:printed_logic_processor",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "industrialforegoing:plastic"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+        {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create_new_age:energising",
+      "energy_needed": 2000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+});
+<recipetype:create:sequenced_assembly>.addJsonRecipe("ae2.printed_silicon",
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "ae2:silicon"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "ae2:printed_silicon",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "industrialforegoing:plastic"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+        {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create_new_age:energising",
+      "energy_needed": 2000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+});
