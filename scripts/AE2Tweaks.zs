@@ -1,4 +1,3 @@
-//Adding inscriber recipe
 <recipetype:create:mechanical_crafting>.addRecipe("ae2.inscriber", <item:ae2:inscriber>, [[<tag:items:forge:ingots/steel>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/steel>], [<item:mekanism:alloy_atomic>, <item:minecraft:air>, <tag:items:forge:ingots/steel>], [<tag:items:forge:ingots/steel>, <item:minecraft:sticky_piston>, <tag:items:forge:ingots/steel>]]);
 craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
 <recipetype:create:sequenced_assembly>.addJsonRecipe("ae2wtlib.quantum_bridge_card",
@@ -362,5 +361,178 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   ],
   "transitionalItem": {
     "item": "ccextras:unfinished_component"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.calculation_processor",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    },
+    "middle": {
+      "item": "minecraft:redstone"
+    },
+    "top": {
+      "item": "ae2:printed_calculation_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "item": "ae2:calculation_processor"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.calculation_processor_print",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "top": {
+      "item": "ae2:calculation_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:printed_calculation_processor"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.engineering_processor",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    },
+    "middle": {
+      "item": "minecraft:redstone"
+    },
+    "top": {
+      "item": "ae2:printed_engineering_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "item": "ae2:engineering_processor"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.engineering_processor_print",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "top": {
+      "item": "ae2:engineering_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:printed_engineering_processor"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.logic_processor",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    },
+    "middle": {
+      "item": "minecraft:redstone"
+    },
+    "top": {
+      "item": "ae2:printed_logic_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "item": "ae2:logic_processor"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.logic_processor_print",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "top": {
+      "item": "ae2:logic_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:printed_logic_processor"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.silicone_print",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "forge:silicon"
+    },
+    "top": {
+      "item": "ae2:silicon_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:printed_silicon"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.certus_quartz_dust",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "forge:gems/certus_quartz"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:certus_quartz_dust"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.ender_dust",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:ender_dust"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.fluix_dust",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "tag": "forge:gems/fluix"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:fluix_dust"
+  }
+});
+<recipetype:ae2:inscriber>.addJsonRecipe("ae2.sky_stone_dust",
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "ae2:sky_stone_block"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "item": "ae2:sky_dust"
   }
 });
