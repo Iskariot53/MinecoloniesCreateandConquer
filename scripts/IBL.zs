@@ -130,5 +130,7 @@ stoneCutter.addRecipe("design_decor.stonecutting/cyllinder/aluminum_cyllinder", 
 
 <recipetype:productivebees:bee_conversion>.removeByName("productivebees:bee_conversion/reactors/graphite_bee");
 
+<tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_log>);
+<tag:items:forge:stripped_logs>.add(<item:enhanced_mushrooms:stripped_mushroom_stem>);
 
 //template:craftingTable.remove(<item:>);
