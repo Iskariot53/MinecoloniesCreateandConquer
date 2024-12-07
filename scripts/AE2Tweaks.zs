@@ -422,7 +422,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   "type": "ae2:inscriber",
   "ingredients": {
     "middle": {
-      "item": "ae2:certus_quartz_crystal"
+      "item": "minecraft:diamond"
     },
     "top": {
       "item": "ae2:engineering_processor_press"
@@ -457,7 +457,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   "type": "ae2:inscriber",
   "ingredients": {
     "middle": {
-      "item": "ae2:certus_quartz_crystal"
+      "item": "minecraft:gold_ingot"
     },
     "top": {
       "item": "ae2:logic_processor_press"
@@ -482,57 +482,5 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   "mode": "inscribe",
   "result": {
     "item": "ae2:printed_silicon"
-  }
-});
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.certus_quartz_dust",
-{
-  "type": "ae2:inscriber",
-  "ingredients": {
-    "middle": {
-      "tag": "forge:gems/certus_quartz"
-    }
-  },
-  "mode": "inscribe",
-  "result": {
-    "item": "ae2:certus_quartz_dust"
-  }
-});
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.ender_dust",
-{
-  "type": "ae2:inscriber",
-  "ingredients": {
-    "middle": {
-      "item": "minecraft:ender_pearl"
-    }
-  },
-  "mode": "inscribe",
-  "result": {
-    "item": "ae2:ender_dust"
-  }
-});
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.fluix_dust",
-{
-  "type": "ae2:inscriber",
-  "ingredients": {
-    "middle": {
-      "tag": "forge:gems/fluix"
-    }
-  },
-  "mode": "inscribe",
-  "result": {
-    "item": "ae2:fluix_dust"
-  }
-});
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.sky_stone_dust",
-{
-  "type": "ae2:inscriber",
-  "ingredients": {
-    "middle": {
-      "item": "ae2:sky_stone_block"
-    }
-  },
-  "mode": "inscribe",
-  "result": {
-    "item": "ae2:sky_dust"
   }
 });
