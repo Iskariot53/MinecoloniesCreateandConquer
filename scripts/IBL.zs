@@ -98,7 +98,7 @@ stoneCutter.addRecipe("design_decor.stonecutting/cyllinder/aluminum_cyllinder", 
     "item": "minecraft:charcoal"
   },
   "input2": {
-    "item": "minecraft:red_mushroom_block"
+    "item": "enhanced_mushrooms:mushroom_hyphae"
   },
   "input3": {
     "tag": "forge:mushrooms"
@@ -118,7 +118,7 @@ stoneCutter.addRecipe("design_decor.stonecutting/cyllinder/aluminum_cyllinder", 
     "item": "minecraft:charcoal"
   },
   "input2": {
-    "item": "minecraft:red_mushroom_block"
+    "item": "enhanced_mushrooms:mushroom_hyphae"
   },
   "input3": {
     "tag": "forge:mushrooms"
@@ -131,6 +131,10 @@ stoneCutter.addRecipe("design_decor.stonecutting/cyllinder/aluminum_cyllinder", 
 <recipetype:productivebees:bee_conversion>.removeByName("productivebees:bee_conversion/reactors/graphite_bee");
 
 <tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_log>);
+<tag:items:forge:stripped_wood>.add(<item:autumnity:stripped_maple_wood>);
 <tag:items:forge:stripped_logs>.add(<item:enhanced_mushrooms:stripped_mushroom_stem>);
+<tag:items:forge:stripped_logs>.add(<item:enhanced_mushrooms:stripped_mushroom_hyphae>);
+
+craftingTable.addShaped("rose_quartz_from_blocks_of_rose_quartz", <item:create:rose_quartz>, [[<item:create:rose_quartz_block> * 2]]);
 
 //template:craftingTable.remove(<item:>);
