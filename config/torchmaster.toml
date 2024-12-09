@@ -25,7 +25,7 @@
 	#Same as the mega torch block list override, just for the dread lamp
 	#Block squid: +minecraft:squid
 	#Allow pigs: -minecraft:pig
-	dreadLampEntityBlockListOverrides = ["+alexsmobs:cockroach", "+minecraft:bat"]
+	dreadLampEntityBlockListOverrides = ["+alexsmobs:cockroach", "+minecraft:bat", "+minecraft:wandering_trader", "+minecraft:trader_llama", "+alexsmobs:elephant"]
 	#The radius in which the feral flare should try to place lights
 	#Range: 1 ~ 127
 	feralFlareRadius = 32
