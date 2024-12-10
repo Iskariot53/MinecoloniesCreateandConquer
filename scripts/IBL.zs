@@ -136,5 +136,11 @@ stoneCutter.addRecipe("design_decor.stonecutting/cyllinder/aluminum_cyllinder", 
 <tag:items:forge:stripped_logs>.add(<item:enhanced_mushrooms:stripped_mushroom_hyphae>);
 
 craftingTable.addShaped("rose_quartz_from_blocks_of_rose_quartz", <item:create:rose_quartz>, [[<item:create:rose_quartz_block> * 2]]);
+	
+//SEETHING CATALYST SAIL
+	craftingTable.addShaped("fan_catalyst/seething_sail", <item:create_dd:seething_sail> * 4,
+	[[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>],
+	[<item:create_dd:seething_ablaze_rod>, <item:create_dd:rubber_block>, <item:create_dd:seething_ablaze_rod>],
+	[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>]]);
 
 //template:craftingTable.remove(<item:>);
