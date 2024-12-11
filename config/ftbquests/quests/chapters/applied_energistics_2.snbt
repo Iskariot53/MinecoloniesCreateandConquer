@@ -748,6 +748,7 @@
 		}
 		{
 			dependencies: ["7A4FF3976EB91CEB"]
+			dependency_requirement: "one_started"
 			description: [
 				"One of the major differences you will notice if new to the swing of things is that ae2 uses its own native power, &dAE&r. While the ME Controller for a network can accept FE/RF directly, this is only true of the controllers, chargers, inscribers and the energy acceptor. Everything else requires &dAE&r."
 				""
@@ -923,6 +924,7 @@
 			]
 			description: ["Along with &dfluix crystals&r, &6processors&r are going to be used in &clarge quatities&r, you are going to want to automate the production process. Just as how fluix crystals are required for most things cable related, processors of one kind or another are going to be required for almost &eevery network component you will build&r."]
 			id: "7A33AF5CD7476775"
+			min_required_dependencies: 5
 			rewards: [
 				{
 					id: "3BB5C3846D3C749D"

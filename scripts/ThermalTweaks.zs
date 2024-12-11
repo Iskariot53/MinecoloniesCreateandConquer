@@ -390,3 +390,32 @@ craftingTable.remove(<item:thermal_extra:endothermic_dehydrator>);
 [[<item:industrialforegoing:plastic>, <item:thermal_extra:twinite_ingot>, <item:industrialforegoing:plastic>],
 [<tag:items:thermal:glass/hardened>, <item:thermal:machine_frame>, <tag:items:thermal:glass/hardened>],
 [<item:thermal:lumium_gear>, <item:thermal:rf_coil>, <item:thermal:lumium_gear>]]);
+<recipetype:thermal:smelter>.addJsonRecipe("thermal.induction_machine_frame",
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "value": [
+        {
+          "item": "thermalendergy:prismalium_ingot"
+        }
+      ],
+      "count": 8
+    },
+	{
+      "value": [
+        {
+          "item": "industrialforegoing:machine_frame_advanced"
+        }
+      ],
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:machine_frame",
+      "count": 1
+    }
+  ],
+  "energy": 36000
+});
