@@ -31,18 +31,6 @@
 		"origins:scare_creepers" = true
 		"origins:cat_vision" = true
 
-	[origins."medievalorigins:dwarf"]
-		enabled = true
-		"medievalorigins:dwarf/dwarven_tech" = true
-		"medievalorigins:dwarf/miniature" = true
-		"medievalorigins:dwarf/nocturnal_eyes" = true
-		"medievalorigins:dwarf/darkness_dweller" = true
-		"medievalorigins:dwarf/dense" = true
-		"medievalorigins:dwarf/potent_brew" = true
-		"medievalorigins:dwarf/mythril_resonance" = true
-		"medievalorigins:dwarf/pickaxeless_stone" = true
-		"medievalorigins:dwarf/helmet_spawn" = true
-
 	[origins."origins:elytrian"]
 		enabled = true
 		"origins:elytra" = true
@@ -63,18 +51,6 @@
 		"cham:cham_speed" = true
 		"cham:cham_reach" = true
 
-	[origins."medievalorigins:pixie"]
-		enabled = true
-		"medievalorigins:pixie/flight" = true
-		"medievalorigins:pixie/pixie_properties" = true
-		"medievalorigins:pixie/feather_footed" = true
-		"medievalorigins:pixie/wings" = true
-		"medievalorigins:pixie/mount" = true
-		"medievalorigins:pixie/good_fortunes" = true
-		"medievalorigins:pixie/mischief_maketh_man" = true
-		"medievalorigins:pixie/curse_of_flight" = true
-		"medievalorigins:pixie/troublemaker" = true
-
 	[origins."rept:reptilian"]
 		enabled = true
 		"rept:rept_freeze" = true
@@ -86,46 +62,6 @@
 		"rept:rept_poison" = true
 		"rept:rept_immune" = true
 
-	[origins."medievalorigins:high_elf"]
-		enabled = true
-		"medievalorigins:high_elf/mana_ars" = true
-		"medievalorigins:high_elf/gear_spawn" = true
-		"medievalorigins:high_elf/blazenbreath_weak" = true
-		"medievalorigins:high_elf/fragile" = false
-		"medievalorigins:high_elf/glacial_step" = true
-		"medievalorigins:high_elf/ebonbreath" = true
-		"medievalorigins:high_elf/blazenbreath" = true
-		"medievalorigins:high_elf/void_warp" = true
-		"medievalorigins:high_elf/mystic_affinity" = true
-		"medievalorigins:high_elf/towering" = true
-		"medievalorigins:high_elf/elegant" = false
-		"medievalorigins:high_elf/extrusive_movement" = true
-		"medievalorigins:high_elf/mana_rpgmana" = true
-		"medievalorigins:high_elf/subclass_picker" = true
-
-	[origins."medievalorigins:plague_victim"]
-		enabled = true
-		"medievalorigins:plague_victim/foul_aura" = true
-		"medievalorigins:plague_victim/plague_immunity" = true
-		"medievalorigins:plague_victim/undeadge" = true
-		"medievalorigins:plague_victim/risk_of_transmission" = true
-		"medievalorigins:plague_victim/contagious" = true
-		"medievalorigins:plague_victim/insomniac" = true
-		"medievalorigins:plague_victim/sensitive_skin" = true
-		"medievalorigins:plague_victim/skin_and_bones" = true
-		"medievalorigins:plague_victim/eternal_suffering" = true
-		"origins_survive:illness_resistance" = true
-
-	[origins."medievalorigins:valkyrie"]
-		enabled = true
-		"medievalorigins:valkyrie/wings" = true
-		"medievalorigins:valkyrie/divine_smite" = true
-		"medievalorigins:valkyrie/corruption" = true
-		"medievalorigins:valkyrie/vanquisher" = true
-		"medievalorigins:valkyrie/intervention" = true
-		"medievalorigins:valkyrie/heavenly_implements" = true
-		"medievalorigins:valkyrie/spell_power" = true
-
 	[origins."kang:kangaroo"]
 		enabled = true
 		"kang:kang_pouch" = true
@@ -136,22 +72,6 @@
 		"kang:kang_nobow" = true
 		"kang:kang_health" = true
 		"monke:monke_velocity" = true
-
-	[origins."medievalorigins:revenant"]
-		enabled = true
-		"medievalorigins:revenant/transfer_item" = true
-		"medievalorigins:revenant/skeleton_summons" = true
-		"medievalorigins:revenant/zombie_summons" = true
-		"medievalorigins:revenant/putrid_communion" = true
-		"medievalorigins:revenant/hellraiser" = true
-		"medievalorigins:revenant/siphon" = true
-		"medievalorigins:revenant/unwitherable" = true
-		"medievalorigins:revenant/undeadge" = true
-		"medievalorigins:revenant/poor_reputation" = true
-		"medievalorigins:revenant/black_thumb" = true
-		"medievalorigins:revenant/disturbed" = true
-		"medievalorigins:revenant/unguarded" = true
-		"origins_survive:sleepless" = true
 
 	[origins."monke:monkey"]
 		enabled = true
@@ -168,29 +88,6 @@
 		"monke:monke_drown" = false
 		"monke:monke_lunge" = true
 		"monke:monke_frhand" = true
-
-	[origins."medievalorigins:banshee"]
-		enabled = false
-		"medievalorigins:banshee/spectral" = true
-		"medievalorigins:banshee/sonic_shriek" = true
-		"medievalorigins:banshee/lunar_nexus" = true
-		"medievalorigins:banshee/dimeritium_shackles" = true
-		"medievalorigins:banshee/hexed" = true
-		"medievalorigins:banshee/immaterial" = true
-		"medievalorigins:banshee/cursed_sigil" = true
-		"medievalorigins:banshee/cursed_ward" = true
-		"origins_survive:sleepless" = true
-
-	[origins."medievalorigins:gorgon"]
-		enabled = true
-		"medievalorigins:gorgon/petrifying_gaze" = true
-		"medievalorigins:gorgon/revenge" = true
-		"medievalorigins:gorgon/hydrophobe" = false
-		"medievalorigins:gorgon/to_stone" = true
-		"medievalorigins:gorgon/silver_aversion" = true
-		"medievalorigins:gorgon/poison_blood" = true
-		"medievalorigins:gorgon/poison_immune" = true
-		"origins_env_deh:thirst_resistance" = true
 
 	[origins."origins:phantom"]
 		enabled = true
@@ -214,20 +111,6 @@
 		"origins:damage_from_snowballs" = true
 		"origins:damage_from_potions" = true
 
-	[origins."medievalorigins:wood_elf"]
-		enabled = true
-		"medievalorigins:wood_elf/elegant" = false
-		"medievalorigins:wood_elf/empowered_shot_zenith" = true
-		"medievalorigins:wood_elf/steward" = true
-		"medievalorigins:wood_elf/towering" = true
-		"medievalorigins:wood_elf/archer" = true
-		"medievalorigins:wood_elf/eagle_eyed" = true
-		"medievalorigins:wood_elf/graceful" = true
-		"medievalorigins:wood_elf/spell_power" = true
-		"medievalorigins:wood_elf/forest_vision" = true
-		"medievalorigins:wood_elf/gear_spawn" = true
-		"medievalorigins:wood_elf/empowered_shot_apotheosis" = true
-
 	[origins."origins:avian"]
 		enabled = true
 		"origins:slow_falling" = true
@@ -250,94 +133,8 @@
 		"peng:peng_health" = true
 		"peng:extra_jump" = true
 
-	[origins."medievalorigins:fae"]
-		enabled = true
-		"medievalorigins:fae/levitation" = true
-		"medievalorigins:fae/magic_resistance" = true
-		"medievalorigins:fae/magic_damage_boost" = true
-		"medievalorigins:fae/regen" = true
-		"medievalorigins:fae/allure" = true
-		"medievalorigins:fae/diminutive" = true
-		"medievalorigins:fae/iron_aversion" = true
-
 	[origins."origins:human"]
 		enabled = true
-
-	[origins."medievalorigins:goblin"]
-		enabled = true
-		"medievalorigins:goblin/greedy" = true
-		"medievalorigins:goblin/green" = true
-		"medievalorigins:goblin/durability" = true
-		"medievalorigins:goblin/cunning" = true
-		"medievalorigins:goblin/nippy" = true
-		"medievalorigins:goblin/stunted" = true
-		"medievalorigins:goblin/frail" = true
-
-	[origins."medievalorigins:moon_elf"]
-		enabled = true
-		"medievalorigins:moon_elf/moonlight_rogue" = true
-		"medievalorigins:moon_elf/stealth" = true
-		"medievalorigins:moon_elf/ethereal" = true
-		"medievalorigins:moon_elf/crazed" = true
-		"medievalorigins:moon_elf/elegant" = true
-		"medievalorigins:moon_elf/nimble" = true
-		"medievalorigins:moon_elf/fragile" = true
-		"medievalorigins:moon_elf/towering" = true
-		"origins_survive:sleepless" = true
-
-	[origins."medievalorigins:yeti"]
-		enabled = true
-		"medievalorigins:yeti/frigid_pulse" = true
-		"medievalorigins:yeti/from_whence_you_came" = true
-		"medievalorigins:yeti/frosty_breath" = true
-		"medievalorigins:yeti/titanic" = true
-		"medievalorigins:yeti/unstoppable" = true
-		"medievalorigins:yeti/winter_body" = false
-		"medievalorigins:yeti/flammable" = true
-		"medievalorigins:yeti/thick_fur" = true
-		"medievalorigins:yeti/spell_power" = true
-		"origins_env_deh:cold_resistance" = true
-		"thermoo-patches:cold_immune" = true
-		"origins_survive:cold_resistance" = true
-		"origins_toughasnails:cold_resistance" = true
-
-	[origins."medievalorigins:siren"]
-		enabled = true
-		"medievalorigins:siren/amphibious" = true
-		"medievalorigins:siren/siren_song" = true
-		"medievalorigins:siren/holy_water" = true
-		"medievalorigins:siren/out_of_your_depth" = true
-		"medievalorigins:siren/flammable" = true
-		"medievalorigins:siren/water_vision" = true
-		"origins:aquatic" = true
-		"origins:like_water" = true
-		"medievalorigins:siren/seduce" = true
-		"mermod:fabulous_fins" = true
-		"origins_env_deh:water_dweller" = true
-		"origins_env_deh:cold_resistance" = true
-		"thermoo-patches:cold_immune" = true
-		"survive:cold_blooded" = true
-
-	[origins."medievalorigins:incubus"]
-		enabled = true
-		"medievalorigins:incubus/demon_fire" = true
-		"medievalorigins:incubus/hellborne" = true
-		"medievalorigins:incubus/carnivore" = true
-		"medievalorigins:incubus/unholy_deal" = true
-		"medievalorigins:incubus/hydrophobe" = true
-		"medievalorigins:incubus/impure" = true
-		"medievalorigins:incubus/dimension_strength" = true
-		"medievalorigins:incubus/lava_swim" = true
-		"medievalorigins:incubus/red" = true
-		"medievalorigins:incubus/spell_power" = true
-		"origins:nether_spawn" = true
-		"origins_env_deh:heat_resistance" = true
-		"thermoo-patches:heat_immune" = true
-		"thermoo-patches:cold_vulnerability" = true
-		"origins_survive:lava_drinker" = true
-		"origins_survive:heat_resistance" = true
-		"origins_toughasnails:lava_drinker" = true
-		"origins_toughasnails:thermal_regulator" = true
 
 	[origins."origins:shulk"]
 		enabled = true
@@ -359,68 +156,12 @@
 		"origins:conduit_power_on_land" = true
 		"origins:air_from_potions" = true
 
-	[origins."medievalorigins:ogre"]
-		enabled = true
-		"medievalorigins:ogre/gargantuan" = true
-		"medievalorigins:ogre/bloodlust" = true
-		"medievalorigins:ogre/ravager" = true
-		"medievalorigins:ogre/lead_belly" = true
-		"medievalorigins:ogre/stocky" = true
-		"medievalorigins:ogre/ravenous" = true
-		"medievalorigins:ogre/sluggish" = true
-		"medievalorigins:ogre/unwieldy" = true
-		"medievalorigins:ogre/ogre_properties" = true
-		"medievalorigins:ogre/bloodlust_camera" = true
-		"origins_survive:illness_resistance" = true
-
 	[origins."origins:arachnid"]
 		enabled = true
 		"origins:climbing" = true
 		"origins:master_of_webs" = true
 		"origins:carnivore" = true
 		"origins:fragile" = true
-		"origins:arthropod" = true
-
-	[origins."medievalorigins:alfiq"]
-		enabled = true
-		"medievalorigins:alfiq/clawed" = true
-		"medievalorigins:alfiq/poor_grip" = true
-		"medievalorigins:alfiq/agile_preference" = true
-		"medievalorigins:alfiq/on_your_feet" = true
-		"medievalorigins:alfiq/crepuscular" = true
-		"medievalorigins:alfiq/pickpocket" = true
-		"medievalorigins:alfiq/pickpocket_player" = true
-		"medievalorigins:alfiq/pounce" = true
-		"origins:carnivore" = true
-		"origins:velvet_paws" = true
-		"origins:scare_creepers" = true
-		"medievalorigins:alfiq/meow" = true
-
-	[origins."medievalorigins:troll"]
-		enabled = true
-		"medievalorigins:troll/ironhide" = true
-		"medievalorigins:troll/ham_fisted" = true
-		"medievalorigins:troll/mountainous" = true
-		"medievalorigins:troll/apex_predator" = true
-		"medievalorigins:troll/lumbering" = true
-		"medievalorigins:troll/old_blood" = true
-		"medievalorigins:troll/out_of_stock" = true
-		"medievalorigins:troll/spell_power" = true
-		"origins_env_deh:cold_resistance" = true
-		"thermoo-patches:cold_immune" = true
-		"origins_survive:cold_resistance" = true
-		"origins_toughasnails:cold_resistance" = true
-
-	[origins."medievalorigins:arachnae"]
-		enabled = true
-		"medievalorigins:arachnae/climber" = true
-		"medievalorigins:arachnae/many_eyes" = true
-		"medievalorigins:arachnae/venomous_bite" = true
-		"medievalorigins:arachnae/web_slinger" = true
-		"medievalorigins:arachnae/bottomless_stomach" = true
-		"medievalorigins:arachnae/brittle" = true
-		"medievalorigins:arachnae/fragile_exoskeleton" = true
-		"origins:master_of_webs" = true
 		"origins:arthropod" = true
 
 	[origins."origins-plus-plus:land_shark"]
@@ -1866,14 +1607,14 @@
 		"origins-plus-plus:illusioner/villager_hate" = true
 
 	[origins."origins-plus-plus:marshmallow"]
-		enabled = true
-		"origins-plus-plus:marshmallow/change_resource" = true
+		enabled = false
+		"origins-plus-plus:marshmallow/change_resource" = false
 		"origins-plus-plus:marshmallow/melt_in_water" = false
-		"origins-plus-plus:marshmallow/pyrophobia" = true
-		"origins-plus-plus:marshmallow/resource" = true
-		"origins-plus-plus:marshmallow/sugar_level_1" = true
-		"origins-plus-plus:marshmallow/sugar_level_2" = true
-		"origins-plus-plus:marshmallow/sugar_level_3" = true
+		"origins-plus-plus:marshmallow/pyrophobia" = false
+		"origins-plus-plus:marshmallow/resource" = false
+		"origins-plus-plus:marshmallow/sugar_level_1" = false
+		"origins-plus-plus:marshmallow/sugar_level_2" = false
+		"origins-plus-plus:marshmallow/sugar_level_3" = false
 
 	[origins."origins-plus-plus:warper"]
 		enabled = false
@@ -2339,13 +2080,6 @@
 		"ars_scalaes:source_addict_2" = false
 		"ars_scalaes:mana_absorber" = false
 
-	[origins."magic_origins:panda"]
-		enabled = false
-		"magic_origins:panda/bamboo_new" = false
-		"magic_origins:panda/panda_shit" = false
-		"origins:vegetarian" = false
-		"magic_origins:advancement" = false
-
 	[origins."ojs_rpg_origins:bard"]
 		enabled = true
 		"ojs_rpg_origins:decoy" = true
@@ -2354,28 +2088,6 @@
 		"ojs_rpg_origins:charismatic" = true
 		"ojs_rpg_origins:charismatic_toggle" = true
 		"ojs_rpg_origins:bard_item" = true
-
-	[origins."magic_origins:necromancer"]
-		enabled = true
-		"magic_origins:necromancer/night_buffs" = true
-		"magic_origins:necromancer/night_buffs2" = true
-		"magic_origins:necromancer/mysterous" = true
-		"magic_origins:necromancer/emume" = true
-		"magic_origins:necromancer/summon/sz_summon" = true
-		"magic_origins:necromancer/summon/a_summon" = true
-		"magic_origins:necromancer/summon/d_summon" = true
-		"magic_origins:necromancer/cloak" = false
-		"magic_origins:advancement" = true
-
-	[origins."magic_origins:yin"]
-		enabled = true
-		"magic_origins:yinyang/yang/yintransform" = true
-		"magic_origins:yinyang/yang/cloud" = true
-		"magic_origins:yinyang/yang/posess" = true
-		"magic_origins:yinyang/yang/transparency1" = true
-		"magic_origins:yinyang/yang/dayweak" = true
-		"magic_origins:yinyang/yang/invis_temp" = true
-		"magic_origins:advancement" = true
 
 	[origins."ojs_rpg_origins:variant_human/skills/survival"]
 		enabled = true
@@ -2406,15 +2118,6 @@
 	[origins."ojs_rpg_origins:variant_human/feat"]
 		enabled = true
 
-	[origins."magic_origins:pirate"]
-		enabled = true
-		"magic_origins:pirate/hook" = true
-		"magic_origins:pirate/eye_patch" = true
-		"magic_origins:pirate/swim_speed" = true
-		"magic_origins:pirate/home" = true
-		"magic_origins:pirate/shiny" = false
-		"magic_origins:advancement" = true
-
 	[origins."strictly:birdofparadise"]
 		enabled = true
 		"strictly:winged" = true
@@ -2440,19 +2143,6 @@
 		"strictly:jump" = false
 		"strictly:step_height" = false
 
-	[origins."magic_origins:green_dragon"]
-		enabled = true
-		"magic_origins:green_dragon/discount" = true
-		"magic_origins:green_dragon/green" = true
-		"magic_origins:green_dragon/elytra" = true
-		"magic_origins:green_dragon/unbad_omen" = true
-		"magic_origins:green_dragon/vegie" = true
-		"magic_origins:green_dragon/food" = true
-		"magic_origins:green_dragon/size" = true
-		"magic_origins:green_dragon/emerald" = true
-		"magic_origins:green_dragon/droar" = true
-		"magic_origins:advancement" = true
-
 	[origins."ars_scalaes:affinity/conjuration"]
 		enabled = true
 
@@ -2467,23 +2157,6 @@
 		"ojs_rpg_origins:unarmored" = true
 		"origins:no_shield" = true
 		"ojs_rpg_origins:berserker_item" = true
-
-	[origins."magic_origins:kraken"]
-		enabled = true
-		"magic_origins:kraken/bigger_kraken" = true
-		"magic_origins:kraken/tentacles" = true
-		"magic_origins:kraken/wave" = true
-		"magic_origins:kraken/tentacle_grap" = true
-		"origins:air_from_potions" = true
-		"origins:aquatiq" = true
-		"origins:aqua_affinity" = true
-		"origins:more_exhaustion" = true
-		"origins:carnivore" = true
-		"origins:water_vision" = true
-		"origins:conduit_power_on_land" = true
-		"origins:like_water" = true
-		"origins:water_breathing" = true
-		"magic_origins:advancement" = true
 
 	[origins."ojs_rpg_origins:variant_human/feats/heavily_armored"]
 		enabled = true
@@ -2507,14 +2180,6 @@
 		"strictly:spindly" = false
 		"strictly:jump3" = true
 		"strictly:falldmg" = true
-
-	[origins."magic_origins:mimic"]
-		enabled = true
-		"magic_origins:mimic/toggle" = true
-		"magic_origins:mimic/toggle2" = true
-		"magic_origins:mimic/display" = true
-		"origins:nine_lives" = true
-		"magic_origins:advancement" = true
 
 	[origins."origins-classes:cook"]
 		enabled = true
@@ -2573,12 +2238,6 @@
 		"strictly:book" = true
 		"strictly:praise_the_sun" = true
 
-	[origins."magic_origins:cookie"]
-		enabled = true
-		"magic_origins:cookie/canibalism" = true
-		"magic_origins:cookie/spillage" = true
-		"magic_origins:advancement" = true
-
 	[origins."origins-classes:merchant"]
 		enabled = true
 		"origins-classes:trade_availability" = true
@@ -2607,28 +2266,6 @@
 		"strictly:jump2" = false
 		"strictly:step_height" = false
 
-	[origins."magic_origins:sand_larvae"]
-		enabled = true
-		"magic_origins:sand/sand_larvae/air_swim" = true
-		"magic_origins:sand/sand_larvae/advancement" = true
-		"magic_origins:sand/sand_larvae/hp" = true
-		"magic_origins:sand/sand_larvae/size" = true
-		"magic_origins:sand/sand_larvae/bite" = true
-		"magic_origins:sand/sand_larvae/spit" = true
-		"magic_origins:sand/sand_larvae/sand_confidene" = true
-		"magic_origins:sand/sand_larvae/desert" = true
-		"magic_origins:advancement" = true
-
-	[origins."magic_origins:lorax"]
-		enabled = true
-		"magic_origins:lorax/phase" = true
-		"magic_origins:lorax/no_tree_chopping" = true
-		"magic_origins:lorax/size" = true
-		"magic_origins:lorax/friendly" = true
-		"magic_origins:lorax/marshmellow" = true
-		"magic_origins:lorax/edible_marshmellow" = true
-		"magic_origins:advancement" = true
-
 	[origins."ars_scalaes:wixie"]
 		enabled = true
 
@@ -2649,19 +2286,6 @@
 		"ojs_rpg_origins:weak" = true
 		"ojs_rpg_origins:thief_item" = true
 
-	[origins."magic_origins:red_dragon"]
-		enabled = true
-		"origins:fire_immunity" = true
-		"origins:nether_spawn" = true
-		"origins:burning_wrath" = true
-		"origins:water_vulnerability" = false
-		"origins:hotblooded" = true
-		"magic_origins:red_dragon/freeze" = false
-		"magic_origins:red_dragon/size69" = true
-		"magic_origins:red_dragon/wreckless" = true
-		"origins:carnivore" = true
-		"magic_origins:advancement" = true
-
 	[origins."origins-classes:cleric"]
 		enabled = true
 		"origins-classes:potion_bonus" = true
@@ -2674,23 +2298,6 @@
 	[origins."ojs_rpg_origins:variant_human/feats/skilled"]
 		enabled = true
 		"ojs_rpg_origins:variant_human/feats/skilled" = true
-
-	[origins."magic_origins:magic_fly"]
-		enabled = true
-		"magic_origins:magic_fly/vegie" = true
-		"magic_origins:magic_fly/fairy_wings" = true
-		"magic_origins:magic_fly/forest_buffs" = true
-		"magic_origins:magic_fly/size" = true
-		"magic_origins:magic_fly/6hp" = true
-		"magic_origins:magic_fly/no_swords" = true
-		"magic_origins:magic_fly/iron_golem" = true
-		"magic_origins:magic_fly/hot_debuf" = true
-		"magic_origins:magic_fly/nether" = true
-		"magic_origins:hunger" = true
-		"magic_origins:slow" = false
-		"magic_origins:heal" = true
-		"magic_origins:awareness" = true
-		"magic_origins:advancement" = true
 
 	[origins."origins-classes:farmer"]
 		enabled = true
@@ -2743,15 +2350,6 @@
 		"ojs_rpg_origins:quiver" = true
 		"ojs_rpg_origins:archer_item" = true
 
-	[origins."magic_origins:yang"]
-		enabled = true
-		"magic_origins:yinyang/yin/yangtransform" = true
-		"magic_origins:yinyang/yin/heal" = true
-		"magic_origins:yinyang/yin/lightning" = true
-		"magic_origins:yinyang/yin/transparency" = true
-		"magic_origins:yinyang/yin/darkweak" = true
-		"magic_origins:advancement" = true
-
 	[origins."ojs_rpg_origins:cleric"]
 		enabled = true
 		"ojs_rpg_origins:villagefriendly" = true
@@ -2796,24 +2394,6 @@
 		"ojs_rpg_origins:unwieldly" = true
 		"ojs_rpg_origins:mage_item" = true
 
-	[origins."magic_origins:undead"]
-		enabled = true
-		"magic_origins:undead/zombie" = true
-		"magic_origins:undead/daylight" = false
-		"magic_origins:undead/hugs" = true
-		"magic_origins:undead/body" = true
-		"magic_origins:undead/body_" = true
-		"magic_origins:undead/undead" = true
-		"magic_origins:undead/unnerving" = true
-		"magic_origins:undead/attacker" = true
-		"magic_origins:undead/target" = true
-		"magic_origins:undead/join_team" = true
-		"magic_origins:undead/create_team" = true
-		"magic_origins:undead/summon" = true
-		"magic_origins:undead/shovel" = true
-		"magic_origins:undead/stone_sword" = true
-		"magic_origins:advancement" = true
-
 	[origins."ojs_rpg_origins:variant_human/feats/charger"]
 		enabled = true
 		"ojs_rpg_origins:variant_human/feats/charger" = true
@@ -2831,20 +2411,6 @@
 		enabled = true
 		"origins-classes:more_attack_damage" = true
 		"origins-classes:less_shield_slowdown" = true
-
-	[origins."magic_origins:hydra"]
-		enabled = true
-		"magic_origins:hydra/heads" = true
-		"magic_origins:hydra/passive_head_powers" = true
-		"magic_origins:hydra/scales" = true
-		"magic_origins:hydra/no_fire_durability" = true
-		"magic_origins:hydra/fire_breath" = true
-		"magic_origins:hydra/ability_toggle" = true
-		"magic_origins:hydra/water_ray" = true
-		"magic_origins:hydra/poison_breath" = true
-		"magic_origins:hydra/wind_wave" = true
-		"magic_origins:hydra/helmet" = true
-		"magic_origins:advancement" = true
 
 	[origins."origins-classes:rancher"]
 		enabled = true
@@ -2866,17 +2432,6 @@
 
 	[origins."ars_scalaes:affinity/air_affinity"]
 		enabled = true
-
-	[origins."magic_origins:cyborg"]
-		enabled = true
-		"magic_origins:cyborg/metal_skin" = false
-		"magic_origins:cyborg/circuits" = true
-		"magic_origins:cyborg/jump" = true
-		"magic_origins:cyborg/fire_immunity" = true
-		"magic_origins:cyborg/metal_skin_no_armor" = true
-		"magic_origins:cyborg/iron_feet" = true
-		"magic_origins:cyborg/robot_eye" = true
-		"magic_origins:advancement" = true
 
 	[origins."strictly:plantaemancer"]
 		enabled = true
@@ -2912,18 +2467,6 @@
 		"strictly:book" = true
 		"strictly:crescent_worship" = true
 
-	[origins."magic_origins:dwarf"]
-		enabled = true
-		"magic_origins:dwarf/size" = true
-		"magic_origins:dwarf/haste" = true
-		"magic_origins:dwarf/less_hp" = true
-		"magic_origins:dwarf/stamina/sugar" = true
-		"magic_origins:slow" = false
-		"magic_origins:advancement" = true
-		"origins:no_shield" = true
-		"origins:fall_immunity" = true
-		"origins:climbing" = true
-
 	[origins."ojs_rpg_origins:variant_human/feats/moderately_armored"]
 		enabled = true
 		"ojs_rpg_origins:variant_human/feats/moderately_armored" = true
@@ -2937,26 +2480,225 @@
 		enabled = true
 		"ojs_rpg_origins:variant_human/feats/sentinel" = true
 
-	[origins."magic_origins:druid"]
-		enabled = true
-		"magic_origins:druid/forest_buff" = true
-		"magic_origins:druid/nether_burn" = false
-		"magic_origins:druid/hot_debuff" = false
-		"origins:vegetarian" = true
-		"magic_origins:druid/roots" = true
-		"magic_origins:druid/roots2" = true
-		"magic_origins:druid/roots3" = true
-		"magic_origins:druid/regen" = true
-		"magic_origins:druid/fireweak" = true
-		"magic_origins:druid/green" = true
-		"magic_origins:hunger" = true
-		"magic_origins:fertilize" = true
-		"magic_origins:advancement" = true
-
-	[origins."magic_origins:test"]
-		enabled = true
-
 	[origins."ojs_rpg_origins:variant_human/feats/skulker"]
 		enabled = true
 		"ojs_rpg_origins:variant_human/feats/skulker" = true
+
+	[origins."dragon_origins:green_dragon_origin"]
+		enabled = true
+		"dragon_origins:good_neighboer" = true
+		"dragon_origins:green" = true
+		"dragon_origins:elytra" = true
+		"dragon_origins:white_teeth" = true
+		"dragon_origins:vegie" = true
+		"dragon_origins:food" = true
+		"dragon_origins:size" = true
+		"dragon_origins:emerald" = true
+		"dragon_origins:droar" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:yang"]
+		enabled = true
+		"dragon_origins:yinyang/yang/yintransform" = true
+		"dragon_origins:yinyang/yang/cloud" = true
+		"dragon_origins:yinyang/yang/posess" = true
+		"dragon_origins:yinyang/yang/transparency1" = true
+		"dragon_origins:yinyang/yang/dayweak" = true
+		"dragon_origins:yinyang/yang/invis_temp" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:cyborg"]
+		enabled = true
+		"dragon_origins:metal_skin" = false
+		"dragon_origins:water" = true
+		"dragon_origins:xtrajump" = true
+		"dragon_origins:fire_immunity" = true
+		"dragon_origins:no_armor" = true
+		"dragon_origins:fall_dam" = true
+		"dragon_origins:night_v" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:undead"]
+		enabled = true
+		"dragon_origins:zombie" = true
+		"dragon_origins:daylight" = false
+		"dragon_origins:hugs" = true
+		"dragon_origins:body" = true
+		"dragon_origins:body_" = true
+		"dragon_origins:gloom" = true
+		"dragon_origins:undead" = true
+		"dragon_origins:unnerving" = true
+		"dragon_origins:attacker" = true
+		"dragon_origins:target" = true
+		"dragon_origins:join_team" = true
+		"dragon_origins:create_team" = true
+		"dragon_origins:summon" = true
+		"dragon_origins:shovel" = true
+		"dragon_origins:stone_sword" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:mimic"]
+		enabled = true
+		"dragon_origins:mimic/toggle" = true
+		"dragon_origins:mimic/toggle2" = true
+		"dragon_origins:mimic/display" = true
+		"origins:nine_lives" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:cookie"]
+		enabled = true
+		"dragon_origins:canibalism" = true
+		"dragon_origins:spillage" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:pirate"]
+		enabled = true
+		"dragon_origins:pirate/hook" = true
+		"dragon_origins:pirate/eye_patch" = true
+		"dragon_origins:pirate/swim_speed" = true
+		"dragon_origins:pirate/home" = true
+		"dragon_origins:pirate/shiny" = false
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:sand_larvae"]
+		enabled = true
+		"dragon_origins:sand/sand_larvae/air_swim" = true
+		"dragon_origins:sand/sand_larvae/advancement" = true
+		"dragon_origins:sand/sand_larvae/hp" = true
+		"dragon_origins:sand/sand_larvae/size" = true
+		"dragon_origins:sand/sand_larvae/bite" = true
+		"dragon_origins:sand/sand_larvae/spit" = true
+		"dragon_origins:sand/sand_larvae/sand_confidene" = true
+		"dragon_origins:sand/sand_larvae/desert" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:necromancer"]
+		enabled = true
+		"dragon_origins:gloom" = true
+		"dragon_origins:gloom2" = true
+		"dragon_origins:mysterous" = true
+		"dragon_origins:emume" = true
+		"dragon_origins:summon/sz_summon" = true
+		"dragon_origins:summon/a_summon" = true
+		"dragon_origins:summon/d_summon" = true
+		"dragon_origins:cloak" = false
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:red_dragon"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:water_vulnerability" = false
+		"origins:hotblooded" = true
+		"dragon_origins:freeze" = false
+		"dragon_origins:size69" = true
+		"dragon_origins:wreckless" = true
+		"origins:carnivore" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:magic_fly"]
+		enabled = true
+		"dragon_origins:vegie2" = true
+		"dragon_origins:fairy_wings" = true
+		"dragon_origins:easy_travel" = true
+		"dragon_origins:size3" = true
+		"dragon_origins:slow" = false
+		"origins:fall_immunity" = true
+		"dragon_origins:6hp" = true
+		"dragon_origins:no_swords" = true
+		"dragon_origins:iron_golem" = true
+		"dragon_origins:heal" = true
+		"dragon_origins:no_combat" = true
+		"dragon_origins:hot_debuf" = true
+		"dragon_origins:nether" = true
+		"dragon_origins:hunger" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:lorax"]
+		enabled = true
+		"dragon_origins:lorax/phase" = true
+		"dragon_origins:lorax/no_tree_chopping" = true
+		"dragon_origins:lorax/size" = true
+		"dragon_origins:lorax/friendly" = true
+		"dragon_origins:lorax/marshmellow" = true
+		"dragon_origins:lorax/food" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:panda"]
+		enabled = false
+		"dragon_origins:panda/food" = false
+		"dragon_origins:panda/food_dis" = false
+		"dragon_origins:kraken/langtest" = false
+		"origins:vegetarian" = false
+		"dragon_origins:advancement" = false
+
+	[origins."dragon_origins:yin"]
+		enabled = true
+		"dragon_origins:yinyang/yin/yangtransform" = true
+		"dragon_origins:yinyang/yin/heal" = true
+		"dragon_origins:test/lightning" = true
+		"dragon_origins:yinyang/yin/transparency" = true
+		"dragon_origins:yinyang/yin/darkweak" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:kraken"]
+		enabled = true
+		"dragon_origins:kraken/bigger_kraken" = true
+		"dragon_origins:kraken/tentacles" = true
+		"dragon_origins:kraken/grapple" = true
+		"dragon_origins:kraken/grappledesc" = true
+		"dragon_origins:kraken/grappletp" = true
+		"origins:air_from_potions" = true
+		"origins:aquatiq" = true
+		"origins:aqua_affinity" = true
+		"origins:more_exhaustion" = true
+		"origins:carnivore" = true
+		"origins:water_vision" = true
+		"origins:conduit_power_on_land" = true
+		"origins:like_water" = true
+		"origins:water_breathing" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:mini"]
+		enabled = true
+		"dragon_origins:speed" = true
+		"dragon_origins:size2" = true
+		"origins:fall_immunity" = true
+		"origins:climbing" = true
+		"dragon_origins:haste" = true
+		"origins:no_shield" = true
+		"dragon_origins:less_hp" = true
+		"dragon_origins:speedswim" = true
+		"dragon_origins:speed_boost" = true
+		"origins:carnivore" = true
+		"dragon_origins:slow" = false
+		"dragon_origins:jump_boost" = true
+		"dragon_origins:advancement" = true
+
+	[origins."dragon_origins:test"]
+		enabled = false
+		"dragon_origins:test/invis_temp" = false
+		"dragon_origins:test/heal" = false
+		"dragon_origins:test/lightning" = false
+		"dragon_origins:test/air_swim" = false
+		"dragon_origins:test/dimension" = false
+		"dragon_origins:advancement" = false
+
+	[origins."dragon_origins:druid"]
+		enabled = true
+		"dragon_origins:f_buf" = true
+		"dragon_origins:nether2" = false
+		"dragon_origins:hot_debuf" = false
+		"dragon_origins:vegie3" = true
+		"dragon_origins:roots" = true
+		"dragon_origins:roots2" = true
+		"dragon_origins:roots3" = true
+		"dragon_origins:roots4" = true
+		"dragon_origins:heal2" = true
+		"dragon_origins:regen" = true
+		"dragon_origins:plant_v" = true
+		"dragon_origins:green2" = true
+		"dragon_origins:hunger" = true
+		"dragon_origins:advancement" = true
 
