@@ -8071,20 +8071,29 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
-			description: [
-				"If not, you should be! "
-				""
-				"Either way, nice job taking out the chimera!"
-			]
+			description: [""]
 			id: "3390989F8D1219E7"
-			invisible: true
-			rewards: [{
-				id: "4E3A12536ED8C8D4"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4E3A12536ED8C8D4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3C8006E6A8D48AF4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
-			subtitle: "On our way to the celestial arsenal, are we?"
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
 				icon: {
@@ -8101,8 +8110,8 @@
 				value: 1L
 			}]
 			title: "Slayer Task: Kill The Wilden Chimera"
-			x: -6.982142857142861d
-			y: 2.392857142857146d
+			x: -8.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -8137,6 +8146,995 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "draconicevolution:chaotic_core"
+			}
+			id: "4779743FA0C8000C"
+			rewards: [
+				{
+					id: "0D81CC19B1FFA741"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "2E49C94BA86DC51E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
+			size: 3.5d
+			tasks: [{
+				entity: "draconicevolution:draconic_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "draconicevolution:chaotic_core"
+				}
+				id: "6EAF1DD871D2F485"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slayer Task: Kill The Chaos Guardian"
+			x: -8.0d
+			y: 7.785714285714299d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:pure_darkness"
+			}
+			id: "7D8C1230831B842E"
+			rewards: [
+				{
+					id: "31F472DAA6985E0E"
+					type: "xp"
+					xp: 120
+				}
+				{
+					count: 3
+					id: "3F59250D44579D68"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "1 Forsaken = 3 Sprockets"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:pure_darkness"
+				}
+				id: "798175710D7F6528"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slayer Task: 1x Forsaken"
+			x: -11.25d
+			y: 9.75d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:textures/mob_effect/magnetizing.png"
+				}
+			}
+			id: "7C4F7308430E1D63"
+			rewards: [
+				{
+					id: "49E9BACC706B496F"
+					type: "xp"
+					xp: 120
+				}
+				{
+					count: 3
+					id: "5CEB327DA9A17269"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "1 Magnetron = 3 Sprockets"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:flux_magnet"
+					tag: { }
+				}
+				id: "71C17BBB641AD9EA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slayer Task: 1x Magnetron"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:immortal_embryo"
+			}
+			id: "2267E56A37E2A84E"
+			rewards: [
+				{
+					id: "60713F16C5D88DE3"
+					type: "xp"
+					xp: 120
+				}
+				{
+					count: 3
+					id: "0E16429E321EAB60"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "1 Hullbreaker = 3 Sprockets"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:immortal_embryo"
+				}
+				id: "597780247911048E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slayer Task: 1x Hullbreaker"
+			x: -5.107142857142861d
+			y: 9.928571428571423d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:tectonic_shard"
+			}
+			id: "0E185CF84E83BB4C"
+			rewards: [
+				{
+					id: "44FE94F089AE4618"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "75866D74692660FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "1 Luxtructosaurus = 1 Cog"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tectonic_shard"
+				}
+				id: "20D8612563699C61"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slayer Task: Kill The Luxtructosaurus"
+			x: -12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:life_essence"
+			}
+			id: "063A066E88D42B46"
+			rewards: [
+				{
+					id: "48FDBC2F6C121C59"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "05F9C7C0C1658DFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "1 Guardian of Gaia = 1 Cog"
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "botania:life_essence"
+				}
+				id: "11643EB42A43A0D0"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slayer Task: Kill The Guardian of Gaia"
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "born_in_chaos_v1:missionary_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A23F9F4808EA3DA"
+			rewards: [
+				{
+					id: "5147D67DFFC4A7D1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "0FD3F51DF898B204"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "3 Missionaries = 2 Sprockets"
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4B71398296F3FF3D"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slayer Task: 3x Missionary"
+			x: -21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "born_in_chaos_v1:lifestealer_skull"
+			}
+			id: "278DD2D95C34BB12"
+			rewards: [
+				{
+					id: "24CCD3F837C2A100"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "5ADC314950BCD081"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "3 lifestealer = 2 Sprockets"
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer_true_form"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:lifestealer_skull"
+				}
+				id: "3ABE5F5B1E02A8B0"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slayer Task: 3x Lifestealer"
+			x: -18.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecolonies:chiefsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17CE7C4DB8C9C810"
+			rewards: [
+				{
+					id: "62C779FFE9B87F36"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "6FE31417FFB86B50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "5 Fallen Chaos Knight = 1 Sprocket"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecolonies:chiefsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "73C44DA72ED1F880"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Slayer Task: 5x Fallen Chaos Knight"
+			x: -18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "born_in_chaos_v1:sea_terror_stomach"
+			}
+			id: "6C0A8580454BB2D5"
+			rewards: [
+				{
+					id: "74932100979161F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "06FB0AFC97F96CDE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "3 Glutton Fish = 2 Sprockets"
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:sea_terror_stomach"
+				}
+				id: "55EF3BB8E1603282"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slayer Task: 3x Glutton Fish"
+			x: -24.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:heavy_bone"
+			}
+			id: "118399D95087AFE0"
+			rewards: [
+				{
+					id: "67DFEAEA356BCCB9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "6014A7A719411174"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "3 Tremorsaurus = 2 Sprockets"
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:heavy_bone"
+				}
+				id: "1C7BD445007F071F"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slayer Task: 3x Tremorsaurus"
+			x: -27.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:green_soylent"
+			}
+			id: "2F68CE7E879CFC06"
+			rewards: [
+				{
+					id: "1BDB44FC13B9BDAF"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "3A00010035522FF1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "5 Brainiac = 1 Sprocket"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:green_soylent"
+				}
+				id: "1C9FAEEC8A31BBF5"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Slayer Task: 5x Brainiac"
+			x: -21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:sharpened_candy_cane"
+			}
+			id: "7F82082093982645"
+			rewards: [
+				{
+					id: "47F8543626AC2D26"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "0B951490FCB6D452"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "5 Caniac = 1 Sprocket"
+			tasks: [{
+				entity: "alexscaves:caniac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sharpened_candy_cane"
+				}
+				id: "05CEC0592C88B382"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Slayer Task: 5x Caniac"
+			x: -24.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:sugar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B39FDF319DA81C8"
+			rewards: [
+				{
+					id: "72F57E439D5EEBDC"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "3E0B98FEC5B7685C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "5 Licowitch + 1 Sprocket"
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sugar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "738D56E772386803"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Slayer Task: 5x Licowitch"
+			x: -27.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B39FDF319DA81C8"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:sugar_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D6130D57E59FED7"
+			rewards: [
+				{
+					id: "2C9F2C4F2716FE3E"
+					type: "xp"
+					xp: 140
+				}
+				{
+					count: 3
+					id: "0607FDC3EBBC7A14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "20 Licowitch = 3 Sprockets"
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sugar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7C3958F9DF711E88"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Slayer Task: 20x Licowitch"
+			x: -27.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7F82082093982645"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:sharpened_candy_cane"
+			}
+			id: "6CFD6EDDF60F3AE6"
+			rewards: [
+				{
+					id: "78E3FBDCF373F7C2"
+					type: "xp"
+					xp: 140
+				}
+				{
+					count: 3
+					id: "13A0CC1C164331FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "25 Caniac = 3 Sprockets"
+			tasks: [{
+				entity: "alexscaves:caniac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sharpened_candy_cane"
+				}
+				id: "07CFC041675C9EA8"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Slayer Task: 25x Caniac"
+			x: -24.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2F68CE7E879CFC06"]
+			id: "6166589907F01EE0"
+			rewards: [
+				{
+					id: "64AAA762F60C876F"
+					type: "xp"
+					xp: 140
+				}
+				{
+					count: 3
+					id: "3E4F41D236403A3C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "25 Brainiac = 3 Sprockets"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:green_soylent"
+				}
+				id: "20C7EF6CFAFE8A4E"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Slayer Task: 25x Brainiac"
+			x: -21.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["17CE7C4DB8C9C810"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecolonies:chiefsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C0007B847105542"
+			rewards: [
+				{
+					id: "2C33D19B4A58D3FF"
+					type: "xp"
+					xp: 140
+				}
+				{
+					count: 3
+					id: "2C18036BE9E2CC23"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "20 Fallen Chaos Knight = 3 Sprockets"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecolonies:chiefsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7BF594C8C948036D"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Slayer Task: 20x Fallen Chaos Knight"
+			x: -18.0d
+			y: 8.5d
 		}
 	]
 	title: "&dSlayer Rewards"

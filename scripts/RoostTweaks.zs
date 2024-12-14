@@ -23,7 +23,8 @@
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_latex>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_ether>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_wastedradioactive>);		
+		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_wastedradioactive>);	
+		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_beastmaster>);
 		
 		
 		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_cherry>);
@@ -51,7 +52,8 @@
 		<tag:items:forge:roost/tier4>.addId(<resource:chicken_roost:c_latex>);
 		<tag:items:forge:roost/tier5>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tier7>.addId(<resource:chicken_roost:c_ether>);
-		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);		
+		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
+		<tag:items:forge:roost/tier6>.addId(<resource:chicken_roost:c_beastmaster>);
 
 //CHERRY CHICKEN
 		//BREEDER
@@ -1756,7 +1758,7 @@
 		  ]
 		});
 		
-		 craftingTable.removeByName("ccextras:wasted_radioactive_egg_recipe_temp");
+		craftingTable.removeByName("ccextras:wasted_radioactive_egg_recipe_temp");
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_adamantium>);
 		<recipetype:chicken_roost:roost_output>.remove(<item:chicken_roost:ingot_adamantium>);		
@@ -2535,3 +2537,92 @@
 		
 	craftingTable.removeByName("chicken_roost:fafsa");
 	craftingTable.removeByName("chicken_roost:breeder");
+	
+//BEASTMASTER CHICKEN
+	//MECHANICAL CRAFTING
+		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.beastmaster_chicken", 
+		<item:chicken_roost:c_beastmaster>, 
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:player_companions:tame_apple>, <item:minecraft:air>, <item:minecraft:air>], 
+		[<item:minecraft:air>, <item:player_companions:tame_bone>, <item:player_companions:tame_cake>, <item:player_companions:tame_carrot>, <item:minecraft:air>], 
+		[<item:player_companions:tame_honeycomb>, <item:player_companions:tame_raw_mutton>, <item:chicken_roost:c_brass>, <item:player_companions:tame_seagrass>, <item:player_companions:tame_sweet_berries>], 
+		[<item:minecraft:air>, <item:minecraft:lead>, <item:player_companions:tame_wheat_seeds>, <item:minecraft:lead>, <item:minecraft:air>]]);
+		
+		//SOUL BREEDER
+			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.beastmasterchicken", {
+		  "type": "chicken_roost:soul_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:souls/tier6andup"
+			},
+			{
+			  "item": "chicken_roost:c_beastmaster"
+			}
+		  ],
+		  "output": {
+			"item": "chicken_roost:c_beastmaster"
+		  }
+		  
+		});
+	
+		//ROOST
+			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.beastmasterchicken", {
+		  "type": "chicken_roost:roost_output",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier6orup"
+			},
+			{
+			  "item": "chicken_roost:c_beastmaster"
+			}
+		  ],
+		  "output": {
+			"item": "ccextras:beastmaster_egg"
+		  }
+		});
+	
+
+	//TAMING ITEMS
+		craftingTable.addShaped("player_companions.tame_apple_fromegg", <item:player_companions:tame_apple>,
+		[[<item:ccextras:beastmaster_egg>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_raw_mutton_fromegg", <item:player_companions:tame_raw_mutton>,
+		[[<item:minecraft:air>, <item:ccextras:beastmaster_egg>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_bone_fromegg", <item:player_companions:tame_bone>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:beastmaster_egg>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_honeycomb_fromegg", <item:player_companions:tame_honeycomb>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:ccextras:beastmaster_egg>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_seagrass_fromegg", <item:player_companions:tame_seagrass>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:ccextras:beastmaster_egg>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_sweet_berries_fromegg", <item:player_companions:tame_sweet_berries>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:beastmaster_egg>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_carrot_fromegg", <item:player_companions:tame_carrot>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:ccextras:beastmaster_egg>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_cake_fromegg", <item:player_companions:tame_cake>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:ccextras:beastmaster_egg>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("player_companions.tame_wheat_seeds_fromegg", <item:player_companions:tame_wheat_seeds>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:beastmaster_egg>]]);

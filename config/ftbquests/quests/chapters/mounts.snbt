@@ -921,6 +921,95 @@
 			x: 30.0d
 			y: 30.0d
 		}
+		{
+			dependencies: [
+				"79F969F9254C17AB"
+				"2E5E8A5099C2CF75"
+				"4245E9029CD3AE0B"
+			]
+			id: "093F35D986951543"
+			size: 2.0d
+			tasks: [{
+				id: "5A2F798F2236CD20"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tremorzilla_egg"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.142857142857139d
+		}
+		{
+			id: "79F969F9254C17AB"
+			tasks: [{
+				id: "12B0214164A3FFBF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tremorsaurus_egg"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			id: "4245E9029CD3AE0B"
+			tasks: [{
+				id: "198C43B86F01B9DF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:immortal_embryo"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			id: "2E5E8A5099C2CF75"
+			tasks: [{
+				id: "0903A9BF26ACF6CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tectonic_shard"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			id: "1A9C36F594BA5D31"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_subterranodon"
+				criterion: ""
+				id: "5C417CFF452A5570"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
 	]
 	title: "&eMounts"
 }

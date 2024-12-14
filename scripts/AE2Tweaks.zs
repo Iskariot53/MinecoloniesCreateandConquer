@@ -121,7 +121,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   "results": [
     {
      "item": "ae2:printed_calculation_processor",
-	 "count": 1,
+	 "count": 16,
      "chance": 100.0
     }
   ],
@@ -184,7 +184,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   "results": [
     {
      "item": "ae2:printed_engineering_processor",
-	 "count": 1,
+	 "count": 16,
      "chance": 100.0
     }
   ],
@@ -247,7 +247,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   "results": [
     {
      "item": "ae2:printed_logic_processor",
-	 "count": 1,
+	 "count": 16,
      "chance": 100.0
     }
   ],
@@ -300,7 +300,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ccextras:unfinished_component"
   }
 });
-<recipetype:create:sequenced_assembly>.addJsonRecipe("ae2.printed_silicon",
+recipes.addJsonRecipe("ae2.printed_silicon",
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
@@ -310,7 +310,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
   "results": [
     {
      "item": "ae2:printed_silicon",
-	 "count": 1,
+	 "count": 16,
      "chance": 100.0
     }
   ],
@@ -363,7 +363,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ccextras:unfinished_component"
   }
 });
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.calculation_processor",
+recipes.addJsonRecipe("ae2.calculation_processor",
 {
   "type": "ae2:inscriber",
   "ingredients": {
@@ -382,7 +382,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ae2:calculation_processor"
   }
 });
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.calculation_processor_print",
+recipes.addJsonRecipe("ae2.calculation_processor_print",
 {
   "type": "ae2:inscriber",
   "ingredients": {
@@ -398,7 +398,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ae2:printed_calculation_processor"
   }
 });
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.engineering_processor",
+recipes.addJsonRecipe("ae2.engineering_processor",
 {
   "type": "ae2:inscriber",
   "ingredients": {
@@ -417,7 +417,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ae2:engineering_processor"
   }
 });
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.engineering_processor_print",
+recipes.addJsonRecipe("ae2.engineering_processor_print",
 {
   "type": "ae2:inscriber",
   "ingredients": {
@@ -433,7 +433,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ae2:printed_engineering_processor"
   }
 });
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.logic_processor",
+recipes.addJsonRecipe("ae2.logic_processor",
 {
   "type": "ae2:inscriber",
   "ingredients": {
@@ -452,7 +452,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ae2:logic_processor"
   }
 });
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.logic_processor_print",
+recipes.addJsonRecipe("ae2.logic_processor_print",
 {
   "type": "ae2:inscriber",
   "ingredients": {
@@ -468,7 +468,7 @@ craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
     "item": "ae2:printed_logic_processor"
   }
 });
-<recipetype:ae2:inscriber>.addJsonRecipe("ae2.silicone_print",
+recipes.addJsonRecipe("ae2.silicone_print",
 {
   "type": "ae2:inscriber",
   "ingredients": {

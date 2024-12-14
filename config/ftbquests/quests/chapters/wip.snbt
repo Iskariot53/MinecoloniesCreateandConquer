@@ -1237,7 +1237,7 @@
 					type: "item"
 				}
 			]
-			size: 1.25d
+			size: 1.75d
 			tasks: [{
 				id: "4E8A523BCC824F05"
 				item: {
@@ -1251,8 +1251,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.5d
-			y: 9.5d
+			x: -11.25d
+			y: 10.625d
 		}
 		{
 			dependencies: ["188944FE101F78E4"]
@@ -1325,7 +1325,7 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			size: 3.0d
 			tasks: [{
 				id: "6AEA84C190B2D635"
 				item: {
@@ -1623,7 +1623,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 28.5d
+			y: 27.0d
 		}
 		{
 			dependencies: ["3DDF35E0E352281E"]
@@ -1642,7 +1642,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 28.5d
+			y: 27.0d
 		}
 		{
 			dependencies: ["458654090B99F569"]
@@ -1661,7 +1661,27 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 27.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5408F21008F2B15F"]
+			id: "101C80D141CA5F6D"
+			size: 1.5d
+			tasks: [{
+				id: "7BE2EB933445654F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:scorched_blueprint"
+				}
+				type: "item"
+			}]
+			x: -3.75d
+			y: 7.5d
 		}
 	]
 	title: "&eThe Road Less Traveled"
