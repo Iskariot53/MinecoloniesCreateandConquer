@@ -927,8 +927,42 @@
 				"2E5E8A5099C2CF75"
 				"4245E9029CD3AE0B"
 			]
+			description: [
+				"A &aTremorzilla&r is a gigantic, player-created, and &4highly destructive&r and resilient neutral mob that can be tamed and mounted. It has a devastating energy beam attack that can kill almost any living thing in seconds and blast through the terrain."
+				""
+				"&aTremorzilla&r are spawned by triggering a &2Nuclear Bomb&r or &2Nucleeper&r explosion on a Tremorzilla Egg and will always spawn as a baby. &aTremorzilla&r will aimlessly wander around, making heavy thumping noises, violently shaking the screen for all players on the ground within 64 blocks of it."
+				""
+				"{@pagebreak}"
+				""
+				"&aTremorzilla&r can be tamed by feeding it a minimum of 4 &2Waste Drums&r - once tamed, it will not accept any more. Each &2Waste Drum&r after the 4th has a 1⁄3 chance of taming the Tremorzilla. once tamed they can be controlled and mounted the same as any other mob! "
+				""
+				"&aTremorzilla&r is immune to fall, fire, lava, burning, and freezing damage, and takes 100% less knockback in addition to 65% less damage from projectiles."
+				""
+				"Due to its own ability to roar, a &aTremorzilla&r will not run away when a nearby Tremorsaurus or &4Luxtructosaurus&r roars. Due to its immense size, it also cannot be possessed by the Totem of Possession."
+			]
 			id: "093F35D986951543"
+			rewards: [
+				{
+					id: "13133CD868EED56C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "491F035DFD03E8FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
 			size: 2.0d
+			subtitle: "Godjira!"
 			tasks: [{
 				id: "5A2F798F2236CD20"
 				item: {
@@ -946,7 +980,35 @@
 			y: 9.142857142857139d
 		}
 		{
+			description: [
+				"Large hostile mobs found in the &2Primordial Caves&r, Tremorsaurus are fearsome apex predators and will attack any Subterranodons, Grottoceratops, or Relicheirus within a 32-block radius, in addition to any players that stay within 8 blocks of them."
+				""
+				"Tremorsaurus will follow any player that holds out &6Dinosaur Chops&r within a 6 block radius. As soon as the player puts away the Dinosaur Chops, however, they will attack."
+				""
+				"If a Tremorsaurus gets stunned by a hit from a &6Primitive Club&r, feeding it a &aSerene Salad&r will automatically remove the effect - performing this procedure 3-8 times will tame it. Once a Tremorsaurus is tamed, it can be interacted with, controlled or mounted the same as any other mob!"
+			]
 			id: "79F969F9254C17AB"
+			rewards: [
+				{
+					id: "09F8B07A51ACB892"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "436B7CBE77EEF980"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Jurassic World"
 			tasks: [{
 				id: "12B0214164A3FFBF"
 				item: {
@@ -964,7 +1026,33 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"While not tamable, &9The Hullbreaker&r &oDOES&r possess something we need if we would like to raise our own Tremorzilla, which is. That is the &3Immortal Embryo&r."
+				""
+				"&9Hullbreakers&r are rare gigantic neutral aquatic mobs found in the &8Abyssal Chasm. "
+			]
 			id: "4245E9029CD3AE0B"
+			rewards: [
+				{
+					id: "121AA86A1B4FA36A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6210D5070F009A10"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "If you look really close, it's actualy smiling"
 			tasks: [{
 				id: "198C43B86F01B9DF"
 				item: {
@@ -982,7 +1070,36 @@
 			y: 8.0d
 		}
 		{
+			description: [
+				"The &4Luxtructosaurus&r is a gigantic hostile boss mob that can be summoned from a volcano in the &2Primordial Caves&r. It can be spawned by dropping an Ominous Catalyst onto an active Volcanic Core."
+				""
+				""
+				"The &4Luxtructosaurus&r is immune to fall damage, fire damage, and suffocation, and it takes 100% less knockback in addition to 35% less damage from non-&aTremorzilla&r dinosaurs, 50% less damage from Iron Golems, and 75% less damage from Wardens. In addition to this, it takes 55% less damage from projectiles that hit its torso and 67% less damage from those that hit anywhere else. Upon initially taking damage, it will take 65% less of any further damage for 10 seconds."
+				""
+				"Due to its own ability to roar, the &4Luxtructosaurus&r will not run away when a nearby Tremorsaurus or &aTremorzilla&r roars. As a boss monster, it cannot be possessed by the Totem of Possession."
+			]
 			id: "2E5E8A5099C2CF75"
+			rewards: [
+				{
+					id: "705EBDF2286F0565"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "00D0CCE78C57C08E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0903A9BF26ACF6CB"
 				item: {
@@ -1000,13 +1117,36 @@
 			y: 11.0d
 		}
 		{
+			description: ["Neutral flying mobs, found in &2Primordial Caves&r. Subterranodons will follow any player that holds out raw cod, cooked cod, or raw/cooked Trilocaris Tails within a 6 block radius. A Subterranodon will always walk on the ground when following players - if airborne, it will land near them. They can be tamed and used as mounts by feeding them &6Trilocaris tails&r!"]
 			id: "1A9C36F594BA5D31"
+			rewards: [
+				{
+					id: "312159DE3502B8B6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "4C3690F07DFE7DED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "alexscaves:alexscaves/tame_subterranodon"
 				criterion: ""
 				id: "5C417CFF452A5570"
 				type: "advancement"
 			}]
+			title: "Subterranodon"
 			x: 9.5d
 			y: 6.5d
 		}

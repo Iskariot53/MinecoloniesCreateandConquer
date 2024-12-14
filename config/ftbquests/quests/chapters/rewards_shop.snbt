@@ -3086,11 +3086,10 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				id: "387E460DD8547674"
-				max_input: 1000L
-				title: "&a1 gFE = 3 Bevels&r"
-				type: "forge_energy"
-				value: 1000000000L
+				amount: 32000L
+				fluid: "alexscaves:purple_soda"
+				id: "28045A3DE4D40145"
+				type: "fluid"
 			}]
 			title: "Sell - 1gFE"
 			x: -7.0d

@@ -2702,3 +2702,220 @@
 		"dragon_origins:hunger" = true
 		"dragon_origins:advancement" = true
 
+	[origins."magic_origins:panda"]
+		enabled = true
+		"magic_origins:panda/bamboo_new" = true
+		"magic_origins:panda/panda_shit" = true
+		"origins:vegetarian" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:necromancer"]
+		enabled = true
+		"magic_origins:necromancer/night_buffs" = true
+		"magic_origins:necromancer/night_buffs2" = true
+		"magic_origins:necromancer/mysterous" = true
+		"magic_origins:necromancer/emume" = true
+		"magic_origins:necromancer/summon/sz_summon" = true
+		"magic_origins:necromancer/summon/a_summon" = true
+		"magic_origins:necromancer/summon/d_summon" = true
+		"magic_origins:necromancer/cloak" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:yin"]
+		enabled = true
+		"magic_origins:yinyang/yang/yintransform" = true
+		"magic_origins:yinyang/yang/cloud" = true
+		"magic_origins:yinyang/yang/posess" = true
+		"magic_origins:yinyang/yang/transparency1" = true
+		"magic_origins:yinyang/yang/dayweak" = true
+		"magic_origins:yinyang/yang/invis_temp" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:pirate"]
+		enabled = true
+		"magic_origins:pirate/hook" = true
+		"magic_origins:pirate/eye_patch" = true
+		"magic_origins:pirate/swim_speed" = true
+		"magic_origins:pirate/home" = true
+		"magic_origins:pirate/shiny" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:green_dragon"]
+		enabled = true
+		"magic_origins:green_dragon/discount" = true
+		"magic_origins:green_dragon/green" = true
+		"magic_origins:green_dragon/elytra" = true
+		"magic_origins:green_dragon/unbad_omen" = true
+		"magic_origins:green_dragon/vegie" = true
+		"magic_origins:green_dragon/food" = true
+		"magic_origins:green_dragon/size" = true
+		"magic_origins:green_dragon/emerald" = true
+		"magic_origins:green_dragon/droar" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:kraken"]
+		enabled = true
+		"magic_origins:kraken/bigger_kraken" = true
+		"magic_origins:kraken/tentacles" = true
+		"magic_origins:kraken/wave" = true
+		"magic_origins:kraken/tentacle_grap" = true
+		"origins:air_from_potions" = true
+		"origins:aquatiq" = true
+		"origins:aqua_affinity" = true
+		"origins:more_exhaustion" = true
+		"origins:carnivore" = true
+		"origins:water_vision" = true
+		"origins:conduit_power_on_land" = true
+		"origins:like_water" = true
+		"origins:water_breathing" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:mimic"]
+		enabled = true
+		"magic_origins:mimic/toggle" = true
+		"magic_origins:mimic/toggle2" = true
+		"magic_origins:mimic/display" = true
+		"origins:nine_lives" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:cookie"]
+		enabled = true
+		"magic_origins:cookie/canibalism" = true
+		"magic_origins:cookie/spillage" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:sand_larvae"]
+		enabled = true
+		"magic_origins:sand/sand_larvae/air_swim" = true
+		"magic_origins:sand/sand_larvae/advancement" = true
+		"magic_origins:sand/sand_larvae/hp" = true
+		"magic_origins:sand/sand_larvae/size" = true
+		"magic_origins:sand/sand_larvae/bite" = true
+		"magic_origins:sand/sand_larvae/spit" = true
+		"magic_origins:sand/sand_larvae/sand_confidene" = true
+		"magic_origins:sand/sand_larvae/desert" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:lorax"]
+		enabled = true
+		"magic_origins:lorax/phase" = true
+		"magic_origins:lorax/no_tree_chopping" = true
+		"magic_origins:lorax/size" = true
+		"magic_origins:lorax/friendly" = true
+		"magic_origins:lorax/marshmellow" = true
+		"magic_origins:lorax/edible_marshmellow" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:red_dragon"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:water_vulnerability" = true
+		"origins:hotblooded" = true
+		"magic_origins:red_dragon/freeze" = true
+		"magic_origins:red_dragon/size69" = true
+		"magic_origins:red_dragon/wreckless" = true
+		"origins:carnivore" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:magic_fly"]
+		enabled = true
+		"magic_origins:magic_fly/vegie" = true
+		"magic_origins:magic_fly/fairy_wings" = true
+		"magic_origins:magic_fly/forest_buffs" = true
+		"magic_origins:magic_fly/size" = true
+		"magic_origins:magic_fly/6hp" = true
+		"magic_origins:magic_fly/no_swords" = true
+		"magic_origins:magic_fly/iron_golem" = true
+		"magic_origins:magic_fly/hot_debuf" = true
+		"magic_origins:magic_fly/nether" = true
+		"magic_origins:hunger" = true
+		"magic_origins:slow" = true
+		"magic_origins:heal" = true
+		"magic_origins:awareness" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:yang"]
+		enabled = true
+		"magic_origins:yinyang/yin/yangtransform" = true
+		"magic_origins:yinyang/yin/heal" = true
+		"magic_origins:yinyang/yin/lightning" = true
+		"magic_origins:yinyang/yin/transparency" = true
+		"magic_origins:yinyang/yin/darkweak" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:undead"]
+		enabled = true
+		"magic_origins:undead/zombie" = true
+		"magic_origins:undead/daylight" = true
+		"magic_origins:undead/hugs" = true
+		"magic_origins:undead/body" = true
+		"magic_origins:undead/body_" = true
+		"magic_origins:undead/undead" = true
+		"magic_origins:undead/unnerving" = true
+		"magic_origins:undead/attacker" = true
+		"magic_origins:undead/target" = true
+		"magic_origins:undead/join_team" = true
+		"magic_origins:undead/create_team" = true
+		"magic_origins:undead/summon" = true
+		"magic_origins:undead/shovel" = true
+		"magic_origins:undead/stone_sword" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:hydra"]
+		enabled = true
+		"magic_origins:hydra/heads" = true
+		"magic_origins:hydra/passive_head_powers" = true
+		"magic_origins:hydra/scales" = true
+		"magic_origins:hydra/no_fire_durability" = true
+		"magic_origins:hydra/fire_breath" = true
+		"magic_origins:hydra/ability_toggle" = true
+		"magic_origins:hydra/water_ray" = true
+		"magic_origins:hydra/poison_breath" = true
+		"magic_origins:hydra/wind_wave" = true
+		"magic_origins:hydra/helmet" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:cyborg"]
+		enabled = true
+		"magic_origins:cyborg/metal_skin" = true
+		"magic_origins:cyborg/circuits" = true
+		"magic_origins:cyborg/jump" = true
+		"magic_origins:cyborg/fire_immunity" = true
+		"magic_origins:cyborg/metal_skin_no_armor" = true
+		"magic_origins:cyborg/iron_feet" = true
+		"magic_origins:cyborg/robot_eye" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:dwarf"]
+		enabled = true
+		"magic_origins:dwarf/size" = true
+		"magic_origins:dwarf/haste" = true
+		"magic_origins:dwarf/less_hp" = true
+		"magic_origins:dwarf/stamina/sugar" = true
+		"magic_origins:slow" = true
+		"magic_origins:advancement" = true
+		"origins:no_shield" = true
+		"origins:fall_immunity" = true
+		"origins:climbing" = true
+
+	[origins."magic_origins:druid"]
+		enabled = true
+		"magic_origins:druid/forest_buff" = true
+		"magic_origins:druid/nether_burn" = true
+		"magic_origins:druid/hot_debuff" = true
+		"origins:vegetarian" = true
+		"magic_origins:druid/roots" = true
+		"magic_origins:druid/roots2" = true
+		"magic_origins:druid/roots3" = true
+		"magic_origins:druid/regen" = true
+		"magic_origins:druid/fireweak" = true
+		"magic_origins:druid/green" = true
+		"magic_origins:hunger" = true
+		"magic_origins:fertilize" = true
+		"magic_origins:advancement" = true
+
+	[origins."magic_origins:test"]
+		enabled = true
+
