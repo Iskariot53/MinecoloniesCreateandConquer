@@ -28,8 +28,8 @@
 			image: "twilightforest:block/portal_barrier"
 			rotation: 0.0d
 			width: 0.03125d
-			x: 6.5d
-			y: 8.5d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			height: 0.8d
@@ -335,6 +335,198 @@
 			width: 0.4d
 			x: 12.222789115646265d
 			y: 4.489795918367349d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/abyssal_background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/abyssal_midground.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/candy_background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/candy_midground.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/forlorn_background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 19.5d
+			y: 16.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/forlorn_midground.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 19.5d
+			y: 16.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/magnetic_background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.0d
+			y: -16.5d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/magnetic_midground.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.0d
+			y: -16.5d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/primordial_background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 30.0d
+			y: -10.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/primordial_midground.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 30.0d
+			y: -10.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/toxic_background.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 37.5d
+			y: 10.0d
+		}
+		{
+			height: 6.0d
+			image: "alexscaves:textures/misc/advancement/toxic_midground.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 37.5d
+			y: 10.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/rsquare/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 19.5d
+			y: 16.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 30.0d
+			y: -10.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 37.5d
+			y: 10.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 19.5d
+			y: 16.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/square/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.0d
+			y: -16.5d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/rsquare/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 37.5d
+			y: 10.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/rsquare/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 30.0d
+			y: -10.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/rsquare/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 13.0d
+			y: -16.5d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/rsquare/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			height: 6.0d
+			image: "ftbquests:textures/shapes/rsquare/outline.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: 13.0d
 		}
 	]
 	order_index: 0
@@ -2302,6 +2494,11 @@
 		}
 		{
 			dependencies: ["2923456767E589E6"]
+			description: [
+				"The Void Worm is an ancient boss that dwells in the void beneath the End. It can be summoned by tossing a Mysterious Worm into the void. This formidable creature possesses devastating attacks and deals significant damage."
+				""
+				"Drops: 1 Void Worm Eye and 2 Void Worm Mandibles upon defeat."
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4752,6 +4949,3547 @@
 			}]
 			x: 23.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["019F9DFD295F0D27"]
+			id: "2FE31A279EA8D0F5"
+			rewards: [
+				{
+					id: "20327E1D74F58858"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "7F50AC5939BBEB2D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/dobutsu_creeper"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:dobutsu_creeper"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4A5B03B6A20CFEE5"
+				title: "&l&eTame Dobutsu (Creeper)"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["019F9DFD295F0D27"]
+			description: [
+				"The Dobutsu is a quick-change artist that can mimic the appearance of other players, though its form will remain the same. Open the menu of a captured Dobutsu, click on Texture Settings, and it will attempt to mimic a chosen player’s appearance."
+				"They live in open fields and enjoy eating sweet berries."
+			]
+			id: "7B1F40183EB020C1"
+			rewards: [
+				{
+					id: "1D1B0A423BD0F001"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "3A9C088C7F8AC38C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/dobutsu_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:dobutsu_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5C52C16D3379E028"
+				title: "&l&eTame Dobutsu"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["019F9DFD295F0D27"]
+			id: "7F6C7BECDF5E659C"
+			rewards: [
+				{
+					id: "2A35BAF9933BE0B8"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "7A7E918DEB1F621A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/dobutsu_enderman"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:dobutsu_enderman"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4C1CA1114A6110EA"
+				title: "&l&eTame Dobutsu (Enderman)"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["09086210A45E9C28"]
+			description: [
+				"Fairies are magical creatures with a variety of abilities. They will heal you and your group throughout your journey and will even learn new abilities over time."
+				"They live in the flower forest and enjoy eating cakes."
+			]
+			id: "60094B10C4A8C6FB"
+			rewards: [
+				{
+					id: "5A1E3AD2A2B7952F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "46F8369E7F156ED9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/fairy_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:fairy_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "56FF1B00BAE81A64"
+				title: "&l&eTame Fairy"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["09086210A45E9C28"]
+			id: "69242A0039D68104"
+			rewards: [
+				{
+					id: "764AF7F9BBAB9CDF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "3FE8A597B60D64C9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/fairy_blue"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:fairy_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7F2E27D588B409B9"
+				title: "&l&eTame Fairy (Blue)"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["09086210A45E9C28"]
+			id: "1E8BACEEA55BFFE0"
+			rewards: [
+				{
+					id: "162FE6AB26C7EDF8"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "30AE378ECA648B39"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/fairy_red"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:fairy_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "526E0DB16CA7F4B3"
+				title: "&l&eTame Fairy (Red)"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["610EC311E5BF574C"]
+			description: [
+				"Welsh Corgis are loyal companions that will support you, other players, and allies with their presence and special effects. The type of effects they provide depends on their level, offering increasing benefits as they grow stronger."
+				""
+				"These adorable dogs can be found in the taiga biome and, like other dogs, they enjoy chewing on bones."
+			]
+			id: "4C0FF82149E4C4CE"
+			rewards: [
+				{
+					id: "67F22214ED9B9C9F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "18413503ABF8465E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/welsh_corgi_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:welsh_corgi_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2929B562264D4195"
+				title: "&l&eTame Welsh Corgi"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["610EC311E5BF574C"]
+			id: "11DB28DE47C351B9"
+			rewards: [
+				{
+					id: "2C4BC12729E2B21B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "56444B9A5DE396F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/welsh_corgi_black"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:welsh_corgi_black"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6AE6ADAD214B2652"
+				title: "&l&eTame Welsh Corgi (Black)"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["610EC311E5BF574C"]
+			id: "54986C1D90A31F8B"
+			rewards: [
+				{
+					id: "61E4D1F8E1B7EBD9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "5A6AFDDA669CBC83"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/welsh_corgi_mixed"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:welsh_corgi_mixed"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "26D6081DAEDF9DFB"
+				title: "&l&eTame Welsh Corgi (Mixed)"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			description: [
+				"The Samurai is a loyal companion that will protect you from harm. They can wield different types of weapons and armor, growing stronger over time as they fight alongside you."
+				"They live in the mountains and like eating healthy apples."
+			]
+			id: "0D6CA24F9A8FEB3E"
+			rewards: [
+				{
+					id: "6F1630759F0EE877"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "497A3B86DEFEF97D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/samurai_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:samurai_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7DD863EBB8F0BB51"
+				title: "&l&eTame Samurai"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "2AD98093DA34C568"
+			rewards: [
+				{
+					id: "7A2AAE7A7949FC2B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "42CA0A48E80CF2B2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/samurai_black"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:samurai_black"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "67378F8E6D51954F"
+				title: "&l&eTame Samurai (Black)"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["019F9DFD295F0D27"]
+			description: [
+				"The Lizard is a simple companion that will follow you on your journey. While it doesn’t possess any special abilities, it’s easy to handle and a joy to have around."
+				"They live in deserts, jungles, swamps, and badlands, and they enjoy eating berries."
+			]
+			id: "43BDD55DCEB4D8F6"
+			rewards: [
+				{
+					id: "2C592373653BDBCD"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "666B71E98A484D33"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/lizard_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:lizard_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "56DCE5A4752E0BFB"
+				title: "&l&eTame Lizard "
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "6B1719250067256B"
+			rewards: [
+				{
+					id: "72B5A5283697BE94"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "348742FEEE4423C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/samurai_blue"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:samurai_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7EAD0C2F20B21F9C"
+				title: "&l&eTame Samurai (Blue)"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["019F9DFD295F0D27"]
+			id: "65B73C450BCC5B9F"
+			rewards: [
+				{
+					id: "567061DE20309B26"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "161D4BD6F7386E6D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/lizard_green"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:lizard_green"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2F46F3E2B60D5B65"
+				title: "&l&eTame Lizard (Green)"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["019F9DFD295F0D27"]
+			id: "44A4932C1F6D022C"
+			rewards: [
+				{
+					id: "03A2DC988D834900"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "18C0C8CA11A21BED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/lizard_desert"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:lizard_desert"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1616F2DC5F572407"
+				title: "&l&eTame Lizard (Desert)"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["681A3A3C52431EAC"]
+			description: [
+				"The Raptor looks dangerous—and it is, especially when hungry! This fierce companion can be a powerful ally in your journey."
+				"They live in the jungle and enjoy eating meat."
+			]
+			id: "6E4CCFEB51760F2A"
+			rewards: [
+				{
+					id: "2441693FDCBCC225"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "79C5CD9E836F0164"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/raptor_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:raptor_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "00BB0499F1803FB4"
+				title: "&l&eTame Raptor "
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["681A3A3C52431EAC"]
+			id: "64A32EDE95D496A8"
+			rewards: [
+				{
+					id: "1A88FF5491A3B1FC"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "66FFF1A3C7A2A2FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/raptor_dark_green"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:raptor_dark_green"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1B15B4A1AD7F65C8"
+				title: "&l&eTame Raptor (Dark Green)"
+				type: "advancement"
+			}]
+			x: 15.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["681A3A3C52431EAC"]
+			id: "266D68B8DB26D978"
+			rewards: [
+				{
+					id: "11C369D66888C0C2"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "73A05227EEA6B2AE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/raptor_pink"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:raptor_pink"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0C3255F70AD00F63"
+				title: "&l&eTame Raptor (Pink)"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			description: [
+				"Small Slimes are simple yet charming companions that will faithfully follow you on your journey. While they don’t possess any special abilities, they are easy to care for and make great player companions."
+				""
+				"These little slimes can be found in jungles and swamps, and they enjoy snacking on apples."
+			]
+			id: "1E946855A06C92B6"
+			rewards: [
+				{
+					id: "3FC96234CF66254C"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "1002477288604E19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "37E0728BA7425BC8"
+				title: "&l&eTame Small Slime "
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "7584666AADA97834"
+			rewards: [
+				{
+					id: "19E9DA0593F6C265"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "5CD4F40762E22ADF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_white"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "223549B4FA3A4D72"
+				title: "&l&eTame Small Slime (White)"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "04F511E6A3D145B8"
+			rewards: [
+				{
+					id: "166C1FCA8060BFC9"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "291EAAE768DB0F9B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_light_gray"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_light_gray"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "164668F3B75A6B7A"
+				title: "&l&eTame Small Slime (Light Gray)"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "39F9E00F33628CBD"
+			rewards: [
+				{
+					id: "6C8ABADFE41234C7"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "075E2D0985DE7B16"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_gray"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_gray"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4B8A07BAACD56B83"
+				title: "&l&eTame Small Slime (Gray)"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "621CA05D208B7BE1"
+			rewards: [
+				{
+					id: "6900BEBC27EE67D3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "26B284112BB57656"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_black"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_black"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "639EE18BDF976B6E"
+				title: "&l&eTame Small Slime (Black)"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "5FB33278EAD44555"
+			rewards: [
+				{
+					id: "06E2DD52B7C89442"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "0BFCB30FA77ABEF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_brown"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_brown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "507BA26E0BAD5D26"
+				title: "&l&eTame Small Slime (Brown)"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "08D51D2AEB53431A"
+			rewards: [
+				{
+					id: "7B62729B225AB6A7"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "408319EF7A5B41FD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_red"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "29576F7E23FE0513"
+				title: "&l&eTame Small Slime (Red)"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "30E0E39581EA8A43"
+			rewards: [
+				{
+					id: "25C78C70442528A5"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "40C511B252297D78"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_orange"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_orange"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "044EF15419EBA559"
+				title: "&l&eTame Small Slime (Orange)"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "0684758809813F14"
+			rewards: [
+				{
+					id: "4EB3F7A5C032B28E"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "6BAD09DD8505AE54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_yellow"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_yellow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "718D3C3B00F3CDBE"
+				title: "&l&eTame Small Slime (Yellow)"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "76535250070F2096"
+			rewards: [
+				{
+					id: "5FD0BF163EE4BD47"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "1CCC4FB5E7CCB96C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_lime"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_lime"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E3A063DFD3C6532"
+				title: "&l&eTame Small Slime (Lime)"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "4E9815FFCFA9AF3D"
+			rewards: [
+				{
+					id: "245D0B5552C455E8"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "2BAD77704ADE78FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_green"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_green"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2276DFB615F12613"
+				title: "&l&eTame Small Slime (Green)"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "0D9C9F1411AE2660"
+			rewards: [
+				{
+					id: "2B4C89FE178A3E11"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "32CB1366B4CA7F5E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_cyan"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_cyan"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "033C7D345EA34B6D"
+				title: "&l&eTame Small Slime (Cyan)"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "7AF14DC2EF095300"
+			rewards: [
+				{
+					id: "67D48549C64B3605"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "61776074FDB4947C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_light_blue"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_light_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1D30DDF02CF449F5"
+				title: "&l&eTame Small Slime (Light Blue)"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "0BE01693750720F0"
+			rewards: [
+				{
+					id: "2B666AFFB4A489C8"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "63AE64DEFAE26D20"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_blue"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7F9B9AC667FE419B"
+				title: "&l&eTame Small Slime (Blue)"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "0E3E1C81ACE65778"
+			rewards: [
+				{
+					id: "2B9FC4B22A6B5574"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "6C1A544C073EB999"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_purple"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_purple"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "10D9C1FF73CFCED0"
+				title: "&l&eTame Small Slime (Purple)"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "43702FFD27813C68"
+			rewards: [
+				{
+					id: "28925CEF54E0FBB0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "5D82A4C6F0CE29F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_magenta"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_magenta"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "39991BFBF196F84B"
+				title: "&l&eTame Small Slime (Magenta)"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2E9B4F7E5334B027"]
+			id: "0D286645D27E17F4"
+			rewards: [
+				{
+					id: "2FA5FE8EEE1B240F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "4088444AA914D0AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_slime_pink"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_slime_pink"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B3F595AFB048DF9"
+				title: "&l&eTame Small Slime (Pink)"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["40225EC7A83658FB"]
+			description: [
+				"The Rooster may not look dangerous, but it will bravely give its life to protect you. It can also carry a weapon, like a sword, to deal additional damage in battle."
+				"They live in the plains and enjoy eating wheat seeds."
+			]
+			id: "3C3300BBF37E580C"
+			rewards: [
+				{
+					id: "4BC91628D33C8AE4"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "2F30C149282EA90B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/rooster_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:rooster_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "29AF01B90210D25E"
+				title: "&l&eTame Rooster"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["40225EC7A83658FB"]
+			id: "7D57B725CCC4BD51"
+			rewards: [
+				{
+					id: "59BB5CE440551A53"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "14156BA2C949D079"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/rooster_mixed"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:rooster_mixed"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "087FB36FB94308B9"
+				title: "&l&eTame Rooster (Mixed)"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["08D13FA4D57F1050"]
+			description: [
+				"Snails may be slow, but they are quite helpful! They will pick up any items within their range and store them in their inventory. To access their inventory, simply click on them with an empty hand."
+				""
+				"These gentle creatures live on beaches and love to munch on sea grass."
+			]
+			id: "431B841C678F6FB1"
+			rewards: [
+				{
+					id: "75D828858FF2FB4F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "1B004F178C6C8E1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/snail_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:snail_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1FE35771F2DEFC3F"
+				title: "&l&eTame Snail"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["08D13FA4D57F1050"]
+			id: "6A76644C283914DB"
+			rewards: [
+				{
+					id: "779645AF4F641F24"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "634C60E008C419F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/snail_brown"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:snail_brown"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "593D25D54FF29217"
+				title: "&l&eTame Snail (Brown)"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7C1A1740A2794718"]
+			description: [
+				"The Pig is a reliable companion that helps carry your belongings in its bags. It will also collect dropped items to ensure you don’t miss any loot during your journey."
+				"They live in the plains and like eating carrots."
+			]
+			id: "0994E7FCC60E59DD"
+			rewards: [
+				{
+					id: "05D124AFCE6CB543"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "1DA54D63BEAA9011"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/pig_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:pig_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6229C765D4D35754"
+				title: "&l&eTame Pig"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C1A1740A2794718"]
+			id: "69D85F702462C51C"
+			rewards: [
+				{
+					id: "126931585ADA3998"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "693310BB5488E0B9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/pig_spotted"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:pig_spotted"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1ABAA9AD59E1E5E6"
+				title: "&l&eTame (Spotted)"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4F0D568F9A540D15"]
+			description: [
+				"The Firefly will light up your path, even in the darkest places. They are easy to spot at night and will accompany you as long as you take care of them."
+				"They live in the plains and swamps and enjoy eating honeycombs."
+			]
+			id: "58D3A958203633AF"
+			rewards: [
+				{
+					id: "7FF50F7E15C415FB"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "0D8267F35DA100E7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/firefly_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:firefly_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B1F7809DFC552DB"
+				title: "&l&eTame Firefly"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["610EC311E5BF574C"]
+			description: [
+				"Small Ghasts are not easy to catch, but once you’ve befriended one, they will protect you for life. These loyal companions shoot small fireballs at your targets and some hostile mobs as well."
+				"They live in the Nether and Nether Wastes and enjoy eating fresh bones."
+			]
+			id: "4EC97C5D3425BE0B"
+			rewards: [
+				{
+					id: "0652DF5D7C1DC686"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 5
+					id: "2F7408B1A3B89030"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "player_companions:taming/small_ghast_default"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:small_ghast_default"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5B38BE4D80284D00"
+				title: "&l&eTame Small Ghast"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "2E9B4F7E5334B027"
+			tasks: [{
+				id: "4309C728CB2D2AD6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_apple"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "610EC311E5BF574C"
+			tasks: [{
+				id: "18D5C00759DDCDD3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_bone"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "09086210A45E9C28"
+			tasks: [{
+				id: "3752962F1550D818"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_cake"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "7C1A1740A2794718"
+			tasks: [{
+				id: "69B9CEAD6660CEE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_carrot"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "4F0D568F9A540D15"
+			tasks: [{
+				id: "51FFA2E2F52FF9F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_honeycomb"
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "681A3A3C52431EAC"
+			tasks: [{
+				id: "7DCD880EF135013D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_raw_mutton"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "08D13FA4D57F1050"
+			tasks: [{
+				id: "797CF7853B42F272"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_seagrass"
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "019F9DFD295F0D27"
+			tasks: [{
+				id: "7A019F76E3DAA114"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_sweet_berries"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7269437C9234F086"]
+			id: "40225EC7A83658FB"
+			tasks: [{
+				id: "7A621F08DB9921CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "player_companions:tame_wheat_seeds"
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.0d
+		}
+		{
+			description: ["Tame items are required to befriend the various types of player companions. Each companion has a preferred tame item, and in most cases, you will need several of these items to successfully tame them."]
+			id: "7269437C9234F086"
+			rewards: [{
+				id: "68F5B7F925A0BF3B"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2D65E66A766495DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:lead"
+				}
+				type: "item"
+			}]
+			title: "&e&lPlayer Companions"
+			x: 10.5d
+			y: 11.5d
+		}
+		{
+			description: ["The Abyssal Chasm is a unique biome found deep beneath the world, but unlike other cave biomes, it is covered by hundreds of blocks of water instead of stone. This biome generates exclusively under ocean biomes and appears as a massive, dark trench where light barely penetrates the depths."]
+			id: "4420269C5F270274"
+			rewards: [{
+				id: "160DE6FFD9DCC889"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				id: "3F6DCAA272338625"
+				title: "Abyssal Chasm"
+				type: "biome"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			description: ["The Candy Cavity is a mysterious underground biome that defies all logic and expectation. This deeply unnatural place would be unsettling were it not for its overwhelming sugary sweetness. Made nearly entirely out of candy, this biome is a truly bizarre and mesmerizing sight to behold."]
+			id: "258CDFBFFA8E1585"
+			rewards: [{
+				id: "29C8B618904C8F24"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:candy_cavity"
+					}
+				}
+				id: "77871695C988AF34"
+				title: "Candy Cavity"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: ["The Forlorn Hollows is an underground cavern system engulfed in pure darkness. Almost no light penetrates this eerie biome, as it is unnaturally shrouded by a thick shadow. While it may be tempting to light up this gloomy place, players must take care—light sources can attract unwanted attention. All creatures that inhabit the Forlorn Hollows have been twisted by its dark influence, with some subjected to even darker powers."]
+			id: "1F8C247681E74F3A"
+			rewards: [{
+				id: "23DEDC8934E4F73D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				id: "22D2739D683E0FC3"
+				title: "Forlorn Hollows"
+				type: "biome"
+			}]
+			x: 19.5d
+			y: 14.5d
+		}
+		{
+			description: [
+				"The Magnetic Caves are a breathtaking and otherworldly biome, characterized by enormous Neodymium crystals that emerge from a terrain composed of Galena, an iron-rich stone. These crystals, the namesake of the cave, come in two distinct varieties: Scarlet Neodymium and Azure Neodymium."
+				""
+				"In addition to the crystals, Tesla Bulbs can be found scattered throughout the Magnetic Caves. While they may appear beautiful, these volatile blocks emit arcs of lightning that zap anything or anyone who ventures too close."
+				""
+				"The Magnetic Caves also feature floating clusters of Galena that hover mysteriously within the cavern itself. These clusters are held aloft by the latent magnetic forces that permeate the biome, giving the caves their uniquely surreal structure."
+			]
+			id: "65010D52DC567C8F"
+			rewards: [{
+				id: "1214BC553A0A7D12"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				id: "587F9B52A203FEEA"
+				title: "Magnetic Caves"
+				type: "biome"
+			}]
+			x: 13.0d
+			y: -18.0d
+		}
+		{
+			description: ["The Primordial Caves are limestone-laden caverns isolated for millions of years, resulting in unique prehistoric geology, flora, and fauna. Ambersol clusters illuminate the caves from above, creating a daytime-like brightness that supports large plants such as Pewen Trees, Ancient Jungle Trees, Cycads, Flytraps, and Curly Ferns. The ground is mossy, with muddy lakes scattered throughout. Despite lacking monsters, the caves are not entirely safe."]
+			id: "17B7C61B3BA03A8A"
+			rewards: [{
+				id: "1B83E41148812857"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				id: "4ABFD1698B1322D5"
+				title: "Primordial Caves"
+				type: "biome"
+			}]
+			x: 30.0d
+			y: -11.5d
+		}
+		{
+			description: [
+				"The Toxic Caves are a massive, hostile underground wasteland, likely the result of past scientific excess. The terrain is made of Radrock, which occasionally contains Uranium Ore. Large pits of Acid divide the caves, corroding armor and dissolving anything that enters. Acid can also turn Scrap Metal into Rusty Scrap Metal."
+				""
+				"Geothermal Vents spew deadly miasma from acidic pits, while Sulfur Stacks grow beneath dripping Acidic Radrock. Ruins of past industrial and atomic progress dot the caves, often containing valuable loot. However, radioactive items like Waste Drums or Uranium Rods can expose adventurers to radiation."
+			]
+			id: "4AF1C9E8CC844C97"
+			rewards: [{
+				id: "67A4278633473CD2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				id: "2C10F4B541FF1BBE"
+				title: "Toxic Caves"
+				type: "biome"
+			}]
+			x: 37.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4420269C5F270274"]
+			description: [
+				"The Hullbreaker is a colossal fish, over fifteen blocks long, and a terrifying predator perfectly adapted to hunt in the dark waters of the Abyssal Chasm. It seeks out glowing entities, using its massive teeth to bite prey or its powerful head to smash targets like a battering ram."
+				""
+				"In the rare event that a Hullbreaker is defeated in combat, it will spew out what it has consumed before dying. Drops include common items such as ink sacs but can also include the remains of Submarines, like the Enigmatic Engine, as well as mysterious objects like Immortal Embryos."
+			]
+			id: "14223D32A53F8EC7"
+			rewards: [
+				{
+					id: "7F1827BDCC0A6DBE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "50A30D28D6CAE867"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_hullbreaker"
+				}
+				id: "4C8B5C2ED26528FE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["51B15C1AF50B15C7"]
+			description: [
+				"Mine Guardians are dangerous and often difficult to spot in the Abyssal Chasm. These sentinels are chained to an anchor on the seafloor, often near Abyssal Ruins. They periodically open their single eye to scan for targets. If a target is detected within close range, the Mine Guardian will begin to float toward it and suddenly explode upon contact."
+				""
+				"If players manage to defeat a Mine Guardian before it detonates, it can drop a Depth Charge. This throwable item creates a small underwater explosion that can even destroy blocks."
+			]
+			id: "70A9E656D699BE49"
+			rewards: [
+				{
+					id: "07343C50F92CDA7C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "77DE6F10EBD705AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_mine_guardian"
+				}
+				id: "58D1595ABA735EE3"
+				type: "kill"
+				value: 2L
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4420269C5F270274"]
+			description: ["The Abyssal Ruins are ancient, submerged structures scattered across the Abyssal Chasm. Occasionally, these ruins may contain a Submarine in disrepair. To restore a damaged Submarine, players can use copper ingots to repair it and an axe to remove any oxidation from its surfaces. Once repaired, a Submarine can be piloted and comes equipped with floodlights to improve visibility in the depths."]
+			id: "51B15C1AF50B15C7"
+			rewards: [
+				{
+					id: "3D24681683495D84"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3BCDEA30CC4E96A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:rusty_scrap_metal_plate"
+				}
+				id: "621CFA67ED4B467F"
+				structure: "alexscaves:abyssal_ruins"
+				title: "Abyssal Ruins"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"14223D32A53F8EC7"
+				"51B15C1AF50B15C7"
+			]
+			description: ["To create an entirely new submarine will require multiple copper blocks, an Enigmatic Engine, and a few Depth Glass blocks. Simply surround the Enigmatic Engine with a copper cube, and make sure to use six Depth Glass to mark the front of the vehicle."]
+			id: "26D4159CE7AFDF0E"
+			rewards: [
+				{
+					id: "4F6E04EE6A63A199"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "334105DBE05E554A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BCBF46795FC0792"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:submarine"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"258CDFBFFA8E1585"
+				"124ACDE07700F485"
+			]
+			description: ["The Sweetish Fish is one of the many curious creatures found in the Candy Cavity. It comes in multiple color variations, adding to its vibrant, whimsical nature. If slain and cooked, a Sweetish Fish transforms into Gelatin, a common crafting ingredient."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:sweetish_fish_red"
+			}
+			id: "65691D446C8CA98C"
+			rewards: [
+				{
+					id: "31B10FE910F32986"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "550D6D8FCB6EC7D5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "0CB37997CD621375"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:tag"
+					tag: {
+						value: "alexscaves:gelatins"
+					}
+				}
+				title: "Gelatin"
+				type: "item"
+			}]
+			title: "Sweetish Fish"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"258CDFBFFA8E1585"
+				"124ACDE07700F485"
+			]
+			id: "2224BCE69E9F97AF"
+			rewards: [
+				{
+					id: "666D4F9262687B89"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "76781F3987DD320F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2E7B11C12866112B"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:licoroot_vine"
+				}
+				type: "item"
+			}]
+			title: "Licoroot Vines"
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"The Sack of Sating is a unique utility item that stores hunger values from food. Players can drag food items onto the sack to have it promptly devour them, saving their hunger value for later."
+				""
+				"When the Sack of Sating is in the inventory of a hungry player, it will automatically attempt to feed them, making it a convenient companion during long adventures."
+			]
+			id: "124ACDE07700F485"
+			rewards: [
+				{
+					id: "3D95FA52DAF208C3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "736FF316882FF851"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5903D36FBB9F5FDF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sack_of_sating"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"258CDFBFFA8E1585"
+				"124ACDE07700F485"
+			]
+			description: [
+				"The Gum Worm is a colossal creature, stretching many tens of blocks long. Composed of hard candy segments held together by sticky gum, this titanic beast burrows through the layers of chocolate and cake that form the sediment of the Candy Cavity."
+				""
+				"From time to time, the Gum Worm will surface and leap out of the earth. Players can launch dual-wielded Candy Cane Hooks at the creature, allowing them to ride the worm and control its direction to perform powerful leaps that deal area damage."
+				""
+				"If slain, the Gum Worm can drop its legendary Sweet Tooth."
+			]
+			id: "77725E6278D26E36"
+			rewards: [
+				{
+					id: "3CAB9A34E9C5F1C9"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "16F4DD0B6963B86D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EBC4566C9309593"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sweet_tooth"
+				}
+				type: "item"
+			}]
+			title: "Gum Worm"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F8C247681E74F3A"]
+			description: ["Underzealots are intelligent, mole-like cultists that roam the Forlorn Hollows. Due to their poor vision, they possess a naturally low detection range, making them less likely to spot players at a distance. However, fighting them is no easy feat—after each slash from their claws, Underzealots will burrow underground and reappear nearby, keeping combat unpredictable."]
+			id: "5CDAA0C3C17C33BC"
+			rewards: [
+				{
+					id: "0A8F5752441FEADE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "5253BDA3EC0650E6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_underzealot"
+				}
+				id: "1F0B0618FD5CD52B"
+				observe_type: 5
+				timer: 0L
+				title: "Observe: Underzealot"
+				to_observe: "alexscaves:underzealot"
+				type: "observation"
+			}]
+			x: 19.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["5CDAA0C3C17C33BC"]
+			description: [
+				"Underzealots are especially drawn to Gloomoths, which are often seen fluttering around low-lying light sources like torches. If an Underzealot catches a Gloomoth and at least three other Underzealots take notice, a ritual will begin. During this ritual, an eminence of dark, otherworldly power briefly manifests, channeling its energy into the sacrifice and warping it into a new kind of monster."
+				""
+				"The Watcher is a relentless entity that stalks adventurers over great distances. It is not content to simply observe—on occasion, the Watcher will make its presence known by possessing its target. During this possession, the player’s perspective is forcibly shifted to the Watcher’s point of view, afterward, the Watcher's eerie moth-like face briefly appears in the player's vision, as if to remind them of its lingering presence."
+				""
+				"Upon death, the Watcher will drop Dark Tatters and, on rare occasions, an Occult Gem."
+			]
+			id: "43C56F56C194CA87"
+			rewards: [
+				{
+					id: "51A252040CA08814"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "3DD3505397455DF1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_watcher"
+				}
+				id: "3EC3B4CC1C926139"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5CDAA0C3C17C33BC"]
+			description: [
+				"The Forsaken is the most powerful monster lurking in the Forlorn Hollows, but it does not occur naturally. A Forsaken is created only when Underzealots successfully perform a ritual on a Vesper."
+				""
+				"Imbued with the potent dark magic of the Forlorn Hollows, the Forsaken possesses a vast array of deadly attacks designed to quickly dispatch its prey. When reduced to low health, its shadowy magic becomes fully apparent—it will transform into a pitch-black figure with glowing red eyes. In this shadow state, the Forsaken will rapidly heal itself as long as it remains out of direct light."
+				""
+				"If defeated, the Forsaken will drop multitudes of Pure Darkness, a rare and powerful material."
+			]
+			id: "2DF8F6447EBF38F9"
+			rewards: [
+				{
+					id: "2A6D88D59B3EB7EA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "45F1CB1B73EED03C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_forsaken"
+				}
+				id: "15E8C649E74998E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 18.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["65010D52DC567C8F"]
+			description: [
+				"The Magnetron is a rare and powerful being encountered in the Magnetic Caves. It is a machine of mysterious origins, originally designed to extract resources from the biome."
+				""
+				"Magnetrons keep a deceptively low profile, slowly rolling across the ground on their central heart. However, when an intruder is detected, the Magnetron springs to life, using nearby blocks to form a massive, imposing body around itself."
+				""
+				"Once defeated, the Magnetron’s constructed body will fall apart, causing its many blocks to disperse throughout the cave. Among the debris, players can recover its Heart of Iron, a valuable block and testament to the Magnetron’s formidable nature."
+			]
+			id: "697B6370E74AE21A"
+			rewards: [
+				{
+					id: "3599635D99CD20C4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "2B5BB9D67039540D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_magnetron"
+				}
+				id: "782C4542DC1A713B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["65010D52DC567C8F"]
+			description: [
+				"The Boundroid may appear to be a single entity, but it is actually a mechanical being composed of two separate parts: A head and a walking winch, bound together by a chain."
+				""
+				"When a target is spotted, the Boundroid will clamber to a position above the target and then slam down with great force, dealing significant damage."
+				""
+				"If slain, the Boundroid drops chains and a Heavyweight, which is a rare and heavy component of its mechanical structure."
+			]
+			id: "30C3D7856BBFC8C5"
+			rewards: [
+				{
+					id: "32ADD474B10E4212"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "2D57294FDA953A15"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_boundroid"
+				}
+				id: "62E43B26A749EF0C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["697B6370E74AE21A"]
+			description: ["The Resistor Shield is a unique variant of the standard shield, offering a blend of defense and offense. While it can block damage from incoming attacks and explosions, it also emits a continuous pulse of damage and knockback to enemies within a small radius."]
+			id: "1163126CB341EF9A"
+			rewards: [
+				{
+					id: "25E2420BB29798B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7A463E119E3BDB0F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "088AB0BD117B95B7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["30C3D7856BBFC8C5"]
+			description: [
+				"The Magnetic Quarry Smasher is a placeable entity that works in conjunction with a Magnetic Quarry to create a fully automatic mining mechanism. To activate the system:"
+				""
+				"- Place a Magnetic Quarry Smasher within a square or rectangular area."
+				"- Mark the area using Magnetic Lights and ensure a Magnetic Quarry is placed."
+				""
+				"Once activated, white electricity will begin to dart between each Magnetic Light and the Smasher, signaling the start of the operation. The Quarry Smasher will then fly toward the most north-western corner of the marked area and begin its work."
+			]
+			id: "1D984219266DCB6E"
+			rewards: [
+				{
+					id: "62DA61A2093E4696"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3888D1C4309423C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0339461B9E8B0077"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:quarry_smasher"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["17B7C61B3BA03A8A"]
+			description: ["The Tremorsaurus is a rare, hostile dinosaur whose footsteps shake the ground and ripple nearby water. It emits a deafening roar to scare off mobs and can bite or violently shake smaller prey. To tame one, repeatedly strike it with a Primitive Club to stun it, then feed it Serene Salad. Once tamed, it can be ridden, commanded, and made to roar, scaring enemies. Tamed Tremorsaurus can be bred with Dinosaur Chops, producing eggs that hatch loyal offspring. Drops include Dinosaur Chops and Heavy Bones."]
+			id: "6BE1E7E5578ED1C3"
+			rewards: [
+				{
+					id: "78EFBE289A995A86"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "18348D0663B1542F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_tremorsaurus"
+				}
+				id: "7D07CF1CC8BF5B68"
+				type: "kill"
+				value: 1L
+			}]
+			x: 28.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["17B7C61B3BA03A8A"]
+			description: ["The Relicheirus is a massive, neutral dinosaur that browses Pewen Trees and hunts Trilocaris. Feeding it Primordial Soup energizes it to topple nearby trees in one sweep. It can be bred with a Tree Star, producing a single egg. Relicheirus drops feathers, Dinosaur Chops, and Heavy Bones when slain."]
+			id: "60E18FA836C7EFE7"
+			rewards: [
+				{
+					id: "3C18E50BB5A57DCA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "1EE713D7C1086D8D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_relicheirus"
+				}
+				id: "4EADB77F172FCB1E"
+				observe_type: 0
+				timer: 0L
+				title: "Observe: Relicheirus"
+				to_observe: "alexscaves:relicheirus"
+				type: "observation"
+			}]
+			x: 31.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["17B7C61B3BA03A8A"]
+			description: [
+				"The Luxtructosaurus is a fiery boss found in volcanic chambers of the Primordial Caves. Summon it by tossing an Ominous Catalyst into a volcano. This undead dinosaur can:"
+				"- Stomp to flatten terrain and create fissures of Primal Magma."
+				"- Breathe flames while dripping lava in its enraged state."
+				"- Use its tail spin and leg kick to disable shields and fling enemies."
+				""
+				"During the fight, nearby volcanoes erupt, and volcanic ash fills the sky, adding to the challenge. If defeated, the Luxtructosaurus drops Tectonic Shards, used to craft the Extinction Spear. This weapon unleashes dinosaur spirits for extra damage, defense, and explosive effects."
+				""
+				"Defeating the Luxtructosaurus also causes Primal Magma to recede, reviving previously extinct dinosaurs that spawn near Amber Monoliths."
+			]
+			id: "7F4819E3CAFB4225"
+			rewards: [
+				{
+					id: "26FD0CAF21693CFF"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "6222110C406D27E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_luxtructosaurus"
+				}
+				id: "730F76AA99CB647A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 30.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7F4819E3CAFB4225"]
+			description: ["The Atlatitan is a peaceful, living version of the Luxtructosaurus that spawns only after the boss is slain. These herbivores graze on Pewen Trees but can attack with tail swipes and kicks. Feeding them Serene Salad allows players to ride them briefly, enabling a stomp that levels terrain—ideal for terraforming. Atlatitans can be bred with a Tree Star and drop Heavy Bones and Dinosaur Chops when killed, though they lack natural predators."]
+			id: "5A14CC15C915770B"
+			rewards: [
+				{
+					id: "214D311A9C78858F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "74C9369D40DFAAC3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_atlatitan"
+				}
+				id: "03D23D65AEF38606"
+				observe_type: 5
+				timer: 0L
+				title: "Observe: Atlatitan"
+				to_observe: "alexscaves:atlatitan"
+				type: "observation"
+			}]
+			x: 30.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4AF1C9E8CC844C97"]
+			description: [
+				"Brainiacs are fast, aggressive undead mutants composed of multiple zombies and unknown creatures. They use a large tongue for ranged whip attacks and carry Waste Drums on their backs. In combat, Brainiacs may drink from the drum to heal or throw it to spread acid. Up close, they smash with their arms or snap with their jaw-hands, inflicting the Irradiated effect."
+				""
+				"Upon death, they drop: Rotten Flesh, Soylent Green (heals while Irradiated), and Charred Remnants, a radioactive item."
+			]
+			id: "14AFBECE97C5D7AD"
+			rewards: [
+				{
+					id: "6B29CB7E2BB7DE17"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "14DDC5C4A038A198"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_brainiac"
+				}
+				id: "186233AC513DBE81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 36.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4AF1C9E8CC844C97"]
+			description: [
+				"Tremorzilla is a colossal, player-created, neutral mob empowered by radiation. It can be tamed and ridden, but only after hatching its egg using a Nuclear Bomb or Nucleeper explosion. The egg, crafted from legendary monster remains, spawns the beast as a baby."
+				"Tremorzilla’s attacks include:"
+				"- Claw slashes and powerful bites."
+				"- Tail swings for massive knockback."
+				"- Foot stomps that crush terrain and enemies."
+				""
+				"Its most feared move: a devastating energy beam up to 100 blocks long, activated by glowing, irradiated plates along its back."
+				"Taming Tremorzilla requires feeding it a highly radioactive item dangerous to hold. Once tamed, it can follow commands, be ridden, and its devastating beam attack can be controlled. It is theorized that breeding Tremorzillas involves the most powerful explosives known."
+			]
+			id: "29F07B06C83C5211"
+			rewards: [
+				{
+					id: "3EA6DC076DD2B5E7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 5
+					id: "4719DEFACE1754AC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_tremorzilla"
+				}
+				id: "7B76BB193F401C1C"
+				observe_type: 5
+				timer: 0L
+				title: "Observe: Tremorzilla"
+				to_observe: "alexscaves:tremorzilla"
+				type: "observation"
+			}]
+			x: 39.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4AF1C9E8CC844C97"]
+			description: [
+				"Nucleepers are rare, hostile mobs found in the Toxic Caves. These modified Creepers are larger, slower, and take longer to charge up their explosion but are far deadlier. Once they begin priming, they cannot be stopped under normal circumstances."
+				""
+				"The Nucleeper’s detonation process starts with its glowing green core closing, accompanied by warning sirens and flashing lights. If not destroyed in time, it unleashes a devastating nuclear explosion, obliterating the nearby area."
+				""
+				"Drops (if slain before detonation): Gunpowder and occasionally a Fissile Core."
+			]
+			id: "740041F201271ACF"
+			rewards: [
+				{
+					id: "0192D1B655953049"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "14383E768EC6010C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:spawn_egg_nucleeper"
+				}
+				id: "7A6211241AB8581F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 37.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["740041F201271ACF"]
+			description: ["The Nuclear Bomb is an explosive block that, when detonated, has an extremely powerful explosion."]
+			id: "7357E2586B72BF3A"
+			rewards: [
+				{
+					id: "18327F77D8805D1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "3324D0217C98BEF2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "135FAD7072CFAA72"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:nuclear_bomb"
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["740041F201271ACF"]
+			description: ["A Raygun is a futuristic ranged weapon that utilizes a continuous beam of energy to hurt any mobs in its way."]
+			id: "158B880DE8E27EFB"
+			rewards: [
+				{
+					id: "6BC1B60D782A8E7B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "7EDC3AA64EA8E8F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01738153681F99BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:raygun"
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 11.5d
 		}
 	]
 	title: "&eWorld Exploration Quests"
