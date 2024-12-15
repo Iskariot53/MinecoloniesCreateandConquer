@@ -980,6 +980,7 @@
 			y: 9.142857142857139d
 		}
 		{
+			dependencies: ["4386DFA29FCEDD4D"]
 			description: [
 				"Large hostile mobs found in the &2Primordial Caves&r, Tremorsaurus are fearsome apex predators and will attack any Subterranodons, Grottoceratops, or Relicheirus within a 32-block radius, in addition to any players that stay within 8 blocks of them."
 				""
@@ -1026,8 +1027,9 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["4386DFA29FCEDD4D"]
 			description: [
-				"While not tamable, &9The Hullbreaker&r &oDOES&r possess something we need if we would like to raise our own Tremorzilla, which is. That is the &3Immortal Embryo&r."
+				"While not tamable, &9The Hullbreaker&r &oDOES&r possess something we need if we would like to raise our own Tremorzilla, which is the &3Immortal Embryo&r."
 				""
 				"&9Hullbreakers&r are rare gigantic neutral aquatic mobs found in the &8Abyssal Chasm. "
 			]
@@ -1070,13 +1072,17 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["4386DFA29FCEDD4D"]
 			description: [
 				"The &4Luxtructosaurus&r is a gigantic hostile boss mob that can be summoned from a volcano in the &2Primordial Caves&r. It can be spawned by dropping an Ominous Catalyst onto an active Volcanic Core."
 				""
 				""
 				"The &4Luxtructosaurus&r is immune to fall damage, fire damage, and suffocation, and it takes 100% less knockback in addition to 35% less damage from non-&aTremorzilla&r dinosaurs, 50% less damage from Iron Golems, and 75% less damage from Wardens. In addition to this, it takes 55% less damage from projectiles that hit its torso and 67% less damage from those that hit anywhere else. Upon initially taking damage, it will take 65% less of any further damage for 10 seconds."
 				""
+				"{@pagebreak}"
 				"Due to its own ability to roar, the &4Luxtructosaurus&r will not run away when a nearby Tremorsaurus or &aTremorzilla&r roars. As a boss monster, it cannot be possessed by the Totem of Possession."
+				""
+				"Once slain, it will provide the &cTectonic Shards&r needed to craft our egg."
 			]
 			id: "2E5E8A5099C2CF75"
 			rewards: [
@@ -1100,6 +1106,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Harvested from it's mortal enemy"
 			tasks: [{
 				id: "0903A9BF26ACF6CB"
 				item: {
@@ -1117,6 +1124,7 @@
 			y: 11.0d
 		}
 		{
+			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["Neutral flying mobs, found in &2Primordial Caves&r. Subterranodons will follow any player that holds out raw cod, cooked cod, or raw/cooked Trilocaris Tails within a 6 block radius. A Subterranodon will always walk on the ground when following players - if airborne, it will land near them. They can be tamed and used as mounts by feeding them &6Trilocaris tails&r!"]
 			id: "1A9C36F594BA5D31"
 			rewards: [
@@ -1140,14 +1148,147 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				advancement: "alexscaves:alexscaves/tame_subterranodon"
-				criterion: ""
-				id: "5C417CFF452A5570"
-				type: "advancement"
-			}]
+			subtitle: "Primordial Cave"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/tame_subterranodon"
+					criterion: ""
+					id: "5C417CFF452A5570"
+					type: "advancement"
+				}
+				{
+					id: "7F5B5DA443C56F8C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:trilocaris_tail"
+					}
+					type: "item"
+				}
+			]
 			title: "Subterranodon"
 			x: 9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			description: ["Found in the &dCandy Cavity&r biome,&e Candicorns&r spawn in groups of 4-6 and can be tamed with &6caramel apples&r!."]
+			id: "4411722C7401E0AC"
+			rewards: [
+				{
+					id: "3D3B02A93C2CF7D4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "58DD602A46EB662D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Candy Cavity"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/tame_candicorn"
+					criterion: ""
+					id: "58994D09431C170C"
+					type: "advancement"
+				}
+				{
+					count: 3L
+					id: "144BE175A3224124"
+					item: {
+						Count: 3
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:caramel_apple"
+					}
+					type: "item"
+				}
+			]
+			title: "Candicorn"
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4386DFA29FCEDD4D"]
+			description: [
+				"&cLaviathans&r can be tamed by equipping both a &6straddlite saddle&r and a &estraddlite tack&r on one and while equipped with both of these are less likely to flee."
+				""
+				"Tamed &cLaviathans&r can be used to cross vast distances of lava with ease and up to four players can ride one. They can be healed with magma cream and if used on water will transform into an &5obsidian&r variant!"
+			]
+			id: "2D457AA39661120F"
+			rewards: [
+				{
+					id: "64FC61BEC1CF54C1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "095952BC366ACC88"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Observe it with a spyglass"
+			tasks: [
+				{
+					advancement: "alexsmobs:alexsmobs/laviathan_spyglass"
+					criterion: ""
+					id: "4F89A44D06F5CEBD"
+					type: "advancement"
+				}
+				{
+					id: "0874FF8D445988CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexsmobs:straddle_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "041102361D10EB4A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexsmobs:straddle_saddle"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
 			y: 6.5d
 		}
 	]
