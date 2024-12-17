@@ -173,9 +173,9 @@ craftingTable.remove(<item:mekanism:pressurized_reaction_chamber>);
 craftingTable.remove(<item:mekanism:isotopic_centrifuge>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.isotopic_centrifuge", <item:mekanism:isotopic_centrifuge>,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/brass>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:basic_chemical_tank>, <item:mekanism:ultimate_control_circuit>, <tag:items:forge:ingots/brass>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:nutritional_liquifier>);
@@ -285,9 +285,9 @@ craftingTable.remove(<item:mekanism:qio_drive_array>);
 craftingTable.remove(<item:mekanism:qio_dashboard>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_dashboard", <item:mekanism:qio_dashboard>,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:hdpe_sheet>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:mekanism:pellet_polonium>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <item:mekanism:pellet_polonium>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>],
 [<item:create:precision_mechanism>, <item:mekanism:pellet_polonium>, <tag:items:forge:glass_panes>, <item:mekanism:pellet_polonium>, <item:create:precision_mechanism>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:mekanism:teleportation_core>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <item:mekanism:teleportation_core>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:hdpe_sheet>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:meka_tool>);
@@ -546,9 +546,9 @@ craftingTable.remove(<item:mekanism:diversion_transporter>);
 
 craftingTable.remove(<item:mekanism:radioactive_waste_barrel>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.radioactive_waste_barrel", <item:mekanism:radioactive_waste_barrel>,
-[[<tag:items:forge:ingots/steel>, <item:mekanism:ingot_lead>, <tag:items:forge:ingots/steel>],
-[<item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>],
-[<tag:items:forge:ingots/steel>, <item:mekanism:ingot_lead>, <tag:items:forge:ingots/steel>]]);
+[[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/steel>],
+[<tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>],
+[<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/steel>]]);
 
 craftingTable.remove(<item:mekanism:personal_chest>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.personal_chest", <item:mekanism:personal_chest>,
@@ -594,13 +594,13 @@ craftingTable.remove(<item:mekanism:fuelwood_heater>);
 
 craftingTable.remove(<item:mekanism:qio_exporter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_exporter", <item:mekanism:qio_exporter>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:teleportation_core>, <item:mekanism:ingot_lead>],
+[[<tag:items:forge:ingots/lead>, <item:mekanism:teleportation_core>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:pellet_polonium>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:pellet_polonium>],
 [<item:industrialforegoing:plastic>, <item:minecraft:piston>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:qio_importer>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_importer", <item:mekanism:qio_importer>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:teleportation_core>, <item:mekanism:ingot_lead>],
+[[<tag:items:forge:ingots/lead>, <item:mekanism:teleportation_core>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:pellet_polonium>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:pellet_polonium>],
 [<item:industrialforegoing:plastic>, <item:minecraft:sticky_piston>, <item:industrialforegoing:plastic>]]);
 
@@ -612,9 +612,9 @@ craftingTable.remove(<item:mekanism:qio_redstone_adapter>);
 
 craftingTable.remove(<item:mekanism:industrial_alarm>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.industrial_alarm", <item:mekanism:industrial_alarm>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>],
+[[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:basic_control_circuit>, <item:minecraft:redstone_lamp>, <item:mekanism:basic_control_circuit>],
-[<item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>]]);
+[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:dynamic_valve>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.dynamic_valve", <item:mekanism:dynamic_valve> *2,
@@ -685,7 +685,7 @@ craftingTable.remove(<item:mekanism:superheating_element>);
 craftingTable.remove(<item:mekanism:laser_tractor_beam>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.laser_tractor_beam", <item:mekanism:laser_tractor_beam>,
 [[<item:industrialforegoing:plastic>, <tag:items:mekanism:personal_storage>, <item:industrialforegoing:plastic>],
-[<item:mekanism:ingot_lead>, <item:mekanism:laser_amplifier>, <item:mekanism:ingot_lead>],
+[<tag:items:forge:ingots/lead>, <item:mekanism:laser_amplifier>, <tag:items:forge:ingots/lead>],
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/brass>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:sps_port>);
@@ -714,15 +714,15 @@ craftingTable.remove(<item:mekanism:network_reader>);
 
 craftingTable.remove(<item:mekanism:dosimeter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.dosimeter", <item:mekanism:dosimeter>,
-[[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>],
-[<item:mekanism:ingot_lead>, <tag:items:forge:dusts/redstone>, <item:mekanism:ingot_lead>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>]]);
+[[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>],
+[<tag:items:forge:ingots/lead>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/lead>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:geiger_counter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.geiger_counter", <item:mekanism:geiger_counter>,
-[[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>],
-[<item:mekanism:ingot_lead>, <item:mekanism:basic_control_circuit>, <item:mekanism:ingot_lead>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_lead>, <item:industrialforegoing:plastic>]]);
+[[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>],
+[<tag:items:forge:ingots/lead>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/lead>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/lead>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:dictionary>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.dictionary", <item:mekanism:dictionary>,
@@ -799,26 +799,26 @@ craftingTable.remove(<item:mekanism:hdpe_elytra>);
 craftingTable.remove(<item:mekanism:hazmat_mask>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.hazmat_mask", <item:mekanism:hazmat_mask>,
 [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-[<item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>],
-[<item:mekanism:ingot_lead>, <item:minecraft:orange_dye>, <item:mekanism:ingot_lead>]]);
+[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>],
+[<tag:items:forge:ingots/lead>, <item:minecraft:orange_dye>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:hazmat_gown>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.hazmat_gown", <item:mekanism:hazmat_gown>,
-[[<item:mekanism:ingot_lead>, <item:minecraft:orange_dye>, <item:mekanism:ingot_lead>],
-[<item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>],
-[<item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>]]);
+[[<tag:items:forge:ingots/lead>, <item:minecraft:orange_dye>, <tag:items:forge:ingots/lead>],
+[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>],
+[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:hazmat_pants>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.hazmat_pants", <item:mekanism:hazmat_pants>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>, <item:mekanism:ingot_lead>],
-[<item:mekanism:ingot_lead>, <item:minecraft:orange_dye>, <item:mekanism:ingot_lead>],
-[<item:mekanism:ingot_lead>, <item:minecraft:air>, <item:mekanism:ingot_lead>]]);
+[[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>],
+[<tag:items:forge:ingots/lead>, <item:minecraft:orange_dye>, <tag:items:forge:ingots/lead>],
+[<tag:items:forge:ingots/lead>, <item:minecraft:air>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:hazmat_boots>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.hazmat_boots", <item:mekanism:hazmat_boots>,
 [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-[<item:mekanism:ingot_lead>, <item:minecraft:air>, <item:mekanism:ingot_lead>],
-[<item:mekanism:ingot_lead>, <item:minecraft:black_dye>, <item:mekanism:ingot_lead>]]);
+[<tag:items:forge:ingots/lead>, <item:minecraft:air>, <tag:items:forge:ingots/lead>],
+[<tag:items:forge:ingots/lead>, <item:minecraft:black_dye>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:cardboard_box>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.cardboard_box", <item:mekanism:cardboard_box> *2,
@@ -942,27 +942,27 @@ craftingTable.remove(<item:mekanism:canteen>);
 
 craftingTable.remove(<item:mekanism:qio_drive_base>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_drive_base", <item:mekanism:qio_drive_base>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ingot_lead>],
+[[<tag:items:forge:ingots/lead>, <item:mekanism:ultimate_control_circuit>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:ultimate_control_circuit>, <item:mekanism:pellet_polonium>, <item:mekanism:ultimate_control_circuit>],
-[<item:mekanism:ingot_lead>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:ingot_lead>]]);
+[<tag:items:forge:ingots/lead>, <item:mekanism:ultimate_control_circuit>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:qio_drive_hyper_dense>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_drive_hyper_dense", <item:mekanism:qio_drive_hyper_dense>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:qio_drive_base>, <item:mekanism:ingot_lead>],
+[[<tag:items:forge:ingots/lead>, <item:mekanism:qio_drive_base>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:qio_drive_base>, <tag:items:forge:gems/diamond>, <item:mekanism:qio_drive_base>],
-[<item:mekanism:ingot_lead>, <item:mekanism:qio_drive_base>, <item:mekanism:ingot_lead>]]);
+[<tag:items:forge:ingots/lead>, <item:mekanism:qio_drive_base>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:qio_drive_time_dilating>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_drive_time_dilating", <item:mekanism:qio_drive_time_dilating>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:qio_drive_hyper_dense>, <item:mekanism:ingot_lead>],
+[[<tag:items:forge:ingots/lead>, <item:mekanism:qio_drive_hyper_dense>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:qio_drive_hyper_dense>, <tag:items:forge:gems/emerald>, <item:mekanism:qio_drive_hyper_dense>],
-[<item:mekanism:ingot_lead>, <item:mekanism:qio_drive_hyper_dense>, <item:mekanism:ingot_lead>]]);
+[<tag:items:forge:ingots/lead>, <item:mekanism:qio_drive_hyper_dense>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:qio_drive_supermassive>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_drive_supermassive", <item:mekanism:qio_drive_supermassive>,
-[[<item:mekanism:ingot_lead>, <item:mekanism:qio_drive_time_dilating>, <item:mekanism:ingot_lead>],
+[[<tag:items:forge:ingots/lead>, <item:mekanism:qio_drive_time_dilating>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:qio_drive_time_dilating>, <item:mekanism:pellet_antimatter>, <item:mekanism:qio_drive_time_dilating>],
-[<item:mekanism:ingot_lead>, <item:mekanism:qio_drive_time_dilating>, <item:mekanism:ingot_lead>]]);
+[<tag:items:forge:ingots/lead>, <item:mekanism:qio_drive_time_dilating>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:module_base>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.module_base", <item:mekanism:module_base> *2,
