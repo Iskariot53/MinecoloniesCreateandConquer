@@ -1204,7 +1204,7 @@
 		{
 			dependencies: ["23B66F4C381C1019"]
 			description: [
-				"Higher Capacity cable, can carry 64 channels unlike standard cable which can only carry 8, however it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels."
+				"Higher Capacity cable, can carry 64 channels unlike standard cable which can only carry 16, however it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels."
 				""
 				"Dense cables slightly override the \"shortest path\" behavior of channels, channels will always prioritize the shortest path to a dense cable, and then the shortest path through that dense cable to a controller."
 			]
