@@ -157,9 +157,9 @@ craftingTable.remove(<item:mekanism:chemical_crystallizer>);
 craftingTable.remove(<item:mekanism:seismic_vibrator>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.seismic_vibrator", <item:mekanism:seismic_vibrator>,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_tin>, <tag:items:forge:gems/lapis>, <item:mekanism:ingot_tin>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/tin>, <tag:items:forge:gems/lapis>, <tag:items:forge:ingots/tin>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/brass>, <item:mekanism:basic_control_circuit>, <item:mekanism:steel_casing>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/brass>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:pressurized_reaction_chamber>);
@@ -191,15 +191,15 @@ craftingTable.remove(<item:mekanism:solar_neutron_activator>);
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:mekanism:alloy_reinforced>, <item:mekanism:hdpe_sheet>, <item:mekanism:alloy_reinforced>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/brass>, <item:mekanism:elite_control_circuit>, <item:mekanism:steel_casing>, <item:mekanism:elite_control_circuit>, <tag:items:forge:ingots/brass>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_bronze>, <item:mekanism:ingot_bronze>, <item:mekanism:ingot_bronze>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <item:thermal:bronze_ingot>, <item:thermal:bronze_ingot>, <item:thermal:bronze_ingot>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:resistive_heater>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.resistive_heater", <item:mekanism:resistive_heater>,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_tin>, <item:mekanism:ingot_osmium>, <item:mekanism:ingot_tin>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/tin>, <item:mekanism:ingot_osmium>, <tag:items:forge:ingots/tin>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/brass>, <tag:items:forge:dusts/redstone>, <item:mekanism:steel_casing>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/brass>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_tin>, <item:mekanism:energy_tablet>, <item:mekanism:ingot_tin>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/tin>, <item:mekanism:energy_tablet>, <tag:items:forge:ingots/tin>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:formulaic_assemblicator>);
@@ -336,9 +336,9 @@ craftingTable.remove(<item:mekanism:ultimate_fluid_tank>);
 
 craftingTable.remove(<item:mekanism:fluidic_plenisher>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.fluidic_plenisher", <item:mekanism:fluidic_plenisher>,
-[[<item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>],
+[[<tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>],
 [<item:mekanism:basic_control_circuit>, <item:mekanism:electric_pump>, <item:mekanism:basic_control_circuit>],
-[<item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>]]);
+[<tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>]]);
 
 craftingTable.remove(<item:mekanism:basic_bin>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_bin", <item:mekanism:basic_bin>,
@@ -776,18 +776,18 @@ craftingTable.remove(<item:mekanism:free_runners_armored>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.free_runners_armored", <item:mekanism:free_runners_armored>,
 [[<item:minecraft:air>, <item:mekanism:block_steel>, <item:minecraft:air>],
 [<tag:items:forge:dusts/diamond>, <item:mekanism:free_runners>, <tag:items:forge:dusts/diamond>],
-[<item:mekanism:ingot_bronze>, <tag:items:forge:ingots/brass>, <item:mekanism:ingot_bronze>]]);
+[<item:thermal:bronze_ingot>, <tag:items:forge:ingots/brass>, <item:thermal:bronze_ingot>]]);
 
 craftingTable.remove(<item:mekanism:jetpack>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.jetpack", <item:mekanism:jetpack>,
 [[<tag:items:forge:ingots/steel>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/steel>],
-[<item:mekanism:ingot_tin>, <item:mekanism:basic_chemical_tank>, <item:mekanism:ingot_tin>],
-[<tag:items:forge:ingots/brass>, <item:mekanism:ingot_tin>, <tag:items:forge:ingots/brass>]]);
+[<tag:items:forge:ingots/tin>, <item:mekanism:basic_chemical_tank>, <tag:items:forge:ingots/tin>],
+[<tag:items:forge:ingots/brass>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/brass>]]);
 
 craftingTable.remove(<item:mekanism:jetpack_armored>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.jetpack_armored", <item:mekanism:jetpack_armored>,
 [[<tag:items:forge:dusts/diamond>, <item:minecraft:air>, <tag:items:forge:dusts/diamond>],
-[<item:mekanism:ingot_bronze>, <item:mekanism:block_steel>, <item:mekanism:ingot_bronze>],
+[<item:thermal:bronze_ingot>, <item:mekanism:block_steel>, <item:thermal:bronze_ingot>],
 [<item:minecraft:air>, <item:mekanism:jetpack>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:hdpe_elytra>);
@@ -936,9 +936,9 @@ craftingTable.remove(<item:mekanism:seismic_reader>);
 
 craftingTable.remove(<item:mekanism:canteen>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.canteen", <item:mekanism:canteen>,
-[[<item:industrialforegoing:plastic>, <item:mekanism:ingot_tin>, <item:industrialforegoing:plastic>],
-[<item:mekanism:ingot_tin>, <item:minecraft:bowl>, <item:mekanism:ingot_tin>],
-[<item:industrialforegoing:plastic>, <item:mekanism:ingot_tin>, <item:industrialforegoing:plastic>]]);
+[[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/tin>, <item:industrialforegoing:plastic>],
+[<tag:items:forge:ingots/tin>, <item:minecraft:bowl>, <tag:items:forge:ingots/tin>],
+[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/tin>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:qio_drive_base>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_drive_base", <item:mekanism:qio_drive_base>,
@@ -966,9 +966,9 @@ craftingTable.remove(<item:mekanism:qio_drive_supermassive>);
 
 craftingTable.remove(<item:mekanism:module_base>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.module_base", <item:mekanism:module_base> *2,
-[[<item:mekanism:nugget_bronze>, <item:mekanism:ingot_tin>, <item:mekanism:nugget_bronze>],
-[<item:mekanism:ingot_tin>, <item:mekanism:hdpe_sheet>, <item:mekanism:ingot_tin>],
-[<item:mekanism:nugget_bronze>, <item:mekanism:ingot_tin>, <item:mekanism:nugget_bronze>]]);
+[[<item:mekanism:nugget_bronze>, <tag:items:forge:ingots/tin>, <item:mekanism:nugget_bronze>],
+[<tag:items:forge:ingots/tin>, <item:mekanism:hdpe_sheet>, <tag:items:forge:ingots/tin>],
+[<item:mekanism:nugget_bronze>, <tag:items:forge:ingots/tin>, <item:mekanism:nugget_bronze>]]);
 
 craftingTable.remove(<item:mekanism:module_energy_unit>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.module_energy_unit", <item:mekanism:module_energy_unit>,
@@ -1086,9 +1086,9 @@ craftingTable.remove(<item:mekanism:supercharged_coil>);
 
 craftingTable.remove(<item:mekanism:flamethrower>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.flamethrower", <item:mekanism:flamethrower>,
-[[<item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>, <item:mekanism:ingot_tin>],
-[<item:mekanism:ingot_tin>, <item:mekanism:basic_chemical_tank>, <item:minecraft:flint_and_steel>],
-[<item:mekanism:ingot_bronze>, <item:mekanism:advanced_control_circuit>, <item:mekanism:ingot_bronze>]]);
+[[<tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>],
+[<tag:items:forge:ingots/tin>, <item:mekanism:basic_chemical_tank>, <item:minecraft:flint_and_steel>],
+[<item:thermal:bronze_ingot>, <item:mekanism:advanced_control_circuit>, <item:thermal:bronze_ingot>]]);
 
 craftingTable.remove(<item:mekanism:electric_bow>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.electric_bow", <item:mekanism:electric_bow>,

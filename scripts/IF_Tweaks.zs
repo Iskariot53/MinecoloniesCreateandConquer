@@ -231,3 +231,98 @@ craftingTable.remove(<item:industrialforegoing:supreme_black_hole_tank>);
 
 craftingTable.remove(<item:industrialforegoing:black_hole_controller>);
 <recipetype:create:mechanical_crafting>.addRecipe("industrialforegoing.black_hole_controller", <item:industrialforegoing:black_hole_controller>, [[<item:industrialforegoing:plastic>, <item:industrialforegoing:diamond_gear>, <item:industrialforegoing:plastic>], [<item:minecraft:ender_eye>, <tag:items:forge:chests/ender>, <item:minecraft:ender_eye>], [<item:industrialforegoing:plastic>, <item:industrialforegoing:machine_frame_supreme>, <item:industrialforegoing:plastic>]]);
+
+<recipetype:industrialforegoing:laser_drill_ore>.addJsonRecipe("laserdrill.luminarchy",
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens13"
+  },
+  "output": {
+    "item": "create_unbreakable:luminarchy"
+  },
+  "pointer": 0,
+  "rarity": [
+    {
+      "blacklist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:the_end",
+          "minecraft:the_void",
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens",
+          "minecraft:end_highlands",
+          "minecraft:end_midlands"
+        ]
+      },
+      "depth_max": 16,
+      "depth_min": 5,
+      "weight": 4,
+      "whitelist": {}
+    },
+    {
+      "blacklist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:the_end",
+          "minecraft:the_void",
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens",
+          "minecraft:end_highlands",
+          "minecraft:end_midlands"
+        ]
+      },
+      "depth_max": 255,
+      "depth_min": 0,
+      "weight": 1,
+      "whitelist": {}
+    }
+  ]
+});
+<recipetype:industrialforegoing:laser_drill_ore>.addJsonRecipe("laserdrill.philolite",
+{
+  "type": "industrialforegoing:laser_drill_ore",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens7"
+  },
+  "output": {
+    "item": "create_unbreakable:philolite"
+  },
+  "pointer": 0,
+  "rarity": [
+    {
+      "blacklist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:the_end",
+          "minecraft:the_void",
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens",
+          "minecraft:end_highlands",
+          "minecraft:end_midlands"
+        ]
+      },
+      "depth_max": 16,
+      "depth_min": 5,
+      "weight": 4,
+      "whitelist": {}
+    },
+    {
+      "blacklist": {
+        "type": "minecraft:worldgen/biome",
+        "values": [
+          "minecraft:the_end",
+          "minecraft:the_void",
+          "minecraft:small_end_islands",
+          "minecraft:end_barrens",
+          "minecraft:end_highlands",
+          "minecraft:end_midlands"
+        ]
+      },
+      "depth_max": 255,
+      "depth_min": 0,
+      "weight": 1,
+      "whitelist": {}
+    }
+  ]
+});
