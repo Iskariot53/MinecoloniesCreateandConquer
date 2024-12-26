@@ -1548,7 +1548,7 @@
 		{
 			dependencies: [
 				"6012663645C252FB"
-				"05607C56B0320CD7"
+				"7A33AF5CD7476775"
 			]
 			description: ["Using either an ME Chest or an ME drive, cells can be inserted and their contents interacted with manually. Terminals will make this much easier, providing a dedicated access point for storage mediums."]
 			id: "0348661A4898AAAD"
@@ -3594,7 +3594,10 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["7A33AF5CD7476775"]
+			dependencies: [
+				"7A33AF5CD7476775"
+				"0348661A4898AAAD"
+			]
 			description: ["The IO Port allows you to rapidly fill or empty storage cells to or from network storage."]
 			hide_dependency_lines: false
 			id: "05607C56B0320CD7"

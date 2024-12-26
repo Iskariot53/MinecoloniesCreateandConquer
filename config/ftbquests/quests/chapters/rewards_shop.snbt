@@ -2368,8 +2368,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "3886C412E9815C72"
 			rewards: [{
+				auto: "enabled"
 				id: "1CC1565C941639CD"
 				item: {
 					Count: 1
@@ -2380,10 +2382,12 @@
 					}
 					id: "numismatics:crown"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.75d
 			tasks: [{
+				disable_toast: true
 				id: "2EA2BDF5D63DCB24"
 				item: {
 					Count: 1
@@ -2403,8 +2407,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "46E6690467DD8307"
 			rewards: [{
+				auto: "enabled"
 				count: 2
 				id: "091560862D0CBF3A"
 				item: {
@@ -2416,11 +2422,13 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.0d
 			tasks: [{
 				amount: 32000L
+				disable_toast: true
 				fluid: "industrialforegoing:ether_gas"
 				id: "129FB98F648B8867"
 				title: "&a32 B of Ether Gas = 2 Cogs&r"
@@ -2432,8 +2440,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "12FB9B46A8CEC86D"
 			rewards: [{
+				auto: "enabled"
 				id: "39D4A7E9EC88BC36"
 				item: {
 					Count: 1
@@ -2444,10 +2454,12 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				amount: 32000L
+				disable_toast: true
 				fluid: "industrialforegoing:pink_slime"
 				id: "3CDD0E9F4112D144"
 				title: "&a32 B of Pink Slime = 1 Cog&r"
@@ -2459,8 +2471,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "511B31A295BEF232"
 			rewards: [{
+				auto: "no_toast"
 				count: 4
 				id: "029FD0CB9FBC508F"
 				item: {
@@ -2472,11 +2486,13 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
 			tasks: [{
 				count: 4L
+				disable_toast: true
 				id: "52A7F1894C8DDFD4"
 				item: {
 					Count: 1
@@ -2498,6 +2514,7 @@
 			dependencies: ["3B38BC10347BDA7D"]
 			id: "0515343A1EAA2374"
 			rewards: [{
+				auto: "enabled"
 				count: 4
 				id: "3738951387FF072C"
 				item: {
@@ -2509,6 +2526,7 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
@@ -2533,8 +2551,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "0060AB94E42904BD"
 			rewards: [{
+				auto: "enabled"
 				count: 2
 				id: "11104E4B18F5B0E2"
 				item: {
@@ -2546,11 +2566,13 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.5d
 			tasks: [{
 				amount: 32000L
+				disable_toast: true
 				fluid: "enlightened_end:ooze_fluid"
 				id: "20B77059BD11664C"
 				title: "&a32 B of Ooze = 2 Cogs&r"
@@ -2562,8 +2584,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "3CAA18911187F65F"
 			rewards: [{
+				auto: "enabled"
 				count: 2
 				id: "41847EE8F6D1DCD1"
 				item: {
@@ -2575,11 +2599,13 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.0d
 			tasks: [{
 				amount: 32000L
+				disable_toast: true
 				fluid: "createcafe:mana_tea"
 				id: "1F0D008A898DD445"
 				title: "&a32 B of M.B Milk Tea = 2 Cogs&r"
@@ -2591,8 +2617,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "4D9C97FFEA9EE186"
 			rewards: [{
+				auto: "enabled"
 				id: "7399D423DBE16F29"
 				item: {
 					Count: 1
@@ -2603,10 +2631,12 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				amount: 32000L
+				disable_toast: true
 				fluid: "bloodmagic:life_essence_fluid"
 				id: "54F544227D36D212"
 				title: "&a32 B of Life Essence = 1 Cog&r"
@@ -2618,8 +2648,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "7A37BA3CB473BD66"
 			rewards: [{
+				auto: "enabled"
 				id: "33DD2C73BE107E6C"
 				item: {
 					Count: 1
@@ -2630,10 +2662,12 @@
 					}
 					id: "numismatics:bevel"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
+				disable_toast: true
 				id: "522FBCD132966B82"
 				item: {
 					Count: 1
@@ -2896,8 +2930,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "3120B430D58D8E4B"
 			rewards: [{
+				auto: "enabled"
 				count: 3
 				id: "16667E3CAB673F20"
 				item: {
@@ -2909,10 +2945,12 @@
 					}
 					id: "numismatics:bevel"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				count: 4L
+				disable_toast: true
 				id: "6B889F4D3E4831B9"
 				item: {
 					Count: 1
@@ -2932,8 +2970,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "799B04343134DD66"
 			rewards: [{
+				auto: "enabled"
 				count: 2
 				id: "49B99491026E051B"
 				item: {
@@ -2945,10 +2985,12 @@
 					}
 					id: "numismatics:bevel"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				count: 3L
+				disable_toast: true
 				id: "26563D5057FAB2AD"
 				item: {
 					Count: 1
@@ -2968,8 +3010,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "7399DC877F81584B"
 			rewards: [{
+				auto: "enabled"
 				id: "78F1AEC00D2C9714"
 				item: {
 					Count: 1
@@ -2980,10 +3024,12 @@
 					}
 					id: "numismatics:bevel"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
+				disable_toast: true
 				id: "20A96E289CB8F3BD"
 				item: {
 					Count: 1
@@ -3003,8 +3049,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "0AB9B52649847B7E"
 			rewards: [{
+				auto: "enabled"
 				count: 2
 				id: "67445E9E351B209D"
 				item: {
@@ -3016,11 +3064,13 @@
 					}
 					id: "numismatics:bevel"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
 			tasks: [{
 				count: 32L
+				disable_toast: true
 				id: "7A596C32FDDDCB65"
 				item: {
 					Count: 1
@@ -3040,8 +3090,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "11ADF9ACDF6D8DD3"
 			rewards: [{
+				auto: "enabled"
 				count: 3
 				id: "6247A832B5986C7E"
 				item: {
@@ -3053,11 +3105,13 @@
 					}
 					id: "numismatics:bevel"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
 			tasks: [{
 				amount: 32000L
+				disable_toast: true
 				fluid: "alexscaves:acid"
 				id: "080804E0B62007E8"
 				title: "&a32 B of Acid = 3 Bevels&r"
@@ -3069,8 +3123,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "226CD762E4EE6BC7"
 			rewards: [{
+				auto: "enabled"
 				count: 3
 				id: "6D99884B63BD3212"
 				item: {
@@ -3082,11 +3138,13 @@
 					}
 					id: "numismatics:bevel"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			size: 1.25d
 			tasks: [{
 				amount: 32000L
+				disable_toast: true
 				fluid: "alexscaves:purple_soda"
 				id: "28045A3DE4D40145"
 				type: "fluid"
@@ -3139,8 +3197,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "538D56EFB34F1528"
 			rewards: [{
+				auto: "enabled"
 				id: "5B93791E0084B87D"
 				item: {
 					Count: 1
@@ -3151,11 +3211,13 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
+				disable_toast: true
 				id: "2CE728C21F749CDF"
 				item: {
 					Count: 1
@@ -3174,8 +3236,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "44ADC3D00CB3DB9F"
 			rewards: [{
+				auto: "enabled"
 				id: "6D885A103FFE5CA2"
 				item: {
 					Count: 1
@@ -3186,11 +3250,13 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
+				disable_toast: true
 				id: "03811AAF544CBC05"
 				item: {
 					Count: 1
@@ -3209,8 +3275,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "729F6706868E024D"
 			rewards: [{
+				auto: "enabled"
 				id: "1B904021BBDAEEE4"
 				item: {
 					Count: 1
@@ -3221,10 +3289,12 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				count: 8L
+				disable_toast: true
 				id: "2FE0B4E2C313C3A5"
 				item: {
 					Count: 1
@@ -3243,8 +3313,10 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
 			id: "21BEE99A18B42067"
 			rewards: [{
+				auto: "enabled"
 				id: "67B2624C0BFEB549"
 				item: {
 					Count: 1
@@ -3255,11 +3327,13 @@
 					}
 					id: "numismatics:cog"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				consume_items: true
 				count: 8L
+				disable_toast: true
 				id: "4D35CDB071559573"
 				item: {
 					Count: 1

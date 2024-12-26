@@ -92,6 +92,7 @@
 						gateway: "gateways:basic/slime"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 2.5d
@@ -135,6 +136,7 @@
 						gateway: "gateways:basic/enderman"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.5d
@@ -178,6 +180,7 @@
 						gateway: "gateways:basic/blaze"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
@@ -220,6 +223,7 @@
 						gateway: "gateways:endless/blaze"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -1.0d
@@ -263,6 +267,7 @@
 						gateway: "gateways:emerald_grove"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.0d
@@ -306,6 +311,7 @@
 						gateway: "gateways:overworldian_nights"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 4.0d
@@ -348,6 +354,7 @@
 						gateway: "gateways:hellish_fortress"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 0.0d
@@ -390,6 +397,7 @@
 						gateway: "gateways:alexs_hell"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 2.5d
@@ -433,6 +441,7 @@
 						gateway: "gateways:cataclysm_ignis"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -2.5d
@@ -476,6 +485,7 @@
 						gateway: "gateways:cataclysm_ender"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: -4.0d
@@ -518,6 +528,7 @@
 						gateway: "apotheotic_additions:caves_gate"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 4.0d
@@ -561,6 +572,7 @@
 						gateway: "apotheotic_additions:endless_boss"
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			x: 1.0d
