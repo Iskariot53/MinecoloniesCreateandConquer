@@ -326,3 +326,52 @@ craftingTable.remove(<item:industrialforegoing:black_hole_controller>);
     }
   ]
 });
+<recipetype:industrialforegoing:laser_drill_fluid>.addJsonRecipe("laserdrill.sapb",
+{
+  "type": "industrialforegoing:laser_drill_fluid",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens4"
+  },
+  "entity": "productivebees:resin_bee",
+  "output": "{Amount:10,FluidName:\"create_dd:sap\"}",
+  "pointer": 0,
+  "rarity": [
+    {
+      "blacklist": {},
+      "depth_max": 256,
+      "depth_min": -64,
+      "weight": 8,
+      "whitelist": {}
+    }
+  ]
+});
+<recipetype:industrialforegoing:laser_drill_fluid>.addJsonRecipe("laserdrill.sapc",
+{
+  "type": "industrialforegoing:laser_drill_fluid",
+  "catalyst": {
+    "item": "industrialforegoing:laser_lens4"
+  },
+  "entity": "chicken_roost:c_oakwood",
+  "output": "{Amount:10,FluidName:\"create_dd:sap\"}",
+  "pointer": 0,
+  "rarity": [
+    {
+      "blacklist": {},
+      "depth_max": 256,
+      "depth_min": -64,
+      "weight": 8,
+      "whitelist": {}
+    }
+  ]
+});
+<recipetype:industrialforegoing:fluid_extractor>.addJsonRecipe("fluidextraction.sap",
+{
+  "type": "industrialforegoing:fluid_extractor",
+  "breakChance": 0.01,
+  "defaultRecipe": false,
+  "input": {
+    "item": "autumnity:maple_log"
+  },
+  "output": "{Amount:4,FluidName:\"create_dd:sap\"}",
+  "result": "autumnity:stripped_maple_log"
+});
