@@ -966,9 +966,9 @@ craftingTable.remove(<item:mekanism:qio_drive_supermassive>);
 
 craftingTable.remove(<item:mekanism:module_base>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.module_base", <item:mekanism:module_base> *2,
-[[<item:mekanism:nugget_bronze>, <tag:items:forge:ingots/tin>, <item:mekanism:nugget_bronze>],
+[[<item:thermal:bronze_nugget>, <tag:items:forge:ingots/tin>, <item:thermal:bronze_nugget>],
 [<tag:items:forge:ingots/tin>, <item:mekanism:hdpe_sheet>, <tag:items:forge:ingots/tin>],
-[<item:mekanism:nugget_bronze>, <tag:items:forge:ingots/tin>, <item:mekanism:nugget_bronze>]]);
+[<item:thermal:bronze_nugget>, <tag:items:forge:ingots/tin>, <item:thermal:bronze_nugget>]]);
 
 craftingTable.remove(<item:mekanism:module_energy_unit>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.module_energy_unit", <item:mekanism:module_energy_unit>,

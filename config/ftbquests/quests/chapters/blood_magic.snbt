@@ -42,22 +42,6 @@
 			id: "305904786B9CF570"
 			rewards: [
 				{
-					id: "59C303E571CD33F7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "bloodmagic:guide"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "530FF11B382638FE"
 					type: "xp"
 					xp: 10
@@ -275,7 +259,10 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["1F1A6444FA8CB90A"]
+			dependencies: [
+				"1F1A6444FA8CB90A"
+				"402ED5DAF12B3CCD"
+			]
 			description: ["The &b&lHellfire Forge&r&r is a core crafting mechanic in &l&4Blood Magic&r&r, alongside the &4Blood Altar&r. It allows you to use the &bDemon Will&r harvested from mobs to craft a variety of items."]
 			id: "2C149DFFFE9023C8"
 			rewards: [

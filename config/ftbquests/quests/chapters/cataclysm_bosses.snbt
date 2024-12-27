@@ -537,7 +537,7 @@
 				type: "item"
 			}]
 			title: "&d&lGauntlet of Guard"
-			x: 17.5d
+			x: 17.0d
 			y: 11.0d
 		}
 		{
@@ -591,7 +591,7 @@
 			}]
 			title: "&b&lIgnitium"
 			x: 14.0d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["21AEDCF08E97F22C"]
@@ -615,8 +615,8 @@
 				type: "item"
 			}]
 			title: "&b&lThe Incinerator"
-			x: 14.5d
-			y: 12.5d
+			x: 15.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["21AEDCF08E97F22C"]
@@ -641,8 +641,8 @@
 				type: "item"
 			}]
 			title: "&b&lBulwark of the Flame"
-			x: 13.5d
-			y: 12.5d
+			x: 13.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["51BA8A49FD6DFA12"]
@@ -1254,7 +1254,7 @@
 			}]
 			title: "&4&lWitherite Ingots"
 			x: 3.5d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["400E19B0C89958BA"]
@@ -1285,7 +1285,7 @@
 			}]
 			title: "&l&4Laser Gatling"
 			x: 2.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["400E19B0C89958BA"]
@@ -1311,7 +1311,7 @@
 			}]
 			title: "&4&lWither Assault Shoulder Weapon"
 			x: 3.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["400E19B0C89958BA"]
@@ -1336,7 +1336,7 @@
 			}]
 			title: "&4&lMeat Shredder"
 			x: 4.5d
-			y: 12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["400E19B0C89958BA"]
@@ -1361,7 +1361,7 @@
 			}]
 			title: "&4&lMechanical Fusion Anvil"
 			x: 3.5d
-			y: 13.5d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -1390,7 +1390,7 @@
 			}]
 			title: "&4&lGauntlet of Bulwark"
 			x: 4.5d
-			y: 14.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -1425,7 +1425,7 @@
 			}]
 			title: "&4&lVoid Forge"
 			x: 3.5d
-			y: 14.5d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -1454,7 +1454,7 @@
 			}]
 			title: "&4&lVoid Assault Shoulder Weapon"
 			x: 2.5d
-			y: 14.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["17FD2966AAFEA66B"]
@@ -1660,7 +1660,7 @@
 			]
 			title: "&e&lBone Reptile Armor"
 			x: -0.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
 			dependencies: ["21AEDCF08E97F22C"]
@@ -2166,7 +2166,7 @@
 			}]
 			title: "&3&lCursium Ingots"
 			x: -3.5d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0CE52E0611E65906"]
@@ -2207,7 +2207,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
@@ -2248,7 +2248,7 @@
 			}]
 			title: "&3&lSoul Render"
 			x: -3.5d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
@@ -2289,7 +2289,7 @@
 			}]
 			title: "&3&lThe Annihilator"
 			x: -2.5d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
@@ -2331,7 +2331,7 @@
 			}]
 			title: "&3&lCursed Bow"
 			x: -4.5d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
@@ -2424,7 +2424,7 @@
 			]
 			title: "&3&lCursium Armor"
 			x: -3.5d
-			y: 13.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0B25F1EAC3D97093"]
@@ -2468,7 +2468,7 @@
 			}]
 			title: "&e&lAncient Spear"
 			x: 0.5d
-			y: 14.0d
+			y: 15.0d
 		}
 		{
 			description: [
@@ -2510,6 +2510,357 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["57721A0B508DA66B"]
+			id: "4DFACCDC0948A15E"
+			rewards: [
+				{
+					id: "232B497AA085CB5D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1C78C74A0157CAA9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "7928A38C51738FCB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:bottomlesslavabucket"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["57721A0B508DA66B"]
+			id: "1FFF06FA94CC4DE2"
+			rewards: [
+				{
+					id: "1371F55FCE2B1C99"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "2F3371AC32C7EE57"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "47E92B6EA0B12DCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:lava_absorbant_sponge"
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["5D91A741B179B8CA"]
+			id: "5778758A8D599091"
+			rewards: [
+				{
+					id: "2A79BC6D0D429444"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "11C3BDEF372318B1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "69EDEA4B97A245F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:mechdrill"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0CE52E0611E65906"]
+			id: "6A1CBD2264C44871"
+			rewards: [
+				{
+					id: "14B6093457CF72FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7C0D83935EDC173D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "698721B1AB4DFAB3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:bottomlesssandbucket"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4A573817D50AF148"]
+			id: "049D53F551C12891"
+			rewards: [
+				{
+					id: "46CACC1431EE5F2D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "774348DA99B56273"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "6D95AAED8AF09F4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:superfishingrod"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7F3593717A5A0B9D"]
+			id: "7214F348EBD0D638"
+			rewards: [
+				{
+					id: "5DFB588F40035667"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5B02CDE8E2037BA0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "3A9925D5FAADD422"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:lifefire"
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["118745FBBE058C28"]
+			id: "776D76108873A279"
+			rewards: [
+				{
+					id: "7F40B7092B109C6A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7B5C6A91E16E167C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "0FE8CA0A4C87CDA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:cursegem"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0CCA0F3A3226B20F"]
+			id: "2BF20D923907A42F"
+			rewards: [
+				{
+					id: "04BA14FC38143D04"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "2AC9012AB1CEA48F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "282B8B7C41AD3D92"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:aspectoftheend"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4A573817D50AF148"]
+			id: "35EF3DF4E3C6026C"
+			rewards: [
+				{
+					id: "26F4294EA4224B90"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "628DDBDE00612B64"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "0151AD113FCC1AB3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm_ut:terminus"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
 		}
 	]
 	title: "&eCataclysm"

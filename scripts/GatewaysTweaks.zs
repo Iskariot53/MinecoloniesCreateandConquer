@@ -19,9 +19,9 @@
 	
 	//ENDERMAN
 		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.endermangateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/enderman"}),
-		[[<item:minecraft:amethyst_shard>, <item:minecraft:ender_pearl>, <item:minecraft:amethyst_shard>],
-		[<item:minecraft:ender_pearl>, <item:minecraft:ender_eye>, <item:minecraft:ender_pearl>],
-		[<item:minecraft:amethyst_shard>, <item:minecraft:ender_pearl>, <item:minecraft:amethyst_shard>]]);	
+		[[<item:minecraft:amethyst_shard>, <tag:items:forge:ender_pearls>, <item:minecraft:amethyst_shard>],
+		[<tag:items:forge:ender_pearls>, <item:minecraft:ender_eye>, <tag:items:forge:ender_pearls>],
+		[<item:minecraft:amethyst_shard>, <tag:items:forge:ender_pearls>, <item:minecraft:amethyst_shard>]]);	
 	
 	//BLAZE
 		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.blazegateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/blaze"}),

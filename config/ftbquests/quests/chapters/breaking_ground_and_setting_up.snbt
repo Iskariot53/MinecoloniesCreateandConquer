@@ -721,7 +721,15 @@
 				}
 				{
 					id: "3C7830ED6E0E9682"
-					item: "numismatics:bevel"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
 					type: "item"
 				}
 			]

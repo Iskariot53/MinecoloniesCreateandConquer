@@ -3350,6 +3350,341 @@
 			x: -6.0d
 			y: -9.5d
 		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "432C723C687FD996"
+			rewards: [{
+				count: 10
+				id: "47848A8E03C7BF00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:spur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				disable_toast: true
+				id: "6802E66D51703C6A"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "better_fishing_rods:common_enchantment_book"
+				}
+				type: "item"
+			}]
+			title: "Sell - 5x Common Enchantment Books"
+			x: -8.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "424E4FC22052E18F"
+			rewards: [{
+				count: 2
+				id: "4B83F442A1A8AA9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				disable_toast: true
+				id: "106DD13CB1B2D656"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "better_fishing_rods:rare_enchantment_book"
+				}
+				type: "item"
+			}]
+			title: "Sell - 3x Rare Enchantment Books"
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "09F5220CA1A093D7"
+			rewards: [{
+				count: 2
+				id: "66142F191AD8A0F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "7D04025CC09839F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "better_fishing_rods:epic_enchantment_book"
+				}
+				type: "item"
+			}]
+			title: "Sell - 1x Epic Enchantment Book"
+			x: -6.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "0FDB08EAECDDD59E"
+			rewards: [{
+				count: 3
+				id: "7B84F500071A8261"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "6B609413961204B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "better_fishing_rods:legendary_enchantment_book"
+				}
+				type: "item"
+			}]
+			title: "Sell - 1x Legendary Enchantment Book"
+			x: -8.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "633EDE5E0716222D"
+			rewards: [{
+				count: 5
+				id: "7AC7958DC8CDFC01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "2A418DA232A8F26D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "better_fishing_rods:legendary_enchantment_book_bundle"
+				}
+				type: "item"
+			}]
+			title: "Sell - 1x Legendary Enchantment Book Bundle"
+			x: -7.0d
+			y: -14.25d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "0D753701D7032AE8"
+			rewards: [{
+				count: 2
+				id: "51D80B67F7CFE198"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				disable_toast: true
+				id: "1D73E9F425FC460B"
+				item: {
+					Count: 8
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "better_fishing_rods:lucky_pad"
+				}
+				type: "item"
+			}]
+			title: "Sell - 8x Lucky Pad"
+			x: -8.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "1BBBBA3B8AC9514F"
+			rewards: [{
+				id: "5A5C5C9368D26DE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4D61753CFE5873B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Sell - 1x Cave Tablet"
+			x: -5.5d
+			y: -12.25d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "78CCC47213CDA3AB"
+			rewards: [{
+				id: "170F9B6290CAE8D9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "288C3EF947FA6CAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quark:ancient_tome"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 9s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Sell - 1x Ancient Tome"
+			x: -4.5d
+			y: -11.57d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "3EE34CF8AA30BF0A"
+			rewards: [{
+				count: 2
+				id: "7FA7343E8F34445E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				disable_toast: true
+				id: "0BF373B184C54480"
+				item: {
+					Count: 16
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_dd:seething_ablaze_rod"
+				}
+				type: "item"
+			}]
+			title: "Sell - 16x Seething Ablaze Rod"
+			x: -9.5d
+			y: -11.57d
+		}
 	]
 	title: "&dRewards Shop"
 }
