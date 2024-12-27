@@ -726,42 +726,67 @@
 				}
 			]
 			subtitle: "Not the greatest, but it's a start"
-			tasks: [
-				{
-					id: "4C5A34B92E300C27"
-					item: {
-						Count: 1
-						id: "create_sa:andesite_jetpack_chestplate"
-						tag: {
-							Damage: 0
+			tasks: [{
+				id: "1C45874139102E15"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "043D4D96944C7F33"
-					item: {
-						Count: 1
-						id: "create_sa:copper_jetpack_chestplate"
-						tag: {
-							Damage: 0
-						}
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:wood"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "create_sa:andesite_jetpack_chestplate"
+								tag: { }
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "create_sa:copper_jetpack_chestplate"
+								tag: { }
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									"celestisynth:celestisynthitemstackcapabilities": {
+										cs.aquaSkin: 0
+									}
+								}
+								id: "create_sa:brass_jetpack_chestplate"
+								tag: { }
+							}
+						]
 					}
-					type: "item"
 				}
-				{
-					id: "0D9FF1F248D707BD"
-					item: {
-						Count: 1
-						id: "ironjetpacks:jetpack"
-						tag: {
-							Id: "ironjetpacks:wood"
-							Throttle: 1.0d
-						}
-					}
-					type: "item"
-				}
-			]
+				title: "Jetpack"
+				type: "item"
+			}]
 			title: "Powered Flight"
 			x: -0.5d
 			y: 3.5d
