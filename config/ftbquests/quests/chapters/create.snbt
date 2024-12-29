@@ -1,5 +1,5 @@
 {
-	autofocus_id: "6410DD17441D06C6"
+	autofocus_id: "61CE044637D55EE3"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "create"
@@ -15,6 +15,112 @@
 		id: "create:large_cogwheel"
 	}
 	id: "064AE5987A6C474D"
+	images: [
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "create_new_age:block/magnetite_block"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "tfmg:block/oil_deposit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.142857142857153d
+			y: -1.4285714285714448d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -616,8 +722,8 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 7.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7F23B52CD0488C38"]
@@ -642,7 +748,7 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -671,7 +777,7 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -837,6 +943,20 @@
 					item: "numismatics:bevel"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "2CDC46E6D7687475"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
 			]
 			size: 2.0d
 			subtitle: "If we haven't made it clear yet. MAKE THIS"
@@ -859,7 +979,7 @@
 				""
 				"right-click a block to set the point you want to build off of, marked by the crystal that will appear."
 				""
-				"take it to an open area and give it a try, making symmetrical designs was never easier!"
+				"take it to find an open area and give it a try, making symmetrical designs was never easier!"
 			]
 			id: "1226C7680942E087"
 			rewards: [
@@ -1084,8 +1204,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.5d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["7F23B52CD0488C38"]
@@ -1110,8 +1230,8 @@
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6410DD17441D06C6"]
@@ -1359,7 +1479,7 @@
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -1402,6 +1522,2520 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["2DFAB367F1A7D350"]
+			description: [
+				"When placed correctly, you will have at least 1 ring of 12 magnets with a generator coil placed in the center of them."
+				""
+				"On one end of the generator coil, attach your shaft/gearbox for turning the coil."
+				""
+				"On the other end of the generator coil, attach &8carbon brushes&r. You can extract any &cpower&r your coils generate from the carbon brushes via pipe, flux plug, etc."
+				""
+				"The \"&ePonder&r\" feature can be used on any of the blocks used in this process to provide a visual aid for how to construct the entirety of the set up."
+			]
+			hide_dependency_lines: true
+			id: "72EE4C7641CF8431"
+			rewards: [
+				{
+					id: "25C09967DFA6500A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "54BC931781CF6E97"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Extracting the power"
+			tasks: [{
+				id: "667603ED19111659"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:carbon_brushes"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2DFAB367F1A7D350"]
+			description: [
+				"When placed centered within 12 magnets and given the stress necessary to turn them, &6generator coils&r can be used to produce power when &8carbon brushes&r are attached. "
+				""
+				"Stronger and stronger magnets, will generate more and more power, however, they will also require increasing levels of stress to turn the coils within them."
+			]
+			hide_dependency_lines: true
+			id: "3578C10DCCFB62AB"
+			rewards: [
+				{
+					id: "1FF6D61A5F22A078"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "610D0AC3966EB822"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Rotational Power Generation"
+			tasks: [{
+				id: "7E40BE44E6B8F384"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:generator_coil"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2DFAB367F1A7D350"]
+			description: [
+				"Gather 12 &8Magnetite&r blocks and place them in the formation shown on the quest page."
+				""
+				"You can also \"&ePonder&r\" magnetite or any \"&bmagnet&r\" block at any point, to learn more about placement."
+			]
+			id: "120C05A214BF774B"
+			rewards: [
+				{
+					id: "67EEB076703AE76D"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3F8F978483471EA6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "T1 Magnets"
+			tasks: [{
+				count: 12L
+				id: "0BB5039399781E01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:magnetite_block"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["120C05A214BF774B"]
+			id: "36FBF0B5F35B43F8"
+			rewards: [
+				{
+					id: "44523C9878D541FB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "516691EC71BED27E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "24B5B1DF6224A80D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "T2 Magnets"
+			tasks: [{
+				count: 12L
+				id: "53AAA520AF2965D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:redstone_magnet"
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["36FBF0B5F35B43F8"]
+			id: "3E517D1EFF8A597A"
+			rewards: [
+				{
+					id: "0B066AF62A7F025C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3F03FFFC533FDA1D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "T3 Magnets"
+			tasks: [{
+				count: 12L
+				id: "1C3C1849EE0D2A76"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:layered_magnet"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E517D1EFF8A597A"]
+			id: "116CF9AE75651E0B"
+			rewards: [
+				{
+					id: "79C859C4CA0F06D4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3761EB2976E355C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "0E823FF2D733DC61"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "T4 Magnets"
+			tasks: [{
+				count: 12L
+				id: "68C0511047D69A70"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:fluxuated_magnetite"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["116CF9AE75651E0B"]
+			id: "45CC4055483235BE"
+			rewards: [
+				{
+					id: "76ABC26D704EF99A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "267449EABDC3B110"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "T5 Magnets"
+			tasks: [{
+				count: 12L
+				id: "6C7FB9E3A5181275"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:netherite_magnet"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D0E3347EF63B89E"]
+			description: ["Copper sheets will be need for making &9fluid tanks&r, which are needed for utilizing &6steam engines&r and storing fluid."]
+			hide_dependency_lines: true
+			id: "3CB0AECD7D7FB955"
+			rewards: [
+				{
+					id: "452AA6E2C70A8E5E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "25340FF1E1AA10ED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "First steps towards fluid containment"
+			tasks: [{
+				count: 6L
+				id: "3B9627877E010398"
+				item: {
+					Count: 6
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:copper_sheet"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3CB0AECD7D7FB955"]
+			description: [
+				"Much like item vaults and accumulators, fluid tanks will form together into multi block structures when placed adjacent to each other, joining their internal capacities. Pipes can be used to pipe fluids into and out of the tanks as needed. "
+				""
+				"They can also be heated and used as boilers for steam engines. Use the \"&ePonder&r\" feature when hovering over a steam engine in &aJEI&r for more info!"
+			]
+			id: "7721A8AA827DDB7A"
+			rewards: [
+				{
+					id: "26B604AFC527A68B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "3E2BEE95106F6968"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Multiblock fluid storage"
+			tasks: [{
+				count: 3L
+				id: "19BD8E37B392CBCE"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:fluid_tank"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7721A8AA827DDB7A"]
+			description: [
+				"When placed on a properly heated fluid tank, steam engines will begin to rotate, generating stress. shafts and gearboxes can then be attached to distribute it as needed."
+				""
+				"Steam engines in conjunction with crabon brushes attached to spinning generator coils are the best form of early game power generation available to you, once you've upgraded the magnets."
+				""
+				"1 Maxed boiler will see you through the entire tech tree if you build wisely."
+			]
+			id: "55E454F7D7A5B62E"
+			rewards: [
+				{
+					id: "1280E660E0427468"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "4DC1AECE97A62353"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "24EAA8648734C88F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Steam Power"
+			tasks: [{
+				id: "1B9C673326CC5E66"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:steam_engine"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6410DD17441D06C6"]
+			description: [
+				"Found between Y = -4 and -64, &2Luminarchy&r is a very rare earth mineral which produces a faint glow. Extreme caution must be used when harvesting as it explodes upon breaking, even when silk touched."
+				""
+				"Any you find is worth mining and holding onto, as Luminarchy is a critical component to both &aArcanite&r and &6Irromolding&r."
+			]
+			hide_dependency_lines: true
+			id: "034258931F71A733"
+			rewards: [
+				{
+					id: "0F19BB43A9DD262A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2CC8EA3F4B35F0CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rare Green Angry Ore"
+			tasks: [{
+				id: "09701CAB60FCF59A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_unbreakable:luminarchy"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6410DD17441D06C6"]
+			description: [
+				"Found between Y = -4 and -64, &8Philolite&r is a very rare earth mineral. Extreme caution must be used when harvesting as it explodes upon breaking, even when silk touched."
+				""
+				"Any you find is worth mining and holding onto, as Philolite is a critical component to both &eCelestrium&r and &6Irromolding&r."
+			]
+			hide_dependency_lines: true
+			id: "48303A10272403D1"
+			rewards: [
+				{
+					id: "482453DC5416B436"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7B7B8642586F35D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Rare Grey Angry Ore"
+			tasks: [{
+				id: "1435B2C7FEA46694"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_unbreakable:philolite"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"034258931F71A733"
+				"48303A10272403D1"
+			]
+			description: ["Crafted within 21 mechanical crafters, &6Irromolding&r can be used on any enchantable item, with few limitations, in an anvil to make that item &eunbreakable&r. However, this only works if the item does not have the Mending or Unbreaking enchantment applied to it."]
+			id: "65FC215C206F9A63"
+			rewards: [
+				{
+					id: "36A6C370CBF9FB97"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "426637D893BB38B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Unbreakable"
+			tasks: [{
+				id: "4EB174F0AA66EE74"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_unbreakable:irromolding"
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["367E77978AA55FAB"]
+			description: ["When used on a blaze burner, &6straws&r will convert them into their liquid fueled form. &aJEI&r can be used to see the full list of liquid fuels usable on blaze burners."]
+			id: "4704B7CAEE41A25B"
+			rewards: [
+				{
+					id: "523857E170B81B3F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6708DEB74F108800"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Liquid Blaze Burners"
+			tasks: [{
+				id: "7E4999C52A087BAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createaddition:straw"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DA2480976B8950C"]
+			description: [
+				"While for the most part fully intercompatible, there are some slight differences between blaze burners, states and fuels. Here is a quick run down of each, for clarities sake."
+				""
+				"Blaze burners, liquid blaze burners and sails are all compatible and work with fans and other components to some extent or another."
+				""
+				"{@pagebreak}"
+				"Non-heated (smouldering) normal burners can be used for &8smoking&r."
+				""
+				"Heated (kindled) normal burners can be used for &6blasting&r."
+				""
+				"Non heated/heated liquid burners can be used for &dhaunting&r."
+				""
+				"Super-heated (seething) normal AND liquid burners can be used for &cseething&r."
+				""
+				"{@pagebreak}"
+				"When left unfueled, a burner is considered to be in the \"&8smouldering&r\" or \"non-heated\" state."
+				""
+				"When fueled and a burner glows orange, it is considered \"&6kindled&r\" or \"heated\"."
+				""
+				"When fueled and the burner glows blue, it is considered \"&9seething&r\" or \"super-heated\"."
+				""
+				"Different fuels are fed to different burners to achieve different states. &aJEI&r will help you to best discern the best fuel choice to suit your current needs from here."
+			]
+			id: "75FFB0BEB9094C7A"
+			rewards: [{
+				id: "204E0FE933E4F1B3"
+				type: "xp"
+				xp: 15
+			}]
+			size: 1.5d
+			subtitle: "Theirs a few differences..."
+			tasks: [{
+				id: "0819E99A28CDC4F2"
+				title: "Choosing the right burner and fuel"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F358699277E5DC6"]
+			id: "6C4F2EAC0D52093A"
+			tasks: [{
+				id: "639E112A1F21A058"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:energiser_t2"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C4F2EAC0D52093A"]
+			id: "3097BA8611F52012"
+			tasks: [{
+				id: "26F78452981593BD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_new_age:energiser_t3"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71EC8771E073828D"]
+			description: ["Blend an iron ingot with a piece of coal using a mixer over a &c&oheated&r&r basin to make &8Cast Iron&r. "]
+			hide_dependency_lines: true
+			id: "302FB69D0B16C77A"
+			rewards: [
+				{
+					id: "6768B1BCCFA0A0C3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "4AAFE781D2A7C04F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "Casting Cast Iron"
+			tasks: [{
+				count: 16L
+				id: "6884CB5E1479BC50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:cast_iron_ingot"
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: -6.5d
+		}
+		{
+			dependencies: ["302FB69D0B16C77A"]
+			description: ["Once you have access to cast iron, you can construct a &8Coke Oven&r Multiblock. They can be a bit slow, so you may want to make more than one multiblock. Using the \"&ePonder&r\" feature in &aJEI&r will help with any questions on placement. "]
+			id: "3198D02831C7A4F9"
+			rewards: [
+				{
+					id: "04F33CF71673AD63"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "23563A6592BA9468"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Making Coal Coke"
+			tasks: [{
+				count: 9L
+				id: "57D2BBF6E60BEA1C"
+				item: {
+					Count: 9
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:coke_oven"
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3198D02831C7A4F9"]
+			description: ["Insert coal into your coke oven to recieve &8coal coke&r. You will also recieve byproducts to find one way or another to deal with.. &eCreosote&r is worth holding onto though, it's needed to make hardened planks out of."]
+			id: "66745E8729240CF0"
+			rewards: [
+				{
+					id: "00A41EA604EAA41F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "689B81834045D723"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "01C0BBFC03094655"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Processing Coal Coke"
+			tasks: [{
+				count: 32L
+				id: "468979CD662E1719"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:coal_coke"
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["66745E8729240CF0"]
+			description: ["Once crushed with crushing wheels, &6coal coke dust&r can be used with &eblasting mixture&r in a &cblast furnace&r to make &3steel&r."]
+			id: "0B9660153A817EFC"
+			rewards: [
+				{
+					id: "5795D69E3CCD069A"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "786E7AD65101169B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Steel Ingredients"
+			tasks: [{
+				count: 32L
+				id: "320FF09C6DF359CE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:coal_coke_dust"
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["66745E8729240CF0"]
+			description: ["Crushing limestone yields &elimesand&r, which can then be mixed with 3 &bcrushed iron&r in a basin to make &6Blasting Mixture&r."]
+			id: "27D1736E99455CD6"
+			rewards: [
+				{
+					id: "2646BBF3288BDA99"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "0CE1D90A7B8C8E28"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Steel Ingredients"
+			tasks: [{
+				id: "13507C9D875BDC3F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:blasting_mixture"
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2DFAB367F1A7D350"]
+			description: ["Fireclay can be found throughout the overworld, gather and smelt fireclay balls into fireclay bricks in a furnace so can construct a Blast Furnace Multi-block."]
+			hide_dependency_lines: true
+			id: "73E47939B8BEDD9C"
+			rewards: [
+				{
+					id: "59A5643098A456D2"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 4
+					id: "608EC453BA04C241"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Gathering Fireclay"
+			tasks: [
+				{
+					count: 4L
+					id: "12D0A8D6792B5797"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:fireproof_brick"
+					}
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "777CBBD6E8A05225"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:fireproof_bricks"
+					}
+					type: "item"
+				}
+			]
+			title: "Fireproof Brick"
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["73E47939B8BEDD9C"]
+			description: [
+				"Using cast iron and firebricks, You can make the Blast Furnace Output and complate your Blast Furnace Multiblock. You can use the \"&ePonder&r\" feature in &aJEI&r if you have any questions on block placement."
+				""
+				"Item ingredients and fuel are dropped into the top and the products can be extracted via the output."
+			]
+			id: "5776370BAE95E463"
+			rewards: [
+				{
+					id: "2271481134D802ED"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "5471B5C7D1859E9C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The Interface"
+			tasks: [{
+				id: "38D344E8B49133EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:blast_furnace_output"
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: -9.5d
+		}
+		{
+			dependencies: ["73E47939B8BEDD9C"]
+			description: ["The bottom 2 rows of the blast furnace must be reinforced or the structure will not form."]
+			id: "698FBAF298E75FE5"
+			rewards: [
+				{
+					id: "4FFFB049CFE8BEB9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 6
+					id: "166018804A6CA8D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Reinforcing the bottom"
+			tasks: [{
+				count: 8L
+				id: "1FBA77BDECF9A9A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:fireproof_brick_reinforcement"
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5776370BAE95E463"
+				"27D1736E99455CD6"
+				"0B9660153A817EFC"
+			]
+			description: ["Once you have your molten steel, you need to cast ingots using the casting spout, casting basin and ingot mold."]
+			id: "5B79E9C7FE152405"
+			rewards: [
+				{
+					id: "1170F694B55477D5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "40BA5130DF62E7B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "018D8CAC8D69C523"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Just need to get it to a casting set up"
+			tasks: [{
+				id: "48969412C55F8E68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:molten_steel_bucket"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["302FB69D0B16C77A"]
+			id: "6E3DE2B3D1D80181"
+			rewards: [
+				{
+					id: "39CD2CB8F7EB42C0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7854AB4CFDA22E9F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "018980AD105627F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "240C942045132F61"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:casting_spout"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["302FB69D0B16C77A"]
+			id: "19846B891CAD03FA"
+			rewards: [
+				{
+					id: "736F2B6BB38F61E1"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "2FE39458DF4C3EEA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F1F0DEAFB5AAF93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:casting_basin"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["302FB69D0B16C77A"]
+			id: "5C3A17F2C0CA09E5"
+			rewards: [
+				{
+					id: "02F9DD089448B074"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "490572587197427B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "443B318CF13623C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:ingot_mold"
+					}
+					type: "item"
+				}
+				{
+					id: "7C7C919B3A2E24F2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:block_mold"
+					}
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5C3A17F2C0CA09E5"
+				"6E3DE2B3D1D80181"
+				"19846B891CAD03FA"
+				"5B79E9C7FE152405"
+			]
+			description: ["Once you have steel ingots, you can now begin creating a wide range of more advanced tools and structures, such as &6screwdrivers&r for making&3 steel mechanisms&r and &edistillery blocks&r for refining and distilling &8crude oil&r."]
+			id: "23E4A6AD9E7F51B1"
+			rewards: [
+				{
+					id: "0EDC0E3DEC0A57E6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0B923523FA44B651"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "21B94A067CB86C9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Advanced Hardware and Machinery"
+			tasks: [{
+				id: "6164A5F20CB6A01F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:steel_ingot"
+				}
+				type: "item"
+			}]
+			x: 9.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23E4A6AD9E7F51B1"]
+			description: ["While it takes more strikes of the press to accomplish, steel plates are made the same as most other plates. Using the mechanical presses."]
+			id: "0467C829D8CA235F"
+			rewards: [
+				{
+					id: "71B8D142F621FB95"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2FCD394811CACB3C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Takes little more umph"
+			tasks: [{
+				id: "483A69EE751A877D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "thermal:steel_plate"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["23E4A6AD9E7F51B1"]
+			description: ["Cutting ingots in general can yield a surprisingly wide range of useful materials. Cutting &3steel&r can be used to make &6screws&r, needed for more advanced hardware and mekanisms."]
+			id: "4C72E139FF6A0721"
+			rewards: [
+				{
+					id: "087195811665B01B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "4B5D75BDD211B6D3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Stone Cutting"
+			tasks: [{
+				count: 16L
+				id: "6A88B3D516556351"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:screw"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23E4A6AD9E7F51B1"]
+			description: ["Steel ingots can be cut into rebar which can then be used for &8reinforced materials&r and &6screwdrivers&r"]
+			id: "24F0F5CC858F9043"
+			rewards: [
+				{
+					id: "1C2E4A043746044A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6363CED5D66D725E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Stone Cutting"
+			tasks: [{
+				id: "69C2DF6995ED94E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:rebar"
+				}
+				type: "item"
+			}]
+			x: 9.285714285714285d
+			y: -8.142857142857153d
+		}
+		{
+			dependencies: [
+				"23E4A6AD9E7F51B1"
+				"24F0F5CC858F9043"
+			]
+			description: ["Made by combining 1 aluminum ingot and 1 piece of rebar, screwdrivers are used in assembly for making steel mechanisms among other more complex devices."]
+			id: "39C9B32E4C3F4E08"
+			rewards: [
+				{
+					id: "5C97910C107568A0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "62F73975BF104118"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A Precision Instrument"
+			tasks: [{
+				id: "433E5D234363D92F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:screwdriver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"39C9B32E4C3F4E08"
+				"4C72E139FF6A0721"
+				"0467C829D8CA235F"
+			]
+			description: ["Steel mechanisms are made by feeding a steel plate into an assembly line with 1 steel ingot, 1 aluminum ingot, 1 screw and 1 screwdriver. The \"&ePonder&r\" feature in &aJEI&r can be used for more info!"]
+			id: "3C48078506D42E67"
+			rewards: [
+				{
+					id: "68B22A2A9E50016A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "7F30CCF8E572F029"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "A New Mechanism"
+			tasks: [{
+				id: "41B3A6C38716CAB2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:steel_mechanism"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23E4A6AD9E7F51B1"]
+			hide_dependency_lines: true
+			id: "7D00AFA063C02824"
+			rewards: [
+				{
+					id: "0E08582A180E7837"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "56C2EF8AC8949FEF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Engines will need these!"
+			tasks: [{
+				id: "29C75A4888FC2C84"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:spark_plug"
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7D00AFA063C02824"
+				"3C48078506D42E67"
+			]
+			description: ["Using a steel machanism, spark plug and aluminum ingot you can craft an engine chamber, used for the creation of Radial Engines. You will need 8 per engine."]
+			id: "752DB565F778DC00"
+			rewards: [
+				{
+					id: "35C3CB6B1FE0CB23"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4A7B7BA1B7A947FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "790ED80D120D6A73"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Needed for Radial Engines"
+			tasks: [{
+				id: "54B060F7C6C4AD55"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:engine_chamber"
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"14BE9FBB6E54D012"
+				"7E82D59C0755896F"
+			]
+			description: ["Planks can by hardened by using a spout to saturate them with &ecreosote&r, after which they can be sued for &8steel casing&r."]
+			id: "5E420A10E9DCC1B6"
+			subtitle: "Step 1 to making steel casings"
+			tasks: [{
+				id: "3A57C6E8D66AC453"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:hardened_planks"
+				}
+				type: "item"
+			}]
+			x: 9.214285714285715d
+			y: -4.464285714285722d
+		}
+		{
+			dependencies: [
+				"5E420A10E9DCC1B6"
+				"23E4A6AD9E7F51B1"
+			]
+			description: ["when used on hardened planks, steel ingots convert them into steel casings. "]
+			id: "78040AA5A9B54DB5"
+			rewards: [
+				{
+					id: "1B477562ADC1D837"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0F30BF64896150C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Steel applied to hardened planks"
+			tasks: [{
+				id: "75A9EEE9D03C2F66"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:steel_casing"
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"78040AA5A9B54DB5"
+				"0467C829D8CA235F"
+			]
+			description: ["When used on steel casing, steel plates convert them into Heavy Machinery Casing."]
+			id: "6DE3EE2FC7D51E4D"
+			rewards: [
+				{
+					id: "473DB1E602DEFF44"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "379BE4ADD44349A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "45B140ABD1C05AC5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Steel plate applied to steel casing"
+			tasks: [{
+				id: "39FFDABF2B7A08E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:heavy_machinery_casing"
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23E4A6AD9E7F51B1"]
+			description: ["Steel fluid tanks are used to store fluids but are also used for distillation when stacked tall enough with a distillation controller placed next to them."]
+			hide_dependency_lines: true
+			id: "77139DB3DC85CD55"
+			rewards: [
+				{
+					id: "55A0CB7591F3D5A1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6DF258977361AB6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Fluid storage and refinement"
+			tasks: [{
+				count: 7L
+				id: "7DC5B1291A47D836"
+				item: {
+					Count: 6
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:steel_fluid_tank"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6DE3EE2FC7D51E4D"
+				"3C48078506D42E67"
+				"52D7284BC40D565B"
+			]
+			description: ["&8Crude oil&r can be pumped into an active steel distillation controller and distilled into different sub-parts. These fluids can be used for a wide range of things, such as powering engines made to run on them or &6lubricants&r after further refinement."]
+			id: "3D3B701917D59EF9"
+			rewards: [
+				{
+					id: "323F6298160981EF"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "31E2C688C191796D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "640F28564DCB86F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Distilling your crude oil"
+			tasks: [{
+				id: "30D6602E54177545"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:steel_distillation_controller"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["77139DB3DC85CD55"]
+			description: ["Placed next to the tank of your distillation build, &3steel distillation outputs&r can be attached to&8 industrial pipes&r and used to extract the &6byproducts&r of your distillation set ups."]
+			id: "5A0AC28A4AD35118"
+			rewards: [
+				{
+					id: "58A5446597CB758D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2345F058FEA97257"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "2BB5B3137FB3A864"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Outputting your byproducts"
+			tasks: [{
+				count: 6L
+				id: "7EB76BA2A68B768C"
+				item: {
+					Count: 6
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:steel_distillation_output"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"77139DB3DC85CD55"
+				"5A0AC28A4AD35118"
+				"3D3B701917D59EF9"
+			]
+			description: ["&8Heavy oil&r is one of the many byproducts that can be distilled. This process can and will need to be refined even further to produce &6lubricant&r."]
+			id: "4C5CFD2F23381B93"
+			rewards: [
+				{
+					id: "4AD5172F6A647DD3"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2379C2396FC8EF91"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "545343FEED6CB6B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6EC73B3FC28999E9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Required for Radial Engine"
+			tasks: [{
+				id: "3A7CA3AD2F8C1383"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:heavy_oil_bucket"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C5CFD2F23381B93"]
+			description: ["Further distilling your heavy oil will yield &6Lubricant Oil&r and&e Diesel.&r One is required for Radial Engines the other great for feeding blaze burners."]
+			id: "6F6313140FFCA6EF"
+			rewards: [
+				{
+					id: "6B9DE79C11CA28CD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "44867CC1732DD8C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Advanced Distilling"
+			tasks: [{
+				id: "4E98BD64141D297C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:lubrication_oil_bucket"
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"77139DB3DC85CD55"
+				"5A0AC28A4AD35118"
+				"3D3B701917D59EF9"
+			]
+			hide_dependency_lines: true
+			id: "0E6EAF8E3289D1CC"
+			tasks: [{
+				id: "1DBA0B5A2292374C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:kerosene_bucket"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"77139DB3DC85CD55"
+				"5A0AC28A4AD35118"
+				"3D3B701917D59EF9"
+			]
+			hide_dependency_lines: true
+			id: "0F8165E24ED46EE3"
+			tasks: [{
+				id: "151B7AD88EB48387"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:diesel_bucket"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"77139DB3DC85CD55"
+				"5A0AC28A4AD35118"
+				"3D3B701917D59EF9"
+			]
+			hide_dependency_lines: true
+			id: "4E87A3C2D50C2C3D"
+			tasks: [{
+				id: "654A31CB8BACCF09"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:naphtha_bucket"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"77139DB3DC85CD55"
+				"5A0AC28A4AD35118"
+				"3D3B701917D59EF9"
+			]
+			hide_dependency_lines: true
+			id: "63DEFFE717A6CB60"
+			tasks: [{
+				id: "66FE83FF82D6FAE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:gasoline_bucket"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"77139DB3DC85CD55"
+				"5A0AC28A4AD35118"
+				"3D3B701917D59EF9"
+			]
+			hide_dependency_lines: true
+			id: "5C27CDFD23B20BBA"
+			tasks: [{
+				id: "65DF580BFE4624CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:lpg_bucket"
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6F6313140FFCA6EF"]
+			description: [
+				"These are just the first of many steps to assembling &dThe Creative Motor&r. It is the single most complex recipe in the pack and will require these radial engines and many more items from a multitude of different mods."
+				""
+				"Don't worry though! As always, if you explore the quest book, everything you need to know is explained to you as the book progresses. You have not heard the last of the creative motor but that is the last you'll hear for now. "
+			]
+			id: "50F25807DAD6047A"
+			rewards: [
+				{
+					id: "102AEDEB0DC6E68E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "66F26A94FBEB8EBE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Theirs a lot packed into that little motor!"
+			tasks: [{
+				id: "712FCA48E7B398F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:large_radial_engine"
+				}
+				type: "item"
+			}]
+			x: 21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["66745E8729240CF0"]
+			id: "7E82D59C0755896F"
+			rewards: [
+				{
+					id: "6DE7BCE169A46425"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "79DD4BEE369DED37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Needed for hardened planks"
+			tasks: [{
+				id: "6CE28AC34703FDE8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:creosote_bucket"
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["23E4A6AD9E7F51B1"]
+			description: [" Heavy-duty piping used for moving crude oil and hazardous and oil byproducts."]
+			id: "092B5FC8CC4D18A2"
+			rewards: [
+				{
+					id: "7EF099769CB749F9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7614F5A57845F7B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Industrial Grade"
+			tasks: [{
+				count: 32L
+				id: "5FD6878B256A1792"
+				item: {
+					Count: 32
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:industrial_pipe"
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3C48078506D42E67"
+				"092B5FC8CC4D18A2"
+			]
+			description: ["Crude oil spots can be found on the bedrock in the world, they are fairly common. Once found, attach a pipe directly to the block and pipe the fluid to the surface, where you should then place your pumpjack base on top of that."]
+			id: "2137FE3A642DB5A8"
+			rewards: [
+				{
+					id: "387D591E789C312A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0272C486FAC3BF66"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "233158E00E5B29F4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "USE THE PONDER FOR THIS ONE"
+			tasks: [
+				{
+					id: "731317044306BF88"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_base"
+					}
+					type: "item"
+				}
+				{
+					id: "4578EB2B363EC8F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer"
+					}
+					type: "item"
+				}
+				{
+					id: "0CAC3C4D5641C5A8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_crank"
+					}
+					type: "item"
+				}
+				{
+					id: "0FE7EEC4C95DF86A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_head"
+					}
+					type: "item"
+				}
+				{
+					id: "2BC1CC414FA62B63"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "0F853D448ACB3174"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:pumpjack_hammer_part"
+					}
+					type: "item"
+				}
+				{
+					id: "12497E6823F1619B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "tfmg:machine_input"
+					}
+					type: "item"
+				}
+			]
+			title: "Extracting Liquid Dinosaur"
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2137FE3A642DB5A8"]
+			id: "52D7284BC40D565B"
+			rewards: [{
+				id: "7B99055EC35ECE9E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				type: "item"
+			}]
+			subtitle: "Black Gold!"
+			tasks: [{
+				id: "4FD3B29810E206BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "tfmg:crude_oil_bucket"
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.5d
 		}
 	]
 	title: "&eCreate"
