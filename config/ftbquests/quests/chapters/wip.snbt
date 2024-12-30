@@ -65,7 +65,7 @@
 		{
 			dependencies: ["5E29948F7393675B"]
 			description: [
-				"&3Ether gas&r is required for crafting steel casings. Between a compacting set up fed with ether and upgraded &e5x5 mechanical grid&r, Mekanisms machinery now becomes available to you. Once you have the machines themselves, virtually everything else about them functions as originally designed, all that has been changed is how you get them."
+				"&3Ether gas&r is required for crafting steel casings and machine frames. Between a compacting set up fed with ether and upgraded &e5x5 mechanical grid&r, both Mekanism and Thermals machinery now becomes available to you. Once you have the machines themselves, virtually everything else about them functions as originally designed, all that has been changed is how you get them."
 				""
 				"Refer to the \"&6Industrial Foregoing&r\" section of \"Core Mods\" for more info!"
 			]
@@ -438,7 +438,7 @@
 				"06DE55B8F9F4A557"
 				"1DC8C706C321F8A5"
 			]
-			description: ["The Starlit Factory is crafted in a Mechanical Crafter and used to forge all types of end game goodiea. It requires fuel to operate, such as amethyst shards, celestial cores or heated celestial cores."]
+			description: ["The Starlit Factory is crafted in a Mechanical Crafting set up and used to forge all types of end game goodies. It requires fuel to operate, such as amethyst shards, celestial cores or heated celestial cores."]
 			id: "5408F21008F2B15F"
 			rewards: [
 				{
@@ -904,7 +904,7 @@
 		}
 		{
 			dependencies: ["5408F21008F2B15F"]
-			description: ["The chorus totem is a very special totem. Rather than just giving you a second chance form death, this totem will flat out teleport you away from danger BEFORE death, whever you would have otherwise taken a lethal blow."]
+			description: ["The chorus totem is a very special totem. Rather than just giving you a second chance form death, this totem will flat out teleport you away from danger BEFORE death, whenever you would have otherwise taken a lethal blow."]
 			id: "7C69595EA36712AE"
 			subtitle: "Gotta go, bro"
 			tasks: [{
@@ -1880,6 +1880,7 @@
 				title: "Irradium Block"
 				type: "checkmark"
 			}]
+			title: "Block of Irradium"
 			x: -16.5d
 			y: 25.0d
 		}
@@ -1929,6 +1930,7 @@
 					type: "item"
 				}
 			]
+			size: 1.75d
 			subtitle: "Careful what you wish for"
 			tasks: [{
 				id: "6E91872D34CC65BE"
