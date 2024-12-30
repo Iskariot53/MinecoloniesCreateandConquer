@@ -484,3 +484,37 @@ recipes.addJsonRecipe("ae2.silicone_print",
     "item": "ae2:printed_silicon"
   }
 });
+craftingTable.addShapeless("megacells.me_radioactive_storage_cell", <item:megacells:radioactive_chemical_cell>, [<item:megacells:radioactive_cell_component>, <item:megacells:mega_chemical_cell_housing>]);
+<recipetype:create:mixing>.addJsonRecipe("appliedflux.insulating_resin",
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+	  "amount": 2,
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+	{
+      "item": "ae2:silicon"
+    },
+	{
+      "item": "minecraft:slime_ball"
+    },
+	{
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "amount": 250,
+      "fluidTag": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 2,
+      "item": "appflux:insulating_resin"
+    }
+  ]
+});
