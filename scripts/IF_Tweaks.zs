@@ -375,3 +375,6 @@ craftingTable.remove(<item:industrialforegoing:black_hole_controller>);
   "output": "{Amount:4,FluidName:\"create_dd:sap\"}",
   "result": "autumnity:stripped_maple_log"
 });
+craftingTable.addShaped("minecraft.f1_rocket", <item:minecraft:firework_rocket>.withTag({Fireworks: {Flight: 1}}), [[<tag:items:forge:gunpowder>, <tag:items:forge:paper>]]);
+craftingTable.addShaped("minecraft.f2_rocket", <item:minecraft:firework_rocket>.withTag({Fireworks: {Flight: 2}}), [[<tag:items:forge:gunpowder>, <tag:items:forge:gunpowder>, <tag:items:forge:paper>]]);
+craftingTable.addShaped("minecraft.f3_rocket", <item:minecraft:firework_rocket>.withTag({Fireworks: {Flight: 3}}), [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], [<tag:items:forge:gunpowder>, <tag:items:forge:gunpowder>, <tag:items:forge:gunpowder>], [<item:minecraft:air>, <tag:items:forge:paper>,<item:minecraft:air>]]);
