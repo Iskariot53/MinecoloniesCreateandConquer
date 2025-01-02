@@ -393,6 +393,8 @@ craftingTable.remove(<item:thermal_extra:endothermic_dehydrator>);
 
 craftingTable.addShapeless("if_lat_bucket_2_rubber", <item:thermal:rubber> * 3, [<item:industrialforegoing:latex_bucket>]);
 
+craftingTable.addShaped("thermal.iron_gear", <item:thermal:iron_gear>, [[<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>], [<tag:items:forge:ingots/iron>, <tag:items:forge:nuggets/iron>, <tag:items:forge:ingots/iron>], [<item:minecraft:air>, <tag:items:forge:ingots/iron>, <item:minecraft:air>]]);
+
 <recipetype:thermal:smelter>.addJsonRecipe("thermal.induction_machine_frame",
 {
   "type": "thermal:smelter",
