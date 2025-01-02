@@ -2203,7 +2203,8 @@
 			}
 		  
 		});
-		//OSMIUM CHICKEN
+		
+//OSMIUM CHICKEN
 		//MECHANICAL CRAFTING
 			<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.osmium_chicken", <item:chicken_roost:c_osmium>, 
 			[[<item:chicken_roost:c_brass>, <item:mekanism:block_osmium>, <item:chicken_roost:c_brass>], 
@@ -2212,20 +2213,35 @@
 			
 		//SOUL BREEDER
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.osmium_chicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier6andup"
-			},
-			{
-			  "item": "chicken_roost:c_osmium"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_osmium"
-		  }
-		  
-		});
+			  "type": "chicken_roost:soul_breeding",
+			  "ingredients": [
+				{
+				  "tag": "forge:souls/tier6andup"
+				},
+				{
+				  "item": "chicken_roost:c_osmium"
+				}
+			  ],
+			  "output": {
+				"item": "chicken_roost:c_osmium"
+			  }
+			});
+			
+		//ROOST
+				<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.osmiumchicken", {
+			  "type": "chicken_roost:roost_output",
+			  "ingredients": [
+				{
+				  "tag": "forge:seeds/tier6orup"
+				},
+				{
+				  "item": "chicken_roost:c_osmium"
+				}
+			  ],
+			  "output": {
+				"item": "mekanism:raw_osmium"
+			  }
+			});
 
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier3/roostv3_copper");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier4/roostv4_iron");
@@ -2423,21 +2439,6 @@
 		  }
 		});
 		
-	//OSMIUM CHICKEN
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.osmiumchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier6orup"
-			},
-			{
-			  "item": "chicken_roost:c_osmium"
-			}
-		  ],
-		  "output": {
-			"item": "mekanism:raw_osmium"
-		  }
-		});
 		
 	//BRONZE CHICKEN
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.bronzechicken", {
@@ -2626,3 +2627,25 @@
 		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 		[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:beastmaster_egg>]]);
+		
+//YELLORIUM CHICKEN
+	<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_yellorium>);
+	<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_yellorium>);
+
+//BIO FUEL CHICKEN
+	<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_biofuel>);
+	
+	//MECHANICAL CRAFTING
+		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.biofuel_chicken", <item:chicken_roost:c_biofuel>, 
+		[[<item:chicken_roost:c_brass>, <item:mekanism:bio_fuel>, <item:chicken_roost:c_brass>], 
+		[<item:mekanism:bio_fuel>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:bio_fuel>], 
+		[<item:chicken_roost:c_brass>, <item:mekanism:bio_fuel>, <item:chicken_roost:c_brass>]]);
+		
+//URANIUM CHICKEN
+	<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_uranium>);
+	
+	//MECHANICAL CRAFTING
+		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.uranium_chicken", <item:chicken_roost:c_uranium>, 
+		[[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>], 
+		[<item:mekanism:block_uranium>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:block_uranium>], 
+		[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>]]);		
