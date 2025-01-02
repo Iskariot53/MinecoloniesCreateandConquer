@@ -311,25 +311,25 @@ craftingTable.remove(<item:mekanism:logistical_sorter>);
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:basic_fluid_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_fluid_tank", <item:mekanism:basic_fluid_tank>,
+craftingTable.addShaped("mekanism.basic_fluid_tank", <item:mekanism:basic_fluid_tank>,
 [[<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>],
 [<tag:items:forge:ingots/iron>, <item:industrialforegoing:plastic>, <tag:items:forge:ingots/iron>],
 [<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/iron>, <tag:items:forge:dusts/redstone>]]);
 
 craftingTable.remove(<item:mekanism:advanced_fluid_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_fluid_tank", <item:mekanism:advanced_fluid_tank>,
+craftingTable.addShaped("mekanism.advanced_fluid_tank", <item:mekanism:advanced_fluid_tank>,
 [[<item:mekanism:alloy_infused>, <tag:items:forge:ingots/iron>, <item:mekanism:alloy_infused>],
 [<tag:items:forge:ingots/iron>, <item:mekanism:basic_fluid_tank>, <tag:items:forge:ingots/iron>],
 [<item:mekanism:alloy_infused>, <tag:items:forge:ingots/iron>, <item:mekanism:alloy_infused>]]);
 
 craftingTable.remove(<item:mekanism:elite_fluid_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_fluid_tank", <item:mekanism:elite_fluid_tank>,
+craftingTable.addShaped("mekanism.elite_fluid_tank", <item:mekanism:elite_fluid_tank>,
 [[<item:mekanism:alloy_reinforced>, <tag:items:forge:ingots/iron>, <item:mekanism:alloy_reinforced>],
 [<tag:items:forge:ingots/iron>, <item:mekanism:advanced_fluid_tank>, <tag:items:forge:ingots/iron>],
 [<item:mekanism:alloy_reinforced>, <tag:items:forge:ingots/iron>, <item:mekanism:alloy_reinforced>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_fluid_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_fluid_tank", <item:mekanism:ultimate_fluid_tank>,
+craftingTable.addShaped("mekanism.ultimate_fluid_tank", <item:mekanism:ultimate_fluid_tank>,
 [[<item:mekanism:alloy_atomic>, <tag:items:forge:ingots/iron>, <item:mekanism:alloy_atomic>],
 [<tag:items:forge:ingots/iron>, <item:mekanism:elite_fluid_tank>, <tag:items:forge:ingots/iron>],
 [<item:mekanism:alloy_atomic>, <tag:items:forge:ingots/iron>, <item:mekanism:alloy_atomic>]]);
@@ -341,193 +341,193 @@ craftingTable.remove(<item:mekanism:fluidic_plenisher>);
 [<tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>, <tag:items:forge:ingots/tin>]]);
 
 craftingTable.remove(<item:mekanism:basic_bin>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_bin", <item:mekanism:basic_bin>,
+craftingTable.addShaped("mekanism.basic_bin", <item:mekanism:basic_bin>,
 [[<item:minecraft:cobblestone>, <item:mekanism:basic_control_circuit>, <item:minecraft:cobblestone>],
 [<tag:items:forge:dusts/redstone>, <item:industrialforegoing:plastic>, <tag:items:forge:dusts/redstone>],
 [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]]);
 
 craftingTable.remove(<item:mekanism:advanced_bin>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_bin", <item:mekanism:advanced_bin>,
+craftingTable.addShaped("mekanism.advanced_bin", <item:mekanism:advanced_bin>,
 [[<item:minecraft:cobblestone>, <item:mekanism:advanced_control_circuit>, <item:minecraft:cobblestone>],
 [<item:mekanism:alloy_infused>, <item:mekanism:basic_bin>, <item:mekanism:alloy_infused>],
 [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]]);
 
 craftingTable.remove(<item:mekanism:elite_bin>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_bin", <item:mekanism:elite_bin>,
+craftingTable.addShaped("mekanism.elite_bin", <item:mekanism:elite_bin>,
 [[<item:minecraft:cobblestone>, <item:mekanism:elite_control_circuit>, <item:minecraft:cobblestone>],
 [<item:mekanism:alloy_reinforced>, <item:mekanism:advanced_bin>, <item:mekanism:alloy_reinforced>],
 [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_bin>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_bin", <item:mekanism:ultimate_bin>,
+craftingTable.addShaped("mekanism.ultimate_bin", <item:mekanism:ultimate_bin>,
 [[<item:minecraft:cobblestone>, <item:mekanism:ultimate_control_circuit>, <item:minecraft:cobblestone>],
 [<item:mekanism:alloy_atomic>, <item:mekanism:elite_bin>, <item:mekanism:alloy_atomic>],
 [<item:minecraft:cobblestone>, <item:minecraft:cobblestone>, <item:minecraft:cobblestone>]]);
 
 craftingTable.remove(<item:mekanism:basic_energy_cube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_energy_cube", <item:mekanism:basic_energy_cube>,
+craftingTable.addShaped("mekanism.basic_energy_cube", <item:mekanism:basic_energy_cube>,
 [[<tag:items:forge:dusts/redstone>, <item:mekanism:energy_tablet>, <tag:items:forge:dusts/redstone>],
 [<tag:items:forge:ingots/iron>, <item:mekanism:steel_casing>, <tag:items:forge:ingots/iron>],
 [<tag:items:forge:dusts/redstone>, <item:mekanism:energy_tablet>, <tag:items:forge:dusts/redstone>]]);
 
 craftingTable.remove(<item:mekanism:advanced_energy_cube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_energy_cube", <item:mekanism:advanced_energy_cube>,
+craftingTable.addShaped("mekanism.advanced_energy_cube", <item:mekanism:advanced_energy_cube>,
 [[<item:mekanism:alloy_infused>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_infused>],
 [<item:mekanism:ingot_osmium>, <item:mekanism:basic_energy_cube>, <item:mekanism:ingot_osmium>],
 [<item:mekanism:alloy_infused>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_infused>]]);
 
 craftingTable.remove(<item:mekanism:elite_energy_cube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_energy_cube", <item:mekanism:elite_energy_cube>,
+craftingTable.addShaped("mekanism.elite_energy_cube", <item:mekanism:elite_energy_cube>,
 [[<item:mekanism:alloy_reinforced>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_reinforced>],
 [<tag:items:forge:ingots/gold>, <item:mekanism:advanced_energy_cube>, <tag:items:forge:ingots/gold>],
 [<item:mekanism:alloy_reinforced>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_reinforced>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_energy_cube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_energy_cube", <item:mekanism:ultimate_energy_cube>,
+craftingTable.addShaped("mekanism.ultimate_energy_cube", <item:mekanism:ultimate_energy_cube>,
 [[<item:mekanism:alloy_atomic>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_atomic>],
 [<tag:items:forge:gems/diamond>, <item:mekanism:elite_energy_cube>, <tag:items:forge:gems/diamond>],
 [<item:mekanism:alloy_atomic>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_atomic>]]);
 
 craftingTable.remove(<item:mekanism:basic_chemical_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_chemical_tank", <item:mekanism:basic_chemical_tank>,
+craftingTable.addShaped("mekanism.basic_chemical_tank", <item:mekanism:basic_chemical_tank>,
 [[<tag:items:forge:dusts/redstone>, <item:mekanism:ingot_osmium>, <tag:items:forge:dusts/redstone>],
 [<item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>],
 [<tag:items:forge:dusts/redstone>, <item:mekanism:ingot_osmium>, <tag:items:forge:dusts/redstone>]]);
 
 craftingTable.remove(<item:mekanism:advanced_chemical_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_chemical_tank", <item:mekanism:advanced_chemical_tank>,
+craftingTable.addShaped("mekanism.advanced_chemical_tank", <item:mekanism:advanced_chemical_tank>,
 [[<item:mekanism:alloy_infused>, <item:mekanism:ingot_osmium>, <item:mekanism:alloy_infused>],
 [<item:mekanism:ingot_osmium>, <item:mekanism:basic_chemical_tank>, <item:mekanism:ingot_osmium>],
 [<item:mekanism:alloy_infused>, <item:mekanism:ingot_osmium>, <item:mekanism:alloy_infused>]]);
 
 craftingTable.remove(<item:mekanism:elite_chemical_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_chemical_tank", <item:mekanism:elite_chemical_tank>,
+craftingTable.addShaped("mekanism.elite_chemical_tank", <item:mekanism:elite_chemical_tank>,
 [[<item:mekanism:alloy_reinforced>, <item:mekanism:ingot_osmium>, <item:mekanism:alloy_reinforced>],
 [<item:mekanism:ingot_osmium>, <item:mekanism:advanced_chemical_tank>, <item:mekanism:ingot_osmium>],
 [<item:mekanism:alloy_reinforced>, <item:mekanism:ingot_osmium>, <item:mekanism:alloy_reinforced>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_chemical_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_chemical_tank", <item:mekanism:ultimate_chemical_tank>,
+craftingTable.addShaped("mekanism.ultimate_chemical_tank", <item:mekanism:ultimate_chemical_tank>,
 [[<item:mekanism:alloy_atomic>, <item:mekanism:ingot_osmium>, <item:mekanism:alloy_atomic>],
 [<item:mekanism:ingot_osmium>, <item:mekanism:elite_chemical_tank>, <item:mekanism:ingot_osmium>],
 [<item:mekanism:alloy_atomic>, <item:mekanism:ingot_osmium>, <item:mekanism:alloy_atomic>]]);
 
 craftingTable.remove(<item:mekanism:basic_universal_cable>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_universal_cable", <item:mekanism:basic_universal_cable> *8,
+craftingTable.addShaped("mekanism.basic_universal_cable", <item:mekanism:basic_universal_cable> *8,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:advanced_universal_cable>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_universal_cable", <item:mekanism:advanced_universal_cable> *8,
+craftingTable.addShaped("mekanism.advanced_universal_cable", <item:mekanism:advanced_universal_cable> *8,
 [[<item:mekanism:basic_universal_cable>, <item:mekanism:basic_universal_cable>, <item:mekanism:basic_universal_cable>],
 [<item:mekanism:basic_universal_cable>, <item:mekanism:alloy_infused>, <item:mekanism:basic_universal_cable>],
 [<item:mekanism:basic_universal_cable>, <item:mekanism:basic_universal_cable>, <item:mekanism:basic_universal_cable>]]);
 
 craftingTable.remove(<item:mekanism:elite_universal_cable>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_universal_cable", <item:mekanism:elite_universal_cable> *8,
+craftingTable.addShaped("mekanism.elite_universal_cable", <item:mekanism:elite_universal_cable> *8,
 [[<item:mekanism:advanced_universal_cable>, <item:mekanism:advanced_universal_cable>, <item:mekanism:advanced_universal_cable>],
 [<item:mekanism:advanced_universal_cable>, <item:mekanism:alloy_reinforced>, <item:mekanism:advanced_universal_cable>],
 [<item:mekanism:advanced_universal_cable>, <item:mekanism:advanced_universal_cable>, <item:mekanism:advanced_universal_cable>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_universal_cable>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_universal_cable", <item:mekanism:ultimate_universal_cable> *8,
+craftingTable.addShaped("mekanism.ultimate_universal_cable", <item:mekanism:ultimate_universal_cable> *8,
 [[<item:mekanism:elite_universal_cable>, <item:mekanism:elite_universal_cable>, <item:mekanism:elite_universal_cable>],
 [<item:mekanism:elite_universal_cable>, <item:mekanism:alloy_atomic>, <item:mekanism:elite_universal_cable>],
 [<item:mekanism:elite_universal_cable>, <item:mekanism:elite_universal_cable>, <item:mekanism:elite_universal_cable>]]);
 
 craftingTable.remove(<item:mekanism:basic_mechanical_pipe>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_mechanical_pipe", <item:mekanism:basic_mechanical_pipe> *8,
+craftingTable.addShaped("mekanism.basic_mechanical_pipe", <item:mekanism:basic_mechanical_pipe> *8,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <item:minecraft:bucket>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:advanced_mechanical_pipe>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_mechanical_pipe", <item:mekanism:advanced_mechanical_pipe> *8,
+craftingTable.addShaped("mekanism.advanced_mechanical_pipe", <item:mekanism:advanced_mechanical_pipe> *8,
 [[<item:mekanism:basic_mechanical_pipe>, <item:mekanism:basic_mechanical_pipe>, <item:mekanism:basic_mechanical_pipe>],
 [<item:mekanism:basic_mechanical_pipe>, <item:mekanism:alloy_infused>, <item:mekanism:basic_mechanical_pipe>],
 [<item:mekanism:basic_mechanical_pipe>, <item:mekanism:basic_mechanical_pipe>, <item:mekanism:basic_mechanical_pipe>]]);
 
 craftingTable.remove(<item:mekanism:elite_mechanical_pipe>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_mechanical_pipe", <item:mekanism:elite_mechanical_pipe> *8,
+craftingTable.addShaped("mekanism.elite_mechanical_pipe", <item:mekanism:elite_mechanical_pipe> *8,
 [[<item:mekanism:advanced_mechanical_pipe>, <item:mekanism:advanced_mechanical_pipe>, <item:mekanism:advanced_mechanical_pipe>],
 [<item:mekanism:advanced_mechanical_pipe>, <item:mekanism:alloy_reinforced>, <item:mekanism:advanced_mechanical_pipe>],
 [<item:mekanism:advanced_mechanical_pipe>, <item:mekanism:advanced_mechanical_pipe>, <item:mekanism:advanced_mechanical_pipe>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_mechanical_pipe>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_mechanical_pipe", <item:mekanism:ultimate_mechanical_pipe> *8,
+craftingTable.addShaped("mekanism.ultimate_mechanical_pipe", <item:mekanism:ultimate_mechanical_pipe> *8,
 [[<item:mekanism:elite_mechanical_pipe>, <item:mekanism:elite_mechanical_pipe>, <item:mekanism:elite_mechanical_pipe>],
 [<item:mekanism:elite_mechanical_pipe>, <item:mekanism:alloy_atomic>, <item:mekanism:elite_mechanical_pipe>],
 [<item:mekanism:elite_mechanical_pipe>, <item:mekanism:elite_mechanical_pipe>, <item:mekanism:elite_mechanical_pipe>]]);
 
 craftingTable.remove(<item:mekanism:basic_pressurized_tube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_pressurized_tube", <item:mekanism:basic_pressurized_tube> *8,
+craftingTable.addShaped("mekanism.basic_pressurized_tube", <item:mekanism:basic_pressurized_tube> *8,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:glass/silica>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:advanced_pressurized_tube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_pressurized_tube", <item:mekanism:advanced_pressurized_tube> *8,
+craftingTable.addShaped("mekanism.advanced_pressurized_tube", <item:mekanism:advanced_pressurized_tube> *8,
 [[<item:mekanism:basic_pressurized_tube>, <item:mekanism:basic_pressurized_tube>, <item:mekanism:basic_pressurized_tube>],
 [<item:mekanism:basic_pressurized_tube>, <item:mekanism:alloy_infused>, <item:mekanism:basic_pressurized_tube>],
 [<item:mekanism:basic_pressurized_tube>, <item:mekanism:basic_pressurized_tube>, <item:mekanism:basic_pressurized_tube>]]);
 
 craftingTable.remove(<item:mekanism:elite_pressurized_tube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_pressurized_tube", <item:mekanism:elite_pressurized_tube> *8,
+craftingTable.addShaped("mekanism.elite_pressurized_tube", <item:mekanism:elite_pressurized_tube> *8,
 [[<item:mekanism:advanced_pressurized_tube>, <item:mekanism:advanced_pressurized_tube>, <item:mekanism:advanced_pressurized_tube>],
 [<item:mekanism:advanced_pressurized_tube>, <item:mekanism:alloy_reinforced>, <item:mekanism:advanced_pressurized_tube>],
 [<item:mekanism:advanced_pressurized_tube>, <item:mekanism:advanced_pressurized_tube>, <item:mekanism:advanced_pressurized_tube>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_pressurized_tube>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_pressurized_tube", <item:mekanism:ultimate_pressurized_tube> *8,
+craftingTable.addShaped("mekanism.ultimate_pressurized_tube", <item:mekanism:ultimate_pressurized_tube> *8,
 [[<item:mekanism:elite_pressurized_tube>, <item:mekanism:elite_pressurized_tube>, <item:mekanism:elite_pressurized_tube>],
 [<item:mekanism:elite_pressurized_tube>, <item:mekanism:alloy_atomic>, <item:mekanism:elite_pressurized_tube>],
 [<item:mekanism:elite_pressurized_tube>, <item:mekanism:elite_pressurized_tube>, <item:mekanism:elite_pressurized_tube>]]);
 
 craftingTable.remove(<item:mekanism:basic_logistical_transporter>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_logistical_transporter", <item:mekanism:basic_logistical_transporter> *8,
+craftingTable.addShaped("mekanism.basic_logistical_transporter", <item:mekanism:basic_logistical_transporter> *8,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:advanced_logistical_transporter>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_logistical_transporter", <item:mekanism:advanced_logistical_transporter> *8,
+craftingTable.addShaped("mekanism.advanced_logistical_transporter", <item:mekanism:advanced_logistical_transporter> *8,
 [[<item:mekanism:basic_logistical_transporter>, <item:mekanism:basic_logistical_transporter>, <item:mekanism:basic_logistical_transporter>],
 [<item:mekanism:basic_logistical_transporter>, <item:mekanism:alloy_infused>, <item:mekanism:basic_logistical_transporter>],
 [<item:mekanism:basic_logistical_transporter>, <item:mekanism:basic_logistical_transporter>, <item:mekanism:basic_logistical_transporter>]]);
 
 craftingTable.remove(<item:mekanism:elite_logistical_transporter>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_logistical_transporter", <item:mekanism:elite_logistical_transporter> *8,
+craftingTable.addShaped("mekanism.elite_logistical_transporter", <item:mekanism:elite_logistical_transporter> *8,
 [[<item:mekanism:advanced_logistical_transporter>, <item:mekanism:advanced_logistical_transporter>, <item:mekanism:advanced_logistical_transporter>],
 [<item:mekanism:advanced_logistical_transporter>, <item:mekanism:alloy_reinforced>, <item:mekanism:advanced_logistical_transporter>],
 [<item:mekanism:advanced_logistical_transporter>, <item:mekanism:advanced_logistical_transporter>, <item:mekanism:advanced_logistical_transporter>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_logistical_transporter>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_logistical_transporter", <item:mekanism:ultimate_logistical_transporter> *8,
+craftingTable.addShaped("mekanism.ultimate_logistical_transporter", <item:mekanism:ultimate_logistical_transporter> *8,
 [[<item:mekanism:elite_logistical_transporter>, <item:mekanism:elite_logistical_transporter>, <item:mekanism:elite_logistical_transporter>],
 [<item:mekanism:elite_logistical_transporter>, <item:mekanism:alloy_atomic>, <item:mekanism:elite_logistical_transporter>],
 [<item:mekanism:elite_logistical_transporter>, <item:mekanism:elite_logistical_transporter>, <item:mekanism:elite_logistical_transporter>]]);
 
 craftingTable.remove(<item:mekanism:basic_thermodynamic_conductor>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_thermodynamic_conductor", <item:mekanism:basic_thermodynamic_conductor> *8,
+craftingTable.addShaped("mekanism.basic_thermodynamic_conductor", <item:mekanism:basic_thermodynamic_conductor> *8,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:advanced_thermodynamic_conductor>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_thermodynamic_conductor", <item:mekanism:advanced_thermodynamic_conductor> *8,
+craftingTable.addShaped("mekanism.advanced_thermodynamic_conductor", <item:mekanism:advanced_thermodynamic_conductor> *8,
 [[<item:mekanism:basic_thermodynamic_conductor>, <item:mekanism:basic_thermodynamic_conductor>, <item:mekanism:basic_thermodynamic_conductor>],
 [<item:mekanism:basic_thermodynamic_conductor>, <item:mekanism:alloy_atomic>, <item:mekanism:basic_thermodynamic_conductor>],
 [<item:mekanism:basic_thermodynamic_conductor>, <item:mekanism:basic_thermodynamic_conductor>, <item:mekanism:basic_thermodynamic_conductor>]]);
 
 craftingTable.remove(<item:mekanism:elite_thermodynamic_conductor>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_thermodynamic_conductor", <item:mekanism:elite_thermodynamic_conductor> *8,
+craftingTable.addShaped("mekanism.elite_thermodynamic_conductor", <item:mekanism:elite_thermodynamic_conductor> *8,
 [[<item:mekanism:advanced_thermodynamic_conductor>, <item:mekanism:advanced_thermodynamic_conductor>, <item:mekanism:advanced_thermodynamic_conductor>],
 [<item:mekanism:advanced_thermodynamic_conductor>, <item:mekanism:alloy_reinforced>, <item:mekanism:advanced_thermodynamic_conductor>],
 [<item:mekanism:advanced_thermodynamic_conductor>, <item:mekanism:advanced_thermodynamic_conductor>, <item:mekanism:advanced_thermodynamic_conductor>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_thermodynamic_conductor>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_thermodynamic_conductor", <item:mekanism:ultimate_thermodynamic_conductor> *8,
+craftingTable.addShaped("mekanism.ultimate_thermodynamic_conductor", <item:mekanism:ultimate_thermodynamic_conductor> *8,
 [[<item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>],
 [<item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:alloy_atomic>, <item:mekanism:elite_thermodynamic_conductor>],
 [<item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>, <item:mekanism:elite_thermodynamic_conductor>]]);
@@ -551,19 +551,19 @@ craftingTable.remove(<item:mekanism:radioactive_waste_barrel>);
 [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/steel>]]);
 
 craftingTable.remove(<item:mekanism:personal_chest>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.personal_chest", <item:mekanism:personal_chest>,
+craftingTable.addShaped("mekanism.personal_chest", <item:mekanism:personal_chest>,
 [[<tag:items:forge:ingots/steel>, <tag:items:forge:glass/silica>, <tag:items:forge:ingots/steel>],
 [<tag:items:forge:chests/wooden>, <item:mekanism:basic_control_circuit>, <tag:items:forge:chests/wooden>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
 
 craftingTable.remove(<item:mekanism:personal_barrel>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.personal_barrel", <item:mekanism:personal_barrel>,
+craftingTable.addShaped("mekanism.personal_barrel", <item:mekanism:personal_barrel>,
 [[<tag:items:forge:ingots/steel>, <tag:items:forge:glass/silica>, <tag:items:forge:ingots/steel>],
 [<item:minecraft:barrel>, <item:mekanism:basic_control_circuit>, <item:minecraft:barrel>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/steel>]]);
 
 craftingTable.remove(<item:mekanism:chargepad>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.chargepad", <item:mekanism:chargepad>,
+craftingTable.addShaped("mekanism.chargepad", <item:mekanism:chargepad>,
 [[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/copper>, <item:industrialforegoing:plastic>],
 [<item:minecraft:polished_blackstone_pressure_plate>, <item:minecraft:polished_blackstone_pressure_plate>, <item:minecraft:polished_blackstone_pressure_plate>],
 [<tag:items:forge:ingots/steel>, <item:mekanism:energy_tablet>, <tag:items:forge:ingots/steel>]]);
@@ -611,25 +611,25 @@ craftingTable.remove(<item:mekanism:qio_redstone_adapter>);
 [<item:mekanism:pellet_polonium>, <item:mekanism:teleportation_core>, <item:mekanism:pellet_polonium>]]);
 
 craftingTable.remove(<item:mekanism:industrial_alarm>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.industrial_alarm", <item:mekanism:industrial_alarm>,
+craftingTable.addShaped("mekanism.industrial_alarm", <item:mekanism:industrial_alarm>,
 [[<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>],
 [<item:mekanism:basic_control_circuit>, <item:minecraft:redstone_lamp>, <item:mekanism:basic_control_circuit>],
 [<tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>, <tag:items:forge:ingots/lead>]]);
 
 craftingTable.remove(<item:mekanism:dynamic_valve>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.dynamic_valve", <item:mekanism:dynamic_valve> *2,
+craftingTable.addShaped("mekanism.dynamic_valve", <item:mekanism:dynamic_valve> *2,
 [[<item:industrialforegoing:plastic>, <item:mekanism:dynamic_tank>, <item:industrialforegoing:plastic>],
 [<item:mekanism:dynamic_tank>, <item:mekanism:basic_control_circuit>, <item:mekanism:dynamic_tank>],
 [<item:industrialforegoing:plastic>, <item:mekanism:dynamic_tank>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:dynamic_tank>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.dynamic_tank", <item:mekanism:dynamic_tank> *4,
+craftingTable.addShaped("mekanism.dynamic_tank", <item:mekanism:dynamic_tank> *4,
 [[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <item:minecraft:bucket>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:thermal_evaporation_valve>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.thermal_evaporation_valve", <item:mekanism:thermal_evaporation_valve>,
+craftingTable.addShaped("mekanism.thermal_evaporation_valve", <item:mekanism:thermal_evaporation_valve>,
 [[<item:industrialforegoing:plastic>, <item:mekanism:thermal_evaporation_block>, <item:industrialforegoing:plastic>],
 [<item:mekanism:thermal_evaporation_block>, <item:mekanism:advanced_control_circuit>, <item:mekanism:thermal_evaporation_block>],
 [<item:industrialforegoing:plastic>, <item:mekanism:thermal_evaporation_block>, <item:industrialforegoing:plastic>]]);
@@ -653,13 +653,13 @@ craftingTable.remove(<item:mekanism:induction_casing>);
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:induction_port>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.induction_port", <item:mekanism:induction_port> *2,
+craftingTable.addShaped("mekanism.induction_port", <item:mekanism:induction_port> *2,
 [[<item:industrialforegoing:plastic>, <item:mekanism:induction_casing>, <item:industrialforegoing:plastic>],
 [<item:mekanism:induction_casing>, <item:mekanism:elite_control_circuit>, <item:mekanism:induction_casing>],
 [<item:industrialforegoing:plastic>, <item:mekanism:induction_casing>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:boiler_valve>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.boiler_valve", <item:mekanism:boiler_valve> *2,
+craftingTable.addShaped("mekanism.boiler_valve", <item:mekanism:boiler_valve> *2,
 [[<item:industrialforegoing:plastic>, <item:mekanism:boiler_casing>, <item:industrialforegoing:plastic>],
 [<item:mekanism:boiler_casing>, <item:mekanism:advanced_control_circuit>, <item:mekanism:boiler_casing>],
 [<item:industrialforegoing:plastic>, <item:mekanism:boiler_casing>, <item:industrialforegoing:plastic>]]);
@@ -695,13 +695,13 @@ craftingTable.remove(<item:mekanism:sps_port>);
 [<item:industrialforegoing:plastic>, <item:mekanism:sps_casing>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:sps_casing>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.sps_casing", <item:mekanism:sps_casing>,
+<recipetype:create:mechanical_crafting>.addRecipe("mekanism.sps_casing", <item:mekanism:sps_casing> *4,
 [[<item:mekanism:hdpe_sheet>, <item:mekanism:pellet_polonium>, <item:mekanism:hdpe_sheet>],
 [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_plutonium>, <item:mekanism:pellet_polonium>],
 [<item:mekanism:hdpe_sheet>, <item:mekanism:pellet_polonium>, <item:mekanism:hdpe_sheet>]]);
 
 craftingTable.remove(<item:mekanism:configurator>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.configurator", <item:mekanism:configurator>,
+craftingTable.addShaped("mekanism.configurator", <item:mekanism:configurator>,
 [[<item:industrialforegoing:plastic>, <tag:items:forge:gems/lapis>, <item:industrialforegoing:plastic>],
 [<item:mekanism:alloy_infused>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_infused>],
 [<item:industrialforegoing:plastic>, <item:minecraft:stick>, <item:industrialforegoing:plastic>]]);
@@ -737,7 +737,7 @@ craftingTable.remove(<item:mekanism:configuration_card>);
 [<item:industrialforegoing:plastic>, <item:mekanism:alloy_infused>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:gauge_dropper>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.gauge_dropper", <item:mekanism:gauge_dropper>,
+craftingTable.addShaped("mekanism.gauge_dropper", <item:mekanism:gauge_dropper>,
 [[<item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:glass_panes>, <item:minecraft:air>, <tag:items:forge:glass_panes>],
 [<tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>]]);
@@ -851,13 +851,13 @@ craftingTable.remove(<item:mekanism:ultimate_tier_installer>);
 [<item:mekanism:alloy_atomic>, <item:mekanism:ultimate_control_circuit>, <item:mekanism:alloy_atomic>]]);
 
 craftingTable.remove(<item:mekanism:electrolytic_core>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.electrolytic_core", <item:mekanism:electrolytic_core>,
+craftingTable.addShaped("mekanism.electrolytic_core", <item:mekanism:electrolytic_core>,
 [[<item:mekanism:alloy_infused>, <item:mekanism:dust_osmium>, <item:mekanism:alloy_infused>],
 [<tag:items:forge:dusts/iron>, <item:mekanism:alloy_infused>, <tag:items:forge:dusts/gold>],
 [<item:mekanism:alloy_infused>, <item:mekanism:dust_osmium>, <item:mekanism:alloy_infused>]]);
 
 craftingTable.remove(<item:mekanism:teleportation_core>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.teleportation_core", <item:mekanism:teleportation_core>,
+craftingTable.addShaped("mekanism.teleportation_core", <item:mekanism:teleportation_core>,
 [[<tag:items:forge:gems/lapis>, <item:mekanism:alloy_atomic>, <tag:items:forge:gems/lapis>],
 [<tag:items:forge:ingots/gold>, <tag:items:forge:gems/diamond>, <tag:items:forge:ingots/gold>],
 [<tag:items:forge:gems/lapis>, <item:mekanism:alloy_atomic>, <tag:items:forge:gems/lapis>]]);
@@ -869,55 +869,55 @@ craftingTable.remove(<item:mekanism:robit>);
 [<item:mekanism:ingot_refined_obsidian>, <tag:items:mekanism:personal_storage>, <item:mekanism:ingot_refined_obsidian>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_speed>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_speed", <item:mekanism:upgrade_speed>,
+craftingTable.addShaped("mekanism.upgrade_speed", <item:mekanism:upgrade_speed>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
 [<item:mekanism:alloy_infused>, <item:mekanism:dust_osmium>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_energy>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_energy", <item:mekanism:upgrade_energy>,
+craftingTable.addShaped("mekanism.upgrade_energy", <item:mekanism:upgrade_energy>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
 [<item:mekanism:alloy_infused>, <tag:items:forge:dusts/gold>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_filter>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_filter", <item:mekanism:upgrade_filter>,
+craftingTable.addShaped("mekanism.upgrade_filter", <item:mekanism:upgrade_filter>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
 [<item:mekanism:alloy_infused>, <tag:items:forge:dusts/tin>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_muffling>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_muffling", <item:mekanism:upgrade_muffling>,
+craftingTable.addShaped("mekanism.upgrade_muffling", <item:mekanism:upgrade_muffling>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
 [<item:mekanism:alloy_infused>, <tag:items:forge:dusts/steel>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_gas>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_gas", <item:mekanism:upgrade_gas>,
+craftingTable.addShaped("mekanism.upgrade_gas", <item:mekanism:upgrade_gas>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
 [<item:mekanism:alloy_infused>, <tag:items:forge:dusts/iron>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_anchor>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_anchor", <item:mekanism:upgrade_anchor>,
+craftingTable.addShaped("mekanism.upgrade_anchor", <item:mekanism:upgrade_anchor>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
 [<item:mekanism:alloy_infused>, <tag:items:forge:dusts/diamond>, <item:mekanism:alloy_infused>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:upgrade_stone_generator>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.upgrade_stone_generator", <item:mekanism:upgrade_stone_generator>,
+craftingTable.addShaped("mekanism.upgrade_stone_generator", <item:mekanism:upgrade_stone_generator>,
 [[<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>],
 [<item:minecraft:water_bucket>, <item:mekanism:alloy_infused>, <item:minecraft:lava_bucket>],
 [<item:minecraft:air>, <tag:items:forge:glass/silica>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:structural_glass>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.structural_glass", <item:mekanism:structural_glass>,
+craftingTable.addShaped("mekanism.structural_glass", <item:mekanism:structural_glass>,
 [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:glass/silica>, <tag:items:forge:ingots/steel>],
 [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>]]);
 
 craftingTable.remove(<item:mekanism:energy_tablet>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.energy_tablet", <item:mekanism:energy_tablet>,
+craftingTable.addShaped("mekanism.energy_tablet", <item:mekanism:energy_tablet>,
 [[<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/gold>, <tag:items:forge:dusts/redstone>],
 [<item:mekanism:alloy_infused>, <tag:items:forge:ingots/gold>, <item:mekanism:alloy_infused>],
 [<tag:items:forge:dusts/redstone>, <tag:items:forge:ingots/gold>, <tag:items:forge:dusts/redstone>]]);
@@ -1031,49 +1031,49 @@ craftingTable.remove(<item:mekanism:module_teleportation_unit>);
 [<item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>, <item:mekanism:pellet_antimatter>]]);
 
 craftingTable.remove(<item:mekanism:basic_induction_cell>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_induction_cell", <item:mekanism:basic_induction_cell>,
+craftingTable.addShaped("mekanism.basic_induction_cell", <item:mekanism:basic_induction_cell>,
 [[<item:mekanism:dust_lithium>, <item:mekanism:energy_tablet>, <item:mekanism:dust_lithium>],
 [<item:mekanism:energy_tablet>, <item:mekanism:basic_energy_cube>, <item:mekanism:energy_tablet>],
 [<item:mekanism:dust_lithium>, <item:mekanism:energy_tablet>, <item:mekanism:dust_lithium>]]);
 
 craftingTable.remove(<item:mekanism:advanced_induction_cell>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_induction_cell", <item:mekanism:advanced_induction_cell>,
+craftingTable.addShaped("mekanism.advanced_induction_cell", <item:mekanism:advanced_induction_cell>,
 [[<item:mekanism:energy_tablet>, <item:mekanism:basic_induction_cell>, <item:mekanism:energy_tablet>],
 [<item:mekanism:basic_induction_cell>, <item:mekanism:advanced_energy_cube>, <item:mekanism:basic_induction_cell>],
 [<item:mekanism:energy_tablet>, <item:mekanism:basic_induction_cell>, <item:mekanism:energy_tablet>]]);
 
 craftingTable.remove(<item:mekanism:elite_induction_cell>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_induction_cell", <item:mekanism:elite_induction_cell>,
+craftingTable.addShaped("mekanism.elite_induction_cell", <item:mekanism:elite_induction_cell>,
 [[<item:mekanism:energy_tablet>, <item:mekanism:advanced_induction_cell>, <item:mekanism:energy_tablet>],
 [<item:mekanism:advanced_induction_cell>, <item:mekanism:elite_energy_cube>, <item:mekanism:advanced_induction_cell>],
 [<item:mekanism:energy_tablet>, <item:mekanism:advanced_induction_cell>, <item:mekanism:energy_tablet>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_induction_cell>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_induction_cell", <item:mekanism:ultimate_induction_cell>,
+craftingTable.addShaped("mekanism.ultimate_induction_cell", <item:mekanism:ultimate_induction_cell>,
 [[<item:mekanism:energy_tablet>, <item:mekanism:elite_induction_cell>, <item:mekanism:energy_tablet>],
 [<item:mekanism:elite_induction_cell>, <item:mekanism:ultimate_energy_cube>, <item:mekanism:elite_induction_cell>],
 [<item:mekanism:energy_tablet>, <item:mekanism:elite_induction_cell>, <item:mekanism:energy_tablet>]]);
 
 craftingTable.remove(<item:mekanism:basic_induction_provider>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.basic_induction_provider", <item:mekanism:basic_induction_provider>,
+craftingTable.addShaped("mekanism.basic_induction_provider", <item:mekanism:basic_induction_provider>,
 [[<item:mekanism:dust_lithium>, <item:mekanism:basic_control_circuit>, <item:mekanism:dust_lithium>],
 [<item:mekanism:basic_control_circuit>, <item:mekanism:basic_energy_cube>, <item:mekanism:basic_control_circuit>],
 [<item:mekanism:dust_lithium>, <item:mekanism:basic_control_circuit>, <item:mekanism:dust_lithium>]]);
 
 craftingTable.remove(<item:mekanism:advanced_induction_provider>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.advanced_induction_provider", <item:mekanism:advanced_induction_provider>,
+craftingTable.addShaped("mekanism.advanced_induction_provider", <item:mekanism:advanced_induction_provider>,
 [[<item:mekanism:advanced_control_circuit>, <item:mekanism:basic_induction_provider>, <item:mekanism:advanced_control_circuit>],
 [<item:mekanism:basic_induction_provider>, <item:mekanism:advanced_energy_cube>, <item:mekanism:basic_induction_provider>],
 [<item:mekanism:advanced_chemical_tank>, <item:mekanism:basic_induction_provider>, <item:mekanism:advanced_control_circuit>]]);
 
 craftingTable.remove(<item:mekanism:elite_induction_provider>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.elite_induction_provider", <item:mekanism:elite_induction_provider>,
+craftingTable.addShaped("mekanism.elite_induction_provider", <item:mekanism:elite_induction_provider>,
 [[<item:mekanism:elite_control_circuit>, <item:mekanism:advanced_induction_provider>, <item:mekanism:elite_control_circuit>],
 [<item:mekanism:advanced_induction_provider>, <item:mekanism:elite_energy_cube>, <item:mekanism:advanced_induction_provider>],
 [<item:mekanism:elite_control_circuit>, <item:mekanism:advanced_induction_provider>, <item:mekanism:elite_control_circuit>]]);
 
 craftingTable.remove(<item:mekanism:ultimate_induction_provider>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.ultimate_induction_provider", <item:mekanism:ultimate_induction_provider>,
+craftingTable.addShaped("mekanism.ultimate_induction_provider", <item:mekanism:ultimate_induction_provider>,
 [[<item:mekanism:ultimate_control_circuit>, <item:mekanism:elite_induction_provider>, <item:mekanism:ultimate_control_circuit>],
 [<item:mekanism:elite_induction_provider>, <item:mekanism:ultimate_energy_cube>, <item:mekanism:elite_induction_provider>],
 [<item:mekanism:ultimate_control_circuit>, <item:mekanism:elite_induction_provider>, <item:mekanism:ultimate_control_circuit>]]);
