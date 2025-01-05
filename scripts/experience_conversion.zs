@@ -1,7 +1,3 @@
-
-
-///convert all exp to essence
-
 <recipetype:create:mixing>.addJsonRecipe("experience_conversion.if_essence_from_reliquary_xp",
 {
   "type": "create:mixing",
@@ -139,14 +135,6 @@
     }
   ]
 });
-
-
-
-
-///convert all exp to cei
-
-
-
 <recipetype:create:mixing>.removeByName("create_enchantment_industry:compat/industrialforegoing/mixing/experience_conversion");
 <recipetype:create:mixing>.addJsonRecipe("experience_conversion.cei_experience_from_if_xp",
 {
@@ -203,7 +191,7 @@
   ],
   "results": [
     {
-      "amount": 1000,
+      "amount": 500,
       "fluid": "create_enchantment_industry:experience"
     }
   ]
@@ -241,6 +229,46 @@
     {
       "amount": 1000,
       "fluid": "cofh_core:experience"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "create_enchantment_industry:experience"
+    }
+  ]
+});
+<recipetype:create_enchantment_industry:disenchanting>.removeByName("create_enchantment_industry:compat/ars_nouveau/disenchanting/greater_experience_gem");
+<recipetype:create:mixing>.addJsonRecipe("experience_conversion.cei_experience_from_ars_xp",
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "ars_nouveau:greater_experience_gem"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "create_enchantment_industry:experience"
+    }
+  ]
+});
+<recipetype:create_enchantment_industry:disenchanting>.removeByName("create_enchantment_industry:disenchanting/experience_block");
+<recipetype:create:mixing>.addJsonRecipe("experience_conversion.cei_experience_from_create_xp",
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "create:experience_block"
     }
   ],
   "results": [
