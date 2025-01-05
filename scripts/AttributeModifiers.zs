@@ -150,7 +150,7 @@ import crafttweaker.api.item.IItemStack;
 			<attribute:minecraft:generic.attack_damage>, 
 			"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
 			"Set Power", 
-			21.0,   
+			27.0,   
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
 			

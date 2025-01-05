@@ -1295,7 +1295,7 @@
 				type: "item"
 			}]
 			title: "Brass Saber"
-			x: -12.0d
+			x: -15.0d
 			y: 3.5d
 		}
 		{
@@ -3531,6 +3531,54 @@
 			}]
 			x: -20.5d
 			y: 23.0d
+		}
+		{
+			dependencies: [
+				"5408F21008F2B15F"
+				"7D2A147003467889"
+				"29307362D6F4A8AD"
+			]
+			id: "53DF6301C26AFFB4"
+			rewards: [
+				{
+					id: "35B28006B40B9A63"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "18907B829D23AFE0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			size: 2.5d
+			tasks: [{
+				id: "35645B323D29D77A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create_sabers:brass_saber_galaxy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Galaxy Saber"
+			x: -14.964285714285715d
+			y: 13.321428571428577d
 		}
 	]
 	title: "&eThe Road Less Traveled"

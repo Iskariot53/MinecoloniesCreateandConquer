@@ -2081,6 +2081,7 @@
 			dependencies: ["5EAC29DB29A4950E"]
 			description: ["Craft the bee nest helmet. The helmet has a chance to spawn a highly aggressive kamikazbee to attack anything that struck you with reckless abandon. While useful in this nature alone, they are also the &oonly&r bees who naturally spawn with the \"very high\" productivity gene, making capturing them for genetics a top priority for anyone truly looking to go big with bees."]
 			hide_dependency_lines: true
+			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			id: "281D776A33FBE67D"
 			rewards: [
