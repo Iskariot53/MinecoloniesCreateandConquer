@@ -1064,7 +1064,7 @@ craftingTable.remove(<item:mekanism:advanced_induction_provider>);
 craftingTable.addShaped("mekanism.advanced_induction_provider", <item:mekanism:advanced_induction_provider>,
 [[<item:mekanism:advanced_control_circuit>, <item:mekanism:basic_induction_provider>, <item:mekanism:advanced_control_circuit>],
 [<item:mekanism:basic_induction_provider>, <item:mekanism:advanced_energy_cube>, <item:mekanism:basic_induction_provider>],
-[<item:mekanism:advanced_chemical_tank>, <item:mekanism:basic_induction_provider>, <item:mekanism:advanced_control_circuit>]]);
+[<item:mekanism:advanced_control_circuit>, <item:mekanism:basic_induction_provider>, <item:mekanism:advanced_control_circuit>]]);
 
 craftingTable.remove(<item:mekanism:elite_induction_provider>);
 craftingTable.addShaped("mekanism.elite_induction_provider", <item:mekanism:elite_induction_provider>,
