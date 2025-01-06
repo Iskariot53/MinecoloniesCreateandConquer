@@ -55,7 +55,7 @@
 		{
 			dependencies: ["6F5F058B8042EFB6"]
 			description: [
-				"The most important tool and one of the key components to setting up any HNN, the &6Deep Learner&r. Right clicking opens the GUI, in which you will see 4 slots for holding data models and \"learning\" data about any mobs killed. &9Data will be gathered for any model placed inside&r, no matter where it is in your inventory, whenever you kill a mob related to the models contained. Theirs even a curios slot for it! "
+				"The most important tool and one of the key components to setting up any HNN, the &6Deep Learner&r. Right clicking opens the GUI, in which you will see 4 slots for holding data models and \"learning\" data about any mobs killed. &9Data will be gathered for any model placed inside&r, no matter where it is in your inventory, whenever you kill a mob related to the models contained. There's even a curios slot for it! "
 				""
 				"Multiple learners can be carried at once and data will be collected and distributed to all models contained in all learners for the respective mob that is killed., you only get 1 curios slot though."
 			]
@@ -451,7 +451,7 @@
 			description: [
 				"Before we get into the machines, we will need 1 last thing: &6The prediction matrix&r."
 				""
-				"In order for a simulation to run and provide a prediction, &etheir must be a prediction matrix for the prediction to be imprinted on.&r"
+				"In order for a simulation to run and provide a prediction, &ethere must be a prediction matrix for the prediction to be imprinted on.&r"
 				""
 				"no matrix = no prediction = no loot... pretty simple."
 			]

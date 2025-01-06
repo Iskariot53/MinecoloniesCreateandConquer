@@ -130,7 +130,7 @@
 				"This quest line, like all of the other lines in the pack, is not meant to be all inclusive. It will however teach and familiarize you with the basics and standards of the mod to prepare you with the knowledge necessary to explore what you are capable of."
 				""
 				""
-				"You've got what you need for andesite alloy already, that's good. you'll need &2LOTS&r of it, automation, anyone? Well, to get their, we'll need some shafts"
+				"You've got what you need for andesite alloy already, that's good. you'll need &2LOTS&r of it, automation, anyone? Well, to get there, we'll need some shafts"
 			]
 			hide_until_deps_complete: true
 			id: "2DFAB367F1A7D350"
@@ -161,7 +161,7 @@
 		}
 		{
 			dependencies: ["4FCCFF074785EA66"]
-			description: ["Cogwheels, when partnered with shafts, can be used to transfer \"&7stress&r\" units, which can in-turn be used to power various contraptions and machines. It's going to take some effort and infrastructure to get their, but It can even be used to generate &eelectricity&r!"]
+			description: ["Cogwheels, when partnered with shafts, can be used to transfer \"&7stress&r\" units, which can in-turn be used to power various contraptions and machines. It's going to take some effort and infrastructure to get there, but It can even be used to generate &eelectricity&r!"]
 			id: "426C6E9A3E8A1474"
 			rewards: [
 				{
@@ -670,7 +670,7 @@
 				"6410DD17441D06C6"
 			]
 			description: [
-				"The &9basin&r, when used with a &9mechanical mixer&r, can be used to make many alloys among other things. Their are many compatibilities for the mixer so just keep an eye out for its recipes in &aJEI&r for chances to utilize it and the basin to make your life easier."
+				"The &9basin&r, when used with a &9mechanical mixer&r, can be used to make many alloys among other things. There are many compatibilities for the mixer so just keep an eye out for its recipes in &aJEI&r for chances to utilize it and the basin to make your life easier."
 				""
 				"for many recipes, including alloys, the basin must be &cheated&r though."
 			]
@@ -2219,7 +2219,7 @@
 				xp: 15
 			}]
 			size: 1.5d
-			subtitle: "Theirs a few differences..."
+			subtitle: "There are a few differences..."
 			tasks: [{
 				id: "0819E99A28CDC4F2"
 				title: "Choosing the right burner and fuel"
@@ -3767,7 +3767,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Theirs a lot packed into that little motor!"
+			subtitle: "There's a lot packed into that little motor!"
 			tasks: [{
 				id: "712FCA48E7B398F3"
 				item: {
