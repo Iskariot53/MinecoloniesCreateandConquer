@@ -558,3 +558,12 @@ import crafttweaker.api.item.IItemStack;
 			11.0,   
 			AttributeOperation.ADDITION, 
 			[<constant:minecraft:equipmentslot:mainhand>]);
+			
+<item:twilightforest:glass_sword>.addGlobalAttributeModifier(
+<attribute:minecraft:generic.attack_damage>, 
+"cb3f55d3-645c-4f38-a497-9c13a33db5cf", 
+"Set Power", 
+10.0,   
+AttributeOperation.ADDITION, 
+[<constant:minecraft:equipmentslot:mainhand>]);
+			
