@@ -66,7 +66,7 @@ stoneCutter.addRecipe("create_villagerology.sc_polished_marble_slab", <item:crea
     "count": 8,
     "item": "bloodmagic:fungal_charge"}});
 	
-<tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_log>);
+	<tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_log>);
 <tag:items:forge:stripped_wood>.add(<item:autumnity:stripped_maple_wood>);
 <tag:items:forge:stripped_logs>.add(<item:enhanced_mushrooms:stripped_mushroom_stem>);
 <tag:items:forge:stripped_logs>.add(<item:enhanced_mushrooms:stripped_mushroom_hyphae>);
@@ -74,12 +74,7 @@ stoneCutter.addRecipe("create_villagerology.sc_polished_marble_slab", <item:crea
 craftingTable.addShaped("rose_quartz_from_blocks_of_rose_quartz", <item:create:rose_quartz>, [[<item:create:rose_quartz_block> * 2]]);
 	
 
-craftingTable.addShaped("fan_catalyst/seething_sail", <item:create_dd:seething_sail> * 4,
-[[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>],
-[<item:create_dd:seething_ablaze_rod>, <item:create_dd:rubber_block>, <item:create_dd:seething_ablaze_rod>],
-[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>]]);
-
-//BAUBLEY HEARTS WITHER BONE
-	craftingTable.remove(<item:bhc:red_heart_canister>);
-	craftingTable.addShapeless("bhc.red_heart_canister", <item:bhc:red_heart_canister>, 
-	[<item:bhc:red_heart>, <tag:items:forge:bones/wither>, <item:bhc:relic_apple>, <item:bhc:canister>]);
+	craftingTable.addShaped("fan_catalyst/seething_sail", <item:create_dd:seething_sail> * 4,
+	[[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>],
+	[<item:create_dd:seething_ablaze_rod>, <item:create_dd:rubber_block>, <item:create_dd:seething_ablaze_rod>],
+	[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>]]);
