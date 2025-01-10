@@ -517,6 +517,7 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: ["Hydroangeas flowers act as water-fueled passive generators. They suck up any still water in a 3x3 area (at the same Y level) around them, converting the water into mana. They function faster during Rain, in which their base mana output is still fairly slow. In addition, they decay after three days of use, making them undesirable for long-term mana production."]
 			id: "6EF8EF579D32EAB0"
 			rewards: [
 				{
@@ -539,6 +540,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Water Flower"
 			tasks: [{
 				id: "41ADE2D80FB84D43"
 				item: {
@@ -557,6 +559,15 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Endoflame is a \"starter\" generating flower, it and the hydroangea will be the first available to you. It'll absorb any combustible items or blocks dropped in its vicinity, one at a time, and burn through them to generate a small amount of Mana."
+				""
+				"The amount of time it takes to burn through an item is approximately half of the time it would take for a furnace to burn it."
+				""
+				"There's a few small things to note though: the Endoflame will not burn anything that would leave byproducts in a furnace (e.g. lava buckets, which leave buckets behind). The flower can only burn what equates to the burn time of two blocks of coal of fuel at any given time, if an item with a longer burn time than this is used, you will receive no added benefit."
+				""
+				"As the Endoflame is often the first flower used in properly automating generating flora, it shouldn't be run manually forever. Automating a means of dropping items for it to burn, and limiting how much is dropped at any given time will be essential."
+			]
 			id: "1DA1F954B56E642B"
 			rewards: [
 				{
@@ -579,6 +590,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Burning Flower"
 			tasks: [{
 				id: "01D45BA3DCF535AA"
 				item: {
@@ -1280,7 +1292,7 @@
 		}
 		{
 			dependencies: ["72820219DBE77D92"]
-			description: ["Terrasteel is a magical alloy, infused with vast amounts of mana. Its creation it proves to be no small feat. To start, requires a terrestrial agglomeration plate placed over a checkerboard pattern of lapis lazuli blocks and livingrock or shimmerrock. This block then needs to be provided with mana, with sparks being the most efficient method."]
+			description: ["Terrasteel is a magical alloy, infused with vast amounts of mana. Its creation proves to be no small feat. To start, requires a terrestrial agglomeration plate placed over a checkerboard pattern of lapis lazuli blocks and livingrock or shimmerrock. This block then needs to be provided with mana, with sparks being the most efficient method."]
 			id: "02B9CDBCE083183B"
 			rewards: [
 				{
@@ -2147,7 +2159,7 @@
 				"{@pagebreak}"
 				"At least 2 natura pylons with mana pools below them must be placed in an 11×11×11 area centered on the gateway core. Once the structure is complete, use the wand of the forest on the gateway core to open the portal. This consumes a large amount of mana split between all pools feeding the gateway."
 				""
-				"To exchange resources, throw items into the portal - if they can be exchanged, the portal will slowly drop resulting items in its center and consume mana after each trade operation. If a Lexica Botania without elven knowledge is thrown into the portal, it will be returned with this knowledge added. You can extract your lexicon from the eccentric tome for this upgrade using sneak + Q with the tome in hand, set to the lexicon."
+				"To exchange resources, throw items into the portal - if they can be exchanged, the portal will slowly drop resulting items in its center and consume mana after each trade operation. If a Lexica Botania without elven knowledge is thrown into the portal, it will be returned with this knowledge added. You can extract your lexicon from the eccentric tome for this upgrade using sneak + Q with the tome in hand, while set to the lexicon."
 				"after upgrading it, it can then be reinsterted into the eccentric tome via shapeless crafting. Eccentric tome + upgraded lexicon. "
 				""
 				"{@pagebreak}"
@@ -2175,6 +2187,39 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The implementation of the Dandelifeon into your botanical array is no easy mission. It is easily the most productive generating flora if set up properly, however, doing this is easier said then done."
+				""
+				"This flowers functioning is based on \"Conway's Game of Life\". The Game of Life is not an actual game, it is a program designed to exhibit the means of simulating the arrisal of complex patterns and cellular organisms from very simple originations. The amount of mana dispersed by the flower is directly dependant on how many \"generations\" the cell structures manage to replicate and survive through. In short, the longer the simulations run, the older the cells get, the more mana any given simulation will yield."
+				""
+				"{@pagebreak}"
+				""
+				"The Dandelifeon is placed inside of a 25x25 square, this is our \"grid\" required in order to play our simulations out on. Applying a redstone signal to the flower will start the simulation."
+				""
+				"Each block within the 25x25 grid is a cell. Cells can be alive or dead. A \"living\" cell is one that currently contains a cellular block, a cell is considered dead if not. Neighbors are the 8 cells surrounding any given cell."
+				""
+				"You will craft cellular blocks and place them in your preferred starting formation, you should try to find/choose \"the best\" formation to start the grid out in, so that the simulation runs for as long as possible before completion. The simulation completes when cells can no longer replicate and all would die in the next step of the simulation or a cell is consumed by the Dandelifeon."
+				""
+				"{@pagebreak}"
+				""
+				"During each step of the game, the following transitions happen to each cell simultaneously:"
+				""
+				"- Any live cell with exactly 2 or 3 live neighbours survives the step."
+				""
+				"- Any live cell not satisfying the previous condition becomes dead."
+				""
+				"- Any dead cell with exactly three live neighbours becomes a live cell."
+				""
+				"All cells have an age and the mana yielded is directly dependant on the ages of the cells in the simulation at its completion. cells not created by the Dandelifeon start at zero. Whenever a cell survives a step, its age increases by one. Whenever a dead cell becomes a live cell, the age of the new live cell becomes the age of its oldest neighbour, plus one, capped at 100."
+				""
+				"The 3x3 zone centered around the Dandelifeon itself will absorb all cells that would otherwise generate in the area, converting them into a &n&oVERY LARGE&r&r amount mana. The older the cell that would be created, the more mana it yields. Age-zero cells produce no Mana. Whenever any live cells are absorbed by the 3x3 zone in the center, all other cells on the board die."
+				""
+				"{@pagebreak}"
+				""
+				"Cellular Blocks are crafted with cactus, carrots, potatoes, and beetroots. They won't yield anything when broken, nor can they be moved by pistons. They won't be generated by a Dandelifeon on any cell that doesn't contain air. "
+				""
+				"If all of this is super confusing, it is highly advisable to look up \"Conway's Game of Life\" and get an idea of what the simulations are inspired by. If this still seems very confusing it might be best to try a different flower. Even the most experienced botanists view this flowers requirements as a tall order."
+			]
 			id: "60A633CB92C4380E"
 			rewards: [
 				{
@@ -2198,6 +2243,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Good luck on this one Flower"
 			tasks: [{
 				id: "6CC755E83C62051B"
 				item: {
@@ -2216,6 +2262,14 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Thermalily is the lava version of the Hydroangeas. The flower absorbs lava around it (at the same Y level) to generate mana. After absorbing one block of lava, the flower will produce mana continually for approximately 30 seconds. Afterwards, it needs a bit of time to cool down before it can produce any more. It tends to decide on its own how long this cooldown period will be between absorbtions, anywhere from 20 seconds to a full 5 minutes."
+				""
+				"You can tell how long the current cooldown period lasts with a comparator: twenty seconds for each level of signal strength."
+				""
+				"The mana output the Thermalily produces during its active phase is extremely high, making it an ideal flower for a quick boost to mana reserves."
+				"However, during its cooldown period, any adjacent lava will be absorbed and reset the cooldown without yielding any mana."
+			]
 			id: "0786CBC21C9C62EC"
 			rewards: [
 				{
@@ -2237,6 +2291,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Lava Flower"
 			tasks: [{
 				id: "60354A96C95C5359"
 				item: {
@@ -2255,6 +2310,17 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Rosa Arcana can be supplied with a variety of inputs which all involve the same factor: experience."
+				""
+				"The flower can absorb any of these things when they are present in its vicinity: "
+				""
+				"- Experience points directly from a player."
+				""
+				"- Experience orbs."
+				""
+				"- Any enchanted items dropped."
+			]
 			id: "124C791F7EB4F9C8"
 			rewards: [
 				{
@@ -2276,6 +2342,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Experience Flower"
 			tasks: [{
 				id: "72A891851FD4EE0D"
 				item: {
@@ -2294,6 +2361,7 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: ["The Munchdew will consume any leaves in its vicinity and output a large burst of mana, this comes with a down time (approximately 1 minute) in between bursts though."]
 			id: "3B093545AB861AB2"
 			rewards: [
 				{
@@ -2315,6 +2383,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Leaves Flower"
 			tasks: [{
 				id: "2F5581C5534FAE93"
 				item: {
@@ -2333,6 +2402,11 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Entropinnyum generates bursts of mana from bursts of TNT. Igniting a block of TNT near an Entropinnyum will cause it to absorb all the entropy generated by the blast, converting it into mana and nullifying any damage in the process. However, to absorb the explosion, the flower must not have any mana stored in it, otherwise, BOOM!... as usual."
+				""
+				"It is worth noting that the entropinnyum can discern if the TNT ingited is duplicated or not, if so, it will produce a greatly reduced mana burst."
+			]
 			id: "1E9B144AD43DB095"
 			rewards: [
 				{
@@ -2354,6 +2428,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "TNT Flower"
 			tasks: [{
 				id: "718A2B47F35B07A2"
 				item: {
@@ -2372,6 +2447,7 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: ["The Kekimuru will consume any cakes placed in its vicinity and convert them into mana, pretty straight forward."]
 			id: "496CBABFEF926FCC"
 			rewards: [
 				{
@@ -2393,6 +2469,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Cake Flower"
 			tasks: [{
 				id: "2F3731A12F7B9CFD"
 				item: {
@@ -2411,6 +2488,18 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Gourmaryllis will consume any food items it finds in its vicinity and convert them into mana."
+				""
+				"It can only digest a single food item at any given time, outputting mana once it's done. It will devour any other foods while digesting, but yield no returns for those though."
+				""
+				""
+				"The amount of time it takes to digest any given food item depends on the nutritional value of the food in question. In short, the number of food points it restores. As such, a steak will take four seconds to digest, an apple will take two, a loaf of bread will take two and a half, etc. The rate of mana production will also vary with the nutritional benefit of the food meaning: the Gourmaryllis prefers larger, more nourishing foods. For example, a single steak will produce more mana than two Apples, both in total mana and  mana produced per-second."
+				""
+				"Of course, the Gourmaryllis loves variety in its diet. Feeding it many different foods can be very rewarding whereas feeding it the same food repeatedly isn;t going to work very well."
+				""
+				"In time, an experienced botanist can infer the Gourmaryllis' mood from the sounds it makes."
+			]
 			id: "2163E43C8D6F58EC"
 			rewards: [
 				{
@@ -2432,6 +2521,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Food Flower"
 			tasks: [{
 				id: "709EE8CB0958F15D"
 				item: {
@@ -2450,6 +2540,7 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: ["When placed in a slime chunk, The Narslimmus will absorb amy slimes in its vicinity created by the slime chuns spawning mechanics. The larger the slime absorbed, the larger the burst of mana produced."]
 			id: "242287085FA7718A"
 			rewards: [
 				{
@@ -2471,6 +2562,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Slime Flower"
 			tasks: [{
 				id: "24E0FB04507578A0"
 				item: {
@@ -2489,6 +2581,18 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Spectrolus flower consumes the various colors wool, it will consume any and all wool dropped nearby, converting them to mana."
+				""
+				"It's picky as to what colors it wants. Starting from white, after it consumes one piece of wool, it'll rotate to the next color in the spectrum."
+				""
+				""
+				"While Spectrolus' consume all wool around them, they will only generate any mana if they get the color they want, so just randomly tossing wool at it is wasteful at best, useless at worst. The color it desires at any given moment can be seen by hovering over the flower with a Wand of the Forest."
+				""
+				"{@pagebreak}"
+				""
+				"The flower is widely known to consume refined wool, but you wonder what would happen if you gave it wool straight \"from the source\"?..."
+			]
 			id: "0E5CD382A9CF2116"
 			rewards: [
 				{
@@ -2510,6 +2614,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Wool Flower"
 			tasks: [{
 				id: "67286A2CC7B7E4AE"
 				item: {
@@ -2528,6 +2633,11 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Rafflowsia will consume any &n&oplayer created&r&r flowers in its vicinity. Any flower that can be made in the apothecary can be used and once absorbed will generate a massive burst of mana. "
+				""
+				"As with many other flowers, providing it the same source repeatedly will provide diminishing returns so using a variety of flowers is always the best idea."
+			]
 			id: "3DEA84347E3F9457"
 			rewards: [
 				{
@@ -2549,6 +2659,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Flower... Flower?"
 			tasks: [{
 				id: "7C39371A91D41257"
 				item: {
@@ -2567,6 +2678,13 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
+			description: [
+				"The Shulk Me Not is a flower that creates mana from a shulkers levitation effects."
+				""
+				"If a nearby mob entity is targeted by and hit with a shulkers projectile, and the Shulk Me Nots internal buffer is empty, both entity and shulker will be killed, generating vast quantities of mana in the process."
+				""
+				"Something to take note of when planning your Shulk Me Not farm is that both entities' experience and loot are lost, and &nboth&r entities must be within the flower's range for this process to work."
+			]
 			id: "4953A679E9CC31DC"
 			rewards: [
 				{
@@ -2588,6 +2706,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Flying Flower"
 			tasks: [{
 				id: "5F9D88EF21AB12C9"
 				item: {
@@ -2606,6 +2725,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Bellethorn will use mana to inflict damage on any nearby entities, except for players."]
 			id: "60A7D013A5A9DB4B"
 			rewards: [
 				{
@@ -2627,6 +2747,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Damage Flower"
 			tasks: [{
 				id: "6A8CA313C100EE6E"
 				item: {
@@ -2645,6 +2766,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Bergamute will take in half of all sound waves emitted in its vicinity and convert that half into mana, stacking with other Bergamutes. Great for silencing mob farms among other things."]
 			id: "2A53624D4A290BF6"
 			rewards: [
 				{
@@ -2666,6 +2788,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Silence Flower"
 			tasks: [{
 				id: "5FB6A6B95507C888"
 				item: {
@@ -2684,6 +2807,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Dreadthorne is a slightly more specialized damage dealing flower in the sense that it will only damage all nearby &oadult&r mobs, leaving babies unscathed."]
 			id: "25F90334E79A4BA0"
 			rewards: [
 				{
@@ -2705,6 +2829,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Another Damage Flower"
 			tasks: [{
 				id: "62DC770A482603D6"
 				item: {
@@ -2718,11 +2843,12 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Heisei Dream will incite all mobs in its area to attack one another."]
 			id: "06D7055EAAF4F8FD"
 			rewards: [
 				{
@@ -2744,6 +2870,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Murder Flower :D"
 			tasks: [{
 				id: "6419B410DC8E205D"
 				item: {
@@ -2801,6 +2928,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Jaded Amaranthus will"]
 			id: "591899C2EEE556DA"
 			rewards: [
 				{
@@ -2822,6 +2950,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Another Flower... Flower?"
 			tasks: [{
 				id: "313258B684A26C96"
 				item: {
@@ -2835,11 +2964,12 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Orechid will use mana to convert any nearby stone blocks into ores. The ores it generates are random for all intents and purposes, but it does obey the rules of an ores rarity. if it's rare in the world it will probably be rare for the orechid to produce it (if it will at all)."]
 			id: "17AB109B31B13B1A"
 			rewards: [
 				{
@@ -2862,6 +2992,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Ore Flower"
 			tasks: [{
 				id: "5D6E5120B8FEA608"
 				item: {
@@ -2875,11 +3006,12 @@
 				}
 				type: "item"
 			}]
-			x: 13.374999999999986d
+			x: 14.874999999999986d
 			y: 5.5d
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Fallen Kanade will emit an aura of regeneration when supplied with mana, healing all players and tamed mobs within the area of effect."]
 			id: "019B5D7920DAC31C"
 			rewards: [
 				{
@@ -2901,6 +3033,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Healing Flower"
 			tasks: [{
 				id: "0151769261F88566"
 				item: {
@@ -2919,6 +3052,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The functional counterpart to the Endoflame, the Exoflame will use mana to generate heat, fueling nearby furnaces and giving them a small boost of speed."]
 			id: "1F7F2DA602B5D2F2"
 			rewards: [
 				{
@@ -2940,6 +3074,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Furnace Flower"
 			tasks: [{
 				id: "3859C55A5F64E9FF"
 				item: {
@@ -2953,11 +3088,12 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Agricarnation will use mana to speed up the growth of nearby crops in its vicinity."]
 			id: "1AC2CB3D5AA69AA7"
 			rewards: [
 				{
@@ -2979,6 +3115,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Bone Meal Flower"
 			tasks: [{
 				id: "706A2BB1C171A06F"
 				item: {
@@ -2997,6 +3134,15 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: [
+				"The Hopperhock collects all items around it and deposits them in adjacent inventories (like chests). Mana is optional, but will increase its range if provided."
+				""
+				"Placing item frames on adjacent inventories will specify which items can or can't go in them."
+				""
+				"Any inventory with no adjacent item frame can accept any items, but labelled inventories will take priority."
+				""
+				"The rule used to sort items can be changed by sneak-right clicking (or using a fake player entity such as a dispenser or deployer) on the flower with a Wand of the Forest in function mode."
+			]
 			id: "10F6C182A160BF70"
 			rewards: [
 				{
@@ -3018,6 +3164,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Item Insertion Flower"
 			tasks: [{
 				id: "165C7A4611191205"
 				item: {
@@ -3153,6 +3300,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Hyacidus will lace the air with noxious gases causing the health of all movs in its vicinity to drop to 1 health. Oddly enough the poison does not actually kill entities, simply dropping them to their lowest health point value, allowing for quick and easy clean up."]
 			id: "6DD0D2B0CCEE428D"
 			rewards: [
 				{
@@ -3174,6 +3322,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Poison Flower"
 			tasks: [{
 				id: "307FF65A6FD22154"
 				item: {
@@ -3231,6 +3380,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Clayconia simply converts nearby sand into clay."]
 			id: "0DED2EB3DA27FFFD"
 			rewards: [
 				{
@@ -3252,6 +3402,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Clay Flower"
 			tasks: [{
 				id: "4A59ED0222816332"
 				item: {
@@ -3309,6 +3460,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Daffomil will \"push\" all items in front of it forward, you can tell which direction it is facing by the particles emitted by and a Wand of the Forest can be used to change its orientation, if needed."]
 			id: "7AF7C930D7951FA5"
 			rewards: [
 				{
@@ -3330,6 +3482,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Item Moving Flower"
 			tasks: [{
 				id: "2EA2A7F5AF8D3458"
 				item: {
@@ -3382,7 +3535,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
+			x: 13.0d
 			y: 5.5d
 		}
 		{
@@ -3504,6 +3657,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["When placed under water and provided with a constant supply of mana the Bubbel will provide a dome of air approximately 12 blocks in radius."]
 			id: "4F0BA283C5F285C8"
 			rewards: [
 				{
@@ -3525,6 +3679,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Underwater Flower"
 			tasks: [{
 				id: "2BB3775B43301A17"
 				item: {
@@ -3777,6 +3932,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The effects of any flower made with redstone root can be toggled with a redstone signal."]
 			id: "24EEB676E61B31E4"
 			rewards: [
 				{
@@ -3798,6 +3954,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Redstone Control"
 			tasks: [{
 				id: "7336C5FA6932069E"
 				item: {
@@ -4628,6 +4785,32 @@
 			}]
 			x: 9.5d
 			y: 10.5d
+		}
+		{
+			dependencies: ["74974B293BF303C1"]
+			description: [
+				"Some functional flowers have too much reach for certain uses. Tossing one of those into a mana pool with an alchemy catalyst will shrink it, making its area of effect smaller, while leaving every other function the same."
+				""
+				"To make floating functional or generating flora simply combine the functional or generating flora with a floating glimmering flower."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:bellethorn_chibi"
+			}
+			id: "0A1DE836902C003A"
+			size: 1.5d
+			tasks: [{
+				id: "6628CCAA68C3CCCB"
+				title: "Petite/Floating Flowers"
+				type: "checkmark"
+			}]
+			x: 7.178571428571431d
+			y: 5.5d
 		}
 	]
 	title: "&eBotania"
