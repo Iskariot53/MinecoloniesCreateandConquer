@@ -2766,7 +2766,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
-			description: ["The Bergamute will take in half of all sound waves emitted in its vicinity and convert that half into mana, stacking with other Bergamutes. Great for silencing mob farms among other things."]
+			description: ["The Bergamute will take in half of all sound waves emitted by mobs in its vicinity and convert that half into mana, stacking with other Bergamutes. Great for silencing mob farms among other things."]
 			id: "2A53624D4A290BF6"
 			rewards: [
 				{
@@ -2889,6 +2889,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["It's a known fact that Creepers are terrified of cats. The Tigerseye exploits that fact, emitting a feline aura to petrify any nearby Creepers and preventing them from exploding. As a side-effect, it makes them flee nearby players."]
 			id: "678BA6E0FDBA529F"
 			rewards: [
 				{
@@ -2910,6 +2911,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Anti-Creeper Flower"
 			tasks: [{
 				id: "5BA7E2DBEB6B6E26"
 				item: {
@@ -2928,7 +2930,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
-			description: ["The Jaded Amaranthus will"]
+			description: ["The Jaded Amaranthus will use mana to generate new mystical flowers on coil in its area at a fairly rapid pace."]
 			id: "591899C2EEE556DA"
 			rewards: [
 				{
@@ -3183,6 +3185,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Tangleberrie is a flower that, for a small mana drain, keeps any nearby animals or monsters within a circular ward, preventing them from getting out."]
 			id: "0598F4791AC98A60"
 			rewards: [
 				{
@@ -3204,6 +3207,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Mob Trapping Flower"
 			tasks: [{
 				id: "0212B71343361A73"
 				item: {
@@ -3222,6 +3226,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The jiyuulia will create a sphere around itself barring animals and mobs from entering its range at the cost of a steady trickle of mana.."]
 			id: "61537DA632D4F793"
 			rewards: [
 				{
@@ -3243,6 +3248,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Mob Blocking Flower"
 			tasks: [{
 				id: "2F650B49F3B62F3F"
 				item: {
@@ -3261,6 +3267,15 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: [
+				"The Rannuncarpus will pick up nearby placeable items and place them within a large radius around itself as blocks, preferably facing them towards itself. However, it will only place blocks on top of a specific block type at a time; to specify this block, place it right below the soil the flower rests on."
+				""
+				"Items such as sugar cane can be placed as well, but only where a player would be able to."
+				""
+				"Mana for the flower is optional, but will increase its range if provided."
+				""
+				"Finally, placing item frames on the block under the soil will restrict the items the Rannuncarpus will pick up, similarly to a Hopperhock."
+			]
 			id: "5DF3505465AB7382"
 			rewards: [
 				{
@@ -3282,6 +3297,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Block Placer Flower"
 			tasks: [{
 				id: "1FD35FBBCD24244B"
 				item: {
@@ -3341,6 +3357,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Pollidisiac will use mana to feed nearby food items on the ground such as wheat, carrots, etc. to animals within range, putting them in better moods."]
 			id: "10038EEBAD47FD33"
 			rewards: [
 				{
@@ -3362,6 +3379,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Breeding Flower"
 			tasks: [{
 				id: "61664675FC1DF54F"
 				item: {
@@ -3421,6 +3439,14 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: [
+				"The Loonium will, when fed quite a bit of mana, summon monsters that can be fairly strong and will drop valuable loot when killed."
+				""
+				""
+				"Ordinarily the Loonium will summon mobs/treasure of the sort you would find in a dungeon, however, the Loonium is sensitive to the large structures you can find in the world. Meaning if planted in one such structure, it will instead summon mobs and treasures appropriate for its surroundings."
+				""
+				"It seems the Loonium is a bit picky, though... There may be some items that never drop from the monsters it spawns as well as structures the species is unfamiliar with."
+			]
 			id: "0A56E51EEA2A2F31"
 			rewards: [
 				{
@@ -3442,6 +3468,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Mob Spawning Flower"
 			tasks: [{
 				id: "1C874F00297E9856"
 				item: {
@@ -3501,6 +3528,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Vinculotus uses mana to hijack the powers of any Enderman within a large radius around it. Whenever an Enderman attempts a teleport within said radius, it's instead forced to the location of the Vinculotus."]
 			id: "641465DA01092C64"
 			rewards: [
 				{
@@ -3522,6 +3550,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Anti-Teleport Flower"
 			tasks: [{
 				id: "0BE1102392A3C6F9"
 				item: {
@@ -3540,6 +3569,11 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: [
+				"At some point, water channels and Daffomills just won't cut it. The Spectranthemum uses mana to warp the fabric of reality around any items near it, teleporting them elsewhere in the world. Note that mana-containing items interfere with the warp and can't be teleported. Also, that cost scales with the distance teleported. Single items can go over 2000 blocks, though your mana pools will pay a hefty price for it."
+				""
+				"To specify the destination of warped items, use a Wand of the Forest in bind mode to bind the flower to a location, the same way one would to a pool. To view what block the flower is bound to (as opposed to the pool it's pulling mana from), sneak while looking at it with a wand."
+			]
 			id: "798367D4FF2C28B3"
 			rewards: [
 				{
@@ -3561,6 +3595,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Item Moving Flower 2.0"
 			tasks: [{
 				id: "4B6E6400F5572749"
 				item: {
@@ -3579,6 +3614,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Medumonewill converts mana into a powerful slowing field that halts any nearby non-player entities in their tracks."]
 			id: "68D744FE07264535"
 			rewards: [
 				{
@@ -3600,6 +3636,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Stasis Flower"
 			tasks: [{
 				id: "4F96F3D94FC72407"
 				item: {
@@ -3618,6 +3655,27 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: [
+				"The Marimorphosis is a flower that induces metamorphic transformations in nearby stone blocks. These blocks are transmogrified into one of 8 different types of Metamorphic Stone. All 8 types can be generated anywhere, but the types that generate more often will depend on the biome planted in. All varieties can be used for bricks, chiseled bricks, slabs, stairs, and Petal Apothecary variants."
+				""
+				""
+				"{@pagebreak}"
+				"Solite will generate in deserts and savannas."
+				""
+				"Fuchsite appears in forest biomes (including taigas)."
+				""
+				"Mycelite generates in mushroom fields and underground biomes."
+				""
+				"Talc generates in plains and beaches."
+				""
+				"Rosy Talc is found in badlands and savannas."
+				""
+				"Gneiss appears in mountainous biomes."
+				""
+				"Cataclasite shows up in swamps and jungles."
+				""
+				"Lunite generates in cold biomes and taigas."
+			]
 			id: "137097D308BBDDFA"
 			rewards: [
 				{
@@ -3639,6 +3697,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Metamorphic Stone Flower"
 			tasks: [{
 				id: "5058EE0452B5CB83"
 				item: {
@@ -3698,6 +3757,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Solegnolia disrupts the Ring of Magnetization's field of effect and prevents any items in its range from being pulled towards a ring-bearer. It also prevents any ring-bearers in its range from pulling any items. It does not consume Mana."]
 			id: "7ED9900A3E2B933A"
 			rewards: [
 				{
@@ -3719,6 +3779,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Anti-Magnetism Flower"
 			tasks: [{
 				id: "330BBD4F36ABD815"
 				item: {
@@ -3737,6 +3798,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Orechid Ignem, a cousin of the orechid, works almost exactly the same as the overworld variety except it creates Nether ores from netherrack instead of from stone. The flower must be in the Nether dimension to work."]
 			id: "14BFA10329AB5698"
 			rewards: [
 				{
@@ -3758,6 +3820,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Nether Ore Flower"
 			tasks: [{
 				id: "716B8DC5FEEDEA6F"
 				item: {
@@ -3776,6 +3839,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
+			description: ["The Labellia will gather name tags dropped on it and apply them to nearby items and mobs in return for a small amount of mana."]
 			id: "7FAC67E26E772859"
 			rewards: [
 				{
@@ -3797,6 +3861,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Naming Flower"
 			tasks: [{
 				id: "122BEF46E22A7DD7"
 				item: {
@@ -4688,7 +4753,7 @@
 		{
 			dependencies: ["4E6415314C1C1207"]
 			description: [
-				"&l&nExtremely valuable in any mineolonies related affairs&r&r."
+				"&l&nExtremely valuable in any Minecolonies related affairs&r&r."
 				""
 				"The teru teru bozu is an amulet that can be placed into the world. Placing it while doing nothing else, will by itself shorten the duration of inclimate weather."
 				""

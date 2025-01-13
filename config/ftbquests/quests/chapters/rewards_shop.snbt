@@ -150,8 +150,8 @@
 				type: "item"
 			}]
 			title: "16x Logs"
-			x: -11.5d
-			y: -1.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -187,45 +187,8 @@
 				type: "item"
 			}]
 			title: "16x Stripped Logs"
-			x: -11.5d
+			x: -3.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["3B38BC10347BDA7D"]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "minecraft:oak_planks"
-			}
-			id: "7F6F867A1A82CB56"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1AB40B2BC77A68E6"
-				table_id: 8359439924187625768L
-				team_reward: false
-				type: "choice"
-			}]
-			tasks: [{
-				id: "7E5DDC5DD22DA708"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "numismatics:sprocket"
-				}
-				title: "1 Sprocket = 64 Planks"
-				type: "item"
-			}]
-			title: "64x Planks"
-			x: -11.5d
-			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -826,7 +789,7 @@
 			}]
 			title: "64x Stone"
 			x: -3.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -937,7 +900,7 @@
 			}]
 			title: "Stone Bundle"
 			x: -4.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1011,7 +974,7 @@
 			}]
 			title: "Coral Bundle"
 			x: -4.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1051,7 +1014,7 @@
 			}]
 			title: "Oxidized Copper Bundle"
 			x: -4.5d
-			y: 2.4642857142857153d
+			y: 3.4642857142857153d
 		}
 		{
 			dependencies: [
@@ -1091,7 +1054,7 @@
 			}]
 			title: "Dye Bundle"
 			x: -4.5d
-			y: 1.4642857142857153d
+			y: 2.4642857142857153d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1167,7 +1130,7 @@
 			}]
 			title: "64x Coral"
 			x: -3.5d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1208,7 +1171,7 @@
 			}]
 			title: "64x Oxidized Copper"
 			x: -3.5d
-			y: 2.4642857142857153d
+			y: 3.4642857142857153d
 		}
 		{
 			dependencies: [
@@ -1249,7 +1212,7 @@
 			}]
 			title: "64x Dye"
 			x: -3.5d
-			y: 1.4642857142857153d
+			y: 2.4642857142857153d
 		}
 		{
 			dependencies: [
@@ -1445,12 +1408,12 @@
 					}
 					id: "numismatics:cog"
 				}
-				title: "2 Cogs = 1 Random Flawless Gem"
+				title: "2 Cogs = 1 Random Flawless Gem/Jewel"
 				type: "item"
 			}]
-			title: "1x Flawless Gem"
-			x: -8.5d
-			y: -3.1785714285714306d
+			title: "1x Flawless Gem/Jewel"
+			x: -11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -1500,12 +1463,12 @@
 					}
 					id: "numismatics:crown"
 				}
-				title: "1 Crown = 1 Random Perfect Gem"
+				title: "1 Crown = 1 Random Perfect Gem/Jewel"
 				type: "item"
 			}]
-			title: "1x Perfect Gem"
-			x: -5.464285714285715d
-			y: -3.2142857142857153d
+			title: "1x Perfect Gem/Jewel"
+			x: -11.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -3684,6 +3647,356 @@
 			title: "Sell - 16x Seething Ablaze Rod"
 			x: -9.5d
 			y: -11.57d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_common"
+			}
+			id: "3969D5AAD4BF46F6"
+			rewards: [{
+				id: "7BFCEAF78217ACA2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_common"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7937A15DFF2E15AB"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:bevel"
+				}
+				title: "2 Bevels = 1 Common Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Common Hat Grab-Bag"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_uncommon"
+			}
+			id: "26167CEC961CA749"
+			rewards: [{
+				id: "2A69DF2CE5A7F69E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_uncommon"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24A76C47B30EEDE2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				title: "1 Sprocket = 1 Uncommon Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Uncommon Hat Grab-Bag"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_rare"
+			}
+			id: "2EA396608ADDEE03"
+			rewards: [{
+				id: "2059E30980752B3D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_rare"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "46F8FCA8494C1683"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				title: "2 Sprockets = 1 Rare Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Rare Hat Grab-Bag"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_epic"
+			}
+			id: "4DE14256C5274F37"
+			rewards: [{
+				id: "3E6331BCACAAA4AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_epic"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FB6D85EA26646A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "1 Cog = 1 Epic Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Epic Hat Grab-Bag"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_summer"
+			}
+			id: "4AD57708FF83E6DD"
+			rewards: [{
+				id: "66CCC7F74D8E2164"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_summer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "729B7AB958570CAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "2 Cogs = 1 Summer Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Summer Hat Grab-Bag"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_halloween"
+			}
+			id: "68DBB87388B78849"
+			rewards: [{
+				id: "6B95745D88A6718C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_halloween"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "059D8292AAF33E6F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "2 cogs = 1 Halloween Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Halloween Hat Grab-Bag"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_easter"
+			}
+			id: "11EC0D7EE683C622"
+			rewards: [{
+				id: "42BE878610AA40A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_easter"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "749D2B367DF36150"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "2 Cogs = 1 Easter Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Easter Hat Grab-Bag"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplehats:hatbag_festive"
+			}
+			id: "1E60AA08CF1F1EA2"
+			rewards: [{
+				id: "7E633306E4F4B656"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplehats:hatbag_festive"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "37796264A5C63503"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "2 Cogs = 1 Festive Hat Grab-Bag"
+				type: "item"
+			}]
+			title: "Festive Hat Grab-Bag"
+			x: 1.5d
+			y: 1.5d
 		}
 	]
 	title: "&dRewards Shop"
