@@ -764,6 +764,10 @@
 			#.
 			#Range: 0.0 ~ 1.7976931348623157E308
 			NIGHTMARE_STALKER_SPEED = 0.28
+			#Whether you get effects when hit by a nightmare stalker
+			NIGHTMARE_EFFECTS_ENABLED = true
+			#Whether nightmare stalker, gets stronger the longer the world is
+			NIGHTMARE_STRENGTH_ENABLED = true
 
 		[General.Mobs."Phantom Creeper"]
 			#.

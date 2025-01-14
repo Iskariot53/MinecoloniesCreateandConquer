@@ -17,12 +17,6 @@
 	allow_to_fill_existing_grave = true
 	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
 	nerf_ghostly_shape_teleport_with_key = false
-	#Cancel the Ghostly Shape effect when colliding an enemy [false/true|default:true]
-	nerf_ghostly_shape_enemy_collision = false
-	#Cancel the Ghostly Shape effect when opening a chest [false/true|default:true]
-	nerf_ghostly_shape_open_chest = true
-	#Cancel the Ghostly Shape effect when breaking a block [false/true|default:true]
-	nerf_ghostly_shape_break_block = true
 	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
 	#Range: 1 ~ 10
 	sniffer_range = 5
@@ -32,9 +26,6 @@
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
-	#Knowledge of Death loss on death [0..500|default:0]
-	#Range: 0 ~ 500
-	knowledge_loss = 0
 	#The chance that some items are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_loss_on_death = 0
@@ -171,46 +162,6 @@
 	#Range: 0 ~ 100
 	chance_pray_reward = 30
 
-#Allows to customize or disable the enchantments
-[enchantments]
-	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
-	nerf_plague_bringer = true
-	#Maximum duration of stolen effects in minutes [1..MAX|default:10]
-	#Range: > 1
-	max_duration_magic_siphon = 60
-	#Duration of applied effects in seconds [1..MAX|default:10]
-	#Range: > 1
-	duration_plague_bringer = 10
-	#Defines if players can steal effects to others players. If nerfed, the stolen effect duration is limited to 10% of the initial effect [ALLOW/NERFED/DISALLOW|default:ALLOW]
-	#Allowed Values: ALLOW, NERFED, DISALLOW
-	magic_siphon_on_player_rule = "ALLOW"
-	#Halves the reflected damages of Bone Shield [false/true|default:false]
-	nerf_curse_of_bones = false
-	#Cooldown in seconds to have a chance to obtain a new effect [0..60|default:10]
-	#Range: 0 ~ 60
-	cooldown_blessing = 10
-	#Minimum cooldown in seconds to have a chance to obtain Bone Shield [10..40|default:20]
-	#Range: 10 ~ 40
-	min_cooldown_curse_of_bones = 20
-	#Maximum cooldown in seconds to have a chance to obtain Bone Shield [60..120|default:60]
-	#Range: 60 ~ 120
-	max_cooldown_curse_of_bones = 60
-	#Minimum cooldown in seconds to have a chance to obtain Spectral Bite [3..20|default:3]
-	#Range: 3 ~ 20
-	min_cooldown_spectral_bite = 3
-	#Maximum cooldown in seconds to have a chance to obtain Spectral Bite [30..60|default:30]
-	#Range: 30 ~ 60
-	max_cooldown_spectral_bite = 30
-	#Minimum cooldown in seconds to have a chance to spawn a Spectral Wolf [3..20|default:3]
-	#Range: 20 ~ 90
-	min_cooldown_spectral_conjurer = 60
-	#Maximum cooldown in seconds to have a chance to spawn a Spectral Wolf [30..60|default:30]
-	#Range: 120 ~ 600
-	max_cooldown_spectral_conjurer = 240
-	#Maximum duration of conjured Spectral Wolf [10..300|default:120]
-	#Range: 10 ~ 300
-	max_duration_spectral_conjurer = 60
-
 #Options related to the command recovery and auto-save of players
 [recovery]
 	#Enables to backup automatically players [false/true|default:true]
@@ -228,8 +179,8 @@
 
 #Options related to looted items
 [loot]
-	#Maximum xp rewarded with a Lost Page of Erdös [1..200000|default:2000]
-	#Range: 1 ~ 200000
+	#Maximum xp rewarded with a Lost Page of Erdös [100..200000|default:2000]
+	#Range: 100 ~ 200000
 	max_xp_lost_page = 5000
 
 #Allows to enable some features related to others mods
