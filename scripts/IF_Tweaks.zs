@@ -398,7 +398,7 @@ craftingTable.remove(<item:industrialforegoing:black_hole_controller>);
     }
   ]
 });
-<recipetype:industrialforegoing:fluid_extractor>.addJsonRecipe("fluidextraction.sap",
+<recipetype:industrialforegoing:fluid_extractor>.addJsonRecipe("fluidextraction.sap_from_log",
 {
   "type": "industrialforegoing:fluid_extractor",
   "breakChance": 0.01,
@@ -408,6 +408,17 @@ craftingTable.remove(<item:industrialforegoing:black_hole_controller>);
   },
   "output": "{Amount:4,FluidName:\"create_dd:sap\"}",
   "result": "autumnity:stripped_maple_log"
+});
+<recipetype:industrialforegoing:fluid_extractor>.addJsonRecipe("fluidextraction.sap_from_stripped_log",
+{
+  "type": "industrialforegoing:fluid_extractor",
+  "breakChance": 0.01,
+  "defaultRecipe": false,
+  "input": {
+    "item": "autumnity:stripped_maple_log"
+  },
+  "output": "{Amount:2,FluidName:\"create_dd:sap\"}",
+  "result": "minecraft:air"
 });
 craftingTable.addShaped("minecraft.f1_rocket", <item:minecraft:firework_rocket>.withTag({Fireworks: {Flight: 1}}), [[<tag:items:forge:gunpowder>, <tag:items:forge:paper>]]);
 craftingTable.addShaped("minecraft.f2_rocket", <item:minecraft:firework_rocket>.withTag({Fireworks: {Flight: 2}}), [[<tag:items:forge:gunpowder>, <tag:items:forge:gunpowder>, <tag:items:forge:paper>]]);
