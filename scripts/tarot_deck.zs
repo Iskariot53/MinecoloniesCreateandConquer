@@ -9,7 +9,7 @@ craftingTable.remove(<item:tarotcards:tarot_deck>);
   "pedestalItems": [
     {
       "item": {
-        "item": "tarotcards:justice"
+        "tag": "tarotcards:tarot_cards"
       }
     },
     {
@@ -19,7 +19,7 @@ craftingTable.remove(<item:tarotcards:tarot_deck>);
     },
     {
       "item": {
-        "item": "tarotcards:the_magician"
+        "tag": "tarotcards:tarot_cards"
       }
     },
     {
@@ -39,7 +39,7 @@ craftingTable.remove(<item:tarotcards:tarot_deck>);
     },
     {
       "item": {
-        "item": "tarotcards:the_magician"
+        "tag": "tarotcards:tarot_cards"
       }
     },
     {

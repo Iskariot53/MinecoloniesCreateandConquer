@@ -2660,6 +2660,7 @@
 				"3B38BC10347BDA7D"
 				"04F5E10803F9EB28"
 			]
+			disable_toast: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2671,6 +2672,7 @@
 			}
 			id: "6634572B62ED9F96"
 			rewards: [{
+				auto: "enabled"
 				count: 16
 				id: "383E69AE80A40EA0"
 				item: {
@@ -2682,6 +2684,7 @@
 					}
 					id: "scguns:powder_and_ball"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -2719,7 +2722,8 @@
 			}
 			id: "4C37712361529F96"
 			rewards: [{
-				count: 12
+				auto: "enabled"
+				count: 16
 				id: "005226587491EFDC"
 				item: {
 					Count: 1
@@ -2730,13 +2734,14 @@
 					}
 					id: "scguns:standard_bullet"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
 				count: 2L
 				id: "544A73A046394577"
 				item: {
-					Count: 2
+					Count: 1
 					ForgeCaps: {
 						"celestisynth:celestisynthitemstackcapabilities": {
 							cs.aquaSkin: 0
@@ -2744,10 +2749,10 @@
 					}
 					id: "numismatics:bevel"
 				}
-				title: "2 Bevels = 12 Standard Bullets"
+				title: "2 Bevels = 16 Standard Bullets"
 				type: "item"
 			}]
-			title: "12x Standard Bullets"
+			title: "16x Standard Bullets"
 			x: -11.5d
 			y: -0.5d
 		}
@@ -2756,6 +2761,7 @@
 				"3B38BC10347BDA7D"
 				"04F5E10803F9EB28"
 			]
+			disable_toast: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2767,6 +2773,7 @@
 			}
 			id: "44E88153706D8EE1"
 			rewards: [{
+				auto: "enabled"
 				count: 12
 				id: "2084FF9A591A71C6"
 				item: {
@@ -2778,6 +2785,7 @@
 					}
 					id: "scguns:hardened_bullet"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -2815,6 +2823,7 @@
 			}
 			id: "57DFEF97E6CE68EF"
 			rewards: [{
+				auto: "enabled"
 				count: 12
 				id: "39FCE05F854042E5"
 				item: {
@@ -2826,6 +2835,7 @@
 					}
 					id: "scguns:grapeshot"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -2863,6 +2873,7 @@
 			}
 			id: "2AE1804FB2849B88"
 			rewards: [{
+				auto: "enabled"
 				count: 12
 				id: "145E67960169FD1B"
 				item: {
@@ -2874,6 +2885,7 @@
 					}
 					id: "scguns:buckshot"
 				}
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -3129,6 +3141,8 @@
 				""
 				"{@pagebreak}"
 				"They come in multiple sizes and are great for visualizing your progress towards a particular &eNumi Coin&r producing method, as well as allowing you to leave your automations to process while you claim your Numi Coins from anywhere in the world upon completion via the quest book. "
+				""
+				"Danks make for great \"wallets\" allowing you to automate collections on the go without flooding your inventory with coins!"
 			]
 			icon: {
 				Count: 1
@@ -3891,7 +3905,7 @@
 			}]
 			title: "Summer Hat Grab-Bag"
 			x: 1.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3935,7 +3949,7 @@
 			}]
 			title: "Halloween Hat Grab-Bag"
 			x: 2.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3979,7 +3993,7 @@
 			}]
 			title: "Easter Hat Grab-Bag"
 			x: 2.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4023,7 +4037,7 @@
 			}]
 			title: "Festive Hat Grab-Bag"
 			x: 1.5d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -4073,6 +4087,365 @@
 			title: "1x Jewel Lottery"
 			x: -2.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 22
+					}
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tarotcards:tarot_deck"
+			}
+			id: "32007E583BB1EEEA"
+			rewards: [{
+				auto: "enabled"
+				id: "15A2DA2B658B41DC"
+				table_id: 1450800880411755244L
+				team_reward: false
+				type: "random"
+			}]
+			size: 1.25d
+			tasks: [{
+				count: 2L
+				id: "2E0A566F10545683"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				title: "2 Suns = 1 Random Tarot Card"
+				type: "item"
+			}]
+			title: "1x Tarot Card"
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "villagersellanimals:crate_chick"
+			}
+			id: "1F372816D8613FCB"
+			rewards: [{
+				auto: "enabled"
+				id: "1592C475B440E6E7"
+				table_id: 4147103740527953492L
+				team_reward: false
+				type: "random"
+			}]
+			tasks: [{
+				id: "45B9BF1435B062F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "1 Cog = 1 Random Mob Crate"
+				type: "item"
+			}]
+			title: "1x Mob Crate"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "artifacts:mimic_spawn_egg"
+			}
+			id: "3A8183FBB3F1250C"
+			rewards: [{
+				auto: "enabled"
+				id: "715BA02F77178DBE"
+				table_id: 7986914059798556777L
+				team_reward: false
+				type: "random"
+			}]
+			tasks: [{
+				id: "39B3FDB60BDB6D40"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				title: "1 Sun = 1 Random Artifact"
+				type: "item"
+			}]
+			title: "1x Artifact"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3B38BC10347BDA7D"
+				"04F5E10803F9EB28"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "scguns:standard_copper_round"
+			}
+			id: "12CF2FAB487E014A"
+			rewards: [{
+				count: 16
+				id: "4318BC7974718B4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:standard_copper_round"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "427A25518D92D0B6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				title: "1 Sprocket = 16 Standard Copper Rounds"
+				type: "item"
+			}]
+			title: "16x Standard Copper Rounds"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3B38BC10347BDA7D"
+				"04F5E10803F9EB28"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "scguns:advanced_round"
+			}
+			id: "652B5526407216B1"
+			rewards: [{
+				count: 12
+				id: "0291C95903977397"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:advanced_round"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "30E16AC5A7ED9D7D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				title: "2 Sprockets = 12 Advanced Rounds"
+				type: "item"
+			}]
+			title: "12x Advanced Rounds"
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"3B38BC10347BDA7D"
+				"04F5E10803F9EB28"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "scguns:krahg_round"
+			}
+			id: "15CCF82AB5B1ECC9"
+			rewards: [{
+				count: 12
+				id: "4E73D2737ED802E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:krahg_round"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4DA528099929A4D5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "1 Cog = 12 Krahg Rounds"
+				type: "item"
+			}]
+			title: "12x Krahg Rounds"
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3B38BC10347BDA7D"
+				"04F5E10803F9EB28"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "scguns:shotgun_shell"
+			}
+			id: "2639091705E401D3"
+			rewards: [{
+				count: 16
+				id: "6A1999B301BCF286"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:shotgun_shell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EB9DF045195A87C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sprocket"
+				}
+				title: "1 Sprocket = 16 Shotgun Shells"
+				type: "item"
+			}]
+			title: "16x Shotgun Shells"
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3B38BC10347BDA7D"
+				"04F5E10803F9EB28"
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "scguns:bearpack_shell"
+			}
+			id: "3FD8BDDA33DC8C92"
+			rewards: [{
+				count: 12
+				id: "733AF40FFB8C16DA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "scguns:bearpack_shell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "140967C3DE20FBA4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				title: "1 Cog = 12 Bearpack Shells"
+				type: "item"
+			}]
+			title: "12x Bearpack Shells"
+			x: -12.5d
+			y: 2.5d
 		}
 	]
 	title: "&dRewards Shop"
