@@ -404,41 +404,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1CDD59D36902239A"]
-			id: "6181B92FC3F3CD17"
-			rewards: [
-				{
-					id: "5217E2A49753E2DD"
-					type: "xp"
-					xp: 40
-				}
-				{
-					count: 2
-					id: "59C7AC8022955D1B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:sprocket"
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Find an ancient affixed item"
-			tasks: [{
-				advancement: "apotheosis:affix/ancient"
-				criterion: ""
-				id: "56DFF5017521E1AE"
-				type: "advancement"
-			}]
-			x: -11.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["1CDD59D36902239A"]
+			dependencies: ["6E23C3ABF6035262"]
 			id: "03CC6398F4D739D9"
 			rewards: [
 				{
@@ -467,7 +433,7 @@
 				id: "4C42B3EA36D7355E"
 				type: "advancement"
 			}]
-			x: -12.5d
+			x: -11.0d
 			y: 3.0d
 		}
 		{
