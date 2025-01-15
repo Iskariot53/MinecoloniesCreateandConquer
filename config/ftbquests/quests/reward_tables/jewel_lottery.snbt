@@ -1,0 +1,909 @@
+{
+	id: "3CF85FE05FDBEC55"
+	loot_size: 1
+	order_index: 40
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:curios/reinforced"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:curios/twisted"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:curios/vitalic"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/amber"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/archmage"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/armor"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/ars_mana"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/cataclysm"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/depths"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/felfire"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/flux"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/heartland"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/hearty"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/midas"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/safari"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/thermal"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/uranium"
+				}
+			}
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:curios/reinforced"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:curios/twisted"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:curios/vitalic"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/amber"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/archmage"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/armor"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/ars_mana"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/cataclysm"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/depths"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/felfire"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/flux"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/heartland"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/hearty"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/midas"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/safari"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/thermal"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:heirloom"
+					}
+					gem: "apotheotic_additions:modded/uranium"
+				}
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:curios/reinforced"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:curios/twisted"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:curios/vitalic"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/amber"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/archmage"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/armor"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/ars_mana"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/cataclysm"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/depths"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/felfire"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/flux"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/heartland"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/hearty"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/midas"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/safari"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/thermal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:esoteric"
+					}
+					gem: "apotheotic_additions:modded/uranium"
+				}
+			}
+		}
+	]
+	title: "Jewel Lottery"
+}
