@@ -10,6 +10,22 @@
 
   // this is a list of custom spread factors
   "customSpreadFactors": [
+    {
+      "structure": "apotheosis:tower_leaf",
+      "factor": 2.4
+    },
+	{
+      "structure": "apotheosis:tower_main",
+      "factor": 2.4
+    },
+	{
+      "structure": "apotheosis:tower_sand",
+      "factor": 2.4
+    },
+	{
+      "structure": "apotheosis:tower_spruce",
+      "factor": 2.4
+    },
     // example of the mansion being doubled in rarity (the mod's default)
     {
       "structure": "minecraft:mansion",
