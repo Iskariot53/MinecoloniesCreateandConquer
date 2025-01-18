@@ -1,6 +1,6 @@
 
 [tweaks]
-	"Double Door Opening" = false
+	"Double Door Opening" = true
 	"Armed Armor Stands" = true
 	"Automatic Recipe Unlock" = true
 	"Better Elytra Rocket" = true
@@ -29,7 +29,7 @@
 	"Petals On Water" = true
 	"Pig Litters" = true
 	"Poison Potato Usage" = true
-	"Reacharound Placing" = true
+	"Reacharound Placing" = false
 	"Renewable Spore Blossoms" = true
 	"Replace Scaffolding" = true
 	"Safer Creatures" = true
@@ -39,18 +39,18 @@
 	"Slimes To Magma Cubes" = true
 	"Snow Golem Player Heads" = true
 	"Utility Recipes" = true
-	"Vexes Die With Their Masters" = true
+	"Vexes Die With Their Masters" = false
 	"Villagers Follow Emeralds" = true
 	"Zombie Villagers On Normal" = true
 
 	[tweaks.double_door_opening]
-		"Enable Doors" = false
+		"Enable Doors" = true
 		"Enable Fence Gates" = false
 		#This feature disables itself if any of the following mods are loaded:
 		# - utilitix
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -130,8 +130,8 @@
 		"Maximum Water Drain" = 256
 		#The maximum number of water tiles that a sponge can 'crawl along' for draining. Vanilla default is 6.
 		#Allowed values: [6,)
-		"Maximum Crawl Distance" = 10
-		"Enable Placing On Water" = true
+		"Maximum Crawl Distance" = 8
+		"Enable Placing On Water" = false
 
 	[tweaks.lock_rotation]
 		#When true, lock rotation indicator in the same style as crosshair
@@ -236,7 +236,7 @@
 		#Can Coral be crafted into dye?
 		"Coral To Dye" = true
 		#Can cookies, paper, and bread be crafted in a 2x2 crafting table?
-		"Bent Recipes" = true
+		"Bent Recipes" = false
 		#Can Rotten Flesh and Poisonous Potatoes be composted?
 		"Compostable Toxins" = true
 		#Does Dragon Breath return a bottle when used as a reagent or material?
@@ -244,7 +244,7 @@
 		#Can torches can be used as fuel in furnaces?
 		"Torches Burn" = true
 		#Can bones be smelted down to bone meal?
-		"Bone Meal Utility" = true
+		"Bone Meal Utility" = false
 		#Can Charcoal be crafted into Black Dye?
 		"Charcoal To Black Dye" = true
 		#Can two Logs be used instead of a Chest to make a Hopper?
@@ -339,7 +339,7 @@
 	[automation.feeding_trough]
 		#How long, in game ticks, between animals being able to eat from the trough
 		#Allowed values: [1,)
-		Cooldown = 30
+		Cooldown = 10
 		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
 		"Max Animals" = 32
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
@@ -434,7 +434,7 @@
 		#Set to true for faster map updates. Default is every 3s
 		"Glass Item Frames Update Maps Every Tick" = false
 		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
-		"Item Render Scale" = 1.5
+		"Item Render Scale" = 1.0
 
 	[building.gold_bars]
 		"Generate In Nether Fortress" = true
@@ -452,8 +452,8 @@
 
 	[building.leaf_carpet]
 		#This feature disables itself if any of the following mods are loaded:
-		# - immersive_weathering
 		# - woodworks
+		# - immersive_weathering
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
@@ -492,40 +492,40 @@
 		#Allowed values: [0,1]
 		"Fall Damage Multiplier" = 0.5
 		#This feature disables itself if any of the following mods are loaded:
-		# - environmental
 		# - goated
+		# - environmental
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[building.variant_bookshelves]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[building.variant_chests]
-		"Enable Reverting Wooden Chests" = true
-		"Replace Worldgen Chests" = true
+		"Enable Reverting Wooden Chests" = false
+		"Replace Worldgen Chests" = false
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = []
 		#This feature disables itself if any of the following mods are loaded:
 		# - woodworks
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[building.variant_ladders]
 		"Change Names" = true
 		#This feature disables itself if any of the following mods are loaded:
-		# - woodster
 		# - woodworks
+		# - woodster
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
-		"Ignore Anti Overlap" = false
+		"Ignore Anti Overlap" = true
 
 	[building.vertical_slabs]
 		#Should Walls and Panes attempt to connect to the side of Vertical Slabs?
@@ -543,7 +543,7 @@
 	"Hotbar Changer" = true
 	"Inventory Sorting" = true
 	"Item Sharing" = true
-	"Quick Armor Swapping" = true
+	"Quick Armor Swapping" = false
 
 	[management.automatic_tool_restock]
 		#Enchantments deemed important enough to have special priority when finding a replacement
@@ -775,7 +775,7 @@
 	"Fairy Rings" = true
 	"Fallen Logs" = true
 	"Glimmering Weald" = true
-	"Monster Box" = true
+	"Monster Box" = false
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
 	"No More Lava Pockets" = true
@@ -1656,7 +1656,7 @@
 		"Enable Shiny Llama" = true
 		"Enable Shiny Dolphin" = true
 		"Enable Shiny Slime" = true
-		"Enable L G B T Bees" = true
+		"Enable L G B T Bees" = false
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
@@ -1728,27 +1728,27 @@
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots
-		"Disable Iron Farms" = true
+		"Disable Iron Farms" = false
 		#Makes Boats not glide on ice
-		"Disable Ice Roads" = true
+		"Disable Ice Roads" = false
 		#Makes Sheep not drop Wool when killed
-		"Disable Wool Drops" = true
+		"Disable Wool Drops" = false
 		#Disables mob griefing for only specific entities
 		"Enable Selective Mob Griefing" = true
 		#Force Elytra to only work in specific dimensions
-		"Enable Dimension Locked Elytra" = true
+		"Enable Dimension Locked Elytra" = false
 		#Makes falling blocks not able to be duped via dimension crossing
 		"Disable Falling Block Dupe" = true
 		#Fixes several piston physics exploits, most notably including TNT duping
-		"Disable Piston Physics Exploits" = true
+		"Disable Piston Physics Exploits" = false
 		#Fixes mushroom growth being able to replace blocks
-		"Disable Mushroom Block Removal" = true
+		"Disable Mushroom Block Removal" = false
 		#Makes tripwire hooks unable to be duplicated
 		"Disable Tripwire Hook Dupe" = true
 		#Makes villages spawn less often when close to spawn
-		"Village Spawn Nerf" = false
+		"Village Spawn Nerf" = true
 		#Distance at which villages will spawn as normal. Effect scales linearly from world spawn
-		"Village Spawn Nerf Distance" = 7000
+		"Village Spawn Nerf Distance" = 2000
 		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
 
