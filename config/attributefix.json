@@ -231,6 +231,28 @@
         "value": 1024
       }
     },
+    "protection_pixel:fogperspective": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 30,
+        "value": 30
+      }
+    },
+    "protection_pixel:drone": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "protection_pixel:prostheticattack": {
       "enabled": false,
       "min": {
@@ -331,6 +353,17 @@
       }
     },
     "protection_pixel:hellfire": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "protection_pixel:neutrality": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -724,6 +757,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "protection_pixel:cleave": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "attributeslib:prot_pierce": {

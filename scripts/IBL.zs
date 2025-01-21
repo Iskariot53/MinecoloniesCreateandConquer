@@ -1,9 +1,6 @@
 craftingTable.remove(<item:ironfurnaces:augment_generator>);
-
 craftingTable.remove(<item:twilightforest:uncrafting_table>);
-
 craftingTable.remove(<item:botania:lens_storm>);
-
 <recipetype:create:deploying>.remove(<item:createcasing:creative_casing>);
 <recipetype:create:item_application>.remove(<item:createcasing:creative_casing>);
 craftingTable.remove(<item:createcasing:creative_gearbox>);
@@ -11,11 +8,8 @@ craftingTable.remove(<item:createcasing:creative_mixer>);
 craftingTable.remove(<item:createcasing:creative_encased_chain_drive>);
 craftingTable.remove(<item:createcasing:creative_press>);
 craftingTable.remove(<item:createcasing:creative_depot>);
-
 <recipetype:ars_nouveau:glyph>.removeByName("adamsarsplus:glyph_effectdomain");
-
 craftingTable.remove(<item:ojs_rpg_origins:whelm>);
-
 craftingTable.remove(<item:mekanism:mekasuit_helmet>);
 craftingTable.remove(<item:mekanism:mekasuit_bodyarmor>);
 craftingTable.remove(<item:mekanism:mekasuit_pants>);
@@ -40,20 +34,13 @@ craftingTable.remove(<item:mekanism:module_motorized_servo_unit>);
 craftingTable.remove(<item:mekanism:module_hydraulic_propulsion_unit>);
 craftingTable.remove(<item:mekanism:module_magnetic_attraction_unit>);
 craftingTable.remove(<item:mekanism:module_frost_walker_unit>);
-
 craftingTable.remove(<item:reliquary:magicbane>);
 craftingTable.remove(<item:reliquary:fertile_lily_pad>);
-
 craftingTable.remove(<item:bhc:blade_of_vitality>);
-
 craftingTable.remove(<item:easy_villagers:auto_trader>);
 <recipetype:productivebees:bee_breeding>.removeByName("productivebees:bee_breeding/raw_materials/osmium_bee");
-
 craftingTable.removeByName("enlightened_end:cerulean_planks");
 craftingTable.removeByName("better_fishing_rods:fishing_rods_to_wood_recipe");
-
 <recipetype:create:crushing>.removeByName("createhaven:crushing/blocks/recycle_copper_blocks");
-
 <recipetype:productivebees:bee_conversion>.removeByName("productivebees:bee_conversion/reactors/graphite_bee");
-
-//template:craftingTable.remove(<item:>);
+//template for server admin: craftingTable.remove(<item:>);
