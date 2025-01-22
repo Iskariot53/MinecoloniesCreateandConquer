@@ -43,4 +43,5 @@ craftingTable.removeByName("enlightened_end:cerulean_planks");
 craftingTable.removeByName("better_fishing_rods:fishing_rods_to_wood_recipe");
 <recipetype:create:crushing>.removeByName("createhaven:crushing/blocks/recycle_copper_blocks");
 <recipetype:productivebees:bee_conversion>.removeByName("productivebees:bee_conversion/reactors/graphite_bee");
+craftingTable.removeByName("minecraft:orb_of_origin");
 //template for server admin: craftingTable.remove(<item:>);

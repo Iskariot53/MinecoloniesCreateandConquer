@@ -1862,6 +1862,650 @@
 			x: 30.0d
 			y: 30.0d
 		}
+		{
+			dependencies: ["375EB6ADD26E0668"]
+			description: ["The best way to get starting with higher level &denchanting&r will be to gather the materials to make 16 &3sea shelf&r"]
+			hide_dependency_lines: true
+			id: "6DD809C91507EE22"
+			rewards: [
+				{
+					id: "1E388E5C18F6655F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "3E27ACCE56C5448B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "739F250BB968FA70"
+				item: {
+					Count: 16
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:seashelf"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6DD809C91507EE22"]
+			description: ["Once you have 16 &3sea shelves&r, Place down 15 around an &5enchanting table&r and use it to &dinfuse&r the 16th."]
+			id: "3C7B696ED6CF5C8B"
+			rewards: [
+				{
+					id: "081336024C515BFB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5BC95D8FB04624E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "5E0A47903557DD44"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DAD2AD582EDA9FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:infused_seashelf"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3C7B696ED6CF5C8B"]
+			description: ["Craft 2 &9Heart-Forged Seashelf&r."]
+			id: "3F32DAF61A75DA63"
+			rewards: [
+				{
+					id: "4B022525D53832DD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "2CE999AC44448474"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "304932C8891E6E1E"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:heart_seashelf"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3C7B696ED6CF5C8B"]
+			description: ["Craft 7 &bCrystalline Seashelf&r."]
+			id: "3F00DCAB35133433"
+			rewards: [
+				{
+					id: "6EDBCCDDA60145D9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "77DD5B586338F6A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "76A2A74E96F086C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 7L
+				id: "77D68ABC5CCA0F50"
+				item: {
+					Count: 7
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:crystal_seashelf"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3C7B696ED6CF5C8B"]
+			description: ["Now Craft 10 &3Dormant Deepshelf&r"]
+			id: "73F084BA44EC7B0C"
+			rewards: [
+				{
+					id: "7397D4B02D2FAA73"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "63B1E5B22C6491AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "7CB1702D2A0030A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:dormant_deepshelf"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"3F32DAF61A75DA63"
+				"73F084BA44EC7B0C"
+				"3F00DCAB35133433"
+			]
+			description: ["Now place down all of your &9Seashelves&r and use the set up to convert all 10 of your &3Dormant Deepshelf&r into &7Deepshelf&r"]
+			id: "3D7A479206F8D24C"
+			rewards: [
+				{
+					id: "78E96BF9DC4049E4"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 2
+					id: "31C3ADA4BBB6DF47"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "6AFCA7EE20D7A766"
+				item: {
+					Count: 10
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:deepshelf"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3D7A479206F8D24C"]
+			description: ["Craft 5 &3Soul-Touched Deepshelf&r"]
+			id: "0CD8B8B4D1AE4BD3"
+			rewards: [
+				{
+					id: "78F762D79CC05F0C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "42705C4C26A9F9A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "35CEE188245B9F49"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:soul_touched_deepshelf"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3D7A479206F8D24C"]
+			description: ["Craft 5 &3Echoing Deepshelf&r"]
+			id: "3C44F06BA2CF0B62"
+			rewards: [
+				{
+					id: "549BF3F461917046"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "0C3C1E9AE08ADEF0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "291C330C651F10FB"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:echoing_deepshelf"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["0CD8B8B4D1AE4BD3"]
+			description: [
+				"Upgrade your &3Soul-Touched Deepshelves&r to &9Soul-Touched Sculkshelves&r."
+				""
+				"We are done upgrading these shelves and will use them for our final enchanting set-up and other infusion crafting."
+			]
+			id: "6A878C75D220D219"
+			rewards: [
+				{
+					id: "4652B03DC97B1CCA"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7725A32C411EF251"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "715C02E86035F306"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:soul_touched_sculkshelf"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3C44F06BA2CF0B62"]
+			description: [
+				"Upgrade your &3Echoing Deepshelves&r to&9 Echoing Sculkshelves&r. "
+				""
+				"We are done upgrading these shelves and will use them for our final enchanting set-up and other infusion crafting."
+			]
+			id: "0FBD251910CA4BE7"
+			rewards: [
+				{
+					id: "4C81179E82B789DF"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5EF03B488041F7D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 5L
+				id: "49A2E1FC2AE28217"
+				item: {
+					Count: 5
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:echoing_sculkshelf"
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3D7A479206F8D24C"]
+			description: ["!0 &aMelonshelf&r, 5 &3Echoing Sculkshelf&r, and 5 &3Soul-Touched Sculk Shelf&r can be used to make &dInfused Dragon's Breath&r."]
+			id: "5F291621E68E7A43"
+			rewards: [
+				{
+					id: "22A4C912AA7304DE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "74935D5ECEAF743A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "088D317A115F2D37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 10L
+				id: "2D2B391898DC7AA9"
+				item: {
+					Count: 10
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:melonshelf"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"5F291621E68E7A43"
+				"0FBD251910CA4BE7"
+				"6A878C75D220D219"
+			]
+			id: "3F6CC4E79ED9AC5A"
+			rewards: [
+				{
+					id: "73AFD433581866E9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1109FB61CA2B1ABF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C763839AFECCC18"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:infused_breath"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"3F6CC4E79ED9AC5A"
+				"0FBD251910CA4BE7"
+				"6A878C75D220D219"
+			]
+			description: ["Craft 1 &5Draconic Endshelf&r"]
+			id: "163E233F09160049"
+			rewards: [
+				{
+					id: "394267F03F49B326"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "5F368BE9D83B2565"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DE8E6C614EEBC90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:draconic_endshelf"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"0CD8B8B4D1AE4BD3"
+				"3C44F06BA2CF0B62"
+			]
+			description: [
+				"Last but not least. Craft 3 &dShelf of End-Fused Rectification&r."
+				""
+				"with these, our &5Draconic Endshelf&r, and our 10 &3Sculkshelves&r, we have everyhting necessary to reach the maximum enchanting level. There are other shelves that cen be used for added effects. Try experimenting!"
+			]
+			hide_dependency_lines: true
+			id: "087E494DA97F22D7"
+			rewards: [
+				{
+					id: "35297099B9533B3E"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "09D4A57CEE3267A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "716F79A666F1B59F"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheosis:rectifier_t3"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 18.5d
+		}
 	]
 	title: "&eApotheotic Ascension"
 }
