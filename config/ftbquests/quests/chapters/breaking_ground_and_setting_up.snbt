@@ -49,13 +49,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "The start of an empire"
+			subtitle: "&eThe start of an empire"
 			tasks: [{
 				id: "66E2F4211A68508D"
 				title: "Check, Check, Check.."
 				type: "checkmark"
 			}]
-			title: "The Basics"
+			title: "&6&lThe Basics"
 			x: -0.5d
 			y: -4.5d
 		}
@@ -81,7 +81,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Let's not get ahead of ourselves..."
+			subtitle: "&eLet's not get ahead of ourselves..."
 			tasks: [{
 				id: "5DF2E4CF75F5E6B1"
 				item: {
@@ -93,14 +93,22 @@
 				}
 				type: "item"
 			}]
-			title: "Vanilla Gear"
+			title: "&6&lVanilla Gear"
 			x: -0.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
 			description: ["From simplistic drawers and racks, to large scale logistic networks, a variety of storage options have been made available to you, take your pick!"]
-			icon: "minecraft:chest"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:chest"
+			}
 			id: "4F98CC4F3B2B2CF9"
 			rewards: [{
 				id: "07B9471C9AFF01E0"
@@ -108,10 +116,10 @@
 				xp: 5
 			}]
 			size: 1.25d
-			subtitle: "Storing all the things"
+			subtitle: "&eStoring all the things"
 			tasks: [{
 				id: "7AA0D0D15E5106B2"
-				title: "Storage"
+				title: "&6&lStorage"
 				type: "checkmark"
 			}]
 			x: 3.4285714285714306d
@@ -120,7 +128,15 @@
 		{
 			dependencies: ["771588CF1624B99F"]
 			description: ["From catching and breeding resource laden mobs to grinding stone and sifting the by-products, a multitude of farming methods are at your disposal."]
-			icon: "minecraft:wheat"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:wheat"
+			}
 			id: "72ABF1E13212EB7A"
 			rewards: [{
 				id: "70905670369BBAA9"
@@ -128,10 +144,10 @@
 				xp: 5
 			}]
 			size: 1.25d
-			subtitle: "Farming all the things"
+			subtitle: "&eFarming all the things"
 			tasks: [{
 				id: "01317A17499831BE"
-				title: "Resource Production"
+				title: "&6&lResource Production"
 				type: "checkmark"
 			}]
 			x: -4.160714285714278d
@@ -154,18 +170,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "No introduction needed"
+			subtitle: "&eNo introduction needed"
 			tasks: [{
 				id: "6D6C482B14FFFD76"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
+			title: "&6Backpack"
 			x: 2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
-			description: ["Danks, easily configured, can be used for picking up and storing VERY large amounts of items in bulk. They're great for mining and gathering resources while keeping your pack and inventory clean."]
+			description: [
+				"Danks, easily configured, can be used for picking up and storing VERY large amounts of items in bulk. They're great for mining and gathering resources while keeping your pack and inventory clean."
+				""
+				"They also work great for collecting coins, should you choose to automate sales with a task screen."
+			]
 			id: "3A62EDEC4F73063C"
 			rewards: [
 				{
@@ -180,13 +201,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mini - Bulk Container"
+			subtitle: "&eMini - Bulk Container"
 			tasks: [{
 				id: "39557F0C1B1FB2C4"
 				item: "dankstorage:dank_1"
 				type: "item"
 			}]
-			title: "Danks"
+			title: "&6Danks"
 			x: 4.0d
 			y: -2.5d
 		}
@@ -197,7 +218,15 @@
 				""
 				"A good option for those new to logistics and item networking."
 			]
-			icon: "toms_storage:ts.storage_terminal"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "toms_storage:ts.storage_terminal"
+			}
 			id: "23E17B3FF501BEA0"
 			rewards: [
 				{
@@ -212,20 +241,28 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not as advanced, but nice and simple"
+			subtitle: "&eNot as advanced, but nice and simple"
 			tasks: [{
 				id: "535FE27C35EE82AB"
 				title: "Simple!"
 				type: "checkmark"
 			}]
-			title: "Tom's Simple Storage"
+			title: "&6Tom's Simple Storage"
 			x: 3.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: ["Advanced storage and autocrafting solutions."]
-			icon: "ae2:controller"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ae2:controller"
+			}
 			id: "4AA5047E39931F84"
 			rewards: [
 				{
@@ -240,13 +277,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Advanced, not so nice and simple"
+			subtitle: "&eAdvanced, not so nice and simple"
 			tasks: [{
 				id: "4D2104DA156D3C6F"
 				title: "Not so simple"
 				type: "checkmark"
 			}]
-			title: "Applied Energistics 2"
+			title: "&6Applied Energistics 2"
 			x: 2.0d
 			y: -5.0d
 		}
@@ -271,7 +308,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Great for starting out!"
+			subtitle: "&eGreat for starting out!"
 			tasks: [
 				{
 					id: "77D7A68492ED244D"
@@ -284,6 +321,7 @@
 					type: "item"
 				}
 			]
+			title: "&6Iron Furnaces"
 			x: 5.0d
 			y: -3.5d
 		}
@@ -294,7 +332,15 @@
 				""
 				"With both Storage Racks and Functional Storage you can craft a controller allowing you to access your whole early game storage from 1 block!"
 			]
-			icon: "storageracks:stone_controller"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "storageracks:stone_controller"
+			}
 			id: "11CB742A8CEE0CB0"
 			rewards: [
 				{
@@ -309,13 +355,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Another good option for the early game"
+			subtitle: "&eAnother good option for the early game"
 			tasks: [{
 				id: "2D55AEE5C080FB69"
 				item: "functionalstorage:oak_1"
 				type: "item"
 			}]
-			title: "Storage Racks and Functional Storage"
+			title: "&6Storage Racks and Functional Storage"
 			x: 5.0d
 			y: -5.0d
 		}
@@ -339,7 +385,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Can be color coded"
+			subtitle: "&eCan be color coded"
 			tasks: [
 				{
 					id: "168B6C825AE34677"
@@ -379,14 +425,22 @@
 					type: "item"
 				}
 			]
-			title: "Ender Storage"
+			title: "&6Ender Storage"
 			x: 1.7142857142857224d
 			y: -3.5714285714285694d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: ["hopper botany pots can be used as a compact way of farming resources if tech and automation isn't exactly your thing."]
-			icon: "botanypots:terracotta_hopper_botany_pot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botanypots:terracotta_hopper_botany_pot"
+			}
 			id: "4F028FCAAFC2AD22"
 			rewards: [
 				{
@@ -401,19 +455,27 @@
 					type: "item"
 				}
 			]
-			subtitle: "Botany made easy"
+			subtitle: "&eBotany made easy"
 			tasks: [{
 				id: "46A34348C7D2C688"
 				type: "checkmark"
 			}]
-			title: "Botany Pots"
+			title: "&6Botany Pots"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: ["Craft a dna sampler and punch a mob while holding it to sample its dna, there are different tiers of samplers, and different mobs require different environments be provided inside of their cages."]
-			icon: "cagedmobs:mob_cage"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cagedmobs:mob_cage"
+			}
 			id: "5EE45B1CFDB10215"
 			rewards: [
 				{
@@ -428,12 +490,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "They're fiiiine"
+			subtitle: "&eThey're fiiiine"
 			tasks: [{
 				id: "1CABFE003ECDD3EC"
 				type: "checkmark"
 			}]
-			title: "Hopping cages"
+			title: "&6Hopping cages"
 			x: -4.303571428571416d
 			y: -5.464285714285712d
 		}
@@ -444,7 +506,15 @@
 				""
 				"Refer to the \"Productive Bees\" quest chapter for more info!"
 			]
-			icon: "productivebees:honey_treat"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "productivebees:honey_treat"
+			}
 			id: "4121A43B2DC07C1B"
 			rewards: [
 				{
@@ -459,13 +529,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Resources from busy little bees"
+			subtitle: "&eResources from busy little bees"
 			tasks: [{
 				id: "12899471313D7A16"
 				title: "Bees are the knees"
 				type: "checkmark"
 			}]
-			title: "Productive Bees"
+			title: "&6Productive Bees"
 			x: -5.5d
 			y: -5.0d
 		}
@@ -476,7 +546,15 @@
 				""
 				"Refer to the \"&6Sifting&r\" section of \"Resource Production\" to learn more!"
 			]
-			icon: "createsifter:sifter"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createsifter:sifter"
+			}
 			id: "60CD0AF0BA5D46E5"
 			rewards: [
 				{
@@ -491,7 +569,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sifting Materials"
+			subtitle: "&eSifting Materials"
 			tasks: [
 				{
 					id: "3401050B66988D34"
@@ -504,7 +582,7 @@
 					type: "item"
 				}
 			]
-			title: "Sifting for resources"
+			title: "&6Sifting for resources"
 			x: -6.0d
 			y: -3.5d
 		}
@@ -517,6 +595,11 @@
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "chicken_roost:c_sand"
 				tag: { }
 			}
@@ -534,13 +617,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Resource chickens! "
+			subtitle: "&eResource chickens! "
 			tasks: [{
 				id: "3CF2610FCD05509D"
 				title: "Roost"
 				type: "checkmark"
 			}]
-			title: "Roost Ultimate"
+			title: "&6Roost Ultimate"
 			x: -5.0d
 			y: -2.5d
 		}
@@ -553,6 +636,11 @@
 			]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "create_sa:rose_quartz_sword"
 				tag: {
 					Damage: 0
@@ -571,7 +659,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Spelunking and dungeoneering"
+			subtitle: "&eSpelunking and dungeoneering"
 			tasks: [{
 				id: "7590A67C07011638"
 				item: {
@@ -583,7 +671,7 @@
 				}
 				type: "item"
 			}]
-			title: "\"Fortune n glory, kid... Fortune n glory\""
+			title: "&6\"Fortune n glory, kid... Fortune n glory\""
 			x: -2.482142857142854d
 			y: -3.5714285714285694d
 		}
@@ -611,13 +699,13 @@
 				xp: 5
 			}]
 			size: 1.25d
-			subtitle: "Here we go"
+			subtitle: "&eHere we go"
 			tasks: [{
 				id: "00EE976A2B32EB00"
 				title: "Basic Automation"
 				type: "checkmark"
 			}]
-			title: "Stress, Power and Basic Automation"
+			title: "&6&lStress, Power and Basic Automation"
 			x: -0.5d
 			y: 0.5d
 		}
@@ -637,12 +725,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "may as well make some power out of it"
+			subtitle: "&emay as well make some power out of it"
 			tasks: [{
 				id: "5E92B39817A8D9C2"
 				item: "productivebees:honey_generator"
 				type: "item"
 			}]
+			title: "&6&lHoney Generator"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -668,12 +757,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "You spin me right round"
+			subtitle: "&eYou spin me right round"
 			tasks: [{
 				id: "122B14C6EA82231E"
 				item: "create:water_wheel"
 				type: "item"
 			}]
+			title: "&6&lWater Wheel"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -693,13 +783,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Name says it all"
+			subtitle: "&eName says it all"
 			tasks: [{
 				id: "705864E015D9FB4B"
 				item: "industrialforegoing:pitiful_generator"
 				type: "item"
 			}]
-			title: "Pitiful Generator"
+			title: "&6&lPitiful Generator"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -733,9 +823,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not the greatest, but it's a start"
+			subtitle: "&eNot the greatest, but it's a start"
 			tasks: [{
-				id: "1C45874139102E15"
+				consume_items: false
+				id: "37284D0F7E914138"
 				item: {
 					Count: 1
 					ForgeCaps: {
@@ -766,16 +857,6 @@
 										cs.aquaSkin: 0
 									}
 								}
-								id: "create_sa:andesite_jetpack_chestplate"
-								tag: { }
-							}
-							{
-								Count: 1b
-								ForgeCaps: {
-									"celestisynth:celestisynthitemstackcapabilities": {
-										cs.aquaSkin: 0
-									}
-								}
 								id: "create_sa:copper_jetpack_chestplate"
 								tag: { }
 							}
@@ -786,16 +867,17 @@
 										cs.aquaSkin: 0
 									}
 								}
-								id: "create_sa:brass_jetpack_chestplate"
+								id: "create_sa:andesite_jetpack_chestplate"
 								tag: { }
 							}
 						]
 					}
 				}
-				title: "Jetpack"
+				match_nbt: true
 				type: "item"
+				weak_nbt_match: true
 			}]
-			title: "Powered Flight"
+			title: "&6&lPowered Flight"
 			x: -0.5d
 			y: 3.5d
 		}
@@ -807,7 +889,15 @@
 				"(unofficial hint from the devs, this is going to be the best way to farm mobs aside from possibly the wannabee)"
 			]
 			hide_details_until_startable: false
-			icon: "hostilenetworks:sim_chamber"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "hostilenetworks:sim_chamber"
+			}
 			id: "63EBDB6E11473DF6"
 			rewards: [
 				{
@@ -822,12 +912,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Simulation in a simulation, huh?"
+			subtitle: "&eSimulation in a simulation, huh?"
 			tasks: [{
 				id: "6D457F44C28030A7"
 				type: "checkmark"
 			}]
-			title: "Hostile Neural Networks"
+			title: "&6Hostile Neural Networks"
 			x: -3.482142857142847d
 			y: -2.5357142857142776d
 		}
@@ -843,7 +933,15 @@
 			description: ["Flux networks can be created and once a &2controller&r has been crafted, &cplugs&r and &9points&r can be used to distribute power throughout your network. Power can then be distributed directly to players as well, charging curios, hotbar and other slots!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: "fluxnetworks:flux_controller"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fluxnetworks:flux_controller"
+			}
 			id: "72050B5553410FC6"
 			rewards: [
 				{
@@ -858,12 +956,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wireless Power Networks"
+			subtitle: "&eWireless Power Networks"
 			tasks: [{
 				id: "75AFFC536839C7A1"
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
+			title: "&6Flux Controller"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -897,12 +996,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "An autocrafting table"
+			subtitle: "&eAn autocrafting table"
 			tasks: [{
 				id: "3A276D31D998194E"
 				item: "craftingautomat:autocrafter"
 				type: "item"
 			}]
+			title: "&6&lCrafting Automat"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -935,12 +1035,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collecting mob charms"
+			subtitle: "&eCollecting mob charms"
 			tasks: [{
 				id: "5619D79F5F045E00"
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
+			title: "&6&lCharm Belt"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -963,12 +1064,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Save some hotbar and inventory slots"
+			subtitle: "&eSave some hotbar and inventory slots"
 			tasks: [{
 				id: "59FF91E2F4728FC9"
 				item: "toolbelt:belt"
 				type: "item"
 			}]
+			title: "&6Tool Belt"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -1007,12 +1109,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Zooming in from a safe distance"
+			subtitle: "&eZooming in from a safe distance"
 			tasks: [{
 				id: "7A9EDD7EDF28B55F"
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
+			title: "&6Spyglass"
 			x: 1.0d
 			y: -1.0d
 		}
@@ -1041,12 +1144,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Personal protection, done right"
+			subtitle: "&ePersonal protection, done right"
 			tasks: [{
 				id: "0C7A962418894E02"
 				item: "scguns:gun_bench"
 				type: "item"
 			}]
+			title: "&6Gun Bench"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -1065,7 +1169,15 @@
 				"while progressing through technologies, an upgraded grid is required, but the 3x3 alone will open all that the pack has to offer in other areas and mods, again, &cexcluding&r higher tier technology. "
 			]
 			hide_until_deps_visible: true
-			icon: "create:mechanical_crafter"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:mechanical_crafter"
+			}
 			id: "17BDF7E9E9E70940"
 			min_required_dependencies: 1
 			rewards: [
@@ -1081,14 +1193,14 @@
 				}
 			]
 			size: 3.0d
-			subtitle: "The Mechanical Grid 1.0"
+			subtitle: "&eThe Mechanical Grid 1.0"
 			tasks: [{
 				count: 9L
 				id: "0566D4DFDAE65EE4"
 				item: { Count: 9, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			title: "The 3x3 mechanical grid"
+			title: "&6&lThe 3x3 mechanical grid"
 			x: -0.5d
 			y: 9.035714285714292d
 		}
@@ -1119,13 +1231,14 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "Used in almost every assembly line"
+			subtitle: "&eUsed in almost every assembly line"
 			tasks: [{
 				count: 3L
 				id: "24D5C9058390BD98"
 				item: { Count: 3, id: "create:deployer" }
 				type: "item"
 			}]
+			title: "&6&l3x Deployer"
 			x: -0.5d
 			y: 15.5d
 		}
@@ -1151,12 +1264,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Hot off the press"
+			subtitle: "&eHot off the press"
 			tasks: [{
 				id: "42E55AF62B96AB2B"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
+			title: "&6&lMechanical Press"
 			x: -0.5d
 			y: 13.285714285714263d
 		}
@@ -1183,12 +1297,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bunny -not- included"
+			subtitle: "&eBunny -not- included"
 			tasks: [{
 				id: "6006177E8C764ED1"
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
+			title: "&6&lBasic Energizer"
 			x: -0.5d
 			y: 14.5d
 		}
@@ -1223,7 +1338,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Instantly travel any where, any time"
+			subtitle: "&eInstantly travel any where, any time"
 			tasks: [{
 				id: "5B42A94FFF9D53E0"
 				item: {
@@ -1233,6 +1348,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lTempad"
 			x: -0.5d
 			y: 19.5d
 		}
@@ -1259,12 +1375,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Turning source into gemstones"
+			subtitle: "&5Turning source into gemstones"
 			tasks: [{
 				id: "3C846B081D23310C"
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
+			title: "&d&lImbuement Chamber"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -1298,7 +1415,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Embrace the darkness"
+			subtitle: "&cEmbrace the darkness"
 			tasks: [
 				{
 					id: "338DC66EF0AD4956"
@@ -1315,6 +1432,7 @@
 					type: "item"
 				}
 			]
+			title: "&4&lBlood Altar"
 			x: 3.0d
 			y: 8.0d
 		}
@@ -1347,12 +1465,13 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Flower power"
+			subtitle: "&2Flower Power"
 			tasks: [{
 				id: "6377BB8039A646F1"
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
+			title: "&a&lPetal Apothecary"
 			x: -4.0d
 			y: 8.0d
 		}
@@ -1375,13 +1494,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ya... this one isn't really optional"
+			subtitle: "&eYa... this one isn't really optional"
 			tasks: [{
 				count: 3L
 				id: "00EE65B89A91228C"
 				item: { Count: 8, id: "create:precision_mechanism" }
 				type: "item"
 			}]
+			title: "&6&l3x Precision Mechanism"
 			x: 0.0d
 			y: 17.5d
 		}
@@ -1410,7 +1530,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Manufacturing ammunition"
+			subtitle: "&eManufacturing ammunition"
 			tasks: [
 				{
 					id: "704D9769A0D61F79"
@@ -1446,7 +1566,7 @@
 					type: "item"
 				}
 			]
-			title: "Casing Molds"
+			title: "&6&lCasing Molds"
 			x: -1.0d
 			y: 17.5d
 		}
@@ -1468,7 +1588,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Nice in the early game"
+			subtitle: "&eNice in the early game"
 			tasks: [{
 				id: "0E484B7467E1B672"
 				item: {
@@ -1480,6 +1600,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lMending Rune"
 			x: 1.0d
 			y: 17.5d
 		}
@@ -1506,12 +1627,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Warping space and time"
+			subtitle: "&eWarping space and time"
 			tasks: [{
 				id: "1FFB945D08911C0F"
 				item: "createteleporters:quantum_mechanism"
 				type: "item"
 			}]
+			title: "&6&lQuantum Mechanism"
 			x: 0.5d
 			y: 18.5d
 		}
@@ -1540,12 +1662,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reinforced Plating"
+			subtitle: "&eReinforced Plating"
 			tasks: [{
 				id: "79B1DA8C1B116E03"
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
+			title: "&6&lSturdy Sheet"
 			x: -2.0d
 			y: 17.5d
 		}
@@ -1584,12 +1707,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Totally safe. Seriously... Probably..."
+			subtitle: "&eTotally safe. Seriously... Probably..."
 			tasks: [{
 				id: "6F8AA3582A83277F"
 				item: "create_new_age:nuclear_fuel"
 				type: "item"
 			}]
+			title: "&6&lNuclear Fuel"
 			x: -1.5d
 			y: 18.5d
 		}
@@ -1622,12 +1746,13 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Magic spells sold separately"
+			subtitle: "&5Magic spells sold separately"
 			tasks: [{
 				id: "4EC7589C6FC96C60"
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
+			title: "&d&l Novice Spell Book"
 			x: -0.5d
 			y: 5.5714285714285765d
 		}
@@ -1652,12 +1777,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "A different kind of enchanting"
+			subtitle: "&5A different kind of enchanting"
 			tasks: [{
 				id: "6F6E42891CA0BCBB"
 				item: "ars_nouveau:enchanting_apparatus"
 				type: "item"
 			}]
+			title: "&d&lEnchanting Apparatus"
 			x: 1.5d
 			y: 9.5d
 		}
@@ -1681,12 +1807,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Has nothing to do with alchemy, but we didnt make the mod :)"
+			subtitle: "&cHas nothing to do with alchemy, but we didnt make the mod :)"
 			tasks: [{
 				id: "1D1699F925E95014"
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
+			title: "&4&lAlchemy Table"
 			x: 3.0d
 			y: 12.0d
 		}
@@ -1710,13 +1837,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Powered by the will of the damned"
+			subtitle: "&cPowered by the will of the damned"
 			tasks: [{
 				id: "0B5871A5995DD686"
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			title: "Hellfire Forge"
+			title: "&4&lHellfire Forge"
 			x: 2.0d
 			y: 15.5d
 		}
@@ -1742,12 +1869,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Needed for the elven gateway"
+			subtitle: "&2Needed for the Elven Gateway"
 			tasks: [{
 				id: "6B67B5C3D0A40A0F"
 				item: "botania:terra_plate"
 				type: "item"
 			}]
+			title: "&a&lTerrestrial Agglomeration Plate"
 			x: -4.0d
 			y: 12.0d
 		}
@@ -1776,12 +1904,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Kinda shy, but these elves give nice stuff!"
+			subtitle: "&2Kinda shy, but these elves give nice stuff!"
 			tasks: [{
 				id: "2668E72D4B44EDBF"
 				item: "botania:alfheim_portal"
 				type: "item"
 			}]
+			title: "&a&lElven Gateway Core"
 			x: -3.0d
 			y: 15.5d
 		}
@@ -1804,13 +1933,13 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "The factory... must grow"
+			subtitle: "&eThe factory... must grow"
 			tasks: [{
 				id: "5262AFD1BA2507FA"
 				title: "Assembly Lines"
 				type: "checkmark"
 			}]
-			title: "Assembly Lines"
+			title: "&6&lAssembly Lines"
 			x: -0.5d
 			y: 16.5d
 		}
@@ -1830,12 +1959,13 @@
 				xp: 15
 			}]
 			size: 2.0d
-			subtitle: "Time for an industrial revolution"
+			subtitle: "&eTime for an industrial revolution"
 			tasks: [{
 				id: "7599BA55BBDFE3C5"
 				title: "Automated Assembly"
 				type: "checkmark"
 			}]
+			title: "&6&lAutomated Assembly"
 			x: -0.5d
 			y: 11.67857142857141d
 		}
@@ -1862,10 +1992,10 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Well... kinda"
+			subtitle: "&eWell... Kinda"
 			tasks: [{
 				id: "622BFC0973FA092D"
-				title: "Now we're really ready"
+				title: "&6&lNow we're really ready"
 				type: "checkmark"
 			}]
 			x: -0.4642857142857153d
@@ -1893,13 +2023,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "\"Feels cheap... just saying\""
+			subtitle: "&e\"Feels cheap... just saying\""
 			tasks: [{
 				count: 8L
 				id: "110822844BA9F8D2"
 				item: { Count: 8, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
+			title: "&6&l8x Plastic"
 			x: -0.5d
 			y: 22.5d
 		}
@@ -1937,12 +2068,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Collecting latex"
+			subtitle: "&eCollecting latex"
 			tasks: [{
 				id: "2256AEC84EEAEDC0"
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
+			title: "&6&lFluid Extractor"
 			x: -0.5d
 			y: 21.0d
 		}
@@ -1976,13 +2108,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "It's Important"
+			subtitle: "&eIt's Important"
 			tasks: [{
 				id: "0508D23E33025ECC"
 				item: "numismatics:bank_terminal"
 				type: "item"
 			}]
-			title: "The Bank Terminal"
+			title: "&6&lThe Bank Terminal"
 			x: -0.5d
 			y: -6.75d
 		}
@@ -2026,13 +2158,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "A little storage buddy"
+			subtitle: "&eA little storage buddy"
 			tasks: [{
 				id: "3B2AC326480DDD36"
 				title: "Taming supply scamps"
 				type: "checkmark"
 			}]
-			title: "Supply Scamps"
+			title: "&6Supply Scamps"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -2062,7 +2194,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Every little bit helps!"
+			subtitle: "&eEvery little bit helps!"
 			tasks: [
 				{
 					id: "2D4E880C0AC9A694"
@@ -2091,7 +2223,7 @@
 					type: "item"
 				}
 			]
-			title: "Supplemental Power"
+			title: "&6&lSupplemental Power"
 			x: -0.5d
 			y: 18.5d
 		}

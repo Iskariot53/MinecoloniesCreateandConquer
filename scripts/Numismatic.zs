@@ -59,7 +59,7 @@
             "item": "thermalendergy:stellarium_block"
         },
         "H": {
-            "item": "mekanism:pellet_antimatter"
+            "item": "enlightened_end:irradium_block"
         }
     },
     "result": {

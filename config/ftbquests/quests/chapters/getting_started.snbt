@@ -93,7 +93,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A little bit of reading to do"
+			subtitle: "&eA little bit of reading to do"
 			tasks: [{
 				id: "4043FC396208C343"
 				title: "Create and Conquer The World!"
@@ -110,7 +110,15 @@
 				""
 				"You will have the opportunity to buy more via the \"Quest Shop\" soon enough, but for now, this is it. Use it wisely"
 			]
-			icon: "origins:orb_of_origin"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "origins:orb_of_origin"
+			}
 			id: "7A10879779D35FF1"
 			rewards: [
 				{
@@ -129,10 +137,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "No more freebies!"
+			subtitle: "&eNo more freebies!"
 			tasks: [{
 				id: "6184AC9EF7FAB977"
-				title: "\"Origin\"al Mistakes"
+				title: "&6&l\"Origin\"al Mistakes"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -163,13 +171,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Build Tool and Town Hall. How to Begin Minecolonies"
+			subtitle: "&eThe Build Tool and Town Hall. How to begin MineColonies"
 			tasks: [{
 				id: "1554DEDE4B7F9F4A"
 				title: "Your very own village"
 				type: "checkmark"
 			}]
-			title: "The Heart of Every Colony"
+			title: "&6&lThe Heart of Every Colony"
 			x: -0.5d
 			y: -6.0d
 		}
@@ -199,7 +207,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stress and Power"
+			subtitle: "&eStress and Power"
 			tasks: [
 				{
 					count: 8L
@@ -214,7 +222,7 @@
 					type: "item"
 				}
 			]
-			title: "Stressing Over Power?"
+			title: "&6&lStressing Over Power?"
 			x: -2.5d
 			y: -8.5d
 		}
@@ -247,13 +255,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Familiars, Blood and Magic Flowers"
+			subtitle: "&eFamiliars, Blood and Magic Flowers"
 			tasks: [{
 				id: "7CC73515A016F3B8"
 				title: "Magic"
 				type: "checkmark"
 			}]
-			title: "The Arcane Arts"
+			title: "&6&lThe Arcane Arts"
 			x: 1.5d
 			y: -8.5d
 		}
@@ -284,7 +292,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Click the icon and submit 3 torches to recieve a mega torch!"
+			subtitle: "&eClick the icon and submit 3 torches to recieve a mega torch!"
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -292,7 +300,7 @@
 				item: { Count: 3, id: "minecraft:torch" }
 				type: "item"
 			}]
-			title: "Protecting Yourself"
+			title: "&6&lProtecting Yourself"
 			x: -2.5d
 			y: -6.0d
 		}
@@ -321,10 +329,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Farming for Blockheads, Easy Villagers and Botany Pots"
+			subtitle: "&eFarming for Blockheads, Easy Villagers and Botany Pots"
 			tasks: [{
 				id: "601043016B191D5C"
-				title: "Farming Options"
+				title: "&6&lFarming Options"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -403,7 +411,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A home in your hand!"
+			subtitle: "&eA home in your hand!"
 			tasks: [{
 				id: "0DC232F1F688E4C3"
 				item: {
@@ -417,7 +425,7 @@
 				}
 				type: "item"
 			}]
-			title: "Capsules!"
+			title: "&6&lCapsules!"
 			x: -1.5d
 			y: -11.0d
 		}
@@ -447,13 +455,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mob Cages will help"
+			subtitle: "&eMob cages will help"
 			tasks: [{
 				id: "212DCC8044DCE538"
 				title: "Lasso's"
 				type: "checkmark"
 			}]
-			title: "Mobs and Cages"
+			title: "&6&lMobs and Cages"
 			x: 0.5d
 			y: -11.0d
 		}
@@ -486,10 +494,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Storage Racks, Functional Storage and AE2"
+			subtitle: "&eStorage Racks, Functional Storage and AE2"
 			tasks: [{
 				id: "5FB7629295C9B39C"
-				title: "Storage Options Galore"
+				title: "&6&lStorage Options Galore"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -524,13 +532,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "And so it begins..."
+			subtitle: "&eAnd so it begins..."
 			tasks: [{
 				id: "275F8023AD79CAB4"
 				title: "Create and Conquer"
 				type: "checkmark"
 			}]
-			title: "Create and Conquer the World"
+			title: "&6&lCreate and Conquer the World"
 			x: -0.5d
 			y: 0.5d
 		}
@@ -569,7 +577,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "That way!"
+			subtitle: "&eThat way!"
 			tasks: [
 				{
 					id: "7723C91C600BC445"
@@ -586,7 +594,7 @@
 					type: "item"
 				}
 			]
-			title: "Natural Coordination"
+			title: "&6&lNatural Coordination"
 			x: -0.5d
 			y: -2.5d
 		}
@@ -599,7 +607,7 @@
 			description: [
 				"From here on out, many quests and tasks will be rewarded with Spurs, Bevels, Sprockets, Cogs, Crowns, and Suns."
 				""
-				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting Numismatics Coinage. From here on out, we will be referring to them as \"&6Numi Coins&r\" for shorthand and simplicity's sake."
+				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting Numismatics Coinage. From here on out, we will be referring to them as \"&6Numi Coins&r\" for shorthand and simplicities sake."
 			]
 			icon: {
 				Count: 1
@@ -624,10 +632,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ch-ching"
+			subtitle: "&eCh-Ching"
 			tasks: [{
 				id: "7CC76F1871B585EB"
-				title: "Craft a bank terminal to store and convert your coins"
+				title: "&6&lCraft a bank terminal to store and convert your coins"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -650,7 +658,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The First of Many"
+			subtitle: "&eThe First of Many"
 			tasks: [
 				{
 					id: "070E83C68BC7ECAA"
@@ -663,7 +671,7 @@
 					type: "item"
 				}
 			]
-			title: "Getting Started with Sheet Metals"
+			title: "&6&lGetting Started with Sheet Metals"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -684,7 +692,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "It's Expensive."
+			subtitle: "&eIt's Expensive."
 			tasks: [
 				{
 					id: "014E687816C31681"
@@ -698,7 +706,7 @@
 					type: "item"
 				}
 			]
-			title: "Hand Crafting the Basics"
+			title: "&6&lHand Crafting the Basics"
 			x: -2.5d
 			y: -2.5d
 		}
@@ -755,12 +763,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ender Mail"
+			subtitle: "&eEnder Mail"
 			tasks: [{
 				id: "77D3987BB0FC14B1"
 				type: "checkmark"
 			}]
-			title: "My mailman is great—he always delivers!"
+			title: "&6&lMy mailman is great, he always delivers!"
 			x: -0.5d
 			y: -8.0d
 		}

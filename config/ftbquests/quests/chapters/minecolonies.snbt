@@ -3092,7 +3092,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Entirely Optional"
+			subtitle: "&6Entirely Optional"
 			tasks: [{
 				id: "04CBB47D75C8BFFC"
 				item: {
@@ -3221,7 +3221,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Automated Colony Logisitics"
+			subtitle: "&6Automated Colony Logisitics"
 			tasks: [
 				{
 					id: "4E6338F0DA3EA3FC"
@@ -3250,14 +3250,14 @@
 					type: "item"
 				}
 			]
-			title: "The \"Colonizer\""
+			title: "&6&lThe \"Colonizer\"&r&r"
 			x: 8.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["2B84931E84D9FEDF"]
 			description: [
-				"From this point forward, as far as ComputerCraft + Minecolonies + AE2 integration is concerned, Do NOT report any issues experienced as bugs. This is a process meant to be set up and programmed by the player, not to be provided to you. "
+				"From this point forward, as far as ComputerCraft + MineColonies + AE2 integration is concerned, Do NOT report any issues experienced as bugs. This is a process meant to be set up and programmed by the player, not to be provided to you. "
 				""
 				"More information (including working programs themselves) has been provided than you will recieve in virtually any other MineColonies pack. If you cannot get the system to work, this is to be expected, Most players are not technically proficient enough to make the process work. "
 				""
@@ -3278,12 +3278,13 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "This quest leg is a courtesy, not a feature."
+			subtitle: "&6This quest leg is a courtesy, not a feature."
 			tasks: [{
 				id: "21F2CE5F4E037B36"
 				title: "Do not report bugs for this quest leg"
 				type: "checkmark"
 			}]
+			title: "&6&lNo Bug Reports on this one&r&r"
 			x: 6.5d
 			y: 10.5d
 		}
@@ -3327,6 +3328,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lColonial Wireless Upgrade&r&r"
 			x: 6.5d
 			y: 9.0d
 		}

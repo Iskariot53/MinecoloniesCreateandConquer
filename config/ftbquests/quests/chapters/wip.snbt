@@ -51,14 +51,14 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Highly dependant on your definition of fun :D"
+			subtitle: "&eHighly dependant on your definition of fun :D"
 			tasks: [{
 				count: 25L
 				id: "2C508634283B7D5C"
 				item: { Count: 25, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			title: "Welcome to the fun stuff!"
+			title: "&6&lWelcome to the fun stuff!"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -90,13 +90,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Smells like happy in here..."
+			subtitle: "&eSmells like happy in here..."
 			tasks: [{
 				id: "0705E8D27A85E971"
 				item: "industrialforegoing:ether_gas_bucket"
 				type: "item"
 			}]
-			x: -5.0d
+			title: "&6&lEther Gas Bucket"
+			x: -5.5d
 			y: -1.5d
 		}
 		{
@@ -123,12 +124,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "A little spicey here"
+			subtitle: "&eA little spicey here"
 			tasks: [{
 				id: "4490D02CF509D699"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
+			title: "&6&lSteel Casing"
 			x: -8.0d
 			y: -0.5d
 		}
@@ -176,12 +178,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Starting nucelear waste management"
+			subtitle: "&eStarting nucelear waste management"
 			tasks: [{
 				id: "501BE18A63FE45EA"
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
+			title: "&6&lPressurized Reaction Chamber"
 			x: -10.0d
 			y: 2.0d
 		}
@@ -214,6 +217,7 @@
 				item: "enlightened_end:irradium_bar"
 				type: "item"
 			}]
+			title: "&6&lIrradium Bar"
 			x: -10.0d
 			y: 3.5d
 		}
@@ -246,6 +250,7 @@
 				item: "scguns:scorched_ingot"
 				type: "item"
 			}]
+			title: "&6&lScorched Ingot"
 			x: 3.5d
 			y: 2.5d
 		}
@@ -278,6 +283,7 @@
 				item: "celestisynth:celestial_netherite_ingot"
 				type: "item"
 			}]
+			title: "&6&lCelestial Netherite Ingot"
 			x: -3.5d
 			y: 2.5d
 		}
@@ -364,6 +370,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lArcanite Ingot"
 			x: -4.0d
 			y: 5.0d
 		}
@@ -409,6 +416,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lCelestrium Ingot"
 			x: 4.0d
 			y: 5.0d
 		}
@@ -416,7 +424,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			id: "1A09486B79BB3A91"
 			size: 1.75d
-			subtitle: "Infinite Munitions"
+			subtitle: "&eInfinite Munitions"
 			tasks: [{
 				id: "24FEAF2EA4CAFD50"
 				item: {
@@ -430,6 +438,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lCreative Ammo Box"
 			x: 3.0d
 			y: 9.964285714285715d
 		}
@@ -462,7 +471,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Getting to the good stuff"
+			subtitle: "&eGetting to the good stuff"
 			tasks: [{
 				id: "09A1E78E2F48D4DC"
 				item: {
@@ -476,6 +485,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lStarlit Factory"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -515,7 +525,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rare mineral found in The End"
+			subtitle: "&eFound in The End"
 			tasks: [{
 				id: "77F56CCFBC0106A6"
 				item: {
@@ -529,6 +539,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lMalachite"
 			x: -4.5d
 			y: 2.5d
 		}
@@ -555,6 +566,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&eFound below Y = -4"
 			tasks: [{
 				id: "152A2B278DC036EA"
 				item: {
@@ -568,6 +580,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lLuminarchy"
 			x: -2.5d
 			y: 2.5d
 		}
@@ -620,6 +633,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lStarstruck Scrap"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -646,6 +660,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&eFound below Y = -4"
 			tasks: [{
 				id: "289AD214601A8439"
 				item: {
@@ -659,6 +674,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPhilolite"
 			x: 2.5d
 			y: 2.5d
 		}
@@ -698,6 +714,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&eFound in The End"
 			tasks: [{
 				id: "7D9B0070B15C9563"
 				item: {
@@ -711,6 +728,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBismuth Ingot"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -763,6 +781,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lNitro Powder"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -806,6 +825,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lMeka-Bow"
 			x: -3.5d
 			y: 13.0d
 		}
@@ -849,6 +869,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lMeka-Tana"
 			x: -7.0d
 			y: 13.0d
 		}
@@ -860,7 +881,7 @@
 				"It has been tagged in a way that allows even the herbivores to enjoy! (just tell them it's tofu or something.. idk)"
 			]
 			id: "587A63C9A1A60104"
-			subtitle: "Infinite food source"
+			subtitle: "&eInfinite food source"
 			tasks: [{
 				id: "418896B7EF711868"
 				item: {
@@ -874,6 +895,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lEverlasting Beef"
 			x: 0.0d
 			y: 8.5d
 		}
@@ -885,7 +907,7 @@
 				"Plus, trolling... theres always trolling, good for that too."
 			]
 			id: "1A56E7E473DFE5E1"
-			subtitle: "You can't see me"
+			subtitle: "&eYou can't see me"
 			tasks: [{
 				id: "19664B5F365A04F5"
 				item: {
@@ -899,6 +921,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lScarf of Invisibility"
 			x: 1.5d
 			y: 7.0d
 		}
@@ -906,7 +929,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["The chorus totem is a very special totem. Rather than just giving you a second chance form death, this totem will flat out teleport you away from danger BEFORE death, whenever you would have otherwise taken a lethal blow."]
 			id: "7C69595EA36712AE"
-			subtitle: "Gotta go, bro"
+			subtitle: "&eGotta go, bro"
 			tasks: [{
 				id: "042D10A6B2E34F02"
 				item: {
@@ -920,6 +943,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lChorus Totem"
 			x: 1.5d
 			y: 10.0d
 		}
@@ -927,7 +951,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["The vampiric glove allows melee users a lifesteal buff on strike."]
 			id: "0B12849B9C82F31A"
-			subtitle: "The best defence is more offence"
+			subtitle: "&eThe best defence is more offence"
 			tasks: [{
 				id: "3D91920BB10586FF"
 				item: {
@@ -941,6 +965,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lVampiric Glove"
 			x: 0.5d
 			y: 9.5d
 		}
@@ -948,7 +973,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["Useful for quickly negating negative status effects!"]
 			id: "2E8A7CFF375D0125"
-			subtitle: "Pretty sure it's just pepto bismol..."
+			subtitle: "&ePretty sure it's just pepto bismol..."
 			tasks: [{
 				id: "036BD4D29EEA1EB5"
 				item: {
@@ -962,6 +987,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lAntidote Vessel"
 			x: 2.5d
 			y: 7.5d
 		}
@@ -969,7 +995,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["Rainbow coal can be used to smelt A LOT of items per chunk used."]
 			id: "45D55F099A2FED2F"
-			subtitle: "Not quite infinite"
+			subtitle: "&eNot quite infinite"
 			tasks: [{
 				id: "674DA3E0EA204C00"
 				item: {
@@ -983,6 +1009,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lRainbow Coal"
 			x: 3.0d
 			y: 8.5d
 		}
@@ -1023,6 +1050,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPlutonium Pellet"
 			x: -11.0d
 			y: 5.0d
 		}
@@ -1063,6 +1091,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPolonium Pellet"
 			x: -9.0d
 			y: 5.0d
 		}
@@ -1107,6 +1136,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lAntimatter Pellet"
 			x: -10.0d
 			y: 7.0d
 		}
@@ -1126,6 +1156,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lEnergy Arrows Unit"
 			x: -3.0d
 			y: 17.0d
 		}
@@ -1145,6 +1176,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDraw Speed Unit"
 			x: -4.5d
 			y: 17.0d
 		}
@@ -1164,6 +1196,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lAuto Fire Unit"
 			x: -6.0d
 			y: 17.0d
 		}
@@ -1186,6 +1219,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lGravity Dampener Unit"
 			x: -7.5d
 			y: 17.0d
 		}
@@ -1193,7 +1227,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			id: "194F32052F90240A"
 			size: 1.5d
-			subtitle: "Creative stress relief"
+			subtitle: "&eCreative stress relief"
 			tasks: [{
 				id: "00AECA8F4259AA5B"
 				item: {
@@ -1207,13 +1241,14 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lCreative Blaze Cake"
 			x: 1.75d
 			y: 8.75d
 		}
 		{
 			dependencies: [
-				"29307362D6F4A8AD"
 				"5B64AE900E9F6684"
+				"188944FE101F78E4"
 			]
 			id: "4573CA9273C845EF"
 			rewards: [
@@ -1251,8 +1286,9 @@
 				}
 				type: "item"
 			}]
-			x: -11.25d
-			y: 10.625d
+			title: "&6&lNumismatic Dynamo"
+			x: -7.0d
+			y: 5.25d
 		}
 		{
 			dependencies: ["188944FE101F78E4"]
@@ -1294,7 +1330,7 @@
 				title: "Any #forge:brasssabers"
 				type: "item"
 			}]
-			title: "Brass Saber"
+			title: "&6&lBrass Saber"
 			x: -15.0d
 			y: 3.5d
 		}
@@ -1339,6 +1375,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDraconium Ingot"
 			x: 4.5d
 			y: 15.75d
 		}
@@ -1378,7 +1415,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
+			title: "&6&lMachine Frame"
+			x: -5.5d
 			y: 3.5d
 		}
 		{
@@ -1419,8 +1457,9 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.5d
+			title: "&6&lInduction Smelter"
+			x: -5.392857142857146d
+			y: 7.464285714285715d
 		}
 		{
 			dependencies: ["263B5143F87AEA5F"]
@@ -1438,6 +1477,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDraconium Core"
 			x: 0.0d
 			y: 20.0d
 		}
@@ -1457,6 +1497,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lWyvern Core"
 			x: 3.0d
 			y: 22.0d
 		}
@@ -1477,6 +1518,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&l2x Draconium Fusion Crafting Injector"
 			x: -1.5d
 			y: 21.0d
 		}
@@ -1496,6 +1538,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lFusion Crafting Core"
 			x: 0.0d
 			y: 22.0d
 		}
@@ -1515,6 +1558,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDraconic Core"
 			x: 3.0d
 			y: 24.5d
 		}
@@ -1537,6 +1581,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lChaotic Core"
 			x: 3.0d
 			y: 26.0d
 		}
@@ -1559,6 +1604,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lWyvern Fusion Crafting Injector"
 			x: -3.0d
 			y: 22.0d
 		}
@@ -1581,6 +1627,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDraconic Fusion Crafting Injector"
 			x: -3.0d
 			y: 24.5d
 		}
@@ -1603,6 +1650,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lChaotic Fusion Crafting Injector"
 			x: -3.0d
 			y: 26.0d
 		}
@@ -1622,6 +1670,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDraconic Reactor Core"
 			x: 1.5d
 			y: 27.5d
 		}
@@ -1641,6 +1690,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lReactor Stabilizer"
 			x: -1.5d
 			y: 27.5d
 		}
@@ -1660,6 +1710,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lChaos Shard"
 			x: 0.0d
 			y: 26.0d
 		}
@@ -1680,6 +1731,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lScorched Blueprint"
 			x: -3.75d
 			y: 7.5d
 		}
@@ -1931,7 +1983,6 @@
 				}
 			]
 			size: 1.75d
-			subtitle: "Careful what you wish for"
 			tasks: [{
 				id: "6E91872D34CC65BE"
 				item: {
@@ -1945,6 +1996,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lCreative Motor"
 			x: -10.0d
 			y: 20.0d
 		}
@@ -3576,7 +3628,7 @@
 				}
 				type: "item"
 			}]
-			title: "Galaxy Saber"
+			title: "&6&lGalaxy Saber"
 			x: -14.964285714285715d
 			y: 13.321428571428577d
 		}
