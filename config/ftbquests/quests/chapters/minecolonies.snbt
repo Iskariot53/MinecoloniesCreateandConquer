@@ -3063,8 +3063,6 @@
 				"If the computer was already running, then reboot it (hold down Ctrl+R) after placing the peripheral block."
 				""
 				"Alternatively, you can craft/equip the &6&lColony Peripheral&r&r onto a &6Pocket Computer&r. This gives you access to the colony API whenever you’re within the borders of any colony where you have the \"Access GUI\" permission (&9typically Friend or above&r)."
-				""
-				"For even more flexibility, you can craft a &6&lColony Peripheral&r&r together with a &l&6Wireless Modem&r&r. This can’t be placed as a computer peripheral, but you can equip it to a &6Pocket Computer&r, and it gives you the benefits of both upgrades. This lets you use the colony API along with the rednet/gps/http APIs or anything else that requires a wireless link. And all in the palms of your hands."
 			]
 			hide_dependency_lines: true
 			id: "2B84931E84D9FEDF"
@@ -3076,12 +3074,12 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "263E20C043643643"
+					id: "51AF27B1A7CBB70A"
 					table_id: 833460062537926599L
 					type: "choice"
 				}
 				{
-					id: "659FEF040BBEC240"
+					id: "6DB61D7B2EA44B46"
 					item: {
 						Count: 1
 						ForgeCaps: {
@@ -3094,34 +3092,20 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "516ECA20068B2F88"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
+			subtitle: "Entirely Optional"
+			tasks: [{
+				id: "04CBB47D75C8BFFC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
 						}
-						id: "colony4cc:colony_peripheral"
 					}
-					type: "item"
+					id: "colony4cc:colony_peripheral"
 				}
-				{
-					id: "58B7331B1F679E74"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "colony4cc:colony_wireless_normal"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "&6&lMineColonies for ComputerCraft!"
 			x: 5.0d
 			y: 9.0d
@@ -3166,6 +3150,185 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["505CB5D419E6E4AF"]
+			description: [
+				"The \"Colonizer\" is a ComputerCraft program designed to automate fulfilling requests made by your colony. It requires extensive technical ability to create and troubleshoot from scratch. Luckily for you, GrooveypenguinX has refined and made it as user friendly as it can possibly be. "
+				""
+				"The program is pre-made and ready to go so all you have to do is build your set up, install it, and figure out how to make it work to your needs!"
+				""
+				"To begin:"
+				""
+				"{@pagebreak}"
+				""
+				"&nInside of the colony&r place these blocks stacked together: "
+				""
+				"- Warehouse block     ->  Top"
+				"- ME Bridge              -> Middle"
+				"- Advanced Computer -> Bottom"
+				""
+				"Connect to the computer (any side):"
+				""
+				"- Ender Modem"
+				"- Colony Integrator"
+				"- Monitor (optional)"
+				""
+				"Connect your network to the ME Bridge via cable, quantum ring, etc."
+				""
+				"Use the computer to run the command:"
+				"pastebin get TgCrU15y colonizer"
+				""
+				"To start the program, run colonizer."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&nAt your base&r place:"
+				""
+				"- Advanced Computer"
+				"- Ender Modem"
+				"- Monitor (optional but highly recommended)."
+				""
+				"Or you can use an Advanced Pocket Computer instead."
+				""
+				"Use the Advanced Computer/Pocket Computer to run the command:"
+				"pastebin get e8V3xibB receiver"
+				""
+				"To start the program, run receiver."
+				""
+				"Good Luck! "
+			]
+			id: "05B069F1635948FB"
+			min_width: 400
+			rewards: [
+				{
+					id: "0B8271396697878C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "09AE200572BF827B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Automated Colony Logisitics"
+			tasks: [
+				{
+					id: "4E6338F0DA3EA3FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "advancedperipherals:me_bridge"
+					}
+					type: "item"
+				}
+				{
+					id: "653FFEAD85B686C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "advancedperipherals:colony_integrator"
+					}
+					type: "item"
+				}
+			]
+			title: "The \"Colonizer\""
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2B84931E84D9FEDF"]
+			description: [
+				"From this point forward, as far as ComputerCraft + Minecolonies + AE2 integration is concerned, Do NOT report any issues experienced as bugs. This is a process meant to be set up and programmed by the player, not to be provided to you. "
+				""
+				"More information (including working programs themselves) has been provided than you will recieve in virtually any other MineColonies pack. If you cannot get the system to work, this is to be expected, Most players are not technically proficient enough to make the process work. "
+				""
+				"Don't feel bad! ComputerCraft is meant for programmers, most people won't get it at first but rest assured we have given you every thing we possibly can to set you up for success in integrating your colony. If you have any questions, feel free to stop by the MCC discord and ask! However, please &nDO NOT&r report any issues with \"The Colonizer\" as a bug."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createdeco:decal_warning"
+			}
+			id: "505CB5D419E6E4AF"
+			rewards: [{
+				id: "55F626C374BAE4D5"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "This quest leg is a courtesy, not a feature."
+			tasks: [{
+				id: "21F2CE5F4E037B36"
+				title: "Do not report bugs for this quest leg"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2B84931E84D9FEDF"]
+			description: [
+				"For even more flexibility, you can craft a &6&lColony Peripheral&r&r together with a &l&6Wireless Modem&r&r. This can’t be placed as a computer peripheral, but you can equip it to a &6Pocket Computer&r, and it gives you the benefits of both upgrades. "
+				"This lets you use the colony API along with the rednet/gps/http APIs or anything else that requires a wireless link. And all in the palms of your hands."
+			]
+			id: "6754AD270F2F4BD5"
+			rewards: [
+				{
+					id: "59B729E9EEE63DE9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "09CD2E6AB40E2DE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "406872E46BF98324"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "colony4cc:colony_wireless_normal"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
 		}
 	]
 	subtitle: ["&eWelcome to Minecolonies"]
