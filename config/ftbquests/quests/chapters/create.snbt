@@ -148,14 +148,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "We'll need this"
+			subtitle: "&6We'll need this"
 			tasks: [{
 				count: 16L
 				id: "1E2D981801530076"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			title: "Welcome to Create!"
+			title: "&e&lWelcome to Create!"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -176,7 +176,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Shops don't take these, sorry"
+			subtitle: "&6Shops don't take these, sorry"
 			tasks: [
 				{
 					count: 4L
@@ -191,7 +191,7 @@
 					type: "item"
 				}
 			]
-			title: "Cogwheels"
+			title: "&e&lCogwheels"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -212,12 +212,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Also works on Pipez!"
+			subtitle: "&6Also works on Pipez!"
 			tasks: [{
 				id: "6F9B8788B2247C81"
 				item: "create:wrench"
 				type: "item"
 			}]
+			title: "&e&lWrench"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -238,14 +239,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "And These"
+			subtitle: "&6And These"
 			tasks: [{
 				count: 8L
 				id: "609CEDFE7D66BF42"
 				item: { Count: 8, id: "create:shaft" }
 				type: "item"
 			}]
-			title: "Shafts"
+			title: "&e&lShafts"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -357,18 +358,23 @@
 					type: "item"
 				}
 			]
-			subtitle: "Early game stress"
+			subtitle: "&6Early game stress"
 			tasks: [{
 				id: "69CBA375F4A633D6"
 				item: "create:water_wheel"
 				type: "item"
 			}]
+			title: "&e&lWater Wheels"
 			x: 1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["6F4A68949EE7A4C2"]
-			description: ["An upgraded, larger wheel for generating stress."]
+			description: [
+				"An upgraded, larger wheel for generating stress."
+				""
+				"Honestly? only use these for the looks, smaller waterwheels or more efficient in every way."
+			]
 			id: "0FE5E15692E6C16F"
 			rewards: [
 				{
@@ -383,12 +389,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "More Bigger More Better"
+			subtitle: "&6More Bigger More Better"
 			tasks: [{
 				id: "697168D7ADC78A5C"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
+			title: "&e&lLarge Water Wheel"
 			x: 2.0d
 			y: 5.5d
 		}
@@ -410,14 +417,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Encase, just in case"
+			subtitle: "&6Encase, just in case"
 			tasks: [{
 				count: 4L
 				id: "1883C5B29D55F01D"
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			title: "Your first casings"
+			title: "&e&lYour first casings"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -1309,6 +1316,7 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
+			title: "&e&lGearboxes"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -1329,12 +1337,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "item transfer"
+			subtitle: "&6Item transfer"
 			tasks: [{
 				id: "0342A1F1D7A9E251"
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
+			title: "&e&lAndesite Funnel"
 			x: 1.0d
 			y: 3.0d
 		}
@@ -1355,12 +1364,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Belt exclusive item transfer"
+			subtitle: "&6Belt exclusive item transfer"
 			tasks: [{
 				id: "388A9B45C84FB5F7"
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
+			title: "&e&lAndesite Tunnel"
 			x: -1.0d
 			y: 3.0d
 		}

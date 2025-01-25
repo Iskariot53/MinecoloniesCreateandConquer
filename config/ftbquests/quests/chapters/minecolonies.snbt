@@ -45,13 +45,13 @@
 			description: [
 				"Ever dreamed of starting your own &l&6Town&r&r, taking the lead, and watching your creation grow and prosper? Well, this is the perfect mod for you!"
 				""
-				"&l&6Minecolonies&r&r is an interactive &6town-building&r mod that allows you to create your own thriving town within Minecraft. It features many NPC &6workers&r such as Builders, Farmers, Fishermen, Guards, Miners, and more, as well as &6specialized buildings&r like Warehouses, Citizen Huts, and Town Halls. &6&lMinecolonies&r&r gives you the ability to create a colony as rich and unique as every player. There is something for everyone, and the possibilities are endless!"
+				"&l&6Minecolonies&r&r is an interactive town-building mod that allows you to create your own thriving town within Minecraft. It features many NPC workers such as Builders, Farmers, Fishermen, Guards, Miners, and more, as well as specialized buildings like Warehouses, Citizen Huts, and Town Halls. &6&lMinecolonies&r&r gives you the ability to create a colony as rich and unique as every player. There is something for everyone, and the possibilities are endless!"
 				""
 				"&6&lMinecolonies&r&r offers you &nfull control&r over your town. You determine how many workers you need, what types of workers to employ, where they will live, and you can hire or fire them as you see fit, creating a town at your own pace. It’s your town to design and develop—you are the designer, administrator, and boss!"
 				""
-				"Feeling a bit lost on how to start your own colony and looking for an easier way to get going? As you explore the world, you'll notice some &6colonies abandoned&r by their former residents. Moving into one of these abandoned colonies is a quick way to kickstart your own! Find the &6&lTown Hall&r&r and click \"&6Create new colony&r\" to claim a colony in the world."
+				"Feeling a bit lost on how to start your own colony and looking for an easier way to get going? As you explore the world, you'll notice some colonies abandoned by their former residents. Moving into one of these abandoned colonies is a quick way to kickstart your own! Find the &6&lTown Hall&r&r and click \"&6Create new colony&r\" to claim a colony in the world."
 				""
-				"However, if you prefer to start a colony from &nscratch&r, we've got you covered! This is a complete &6tutorial&r that covers the basics of each colony and guides you through the steps to start one. So buckle up, and let’s dive into it!"
+				"However, if you prefer to start a colony from scratch, we've got you covered! This is a complete &6tutorial&r that covers the basics of colony building and guides you through the steps to start one. So buckle up, and let’s dive into it!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
@@ -88,7 +88,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Welcome to Minecolonies!"
+			subtitle: "&eWelcome to Minecolonies!"
 			tasks: [{
 				id: "7257AEC41C11DCCA"
 				title: "Welcome to Minecolonies!"
@@ -106,7 +106,7 @@
 			description: [
 				"&l&6Minecolonies&r&r also offers you a ton of different &6colony styles&r to choose from. Some styles might be &nmore difficult&r to progress through than others, so choose wisely! Or, you could mix and match styles for each building—who's stopping you?"
 				""
-				"In addition to the &6default colony styles&r that the &6&lMinecolonies&r&r mod offers, we’ve included even more styles with the help of the &6Stylecolonies&r and &6Byzantine Style Pack&r mods!"
+				"In addition to the default colony styles that the &6&lMinecolonies&r&r mod offers, we’ve included even more styles with the help of the &6Stylecolonies&r and &6Byzantine Style Pack&r mods!"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -142,7 +142,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Colony styles"
+			subtitle: "&eColony styles"
 			tasks: [{
 				id: "103FE6176802F199"
 				title: "&6&lA town's style is a reflection of its soul"
@@ -157,11 +157,11 @@
 				"0A4196BD7B0FC574"
 			]
 			description: [
-				"Due to the &6protected&r area of each colony, you must carefully scout your surroundings to ensure you are clear of any other colonies nearby, as they may prevent you from placing your &6&lTown Hall&r&r or limit the area available for your colony in that direction (&9in multiplayer, etc&r.). If there is another colony too close to your current position, you &c&lwon't&r&r be able to place a &l&6Town Hall&r&r."
+				"If there is another colony too close to your current position, you &c&lwon't&r&r be able to place a Town Hall."
 				""
-				"The &6&lTown Hall&r&r block is what actually creates the colony and serves as the central hub of any colony. It also functions as the colony's heart. After you have carefully decided where to place your &l&6Town Hall&r&r, you can start using the &6&lbuild tool&r&r to place buildings. &9&lRight-click&r&r the ground where you want to place the &l&6Town Hall&r&r. The building GUI will display a 3D preview of the building. You can use the &9arrow buttons&r to move the building to your desired location. The &6build tool&r ensures that you can see exactly where the building will be, which direction it will face, and if it is at the correct Y level (&9some buildings may need to be raised to the proper Y level&r). Once you confirm the placement of the &6&lTown Hall&r&r (&2green checkmark&r), the &6&lTown Hall&r&r block will be placed."
+				"The &6&lTown Hall&r&r block is what actually creates the colony and serves as the central hub of any colony. It also functions as the colony's heart. After you have carefully decided where to place your Town Hall, you can start using the &6&lbuild tool&r&r to place buildings. &9&lRight-click&r&r the ground where you want to place the Town Hall. The building GUI will display a 3D preview of the building. You can use the &9arrow buttons&r to move the building to your desired location. The build tool ensures that you can see exactly where the building will be, which direction it will face, and if it is at the correct Y level (some buildings may need to be raised to the proper Y level). Once you confirm the placement of the Town Hall (&2green checkmark&r), the Town Hall block will be placed."
 				""
-				"Once the &6&lTown Hall&r&r block is placed and the colony is created, you will receive your initial &c4&r &6citizens&r. The &6&lTown Hall&r&r is where your citizens will take shelter and gather at night until you build them a &6Tavern&r or their own &6Residence&r."
+				"Once the &6&lTown Hall&r&r block is placed and the colony is created, you will receive your initial &c4&r &6citizens&r. The Town Hall is where your citizens will take shelter and gather at night until you build them a &6Tavern&r or their own &6Residence&r."
 			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: false
@@ -204,7 +204,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Start Your Colony"
+			subtitle: "&eStart Your Colony"
 			tasks: [
 				{
 					id: "6C387B1C9DC19FF2"
@@ -240,11 +240,11 @@
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
-				"Before anything can be built, you need a &l&6Builder&r&r. The Builder must construct their own &6&lBuilder's Hut&r&r before building any other huts, and they cannot &nbuild or upgrade&r a hut to a &9higher&r level than their own hut's level. Craft the &6&lBuilder's Hut&r&r block and place it down, following the previous example, to begin the construction process."
+				"Before anything can be built, you need a &l&6Builder&r&r. The Builder must construct their own &6&lBuilder's Hut&r&r before building any other huts, and they cannot &nbuild or upgrade&r a hut to a higher level than their own hut's level. Craft the Builder's Hut block and place it down, following the previous example, to begin the construction process."
 				""
-				"You will need to click &9Build Options&r on the &l&6Builder's Hut&r&r, then click &9Build Building&r. This will assign your new &l&6Builder&r&r the task to build their own hut first. If the &6&lBuilder's Hut&r&r is not constructed, the Builder &9cannot&r build any other buildings."
+				"You will need to click &9Build Options&r on the Builder's Hut, then click Build Building. This will assign your new Builder the task to build their own hut first. If the Builder's Hut is not constructed, the Builder cannot build any other buildings."
 				""
-				"The &l&6Builder&r&r will request the &9materials&r they need. Right-click on them when they have a &cred icon&r above their head to see their current material requests."
+				"The Builder will request the materials they need. Right-click on them when they have a &cred icon&r above their head to see their current material requests."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -286,7 +286,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6The Builder's Hut"
+			subtitle: "&eThe Builder's Hut"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_builder"
 				criterion: ""
@@ -299,7 +299,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["Your colonists will need a &6house&r and a &6place to sleep&r, so it is recommended to build a &6&lTavern&r&r next. The &6&lTavern&r&r also allows &6visitors&r to come to your colony, and you can &6recruit&r them to stay as citizens."]
+			description: ["Your colonists will need a &6place to sleep&r, at least until they have a proper home, so it is recommended to build a &6&lTavern&r&r next. The &6&lTavern&r&r also allows &6visitors&r to come to your colony, and you can recruit them to stay as citizens."]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -338,7 +338,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tavern"
+			subtitle: "&eTavern"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_tavern"
 				criterion: ""
@@ -351,7 +351,7 @@
 		}
 		{
 			dependencies: ["3B3C2C300801BCEE"]
-			description: ["Citizens will go to the &6&lResidence&r&r they are assigned to at night to sleep. The &6Resi&ldence&r&r is also a way to get &6more&r citizens for your colony. For additional citizens to spawn, you first &9have to have enough space&r in your &6Residences&r to house your &6first four citizens&r. After you have created enough space for your &6initial four citizens&r, you have two options for your colony to grow. The first way is to have a free bed in your colony. You can also make space for a new citizen, go to the Tavern, wait for a &6traveler&r to show up, and then give them the items they request to &6recruit&r them."]
+			description: ["Citizens will go to the &6&lResidence&r&r they are assigned to at night to sleep. The Residence is also a way to get more citizens for your colony. For additional citizens to spawn, you first have to have enough space&r in your Residences to house your first four citizens. After you have created enough space for your &6initial four citizens&r, &eyou have two options&r for your colony to grow. The first way is to have a free bed in your colony. You can also make space for a new citizen, go to the &6Tavern&r, wait for a &6traveler&r to show up, and then give them the items they request to recruit them."]
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
@@ -390,7 +390,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Residence"
+			subtitle: "&eResidence"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_citizen"
 				criterion: ""
@@ -403,7 +403,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["The &6&lRestaurant&r&r is where the &6Cook&r will cook food, provided they have the &nnecessary ingredients&r and &nfuel&r. When citizens are &6hungry&r, they will come to the &6&lRestaurant&r&r and the &6Cook&r will give them food. The &6Assistant Cook&r also works at the Restaurant. They craft needed food to help &6supply&r the colony."]
+			description: ["The &6&lRestaurant&r&r is where the &6Cook&r will cook food, provided they have the &nnecessary ingredients&r and &nfuel&r. When citizens are hungry, they will come to the Restaurant and the Cook will give them food. The &6Assistant Cook&r also works at the Restaurant. They craft needed food to help &6supply&r the colony."]
 			id: "2E9E12CAEE6E6A4C"
 			rewards: [
 				{
@@ -468,7 +468,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Restaurant"
+			subtitle: "&eRestaurant"
 			tasks: [{
 				advancement: "minecolonies:production/build_cook"
 				criterion: ""
@@ -481,7 +481,7 @@
 		}
 		{
 			dependencies: ["2E9E12CAEE6E6A4C"]
-			description: ["The &6&lBakery&r&r will craft &9bread dough&r, &9cookie dough&r, &9cake dough&r, and &9raw pumpkin pie&r, then &6bake&r these in a furnace to create bread, cookies, cakes, and pumpkin pies. They will only do this &nupon request&r, whether from the &6Cook&r, the &6Postbox&r, or as a minimum stock in the &6Warehouse&r."]
+			description: ["The &6&lBakery&r&r will craft bread dough, cookie dough, cake dough, and raw pumpkin pie, then &6bake&r these in a furnace to create bread, cookies, cakes, and pumpkin pies. They will only do this &nupon request&r, whether from the &6Cook&r, the &6Postbox&r, or as a minimum stock in the &6Warehouse&r."]
 			id: "7F8AD0BECEF17D93"
 			rewards: [
 				{
@@ -511,7 +511,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Bakery"
+			subtitle: "&eBakery"
 			tasks: [{
 				advancement: "minecolonies:production/build_baker"
 				criterion: ""
@@ -524,7 +524,7 @@
 		}
 		{
 			dependencies: ["2E9E12CAEE6E6A4C"]
-			description: ["The &6&lCookery&r&r is where the &6Chef&r will create food for your citizens. Food will be cooked when requested, use this conjunction with your &6&lRestaurants&r&r to automatically keep your Restaurants &6stocked&r with food."]
+			description: ["The &6&lCookery&r&r is where the &6Chef&r will create food for your citizens. Food will be cooked when requested, use this conjunction with your Restaurants to automatically keep your Restaurants stocked with food."]
 			id: "00C79D7593BD9909"
 			rewards: [
 				{
@@ -554,7 +554,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Cookery"
+			subtitle: "&eCookery"
 			tasks: [{
 				id: "5601939C1430E133"
 				item: {
@@ -575,8 +575,8 @@
 		{
 			dependencies: ["7A4231E1D13D27A9"]
 			description: [
-				"The &6&lFisher's Hut&r&r is where the &6&lFisher&r&r will catch fish. The &6Fisher&r requires a &9fishing rod&r and a &9body of water of a minimum of 7 blocks wide, 7 blocks long and 2 blocks deep&r to be able to work, and the water must be near the hut."
-				"Upgrading the &6Fisher's Hut&r will expand the range at which the &6Fisher&r can fish, and the higher the level of the &6Fisher's Hut&r, the more loot the &6Fisher&r will be fishing out (&9instead of fish&r). This includes &9prismarine and sponges&r!"
+				"The &6&lFisher's Hut&r&r is where the &6&lFisher&r&r will catch fish. The &6Fisher&r requires a &9fishing rod&r and a body of water of a minimum of 7 blocks wide, 7 blocks long and 2 blocks deep to be able to work, and the water must be near the hut."
+				"Upgrading the Fisher's Hut will expand the range at which the Fisher can fish, and the higher the level of the Fisher's Hut, the more loot the Fisher will be fishing out (instead of fish). This includes &9prismarine and sponges&r!"
 				""
 				"&c&lNote:&r&r The Fisher will only catch fish and junk in most biomes. If the Fisher is in an &6ocean&r biome, items from treasure category will also be caught."
 			]
@@ -608,7 +608,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Fisher's Hut"
+			subtitle: "&eFisher's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_fisherman"
 				criterion: ""
@@ -707,7 +707,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Build one of every Herder Hut"
+			subtitle: "&eBuild one of every Herder Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_all_herders"
 				criterion: ""
@@ -720,7 +720,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["The &6&lShepherd's Hut&r&r is where the &6Shepherd&r will &9breed and butcher sheep&r for food and wool. You will have to capture and bring in &ctwo sheep&r to the &6&lShepherd's Hut&r&r, as the &6Shepherd&r will &cnot&r catch and bring in any sheep."]
+			description: ["The &6&lShepherd's Hut&r&r is where the &6Shepherd&r will &9breed and butcher sheep&r for food and wool. You will have to capture and bring in two sheep to the Shepherd's Hut, as the Shepherd will &cnot&r catch and bring in any sheep."]
 			hide_dependency_lines: true
 			id: "47B549546A02C8F5"
 			rewards: [
@@ -751,7 +751,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Shepherd's Hut"
+			subtitle: "&eShepherd's Hut"
 			tasks: [{
 				id: "160F5056D7D290AC"
 				item: {
@@ -771,7 +771,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["The &6&lChicken Farmer's Hut&r&r is where the &6Chicken Farmer&r will raise chickens, collect eggs, and butcher chickens for food. You will have to capture and bring in &ctwo chickens&r to the &l&6Chicken Farmer's Hut&r&r, as the &6Chicken Farmer&r will &cnot&r catch and bring in any chickens."]
+			description: ["The &6&lChicken Farmer's Hut&r&r is where the &6Chicken Farmer&r will raise chickens, collect eggs, and butcher chickens for food. You will have to capture and bring in two chickens to the Chicken Farmer's Hut, as the Chicken Farmer will &cnot&r catch and bring in any chickens."]
 			hide_dependency_lines: true
 			id: "17E0353A98922300"
 			rewards: [
@@ -802,7 +802,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Chicken Farmer's Hut"
+			subtitle: "&eChicken Farmer's Hut"
 			tasks: [{
 				id: "4C0EBED599F10879"
 				item: {
@@ -822,7 +822,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["The &6&lCowhand's Hut&r&r is where the &6&lCowhand&r&r will breed, butcher, and milk (&9if you have the option enabled&r) cows for food and leather. You will have to capture and bring in &ctwo cows&r to the &6&lCowhand's Hut&r&r, as the &6Cowhand&r will &cnot&r catch and bring in any cows."]
+			description: ["The &6&lCowhand's Hut&r&r is where the &6&lCowhand&r&r will breed, butcher, and milk (&9if you have the option enabled&r) cows for food and leather. You will have to capture and bring in two cows to the Cowhand's Hut, as the Cowhand will &cnot&r catch and bring in any cows."]
 			hide_dependency_lines: true
 			id: "30B9E7520C2936E0"
 			rewards: [
@@ -853,7 +853,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Cowhand's Hut"
+			subtitle: "&eCowhand's Hut"
 			tasks: [{
 				id: "42FBF282CC538416"
 				item: {
@@ -873,7 +873,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["The &6&lRabbit Hutch&r&r is where the &6&lRabbit Herder&r&r will raise and butcher rabbits. You will have to capture and bring in &ctwo rabbits&r to the &l&6Rabbit Hutch&r&r, as the &6Rabbit Herder&r will not catch and bring in any rabbits."]
+			description: ["The &6&lRabbit Hutch&r&r is where the &6&lRabbit Herder&r&r will raise and butcher rabbits. You will have to capture and bring in two rabbits to the Rabbit Hutch, as the Rabbit Herder will not catch and bring in any rabbits."]
 			hide_dependency_lines: true
 			id: "39C5A2B73D30D109"
 			rewards: [
@@ -904,7 +904,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Rabbit Hutch"
+			subtitle: "&eRabbit Hutch"
 			tasks: [{
 				id: "46A51B55DD3DBA19"
 				item: {
@@ -924,7 +924,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["The &6&lSwineherd's Hut&r&r is where the &6&lSwineherd&r&r will breed and butcher pigs for food. You will have to capture and bring in &ctwo pigs&r to the &l&6Swineherd's Hut&r&r, as the &6Swineherd&r will &cnot&r catch and bring in any pigs."]
+			description: ["The &6&lSwineherd's Hut&r&r is where the &6&lSwineherd&r&r will breed and butcher pigs for food. You will have to capture and bring in two pigs to the Swineherd's Hut, as the Swineherd will &cnot&r catch and bring in any pigs."]
 			hide_dependency_lines: true
 			id: "4F738E96A298B07E"
 			rewards: [
@@ -955,7 +955,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Swineherd's Hut"
+			subtitle: "&eSwineherd's Hut"
 			tasks: [{
 				id: "3A3A0A7E0DB88F8C"
 				item: {
@@ -978,9 +978,9 @@
 			description: [
 				"The &6&lMine&r&r is where you can hire a &6&lMiner&r&r to work the mine, or a &l&6Quarrier&r&r to work the &6&lQuarry&r&r. &9If you hire a Quarrier, there will be no Miner at this Mine&r."
 				""
-				"At the &6Mine&r, the &6Miner&r will mine for &nores and materials&r. Once they are hired, they will first create a &9shaft downward&r. The &6Miner&r digs their shaft down until they reach the &9first mining level below it&r, increasing one further for each building level past 1. Once the main shaft is completed, the &6Miner&r will then &9branch out&r."
+				"At the &6&lMine&r, the &6&lMiner&r will mine for &nores and materials&r. Once they are hired, they will first create a shaft downward. The Miner digs their shaft down until they reach the first mining level below it, increasing one further for each building level past 1. Once the main shaft is completed, the Miner will then branch out."
 				""
-				"The &l&6Quarry&r&r is where you can hire a &6&lQuarrier&r&r to dig the quarry. The &6Quarry&r will be a pit of varied size (&9simple quarry is 1 x 1 chunks, medium is 2 x 2&r) to collect larger amounts of stone type blocks. The &6Quarry&r &9will only produce the blocks it digs out&r. It will &cnot&r produce additional ore blocks like the &6Mine&r."
+				"The &l&6Quarry&r&r is where you can hire a &6&lQuarrier&r&r to dig the quarry. The Quarry will be a pit of varied size (a simple quarry is 1 x 1 chunks, medium is 2 x 2) to collect larger amounts of &nstone type blocks&r. The Quarry will only produce the blocks it digs out&r. It will &cnot&r produce additional ore blocks like the &6Mine&r."
 			]
 			icon: {
 				Count: 1
@@ -1019,7 +1019,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Mine"
+			subtitle: "&eMine"
 			tasks: [
 				{
 					advancement: "minecolonies:production/build_miner"
@@ -1041,17 +1041,17 @@
 					type: "item"
 				}
 			]
-			title: "&6&lI’m going to be a gold digger—just kidding!"
+			title: "&6&lI’m going to be a gold digger"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
 			description: [
-				"The &6&lFarm&r&r is where the &6&lFarmer&r&r will grow crops for your colony. Before the &6Farmer&r can start, you will have to give them a &9hoe&r, an &9axe&r, and &9the crop you want to cultivate&r."
-				"The &6Farmer&r will also craft seeds, carved pumpkins, hay bales, Compost, and coarse dirt. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials."
+				"The &6&lFarm&r&r is where the &6&lFarmer&r&r will grow crops for your colony. Before the Farmer can start, you will have to give them a &9hoe&r, an &9axe&r, and &9the crop you want to cultivate&r."
+				"The Farmer will also craft seeds, carved pumpkins, hay bales, Compost, and coarse dirt. They will only make items when they have been taught the recipes, receive a request for an item, and have the needed materials."
 				""
-				"For the &l&6Farmer&r&r to start, you will also need to place &9&lfields&r&r. Place the &9Field block&r in the plot of farmland you want the Farmer to work on and right-click on it to access its GUI."
+				"For the &l&6Farmer&r&r to start, you will also need to place &9&lfields&r&r. Place the field block in the plot of farmland you want the Farmer to work on and right-click on it to access its GUI."
 			]
 			icon: {
 				Count: 1
@@ -1090,7 +1090,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Farm"
+			subtitle: "&eFarm"
 			tasks: [
 				{
 					advancement: "minecolonies:production/build_farmer"
@@ -1118,7 +1118,7 @@
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
-			description: ["The &6&lForester's Hut&r&r is where the &6&lForester&r&r chops down trees. The &6Forester&r will cut down any tree in an approximate &c150&r block area (&9from themselves&r) that is not in a hut schematic and doesn't have cobblestone placed beneath it. Or you can optionally configure a specific chopping zone that they will use instead by using the &l&6Forest Tool&r&r."]
+			description: ["The &6&lForester's Hut&r&r is where the &6&lForester&r&r chops down trees. The Forester will cut down any tree in an approximate 150 block area that is not in a hut schematic and doesn't have cobblestone placed beneath it. Or you can optionally configure a specific chopping zone that they will use instead by using the &l&6Forest Tool&r&r."]
 			id: "2D1908A2F64A80C9"
 			rewards: [
 				{
@@ -1147,7 +1147,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Forester's Hut"
+			subtitle: "&eForester's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_lumberjack"
 				criterion: ""
@@ -1163,7 +1163,7 @@
 			description: [
 				"The &6&lWarehouse&r&r is the &6central storage&r from where a &6&lCourier&r&r will store and retrieve everything your workers harvest, craft, or need. Items will be stored in &9Racks&r."
 				""
-				"The &9level&r of the &6&lWarehouse&r&r will determine &9how many Couriers will be able to use it at the same time&r. Level up the &6&lWarehouse&r&r to increase the amount of &6&lCouriers&r&r that can work in it. Leveling up the &6&lWarehouse&r&r will also increase its &9storage capacity&r."
+				"The level of the &6&lWarehouse&r&r will determine how many Couriers will be able to use it at the same time. Level up the Warehouse to increase the amount of Couriers that can work in it. Leveling up the Warehouse will also increase its &9storage capacity&r."
 			]
 			id: "6664CC4166B8FD3C"
 			rewards: [
@@ -1193,7 +1193,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Warehouse"
+			subtitle: "&eWarehouse"
 			tasks: [{
 				advancement: "minecolonies:production/build_warehouse"
 				criterion: ""
@@ -1207,9 +1207,9 @@
 		{
 			dependencies: ["7A4231E1D13D27A9"]
 			description: [
-				"The &6&lCourier&r&r runs back and forth from the &6Warehouse&r to all the worker huts in your colony, delivering materials to workers and putting finished products in the &6Warehouse&r. Each &6&lCourier&r&r needs &9their own hut&r, and you can have up to &c10&r &9Couriers per Warehouse&r, depending on the Warehouse's level (&92 per Warehouse level&r)."
+				"The &6&lCourier&r&r runs back and forth from the &6&lWarehouse&r to all the worker huts in your colony, delivering materials to workers and putting finished products in the Warehouse. Each Courier needs their own hut, and you can have up to &e10&r &9Couriers per Warehouse&r, depending on the Warehouse's level (&92 per Warehouse level&r)."
 				""
-				"The level of the &6&lCourier's Hut&r&r will dictate how many items the &6&lCourier&r&r can deliver, so if you want them to carry more materials/tools, &9upgrade their hut&r. Upgrading the hut will also &9increase the amount of requests&r they can keep track of at a time."
+				"The level of the &6&lCourier's Hut&r&r will dictate how many items the Courier can deliver, so if you want them to carry more materials/tools, upgrade their hut. Upgrading the hut will also &9increase the amount of requests&r they can keep track of at a time."
 			]
 			id: "6213462ABAECCB3D"
 			rewards: [
@@ -1240,7 +1240,7 @@
 				}
 			]
 			size: 0.8d
-			subtitle: "&6Courier"
+			subtitle: "&eCourier"
 			tasks: [{
 				advancement: "minecolonies:production/build_delivery_person"
 				criterion: ""
@@ -1254,9 +1254,9 @@
 		{
 			dependencies: ["7A4231E1D13D27A9"]
 			description: [
-				"The &6&lApiary&r&r is where the &6&lBeekeeper&r&r works. The &6&lBeekeeper&r&r breeds bees and harvests honeycombs or honey bottles (&9you can choose which on the second page of the Apiary's GUI&r)."
+				"The &6&lApiary&r&r is where the &6&lBeekeeper&r&r works. The Beekeeper breeds bees and harvests honeycombs or honey bottles (&9you can choose which on the second page of the Apiary's GUI&r)."
 				""
-				"The level of the &6&lApiary&r&r determines the &9max number of hives&r the &6&lBeekeeper&r&r can take care of."
+				"The level of the Apiary determines the max number of hives the Beekeeper can take care of."
 				""
 				"&c&lNote:&r&r If the Beekeeper is asking for hives but there are some nearby, make sure you've set the hives for them to take care of with the &l&6Hive Tool&r&r. This tool is accessed from the second page of the Apiary GUI"
 			]
@@ -1290,7 +1290,7 @@
 				}
 			]
 			size: 0.75d
-			subtitle: "&6Apiary"
+			subtitle: "&eApiary"
 			tasks: [{
 				id: "22BB918ADBBCC0CC"
 				item: {
@@ -1311,7 +1311,7 @@
 		{
 			dependencies: ["7A4231E1D13D27A9"]
 			description: [
-				"The &6&lEnchanter's Tower&r&r is where the &6&lEnchanter&r&r will create enchanted books, as long as they have &9&lAncient Tomes&r&r. The &6Enchanter&r will observe other workers throughout their daily routines in order to &9collect experience&r to create enchanted books. The higher their &lM&9ana&r&r level, the &9more XP&r they will collect per trip. They will &cnot&r apply the enchanted books to tools and armor, you must do that yourself. Enchanters do &cnot&r take XP from workers, they simply gain it by &nobserving&r."
+				"The &6&lEnchanter's Tower&r&r is where the &6&lEnchanter&r&r will create enchanted books, as long as they have &9&lAncient Tomes&r&r. The Enchanter will observe other workers throughout their daily routines in order to &acollect experience&r to create enchanted books. The higher their Mana level, the more XP they will collect per trip. They will &cnot&r apply the enchanted books to tools and armor, you must do that yourself. Enchanters do &cnot&r take XP from workers, they simply gain it by &nobserving&r."
 				""
 				"The higher the level of the &l&6Enchanter's Tower&r&r, the higher the level of the enchanted books the &6Enchanter&r will produce"
 			]
@@ -1352,7 +1352,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Enchanter's Tower"
+			subtitle: "&eEnchanter's Tower"
 			tasks: [
 				{
 					advancement: "minecolonies:production/build_enchanter"
@@ -1381,7 +1381,7 @@
 		{
 			dependencies: ["7A4231E1D13D27A9"]
 			description: [
-				"The &6&lGuard Tower&r&r will employ and house one &6&lGuard&r&r to protect your colony. The new &6Guard&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Guard Tower&r, that becomes their &9new residence&r and the bed in the house will open up for another new citizen. Colonists like to feel safe, so building &6Guard Towers&r close to colonists' work and homes can improve their &9happiness&r. Additionally, if you place &6Guard Towers&r near your colony border and level them up, your border will &9expand&r."
+				"The &6&lGuard Tower&r&r will employ and house one &6&lGuard&r&r to protect your colony. The new Guard will need a bed in a house in order to spawn. However, once they are hired at the Guard Tower, that becomes their &9new residence&r and the bed in the house will open up for another new citizen. Colonists like to feel safe, so building Guard Towers close to colonists' work and homes can improve their happiness. Additionally, if you place Guard Towers near your colony border and level them up, your border will &9expand&r."
 				""
 				"The &l&6Guard&r&r will patrol a set distance around their tower, which is based on their &ntower's level&r."
 			]
@@ -1414,7 +1414,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Guard Tower"
+			subtitle: "&eGuard Tower"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_guard_tower"
 				criterion: ""
@@ -1428,9 +1428,9 @@
 		{
 			dependencies: ["14840116BC6E52B7"]
 			description: [
-				"The &6&lBarracks Tower&r&r will employ and house one &6&lGuard&r&r for every level built. Each new &6Guard&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Barracks Tower&r, that becomes their &9new residence&r and the bed in the house will open up for another new citizen."
+				"The &6&lBarracks Tower&r&r will employ and house one &6&lGuard&r&r for every level built. Each new Guard will need a bed in a house in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen."
 				""
-				"The &6&lBarracks Tower&r&r locations are predetermined by the &6Barracks&r that you choose. They are placed in specific locations to fit within the &6Barracks&r."
+				"The Barracks Tower locations are &9predetermined&r by the Barracks that you choose. They are placed in specific locations to fit within the Barracks."
 			]
 			id: "1BF6556EE16095F9"
 			rewards: [
@@ -1460,7 +1460,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Barracks Tower"
+			subtitle: "&eBarracks Tower"
 			tasks: [{
 				advancement: "minecolonies:military/build_barracks_tower"
 				criterion: ""
@@ -1468,12 +1468,12 @@
 				type: "advancement"
 			}]
 			title: "&6&lNo \"rest\" for the regimented"
-			x: -2.5d
-			y: 9.0d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["07FED65149F877AA"]
-			description: ["The &6&lCombat Academy&r&r is where your &6Knights in Training&r will train to become &l&6Knights&r&r. This also allows them to level up &cwithout a risk of dying&r to mobs. A new &6Knight in Training&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Combat Academy&r, that becomes their new residence and the bed in the house will open up for another new citizen."]
+			description: ["The &6&lCombat Academy&r&r is where your &6Knights in Training&r will train to become &l&6Knights&r&r. This also allows them to level up &cwithout a risk of dying&r to mobs. A new Knight in Training will need a bed in a house in order to spawn. However, once they are hired at the Combat Academy, that becomes their new residence and the bed in the house will open up for another new citizen."]
 			id: "2F1EE7ACA3CCFB42"
 			rewards: [
 				{
@@ -1502,7 +1502,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Combat Academy"
+			subtitle: "&eCombat Academy"
 			tasks: [{
 				advancement: "minecolonies:military/build_combat_academy"
 				criterion: ""
@@ -1515,7 +1515,7 @@
 		}
 		{
 			dependencies: ["07FED65149F877AA"]
-			description: ["The &6&lArchery&r&r is where your &6Archers in Training&r will train to become &l&6Archers&r&r. This also allows them to level up &cwithout a risk of dying&r to mobs. A new &6Archer in Training&r will &9need a bed in a house&r in order to spawn. However, once they are hired at the &6Archery&r, that becomes their new residence and the bed in the house will open up for another new citizen."]
+			description: ["The &6&lArchery&r&r is where your &6Archers in Training&r will train to become &l&6Archers&r&r. This also allows them to level up &cwithout a risk of dying&r to mobs. A new Archer in Training will need a bed in a house in order to spawn. However, once they are hired at the Archery, that becomes their new residence and the bed in the house will open up for another new citizen."]
 			id: "2CB763BBC7B0F688"
 			rewards: [
 				{
@@ -1544,7 +1544,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Archery"
+			subtitle: "&eArchery"
 			tasks: [{
 				advancement: "minecolonies:military/build_archery"
 				criterion: ""
@@ -1558,8 +1558,11 @@
 		{
 			dependencies: ["07FED65149F877AA"]
 			description: [
-				"The &6&lBarracks&r&r is the &9ultimate protection&r for your colony. Each &6&lBarracks&r&r can hold multiple &l&6Barracks Towers&r&r within its structure. The &6Barracks Tower&r (&9unlike the normal Guard tower&r) will employ and house one &6Guard&r for &9every level built&r, for a total of &c5&r &6Guards&r per &6Barracks Tower&r! Each new Guard will &9need a bed in a Residence&r in order to spawn. However, once they are hired at the &6Barracks Tower&r, that becomes &9their new residence&r and the bed in the house will open up for another new citizen."
-				"&6Colonists&r like to feel safe, so building &6Barracks&r close to colonists' work and homes can &9improve their happiness&r."
+				"The &6&lBarracks&r&r is the &9ultimate protection&r for your colony. Each Barracks can hold multiple &l&6Barracks Towers&r&r within its structure. The Barracks Tower (unlike the normal Guard tower) will employ and house one &6Guard&r for every level built, for a total of &65&r Guards per Barracks Tower! "
+				""
+				"Each new Guard will need a bed in a Residence in order to spawn. However, once they are hired at the Barracks Tower, that becomes their new residence and the bed in the house will open up for another new citizen."
+				""
+				"&6&lColonists&r&r like to feel safe, so building Barracks close to colonists' work and homes can improve their happiness."
 			]
 			id: "14840116BC6E52B7"
 			rewards: [
@@ -1589,7 +1592,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Barracks"
+			subtitle: "&eBarracks"
 			tasks: [{
 				advancement: "minecolonies:military/build_barracks"
 				criterion: ""
@@ -1631,7 +1634,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Graveyard"
+			subtitle: "&eGraveyard"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/citizen_bury"
 				criterion: ""
@@ -1645,11 +1648,11 @@
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
-				"The &l&6Mystical Site&r&r &9requires research&r at the &6University&r to be built, and is a simple building that &9increase a colony's overall happiness&r level. It has no worker and increases colonists' happiness just by existing."
+				"The &l&6Mystical Site&r&r &9requires research&r at the &6University&r to be built, and is a simple building that increases a colony's overall happiness level. It has no worker and increases colonists' happiness just by existing."
 				""
-				"The happiness bonus &cdoes not&r stack - only the highest level of &6&lMystical Site&r&r in the colony will provide a bonus. While there is no benefit to building multiple &6Mysical Sites&r, one is not prevented from doing so should they wish."
+				"The happiness bonus &cdoes not&r stack - only the highest level of Mystical Site in the colony will provide a bonus. While there is no benefit to building multiple Mysical Sites, one is not prevented from doing so should they wish."
 				""
-				"The &6&lMystical Site&r&r also gives a bonus to the &9maximum resurrection chance&r of the &6&lUndertaker&r&r."
+				"The Mystical Site also gives a bonus to the &9maximum resurrection chance&r of the &6Undertaker&r."
 			]
 			id: "111AEA0E6D56DE8F"
 			rewards: [
@@ -1679,7 +1682,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Mystical Site"
+			subtitle: "&eMystical Site"
 			tasks: [{
 				advancement: "minecolonies:minecolonies/build_mysticalsite"
 				criterion: ""
@@ -1693,7 +1696,7 @@
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
-				"The &6&lLibrary&r&r &9requires research&r at the &6University&r to be built, and is a way for you to raise your adult citizens' &6&lIntelligence&r&r skill, which influences all other skill increases (&9at other jobs&r). A citizen will randomly level up their &6Intelligence&r as long as they're assigned to the &l&6Library&r&r. Being a &6Library Student&r is their &9full-time job&r, so you &ccan't&r have one citizen work at the &6Library&r and another worker hut at the same time."
+				"The &6&lLibrary&r&r &9requires research&r at the &6University&r to be built, and is a way for you to raise your adult citizens' &6&lIntelligence&r&r skill, which influences all other skill increases (at other jobs). A citizen will randomly level up their Intelligence as long as they're assigned to the Library. Being a &6Library Student&r is their full-time job, so you &ccan't&r have one citizen work at the Library and another worker hut at the same time."
 				""
 				"&c&lHint:&r&r &9Paper&r and &9books&r help Library Students increase their skills faster."
 			]
@@ -1725,7 +1728,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Library"
+			subtitle: "&eLibrary"
 			tasks: [{
 				advancement: "minecolonies:production/build_library"
 				criterion: ""
@@ -1739,9 +1742,9 @@
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
-				"The &6&lSchool&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lTeacher&r&r will level up the &6Pupils'&r (&9children&r) &6Intelligence&r skill. &9Paper&r will increase the leveling speed of the &6Pupils&r."
+				"The &6&lSchool&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lTeacher&r&r will level up the &6Pupils'&r (&9children&r) &6Intelligence&r skill. Paper will increase the leveling speed of the Pupils."
 				""
-				"The level of the &6&lSchool&r&r determines how many &6Pupils&r can be taught at a time."
+				"The level of the School determines how many Pupils can be taught at a time."
 			]
 			id: "595A0D5A1E38A414"
 			rewards: [
@@ -1771,7 +1774,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6School"
+			subtitle: "&eSchool"
 			tasks: [{
 				id: "5A6FD4764C8CD7AF"
 				item: {
@@ -1791,7 +1794,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lHospital&r&r &9requires research&r at the &6University&r to be built, and is where &9injured&r or &9sick&r citizens go. The &6&lHealer&r&r will heal them with various items."]
+			description: ["The &6&lHospital&r&r &9requires research&r at the &6University&r to be built, and is where &cinjured&r or &asick&r citizens go. The &6&lHealer&r&r will heal them with various items."]
 			id: "4B7797941C20496E"
 			rewards: [
 				{
@@ -1820,7 +1823,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Hospital"
+			subtitle: "&eHospital"
 			tasks: [{
 				id: "6EB222BC0ED7D919"
 				item: {
@@ -1841,9 +1844,9 @@
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
-				"The &6&lNether Mine&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lNether Miner&r&r works. The &6Nether Miner&r travels into the &cNether&r and mines resources found there. The level of the hut determines what items the &6Nether Miner&r brings back."
+				"The &6&lNether Mine&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lNether Miner&r&r works. The Nether Miner travels into the &cNether&r and mines resources found there. The level of the hut determines what items the Nether Miner brings back."
 				""
-				"&c&lNote:&r&r The portal in the Nether Mine will transport players to the Nether. However, the &6Nether Miner&r &cdoes not&r actually travel into the Nether, nor do they actually mine any blocks in the Nether."
+				"&c&lNote:&r&r The portal in the Nether Mine will transport players to the Nether. However, the Nether Miner &cdoes not&r actually travel into the Nether, nor do they actually mine any blocks in the Nether."
 			]
 			id: "05CC534A0DE3868A"
 			rewards: [
@@ -1873,7 +1876,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Nether Mine"
+			subtitle: "&eNether Mine"
 			tasks: [{
 				id: "68485F9731AB5992"
 				item: {
@@ -1887,7 +1890,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lThis place is “hell” of a mine!"
+			title: "&6&lThis place is one “hell” of a mine!"
 			x: -2.5d
 			y: 12.5d
 		}
@@ -1922,7 +1925,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Composter's Hut"
+			subtitle: "&eComposter's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_composter"
 				criterion: ""
@@ -1964,7 +1967,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Flower Shop"
+			subtitle: "&eFlower Shop"
 			tasks: [{
 				advancement: "minecolonies:production/build_florist"
 				criterion: ""
@@ -1977,7 +1980,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lSawmill&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lCarpenter&r&r will craft any items made of at least &c75% wood&r, as well as a few other items including Racks, as well as Domum Ornamentum blocks that include wood. For them to do this, you must &9teach&r the &6Sawmill&r the recipes and the &6Carpenter&r must &9receive a request&r for an item from another worker."]
+			description: ["The &6&lSawmill&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lCarpenter&r&r will craft any items made of at least &c75% wood&r, as well as a few other items including Racks, as well as Domum Ornamentum blocks that include wood. For them to do this, you must teach the Carpenter the recipes and they must receive a request for an item from another worker."]
 			id: "4E2B4BFA5EF80546"
 			rewards: [
 				{
@@ -2006,7 +2009,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Sawmill"
+			subtitle: "&eSawmill"
 			tasks: [{
 				advancement: "minecolonies:production/build_sawmill"
 				criterion: ""
@@ -2022,7 +2025,7 @@
 			description: [
 				"The &6&lCrusher's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lCrusher&r&r will take items and crush them into other blocks. "
 				""
-				"&c&lNote:&r&r By default the Crusher's ratio is &c2:1&r, but there is a &9research&r in the University to make them work on a &c1:1&r ratio."
+				"&c&lNote:&r&r By default the Crusher's ratio is &c2:1&r, but there is a research in the University to make them work on a &c1:1&r ratio."
 			]
 			id: "61DABFE2D4151659"
 			rewards: [
@@ -2052,7 +2055,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Crusher"
+			subtitle: "&eCrusher"
 			tasks: [{
 				advancement: "minecolonies:production/build_crusher"
 				criterion: ""
@@ -2065,7 +2068,7 @@
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
-			description: ["The &6&lStonemason's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lStonemason&r&r will craft &c3x3&r recipes made entirely out of different types of stone. The &6Stonemason&r will only work when they &9receive a request&r from another worker and have the &9needed&r materials. You will also need to &9teach&r the &6Stonemason's Hut&r the recipes you want the &6Stonemason&r to craft."]
+			description: ["The &6&lStonemason's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lStonemason&r&r will craft &c3x3&r recipes made entirely out of different types of stone. The Stonemason will only work when they receive a request from another worker and have the needed materials. You will also need to teach the Stonemason's Hut the recipes you want the Stonemason to craft."]
 			id: "377C36AD367DB60D"
 			rewards: [
 				{
@@ -2094,7 +2097,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Stonemason's Hut"
+			subtitle: "&eStonemason's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_stonemason"
 				criterion: ""
@@ -2107,7 +2110,7 @@
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
-			description: ["The &6&lBlacksmith's Hut&r&r &9requires research&r at the &6University&r to be built, and is a &c3x3&r crafter and can make any vanilla tools, armor, swords, and shields (&9no bows or redstone items&r). The &6Blacksmith's Hut&r will work when they &9receive a request&r for any of those items from another worker."]
+			description: ["The &6&lBlacksmith's Hut&r&r &9requires research&r at the &6University&r to be built, and is a &c3x3&r crafter and can make any vanilla tools, armor, swords, and shields (no bows or redstone items). The Blacksmith's Hut will work when they receive a request for any of those items from another worker."]
 			id: "093039CD2C51183B"
 			rewards: [
 				{
@@ -2136,7 +2139,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Blacksmith's Hut"
+			subtitle: "&eBlacksmith's Hut"
 			tasks: [{
 				advancement: "minecolonies:production/build_blacksmith"
 				criterion: ""
@@ -2152,7 +2155,7 @@
 			description: [
 				"The &6&lSmeltery&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lSmelter&r&r will smelt ores into ingots."
 				""
-				"&c&lHint:&r&r The &9higher&r the level of the &6Smeltery&r, the &9more furnaces&r the &6Smelter&r will be able to use."
+				"&c&lHint:&r&r The higher the level of the Smeltery, the more furnaces the Smelter will be able to use."
 			]
 			id: "633CFF0D0970013D"
 			rewards: [
@@ -2182,7 +2185,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Smeltery"
+			subtitle: "&eSmeltery"
 			tasks: [{
 				advancement: "minecolonies:production/build_smeltery"
 				criterion: ""
@@ -2195,7 +2198,7 @@
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
-			description: ["The &6&lStone Smeltery&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lStone Smelter&r&r will smelt different types of stone. The &6Stone Smelter&r will only work when they have been &9taught&r the recipe, &9receive a request&r from another worker, and have the &9needed&r materials."]
+			description: ["The &6&lStone Smeltery&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lStone Smelter&r&r will smelt different types of stone. The Stone Smelter will only work when they have been taught the recipe, receive a request from another worker, and have the needed materials."]
 			id: "14251EA8EF4DA3D6"
 			rewards: [
 				{
@@ -2224,7 +2227,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Stone Smeltery"
+			subtitle: "&eStone Smeltery"
 			tasks: [{
 				advancement: "minecolonies:production/build_stone_smeltery"
 				criterion: ""
@@ -2237,7 +2240,7 @@
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
-			description: ["The &6&lSifter's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lSifter&r&r will sift through dirt, gravel, sand, or soul sand to find loot. Doing this will make the block the &6Sifter&r is sifting &cdisappear&r. You can choose between &9four meshes&r. The &9higher&r the level of the &9mesh&r, the &9higher&r the likelihood that the &6Sifter&r will find loot. The &6Sifter's Hut&r can sift a &ccertain amount&r of blocks per day."]
+			description: ["The &6&lSifter's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lSifter&r&r will sift through dirt, gravel, sand, or soul sand to find loot. Doing this will make the block the Sifter is sifting &cdisappear&r. You can choose between four meshes. The higher the level of the mesh, the higher the likelihood that the Sifter will find loot. The Sifter's Hut can sift a certain amount of blocks per day."]
 			id: "58003B4EA4064BB5"
 			rewards: [
 				{
@@ -2266,7 +2269,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Sifter"
+			subtitle: "&eSifter"
 			tasks: [{
 				advancement: "minecolonies:production/build_sifter"
 				criterion: ""
@@ -2279,7 +2282,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lAlchemist Tower&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lAlchemist&r&r works. The &6Alchemist&r brews potions, harvests netherwart and mistletoe."]
+			description: ["The &6&lAlchemist Tower&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lAlchemist&r&r works. The Alchemist brews potions, harvests netherwart and mistletoe."]
 			id: "77836607BA702351"
 			rewards: [
 				{
@@ -2308,7 +2311,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Alchemist Tower"
+			subtitle: "&eAlchemist Tower"
 			tasks: [{
 				id: "32533CF3CD01A98B"
 				item: {
@@ -2328,7 +2331,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lConcrete Mixer's Hut&r&r &9requires research&r at the &6University&r to be built, and will craft all types of concrete powder and place them in flowing water (&9built in to their hut&r), then mine the resulting concrete. The &l&6Concrete Mixer's Hut&r&r will only make concrete and concrete powder when they &9receive a request&r for a block and have the &9needed&r materials. (&9All their recipes are pretaught&r)"]
+			description: ["The &6&lConcrete Mixer's Hut&r&r &9requires research&r at the &6University&r to be built, and will craft all types of concrete powder and place them in flowing water (built in to their hut), then mine the resulting concrete. The Concrete Mixer's Hut will only make concrete and concrete powder when they receive a request for a block and have the needed&r materials. (&9All their recipes are pretaught)"]
 			id: "6898C03FFF9BEEE4"
 			rewards: [
 				{
@@ -2357,7 +2360,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Concrete Mixer's Hut"
+			subtitle: "&eConcrete Mixer's Hut"
 			tasks: [{
 				id: "05FCDA6A02236633"
 				item: {
@@ -2378,8 +2381,8 @@
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
 			description: [
-				"The &6&lPlantation&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lPlanter&r&r will grow a variety of plants. Each plant is grown on &9fields&r, which can be schematics (&9part of your style pack&r) that the &6Builder&r can construct, these &cdo not&r work like &6Farmer's Hut&r fields where you only have to place a scarecrow down!"
-				"The &6&lPlanter&r&r can also craft paper, books, sugar, and anything made with bamboo. The &6Planter&r will only make these items when they have been &9taught&r the recipes, &9receive a request&r for an item, and have the &9needed&r materials."
+				"The &6&lPlantation&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lPlanter&r&r will grow a variety of plants. Each plant is grown on &9fields&r, which can be schematics (part of your style pack) that the Builder can construct, these &cdo not&r work like Farmer's Hut fields where you only have to place a scarecrow down!"
+				"The Planter can also craft paper, books, sugar, and anything made with bamboo. The Planter will only make these items when they have been taught the recipes, receive a request for an item, and have the needed materials."
 			]
 			id: "7CAFD0FAF3654C08"
 			rewards: [
@@ -2409,7 +2412,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Plantation"
+			subtitle: "&ePlantation"
 			tasks: [{
 				id: "60446AD57874C633"
 				item: {
@@ -2429,7 +2432,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lMechanic's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lMechanic&r&r will craft redstone items, rails, minecarts, clocks, compasses, and many other items that &cno other crafter&r can make. For the &l&6Mechanic&r&r to work, they must &9receive a request&r from another worker and have the &9necessary&r materials. The &6&lMechanic's Hut&r&r must also have been &9taught&r the crafting recipes for all the items you want the &6Mechanic&r to be able to craft."]
+			description: ["The &6&lMechanic's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lMechanic&r&r will craft redstone items, rails, minecarts, clocks, compasses, and many other items that &cno other crafter&r can make. For the Mechanic to work, they must receive a request from another worker and have the necessary materials. The Mechanic's Hut must also have been &9taught&r the crafting recipes for all the items you want the Mechanic to be able to craft."]
 			id: "532251F10407CD16"
 			rewards: [
 				{
@@ -2458,7 +2461,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Mechanic's Hut"
+			subtitle: "&eMechanic's Hut"
 			tasks: [{
 				id: "19CAB4EE6363797F"
 				item: {
@@ -2478,7 +2481,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lFletcher's Hut&r&r requires research at the &6University&r to be built, and is where the &6&lFletcher&r&r will craft arrows and items that use string or wool, such as bows, fishing rods, and paintings. For the &6Fletcher&r to work, they must &9receive a request&r from another worker and have the &9necessary&r materials. The &6Fletcher's Hut&r must also have &9been taught&r the crafting recipes for all the items you want the &6Fletcher&r to be able to craft."]
+			description: ["The &6&lFletcher's Hut&r&r requires research at the &6University&r to be built, and is where the &6&lFletcher&r&r will craft arrows and items that use string or wool, such as bows, fishing rods, and paintings. For the Fletcher to work, they must receive a request from another worker and have the necessary materials. The Fletcher's Hut must also have been taught the crafting recipes for all the items you want the Fletcher to be able to craft."]
 			id: "0E51F4FF8498D40D"
 			rewards: [
 				{
@@ -2507,7 +2510,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Fletcher's Hut"
+			subtitle: "&eFletcher's Hut"
 			tasks: [{
 				id: "390C602CFEAF26EA"
 				item: {
@@ -2527,7 +2530,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lDyer's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lDyer&r&r will craft dyes and dye other items, including red nether bricks and dark prismarine. They won't dye concrete or concrete powder, though. The &6Dyer&r will only do this if they &9receive a request&r from another worker and have the &9necessary&r materials. The &6Dyer's Hut&r automatically knows how to make green dye and red sand, but you must &9teach it the recipes&r for the other dyes and the dyed items."]
+			description: ["The &6&lDyer's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lDyer&r&r will craft dyes and dye other items, including red nether bricks and dark prismarine. They won't dye concrete or concrete powder, though. The Dyer will only do this if they receive a request from another worker and have the necessary materials. The Dyer's Hut automatically knows how to make green dye and red sand, but you must &9teach them the recipes&r for the other dyes and the dyed items."]
 			id: "4F93846C439B8EC8"
 			rewards: [
 				{
@@ -2556,7 +2559,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Dyer's Hut"
+			subtitle: "&eDyer's Hut"
 			tasks: [{
 				id: "498ED4D32F2219AA"
 				item: {
@@ -2576,7 +2579,7 @@
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
-			description: ["The &6&lGlassblower's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lGlassblower&r&r will smelt sand into glass and make glass panes from glass blocks. For the &6Glassblower&r to work, they must &9receive a request&r from another worker and have the &9necessary&r materials, including &cfuel&r if they're smelting sand into glass. The &6Glassblower's Hut&r must also have been taught the crafting recipe for glass panes."]
+			description: ["The &6&lGlassblower's Hut&r&r &9requires research&r at the &6University&r to be built, and is where the &6&lGlassblower&r&r will smelt sand into glass and make glass panes from glass blocks. For the Glassblower to work, they must receive a request from another worker and have the necessary materials, &cincluding fuel&r if they're smelting sand into glass. The Glassblower's Hut must also have been taught the crafting recipe for glass panes."]
 			id: "07A1ABE59F38F2BD"
 			rewards: [
 				{
@@ -2605,7 +2608,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Glassblower's Hut"
+			subtitle: "&eGlassblower's Hut"
 			tasks: [{
 				id: "333CBA6AC2D89474"
 				item: {
@@ -2628,11 +2631,11 @@
 			description: [
 				"Selecting where to build your colony is &9very important&r, especially in the &6&lMCC&r&r world. While this logic applies whenever you build a colony, the challenges it helps you circumvent in this world are not only the usual ones but also much more."
 				""
-				"When starting your colony and establishing your own base, keep in mind that the proximity between them is &9&oextremely&r important&r."
+				"When starting your colony and establishing your own base, keep in mind that the proximity between them is extremely important&r."
 				""
-				"As long as your colony is &6loaded&r, your citizens are constantly trying to work, getting hungry, falling ill, being attacked, or even dying. If you plan to engage in &9more than just colony building&r and explore all that the pack has to offer, it’s worth considering placing your colony &c&lfar&r&r enough away from your base so that it stays &9&noutside of your simulation distance&r&r while you focus on other activities and &6&lChunkloading&r&r your colony when it's convenient. allowing you to effectively \"&9pause&r\" it, giving you the freedom to focus on other tasks as long as you'd like."
+				"As long as your colony is &6loaded&r, your citizens are constantly trying to work, getting hungry, falling ill, being attacked, or even dying. If you plan to engage in more than just colony building and explore all that the pack has to offer, it’s worth considering placing your colony &c&lfar&r&r enough away from your base so that it stays &9&noutside of your simulation distance&r&r while you focus on other activities and &6&lChunkloading&r&r your colony when it's convenient. allowing you to effectively \"pause\" it, giving you the freedom to focus on other tasks as long as you'd like."
 				""
-				"The &n&cdownside&r&r to this approach is that your colony won’t be loaded at all times. However, it’s an important consideration, at least until you have a &6well-established colony&r that can feed and defend itself independently."
+				"The &n&cdownside&r&r to this approach is that your colony won’t be loaded at all times. However, it’s an important consideration, at least until you have a well-established colony that can feed and defend itself independently."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -2812,9 +2815,9 @@
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
-				"&6&lResource Scroll:&r&r The resource scroll is an easy way to tell what one of your Builder needs. It's like a portable second page of the Builder's Hut! &9Sneak + right-click&r on a &cBuilder's Hut&r to register the resource scroll."
+				"&6&lResource Scroll:&r&r The resource scroll is an easy way to tell what one of your Builder needs. It's like a portable second page of the Builder's Hut! &9Sneak + right-click&r on a &eBuilder's Hut&r to register the resource scroll."
 				""
-				"&6&lClipboard:&r&r The clipboard is an easy way to see all the requests your workers have (that are not being fulfilled by a Courier). &9Sneak + right-click&r on the &cTown Hall&r to register the clipboard."
+				"&6&lClipboard:&r&r The clipboard is an easy way to see all the requests your workers have (that are not being fulfilled by a Courier). &9Sneak + right-click&r on the &eTown Hall&r to register the clipboard."
 			]
 			hide_dependency_lines: true
 			id: "6E0277C6CBF9DAFE"
@@ -3001,9 +3004,9 @@
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
-				"The &6&lAncient Tome&r&r is a glowing book that's dropped by &craiders&r (&9barbarians, pirates, vikings, egyptian raiders, etc&r) during raids. The &6&lAncient Tome&r&r &ccannot&r be crafted and is only available as a drop."
+				"The &6&lAncient Tome&r&r is a glowing book that's dropped by &craiders&r (barbarians, pirates, vikings, egyptian raiders, etc) during raids. The Ancient Tome &ccannot&r be crafted and is only available as a drop."
 				""
-				"There are &9two uses&r for the &6Ancient Tome&r, one use for the player and one for the Enchanter. The player's use is that if you have the &6Ancient Tome&r in your inventory, it will glow when there is going to be a &craid&r that night. The Enchanters use is to use the experience they collect from other workers to turn the &6Ancient Tome&r into an enchantment book. When they do this, it will use up the Ancient Tome."
+				"There are two uses for the &6Ancient Tome&r, one use for the player and one for the Enchanter. The player's use is that if you have the Ancient Tome in your inventory, it will glow when there is going to be a &craid&r that night. The Enchanters use is to use the experience they collect from other workers to turn the Ancient Tome into an enchantment book. When they do this, it will use up the Ancient Tome."
 			]
 			hide_dependency_lines: true
 			id: "47552A2EF958932A"
@@ -3058,7 +3061,7 @@
 			description: [
 				"&6&lMinecolonies for ComputerCraft&r&r provides an integration between the &6Minecolonies&r and &6ComputerCraft&r mods, allowing you to read various bits of information about your colony. This can be used for status displays and automation, among other things."
 				""
-				"You’ll now be able to craft the new &6&lColony Peripheral&r&r block. Place it down in the world anywhere &9inside your colony borders&r, and then place a &9computer or turtle&r either immediately next to it or connected to it via a Wired Modem network."
+				"You’ll now be able to craft the new &6&lColony Peripheral&r&r block. Place it down in the world anywhere &9inside your colony borders&r, and then place a computer or turtle either immediately next to it or connected to it via a Wired Modem network."
 				""
 				"If the computer was already running, then reboot it (hold down Ctrl+R) after placing the peripheral block."
 				""
@@ -3092,7 +3095,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Entirely Optional"
+			subtitle: "&eEntirely Optional"
 			tasks: [{
 				id: "04CBB47D75C8BFFC"
 				item: {
@@ -3221,7 +3224,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Automated Colony Logisitics"
+			subtitle: "&eAutomated Colony Logisitics"
 			tasks: [
 				{
 					id: "4E6338F0DA3EA3FC"
@@ -3278,7 +3281,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&6This quest leg is a courtesy, not a feature."
+			subtitle: "&eThis quest leg is a courtesy, not a feature."
 			tasks: [{
 				id: "21F2CE5F4E037B36"
 				title: "Do not report bugs for this quest leg"
@@ -3333,6 +3336,5 @@
 			y: 9.0d
 		}
 	]
-	subtitle: ["&eWelcome to Minecolonies"]
 	title: "&eMinecolonies"
 }
