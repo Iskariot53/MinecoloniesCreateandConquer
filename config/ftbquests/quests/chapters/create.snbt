@@ -267,7 +267,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Paper... for sanding"
+			subtitle: "&6Paper... for sanding"
 			tasks: [{
 				id: "521AA69D385CA1AB"
 				item: {
@@ -279,6 +279,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSand Paper"
 			x: -7.5d
 			y: -4.5d
 		}
@@ -299,12 +300,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Handy when sanded"
+			subtitle: "&6Handy when sanded"
 			tasks: [{
 				id: "03C25B8CF801B399"
 				item: "create:rose_quartz"
 				type: "item"
 			}]
+			title: "&e&lRose Quartz"
 			x: -5.5d
 			y: -4.5d
 		}
@@ -328,12 +330,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Used in many contraptions"
+			subtitle: "&6Used in many contraptions"
 			tasks: [{
 				id: "7F2EBF9CFBE1CB05"
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
+			title: "&e&lPolished Rose Quartz"
 			x: -6.5d
 			y: -3.5d
 		}
@@ -445,12 +448,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Flattening ingots the right way"
+			subtitle: "&6Flattening ingots the right way"
 			tasks: [{
 				id: "52052F6C0D533016"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
+			title: "&e&lMechanical Press"
 			x: -1.5d
 			y: -2.0d
 		}
@@ -471,12 +475,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Blending all the things"
+			subtitle: "&6Blending all the things"
 			tasks: [{
 				id: "129F622F4A9141DD"
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
+			title: "&e&lMechanical Mixer"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -497,12 +502,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Deposit here"
+			subtitle: "&6Deposit here"
 			tasks: [{
 				id: "1681306E6E838475"
 				item: "create:depot"
 				type: "item"
 			}]
+			title: "&e&lDepot"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -523,12 +529,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "See the numbers"
+			subtitle: "&6See the numbers"
 			tasks: [{
 				id: "13F379C01CF8058B"
 				item: "create:goggles"
 				type: "item"
 			}]
+			title: "&e&lEngineer's Goggles"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -549,12 +556,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Speed gauge"
+			subtitle: "&6Speed gauge"
 			tasks: [{
 				id: "687B194C8DC8C52C"
 				item: "create:speedometer"
 				type: "item"
 			}]
+			title: "&e&lSpeedometer"
 			x: 2.5d
 			y: 2.0d
 		}
@@ -575,12 +583,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stress capacity gauge"
+			subtitle: "&6Stress capacity gauge"
 			tasks: [{
 				id: "1341A9C93DB19257"
 				item: "create:stressometer"
 				type: "item"
 			}]
+			title: "&e&lStressometer"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -605,12 +614,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Need a hand?"
+			subtitle: "&6Need a hand?"
 			tasks: [{
 				id: "3019C2C4CBA33427"
 				item: "create:deployer"
 				type: "item"
 			}]
+			title: "&e&lDeployer"
 			x: -2.5d
 			y: -7.5d
 		}
@@ -631,12 +641,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Transfer both stress and items"
+			subtitle: "&6Transfer both stress and items"
 			tasks: [{
 				id: "68A7DC981C6031BA"
 				item: "create:belt_connector"
 				type: "item"
 			}]
+			title: "&e&lMechanical Belt"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -661,13 +672,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "it's fiiiine... it heats your basin because it's happy :D"
+			subtitle: "&6it's fiiiine... it heats your basin because it's happy :D"
 			tasks: [{
 				id: "415534F718AA0B91"
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			title: "Blaze Burner"
+			title: "&e&lBlaze Burner"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -695,12 +706,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "A big mixing bowl."
+			subtitle: "&6A big mixing bowl."
 			tasks: [{
 				id: "46F53DB42A7A642D"
 				item: "create:basin"
 				type: "item"
 			}]
+			title: "&e&lBasin"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -723,12 +735,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "A slightly nicer casing"
+			subtitle: "&6A slightly nicer casing"
 			tasks: [{
 				id: "40F84DAA85B8B265"
 				item: "create:copper_casing"
 				type: "item"
 			}]
+			title: "&e&lCopper Casing"
 			x: 7.5d
 			y: -0.5d
 		}
@@ -749,12 +762,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Fluid dispensing"
+			subtitle: "&6Fluid dispensing"
 			tasks: [{
 				id: "7530B59EDCA3C71D"
 				item: "create:spout"
 				type: "item"
 			}]
+			title: "&e&lSpout"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -778,12 +792,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Probably not edible"
+			subtitle: "&6Probably not edible"
 			tasks: [{
 				id: "766D539D8151704B"
 				item: "create:blaze_cake"
 				type: "item"
 			}]
+			title: "&e&lBlaze Cake"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -809,14 +824,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Shiny!"
+			subtitle: "&6Shiny!"
 			tasks: [{
 				count: 16L
 				id: "7BED8B9B79616E89"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			title: "Discovering new alloys: Brass"
+			title: "&e&lDiscovering new alloys: Brass"
 			x: 0.0d
 			y: -6.75d
 		}
@@ -841,12 +856,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "A much nicer casing"
+			subtitle: "&6A much nicer casing"
 			tasks: [{
 				id: "2A3A3DC60E6B8A52"
 				item: "create:brass_casing"
 				type: "item"
 			}]
+			title: "&e&lBrass Casing"
 			x: 0.0d
 			y: -9.0d
 		}
@@ -868,13 +884,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "MUCH better"
+			subtitle: "&6MUCH better"
 			tasks: [{
 				id: "024E3AFBD0612760"
 				title: "Much better"
 				type: "checkmark"
 			}]
-			title: "Sheets made efficiently"
+			title: "&e&lSheets made efficiently"
 			x: -4.0d
 			y: -2.0d
 		}
@@ -898,12 +914,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "ooooh fancy"
+			subtitle: "&6ooooh fancy"
 			tasks: [{
 				id: "328A7F307C1060AF"
 				item: "create:electron_tube"
 				type: "item"
 			}]
+			title: "&e&lElectron Tube"
 			x: -6.5d
 			y: -2.0d
 		}
@@ -923,12 +940,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Practically accurate"
+			subtitle: "&6Practically accurate"
 			tasks: [{
 				id: "0C57BE9FC326C12B"
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
+			title: "&e&lPrecision Mechanism"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -966,12 +984,13 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "If we haven't made it clear yet. MAKE THIS"
+			subtitle: "&6If we haven't made it clear yet. MAKE THIS"
 			tasks: [{
 				id: "0E48E6764CDD62E1"
 				item: "numismatics:bank_terminal"
 				type: "item"
 			}]
+			title: "&e&lBank Terminal"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -987,6 +1006,12 @@
 				"right-click a block to set the point you want to build off of, marked by the crystal that will appear."
 				""
 				"take it to find an open area and give it a try, making symmetrical designs was never easier!"
+				""
+				"{@pagebreak}"
+				""
+				"\"The single best build tool in modded minecraft for people who &nactually&r build their own designs... Fight me.\" "
+				""
+				"- Iskariot053"
 			]
 			id: "1226C7680942E087"
 			rewards: [
@@ -1003,12 +1028,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "A builder's best friend"
+			subtitle: "&6A builder's best friend"
 			tasks: [{
 				id: "431E0D44385A0EA4"
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
+			title: "&e&lWand of Symmetry"
 			x: -4.5d
 			y: -6.75d
 		}
@@ -1039,13 +1065,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "so what's the difference?"
+			subtitle: "&6so what's the difference?"
 			tasks: [{
 				id: "145F50225AF027B5"
 				title: "Id Cards"
 				type: "checkmark"
 			}]
-			title: "ID Cards"
+			title: "&e&lID Cards"
 			x: -2.571428571428548d
 			y: -3.9285714285714377d
 		}
@@ -1066,13 +1092,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "This is like your credit card"
+			subtitle: "&6This is like your credit card"
 			tasks: [{
 				id: "358D5AC1C21B17DB"
 				title: "Other id"
 				type: "checkmark"
 			}]
-			title: "Cards"
+			title: "&e&lCards"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -1092,12 +1118,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Automatic crafting tables, but cooler"
+			subtitle: "&6Automatic crafting tables, but cooler"
 			tasks: [{
 				id: "226025129A152B32"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
+			title: "&e&lMechanical Crafter"
 			x: 0.0d
 			y: -11.0d
 		}
@@ -1123,12 +1150,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "A helping hand"
+			subtitle: "&6A helping hand"
 			tasks: [{
 				id: "7D47515C169C4328"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
+			title: "&e&lMechanical Arm"
 			x: 0.0d
 			y: -12.5d
 		}
@@ -1149,12 +1177,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item transfer 2.0"
+			subtitle: "&6Item transfer 2.0"
 			tasks: [{
 				id: "096206FAFED8A840"
 				item: "create:brass_funnel"
 				type: "item"
 			}]
+			title: "&e&lBrass Funnel"
 			x: 1.0d
 			y: -5.5d
 		}
@@ -1175,12 +1204,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Belt sorting 2.0"
+			subtitle: "&6Belt sorting 2.0"
 			tasks: [{
 				id: "3CB51474D530845F"
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
+			title: "&e&lBrass Tunnel"
 			x: -1.0d
 			y: -5.5d
 		}
@@ -1205,12 +1235,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Retractable hoses"
+			subtitle: "&6Retractable hoses"
 			tasks: [{
 				id: "793818955F0B28E1"
 				item: "create:hose_pulley"
 				type: "item"
 			}]
+			title: "&e&lHose Pulley"
 			x: 7.0d
 			y: 1.0d
 		}
@@ -1231,12 +1262,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "contraption fluid transfer"
+			subtitle: "&6contraption fluid transfer"
 			tasks: [{
 				id: "7677AD53B928ECF4"
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
+			title: "&e&lPortable Fluid Interface"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -1257,12 +1289,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item transfer component"
+			subtitle: "&6Item transfer component"
 			tasks: [{
 				id: "2DBD01BA526E8DF4"
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
+			title: "&e&lPortable Storage Interface"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -1284,12 +1317,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Energy tansfer from build to build"
+			subtitle: "&6Energy tansfer from build to build"
 			tasks: [{
 				id: "1395A665EE8740A2"
 				item: "createaddition:portable_energy_interface"
 				type: "item"
 			}]
+			title: "&e&lPortable Energy Interface"
 			x: -1.0d
 			y: -8.0d
 		}
@@ -1310,7 +1344,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stress and turning corners"
+			subtitle: "&6Stress and turning corners"
 			tasks: [{
 				id: "7465566D2B41CEF1"
 				item: "create:gearbox"
@@ -1400,13 +1434,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "You've got ALOT of axes to grind."
+			subtitle: "&6You've got ALOT of axes to grind."
 			tasks: [{
 				count: 2L
 				id: "04532AF297B109DB"
 				item: { Count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
+			title: "&e&l2x Crushing Wheel"
 			x: 1.5d
 			y: -11.0d
 		}
@@ -1427,12 +1462,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "yet another means to move items"
+			subtitle: "&6Yet another means to move items"
 			tasks: [{
 				id: "47DB6B103293653C"
 				item: "create:chute"
 				type: "item"
 			}]
+			title: "&e&lChute"
 			x: -2.6785714285714377d
 			y: 1.5d
 		}
@@ -1457,12 +1493,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "It's a smarter chute, of course"
+			subtitle: "&6It's a smarter chute, of course"
 			tasks: [{
 				id: "58DF02F36AD8E0FD"
 				item: "create:smart_chute"
 				type: "item"
 			}]
+			title: "&e&lSmart Chute"
 			x: -4.0d
 			y: 1.5d
 		}
@@ -1483,12 +1520,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Used for.... Energizing!"
+			subtitle: "&6Used for.... Energizing!"
 			tasks: [{
 				id: "6280789A9E80122E"
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
+			title: "&e&lBasic Energizer"
 			x: 2.5d
 			y: -1.0d
 		}
@@ -1566,7 +1604,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Extracting the power"
+			subtitle: "&6Extracting the power"
 			tasks: [{
 				id: "667603ED19111659"
 				item: {
@@ -1580,6 +1618,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lCarbon Brushes"
 			x: -10.0d
 			y: 6.5d
 		}
@@ -1613,7 +1652,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Rotational Power Generation"
+			subtitle: "&6Rotational Power Generation"
 			tasks: [{
 				id: "7E40BE44E6B8F384"
 				item: {
@@ -1627,6 +1666,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lGenerator Coil"
 			x: -6.0d
 			y: 6.5d
 		}
@@ -1658,7 +1698,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T1 Magnets"
+			subtitle: "&6T1 Magnets"
 			tasks: [{
 				count: 12L
 				id: "0BB5039399781E01"
@@ -1673,6 +1713,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l12x Magnetite Block"
 			x: -4.0d
 			y: 3.0d
 		}
@@ -1713,7 +1754,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T2 Magnets"
+			subtitle: "&6T2 Magnets"
 			tasks: [{
 				count: 12L
 				id: "53AAA520AF2965D4"
@@ -1728,6 +1769,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l12x Redstone Magnet"
 			x: -5.0d
 			y: 3.0d
 		}
@@ -1754,7 +1796,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T3 Magnets"
+			subtitle: "&6T3 Magnets"
 			tasks: [{
 				count: 12L
 				id: "1C3C1849EE0D2A76"
@@ -1769,6 +1811,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l12x Layered Magnet"
 			x: -6.0d
 			y: 3.0d
 		}
@@ -1808,7 +1851,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T4 Magnets"
+			subtitle: "&6T4 Magnets"
 			tasks: [{
 				count: 12L
 				id: "68C0511047D69A70"
@@ -1823,6 +1866,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l12x Fluxuated Magnet"
 			x: -7.0d
 			y: 3.0d
 		}
@@ -1849,7 +1893,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T5 Magnets"
+			subtitle: "&6T5 Magnets"
 			tasks: [{
 				count: 12L
 				id: "6C7FB9E3A5181275"
@@ -1864,6 +1908,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l12x Netherite Magnet"
 			x: -8.0d
 			y: 3.0d
 		}
@@ -1894,7 +1939,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "First steps towards fluid containment"
+			subtitle: "&6First steps towards fluid containment"
 			tasks: [{
 				count: 6L
 				id: "3B9627877E010398"
@@ -1909,6 +1954,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l6x Copper Sheet"
 			x: 1.5d
 			y: -3.5d
 		}
@@ -1940,7 +1986,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Multiblock fluid storage"
+			subtitle: "&6Multiblock fluid storage"
 			tasks: [{
 				count: 3L
 				id: "19BD8E37B392CBCE"
@@ -1955,6 +2001,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l3x Fluid Tank"
 			x: 3.0d
 			y: -3.5d
 		}
@@ -2002,7 +2049,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Steam Power"
+			subtitle: "&6Steam Power"
 			tasks: [{
 				id: "1B9C673326CC5E66"
 				item: {
@@ -2016,6 +2063,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSteam Engine"
 			x: 4.5d
 			y: -3.5d
 		}
@@ -2048,7 +2096,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rare Green Angry Ore"
+			subtitle: "&6Rare Green Angry Ore"
 			tasks: [{
 				id: "09701CAB60FCF59A"
 				item: {
@@ -2062,6 +2110,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lLuminarchy"
 			x: 4.5d
 			y: 3.5d
 		}
@@ -2094,7 +2143,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rare Grey Angry Ore"
+			subtitle: "&6Rare Grey Angry Ore"
 			tasks: [{
 				id: "1435B2C7FEA46694"
 				item: {
@@ -2108,6 +2157,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lPhilolite"
 			x: 7.5d
 			y: 3.5d
 		}
@@ -2139,7 +2189,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Unbreakable"
+			subtitle: "&6Unbreakable"
 			tasks: [{
 				id: "4EB174F0AA66EE74"
 				item: {
@@ -2153,6 +2203,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lIrromolding"
 			x: 6.0d
 			y: 5.0d
 		}
@@ -2180,7 +2231,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Liquid Blaze Burners"
+			subtitle: "&6Liquid Blaze Burners"
 			tasks: [{
 				id: "7E4999C52A087BAC"
 				item: {
@@ -2194,6 +2245,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lStraw"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -2229,18 +2281,54 @@
 				xp: 15
 			}]
 			size: 1.5d
-			subtitle: "There are a few differences..."
+			subtitle: "&6There are a few differences..."
 			tasks: [{
 				id: "0819E99A28CDC4F2"
 				title: "Choosing the right burner and fuel"
 				type: "checkmark"
 			}]
+			title: "&e&lChoosing the right burner and fuel"
 			x: 5.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["5F358699277E5DC6"]
 			id: "6C4F2EAC0D52093A"
+			rewards: [
+				{
+					id: "34103C9AC1E761F8"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "1D8B5212C93397E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "154E8C2EB94C08C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&6T2 Energizer"
 			tasks: [{
 				id: "639E112A1F21A058"
 				item: {
@@ -2254,12 +2342,34 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lAdvanced Energizer"
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C4F2EAC0D52093A"]
 			id: "3097BA8611F52012"
+			rewards: [
+				{
+					id: "51004CD4758B2E13"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "474C6B32E4D67568"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&6T3 Energizer"
 			tasks: [{
 				id: "26F78452981593BD"
 				item: {
@@ -2273,6 +2383,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lReinforced Energizer"
 			x: 4.5d
 			y: 1.0d
 		}
@@ -2302,7 +2413,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Casting Cast Iron"
+			subtitle: "&6Casting Cast Iron"
 			tasks: [{
 				count: 16L
 				id: "6884CB5E1479BC50"
@@ -2317,6 +2428,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l16x Cast Iron Ingot"
 			x: 3.25d
 			y: -6.5d
 		}
@@ -2344,7 +2456,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making Coal Coke"
+			subtitle: "&6Making Coal Coke"
 			tasks: [{
 				count: 9L
 				id: "57D2BBF6E60BEA1C"
@@ -2359,6 +2471,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l9x Coke Oven"
 			x: 3.25d
 			y: -8.0d
 		}
@@ -2400,7 +2513,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Processing Coal Coke"
+			subtitle: "&6Processing Coal Coke"
 			tasks: [{
 				count: 32L
 				id: "468979CD662E1719"
@@ -2415,6 +2528,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l32x Coal Coke"
 			x: 4.75d
 			y: -8.0d
 		}
@@ -2442,7 +2556,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Steel Ingredients"
+			subtitle: "&6Steel Ingredients"
 			tasks: [{
 				count: 32L
 				id: "320FF09C6DF359CE"
@@ -2457,6 +2571,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l32x Coal Coke Dust"
 			x: 5.75d
 			y: -7.5d
 		}
@@ -2484,7 +2599,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Steel Ingredients"
+			subtitle: "&6Steel Ingredients"
 			tasks: [{
 				id: "13507C9D875BDC3F"
 				item: {
@@ -2498,6 +2613,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lBlasting Mixture"
 			x: 5.75d
 			y: -8.5d
 		}
@@ -2528,7 +2644,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Gathering Fireclay"
+			subtitle: "&6Gathering Fireclay"
 			tasks: [
 				{
 					count: 4L
@@ -2559,7 +2675,7 @@
 					type: "item"
 				}
 			]
-			title: "Fireproof Brick"
+			title: "&e&lFireproof Brick"
 			x: 2.5d
 			y: -9.5d
 		}
@@ -2591,7 +2707,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Interface"
+			subtitle: "&6The Interface"
 			tasks: [{
 				id: "38D344E8B49133EA"
 				item: {
@@ -2605,6 +2721,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lBlast Furnace Output"
 			x: 5.75d
 			y: -9.5d
 		}
@@ -2633,7 +2750,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reinforcing the bottom"
+			subtitle: "&6Reinforcing the bottom"
 			tasks: [{
 				count: 8L
 				id: "1FBA77BDECF9A9A3"
@@ -2648,6 +2765,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l8x Fireproof Brick Reinforcement"
 			x: 4.25d
 			y: -9.5d
 		}
@@ -2693,7 +2811,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Just need to get it to a casting set up"
+			subtitle: "&6Just need to get it to a casting set up"
 			tasks: [{
 				id: "48969412C55F8E68"
 				item: {
@@ -2707,6 +2825,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lMolten Steel Bucket"
 			x: 7.5d
 			y: -8.5d
 		}
@@ -2760,6 +2879,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lCasting Spout"
 			x: 6.5d
 			y: -6.0d
 		}
@@ -2799,6 +2919,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lCasting Basin"
 			x: 6.5d
 			y: -4.0d
 		}
@@ -2854,6 +2975,7 @@
 					type: "item"
 				}
 			]
+			title: "&e&lIngot Mold"
 			x: 6.5d
 			y: -5.0d
 		}
@@ -2901,7 +3023,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Advanced Hardware and Machinery"
+			subtitle: "&6Advanced Hardware and Machinery"
 			tasks: [{
 				id: "6164A5F20CB6A01F"
 				item: {
@@ -2915,6 +3037,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSteel Ingot"
 			x: 9.25d
 			y: -7.0d
 		}
@@ -2942,7 +3065,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Takes little more umph"
+			subtitle: "&6Takes little more umph"
 			tasks: [{
 				id: "483A69EE751A877D"
 				item: {
@@ -2956,6 +3079,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSteel Plate"
 			x: 11.0d
 			y: -6.0d
 		}
@@ -2984,7 +3108,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stone Cutting"
+			subtitle: "&6Stone Cutting"
 			tasks: [{
 				count: 16L
 				id: "6A88B3D516556351"
@@ -2999,6 +3123,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l16x Screw"
 			x: 11.0d
 			y: -7.0d
 		}
@@ -3027,7 +3152,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stone Cutting"
+			subtitle: "&6Stone Cutting"
 			tasks: [{
 				id: "69C2DF6995ED94E4"
 				item: {
@@ -3041,6 +3166,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lRebar"
 			x: 9.285714285714285d
 			y: -8.142857142857153d
 		}
@@ -3071,7 +3197,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A Precision Instrument"
+			subtitle: "&6A Precision Instrument"
 			tasks: [{
 				id: "433E5D234363D92F"
 				item: {
@@ -3088,6 +3214,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lScrewdriver"
 			x: 11.0d
 			y: -8.0d
 		}
@@ -3119,7 +3246,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A New Mechanism"
+			subtitle: "&6A New Mechanism"
 			tasks: [{
 				id: "41B3A6C38716CAB2"
 				item: {
@@ -3133,6 +3260,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSteel Mechanism"
 			x: 13.5d
 			y: -7.0d
 		}
@@ -3160,7 +3288,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Engines will need these!"
+			subtitle: "&6Engines will need these!"
 			tasks: [{
 				id: "29C75A4888FC2C84"
 				item: {
@@ -3174,6 +3302,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSpark Plug"
 			x: 13.5d
 			y: -8.0d
 		}
@@ -3217,7 +3346,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Needed for Radial Engines"
+			subtitle: "&6Needed for Radial Engines"
 			tasks: [{
 				id: "54B060F7C6C4AD55"
 				item: {
@@ -3231,6 +3360,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lEngine Chamber"
 			x: 14.5d
 			y: -7.5d
 		}
@@ -3241,7 +3371,7 @@
 			]
 			description: ["Planks can by hardened by using a spout to saturate them with &ecreosote&r, after which they can be sued for &8steel casing&r."]
 			id: "5E420A10E9DCC1B6"
-			subtitle: "Step 1 to making steel casings"
+			subtitle: "&6Step 1 to making steel casings"
 			tasks: [{
 				id: "3A57C6E8D66AC453"
 				item: {
@@ -3255,6 +3385,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lHardened Planks"
 			x: 9.214285714285715d
 			y: -4.464285714285722d
 		}
@@ -3285,7 +3416,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Steel applied to hardened planks"
+			subtitle: "&6Steel applied to hardened planks"
 			tasks: [{
 				id: "75A9EEE9D03C2F66"
 				item: {
@@ -3299,6 +3430,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSteel Casing"
 			x: 11.0d
 			y: -4.5d
 		}
@@ -3342,7 +3474,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Steel plate applied to steel casing"
+			subtitle: "&6Steel plate applied to steel casing"
 			tasks: [{
 				id: "39FFDABF2B7A08E4"
 				item: {
@@ -3356,6 +3488,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lHeavy Machinery Casing"
 			x: 13.0d
 			y: -4.5d
 		}
@@ -3384,7 +3517,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Fluid storage and refinement"
+			subtitle: "&6Fluid storage and refinement"
 			tasks: [{
 				count: 7L
 				id: "7DC5B1291A47D836"
@@ -3399,6 +3532,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l7x Steel Fluid Tank"
 			x: 16.0d
 			y: -6.0d
 		}
@@ -3443,7 +3577,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Distilling your crude oil"
+			subtitle: "&6Distilling your crude oil"
 			tasks: [{
 				id: "30D6602E54177545"
 				item: {
@@ -3457,6 +3591,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSteel Distillation Controller"
 			x: 16.0d
 			y: -4.5d
 		}
@@ -3497,7 +3632,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Outputting your byproducts"
+			subtitle: "&6Outputting your byproducts"
 			tasks: [{
 				count: 6L
 				id: "7EB76BA2A68B768C"
@@ -3512,6 +3647,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l6x Steel Distillation Output"
 			x: 16.0d
 			y: -7.5d
 		}
@@ -3570,7 +3706,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Required for Radial Engine"
+			subtitle: "&6Required for Radial Engine"
 			tasks: [{
 				id: "3A7CA3AD2F8C1383"
 				item: {
@@ -3584,6 +3720,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lHeavy Oil Bucket"
 			x: 18.0d
 			y: -6.0d
 		}
@@ -3612,7 +3749,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Advanced Distilling"
+			subtitle: "&6Advanced Distilling"
 			tasks: [{
 				id: "4E98BD64141D297C"
 				item: {
@@ -3626,6 +3763,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lLubrication Oil Bucket"
 			x: 19.5d
 			y: -6.0d
 		}
@@ -3650,6 +3788,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lKerosene Bucket"
 			x: 18.0d
 			y: -8.0d
 		}
@@ -3674,6 +3813,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lDiesel Bucket"
 			x: 18.0d
 			y: -7.0d
 		}
@@ -3698,6 +3838,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lNaphtha Bucket"
 			x: 18.0d
 			y: -9.0d
 		}
@@ -3722,6 +3863,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lGasoline Bucket"
 			x: 18.0d
 			y: -10.0d
 		}
@@ -3746,6 +3888,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lLPG Tank"
 			x: 18.0d
 			y: -11.0d
 		}
@@ -3777,7 +3920,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "There's a lot packed into that little motor!"
+			subtitle: "&6There's a lot packed into that little motor!"
 			tasks: [{
 				id: "712FCA48E7B398F3"
 				item: {
@@ -3791,6 +3934,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lLarge Radial Engine"
 			x: 21.0d
 			y: -6.0d
 		}
@@ -3817,7 +3961,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Needed for hardened planks"
+			subtitle: "&6Needed for hardened planks"
 			tasks: [{
 				id: "6CE28AC34703FDE8"
 				item: {
@@ -3831,6 +3975,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lCreosote Bucket"
 			x: 7.0d
 			y: -7.0d
 		}
@@ -3858,7 +4003,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Industrial Grade"
+			subtitle: "&6Industrial Grade"
 			tasks: [{
 				count: 32L
 				id: "5FD6878B256A1792"
@@ -3873,6 +4018,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l32x Industrial Pipe"
 			x: 10.5d
 			y: -2.5d
 		}
@@ -3920,7 +4066,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "USE THE PONDER FOR THIS ONE"
+			subtitle: "&6USE THE PONDER FOR THIS ONE"
 			tasks: [
 				{
 					id: "731317044306BF88"
@@ -4014,7 +4160,7 @@
 					type: "item"
 				}
 			]
-			title: "Extracting Liquid Dinosaur"
+			title: "&e&lExtracting Liquid Dinosaur"
 			x: 14.5d
 			y: -2.5d
 		}
@@ -4034,7 +4180,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Black Gold!"
+			subtitle: "&6Black Gold!"
 			tasks: [{
 				id: "4FD3B29810E206BE"
 				item: {
@@ -4048,6 +4194,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lCrude Oil Bucket"
 			x: 16.0d
 			y: -2.5d
 		}

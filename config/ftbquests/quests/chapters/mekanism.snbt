@@ -57,7 +57,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "This stuffs a little bit harder to find than usual"
+			subtitle: "&3This stuffs a little bit harder to find than usual"
 			tasks: [{
 				count: 6L
 				id: "5CF85FD278F2DA6D"
@@ -72,7 +72,7 @@
 				}
 				type: "item"
 			}]
-			title: "Welcome to Mekanism!"
+			title: "&9&lWelcome to Mekanism!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -104,7 +104,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Infusing Alloys"
+			subtitle: "&3Infusing alloys"
 			tasks: [{
 				id: "48BA68D98D82DF8C"
 				item: {
@@ -118,6 +118,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lMetallurgic Infuser"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -145,7 +146,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Enriching Resources"
+			subtitle: "&3Enriching resources"
 			tasks: [{
 				id: "27C16BAB6900FC12"
 				item: {
@@ -159,6 +160,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lEnrichment Chamber"
 			x: 0.0d
 			y: 6.285714285714292d
 		}
@@ -200,7 +202,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making Steel"
+			subtitle: "&3Making steel"
 			tasks: [
 				{
 					id: "245D6E717FCFB082"
@@ -250,7 +252,7 @@
 					type: "item"
 				}
 			]
-			title: "Enriching iron to make steel"
+			title: "&9&lEnriching iron to make steel"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -279,7 +281,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Making Casings"
+			subtitle: "&3Making casings"
 			tasks: [{
 				id: "63BE4571A3BA22D2"
 				item: {
@@ -293,6 +295,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lSteel Casing"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -346,6 +349,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lEnriched Carbon"
 			x: -2.0d
 			y: 5.5d
 		}
@@ -399,6 +403,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lEnriched Redstone"
 			x: -2.0d
 			y: 7.0d
 		}
@@ -452,6 +457,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lEnriched Diamond"
 			x: 2.0d
 			y: 7.0d
 		}
@@ -505,6 +511,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lEnriched Obsidian"
 			x: 2.0d
 			y: 5.5d
 		}
@@ -546,7 +553,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Processing Eggs and Combs"
+			subtitle: "&3Processing eggs and combs"
 			tasks: [{
 				id: "0E097C48250DB1D4"
 				item: {
@@ -560,6 +567,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lChemical Oxidizer"
 			x: -1.5d
 			y: 13.0d
 		}
@@ -587,7 +595,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Processing Nuclear Waste"
+			subtitle: "&3Processing nuclear waste"
 			tasks: [{
 				id: "3906B4DFC98B94DD"
 				item: {
@@ -601,6 +609,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lIsotopic Centrifuge"
 			x: 1.5d
 			y: 15.5d
 		}
@@ -628,7 +637,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Processing Nuclear Waste"
+			subtitle: "&3Processing nuclear waste"
 			tasks: [{
 				id: "7EC13BD9798B8ED6"
 				item: {
@@ -642,6 +651,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lSolar Neutron Activator"
 			x: -1.5d
 			y: 15.5d
 		}
@@ -672,7 +682,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Now It's Finally Safe"
+			subtitle: "&3Now it's finally safe"
 			tasks: [{
 				id: "625E65011AE5DC72"
 				item: {
@@ -686,6 +696,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lPlutonium Pellet"
 			x: 2.0d
 			y: 19.0d
 		}
@@ -716,7 +727,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Now It's Finally Safe"
+			subtitle: "&3Now it's finally safe"
 			tasks: [{
 				id: "6CEBCCBDFC6D6CBB"
 				item: {
@@ -730,6 +741,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lPolonium Pellet"
 			x: -2.0d
 			y: 19.0d
 		}
@@ -758,7 +770,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The \"PRC\""
+			subtitle: "&3The \"PRC\""
 			tasks: [{
 				id: "41409EAD79291502"
 				item: {
@@ -772,6 +784,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lPressurized Reaction Chamber"
 			x: 0.0d
 			y: 12.5d
 		}
@@ -799,7 +812,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iron Infused With Redstone"
+			subtitle: "&3Iron infused with redstone"
 			tasks: [{
 				id: "7207C39E254E0BFB"
 				item: {
@@ -813,6 +826,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lInfused Alloy"
 			x: -1.0d
 			y: 8.5d
 		}
@@ -852,7 +866,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Infused Alloy Infused With Diamond"
+			subtitle: "&3Infused alloy infused with diamond"
 			tasks: [{
 				id: "1C7510B119A3EA8B"
 				item: {
@@ -866,6 +880,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lReinforced Alloy"
 			x: 0.0d
 			y: 8.5d
 		}
@@ -893,7 +908,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Reinforced Alloy Infused With Obsidian"
+			subtitle: "&3Reinforced alloy infused with obsidian"
 			tasks: [{
 				id: "799D302F88171EEC"
 				item: {
@@ -907,6 +922,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lAtomic Alloy"
 			x: 1.0d
 			y: 8.5d
 		}
@@ -934,7 +950,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T1 Circuits"
+			subtitle: "&3T1 Circuits"
 			tasks: [{
 				id: "215A91C5B777C1E4"
 				item: {
@@ -948,6 +964,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lBasic Control Circuit"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -987,7 +1004,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T2 Circuits"
+			subtitle: "&3T2 Circuits"
 			tasks: [{
 				id: "21359DE4FA38C427"
 				item: {
@@ -1001,6 +1018,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lAdvanced Control Circuit"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -1028,7 +1046,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T3 Circuits"
+			subtitle: "&3T3 Circuits"
 			tasks: [{
 				id: "048DCDD1C5202C24"
 				item: {
@@ -1042,6 +1060,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lElite Control Circuit"
 			x: 1.0d
 			y: 9.5d
 		}
@@ -1082,7 +1101,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "T4 Circuits"
+			subtitle: "&3T4 Circuits"
 			tasks: [{
 				id: "2E62D2E8B04C4014"
 				item: {
@@ -1096,6 +1115,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lUltimate Control Circuit"
 			x: 2.5d
 			y: 9.5d
 		}
@@ -1124,7 +1144,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Fluid Separation"
+			subtitle: "&3Fluid separation"
 			tasks: [{
 				id: "431C4F61DD71A6F4"
 				item: {
@@ -1138,6 +1158,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lElectrolytic Separator"
 			x: 0.0d
 			y: 11.0d
 		}
@@ -1182,7 +1203,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Anti-matter"
+			subtitle: "&3Antimatter"
 			tasks: [{
 				id: "7655D66335781688"
 				item: {
@@ -1196,7 +1217,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Supercritical Phase Shifter"
+			title: "&9&lThe Supercritical Phase Shifter"
 			x: 0.0d
 			y: 21.5d
 		}
@@ -1228,7 +1249,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "The End Game Mekanism Resource"
+			subtitle: "&3The end game mekanism resource"
 			tasks: [{
 				id: "403456746519EE4E"
 				item: {
@@ -1242,6 +1263,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lAntimatter Pellet"
 			x: 0.0d
 			y: 19.5d
 		}
@@ -1272,7 +1294,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crystallizing Slurries and Gases"
+			subtitle: "&3Crystallizing slurries and gases"
 			tasks: [{
 				id: "3FD225D4E0A2CD7F"
 				item: {
@@ -1286,6 +1308,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lChemical Crystallizer"
 			x: 0.0d
 			y: 17.5d
 		}
@@ -1327,7 +1350,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Osmium Infusion"
+			subtitle: "&3Osmium infusion"
 			tasks: [{
 				id: "39E7AE37355B9A1B"
 				item: {
@@ -1341,6 +1364,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lOsmium Compressor"
 			x: 0.0d
 			y: 16.0d
 		}
@@ -1362,6 +1386,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lWasted Radioactive Chicken"
 			x: -2.5d
 			y: 13.5d
 		}
@@ -1387,6 +1412,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lWasted Radioactive Bee"
 			x: -2.5d
 			y: 12.5d
 		}
@@ -1469,7 +1495,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "More Plastic! :D"
+			subtitle: "&3More plastic! :D"
 			tasks: [{
 				id: "1BD80E90D4E997B0"
 				item: {
@@ -1483,6 +1509,7 @@
 				}
 				type: "item"
 			}]
+			title: "&9&lHDPE Pellet"
 			x: 0.0d
 			y: 14.5d
 		}

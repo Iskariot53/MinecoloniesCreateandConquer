@@ -58,21 +58,21 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Magic Botanics"
+			subtitle: "&2Magic botanics"
 			tasks: [{
 				advancement: "botania:main/flower_pickup"
 				criterion: ""
 				id: "49C12E387F7DBF4F"
 				type: "advancement"
 			}]
-			title: "Welcome to Botania!"
+			title: "&a&lWelcome to Botania!"
 			x: 1.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["585F7153AFC98B12"]
 			description: [
-				"Floral fertilizer can be used to spawn a few flowers per use, it effectively works like bonemeal for creating mystical flowers when used"
+				"Floral fertilizer can be used to spawn a few flowers per use,&e it effectively works like bonemeal&r for creating mystical flowers when used"
 				""
 				"If you find yourself running low on a particular color, try burying a petal of that color and using some bone meal on it."
 			]
@@ -98,7 +98,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gathering Flowers, The Easy Way"
+			subtitle: "&2Gathering flowers, the easy way"
 			tasks: [{
 				id: "3863F67A69DE5EBC"
 				item: {
@@ -112,6 +112,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lFloral Fertilizer"
 			x: 2.5d
 			y: 1.5d
 		}
@@ -148,7 +149,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Basic Botanical Crafting"
+			subtitle: "&2Basic botanical crafting"
 			tasks: [{
 				id: "32670C20B95C21FB"
 				item: {
@@ -162,6 +163,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lPetal Apothecary"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -194,7 +196,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your First Functional Flower"
+			subtitle: "&2Your first functional flower"
 			tasks: [{
 				id: "526EA6E799B3AE8F"
 				item: {
@@ -208,6 +210,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lPure Daisy"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -259,7 +262,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your Botanical \"Wrench\""
+			subtitle: "&2Your botanical \"wrench\""
 			tasks: [
 				{
 					id: "7BF4B5AA4BB499D5"
@@ -293,7 +296,7 @@
 					type: "item"
 				}
 			]
-			title: "Wand of the Forest"
+			title: "&a&lWand of the Forest"
 			x: 1.0d
 			y: 5.5d
 		}
@@ -322,7 +325,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Saving Some Inventory Space"
+			subtitle: "&2Saving some inventory space"
 			tasks: [{
 				id: "30C15015E6611354"
 				item: {
@@ -336,6 +339,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lFlower Pouch"
 			x: -0.5d
 			y: 1.5d
 		}
@@ -368,13 +372,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Generating Mana and How It Works"
+			subtitle: "&2Generating mana and how it works"
 			tasks: [{
 				id: "7BCDFE4175FD8E8B"
 				title: "The Basics"
 				type: "checkmark"
 			}]
-			title: "The Basics of Mana"
+			title: "&a&lThe Basics of Mana"
 			x: 1.0d
 			y: 7.0d
 		}
@@ -411,7 +415,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana Storage"
+			subtitle: "&2Mana storage"
 			tasks: [{
 				id: "4C394DE7D456FA49"
 				item: {
@@ -425,6 +429,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Pool"
 			x: 2.0d
 			y: 9.0d
 		}
@@ -472,7 +477,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Moving Mana"
+			subtitle: "&2Moving mana"
 			tasks: [{
 				id: "73ED2D2F55DE53AF"
 				item: {
@@ -486,6 +491,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Spreader"
 			x: 0.0d
 			y: 9.0d
 		}
@@ -493,12 +499,13 @@
 			dependencies: ["775D35416263E2B5"]
 			description: ["There are many types of generating flora, as the name implies, they generate mana for you when certain conditions are met. Using &aJEI&r or the &eLexica Botania&r will better help to choose which flower will best suit your needs at any point of progress."]
 			id: "159792662A8F6A9F"
-			subtitle: "Flowers that MAKE mana"
+			subtitle: "&2Flowers that MAKE mana"
 			tasks: [{
 				id: "677731C46EF223B0"
 				title: "Generating Flora"
 				type: "checkmark"
 			}]
+			title: "&a&lGenerating Flora"
 			x: -2.5d
 			y: 5.5d
 		}
@@ -506,18 +513,19 @@
 			dependencies: ["775D35416263E2B5"]
 			description: ["Functional flora can cover a wide range of needs, as the name implies, any given functional flower will consume mana in order to perform a specified function. &aJEI&r or the &eLexica Botania&r will provide information on which flora will best suit your needs."]
 			id: "74974B293BF303C1"
-			subtitle: "Flowers that USE mana"
+			subtitle: "&2Flowers that USE mana"
 			tasks: [{
 				id: "087F10F521D22FE1"
 				title: "Functional Flora"
 				type: "checkmark"
 			}]
+			title: "&a&lFunctional Flora"
 			x: 4.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
-			description: ["Hydroangeas flowers act as water-fueled passive generators. They suck up any still water in a 3x3 area (at the same Y level) around them, converting the water into mana. They function faster during rain, in which their base mana output is still fairly slow. In addition, they decay after three days of use, making them undesirable for long-term mana production."]
+			description: ["Hydroangeas flowers act as &9water-fueled&r passive generators. They suck up any still water in a 3x3 area (at the same Y level) around them, converting the water into mana. They function faster during rain, in which their base mana output is still fairly slow. In addition, they decay after three days of use, making them undesirable for long-term mana production."]
 			id: "6EF8EF579D32EAB0"
 			rewards: [
 				{
@@ -540,7 +548,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Water Flower"
+			subtitle: "&2Water flower"
 			tasks: [{
 				id: "41ADE2D80FB84D43"
 				item: {
@@ -554,6 +562,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lHydroangeas"
 			x: -4.0d
 			y: 4.5d
 		}
@@ -590,7 +599,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Burning Flower"
+			subtitle: "&2Burning flower"
 			tasks: [{
 				id: "01D45BA3DCF535AA"
 				item: {
@@ -604,6 +613,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lEndoflame"
 			x: -4.0d
 			y: 6.5d
 		}
@@ -656,7 +666,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Portable Mana Storage"
+			subtitle: "&2Portable mana storage"
 			tasks: [{
 				id: "3975D6DD8CF48C8C"
 				item: {
@@ -670,6 +680,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Tablet"
 			x: 1.0d
 			y: 12.5d
 		}
@@ -704,7 +715,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Visualizing Your Set Ups"
+			subtitle: "&2Visualizing your set ups"
 			tasks: [{
 				id: "5B550275AE05E791"
 				item: {
@@ -718,6 +729,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lManaseer Monocle"
 			x: 1.0d
 			y: 14.0d
 		}
@@ -749,7 +761,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "So What's Going On In The Mana Pools?"
+			subtitle: "&2What's going on in the mana pools?"
 			tasks: [{
 				id: "0C1CEB8836888F6F"
 				item: {
@@ -763,6 +775,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lManastar"
 			x: 1.0d
 			y: 8.0d
 		}
@@ -803,6 +816,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Infused String"
 			x: 4.0d
 			y: 7.5d
 		}
@@ -843,6 +857,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Quartz"
 			x: 4.0d
 			y: 8.5d
 		}
@@ -882,6 +897,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Diamond"
 			x: 4.0d
 			y: 9.5d
 		}
@@ -921,6 +937,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Pearl"
 			x: 4.0d
 			y: 10.5d
 		}
@@ -966,7 +983,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana Moving FAST"
+			subtitle: "&2Mana moving FAST"
 			tasks: [{
 				id: "4D4806E0032CB59D"
 				item: {
@@ -980,6 +997,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lVelocity Lens"
 			x: -2.0d
 			y: 7.5d
 		}
@@ -1010,7 +1028,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Fantastically Magical Botanical Alloys"
+			subtitle: "&2Fantastically magical botanical alloys"
 			tasks: [{
 				id: "58CCD34CC190389A"
 				item: {
@@ -1024,6 +1042,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lManasteel Ingot"
 			x: 1.0d
 			y: 11.0d
 		}
@@ -1060,7 +1079,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tweaking Your Mana Dispersion"
+			subtitle: "&2Tweaking your mana dispersion"
 			tasks: [{
 				id: "78DAC768A206FB44"
 				item: {
@@ -1074,6 +1093,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Lens"
 			x: -1.0d
 			y: 9.0d
 		}
@@ -1115,7 +1135,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "MORE mana per burst"
+			subtitle: "&2MORE mana per burst"
 			tasks: [{
 				id: "5818D65114EDDCBF"
 				item: {
@@ -1129,6 +1149,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lPotency Lens"
 			x: -2.0d
 			y: 8.5d
 		}
@@ -1170,7 +1191,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stop wasting mana"
+			subtitle: "&2Stop wasting mana"
 			tasks: [{
 				id: "53BACA89AE4EA152"
 				item: {
@@ -1184,6 +1205,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lResistance Lens"
 			x: -2.0d
 			y: 9.5d
 		}
@@ -1225,6 +1247,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&2Waste even less mana"
 			tasks: [{
 				id: "77D508C00FE070ED"
 				item: {
@@ -1238,6 +1261,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lEfficiency Lens"
 			x: -2.0d
 			y: 10.5d
 		}
@@ -1273,7 +1297,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "THESE ARE NOT JUNK"
+			subtitle: "&2THESE ARE NOT JUNK"
 			tasks: [{
 				id: "2E65EC4E9A714D46"
 				item: {
@@ -1287,6 +1311,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lBlack Lotus"
 			x: 1.0d
 			y: 9.5d
 		}
@@ -1327,7 +1352,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making Terrasteel"
+			subtitle: "&2Making terrasteel"
 			tasks: [{
 				id: "52DE2DE99ABCE1C2"
 				item: {
@@ -1341,7 +1366,7 @@
 				}
 				type: "item"
 			}]
-			title: "Terrestrial Agglomeration Plate"
+			title: "&a&lTerrasteel"
 			x: 1.0d
 			y: 17.0d
 		}
@@ -1386,7 +1411,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Trading With The Elves Of Alfheim"
+			subtitle: "&2Trading with the elves of Alfheim"
 			tasks: [{
 				id: "41F043E07B171629"
 				item: {
@@ -1400,6 +1425,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lElementium Ingot"
 			x: 1.0d
 			y: 20.5d
 		}
@@ -1449,7 +1475,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Agglomeration Multi-Block"
+			subtitle: "&2The agglomeration multi-block"
 			tasks: [{
 				id: "40F24D289FAA2762"
 				item: {
@@ -1463,6 +1489,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lTerrestrial Agglomeration Plate"
 			x: 1.0d
 			y: 15.5d
 		}
@@ -1515,6 +1542,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRunic Altar"
 			x: -8.0d
 			y: 12.0d
 		}
@@ -1554,6 +1582,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Water"
 			x: -9.0d
 			y: 12.5d
 		}
@@ -1593,6 +1622,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Fire"
 			x: -9.0d
 			y: 11.5d
 		}
@@ -1632,6 +1662,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Earth"
 			x: -7.0d
 			y: 11.5d
 		}
@@ -1671,6 +1702,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Air"
 			x: -7.0d
 			y: 12.5d
 		}
@@ -1710,6 +1742,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Spring"
 			x: -8.0d
 			y: 13.0d
 		}
@@ -1749,6 +1782,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Summer"
 			x: -8.0d
 			y: 11.0d
 		}
@@ -1788,6 +1822,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Autumn"
 			x: -7.0d
 			y: 13.5d
 		}
@@ -1827,6 +1862,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Winter"
 			x: -9.0d
 			y: 10.5d
 		}
@@ -1866,6 +1902,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Mana"
 			x: -9.0d
 			y: 13.5d
 		}
@@ -1905,6 +1942,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Lust"
 			x: -6.0d
 			y: 14.5d
 		}
@@ -1944,6 +1982,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Gluttony"
 			x: -5.5d
 			y: 12.0d
 		}
@@ -1983,6 +2022,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Greed"
 			x: -7.0d
 			y: 10.5d
 		}
@@ -2022,6 +2062,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Sloth"
 			x: -6.0d
 			y: 9.5d
 		}
@@ -2061,6 +2102,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Wrath"
 			x: -10.0d
 			y: 14.5d
 		}
@@ -2100,6 +2142,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Envy"
 			x: -10.0d
 			y: 9.5d
 		}
@@ -2139,6 +2182,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRune of Pride"
 			x: -10.5d
 			y: 12.0d
 		}
@@ -2147,7 +2191,7 @@
 			description: [
 				"The portal to Alfheim allows you to exchange certain blocks and items with the elves of a distant land, Alfheim. Unlike most portals, the portal to Alfheim cannot be travelled through. if you stand in it, it will not teleport you anywhere."
 				""
-				"If the portal runs out of Mana, or a part of the structure is broken, the Portal will close."
+				"If the portal runs out of mana, or a part of the structure is broken, the portal will close."
 				""
 				"The portal frame is 5x5 with no corners and requires:"
 				""
@@ -2168,7 +2212,40 @@
 				"Note: Attempting to trade bread will cause a &csmall explosion&r, destroying most of the portal frame... for some stupid reason."
 			]
 			id: "15169FE8866CD32A"
-			subtitle: "The Portal To Alfheim"
+			rewards: [
+				{
+					id: "6ADEAEE090467882"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3603CBADED0E2A5A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "74E5CE182705357E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&2The portal to Alfheim"
 			tasks: [{
 				id: "2C49B263289A6FAA"
 				item: {
@@ -2182,6 +2259,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lElven Gateway Core"
 			x: 1.0d
 			y: 18.5d
 		}
@@ -2243,7 +2321,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Good luck on this one Flower"
+			subtitle: "&2Good luck on this one flower"
 			tasks: [{
 				id: "6CC755E83C62051B"
 				item: {
@@ -2257,6 +2335,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lDandelifeon"
 			x: -10.5d
 			y: 5.5d
 		}
@@ -2291,7 +2370,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lava Flower"
+			subtitle: "&2Lava flower"
 			tasks: [{
 				id: "60354A96C95C5359"
 				item: {
@@ -2305,6 +2384,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lThermalily"
 			x: -5.5d
 			y: 6.5d
 		}
@@ -2342,7 +2422,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Experience Flower"
+			subtitle: "&2Experience flower"
 			tasks: [{
 				id: "72A891851FD4EE0D"
 				item: {
@@ -2356,6 +2436,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRosa Arcana"
 			x: -6.0d
 			y: 5.5d
 		}
@@ -2383,7 +2464,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Leaves Flower"
+			subtitle: "&2Leaves flower"
 			tasks: [{
 				id: "2F5581C5534FAE93"
 				item: {
@@ -2397,6 +2478,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMunchdew"
 			x: -5.5d
 			y: 4.5d
 		}
@@ -2428,7 +2510,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "TNT Flower"
+			subtitle: "&2TNT flower"
 			tasks: [{
 				id: "718A2B47F35B07A2"
 				item: {
@@ -2442,6 +2524,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lEntropinnyum"
 			x: -7.0d
 			y: 4.5d
 		}
@@ -2469,7 +2552,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cake Flower"
+			subtitle: "&2Cake flower"
 			tasks: [{
 				id: "2F3731A12F7B9CFD"
 				item: {
@@ -2483,6 +2566,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lKekimuru"
 			x: -7.0d
 			y: 6.5d
 		}
@@ -2521,7 +2605,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Food Flower"
+			subtitle: "&2Food flower"
 			tasks: [{
 				id: "709EE8CB0958F15D"
 				item: {
@@ -2535,6 +2619,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lGourmaryllis"
 			x: -4.5d
 			y: 5.5d
 		}
@@ -2562,7 +2647,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Slime Flower"
+			subtitle: "&2Slime flower"
 			tasks: [{
 				id: "24E0FB04507578A0"
 				item: {
@@ -2576,6 +2661,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lNarslimmus"
 			x: -7.5d
 			y: 5.5d
 		}
@@ -2614,7 +2700,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wool Flower"
+			subtitle: "&2Wool flower"
 			tasks: [{
 				id: "67286A2CC7B7E4AE"
 				item: {
@@ -2628,6 +2714,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lSpectrolus"
 			x: -9.0d
 			y: 5.5d
 		}
@@ -2659,7 +2746,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Flower... Flower?"
+			subtitle: "&2Flower... Flower?"
 			tasks: [{
 				id: "7C39371A91D41257"
 				item: {
@@ -2673,6 +2760,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRafflowsia"
 			x: -8.5d
 			y: 4.5d
 		}
@@ -2706,7 +2794,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Flying Flower"
+			subtitle: "&2Flying flower"
 			tasks: [{
 				id: "5F9D88EF21AB12C9"
 				item: {
@@ -2720,6 +2808,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lShulk Me Not"
 			x: -8.5d
 			y: 6.5d
 		}
@@ -2747,7 +2836,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Damage Flower"
+			subtitle: "&2Damage flower"
 			tasks: [{
 				id: "6A8CA313C100EE6E"
 				item: {
@@ -2761,6 +2850,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lBellethorne"
 			x: 6.5d
 			y: 4.5d
 		}
@@ -2788,7 +2878,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Silence Flower"
+			subtitle: "&2Silence flower"
 			tasks: [{
 				id: "5FB6A6B95507C888"
 				item: {
@@ -2802,6 +2892,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lBergamute"
 			x: 6.5d
 			y: 6.5d
 		}
@@ -2829,7 +2920,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Another Damage Flower"
+			subtitle: "&2Another damage flower"
 			tasks: [{
 				id: "62DC770A482603D6"
 				item: {
@@ -2843,6 +2934,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lDreadthorne"
 			x: 8.5d
 			y: 5.5d
 		}
@@ -2870,7 +2962,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Murder Flower :D"
+			subtitle: "&2Murder flower :D"
 			tasks: [{
 				id: "6419B410DC8E205D"
 				item: {
@@ -2884,6 +2976,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lHeisei Dream"
 			x: 8.0d
 			y: 4.5d
 		}
@@ -2911,7 +3004,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Anti-Creeper Flower"
+			subtitle: "&2Anti-creeper flower"
 			tasks: [{
 				id: "5BA7E2DBEB6B6E26"
 				item: {
@@ -2925,6 +3018,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lTigerseye"
 			x: 8.0d
 			y: 6.5d
 		}
@@ -2952,7 +3046,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Another Flower... Flower?"
+			subtitle: "&2Another flower... flower?"
 			tasks: [{
 				id: "313258B684A26C96"
 				item: {
@@ -2966,6 +3060,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lJaded Amaranthus"
 			x: 10.0d
 			y: 5.5d
 		}
@@ -2994,7 +3089,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Ore Flower"
+			subtitle: "&2Ore flower"
 			tasks: [{
 				id: "5D6E5120B8FEA608"
 				item: {
@@ -3008,6 +3103,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lOrechid"
 			x: 14.874999999999986d
 			y: 5.5d
 		}
@@ -3035,7 +3131,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Healing Flower"
+			subtitle: "&2Healing flower"
 			tasks: [{
 				id: "0151769261F88566"
 				item: {
@@ -3049,6 +3145,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lFallen Kanade"
 			x: 9.5d
 			y: 4.5d
 		}
@@ -3076,7 +3173,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Furnace Flower"
+			subtitle: "&2Furnace flower"
 			tasks: [{
 				id: "3859C55A5F64E9FF"
 				item: {
@@ -3090,6 +3187,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lExoflame"
 			x: 11.5d
 			y: 5.5d
 		}
@@ -3117,7 +3215,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bone Meal Flower"
+			subtitle: "&2Bone meal flower"
 			tasks: [{
 				id: "706A2BB1C171A06F"
 				item: {
@@ -3131,6 +3229,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lAgricarnation"
 			x: 9.5d
 			y: 6.5d
 		}
@@ -3166,7 +3265,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item Insertion Flower"
+			subtitle: "&2Item insertion flower"
 			tasks: [{
 				id: "165C7A4611191205"
 				item: {
@@ -3180,6 +3279,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lHopperhock"
 			x: 7.5d
 			y: 3.5d
 		}
@@ -3207,7 +3307,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mob Trapping Flower"
+			subtitle: "&2Mob trapping flower"
 			tasks: [{
 				id: "0212B71343361A73"
 				item: {
@@ -3221,6 +3321,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lTangleberrie"
 			x: 9.0d
 			y: 3.5d
 		}
@@ -3248,7 +3349,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mob Blocking Flower"
+			subtitle: "&2Mob blocking flower"
 			tasks: [{
 				id: "2F650B49F3B62F3F"
 				item: {
@@ -3262,6 +3363,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lJiyuulia"
 			x: 9.0d
 			y: 7.5d
 		}
@@ -3297,7 +3399,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Block Placer Flower"
+			subtitle: "&2Block placing flower"
 			tasks: [{
 				id: "1FD35FBBCD24244B"
 				item: {
@@ -3311,6 +3413,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRannuncarpus"
 			x: 7.5d
 			y: 7.5d
 		}
@@ -3338,7 +3441,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Poison Flower"
+			subtitle: "&2Poison flower"
 			tasks: [{
 				id: "307FF65A6FD22154"
 				item: {
@@ -3352,6 +3455,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lHyacidus"
 			x: 6.0d
 			y: 7.5d
 		}
@@ -3379,7 +3483,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Breeding Flower"
+			subtitle: "&2Breeding flower"
 			tasks: [{
 				id: "61664675FC1DF54F"
 				item: {
@@ -3393,6 +3497,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lPollidisiac"
 			x: 6.0d
 			y: 3.5d
 		}
@@ -3420,7 +3525,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Clay Flower"
+			subtitle: "&2Clay flower"
 			tasks: [{
 				id: "4A59ED0222816332"
 				item: {
@@ -3434,6 +3539,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lClayconia"
 			x: 10.5d
 			y: 7.5d
 		}
@@ -3468,7 +3574,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mob Spawning Flower"
+			subtitle: "&2Mob spawning flower"
 			tasks: [{
 				id: "1C874F00297E9856"
 				item: {
@@ -3482,6 +3588,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lLoonium"
 			x: 10.5d
 			y: 3.5d
 		}
@@ -3509,7 +3616,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item Moving Flower"
+			subtitle: "&2Item moving flower"
 			tasks: [{
 				id: "2EA2A7F5AF8D3458"
 				item: {
@@ -3523,6 +3630,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lDaffomil"
 			x: 11.0d
 			y: 4.5d
 		}
@@ -3550,7 +3658,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Anti-Teleport Flower"
+			subtitle: "&2Anti-teleport flower"
 			tasks: [{
 				id: "0BE1102392A3C6F9"
 				item: {
@@ -3564,6 +3672,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lVinculotus"
 			x: 13.0d
 			y: 5.5d
 		}
@@ -3595,7 +3704,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item Moving Flower 2.0"
+			subtitle: "&2Item moving flower 2.0"
 			tasks: [{
 				id: "4B6E6400F5572749"
 				item: {
@@ -3609,6 +3718,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lSpectranthemum"
 			x: 13.5d
 			y: 7.0d
 		}
@@ -3636,7 +3746,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stasis Flower"
+			subtitle: "&2Stasis flower"
 			tasks: [{
 				id: "4F96F3D94FC72407"
 				item: {
@@ -3650,6 +3760,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMedumone"
 			x: 12.0d
 			y: 7.5d
 		}
@@ -3697,7 +3808,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Metamorphic Stone Flower"
+			subtitle: "&2Metamorphic stone flower"
 			tasks: [{
 				id: "5058EE0452B5CB83"
 				item: {
@@ -3711,6 +3822,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMarimorphosis"
 			x: 12.5d
 			y: 6.5d
 		}
@@ -3738,7 +3850,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Underwater Flower"
+			subtitle: "&2Underwater flower"
 			tasks: [{
 				id: "2BB3775B43301A17"
 				item: {
@@ -3752,6 +3864,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lBubbell"
 			x: 12.5d
 			y: 4.5d
 		}
@@ -3779,7 +3892,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Anti-Magnetism Flower"
+			subtitle: "&2Anti-magnetism flower"
 			tasks: [{
 				id: "330BBD4F36ABD815"
 				item: {
@@ -3793,6 +3906,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lSolegnolia"
 			x: 12.0d
 			y: 3.5d
 		}
@@ -3820,7 +3934,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Nether Ore Flower"
+			subtitle: "&2Nether ore flower"
 			tasks: [{
 				id: "716B8DC5FEEDEA6F"
 				item: {
@@ -3834,6 +3948,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lOrechid Ignem"
 			x: 13.5d
 			y: 4.0d
 		}
@@ -3861,7 +3976,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Naming Flower"
+			subtitle: "&2Naming flower"
 			tasks: [{
 				id: "122BEF46E22A7DD7"
 				item: {
@@ -3875,6 +3990,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lLabellia"
 			x: 11.0d
 			y: 6.5d
 		}
@@ -3932,7 +4048,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Better Mana Spreader"
+			subtitle: "&2The better mana spreader"
 			tasks: [{
 				id: "306CFF8DB703567F"
 				item: {
@@ -3946,6 +4062,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lElven Mana Spreader"
 			x: -1.0d
 			y: 16.0d
 		}
@@ -3978,7 +4095,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Controlling Your Mana Bursts"
+			subtitle: "&2Controlling your mana bursts"
 			tasks: [{
 				id: "17FD89C9E1E52A2B"
 				item: {
@@ -3992,6 +4109,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lPulse Mana Spreader"
 			x: -0.5d
 			y: 10.5d
 		}
@@ -4019,7 +4137,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Redstone Control"
+			subtitle: "&2Redstone control"
 			tasks: [{
 				id: "7336C5FA6932069E"
 				item: {
@@ -4033,6 +4151,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRedstone Root"
 			x: 5.5d
 			y: 5.5d
 		}
@@ -4084,7 +4203,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Now We're Really Moving Mana!"
+			subtitle: "&2Now we're really moving mana!"
 			tasks: [{
 				id: "77831255CEC3279C"
 				item: {
@@ -4098,6 +4217,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lGaia Mana Spreader"
 			x: -1.5d
 			y: 19.0d
 		}
@@ -4130,7 +4250,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Preparing Pylons For The Ritual Of Gaia"
+			subtitle: "&2Preparing pylons for The Ritual of Gaia"
 			tasks: [{
 				id: "596571239C90AE9E"
 				item: {
@@ -4144,6 +4264,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lGaia Pylon"
 			x: 3.5d
 			y: 19.0d
 		}
@@ -4176,7 +4297,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana Enchanting Boosts"
+			subtitle: "&2Mana enchanting boosts"
 			tasks: [{
 				id: "0098A83AD20ACA14"
 				item: {
@@ -4190,6 +4311,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Pylon"
 			x: 2.5d
 			y: 10.5d
 		}
@@ -4247,7 +4369,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Channeling Alfheim Commerce"
+			subtitle: "&2Channeling alfheim commerce"
 			tasks: [{
 				id: "39BE1C677842868D"
 				item: {
@@ -4261,6 +4383,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lNatura Pylons"
 			x: 3.0d
 			y: 16.0d
 		}
@@ -4311,7 +4434,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Botanical Boss Battle"
+			subtitle: "&2The botanical boss battle"
 			tasks: [{
 				id: "6E1F2ECC2289FAA0"
 				item: {
@@ -4325,7 +4448,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Guardian of Gaia"
+			title: "&a&lThe Guardian of Gaia"
 			x: 1.0d
 			y: 22.5d
 		}
@@ -4357,7 +4480,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Big Bad Botanical Boss Battle"
+			subtitle: "&2The big bad botanical boss battle"
 			tasks: [{
 				id: "3DDAD123710192B6"
 				item: {
@@ -4371,7 +4494,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Guardian of Gaia II"
+			title: "&a&lThe Guardian of Gaia II"
 			x: 1.0d
 			y: 24.0d
 		}
@@ -4433,7 +4556,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "Phenomenal Cosmic... Plant?... Power?"
+			subtitle: "&2Phenomenal Cosmic... Plant?... Power?"
 			tasks: [{
 				id: "50A703587DB7C3DB"
 				item: {
@@ -4447,7 +4570,7 @@
 				}
 				type: "item"
 			}]
-			title: "Relics of the Aesir"
+			title: "&a&lRelics of the Aesir"
 			x: 1.0d
 			y: 27.0d
 		}
@@ -4472,6 +4595,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lThe Fruit of Grisaia"
 			x: -0.5d
 			y: 25.5d
 		}
@@ -4496,6 +4620,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lKey of the King's Law"
 			x: -1.0d
 			y: 27.5d
 		}
@@ -4520,6 +4645,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lEye of the Flugal"
 			x: 0.0d
 			y: 29.0d
 		}
@@ -4544,6 +4670,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRing of Loki"
 			x: 2.5d
 			y: 25.5d
 		}
@@ -4568,6 +4695,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRing of Thor"
 			x: 3.0d
 			y: 27.5d
 		}
@@ -4600,6 +4728,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lRing of Odin"
 			x: 2.0d
 			y: 29.0d
 		}
@@ -4628,7 +4757,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Convert Mana Into Power!"
+			subtitle: "&2Convert mana into power!"
 			tasks: [{
 				id: "368E1DCBFEDC11E9"
 				item: {
@@ -4642,6 +4771,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Fluxfield"
 			x: 7.5d
 			y: 10.5d
 		}
@@ -4686,7 +4816,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mana Tablets Are So Yesterday...."
+			subtitle: "&2Mana tablets are so yesterday...."
 			tasks: [{
 				id: "53B30026CD93A935"
 				item: {
@@ -4700,6 +4830,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lMana Mirror"
 			x: 8.5d
 			y: 12.0d
 		}
@@ -4733,7 +4864,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Automating Magic Rods"
+			subtitle: "&2Automating magic rods"
 			tasks: [{
 				id: "5DCABE5ACB737E7D"
 				item: {
@@ -4747,6 +4878,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lLivingwood Avatar"
 			x: 7.5d
 			y: 13.5d
 		}
@@ -4788,7 +4920,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Controlling The Weather With Mana"
+			subtitle: "&2Controlling the weather with mana"
 			tasks: [{
 				id: "32DE91641DC73F54"
 				item: {
@@ -4802,6 +4934,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lTeru Teru Bozu"
 			x: 9.5d
 			y: 13.5d
 		}
@@ -4834,7 +4967,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Speeding Up Flowers"
+			subtitle: "&2Speeding up flowers"
 			tasks: [{
 				id: "21CE51B1B3F14AEF"
 				item: {
@@ -4848,6 +4981,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lOvergrowth Seeds"
 			x: 9.5d
 			y: 10.5d
 		}
@@ -4874,6 +5008,7 @@
 				title: "Petite/Floating Flowers"
 				type: "checkmark"
 			}]
+			title: "&a&lPetite and Floating Flowers"
 			x: 7.178571428571431d
 			y: 5.5d
 		}
