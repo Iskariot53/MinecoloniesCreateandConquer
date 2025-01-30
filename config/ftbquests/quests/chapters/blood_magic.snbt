@@ -111,7 +111,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Getting Started"
+			subtitle: "&cGetting Started"
 			tasks: [
 				{
 					id: "6C973DA8C7CBCA83"
@@ -205,6 +205,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSoul Snare"
 			x: 4.0d
 			y: -7.0d
 		}
@@ -255,6 +256,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lWeak Blood Orb"
 			x: 2.5d
 			y: -7.0d
 		}
@@ -348,6 +350,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&l2x Petty Tartaric Gem"
 			x: 8.5d
 			y: -5.0d
 		}
@@ -390,6 +393,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lLesser Tartaric Gem"
 			x: 9.5d
 			y: -5.0d
 		}
@@ -436,6 +440,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lCommon Tartaric Gem"
 			x: 10.5d
 			y: -5.0d
 		}
@@ -482,6 +487,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lGreater Tartaric Gem"
 			x: 11.5d
 			y: -5.0d
 		}
@@ -610,7 +616,7 @@
 					type: "item"
 				}
 			]
-			title: "Sentient Tools and Weapons"
+			title: "&4&lSentient Tools and Weapons"
 			x: 8.5d
 			y: -6.5d
 		}
@@ -652,6 +658,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lBlank Slate"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -999,6 +1006,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lDagger of Sacrifice"
 			x: -1.4999999999999858d
 			y: -0.2857142857142776d
 		}
@@ -1040,6 +1048,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSpeed Rune"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -1080,6 +1089,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lReinforced Slate"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -1121,6 +1131,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lRune of Sacrifice"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -1162,6 +1173,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lApprentice Blood Orb"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -1203,6 +1215,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lAir Sigil"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -1245,6 +1258,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSigil of the Green Grove"
 			x: 3.5d
 			y: 3.5d
 		}
@@ -1286,6 +1300,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lVoid Sigil"
 			x: 4.5d
 			y: 2.0d
 		}
@@ -1327,6 +1342,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSeer's Sigil"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -1369,6 +1385,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSigil of the Fast Miner"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -1569,6 +1586,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lDemon Crucible"
 			x: 10.0d
 			y: -6.0d
 		}
@@ -1616,6 +1634,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lDemon Crystallizer"
 			x: 10.5d
 			y: -7.0d
 		}
@@ -1657,6 +1676,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lDemon Pylon"
 			x: 11.0d
 			y: -6.0d
 		}
@@ -1696,6 +1716,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lImbued Slate"
 			x: 0.0d
 			y: 9.0d
 		}
@@ -1737,6 +1758,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSigil of the Blood Lamp"
 			x: -1.5d
 			y: 7.5d
 		}
@@ -1780,6 +1802,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSigil of Holding"
 			x: 1.5d
 			y: 9.5d
 		}
@@ -1821,6 +1844,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSigil of Magnetism"
 			x: -2.5d
 			y: 7.5d
 		}
@@ -1861,12 +1885,13 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lRune of Capacity"
 			x: 1.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
-			description: ["The &1&lDisplacement Rune&r&r increases the flow rate of Life Essence into and out of the Altar when pumping to and from an external tank multiplicatively by &e+20%.&r"]
+			description: ["The &c&lDisplacement Rune&r&r increases the flow rate of Life Essence into and out of the Altar when pumping to and from an external tank multiplicatively by &e+20%.&r"]
 			id: "3E158EB87B5BB01D"
 			rewards: [
 				{
@@ -1901,6 +1926,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lDisplacement Rune"
 			x: 2.3d
 			y: 9.000000000000014d
 		}
@@ -1948,6 +1974,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lIncense Altar"
 			x: 2.5d
 			y: -8.5d
 		}
@@ -1993,6 +2020,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lBlank Rune"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -2036,13 +2064,13 @@
 				}
 				type: "item"
 			}]
-			title: "Wooden Path"
+			title: "&4&lWooden Path"
 			x: 2.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["3053E97B62B539F6"]
-			description: ["The &4&lMagician Blood Orb&r&r has a maximum capacity of &e150,000&r LP."]
+			description: ["The &4&lMagician's Blood Orb&r&r has a maximum capacity of &e150,000&r LP."]
 			id: "6E2F3C5EF871D701"
 			rewards: [
 				{
@@ -2077,6 +2105,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lMagician's Blood orb"
 			x: -1.5d
 			y: 9.0d
 		}
@@ -2117,6 +2146,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lAlchemical Reaction Chamber"
 			x: -7.5d
 			y: 12.5d
 		}
@@ -2157,6 +2187,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lTome of Peritia"
 			x: -1.5d
 			y: 10.5d
 		}
@@ -2198,7 +2229,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ritual Stone"
+			title: "&4&lRitual Stone"
 			x: -4.5d
 			y: 9.0d
 		}
@@ -2295,7 +2326,7 @@
 					type: "item"
 				}
 			]
-			title: "Inscription Tool"
+			title: "&4&lInscription Tools"
 			x: -6.0d
 			y: 5.5d
 		}
@@ -2363,6 +2394,7 @@
 					type: "item"
 				}
 			]
+			title: "&4&lRitual Diviner"
 			x: -6.0d
 			y: 9.0d
 		}
@@ -2406,6 +2438,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSanguine Reverter"
 			x: -5.0d
 			y: 12.5d
 		}
@@ -2450,6 +2483,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lIron Key"
 			x: -9.0d
 			y: 9.0d
 		}
@@ -2553,7 +2587,7 @@
 					type: "item"
 				}
 			]
-			title: "Living Armour"
+			title: "&4&lLiving Armour"
 			x: -4.0d
 			y: 7.5d
 		}
@@ -2738,6 +2772,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSaturated Tau"
 			x: -7.5d
 			y: 11.0d
 		}
@@ -2782,6 +2817,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lTau Fruit"
 			x: -7.5d
 			y: 10.0d
 		}
@@ -2824,7 +2860,7 @@
 				}
 				type: "item"
 			}]
-			title: "Stone Path"
+			title: "&4&lStone Path"
 			x: 3.0d
 			y: -9.5d
 		}
@@ -2864,6 +2900,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lDemonic Slate"
 			x: 0.0d
 			y: 16.0d
 		}
@@ -2904,6 +2941,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lMaster Blood Orb"
 			x: 1.5d
 			y: 16.0d
 		}
@@ -2944,6 +2982,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lRune of Augmented Capacity"
 			x: 4.0d
 			y: 15.5d
 		}
@@ -2984,6 +3023,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lAcceleration Rune"
 			x: 4.0d
 			y: 16.5d
 		}
@@ -3028,6 +3068,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lCharging Rune"
 			x: 3.0d
 			y: 16.5d
 		}
@@ -3070,7 +3111,7 @@
 				}
 				type: "item"
 			}]
-			title: "Worn Stone Path"
+			title: "&4&lWorn Stone Path"
 			x: 2.0d
 			y: -10.5d
 		}
@@ -3111,6 +3152,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lTeleposition Focus"
 			x: 3.0d
 			y: 12.5d
 		}
@@ -3155,6 +3197,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lTeleposer"
 			x: 3.0d
 			y: 14.0d
 		}
@@ -3198,6 +3241,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lTeleposition Sigil"
 			x: 1.5d
 			y: 14.5d
 		}
@@ -3242,6 +3286,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lSigil of Suppression"
 			x: 1.5d
 			y: 13.5d
 		}
@@ -3286,6 +3331,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&l2x Inscription Tool Dusk"
 			x: -2.0d
 			y: 14.5d
 		}
@@ -3330,6 +3376,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lRitual Diviner [Dusk]"
 			x: -2.0d
 			y: 16.0d
 		}
@@ -3370,6 +3417,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lRitual Tinkerer"
 			x: 1.5d
 			y: 17.5d
 		}
@@ -3410,6 +3458,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lRune of the Orb"
 			x: 3.0d
 			y: 15.5d
 		}
@@ -3609,6 +3658,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lHellforged Ingot"
 			x: -2.0d
 			y: 19.5d
 		}
@@ -3650,6 +3700,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lIntricate Hellforged Parts"
 			x: -3.5d
 			y: 16.0d
 		}
@@ -3777,7 +3828,7 @@
 				title: "Reinforced Rune"
 				type: "item"
 			}]
-			title: "Reinforced Rune"
+			title: "&4&lReinforced Rune"
 			x: -5.0d
 			y: 16.0d
 		}
@@ -3818,6 +3869,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lEthereal Slate"
 			x: 0.0d
 			y: 21.5d
 		}
@@ -3859,6 +3911,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lArchmage's Blood Orb"
 			x: 1.5d
 			y: 21.5d
 		}
@@ -3901,7 +3954,7 @@
 				}
 				type: "item"
 			}]
-			title: "Obsidian Path"
+			title: "&4&lObsidian Path"
 			x: 3.0d
 			y: -10.5d
 		}
@@ -4008,7 +4061,7 @@
 					type: "item"
 				}
 			]
-			title: "Heretic's Mage Armor"
+			title: "&6&lHeretic's Robes"
 			x: -7.0d
 			y: -6.5d
 		}
@@ -4060,6 +4113,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lNovice Tome of Blood"
 			x: -7.0d
 			y: -7.5d
 		}
@@ -4100,6 +4154,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lApprentice Tome of Blood"
 			x: -6.0d
 			y: -7.5d
 		}
@@ -4142,6 +4197,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lArchmage Tome of Blood"
 			x: -5.0d
 			y: -7.5d
 		}
@@ -4186,6 +4242,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lGlyph of Sentient Harm"
 			x: -6.0d
 			y: -6.5d
 		}
@@ -4231,6 +4288,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lGlyph of Sentient Wrath"
 			x: -5.0d
 			y: -6.5d
 		}
@@ -4272,6 +4330,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lRune of Self Sacrifice"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -4314,6 +4373,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lMint Tea"
 			x: -7.8d
 			y: -7.0d
 		}
@@ -4355,6 +4415,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lDemon Will Aura Gauge"
 			x: 12.0d
 			y: -7.0d
 		}
@@ -4400,6 +4461,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lLava Crystal"
 			x: 2.5d
 			y: -5.5d
 		}
@@ -4481,6 +4543,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lWeak Activation Crystal"
 			x: -7.5d
 			y: 9.0d
 		}
@@ -4521,6 +4584,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lEnhanced Teleposition Focus"
 			x: 4.0d
 			y: 12.5d
 		}
@@ -4561,6 +4625,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lReinforced Teleposition Focus"
 			x: 5.0d
 			y: 12.5d
 		}
@@ -4649,7 +4714,7 @@
 					type: "item"
 				}
 			]
-			title: "Demon Will Aspects"
+			title: "&4&lDemon Will Aspects"
 			x: -3.5d
 			y: 14.5d
 		}
@@ -4670,6 +4735,7 @@
 				}
 				type: "item"
 			}]
+			title: "&4&lWeak Blood Shard"
 			x: -2.5d
 			y: 12.5d
 		}
