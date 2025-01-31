@@ -44,7 +44,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stand on me!"
+			subtitle: "&eStand on me!"
 			tasks: [{
 				id: "1F449066A1C59BAE"
 				item: {
@@ -58,6 +58,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lArmor Load Platform"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -114,6 +115,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBrass Saber"
 			x: 2.5d
 			y: -3.0d
 		}
@@ -170,6 +172,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lZinc Saber"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -212,6 +215,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lCopper Saber"
 			x: -2.5d
 			y: -3.0d
 		}
@@ -255,6 +259,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDouble Copper Saber"
 			x: -2.5d
 			y: -4.5d
 		}
@@ -298,6 +303,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDouble Zinc Saber"
 			x: 0.0d
 			y: -4.5d
 		}
@@ -341,6 +347,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lDouble Brass Saber"
 			x: 2.5d
 			y: -4.5d
 		}
@@ -376,7 +383,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Grandmaster Steve in-bound!"
+			subtitle: "&eGrandmaster Steve in-bound!"
 			tasks: [
 				{
 					id: "12DF4E9E066561DD"
@@ -424,6 +431,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lLightsaber Assembly"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -451,13 +459,13 @@
 				xp: 10
 			}]
 			size: 2.0d
-			subtitle: "May the kinetic force be with you"
+			subtitle: "&eMay the kinetic force be with you"
 			tasks: [{
 				id: "07A30FAF267CF274"
 				title: "Getting started with Protection Pixel and Lightsabers"
 				type: "checkmark"
 			}]
-			title: "Welcome to Do, or do not, there is no \"try\""
+			title: "&6&lWelcome to Do, or do not, there is no \"try\""
 			x: 0.0d
 			y: 0.5d
 		}
@@ -485,7 +493,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2 plating"
+			subtitle: "&eTier 2 plating"
 			tasks: [{
 				id: "4848A6E62286DFBF"
 				item: {
@@ -505,6 +513,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBrass Armor Plate"
 			x: 0.0d
 			y: 5.5d
 		}
@@ -532,7 +541,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 1 plating"
+			subtitle: "&eTier 1 plating"
 			tasks: [{
 				id: "63B528634BF0A7C6"
 				item: {
@@ -552,6 +561,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lIron Armor Plate"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -595,7 +605,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 plating"
+			subtitle: "&eTier 3 plating"
 			tasks: [{
 				id: "4B97A760A517B19F"
 				item: {
@@ -615,6 +625,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lAlloy Armor Plate"
 			x: 3.0d
 			y: 4.5d
 		}
@@ -643,7 +654,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "1 Netherite ingot = 2 sheets"
+			subtitle: "&e1 Netherite ingot = 2 sheets"
 			tasks: [{
 				id: "68548DBF075CC935"
 				item: {
@@ -657,6 +668,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSmall Netherite Sheet"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -698,7 +710,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obsidian dust + lava"
+			subtitle: "&eObsidian dust + lava"
 			tasks: [{
 				id: "0CEDB607CFFFB559"
 				item: {
@@ -712,6 +724,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSturdy Sheet"
 			x: -1.5d
 			y: 5.0d
 		}
@@ -720,7 +733,7 @@
 			description: ["Used for crafting &6protective lining socks&r. You will want these for &cheavier&r armor sets."]
 			hide_dependency_lines: true
 			id: "7E79DE36E19AD271"
-			subtitle: "Don't forget the socks!"
+			subtitle: "&eDon't forget the socks!"
 			tasks: [{
 				id: "66F34FA4F73FE681"
 				item: {
@@ -734,6 +747,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lReinforced Fiber"
 			x: -1.0d
 			y: 11.0d
 		}
@@ -784,7 +798,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Powering your suit - Part 3"
+			subtitle: "&ePowering your suit - Part 3"
 			tasks: [{
 				id: "0C966102061E4C8F"
 				item: {
@@ -802,6 +816,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lCombustion Reactor"
 			x: 0.0d
 			y: 8.5d
 		}
@@ -831,7 +846,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Powering your suit - Part 2"
+			subtitle: "&ePowering your suit - Part 2"
 			tasks: [{
 				id: "4D39141E700F6451"
 				item: {
@@ -845,6 +860,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lEmpty Disposable Water Tank"
 			x: 0.5d
 			y: 7.0d
 		}
@@ -874,7 +890,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Powering your suit - Part 1"
+			subtitle: "&ePowering your suit - Part 1"
 			tasks: [{
 				id: "5A743E1221039401"
 				item: {
@@ -891,6 +907,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lFlare Rod"
 			x: -0.5d
 			y: 7.0d
 		}
@@ -933,7 +950,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Base Material"
+			subtitle: "&eBase Material"
 			tasks: [{
 				id: "280BF9A5D09FB66D"
 				item: {
@@ -947,6 +964,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lChestplate Lining"
 			x: -3.0d
 			y: 10.5d
 		}
@@ -989,7 +1007,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Base Material"
+			subtitle: "&eBase Material"
 			tasks: [{
 				id: "5EE986D37E3EEB50"
 				item: {
@@ -1003,6 +1021,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lLeggings Lining"
 			x: 3.0d
 			y: 10.5d
 		}
@@ -1010,7 +1029,7 @@
 			dependencies: ["7E79DE36E19AD271"]
 			description: ["Protective lining socks allow for moving more freely in heavy armors."]
 			id: "29DC4259E8DF9A3F"
-			subtitle: "Pretty dumb... but ok?"
+			subtitle: "&ePretty dumb... but ok?"
 			tasks: [{
 				id: "4D1AAA496BB595B8"
 				item: {
@@ -1027,6 +1046,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lProtective Lining Socks"
 			x: 1.0d
 			y: 11.0d
 		}
@@ -1083,6 +1103,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBreaker Chestplate"
 			x: -3.5d
 			y: 12.5d
 		}
@@ -1139,6 +1160,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lWings of Prism Chestplate"
 			x: -3.5d
 			y: 13.5d
 		}
@@ -1195,6 +1217,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lMagnetic Storm Chestplate"
 			x: -3.5d
 			y: 15.5d
 		}
@@ -1251,6 +1274,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lWorker-Hornet Chestplate"
 			x: -3.5d
 			y: 14.5d
 		}
@@ -1307,6 +1331,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPioner Chestplate"
 			x: -3.5d
 			y: 16.5d
 		}
@@ -1363,6 +1388,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lHellsnake Chestplate"
 			x: -3.5d
 			y: 17.5d
 		}
@@ -1385,6 +1411,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSlingshot Leggings"
 			x: 2.5d
 			y: 12.5d
 		}
@@ -1407,6 +1434,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lAnchor Point Leggings"
 			x: 2.5d
 			y: 13.5d
 		}
@@ -1429,6 +1457,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBouyancy Leggings"
 			x: 2.5d
 			y: 14.5d
 		}
@@ -1473,6 +1502,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPlague Helmet"
 			x: -0.5d
 			y: 12.5d
 		}
@@ -1517,6 +1547,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lLancer Helmet"
 			x: -0.5d
 			y: 13.5d
 		}
@@ -1561,6 +1592,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lHammer Helmet"
 			x: -0.5d
 			y: 14.5d
 		}
@@ -1605,6 +1637,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lHunter Helmet"
 			x: -0.5d
 			y: 15.5d
 		}
@@ -1649,6 +1682,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lClosed Helmet"
 			x: -0.5d
 			y: 16.5d
 		}
@@ -1693,6 +1727,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBlood Prisoner Helmet"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -1735,6 +1770,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBreaker-AS Chestplate"
 			x: -2.5d
 			y: 12.5d
 		}
@@ -1777,6 +1813,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lWings of Prism-AS Chestplate"
 			x: -2.5d
 			y: 13.5d
 		}
@@ -1819,6 +1856,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lWorker-Hornet-AS Chestplate"
 			x: -2.5d
 			y: 14.5d
 		}
@@ -1861,6 +1899,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lMagnetic Storm-AS Chestplate"
 			x: -2.5d
 			y: 15.5d
 		}
@@ -1903,6 +1942,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPioneer-AS Chestplate"
 			x: -2.5d
 			y: 16.5d
 		}
@@ -1945,6 +1985,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lHellsnake-AS Chestplate"
 			x: -2.5d
 			y: 17.5d
 		}
@@ -1976,7 +2017,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "EXPERIMENTAL"
+			subtitle: "&4EXPERIMENTAL"
 			tasks: [{
 				id: "1FD310B705F23698"
 				item: {
@@ -1993,6 +2034,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lFloat Shield Chestplate"
 			x: -3.0d
 			y: 18.5d
 		}
@@ -2036,6 +2078,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPlague-AS Helmet"
 			x: 0.5d
 			y: 12.5d
 		}
@@ -2079,6 +2122,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lLancer-AS Helmet"
 			x: 0.5d
 			y: 13.5d
 		}
@@ -2122,6 +2166,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lHammer-AS Helmet"
 			x: 0.5d
 			y: 14.5d
 		}
@@ -2165,6 +2210,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lHunter-AS Helmet"
 			x: 0.5d
 			y: 15.5d
 		}
@@ -2207,6 +2253,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lClosed-AS Helmet"
 			x: 0.5d
 			y: 16.5d
 		}
@@ -2249,6 +2296,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBlood Prisoner-AS Helmet"
 			x: 0.5d
 			y: 17.5d
 		}
@@ -2271,6 +2319,7 @@
 				}
 				type: "item"
 			}]
+			title: "Slingshot-AS Leggings"
 			x: 3.5d
 			y: 12.5d
 		}
@@ -2293,6 +2342,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lAnchor Point-AS Leggings"
 			x: 3.5d
 			y: 13.5d
 		}
@@ -2315,6 +2365,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBouyancy-AS Leggings"
 			x: 3.5d
 			y: 14.5d
 		}
@@ -2357,6 +2408,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lManeuvering Wing"
 			x: -2.0d
 			y: 20.5d
 		}
@@ -2399,6 +2451,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lTactical Oxygen Supply Device"
 			x: -1.0d
 			y: 20.5d
 		}
@@ -2441,6 +2494,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lHeat Pulse Thruster"
 			x: 0.0d
 			y: 20.5d
 		}
@@ -2494,6 +2548,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPneumatic Grenade Launch Arm"
 			x: 2.0d
 			y: 20.5d
 		}
@@ -2536,6 +2591,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSteam Booster"
 			x: 1.0d
 			y: 20.5d
 		}
@@ -2576,6 +2632,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lPneumatic Grenade"
 			x: 0.0d
 			y: 19.5d
 		}
@@ -2592,12 +2649,13 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Mix and Match!"
+			subtitle: "&eMix and Match!"
 			tasks: [{
 				id: "2DB96E4063DF35B4"
 				title: "Plating your armor"
 				type: "checkmark"
 			}]
+			title: "&6&lPlating Your Armor"
 			x: 0.0d
 			y: 4.0d
 		}

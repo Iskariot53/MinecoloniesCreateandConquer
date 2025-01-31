@@ -39,7 +39,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Beeginning with the basics"
+			subtitle: "&eBeeginning with the basics"
 			tasks: [
 				{
 					count: 4L
@@ -53,7 +53,7 @@
 					type: "item"
 				}
 			]
-			title: "Vanilla Materials"
+			title: "&6&lVanilla Materials"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -91,13 +91,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Beefore we get ahead of ourselves"
+			subtitle: "&eBeefore we get ahead of ourselves"
 			tasks: [{
 				id: "43EF9DD0BE50803A"
 				title: "Welcome to Porductive Bees!"
 				type: "checkmark"
 			}]
-			title: "Welcome to Productive Bees!"
+			title: "&6&lWelcome to Productive Bees!"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -118,13 +118,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "1 time use cages"
+			subtitle: "&e1 time use cages"
 			tasks: [{
 				count: 4L
 				id: "7F7F0AA4760F6826"
 				item: { Count: 4, id: "productivebees:bee_cage" }
 				type: "item"
 			}]
+			title: "&6&l4x Bee Cage"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -133,6 +134,11 @@
 			description: ["If for whatever reason you lose the tome provided within the starter hut or you opted to not use the huts at all, The Big Book of Bees is easily crafted with a bee cage and a book."]
 			icon: {
 				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
 				id: "patchouli:guide_book"
 				tag: {
 					"patchouli:book": "productivebees:guide"
@@ -145,13 +151,13 @@
 				xp: 5
 			}]
 			size: 1.5d
-			subtitle: "Just in case"
+			subtitle: "&eJust in case"
 			tasks: [{
 				id: "39D587CCE8C01B2A"
 				title: "The Big Book of Bees"
 				type: "checkmark"
 			}]
-			title: "The Big Book of Bees"
+			title: "&6&lThe Big Book of Bees"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -173,7 +179,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "If you prefer finding them"
+			subtitle: "&eIf you prefer finding them"
 			tasks: [{
 				id: "700712ECBA2726D7"
 				item: {
@@ -183,6 +189,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lNest Locator"
 			x: -1.5d
 			y: -2.5d
 		}
@@ -203,7 +210,7 @@
 					type: "item"
 				}
 			]
-			subtitle: " Collecting honey and comb"
+			subtitle: " &eCollecting honey and comb"
 			tasks: [{
 				id: "0CE8EA0B16931F4D"
 				item: {
@@ -216,7 +223,7 @@
 				title: "Any #forge:hives"
 				type: "item"
 			}]
-			title: "Getting our vanilla bees set up"
+			title: "&6&lGetting our vanilla bees set up"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -243,7 +250,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Much better"
+			subtitle: "&eMuch better"
 			tasks: [
 				{
 					id: "7ADB6EF272BF3CB7"
@@ -270,7 +277,7 @@
 					type: "item"
 				}
 			]
-			title: "Automatic Hives"
+			title: "&6&lAutomatic Hives"
 			x: 0.0d
 			y: 0.5d
 		}
@@ -300,12 +307,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Bees love these"
+			subtitle: "&eBees love these"
 			tasks: [{
 				id: "28CD4ACAD2279769"
 				item: "productivebees:honey_treat"
 				type: "item"
 			}]
+			title: "&6&lHoney Treat"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -329,12 +337,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "The work horse of any apiary."
+			subtitle: "&eThe work horse of any apiary."
 			tasks: [{
 				id: "157C6D3E60DDA1C8"
 				item: "productivebees:centrifuge"
 				type: "item"
 			}]
+			title: "&6&lCentrifuge"
 			x: 5.0d
 			y: -1.0d
 		}
@@ -355,12 +364,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Faster and Better"
+			subtitle: "&eFaster and Better"
 			tasks: [{
 				id: "05ACF6BCA9214B0F"
 				item: "productivebees:powered_centrifuge"
 				type: "item"
 			}]
+			title: "&6&lPowered Centrifuge"
 			x: 5.0d
 			y: 0.8392857142857082d
 		}
@@ -387,12 +397,13 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "More Faster, More Better"
+			subtitle: "&eMore Faster, More Better"
 			tasks: [{
 				id: "46FCD48BE05C52BE"
 				item: "productivebees:heated_centrifuge"
 				type: "item"
 			}]
+			title: "&6&lHeated Centrifuge"
 			x: 5.0d
 			y: 3.0d
 		}
@@ -407,6 +418,7 @@
 				item: "productivebees:upgrade_base"
 				type: "item"
 			}]
+			title: "&6&lUpgrade Base"
 			x: -5.5d
 			y: -1.0d
 		}
@@ -414,12 +426,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["Speed upgrades will decrease the amount of time a bee spends in its hive after every trip, When placed in centrifuges or any other block it decreases the operation time."]
 			id: "00E32809B273084F"
-			subtitle: "Feeling the need for speed?"
+			subtitle: "&eFeeling the need for speed?"
 			tasks: [{
 				id: "39215F92287A0A53"
 				item: "productivebees:upgrade_time"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Speed"
 			x: -5.0d
 			y: -2.0d
 		}
@@ -427,12 +440,13 @@
 			dependencies: ["3B7EB59164BFECB7"]
 			description: ["The block upgrade causes bees to provide their combs in block form rather than just singular combs."]
 			id: "38A6143F44837211"
-			subtitle: "Comb blocks"
+			subtitle: "&eComb blocks"
 			tasks: [{
 				id: "450388EDB7E4BB13"
 				item: "productivebees:upgrade_comb_block"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Block"
 			x: -8.0d
 			y: 0.5d
 		}
@@ -440,12 +454,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["Causes the catcher to only collect adult bee."]
 			id: "7DC30599E114A3A1"
-			subtitle: "No more babees, please"
+			subtitle: "&eNo more babees, please"
 			tasks: [{
 				id: "2837FE0877B49846"
 				item: "productivebees:upgrade_not_babee"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Not BaBee"
 			x: -5.0d
 			y: 0.0d
 		}
@@ -453,12 +468,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["The anti-teleportation upgrade will stop any bees that live within the hive that it is installed in from teleporting anymore."]
 			id: "682179B547AC48A5"
-			subtitle: "Let's see them get out now"
+			subtitle: "&eLet's see them get out now"
 			tasks: [{
 				id: "2CCA6A2DAF9593C6"
 				item: "productivebees:upgrade_anti_teleport"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Anti Teleportation"
 			x: -6.5d
 			y: -1.0d
 		}
@@ -470,12 +486,13 @@
 				"It can also be used in a catcher to make the catcher catch &oonly babees&r and not adults"
 			]
 			id: "4C8A24C2E2C2E995"
-			subtitle: "Need more babees?"
+			subtitle: "&eNeed more babees?"
 			tasks: [{
 				id: "06A751D2988F9F88"
 				item: "productivebees:upgrade_breeding"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: BaBee"
 			x: -4.5d
 			y: -1.0d
 		}
@@ -483,12 +500,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["When installed in a hive, the gene sampler will extract small gene samples from the bees working within the hive periodically, multiple upgrades will increase the yield."]
 			id: "70C9E4903746E071"
-			subtitle: "They're fiiiine"
+			subtitle: "&eThey're fiiiine"
 			tasks: [{
 				id: "75ED970F57162330"
 				item: "productivebees:upgrade_bee_sampler"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Pokey Pokey Gene Sampler"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -503,12 +521,13 @@
 				"For this to work the flower, block or slab must be placed 1 BLOCK IN FRONT OF AND &n&l&oBELOW&r&r&r the entrance to the hive."
 			]
 			id: "28C43D8DA14233E8"
-			subtitle: "YOU NEED THESE"
+			subtitle: "&eYOU NEED THESE"
 			tasks: [{
 				id: "289E39F33853ADB6"
 				item: "productivebees:upgrade_simulator"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Simulator"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -520,12 +539,13 @@
 				"It can also be placed into a catcher to increase the range in which it can catch bees and make it actually worth using, otherwise don't bother."
 			]
 			id: "5EB495D8571A9118"
-			subtitle: "Expansion without boxes"
+			subtitle: "&eExpansion without boxes"
 			tasks: [{
 				id: "1821C976F84F1909"
 				item: "productivebees:upgrade_range"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Range"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -533,12 +553,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["The Alpha upgrade will increase the number of combs produced by any given bee per trip by %120."]
 			id: "0C4065E442FF26E2"
-			subtitle: "Now we're talking production."
+			subtitle: "&eNow we're talking production."
 			tasks: [{
 				id: "7F434191EFF0437A"
 				item: "productivebees:upgrade_productivity"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Productivity Alpha"
 			x: -9.5d
 			y: -1.0d
 		}
@@ -546,12 +567,13 @@
 			dependencies: ["0C4065E442FF26E2"]
 			description: ["The beta upgrade functions the same as the alpha upgrade, but this one provides a %150 increase to combs yielded."]
 			id: "3B7EB59164BFECB7"
-			subtitle: "Need more production"
+			subtitle: "&eNeed more production"
 			tasks: [{
 				id: "2DF0D7BA7EC7A043"
 				item: "productivebees:upgrade_productivity_2"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Productivity Beta"
 			x: -9.5d
 			y: 0.5d
 		}
@@ -562,12 +584,13 @@
 			]
 			description: ["The gamma upgrade is essentially the same as the beta upgrade, except it provides a %200 boost to production as well as functioning as a simulator upgrade."]
 			id: "4E23C99DB4D1F7BD"
-			subtitle: "More"
+			subtitle: "&eMore"
 			tasks: [{
 				id: "72F614CF24EF5D9F"
 				item: "productivebees:upgrade_productivity_3"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Productivity Gamma"
 			x: -9.5d
 			y: 2.0d
 		}
@@ -578,12 +601,13 @@
 			]
 			description: ["The omega upgrade. The pinnacle of bee production. it grants a %260 bonus to production as well as functions as BOTH a simulator AND a block upgrade."]
 			id: "7EF793431CB519F0"
-			subtitle: "MOAR"
+			subtitle: "&e&lMOAR"
 			tasks: [{
 				id: "045FDA063FDBCBFE"
 				item: "productivebees:upgrade_productivity_4"
 				type: "item"
 			}]
+			title: "&6&lUpgrade: Productivity Omega"
 			x: -9.5d
 			y: 3.5d
 		}
@@ -606,12 +630,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iron Sword + Nether Quartz Ore"
+			subtitle: "&eIron Sword + Nether Quartz Ore"
 			tasks: [{
 				id: "6AA1D5C1760EF1FB"
 				item: "productivebees:nether_quartz_nest"
 				type: "item"
 			}]
+			title: "&6&lQuartz Nest"
 			x: 0.5d
 			y: 5.0d
 		}
@@ -639,7 +664,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "You can find them, OR"
+			subtitle: "&eYou can find them, OR"
 			tasks: [{
 				id: "14A1DEEB37A06DE9"
 				item: {
@@ -652,7 +677,7 @@
 				title: "Any #productivebees:solitary_overworld_nests"
 				type: "item"
 			}]
-			title: "Overworld Nests"
+			title: "&6&lOverworld Nests"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -675,12 +700,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wooden Sword + Glowstone"
+			subtitle: "&eWooden Sword + Glowstone"
 			tasks: [{
 				id: "49923C5A02878752"
 				item: "productivebees:glowstone_nest"
 				type: "item"
 			}]
+			title: "&6&lGlowstone Nest"
 			x: -1.5d
 			y: 5.0d
 		}
@@ -703,12 +729,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wooden Sword + Soul Sand"
+			subtitle: "&eWooden Sword + Soul Sand"
 			tasks: [{
 				id: "5B0EE92558C641DF"
 				item: "productivebees:soul_sand_nest"
 				type: "item"
 			}]
+			title: "&6&lSoul Sand Nest"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -731,12 +758,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iron Sword + Nether Bricks"
+			subtitle: "&eIron Sword + Nether Bricks"
 			tasks: [{
 				id: "35218AC9D109720C"
 				item: "productivebees:nether_brick_nest"
 				type: "item"
 			}]
+			title: "&6&lNether Brick Nest"
 			x: -0.5d
 			y: 5.0d
 		}
@@ -758,12 +786,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Diamond Sword + Obsidian"
+			subtitle: "&eDiamond Sword + Obsidian"
 			tasks: [{
 				id: "5014CC68B77D9195"
 				item: "productivebees:obsidian_nest"
 				type: "item"
 			}]
+			title: "&6&lObsidian Nest"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -785,12 +814,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iron Sword + End Stone"
+			subtitle: "&eIron Sword + End Stone"
 			tasks: [{
 				id: "7713CE47D4D8F86D"
 				item: "productivebees:end_stone_nest"
 				type: "item"
 			}]
+			title: "&6&lEnd Stone Nest"
 			x: 1.0d
 			y: 6.0d
 		}
@@ -799,7 +829,15 @@
 			description: ["Use a honey treat on a &6wooden&r nest to spawn a yellow carpenter bee. (use JEI to determine which wood to use for which bee)."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "642F8A704D9EBFA7"
 			rewards: [
 				{
@@ -814,7 +852,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wood nests"
+			subtitle: "&eWood nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7ADC2EA595A49858"
@@ -824,6 +862,7 @@
 				to_observe: "productivebees:yellow_black_carpenter_bee"
 				type: "observation"
 			}]
+			title: "&6&lYellow Carpenter Bee"
 			x: -1.5d
 			y: 7.5d
 		}
@@ -832,7 +871,15 @@
 			description: ["Use a honey treat on a &6wooden&r nest to obtain a gree carpenter bee. (use JEI to determine which wood for which type of carpenter bee)."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "30A2795DDB5738A9"
 			rewards: [
 				{
@@ -847,7 +894,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wood nests"
+			subtitle: "&eWood nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "458C517D3D1261A0"
@@ -857,6 +904,7 @@
 				to_observe: "productivebees:green_carpenter_bee"
 				type: "observation"
 			}]
+			title: "&6&lGreen Carpenter Bee"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -865,7 +913,15 @@
 			description: ["Use a honey treat on a &areed&r nest to spawn a reed bee if you sannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "52AE104474C902F2"
 			rewards: [
 				{
@@ -880,7 +936,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Look near rivers"
+			subtitle: "&eLook near rivers"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3B07531AC37F1FF7"
@@ -890,6 +946,7 @@
 				to_observe: "productivebees:reed_bee"
 				type: "observation"
 			}]
+			title: "&6&lReed Bee"
 			x: 1.0d
 			y: 8.5d
 		}
@@ -898,7 +955,15 @@
 			description: ["Use a honey treat on a snow nest to spawn a sweat bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "4EA048C35F3DDF3D"
 			rewards: [
 				{
@@ -913,7 +978,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cold areas"
+			subtitle: "&eCold areas"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "50910F15C9ECFB6D"
@@ -923,6 +988,7 @@
 				to_observe: "productivebees:sweat_bee"
 				type: "observation"
 			}]
+			title: "&6&lSweat Bee"
 			x: 2.0d
 			y: 8.5d
 		}
@@ -931,7 +997,15 @@
 			description: ["Use a honey treat on a &6dark oak&r, &dcherry&r or &cacacia&r nest to spawn a blue banded bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "62BB492DEB62CA4A"
 			rewards: [
 				{
@@ -946,7 +1020,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dark oak, cherry and acacia nests"
+			subtitle: "&eDark oak, cherry and acacia nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6C59AFEED74211BE"
@@ -956,6 +1030,7 @@
 				to_observe: "productivebees:blue_banded_bee"
 				type: "observation"
 			}]
+			title: "&6&lBlue Banded Bee"
 			x: 2.5d
 			y: 7.5d
 		}
@@ -964,7 +1039,15 @@
 			description: ["Use a honey treat on a &6dirt&r nest to spawn a leafcutter bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "55D2A095F821FACF"
 			rewards: [
 				{
@@ -979,7 +1062,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dirt nests"
+			subtitle: "&eDirt nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2F451578944B014C"
@@ -989,6 +1072,7 @@
 				to_observe: "productivebees:leafcutter_bee"
 				type: "observation"
 			}]
+			title: "&6&lLeafcutter Bee"
 			x: -2.5d
 			y: 7.5d
 		}
@@ -997,7 +1081,15 @@
 			description: ["The nomad bee has a small chance to spawn and take the nest of the &7ashy mining bee&r."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "683D320D0550F5D2"
 			rewards: [
 				{
@@ -1012,9 +1104,17 @@
 					type: "item"
 				}
 			]
-			subtitle: "Nest thief"
+			subtitle: "&eNest thief"
 			tasks: [{
-				icon: "productivebees:bee_cage"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:bee_cage"
+				}
 				id: "1848FCD17ECF06C9"
 				observe_type: 5
 				timer: 0L
@@ -1022,6 +1122,7 @@
 				to_observe: "productivebees:nomad_bee"
 				type: "observation"
 			}]
+			title: "&6&lNomad Bee"
 			x: -3.5d
 			y: 7.5d
 		}
@@ -1030,7 +1131,15 @@
 			description: ["The neon cuckoo bee wil periodically move into the nest of the &9blue banded bee&r."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "1ED89471EB68D98D"
 			rewards: [
 				{
@@ -1045,7 +1154,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Nest thief"
+			subtitle: "&eNest thief"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4B979C37C46C37F1"
@@ -1055,6 +1164,7 @@
 				to_observe: "productivebees:neon_cuckoo_bee"
 				type: "observation"
 			}]
+			title: "&6&lNeon Cuckoo Bee"
 			x: 3.5d
 			y: 7.5d
 		}
@@ -1063,7 +1173,15 @@
 			description: ["Use a honey treat on a &7gravel&r or &7stone&r nest to spawn a digger bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "0155DD9149A294EF"
 			rewards: [
 				{
@@ -1078,7 +1196,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gravel or stone"
+			subtitle: "&eGravel or stone"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6A4B835D63076AAC"
@@ -1088,6 +1206,7 @@
 				to_observe: "productivebees:digger_bee"
 				type: "observation"
 			}]
+			title: "&6&lDigger Bee"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -1096,7 +1215,15 @@
 			description: ["Use a honey treat on a &esand&r, &7gravel&r or&6 dirt &rnest to spawn a chocolate mining bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "1B0961593E2BB06A"
 			rewards: [
 				{
@@ -1111,7 +1238,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sand, gravel or dirt nests"
+			subtitle: "&eSand, gravel or dirt nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5192854682D3DF80"
@@ -1121,6 +1248,7 @@
 				to_observe: "productivebees:chocolate_mining_bee"
 				type: "observation"
 			}]
+			title: "&6&lChocolate Mining Bee"
 			x: -2.0d
 			y: 8.5d
 		}
@@ -1129,7 +1257,15 @@
 			description: ["Use a honey treat on a &esand&r, &7gravel&r or &6dirt&r nest to spawn an ashy mining bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "74CED089C7C570EE"
 			rewards: [
 				{
@@ -1144,7 +1280,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sand, gravel and dirt nests"
+			subtitle: "&eSand, gravel and dirt nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2E0FAFFC870F5142"
@@ -1154,6 +1290,7 @@
 				to_observe: "productivebees:ashy_mining_bee"
 				type: "observation"
 			}]
+			title: "&6&lAshy Mining Bee"
 			x: -3.0d
 			y: 8.5d
 		}
@@ -1176,15 +1313,24 @@
 				"While slow, with patience, pokey pokey upgrades are oftentimes the easiest way to duplicate a bee species. Especially the more \"exotic\" bees"
 			]
 			hide_dependency_lines: true
-			icon: "productivebees:upgrade_productivity_4"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "productivebees:upgrade_productivity_4"
+			}
 			id: "3825DE01F400EA4D"
 			size: 2.0d
-			subtitle: "This is the way"
+			subtitle: "&eThis is the way"
 			tasks: [{
 				id: "63E03E64BA6D80EB"
 				title: "So which is best?"
 				type: "checkmark"
 			}]
+			title: "&6&lSo Which Is Best?"
 			x: -5.5d
 			y: 2.0d
 		}
@@ -1193,7 +1339,15 @@
 			description: ["Use a honey treat on a &7stone&r or &areed&r nest to spawn a mason bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "0BCA00285412FC60"
 			rewards: [
 				{
@@ -1208,7 +1362,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stone or reed nests"
+			subtitle: "&eStone or reed nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3940D7A919DE5C99"
@@ -1218,6 +1372,7 @@
 				to_observe: "productivebees:mason_bee"
 				type: "observation"
 			}]
+			title: "&6&lMason Bee"
 			x: -1.0d
 			y: 8.5d
 		}
@@ -1226,7 +1381,15 @@
 			description: ["Use a honey treat on a &6spruce&r nest to spawn a resin bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "47F1D527F27D77EF"
 			rewards: [
 				{
@@ -1241,7 +1404,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Spruce nests"
+			subtitle: "&eSpruce nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "66DA8DF3FF6BB497"
@@ -1251,6 +1414,7 @@
 				to_observe: "productivebees:resin_bee"
 				type: "observation"
 			}]
+			title: "&6&lResin Bee"
 			x: 3.0d
 			y: 8.5d
 		}
@@ -1260,7 +1424,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: false
-			icon: "minecraft:saddle"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:saddle"
+			}
 			id: "6B13C10FE0817C26"
 			rewards: [
 				{
@@ -1276,7 +1448,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Woah there bee biscuit"
+			subtitle: "&eWoah there bee biscuit"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1291,7 +1463,7 @@
 				to_observe: "productivebees:bumble_bee"
 				type: "observation"
 			}]
-			title: "One you can ride!"
+			title: "&6&lOne you can ride!"
 			x: -0.035714285714277594d
 			y: 7.267857142857146d
 		}
@@ -1300,7 +1472,15 @@
 			description: ["Use nether quartz on a &7quartz&r nest to spawn a crystalline bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "2B23AD177049428C"
 			rewards: [
 				{
@@ -1315,7 +1495,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not as fragile as its name implies"
+			subtitle: "&eNot as fragile as its name implies"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "418B7CBFE8ABF7B2"
@@ -1325,6 +1505,7 @@
 				to_observe: "productivebees:crystalline"
 				type: "observation"
 			}]
+			title: "&6&lCrystalline Bee"
 			x: 0.5d
 			y: 9.5d
 		}
@@ -1337,7 +1518,15 @@
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "25DD01A25EBDFE0A"
 			rewards: [
 				{
@@ -1352,7 +1541,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Just go ahead and craft the nest for this one"
+			subtitle: "&eJust go ahead and craft the nest for this one"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "06AD8723E17F034F"
@@ -1362,6 +1551,7 @@
 				to_observe: "productivebees:glowing"
 				type: "observation"
 			}]
+			title: "&6&lGlowing Bee"
 			x: 1.5d
 			y: 9.5d
 		}
@@ -1370,7 +1560,15 @@
 			description: ["Use magma cream on a &cnether brick&r nest to spawn a magmatic bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "612DB4407ADEEDEE"
 			rewards: [
 				{
@@ -1385,7 +1583,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found around nether fortresses"
+			subtitle: "&eFound around nether fortresses"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "27EE17FD07458B36"
@@ -1395,6 +1593,7 @@
 				to_observe: "productivebees:magmatic"
 				type: "observation"
 			}]
+			title: "&6&lMagmatic Bee"
 			x: -0.5d
 			y: 9.5d
 		}
@@ -1403,7 +1602,15 @@
 			description: ["Use a honey treat on a slimy nest to spawn a slimy bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "20635A3C82EA9451"
 			rewards: [
 				{
@@ -1418,7 +1625,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "ew... it's sticky"
+			subtitle: "&eew... it's sticky"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2DA3480D11AE9DEF"
@@ -1428,6 +1635,7 @@
 				to_observe: "productivebees:slimy"
 				type: "observation"
 			}]
+			title: "&6&lSlimy Bee"
 			x: 2.5d
 			y: 9.5d
 		}
@@ -1436,7 +1644,15 @@
 			description: ["Sugarbag bees have a very small chance to spawn inside of &6cocoa bean pods&r, grow and break as many pods as you can and you should *eventually* spawn at least 1. They produce a comb very useful as an early game food supply. provided you have chosen an origin that allows you to eat it."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "24D263576EA9EAB9"
 			rewards: [
 				{
@@ -1451,7 +1667,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This one can be quick, can take a whille."
+			subtitle: "&eThis one can be quick, can take a whille."
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5EF41BEDBCCCCC54"
@@ -1461,6 +1677,7 @@
 				to_observe: "productivebees:sugarbag"
 				type: "observation"
 			}]
+			title: "&6&lSugarbag Bee"
 			x: 0.0d
 			y: 8.5d
 		}
@@ -1469,7 +1686,15 @@
 			description: ["Use a ghast tear on a &6soul sand&r nest to spawn a ghostly bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "0B87874066386C35"
 			rewards: [
 				{
@@ -1484,7 +1709,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "This ones \"fun\""
+			subtitle: "&eThis ones \"fun\""
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6054DB848B076888"
@@ -1494,6 +1719,7 @@
 				to_observe: "productivebees:ghostly"
 				type: "observation"
 			}]
+			title: "&6&lGhostly Bee"
 			x: -1.5d
 			y: 9.5d
 		}
@@ -1528,12 +1754,13 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Ya... that's a thing"
+			subtitle: "&eYa... that's a thing"
 			tasks: [{
 				id: "3B3B3E27081D6D28"
 				title: "Fishing for bees"
 				type: "checkmark"
 			}]
+			title: "&6&lFishing For Bees"
 			x: 6.5d
 			y: 11.0d
 		}
@@ -1561,12 +1788,13 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Worker bees"
+			subtitle: "&eWorker bees"
 			tasks: [{
 				id: "560433BAA5660024"
 				title: "Specialty bees"
 				type: "checkmark"
 			}]
+			title: "&6&lSpecialty Bees"
 			x: -6.5d
 			y: 11.0d
 		}
@@ -1579,7 +1807,15 @@
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "0E890DBF19049A6D"
 			rewards: [
 				{
@@ -1600,7 +1836,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Go see if the ender dragon's nice enough to help"
+			subtitle: "&eGo see if the ender dragon's nice enough to help"
 			tasks: [
 				{
 					icon: "productivebees:bee_cage"
@@ -1622,13 +1858,22 @@
 					type: "item"
 				}
 			]
+			title: "&6&lDraconic Bee"
 			x: 0.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["284B2602637F5596"]
 			description: ["Use a fishing rod to catch a water bee."]
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "3A22D022867F9AC9"
 			rewards: [
 				{
@@ -1643,7 +1888,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "River bees"
+			subtitle: "&eRiver bees"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2AF893AF6E8356AD"
@@ -1653,7 +1898,7 @@
 				to_observe: "productivebees:water"
 				type: "observation"
 			}]
-			title: "Find a water bee"
+			title: "&6&lWater Bee"
 			x: 5.999999999999993d
 			y: 10.124999999999993d
 		}
@@ -1666,7 +1911,15 @@
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "74BB924138418DD3"
 			rewards: [
 				{
@@ -1681,7 +1934,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Always has \"any\" weather gene"
+			subtitle: "&eAlways has \"any\" weather gene"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "19A2ADA9DB6CAEFD"
@@ -1691,13 +1944,22 @@
 				to_observe: "productivebees:prismarine"
 				type: "observation"
 			}]
+			title: "&6&lPrismarine Bee"
 			x: 5.999999999999993d
 			y: 11.910714285714278d
 		}
 		{
 			dependencies: ["284B2602637F5596"]
 			description: ["Use a fishing rod to catch an oily bee."]
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "3D7F0641EB55CA01"
 			rewards: [
 				{
@@ -1712,7 +1974,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Offshore oily bee"
+			subtitle: "&eOffshore oily bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2F88D672CE00A605"
@@ -1722,6 +1984,7 @@
 				to_observe: "productivebees:oily"
 				type: "observation"
 			}]
+			title: "&6&lOily Bee"
 			x: 7.035714285714278d
 			y: 11.94642857142857d
 		}
@@ -1732,7 +1995,15 @@
 				""
 				"Collector bees will gather all &eitem&r entities within range of their hive and bring them back for storage!"
 			]
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "693B69D43BE2CC18"
 			rewards: [
 				{
@@ -1747,7 +2018,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item collection via bee"
+			subtitle: "&eItem collection via bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0EC997BB42002133"
@@ -1757,6 +2028,7 @@
 				to_observe: "productivebees:collector_bee"
 				type: "observation"
 			}]
+			title: "&6&lCollector Bee"
 			x: -6.0d
 			y: 12.0d
 		}
@@ -1767,7 +2039,15 @@
 				""
 				"They are an upgraded variant of their lesser brethren."
 			]
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "10858AECE0E9835F"
 			rewards: [
 				{
@@ -1782,7 +2062,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A better collector bee"
+			subtitle: "&eA better collector bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "089279FD8D5BDD76"
@@ -1792,6 +2072,7 @@
 				to_observe: "productivebees:hoarder_bee"
 				type: "observation"
 			}]
+			title: "&6&lHoarder Bee"
 			x: -7.0d
 			y: 12.0d
 		}
@@ -1804,7 +2085,15 @@
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "73592FC0A4AB0C92"
 			rewards: [
 				{
@@ -1819,7 +2108,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Infinite wood, anyone?"
+			subtitle: "&eInfinite wood, anyone?"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3056EF15349DF84A"
@@ -1829,6 +2118,7 @@
 				to_observe: "productivebees:lumber_bee"
 				type: "observation"
 			}]
+			title: "&6&lLumber Bee"
 			x: -6.0d
 			y: 10.0d
 		}
@@ -1841,7 +2131,15 @@
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "6599AFF4623F28C0"
 			rewards: [
 				{
@@ -1856,7 +2154,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A stone gen with wings!"
+			subtitle: "&eA stone gen with wings!"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "678BCA56B861AD8D"
@@ -1866,6 +2164,7 @@
 				to_observe: "productivebees:quarry_bee"
 				type: "observation"
 			}]
+			title: "&6&lQuarry Bee"
 			x: -5.5d
 			y: 11.0d
 		}
@@ -1876,7 +2175,15 @@
 				""
 				"Rancher bees will periodically travel to mobs within range of their hives and bring back the drops it collects."
 			]
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "65611CA18916BA84"
 			rewards: [
 				{
@@ -1891,7 +2198,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mob farming bee."
+			subtitle: "&eMob farming bee."
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2B9EEC5273C8FB05"
@@ -1901,13 +2208,22 @@
 				to_observe: "productivebees:rancher_bee"
 				type: "observation"
 			}]
+			title: "&6&lRancher Bee"
 			x: -7.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["284B2602637F5596"]
 			description: ["Use a fishing rod to catch a sponge bee."]
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "637FB30FCBAF4440"
 			rewards: [
 				{
@@ -1922,7 +2238,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Him squishy"
+			subtitle: "&eHim squishy"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2E00420481E2655F"
@@ -1932,6 +2248,7 @@
 				to_observe: "productivebees:sponge"
 				type: "observation"
 			}]
+			title: "&6&lSponge Bee"
 			x: 7.071428571428562d
 			y: 10.124999999999993d
 		}
@@ -1942,7 +2259,15 @@
 				""
 				"Cubees travel around to mobs within range of their hives and &dencourages them to breed&r."
 			]
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "5496A3688BEE3C83"
 			rewards: [
 				{
@@ -1957,7 +2282,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The cupid bee"
+			subtitle: "&eThe cupid bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7F4F8379B669D06F"
@@ -1967,6 +2292,7 @@
 				to_observe: "productivebees:cupid_bee"
 				type: "observation"
 			}]
+			title: "&6&lCubee"
 			x: -7.0d
 			y: 10.0d
 		}
@@ -2015,7 +2341,7 @@
 				}
 				type: "item"
 			}]
-			title: "Acquire a pepto beesmol"
+			title: "&6&lAcquire a Pepto Beesmol"
 			x: -9.0d
 			y: 11.0d
 		}
@@ -2059,7 +2385,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "The Wannabee Farm"
+			subtitle: "&eThe Wannabee Farm"
 			tasks: [{
 				id: "21B3699DE25396D0"
 				item: {
@@ -2073,7 +2399,7 @@
 				}
 				type: "item"
 			}]
-			title: "Acquire a Wannabee"
+			title: "&6&lAcquire a Wannabee"
 			x: -11.0d
 			y: 11.0d
 		}
@@ -2096,7 +2422,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Personal \"Bee\"fence"
+			subtitle: "&ePersonal \"Bee\"fence"
 			tasks: [{
 				id: "0343434DB58B6D90"
 				item: {
@@ -2108,13 +2434,22 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lBee Nest Helmet"
 			x: 8.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["281D776A33FBE67D"]
 			description: ["Equip a bee nest helmet and spawn a kamikazbee. The unchecked aggression of the kamikazbee makes them hard to gain control of, but if you can, they can be used to harvest the most highly productive genes available."]
-			icon: "luphieclutteredmod:luphie_angry_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_angry_bee_lamp"
+			}
 			id: "77388DD8E7921408"
 			rewards: [
 				{
@@ -2135,7 +2470,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Very High Productivity"
+			subtitle: "&eVery High Productivity"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1ED4E46960629069"
@@ -2145,11 +2480,12 @@
 				to_observe: "productivebees:kamikazbee"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Kamikazbee"
 			x: 8.535714285714278d
 			y: 7.232142857142847d
 		}
 		{
-			dependencies: ["439EE8098C13A7AA"]
+			dependencies: ["579409C3F3A2F2F0"]
 			description: ["When supplied with flowers (or whatever the respective breeding item is for the bees being bred) and bees that can breed, the breeding chamber will automate this process, just don't forget to provide it with both &cpower&r and &6cages&r to house the babees produced."]
 			hide_dependency_lines: false
 			id: "1BFA11C779ED435C"
@@ -2166,12 +2502,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "The love shack"
+			subtitle: "&eThe love shack"
 			tasks: [{
 				id: "4BE646E07C089C8F"
 				item: "productivebees:breeding_chamber"
 				type: "item"
 			}]
+			title: "&6&lBreeding Chamber"
 			x: 7.5d
 			y: 1.0d
 		}
@@ -2201,12 +2538,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Raising babees and making spawn eggs."
+			subtitle: "&eRaising babees and making spawn eggs."
 			tasks: [{
 				id: "515FB98416BA44A3"
 				item: "productivebees:incubator"
 				type: "item"
 			}]
+			title: "&6&lBaBee Incubator"
 			x: 7.5d
 			y: 3.0d
 		}
@@ -2238,12 +2576,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Genetic modification."
+			subtitle: "&eGenetic modification."
 			tasks: [{
 				id: "73ED60F17BA76987"
 				item: "productivebees:gene_indexer"
 				type: "item"
 			}]
+			title: "&6&lGene Indexer"
 			x: 10.0d
 			y: 3.0d
 		}
@@ -2256,7 +2595,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:copper_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:copper_ingot"
+			}
 			id: "7305ABB0B70273EC"
 			rewards: [
 				{
@@ -2271,7 +2618,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "592A374CAA69628B"
@@ -2281,6 +2628,7 @@
 				to_observe: "productivebees:copper"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Copper Bee"
 			x: -5.0d
 			y: 18.5d
 		}
@@ -2293,7 +2641,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:coal"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:coal"
+			}
 			id: "45A07D6919957C62"
 			rewards: [
 				{
@@ -2308,7 +2664,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3243BE98C6C047F5"
@@ -2318,7 +2674,7 @@
 				to_observe: "productivebees:coal"
 				type: "observation"
 			}]
-			title: "Acquire a coal bee"
+			title: "&6&lAcquire a Coal Bee"
 			x: -6.0d
 			y: 16.5d
 		}
@@ -2331,7 +2687,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:obsidian"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:obsidian"
+			}
 			id: "498613C3ED5FE24A"
 			rewards: [
 				{
@@ -2346,7 +2710,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "44F21DE471FAF500"
@@ -2356,6 +2720,7 @@
 				to_observe: "productivebees:obsidian"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Obsidian Bee"
 			x: -5.5d
 			y: 17.5d
 		}
@@ -2368,7 +2733,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:blaze_powder"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:blaze_powder"
+			}
 			id: "367D4EF662178DFB"
 			rewards: [
 				{
@@ -2383,7 +2756,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "70A78884D09334FC"
@@ -2393,6 +2766,7 @@
 				to_observe: "productivebees:blazing"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Blazing Bee"
 			x: 4.0d
 			y: 16.5d
 		}
@@ -2401,7 +2775,15 @@
 			description: ["Feed TNT to a vanilla bee to convert it."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "minecraft:gunpowder"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gunpowder"
+			}
 			id: "4515B2F4675BE4FB"
 			rewards: [
 				{
@@ -2416,7 +2798,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "57C41A0C1456AC96"
@@ -2426,7 +2808,7 @@
 				to_observe: "productivebees:creeper_bee"
 				type: "observation"
 			}]
-			title: "Acquire a creebee"
+			title: "&6&lAcquire a Creebee"
 			x: -4.0d
 			y: 16.5d
 		}
@@ -2439,7 +2821,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:string"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:string"
+			}
 			id: "2FDD9D5DD1F94ABF"
 			rewards: [
 				{
@@ -2454,7 +2844,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "267719275AC1D996"
@@ -2464,6 +2854,7 @@
 				to_observe: "productivebees:silky"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Silky Bee"
 			x: -3.5d
 			y: 17.5d
 		}
@@ -2473,7 +2864,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:echo_shard"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:echo_shard"
+			}
 			id: "2050242522D202DD"
 			rewards: [
 				{
@@ -2488,7 +2887,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "538FF059B5F47525"
@@ -2498,6 +2897,7 @@
 				to_observe: "productivebees:sculk"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Sculk Bee"
 			x: 6.0d
 			y: 16.5d
 		}
@@ -2510,7 +2910,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:sulfur_dust"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:sulfur_dust"
+			}
 			id: "2C211ABB1F2A6084"
 			rewards: [
 				{
@@ -2525,7 +2933,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "48212B5E579B9ADA"
@@ -2535,7 +2943,7 @@
 				to_observe: "productivebees:sulfur"
 				type: "observation"
 			}]
-			title: "Acquire a sulfur bee"
+			title: "&6&lAcquire a Sulfur Bee"
 			x: -5.0d
 			y: 16.5d
 		}
@@ -2548,7 +2956,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:redstone"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:redstone"
+			}
 			id: "3801CE956A146F48"
 			rewards: [
 				{
@@ -2563,7 +2979,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7C689167996E504B"
@@ -2572,7 +2988,7 @@
 				to_observe: "productivebees:redstone"
 				type: "observation"
 			}]
-			title: "Acquire a redstone bee"
+			title: "&6&lAcquire a Redstone Bee"
 			x: -3.0d
 			y: 16.5d
 		}
@@ -2585,7 +3001,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:lapis_lazuli"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:lapis_lazuli"
+			}
 			id: "11F38F627F49DCAE"
 			rewards: [
 				{
@@ -2600,7 +3024,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "13F329B03F806E4F"
@@ -2610,6 +3034,7 @@
 				to_observe: "productivebees:lapis"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Lapis Bee"
 			x: -4.5d
 			y: 17.5d
 		}
@@ -2622,7 +3047,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "create:zinc_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:zinc_ingot"
+			}
 			id: "1FA0FF08715F6E77"
 			rewards: [
 				{
@@ -2637,7 +3070,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0BDEE1CB4A7D1E26"
@@ -2647,6 +3080,7 @@
 				to_observe: "productivebees:zinc"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Zinc Bee"
 			x: 4.5d
 			y: 17.5d
 		}
@@ -2659,7 +3093,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "create:brass_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:brass_ingot"
+			}
 			id: "05B51A9CB2D9EE54"
 			rewards: [
 				{
@@ -2674,7 +3116,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "05C2BDC7998C7D66"
@@ -2684,6 +3126,7 @@
 				to_observe: "productivebees:brass"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Brass Bee"
 			x: 5.5d
 			y: 17.5d
 		}
@@ -2696,7 +3139,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:iron_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_ingot"
+			}
 			id: "746503BBE1C24E6E"
 			rewards: [
 				{
@@ -2711,7 +3162,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "33C46E0CC2F814AA"
@@ -2721,6 +3172,7 @@
 				to_observe: "productivebees:iron"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Iron Bee"
 			x: -2.0d
 			y: 18.5d
 		}
@@ -2730,7 +3182,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:snowball"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:snowball"
+			}
 			id: "28CB240B7943AC7B"
 			rewards: [
 				{
@@ -2745,7 +3205,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0E73E6EFD8B08CF9"
@@ -2755,6 +3215,7 @@
 				to_observe: "productivebees:frosty"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Frosty Bee"
 			x: -2.5d
 			y: 17.5d
 		}
@@ -2802,12 +3263,13 @@
 				xp: 5
 			}]
 			size: 1.5d
-			subtitle: "Undead and unwanted visitors"
+			subtitle: "&eUndead and unwanted visitors"
 			tasks: [{
 				id: "787356157611CFF7"
 				title: "Light up your hives!"
 				type: "checkmark"
 			}]
+			title: "&6&lLight up your Hives!"
 			x: 0.0d
 			y: 15.0d
 		}
@@ -2816,7 +3278,15 @@
 			description: ["Zombees will spawn and take space in any advanced hive placed in too dark of an area."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "minecraft:rotten_flesh"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:rotten_flesh"
+			}
 			id: "035E5B628D21FA20"
 			rewards: [
 				{
@@ -2831,7 +3301,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Keep your hives lit or these guys will take over!"
+			subtitle: "&eKeep your hives lit or these guys will take over!"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "607B918B6D697ECE"
@@ -2841,15 +3311,24 @@
 				to_observe: "productivebees:zombie"
 				type: "observation"
 			}]
+			title: "&6&lZombees"
 			x: -1.5d
 			y: 15.0d
 		}
 		{
 			dependencies: ["303E5FEBA512547F"]
-			description: ["If you need them for converting you can easily obtain skeletal bees by placing an advanced bee hive in the dark and waiting. Light the are around the hive sufficiently to stop them from spawning."]
+			description: ["If you need them for converting you can easily obtain skeletal bees by placing an advanced bee hive in the dark and waiting. Light the area around the hive sufficiently to stop them from spawning."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "minecraft:bone"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:bone"
+			}
 			id: "7551EF4FE53DDAC8"
 			rewards: [
 				{
@@ -2864,7 +3343,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Keep the hive nice and dark!"
+			subtitle: "&eKeep the hive nice and dark!"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "45B2DCA458966BDA"
@@ -2874,6 +3353,7 @@
 				to_observe: "productivebees:skeletal"
 				type: "observation"
 			}]
+			title: "&6&lSkeletal Bee"
 			x: 1.5d
 			y: 15.0d
 		}
@@ -2882,7 +3362,15 @@
 			description: ["Feed a wither rose to a skeletal bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "minecraft:wither_skeleton_skull"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:wither_skeleton_skull"
+			}
 			id: "1E71804FF64DA2CF"
 			rewards: [
 				{
@@ -2897,7 +3385,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4E4D9E983F568316"
@@ -2907,6 +3395,7 @@
 				to_observe: "productivebees:withered"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Withered Bee"
 			x: 5.0d
 			y: 16.5d
 		}
@@ -2916,7 +3405,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "create_unbreakable:philolite"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_unbreakable:philolite"
+			}
 			id: "1A9B0666A72A624F"
 			rewards: [
 				{
@@ -2930,7 +3427,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&eMechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "52CE66D7B2434D4A"
@@ -2940,6 +3437,7 @@
 				to_observe: "productivebees:philolite"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Philolite Bee"
 			x: 1.5d
 			y: 17.5d
 		}
@@ -2949,7 +3447,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "create_unbreakable:luminarchy"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_unbreakable:luminarchy"
+			}
 			id: "3010CB0CBDC70CB5"
 			rewards: [
 				{
@@ -2963,7 +3469,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&eMechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1D4BA4CCB62C060E"
@@ -2973,6 +3479,7 @@
 				to_observe: "productivebees:luminarchy"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Luminarchy Bee"
 			x: 2.5d
 			y: 17.5d
 		}
@@ -2985,7 +3492,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "fluxnetworks:flux_dust"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "fluxnetworks:flux_dust"
+			}
 			id: "586835F71B623971"
 			rewards: [
 				{
@@ -3000,7 +3515,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Item Conversion"
+			subtitle: "&eItem Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3FBCEBAB3FBE9BED"
@@ -3009,7 +3524,7 @@
 				to_observe: "productivebees:flux"
 				type: "observation"
 			}]
-			title: "Acquire a flux dust bee"
+			title: "&6&lAcquire a Flux Dust Bee"
 			x: -2.0d
 			y: 16.5d
 		}
@@ -3022,7 +3537,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "ae2:silicon"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ae2:silicon"
+			}
 			id: "5FA58A68858C6A9A"
 			rewards: [
 				{
@@ -3037,7 +3560,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "633097EAEA7EFB16"
@@ -3047,6 +3570,7 @@
 				to_observe: "productivebees:silicon"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Silicon Bee"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -3060,7 +3584,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "tombstone:grave_dust"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "tombstone:grave_dust"
+			}
 			id: "1D514E8FB2246A4A"
 			min_required_dependencies: 2
 			rewards: [
@@ -3085,7 +3617,7 @@
 				to_observe: "productivebees:grave"
 				type: "observation"
 			}]
-			title: "Acquire a grave bee"
+			title: "&6&lAcquire a Grave Bee"
 			x: 1.5d
 			y: 21.5d
 		}
@@ -3095,7 +3627,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "create:rose_quartz"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:rose_quartz"
+			}
 			id: "5152ACFB10052852"
 			rewards: [
 				{
@@ -3109,7 +3649,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "33559FB8C6634DC3"
@@ -3119,6 +3659,7 @@
 				to_observe: "productivebees:rose_quartz"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Rose Quartz Bee"
 			x: 0.5d
 			y: 21.5d
 		}
@@ -3131,7 +3672,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "ae2:certus_quartz_dust"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ae2:certus_quartz_dust"
+			}
 			id: "4AAAC0241B45AA06"
 			rewards: [
 				{
@@ -3146,7 +3695,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4559C9CC63D22AD5"
@@ -3155,7 +3704,7 @@
 				to_observe: "productivebees:spacial"
 				type: "observation"
 			}]
-			title: "Acquire a spatial bee"
+			title: "&6&lAcquire a Spatial Bee"
 			x: -1.0d
 			y: 16.5d
 		}
@@ -3165,7 +3714,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "ars_nouveau:source_gem"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ars_nouveau:source_gem"
+			}
 			id: "2CB0F40EC9BC1132"
 			rewards: [
 				{
@@ -3185,7 +3742,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Enchanting Apparatus"
+			subtitle: "&eEnchanting Apparatus"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "56F10F48F3BCCD87"
@@ -3195,7 +3752,7 @@
 				to_observe: "productivebees:arcane"
 				type: "observation"
 			}]
-			title: "Acquire an Arcane bee"
+			title: "&6&lAcquire an Arcane bee"
 			x: 2.5d
 			y: 21.5d
 		}
@@ -3204,7 +3761,15 @@
 			description: ["Use a piece of popped chorus fruit on an end stone nest to spawn an ender bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "luphieclutteredmod:luphie_bee_lamp"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "luphieclutteredmod:luphie_bee_lamp"
+			}
 			id: "6BE0F4935A898C44"
 			rewards: [
 				{
@@ -3218,7 +3783,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Popped chorus fruit"
+			subtitle: "&ePopped chorus fruit"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "38C398664FAA3325"
@@ -3228,6 +3793,7 @@
 				to_observe: "productivebees:ender"
 				type: "observation"
 			}]
+			title: "&6&lEnder Bee"
 			x: 0.0d
 			y: 10.5d
 		}
@@ -3236,7 +3802,15 @@
 			description: ["Feed a fluix pearl to a spatial bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "ae2:fluix_crystal"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ae2:fluix_crystal"
+			}
 			id: "423643A2F359889D"
 			rewards: [
 				{
@@ -3251,7 +3825,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3348ED1D5842E723"
@@ -3261,6 +3835,7 @@
 				to_observe: "productivebees:fluix"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Fluix Bee"
 			x: 0.5d
 			y: 17.5d
 		}
@@ -3269,7 +3844,15 @@
 			description: ["Feed a block of apatite to a diamond bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "thermal:apatite"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:apatite"
+			}
 			id: "09625551CD317B28"
 			rewards: [
 				{
@@ -3284,7 +3867,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "13234420E36EFF62"
@@ -3294,6 +3877,7 @@
 				to_observe: "productivebees:apatite"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Apatite Bee"
 			x: -1.5d
 			y: 17.5d
 		}
@@ -3306,7 +3890,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:bronze_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:bronze_ingot"
+			}
 			id: "1375960CA88B29CD"
 			rewards: [
 				{
@@ -3321,7 +3913,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3B767C1079613226"
@@ -3331,6 +3923,7 @@
 				to_observe: "productivebees:bronze"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Bronze Bee"
 			x: -3.0d
 			y: 18.5d
 		}
@@ -3343,7 +3936,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:gold_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:gold_ingot"
+			}
 			id: "1E8D1F69C6E842E1"
 			rewards: [
 				{
@@ -3358,7 +3959,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6C37CD3119223FB1"
@@ -3368,6 +3969,7 @@
 				to_observe: "productivebees:gold"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Gold Bee"
 			x: 1.5d
 			y: 19.5d
 		}
@@ -3380,7 +3982,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:silver_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:silver_ingot"
+			}
 			id: "10C6AA32FD92C5E6"
 			rewards: [
 				{
@@ -3395,7 +4005,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "66872CB73BB7C9BC"
@@ -3405,6 +4015,7 @@
 				to_observe: "productivebees:silver"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Silver Bee"
 			x: 0.5d
 			y: 19.5d
 		}
@@ -3417,7 +4028,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "chicken_roost:ingot_platinum"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "chicken_roost:ingot_platinum"
+			}
 			id: "1A928D3BFC41C8E9"
 			rewards: [
 				{
@@ -3431,7 +4050,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5DC5BEF9ABD696F5"
@@ -3441,6 +4060,7 @@
 				to_observe: "productivebees:platinum"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Platinum Bee"
 			x: 2.5d
 			y: 19.5d
 		}
@@ -3453,7 +4073,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:lead_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:lead_ingot"
+			}
 			id: "00133F24F615C219"
 			rewards: [
 				{
@@ -3468,7 +4096,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "67D4EC0C86CE8362"
@@ -3478,6 +4106,7 @@
 				to_observe: "productivebees:lead"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Lead Bee"
 			x: -1.5d
 			y: 19.5d
 		}
@@ -3490,7 +4119,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "mekanism:ingot_uranium"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanism:ingot_uranium"
+			}
 			id: "0DDC127F1CB70026"
 			rewards: [
 				{
@@ -3505,7 +4142,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "067732D0A2A97E6C"
@@ -3515,6 +4152,7 @@
 				to_observe: "productivebees:uranium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Radioactive Bee"
 			x: -0.5d
 			y: 19.5d
 		}
@@ -3527,7 +4165,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:tin_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:tin_ingot"
+			}
 			id: "20DF26B506B5FC96"
 			rewards: [
 				{
@@ -3542,7 +4188,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0CC6FA0267935C43"
@@ -3552,6 +4198,7 @@
 				to_observe: "productivebees:tin"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Tin Bee"
 			x: -1.0d
 			y: 18.5d
 		}
@@ -3564,7 +4211,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:nickel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:nickel_ingot"
+			}
 			id: "60D14B97285106EB"
 			rewards: [
 				{
@@ -3579,7 +4234,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7111C0DB2B0C1884"
@@ -3589,6 +4244,7 @@
 				to_observe: "productivebees:nickel"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Nickel Bee"
 			x: 0.0d
 			y: 18.5d
 		}
@@ -3600,7 +4256,15 @@
 			description: ["Breed a nickel and an iron bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "thermal:invar_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:invar_ingot"
+			}
 			id: "638E3F3B2052E0B0"
 			rewards: [
 				{
@@ -3615,7 +4279,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "36EA86535D8A05E7"
@@ -3625,6 +4289,7 @@
 				to_observe: "productivebees:invar"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Invar Bee"
 			x: 1.0d
 			y: 18.5d
 		}
@@ -3636,7 +4301,15 @@
 			description: ["Breed a nickel and a copper bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "thermal:constantan_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:constantan_ingot"
+			}
 			id: "186C34E5AB33B63C"
 			rewards: [
 				{
@@ -3651,7 +4324,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "18CE74446F563C39"
@@ -3661,6 +4334,7 @@
 				to_observe: "productivebees:constantan"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Constantan Bee"
 			x: 2.0d
 			y: 18.5d
 		}
@@ -3673,7 +4347,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:electrum_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:electrum_ingot"
+			}
 			id: "40DEADF236743A5A"
 			rewards: [
 				{
@@ -3688,7 +4370,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "18A31675234A9339"
@@ -3698,6 +4380,7 @@
 				to_observe: "productivebees:electrum"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Electrum Bee"
 			x: 3.0d
 			y: 18.5d
 		}
@@ -3710,7 +4393,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:lumium_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:lumium_ingot"
+			}
 			id: "335F35639C497379"
 			rewards: [
 				{
@@ -3725,7 +4416,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0746E33F514F2867"
@@ -3735,6 +4426,7 @@
 				to_observe: "productivebees:lumium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Lumium Bee"
 			x: 4.0d
 			y: 18.5d
 		}
@@ -3747,7 +4439,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:signalum_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:signalum_ingot"
+			}
 			id: "460E95EBAF18895C"
 			rewards: [
 				{
@@ -3762,7 +4462,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1FF0D58D0E3611DE"
@@ -3772,6 +4472,7 @@
 				to_observe: "productivebees:signalum"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Signalum Bee"
 			x: 5.0d
 			y: 18.5d
 		}
@@ -3784,7 +4485,15 @@
 			description: ["Breed a lead bee with either a platinum bee or a diamond bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "thermal:enderium_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:enderium_ingot"
+			}
 			id: "58394B4AE5454FB4"
 			rewards: [
 				{
@@ -3799,7 +4508,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5D047184D670680F"
@@ -3809,6 +4518,7 @@
 				to_observe: "productivebees:enderium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Enderium Bee"
 			x: 1.0d
 			y: 20.5d
 		}
@@ -3818,7 +4528,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "create_villagerology:rose_gold_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_villagerology:rose_gold_ingot"
+			}
 			id: "13861BF926337F44"
 			rewards: [
 				{
@@ -3833,7 +4551,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7A456BBE27067820"
@@ -3843,6 +4561,7 @@
 				to_observe: "productivebees:rose_gold"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Rose Gold Bee"
 			x: -4.5d
 			y: 19.5d
 		}
@@ -3855,7 +4574,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal:steel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:steel_ingot"
+			}
 			id: "087056D7E6E82FB3"
 			rewards: [
 				{
@@ -3870,7 +4597,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4E8C2DB75CDEDD72"
@@ -3880,6 +4607,7 @@
 				to_observe: "peoductivebees:steel"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Steel Bee"
 			x: -3.5d
 			y: 19.5d
 		}
@@ -3889,7 +4617,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "megacells:sky_steel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "megacells:sky_steel_ingot"
+			}
 			id: "774B7AAAD1A84617"
 			rewards: [
 				{
@@ -3903,7 +4639,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "In-World Transformation"
+			subtitle: "&eIn-World Transformation"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "547D0A550320173B"
@@ -3913,6 +4649,7 @@
 				to_observe: "productivebees:sky_steel"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Sky Steel Bee"
 			x: -3.5d
 			y: 21.5d
 		}
@@ -3921,7 +4658,15 @@
 			description: ["Trade a manasteel bee spawn egg for an elementium bee spawn egg using a portal to alfheim."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "botania:elementium_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:elementium_ingot"
+			}
 			id: "75CE2934A9C3F18E"
 			rewards: [
 				{
@@ -3935,7 +4680,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Elven Trade"
+			subtitle: "&eElven Trade"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1538371EB965834B"
@@ -3945,6 +4690,7 @@
 				to_observe: "productivebees:elementium"
 				type: "observation"
 			}]
+			title: "&6&lACquire an Elementium Bee"
 			x: -1.0d
 			y: 20.5d
 		}
@@ -3953,7 +4699,15 @@
 			description: ["Obtain a manasteel bee spawn egg, then combine it with a mana pearl and mana diamond on a terrestrial agglomeration plate."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "botania:terrasteel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:terrasteel_ingot"
+			}
 			id: "5F621BDE9085F723"
 			rewards: [
 				{
@@ -3973,7 +4727,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Terrestrial Agglomeration"
+			subtitle: "&eTerrestrial Agglomeration"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1955D210296383C9"
@@ -3983,6 +4737,7 @@
 				to_observe: "productivebees:terrasteel"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Terrasteel Bee"
 			x: -2.0d
 			y: 20.5d
 		}
@@ -3991,7 +4746,15 @@
 			description: ["Obtain an iron bee spawn egg, then throw it into a mana pool."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "botania:manasteel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:manasteel_ingot"
+			}
 			id: "6FDEB4E9AC050F9F"
 			rewards: [
 				{
@@ -4005,7 +4768,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Botania Mana Pool"
+			subtitle: "&eBotania Mana Pool"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1A69ADE737CFD0FA"
@@ -4015,6 +4778,7 @@
 				to_observe: "productivebees:manasteel"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Manasteel Bee"
 			x: -3.0d
 			y: 20.5d
 		}
@@ -4028,7 +4792,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermal_extra:dragonsteel_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal_extra:dragonsteel_ingot"
+			}
 			id: "5544D375A08BC1A0"
 			rewards: [
 				{
@@ -4047,7 +4819,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crafting"
+			subtitle: "&eCrafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "586BD2D4D08A8E51"
@@ -4057,6 +4829,7 @@
 				to_observe: "productivebees:dragonsteel"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Dragon Steel Bee"
 			x: -2.5d
 			y: 19.5d
 		}
@@ -4065,7 +4838,15 @@
 			description: ["Feed a block of netherite to a diamond bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "minecraft:netherite_scrap"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:netherite_scrap"
+			}
 			id: "0184227CE952621D"
 			rewards: [
 				{
@@ -4080,7 +4861,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "19D03572C40C3AF4"
@@ -4090,6 +4871,7 @@
 				to_observe: "productivebees:ancient"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Ancient Bee"
 			x: 3.0d
 			y: 16.5d
 		}
@@ -4102,7 +4884,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:diamond"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:diamond"
+			}
 			id: "220D6A97C5D12DC6"
 			rewards: [
 				{
@@ -4117,7 +4907,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "41F6B75B65C4D9FA"
@@ -4127,6 +4917,7 @@
 				to_observe: "productivebees:diamond"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Diamond Bee"
 			x: 1.0d
 			y: 16.5d
 		}
@@ -4139,7 +4930,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "minecraft:emerald"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:emerald"
+			}
 			id: "44E384D32758F281"
 			rewards: [
 				{
@@ -4154,7 +4953,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2C668EF04A176CE5"
@@ -4164,6 +4963,7 @@
 				to_observe: "productivebees:emerald"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Emerald Bee"
 			x: 2.0d
 			y: 16.5d
 		}
@@ -4199,7 +4999,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "331F3B9B48514A05"
@@ -4209,6 +5009,7 @@
 				to_observe: "productivebees:prismalium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Prismalium Bee"
 			x: 2.0d
 			y: 20.5d
 		}
@@ -4221,7 +5022,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "thermalendergy:melodium_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermalendergy:melodium_ingot"
+			}
 			id: "5F248E43BBFE1268"
 			rewards: [
 				{
@@ -4241,7 +5050,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crafting"
+			subtitle: "&eCrafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2F03A2F602A480D9"
@@ -4251,6 +5060,7 @@
 				to_observe: "productivebees:melodium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Melodium Bee"
 			x: 4.0d
 			y: 20.5d
 		}
@@ -4285,7 +5095,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crafting"
+			subtitle: "&eCrafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "110F988FC75F6527"
@@ -4295,6 +5105,7 @@
 				to_observe: "productivebees:stellarium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Stellarium Bee"
 			x: 3.0d
 			y: 20.5d
 		}
@@ -4307,7 +5118,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "mekanism:ingot_refined_glowstone"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanism:ingot_refined_glowstone"
+			}
 			id: "2143BC0DFFD712DF"
 			rewards: [
 				{
@@ -4322,16 +5141,25 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:bee_cage"
+				}
 				id: "603C97CFDC36815B"
 				observe_type: 5
 				timer: 0L
-				title: "Acquire a refine glowstone bee"
+				title: "Acquire a refined glowstone bee"
 				to_observe: "productivebees:refined_glowstone"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Refined Glowstone Bee"
 			x: 3.5d
 			y: 19.5d
 		}
@@ -4344,7 +5172,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "mekanism:ingot_refined_obsidian"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanism:ingot_refined_obsidian"
+			}
 			id: "7BDDB77EEBE03303"
 			rewards: [
 				{
@@ -4359,7 +5195,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "269E6D08E6396407"
@@ -4369,6 +5205,7 @@
 				to_observe: "productivebees:refined_obsidian"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Refined Obsidian Bee"
 			x: 4.5d
 			y: 19.5d
 		}
@@ -4378,7 +5215,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "bloodmagic:altar"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bloodmagic:altar"
+			}
 			id: "308E90210D36D709"
 			rewards: [
 				{
@@ -4392,7 +5237,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Blood Altar"
+			subtitle: "&eBlood Altar"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2E400494889893D9"
@@ -4402,6 +5247,7 @@
 				to_observe: "productivebees:hematophagous"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Hematophagus Bee"
 			x: 1.0d
 			y: 22.5d
 		}
@@ -4411,7 +5257,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "mekanism:radioactive_waste_barrel"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanism:radioactive_waste_barrel"
+			}
 			id: "43353EB782A1A5DF"
 			rewards: [
 				{
@@ -4437,7 +5291,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "432D579FC873A547"
@@ -4447,6 +5301,7 @@
 				to_observe: "productivebees:wasted_radioactive"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Wasted Radioactive Bee"
 			x: 3.0d
 			y: 22.5d
 		}
@@ -4456,7 +5311,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "industrialforegoing:pink_slime_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "industrialforegoing:pink_slime_ingot"
+			}
 			id: "34C0A051E3FA567D"
 			rewards: [
 				{
@@ -4476,7 +5339,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "182166C6B9A4166D"
@@ -4486,6 +5349,7 @@
 				to_observe: "productivebees:pink_slimy"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Pink Slimy Bee"
 			x: 0.0d
 			y: 20.5d
 		}
@@ -4495,7 +5359,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "botania:mana_pool"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "botania:mana_pool"
+			}
 			id: "49F5F317987C35B8"
 			rewards: [
 				{
@@ -4514,7 +5386,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Runic Altar"
+			subtitle: "&eRunic Altar"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "22F958F68B508490"
@@ -4524,6 +5396,7 @@
 				to_observe: "productivebees:mana"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Mana Bee"
 			x: 0.0d
 			y: 22.5d
 		}
@@ -4561,7 +5434,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Petal Apothecary"
+			subtitle: "&ePetal Apothecary"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -4579,7 +5452,7 @@
 				to_observe: "productivebees:pure"
 				type: "observation"
 			}]
-			title: "Acquire a pure bee"
+			title: "&6&lAcquire a Pure Bee"
 			x: -1.0d
 			y: 22.5d
 		}
@@ -4614,7 +5487,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "57F513DCBD9930F0"
@@ -4624,6 +5497,7 @@
 				to_observe: "productivebees:plastic"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Plastic Bee"
 			x: -2.0d
 			y: 22.5d
 		}
@@ -4636,7 +5510,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "mekanism:ingot_osmium"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanism:ingot_osmium"
+			}
 			id: "19CC579914069E61"
 			rewards: [
 				{
@@ -4651,7 +5533,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "75D33D932325B731"
@@ -4661,6 +5543,7 @@
 				to_observe: "productivebees:osmium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Osmium Bee"
 			x: -4.0d
 			y: 20.5d
 		}
@@ -4670,7 +5553,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "productivebees:amber"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "productivebees:amber"
+			}
 			id: "54961C3BE7126035"
 			rewards: [
 				{
@@ -4689,7 +5580,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Resin works for now"
+			subtitle: "&eResin works for now"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0D192F6995B1E2EE"
@@ -4699,6 +5590,7 @@
 				to_observe: "productivebees:amber"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Amber Bee"
 			x: -3.0d
 			y: 22.5d
 		}
@@ -4708,7 +5600,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "enlightened_end:malachite"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "enlightened_end:malachite"
+			}
 			id: "65CF8E02D982335E"
 			rewards: [
 				{
@@ -4733,7 +5633,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&eMechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "30FEA769B7DE19F2"
@@ -4743,6 +5643,7 @@
 				to_observe: "productivebees:malachite"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Malachite Bee"
 			x: -2.5d
 			y: 21.5d
 		}
@@ -4752,7 +5653,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "enlightened_end:bismuth_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "enlightened_end:bismuth_ingot"
+			}
 			id: "1BEE6E1D7AF0105F"
 			rewards: [
 				{
@@ -4777,7 +5686,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&eMechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "277A91A9BD3E98BA"
@@ -4787,6 +5696,7 @@
 				to_observe: "productivebees:bismuth"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Bismuth Bee"
 			x: -1.5d
 			y: 21.5d
 		}
@@ -4796,7 +5706,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "enlightened_end:irradium_bar"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "enlightened_end:irradium_bar"
+			}
 			id: "7F7D87E3C0C1E931"
 			rewards: [
 				{
@@ -4822,7 +5740,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "004A1534CA8F86A4"
@@ -4832,6 +5750,7 @@
 				to_observe: "productivebees:irradium"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Irradium Bee"
 			x: -0.5d
 			y: 21.5d
 		}
@@ -4841,7 +5760,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "industrialforegoing:ether_gas_bucket"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "industrialforegoing:ether_gas_bucket"
+			}
 			id: "691DF9BAB4C57FA0"
 			rewards: [
 				{
@@ -4861,7 +5788,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Conversion"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "38ABC9DF23FFA4F4"
@@ -4871,6 +5798,7 @@
 				to_observe: "productivebees:ether_gas"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Ether Gas Bee"
 			x: 2.0d
 			y: 22.5d
 		}
@@ -4883,7 +5811,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "blocksyouneed_luna:aluminum_ingot"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "blocksyouneed_luna:aluminum_ingot"
+			}
 			id: "598185E77ACA8553"
 			rewards: [
 				{
@@ -4898,7 +5834,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2CB86DB746200509"
@@ -4908,6 +5844,7 @@
 				to_observe: "productivebees:aluminum"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Aluminum Bee"
 			x: -4.0d
 			y: 18.5d
 		}
@@ -4921,7 +5858,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "bloodmagic:rawdemonite"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "bloodmagic:rawdemonite"
+			}
 			id: "0B97B0BC5EE74D19"
 			rewards: [
 				{
@@ -4941,7 +5886,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hellfire Forge"
+			subtitle: "&eHellfire Forge"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "09EE3EA1E53CA986"
@@ -4951,6 +5896,7 @@
 				to_observe: "productivebees:hellfire"
 				type: "observation"
 			}]
+			title: "&6&lAcquire a Hellfire Bee"
 			x: 3.5d
 			y: 17.5d
 		}
@@ -4962,7 +5908,15 @@
 			description: ["Breed a coal bee with a creebee,"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: "thermal:niter_dust"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "thermal:niter_dust"
+			}
 			id: "371B67ABA6F578B3"
 			rewards: [
 				{
@@ -4977,7 +5931,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3A6183F69E2C82C9"
@@ -4986,7 +5940,7 @@
 				to_observe: "productivebees:niter"
 				type: "observation"
 			}]
-			title: "Acquire a niter bee"
+			title: "&6&lAcquire a Niter Bee"
 			x: 0.0d
 			y: 16.5d
 		}
@@ -5024,12 +5978,13 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "This is always fun"
+			subtitle: "&eThis is always fun"
 			tasks: [{
 				id: "55982478A10C86BE"
 				title: "Bee genetics"
 				type: "checkmark"
 			}]
+			title: "&6&lBee Genetics"
 			x: 10.0d
 			y: -1.0d
 		}
@@ -5054,12 +6009,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "For bottling, of course"
+			subtitle: "&eFor bottling, of course"
 			tasks: [{
 				id: "1D719CC51B490088"
 				item: "productivebees:bottler"
 				type: "item"
 			}]
+			title: "&6&lBottler"
 			x: 10.0d
 			y: 1.0d
 		}
@@ -5087,12 +6043,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Auxiliary power"
+			subtitle: "&eAuxiliary power"
 			tasks: [{
 				id: "51CAA9CF509169E0"
 				item: "productivebees:honey_generator"
 				type: "item"
 			}]
+			title: "&6&lHoney Generator"
 			x: 7.5d
 			y: -3.0d
 		}
@@ -5115,12 +6072,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iron Sword + Slime Block"
+			subtitle: "&eIron Sword + Slime Block"
 			tasks: [{
 				id: "24C7EE32733E8AB8"
 				item: "productivebees:slimy_nest"
 				type: "item"
 			}]
+			title: "&6&lSlimy Nest"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -5146,12 +6104,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "A specially made hive, carved from the egg of the ends ruler."
+			subtitle: "&eA specially made hive, carved from the egg of the ends ruler."
 			tasks: [{
 				id: "2C8DDD4F68DC6F84"
 				item: "productivebees:dragon_egg_hive"
 				type: "item"
 			}]
+			title: "&6&lDragon Egg Nest"
 			x: 0.0d
 			y: 11.5d
 		}
@@ -5164,7 +6123,15 @@
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
-			icon: "create:experience_nugget"
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:experience_nugget"
+			}
 			id: "60BF6A032D994339"
 			rewards: [
 				{
@@ -5178,7 +6145,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&eBee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2B34269A9F24E0AE"
@@ -5188,6 +6155,7 @@
 				to_observe: "productivebees:experience"
 				type: "observation"
 			}]
+			title: "&6&lAcquire an Experience Bee"
 			x: 3.5d
 			y: 21.5d
 		}
@@ -5216,12 +6184,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "An automated bee trap."
+			subtitle: "&eAn automated bee trap."
 			tasks: [{
 				id: "5C7680DEA7161B76"
 				item: "productivebees:catcher"
 				type: "item"
 			}]
+			title: "&6&lCatcher"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -5249,12 +6218,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Can be honeylogged for regeneration effects!"
+			subtitle: "&eCan be honeylogged for regeneration effects!"
 			tasks: [{
 				id: "2A3CBFDE750E97C5"
 				item: "productivebees:feeder"
 				type: "item"
 			}]
+			title: "&6&lFeeding Slab"
 			x: 6.5d
 			y: 5.5d
 		}

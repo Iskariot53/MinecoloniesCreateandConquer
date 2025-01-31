@@ -54,13 +54,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "I'm not counting any chickens."
+			subtitle: "&eI'm not counting any chickens."
 			tasks: [{
 				id: "74E31978507842CB"
 				item: "chicken_roost:chicken_stick"
 				type: "item"
 			}]
-			title: "Don't count your chickens before they hatch!"
+			title: "&6&lDon't count your chickens before they hatch!"
 			x: 0.0d
 			y: -4.5d
 		}
@@ -78,7 +78,7 @@
 				type: "xp"
 				xp: 3
 			}]
-			subtitle: "Wow.. did you think those were useless now?"
+			subtitle: "&eWow.. did you think those were useless now?"
 			tasks: [{
 				count: 4L
 				id: "2240C5574AAAE67B"
@@ -89,7 +89,7 @@
 				}
 				type: "item"
 			}]
-			title: "Catch your first vanilla chicken!"
+			title: "&6&lCatch your first vanilla chicken!"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -130,7 +130,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Craft the main blocks needed to get started!"
+			subtitle: "&eCraft the main blocks needed to get started!"
 			tasks: [
 				{
 					id: "2839CBD0D5D01E8E"
@@ -148,7 +148,7 @@
 					type: "item"
 				}
 			]
-			title: "Create your first Roost setup"
+			title: "&6&lCreate your first Roost setup"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -183,7 +183,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Chicken Souls and Chicken Seeds"
+			subtitle: "&eChicken Souls and Chicken Seeds"
 			tasks: [
 				{
 					id: "501B108899C439F3"
@@ -213,7 +213,7 @@
 					type: "item"
 				}
 			]
-			title: "Taking your first steps"
+			title: "&6&lTaking your first steps"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -242,7 +242,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2 everything"
+			subtitle: "&eTier 2 everything"
 			tasks: [
 				{
 					id: "663AC8264CE1A122"
@@ -267,7 +267,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2 Chickens"
+			title: "&6&lTier 2 Chickens"
 			x: 4.0d
 			y: -3.0d
 		}
@@ -293,7 +293,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 everything"
+			subtitle: "&eTier 3 everything"
 			tasks: [
 				{
 					id: "057E8B8DE184F374"
@@ -318,6 +318,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lTier 3 Chicken"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -343,7 +344,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 everything"
+			subtitle: "&eTier 4 everything"
 			tasks: [
 				{
 					id: "5A5CFA2B04F6EBC8"
@@ -368,6 +369,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lTier 4 Chicken"
 			x: 3.5d
 			y: 2.5d
 		}
@@ -392,7 +394,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 5 everything"
+			subtitle: "&eTier 5 everything"
 			tasks: [
 				{
 					count: 2L
@@ -419,6 +421,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lTier 5 Chicken"
 			x: 2.5d
 			y: 5.0d
 		}
@@ -443,7 +446,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 6 everything"
+			subtitle: "&eTier 6 everything"
 			tasks: [
 				{
 					count: 3L
@@ -470,6 +473,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lTier 6 Chicken"
 			x: -2.5d
 			y: 5.0d
 		}
@@ -494,7 +498,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 7 everything"
+			subtitle: "&eTier 7 everything"
 			tasks: [
 				{
 					count: 4L
@@ -521,6 +525,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lTier 7 Chicken"
 			x: -3.5d
 			y: 2.5d
 		}
@@ -545,7 +550,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 8 everything"
+			subtitle: "&eTier 8 everything"
 			tasks: [
 				{
 					count: 4L
@@ -572,6 +577,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lTier 8 Chicken"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -596,7 +602,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "You made it to the last Tier! :D"
+			subtitle: "&eYou made it to the last Tier! :D"
 			tasks: [
 				{
 					count: 4L
@@ -623,6 +629,7 @@
 					type: "item"
 				}
 			]
+			title: "&6&lTier 9 Chicken"
 			x: -4.0d
 			y: -3.0d
 		}
@@ -654,12 +661,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Hey you.. wanna dupe some chickens? *wink*"
+			subtitle: "&eHey you.. wanna dupe some chickens? *wink*"
 			tasks: [{
 				id: "0DE909BC796EB9B3"
 				item: "chicken_roost:soul_breeder"
 				type: "item"
 			}]
+			title: "&6&lSoul Breeder"
 			x: 0.0d
 			y: 1.5d
 		}

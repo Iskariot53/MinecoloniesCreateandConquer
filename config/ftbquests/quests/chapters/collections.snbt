@@ -69,7 +69,6 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Down for a Tarot Reading?"
 			tasks: [{
 				id: "1D391B533A1EAF82"
 				item: {
@@ -87,7 +86,7 @@
 				}
 				type: "item"
 			}]
-			title: "Down for a Tarot Reading?"
+			title: "&6&lDown for a Tarot Reading?"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -909,10 +908,9 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Let's Start Looking for Band Members!"
 			tasks: [{
 				id: "382C22F1FD3530DA"
-				title: "Let's Start Looking for Band Members!"
+				title: "&6&lLet's Start Looking for Band Members!"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -1152,10 +1150,9 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Music to Your Ears!"
 			tasks: [{
 				id: "3C34F9F1E217AB19"
-				title: "Music to Your Ears!"
+				title: "&6&lMusic to Your Ears!"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -1886,7 +1883,7 @@
 				"76FA6579902F5962"
 				"339C28C120E0B3AA"
 			]
-			description: ["Trade with villagers to obtain the cutest baby animal crates!"]
+			description: ["Trade with villagers to obtain baby animal crates."]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			icon: {
@@ -1912,7 +1909,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Collect All The Animal Crates!"
+			subtitle: "&eCollect All The Animal Crates!"
 			tasks: [{
 				id: "378B950D2E826656"
 				item: "villagersellanimals:crate_zoglet"
@@ -2283,10 +2280,9 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "What time is it? Time to Open a Cafe!"
 			tasks: [{
 				id: "4FF21AC624AE80F4"
-				title: "What time is it? Time to Open a Cafe!"
+				title: "&6&lWhat time is it? Time to Open a Cafe!"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -3268,10 +3264,9 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Look at You! What a Fashion Icon!"
 			tasks: [{
 				id: "4614B10AA22C47F4"
-				title: "Look at You! What a Fashion Icon!"
+				title: "&6&lLook at You! What a Fashion Icon!"
 				type: "checkmark"
 			}]
 			x: -8.5d
@@ -3875,13 +3870,12 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Prince Charm-ing!"
 			tasks: [{
 				id: "1954C9321B4C64D7"
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			title: "Prince Charm-ing!"
+			title: "&6&lPrince Charm-ing!"
 			x: 4.5d
 			y: -10.75d
 		}

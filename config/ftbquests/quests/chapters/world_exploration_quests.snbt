@@ -681,7 +681,7 @@
 				title: "Starter Hut"
 				type: "item"
 			}]
-			title: "Place down your starter hut"
+			title: "&e&lPlace Your Starter Hut"
 			x: 1.0017006802721085d
 			y: -4.795918367346957d
 		}
@@ -754,7 +754,7 @@
 					type: "item"
 				}
 			]
-			title: "Wooden Tools"
+			title: "&e&lWooden Tools"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -827,7 +827,7 @@
 					type: "item"
 				}
 			]
-			title: "Leather Armor"
+			title: "&e&lLeather Armor"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -884,7 +884,7 @@
 					type: "item"
 				}
 			]
-			title: "Stone Tools"
+			title: "&e&lStone Tools"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -929,7 +929,7 @@
 				}
 				type: "item"
 			}]
-			title: "Iron Ingots"
+			title: "&e&lIron Ingots"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1007,6 +1007,7 @@
 					type: "item"
 				}
 			]
+			title: "&e&lIron Tools"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -1116,7 +1117,7 @@
 					type: "item"
 				}
 			]
-			title: "Iron Armor"
+			title: "&e&lIron Armor"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -1172,7 +1173,7 @@
 					type: "item"
 				}
 			]
-			title: "Water and Lava"
+			title: "&e&lWater and Lava"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -1214,7 +1215,7 @@
 				}
 				type: "item"
 			}]
-			title: "Diamonds"
+			title: "&e&lDiamonds"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -1292,7 +1293,7 @@
 					type: "item"
 				}
 			]
-			title: "Diamond Tools"
+			title: "&e&lDiamond Tools"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -1386,7 +1387,7 @@
 					type: "item"
 				}
 			]
-			title: "Diamond Armor"
+			title: "&e&lDiamond Armor"
 			x: 9.0d
 			y: 2.5d
 		}
@@ -1430,7 +1431,7 @@
 					type: "item"
 				}
 			]
-			title: "Build a Nether Portal"
+			title: "&e&lBuild a Nether Portal"
 			x: 11.5d
 			y: 1.5d
 		}
@@ -1450,7 +1451,7 @@
 				title: "The Nether"
 				type: "dimension"
 			}]
-			title: "Visit the Nether Dimension"
+			title: "&e&lVisit the Nether Dimension"
 			x: 13.0d
 			y: 4.0d
 		}
@@ -1470,6 +1471,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lFurnace"
 			x: 3.5d
 			y: -1.5d
 		}
@@ -1526,7 +1528,7 @@
 					type: "item"
 				}
 			]
-			title: "Enchanting"
+			title: "&e&lEnchanting"
 			x: 9.0d
 			y: -1.5d
 		}
@@ -1553,7 +1555,7 @@
 				title: "Nether Fortress"
 				type: "structure"
 			}]
-			title: "Find a Nether Fortress"
+			title: "&e&lFind a Nether Fortress"
 			x: 15.5d
 			y: 4.0d
 		}
@@ -1578,7 +1580,7 @@
 				}
 				type: "item"
 			}]
-			title: "Craft an Eye of Ender"
+			title: "&e&lCraft an Eye of Ender"
 			x: 22.0d
 			y: 4.0d
 		}
@@ -1637,7 +1639,7 @@
 					type: "item"
 				}
 			]
-			title: "Time for an Upgrade"
+			title: "&e&lTime for an Upgrade"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -1667,7 +1669,7 @@
 				title: "Bastion Remnant"
 				type: "structure"
 			}]
-			title: "Visit a Bastion Remnant"
+			title: "&e&lVisit a Bastion Remnant"
 			x: 10.5d
 			y: 4.0d
 		}
@@ -1764,7 +1766,7 @@
 					type: "item"
 				}
 			]
-			title: "Netherite Armor"
+			title: "&e&lNetherite Armor"
 			x: 7.0d
 			y: 3.0d
 		}
@@ -1858,7 +1860,7 @@
 					type: "item"
 				}
 			]
-			title: "Netherite Tools"
+			title: "&e&lNetherite Tools"
 			x: 7.0d
 			y: 4.5d
 		}
@@ -1899,7 +1901,7 @@
 				}
 				type: "item"
 			}]
-			title: "Netherite Ingots"
+			title: "&e&lNetherite Ingots"
 			x: 9.0d
 			y: 5.5d
 		}
@@ -1924,6 +1926,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lBlaze Rods"
 			x: 18.5d
 			y: 4.0d
 		}
@@ -1948,6 +1951,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lBrewing Stand"
 			x: 18.5d
 			y: 6.0d
 		}
@@ -2000,7 +2004,7 @@
 				id: "2727DDD08400AB82"
 				type: "advancement"
 			}]
-			title: "How Did We Get Here?"
+			title: "&e&lHow Did We Get Here?"
 			x: 16.5d
 			y: 8.25d
 		}
@@ -2033,7 +2037,7 @@
 				title: "The End"
 				type: "dimension"
 			}]
-			title: "Visit the End Dimension"
+			title: "&e&lVisit the End Dimension"
 			x: 22.0d
 			y: 1.0d
 		}
@@ -2081,6 +2085,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&e&lSlay The Dragon"
 			x: 26.5d
 			y: -1.5d
 		}
@@ -2106,7 +2111,7 @@
 				}
 				type: "item"
 			}]
-			title: "Dragon's Breath"
+			title: "&e&lDragon's Breath"
 			x: 26.5d
 			y: 0.5d
 		}
@@ -2131,10 +2136,10 @@
 				}
 				id: "13EB0A5037515D65"
 				structure: "minecraft:end_city"
-				title: "End City"
+				title: "Find an End City"
 				type: "structure"
 			}]
-			title: "Find an End City"
+			title: "&e&lFind an End City"
 			x: 35.5d
 			y: 2.5d
 		}
@@ -2177,6 +2182,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lElytra"
 			x: 35.5d
 			y: 4.5d
 		}
@@ -2216,6 +2222,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lDragon Egg"
 			x: 26.5d
 			y: -3.5d
 		}
@@ -2256,6 +2263,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l3x Wither Skeleton Skull"
 			x: 16.5d
 			y: 2.5d
 		}
@@ -2295,6 +2303,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lDragon Head"
 			x: 33.5d
 			y: 4.0d
 		}
@@ -2320,7 +2329,7 @@
 				}
 				type: "item"
 			}]
-			title: "Shulker Shells"
+			title: "&e&lShulker Shells"
 			x: 37.5d
 			y: 4.0d
 		}
@@ -2405,6 +2414,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lNether Star"
 			x: 16.5d
 			y: -0.5d
 		}
@@ -2422,6 +2432,7 @@
 				id: "2C5F2F2418B5BA0D"
 				type: "advancement"
 			}]
+			title: "&e&lTravel Through a Gateway to The Outer End"
 			x: 30.714285714285708d
 			y: 0.4285714285714164d
 		}
@@ -2462,7 +2473,7 @@
 					type: "item"
 				}
 			]
-			title: "Capsid Transformation"
+			title: "&e&lCapsid Transformation"
 			x: 25.5d
 			y: 3.5d
 		}
@@ -2489,6 +2500,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lMysterious Worm"
 			x: 26.5d
 			y: 6.0d
 		}
@@ -2561,7 +2573,7 @@
 					type: "item"
 				}
 			]
-			title: "Slay the Void Worm"
+			title: "&e&lSlay the Void Worm"
 			x: 28.964285714285694d
 			y: 8.5d
 		}
@@ -2604,7 +2616,7 @@
 				}
 				type: "item"
 			}]
-			title: "Break Through Reality"
+			title: "&e&lBreak Through Reality"
 			x: 31.0d
 			y: 10.92857142857143d
 		}
@@ -2644,6 +2656,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lVoid Worm Beak"
 			x: 27.0d
 			y: 10.92857142857143d
 		}
@@ -2910,7 +2923,7 @@
 				id: "4939B1A37BC5A1A6"
 				type: "checkmark"
 			}]
-			title: "Visit all types of Villages!"
+			title: "&e&lVisit all types of Villages!"
 			x: 2.5d
 			y: 4.5d
 		}
@@ -7202,6 +7215,7 @@
 				title: "Abyssal Chasm"
 				type: "biome"
 			}]
+			title: "&e&lAbyssal Chasm"
 			x: -3.5d
 			y: 11.5d
 		}
@@ -7231,6 +7245,7 @@
 				title: "Candy Cavity"
 				type: "biome"
 			}]
+			title: "&e&lCandy Cavity"
 			x: -7.5d
 			y: -7.5d
 		}
@@ -7260,6 +7275,7 @@
 				title: "Forlorn Hollows"
 				type: "biome"
 			}]
+			title: "&e&lForlorn Hollows"
 			x: 19.5d
 			y: 14.5d
 		}
@@ -7295,6 +7311,7 @@
 				title: "Magnetic Caves"
 				type: "biome"
 			}]
+			title: "&e&lMagnetic Caves"
 			x: 13.0d
 			y: -18.0d
 		}
@@ -7324,6 +7341,7 @@
 				title: "Primordial Caves"
 				type: "biome"
 			}]
+			title: "&e&lPrimordial Caves"
 			x: 30.0d
 			y: -11.5d
 		}
@@ -7357,6 +7375,7 @@
 				title: "Toxic Caves"
 				type: "biome"
 			}]
+			title: "&e&lToxic Caves"
 			x: 37.5d
 			y: 8.5d
 		}

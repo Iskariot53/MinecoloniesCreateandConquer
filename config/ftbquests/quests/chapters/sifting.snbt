@@ -41,13 +41,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Limited but quick and easy!"
+			subtitle: "&6Limited but quick and easy!"
 			tasks: [{
 				id: "1C0CB9CFDB31CD91"
 				title: "Getting started with sifting."
 				type: "checkmark"
 			}]
-			title: "Welcome to Sifting!"
+			title: "&e&lWelcome to Sifting!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -80,7 +80,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Might want at least 1 of these."
+			subtitle: "&6Might want at least 1 of these."
 			tasks: [{
 				id: "2F41879B9DE9075B"
 				item: {
@@ -94,6 +94,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lMechanical Extruder"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -130,7 +131,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crushing wheels work too."
+			subtitle: "&6Crushing wheels work too."
 			tasks: [{
 				count: 2L
 				id: "41860D664910DE96"
@@ -145,6 +146,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&l2x Millstone"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -163,12 +165,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Not all meshes are created equally."
+			subtitle: "&6Not all meshes are created equally."
 			tasks: [{
 				id: "7ECD69A0E10E0AF7"
 				title: "Setting up your sifting build."
 				type: "checkmark"
 			}]
+			title: "&e&lSetting Up For Sifting"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -196,7 +199,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 1"
+			subtitle: "&6Tier 1"
 			tasks: [{
 				id: "49BDF4CE9A6F2B2E"
 				item: {
@@ -210,6 +213,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSifter"
 			x: -1.5d
 			y: 7.5d
 		}
@@ -219,7 +223,41 @@
 				"1733BA723FFC7BC9"
 			]
 			id: "73661C466376D119"
-			subtitle: "Tier 2"
+			rewards: [
+				{
+					id: "389F1C28F1720DFF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "19F74AADEDF5B865"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1B0ADCC0E20B8EDF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&6Tier 2"
 			tasks: [{
 				id: "0A305A14A93FFA10"
 				item: {
@@ -233,6 +271,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lBrass Sifter"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -260,7 +299,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 1"
+			subtitle: "&6Tier 1"
 			tasks: [{
 				id: "408419DBC212E81F"
 				item: {
@@ -275,6 +314,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lString Mesh"
 			x: -2.0d
 			y: 6.0d
 		}
@@ -302,7 +342,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2"
+			subtitle: "&6Tier 2"
 			tasks: [{
 				id: "7A8D084931A0863A"
 				item: {
@@ -317,6 +357,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lAndesite Mesh"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -344,7 +385,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3"
+			subtitle: "&6Tier 3"
 			tasks: [{
 				id: "7671094CA76E6321"
 				item: {
@@ -359,6 +400,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lZinc Mesh"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -386,7 +428,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4"
+			subtitle: "&6Tier 4"
 			tasks: [{
 				id: "44BB6A58F6F050C7"
 				item: {
@@ -401,6 +443,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lBrass Mesh"
 			x: 1.0d
 			y: 6.0d
 		}
@@ -427,7 +470,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 5"
+			subtitle: "&6Tier 5"
 			tasks: [{
 				id: "3C2E3535E9D628F2"
 				item: {
@@ -441,6 +484,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lAdvanced Brass Mesh"
 			x: 2.0d
 			y: 6.0d
 		}

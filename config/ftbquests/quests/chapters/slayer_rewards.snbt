@@ -50,7 +50,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Zombies = 2 Spur"
+			subtitle: "&e10 Zombies = 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:zombie_head"
@@ -58,7 +58,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Zombies"
+			title: "&6&lSlayer Task: 10x Zombies"
 			x: -28.5d
 			y: -15.5d
 		}
@@ -88,7 +88,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Skeletons = 2 Spur"
+			subtitle: "&e10 Skeletons = 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -96,7 +96,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Skeletons"
+			title: "&6&lSlayer Task: 10x Skeletons"
 			x: -27.0d
 			y: -15.5d
 		}
@@ -126,7 +126,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Spiders = 2 Spur"
+			subtitle: "&e10 Spiders = 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -134,7 +134,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Spiders"
+			title: "&6&lSlayer Task: 10x Spiders"
 			x: -25.5d
 			y: -15.5d
 		}
@@ -174,7 +174,7 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "25 Zombies = 1 Bevel 2 Spur"
+			subtitle: "&e25 Zombies = 1 Bevel 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:rotten_flesh"
@@ -182,7 +182,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Zombies"
+			title: "&6&lSlayer Task: 25x Zombies"
 			x: -28.5d
 			y: -14.0d
 		}
@@ -221,7 +221,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Skeletons = 1 Bevel 2 Spur"
+			subtitle: "&e25 Skeletons = 1 Bevel 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -229,7 +229,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Skeletons"
+			title: "&6&lSlayer Task: 25x Skeletons"
 			x: -27.0d
 			y: -14.0d
 		}
@@ -268,7 +268,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 spiders = 1 Bevel 2 Spur"
+			subtitle: "&e25 spiders = 1 Bevel 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -276,7 +276,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Spiders"
+			title: "&6&lSlayer Task: 25x Spiders"
 			x: -25.5d
 			y: -14.0d
 		}
@@ -305,7 +305,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Magma Cubes = 4 Spur"
+			subtitle: "&e10 Magma Cubes = 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -313,7 +313,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Magma Cubes"
+			title: "&6&lSlayer Task: 10x Magma Cubes"
 			x: -24.0d
 			y: -15.5d
 		}
@@ -352,7 +352,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Magma Cubes = 1 Bevel 4 Spur"
+			subtitle: "&e25 Magma Cubes = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -360,7 +360,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Magma Cubes"
+			title: "&6&lSlayer Task: 25x Magma Cubes"
 			x: -24.0d
 			y: -14.0d
 		}
@@ -433,7 +433,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Pillagers = 4 Spur"
+			subtitle: "&e10 Pillagers = 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -447,7 +447,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Pillagers"
+			title: "&6&lSlayer Task: 10x Pillagers"
 			x: -22.5d
 			y: -15.5d
 		}
@@ -529,7 +529,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Pillagers = 1 Bevel 4 Spur"
+			subtitle: "&e25 Pillagers = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -543,7 +543,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Pillagers"
+			title: "&6&lSlayer Task: 25x Pillagers"
 			x: -22.5d
 			y: -14.0d
 		}
@@ -572,14 +572,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Piglin = 4 Spur"
+			subtitle: "&e10 Piglin = 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				id: "4CA71FB3EBF2CB77"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Piglin"
+			title: "&6&lSlayer Task: 10x Piglin"
 			x: -21.0d
 			y: -15.5d
 		}
@@ -618,7 +618,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Piglin = 1 Bevel 4 Spur"
+			subtitle: "&e25 Piglin = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: "minecraft:piglin_head"
@@ -626,7 +626,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Piglin"
+			title: "&6&lSlayer Task: 25x Piglin"
 			x: -21.0d
 			y: -14.0d
 		}
@@ -658,7 +658,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Vindicator = 6 Spur"
+			subtitle: "&e10 Vindicator = 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -672,7 +672,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Vindicator"
+			title: "&6&lSlayer Task: 10x Vindicator"
 			x: -19.5d
 			y: -15.5d
 		}
@@ -714,7 +714,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Vindicator = 1 Bevel 6 Spur"
+			subtitle: "&e25 Vindicator = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -728,7 +728,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Vindicator"
+			title: "&6&lSlayer Task: 25x Vindicator"
 			x: -19.5d
 			y: -14.0d
 		}
@@ -757,7 +757,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Blaze = 6 Spur"
+			subtitle: "&e10 Blaze = 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -765,7 +765,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Blaze"
+			title: "&6&lSlayer Task: 10x Blaze"
 			x: -18.0d
 			y: -15.5d
 		}
@@ -804,7 +804,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Blaze = 1 Bevel 6 Spur"
+			subtitle: "&e25 Blaze = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -812,7 +812,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Blaze"
+			title: "&6&lSlayer Task: 25x Blaze"
 			x: -18.0d
 			y: -14.0d
 		}
@@ -841,7 +841,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Piglin Brutes = 6 Spur"
+			subtitle: "&e10 Piglin Brutes = 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -849,7 +849,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Piglin Brutes"
+			title: "&6&lSlayer Task: 10x Piglin Brutes"
 			x: -16.5d
 			y: -15.5d
 		}
@@ -888,7 +888,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Piglin Brutes = 1 Bevel 6 Spur"
+			subtitle: "&e25 Piglin Brutes = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -896,7 +896,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Piglin Brutes"
+			title: "&6&lSlayer Task: 25x Piglin Brutes"
 			x: -16.5d
 			y: -14.0d
 		}
@@ -929,14 +929,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in badlands biomes"
+			subtitle: "&eFound in badlands biomes"
 			tasks: [{
 				entity: "endermanoverhaul:badlands_enderman"
 				id: "27FE745F5BF03512"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Badlands Endermen"
+			title: "&6&lSlayer Task: 10x Badlands Endermen"
 			x: -4.5d
 			y: -9.0d
 		}
@@ -969,14 +969,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found underground and in caves"
+			subtitle: "&eFound underground and in caves"
 			tasks: [{
 				entity: "endermanoverhaul:cave_enderman"
 				id: "5BF410E1927A9703"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Cave Endermen"
+			title: "&6&lSlayer Task: 10x Cave Endermen"
 			x: -9.5d
 			y: -9.0d
 		}
@@ -1009,14 +1009,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in crimson forest biomes"
+			subtitle: "&eFound in crimson forest biomes"
 			tasks: [{
 				entity: "endermanoverhaul:crimson_forest_enderman"
 				id: "530D7EF1AA77DAB0"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Crimson Forest Endermen"
+			title: "&6&lSlayer Task: 10x Crimson Forest Endermen"
 			x: -6.0d
 			y: -10.5d
 		}
@@ -1049,14 +1049,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in dark oak foresets."
+			subtitle: "&eFound in dark oak foresets."
 			tasks: [{
 				entity: "endermanoverhaul:dark_oak_enderman"
 				id: "62DD38D7191EDC08"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Dark Oak Endermen"
+			title: "&6&lSlayer Task: 10x Dark Oak Endermen"
 			x: -9.5d
 			y: -15.5d
 		}
@@ -1089,14 +1089,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in desert biomes."
+			subtitle: "&eFound in desert biomes."
 			tasks: [{
 				entity: "endermanoverhaul:desert_enderman"
 				id: "7BC90B45C0649536"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Desert Endermen"
+			title: "&6&lSlayer Task: 10x Desert Endermen"
 			x: -7.0d
 			y: -16.5d
 		}
@@ -1129,14 +1129,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in flower fields biomes."
+			subtitle: "&eFound in flower fields biomes."
 			tasks: [{
 				entity: "endermanoverhaul:flower_fields_enderman"
 				id: "3902D2A64FFD54FD"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Flower Fields Endermen"
+			title: "&6&lSlayer Task: 10x Flower Fields Endermen"
 			x: -4.5d
 			y: -15.5d
 		}
@@ -1169,14 +1169,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in ice spikes biomes"
+			subtitle: "&eFound in ice spikes biomes"
 			tasks: [{
 				entity: "endermanoverhaul:ice_spikes_enderman"
 				id: "030F785BDFDC20D5"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Ice Spikes Endermen"
+			title: "&6&lSlayer Task: 10x Ice Spikes Endermen"
 			x: -9.0d
 			y: -12.5d
 		}
@@ -1210,14 +1210,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in nether wastes biomes"
+			subtitle: "&eFound in nether wastes biomes"
 			tasks: [{
 				entity: "endermanoverhaul:nether_wastes_enderman"
 				id: "1CCAFA5F3E3E32DC"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Nether Wastes Endermen"
+			title: "&6&lSlayer Task: 10x Nether Wastes Endermen"
 			x: -10.5d
 			y: -11.0d
 		}
@@ -1250,14 +1250,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in plains and savannah biomes."
+			subtitle: "&eFound in plains and savannah biomes."
 			tasks: [{
 				entity: "endermanoverhaul:savanna_enderman"
 				id: "695AFEDA89B7D308"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Savannah Endermen"
+			title: "&6&lSlayer Task: 10x Savannah Endermen"
 			x: -3.5d
 			y: -11.0d
 		}
@@ -1292,14 +1292,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in cold biomes"
+			subtitle: "&eFound in cold biomes"
 			tasks: [{
 				entity: "endermanoverhaul:snowy_enderman"
 				id: "0CDC95BDEE041D46"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Snowy Endermen"
+			title: "&6&lSlayer Task: 10x Snowy Endermen"
 			x: -10.5d
 			y: -13.5d
 		}
@@ -1332,14 +1332,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in soulsand valley biomes"
+			subtitle: "&eFound in soulsand valley biomes"
 			tasks: [{
 				entity: "endermanoverhaul:soulsand_valley_enderman"
 				id: "65C2A83B0FFE410D"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Soulsand Valley Endermen"
+			title: "&6&lSlayer Task: 10x Soulsand Valley Endermen"
 			x: -8.0d
 			y: -10.5d
 		}
@@ -1372,14 +1372,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in warped forest biomes."
+			subtitle: "&eFound in warped forest biomes."
 			tasks: [{
 				entity: "endermanoverhaul:warped_forest_enderman"
 				id: "6E4D51E2742A6E8D"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Warped Forest Endermen"
+			title: "&6&lSlayer Task: 10x Warped Forest Endermen"
 			x: -6.0d
 			y: -14.5d
 		}
@@ -1412,14 +1412,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in the windswept hills biome."
+			subtitle: "&eFound in the windswept hills biome."
 			tasks: [{
 				entity: "endermanoverhaul:windswept_hills_enderman"
 				id: "712EA13039201B69"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Windswept Hills Endermen"
+			title: "&6&lSlayer Task: 10x Windswept Hills Endermen"
 			x: -3.5d
 			y: -13.5d
 		}
@@ -1452,14 +1452,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in mushroom fields biomes."
+			subtitle: "&eFound in mushroom fields biomes."
 			tasks: [{
 				entity: "endermanoverhaul:mushroom_fields_enderman"
 				id: "02F3342CE9764EEB"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Mushroom Fields Endermen"
+			title: "&6&lSlayer Task: 10x Mushroom Fields Endermen"
 			x: -8.0d
 			y: -14.5d
 		}
@@ -1500,7 +1500,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Zombies = 2 Bevels 2 Spur"
+			subtitle: "&e50 Zombies = 2 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:rotten_flesh"
@@ -1508,7 +1508,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Zombies"
+			title: "&6&lSlayer Task: 50x Zombies"
 			x: -28.5d
 			y: -12.5d
 		}
@@ -1549,7 +1549,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Skeletons = 2 Bevels 2 Spur"
+			subtitle: "&e50 Skeletons = 2 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -1557,7 +1557,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Skeletons"
+			title: "&6&lSlayer Task: 50x Skeletons"
 			x: -27.0d
 			y: -12.5d
 		}
@@ -1598,7 +1598,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Spiders = 2 Bevels 2 Spur"
+			subtitle: "&e50 Spiders = 2 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -1606,7 +1606,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Spiders"
+			title: "&6&lSlayer Task: 50x Spiders"
 			x: -25.5d
 			y: -12.5d
 		}
@@ -1690,7 +1690,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Pillagers = 2 Bevels 4 Spur"
+			subtitle: "&e50 Pillagers = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -1704,7 +1704,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Pillagers"
+			title: "&6&lSlayer Task: 50x Pillagers"
 			x: -22.5d
 			y: -12.5d
 		}
@@ -1745,7 +1745,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Piglin = 2 Bevels 4 Spur"
+			subtitle: "&e50 Piglin = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: "minecraft:piglin_head"
@@ -1753,7 +1753,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Piglin"
+			title: "&6&lSlayer Task: 50x Piglin"
 			x: -21.0d
 			y: -12.5d
 		}
@@ -1794,7 +1794,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Magma Cubes = 2 Bevels 4 Spur"
+			subtitle: "&e50 Magma Cubes = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -1802,7 +1802,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Magma Cubes"
+			title: "&6&lSlayer Task: 50x Magma Cubes"
 			x: -24.0d
 			y: -12.5d
 		}
@@ -1846,7 +1846,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Vindicator = 2 Bevels 6 Spur"
+			subtitle: "&e50 Vindicator = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -1860,7 +1860,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Vindicator"
+			title: "&6&lSlayer Task: 50x Vindicator"
 			x: -19.5d
 			y: -12.5d
 		}
@@ -1901,7 +1901,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Blaze = 2 Bevels 6 Spur"
+			subtitle: "&e50 Blaze = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -1909,7 +1909,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Blaze"
+			title: "&6&lSlayer Task: 50x Blaze"
 			x: -18.0d
 			y: -12.5d
 		}
@@ -1950,7 +1950,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Piglin Brutes = 2 Bevels 6 Spur"
+			subtitle: "&e50 Piglin Brutes = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -1958,7 +1958,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Piglin Brutes"
+			title: "&6&lSlayer Task: 50x Piglin Brutes"
 			x: -16.5d
 			y: -12.5d
 		}
@@ -2012,7 +2012,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Zombies = 3 Bevels 2 Spur"
+			subtitle: "&e100 Zombies = 3 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:zombie"
 				icon: "minecraft:rotten_flesh"
@@ -2020,7 +2020,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Zombies"
+			title: "&6&lSlayer Task: 100x Zombies"
 			x: -28.5d
 			y: -11.0d
 		}
@@ -2074,7 +2074,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Skeletons = 3 Bevels 2 Spur"
+			subtitle: "&e100 Skeletons = 3 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "minecraft:skeleton_skull"
@@ -2082,7 +2082,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Skeletons"
+			title: "&6&lSlayer Task: 100x Skeletons"
 			x: -27.0d
 			y: -11.0d
 		}
@@ -2136,7 +2136,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Spiders = 3 Bevels 2 Spur"
+			subtitle: "&e100 Spiders = 3 Bevels 2 Spur"
 			tasks: [{
 				entity: "minecraft:spider"
 				icon: "apotheosis:prismatic_web"
@@ -2144,7 +2144,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Spiders"
+			title: "&6&lSlayer Task: 100x Spiders"
 			x: -25.5d
 			y: -11.0d
 		}
@@ -2198,7 +2198,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Magma Cubes = 3 Bevels 4 Spur"
+			subtitle: "&e100 Magma Cubes = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:magma_cube"
 				icon: "minecraft:magma_cream"
@@ -2206,7 +2206,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Magma Cubes"
+			title: "&6&lSlayer Task: 100x Magma Cubes"
 			x: -24.0d
 			y: -11.0d
 		}
@@ -2303,7 +2303,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Pillagers = 3 Bevels 4 Spur"
+			subtitle: "&e100 Pillagers = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:pillager"
 				icon: {
@@ -2317,7 +2317,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Pillagers"
+			title: "&6&lSlayer Task: 100x Pillagers"
 			x: -22.5d
 			y: -11.0d
 		}
@@ -2371,7 +2371,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Piglin = 3 Bevels 4 Spur"
+			subtitle: "&e100 Piglin = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:piglin"
 				icon: "minecraft:piglin_head"
@@ -2379,7 +2379,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Piglin"
+			title: "&6&lSlayer Task: 100x Piglin"
 			x: -21.0d
 			y: -11.0d
 		}
@@ -2436,7 +2436,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Vindicator = 3 Bevels 6 Spur"
+			subtitle: "&e100 Vindicator = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:vindicator"
 				icon: {
@@ -2450,7 +2450,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Vindicator"
+			title: "&6&lSlayer Task: 100x Vindicator"
 			x: -19.5d
 			y: -11.0d
 		}
@@ -2504,7 +2504,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Blaze = 3 Bevels 6 Spur"
+			subtitle: "&e100 Blaze = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:blaze"
 				icon: "minecraft:blaze_rod"
@@ -2512,7 +2512,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Blaze"
+			title: "&6&lSlayer Task: 100x Blaze"
 			x: -18.0d
 			y: -11.0d
 		}
@@ -2566,7 +2566,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Piglin Brutes = 3 Bevels 6 Spur"
+			subtitle: "&e100 Piglin Brutes = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "minecraft:piglin_brute"
 				icon: "easy_piglins:piglin"
@@ -2574,7 +2574,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Piglin Brutes"
+			title: "&6&lSlayer Task: 100x Piglin Brutes"
 			x: -16.5d
 			y: -11.0d
 		}
@@ -2599,13 +2599,13 @@
 				xp: 10
 			}]
 			size: 3.0d
-			subtitle: "What's with the enders?"
+			subtitle: "&eWhat's with the enders?"
 			tasks: [{
 				id: "52F33343EFB25469"
 				title: "Enderadication"
 				type: "checkmark"
 			}]
-			title: "Ender Eradication"
+			title: "&6&lEnder Eradication"
 			x: -13.357142857142854d
 			y: -12.57142857142857d
 		}
@@ -2637,14 +2637,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in warm ocean biomes"
+			subtitle: "&eFound in warm ocean biomes"
 			tasks: [{
 				entity: "endermanoverhaul:coral_enderman"
 				id: "67BABFE902520594"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Coral Endermen"
+			title: "&6&lSlayer Task: 10x Coral Endermen"
 			x: -7.0d
 			y: -8.5d
 		}
@@ -2676,14 +2676,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "Found in swamp biomes."
+			subtitle: "&eFound in swamp biomes."
 			tasks: [{
 				entity: "endermanoverhaul:swamp_enderman"
 				id: "460A0BE6D9E44108"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Swamp Endermen"
+			title: "&6&lSlayer Task: 10x Swamp Endermen"
 			x: -5.0d
 			y: -12.5d
 		}
@@ -2696,7 +2696,7 @@
 				"08E693958C6BD51C"
 				"3B38BC10347BDA7D"
 			]
-			description: ["Tracked down the: Dark Oak, Flower Fields, Windswept Hills and Savannah Enderman variants and slayed 10 of each."]
+			description: ["Track down the: Dark Oak, Flower Fields, Windswept Hills and Savannah Enderman variants and slay 10 of each."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2724,12 +2724,13 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "The easy one."
+			subtitle: "&eThe easy one."
 			tasks: [{
 				id: "3370EA9D186C828D"
 				title: "Hills and Forests"
 				type: "checkmark"
 			}]
+			title: "&6&lHills and Forests"
 			x: -6.339285714285715d
 			y: -11.964285714285715d
 		}
@@ -2743,7 +2744,7 @@
 				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
-			description: ["Tracked down the: Nether Wastes, Soul Sand Valley, Warped Forest and Crimson Forest Enderman variants and slayed 10 of each."]
+			description: ["Track down the: Nether Wastes, Soul Sand Valley, Warped Forest and Crimson Forest Enderman variants and slay 10 of each."]
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
@@ -2774,13 +2775,13 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "Nether bound"
+			subtitle: "&eNether bound"
 			tasks: [{
 				id: "653D6217F51459E2"
 				title: "Nether"
 				type: "checkmark"
 			}]
-			title: "To The Nether"
+			title: "&6&lTo The Nether"
 			x: -7.517857142857146d
 			y: -13.142857142857146d
 		}
@@ -2794,7 +2795,7 @@
 				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
-			description: ["Tracked down the: Swamp, Coral, Snowy and Ice Spikes Enderman variants and slayed 10 of each."]
+			description: ["Track down the: Swamp, Coral, Snowy and Ice Spikes Enderman variants and slay 10 of each."]
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
@@ -2825,12 +2826,13 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "This was a fun one, huh?"
+			subtitle: "&eThis was a fun one, huh?"
 			tasks: [{
 				id: "6F4CC16E8869F8B1"
 				title: "Cold and Wet"
 				type: "checkmark"
 			}]
+			title: "&6&lCold and Wet"
 			x: -7.517857142857146d
 			y: -11.964285714285715d
 		}
@@ -2844,7 +2846,7 @@
 				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
-			description: ["Tracked down the: Mushroom Fields, Badlands, Desert and Cave Enderman variants and slayed 10 of each."]
+			description: ["Track down the: Mushroom Fields, Badlands, Desert and Cave Enderman variants and slay 10 of each."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2872,12 +2874,13 @@
 				type: "item"
 			}]
 			size: 1.25d
-			subtitle: "Good times"
+			subtitle: "&eGood times"
 			tasks: [{
 				id: "2E5838E0AF02E597"
 				title: "Dead And Gone"
 				type: "checkmark"
 			}]
+			title: "&6&lDead and Gone"
 			x: -6.357142857142854d
 			y: -13.178571428571423d
 		}
@@ -2965,7 +2968,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Watch your back!"
+			subtitle: "&eWatch your back!"
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
 				icon: {
@@ -2981,7 +2984,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Tasl: Kill The Nightmare Stalker"
+			title: "&6&lSlayer Tasl: Kill The Nightmare Stalker"
 			x: -13.5d
 			y: -8.5d
 		}
@@ -3050,7 +3053,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "Slayer Task: 3x Nightmare Stalker"
+			title: "&6&lSlayer Task: 3x Nightmare Stalker"
 			x: -13.5d
 			y: -7.0d
 		}
@@ -3137,7 +3140,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Nightmare Stalker"
+			title: "&6&lSlayer Task: 5x Nightmare Stalker"
 			x: -13.5d
 			y: -5.5d
 		}
@@ -3198,7 +3201,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Nightmare Stalker"
+			title: "&6&lSlayer Task: 10x Nightmare Stalker"
 			x: -13.44642857142857d
 			y: -3.3928571428571317d
 		}
@@ -3226,7 +3229,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Dark Vortex = 6 Spur"
+			subtitle: "&e10 Dark Vortex = 6 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
 				icon: {
@@ -3242,7 +3245,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Dark Vortex"
+			title: "&6&lSlayer Task: 10x Dark Vortex"
 			x: -21.0d
 			y: -8.5d
 		}
@@ -3270,7 +3273,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Deepling = 6 Spur"
+			subtitle: "&e10 Deepling = 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
 				icon: {
@@ -3289,7 +3292,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Deepling"
+			title: "&6&lSlayer Task: 10x Deepling"
 			x: -22.5d
 			y: -8.5d
 		}
@@ -3316,7 +3319,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Evokers = 1 Bevel"
+			subtitle: "&e10 Evokers = 1 Bevel"
 			tasks: [{
 				entity: "minecraft:evoker"
 				icon: {
@@ -3332,7 +3335,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Evokers"
+			title: "&6&lSlayer Task: 10x Evokers"
 			x: -19.5d
 			y: -8.5d
 		}
@@ -3369,7 +3372,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Chort = 4 Spur"
+			subtitle: "&e10 Chort = 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
 				icon: {
@@ -3385,7 +3388,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Chort"
+			title: "&6&lSlayer Task: 10x Chort"
 			x: -28.5d
 			y: -8.5d
 		}
@@ -3413,7 +3416,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Bone Serpents = 6 Spur"
+			subtitle: "&e10 Bone Serpents = 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
 				icon: {
@@ -3429,7 +3432,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Bone Serpents"
+			title: "&6&lSlayer Task: 10x Bone Serpents"
 			x: -24.0d
 			y: -8.5d
 		}
@@ -3465,7 +3468,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Ender Wyrms = 1 Bevel"
+			subtitle: "&e10 Ender Wyrms = 1 Bevel"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
 				icon: {
@@ -3481,7 +3484,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Ender Wyrms"
+			title: "&6&lSlayer Task: 10x Ender Wyrms"
 			x: -16.5d
 			y: -8.5d
 		}
@@ -3508,14 +3511,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Mimics = 1 Bevel"
+			subtitle: "&e10 Mimics = 1 Bevel"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "2AA8A4E8E9916AB1"
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Mimics"
+			title: "&6&lSlayer Task: 10x Mimics"
 			x: -18.0d
 			y: -8.5d
 		}
@@ -3552,7 +3555,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Phantoms = 4 Spur"
+			subtitle: "&e10 Phantoms = 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
 				icon: {
@@ -3568,7 +3571,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Phantoms"
+			title: "&6&lSlayer Task: 10x Phantoms"
 			x: -27.0d
 			y: -8.5d
 		}
@@ -3605,7 +3608,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Barrel Zombies = 4 Spur"
+			subtitle: "&e10 Barrel Zombies = 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
 				icon: {
@@ -3621,7 +3624,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Barrel Zombies"
+			title: "&6&lSlayer Task: 10x Barrel Zombies"
 			x: -25.5d
 			y: -8.5d
 		}
@@ -3691,7 +3694,7 @@
 				type: "kill"
 				value: 20L
 			}]
-			title: "Slayer Task: 20x Nightmare Stalker"
+			title: "&6&lSlayer Task: 20x Nightmare Stalker"
 			x: -13.44642857142857d
 			y: -0.8214285714285623d
 		}
@@ -3732,7 +3735,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "1 Warden = 1 Sprocket"
+			subtitle: "&e1 Warden = 1 Sprocket"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: {
@@ -3753,7 +3756,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: Kill The Warden"
+			title: "&6&lSlayer Task: Kill The Warden"
 			x: -9.5d
 			y: -5.5d
 		}
@@ -3794,7 +3797,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "1 Wither = 1 Sprocket"
+			subtitle: "&e1 Wither = 1 Sprocket"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: {
@@ -3815,7 +3818,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: Kill The Wither"
+			title: "&6&lSlayer Task: Kill The Wither"
 			x: -7.0d
 			y: -5.5d
 		}
@@ -3856,7 +3859,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "1 Ender Dragon = 1 Sprocket"
+			subtitle: "&e1 Ender Dragon = 1 Sprocket"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: {
@@ -3877,7 +3880,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: Kill The Ender Dragon"
+			title: "&6&lSlayer Task: Kill The Ender Dragon"
 			x: -4.5d
 			y: -5.5d
 		}
@@ -3910,7 +3913,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "5 Wardens = 3 Sprockets"
+			subtitle: "&e5 Wardens = 3 Sprockets"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: {
@@ -3931,7 +3934,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Wardens"
+			title: "&6&lSlayer Task: 5x Wardens"
 			x: -9.5d
 			y: -3.5d
 		}
@@ -3965,7 +3968,7 @@
 			]
 			shape: "gear"
 			size: 2.5d
-			subtitle: "10 Wardens = 5 Sprockets"
+			subtitle: "&e10 Wardens = 5 Sprockets"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: {
@@ -3986,7 +3989,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Wardens"
+			title: "&6&lSlayer Task: 10x Wardens"
 			x: -9.5d
 			y: -0.5d
 		}
@@ -4019,7 +4022,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "5 Withers = 3 Sprockets"
+			subtitle: "&e5 Withers = 3 Sprockets"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: {
@@ -4040,7 +4043,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Withers"
+			title: "&6&lSlayer Task: 5x Withers"
 			x: -7.0d
 			y: -3.5d
 		}
@@ -4073,7 +4076,7 @@
 				}
 			]
 			size: 2.5d
-			subtitle: "10 Withers = 5 Sprockets"
+			subtitle: "&e10 Withers = 5 Sprockets"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: {
@@ -4094,7 +4097,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Withers"
+			title: "&6&lSlayer Task: 10x Withers"
 			x: -7.0d
 			y: -0.5d
 		}
@@ -4127,7 +4130,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "5 Ender Dragons = 3 Sprockets"
+			subtitle: "&e5 Ender Dragons = 3 Sprockets"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: {
@@ -4148,7 +4151,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Ender Dragons"
+			title: "&6&lSlayer Task: 5x Ender Dragons"
 			x: -4.5d
 			y: -3.5d
 		}
@@ -4181,7 +4184,7 @@
 				}
 			]
 			size: 2.5d
-			subtitle: "10 Ender Dragons = 5 Sprockets"
+			subtitle: "&e10 Ender Dragons = 5 Sprockets"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: {
@@ -4202,7 +4205,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Ender Dragons"
+			title: "&6&lSlayer Task: 10x Ender Dragons"
 			x: -4.5d
 			y: -0.5d
 		}
@@ -4234,7 +4237,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Ender Wyrms = 2 Bevels"
+			subtitle: "&e25 Ender Wyrms = 2 Bevels"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
 				icon: {
@@ -4250,7 +4253,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Ender Wyrms"
+			title: "&6&lSlayer Task: 25x Ender Wyrms"
 			x: -16.5d
 			y: -7.0d
 		}
@@ -4283,7 +4286,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Ender Wyrms = 3 Bevels"
+			subtitle: "&e50 Ender Wyrms = 3 Bevels"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
 				icon: {
@@ -4299,7 +4302,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Ender Wyrms"
+			title: "&6&lSlayer Task: 50x Ender Wyrms"
 			x: -16.5d
 			y: -5.5d
 		}
@@ -4345,7 +4348,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Ender Wyrms = 4 Bevels"
+			subtitle: "&e100 Ender Wyrms = 4 Bevels"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
 				icon: {
@@ -4361,7 +4364,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Ender Wyrms"
+			title: "&6&lSlayer Task: 100x Ender Wyrms"
 			x: -16.5d
 			y: -3.75d
 		}
@@ -4393,14 +4396,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Mimics = 2 Bevels"
+			subtitle: "&e25 Mimics = 2 Bevels"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "3BB966F25EAF2ACB"
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Mimics"
+			title: "&6&lSlayer Task: 25x Mimics"
 			x: -18.0d
 			y: -7.0d
 		}
@@ -4433,14 +4436,14 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Mimics = 3 Bevels"
+			subtitle: "&e50 Mimics = 3 Bevels"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "72F23DE571962534"
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Mimics"
+			title: "&6&lSlayer Task: 50x Mimics"
 			x: -18.0d
 			y: -5.5d
 		}
@@ -4486,14 +4489,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Mimics = 4 Bevels"
+			subtitle: "&e100 Mimics = 4 Bevels"
 			tasks: [{
 				entity: "artifacts:mimic"
 				id: "21B7C2283C995CEC"
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100 Mimics"
+			title: "&6&lSlayer Task: 100 Mimics"
 			x: -18.0d
 			y: -3.75d
 		}
@@ -4525,7 +4528,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Evokers = 2 Bevels"
+			subtitle: "&e25 Evokers = 2 Bevels"
 			tasks: [{
 				entity: "minecraft:evoker"
 				icon: {
@@ -4541,7 +4544,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Evoker"
+			title: "&6&lSlayer Task: 25x Evoker"
 			x: -19.5d
 			y: -7.0d
 		}
@@ -4574,7 +4577,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Evokers = 3 Bevels"
+			subtitle: "&e50 Evokers = 3 Bevels"
 			tasks: [{
 				entity: "minecraft:evoker"
 				icon: {
@@ -4590,7 +4593,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Evokers"
+			title: "&6&lSlayer Task: 50x Evokers"
 			x: -19.5d
 			y: -5.5d
 		}
@@ -4636,7 +4639,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Evokers = 4 Bevels"
+			subtitle: "&e100 Evokers = 4 Bevels"
 			tasks: [{
 				entity: "minecraft:evoker"
 				icon: {
@@ -4652,7 +4655,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Evokers"
+			title: "&6&lSlayer Task: 100x Evokers"
 			x: -19.5d
 			y: -3.75d
 		}
@@ -4697,7 +4700,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Dark Vortex = 1 Bevel 6 Spur"
+			subtitle: "&e25 Dark Vortex = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
 				icon: {
@@ -4713,7 +4716,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Dark Vortex"
+			title: "&6&lSlayer Task: 25x Dark Vortex"
 			x: -21.0d
 			y: -7.0d
 		}
@@ -4760,7 +4763,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Dark Vortex = 2 Bevels 6 Spur"
+			subtitle: "&e50 Dark Vortex = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
 				icon: {
@@ -4776,7 +4779,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50 Dark Vortex"
+			title: "&6&lSlayer Task: 50 Dark Vortex"
 			x: -21.0d
 			y: -5.5d
 		}
@@ -4836,7 +4839,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Dark Vortex = 3 Bevels 6 Spur"
+			subtitle: "&e100 Dark Vortex = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dark_vortex"
 				icon: {
@@ -4852,7 +4855,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Dark Vortex"
+			title: "&6&lSlayer Task: 100x Dark Vortex"
 			x: -21.0d
 			y: -3.75d
 		}
@@ -4897,7 +4900,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Deepling = 1 Bevel 6 Spur"
+			subtitle: "&e25 Deepling = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
 				icon: {
@@ -4916,7 +4919,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: x25 Deepling"
+			title: "&6&lSlayer Task: x25 Deepling"
 			x: -22.5d
 			y: -7.0d
 		}
@@ -4963,7 +4966,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Deepling = 2 Bevels 6 Spur"
+			subtitle: "&e50 Deepling = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
 				icon: {
@@ -4982,7 +4985,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: x50 Deepling"
+			title: "&6&lSlayer Task: x50 Deepling"
 			x: -22.5d
 			y: -5.5d
 		}
@@ -5042,7 +5045,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Deepling = 3 Bevels 6 Spur"
+			subtitle: "&e100 Deepling = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "cataclysm:deepling"
 				icon: {
@@ -5061,7 +5064,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: x100 Deepling"
+			title: "&6&lSlayer Task: x100 Deepling"
 			x: -22.5d
 			y: -3.75d
 		}
@@ -5106,7 +5109,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Bone Serpents = 1 Bevel 6 Spur"
+			subtitle: "&e25 Bone Serpents = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
 				icon: {
@@ -5122,7 +5125,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Bone Serpents"
+			title: "&6&lSlayer Task: 25x Bone Serpents"
 			x: -24.0d
 			y: -7.0d
 		}
@@ -5169,7 +5172,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Bone Serpents = 2 Bevels 6 Spur"
+			subtitle: "&e50 Bone Serpents = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
 				icon: {
@@ -5185,7 +5188,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Bone Serpents"
+			title: "&6&lSlayer Task: 50x Bone Serpents"
 			x: -24.0d
 			y: -5.5d
 		}
@@ -5245,7 +5248,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Bone Serpents = 3 Bevels 6 Spur"
+			subtitle: "&e100 Bone Serpents = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "alexsmobs:bone_serpent"
 				icon: {
@@ -5261,7 +5264,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Bone Serpents"
+			title: "&6&lSlayer Task: 100x Bone Serpents"
 			x: -24.0d
 			y: -3.75d
 		}
@@ -5315,7 +5318,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Barrel Zombies = 1 Bevels 4 Spur"
+			subtitle: "&e25 Barrel Zombies = 1 Bevels 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
 				icon: {
@@ -5331,7 +5334,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Barrel Zombies"
+			title: "&6&lSlayer Task: 25x Barrel Zombies"
 			x: -25.5d
 			y: -7.0d
 		}
@@ -5387,7 +5390,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Barrel Zombies = 2 Bevels 4 Spur"
+			subtitle: "&e50 Barrel Zombies = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
 				icon: {
@@ -5403,7 +5406,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Barrel Zombies"
+			title: "&6&lSlayer Task: 50x Barrel Zombies"
 			x: -25.5d
 			y: -5.5d
 		}
@@ -5472,7 +5475,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Barrel Zombies = 3 Bevels 4 Spur"
+			subtitle: "&e100 Barrel Zombies = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:barrel_zombie"
 				icon: {
@@ -5488,7 +5491,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Barrel Zombies"
+			title: "&6&lSlayer Task: 100x Barrel Zombies"
 			x: -25.5d
 			y: -3.75d
 		}
@@ -5542,7 +5545,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Phantoms = 1 Bevel 4 Spur"
+			subtitle: "&e25 Phantoms = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
 				icon: {
@@ -5558,7 +5561,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Phantoms"
+			title: "&6&lSlayer Task: 25x Phantoms"
 			x: -27.0d
 			y: -7.0d
 		}
@@ -5614,7 +5617,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Phantoms = 2 Bevels 4 Spur"
+			subtitle: "&e50 Phantoms = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
 				icon: {
@@ -5630,7 +5633,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Phantoms"
+			title: "&6&lSlayer Task: 50x Phantoms"
 			x: -27.0d
 			y: -5.5d
 		}
@@ -5699,7 +5702,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Phantoms = 3 Bevels 4 Spur"
+			subtitle: "&e100 Phantoms = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "minecraft:phantom"
 				icon: {
@@ -5715,7 +5718,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Phantoms"
+			title: "&6&lSlayer Task: 100x Phantoms"
 			x: -27.0d
 			y: -3.75d
 		}
@@ -5769,7 +5772,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Chort = 1 Bevel 4 Spur"
+			subtitle: "&e25 Chort = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
 				icon: {
@@ -5785,7 +5788,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Chort"
+			title: "&6&lSlayer Task: 25x Chort"
 			x: -28.5d
 			y: -7.0d
 		}
@@ -5841,7 +5844,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Chort = 2 Bevels 4 Spur"
+			subtitle: "&e50 Chort = 2 Bevels 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
 				icon: {
@@ -5857,7 +5860,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Chort"
+			title: "&6&lSlayer Task: 50x Chort"
 			x: -28.5d
 			y: -5.5d
 		}
@@ -5926,7 +5929,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Chort = 3 Bevels 4 Spur"
+			subtitle: "&e100 Chort = 3 Bevels 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:chort"
 				icon: {
@@ -5942,7 +5945,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Chort"
+			title: "&6&lSlayer Task: 100x Chort"
 			x: -28.5d
 			y: -3.75d
 		}
@@ -5983,7 +5986,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Mimicubes = 1 Bevel 4 Spur"
+			subtitle: "&e10 Mimicubes = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "alexsmobs:mimicube"
 				icon: {
@@ -5999,7 +6002,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Mimicubes"
+			title: "&6&lSlayer Task: 10x Mimicubes"
 			x: -19.5d
 			y: -1.5d
 		}
@@ -6027,7 +6030,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Wilden Defenders = 6 Spur"
+			subtitle: "&e10 Wilden Defenders = 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_guardian"
 				icon: {
@@ -6043,7 +6046,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Wilden Defenders"
+			title: "&6&lSlayer Task: 10x Wilden Defenders"
 			x: -28.5d
 			y: -1.5d
 		}
@@ -6071,7 +6074,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Wilden Hunters = 6 Spur"
+			subtitle: "&e10 Wilden Hunters = 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_hunter"
 				icon: {
@@ -6087,7 +6090,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Wilden Hunters"
+			title: "&6&lSlayer Task: 10x Wilden Hunters"
 			x: -27.0d
 			y: -1.5d
 		}
@@ -6115,7 +6118,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Wilden Stalkers = 6 Spur"
+			subtitle: "&e10 Wilden Stalkers = 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_stalker"
 				icon: {
@@ -6131,7 +6134,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Wilden Stalkers"
+			title: "&6&lSlayer Task: 10x Wilden Stalkers"
 			x: -25.5d
 			y: -1.5d
 		}
@@ -6158,7 +6161,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Skeleton Demoman = 1 Bevel"
+			subtitle: "&e10 Skeleton Demoman = 1 Bevel"
 			tasks: [{
 				entity: "born_in_chaos_v1:skeleton_demoman"
 				icon: {
@@ -6174,7 +6177,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Skeleton Demoman"
+			title: "&6&lSlayer Task: 10x Skeleton Demoman"
 			x: -24.0d
 			y: -1.5d
 		}
@@ -6201,7 +6204,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Zombie Clowns = 1 Bevel"
+			subtitle: "&e10 Zombie Clowns = 1 Bevel"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_clown"
 				icon: {
@@ -6217,7 +6220,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Zombie Clowns"
+			title: "&6&lSlayer Task: 10x Zombie Clowns"
 			x: -22.5d
 			y: -1.5d
 		}
@@ -6258,7 +6261,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10x Dire Hound Leaders = 1 Bevel 4 Spur"
+			subtitle: "&e10x Dire Hound Leaders = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				icon: {
@@ -6274,7 +6277,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Dire Hound Leaders"
+			title: "&6&lSlayer Task: 10x Dire Hound Leaders"
 			x: -18.0d
 			y: -1.5d
 		}
@@ -6301,7 +6304,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Zombie Bruisers = 1 Bevel"
+			subtitle: "&e10 Zombie Bruisers = 1 Bevel"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_bruiser"
 				icon: {
@@ -6320,7 +6323,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Zombie Bruisers"
+			title: "&6&lSlayer Task: 10x Zombie Bruisers"
 			x: -21.0d
 			y: -1.5d
 		}
@@ -6361,7 +6364,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "10 Demons = 1 Bevel 4 Spur"
+			subtitle: "&e10 Demons = 1 Bevel 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:demon"
 				icon: {
@@ -6377,7 +6380,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Slayer Task: 10x Demons"
+			title: "&6&lSlayer Task: 10x Demons"
 			x: -16.5d
 			y: -1.5d
 		}
@@ -6422,7 +6425,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Wilden Defenders = 1 Bevel 6 Spur"
+			subtitle: "&e25 Wilden Defenders = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_guardian"
 				icon: {
@@ -6438,7 +6441,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Wilden Defenders"
+			title: "&6&lSlayer Task: 25x Wilden Defenders"
 			x: -28.5d
 			y: 0.0d
 		}
@@ -6485,7 +6488,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Wilden Defenders = 2 Bevels 6 Spur"
+			subtitle: "&e50 Wilden Defenders = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_guardian"
 				icon: {
@@ -6501,7 +6504,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Wilden Defenders"
+			title: "&6&lSlayer Task: 50x Wilden Defenders"
 			x: -28.5d
 			y: 1.5d
 		}
@@ -6561,7 +6564,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Wilden Defenders = 3 Bevels 6 Spur"
+			subtitle: "&e100 Wilden Defenders = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_guardian"
 				icon: {
@@ -6577,7 +6580,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Wilden Defenders"
+			title: "&6&lSlayer Task: 100x Wilden Defenders"
 			x: -28.5d
 			y: 3.0d
 		}
@@ -6622,7 +6625,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Wilden Hunters = 1 Bevel 6 Spur"
+			subtitle: "&e25 Wilden Hunters = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_hunter"
 				icon: {
@@ -6638,7 +6641,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Wilden Hunters"
+			title: "&6&lSlayer Task: 25x Wilden Hunters"
 			x: -27.0d
 			y: 0.0d
 		}
@@ -6685,7 +6688,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Wilden Hunters = 2 bevels 6 Spur"
+			subtitle: "&e50 Wilden Hunters = 2 bevels 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_hunter"
 				icon: {
@@ -6701,7 +6704,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Wilden Hunters"
+			title: "&6&lSlayer Task: 50x Wilden Hunters"
 			x: -27.0d
 			y: 1.5d
 		}
@@ -6761,7 +6764,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Wilden Hunters = 3 Bevels 6 Spur"
+			subtitle: "&e100 Wilden Hunters = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_hunter"
 				icon: {
@@ -6777,7 +6780,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Wilden Hunters"
+			title: "&6&lSlayer Task: 100x Wilden Hunters"
 			x: -27.0d
 			y: 3.0d
 		}
@@ -6822,7 +6825,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Wilden Stalkers = 1 Bevel 6 Spur"
+			subtitle: "&e25 Wilden Stalkers = 1 Bevel 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_stalker"
 				icon: {
@@ -6838,7 +6841,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Wilden Stalkers"
+			title: "&6&lSlayer Task: 25x Wilden Stalkers"
 			x: -25.5d
 			y: 0.0d
 		}
@@ -6885,7 +6888,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Wilden Stalkers = 2 Bevels 6 Spur"
+			subtitle: "&e50 Wilden Stalkers = 2 Bevels 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_stalker"
 				icon: {
@@ -6901,7 +6904,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Wilden Stalkers"
+			title: "&6&lSlayer Task: 50x Wilden Stalkers"
 			x: -25.5d
 			y: 1.5d
 		}
@@ -6961,7 +6964,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Wilden Stalkers = 3 Bevels 6 Spur"
+			subtitle: "&e100 Wilden Stalkers = 3 Bevels 6 Spur"
 			tasks: [{
 				entity: "ars_nouveau:wilden_stalker"
 				icon: {
@@ -6977,7 +6980,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Wilden Stalkers"
+			title: "&6&lSlayer Task: 100x Wilden Stalkers"
 			x: -25.5d
 			y: 3.0d
 		}
@@ -7009,7 +7012,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Skeleton Demoman = 2 Bevels"
+			subtitle: "&e25 Skeleton Demoman = 2 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:skeleton_demoman"
 				icon: {
@@ -7025,7 +7028,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Skeleton Demoman"
+			title: "&6&lSlayer Task: 25x Skeleton Demoman"
 			x: -24.0d
 			y: 0.0d
 		}
@@ -7058,7 +7061,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Skeleton Demoman = 3 Bevels"
+			subtitle: "&e50 Skeleton Demoman = 3 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:skeleton_demoman"
 				icon: {
@@ -7074,7 +7077,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Skeleton Demoman"
+			title: "&6&lSlayer Task: 50x Skeleton Demoman"
 			x: -24.0d
 			y: 1.5d
 		}
@@ -7120,7 +7123,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Skeleton Demoman = 4 Bevels"
+			subtitle: "&e100 Skeleton Demoman = 4 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:skeleton_demoman"
 				icon: {
@@ -7136,7 +7139,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Skeleton Demoman"
+			title: "&6&lSlayer Task: 100x Skeleton Demoman"
 			x: -24.0d
 			y: 3.0d
 		}
@@ -7168,7 +7171,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Zombie Clowns = 2 Bevels"
+			subtitle: "&e25 Zombie Clowns = 2 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_clown"
 				icon: {
@@ -7184,7 +7187,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 10x Zombie Clowns"
+			title: "&6&lSlayer Task: 10x Zombie Clowns"
 			x: -22.5d
 			y: 0.0d
 		}
@@ -7217,7 +7220,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Zombie Clowns = 3 Bevels"
+			subtitle: "&e50 Zombie Clowns = 3 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_clown"
 				icon: {
@@ -7233,7 +7236,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Zombie Clowns"
+			title: "&6&lSlayer Task: 50x Zombie Clowns"
 			x: -22.5d
 			y: 1.5d
 		}
@@ -7279,7 +7282,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Zombie Clowns = 4 Bevels"
+			subtitle: "&e100 Zombie Clowns = 4 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_clown"
 				icon: {
@@ -7295,7 +7298,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Zombie Clowns"
+			title: "&6&lSlayer Task: 100x Zombie Clowns"
 			x: -22.5d
 			y: 3.0d
 		}
@@ -7327,7 +7330,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Zombie Bruisers = 2 Bevels"
+			subtitle: "&e25 Zombie Bruisers = 2 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_bruiser"
 				icon: {
@@ -7346,7 +7349,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task:  25x Zombie Bruisers"
+			title: "&6&lSlayer Task:  25x Zombie Bruisers"
 			x: -21.0d
 			y: 0.0d
 		}
@@ -7379,7 +7382,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Zombie Bruisers = 3 Bevels"
+			subtitle: "&e50 Zombie Bruisers = 3 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_bruiser"
 				icon: {
@@ -7398,7 +7401,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Zombie Bruisers"
+			title: "&6&lSlayer Task: 50x Zombie Bruisers"
 			x: -21.0d
 			y: 1.5d
 		}
@@ -7444,7 +7447,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Zombie Bruisers = 4 Bevels"
+			subtitle: "&e100 Zombie Bruisers = 4 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_bruiser"
 				icon: {
@@ -7463,7 +7466,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Zombie Bruisers"
+			title: "&6&lSlayer Task: 100x Zombie Bruisers"
 			x: -21.0d
 			y: 3.0d
 		}
@@ -7495,7 +7498,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Mimicubes = 3 Bevels"
+			subtitle: "&e25 Mimicubes = 3 Bevels"
 			tasks: [{
 				entity: "alexsmobs:mimicube"
 				icon: {
@@ -7511,7 +7514,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Mimicubes"
+			title: "&6&lSlayer Task: 25x Mimicubes"
 			x: -19.5d
 			y: 0.0d
 		}
@@ -7558,7 +7561,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 mimicubes = 4 Bevels 4 Spur"
+			subtitle: "&e50 mimicubes = 4 Bevels 4 Spur"
 			tasks: [{
 				entity: "alexsmobs:mimicube"
 				icon: {
@@ -7574,7 +7577,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Mimicubes"
+			title: "&6&lSlayer Task: 50x Mimicubes"
 			x: -19.5d
 			y: 1.5d
 		}
@@ -7620,7 +7623,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Mimicubes = 6 Bevels"
+			subtitle: "&e100 Mimicubes = 6 Bevels"
 			tasks: [{
 				entity: "alexsmobs:mimicube"
 				icon: {
@@ -7636,7 +7639,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Mimicubes"
+			title: "&6&lSlayer Task: 100x Mimicubes"
 			x: -19.5d
 			y: 3.0d
 		}
@@ -7668,7 +7671,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Dire Hound Leaders = 3 Bevels"
+			subtitle: "&e25 Dire Hound Leaders = 3 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				icon: {
@@ -7684,7 +7687,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Dire Hound Leaders"
+			title: "&6&lSlayer Task: 25x Dire Hound Leaders"
 			x: -18.0d
 			y: 0.0d
 		}
@@ -7731,7 +7734,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Dire Hound Leaders = 4 Bevels 4 Spur"
+			subtitle: "&e50 Dire Hound Leaders = 4 Bevels 4 Spur"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				icon: {
@@ -7747,7 +7750,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Dire Hound Leaders"
+			title: "&6&lSlayer Task: 50x Dire Hound Leaders"
 			x: -18.0d
 			y: 1.5d
 		}
@@ -7793,7 +7796,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Dire Hound Leaders = 6 Bevels"
+			subtitle: "&e100 Dire Hound Leaders = 6 Bevels"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				icon: {
@@ -7809,7 +7812,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task: 100x Dire Hound Leaders"
+			title: "&6&lSlayer Task: 100x Dire Hound Leaders"
 			x: -18.0d
 			y: 3.0d
 		}
@@ -7892,7 +7895,7 @@
 				type: "kill"
 				value: 35L
 			}]
-			title: "Slayer Task: 35x Nightmare Stalker"
+			title: "&6&lSlayer Task: 35x Nightmare Stalker"
 			x: -13.44642857142857d
 			y: 2.3571428571428683d
 		}
@@ -7924,7 +7927,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "25 Demons = 3 Bevels"
+			subtitle: "&e25 Demons = 3 Bevels"
 			tasks: [{
 				entity: "realmrpg_demons:demon"
 				icon: {
@@ -7940,7 +7943,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Demons"
+			title: "&6&lSlayer Task: 25x Demons"
 			x: -16.5d
 			y: 0.0d
 		}
@@ -7987,7 +7990,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "50 Demons = 4 Bevels 4 Spur"
+			subtitle: "&e50 Demons = 4 Bevels 4 Spur"
 			tasks: [{
 				entity: "realmrpg_demons:demon"
 				icon: {
@@ -8003,7 +8006,7 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Slayer Task: 50x Demons"
+			title: "&6&lSlayer Task: 50x Demons"
 			x: -16.5d
 			y: 1.5d
 		}
@@ -8049,7 +8052,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "100 Demons = 6 Bevels"
+			subtitle: "&e100 Demons = 6 Bevels"
 			tasks: [{
 				entity: "realmrpg_demons:demon"
 				icon: {
@@ -8065,7 +8068,7 @@
 				type: "kill"
 				value: 100L
 			}]
-			title: "Slayer Task:  100x Demons"
+			title: "&6&lSlayer Task:  100x Demons"
 			x: -16.5d
 			y: 3.0d
 		}
@@ -8107,7 +8110,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "1 Wilden Chimera = 1 Cog"
+			subtitle: "&e1 Wilden Chimera = 1 Cog"
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
 				icon: {
@@ -8123,7 +8126,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: Kill The Wilden Chimera"
+			title: "&6&lSlayer Task: Kill The Wilden Chimera"
 			x: -8.0d
 			y: 12.0d
 		}
@@ -8223,7 +8226,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: Kill The Chaos Guardian"
+			title: "&6&lSlayer Task: Kill The Chaos Guardian"
 			x: -8.0d
 			y: 7.785714285714299d
 		}
@@ -8274,7 +8277,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "1 Forsaken = 3 Sprockets"
+			subtitle: "&e1 Forsaken = 3 Sprockets"
 			tasks: [{
 				entity: "alexscaves:forsaken"
 				icon: {
@@ -8290,7 +8293,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: 1x Forsaken"
+			title: "&6&lSlayer Task: 1x Forsaken"
 			x: -11.25d
 			y: 9.75d
 		}
@@ -8298,11 +8301,6 @@
 			dependencies: ["3B38BC10347BDA7D"]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "ftbquests:custom_icon"
 				tag: {
 					Icon: "alexscaves:textures/mob_effect/magnetizing.png"
@@ -8344,7 +8342,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "1 Magnetron = 3 Sprockets"
+			subtitle: "&e1 Magnetron = 3 Sprockets"
 			tasks: [{
 				entity: "alexscaves:magnetron"
 				icon: {
@@ -8361,7 +8359,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: 1x Magnetron"
+			title: "&6&lSlayer Task: 1x Magnetron"
 			x: -8.0d
 			y: 4.0d
 		}
@@ -8412,7 +8410,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "1 Hullbreaker = 3 Sprockets"
+			subtitle: "&e1 Hullbreaker = 3 Sprockets"
 			tasks: [{
 				entity: "alexscaves:hullbreaker"
 				icon: {
@@ -8428,7 +8426,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: 1x Hullbreaker"
+			title: "&6&lSlayer Task: 1x Hullbreaker"
 			x: -5.107142857142861d
 			y: 9.928571428571423d
 		}
@@ -8478,7 +8476,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "1 Luxtructosaurus = 1 Cog"
+			subtitle: "&e1 Luxtructosaurus = 1 Cog"
 			tasks: [{
 				entity: "alexscaves:luxtructosaurus"
 				icon: {
@@ -8494,7 +8492,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: Kill The Luxtructosaurus"
+			title: "&6&lSlayer Task: Kill The Luxtructosaurus"
 			x: -12.0d
 			y: 6.0d
 		}
@@ -8544,7 +8542,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "1 Guardian of Gaia = 1 Cog"
+			subtitle: "&e1 Guardian of Gaia = 1 Cog"
 			tasks: [{
 				entity: "botania:doppleganger"
 				icon: {
@@ -8560,7 +8558,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slayer Task: Kill The Guardian of Gaia"
+			title: "&6&lSlayer Task: Kill The Guardian of Gaia"
 			x: -4.0d
 			y: 6.0d
 		}
@@ -8601,7 +8599,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "3 Missionaries = 2 Sprockets"
+			subtitle: "&e3 Missionaries = 2 Sprockets"
 			tasks: [{
 				entity: "born_in_chaos_v1:missioner"
 				icon: {
@@ -8620,7 +8618,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "Slayer Task: 3x Missionary"
+			title: "&6&lSlayer Task: 3x Missionary"
 			x: -21.0d
 			y: 12.0d
 		}
@@ -8658,7 +8656,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "3 lifestealer = 2 Sprockets"
+			subtitle: "&e3 lifestealer = 2 Sprockets"
 			tasks: [{
 				entity: "born_in_chaos_v1:lifestealer_true_form"
 				icon: {
@@ -8674,7 +8672,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "Slayer Task: 3x Lifestealer"
+			title: "&6&lSlayer Task: 3x Lifestealer"
 			x: -18.0d
 			y: 12.0d
 		}
@@ -8714,7 +8712,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "5 Fallen Chaos Knight = 1 Sprocket"
+			subtitle: "&e5 Fallen Chaos Knight = 1 Sprocket"
 			tasks: [{
 				entity: "born_in_chaos_v1:fallen_chaos_knight"
 				icon: {
@@ -8733,7 +8731,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Fallen Chaos Knight"
+			title: "&6&lSlayer Task: 5x Fallen Chaos Knight"
 			x: -18.0d
 			y: 6.0d
 		}
@@ -8771,7 +8769,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "3 Glutton Fish = 2 Sprockets"
+			subtitle: "&e3 Glutton Fish = 2 Sprockets"
 			tasks: [{
 				entity: "born_in_chaos_v1:glutton_fish"
 				icon: {
@@ -8787,7 +8785,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "Slayer Task: 3x Glutton Fish"
+			title: "&6&lSlayer Task: 3x Glutton Fish"
 			x: -24.0d
 			y: 12.0d
 		}
@@ -8825,7 +8823,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "3 Tremorsaurus = 2 Sprockets"
+			subtitle: "&e3 Tremorsaurus = 2 Sprockets"
 			tasks: [{
 				entity: "alexscaves:tremorsaurus"
 				icon: {
@@ -8841,7 +8839,7 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "Slayer Task: 3x Tremorsaurus"
+			title: "&6&lSlayer Task: 3x Tremorsaurus"
 			x: -27.0d
 			y: 12.0d
 		}
@@ -8878,7 +8876,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "5 Brainiac = 1 Sprocket"
+			subtitle: "&e5 Brainiac = 1 Sprocket"
 			tasks: [{
 				entity: "alexscaves:brainiac"
 				icon: {
@@ -8894,7 +8892,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Brainiac"
+			title: "&6&lSlayer Task: 5x Brainiac"
 			x: -21.0d
 			y: 6.0d
 		}
@@ -8931,7 +8929,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "5 Caniac = 1 Sprocket"
+			subtitle: "&e5 Caniac = 1 Sprocket"
 			tasks: [{
 				entity: "alexscaves:caniac"
 				icon: {
@@ -8947,7 +8945,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Caniac"
+			title: "&6&lSlayer Task: 5x Caniac"
 			x: -24.0d
 			y: 6.0d
 		}
@@ -8987,7 +8985,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "5 Licowitch + 1 Sprocket"
+			subtitle: "&e5 Licowitch + 1 Sprocket"
 			tasks: [{
 				entity: "alexscaves:licowitch"
 				icon: {
@@ -9006,7 +9004,7 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Slayer Task: 5x Licowitch"
+			title: "&6&lSlayer Task: 5x Licowitch"
 			x: -27.0d
 			y: 6.0d
 		}
@@ -9047,7 +9045,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "20 Licowitch = 3 Sprockets"
+			subtitle: "&e20 Licowitch = 3 Sprockets"
 			tasks: [{
 				entity: "alexscaves:licowitch"
 				icon: {
@@ -9066,7 +9064,7 @@
 				type: "kill"
 				value: 20L
 			}]
-			title: "Slayer Task: 20x Licowitch"
+			title: "&6&lSlayer Task: 20x Licowitch"
 			x: -27.0d
 			y: 8.5d
 		}
@@ -9104,7 +9102,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "25 Caniac = 3 Sprockets"
+			subtitle: "&e25 Caniac = 3 Sprockets"
 			tasks: [{
 				entity: "alexscaves:caniac"
 				icon: {
@@ -9120,7 +9118,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Caniac"
+			title: "&6&lSlayer Task: 25x Caniac"
 			x: -24.0d
 			y: 8.5d
 		}
@@ -9149,7 +9147,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "25 Brainiac = 3 Sprockets"
+			subtitle: "&e25 Brainiac = 3 Sprockets"
 			tasks: [{
 				entity: "alexscaves:brainiac"
 				icon: {
@@ -9165,7 +9163,7 @@
 				type: "kill"
 				value: 25L
 			}]
-			title: "Slayer Task: 25x Brainiac"
+			title: "&6&lSlayer Task: 25x Brainiac"
 			x: -21.0d
 			y: 8.5d
 		}
@@ -9206,7 +9204,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "20 Fallen Chaos Knight = 3 Sprockets"
+			subtitle: "&e20 Fallen Chaos Knight = 3 Sprockets"
 			tasks: [{
 				entity: "born_in_chaos_v1:fallen_chaos_knight"
 				icon: {
@@ -9225,7 +9223,7 @@
 				type: "kill"
 				value: 20L
 			}]
-			title: "Slayer Task: 20x Fallen Chaos Knight"
+			title: "&6&lSlayer Task: 20x Fallen Chaos Knight"
 			x: -18.0d
 			y: 8.5d
 		}

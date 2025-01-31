@@ -43,12 +43,13 @@
 				xp: 5
 			}]
 			size: 2.0d
-			subtitle: "Digital Mob Factories"
+			subtitle: "&9Digital Mob Factories"
 			tasks: [{
 				id: "5BD77008D3392DFD"
 				title: "Welcome to Hostile Neural Networks!"
 				type: "checkmark"
 			}]
+			title: "&3&lWelcome to Hostile Neural Networks!"
 			x: -0.5d
 			y: -2.392857142857139d
 		}
@@ -82,7 +83,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Curios compatible!"
+			subtitle: "&9Curios compatible!"
 			tasks: [{
 				id: "03B2BBD67EE291A9"
 				item: {
@@ -96,6 +97,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lDeep Learner"
 			x: -1.5000000000000142d
 			y: -0.7142857142857473d
 		}
@@ -129,7 +131,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtaining data models"
+			subtitle: "&9Obtaining data models"
 			tasks: [{
 				id: "24C7EE3FE406C157"
 				item: {
@@ -143,7 +145,7 @@
 				}
 				type: "item"
 			}]
-			title: "Making Models"
+			title: "&3&lMaking Models"
 			x: 0.4999999999999858d
 			y: -0.7142857142857473d
 		}
@@ -178,7 +180,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Part 1 of your digital mob farm"
+			subtitle: "&9Part 1 of your digital mob farm"
 			tasks: [{
 				id: "05737385EB0D9205"
 				item: {
@@ -192,6 +194,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lSimulation Chamber"
 			x: -0.5d
 			y: 3.5d
 		}
@@ -246,7 +249,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Part 2 of your digital mob farm"
+			subtitle: "&9Part 2 of your digital mob farm"
 			tasks: [{
 				id: "54C637C7B04DC4DD"
 				item: {
@@ -260,6 +263,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lLoot Fabricator"
 			x: -0.5d
 			y: 6.5d
 		}
@@ -289,7 +293,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Overworld Predictions"
+			subtitle: "&9Overworld Predictions"
 			tasks: [{
 				id: "1C24561EB1FC9D99"
 				item: {
@@ -303,6 +307,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lGeneralized Overworld Prediction"
 			x: -2.642857142857139d
 			y: 5.035714285714278d
 		}
@@ -345,7 +350,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Nether Predictions"
+			subtitle: "&9Nether Predictions"
 			tasks: [{
 				id: "2ED88DAF85E4A70A"
 				item: {
@@ -359,6 +364,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lGeneralized Nether Prediction"
 			x: 0.2142857142857011d
 			y: 5.035714285714256d
 		}
@@ -387,7 +393,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Twilight Predictions"
+			subtitle: "&9Twilight Predictions"
 			tasks: [{
 				id: "3DC826C95DE2E058"
 				item: {
@@ -401,6 +407,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lGeneralized Twilight Predictions"
 			x: -1.1785714285714448d
 			y: 5.035714285714256d
 		}
@@ -429,7 +436,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "End Predictions"
+			subtitle: "&9End Predictions"
 			tasks: [{
 				id: "40CBD633C17B26BD"
 				item: {
@@ -443,6 +450,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lGeneralized Ender Prediction"
 			x: 1.607142857142854d
 			y: 4.999999999999993d
 		}
@@ -478,7 +486,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "One last component"
+			subtitle: "&9One last component"
 			tasks: [{
 				id: "6E9CE783909C5CFE"
 				item: {
@@ -492,6 +500,7 @@
 				}
 				type: "item"
 			}]
+			title: "&3&lPrediction Matrix"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -6888,12 +6897,13 @@
 				xp: 10
 			}]
 			size: 1.5d
-			subtitle: "So im supposed to train an action figure??"
+			subtitle: "&9So im supposed to train an action figure??"
 			tasks: [{
 				id: "19F5FC2630DE9FA7"
 				title: "Training your data models"
 				type: "checkmark"
 			}]
+			title: "&3&lTraining Your Data Models"
 			x: -0.5d
 			y: 0.5d
 		}

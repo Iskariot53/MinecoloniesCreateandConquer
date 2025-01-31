@@ -53,7 +53,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Your new gunsmithing table"
+			subtitle: "&6Your new gunsmithing table"
 			tasks: [{
 				id: "08C117DB3F8B254C"
 				item: {
@@ -67,7 +67,7 @@
 				}
 				type: "item"
 			}]
-			title: "Welcome to Locked and Loaded!"
+			title: "&c&lWelcome to Locked and Loaded!"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -97,7 +97,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "We're gonna need to hold it some how"
+			subtitle: "&6We're gonna need to hold it some how"
 			tasks: [{
 				id: "3280B785266D9530"
 				item: {
@@ -111,6 +111,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGun Grip"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -140,7 +141,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your first gun barrel"
+			subtitle: "&6Your first gun barrel"
 			tasks: [{
 				id: "7B4AAF4FA62D75C0"
 				item: {
@@ -154,6 +155,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lStone Gun Barrel"
 			x: -1.5d
 			y: 6.5d
 		}
@@ -183,7 +185,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Standard firing unit"
+			subtitle: "&6Standard firing unit"
 			tasks: [{
 				id: "63D1593D1FC3D6EB"
 				item: {
@@ -197,6 +199,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lFiring Unit"
 			x: -6.5d
 			y: 5.0d
 		}
@@ -225,7 +228,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Automatics"
+			subtitle: "&6Automatics"
 			tasks: [{
 				id: "12EE43BC2358D981"
 				item: {
@@ -239,6 +242,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRapid Firing Unit"
 			x: -6.5d
 			y: 6.5d
 		}
@@ -268,7 +272,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making basic gun parts"
+			subtitle: "&6Making basic gun parts"
 			tasks: [{
 				id: "0912119464513BE3"
 				item: {
@@ -282,6 +286,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGun Parts"
 			x: -3.5d
 			y: 5.0d
 		}
@@ -310,7 +315,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making heavy gun parts"
+			subtitle: "&6Making heavy gun parts"
 			tasks: [{
 				id: "1BBCC97EC2A45CC4"
 				item: {
@@ -324,6 +329,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lHeavy Gun Parts"
 			x: -3.5d
 			y: 6.5d
 		}
@@ -357,7 +363,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making your first molds"
+			subtitle: "&6Making your first molds"
 			tasks: [{
 				id: "303F64C38639C67E"
 				item: {
@@ -371,6 +377,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBlank Mold"
 			x: -5.0d
 			y: 0.5d
 		}
@@ -400,7 +407,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making small casings"
+			subtitle: "&6Making small casings"
 			tasks: [{
 				id: "630C68E2B32071B4"
 				item: {
@@ -417,6 +424,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSmall Casing Mold"
 			x: -6.5d
 			y: 1.0d
 		}
@@ -446,7 +454,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making medium casings"
+			subtitle: "&6Making medium casings"
 			tasks: [{
 				id: "4BA6FEE0F63EF8D2"
 				item: {
@@ -463,6 +471,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMedium Casing Mold"
 			x: -7.0d
 			y: 2.0d
 		}
@@ -492,7 +501,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making large casings"
+			subtitle: "&6Making large casings"
 			tasks: [{
 				id: "640AD4890DDC1E3E"
 				item: {
@@ -509,6 +518,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLarge Casing Mold"
 			x: -6.0d
 			y: 2.0d
 		}
@@ -538,7 +548,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making bullets"
+			subtitle: "&6Making bullets"
 			tasks: [{
 				id: "1BE944B72A7DA60A"
 				item: {
@@ -555,6 +565,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBullet Mold"
 			x: -4.0d
 			y: 2.0d
 		}
@@ -584,7 +595,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making discs"
+			subtitle: "&6Making discs"
 			tasks: [{
 				id: "4FA54BFF97E504BD"
 				item: {
@@ -601,6 +612,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDisc Mold"
 			x: -3.5d
 			y: 1.0d
 		}
@@ -630,7 +642,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making gun parts"
+			subtitle: "&6Making gun parts"
 			tasks: [{
 				id: "3976D3192987A2C2"
 				item: {
@@ -647,6 +659,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGun Parts Mold"
 			x: -3.0d
 			y: 2.0d
 		}
@@ -676,7 +689,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "It's gonna need to hold ammunition too."
+			subtitle: "&6It's gonna need to hold ammunition too."
 			tasks: [{
 				id: "3B1D3B37D8C762C1"
 				item: {
@@ -690,6 +703,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGun Magazine"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -718,7 +732,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your first gun frame"
+			subtitle: "&6Your first gun frame"
 			tasks: [{
 				id: "40AF9B34397056C3"
 				item: {
@@ -732,6 +746,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCopper Gun Frame"
 			x: 3.5d
 			y: 5.0d
 		}
@@ -773,7 +788,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2 frame"
+			subtitle: "&6Tier 2 frame"
 			tasks: [{
 				id: "5F8F1FFA95FC6B35"
 				item: {
@@ -787,6 +802,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lIron Gun Frame"
 			x: 6.5d
 			y: 5.0d
 		}
@@ -828,7 +844,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 frame"
+			subtitle: "&6Tier 3 frame"
 			tasks: [{
 				id: "4A7E9212E3C37680"
 				item: {
@@ -842,6 +858,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lTreated Brass Gun Frame"
 			x: 3.5d
 			y: 6.5d
 		}
@@ -869,7 +886,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 frame"
+			subtitle: "&6Tier 4 frame"
 			tasks: [{
 				id: "4D05CD611B0F19FB"
 				item: {
@@ -883,6 +900,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDiamond Steel Gun Frame"
 			x: 6.5d
 			y: 6.5d
 		}
@@ -923,7 +941,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 5 frame"
+			subtitle: "&6Tier 5 frame"
 			tasks: [{
 				id: "07EBD01B05096C9B"
 				item: {
@@ -937,6 +955,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lScorched Gun Frame"
 			x: 5.035714285714292d
 			y: 5.785714285714285d
 		}
@@ -969,7 +988,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Proper gun storage"
+			subtitle: "&6Proper gun storage"
 			tasks: [{
 				id: "7C80B9DDFB41C1D8"
 				item: {
@@ -983,6 +1002,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGun Shelf"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -1011,7 +1031,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtained from gunsmith villagers"
+			subtitle: "&6Obtained from gunsmith villagers"
 			tasks: [{
 				id: "1F03208DC9DF735F"
 				item: {
@@ -1025,6 +1045,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCopper Blueprint"
 			x: 3.5d
 			y: 0.5d
 		}
@@ -1052,7 +1073,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gunsmith villagers or dungeons"
+			subtitle: "&6Gunsmith villagers or dungeons"
 			tasks: [{
 				id: "7C57A90ED497E684"
 				item: {
@@ -1066,6 +1087,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lIron Blueprint"
 			x: 4.5d
 			y: 0.5d
 		}
@@ -1107,7 +1129,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Osgood dungeon, wandering trader or bastions."
+			subtitle: "&6Osgood dungeon, wandering trader or bastions."
 			tasks: [{
 				id: "6AD2FEF58996A1BB"
 				item: {
@@ -1121,6 +1143,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lTreated Brass Blueprint"
 			x: 5.5d
 			y: 0.5d
 		}
@@ -1148,7 +1171,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Asgharian dungeons, ancient cities or wandering trader"
+			subtitle: "&6Asgharian dungeons, ancient cities or wandering trader"
 			tasks: [{
 				id: "1F4D1236EAAD5787"
 				item: {
@@ -1162,6 +1185,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDiamond Steel Blueprint"
 			x: 6.5d
 			y: 0.5d
 		}
@@ -1189,7 +1213,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtained from buried treasure"
+			subtitle: "&6Obtained from buried treasure"
 			tasks: [{
 				id: "38D8110967A31372"
 				item: {
@@ -1203,6 +1227,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lOcean Blueprint"
 			x: 4.0d
 			y: 1.5d
 		}
@@ -1230,7 +1255,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtained from nether bastions"
+			subtitle: "&6Obtained from nether bastions"
 			tasks: [{
 				id: "3DF7C31888EC3BFD"
 				item: {
@@ -1244,6 +1269,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPiglin Blueprint"
 			x: 5.0d
 			y: 1.5d
 		}
@@ -1271,7 +1297,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtained from ancient cities"
+			subtitle: "&6Obtained from ancient cities"
 			tasks: [{
 				id: "1A10F160E8D7B535"
 				item: {
@@ -1285,6 +1311,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDeep Dark Blueprint"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -1325,7 +1352,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtained from end cities"
+			subtitle: "&6Obtained from end cities"
 			tasks: [{
 				id: "23BD9CAAEB3B0619"
 				item: {
@@ -1339,6 +1366,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lEnd Blueprint"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -1368,7 +1396,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Master Plan"
+			subtitle: "&6The Master Plan"
 			tasks: [{
 				id: "376693C43A447B8B"
 				item: {
@@ -1382,6 +1410,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lScorched Blueprint"
 			x: 5.5d
 			y: 2.5d
 		}
@@ -1410,7 +1439,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Build a better barrel"
+			subtitle: "&6Build a better barrel"
 			tasks: [{
 				id: "3ADD1470CF98D894"
 				item: {
@@ -1424,6 +1453,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGun Barrel"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -1466,7 +1496,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Build an even bigger barrel"
+			subtitle: "&6Build an even bigger barrel"
 			tasks: [{
 				id: "6DC705C17F52C263"
 				item: {
@@ -1480,6 +1510,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lHeavy Gun Barrel"
 			x: 1.5d
 			y: 6.5d
 		}
@@ -1527,6 +1558,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lFlintlock Pistol"
 			x: -10.0d
 			y: 8.5d
 		}
@@ -1574,6 +1606,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lHandcannon"
 			x: -9.0d
 			y: 8.5d
 		}
@@ -1621,6 +1654,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMusket"
 			x: -8.0d
 			y: 8.5d
 		}
@@ -1668,6 +1702,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBlunderbuss"
 			x: -7.0d
 			y: 8.5d
 		}
@@ -1718,6 +1753,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRepeating Musket"
 			x: -6.0d
 			y: 8.5d
 		}
@@ -1767,6 +1803,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPax"
 			x: -4.0d
 			y: 8.5d
 		}
@@ -1815,6 +1852,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lWinnie"
 			x: -3.0d
 			y: 8.5d
 		}
@@ -1863,6 +1901,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCallwell Conversion"
 			x: -1.0d
 			y: 8.5d
 		}
@@ -1911,6 +1950,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCallwell"
 			x: -2.0d
 			y: 8.5d
 		}
@@ -1959,6 +1999,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSaketini"
 			x: 0.0d
 			y: 8.5d
 		}
@@ -2008,6 +2049,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLaser Musket"
 			x: -5.0d
 			y: 8.5d
 		}
@@ -2056,6 +2098,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lFloundergat"
 			x: 1.0d
 			y: 8.5d
 		}
@@ -2106,6 +2149,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lScrapper"
 			x: 2.0d
 			y: 8.5d
 		}
@@ -2157,6 +2201,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRusty Gnat"
 			x: 3.0d
 			y: 8.5d
 		}
@@ -2207,6 +2252,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lUmax Pistol"
 			x: 4.0d
 			y: 8.5d
 		}
@@ -2257,6 +2303,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMakeshift Rifle"
 			x: 5.0d
 			y: 8.5d
 		}
@@ -2306,6 +2353,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBoomstick"
 			x: 6.0d
 			y: 8.5d
 		}
@@ -2355,6 +2403,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBruiser"
 			x: 7.0d
 			y: 8.5d
 		}
@@ -2405,6 +2454,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLLR Director"
 			x: 8.0d
 			y: 8.5d
 		}
@@ -2456,6 +2506,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lArc Worker"
 			x: 10.0d
 			y: 8.5d
 		}
@@ -2506,6 +2557,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDefender Pistol"
 			x: 9.0d
 			y: 8.5d
 		}
@@ -2557,6 +2609,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGreaser SMG"
 			x: -10.0d
 			y: 9.5d
 		}
@@ -2608,6 +2661,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lM3 Carabine"
 			x: -9.0d
 			y: 9.5d
 		}
@@ -2659,6 +2713,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCombat Shotgun"
 			x: -8.0d
 			y: 9.5d
 		}
@@ -2710,6 +2765,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lVenturi"
 			x: -7.0d
 			y: 9.5d
 		}
@@ -2760,6 +2816,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lIron Javelin"
 			x: -6.0d
 			y: 9.5d
 		}
@@ -2810,6 +2867,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lIron Spear"
 			x: -5.0d
 			y: 9.5d
 		}
@@ -2860,6 +2918,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lAuvtomag"
 			x: -4.0d
 			y: 9.5d
 		}
@@ -2910,6 +2969,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPulsar"
 			x: -3.0d
 			y: 9.5d
 		}
@@ -2960,6 +3020,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGyrojet Pistol"
 			x: -2.0d
 			y: 9.5d
 		}
@@ -3009,6 +3070,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBrawler"
 			x: -1.0d
 			y: 9.5d
 		}
@@ -3060,6 +3122,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMK43 Rifle"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -3110,6 +3173,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRocket Rifle"
 			x: 1.0d
 			y: 9.5d
 		}
@@ -3159,6 +3223,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMarlin"
 			x: 2.0d
 			y: 9.5d
 		}
@@ -3208,6 +3273,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBomb Lance"
 			x: 3.0d
 			y: 9.5d
 		}
@@ -3258,6 +3324,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSequoia"
 			x: 4.0d
 			y: 9.5d
 		}
@@ -3307,6 +3374,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lKrauser"
 			x: 5.0d
 			y: 9.5d
 		}
@@ -3357,6 +3425,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSoul Drummer"
 			x: 6.0d
 			y: 9.5d
 		}
@@ -3408,6 +3477,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lUppercut"
 			x: 7.0d
 			y: 9.5d
 		}
@@ -3459,6 +3529,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPrush Gun"
 			x: 8.0d
 			y: 9.5d
 		}
@@ -3510,6 +3581,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLockewood"
 			x: 9.0d
 			y: 9.5d
 		}
@@ -3560,6 +3632,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lInertial"
 			x: 10.0d
 			y: 9.5d
 		}
@@ -3612,6 +3685,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMas 55"
 			x: -9.0d
 			y: 10.5d
 		}
@@ -3663,6 +3737,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPlasgun"
 			x: -8.0d
 			y: 10.5d
 		}
@@ -3713,6 +3788,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCyclone"
 			x: -7.0d
 			y: 10.5d
 		}
@@ -3763,6 +3839,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lM22 Waltz"
 			x: -6.0d
 			y: 10.5d
 		}
@@ -3815,6 +3892,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lWaltz Conversion"
 			x: -5.0d
 			y: 10.5d
 		}
@@ -3865,6 +3943,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lOsgood .50"
 			x: -4.0d
 			y: 10.5d
 		}
@@ -3917,6 +3996,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCogloader"
 			x: -3.0d
 			y: 10.5d
 		}
@@ -3968,6 +4048,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGale"
 			x: -2.0d
 			y: 10.5d
 		}
@@ -4019,6 +4100,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lJackhammer"
 			x: -1.0d
 			y: 10.5d
 		}
@@ -4071,6 +4153,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lHowler"
 			x: 0.0d
 			y: 10.5d
 		}
@@ -4122,6 +4205,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lHowler Conversion"
 			x: 1.0d
 			y: 10.5d
 		}
@@ -4173,6 +4257,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGauss Rifle"
 			x: 2.0d
 			y: 10.5d
 		}
@@ -4224,6 +4309,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSpitfire"
 			x: 3.0d
 			y: 10.5d
 		}
@@ -4275,6 +4361,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGattaler"
 			x: 4.0d
 			y: 10.5d
 		}
@@ -4326,6 +4413,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lThunderhead"
 			x: 5.0d
 			y: 10.5d
 		}
@@ -4377,6 +4465,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDozier RL"
 			x: 6.0d
 			y: 10.5d
 		}
@@ -4435,6 +4524,7 @@
 					type: "item"
 				}
 			]
+			title: "&c&lBlasphemy"
 			x: -7.0d
 			y: 11.5d
 		}
@@ -4484,6 +4574,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPyroclastic Flow"
 			x: 8.0d
 			y: 10.5d
 		}
@@ -4534,6 +4625,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lFreyr"
 			x: 9.0d
 			y: 10.5d
 		}
@@ -4584,11 +4676,13 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lVulcanic Repeater"
 			x: 7.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			description: ["Only obtainable as rare loot from bastions."]
 			id: "37F101B47AF91025"
 			rewards: [
 				{
@@ -4627,6 +4721,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSuper Shotgun"
 			x: -6.0d
 			y: 11.5d
 		}
@@ -4692,6 +4787,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lWhispers"
 			x: -5.0d
 			y: 11.5d
 		}
@@ -4756,6 +4852,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lEchoes 2"
 			x: -4.0d
 			y: 11.5d
 		}
@@ -4820,6 +4917,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSculk Resonator"
 			x: -3.0d
 			y: 11.5d
 		}
@@ -4870,6 +4968,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCarapice"
 			x: -2.0d
 			y: 11.5d
 		}
@@ -4920,6 +5019,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lShellurker"
 			x: -1.0d
 			y: 11.5d
 		}
@@ -4969,6 +5069,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDark Matter"
 			x: 0.0d
 			y: 11.5d
 		}
@@ -5019,6 +5120,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLone Wonder"
 			x: 1.0d
 			y: 11.5d
 		}
@@ -5068,6 +5170,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRaygun"
 			x: 2.0d
 			y: 11.5d
 		}
@@ -5132,6 +5235,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lThe Rat King and Queen"
 			x: 3.0d
 			y: 11.5d
 		}
@@ -5197,6 +5301,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLocust"
 			x: 4.0d
 			y: 11.5d
 		}
@@ -5261,6 +5366,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lNewborn Cyst"
 			x: 5.0d
 			y: 11.5d
 		}
@@ -5326,6 +5432,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lEarth's Corpse"
 			x: 6.0d
 			y: 11.5d
 		}
@@ -5390,6 +5497,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lAstella"
 			x: 7.0d
 			y: 11.5d
 		}
@@ -5418,7 +5526,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "FRIENDLY FIRE!"
+			subtitle: "&6FRIENDLY FIRE!"
 			tasks: [{
 				id: "3C61165CCE0E6921"
 				item: {
@@ -5432,6 +5540,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lTeam Log"
 			x: 1.0d
 			y: -0.5d
 		}
@@ -5474,7 +5583,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Next generation energy core"
+			subtitle: "&6Next generation energy core"
 			tasks: [{
 				id: "2E95C348BB43C368"
 				item: {
@@ -5488,6 +5597,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPlasma Core"
 			x: -5.0d
 			y: 6.5d
 		}
@@ -5529,6 +5639,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSmall Copper Casing"
 			x: -11.0d
 			y: 0.5d
 		}
@@ -5570,6 +5681,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMedium Copper Casing"
 			x: -10.0d
 			y: 0.5d
 		}
@@ -5611,6 +5723,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSmall Iron Casing"
 			x: -11.0d
 			y: 1.5d
 		}
@@ -5652,6 +5765,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLarge Iron Casing"
 			x: -10.0d
 			y: 1.5d
 		}
@@ -5692,6 +5806,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSmall Diamond Steel Casing"
 			x: -11.0d
 			y: 2.5d
 		}
@@ -5732,6 +5847,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSmall Brass Casing"
 			x: -11.0d
 			y: 3.5d
 		}
@@ -5772,6 +5888,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMedium Diamond Steel Casing"
 			x: -10.0d
 			y: 2.5d
 		}
@@ -5812,6 +5929,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMedium Brass Casing"
 			x: -10.0d
 			y: 3.5d
 		}
@@ -5852,6 +5970,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLarge Brass Casing"
 			x: -11.0d
 			y: 4.5d
 		}
@@ -5906,6 +6025,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lShulker Casing"
 			x: -10.0d
 			y: 4.5d
 		}
@@ -5939,7 +6059,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stamping molds for ammo and more!"
+			subtitle: "&6Stamping molds for ammo and more!"
 			tasks: [{
 				id: "71A2E4DAA3816C85"
 				item: {
@@ -5953,6 +6073,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lStamping Press"
 			x: 0.0d
 			y: 0.5d
 		}
@@ -5982,7 +6103,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making copper discs"
+			subtitle: "&6Making copper discs"
 			tasks: [{
 				id: "506F8BB3E182987B"
 				item: {
@@ -5996,6 +6117,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCopper Disc"
 			x: -5.0d
 			y: 3.0d
 		}
@@ -6023,7 +6145,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making treated brass ingots"
+			subtitle: "&6Making treated brass ingots"
 			tasks: [{
 				id: "75534FB4E8D9A0B5"
 				item: {
@@ -6037,6 +6159,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lTreated Brass Ingot"
 			x: -1.0d
 			y: 2.0d
 		}
@@ -6065,7 +6188,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making treated iron ingots"
+			subtitle: "&6Making treated iron ingots"
 			tasks: [{
 				id: "3EC540B6274D0984"
 				item: {
@@ -6079,6 +6202,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lTreated Iron Ingot"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -6107,7 +6231,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 1 melee attachment"
+			subtitle: "&6Tier 1 melee attachment"
 			tasks: [{
 				id: "6BC5FF85461DDFAE"
 				item: {
@@ -6124,6 +6248,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lIron Bayonet"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -6152,7 +6277,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 2 melee attachment"
+			subtitle: "&6Tier 2 melee attachment"
 			tasks: [{
 				id: "26C2642B40A3AA46"
 				item: {
@@ -6169,6 +6294,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lAnthralite Bayonet"
 			x: 10.0d
 			y: 0.0d
 		}
@@ -6197,7 +6323,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 3 melee attachment"
+			subtitle: "&6Tier 3 melee attachment"
 			tasks: [{
 				id: "55B86533D9EFDE71"
 				item: {
@@ -6214,6 +6340,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDiamond Bayonet"
 			x: 9.0d
 			y: 1.0d
 		}
@@ -6241,7 +6368,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Tier 4 melee attachment"
+			subtitle: "&6Tier 4 melee attachment"
 			tasks: [{
 				id: "5CC207D6A66F1EDD"
 				item: {
@@ -6258,6 +6385,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lNetherite Bayonet"
 			x: 10.0d
 			y: 1.0d
 		}
@@ -6299,7 +6427,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making diamond steel ingots"
+			subtitle: "&6Making diamond steel ingots"
 			tasks: [{
 				id: "3BB550F4D2460CD8"
 				item: {
@@ -6313,6 +6441,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lDiamond Steel Ingot"
 			x: 1.0d
 			y: 2.0d
 		}
@@ -6342,7 +6471,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Energy weapons"
+			subtitle: "&6Energy weapons"
 			tasks: [{
 				id: "0C8B9E8BF6C27287"
 				item: {
@@ -6356,6 +6485,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lEnergy Core"
 			x: -5.0d
 			y: 5.0d
 		}
@@ -6383,7 +6513,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Making scorched ingots"
+			subtitle: "&6Making scorched ingots"
 			tasks: [{
 				id: "70EAC3FBB3E0AED0"
 				item: {
@@ -6397,6 +6527,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lScorched Ingot"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -6424,7 +6555,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Steadier aiming"
+			subtitle: "&6Steadier aiming"
 			tasks: [{
 				id: "1F756E2214E31182"
 				item: {
@@ -6441,6 +6572,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lWooden Stock"
 			x: 9.0d
 			y: 6.0d
 		}
@@ -6468,7 +6600,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Even less kick"
+			subtitle: "&6Even less kick"
 			tasks: [{
 				id: "09C72CDA1C70687C"
 				item: {
@@ -6485,6 +6617,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lWeighted Stock"
 			x: 10.0d
 			y: 5.0d
 		}
@@ -6512,7 +6645,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Fast, smooth and steady"
+			subtitle: "&6Fast, smooth and steady"
 			tasks: [{
 				id: "404C28A3B3482941"
 				item: {
@@ -6529,6 +6662,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLight Stock"
 			x: 10.0d
 			y: 6.0d
 		}
@@ -6556,7 +6690,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Easier aiming"
+			subtitle: "&6Easier aiming"
 			tasks: [{
 				id: "7063ECDD4B006BCF"
 				item: {
@@ -6573,6 +6707,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lReflex Sight"
 			x: 9.0d
 			y: 2.0d
 		}
@@ -6600,7 +6735,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Increased aim speed"
+			subtitle: "&6Increased aim speed"
 			tasks: [{
 				id: "73944377B1FBBD66"
 				item: {
@@ -6618,6 +6753,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLaser Sight"
 			x: 10.0d
 			y: 2.0d
 		}
@@ -6645,7 +6781,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Long range shooting"
+			subtitle: "&6Long range shooting"
 			tasks: [{
 				id: "07C1EA215B5D7785"
 				item: {
@@ -6662,6 +6798,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMedium Scope"
 			x: 9.0d
 			y: 3.0d
 		}
@@ -6689,7 +6826,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Longer range shooting"
+			subtitle: "&6Longer range shooting"
 			tasks: [{
 				id: "2EDB7921B3A93EC3"
 				item: {
@@ -6706,6 +6843,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lLong Scope"
 			x: 10.0d
 			y: 3.0d
 		}
@@ -6733,7 +6871,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stop scaring mobs"
+			subtitle: "&6Stop attracting/scaring mobs"
 			tasks: [{
 				id: "242519DA176A7416"
 				item: {
@@ -6750,6 +6888,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSilencer"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -6777,7 +6916,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Even quieter"
+			subtitle: "&6Even quieter"
 			tasks: [{
 				id: "524CF289FE691EC3"
 				item: {
@@ -6794,6 +6933,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lAdvanced Silencer"
 			x: 10.0d
 			y: 4.0d
 		}
@@ -6821,7 +6961,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Less kick"
+			subtitle: "&6Less kick"
 			tasks: [{
 				id: "22740650E33F0961"
 				item: {
@@ -6838,6 +6978,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMuzzle Brake"
 			x: 9.0d
 			y: 5.0d
 		}
@@ -6869,7 +7010,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "More ammo = More better"
+			subtitle: "&6More ammo = More better"
 			tasks: [{
 				id: "09CD4C47C82C0374"
 				item: {
@@ -6883,6 +7024,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lAmmo Box"
 			x: -11.0d
 			y: 5.5d
 		}
@@ -6910,7 +7052,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Keeping your guns maintained"
+			subtitle: "&6Keeping your guns maintained"
 			tasks: [{
 				id: "2C771395BAEAE122"
 				item: {
@@ -6924,13 +7066,14 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRepair Kit"
 			x: -10.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["03C80115171EB2FC"]
 			id: "636108853C64B186"
-			subtitle: "Safety from smoke and gas"
+			subtitle: "&6Safety from smoke and gas"
 			tasks: [{
 				id: "277A248269084396"
 				item: {
@@ -6947,13 +7090,14 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lAnthralite Respirator"
 			x: -11.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["03C80115171EB2FC"]
 			id: "222EA0E326BC7794"
-			subtitle: "Improved safety from smoke and gas"
+			subtitle: "&6Improved safety from smoke and gas"
 			tasks: [{
 				id: "043DBAA50ACA5BF4"
 				item: {
@@ -6970,6 +7114,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lNetherite Respirator"
 			x: -10.0d
 			y: 6.5d
 		}
@@ -7010,6 +7155,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lStandard Bullet"
 			x: -4.5d
 			y: 13.5d
 		}
@@ -7050,6 +7196,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBuckshot"
 			x: -4.0d
 			y: 14.5d
 		}
@@ -7090,6 +7237,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPowder and Ball"
 			x: -5.5d
 			y: 13.5d
 		}
@@ -7130,6 +7278,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGrapeshot"
 			x: -5.0d
 			y: 14.5d
 		}
@@ -7170,6 +7319,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lHardened Bullet"
 			x: -3.5d
 			y: 13.5d
 		}
@@ -7210,6 +7360,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lShotgun Shell"
 			x: -2.0d
 			y: 14.5d
 		}
@@ -7249,6 +7400,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBearpack Shell"
 			x: -1.0d
 			y: 14.5d
 		}
@@ -7289,6 +7441,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCompact Copper Round"
 			x: -1.5d
 			y: 13.5d
 		}
@@ -7329,6 +7482,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lStandard Copper Round"
 			x: -0.5d
 			y: 13.5d
 		}
@@ -7369,6 +7523,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRamrod Round"
 			x: -2.5d
 			y: 13.5d
 		}
@@ -7409,6 +7564,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lHog Round"
 			x: 0.5d
 			y: 13.5d
 		}
@@ -7449,6 +7605,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lCompact Advanced Round"
 			x: 1.5d
 			y: 13.5d
 		}
@@ -7489,6 +7646,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lAdvanced Round"
 			x: 2.5d
 			y: 13.5d
 		}
@@ -7529,6 +7687,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lKrahg Round"
 			x: 3.5d
 			y: 13.5d
 		}
@@ -7569,6 +7728,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lBeowulf Round"
 			x: 4.5d
 			y: 13.5d
 		}
@@ -7609,6 +7769,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lGibbs Round"
 			x: 5.5d
 			y: 13.5d
 		}
@@ -7648,6 +7809,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lMicrojet"
 			x: 1.0d
 			y: 14.5d
 		}
@@ -7687,6 +7849,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lRocket"
 			x: 2.0d
 			y: 14.5d
 		}
@@ -7726,6 +7889,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSculkshot"
 			x: 0.0d
 			y: 14.5d
 		}
@@ -7766,6 +7930,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lNitro Buckshot"
 			x: -3.0d
 			y: 14.5d
 		}
@@ -7797,7 +7962,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Pretty much another type of magazine"
+			subtitle: "&6Pretty much another type of magazine"
 			tasks: [{
 				id: "6BA8F1C93CD61A9E"
 				item: {
@@ -7811,6 +7976,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lEmpty Cell"
 			x: -5.0d
 			y: 2.0d
 		}
@@ -7842,7 +8008,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Recycle and re-use"
+			subtitle: "&6Recycle and re-use"
 			tasks: [{
 				id: "3F1BA72DBE68628D"
 				item: {
@@ -7856,6 +8022,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lEmpty Casing Pouch"
 			x: -9.0d
 			y: 3.5d
 		}
@@ -7895,6 +8062,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lShock Cell"
 			x: 3.0d
 			y: 14.5d
 		}
@@ -7934,6 +8102,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lPlasma Cell"
 			x: 4.0d
 			y: 14.5d
 		}
@@ -7973,6 +8142,7 @@
 				}
 				type: "item"
 			}]
+			title: "&c&lSculk Cell"
 			x: 5.0d
 			y: 14.5d
 		}

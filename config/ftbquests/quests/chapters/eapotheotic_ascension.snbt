@@ -49,7 +49,7 @@
 				xp: 10
 			}]
 			size: 2.0d
-			subtitle: "Your first gems"
+			subtitle: "&eYour first gems"
 			tasks: [{
 				advancement: "apotheosis:affix/gem"
 				criterion: ""
@@ -71,7 +71,7 @@
 				id: "555ECB1476A6CEE0"
 				type: "advancement"
 			}]
-			title: "Welcome to Apotheosis!"
+			title: "&6&lWelcome to Apotheosis!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -108,7 +108,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A few ways to do this"
+			subtitle: "&eA few ways to do this"
 			tasks: [{
 				count: 4L
 				id: "6B4248E67F3D072B"
@@ -123,7 +123,7 @@
 				}
 				type: "item"
 			}]
-			title: "Crushing gemstones"
+			title: "&6&lCrushing Gemstones"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -158,7 +158,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "So what's an affix?"
+			subtitle: "&6So what's an affix?"
 			tasks: [{
 				advancement: "apotheosis:affix/root"
 				criterion: ""
@@ -177,7 +177,7 @@
 				id: "082468EA40963D92"
 				type: "advancement"
 			}]
-			title: "Apotheotic gear and affixes"
+			title: "&eApotheotic gear and affixes"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -231,6 +231,7 @@
 						}
 						id: "apotheosis:gem_cutting_table"
 					}
+					title: "&eGem Cutting Table"
 					type: "item"
 				}
 				{
@@ -266,7 +267,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find an epic affixed item"
+			subtitle: "&6Find an epic affixed item"
 			tasks: [{
 				advancement: "apotheosis:affix/epic"
 				criterion: ""
@@ -300,7 +301,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find a rare affixed item"
+			subtitle: "&6Find a rare affixed item"
 			tasks: [{
 				advancement: "apotheosis:affix/rare"
 				criterion: ""
@@ -347,7 +348,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find a mythic affixed item"
+			subtitle: "&6Find a mythic affixed item"
 			tasks: [{
 				advancement: "apotheosis:affix/mythic"
 				criterion: ""
@@ -393,7 +394,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find an artifact affixed item"
+			subtitle: "&6Find an artifact affixed item"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/artifact"
 				criterion: ""
@@ -426,7 +427,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find an esoteric affixed item"
+			subtitle: "&6Find an esoteric affixed item"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/esoteric"
 				criterion: ""
@@ -690,7 +691,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Salvaging extra gems and items"
+			subtitle: "&eSalvaging extra gems and items"
 			tasks: [{
 				id: "41EFAE0830DB63FE"
 				item: {
@@ -704,6 +705,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSalvaging Table"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -731,7 +733,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Common rarity material"
+			subtitle: "&6Common rarity material"
 			tasks: [{
 				id: "1F23F44FA00D916B"
 				item: {
@@ -771,7 +773,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Uncommon rarity material"
+			subtitle: "&6Uncommon rarity material"
 			tasks: [{
 				id: "3976CDB717DE853F"
 				item: {
@@ -825,7 +827,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Rare rarity material"
+			subtitle: "&6Rare rarity material"
 			tasks: [{
 				id: "25B99B7571CD9076"
 				item: {
@@ -865,7 +867,7 @@
 					type: "item"
 				}
 			]
-			subtitle: " Epic rarity material"
+			subtitle: " &6Epic rarity material"
 			tasks: [{
 				id: "721E66C0BBDA793B"
 				item: {
@@ -918,7 +920,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mythic rarity material"
+			subtitle: "&6Mythic rarity material"
 			tasks: [{
 				id: "129B3929F35C58FC"
 				item: {
@@ -985,7 +987,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Heirloom rarity material"
+			subtitle: "&6Heirloom rarity material"
 			tasks: [{
 				id: "44F95E31F153E9C9"
 				item: {
@@ -999,6 +1001,7 @@
 				}
 				type: "item"
 			}]
+			title: "&eCore of the Family"
 			x: -8.5d
 			y: 5.0d
 		}
@@ -1026,7 +1029,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Artifact rarity material"
+			subtitle: "&6Artifact rarity material"
 			tasks: [{
 				id: "4EEDDA851009961E"
 				item: {
@@ -1040,6 +1043,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e Artifact Shard"
 			x: -10.0d
 			y: 5.0d
 		}
@@ -1066,7 +1070,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Esoteric rarity material"
+			subtitle: "&6Esoteric rarity material"
 			tasks: [{
 				id: "4BB414864080128D"
 				item: {
@@ -1080,6 +1084,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e Galactic Core"
 			x: -11.5d
 			y: 5.0d
 		}
@@ -1108,7 +1113,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Fusing slates"
+			subtitle: "&eFusing slates"
 			tasks: [{
 				id: "07DF274303BADD2A"
 				item: {
@@ -1122,6 +1127,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lGem-Fused Slate"
 			x: 1.0d
 			y: 5.0d
 		}
@@ -1149,7 +1155,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "I'm going to need those back, please"
+			subtitle: "&eI'm going to need those back, please"
 			tasks: [{
 				id: "6AEA19BF7F011160"
 				item: {
@@ -1163,6 +1169,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSigil of Withdrawal"
 			x: 5.5d
 			y: 5.0d
 		}
@@ -1190,7 +1197,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Needed for reforging "
+			subtitle: "&eNeeded for reforging "
 			tasks: [{
 				id: "2D32DA4643339A0E"
 				item: {
@@ -1204,6 +1211,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSigil of Rebirth"
 			x: 2.5d
 			y: 5.0d
 		}
@@ -1231,7 +1239,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Removing affixes"
+			subtitle: "&eRemoving affixes"
 			tasks: [{
 				id: "15D2400CE39BCFDF"
 				item: {
@@ -1245,6 +1253,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSigil of Unnaming"
 			x: 4.0d
 			y: 5.0d
 		}
@@ -1272,7 +1281,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Augmentation of affixes"
+			subtitle: "&eAugmentation of affixes"
 			tasks: [{
 				id: "45A6443DF7510E6E"
 				item: {
@@ -1286,6 +1295,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSigil of Enhancement"
 			x: 8.5d
 			y: 5.0d
 		}
@@ -1313,7 +1323,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Add more shiney"
+			subtitle: "&eAdd more shiney"
 			tasks: [{
 				id: "4099B7C6FBD869BA"
 				item: {
@@ -1327,6 +1337,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSigil of Socketing"
 			x: 7.0d
 			y: 5.0d
 		}
@@ -1371,7 +1382,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Changing affixes"
+			subtitle: "&eChanging affixes"
 			tasks: [{
 				id: "1B305DF1A8FE8C08"
 				item: {
@@ -1385,6 +1396,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lSimple Reforging Table"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -1426,7 +1438,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mythic reforging"
+			subtitle: "&eMythic reforging"
 			tasks: [{
 				id: "4A05F232CC5EDE24"
 				item: {
@@ -1440,6 +1452,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lReforging Table"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -1484,7 +1497,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "A table for more precise re-rolls"
+			subtitle: "&eA table for more precise re-rolls"
 			tasks: [{
 				id: "16657472D6E97973"
 				item: {
@@ -1498,6 +1511,7 @@
 				}
 				type: "item"
 			}]
+			title: "&6&lAugmenting Table"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -1524,7 +1538,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Find an heirloom affixed item"
+			subtitle: "&6Find an heirloom affixed item"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/heirloom"
 				criterion: ""
@@ -1561,7 +1575,7 @@
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "067FA5C289FD4FEF"
-			subtitle: "Ignores Light Conditions"
+			subtitle: "&6Ignores Light Conditions"
 			tasks: [{
 				id: "69B3865DE012722E"
 				item: {
@@ -1575,13 +1589,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lSoul Lantern"
 			x: -1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "5917DA44D16648CD"
-			subtitle: "Spawns Babies"
+			subtitle: "&6Spawns Babies"
 			tasks: [{
 				id: "0061FA30451DEDD8"
 				item: {
@@ -1595,13 +1610,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lTurtle Egg"
 			x: 0.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "28F81AB617E77D06"
-			subtitle: "+ Spawn Count"
+			subtitle: "&6+ Spawn Count"
 			tasks: [{
 				id: "215B58E8C40AE590"
 				item: {
@@ -1615,13 +1631,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lEcho Shards"
 			x: -2.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "785543718448CCE7"
-			subtitle: "- Max Delay"
+			subtitle: "&6- Max Delay"
 			tasks: [{
 				id: "01C71EADE03967EB"
 				item: {
@@ -1635,13 +1652,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lPrecision Mechanism"
 			x: -2.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "622A49534DFDC1E4"
-			subtitle: "+ Max Entities"
+			subtitle: "&6+ Max Entities"
 			tasks: [{
 				id: "4F25DEE2AE97AFA0"
 				item: {
@@ -1655,13 +1673,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lNether Star"
 			x: -2.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "6F332E6682D5B0B0"
-			subtitle: "Silence"
+			subtitle: "&6Silence"
 			tasks: [{
 				id: "3FF97C7FEED03C86"
 				item: {
@@ -1675,13 +1694,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lWhite Wool"
 			x: 2.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "1BECBF73E0153C12"
-			subtitle: "No AI"
+			subtitle: "&6No AI"
 			tasks: [{
 				id: "63F80205DD2F5D2C"
 				item: {
@@ -1695,13 +1715,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lChorus Fruit"
 			x: 2.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "148F023E12BF1494"
-			subtitle: "- Min Spawn delay"
+			subtitle: "&6- Min Spawn Delay"
 			tasks: [{
 				id: "3C9FE972077FA8EB"
 				item: {
@@ -1715,13 +1736,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lTreated Brass Ingot"
 			x: 2.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "1272996A113663C4"
-			subtitle: "Redstone Sensitive"
+			subtitle: "&6Redstone Sensitive"
 			tasks: [{
 				id: "2B60E93A6FD2B0FA"
 				item: {
@@ -1735,13 +1757,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lRedstone Comparator"
 			x: 1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "2A21BF872E30B02B"
-			subtitle: "Ignore players"
+			subtitle: "&6Ignore Players"
 			tasks: [{
 				id: "4F989F74548171C0"
 				item: {
@@ -1755,13 +1778,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lEther Gas Bucket"
 			x: -1.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "40F6AE83FEC2D255"
-			subtitle: "Ignores Spawn Conditions"
+			subtitle: "&6Ignores Spawn Conditions"
 			tasks: [{
 				id: "0F12E1137DD90E01"
 				item: {
@@ -1775,13 +1799,14 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lIrradium Bar"
 			x: 0.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "2B1DAACDAD3EDA01"
-			subtitle: "+ Activation Range"
+			subtitle: "&6+ Activation Range"
 			tasks: [{
 				id: "251A5E5F5A462C3F"
 				item: {
@@ -1795,6 +1820,7 @@
 				}
 				type: "item"
 			}]
+			title: "&e&lPrismarine Crystals"
 			x: 1.0d
 			y: 15.5d
 		}
@@ -1812,12 +1838,13 @@
 				id: "minecraft:quartz"
 			}
 			id: "37C05D5F67CA0AA6"
-			subtitle: "Nether quartz in off-hand"
+			subtitle: "&6Nether quartz in off-hand"
 			tasks: [{
 				id: "233707B6AC9943B8"
 				title: "Inverting spawner settings"
 				type: "checkmark"
 			}]
+			title: "&e&lInverting Spawner Settings"
 			x: 0.0d
 			y: 17.0d
 		}
@@ -1902,6 +1929,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l16x Seashelf"
 			x: -8.0d
 			y: 9.0d
 		}
@@ -1955,6 +1983,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lInfused Seashelf"
 			x: -8.0d
 			y: 10.5d
 		}
@@ -1997,6 +2026,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l2x Heart-Forged Seashelf"
 			x: -9.5d
 			y: 12.0d
 		}
@@ -2051,6 +2081,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l7x Crystalline Seashelf"
 			x: -6.5d
 			y: 12.0d
 		}
@@ -2093,6 +2124,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l10x Dormant Deepshelf"
 			x: -8.0d
 			y: 12.0d
 		}
@@ -2139,6 +2171,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l10x Deepshelf"
 			x: -8.0d
 			y: 13.5d
 		}
@@ -2181,6 +2214,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l5x Soul-Touched Deepshelf"
 			x: -9.5d
 			y: 14.0d
 		}
@@ -2223,6 +2257,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l5x Echoing Deepshelf"
 			x: -6.5d
 			y: 14.0d
 		}
@@ -2268,6 +2303,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l5x Soul-Touched Sculkshelf"
 			x: -9.5d
 			y: 15.5d
 		}
@@ -2313,6 +2349,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l5x Echoing Sculkshelf"
 			x: -6.5d
 			y: 15.5d
 		}
@@ -2367,6 +2404,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l10x Melonshelf"
 			x: -8.0d
 			y: 15.0d
 		}
@@ -2410,6 +2448,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lInfused Dragon's Breath"
 			x: -8.0d
 			y: 16.5d
 		}
@@ -2454,6 +2493,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lDraconic Endshelf"
 			x: -8.0d
 			y: 17.5d
 		}
@@ -2503,6 +2543,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&l3x Shelf of End Fused Rectification"
 			x: -8.0d
 			y: 18.5d
 		}

@@ -100,6 +100,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lNovice Spell Book"
 			x: -2.5d
 			y: -8.5d
 		}
@@ -127,6 +128,7 @@
 					type: "item"
 				}
 			]
+			size: 2.0d
 			tasks: [{
 				id: "6D3AE6EE129E0AE9"
 				item: {
@@ -140,12 +142,13 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.5d
+			title: "&d&lWilden Tribute"
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["1D413A634B40C893"]
-			description: ["The &d&lEnchanting Apparatus&r&r is used for crafting special machines, curios, and equipment used to progress in Ars Nouveau."]
+			description: ["The &dEnchanting Apparatus&r and &dArcane core&r are used in conjunction with up to eight pedestals for crafting special machines, curios, and equipment used to progress in Ars Nouveau."]
 			id: "18612C429179D483"
 			rewards: [
 				{
@@ -169,19 +172,35 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				id: "4BAF7CE616FDE94C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "4BAF7CE616FDE94C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "ars_nouveau:enchanting_apparatus"
 					}
-					id: "ars_nouveau:enchanting_apparatus"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "310154F121F81DE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "ars_nouveau:arcane_core"
+					}
+					type: "item"
+				}
+			]
+			title: "&d&lEnchanting Apparatus"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -222,6 +241,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lMagebloom Fiber"
 			x: 0.0d
 			y: 7.5d
 		}
@@ -308,6 +328,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lScribes Table"
 			x: 2.5d
 			y: -8.5d
 		}
@@ -347,6 +368,7 @@
 				}
 				type: "item"
 			}]
+			title: "&dMage's Spell Book"
 			x: -2.5d
 			y: -10.0d
 		}
@@ -374,6 +396,7 @@
 				}
 				type: "item"
 			}]
+			title: "&dArchmage Spell Book"
 			x: -2.5d
 			y: -11.5d
 		}
@@ -416,6 +439,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lImbuement Chamber"
 			x: 0.0d
 			y: -7.0d
 		}
@@ -461,6 +485,7 @@
 				title: "Archwood"
 				type: "item"
 			}]
+			title: "&d&lArchwood"
 			x: 0.0d
 			y: -8.5d
 		}
@@ -493,7 +518,7 @@
 				id: "75A4518F74E1DEDC"
 				type: "checkmark"
 			}]
-			title: "Tier 1 Glyphs"
+			title: "&d&lTier 1 Glyphs"
 			x: 7.0d
 			y: -8.5d
 		}
@@ -526,7 +551,7 @@
 				id: "10BEFFA251D4C1E0"
 				type: "checkmark"
 			}]
-			title: "Tier 2 Glyphs"
+			title: "&d&lTier 2 Glyphs"
 			x: 14.0d
 			y: -8.5d
 		}
@@ -559,7 +584,7 @@
 				id: "2C3904261556A2F9"
 				type: "checkmark"
 			}]
-			title: "Tier 3 Glyphs"
+			title: "&d&lTier 3 Glyphs"
 			x: 21.0d
 			y: -8.5d
 		}
@@ -601,6 +626,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lSource Gem"
 			x: 0.0d
 			y: -5.0d
 		}
@@ -643,6 +669,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lSource Jar"
 			x: 2.5d
 			y: -5.0d
 		}
@@ -889,70 +916,12 @@
 				}
 				type: "item"
 			}]
-			title: "Sourcestone"
+			title: "&d&lSourcestone"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["18612C429179D483"]
-			description: ["Crafting with the &l&dEnchanting Apparatus&r&r requires up to eight &eArcane Pedestals&r, an &eArcane Core&r, and the &dEnchanting Apparatus&r block."]
-			id: "2B1D941319C6128B"
-			rewards: [
-				{
-					id: "172495951AD1EF5F"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "7B45D3C58B7CB7C8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					count: 8L
-					id: "53EE84DEF7961FC9"
-					item: {
-						Count: 8
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "ars_nouveau:arcane_pedestal"
-					}
-					type: "item"
-				}
-				{
-					id: "6E72F378A5CA12FB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "ars_nouveau:arcane_core"
-					}
-					type: "item"
-				}
-			]
-			title: "Arcane Core and Pedestals"
-			x: 0.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2B1D941319C6128B"]
 			description: [
 				"A &d&lbrazier&r&r serves as both decoration and a ritual tool. To light it for decoration, cast a Light spell; the brazier will change color based on the spell used. A redstone signal will disable any active ritual."
 				""
@@ -996,8 +965,9 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.5d
+			title: "&d&lRitual Brazier"
+			x: 0.0357142857142847d
+			y: 2.4285714285714306d
 		}
 		{
 			dependencies: ["6CF308170079ADCC"]
@@ -2166,7 +2136,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["2B1D941319C6128B"]
+			dependencies: ["6CF308170079ADCC"]
 			description: ["Once you have setup your apparatus, you should craft your first &l&dMagebloom Seed&r&r. A magically infused flower, Mageblooms provide additional source to nearby Agronomic Sourcelinks as they grow and provide a source of Magebloom Fiber. Mageblooms can also be used in crafting Potions of Spell Damage, increasing the damage of your spells."]
 			id: "470B3A7008E2E1DE"
 			rewards: [
@@ -2204,6 +2174,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lMagebloom Seed"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -2286,6 +2257,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lAlteration Table"
 			x: -1.5d
 			y: 7.5d
 		}
@@ -2367,6 +2339,7 @@
 				}
 				type: "item"
 			}]
+			title: "&dMagebloom Block"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -10378,6 +10351,7 @@
 				}
 				type: "item"
 			}]
+			title: "&d&lMark of Mastery"
 			x: -7.5d
 			y: 0.0d
 		}
@@ -10499,6 +10473,7 @@
 				}
 				type: "item"
 			}]
+			title: "&dStarbuncle Token"
 			x: 1.7738095238095184d
 			y: -0.9047619047618696d
 		}
@@ -10540,6 +10515,7 @@
 				}
 				type: "item"
 			}]
+			title: "&dStarbuncle Charm"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -10581,6 +10557,7 @@
 				}
 				type: "item"
 			}]
+			title: "&dStarbuncle Wheel"
 			x: 4.0d
 			y: -1.5d
 		}
@@ -10608,6 +10585,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [
 				{
 					id: "2A55EEACF26A204D"
@@ -10678,8 +10656,8 @@
 					type: "item"
 				}
 			]
-			title: "Better Casting"
-			x: -3.0d
+			title: "&d&lNovice Robes"
+			x: 0.0d
 			y: 11.0d
 		}
 		{
@@ -10728,7 +10706,7 @@
 				}
 				type: "item"
 			}]
-			title: "Spell Mana"
+			title: "&dSpell Mana"
 			x: -2.5d
 			y: -7.199999999999999d
 		}
@@ -10772,7 +10750,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 11.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -10812,7 +10790,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 15.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -10852,7 +10830,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 15.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -10892,7 +10870,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -10932,7 +10910,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -10972,7 +10950,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -11015,7 +10993,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11055,7 +11033,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11095,7 +11073,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11136,7 +11114,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11176,7 +11154,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 15.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11217,7 +11195,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 15.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11257,7 +11235,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 15.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11300,7 +11278,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11343,7 +11321,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11383,7 +11361,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 15.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11423,7 +11401,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
@@ -11464,7 +11442,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["5E96FAABB9DF4C39"]
@@ -12077,7 +12055,7 @@
 				}
 			]
 			title: "&5&lUpgrade your armor!"
-			x: -4.5d
+			x: -1.5d
 			y: 11.0d
 		}
 		{
@@ -12120,6 +12098,27 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["18612C429179D483"]
+			id: "0D1AC5188DB39443"
+			tasks: [{
+				count: 8L
+				id: "77116A08E0DDBF0D"
+				item: {
+					Count: 8
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "ars_nouveau:arcane_pedestal"
+				}
+				type: "item"
+			}]
+			title: "&d8x Arcane Pedestal"
+			x: 1.7857142857142847d
+			y: 0.0357142857142847d
 		}
 	]
 	title: "&eArs Nouveau"

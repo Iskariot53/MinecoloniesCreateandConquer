@@ -75,12 +75,13 @@
 				}
 			]
 			size: 2.5d
-			subtitle: "How to Train Your Dragon"
+			subtitle: "&eHow to Train Your Dragon"
 			tasks: [{
 				id: "5A7ADC5D35BE0AC6"
 				title: "Dragon Mounts"
 				type: "checkmark"
 			}]
+			title: "&a&lDragon Mounts"
 			x: 9.5d
 			y: -1.5d
 		}
@@ -114,7 +115,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Forest Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Forest Dragon Egg"
 			tasks: [{
 				id: "46F5EDEE8310253F"
 				item: {
@@ -135,7 +136,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Forest Dragon"
+			title: "&a&lForest Dragon"
 			x: 11.0d
 			y: 0.0d
 		}
@@ -169,7 +170,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Fire Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Fire Dragon Egg"
 			tasks: [{
 				id: "5DA06C4032F2FAD1"
 				item: {
@@ -190,7 +191,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Fire Dragon"
+			title: "&a&lFire Dragon"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -224,7 +225,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into an Ice Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into an Ice Dragon Egg"
 			tasks: [{
 				id: "34F3E5626CC021B1"
 				item: {
@@ -245,7 +246,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ice Dragon"
+			title: "&a&lIce Dragon"
 			x: 9.5d
 			y: 3.0d
 		}
@@ -279,7 +280,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Water Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Water Dragon Egg"
 			tasks: [{
 				id: "29D77EF4D41DC716"
 				item: {
@@ -300,7 +301,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Water Dragon"
+			title: "&a&lWater Dragon"
 			x: 11.0d
 			y: 4.0d
 		}
@@ -334,7 +335,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Nether Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Nether Dragon Egg"
 			tasks: [{
 				id: "6C6B3C2FC795DAD2"
 				item: {
@@ -355,7 +356,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Nether Dragon"
+			title: "&a&lNether Dragon"
 			x: 7.0d
 			y: 1.0d
 		}
@@ -389,7 +390,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into an Aether Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into an Aether Dragon Egg"
 			tasks: [{
 				id: "1506BE6CE1850B9A"
 				item: {
@@ -410,7 +411,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Aether Dragon"
+			title: "&a&lAether Dragon"
 			x: 12.0d
 			y: 1.0d
 		}
@@ -444,7 +445,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Ghost Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Ghost Dragon Egg"
 			tasks: [{
 				id: "62B390AE6AD6E2BE"
 				item: {
@@ -465,7 +466,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ghost Dragon"
+			title: "&a&lGhost Dragon"
 			x: 13.0d
 			y: 2.0d
 		}
@@ -498,7 +499,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Hatch The Ender Dragon Egg"
+			subtitle: "&eHatch The Ender Dragon Egg"
 			tasks: [{
 				id: "27C33381F5867F6A"
 				item: {
@@ -519,7 +520,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ender Dragon"
+			title: "&a&lEnder Dragon"
 			x: 9.5d
 			y: 1.5d
 		}
@@ -553,7 +554,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into an Aurora Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into an Aurora Dragon Egg"
 			tasks: [{
 				id: "16292CBD5BC65113"
 				item: {
@@ -574,7 +575,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Aurora Dragon"
+			title: "&a&lAurora Dragon"
 			x: 10.5d
 			y: 1.0d
 		}
@@ -608,7 +609,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into an Enchantment Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into an Enchantment Dragon Egg"
 			tasks: [{
 				id: "215D48F618B209A8"
 				item: {
@@ -629,7 +630,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Enchantment Dragon"
+			title: "&a&lEnchantment Dragon"
 			x: 8.5d
 			y: 1.0d
 		}
@@ -663,7 +664,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Storm Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Storm Dragon Egg"
 			tasks: [{
 				id: "63CAC81468D6ACEC"
 				item: {
@@ -684,7 +685,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Storm Dragon"
+			title: "&a&lStorm Dragon"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -718,7 +719,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Sunlight Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Sunlight Dragon Egg"
 			tasks: [{
 				id: "1EE27D5A3015B820"
 				item: {
@@ -739,7 +740,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sunlight Dragon"
+			title: "&a&lSunlight Dragon"
 			x: 11.5d
 			y: 2.5d
 		}
@@ -773,7 +774,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Sylphid Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Sylphid Dragon Egg"
 			tasks: [{
 				id: "3338960C1F492883"
 				item: {
@@ -794,7 +795,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sylphid Dragon"
+			title: "&a&lSylphid Dragon"
 			x: 13.0d
 			y: 3.5d
 		}
@@ -828,7 +829,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Terra Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Terra Dragon Egg"
 			tasks: [{
 				id: "66EFB7EF88CC757F"
 				item: {
@@ -849,7 +850,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Terra Dragon"
+			title: "&a&lTerra Dragon"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -883,7 +884,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Wither Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Wither Dragon Egg"
 			tasks: [{
 				id: "4167F80AF440AEC8"
 				item: {
@@ -904,7 +905,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Wither Dragon"
+			title: "&a&lWither Dragon"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -938,7 +939,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg Into a Zombie Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg Into a Zombie Dragon Egg"
 			tasks: [{
 				id: "030C97DAE68B4C31"
 				item: {
@@ -959,7 +960,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Zombie Dragon"
+			title: "&a&lZombie Dragon"
 			x: 6.0d
 			y: 3.5d
 		}
@@ -1047,7 +1048,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "Godjira!"
+			subtitle: "&eGodjira!"
 			tasks: [{
 				id: "5A2F798F2236CD20"
 				item: {
@@ -1061,6 +1062,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lTremorzilla Egg"
 			x: 9.5d
 			y: 9.142857142857139d
 		}
@@ -1094,7 +1096,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Jurassic World"
+			subtitle: "&eJurassic World"
 			tasks: [{
 				id: "12B0214164A3FFBF"
 				item: {
@@ -1108,6 +1110,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lTremorsaurus Egg"
 			x: 8.0d
 			y: 8.0d
 		}
@@ -1139,7 +1142,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "If you look really close, it's actualy smiling"
+			subtitle: "&eIf you look really close, it's actually smiling"
 			tasks: [{
 				id: "198C43B86F01B9DF"
 				item: {
@@ -1153,6 +1156,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lImmortal Embryo"
 			x: 11.0d
 			y: 8.0d
 		}
@@ -1191,7 +1195,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harvested from it's mortal enemy"
+			subtitle: "&eHarvested from it's mortal enemy"
 			tasks: [{
 				id: "0903A9BF26ACF6CB"
 				item: {
@@ -1205,6 +1209,7 @@
 				}
 				type: "item"
 			}]
+			title: "&a&lTectonic Shard"
 			x: 9.5d
 			y: 11.0d
 		}
@@ -1233,7 +1238,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Primordial Cave"
+			subtitle: "&ePrimordial Cave"
 			tasks: [
 				{
 					advancement: "alexscaves:alexscaves/tame_subterranodon"
@@ -1255,7 +1260,7 @@
 					type: "item"
 				}
 			]
-			title: "Subterranodon"
+			title: "&a&lSubterranodon"
 			x: 9.5d
 			y: 6.5d
 		}
@@ -1283,7 +1288,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Candy Cavity"
+			subtitle: "&eCandy Cavity"
 			tasks: [
 				{
 					advancement: "alexscaves:alexscaves/tame_candicorn"
@@ -1306,7 +1311,7 @@
 					type: "item"
 				}
 			]
-			title: "Candicorn"
+			title: "&a&lCandicorn"
 			x: 12.5d
 			y: 6.5d
 		}
@@ -1338,7 +1343,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Observe it with a spyglass"
+			subtitle: "&eObserve it with a spyglass"
 			tasks: [
 				{
 					advancement: "alexsmobs:alexsmobs/laviathan_spyglass"
@@ -1390,7 +1395,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "Transform a Dragon Egg into a Moonlight Dragon Egg"
+			subtitle: "&eTransform a Dragon Egg into a Moonlight Dragon Egg"
 			tasks: [{
 				id: "314E846A227B215B"
 				item: {
@@ -1411,6 +1416,7 @@
 				match_nbt: true
 				type: "item"
 			}]
+			title: "&a&lMoonlight Dragon Egg"
 			x: 9.5d
 			y: 4.5d
 		}
