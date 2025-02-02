@@ -78,3 +78,17 @@ craftingTable.addShaped("rose_quartz_from_blocks_of_rose_quartz", <item:create:r
 	[[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>],
 	[<item:create_dd:seething_ablaze_rod>, <item:create_dd:rubber_block>, <item:create_dd:seething_ablaze_rod>],
 	[<item:create:sail_frame>, <item:create_dd:seething_ablaze_rod>, <item:create:sail_frame>]]);
+<recipetype:create:sandpaper_polishing>.addJsonRecipe("bop.polished_rose_quartz",
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "item": "biomesoplenty:rose_quartz_cluster"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:polished_rose_quartz"
+    }
+  ]
+});

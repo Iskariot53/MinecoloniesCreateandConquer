@@ -14,7 +14,9 @@
 	   Use a JSON validator such as https://jsonlint.com/ to ensure your JSON strings are correct.
 	*/
 	"emf_model_modifiers": {
-		"minecraft:vindicator": "{\"part_modifiers\":{\"body#EMF_body#EMF_arms_rotation\":{\"visible\":false},\"left_leg#EMF_left_leg\":{\"offset_position\":[0.0,12.0,0.0]},\"left_arm\":{\"visible\":true},\"right_leg#EMF_right_leg\":{\"offset_position\":[0.0,12.0,0.0]},\"right_arm\":{\"visible\":true}}}"
+		"minecraft:vindicator": "{\"part_modifiers\":{\"body#EMF_body#EMF_arms_rotation\":{\"visible\":false},\"left_leg#EMF_left_leg\":{\"offset_position\":[0.0,12.0,0.0]},\"left_arm\":{\"visible\":true},\"right_leg#EMF_right_leg\":{\"offset_position\":[0.0,12.0,0.0]},\"right_arm\":{\"visible\":true}}}",
+		"minecraft:pillager": "{\"part_modifiers\":{\"left_leg#EMF_left_leg\":{\"animated_group\":[\"leftLeg\"],\"offset_position\":[0.0,12.0,0.0]},\"right_leg#EMF_right_leg\":{\"animated_group\":[\"rightLeg\"],\"offset_position\":[0.0,12.0,0.0]}}}",
+		"takesapillage:legioner": "{\"part_modifiers\":{\"left_leg#EMF_left_leg\":{\"animated_group\":[\"leftLeg\"],\"offset_position\":[0.0,12.0,0.0]},\"right_leg#EMF_right_leg\":{\"animated_group\":[\"rightLeg\"],\"offset_position\":[0.0,12.0,0.0]}}}"
 	},
 	"guess_emf_part_modifier_animated_groups": true
 }
