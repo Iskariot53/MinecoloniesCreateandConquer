@@ -1359,3 +1359,51 @@ craftingTable.remove(<item:mekaweapons:bow_limb>);
 [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 [<item:minecraft:string>, <item:minecraft:string>, <item:minecraft:string>],
 [<tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>]]);
+
+craftingTable.remove(<item:mekanismgenerators:heat_generator>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.heat_generator", <item:mekanismgenerators:heat_generator>,
+[[<tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/iron>],
+[<tag:items:minecraft:planks>, <item:mekanism:ingot_osmium>, <tag:items:minecraft:planks>],
+[<item:create:brass_ingot>, <item:minecraft:furnace>, <item:create:brass_ingot>]]);
+
+craftingTable.remove(<item:mekanismgenerators:solar_generator>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.solar_generator", <item:mekanismgenerators:solar_generator>,
+[[<item:mekanismgenerators:solar_panel>, <item:mekanismgenerators:solar_panel>, <item:mekanismgenerators:solar_panel>],
+[<item:mekanism:alloy_infused>, <item:create:brass_ingot>, <item:mekanism:alloy_infused>],
+[<item:mekanism:ingot_osmium>, <item:mekanism:energy_tablet>, <item:mekanism:ingot_osmium>]]);
+
+craftingTable.remove(<item:mekanismgenerators:advanced_solar_generator>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.advanced_solar_generator", <item:mekanismgenerators:advanced_solar_generator>,
+[[<item:mekanismgenerators:solar_generator>, <item:mekanism:alloy_infused>, <item:mekanismgenerators:solar_generator>],
+[<item:mekanismgenerators:solar_generator>, <item:mekanism:alloy_infused>, <item:mekanismgenerators:solar_generator>],
+[<item:mekanism:ingot_osmium>, <item:create:brass_ingot>, <item:mekanism:ingot_osmium>]]);
+
+craftingTable.remove(<item:mekanismgenerators:wind_generator>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.wind_generator", <item:mekanismgenerators:wind_generator>,
+[[<item:minecraft:air>, <item:mekanism:ingot_osmium>, <item:minecraft:air>],
+[<item:mekanism:ingot_osmium>, <item:mekanism:alloy_infused>, <item:mekanism:ingot_osmium>],
+[<item:mekanism:energy_tablet>, <item:industrialforegoing:plastic>, <item:mekanism:energy_tablet>]]);
+
+craftingTable.remove(<item:mekanismgenerators:bio_generator>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.bio_generator", <item:mekanismgenerators:bio_generator>,
+[[<item:minecraft:redstone>, <item:mekanism:alloy_infused>, <item:minecraft:redstone>],
+[<tag:items:forge:fuels/bio>, <item:mekanism:basic_control_circuit>, <tag:items:forge:fuels/bio>],
+[<item:mekanism:ingot_osmium>, <item:create:precision_mechanism>, <item:mekanism:ingot_osmium>]]);
+
+craftingTable.remove(<item:mekanismgenerators:gas_burning_generator>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.gas_burning_generator", <item:mekanismgenerators:gas_burning_generator>,
+[[<item:industrialforegoing:plastic>, <item:mekanism:alloy_infused>, <item:industrialforegoing:plastic>],
+[<item:create:precision_mechanism>, <item:mekanism:electrolytic_core>, <item:create:precision_mechanism>],
+[<item:industrialforegoing:plastic>, <item:mekanism:alloy_infused>, <item:industrialforegoing:plastic>]]);
+
+craftingTable.remove(<item:mekanismgenerators:solar_panel>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.solar_panel", <item:mekanismgenerators:solar_panel>,
+[[<tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>, <tag:items:forge:glass_panes>],
+[<item:minecraft:redstone>, <item:mekanism:alloy_infused>, <item:minecraft:redstone>],
+[<item:mekanism:ingot_osmium>, <item:mekanism:ingot_osmium>, <item:mekanism:ingot_osmium>]]);
+
+craftingTable.remove(<item:mekanismgenerators:rotational_complex>);
+<recipetype:create:mechanical_crafting>.addRecipe("mekanismgenerators.rotational_complex", <item:mekanismgenerators:rotational_complex>,
+[[<tag:items:forge:ingots/steel>, <item:mekanism:alloy_infused>, <tag:items:forge:ingots/steel>],
+[<item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_infused>, <item:mekanism:advanced_control_circuit>],
+[<tag:items:forge:ingots/steel>, <item:mekanism:alloy_infused>, <tag:items:forge:ingots/steel>]]);

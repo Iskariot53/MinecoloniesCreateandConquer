@@ -34,6 +34,8 @@ craftingTable.remove(<item:mekanism:module_motorized_servo_unit>);
 craftingTable.remove(<item:mekanism:module_hydraulic_propulsion_unit>);
 craftingTable.remove(<item:mekanism:module_magnetic_attraction_unit>);
 craftingTable.remove(<item:mekanism:module_frost_walker_unit>);
+craftingTable.remove(<item:mekanismgenerators:module_solar_recharging_unit>);
+craftingTable.remove(<item:mekanismgenerators:module_geothermal_generator_unit>);
 craftingTable.remove(<item:reliquary:magicbane>);
 craftingTable.remove(<item:reliquary:fertile_lily_pad>);
 craftingTable.remove(<item:bhc:blade_of_vitality>);
