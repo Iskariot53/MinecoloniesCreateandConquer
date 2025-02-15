@@ -174,6 +174,9 @@
 	#EnderGuardianBlockBreaking radius
 	#Range: 0 ~ 20
 	"EnderGuardianBlockBreaking Z" = 15
+	#EnderGuardian's DamageTime
+	#Range: 0 ~ 100
+	EnderGuardianDamageTime = 30
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -207,6 +210,9 @@
 	"Monstrosity's prevent attacks from far away Range" = 18.0
 	#Monstrosity's block breaking ignore the MobGriefing
 	monstrosityBlockBreaking = true
+	#Monstrosity's DamageTime
+	#Range: 0 ~ 100
+	MonstrosityDamageTime = 10
 
 ["Ender Golem"]
 	#Ender Golem's block breaking ignore the MobGriefing
@@ -242,6 +248,9 @@
 	IgnisDamageCap = 20.0
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
+	#Ignis's DamageTime
+	#Range: 0 ~ 100
+	IgnisDamageTime = 15
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -289,6 +298,9 @@
 	#The Harbinger's charge attack Hp Damage
 	#Range: 0.0 ~ 1.0
 	"The Harbinger's charge attack Hp Damage" = 0.06
+	#Harbinger's DamageTime
+	#Range: 0 ~ 100
+	"The Harbinger DamageTime" = 12
 
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
@@ -322,6 +334,9 @@
 	LeviathanBlockBreaking = true
 	#Leviathan Immune Out of Water
 	LeviathanImmuneOutofWater = true
+	#Leviathan's DamageTime
+	#Range: 0 ~ 100
+	"Leviathan DamageTime" = 15
 
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
@@ -380,6 +395,9 @@
 	#Remnant's EarthQuake Damage
 	#Range: 0.0 ~ 1000000.0
 	"Remnant's EarthQuakeDamage" = 8.0
+	#Ancient Remnant's DamageTime
+	#Range: 0 ~ 100
+	"Ancient Remnant DamageTime" = 12
 
 [Koboleton]
 	#Cause Koboleton to Drop Item In Hand Percent
@@ -435,6 +453,9 @@
 	"Maledictus's Phantom Arrow Damage" = 5.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
 	MaledictusBlockBreaking = true
+	#Maledictus's DamageTime
+	#Range: 0 ~ 100
+	"Maledictus DamageTime" = 30
 
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -502,7 +523,7 @@
 
 [Block]
 	#Cursed Tombstone Summon cooldown Minute
-	#Range: 3 ~ 300
+	#Range: 1 ~ 300
 	"Cursed Tombstone Summon cooldown Minute" = 30
 
 [Wadjet]
