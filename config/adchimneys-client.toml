@@ -10,7 +10,7 @@
 	#If true, smoke particles will collide with obstacles
 	canCollide = true
 	#If true, all emitters will produce smoke even without connected chimneys
-	emitWithoutChimney = true
+	emitWithoutChimney = false
 	#Use vanilla smoke particles for compatibility with some mods.
 	#Limitations: no wind, no coloring, no collisions
 	useVanillaSmokeParticles = false
