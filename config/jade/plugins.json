@@ -129,6 +129,7 @@
     "fridge": true,
     "oven": true,
     "sink": true,
+    "preservation_chamber": true,
     "milk_jar": true,
     "toaster": true
   },
@@ -164,6 +165,9 @@
   },
   "lootr": {
     "info": true
+  },
+  "balm": {
+    "jade": true
   },
   "productivebees": {
     "solitary_nest": true,

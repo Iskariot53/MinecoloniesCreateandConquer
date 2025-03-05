@@ -72,6 +72,7 @@ stoneCutter.addRecipe("create_villagerology.sc_polished_marble_slab", <item:crea
 <tag:items:forge:stripped_logs>.add(<item:enhanced_mushrooms:stripped_mushroom_hyphae>);
 
 craftingTable.addShaped("rose_quartz_from_blocks_of_rose_quartz", <item:create:rose_quartz>, [[<item:create:rose_quartz_block> * 2]]);
+craftingTable.addShaped("rose_quartz_from_bop_blocks_of_rose_quartz", <item:create:rose_quartz>, [[<item:biomesoplenty:rose_quartz_block> * 4]]);
 	
 
 	craftingTable.addShaped("fan_catalyst/seething_sail", <item:create_dd:seething_sail> * 4,

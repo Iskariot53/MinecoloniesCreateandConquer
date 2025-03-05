@@ -7,13 +7,6 @@
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
-	#custombossbar(on/off)
-	"custombossbar(on/off)" = true
-	#BossMusic(on/off)
-	"BossMusic(on/off)" = true
-	#BossMusicVolume(denominator)
-	#Range: 1 ~ 1000000
-	BossMusicVolume = 1
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -549,4 +542,16 @@
 	#Ministrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MinistrosityHealthMultiplier = 1.0
+
+["bosses Common settings"]
+	#custombossbar(on/off)
+	"custombossbar(on/off)" = true
+	#BossMusic(on/off)
+	"BossMusic(on/off)" = true
+	#BossMusicVolume(denominator)
+	#Range: 1 ~ 1000000
+	BossMusicVolume = 1
+	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
+	#Range: 0 ~ 200
+	ReturnHome = 20
 

@@ -1796,6 +1796,7 @@
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_osmium>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_unobtainium>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_unobtainium>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_brass>);
 		
 
 //GLASS CHICKEN
@@ -2258,6 +2259,7 @@
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_bronze");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_steel");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_uranium");
+	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier6/roostv6_brass");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_nickel");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_electrum");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_invar");
@@ -2648,4 +2650,24 @@
 		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.uranium_chicken", <item:chicken_roost:c_uranium>, 
 		[[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>], 
 		[<item:mekanism:block_uranium>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:block_uranium>], 
-		[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>]]);		
+		[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>]]);
+
+		craftingTable.addShaped("crafting.brass_chicken", <item:chicken_roost:c_brass>, 
+		[[<item:create:brass_block>, <item:create:brass_ingot>, <item:create:brass_block>], 
+		[<item:create:brass_ingot>, <item:chicken_roost:chicken_essence_tier_6>, <item:create:brass_ingot>], 
+		[<item:create:brass_block>, <item:create:brass_ingot>, <item:create:brass_block>]]);	
+
+			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.brasschicken", {
+		  "type": "chicken_roost:roost_output",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier6orup"
+			},
+			{
+			  "item": "chicken_roost:c_brass"
+			}
+		  ],
+		  "output": {
+			"item": "create:brass_nugget"
+		  }
+		});		
