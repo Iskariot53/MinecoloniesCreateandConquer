@@ -12,7 +12,7 @@
 	allowotherdimcolonies = true
 	#Max citizens in one colony. [Default: 250, min: 100, max: 500]
 	#Range: 100 ~ 500
-	maxcitizenpercolony = 250
+	maxcitizenpercolony = 150
 	#Should development features be enabled (might be buggy)? [Default: false]
 	enableindevelopmentfeatures = false
 	#Should citizen name tags be rendered? [Default: true]
@@ -26,7 +26,7 @@
 	luckyblockchance = 1
 	#The minimum level a Town Hall has to be to allow teleportation to allied colonies. [Default: 3, min: 0, max: 5]
 	#Range: 0 ~ 5
-	minthleveltoteleport = 5
+	minthleveltoteleport = 3
 	#Food consumption modifier. [Default: 1.000000, min: 0.100000, max: 100.000000]
 	#Range: 0.1 ~ 100.0
 	foodmodifier = 1.0
@@ -92,7 +92,7 @@
 	initialColonySize = 8
 	#Max distance (in blocks) from world spawn for a colony. [Default: 30000, min: 1000, max: 2147483647]
 	#Range: > 1000
-	maxdistancefromworldspawn = 30000
+	maxdistancefromworldspawn = 50000
 	#Min distance (in blocks) from world spawn for a colony. [Default: 0, min: 0, max: 1000]
 	#Range: 0 ~ 1000
 	mindistancefromworldspawn = 0
@@ -114,9 +114,9 @@
 	averagenumberofnightsbetweenraids = 14
 	#The minimum number of nights between raids. [Default: 10, min: 1, max: 30]
 	#Range: 1 ~ 30
-	minimumnumberofnightsbetweenraids = 10
+	minimumnumberofnightsbetweenraids = 3
 	#Should mobs attack citizens? [Default: true]
-	mobattackcitizens = true
+	mobattackcitizens = false
 	#minecolonies.config.shouldraiderbreakdoors.comment [Default: true]
 	shouldraiderbreakdoors = true
 	#minecolonies.config.guarddamagemultiplier.comment [Default: 1.000000, min: 0.100000, max: 15.000000]
