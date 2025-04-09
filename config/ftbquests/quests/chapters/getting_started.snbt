@@ -183,7 +183,8 @@
 		}
 		{
 			dependencies: ["6DC66F240EF37760"]
-			description: ["A lot of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, leading into Mekanism for now. Mekanism and its machines &4&oDO NOT&r&r generate power, you will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress-powered alternators, generators, and motors. However, there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r for early game electricity! "]
+			dependency_requirement: "all_started"
+			description: ["A lot of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, leading into Industiral Foregoing for now. Mekanism and its machines will be available for power generation but requires more extensive resources to set up. You will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress-powered alternators, generators, and motors. However, there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r to help supplement  early game electricity struggles! "]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -372,6 +373,7 @@
 				}
 			}
 			id: "6DC66F240EF37760"
+			optional: true
 			rewards: [
 				{
 					id: "1684FFB83666DCBC"

@@ -14,6 +14,64 @@
 		id: "mekanism:quantum_entangloporter"
 	}
 	id: "0D98B33203B576DF"
+	images: [
+		{
+			height: 7.0d
+			image: "ccextras:textures/thermal_evaporation_plant.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -10.5d
+			y: 9.5d
+		}
+		{
+			height: 7.0d
+			image: "ccextras:textures/induction_matrix.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -10.5d
+			y: 17.0d
+		}
+		{
+			height: 5.0d
+			image: "ccextras:textures/fission_reactor_mininimum.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 6.0d
+			y: 15.5d
+		}
+		{
+			height: 8.0d
+			image: "ccextras:textures/fission_reactor.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 6.0d
+			y: 19.5d
+		}
+		{
+			height: 10.0d
+			image: "ccextras:textures/turbine.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 13.32142857142857d
+			y: 21.21428571428573d
+		}
+		{
+			height: 7.0d
+			image: "ccextras:textures/fusion_reactor.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -8.5d
+			y: 24.0d
+		}
+		{
+			height: 8.0d
+			image: "ccextras:textures/sps.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 2.5d
+			y: 28.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -166,7 +224,7 @@
 		}
 		{
 			dependencies: ["744BF2D2E55A1511"]
-			description: ["To make you steel you must infuse iron with carbon (coal) in a metallurgic infuser. This will yield enriched iron, which will then need be infused with carbon a second time to make steel dust. Using enriched carbon is going to make this consume a lot less coal."]
+			description: ["To make steel using mekanism machinery you must infuse iron with carbon (coal) in a metallurgic infuser. This will yield enriched iron, which will then need be infused with carbon a second time to make steel dust. Using enriched carbon is going to make this consume a lot less coal."]
 			id: "63440E310364A62A"
 			rewards: [
 				{
@@ -350,8 +408,8 @@
 				type: "item"
 			}]
 			title: "&9&lEnriched Carbon"
-			x: -2.0d
-			y: 5.5d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0DFEC0DF582D9988"]
@@ -404,8 +462,8 @@
 				type: "item"
 			}]
 			title: "&9&lEnriched Redstone"
-			x: -2.0d
-			y: 7.0d
+			x: -0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0DFEC0DF582D9988"]
@@ -458,8 +516,8 @@
 				type: "item"
 			}]
 			title: "&9&lEnriched Diamond"
-			x: 2.0d
-			y: 7.0d
+			x: 0.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0DFEC0DF582D9988"]
@@ -512,8 +570,8 @@
 				type: "item"
 			}]
 			title: "&9&lEnriched Obsidian"
-			x: 2.0d
-			y: 5.5d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
@@ -568,8 +626,8 @@
 				type: "item"
 			}]
 			title: "&9&lChemical Oxidizer"
-			x: -1.5d
-			y: 13.0d
+			x: -1.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["38FEAC55F958F1AF"]
@@ -611,7 +669,7 @@
 			}]
 			title: "&9&lIsotopic Centrifuge"
 			x: 1.5d
-			y: 15.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["3529BF2321A4EC4E"]
@@ -653,7 +711,7 @@
 			}]
 			title: "&9&lSolar Neutron Activator"
 			x: -1.5d
-			y: 15.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -698,7 +756,7 @@
 			}]
 			title: "&9&lPlutonium Pellet"
 			x: 2.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
 			dependencies: [
@@ -743,7 +801,7 @@
 			}]
 			title: "&9&lPolonium Pellet"
 			x: -2.0d
-			y: 19.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
@@ -786,7 +844,7 @@
 			}]
 			title: "&9&lPressurized Reaction Chamber"
 			x: 0.0d
-			y: 12.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["744BF2D2E55A1511"]
@@ -828,7 +886,7 @@
 			}]
 			title: "&9&lInfused Alloy"
 			x: -1.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["68B188F4166F5D7F"]
@@ -882,7 +940,7 @@
 			}]
 			title: "&9&lReinforced Alloy"
 			x: 0.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0DD4E9D455135EA9"]
@@ -924,7 +982,7 @@
 			}]
 			title: "&9&lAtomic Alloy"
 			x: 1.0d
-			y: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["744BF2D2E55A1511"]
@@ -966,7 +1024,7 @@
 			}]
 			title: "&9&lBasic Control Circuit"
 			x: -2.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
@@ -1020,7 +1078,7 @@
 			}]
 			title: "&9&lAdvanced Control Circuit"
 			x: -1.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0653F1F63884FF23"]
@@ -1062,7 +1120,7 @@
 			}]
 			title: "&9&lElite Control Circuit"
 			x: 1.0d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1FD8BF9F8FD76037"]
@@ -1117,7 +1175,7 @@
 			}]
 			title: "&9&lUltimate Control Circuit"
 			x: 2.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4B014E76BB899429"]
@@ -1159,8 +1217,8 @@
 				type: "item"
 			}]
 			title: "&9&lElectrolytic Separator"
-			x: 0.0d
-			y: 11.0d
+			x: -2.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1173,9 +1231,10 @@
 				{
 					id: "0DEB3732D9DEA335"
 					type: "xp"
-					xp: 85
+					xp: 120
 				}
 				{
+					count: 4
 					id: "0A9A243FF4AA6822"
 					item: {
 						Count: 1
@@ -1188,23 +1247,10 @@
 					}
 					type: "item"
 				}
-				{
-					count: 2
-					id: "2DDA5723EC89B945"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:sprocket"
-					}
-					type: "item"
-				}
 			]
 			subtitle: "&3Antimatter"
 			tasks: [{
+				count: 72L
 				id: "7655D66335781688"
 				item: {
 					Count: 1
@@ -1219,7 +1265,7 @@
 			}]
 			title: "&9&lThe Supercritical Phase Shifter"
 			x: 0.0d
-			y: 21.5d
+			y: 22.5d
 		}
 		{
 			dependencies: [
@@ -1231,10 +1277,9 @@
 				{
 					id: "1DB3E9C5128CED60"
 					type: "xp"
-					xp: 100
+					xp: 150
 				}
 				{
-					count: 2
 					id: "1AA01E76FB42A203"
 					item: {
 						Count: 1
@@ -1243,7 +1288,7 @@
 								cs.aquaSkin: 0
 							}
 						}
-						id: "numismatics:cog"
+						id: "numismatics:crown"
 					}
 					type: "item"
 				}
@@ -1265,7 +1310,7 @@
 			}]
 			title: "&9&lAntimatter Pellet"
 			x: 0.0d
-			y: 19.5d
+			y: 20.5d
 		}
 		{
 			dependencies: [
@@ -1310,7 +1355,7 @@
 			}]
 			title: "&9&lChemical Crystallizer"
 			x: 0.0d
-			y: 17.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["0653F1F63884FF23"]
@@ -1366,7 +1411,7 @@
 			}]
 			title: "&9&lOsmium Compressor"
 			x: 0.0d
-			y: 16.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["4D97B36C553829F3"]
@@ -1387,8 +1432,8 @@
 				type: "item"
 			}]
 			title: "&9&lWasted Radioactive Chicken"
-			x: -2.5d
-			y: 13.5d
+			x: -2.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4D97B36C553829F3"]
@@ -1413,8 +1458,8 @@
 				type: "item"
 			}]
 			title: "&9&lWasted Radioactive Bee"
-			x: -2.5d
-			y: 12.5d
+			x: -2.0d
+			y: 13.5d
 		}
 		{
 			description: [
@@ -1511,7 +1556,1626 @@
 			}]
 			title: "&9&lHDPE Pellet"
 			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1A54CB7CC678C553"]
+			description: [
+				"A Fission Reactor is a multiblock structure that generates massive amounts of heat but does not produce power on its own. How much heat is generated depends on the rate at which it burns Fissile Fuel. The only way to transform this heat into power is to inject \"fresh\" coolant into the reactor and use the heated coolant that comes out to generate power. With water cooled reactors, power is generated by directly piping steam into an Industrial Turbine. Sodium cooled reactors use a Thermoelectric Boiler as a heat-exchanger to cool down the Superheated sodium and heat up water into Steam that is in turn sent to an Industrial Turbine."
+				""
+				"Fission reactors need special care: even at very low burn rates, they generate heat faster than they can dissipate it to the environment. If this is not controlled, the reactor will both explode but also release radiation into the environment which will cause radiation sickness of varying levels and dissipates very slowly."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The interior of the cube can be either air or fission control rods:"
+				"A control rod is formed by a 1x1 block wide column made of 1 to 15 Fission Fuel Assembly and a single Control Rod Assembly at the top"
+				"Control rods should not touch each other. Optimal control rod density can be achieved by placing them in a checkerboard pattern. Cooling is penaltized if control rods touch each other."
+				""
+				"A fission reactor requires at least 4 Fission Reactor Ports:"
+				""
+				"1 Coolant input"
+				"1 Coolant output"
+				"1 Fissile Fuel input"
+				"1 Waste output"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The core's temperature:"
+				""
+				"&agreen&r   < 600K"
+				""
+				"&eyellow&r     600K - 1000K"
+				""
+				"&6orange&r   1000K - 1200K"
+				""
+				"&4red&r      >1200K = the reactor will take structural damage beyond this point."
+				""
+				"When a reactor reaches critical temperature, it will start taking damage and this value will go up. The damage value of a reactor that has overheated but been stopped on time to prevent a meltdown will slowly go down on its own."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Cooling a fission reactor and converting the generated heat into power can be done in two ways: water cooling and sodium based cooling. Regardless of the cooling solution, an Industrial Turbine will be the actual power generator."
+				""
+				"As a byproduct of burning Fissile Fuel, fission reactors produce Nuclear Waste which can be converted in Polonium Pellets, Plutonium Pellets or Antimatter Pellets. The first two produce Spent Nuclear Waste, while Antimatter production yields no problematic by-products."
+			]
+			id: "1EB214416643FCD2"
+			rewards: [
+				{
+					count: 2
+					id: "0C64CE4903C41FE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "5301C691CDD7EE7E"
+					type: "xp"
+					xp: 65
+				}
+			]
+			tasks: [{
+				count: 26L
+				id: "54B7C56B08F83B66"
+				item: {
+					Count: 26
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:fission_reactor_casing"
+				}
+				type: "item"
+			}]
+			title: "&9&l26x Fission Reactor Casing"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1EB214416643FCD2"]
+			id: "1301D50B29FE358D"
+			rewards: [
+				{
+					id: "724C9C4E6A96851C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6924CFC0CC3CF397"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "23FCFCE4E771291C"
+				item: {
+					Count: 4
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:fission_reactor_port"
+				}
+				type: "item"
+			}]
+			title: "&9&l4x Fission Reactor Port"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1EB214416643FCD2"]
+			id: "3879E9D45E33BE3A"
+			rewards: [
+				{
+					id: "07BE6EF6CAA88B1A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "49E8D96C230F7C4B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03E16FE83A9B8C0C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:fission_fuel_assembly"
+				}
+				type: "item"
+			}]
+			title: "&9&lFission Fuel Assembly"
+			x: 6.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1EB214416643FCD2"]
+			id: "54AFB3A78775AA2D"
+			rewards: [
+				{
+					id: "0183ED8264DFD57E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3E3B54E166CB9D59"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E1039F3F1AFC887"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:control_rod_assembly"
+				}
+				type: "item"
+			}]
+			title: "&9&lControl Rod Assembly"
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1A54CB7CC678C553"]
+			id: "2326AE23B198826E"
+			rewards: [
+				{
+					id: "1D2340E594368C2E"
+					type: "xp"
+					xp: 45
+				}
+				{
+					id: "05B39065F6A82964"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F7850B4D7B3E131"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:bio_generator"
+				}
+				type: "item"
+			}]
+			title: "&9&lBio-Generator"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1A54CB7CC678C553"]
+			id: "4CFD8F4E93154BB9"
+			rewards: [
+				{
+					id: "3438E0BCF7793DFC"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "127E4C0068671F77"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "65DCDE3EF8EB525B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B208073E9E4F094"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:gas_burning_generator"
+				}
+				type: "item"
+			}]
+			title: "&9&lGas-Burning Generator"
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63440E310364A62A"]
+			description: [
+				"The Industrial Turbine is used to produce power from steam. Ideally, the steam is generated by a fission reactor directly, or by heating up water in the Thermoelectric Boiler with superheated sodium produced by a fission reactor."
+				""
+				"As a part of it's functioning the turbine will condense steam back into water when outfitted with Saturating Condensers, massively reducing the requirement on fresh water production by allowing you to re-use up to 100% of the water."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"The structure will always have a square base (equal length and width) of ODD dimensions, there needs to be a center block, where the shaft will go. The minimum turbine size is a 5x5 base and 5 blocks high while the maximum turbine size is a 17x17 base and 18 blocks high."
+				""
+				"Construct the multiblock using the following steps:"
+				""
+				"{@pagebreak}"
+				""
+				"Build the base out of turbine casings and optional structural glass. (must be square) [the perimeter must be casings not glass]"
+				""
+				"Place rotor shafts in the center, from the base to desired height."
+				""
+				"Add turbine blades to the rotor. (two for each rotor shaft)"
+				""
+				"Place a rotational complex on top of the rotor."
+				""
+				"Completely fill the interior layer around the rotational complex with pressure dispersers."
+				""
+				"Place electromagnetic coils above the dispersers. They must touch the rotational complex and each other."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Build the remaining frame (the perimeters of the walls) out of turbine casings you will want to account for and leave \"empty layers\" above the coils to make room for more vents and condensers."
+				""
+				"Fill the walls, up to the height of the rotor, with turbine casings and/or structural glass and at least 2 turbine valves."
+				""
+				"Saturating condensers are then placed anywhere above the rotational complex, except in the external walls or the ceiling."
+				""
+				"Fill the remaining walls and ceiling with turbine casings and/or turbine vents."
+			]
+			id: "3761F8821A182372"
+			rewards: [
+				{
+					id: "554C354EC8836868"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "73490FDEAC07D7EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "57F6D748C71CD672"
+				item: {
+					Count: 64
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:turbine_casing"
+				}
+				type: "item"
+			}]
+			title: "&9&l64x Turbine Casing"
+			x: 13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3761F8821A182372"]
+			id: "0E119FC1B9DE044E"
+			rewards: [
+				{
+					id: "07D0C4DDF5A31A14"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "1D0729163E563EE2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34874D8F43A99022"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:saturating_condenser"
+				}
+				type: "item"
+			}]
+			title: "&9&lSaturating Condenser"
+			x: 12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3761F8821A182372"]
+			id: "7BB546A7341E5E88"
+			rewards: [
+				{
+					id: "1B2444A02A029298"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "160C21554795AFFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "048AFE71C6C16D27"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:turbine_vent"
+				}
+				type: "item"
+			}]
+			title: "&9&lTurbine Vent"
+			x: 13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3761F8821A182372"]
+			id: "5119D35ADD8B382D"
+			rewards: [
+				{
+					id: "3A107D3A69D658AB"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "7C7387CD65A9C677"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09B8312993D62F4E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:turbine_rotor"
+				}
+				type: "item"
+			}]
+			title: "&9&lTurbine Rotor"
+			x: 13.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3761F8821A182372"]
+			id: "670A459DA6A3D96B"
+			rewards: [
+				{
+					id: "6D49650311BA0634"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "7612FC00358FFE06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14F6BC9101AD4F44"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:turbine_blade"
+				}
+				type: "item"
+			}]
+			title: "&9&lTurbine Blade"
+			x: 13.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3761F8821A182372"]
+			id: "3D1F1E0886471AE8"
+			rewards: [
+				{
+					id: "3BCF50E3D259F15B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6182A65871EA2C2A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77FD600D22A91A4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:pressure_disperser"
+				}
+				type: "item"
+			}]
+			title: "&9&lPressure Disperser"
+			x: 14.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3761F8821A182372"]
+			id: "3EB80D11558A6345"
+			rewards: [
+				{
+					id: "6EC6EAA6F5BC1C91"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "622F42CBAEA663A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B66019FCA59AFDB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:rotational_complex"
+				}
+				type: "item"
+			}]
+			title: "&9&lRotational Complex"
+			x: 12.5d
 			y: 14.5d
+		}
+		{
+			dependencies: ["3761F8821A182372"]
+			id: "303A1680BED04583"
+			rewards: [
+				{
+					id: "60981F60A94EEBC6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "497E82E31D9E1F7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19ED0DCFE53221FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:electromagnetic_coil"
+				}
+				type: "item"
+			}]
+			title: "&9&lElectromagnetic Coil"
+			x: 13.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1301D50B29FE358D"]
+			id: "0A73F58762CE604A"
+			rewards: [
+				{
+					id: "6AA9AF616A4DEFDE"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0C25A4655F65C131"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D54C07AA91FEAF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:radioactive_waste_barrel"
+				}
+				type: "item"
+			}]
+			title: "&9&lRadioactive Waste Barrel"
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["63440E310364A62A"]
+			description: ["The Thermal Evaporation Plant is a multi-block structure used in the production of brine and Liquid Lithium. Brine is used in the ore refining process and to create various chemicals, such as Chlorine. Liquid Lithium is used in the creation of Tritium, which is used with Deuterium as the Fuel in a Fusion Reactor."]
+			id: "660CF547B8328F09"
+			rewards: [
+				{
+					id: "08E96EE0696657D9"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "1C35540794E38B33"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "00A6DC1090C8DAA0"
+				item: {
+					Count: 32
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:thermal_evaporation_block"
+				}
+				type: "item"
+			}]
+			title: "&9&l32x Thermal Evaporation Block"
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["660CF547B8328F09"]
+			id: "2EDBA01D646B9A9E"
+			rewards: [
+				{
+					id: "597BCC2FAF9625C0"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "2C71B7B4E4B07EE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "7F01B50006D93B61"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:thermal_evaporation_valve"
+				}
+				type: "item"
+			}]
+			title: "&9&l2x Thermal Evaporation Valve"
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["660CF547B8328F09"]
+			id: "44E02469AAEE00B1"
+			rewards: [
+				{
+					id: "450348C7F5829EED"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "3F0B059906063012"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A0F37D0217B49FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:thermal_evaporation_controller"
+				}
+				type: "item"
+			}]
+			title: "&9&lThermal Evaporation Controller"
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["744BF2D2E55A1511"]
+			description: ["It takes 4 gold dust to craft, not 1."]
+			hide_dependency_lines: true
+			id: "5FDA7BB4A531426A"
+			rewards: [
+				{
+					id: "5BC228D28E3AF8B3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5F4831FF6B4FFE79"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ADB5B314B608D92"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:hohlraum"
+				}
+				type: "item"
+			}]
+			title: "&9&lHohlraum"
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4FA8A47B669B78FE"]
+			description: ["A gas obtained from Heavy Water using an Electrolytic Separator. Can be used directly as fuel in a Fusion Reactor or combined with Tritium in a Chemical Infuser to make D-T Fuel."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanismgenerators:deuterium_bucket"
+			}
+			id: "283A301C7E83EB60"
+			tasks: [{
+				id: "30BA68BE263AFFBA"
+				title: "Deuterium"
+				type: "checkmark"
+			}]
+			title: "&9&lDeuterium"
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"660CF547B8328F09"
+				"2EDBA01D646B9A9E"
+				"44E02469AAEE00B1"
+			]
+			description: ["Tritium is created by putting Lithium into a Solar Neutron Activator. It can be put directly into a Fusion Reactor or combined with Deuterium in a Chemical Infuser to make D-T Fuel."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanismgenerators:tritium_bucket"
+			}
+			id: "5621AE84794108A1"
+			tasks: [{
+				id: "4BCD975914AA9F87"
+				title: "Tritium"
+				type: "checkmark"
+			}]
+			title: "&9&lTritium"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"5FDA7BB4A531426A"
+				"283A301C7E83EB60"
+				"5621AE84794108A1"
+			]
+			description: ["Place the Hohlraum in the center slot of a Chemical Infuser in which you have made D-T Fuel in order to fill it."]
+			id: "2980CB66A334CB6E"
+			rewards: [
+				{
+					id: "55EE86177405ADF9"
+					type: "xp"
+					xp: 85
+				}
+				{
+					count: 3
+					id: "1F2F6C9F50A9E3A7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26286B757CDFEC8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:hohlraum"
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									amount: 10L
+									gasName: "mekanismgenerators:fusion_fuel"
+								}
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "&9&lHohlraum (primed)"
+			x: -5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"73EFA418A2DD6732"
+				"2980CB66A334CB6E"
+			]
+			description: [
+				"The Fusion Reactor is a multiblock structure that produces very large amounts of power by using either Deuterium and Tritium, or D-T Fuel. By water cooling the structure, steam will be produced alongside power, which can be used for powering an Industrial Turbine."
+				""
+				"The Fusion Reactor will not start on its own. It requires a plasma temperature of 100MK and a filled Hohlraum to begin the fusion process. Once the reaction is jump started, it will begin consuming supplied fuel, heating up the case and generating power."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"To start the reactor, you must achieve a plasma temperature of 100MK, to do this two methods can be used."
+				""
+				"By firing a laser carrying at least 1 GFE of energy at the Laser Focus Matrix, the reactor will be instantly started if a filled Hohlraum is available. To achieve 1 GFE of energy, aim lasers at a Laser Amplifier, which allows you to control the firing with redstone. By setting the redstone setting to NORMAL and putting a button or lever next to it, you can choose to only fire when you see enough energy accumulated."
+				""
+				"Alternatively, you can gradually heat the reactor to 100.00MK Plasma temperature. This can be done quickest at 10MFE/t usage with a Resistive Heater, but any source of heat will do although it will approximately take 18 GFE of energy in total to ignite the reactor. While this method costs much more energy, it is much faster unless the player uses many lasers. Note that the heaters must be placed next to a port for this method to work."
+			]
+			id: "4EAAB5FEF6E1713E"
+			rewards: [
+				{
+					id: "39F4D290A2AC1799"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "596DEDC6DAB81DBF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 40L
+				id: "249D4A314332532A"
+				item: {
+					Count: 40
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:fusion_reactor_frame"
+				}
+				type: "item"
+			}]
+			title: "&9&l40x Fusion Reactor Casing"
+			x: -5.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4EAAB5FEF6E1713E"]
+			id: "04BD05DC51EA23C9"
+			rewards: [
+				{
+					id: "1CAA56FBC750BEFE"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "032B7923AE89F303"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 21L
+				id: "3D7F74049B9D05CE"
+				item: {
+					Count: 21
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:reactor_glass"
+				}
+				type: "item"
+			}]
+			title: "&9&l21x Reactor Glass"
+			x: -6.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["4EAAB5FEF6E1713E"]
+			id: "46596697109F62E5"
+			rewards: [
+				{
+					id: "5CB1321F3A4D5B9B"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "351E39FE2C13B402"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "497A05751483B3C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:laser_focus_matrix"
+				}
+				type: "item"
+			}]
+			title: "&9&l Laser Focus Matrix"
+			x: -4.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["1EB214416643FCD2"]
+			id: "25E62E1D2272C776"
+			rewards: [
+				{
+					id: "551DF6EA51EAE7D3"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "6434C51CEA13D344"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "345C759E8D8446E0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:reactor_glass"
+				}
+				type: "item"
+			}]
+			title: "&9&lReactor Glass"
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4EAAB5FEF6E1713E"]
+			id: "0CD6C3055C3A351A"
+			rewards: [
+				{
+					id: "279E1188711F13BC"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "51E7C6A974C6B3CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DF99587BF05FEA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:laser"
+				}
+				type: "item"
+			}]
+			title: "&9&lLaser"
+			x: -5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["4EAAB5FEF6E1713E"]
+			id: "0A78A2D25C055F6F"
+			rewards: [
+				{
+					id: "38DAB785C4A36B18"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "0232052B0C0DF5DA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F540ADD24383524"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:fusion_reactor_controller"
+				}
+				type: "item"
+			}]
+			title: "&9&lFusion Reactor Controller"
+			x: -6.0d
+			y: 20.5d
+		}
+		{
+			dependencies: ["4EAAB5FEF6E1713E"]
+			id: "38DA4F61DF968BFC"
+			rewards: [
+				{
+					id: "60F73F504C4F7050"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "735F7EE464BEA36A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "46D9881DAA97F364"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanismgenerators:fusion_reactor_port"
+				}
+				type: "item"
+			}]
+			title: "&9&l3x Fusion Reactor Port"
+			x: -5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"44E02469AAEE00B1"
+				"6B78992C7D17BD78"
+			]
+			description: ["Lithium can be used in a Solar Neutron Activator to create Tritium to fuel the Fusion Reactor or put into a Chemical Crystallizer to produce Lithium Dust and then used for components of the Induction Matrix."]
+			id: "693A30BC1201B5B5"
+			rewards: [
+				{
+					id: "272FD5C550879D0E"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "70BB10D021090DDA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "10DC4B9517B0C067"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "6EA689B481767424"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:dust_lithium"
+				}
+				type: "item"
+			}]
+			title: "&9&l4x Lithium Dust"
+			x: -8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["693A30BC1201B5B5"]
+			description: ["The Induction Matrix is a highly configurable multi-block energy storage structure. It is built using Induction Casing and Induction Ports for the casing. Any combination of Air, Induction Providers and Induction Cells can be used to occupy the inside of the multi-block, but it must contain at least 1 cell and 1 provider, the tiers do not need to match."]
+			id: "597D483650F3C0F9"
+			rewards: [
+				{
+					id: "190BC233783747CD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "44D07F245D05E307"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "158514DFD07A91B4"
+				item: {
+					Count: 32
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:induction_casing"
+				}
+				type: "item"
+			}]
+			title: "&9&l32x Induction Casing"
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["597D483650F3C0F9"]
+			id: "4CBC70D40DAA38A3"
+			rewards: [
+				{
+					id: "02F17821E4E2DB2A"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "6BC037303D2BEBC5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69EE6AA7525CD33D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:basic_induction_cell"
+				}
+				type: "item"
+			}]
+			title: "&9&lBasic Induction Cell"
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["597D483650F3C0F9"]
+			id: "4232BE3FB15A36F2"
+			rewards: [
+				{
+					id: "1F3AE350FED2A3F2"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "771D30E7AB93ABFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77D747BF0F9F148B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:basic_induction_provider"
+				}
+				type: "item"
+			}]
+			title: "&9&lBasic Induction Provider"
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["597D483650F3C0F9"]
+			id: "0F6C2FF38AC5FF1B"
+			rewards: [
+				{
+					id: "3F64BDB4368D2E43"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "402B81FB9B3DF9E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0C5CBB944B7A500E"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:induction_port"
+				}
+				type: "item"
+			}]
+			title: "&9&l2x Induction Port"
+			x: -10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4EAAB5FEF6E1713E"]
+			id: "381E3578B0CCD80F"
+			rewards: [
+				{
+					id: "5D56041B3F62BC72"
+					type: "xp"
+					xp: 75
+				}
+				{
+					count: 2
+					id: "4EC001E7F69ECC98"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14C0E6561362C07E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:laser_amplifier"
+				}
+				type: "item"
+			}]
+			title: "&9&lLaser Amplifier"
+			x: -4.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["62135299C53DAEC4"]
+			id: "34235A89E025C573"
+			rewards: [
+				{
+					id: "1C3D6C4495633B1B"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "2A78EE34D857E13F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B308E7B6F6B42BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:supercharged_coil"
+				}
+				type: "item"
+			}]
+			title: "&9&lSupercharged Coil"
+			x: -0.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["62135299C53DAEC4"]
+			id: "1AB60A9FE4A321A1"
+			rewards: [
+				{
+					id: "026CC383C9F99C90"
+					type: "xp"
+					xp: 65
+				}
+				{
+					id: "0E55D0FA8312AF19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "658743D327EBE73D"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mekanism:sps_port"
+				}
+				type: "item"
+			}]
+			title: "&9&l3x SPS Port"
+			x: 0.5d
+			y: 23.5d
 		}
 	]
 	title: "&eMekanism"
