@@ -761,7 +761,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"End Remastered completely changes the way you would normally reach the end dimension, vanilla eyes will no longer lead you to the portal or work to open it. You will now need to gather 12 of 16 different eyes from different biomes, structures and mobs!"
 				""
@@ -783,6 +783,8 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&eGood Luck!"
 			tasks: [{
 				id: "774B040264C1E0ED"

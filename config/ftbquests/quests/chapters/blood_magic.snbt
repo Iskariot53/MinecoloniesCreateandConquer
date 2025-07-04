@@ -19,7 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Ever tried a magic mod in Minecraft and found it too tame? Not enough danger in crafting your gadgets? Tired of peaceful animals staring blankly at you? Then you're in the right place!"
 				""
@@ -33,12 +33,9 @@
 						cs.aquaSkin: 0
 					}
 				}
-				id: "patchouli:guide_book"
-				tag: {
-					"patchouli:book": "bloodmagic:guide"
-				}
+				id: "bloodmagic:sacrificialdagger"
+				tag: { }
 			}
-			icon_scale: 1.5d
 			id: "305904786B9CF570"
 			rewards: [
 				{
@@ -61,13 +58,14 @@
 					type: "item"
 				}
 			]
-			size: 2.0d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "5A61AC69B9333749"
 				type: "checkmark"
 			}]
 			title: "&4&lWelcome to Blood Magic!"
-			x: -6.0d
+			x: -6.25d
 			y: -10.0d
 		}
 		{

@@ -30,10 +30,10 @@
 			y: 0.0d
 		}
 		{
-			height: 2.5d
+			height: 4.0d
 			image: "celestisynth:textures/entity/visuals/aquaflora_bash/aquaflora_bash5.png"
 			rotation: 0.0d
-			width: 2.5d
+			width: 4.0d
 			x: 0.0d
 			y: 0.0d
 		}
@@ -537,11 +537,14 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["5E29948F7393675B"]
+			dependencies: [
+				"19C32F0E30411935"
+				"2432A9D7BE9F8BB4"
+			]
 			description: [
-				"Looking for the coolest weapons and armor sets in the pack? Well... you've come to the right place!"
+				"Looking for some of the coolest weapons and armor sets in the pack? Well... you've come to the right place!"
 				""
-				"&l&bCelesti&r&r&5&lsynth&r&r adds a ton of &5celestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &bswift and agile combat&r or &5powerful, heavy-hitting strikes&r, there's something for every playstyle."
+				"&l&bCelestisynth&r adds a ton of &5celestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &bswift and agile combat&r or &5powerful, heavy-hitting strikes&r, there's something for every playstyle."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -575,7 +578,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "304ADCBBF45C7A24"
 				type: "checkmark"

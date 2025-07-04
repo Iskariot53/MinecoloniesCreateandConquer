@@ -24,7 +24,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: ["The first step in acquiring and adding special affixes to your gear is collecting &9gems&r and &djewels&r. You want to collect and hold onto all of them that you can (this also applies to affixed gear but more on that later)."]
 			hide_until_deps_complete: true
 			icon: {
@@ -48,7 +48,8 @@
 				type: "xp"
 				xp: 10
 			}]
-			size: 2.0d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&eYour first gems"
 			tasks: [{
 				advancement: "apotheosis:affix/gem"

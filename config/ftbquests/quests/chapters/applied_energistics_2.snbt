@@ -18,7 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4AA5047E39931F84"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Getting started with Applied Energistics 2, from here on referred to as \"ae2\" is a bit different in the MCC world. Meteors no longer spawn in the world being the first thing of note. Craft yourself a quartz wrench, and over the course of the next few chapters, you will find all the information needed to track down resources normally obtained from locating meteorites. (Hint: We hope you've made an &6energizer&r set-up). "
 				""
@@ -60,7 +60,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "Advanced Logistics Solutions."
 			tasks: [{
 				id: "38903810689BD801"
@@ -3574,7 +3575,7 @@
 				"It can also be a good idea not to queue an excessive amount of recipes at once, if the system is not keeping up to your liking you should probably look into upgrading crafting CPUs, co-processors and the like."
 				""
 				"{@pagebreak}"
-				"Processing Patterns are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply saying \"if a pattern provider pushes these ingredients to adjacent inventories, the ME system will recieve these items at some point in the near future\". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really wierd stuff, like inputting the ingredients into an entire complex assembly line chain which will sort out the mess, take in other ingredients from infinitely-producing farms, the ME system does not care as long as it gets the product result the pattern specified."
+				"Processing Patterns are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply saying \"if a pattern provider pushes \"X\" ingredients to adjacent inventories, the ME system will receive \"Y\" items in return at some point in the near future\". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really wierd stuff, like inputting the ingredients into an entire complex assembly line chain which will sort out the mess, take in other ingredients from infinitely-producing farms, the ME system does not care as long as it gets the product result the pattern specified."
 				""
 				"In fact, it doesn't even care if the ingredients make any sense in relation to the result. You could tell it \"1 oak fence = 1 echo shard\" and have your warden farm kill a warden upon an oak fence input trigger... and yes, it will still work."
 			]
@@ -4794,7 +4795,7 @@
 		}
 		{
 			dependencies: ["5FA7113B0E256602"]
-			description: ["Crafted by causing a reaction between Ender Dust and a Singularity. Any explosive force should work to trigger the reaction, tiny tnt has a radius the provides minimal risk of accidental damage and is sufficient to create the reaction. They can be labeled with things like an anvil to help keep track of which to are linked (entangled) to which."]
+			description: ["Crafted by causing a reaction between Ender Dust and a Singularity. Any explosive force should work to trigger the reaction, tiny tnt has a radius that provides minimal risk of accidental damage and is sufficient to create the reaction. They can be labeled with things like an anvil to help keep track of which to are linked (entangled) to which."]
 			id: "1C761E69DB39289E"
 			rewards: [
 				{

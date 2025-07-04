@@ -18,7 +18,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Mystical flowers can be found scattered throughout the world. They can be crafted into &apetals&r which can then be used in botanical creations or even crushed into dyes! "
 				""
@@ -57,12 +57,14 @@
 					type: "item"
 				}
 			]
-			size: 2.0d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&2Magic botanics"
 			tasks: [{
 				advancement: "botania:main/flower_pickup"
 				criterion: ""
 				id: "49C12E387F7DBF4F"
+				title: "Find a Mystical Flower"
 				type: "advancement"
 			}]
 			title: "&a&lWelcome to Botania!"

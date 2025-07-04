@@ -19,7 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["60CD0AF0BA5D46E5"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Sifting is a great way to get started in resource generation and for what can be produced from it, great even into the late game! The primary limitation you will notice is the &o&erange&r&r of resources that can be acquired from this method. "
 				""
@@ -41,6 +41,8 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&6Limited but quick and easy!"
 			tasks: [{
 				id: "1C0CB9CFDB31CD91"
@@ -49,7 +51,7 @@
 			}]
 			title: "&e&lWelcome to Sifting!"
 			x: 0.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["259D1FE054C42D8B"]

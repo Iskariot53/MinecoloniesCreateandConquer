@@ -125,7 +125,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"This quest line, like all of the other lines in the pack, is not meant to be all inclusive. It will however teach and familiarize you with the basics and standards of the mod to prepare you with the knowledge necessary to explore what you are capable of."
 				""
@@ -147,7 +147,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&6We'll need this"
 			tasks: [{
 				count: 16L

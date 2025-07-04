@@ -19,7 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["701DB69F95BE961D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"&e&lDimensional Dungeons&r&r adds procedurally generated, renewable dungeons in a separate dimension accessible via a portal from the Overworld. This provides challenging, replayable content."
 				""
@@ -75,7 +75,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "1B76491A0E52715A"
 				type: "checkmark"

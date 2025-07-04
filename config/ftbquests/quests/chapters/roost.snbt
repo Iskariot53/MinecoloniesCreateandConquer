@@ -21,7 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["517B276D1D59EC02"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"&l&cRoost Ultimate&r&r is a comprehensive expansion for Minecraft that opens up a new dimension of chicken breeding and resource production. Immerse yourself in a world of diverse chicken breeds, experiment with breeding, and optimize your resource yield. Enjoy the challenges and rewards this mod brings, and experience the game in a whole new way."
 				""
@@ -53,7 +53,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&eI'm not counting any chickens."
 			tasks: [{
 				id: "74E31978507842CB"

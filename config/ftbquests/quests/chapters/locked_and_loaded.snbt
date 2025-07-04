@@ -18,11 +18,11 @@
 		}
 	}
 	id: "019CB542632013AF"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4CEB772EDB7768E1"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Scorched Guns 2 is a gunsmithing mod which offers a multitude of options from early to late game partnered with an impressive range of customizability."
 				""
@@ -52,7 +52,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&6Your new gunsmithing table"
 			tasks: [{
 				id: "08C117DB3F8B254C"

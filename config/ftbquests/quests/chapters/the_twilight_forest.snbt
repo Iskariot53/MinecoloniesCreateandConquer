@@ -19,7 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"The &l&2Twilight Forest&r&r realm is an expansive world, similar to other Minecraft dimensions, but it is densely forested. This dimension has a distinct enchanted, fairy tale, and mythological atmosphere, setting it apart from the Overworld. As you explore the Twilight Forest, you'll encounter a variety of dungeons, bosses, structures, trees, and numerous unique items. There is much to discover in this magical realm."
 				""
@@ -35,7 +35,6 @@
 				}
 				id: "twilightforest:twilight_portal_miniature_structure"
 			}
-			icon_scale: 2.0d
 			id: "7EE137CFDCBB88DF"
 			rewards: [
 				{
@@ -58,7 +57,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				icon: {

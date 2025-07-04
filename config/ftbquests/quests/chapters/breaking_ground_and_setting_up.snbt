@@ -1,7 +1,7 @@
 {
 	autofocus_id: "516600488B9BC914"
 	default_hide_dependency_lines: false
-	default_quest_shape: "gear"
+	default_quest_shape: "circle"
 	filename: "breaking_ground_and_setting_up"
 	group: "5B6588F2B5558488"
 	icon: {
@@ -14,11 +14,77 @@
 		id: "create:wrench"
 	}
 	id: "6E33C8DEFB2AF60A"
-	order_index: 0
+	images: [
+		{
+			height: 4.0d
+			image: "celestisynth:textures/entity/visuals/aquaflora_pierce_start/aquaflora_pierce_start2.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/breezebreaker_dash_2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 24.5d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 180.0d
+			width: 5.0d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/entity/deepling/deepling_warlock_mark1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.142857142857139d
+			y: 8.107142857142854d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/poltergeist_ward_ground.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_vanish_circle.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: -6.749999999999993d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Wether you choose to go the humble route of farming with the aid of water wheel, mob caging and botany mechanics, the pathway to technological superiority through advancments in metallurgy, electronics, and machine upgrades. Or if you prefer the way of the wanderer, endlessly exploring and dungeon delving. We have balanced the loot tables so every strategy is a viable strategy to success, but there are some decisions to make in general, you have many options at your disposal to decide from."
 				""
@@ -44,11 +110,20 @@
 				{
 					count: 5
 					id: "18044ED061A229B8"
-					item: "numismatics:spur"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&eThe start of an empire"
 			tasks: [{
 				id: "66E2F4211A68508D"
@@ -94,8 +169,8 @@
 				type: "item"
 			}]
 			title: "&6&lVanilla Gear"
-			x: -0.5d
-			y: -2.5d
+			x: -0.5357142857142847d
+			y: -2.25d
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
@@ -690,7 +765,7 @@
 						cs.aquaSkin: 0
 					}
 				}
-				id: "design_decor:industrial_gear_large"
+				id: "tfmg:steel_encased_large_steel_cogwheel"
 			}
 			id: "626B4E8865E9892C"
 			rewards: [{
@@ -1433,8 +1508,8 @@
 				}
 			]
 			title: "&4&lBlood Altar"
-			x: 3.0d
-			y: 8.0d
+			x: 3.125d
+			y: 8.125d
 		}
 		{
 			dependencies: [
@@ -1745,7 +1820,7 @@
 					type: "item"
 				}
 			]
-			size: 1.25d
+			size: 1.5d
 			subtitle: "&5Magic spells sold separately"
 			tasks: [{
 				id: "4EC7589C6FC96C60"
@@ -1977,6 +2052,16 @@
 				"we'll need some more spice for &othose&r recipes! "
 			]
 			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecolonies:resourcescroll"
+				tag: { }
+			}
 			id: "2432A9D7BE9F8BB4"
 			rewards: [
 				{
@@ -1991,7 +2076,7 @@
 					type: "item"
 				}
 			]
-			size: 2.0d
+			size: 1.5d
 			subtitle: "&eWell... Kinda"
 			tasks: [{
 				id: "622BFC0973FA092D"
@@ -2086,7 +2171,8 @@
 			description: [
 				"So you have found a place to settle down and get started? Awesome! This line of quests will guide you through progressing into what the you are capable of in the pack while maintaining as much of the \"sandbox\" nature of the game as possible. As discussed in \"Getting Started\", you will want to create a &9Bank Terminal&r &cASAP&r. "
 				""
-				"This will grant you access to the &dSlayer Rewards&r and &dRewards Shop&r functions at the bottom of the quest book chapter section, there are multiple types and tiers of shops which will open and become available to you through your playing of the pack and advancing through the different quest chapters in the quest book."
+				"This will grant you access to the &n&eSlayer Rewards&r and &n&eRewards Shop&r functions at the bottom of the quest book chapter section&r&r"
+				""
 				""
 				"Quests, Challenges, and Slayer Tasks are the only way to obtain &eNumi Coins&r and they are the only currency the shops take. If you choose, there are also vendor blocks you can use to make shops to sell items to other players using them! You can use the ID card's to share access to terminals and multiple numismatic blocks!"
 				""
@@ -2108,7 +2194,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eIt's Important"
+			subtitle: "&eIt's Very Important"
 			tasks: [{
 				id: "0508D23E33025ECC"
 				item: "numismatics:bank_terminal"
@@ -2267,6 +2353,86 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["771588CF1624B99F"]
+			description: ["A fishing bot has been provided to make some aspects of life a little easier, as long as your rod is kept in the 9th hotbar slot (all the way to the right) your rod will automatically reel and recast itself!"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "better_fishing_rods:lucky_orely_fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3F95DE00B93E3C85"
+			rewards: [{
+				id: "6064AB6C90CA2EC7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "569149707F36CCE7"
+				title: "Fishing Made Easier"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			description: [
+				"The Curios container can be used to both house and quickly and easily swap Curios equippable items such as trinkets, artifacts and relics!"
+				""
+				"The default hotket to open the container, once crafted, is \"4\" on your keypad."
+			]
+			hide_dependency_lines: true
+			id: "01809362419109D4"
+			rewards: [
+				{
+					id: "5F1EFE69CD5F0F17"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "028613638EAE77C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Easily managing your Curios slots."
+			tasks: [{
+				id: "6FFCD524D78F2C9C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "convenientcurioscontainer:curios_container"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
 		}
 	]
 	title: "&eBreaking Ground and Setting Up"

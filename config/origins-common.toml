@@ -1324,7 +1324,7 @@
 		"origins-plus-plus:giant/unwieldy" = true
 
 	[origins."origins-plus-plus:deathsworn"]
-		enabled = true
+		enabled = false
 		"origins:burn_in_daylight" = false
 		"origins-plus-plus:deathsworn/appraisal" = true
 		"origins-plus-plus:deathsworn/carry" = true
@@ -2703,4 +2703,14 @@
 		"dragon_origins:green2" = true
 		"dragon_origins:hunger" = true
 		"dragon_origins:advancement" = true
+
+	[origins."strictly:priest"]
+		enabled = true
+		"strictly:scholar" = true
+		"strictly:nimble" = true
+		"strictly:holy_shield" = true
+		"origins:vegetarian" = true
+		"origins:fall_immunity" = true
+		"strictly:holy_curse" = true
+		"origins:ender_particles" = true
 

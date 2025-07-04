@@ -58,7 +58,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4121A43B2DC07C1B"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"In this chapter we will cover everything you need to know about &6Productive Bees&r, from the beeginners basics to some of the more advanced tips and keeping techniques as you grow and expand your facilibees to support them. "
 				""
@@ -90,7 +90,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&eBeefore we get ahead of ourselves"
 			tasks: [{
 				id: "43EF9DD0BE50803A"

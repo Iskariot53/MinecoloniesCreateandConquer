@@ -19,10 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"6B4F90920F0A78A7"
-			]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"&e&lIron Furnaces&r&r adds multiple new &nfaster furnaces&r to the games as upgrades to the vanilla furnace, as well as complex functionality to better compliment other mods."
 				""
@@ -39,14 +36,14 @@
 				}
 				id: "ironfurnaces:iron_furnace"
 			}
-			icon_scale: 1.4d
 			id: "0C57273BB6B64DA7"
 			rewards: [{
 				id: "30D7D7B80267C2AC"
 				type: "xp"
 				xp: 10
 			}]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "35EF4F7D38C5B33B"
 				type: "checkmark"
@@ -56,10 +53,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"6B4F90920F0A78A7"
-			]
+			dependencies: ["19C32F0E30411935"]
 			description: ["&e&lIron Chests&r&r adds new better chests and trapped chests for the various metals in vanilla minecraft with varying sizes!"]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
@@ -72,14 +66,14 @@
 				}
 				id: "ironchest:iron_chest"
 			}
-			icon_scale: 1.4d
 			id: "04717708B001F244"
 			rewards: [{
 				id: "7D1A43E87A36FF29"
 				type: "xp"
 				xp: 10
 			}]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "4E20C2D0C0576ABE"
 				type: "checkmark"

@@ -28,7 +28,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["23E17B3FF501BEA0"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Are you looking for a better storage system that offers a ton of functionality while remaining simple and easy to understand? You've come to the right place!"
 				""
@@ -44,14 +44,14 @@
 				}
 				id: "minecraft:chest"
 			}
-			icon_scale: 1.3d
 			id: "5975E292A7528076"
 			rewards: [{
 				id: "53975DDE17415A06"
 				type: "xp"
 				xp: 10
 			}]
-			size: 2.0d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "26C6F3673D29AE2F"
 				type: "checkmark"

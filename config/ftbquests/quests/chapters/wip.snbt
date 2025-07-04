@@ -1,7 +1,7 @@
 {
 	autofocus_id: "06DE55B8F9F4A557"
 	default_hide_dependency_lines: false
-	default_quest_shape: "gear"
+	default_quest_shape: "circle"
 	filename: "wip"
 	group: "5B6588F2B5558488"
 	icon: {
@@ -18,7 +18,50 @@
 		}
 	}
 	id: "12C0ED742131B0C8"
-	order_index: 1
+	images: [
+		{
+			height: 2.0d
+			image: "draconicevolution:block/dislocator_receptacle_active"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			height: 4.0d
+			image: "celestisynth:textures/entity/visuals/rainfall_vanish.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			height: 3.0d
+			image: "celestisynth:textures/entity/visuals/skin/frostbound_impact_crack_seabreeze.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			height: 2.0d
+			image: "born_in_chaos_v1:textures/chaosicon2.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.107142857142861d
+			y: 6.107142857142847d
+		}
+		{
+			height: 5.0d
+			image: "celestisynth:textures/particle/keres_omen.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -13.0d
+			y: 6.0d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -50,7 +93,8 @@
 					type: "item"
 				}
 			]
-			size: 2.0d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&eHighly dependant on your definition of fun :D"
 			tasks: [{
 				count: 25L
@@ -790,6 +834,7 @@
 				"5408F21008F2B15F"
 				"29307362D6F4A8AD"
 			]
+			description: ["Deals 29 Attack damage, when charged."]
 			id: "1B157D0B0082F798"
 			rewards: [
 				{
@@ -834,6 +879,7 @@
 				"5408F21008F2B15F"
 				"29307362D6F4A8AD"
 			]
+			description: ["Deals 27 Attack damage, when charged."]
 			id: "31C6BBF1300F6C40"
 			rewards: [
 				{
@@ -1250,6 +1296,7 @@
 				"5B64AE900E9F6684"
 				"188944FE101F78E4"
 			]
+			description: [""]
 			id: "4573CA9273C845EF"
 			rewards: [
 				{
@@ -1291,55 +1338,12 @@
 			y: 5.25d
 		}
 		{
-			dependencies: ["188944FE101F78E4"]
-			id: "7D2A147003467889"
-			rewards: [
-				{
-					id: "36CD62DEB1E0DA92"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "0C4EAC03D73591C7"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4EC43D1F66CC8373"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:brasssabers"
-					}
-				}
-				title: "Any #forge:brasssabers"
-				type: "item"
-			}]
-			title: "&6&lBrass Saber"
-			x: -15.0d
-			y: 3.5d
-		}
-		{
 			dependencies: [
 				"06DE55B8F9F4A557"
 				"1DC8C706C321F8A5"
 				"5B64AE900E9F6684"
 			]
+			description: ["Draconium Ingots can be formed in an Induction Smelter using 1 Draconium, Arcanite and Celestrium dust per ingot."]
 			id: "263B5143F87AEA5F"
 			rewards: [
 				{
@@ -1362,6 +1366,7 @@
 				}
 			]
 			size: 3.0d
+			subtitle: "Induction Smelter"
 			tasks: [{
 				id: "6AEA84C190B2D635"
 				item: {
@@ -1381,6 +1386,7 @@
 		}
 		{
 			dependencies: ["206BBE6C92511589"]
+			description: ["Crafting for machine frames follows the same lines as steel casing. 4 brass, 4 glass, 1 tin gear and 250 mB of Ether, pressed in a heated basin."]
 			id: "3B611A664A6D8EFF"
 			rewards: [
 				{
@@ -1463,7 +1469,40 @@
 		}
 		{
 			dependencies: ["263B5143F87AEA5F"]
+			description: [
+				"Draconium Cores are formed within an Imbuement Chamber using"
+				""
+				"4 &5Draconium Ingots&r"
+				"2 &3Hellforged Ingots&r"
+				"2 &dElementium Ingots&r "
+				"And 1 &6Dragon Egg&r."
+				""
+				""
+				"You will want a very productive &dsource farm&r if you plan for advancing past this point and into &8Draconic Evolution&r."
+			]
 			id: "48D9A81E2A9CB3F5"
+			rewards: [
+				{
+					id: "6E1C7D42A3268363"
+					type: "xp"
+					xp: 130
+				}
+				{
+					count: 2
+					id: "591370F18D58A6BD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Imbuement"
 			tasks: [{
 				id: "4247EF242D5E42DC"
 				item: {
@@ -1484,6 +1523,40 @@
 		{
 			dependencies: ["48D9A81E2A9CB3F5"]
 			id: "675FC347FA9831A6"
+			rewards: [
+				{
+					id: "2D0BEECEF8B92BF6"
+					type: "xp"
+					xp: 220
+				}
+				{
+					id: "3A51A12546F75725"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "65CBEA4108794309"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "37D60CB2282469F5"
 				item: {
@@ -1503,7 +1576,84 @@
 		}
 		{
 			dependencies: ["48D9A81E2A9CB3F5"]
+			description: ["Between Draconic Crafting Injectors and Crafting Cores you will need to have killed virtually all of the Cataclsym bosses at least once. After which, they can be crafted via assembly line."]
 			id: "1CC855C521C4EBAC"
+			rewards: [
+				{
+					id: "75256B98C5465922"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "46BBC57C7E22D674"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5ABDBDFEA73A4062"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "22E42CDA7D5356F0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ancient_metal_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5CD991CE8BF6CB48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "449BF842DBD19ECC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:witherite_ingot"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "565DDB38F7B5EE74"
@@ -1525,6 +1675,53 @@
 		{
 			dependencies: ["48D9A81E2A9CB3F5"]
 			id: "458654090B99F569"
+			rewards: [
+				{
+					id: "586FA4E2E8E7E7D3"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "44CA48C6B89559AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C664833307A1D3D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "draconicevolution:draconium_core"
+					}
+					type: "item"
+				}
+				{
+					id: "7B879E9D53D1A99E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:abyssal_egg"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "111CB42CB5985656"
 				item: {
@@ -1545,6 +1742,54 @@
 		{
 			dependencies: ["675FC347FA9831A6"]
 			id: "5D6E4CAC853FA0A9"
+			rewards: [
+				{
+					id: "2DA40BF48703DB7D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "6EA30B5E1CAE2142"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6298B3D3D8B9EDA8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "457B1DD17157B0C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "draconicevolution:wyvern_core"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "2A841AAA4BB15809"
 				item: {
@@ -1568,6 +1813,41 @@
 				"3DDF35E0E352281E"
 			]
 			id: "21C13E5E97353F66"
+			rewards: [
+				{
+					id: "1E0AA21FB3292370"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 2
+					id: "270237D77D531E11"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F165E1871F57BF3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "draconicevolution:awakened_core"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "037B85C1681B69C0"
 				item: {
@@ -1591,6 +1871,39 @@
 				"1CC855C521C4EBAC"
 			]
 			id: "1DA9820F00A43B42"
+			rewards: [
+				{
+					id: "10FE6DD82ACFE5AE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "1219FD45E540A6FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "41606FAD75E5245F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "draconicevolution:draconium_core"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4E2E62F69DE27DC5"
 				item: {
@@ -1614,6 +1927,40 @@
 				"5D6E4CAC853FA0A9"
 			]
 			id: "5778163C00743CB5"
+			rewards: [
+				{
+					id: "037BD4F204114271"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2EE9402C8ADD21C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07356AC1784018A1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "draconicevolution:wyvern_core"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "25B216AA9BAF63F3"
 				item: {
@@ -1637,6 +1984,40 @@
 				"3DDF35E0E352281E"
 			]
 			id: "27031A2DE57DB48C"
+			rewards: [
+				{
+					id: "1458523AA0770084"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "7A16F4A389DD89BE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "53F8A9BA029EA351"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4A855033BACB05E7"
 				item: {
@@ -1657,6 +2038,26 @@
 		{
 			dependencies: ["3DDF35E0E352281E"]
 			id: "7148B44E1EDDCAE8"
+			rewards: [
+				{
+					id: "7C57F75959535FA5"
+					type: "xp"
+					xp: 220
+				}
+				{
+					id: "0A934130D71A5319"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "171646BFFE9E61D3"
 				item: {
@@ -1677,6 +2078,27 @@
 		{
 			dependencies: ["3DDF35E0E352281E"]
 			id: "640CFEF8A54748B9"
+			rewards: [
+				{
+					id: "00FCD1DDAD7C42C6"
+					type: "xp"
+					xp: 325
+				}
+				{
+					count: 3
+					id: "60840238BB88B532"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "480917FF964375D1"
 				item: {
@@ -1697,6 +2119,27 @@
 		{
 			dependencies: ["458654090B99F569"]
 			id: "3DDF35E0E352281E"
+			rewards: [
+				{
+					id: "138428553AEB81B2"
+					type: "xp"
+					xp: 180
+				}
+				{
+					count: 3
+					id: "7B89486D503D31E1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "657C52721B660E5E"
 				item: {
@@ -3583,54 +4026,6 @@
 			}]
 			x: -20.5d
 			y: 23.0d
-		}
-		{
-			dependencies: [
-				"5408F21008F2B15F"
-				"7D2A147003467889"
-				"29307362D6F4A8AD"
-			]
-			id: "53DF6301C26AFFB4"
-			rewards: [
-				{
-					id: "35B28006B40B9A63"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "18907B829D23AFE0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:cog"
-					}
-					type: "item"
-				}
-			]
-			size: 2.5d
-			tasks: [{
-				id: "35645B323D29D77A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "create_sabers:brass_saber_galaxy"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "&6&lGalaxy Saber"
-			x: -14.964285714285715d
-			y: 13.321428571428577d
 		}
 	]
 	title: "&eThe Road Less Traveled"

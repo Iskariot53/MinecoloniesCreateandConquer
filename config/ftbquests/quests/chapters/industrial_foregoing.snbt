@@ -23,7 +23,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Industrial foregoing is another tech and automation mod whose progress is integrated into core gameplay. While many things from this chapter can be ignored if you so choose, if you wish to reach the full extent of endgame content, you will need to at very least obtain a means to produce both: &eplastic&r and &3ether gas&r."
 				""
@@ -45,7 +45,8 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&9Industrialize The World!"
 			tasks: [{
 				id: "43AACFC5F93A2168"

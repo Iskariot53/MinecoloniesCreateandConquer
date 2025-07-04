@@ -30,7 +30,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["17BDF7E9E9E70940"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"&5&lGateways to Eternity&r&r is a mod where players open giant portals that release hordes of enemies in a series of progressively stronger waves. Completing each wave grants rewards, and finishing the entire gateway provides a completion bonus."
 				""
@@ -45,6 +45,8 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "1236F22DE1667277"
 				title: "Getting start with gateways"

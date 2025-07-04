@@ -51,6 +51,16 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
   "entangled": {
     "entangled_block_component": true
   },
@@ -59,6 +69,12 @@
     "hud": true,
     "hud.status": true,
     "hud.contents": true
+  },
+  "jadeaddons.mcjtylib": {
+    "jadeaddons": true
+  },
+  "createsifter": {
+    "sifter_data": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -111,17 +127,6 @@
     "mortar": true,
     "cauldron": true
   },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
-  },
   "waystones": {
     "waystone": true
   },
@@ -155,16 +160,13 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
     "spawner": true
   },
-  "lootr": {
-    "info": true
+  "functionalstorage": {
+    "armory": true
   },
   "balm": {
     "jade": true
@@ -184,6 +186,9 @@
   },
   "jadeaddons": {
     "equipment_requirement": ""
+  },
+  "jadeaddons.lootr": {
+    "info": true
   },
   "player_companions": {
     "player_companion_entity_provider": true,

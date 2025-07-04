@@ -3,7 +3,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "getting_started"
-	group: ""
+	group: "5B6588F2B5558488"
 	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: {
@@ -93,7 +93,9 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA little bit of reading to do"
+			shape: "diamond"
+			size: 2.5d
+			subtitle: "&eYou will learn how to unlock the few chapters of the quest book which remain locked, when this chapter is completed."
 			tasks: [{
 				id: "4043FC396208C343"
 				title: "Create and Conquer The World!"
@@ -101,7 +103,7 @@
 			}]
 			title: "&6&lWelcome to Minecolonies - &e&lCreate and Conquer!"
 			x: -0.5d
-			y: -12.0d
+			y: -12.607142857142858d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -183,8 +185,12 @@
 		}
 		{
 			dependencies: ["6DC66F240EF37760"]
-			dependency_requirement: "all_started"
-			description: ["A lot of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, leading into Industiral Foregoing for now. Mekanism and its machines will be available for power generation but requires more extensive resources to set up. You will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress-powered alternators, generators, and motors. However, there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r to help supplement  early game electricity struggles! "]
+			dependency_requirement: "one_started"
+			description: [
+				"Much of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, automating the production of brass will lead into Industiral Foregoing and Mekanisms machines for more power generation options, but these will require more extensive resources to set up. Obtaining Andesite Alloy, and the ingredients to produce it, are the first steps on that path."
+				""
+				"You will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress-powered alternators, generators, and motors. However, there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r to help supplement early game electricity struggles, if needed."
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -276,8 +282,7 @@
 						cs.aquaSkin: 0
 					}
 				}
-				id: "createbigcannons:flak_autocannon_round"
-				tag: { }
+				id: "torchmaster:megatorch"
 			}
 			id: "77734EA6CB2AEFFC"
 			rewards: [
@@ -293,7 +298,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eClick the icon and submit 3 torches to recieve a mega torch!"
+			subtitle: "&eClick the icon and submit 3 torches to recieve a mega torch."
 			tasks: [{
 				consume_items: true
 				count: 3L
@@ -414,19 +419,26 @@
 				}
 			]
 			subtitle: "&eA home in your hand!"
-			tasks: [{
-				id: "0DC232F1F688E4C3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+			tasks: [
+				{
+					id: "0DC232F1F688E4C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
 						}
+						id: "capsule:capsulemarker"
 					}
-					id: "capsule:capsulemarker"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5EA0C242AC511C43"
+					title: "Got it"
+					type: "checkmark"
+				}
+			]
 			title: "&6&lCapsules!"
 			x: -1.5d
 			y: -11.0d
@@ -507,7 +519,11 @@
 		}
 		{
 			dependencies: ["0BD601443B63B208"]
-			description: ["Have fun, and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs, providing the link in the appropriate channel of the &9MCC Discord&r. Have any ideas or suggestions? Please let us know. Thanks!"]
+			description: [
+				"Any remaining quest chapters yet to be unlocked by the time you reach this quest will be unlocked when you either craft a &6Bank Terminal&r OR complete \"&6Breaking Ground and Setting Up&r\"."
+				""
+				"Have fun, and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs, providing the link in the appropriate channel of the &9MCC Discord&r. Have any ideas or suggestions? Please let us know. Thanks!"
+			]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -816,5 +832,5 @@
 			y: 30.0d
 		}
 	]
-	title: "&5&lGetting Started"
+	title: "&eGetting Started"
 }

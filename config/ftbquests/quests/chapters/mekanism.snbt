@@ -76,7 +76,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4386DFA29FCEDD4D"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"As with any other playthrough in a pack involving Mekanism, start off by gathering some osmium ingots. Osmium chickens and/or bees, or even laser drills will aid in making this resource less painfully sustainable."
 				""
@@ -114,7 +114,8 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&3This stuffs a little bit harder to find than usual"
 			tasks: [{
 				count: 6L

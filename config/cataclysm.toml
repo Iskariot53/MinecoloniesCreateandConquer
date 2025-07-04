@@ -7,6 +7,10 @@
 	shadersCompat = false
 	#ScreenShake(on/off)
 	"ScreenShake(on/off)" = true
+	#Forced viewpoint change when hit by a grab attack
+	"setThirdPerson(on/off)" = true
+	#Forced viewpoint change when hit by a grab attack
+	"setFirstPerson(on/off)" = true
 
 [Weapon]
 	#Armor Infinity Durability(on/off)
@@ -53,6 +57,24 @@
 	#Sandstorm's cooldown
 	#Range: 0 ~ 1000000
 	Sandstormcooldown = 300
+	#Storm Bringer's LightningStorm Damage
+	#Range: 0.0 ~ 1000000.0
+	"Ceraunus 's Lightning Storm Damage" = 6.0
+	#Ceraunus's Wave Damage
+	#Range: 0.0 ~ 1000000.0
+	"Ceraunus's Wave Damage'" = 6.0
+	#Ceraunus's Cooldown
+	#Range: 0 ~ 1000000
+	"Ceraunus Cooldown" = 150
+	#Astrape's LightningStorm Damage
+	#Range: 0.0 ~ 1000000.0
+	"Astrape's Lightning Spear Damage" = 11.0
+	#Astrape's Wave Damage
+	#Range: 0.0 ~ 1000000.0
+	"Astrape's Area Damage'" = 2.0
+	#Astrape's Cooldown
+	#Range: 0 ~ 1000000
+	"Astrape Cooldown" = 80
 
 ["Entity damage"]
 	#Void Rune's Damage
@@ -125,10 +147,10 @@
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianHealthMultiplier = 1.0
+	EnderGuardianHealthMultiplier = 3.0
 	#EnderGuardian's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	EnderGuardianDamageMultiplier = 1.0
+	EnderGuardianDamageMultiplier = 2.0
 	#EnderGuardian's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	EnderGuardianDamageCap = 22.0
@@ -180,10 +202,10 @@
 	Lavabombamount = 3
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.0
+	MonstrosityHealthMultiplier = 3.0
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 1.0
+	MonstrosityDamageMultiplier = 2.0
 	#Monstrosity's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	MonstrosityHealingMultiplier = 1.0
@@ -221,30 +243,30 @@
 	"Endergolem's prevent attacks from far away Range" = 6.0
 	#Golem's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemHealthMultiplier = 1.0
+	GolemHealthMultiplier = 3.0
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 1.0
+	GolemDamageMultiplier = 2.0
 
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.0
+	IgnisHealthMultiplier = 3.0
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 1.0
+	IgnisDamageMultiplier = 2.0
 	#Ignis's Healing with out target
 	#Range: 0.0 ~ 1000000.0
-	IgnisNatureHealing = 10.0
+	IgnisNatureHealing = 8.0
 	#Ignis's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealingMultiplier = 1.0
+	IgnisHealingMultiplier = 0.7
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
-	"Ignis's prevent attacks from far away Range" = 15.0
+	"Ignis's prevent attacks from far away Range" = 20.0
 	#Ignis's DamageCap
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageCap = 20.0
+	IgnisDamageCap = 16.0
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
 	#Ignis's DamageTime
@@ -254,10 +276,10 @@
 [revenant]
 	#Revenant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantHealthMultiplier = 1.0
+	RevenantHealthMultiplier = 3.0
 	#Revenant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantDamageMultiplier = 1.0
+	RevenantDamageMultiplier = 2.0
 
 ["The Prowler"]
 	#The Prowler's Immune to Long distance attack range.
@@ -265,18 +287,18 @@
 	"The Prowler's prevent attacks from far away Range" = 16.0
 	#Prowler's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerHealthMultiplier = 1.0
+	ProwlerHealthMultiplier = 3.0
 	#Prowler's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerDamageMultiplier = 1.0
+	ProwlerDamageMultiplier = 2.0
 
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerHealthMultiplier = 1.0
+	HarbingerHealthMultiplier = 3.0
 	#Harbinger's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	HarbingerDamageMultiplier = 1.0
+	HarbingerDamageMultiplier = 2.0
 	#Harbinger's Healing Multiplier
 	#Range: 0.0 ~ 1000000.0
 	HarbingerHealingMultiplier = 1.0
@@ -304,10 +326,10 @@
 ["The Leviathan"]
 	#Leviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanHealthMultiplier = 1.0
+	LeviathanHealthMultiplier = 3.0
 	#Leviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	LeviathanDamageMultiplier = 1.0
+	LeviathanDamageMultiplier = 2.0
 	#Leviathan's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	LeviathanNatureHealing = 10.0
@@ -340,37 +362,37 @@
 ["The Baby Leviathan"]
 	#BabyLeviathan's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanHealthMultiplier = 1.0
+	BabyLeviathanHealthMultiplier = 3.0
 	#BabyLeviathan's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	BabyLeviathanDamageMultiplier = 1.0
+	BabyLeviathanDamageMultiplier = 2.0
 
 ["Modern Remnant"]
 	#Modern Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ModernRemnantHealthMultiplier = 1.0
+	ModernRemnantHealthMultiplier = 3.0
 	#Modern Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ModernRemnantDamageMultiplier = 1.0
+	ModernRemnantDamageMultiplier = 2.0
 
 ["Amethyst Crab"]
 	#Amethyst Crab's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabHealthMultiplier = 1.0
+	AmethystCrabHealthMultiplier = 3.0
 	#Amethyst Crab's EarthQuake Damage
 	#Range: 0.0 ~ 1000000.0
 	AmethystCrabEarthQuakeDamage = 5.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 1.0
+	AmethystCrabDamageMultiplier = 2.0
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantHealthMultiplier = 1.0
+	AncientRemnantHealthMultiplier = 3.0
 	#Ancient Remnant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AncientRemnantDamageMultiplier = 1.0
+	AncientRemnantDamageMultiplier = 2.0
 	#AncientRemnant's Healing with out target
 	#Range: 0.0 ~ 1000000.0
 	AncientRemnantNatureHealing = 10.0
@@ -408,18 +430,18 @@
 	KobolediatorBlockBreaking = false
 	#Kobolediator's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	KobolediatorHealthMultiplier = 1.0
+	KobolediatorHealthMultiplier = 3.0
 	#Kobolediator's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	KobolediatorDamageMultiplier = 1.0
+	KobolediatorDamageMultiplier = 2.0
 
 [Maledictus]
 	#Maledictus's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusHealthMultiplier = 1.0
+	MaledictusHealthMultiplier = 3.0
 	#Maledictus's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MaledictusDamageMultiplier = 1.0
+	MaledictusDamageMultiplier = 2.0
 	#Maledictus's DamageCap
 	#Range: 0.0 ~ 1000000.0
 	MaledictusDamageCap = 20.0
@@ -528,18 +550,18 @@
 [Wadjet]
 	#Wadjet's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetHealthMultiplier = 1.0
+	WadjetHealthMultiplier = 3.0
 	#Wadjet's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	WadjetDamageMultiplier = 1.0
+	WadjetDamageMultiplier = 2.0
 
 [Aptrgangr]
 	#Aptrgangr's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrHealthMultiplier = 1.0
+	AptrgangrHealthMultiplier = 3.0
 	#Aptrgangr's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AptrgangrDamageMultiplier = 1.0
+	AptrgangrDamageMultiplier = 2.0
 	#Axe Blade's Damage
 	#Range: 0.0 ~ 1000000.0
 	AptrgangrAxeBladeDamage = 8.0
@@ -547,7 +569,7 @@
 ["Netherite Ministrosity"]
 	#Ministrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MinistrosityHealthMultiplier = 1.0
+	MinistrosityHealthMultiplier = 3.0
 
 ["bosses Common settings"]
 	#custombossbar(on/off)
@@ -560,4 +582,56 @@
 	#If the boss leaves the summoned location and there is no target, it returns to the summoned location. When set to 0, it does not return
 	#Range: 0 ~ 200
 	ReturnHome = 20
+
+[Clawdian]
+	#Clawdian's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ClawdianHealthMultiplier = 3.0
+	#Clawdian's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ClawdianDamageMultiplier = 2.0
+
+[Scylla]
+	#Scylla's Health Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ScyllaHealthMultiplier = 3.0
+	#Scylla's Damage Multiplier
+	#Range: 0.0 ~ 1000000.0
+	ScyllaDamageMultiplier = 2.0
+	#Scylla's Immune to Long distance attack range.
+	#Range: 1.0 ~ 1000000.0
+	"Scylla's prevent attacks from far away Range" = 12.0
+	#Scylla's Spear Damage
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's Spear Damage" = 14.0
+	#Scylla's Lightning Storm
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's Lightning Storm" = 10.0
+	#Scylla's Lightning Area
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's Lightning Area" = 4.0
+	#Scylla's Storm Serpent
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's Snake Damage" = 16.0
+	#Scylla's Anchor Damage
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's Anchor Damage" = 16.0
+	#Scylla's Healing with out target
+	#Range: 0.0 ~ 1000000.0
+	"Scylla NatureHealing" = 25.0
+	#Scylla's DamageCap
+	#Range: 0.0 ~ 1000000.0
+	"Scylla DamageCap" = 22.0
+	#Scylla's DamageTime
+	#Range: 0 ~ 100
+	"Scylla DamageTime" = 25
+	#Scylla's HP Damage
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's HP Damage" = 0.05
+	#Scylla's Spin HP Damage
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's Spin Hp Damage" = 0.07
+	#Scylla's Lightning Storm HP Damage
+	#Range: 0.0 ~ 1000000.0
+	"Scylla's Lightning Storm HP Damage" = 0.04
 

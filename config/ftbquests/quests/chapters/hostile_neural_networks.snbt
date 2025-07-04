@@ -19,7 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["63EBDB6E11473DF6"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Hostile neural networks (referred to as HNN from here forward) is an upgraded and as always, lag friendly way to farm mobs. Other than potentially the wannabee, this is going to be the optimal way to farm multiple mobs. "
 				""
@@ -42,7 +42,8 @@
 				type: "xp"
 				xp: 5
 			}]
-			size: 2.0d
+			shape: "diamond"
+			size: 2.5d
 			subtitle: "&9Digital Mob Factories"
 			tasks: [{
 				id: "5BD77008D3392DFD"

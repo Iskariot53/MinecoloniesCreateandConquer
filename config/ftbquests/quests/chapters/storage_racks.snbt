@@ -19,7 +19,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["11CB742A8CEE0CB0"]
+			dependencies: ["19C32F0E30411935"]
 			description: [
 				"Looking for an early-game storage system that's simple to use? &e&lStorage Racks&r&r might be just the mod for you!"
 				""
@@ -35,21 +35,21 @@
 				}
 				id: "storageracks:oak_diamond_rack"
 			}
-			icon_scale: 1.3d
 			id: "377E286CDF4BDA5C"
 			rewards: [{
 				id: "7B1BC2924EC9F0E5"
 				type: "xp"
 				xp: 5
 			}]
-			size: 1.5d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "46D732A55CE2601A"
 				type: "checkmark"
 			}]
 			title: "&lStorage Racks"
-			x: -4.736904761904775d
-			y: -8.5d
+			x: -12.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -332,8 +332,8 @@
 				}
 			]
 			title: "&lWood Racks and Corners"
-			x: -5.0d
-			y: -7.232142857142865d
+			x: -10.0d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -611,8 +611,8 @@
 				}
 			]
 			title: "&lStone Racks and Corners"
-			x: -6.0d
-			y: -6.232142857142865d
+			x: -9.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -890,8 +890,8 @@
 				}
 			]
 			title: "&lIron Racks and Corners"
-			x: -7.0d
-			y: -6.232142857142865d
+			x: -8.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1169,8 +1169,8 @@
 				}
 			]
 			title: "&lGold Racks and Corners"
-			x: -8.0d
-			y: -6.232142857142865d
+			x: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1448,8 +1448,8 @@
 				}
 			]
 			title: "&lEmerald Racks and Corners"
-			x: -9.0d
-			y: -6.232142857142865d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -1726,8 +1726,8 @@
 				}
 			]
 			title: "&lDiamond Racks and Corners"
-			x: -10.0d
-			y: -6.232142857142865d
+			x: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -2004,8 +2004,8 @@
 				}
 			]
 			title: "&lNetherite Racks and Corners"
-			x: -11.0d
-			y: -7.232142857142865d
+			x: -4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["377E286CDF4BDA5C"]
@@ -2050,8 +2050,8 @@
 				type: "item"
 			}]
 			title: "&lStone Controller"
-			x: -6.0d
-			y: -8.232142857142865d
+			x: -9.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["7417D7EB6D7EAA3D"]
@@ -2092,8 +2092,8 @@
 				type: "item"
 			}]
 			title: "&lIron Controller"
-			x: -7.0d
-			y: -8.232142857142865d
+			x: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["41D560810B632C4D"]
@@ -2134,8 +2134,8 @@
 				type: "item"
 			}]
 			title: "&lGold Controller"
-			x: -8.0d
-			y: -8.232142857142865d
+			x: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["56098F44C4727C5B"]
@@ -2176,8 +2176,8 @@
 				type: "item"
 			}]
 			title: "&lEmerald Controller"
-			x: -9.0d
-			y: -8.232142857142865d
+			x: -6.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["09D99D77C2C2E0C1"]
@@ -2217,11 +2217,11 @@
 				type: "item"
 			}]
 			title: "&lNetherite Controller"
-			x: -10.0d
-			y: -8.232142857142865d
+			x: -5.0d
+			y: -8.5d
 		}
 		{
-			dependencies: ["11CB742A8CEE0CB0"]
+			dependencies: ["19C32F0E30411935"]
 			description: ["&e&lFunctional Storage&r&r is a mod that adds a variety of drawers, allowing you to store large quantities of items while offering useful functionalities and upgrades."]
 			hide_until_deps_complete: true
 			icon: {
@@ -2233,14 +2233,14 @@
 				}
 				id: "functionalstorage:storage_controller"
 			}
-			icon_scale: 1.3d
 			id: "1BE501041FE031B5"
 			rewards: [{
 				id: "5DAB0930BAC78D66"
 				type: "xp"
 				xp: 5
 			}]
-			size: 2.0d
+			shape: "diamond"
+			size: 2.5d
 			tasks: [{
 				id: "5B1C140F3B23D4BA"
 				type: "checkmark"

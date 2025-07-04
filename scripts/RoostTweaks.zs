@@ -19,7 +19,6 @@
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_ancientdust>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_philolite>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_luminarchy>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_sap>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_latex>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_ether>);
@@ -48,15 +47,13 @@
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_ancientdust>);
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_philolite>);
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_luminarchy>);
-		<tag:items:forge:roost/tier3>.addId(<resource:chicken_roost:c_sap>);
 		<tag:items:forge:roost/tier4>.addId(<resource:chicken_roost:c_latex>);
 		<tag:items:forge:roost/tier5>.addId(<resource:chicken_roost:c_hemophiliac>);
 		<tag:items:forge:roost/tier7>.addId(<resource:chicken_roost:c_ether>);
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
 		<tag:items:forge:roost/tier6>.addId(<resource:chicken_roost:c_beastmaster>);
 
-//CHERRY CHICKEN
-		//BREEDER
+
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cherrychicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -91,7 +88,7 @@
 		  
 		});
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cherrychicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -108,7 +105,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cherrychicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -124,8 +121,7 @@
 		  }
 		});
 		
-//MANGROVE CHICKEN
-		//BREEDER
+
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.mangrovechicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -160,7 +156,7 @@
 		  
 		});
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.mangrovechicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -177,7 +173,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.mangrovechicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -193,8 +189,7 @@
 		  }
 		});
 		
-//CACTUS CHICKEN
-		//BREEDER
+
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cactuschicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -229,7 +224,7 @@
 		  
 		});
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cactuschicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -246,7 +241,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cactuschicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -262,8 +257,7 @@
 		  }
 		});
 		
-//BAMBOO CHICKEN
-		//BREEDER
+
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.bamboochicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -298,7 +292,7 @@
 		  
 		});
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.bamboochicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -315,7 +309,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.bamboochicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -331,8 +325,7 @@
 		  }
 		});
 		
-//POTATO CHICKEN
-		//BREEDER
+
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.potatochicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -367,7 +360,7 @@
 		  
 		});
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.potatochicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -384,7 +377,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.potatochicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -400,8 +393,7 @@
 		  }
 		});
 		
-//COCOA BEANS CHICKEN
-		//BREEDER
+
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cocoabeanschicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -436,7 +428,7 @@
 		  
 		});
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cocoabeanschicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -453,7 +445,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cocoabeanschicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -469,8 +461,7 @@
 		  }
 		});
 		
-//PUMPKIN CHICKEN
-		//BREEDER
+
 				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.pumpkinchicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -505,7 +496,7 @@
 		  
 		});
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.pumpkinchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -522,7 +513,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.pumpkinchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -538,8 +529,7 @@
 		  }
 		});
 		
-//BLAZING ARCHWOOD CHICKEN
-		//IMBUEMENT CHAMBER
+
 			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("blazingarchwoodchicken", {
 		  "type": "ars_nouveau:imbuement",
 		  "count": 1,
@@ -592,7 +582,7 @@
 		  "source": 1000
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.blazingarchwoodchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -609,7 +599,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.blazingarchwoodchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -625,8 +615,7 @@
 		  }
 		});
 		
-//CASCADING ARCHWOOD CHICKEN
-		//IMBUEMENT CHAMBER
+
 			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("cascadingarchwoodchicken", {
 		  "type": "ars_nouveau:imbuement",
 		  "count": 1,
@@ -679,7 +668,7 @@
 		  "source": 1000
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cascadingarchwoodchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -696,7 +685,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cascadingarchwoodchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -712,8 +701,7 @@
 		  }
 		});
 		
-//VEXING ARCHWOOD CHICKEN
-		//IMBUEMENT CHAMBER
+
 			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("vexingarchwoodchicken", {
 		  "type": "ars_nouveau:imbuement",
 		  "count": 1,
@@ -766,7 +754,7 @@
 		  "source": 1000
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.vexingarchwoodchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -783,7 +771,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.vexingarchwoodchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -799,8 +787,7 @@
 		  }
 		});
 		
-//FLOURISHING ARCHWOOD CHICKEN
-		//IMBUEMENT CHAMBER
+
 			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("flourishingarchwoodchicken", {
 		  "type": "ars_nouveau:imbuement",
 		  "count": 1,
@@ -853,7 +840,7 @@
 		  "source": 1000
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.flourishingarchwoodchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -870,7 +857,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.flourishingarchwoodchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -886,8 +873,7 @@
 		  }
 		});
 		
-//FLASHING ARCHWOOD CHICKEN
-		//IMBUEMENT CHAMBER
+
 			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("flashingarchwoodchicken", {
 		  "type": "ars_nouveau:imbuement",
 		  "count": 1,
@@ -940,7 +926,7 @@
 		  "source": 1000
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.flashingarchwoodchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -957,7 +943,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.flashingarchwoodchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -973,8 +959,7 @@
 		  }
 		});
 		
-//MAGEBLOOM CHICKEN
-		//IMBUEMENT CHAMBER
+
 			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("magebloomchicken", {
 		  "type": "ars_nouveau:imbuement",
 		  "count": 1,
@@ -1027,7 +1012,7 @@
 		  "source": 1000
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.magebloomchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1044,7 +1029,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.magebloomchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1060,14 +1045,13 @@
 		  }
 		});
 		
-//ANTHRALITE CHICKEN
-		//MECHANICAL CRAFTING
+
 			<recipetype:create:mechanical_crafting>.addRecipe("mechanical.anthralitechicken", <item:chicken_roost:c_anthralite>, 
 			[[<item:chicken_roost:c_brass>, <item:scguns:anthralite_ingot>, <item:chicken_roost:c_brass>], 
 			[<item:scguns:anthralite_ingot>, <item:chicken_roost:chicken_essence_tier_6>, <item:scguns:anthralite_ingot>], 
 			[<item:chicken_roost:c_brass>, <item:scguns:anthralite_ingot>, <item:chicken_roost:c_brass>]]);
 			
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.anthralitechicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1084,7 +1068,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.anthralitechicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1100,14 +1084,13 @@
 		  }
 		});
 
-//THORIUM CHICKEN
-		//MECHANICAL CRAFTING
+
 			<recipetype:create:mechanical_crafting>.addRecipe("mechanical.thoriumchicken", <item:chicken_roost:c_thorium>, 
 			[[<item:chicken_roost:c_uranium>, <item:create_new_age:thorium>, <item:chicken_roost:c_uranium>], 
 			[<item:create_new_age:thorium>, <item:chicken_roost:chicken_essence_tier_6>, <item:create_new_age:thorium>], 
 			[<item:chicken_roost:c_uranium>, <item:create_new_age:thorium>, <item:chicken_roost:c_uranium>]]);
 			
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.thoriumchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1124,7 +1107,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.thoriumchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1140,12 +1123,11 @@
 		  }
 		});
 		
-//MALACHITE CHICKEN
-		//CREATE MIXING
+
 			<recipetype:create:mixing>.addRecipe("createmixing.malachitechicken", <constant:create:heat_condition:none>, [<item:chicken_roost:c_malachite>], [<item:chicken_roost:c_endstone>, <item:chicken_roost:chicken_essence_tier_7>, 
 			<item:enlightened_end:malachite> * 4], [<fluid:enlightened_end:ooze_fluid> * 1000]);
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.malachitechicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1162,7 +1144,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.malachitechicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1178,12 +1160,11 @@
 		  }
 		});
 		
-//IRRADIUM CHICKEN
-		//CREATE MIXING
+
 			<recipetype:create:mixing>.addRecipe("createmixing.irradiumchicken", <constant:create:heat_condition:none>, [<item:chicken_roost:c_irradium>], [<item:chicken_roost:c_endstone>, <item:chicken_roost:chicken_essence_tier_7>, 
 			<item:enlightened_end:irradium_bar> * 4], [<fluid:enlightened_end:ooze_fluid> * 1000]);
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.irradiumchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1200,7 +1181,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.irradiumchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1216,12 +1197,11 @@
 		  }
 		});
 		
-//BISMUTH CHICKEN
-		//CREATE MIXING
+
 			<recipetype:create:mixing>.addRecipe("createmixing.bismuthchicken", <constant:create:heat_condition:none>, [<item:chicken_roost:c_bismuth>], [<item:chicken_roost:c_endstone>, <item:chicken_roost:chicken_essence_tier_7>, 
 			<item:enlightened_end:bismuth_ingot> * 4], [<fluid:enlightened_end:ooze_fluid> * 1000]);
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.bismuthchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1238,7 +1218,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.bismuthchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1254,8 +1234,7 @@
 		  }
 		});
 		
-//ANCIENT DUST CHICKEN
-		//THERMAL COMPONENT ASSEMBLY
+
 		<recipetype:thermal_extra:component_assembly>.addJsonRecipe("componentassembly.ancientdustchicken", {
 		  "type": "thermal_extra:component_assembly",
 		  "energy": 5000,
@@ -1285,7 +1264,7 @@
 		  ]
 		});	
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.ancientdustchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1302,7 +1281,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.ancientdustchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1318,8 +1297,7 @@
 		  }
 		});
 		
-//PHILOLITE CHICKEN
-		//MECHANICAL CRAFTING
+
 		 <recipetype:create:mechanical_crafting>.addRecipe("mechanical.philolitechicken", <item:chicken_roost:c_philolite>, 
 		 [[<item:create:precision_mechanism>, <item:create_unbreakable:philolite>, <tag:items:forge:plates/brass>, <item:create_unbreakable:philolite>, <item:create:precision_mechanism>], 
 		 [<item:create_unbreakable:philolite>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:philolite>], 
@@ -1327,7 +1305,7 @@
 		 [<item:create_unbreakable:philolite>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:philolite>], 
 		 [<item:create:precision_mechanism>, <item:create_unbreakable:philolite>, <tag:items:forge:plates/brass>, <item:create_unbreakable:philolite>, <item:create:precision_mechanism>]]);
 			
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.philolitechicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1344,7 +1322,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.philolitechicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1360,8 +1338,8 @@
 		  }
 		});
 		
-//LUMINARCHY CHICKEN
-		//MECHANICAL CRAFTING
+
+	
 		 <recipetype:create:mechanical_crafting>.addRecipe("mechanical.luminarchychicken", <item:chicken_roost:c_luminarchy>, 
 		 [[<item:create:precision_mechanism>, <item:create_unbreakable:luminarchy>, <tag:items:forge:plates/brass>, <item:create_unbreakable:luminarchy>, <item:create:precision_mechanism>], 
 		 [<item:create_unbreakable:luminarchy>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:luminarchy>], 
@@ -1369,7 +1347,7 @@
 		 [<item:create_unbreakable:luminarchy>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:luminarchy>], 
 		 [<item:create:precision_mechanism>, <item:create_unbreakable:luminarchy>, <tag:items:forge:plates/brass>, <item:create_unbreakable:luminarchy>, <item:create:precision_mechanism>]]);
 			
-		//SOUL BREEDER
+	
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.luminarchychicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1386,7 +1364,7 @@
 		  
 		});
 		
-		//ROOST
+	
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.luminarchychicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1402,66 +1380,7 @@
 		  }
 		});
 		
-//SAP CHICKEN
-			<recipetype:create:filling>.addJsonRecipe("filling.sapchicken", {
-		  "type": "create:filling",
-		  "ingredients": [
-			{
-			  "item": "chicken_roost:c_vanilla"
-			},
-			{
-			  "amount": 1000,
-			  "fluid": "create_dd:sap"
-			  }
-		  ],
-		  "results": [
-			{
-			  "item": "chicken_roost:c_sap",
-			  "count": 1
-			}
-		  ]
-		});
-
-		//SOUL BREEDER
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.sapchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier3andup"
-			},
-			{
-			  "item": "chicken_roost:c_sap"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_sap"
-		  }
-		  
-		});
-		
-		//ROOST
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.sapchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier3orup"
-			},
-			{
-			  "item": "chicken_roost:c_sap"
-			}
-		  ],
-		  "output": {
-			"item": "ccextras:sap_egg"
-		  }
-		});
-		
-		//SAP EGG PROCESSING
-		 <recipetype:create:mixing>.addRecipe("mixing.sapegg", <constant:create:heat_condition:heated>, [<fluid:create_dd:sap> * 1000], [<item:ccextras:sap_egg>]);		
-		 
-		 craftingTable.removeByName("ccextras:sap_egg_recipe_temp");
-		
-		
-//LATEX CHICKEN		
+	
 		 <recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("if.latexchicken", {
 		  "type": "industrialforegoing:dissolution_chamber",
 		  "input": [
@@ -1498,7 +1417,7 @@
 		  "processingTime": 300
 		});
 			
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.latexchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1515,7 +1434,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.latexchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1531,14 +1450,14 @@
 		  }
 		});
 		
-		//LATEX EGG PROCESSING
+
 		 <recipetype:create:mixing>.addRecipe("mixing.latexegg", <constant:create:heat_condition:heated>, [<fluid:industrialforegoing:latex> * 1000], [<item:ccextras:latex_egg>]);
 		 
 		 craftingTable.removeByName("ccextras:latex_egg_recipe_temp");
 		
 
 
-//HEMOPHILIAC CHICKEN
+
 		 <recipetype:bloodmagic:altar>.addJsonRecipe("bm.hemophiliacchicken", {
 		  "type": "bloodmagic:altar",
 		  "altarSyphon": 5000,
@@ -1553,7 +1472,7 @@
 		  "upgradeLevel": 1
 		});
 			
-		//SOUL BREEDER
+		
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.hemophiliacchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1570,7 +1489,7 @@
 		  
 		});
 		
-		//ROOST
+		
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.heophiliacchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1586,7 +1505,7 @@
 		  }
 		});
 		
-		//BLOODY EGG PROCESSING
+
 			<recipetype:bloodmagic:arc>.addJsonRecipe("arc.bloodyegg", {
 		  "type": "bloodmagic:arc",
 		  "consumeingredient": false,
@@ -1613,8 +1532,8 @@
 
 
 
-//ETHER CHICKEN
-		//IF DISSOLUTION CHAMBER
+
+
 		 <recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("if.etherchicken", {
 		  "type": "industrialforegoing:dissolution_chamber",
 		  "input": [
@@ -1651,7 +1570,7 @@
 		  "processingTime": 300
 		});
 			
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.etherchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1668,7 +1587,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.etherchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1690,8 +1609,7 @@
 		
 
 
-//WASTED RADIOACTIVE CHICKEN
-		//MEKANISM PRC
+
 		 <recipetype:mekanism:reaction>.addJsonRecipe("reaction.wastedradioactivechicken", {
 			"type":"mekanism:reaction",
 			"duration":100,
@@ -1704,7 +1622,7 @@
 			"itemOutput":{"item":"chicken_roost:c_wastedradioactive"
 			}});
 	
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.wastedradioactivechicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1721,7 +1639,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.wastedradioactivechicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1737,7 +1655,7 @@
 		  }
 		});
 		
-		//WASTED RADIOACTIVE EGG PROCESSING
+
 			 <recipetype:mekanism:oxidizing>.addJsonRecipe("oxidizing.wastedradioactiveegg", {
 		  "type": "mekanism:oxidizing",
 		  "input": {
@@ -1799,8 +1717,7 @@
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_brass>);
 		
 
-//GLASS CHICKEN
-	//BREEDER
+
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.glasschicken", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -1818,8 +1735,7 @@
 		  
 		});
 
-//TINTED GLASS CHICKEN
-	//BREEDER
+
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.tintedglasschicken", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -1837,7 +1753,7 @@
 		  
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.tintedglasschicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1854,7 +1770,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.tintedglasschicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1870,8 +1786,7 @@
 		  }
 		});
 
-//PRISMARINE SHARD CHICKEN
-	//BREEDER
+
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.prismarineshardchicken", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -1889,7 +1804,7 @@
 		  
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.prismarineshardchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1906,7 +1821,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.prismarineshardchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1922,8 +1837,7 @@
 		  }
 		});
 
-//NETHER BRICK CHICKEN
-	//BREEDER
+
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.netherbrickchicken", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -1941,7 +1855,7 @@
 		  
 		});
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.netherbrickchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -1958,7 +1872,7 @@
 		  
 		});
 		
-		//ROOST
+		
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.netherbrickchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -1974,15 +1888,13 @@
 		  }
 		});
 
-//RABBIT HIDE CHICKEN
-	    //CRAFTING
+
 		craftingTable.addShaped("crafting.rabbithidechicken", <item:chicken_roost:c_rabbithide>, 
 		[[<item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>], 
 		[<item:minecraft:rabbit_hide>, <item:chicken_roost:chicken_essence_tier_3>, <item:minecraft:rabbit_hide>], 
 		[<item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>, <item:minecraft:rabbit_hide>]]);
 		
-//ROSE GOLD CHICKEN
-	//BREEDER
+
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.rosegoldchicken", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -2000,7 +1912,7 @@
 		  
 		});
 
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.rosegoldchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2016,8 +1928,7 @@
 		  }
 		});
 
-//PIG IRON CHICKEN
-	//BREEDER
+
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.pigironchicken", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -2035,7 +1946,7 @@
 		  
 		});
 
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.pigironchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2051,14 +1962,13 @@
 		  }
 		});
 
-//RUBY CHICKEN
-	    //CRAFTING
+
 		craftingTable.addShaped("crafting.rubychicken", <item:chicken_roost:c_ruby>, 
 		[[<item:thermal:ruby>, <item:thermal:ruby>, <item:thermal:ruby>], 
 		[<item:thermal:ruby>, <item:chicken_roost:chicken_essence_tier_6>, <item:thermal:ruby>], 
 		[<item:thermal:ruby>, <item:thermal:ruby>, <item:thermal:ruby>]]);
 
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.rubychicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2074,14 +1984,13 @@
 		  }
 		});
 
-//SAPPHIRE CHICKEN
-	    //CRAFTING
+
 		craftingTable.addShaped("crafting.sapphirechicken", <item:chicken_roost:c_sapphire>, 
 		[[<item:thermal:sapphire>, <item:thermal:sapphire>, <item:thermal:sapphire>], 
 		[<item:thermal:sapphire>, <item:chicken_roost:chicken_essence_tier_6>, <item:thermal:sapphire>], 
 		[<item:thermal:sapphire>, <item:thermal:sapphire>, <item:thermal:sapphire>]]);
 
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.sapphirechicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2097,14 +2006,13 @@
 		  }
 		});
 
-//FLUIX CRYSTAL CHICKEN
-	//CRAFTING
+
 		craftingTable.addShaped("crafting.fluixcrystalchicken", <item:chicken_roost:c_fluixcrystal>, 
 		[[<item:ae2:fluix_crystal>, <item:ae2:fluix_crystal>, <item:ae2:fluix_crystal>], 
 		[<item:ae2:fluix_crystal>, <item:chicken_roost:c_chargedcertus>, <item:ae2:fluix_crystal>], 
 		[<item:ae2:fluix_crystal>, <item:ae2:fluix_crystal>, <item:ae2:fluix_crystal>]]);
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.fluixcrystalchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -2121,7 +2029,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.fluixcrystalchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2137,23 +2045,22 @@
 		  }
 		});
 		
-//CERTUS QUARTZ CHICKEN
+
     <recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_certusquartz>);
-	//CRAFTING
+
 		craftingTable.addShaped("crafting.certusquartz", <item:chicken_roost:c_certusquartz>, 
 		[[<item:ae2:certus_quartz_crystal>, <item:ae2:certus_quartz_crystal>, <item:ae2:certus_quartz_crystal>], 
 		[<item:ae2:certus_quartz_crystal>, <item:chicken_roost:c_silicon>, <item:ae2:certus_quartz_crystal>], 
 		[<item:ae2:certus_quartz_crystal>, <item:ae2:certus_quartz_crystal>, <item:ae2:certus_quartz_crystal>]]);
 
 
-//CHARGED CERTUS QUARTZ CHICKEN
-	//CRAFTING
+
 		craftingTable.addShaped("crafting.chargedcertus", <item:chicken_roost:c_chargedcertus>, 
 		[[<item:ae2:charged_certus_quartz_crystal>, <item:ae2:charged_certus_quartz_crystal>, <item:ae2:charged_certus_quartz_crystal>], 
 		[<item:ae2:charged_certus_quartz_crystal>, <item:chicken_roost:c_certusquartz>, <item:ae2:charged_certus_quartz_crystal>], 
 		[<item:ae2:charged_certus_quartz_crystal>, <item:ae2:charged_certus_quartz_crystal>, <item:ae2:charged_certus_quartz_crystal>]]);
 
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.chargedcertuschicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -2170,7 +2077,7 @@
 		  
 		});
 		
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.chargedcertuschicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2186,8 +2093,7 @@
 		  }
 		});
 
-//PAPER CHICKEN
-	//BREEDER
+
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.paperchicken", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
@@ -2205,14 +2111,13 @@
 		  
 		});
 		
-//OSMIUM CHICKEN
-		//MECHANICAL CRAFTING
+
 			<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.osmium_chicken", <item:chicken_roost:c_osmium>, 
 			[[<item:chicken_roost:c_brass>, <item:mekanism:block_osmium>, <item:chicken_roost:c_brass>], 
 			[<item:mekanism:block_osmium>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:block_osmium>], 
 			[<item:chicken_roost:c_brass>, <item:mekanism:block_osmium>, <item:chicken_roost:c_brass>]]);
 			
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.osmium_chicken", {
 			  "type": "chicken_roost:soul_breeding",
 			  "ingredients": [
@@ -2228,7 +2133,7 @@
 			  }
 			});
 			
-		//ROOST
+
 				<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.osmiumchicken", {
 			  "type": "chicken_roost:roost_output",
 			  "ingredients": [
@@ -2264,8 +2169,7 @@
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_electrum");
 	<recipetype:chicken_roost:roost_output>.removeByName("chicken_roost:roost/tier7/roostv7_invar");
 
-//ROOST OUTPUTS
-	//COPPER CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.copperchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2281,7 +2185,7 @@
 		  }
 		});
 		
-	//IRON CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.ironchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2297,7 +2201,7 @@
 		  }
 		});
 		
-	//TIN CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.tinchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2313,7 +2217,7 @@
 		  }
 		});
 		
-	//LEAD CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.leadchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2329,7 +2233,7 @@
 		  }
 		});
 		
-	//ZINC CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.zincchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2345,7 +2249,7 @@
 		  }
 		});
 		
-	//GOLD CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.goldchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2361,7 +2265,7 @@
 		  }
 		});
 		
-	//SILVER CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.silverchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2377,7 +2281,7 @@
 		  }
 		});
 		
-	//SIGNALUM CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.signalumchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2393,7 +2297,7 @@
 		  }
 		});
 	
-	//LUMIUM CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.lumiumchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2409,7 +2313,7 @@
 		  }
 		});
 		
-	//CONSTANTAN CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.constantanchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2425,7 +2329,7 @@
 		  }
 		});
 		
-	//ENDERIUM CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.enderiumchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2442,7 +2346,7 @@
 		});
 		
 		
-	//BRONZE CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.bronzechicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2458,7 +2362,7 @@
 		  }
 		});
 		
-	//STEEL CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.steelchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2474,7 +2378,7 @@
 		  }
 		});
 		
-	//URANIUM CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.uraniumchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2490,7 +2394,7 @@
 		  }
 		});
 		
-	//NICKEL CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.nickelchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2506,7 +2410,7 @@
 		  }
 		});
 		
-	//ELECTRUM CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.electrumchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2522,7 +2426,7 @@
 		  }
 		});
 		
-	//INVAR CHICKEN
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.invarchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2541,8 +2445,7 @@
 	craftingTable.removeByName("chicken_roost:fafsa");
 	craftingTable.removeByName("chicken_roost:breeder");
 	
-//BEASTMASTER CHICKEN
-	//MECHANICAL CRAFTING
+
 		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.beastmaster_chicken", 
 		<item:chicken_roost:c_beastmaster>, 
 		[[<item:minecraft:air>, <item:minecraft:air>, <item:player_companions:tame_apple>, <item:minecraft:air>, <item:minecraft:air>], 
@@ -2550,7 +2453,7 @@
 		[<item:player_companions:tame_honeycomb>, <item:player_companions:tame_raw_mutton>, <item:chicken_roost:c_brass>, <item:player_companions:tame_seagrass>, <item:player_companions:tame_sweet_berries>], 
 		[<item:minecraft:air>, <item:minecraft:lead>, <item:player_companions:tame_wheat_seeds>, <item:minecraft:lead>, <item:minecraft:air>]]);
 		
-		//SOUL BREEDER
+
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.beastmasterchicken", {
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
@@ -2567,7 +2470,7 @@
 		  
 		});
 	
-		//ROOST
+
 			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.beastmasterchicken", {
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
@@ -2584,7 +2487,6 @@
 		});
 	
 
-	//TAMING ITEMS
 		craftingTable.addShaped("player_companions.tame_apple_fromegg", <item:player_companions:tame_apple>,
 		[[<item:ccextras:beastmaster_egg>, <item:minecraft:air>, <item:minecraft:air>],
 		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
@@ -2630,23 +2532,23 @@
 		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 		[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:beastmaster_egg>]]);
 		
-//YELLORIUM CHICKEN
+
 	<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_yellorium>);
 	<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_yellorium>);
 
-//BIO FUEL CHICKEN
+
 	<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_biofuel>);
 	
-	//MECHANICAL CRAFTING
+
 		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.biofuel_chicken", <item:chicken_roost:c_biofuel>, 
 		[[<item:chicken_roost:c_brass>, <item:mekanism:bio_fuel>, <item:chicken_roost:c_brass>], 
 		[<item:mekanism:bio_fuel>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:bio_fuel>], 
 		[<item:chicken_roost:c_brass>, <item:mekanism:bio_fuel>, <item:chicken_roost:c_brass>]]);
 		
-//URANIUM CHICKEN
+
 	<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_uranium>);
 	
-	//MECHANICAL CRAFTING
+
 		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.uranium_chicken", <item:chicken_roost:c_uranium>, 
 		[[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>], 
 		[<item:mekanism:block_uranium>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:block_uranium>], 

@@ -12,9 +12,9 @@ craftingTable.remove(<item:mekanism:metallurgic_infuser>);
 
 craftingTable.remove(<item:mekanism:energized_smelter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.energized_smelter", <item:mekanism:energized_smelter>,
-[[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:ingot_osmium>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
+[[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:create:blaze_burner>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/brass>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/brass>, <item:industrialforegoing:plastic>],
-[<item:mekanism:ingot_osmium>, <tag:items:forge:glass/silica>, <item:mekanism:steel_casing>, <tag:items:forge:glass/silica>, <item:mekanism:ingot_osmium>],
+[<item:mekanism:ingot_osmium>, <tag:items:forge:glass/silica>, <item:minecraft:furnace>, <tag:items:forge:glass/silica>, <item:mekanism:ingot_osmium>],
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/brass>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/brass>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:create:blaze_burner>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
@@ -63,15 +63,15 @@ craftingTable.remove(<item:mekanism:purification_chamber>);
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:basic_control_circuit>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:mekanism:alloy_infused>, <item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_infused>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/brass>, <item:mekanism:ingot_osmium>, <item:mekanism:enrichment_chamber>, <item:mekanism:ingot_osmium>, <tag:items:forge:ingots/brass>],
-[<item:industrialforegoing:plastic>, <item:mekanism:alloy_infused>, <item:mekanism:ingot_osmium>, <item:mekanism:alloy_infused>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <item:mekanism:alloy_infused>, <item:mekanism:advanced_control_circuit>, <item:mekanism:alloy_infused>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <item:mekanism:basic_control_circuit>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:teleporter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.teleporter", <item:mekanism:teleporter>,
 [[<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <tag:items:forge:ingots/brass>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>],
-[<item:industrialforegoing:plastic>, <item:mekanism:basic_control_circuit>, <item:mekanism:steel_casing>, <item:mekanism:basic_control_circuit>, <item:industrialforegoing:plastic>],
-[<tag:items:forge:ingots/brass>, <item:mekanism:steel_casing>, <item:mekanism:teleportation_core>, <item:mekanism:steel_casing>, <tag:items:forge:ingots/brass>],
-[<item:industrialforegoing:plastic>, <item:mekanism:basic_control_circuit>, <item:mekanism:steel_casing>, <item:mekanism:basic_control_circuit>, <item:industrialforegoing:plastic>],
+[<item:industrialforegoing:plastic>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/steel>, <item:mekanism:basic_control_circuit>, <item:industrialforegoing:plastic>],
+[<tag:items:forge:ingots/brass>, <tag:items:forge:ingots/steel>, <item:mekanism:teleportation_core>, <tag:items:forge:ingots/steel>, <tag:items:forge:ingots/brass>],
+[<item:industrialforegoing:plastic>, <item:mekanism:basic_control_circuit>, <tag:items:forge:ingots/steel>, <item:mekanism:basic_control_circuit>, <item:industrialforegoing:plastic>],
 [<item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>, <tag:items:forge:ingots/brass>, <item:industrialforegoing:plastic>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:teleporter_frame>);
@@ -608,7 +608,7 @@ craftingTable.remove(<item:mekanism:qio_redstone_adapter>);
 <recipetype:create:mechanical_crafting>.addRecipe("mekanism.qio_redstone_adapter", <item:mekanism:qio_redstone_adapter>,
 [[<item:mekanism:pellet_polonium>, <item:minecraft:redstone_torch>, <item:mekanism:pellet_polonium>],
 [<item:mekanism:ultimate_control_circuit>, <tag:items:forge:dusts/redstone>, <item:mekanism:ultimate_control_circuit>],
-[<item:mekanism:pellet_polonium>, <item:mekanism:teleportation_core>, <item:mekanism:pellet_polonium>]]);
+[<item:industrialforegoing:plastic>, <item:mekanism:teleportation_core>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:industrial_alarm>);
 craftingTable.addShaped("mekanism.industrial_alarm", <item:mekanism:industrial_alarm>,
@@ -623,7 +623,7 @@ craftingTable.addShaped("mekanism.dynamic_valve", <item:mekanism:dynamic_valve> 
 [<item:industrialforegoing:plastic>, <item:mekanism:dynamic_tank>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:dynamic_tank>);
-craftingTable.addShaped("mekanism.dynamic_tank", <item:mekanism:dynamic_tank> *6,
+craftingTable.addShaped("mekanism.dynamic_tank", <item:mekanism:dynamic_tank> *8,
 [[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <item:minecraft:bucket>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>]]);
@@ -635,7 +635,7 @@ craftingTable.addShaped("mekanism.thermal_evaporation_valve", <item:mekanism:the
 [<item:industrialforegoing:plastic>, <item:mekanism:thermal_evaporation_block>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:thermal_evaporation_block>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.thermal_evaporation_block", <item:mekanism:thermal_evaporation_block> *6,
+<recipetype:create:mechanical_crafting>.addRecipe("mekanism.thermal_evaporation_block", <item:mekanism:thermal_evaporation_block> *10,
 [[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/copper>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>]]);
@@ -647,7 +647,7 @@ craftingTable.remove(<item:mekanism:thermal_evaporation_controller>);
 [<item:mekanism:thermal_evaporation_block>, <item:mekanism:thermal_evaporation_block>, <item:mekanism:thermal_evaporation_block>]]);
 
 craftingTable.remove(<item:mekanism:induction_casing>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.induction_casing", <item:mekanism:induction_casing> *6,
+<recipetype:create:mechanical_crafting>.addRecipe("mekanism.induction_casing", <item:mekanism:induction_casing> *8,
 [[<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>],
 [<tag:items:forge:ingots/steel>, <item:mekanism:energy_tablet>, <tag:items:forge:ingots/steel>],
 [<item:industrialforegoing:plastic>, <tag:items:forge:ingots/steel>, <item:industrialforegoing:plastic>]]);
@@ -665,7 +665,7 @@ craftingTable.addShaped("mekanism.boiler_valve", <item:mekanism:boiler_valve> *2
 [<item:industrialforegoing:plastic>, <item:mekanism:boiler_casing>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:boiler_casing>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.boiler_casing", <item:mekanism:boiler_casing> *6,
+<recipetype:create:mechanical_crafting>.addRecipe("mekanism.boiler_casing", <item:mekanism:boiler_casing> *8,
 [[<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>],
 [<tag:items:forge:ingots/steel>, <tag:items:forge:ingots/iron>, <tag:items:forge:ingots/steel>],
 [<item:minecraft:air>, <tag:items:forge:ingots/steel>, <item:minecraft:air>]]);
@@ -695,7 +695,7 @@ craftingTable.remove(<item:mekanism:sps_port>);
 [<item:industrialforegoing:plastic>, <item:mekanism:sps_casing>, <item:industrialforegoing:plastic>]]);
 
 craftingTable.remove(<item:mekanism:sps_casing>);
-<recipetype:create:mechanical_crafting>.addRecipe("mekanism.sps_casing", <item:mekanism:sps_casing> *6,
+<recipetype:create:mechanical_crafting>.addRecipe("mekanism.sps_casing", <item:mekanism:sps_casing> *8,
 [[<item:mekanism:hdpe_sheet>, <item:mekanism:pellet_polonium>, <item:mekanism:hdpe_sheet>],
 [<item:mekanism:pellet_polonium>, <item:mekanism:pellet_plutonium>, <item:mekanism:pellet_polonium>],
 [<item:mekanism:hdpe_sheet>, <item:mekanism:pellet_polonium>, <item:mekanism:hdpe_sheet>]]);
