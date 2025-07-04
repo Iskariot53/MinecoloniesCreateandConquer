@@ -1,0 +1,8 @@
+#Index of the slot in the hot bar used by bot. If in this slot there is a fishing rod and the slot is selected then the bot is enabled. If you want to fish manually just put the fishing rod in a different slot.
+#Range: 0 ~ 8
+bot_slot_index = 8
+#Max delay before casting. Cast in 10+rnd(0,1)*cast_delay_ticks ticks. Suggested 9 ticks. If greater than 20, it may become somewhat lazy.
+cast_delay_ticks = 0.0
+#Max delay before retrieving. Retrieve in 1+rnd(0,1)*retrieve_delay_ticks ticks. 15 is ok but 0 is faster! If greater than 15, some items may not be taken.
+retrieve_delay_ticks = 0.0
+
