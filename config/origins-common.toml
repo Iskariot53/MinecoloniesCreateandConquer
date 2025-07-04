@@ -2066,103 +2066,20 @@
 		"origins-plus-plus:snake/intimidate" = true
 		"origins-plus-plus:snake/lunge" = true
 
-	[origins."strictly:wildcat"]
-		enabled = false
-		"strictly:feline_grace" = false
-		"strictly:feared_hunter" = false
-		"strictly:soft_paws" = false
-		"origins:climbing" = false
-		"strictly:nocturnal_eyes1" = false
-		"origins:carnivore" = false
-		"strictly:water_weary" = false
-
 	[origins."ars_scalaes:arse"]
 		enabled = false
 		"ars_scalaes:source_addict" = false
 		"ars_scalaes:source_addict_2" = false
 		"ars_scalaes:mana_absorber" = false
 
-	[origins."ojs_rpg_origins:bard"]
-		enabled = true
-		"ojs_rpg_origins:decoy" = true
-		"origins:more_exhaustion" = true
-		"ojs_rpg_origins:not_the_smartest" = false
-		"ojs_rpg_origins:charismatic" = true
-		"ojs_rpg_origins:charismatic_toggle" = true
-		"ojs_rpg_origins:bard_item" = true
-
-	[origins."ojs_rpg_origins:variant_human/skills/survival"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/survival" = true
-
 	[origins."ars_scalaes:affinity/fire_affinity"]
 		enabled = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/lightly_armored"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/lightly_armored" = true
-
-	[origins."strictly:thief"]
-		enabled = true
-		"origins:shulker_inventory" = true
-		"strictly:superstealth" = true
-		"origins:tailwind" = true
-		"origins:fragile" = true
-		"strictly:cloak" = true
-		"strictly:money_lover" = true
-		"strictly:strong" = true
-		"origins:more_exhaustion" = true
-		"strictly:night-owl" = true
 
 	[origins."ars_scalaes:whirlis"]
 		enabled = true
 
-	[origins."ojs_rpg_origins:variant_human/feat"]
-		enabled = true
-
-	[origins."strictly:birdofparadise"]
-		enabled = true
-		"strictly:winged" = true
-		"origins:slow_falling" = true
-		"origins:aerial_combatant" = true
-		"origins:tailwind" = true
-		"strictly:wet_wings" = true
-		"origins:light_armor" = false
-		"strictly:claustrophobic_sleep" = true
-		"origins:carnivore" = true
-		"origins:launch" = true
-
-	[origins."strictly:dwarf"]
-		enabled = false
-		"strictly:haste" = false
-		"strictly:potent_brew" = false
-		"strictly:miniature_dwarf" = false
-		"strictly:dense" = false
-		"strictly:insatiable_hunger" = false
-		"strictly:gold_lover" = false
-		"strictly:nocturnal_eyes1" = false
-		"strictly:pickaxeless_stone" = false
-		"strictly:jump" = false
-		"strictly:step_height" = false
-
 	[origins."ars_scalaes:affinity/conjuration"]
 		enabled = true
-
-	[origins."ojs_rpg_origins:variant_human/skills/arcana"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/arcana" = true
-
-	[origins."ojs_rpg_origins:berserker"]
-		enabled = true
-		"ojs_rpg_origins:hp" = true
-		"ojs_rpg_origins:rage" = true
-		"ojs_rpg_origins:unarmored" = true
-		"origins:no_shield" = true
-		"ojs_rpg_origins:berserker_item" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/heavily_armored"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/heavily_armored" = true
 
 	[origins."origins-classes:explorer"]
 		enabled = true
@@ -2172,17 +2089,6 @@
 	[origins."ars_scalaes:drygmy"]
 		enabled = true
 
-	[origins."strictly:high_elf"]
-		enabled = true
-		"strictly:flamethrower" = true
-		"strictly:forest_vision" = true
-		"strictly:hyper_sight" = true
-		"strictly:towering" = true
-		"strictly:vegetarian" = true
-		"strictly:spindly" = false
-		"strictly:jump3" = true
-		"strictly:falldmg" = true
-
 	[origins."origins-classes:cook"]
 		enabled = true
 		"origins-classes:better_crafted_food" = true
@@ -2191,82 +2097,16 @@
 	[origins."ars_scalaes:bookwyrm"]
 		enabled = true
 
-	[origins."ojs_rpg_origins:variant_human/skills/medicine"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/medicine" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/mobile"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/mobile" = true
-
-	[origins."strictly:otter"]
-		enabled = true
-		"origins:aqua_affinity" = true
-		"origins:aquatic" = true
-		"origins:wet_eyes" = true
-		"origins:swim_speed" = true
-		"origins:like_water" = true
-		"origins:more_exhasution" = true
-		"origins:no_shield" = true
-		"strictly:improved_lungs" = true
-		"strictly:aquatic_predator" = true
-		"strictly:otter_gods_blessing" = true
-		"strictly:otter_pouch" = true
-		"origins:claustrophobia" = true
-		"strictly:heart_reduction" = true
-		"strictly:mini_riptide" = true
-		"strictly:miniature_dwarf" = true
-		"strictly:land_slow" = true
-		"strictly:jump" = true
-		"strictly:step_height" = true
-
-	[origins."ojs_rpg_origins:variant_human/skills"]
-		enabled = true
-
 	[origins."ars_scalaes:affinity/abjuration"]
 		enabled = true
 
 	[origins."ars_scalaes:starbuncle"]
 		enabled = true
 
-	[origins."strictly:paladin"]
-		enabled = true
-		"strictly:holy_fire" = true
-		"strictly:dried_out" = false
-		"strictly:leech" = true
-		"strictly:well_built" = true
-		"strictly:durendal" = true
-		"strictly:skilled_swordsman_1" = true
-		"strictly:book" = true
-		"strictly:praise_the_sun" = true
-
 	[origins."origins-classes:merchant"]
 		enabled = true
 		"origins-classes:trade_availability" = true
 		"origins-classes:rare_wandering_loot" = true
-
-	[origins."strictly:adapted_raccoon"]
-		enabled = false
-		"strictly:arrow_weak" = false
-		"strictly:claustrophobia" = false
-		"strictly:expert_at_hiding" = false
-		"strictly:hates_carrots" = false
-		"strictly:nocturnal_eyes1" = false
-		"strictly:nocturnal" = false
-		"strictly:rabies_resistant" = false
-		"strictly:rabies" = false
-		"strictly:scurry" = false
-		"strictly:rabies_cont" = false
-		"strictly:sharp_claws" = false
-		"strictly:small_body" = false
-		"strictly:small_hands" = false
-		"strictly:thick_fur" = false
-		"strictly:thick_fur_cont" = false
-		"strictly:tough_heart" = false
-		"strictly:tough_stomach" = false
-		"strictly:trash_lover" = false
-		"strictly:jump2" = false
-		"strictly:step_height" = false
 
 	[origins."ars_scalaes:wixie"]
 		enabled = true
@@ -2276,100 +2116,15 @@
 		"origins-classes:no_projectile_divergence" = true
 		"origins-classes:less_bow_slowdown" = true
 
-	[origins."ojs_rpg_origins:thief"]
-		enabled = true
-		"ojs_rpg_origins:speedy" = true
-		"ojs_rpg_origins:stealthy" = true
-		"origins:no_shield" = true
-		"ojs_rpg_origins:better_unnoticed" = true
-		"ojs_rpg_origins:uneasy_alliance" = true
-		"ojs_rpg_origins:thefty" = true
-		"ojs_rpg_origins:stealthy_damage" = true
-		"ojs_rpg_origins:weak" = true
-		"ojs_rpg_origins:thief_item" = true
-
 	[origins."origins-classes:cleric"]
 		enabled = true
 		"origins-classes:potion_bonus" = true
 		"origins-classes:better_enchanting" = true
 
-	[origins."ojs_rpg_origins:variant_human/skills/sleight_of_hand"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/sleight_of_hand" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/skilled"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/skilled" = true
-
 	[origins."origins-classes:farmer"]
 		enabled = true
 		"origins-classes:more_crop_drops" = true
 		"origins-classes:better_bone_meal" = true
-
-	[origins."ojs_rpg_origins:variant_human/skills/nature"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/nature" = true
-
-	[origins."strictly:troll"]
-		enabled = true
-		"strictly:lead_belly" = true
-		"strictly:stocky" = true
-		"strictly:gargantuan" = true
-		"strictly:ravenous" = true
-		"strictly:sluggish" = true
-		"strictly:xxxl" = false
-		"strictly:unweildy" = true
-		"strictly:cunning_hidden" = true
-
-	[origins."ojs_rpg_origins:brute"]
-		enabled = true
-		"ojs_rpg_origins:no_time_to_rest" = true
-		"origins:no_shield" = true
-		"origins:strong_arms" = true
-		"ojs_rpg_origins:select_targets_strong" = true
-		"origins:strong_arms_break_speed" = true
-		"origins:natural_armor" = true
-		"ojs_rpg_origins:select_targets_weak" = true
-		"ojs_rpg_origins:brute_item" = true
-
-	[origins."strictly:buzz"]
-		enabled = true
-		"strictly:stinger" = true
-		"strictly:bee_diet" = true
-		"strictly:bee_skin" = true
-		"strictly:freedom_calls" = true
-		"strictly:itty_bitty" = true
-		"strictly:nectar_processing" = true
-		"strictly:new_diet" = true
-		"strictly:smoke_sickness" = true
-
-	[origins."ojs_rpg_origins:archer"]
-		enabled = true
-		"ojs_rpg_origins:marksman" = true
-		"ojs_rpg_origins:untrained" = true
-		"ojs_rpg_origins:inexperienced" = true
-		"ojs_rpg_origins:resourceful" = true
-		"ojs_rpg_origins:quiver" = true
-		"ojs_rpg_origins:archer_item" = true
-
-	[origins."ojs_rpg_origins:cleric"]
-		enabled = true
-		"ojs_rpg_origins:villagefriendly" = true
-		"ojs_rpg_origins:untrained" = true
-		"ojs_rpg_origins:brewer_jumpboost" = true
-		"ojs_rpg_origins:brewer_speed" = true
-		"ojs_rpg_origins:brewer_strength" = true
-		"ojs_rpg_origins:brewer_regeneration" = true
-		"ojs_rpg_origins:heal_pool" = true
-		"ojs_rpg_origins:forgivable" = true
-		"ojs_rpg_origins:pure" = true
-		"ojs_rpg_origins:pure_color" = true
-		"ojs_rpg_origins:pure_shake" = true
-		"ojs_rpg_origins:one_with_the_world" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/tough"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/tough" = true
 
 	[origins."origins-classes:blacksmith"]
 		enabled = true
@@ -2379,35 +2134,10 @@
 	[origins."origins-classes:nitwit"]
 		enabled = true
 
-	[origins."ojs_rpg_origins:variant_human/skills/athletics"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/athletics" = true
-
 	[origins."origins-classes:beastmaster"]
 		enabled = true
 		"origins-classes:tamed_animal_boost" = true
 		"origins-classes:tamed_potion_diffusal" = true
-
-	[origins."ojs_rpg_origins:mage"]
-		enabled = true
-		"ojs_rpg_origins:fastcure" = true
-		"ojs_rpg_origins:untrained" = true
-		"ojs_rpg_origins:water_walk" = true
-		"ojs_rpg_origins:unwieldly" = true
-		"ojs_rpg_origins:mage_item" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/charger"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/charger" = true
-
-	[origins."ojs_rpg_origins:variant_human"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/skills" = true
-		"ojs_rpg_origins:variant_human/feat" = true
-
-	[origins."ojs_rpg_origins:variant_human/skills/stealth"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/stealth" = true
 
 	[origins."origins-classes:warrior"]
 		enabled = true
@@ -2418,10 +2148,6 @@
 		enabled = true
 		"origins-classes:twin_breeding" = true
 		"origins-classes:more_animal_loot" = true
-
-	[origins."ojs_rpg_origins:variant_human/skills/animal_handling"]
-		enabled = true
-		"digs_dnd_origins:half-elf/skills/animal_handling" = true
 
 	[origins."origins-classes:miner"]
 		enabled = true
@@ -2434,15 +2160,6 @@
 
 	[origins."ars_scalaes:affinity/air_affinity"]
 		enabled = true
-
-	[origins."strictly:plantaemancer"]
-		enabled = true
-		"strictly:poison_ivy_vines" = true
-		"strictly:plant_caretaker" = true
-		"strictly:regrowth" = true
-		"strictly:flammable" = true
-		"strictly:light_deprivation" = false
-		"strictly:blissful_light" = true
 
 	[origins."origins-classes:rogue"]
 		enabled = true
@@ -2459,32 +2176,10 @@
 	[origins."ars_scalaes:affinity/water_affinity"]
 		enabled = true
 
-	[origins."strictly:knight"]
-		enabled = true
-		"strictly:skofnung" = true
-		"strictly:skilled_swordsman" = true
-		"strictly:valour" = true
-		"strictly:burdened" = false
-		"strictly:bowless" = true
-		"strictly:book" = true
-		"strictly:crescent_worship" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/moderately_armored"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/moderately_armored" = true
-
 	[origins."origins-classes:lumberjack"]
 		enabled = true
 		"origins-classes:tree_felling" = true
 		"origins-classes:more_planks_from_logs" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/sentinel"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/sentinel" = true
-
-	[origins."ojs_rpg_origins:variant_human/feats/skulker"]
-		enabled = true
-		"ojs_rpg_origins:variant_human/feats/skulker" = true
 
 	[origins."dragon_origins:green_dragon_origin"]
 		enabled = true
@@ -2703,14 +2398,3 @@
 		"dragon_origins:green2" = true
 		"dragon_origins:hunger" = true
 		"dragon_origins:advancement" = true
-
-	[origins."strictly:priest"]
-		enabled = true
-		"strictly:scholar" = true
-		"strictly:nimble" = true
-		"strictly:holy_shield" = true
-		"origins:vegetarian" = true
-		"origins:fall_immunity" = true
-		"strictly:holy_curse" = true
-		"origins:ender_particles" = true
-
