@@ -1527,9 +1527,16 @@
 			subtitle: "&eFrom the ashes of forgotten history, I endure—a remnant of an era beyond memory"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
-				icon: "cataclysm:ancient_remnant_spawn_egg"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ancient_remnant_spawn_egg"
+				}
 				id: "708AFF55210B4957"
-				title: "&e&lKill The Ancient Remnant"
 				type: "kill"
 				value: 1L
 			}]
@@ -1758,9 +1765,16 @@
 			]
 			tasks: [{
 				entity: "cataclysm:koboleton"
-				icon: "cataclysm:koboleton_spawn_egg"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:koboleton_spawn_egg"
+				}
 				id: "3CF4B92923D9CC1D"
-				title: "&e&lKill The Koboletons"
 				type: "kill"
 				value: 5L
 			}]
@@ -1785,9 +1799,16 @@
 			]
 			tasks: [{
 				entity: "cataclysm:kobolediator"
-				icon: "cataclysm:kobolediator_spawn_egg"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:kobolediator_spawn_egg"
+				}
 				id: "79E9A2B65BF99789"
-				title: "&e&lKill The Kobolediator"
 				type: "kill"
 				value: 1L
 			}]
@@ -1812,9 +1833,16 @@
 			]
 			tasks: [{
 				entity: "cataclysm:wadjet"
-				icon: "cataclysm:wadjet_spawn_egg"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:wadjet_spawn_egg"
+				}
 				id: "6ECFD55062D39F37"
-				title: "&e&lKill The Wadjet"
 				type: "kill"
 				value: 1L
 			}]
@@ -2512,6 +2540,335 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["67A3DF8585A4EEA5"]
+			id: "33BA5942F66EF623"
+			rewards: [
+				{
+					id: "790205A2B0EB1C81"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "53CA2B46D9DF8297"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A9FB7D8EA836ED5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:storm_eye"
+				}
+				type: "item"
+			}]
+			title: "&b&lEye of Storm"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33BA5942F66EF623"]
+			id: "4C710BE1025AA8F2"
+			rewards: [
+				{
+					id: "39A053FED27D8A0C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "bhc:relic_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "78173E822967FB76"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "01F7C07DBE2FE25D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&bMeet Scylla"
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:curved_azure_seastone_scylla_8"
+				}
+				id: "775D6379AECD2699"
+				structure: "cataclysm:acropolis"
+				title: "Acropolis"
+				type: "structure"
+			}]
+			title: "&b&lAcropolis"
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4C710BE1025AA8F2"]
+			id: "5C9A946C2C6D3F50"
+			tasks: [{
+				entity: "cataclysm:cindaria"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cindaria_spawn_egg"
+				}
+				id: "38EBFD18333C881E"
+				type: "kill"
+				value: 5L
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C710BE1025AA8F2"]
+			id: "1978F2C539C2C009"
+			tasks: [{
+				entity: "cataclysm:urchinkin"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:urchinkin_spawn_egg"
+				}
+				id: "13A3AF89B5B53C4D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C710BE1025AA8F2"]
+			id: "67402E520947B875"
+			tasks: [{
+				entity: "cataclysm:hippocamtus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:hippocamtus_spawn_egg"
+				}
+				id: "4C1D7D46EE3CCB74"
+				type: "kill"
+				value: 2L
+			}]
+			x: -10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["439033AF99748877"]
+			id: "4668AFFC55268635"
+			tasks: [{
+				count: 10L
+				id: "1C6D4199D9EDEB0B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:lacrima"
+				}
+				type: "item"
+			}]
+			title: "&b&lLacrima"
+			x: -10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4668AFFC55268635"]
+			id: "418AF02A898819F1"
+			tasks: [{
+				id: "46AC7914FFBCC2B1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:azure_sea_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"4668AFFC55268635"
+				"7A4B95DDEDFB1C2C"
+			]
+			id: "52FD18DEE227254C"
+			tasks: [{
+				id: "45B5EEB78FFB5FB9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:astrape"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"4668AFFC55268635"
+				"7A4B95DDEDFB1C2C"
+			]
+			id: "7BBCD270684F4477"
+			tasks: [{
+				id: "77EBCD2725483263"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ceraunus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4C710BE1025AA8F2"]
+			id: "411C54C5505ED0FA"
+			tasks: [{
+				entity: "cataclysm:clawdian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:clawdian_spawn_egg"
+				}
+				id: "486616659BE5059F"
+				type: "kill"
+				value: 2L
+			}]
+			x: -8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["411C54C5505ED0FA"]
+			id: "0B7A6089F5EC3AD4"
+			tasks: [{
+				id: "5230D8634265E55B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:chitin_claw"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["439033AF99748877"]
+			id: "7A4B95DDEDFB1C2C"
+			tasks: [{
+				count: 4L
+				id: "6711A177F3913D92"
+				item: {
+					Count: 4
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:essence_of_the_storm"
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4C710BE1025AA8F2"]
+			id: "439033AF99748877"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:goddess_statue"
+				}
+				id: "6A3DEAC9602BC151"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: 10.0d
 		}
 	]
 	title: "&eCataclysm"

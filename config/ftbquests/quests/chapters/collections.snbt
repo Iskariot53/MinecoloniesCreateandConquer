@@ -12,7 +12,6 @@
 	quests: [
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"45D3E4F147476000"
 				"77A349F3E9746855"
 				"4E0DF681C5C7D790"
@@ -35,6 +34,7 @@
 				"467C1114435E24F0"
 				"670641D4F5BF72D7"
 				"48823545548EEFCA"
+				"19C32F0E30411935"
 			]
 			description: [
 				"Now that we have gathered all the &l&6Tarot Cards&r&r,"
@@ -95,8 +95,8 @@
 				type: "item"
 			}]
 			title: "&6&lDown for a Tarot Reading?"
-			x: -6.5d
-			y: -5.0d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -130,8 +130,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -3.0d
+			x: -3.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -165,8 +165,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -3.5d
+			x: -4.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -200,8 +200,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -3.5d
+			x: -5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -235,8 +235,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -3.0d
+			x: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -270,8 +270,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -4.0d
+			x: -6.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -305,8 +305,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.5d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -340,8 +340,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.5d
+			x: -4.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -375,8 +375,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.0d
+			x: -3.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -410,8 +410,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -7.0d
+			x: -6.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -445,8 +445,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -2.0d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -480,8 +480,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -3.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -515,8 +515,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -7.0d
+			x: -3.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -550,8 +550,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -8.0d
+			x: -3.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -585,8 +585,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -8.0d
+			x: -6.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -620,8 +620,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: -3.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -655,8 +655,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.5d
+			x: -4.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -690,8 +690,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -5.0d
+			x: -6.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -725,8 +725,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.0d
+			x: -6.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -760,8 +760,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -7.5d
+			x: -5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -795,8 +795,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -3.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -830,8 +830,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: -6.5d
+			x: -4.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -865,12 +865,11 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.5d
+			x: -5.0d
+			y: -11.0d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"214097D45CC5262C"
 				"381D91B7B6C74082"
 				"04FDAEE548F05818"
@@ -879,6 +878,7 @@
 				"34A843735D8A5881"
 				"3D54BC74E9FA687D"
 				"2B0B69B7B79D1D84"
+				"19C32F0E30411935"
 			]
 			description: [
 				"Think you got enough instruments to form your own &l&3Band&r&r?"
@@ -921,8 +921,8 @@
 				title: "&6&lLet's Start Looking for Band Members!"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: -3.75d
+			x: 7.0d
+			y: -5.75d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -941,8 +941,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: -5.5d
+			x: 9.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -961,8 +961,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -981,8 +981,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1001,8 +1001,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1021,8 +1021,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -4.0d
+			x: 8.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1041,8 +1041,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -3.5d
+			x: 5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1061,8 +1061,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.5d
+			x: 6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1081,12 +1081,11 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.5d
+			x: 9.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"718C6A2A84A3BBF9"
 				"4BDCD17DF0A10986"
 				"59480BB3EC84CFD7"
@@ -1131,6 +1130,7 @@
 				"4AF2015BB2299E96"
 				"48B521FCCA2864D9"
 				"0EB34BA512F8C9EC"
+				"19C32F0E30411935"
 			]
 			description: ["You have a good taste in &l&9Music&r&r! :D"]
 			hide_until_deps_complete: false
@@ -1163,8 +1163,8 @@
 				title: "&6&lMusic to Your Ears!"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 11.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1179,8 +1179,8 @@
 				item: "minecraft:music_disc_13"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 11.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1195,8 +1195,8 @@
 				item: "minecraft:music_disc_cat"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 12.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1211,8 +1211,8 @@
 				item: "minecraft:music_disc_blocks"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1227,8 +1227,8 @@
 				item: "minecraft:music_disc_chirp"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.0d
+			x: 13.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1243,8 +1243,8 @@
 				item: "minecraft:music_disc_far"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 10.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1259,8 +1259,8 @@
 				item: "minecraft:music_disc_mall"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1275,8 +1275,8 @@
 				item: "minecraft:music_disc_mellohi"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1291,8 +1291,8 @@
 				item: "minecraft:music_disc_stal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 12.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1307,8 +1307,8 @@
 				item: "minecraft:music_disc_strad"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 1.5d
+			x: 13.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1323,8 +1323,8 @@
 				item: "minecraft:music_disc_ward"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.0d
+			x: 12.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1339,8 +1339,8 @@
 				item: "minecraft:music_disc_11"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: 11.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1355,8 +1355,8 @@
 				item: "minecraft:music_disc_wait"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1371,8 +1371,8 @@
 				item: "minecraft:music_disc_otherside"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 1.5d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1387,8 +1387,8 @@
 				item: "minecraft:music_disc_5"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 9.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1403,8 +1403,8 @@
 				item: "minecraft:music_disc_pigstep"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.5d
+			x: 14.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1419,8 +1419,8 @@
 				item: "minecraft:music_disc_relic"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.5d
+			x: 14.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1435,8 +1435,8 @@
 				item: "quark:music_disc_endermosh"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.5d
+			x: 13.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1451,8 +1451,8 @@
 				item: "botania:record_gaia_1"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.0d
+			x: 12.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1467,8 +1467,8 @@
 				item: "botania:record_gaia_2"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 3.0d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1483,8 +1483,8 @@
 				item: "biomesoplenty:music_disc_wanderer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.0d
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1499,8 +1499,8 @@
 				item: "cataclysm:music_disc_netherite_monstrosity"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1515,8 +1515,8 @@
 				item: "cataclysm:music_disc_ender_guardian"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 12.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1531,8 +1531,8 @@
 				item: "cataclysm:music_disc_ignis"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 10.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1547,8 +1547,8 @@
 				item: "cataclysm:music_disc_the_harbinger"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1563,8 +1563,8 @@
 				item: "cataclysm:music_disc_the_leviathan"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.5d
+			x: 9.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1579,8 +1579,8 @@
 				item: "cataclysm:music_disc_ancient_remnant"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1595,8 +1595,8 @@
 				item: "enlightened_end:sprog_music_disc"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.5d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1611,8 +1611,8 @@
 				item: "idas:music_disc_slither"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 0.5d
+			x: 13.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1627,8 +1627,8 @@
 				item: "idas:music_disc_calidum"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 14.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1643,8 +1643,8 @@
 				item: "ars_nouveau:music_disc_aria_biblio"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 2.0d
+			x: 15.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1659,8 +1659,8 @@
 				item: "ars_nouveau:music_disc_thistle_the_sound_of_glass"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 7.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1675,8 +1675,8 @@
 				item: "ars_nouveau:music_disc_firel_the_wild_hunt"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.5d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1691,8 +1691,8 @@
 				item: "alexsmobs:music_disc_thime"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: 8.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1707,8 +1707,8 @@
 				item: "alexsmobs:music_disc_daze"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1723,8 +1723,8 @@
 				item: "twilightforest:music_disc_thread"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 4.0d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1739,8 +1739,8 @@
 				item: "twilightforest:music_disc_findings"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1755,8 +1755,8 @@
 				item: "twilightforest:music_disc_radiance"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 5.5d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1771,8 +1771,8 @@
 				item: "twilightforest:music_disc_steps"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1787,8 +1787,8 @@
 				item: "twilightforest:music_disc_motion"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1803,8 +1803,8 @@
 				item: "twilightforest:music_disc_wayfarer"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.5d
+			x: 14.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1819,8 +1819,8 @@
 				item: "twilightforest:music_disc_home"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 3.0d
+			x: 16.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1835,8 +1835,8 @@
 				item: "twilightforest:music_disc_maker"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1851,8 +1851,8 @@
 				item: "twilightforest:music_disc_superstitious"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.5d
+			x: 11.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1867,12 +1867,11 @@
 				item: "create_confectionery:the_bright_side"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 11.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"4C1E05B63337919A"
 				"08A7F2F9DC8CDEF3"
 				"170EE00CA0520B8A"
@@ -1890,6 +1889,7 @@
 				"0449DC503997CC8B"
 				"76FA6579902F5962"
 				"339C28C120E0B3AA"
+				"19C32F0E30411935"
 			]
 			description: ["Trade with villagers to obtain baby animal crates."]
 			hide_until_deps_complete: false
@@ -1923,6 +1923,7 @@
 				item: "villagersellanimals:crate_zoglet"
 				type: "item"
 			}]
+			title: "&l&6Collect All The Animal Crates!"
 			x: 0.0d
 			y: 8.6d
 		}
@@ -2200,7 +2201,6 @@
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"540C5796817C43CF"
 				"2418130AF7D469B8"
 				"1F928CBE0A59DAA7"
@@ -2258,6 +2258,7 @@
 				"2C430C4D8CBA9B0F"
 				"06F2A9F987B4DB42"
 				"567F76C1FEEE3FEE"
+				"19C32F0E30411935"
 			]
 			description: [
 				"What are you gonna do with all these &l&dDrinks&r&r?"
@@ -3210,7 +3211,6 @@
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"2CAF330E07BF59AD"
 				"37AEF2442C856391"
 				"05BBC8AA8B0C967E"
@@ -3245,6 +3245,7 @@
 				"54F01DAC11107320"
 				"4BD7FB0FBB47C9B0"
 				"0C4809CE91BCCB22"
+				"19C32F0E30411935"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -3277,8 +3278,8 @@
 				title: "&6&lLook at You! What a Fashion Icon!"
 				type: "checkmark"
 			}]
-			x: -8.5d
-			y: 3.5d
+			x: -8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3293,8 +3294,8 @@
 				item: "botania:monocle"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.5d
+			x: -6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3309,8 +3310,8 @@
 				item: "botania:cosmetic_black_bowtie"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3325,8 +3326,8 @@
 				item: "botania:cosmetic_black_tie"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.5d
+			x: -5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3341,8 +3342,8 @@
 				item: "botania:cosmetic_red_glasses"
 				type: "item"
 			}]
-			x: -11.0d
-			y: 3.5d
+			x: -10.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3357,8 +3358,8 @@
 				item: "botania:cosmetic_puffy_scarf"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 1.5d
+			x: -10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3373,8 +3374,8 @@
 				item: "botania:cosmetic_engineer_goggles"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.5d
+			x: -7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3389,8 +3390,8 @@
 				item: "botania:cosmetic_eyepatch"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 2.5d
+			x: -7.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3405,8 +3406,8 @@
 				item: "botania:cosmetic_wicked_eyepatch"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.5d
+			x: -7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3421,8 +3422,8 @@
 				item: "botania:cosmetic_red_ribbons"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: -6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3437,8 +3438,8 @@
 				item: "botania:cosmetic_pink_flower_bud"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3453,8 +3454,8 @@
 				item: "botania:cosmetic_polka_dotted_bows"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.0d
+			x: -8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3469,8 +3470,8 @@
 				item: "botania:cosmetic_blue_butterfly"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 4.5d
+			x: -10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3485,8 +3486,8 @@
 				item: "botania:cosmetic_cat_ears"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.0d
+			x: -8.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3501,8 +3502,8 @@
 				item: "botania:cosmetic_witch_pin"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.5d
+			x: -5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3517,8 +3518,8 @@
 				item: "botania:cosmetic_devil_tail"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.5d
+			x: -5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3533,8 +3534,8 @@
 				item: "botania:cosmetic_kamui_eye"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 4.5d
+			x: -9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3549,8 +3550,8 @@
 				item: "botania:cosmetic_googly_eyes"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.5d
+			x: -9.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3565,8 +3566,8 @@
 				item: "botania:cosmetic_four_leaf_clover"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.5d
+			x: -10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3581,8 +3582,8 @@
 				item: "botania:cosmetic_clock_eye"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 5.5d
+			x: -11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3597,8 +3598,8 @@
 				item: "botania:cosmetic_unicorn_horn"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 1.5d
+			x: -11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3613,8 +3614,8 @@
 				item: "botania:cosmetic_devil_horns"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 3.5d
+			x: -9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3629,8 +3630,8 @@
 				item: "botania:cosmetic_hyper_plus"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3645,8 +3646,8 @@
 				item: "botania:cosmetic_botanist_emblem"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 2.5d
+			x: -11.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3661,8 +3662,8 @@
 				item: "botania:cosmetic_ancient_mask"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 4.5d
+			x: -11.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3677,8 +3678,8 @@
 				item: "botania:cosmetic_eerie_mask"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3693,8 +3694,8 @@
 				item: "botania:cosmetic_alien_antenna"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.5d
+			x: -9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3709,8 +3710,8 @@
 				item: "botania:cosmetic_anaglyph_glasses"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 2.5d
+			x: -10.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3725,8 +3726,8 @@
 				item: "botania:cosmetic_groucho_glasses"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 1.5d
+			x: -7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3741,8 +3742,8 @@
 				item: "botania:cosmetic_orange_shades"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.5d
+			x: -5.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3757,8 +3758,8 @@
 				item: "botania:cosmetic_thick_eyebrows"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.5d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3773,8 +3774,8 @@
 				item: "botania:cosmetic_lusitanic_shield"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 2.0d
+			x: -8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3789,8 +3790,8 @@
 				item: "botania:cosmetic_tiny_potato_mask"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.5d
+			x: -9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3805,8 +3806,8 @@
 				item: "botania:cosmetic_questgiver_mark"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 1.0d
+			x: -8.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3821,12 +3822,11 @@
 				item: "botania:cosmetic_thinking_hand"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 3.5d
+			x: -11.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"3480C52B1DE6E414"
 				"18652990A0300066"
 				"060F34FEDE954D54"
@@ -3861,6 +3861,7 @@
 				"6E81FF365044ABFF"
 				"437E1CF585E0BBA9"
 				"68E1BA5225839F01"
+				"19C32F0E30411935"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -3884,8 +3885,8 @@
 				type: "item"
 			}]
 			title: "&6&lPrince Charm-ing!"
-			x: 4.5d
-			y: -10.75d
+			x: 3.0d
+			y: -12.75d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3928,8 +3929,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
-			y: -7.5d
+			x: 4.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3972,8 +3973,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.5d
+			x: 1.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4016,8 +4017,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 1.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4060,8 +4061,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: -5.5d
+			x: 2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4104,8 +4105,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.0d
+			x: 5.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4148,8 +4149,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: -9.5d
+			x: 2.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4192,8 +4193,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
-			y: -9.5d
+			x: 4.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4236,8 +4237,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.5d
+			x: 1.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4280,8 +4281,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.0d
-			y: -8.5d
+			x: 1.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4324,8 +4325,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
-			y: -9.5d
+			x: 3.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4368,8 +4369,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: -8.5d
+			x: 2.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4412,8 +4413,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
-			y: -8.5d
+			x: 3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4456,8 +4457,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
-			y: -8.5d
+			x: 4.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4500,8 +4501,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.0d
+			x: 0.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4544,8 +4545,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: -7.5d
+			x: 2.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4588,8 +4589,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
-			y: -7.5d
+			x: 3.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4632,8 +4633,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.0d
-			y: -8.0d
+			x: 5.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4676,8 +4677,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.0d
+			x: 0.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4720,8 +4721,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.0d
-			y: -9.0d
+			x: 5.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4764,8 +4765,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: 0.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4808,8 +4809,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: 0.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4852,8 +4853,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4896,8 +4897,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.0d
-			y: -6.5d
+			x: 1.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4940,8 +4941,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: -6.5d
+			x: 2.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -4984,8 +4985,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
-			y: -6.5d
+			x: 3.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5028,8 +5029,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
-			y: -6.5d
+			x: 4.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5072,8 +5073,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.5d
+			x: 3.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5116,8 +5117,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.5d
-			y: -11.0d
+			x: 4.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5160,8 +5161,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 5.0d
-			y: -13.0d
+			x: 3.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5204,8 +5205,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
-			y: -12.0d
+			x: 4.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5248,8 +5249,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 4.0d
-			y: -13.0d
+			x: 2.5d
+			y: -15.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5292,8 +5293,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.5d
-			y: -11.0d
+			x: 2.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5336,8 +5337,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 3.0d
-			y: -12.0d
+			x: 1.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5380,8 +5381,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: 6.0d
-			y: -5.5d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -5424,6 +5425,3589 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "24A0131E072A6072"
+			rewards: [
+				{
+					id: "1BC18F7C9C7CBCAC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "157700B93B234ED0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48C0C8099E520E1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:umbrella"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "6522827723D6C156"
+			rewards: [
+				{
+					id: "505C70307C4C135C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "52B3AB3BD05850F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5060D3ED275E8EFA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:eternal_steak"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "43A891EC1C4376AC"
+			rewards: [
+				{
+					id: "1CF9F9312A6388D3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2B06D15D66317C21"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "646EE93899C7624F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:plastic_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.34857d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.0625d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "14DD8BC0968BB094"
+			rewards: [
+				{
+					id: "2C40A3685907F7E6"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0F038629D35B7E8A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "301D96270B0053E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:novelty_drinking_hat"
+					tag: {
+						abilities: {
+							drinking: {
+								points: 0
+								stats: {
+									speed: 0.32218d
+								}
+							}
+							nutrition: {
+								points: 0
+								stats: {
+									hunger: 2.1898d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "4CBC4C464018A107"
+			rewards: [
+				{
+					id: "7CCDB7A678F9A752"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3EEAC12FFEE7FB06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0ED995F1C1775CF7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:snorkel"
+					tag: {
+						abilities: {
+							diving: {
+								points: 0
+								stats: {
+									duration: 5.41648d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "74C328BF15A0F2BC"
+			rewards: [
+				{
+					id: "50ACDC0E5A5C1190"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0A7FC70F4E1C752A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "28E766C5FE25A528"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:night_vision_goggles"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "50BAA08BF3437C10"
+			rewards: [
+				{
+					id: "77B9DE8DA1F3E001"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2B5B01CF40E2C839"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10406AFA6E084B50"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:villager_hat"
+					tag: {
+						abilities: {
+							discount: {
+								points: 0
+								stats: {
+									multiplier: 12.78694d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5F331EDF3851569D"
+			rewards: [
+				{
+					id: "65B8939700256304"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7459F394680ED0A2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10CA34A33A9AD21E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:superstitious_hat"
+					tag: {
+						abilities: {
+							looting: {
+								points: 0
+								stats: {
+									chance: 0.13191d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "0F8109475ADADFE1"
+			rewards: [
+				{
+					id: "6301522F1B4331F9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6E429B2CD62C305A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AAA41A39B39F341"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:cowboy_hat"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "7BA56CD477861C71"
+			rewards: [
+				{
+					id: "6187E1F5DA0C2F5B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6D7956715D9C6BCF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C6CC0BB79DCCEF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:anglers_hat"
+					tag: {
+						abilities: {
+							catch: {
+								points: 0
+								stats: {
+									chance: 0.16514d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "394D712D6D196FE4"
+			rewards: [
+				{
+					id: "61ECE37A01BA4446"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "599FE5F0D4006D6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "704EC52B3275D0E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:lucky_scarf"
+					tag: {
+						abilities: {
+							luck: {
+								points: 0
+								stats: {
+									chance: 0.1152d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "25CDD1F3A2127595"
+			rewards: [
+				{
+					id: "04D909B2EDF9D8B0"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6CC120AFE14A821F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7126331B65446B60"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:scarf_of_invisibility"
+					tag: {
+						abilities: {
+							invisible: {
+								points: 0
+								stats: {
+									radius: 6.77922d
+									threshold: 0.07989d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "1575D682C5880A4A"
+			rewards: [
+				{
+					id: "1509E86143A6AF09"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "498A2E8B647A7C66"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C3482FFEB1B74EA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:cross_necklace"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "67B9D1BEAA2D7E35"
+			rewards: [
+				{
+					id: "5292E84B3B2A6801"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "49D11007D4105FD6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1648996236DFDD75"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:panic_necklace"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "122570EE7B18978C"
+			rewards: [
+				{
+					id: "62AC93E8C2B10A74"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6507DE30643F9D6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0614F099DFD81F11"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:shock_pendant"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "7A0E42ABA6206B7B"
+			rewards: [
+				{
+					id: "3A1A58F3BE32742D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "46AAC7F82FBDEE8E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "538FD0F01334221E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:flame_pendant"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "115FCB595C2B2E87"
+			rewards: [
+				{
+					id: "0B105C1CAE16FFFB"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "477A414EF33999DD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "079C385C4195975B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:thorn_pendant"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "2C2D40CCCAEDE55E"
+			rewards: [
+				{
+					id: "05AE00DB9068B08C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5E2D0F4C894003C0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69AF944065251ABA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:charm_of_sinking"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "258AA19431629CA5"
+			rewards: [
+				{
+					id: "3AA37A25F0451D41"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "750A967DAE34C4E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "22D6F535AB785432"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:cloud_in_a_bottle"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "1D85BD17DBF51338"
+			rewards: [
+				{
+					id: "2F2344726968F9F3"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "28B340A6CAF093BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DFCEAAB549CBDAA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:obsidian_skull"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "11F502D385B17C0C"
+			rewards: [
+				{
+					id: "3CFE9515E5F765E8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6A837E6D882EF842"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E19DD0FC3BF981A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:antidote_vessel"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "6192FC826639D900"
+			rewards: [
+				{
+					id: "1B3026DA116C53FD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "059A0A4DEFFFBBB6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2097C2229336C406"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:universal_attractor"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "18AD27B5BF403965"
+			rewards: [
+				{
+					id: "414E9234BE10F6ED"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6ADE6463F4D06A51"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2EA86C84FAB5BDBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:crystal_heart"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "2C4BE116B462DA3B"
+			rewards: [
+				{
+					id: "58BDE5E94FB6BC89"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "29501A2DDEBCC412"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "625CB4E6618D2644"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:helium_flamingo"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "29FE59CB7FB71B80"
+			rewards: [
+				{
+					id: "206585509310439A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1D6E5FF10CCDE24E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65DEC1FCD293B121"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:chorus_totem"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5A763255B8DBF23A"
+			rewards: [
+				{
+					id: "1525AE180B6202C8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1F0B990818586399"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "50F5589AC72B061A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:digging_claws"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "2CD884F14F658C43"
+			rewards: [
+				{
+					id: "68E88F04C5660080"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "33E4642070C4DEA9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71FF8352EBAD2D22"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:feral_claws"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "3415DCE712000AD7"
+			rewards: [
+				{
+					id: "57A7D7BCEFEEA053"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5A0EF851CD1BEDC1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2009DF4D9FF7C7DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:power_glove"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "22F4547C2C868D21"
+			rewards: [
+				{
+					id: "7C5321B102E38085"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4EE8DE85EA81F08A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56BCB844ECB7937C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:fire_gauntlet"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "3FABC4CC616CA405"
+			rewards: [
+				{
+					id: "4A9CF4694E6EE04A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6C5B457FF4ADABC0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D330CF5D7C716A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:pocket_piston"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5CF279FB0E5054AE"
+			rewards: [
+				{
+					id: "0F9CE72AA8B5C8E9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "39DB74ACFFC6A91D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5ED83AA267D5434D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:vampiric_glove"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "310A8820425550E7"
+			rewards: [
+				{
+					id: "06B557A4AA27933C"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "52D9154C7345CA09"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74E4CFF3E8C21489"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:golden_hook"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "50D16778ED60191C"
+			rewards: [
+				{
+					id: "1FA2CA3AE40968FA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7B85095FFB114169"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C6FE4B8607CB287"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:onion_ring"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "704C26B29FA07B51"
+			rewards: [
+				{
+					id: "51B8DE689C71806F"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2E542CB364D7B863"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2319CEC374A76F87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:pickaxe_heater"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "0DB202981B2F72AB"
+			rewards: [
+				{
+					id: "0C5C301C149EE4B5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7339DFE6030C126C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CF32C2432D1C185"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:aqua_dashers"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "3268FD1820D369CA"
+			rewards: [
+				{
+					id: "6047E603AAFE5681"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "48B853B99968F2D3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F703084197F8CF6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:bunny_hoppers"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "509EF2C562846509"
+			rewards: [
+				{
+					id: "001A998064B94F08"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5B7DE239B638BF04"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46F6E0A7D9531AA4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:kitty_slippers"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "41D3039A27387D80"
+			rewards: [
+				{
+					id: "754BFAAD43F78E07"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "25450392476F88AA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71598F51C856C967"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:running_shoes"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "4402F5ED7CDF04D5"
+			rewards: [
+				{
+					id: "2D20336E9DBC66AC"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "12B9E851E932F47E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73CEF11A759F0497"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:snowshoes"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "697C549939AAD98B"
+			rewards: [
+				{
+					id: "6CBAE1642004DFA9"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "272C5A9A662DF524"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FFBF5EAD5AF12A0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:steadfast_spikes"
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5CE9AF8551FD268A"
+			rewards: [
+				{
+					id: "5189E2A9CF86BC7B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4B121B49F91E4AFD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BEBA843B3ED33CB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:flippers"
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5CB8A32FCE4707A7"
+			rewards: [
+				{
+					id: "5EAB18BE5F933178"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "559559FF956895C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65B2CE4E80A4B45B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:rooted_boots"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "2C4BAC6574CBB595"
+			rewards: [
+				{
+					id: "5AE055198F0E6351"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "7DDA854348FAD049"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70C112A1A662C4F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "artifacts:whoopee_cushion"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"14DD8BC0968BB094"
+				"29FE59CB7FB71B80"
+				"5A763255B8DBF23A"
+				"2C4BE116B462DA3B"
+				"697C549939AAD98B"
+				"7BA56CD477861C71"
+				"3FABC4CC616CA405"
+				"2CD884F14F658C43"
+				"704C26B29FA07B51"
+				"2C2D40CCCAEDE55E"
+				"6522827723D6C156"
+				"50D16778ED60191C"
+				"509EF2C562846509"
+				"310A8820425550E7"
+				"258AA19431629CA5"
+				"11F502D385B17C0C"
+				"5CE9AF8551FD268A"
+				"394D712D6D196FE4"
+				"67B9D1BEAA2D7E35"
+				"122570EE7B18978C"
+				"1D85BD17DBF51338"
+				"74C328BF15A0F2BC"
+				"5F331EDF3851569D"
+				"50BAA08BF3437C10"
+				"4CBC4C464018A107"
+				"3415DCE712000AD7"
+				"4402F5ED7CDF04D5"
+				"24A0131E072A6072"
+				"6192FC826639D900"
+				"3268FD1820D369CA"
+				"115FCB595C2B2E87"
+				"43A891EC1C4376AC"
+				"0DB202981B2F72AB"
+				"22F4547C2C868D21"
+				"2C4BAC6574CBB595"
+				"41D3039A27387D80"
+				"1575D682C5880A4A"
+				"5CF279FB0E5054AE"
+				"5CB8A32FCE4707A7"
+				"25CDD1F3A2127595"
+				"0F8109475ADADFE1"
+				"18AD27B5BF403965"
+				"7A0E42ABA6206B7B"
+				"19C32F0E30411935"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "artifacts:mimic_spawn_egg"
+			}
+			id: "781225628098C967"
+			rewards: [
+				{
+					id: "30EFA3CEE09D2961"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "4344CC3FE3FB9EFB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "662A15AE72441450"
+				type: "checkmark"
+			}]
+			title: "&6&lA bite-sized surprise!"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "28F427EBD47BC21B"
+			rewards: [
+				{
+					id: "707257590515C897"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "303EFE0E04E2F8D3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "173DCD8012D2A202"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.09747d
+									freeze: 1.22399d
+									size: 20.92778d
+									stun: 0.03929d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "3460F99D258B72F4"
+			rewards: [
+				{
+					id: "6CCAF4C7EF207C56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "088A49227A34D5BF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "530C79B5E40C3A17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 3.95864d
+									chance: 0.0743d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.09932d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.08551d
+									chance: 0.11622d
+									size: 0.07472d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 12.24738d
+									damage: 0.39967d
+									duration: 2.32333d
+									size: 0.11775d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "07F3C45EF126E468"
+			rewards: [
+				{
+					id: "739B0D8E7336779B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "699DD5EB1FE4DDBC"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "60CC8904B4F4193F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 3.84601d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "1429067BF8F8779E"
+			rewards: [
+				{
+					id: "2591FC455F99022B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "104F015288018A62"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "1FECA49E958C2EF1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 30.04897d
+									time: 8.02845d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "32EFF3C59A54687B"
+			rewards: [
+				{
+					id: "2DFDB39DF5C8C502"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5DEC1366A0734778"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "56382109F2335B71"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 4.97597d
+									damage: 2.18134d
+									radius: 3.97241d
+									recharge: 20.55763d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.37392d
+									speed: 19.6708d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "24BFF1FE3D4A43FE"
+			rewards: [
+				{
+					id: "2AE820C215DBE951"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "0EB582F5E842D9CA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "46ECC9C19CB91F64"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 18.61372d
+									speed: 0.00331d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "77E916494E9FAD31"
+			rewards: [
+				{
+					id: "5F2D666B4082FE10"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "289C0375B820F367"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "6ADB3E4EC0127939"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:researching_table"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "771EDEC35D769F38"
+			rewards: [
+				{
+					id: "3460991504D89B06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "06A16A51222409F0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "5CC9842CDF53F050"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:relic_experience_bottle"
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "78A99E3B115009D0"
+			rewards: [
+				{
+					id: "31D403AF840578A0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3487384203B992B3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "3B867AC7EE781273"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 27.24795d
+									damage: 0.37304d
+									stun: 0.24371d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "308256EB8ACDCF4D"
+			rewards: [
+				{
+					id: "6506166A4E9B8192"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6CC2CBD62C659A03"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "79D06729D13643AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00911d
+									heal: 1.4E-4d
+									movement_speed: 0.01644d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.02784d
+									duration: 3.47193d
+									incoming_damage: 0.03547d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 17.42903d
+									damage: 0.10141d
+									distance: 5.4145d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "54D1DD01F0870ECE"
+			rewards: [
+				{
+					id: "20B6F0CFFDA728F2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "4DA83CCD35BFAE56"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "1F7D104FB0180822"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.44443d
+									distance: 19.36895d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.39683d
+									speed: 0.23954d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "02E11D5C7D9A5DB2"
+			rewards: [
+				{
+					id: "2F4443A56C6A2D96"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7A8EEFBC7A0C5C5E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "5956EF34D33F146C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:magma_walker"
+					tag: {
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 26.50212d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "1CFF736E775A5BB6"
+			rewards: [
+				{
+					id: "7CF9BE395DF50397"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6CF90F792332A5FD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "3A0AD9E57BDA0C8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 118.71388d
+									distance: 774.99731d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5DC90237901291CF"
+			rewards: [
+				{
+					id: "46191492A6B83433"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "612D3A4292753EC4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "06DB99C67B2A87E4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.16429d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "7D877B9C3BDE246A"
+			rewards: [
+				{
+					id: "1B035A6E86BBBCA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5709B5E07081CA3C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "77D25FC4F3F480B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 0.93927d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 1.65069d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "1951C76D670EBB82"
+			rewards: [
+				{
+					id: "650AEB48E8E5336B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5FF90F96879F01AB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "006A4969995FB8DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.32127d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 2.21088d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5E0D65F5034761B9"
+			rewards: [
+				{
+					id: "0E8A510D5941636C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7CFB1A1FC365E505"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "079E5F1F490071AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.15686d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 28.81279d
+									speed: 0.01376d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "1E27EAD5D1B1B267"
+			rewards: [
+				{
+					id: "28C3DF3DF1205C50"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6828863EAC90C608"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "0E964D235CA240AE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 3.34817d
+									size: 4.0203d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.74231d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "7A495947CFA3C1ED"
+			rewards: [
+				{
+					id: "0FAA79F94124AF24"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "648FFB3D528B5B7B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "3720EF10DA0A654E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.51507d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.35652d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "0F727E609D55C85B"
+			rewards: [
+				{
+					id: "22DECE55CA0D3CF1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "5EF30E1D5C075C40"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "20B3DFF7F85AD4EF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							belief: {
+								points: 0
+								stats: {
+									amount: 0.14969d
+									capacity: 10.18937d
+									count: 2.32315d
+									radius: 5.3153d
+								}
+							}
+							blessing: {
+								points: 0
+								stats: {
+									consumption: 7.69707d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+							repentance: {
+								points: 0
+								stats: {
+									damage: 0.14926d
+									radius: 5.31405d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "4922269FA93787DF"
+			rewards: [
+				{
+					id: "285124210F80B0FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "79B5A10BEB29B736"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "54505849E255CCF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.01063d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "4052954AD12F7400"
+			rewards: [
+				{
+					id: "3FF46C27B7215879"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "4887965443224DEF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "32741DF0C93C5FD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 28.15206d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "1BB190C6F34CD377"
+			rewards: [
+				{
+					id: "4D1F6FB3028C3BD4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7F059E2BC5FD8441"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "38E6C47002C2F488"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 94.48585d
+									speed: 1.4523d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "3DE2B9F4C1C65739"
+			rewards: [
+				{
+					id: "7B6315E6372E921E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "47D9E0EBFB57B3F9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "033948835D28BFB9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.33813d
+									slowness: 0.48468d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.87715d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 5.05641d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									charm: 1.40046d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "0DBBFC6367677598"
+			rewards: [
+				{
+					id: "355C3C3AD060DEA1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "09732B8B18E81C35"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "37AD8B193881A73A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 7.59827d
+									distance: 25.18575d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "6B29D83B7E48D51B"
+			rewards: [
+				{
+					id: "42F3983BD89A8465"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1F1C26D2C38BCBCD"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "1671F2376D1EBDDE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.19016d
+									speed: 0.01285d
+									step: 2.05149d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "2E2A05D4ED2D3241"
+			rewards: [
+				{
+					id: "5C7634E15256E14D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "7625A1631248B547"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "20ED609E888D51C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.03865d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "5BE14B6DCDA29031"
+			rewards: [
+				{
+					id: "6B13677150E4F1C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "349E6CA43CACEA54"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "0395942CE094CB32"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 14.29577d
+									duration: 4.24776d
+									multiplier: 0.31996d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.96418d
+									duration: 12.09206d
+									radius: 3.23063d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 4.14029d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "6A8237832D96EDC9"
+			rewards: [
+				{
+					id: "72344934FA4B5536"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "55D4ED2516CBE559"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "5795C36F4592AA7D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 44.71356d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "6904E53BFA028EFC"
+			rewards: [
+				{
+					id: "7A894C6C51EA8A33"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1639D74E0EF74FF4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "1AC69D448F31F353"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.02093d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 16.06816d
+									speed: 0.00511d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 28.34863d
+									speed: 0.00804d
+								}
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7A495947CFA3C1ED"
+				"6B29D83B7E48D51B"
+				"6904E53BFA028EFC"
+				"3460F99D258B72F4"
+				"32EFF3C59A54687B"
+				"5E0D65F5034761B9"
+				"1BB190C6F34CD377"
+				"77E916494E9FAD31"
+				"78A99E3B115009D0"
+				"2E2A05D4ED2D3241"
+				"771EDEC35D769F38"
+				"02E11D5C7D9A5DB2"
+				"4922269FA93787DF"
+				"54D1DD01F0870ECE"
+				"0F727E609D55C85B"
+				"6A8237832D96EDC9"
+				"5BE14B6DCDA29031"
+				"07F3C45EF126E468"
+				"5DC90237901291CF"
+				"1E27EAD5D1B1B267"
+				"0DBBFC6367677598"
+				"308256EB8ACDCF4D"
+				"3DE2B9F4C1C65739"
+				"7D877B9C3BDE246A"
+				"1951C76D670EBB82"
+				"1429067BF8F8779E"
+				"24BFF1FE3D4A43FE"
+				"4052954AD12F7400"
+				"1CFF736E775A5BB6"
+				"28F427EBD47BC21B"
+				"19C32F0E30411935"
+			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "relics:chorus_inhibitor"
+				tag: {
+					abilities: {
+						blink: {
+							points: 0
+							stats: {
+								cooldown: 7.59827d
+								distance: 25.18575d
+							}
+						}
+					}
+				}
+			}
+			id: "5E6DC998D5345D09"
+			rewards: [
+				{
+					id: "2BDB9495C960458E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2862E51DDBBB514B"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0F395326A6BB4949"
+				type: "checkmark"
+			}]
+			title: "&6&lThat's Relic-ulous!"
+			x: 8.5d
+			y: 7.5d
 		}
 	]
 	title: "&eFun Collection Quests"
