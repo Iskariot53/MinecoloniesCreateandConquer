@@ -1,5 +1,5 @@
 {
-	autofocus_id: "287C07762D663B92"
+	autofocus_id: "618FE7BF858FF87B"
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "cataclysm_bosses"
@@ -21,24 +21,24 @@
 			image: "cataclysm:item/abyss_eye"
 			rotation: 0.0d
 			width: 2.2d
-			x: 7.0d
-			y: 1.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			height: 2.3d
 			image: "cataclysm:textures/entity/flame_strike_sigil.png"
 			rotation: 0.0d
 			width: 2.3d
-			x: 7.0d
-			y: 1.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			height: 2.5d
 			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
 			rotation: 45.0d
 			width: 2.5d
-			x: 7.015306122448983d
-			y: 1.5045918367347006d
+			x: 0.015306122448983217d
+			y: 1.0045918367347006d
 		}
 	]
 	order_index: 1
@@ -64,30 +64,16 @@
 				id: "cataclysm:void_core"
 			}
 			id: "770E1E1A22DC34B9"
-			shape: "octagon"
-			size: 1.5d
+			shape: "none"
+			size: 3.0d
 			tasks: [{
 				id: "6A2DD0B591ECADC9"
 				title: "Cataclysm"
 				type: "checkmark"
 			}]
 			title: "&6&lWelcome to Cataclysm"
-			x: 7.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["770E1E1A22DC34B9"]
-			hide_until_deps_complete: true
-			hide_until_deps_visible: true
-			id: "124DA55573C04363"
-			tasks: [{
-				id: "21357AB8CC6943FE"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
-			title: "&6&lThe hardest thing to see is what is in front of your eyes"
-			x: 7.0d
-			y: 3.5d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["67A3DF8585A4EEA5"]
@@ -112,8 +98,8 @@
 				type: "item"
 			}]
 			title: "&4&lEye of Mech"
-			x: 3.5d
-			y: 6.5d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7E48762E362296E1"]
@@ -138,8 +124,8 @@
 				type: "item"
 			}]
 			title: "&b&lEye of Flame"
-			x: 14.0d
-			y: 6.0d
+			x: -10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7FE120BB4478F1BF"]
@@ -164,8 +150,8 @@
 				type: "item"
 			}]
 			title: "&d&lEye of Void"
-			x: 17.5d
-			y: 5.5d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7E48762E362296E1"]
@@ -190,8 +176,8 @@
 				type: "item"
 			}]
 			title: "&c&lEye of Monstrous"
-			x: 10.5d
-			y: 6.5d
+			x: -14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["67A3DF8585A4EEA5"]
@@ -216,8 +202,8 @@
 				type: "item"
 			}]
 			title: "&5&lEye of Abyss"
-			x: 7.0d
-			y: 7.0d
+			x: 10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["67A3DF8585A4EEA5"]
@@ -242,11 +228,11 @@
 				type: "item"
 			}]
 			title: "&e&lEye of Desert"
-			x: 0.0d
-			y: 6.0d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["124DA55573C04363"]
+			dependencies: ["770E1E1A22DC34B9"]
 			hide_dependency_lines: false
 			hide_details_until_startable: true
 			hide_until_deps_visible: true
@@ -261,11 +247,11 @@
 				type: "dimension"
 			}]
 			title: "&c&lNether"
-			x: 7.0d
-			y: 5.5d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
-			dependencies: ["124DA55573C04363"]
+			dependencies: ["770E1E1A22DC34B9"]
 			hide_dependency_lines: false
 			hide_details_until_startable: true
 			hide_until_deps_visible: true
@@ -280,11 +266,11 @@
 				type: "dimension"
 			}]
 			title: "&2&lOverworld"
-			x: -0.5d
-			y: 3.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["124DA55573C04363"]
+			dependencies: ["770E1E1A22DC34B9"]
 			hide_dependency_lines: false
 			hide_details_until_startable: true
 			hide_until_deps_visible: true
@@ -299,8 +285,8 @@
 				type: "dimension"
 			}]
 			title: "&d&lEnd"
-			x: 14.5d
-			y: 3.5d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3DC5283FBA1D580B"]
@@ -344,8 +330,8 @@
 				type: "structure"
 			}]
 			title: "&d&lRuined Citadel"
-			x: 17.5d
-			y: 7.0d
+			x: 14.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["63B7E12FB2879ADF"]
@@ -378,8 +364,8 @@
 				value: 1L
 			}]
 			title: "&d&lKill The Ender Guardian"
-			x: 17.5d
-			y: 10.0d
+			x: 14.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["63B7E12FB2879ADF"]
@@ -409,8 +395,8 @@
 				value: 2L
 			}]
 			title: "&d&lKill The Ender Golems"
-			x: 18.5d
-			y: 9.5d
+			x: 15.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["63B7E12FB2879ADF"]
@@ -437,8 +423,8 @@
 				value: 5L
 			}]
 			title: "&d&lKill The Endermapteras"
-			x: 16.5d
-			y: 9.5d
+			x: 13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["42F1A59EDD775B9D"]
@@ -479,8 +465,8 @@
 				type: "structure"
 			}]
 			title: "&b&lBurning Arena"
-			x: 14.0d
-			y: 8.0d
+			x: -10.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["64D3D273E0077888"]
@@ -503,7 +489,7 @@
 					xp_levels: 30
 				}
 			]
-			subtitle: "&bWhen all else fades, Ignis remains—a flame that never falters, a guardian that never sleeps"
+			subtitle: "&bWhen all else fades, Ignis remains.. a flame that never falters, a guardian that never sleeps"
 			tasks: [{
 				entity: "cataclysm:ignis"
 				icon: "cataclysm:ignis_spawn_egg"
@@ -512,8 +498,8 @@
 				value: 1L
 			}]
 			title: "&b&lKill The Ignis"
-			x: 14.0d
-			y: 10.5d
+			x: -10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0CCA0F3A3226B20F"]
@@ -538,8 +524,8 @@
 				type: "item"
 			}]
 			title: "&d&lGauntlet of Guard"
-			x: 17.5d
-			y: 11.5d
+			x: 14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7898B296C38F3D94"]
@@ -565,8 +551,8 @@
 				value: 2L
 			}]
 			title: "&b&lKill The Ignited Revenants"
-			x: 14.0d
-			y: 9.0d
+			x: -10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7F3593717A5A0B9D"]
@@ -591,7 +577,7 @@
 				type: "item"
 			}]
 			title: "&b&lIgnitium"
-			x: 14.0d
+			x: -10.0d
 			y: 12.5d
 		}
 		{
@@ -616,8 +602,8 @@
 				type: "item"
 			}]
 			title: "&b&lThe Incinerator"
-			x: 15.0d
-			y: 13.5d
+			x: -9.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["21AEDCF08E97F22C"]
@@ -642,8 +628,8 @@
 				type: "item"
 			}]
 			title: "&b&lBulwark of the Flame"
-			x: 13.0d
-			y: 13.5d
+			x: -11.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["51BA8A49FD6DFA12"]
@@ -675,8 +661,8 @@
 				type: "structure"
 			}]
 			title: "&c&lThe Soul Forge"
-			x: 10.5d
-			y: 8.0d
+			x: -14.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0A45F1E7BEC33CBE"]
@@ -708,8 +694,8 @@
 				value: 1L
 			}]
 			title: "&c&lKill The Netherite Monstrosity"
-			x: 10.5d
-			y: 10.0d
+			x: -14.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["57721A0B508DA66B"]
@@ -739,8 +725,8 @@
 				type: "item"
 			}]
 			title: "&c&lMonstrous Helm"
-			x: 11.0d
-			y: 12.0d
+			x: -13.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["57721A0B508DA66B"]
@@ -771,8 +757,8 @@
 				type: "item"
 			}]
 			title: "&c&lInfernal Forge"
-			x: 10.0d
-			y: 12.0d
+			x: -14.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7690681ADC1DE526"]
@@ -813,8 +799,8 @@
 				type: "structure"
 			}]
 			title: "&5&lSunken City"
-			x: 7.0d
-			y: 8.5d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["287C07762D663B92"]
@@ -881,8 +867,8 @@
 				}
 			]
 			title: "&5&lDeeplings and Coralssus"
-			x: 6.0d
-			y: 10.0d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["287C07762D663B92"]
@@ -915,8 +901,8 @@
 				value: 1L
 			}]
 			title: "&5&lKill The Amethyst Crab"
-			x: 8.0d
-			y: 9.0d
+			x: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -970,8 +956,8 @@
 				}
 			]
 			title: "&5&lBlessed Amethyst Crab Meat"
-			x: 8.0d
-			y: 10.0d
+			x: 11.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -997,7 +983,7 @@
 					xp_levels: 30
 				}
 			]
-			subtitle: "&5You cannot tame the sea, and you cannot tame me — I am Leviathan, ruler of the abyss"
+			subtitle: "&5You cannot tame the sea, and you cannot tame me. I am Leviathan, ruler of the abyss"
 			tasks: [{
 				entity: "cataclysm:the_leviathan"
 				icon: "cataclysm:the_leviathan_spawn_egg"
@@ -1006,7 +992,7 @@
 				value: 1L
 			}]
 			title: "&5&lKill The Leviathan"
-			x: 7.0d
+			x: 10.0d
 			y: 11.5d
 		}
 		{
@@ -1019,8 +1005,8 @@
 				type: "item"
 			}]
 			title: "&5&lAbyssal Sacrifice"
-			x: 7.0d
-			y: 10.5d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4A573817D50AF148"]
@@ -1044,8 +1030,8 @@
 				type: "item"
 			}]
 			title: "&5&lTidal Claws"
-			x: 6.5d
-			y: 12.5d
+			x: 9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4A573817D50AF148"]
@@ -1091,8 +1077,8 @@
 				}
 			]
 			title: "&5&lAbyssal Egg"
-			x: 7.5d
-			y: 12.5d
+			x: 10.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["6692DD7C85BD9515"]
@@ -1132,8 +1118,8 @@
 				type: "structure"
 			}]
 			title: "&4&lAncient Factory"
-			x: 3.5d
-			y: 8.5d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["67B51B4B14D1A6B5"]
@@ -1165,8 +1151,8 @@
 				value: 1L
 			}]
 			title: "&4&lKill The Harbinger"
-			x: 3.5d
-			y: 10.0d
+			x: 6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["67B51B4B14D1A6B5"]
@@ -1193,8 +1179,8 @@
 				value: 5L
 			}]
 			title: "&4&lKill The Watchers"
-			x: 2.5d
-			y: 9.5d
+			x: 5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["67B51B4B14D1A6B5"]
@@ -1220,8 +1206,8 @@
 				value: 1L
 			}]
 			title: "&4&lKill The Prowler"
-			x: 4.5d
-			y: 9.5d
+			x: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["5D91A741B179B8CA"]
@@ -1254,7 +1240,7 @@
 				type: "item"
 			}]
 			title: "&4&lWitherite Ingots"
-			x: 3.5d
+			x: 6.0d
 			y: 12.0d
 		}
 		{
@@ -1285,8 +1271,8 @@
 				type: "item"
 			}]
 			title: "&l&4Laser Gatling"
-			x: 2.5d
-			y: 13.0d
+			x: 5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["400E19B0C89958BA"]
@@ -1311,8 +1297,8 @@
 				type: "item"
 			}]
 			title: "&4&lWither Assault Shoulder Weapon"
-			x: 3.5d
-			y: 13.0d
+			x: 6.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["400E19B0C89958BA"]
@@ -1336,12 +1322,18 @@
 				type: "item"
 			}]
 			title: "&4&lMeat Shredder"
-			x: 4.5d
-			y: 13.0d
+			x: 7.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["400E19B0C89958BA"]
+			dependencies: [
+				"400E19B0C89958BA"
+				"5E29948F7393675B"
+			]
 			description: ["Once crafted, the &4&lMechanical Fusion Anvil&r&r can be placed in the world, and it has some nicely animated textures. Then you can use it, allowing you to &4upgrade&r your gear by combining powerful items together. This might combine their abilities or give them new ones altogether."]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon_scale: 2.0d
 			id: "3C5994B4A10CFA17"
 			rewards: [
 				{
@@ -1355,14 +1347,16 @@
 					xp: 10
 				}
 			]
+			shape: "none"
+			size: 3.0d
 			tasks: [{
 				id: "73A6D3979563503C"
 				item: "cataclysm:mechanical_fusion_anvil"
 				type: "item"
 			}]
 			title: "&4&lMechanical Fusion Anvil"
-			x: 3.5d
-			y: 14.5d
+			x: 0.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -1371,6 +1365,7 @@
 				"35B0B5A25069DDCA"
 			]
 			description: ["It can be crafted by &4fusing&r the &l&dGauntlet of Guard&r&r and &l&cBulwark of the Flame&r&r at the &4&lMechanical Fusion Anvil&r&r. When casting the skill, after 1 second of charging time, it emits flames to &4push&r back enemies and apply a &4burning&r stigma debuff, then rushes forward and blows enemies away. Also, if an enemy blown like a bulwark of flames hits a wall, it takes additional damage and is stunned."]
+			hide_until_deps_complete: true
 			id: "4D05EBA8F148F81B"
 			rewards: [
 				{
@@ -1384,14 +1379,16 @@
 					xp_levels: 10
 				}
 			]
+			shape: "none"
+			size: 2.5d
 			tasks: [{
 				id: "53E40B68B215889E"
 				item: "cataclysm:gauntlet_of_bulwark"
 				type: "item"
 			}]
 			title: "&4&lGauntlet of Bulwark"
-			x: 4.5d
-			y: 15.5d
+			x: 3.75d
+			y: 23.75d
 		}
 		{
 			dependencies: [
@@ -1400,6 +1397,7 @@
 				"3FA87B3B73CC4E44"
 			]
 			description: ["A fusion weapon that can be made by &4fusing&r an &l&cInfernal Forge&r&r and a &l&dVoid Core&r&r at a &l&4Mechanical Fusion Anvil&r&r. The attack power and attack speed are the same as the &cInfernal Forge&r, but when the skill is cast, void runes are created in a fan shape in front. The advantage is that it can be used more actively than an &cInfernal Forge&r."]
+			hide_until_deps_complete: true
 			id: "397BE6BC321D5C12"
 			rewards: [
 				{
@@ -1413,6 +1411,8 @@
 					xp_levels: 10
 				}
 			]
+			shape: "none"
+			size: 2.5d
 			tasks: [{
 				id: "5767A0022402E9B4"
 				item: {
@@ -1425,8 +1425,8 @@
 				type: "item"
 			}]
 			title: "&4&lVoid Forge"
-			x: 3.5d
-			y: 15.5d
+			x: 2.5d
+			y: 26.25d
 		}
 		{
 			dependencies: [
@@ -1435,6 +1435,7 @@
 				"53EF8AE6C5EA40D5"
 			]
 			description: ["It can be crafted by &4fusing&r a &4&lWither Assault Shoulder Weapon&r&r and a &l&dVoid Core&r&r at a &l&4Mechanical Fusion Anvil&r&r. When fired, a &l&4Void Howitzer&r&r is fired instead of a wither missile, and the &4Void Howitzer&r creates a circular shape of &4Void Runes&r where it lands."]
+			hide_until_deps_complete: true
 			id: "1720394F5D493721"
 			rewards: [
 				{
@@ -1448,14 +1449,16 @@
 					xp_levels: 10
 				}
 			]
+			shape: "none"
+			size: 2.5d
 			tasks: [{
 				id: "70D2D47BFBDAFC01"
 				item: "cataclysm:void_assault_shoulder_weapon"
 				type: "item"
 			}]
 			title: "&4&lVoid Assault Shoulder Weapon"
-			x: 2.5d
-			y: 15.5d
+			x: -2.5d
+			y: 26.25d
 		}
 		{
 			dependencies: ["17FD2966AAFEA66B"]
@@ -1487,8 +1490,8 @@
 				type: "structure"
 			}]
 			title: "&e&lCursed Pyramid"
-			x: 0.0d
-			y: 8.0d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7E903DF0431EA6E6"]
@@ -1500,8 +1503,8 @@
 				type: "item"
 			}]
 			title: "&e&lNecklace of the Desert"
-			x: 0.0d
-			y: 9.5d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["06387AA1DCEA9FB3"]
@@ -1524,7 +1527,7 @@
 					xp_levels: 30
 				}
 			]
-			subtitle: "&eFrom the ashes of forgotten history, I endure—a remnant of an era beyond memory"
+			subtitle: "&eFrom the ashes of forgotten history, I endure a remnant of an era beyond memory"
 			tasks: [{
 				entity: "cataclysm:ancient_remnant"
 				icon: {
@@ -1540,12 +1543,14 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 11.0d
+			title: "&e&lKill The Ancient Remnant"
+			x: 2.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0CE52E0611E65906"]
 			description: ["A few items are dropped by the &l&eAncient Remnant&r&r, with the first being the &l&eSandstorm in a Bottle&r&r. When equipped into the Belt slot, players can press &l&eX&r&r (&7check your keybinds&r) to turn into a tornado, dealing damage and flying a short distance."]
+			hide_dependent_lines: true
 			id: "25743EB95B9822F4"
 			rewards: [
 				{
@@ -1565,8 +1570,8 @@
 				type: "item"
 			}]
 			title: "&e&lSandstorm in a Bottle"
-			x: -0.5d
-			y: 12.0d
+			x: 1.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0CE52E0611E65906"]
@@ -1606,8 +1611,8 @@
 				}
 			]
 			title: "&e&lRemnant's Skull"
-			x: 0.5d
-			y: 12.0d
+			x: 2.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0B25F1EAC3D97093"]
@@ -1620,24 +1625,6 @@
 				}
 				{
 					id: "62B371240E7AEAF4"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "060CAE60A174D9A3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-				{
-					id: "322819DF65642D82"
 					type: "xp_levels"
 					xp_levels: 10
 				}
@@ -1667,11 +1654,12 @@
 				}
 			]
 			title: "&e&lBone Reptile Armor"
-			x: -0.5d
-			y: 15.0d
+			x: 1.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["21AEDCF08E97F22C"]
+			hide_dependent_lines: true
 			id: "14C6D176F030788D"
 			rewards: [
 				{
@@ -1730,21 +1718,10 @@
 					}
 					type: "item"
 				}
-				{
-					id: "62C73DFB69CE31EB"
-					item: {
-						Count: 1
-						id: "cataclysm:ignitium_elytra_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
 			]
 			title: "&b&lIgnitium Armor"
-			x: 14.0d
-			y: 13.5d
+			x: -10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["7E903DF0431EA6E6"]
@@ -1778,8 +1755,9 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -1.0d
-			y: 9.0d
+			title: "&e&lKill The Koboletons"
+			x: 1.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7E903DF0431EA6E6"]
@@ -1812,8 +1790,9 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.0d
-			y: 10.5d
+			title: "&e&lKill The Kobolediator"
+			x: 2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7E903DF0431EA6E6"]
@@ -1846,7 +1825,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.0d
+			title: "&e&lKill The Wadjet"
+			x: 3.0d
 			y: 10.5d
 		}
 		{
@@ -1888,8 +1868,8 @@
 				type: "item"
 			}]
 			title: "&3&lEye of Curse"
-			x: -3.5d
-			y: 5.5d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["75482D8A08EC82FB"]
@@ -1945,11 +1925,11 @@
 				type: "structure"
 			}]
 			title: "&3&lFrosted Prison"
-			x: -3.5d
-			y: 7.5d
+			x: -2.0d
+			y: 9.5d
 		}
 		{
-			dependencies: ["6BA7FBD3EE89C8BF"]
+			dependencies: ["699DA087F96DAA5B"]
 			description: [
 				"The final boss room is hidden behind a huge &3&lDoor of Seal&r&r at the last layer of the &l&3Frosted Prison&r&r. Upon right-clicking the door, its massive lock will break, and the door will open, revealing the boss room. At the end of the room, you will find a &l&3Cursed Tombstone&r&r; right-click it to unleash the spirit of The Maledictus."
 				""
@@ -2006,8 +1986,8 @@
 				value: 1L
 			}]
 			title: "&3&lKill The Maledictus"
-			x: -3.5d
-			y: 9.5d
+			x: -2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["6BA7FBD3EE89C8BF"]
@@ -2087,8 +2067,8 @@
 				}
 			]
 			title: "&3&lDraugrs"
-			x: -4.5d
-			y: 9.0d
+			x: -3.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6BA7FBD3EE89C8BF"]
@@ -2130,8 +2110,8 @@
 				value: 2L
 			}]
 			title: "&3&lKill The Aptrgangrs"
-			x: -2.5d
-			y: 9.0d
+			x: -2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["6BA7FBD3EE89C8BF"]
@@ -2152,8 +2132,8 @@
 				type: "item"
 			}]
 			title: "&3&lAptrgangr Head"
-			x: -2.5d
-			y: 8.0d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["118745FBBE058C28"]
@@ -2194,8 +2174,8 @@
 				type: "item"
 			}]
 			title: "&3&lCursium Ingots"
-			x: -3.5d
-			y: 11.5d
+			x: -2.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0CE52E0611E65906"]
@@ -2235,9 +2215,9 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l10x Ancient Metal ingot"
-			x: 0.0d
-			y: 14.0d
+			title: "&e&lAncient Metal ingot"
+			x: 2.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
@@ -2277,12 +2257,13 @@
 				type: "item"
 			}]
 			title: "&3&lSoul Render"
-			x: -3.5d
-			y: 12.5d
+			x: -2.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
 			description: ["Higher critical damage. Hold it in both hands for 2 seconds to charge it and deal &3AOE Damage&r."]
+			hide_dependent_lines: true
 			id: "7DC9DB319181ECCB"
 			rewards: [
 				{
@@ -2318,12 +2299,13 @@
 				type: "item"
 			}]
 			title: "&3&lThe Annihilator"
-			x: -2.5d
-			y: 12.5d
+			x: -1.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
 			description: ["Shoots 3 &3Phantom Arrows&r. If it's a special arrow, two shots will be fired."]
+			hide_dependent_lines: true
 			id: "503A99211F9A41E0"
 			rewards: [
 				{
@@ -2360,8 +2342,8 @@
 				type: "item"
 			}]
 			title: "&3&lCursed Bow"
-			x: -4.5d
-			y: 12.5d
+			x: -3.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["00F4E708E30057CA"]
@@ -2453,8 +2435,8 @@
 				}
 			]
 			title: "&3&lCursium Armor"
-			x: -3.5d
-			y: 13.5d
+			x: -2.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["0B25F1EAC3D97093"]
@@ -2497,8 +2479,8 @@
 				type: "item"
 			}]
 			title: "&e&lAncient Spear"
-			x: 0.5d
-			y: 15.0d
+			x: 2.5d
+			y: 17.5d
 		}
 		{
 			description: [
@@ -2579,11 +2561,12 @@
 				type: "item"
 			}]
 			title: "&b&lEye of Storm"
-			x: -9.0d
-			y: 5.0d
+			x: -6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["33BA5942F66EF623"]
+			description: ["&b&lThe Acropolis&r&r is a city of storm created in &nwarm sea biology&r and serves as home for &b&lScylla&r&r. Among the overworld structures added to Cataclysm, it is the largest, extending from sea level to the skies."]
 			id: "4C710BE1025AA8F2"
 			rewards: [
 				{
@@ -2635,12 +2618,32 @@
 				type: "structure"
 			}]
 			title: "&b&lAcropolis"
-			x: -9.0d
-			y: 7.0d
+			x: -6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4C710BE1025AA8F2"]
 			id: "5C9A946C2C6D3F50"
+			rewards: [
+				{
+					id: "00120C43056889A5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "66989D373C042A6C"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:cindaria"
 				icon: {
@@ -2656,12 +2659,33 @@
 				type: "kill"
 				value: 5L
 			}]
-			x: -8.0d
-			y: 6.5d
+			title: "&b&lKill The Cindara"
+			x: -4.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4C710BE1025AA8F2"]
 			id: "1978F2C539C2C009"
+			rewards: [
+				{
+					id: "1831B527362EAA2E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "59D8C52F0F828A2E"
+					type: "xp"
+					xp: 20
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:urchinkin"
 				icon: {
@@ -2677,12 +2701,33 @@
 				type: "kill"
 				value: 10L
 			}]
-			x: -10.0d
-			y: 6.5d
+			title: "&b&lKill The Urchinkins"
+			x: -7.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4C710BE1025AA8F2"]
 			id: "67402E520947B875"
+			rewards: [
+				{
+					id: "08642D175D699BA7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "70F0D5BDC9A50878"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:hippocamtus"
 				icon: {
@@ -2698,12 +2743,33 @@
 				type: "kill"
 				value: 2L
 			}]
-			x: -10.0d
-			y: 8.0d
+			title: "&b&lKill The Hippocamtus"
+			x: -7.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["439033AF99748877"]
 			id: "4668AFFC55268635"
+			rewards: [
+				{
+					id: "3637D559461C37FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "033F897B99772CD5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				count: 10L
 				id: "1C6D4199D9EDEB0B"
@@ -2719,12 +2785,32 @@
 				type: "item"
 			}]
 			title: "&b&lLacrima"
-			x: -10.5d
-			y: 12.5d
+			x: -7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4668AFFC55268635"]
 			id: "418AF02A898819F1"
+			rewards: [
+				{
+					id: "0E967D5B80BBC9B6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "65DF2FABFDA71366"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				id: "46AC7914FFBCC2B1"
 				item: {
@@ -2741,8 +2827,9 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: 14.5d
+			title: "&b&lAzure Sea Shield"
+			x: -6.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -2750,6 +2837,26 @@
 				"7A4B95DDEDFB1C2C"
 			]
 			id: "52FD18DEE227254C"
+			rewards: [
+				{
+					id: "188336E7B5916DFE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "25B4762D8D5BEA4F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				id: "45B5EEB78FFB5FB9"
 				item: {
@@ -2763,8 +2870,9 @@
 				}
 				type: "item"
 			}]
-			x: -9.0d
-			y: 14.5d
+			title: "&b&lAstrape"
+			x: -6.0d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -2772,6 +2880,26 @@
 				"7A4B95DDEDFB1C2C"
 			]
 			id: "7BBCD270684F4477"
+			rewards: [
+				{
+					id: "0B4AB41F5BD81B94"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "6E717DC1244E6B05"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				id: "77EBCD2725483263"
 				item: {
@@ -2786,12 +2914,33 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 14.5d
+			title: "&b&lCeraunus"
+			x: -6.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["4C710BE1025AA8F2"]
 			id: "411C54C5505ED0FA"
+			rewards: [
+				{
+					id: "067F3525D5B87A1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					id: "6AC2A0DEDA1143DD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:clawdian"
 				icon: {
@@ -2807,8 +2956,9 @@
 				type: "kill"
 				value: 2L
 			}]
-			x: -8.0d
-			y: 8.0d
+			title: "&b&lKill The Clawdian"
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["411C54C5505ED0FA"]
@@ -2826,12 +2976,33 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: 9.0d
+			title: "&b&lChitin Claw"
+			x: -6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["439033AF99748877"]
 			id: "7A4B95DDEDFB1C2C"
+			rewards: [
+				{
+					id: "477C2EBAA6176FB3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "727A276CAF46D958"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			tasks: [{
 				count: 4L
 				id: "6711A177F3913D92"
@@ -2846,12 +3017,47 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 12.5d
+			title: "&b&lEssence Of The Storm"
+			x: -5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4C710BE1025AA8F2"]
 			id: "439033AF99748877"
+			rewards: [
+				{
+					id: "3F50A41ED6D90C20"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:music_disc_scylla"
+					}
+					type: "item"
+				}
+				{
+					id: "64EB1E9E0A379C32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "61FFEC474F8E64E1"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			subtitle: "&bScylla is not a monster to be fought. She is a force to be survived"
 			tasks: [{
 				entity: "cataclysm:scylla"
 				icon: {
@@ -2867,8 +3073,279 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -9.0d
-			y: 10.0d
+			title: "&b&lKill Scylla"
+			x: -6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6BB0EDE3520D0FF1"]
+			id: "699DA087F96DAA5B"
+			tasks: [{
+				id: "42C692A81174CCF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:strange_key"
+				}
+				type: "item"
+			}]
+			title: "&3&lStrange Key"
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["21AEDCF08E97F22C"]
+			id: "61581305425675B3"
+			rewards: [
+				{
+					id: "00BA377B3D5A1FB4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "3470CFD660BA48FD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "4F3A67FAE309751E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:blazing_grips"
+				}
+				type: "item"
+			}]
+			title: "&b&lBlazing Grips"
+			x: -10.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"3C5994B4A10CFA17"
+				"14C6D176F030788D"
+			]
+			hide_until_deps_complete: true
+			id: "115D83FFBFA13EF5"
+			rewards: [
+				{
+					id: "2BAF9A2653BEB34C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1348D472C81DA39D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "41FD40D29E88488C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:ignitium_elytra_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&b&lIgnitium Elytra Chestplate"
+			x: 3.75d
+			y: 21.25d
+		}
+		{
+			dependencies: [
+				"3C5994B4A10CFA17"
+				"35B0B5A25069DDCA"
+				"25743EB95B9822F4"
+			]
+			hide_until_deps_complete: true
+			id: "456C30D43EBE0363"
+			rewards: [
+				{
+					id: "7EB970EC94D0DCFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "46E0556B5E53839B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "103269A2B376CFD2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:gauntlet_of_maelstrom"
+				}
+				type: "item"
+			}]
+			title: "&d&lGauntlet of Maelstrom"
+			x: -3.75d
+			y: 23.75d
+		}
+		{
+			dependencies: [
+				"3C5994B4A10CFA17"
+				"7DC9DB319181ECCB"
+			]
+			hide_until_deps_complete: true
+			id: "16023D8AA42B53A2"
+			rewards: [
+				{
+					id: "404641418F6CD5C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "2849B108D8401457"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "28823CFE4BC4CDE3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:the_immolator"
+				}
+				type: "item"
+			}]
+			title: "&3&lThe Immolator"
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"3C5994B4A10CFA17"
+				"25743EB95B9822F4"
+				"503A99211F9A41E0"
+			]
+			hide_until_deps_complete: true
+			id: "0DC0A8185B56B913"
+			rewards: [
+				{
+					id: "77884BAC65C6D193"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+				{
+					id: "1F89AEC9E10B29C4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "none"
+			size: 2.5d
+			tasks: [{
+				id: "1EB5A93BE04811A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:wrath_of_the_desert"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&e&lWrath of the Desert"
+			x: -3.75d
+			y: 21.25d
+		}
+		{
+			description: [""]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_text_until_complete: true
+			hide_until_deps_visible: true
+			id: "618FE7BF858FF87B"
+			invisible: true
+			optional: true
+			size: 0.5d
+			tasks: [{
+				count: 999L
+				id: "1EBD3D72D656E121"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "AUTOFOCUS"
+			x: 0.0d
+			y: 6.5d
 		}
 	]
 	title: "&eCataclysm"
