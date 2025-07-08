@@ -1300,9 +1300,9 @@
 
 		 <recipetype:create:mechanical_crafting>.addRecipe("mechanical.philolitechicken", <item:chicken_roost:c_philolite>, 
 		 [[<item:create:precision_mechanism>, <item:create_unbreakable:philolite>, <tag:items:forge:plates/brass>, <item:create_unbreakable:philolite>, <item:create:precision_mechanism>], 
-		 [<item:create_unbreakable:philolite>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:philolite>], 
+		 [<item:create_unbreakable:philolite>, <item:chicken_roost:c_brass>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_brass>, <item:create_unbreakable:philolite>], 
 		 [<tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>, <item:chicken_roost:chicken_essence_tier_9>, <tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>], 
-		 [<item:create_unbreakable:philolite>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:philolite>], 
+		 [<item:create_unbreakable:philolite>, <item:chicken_roost:c_brass>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_brass>, <item:create_unbreakable:philolite>], 
 		 [<item:create:precision_mechanism>, <item:create_unbreakable:philolite>, <tag:items:forge:plates/brass>, <item:create_unbreakable:philolite>, <item:create:precision_mechanism>]]);
 			
 
@@ -1342,9 +1342,9 @@
 	
 		 <recipetype:create:mechanical_crafting>.addRecipe("mechanical.luminarchychicken", <item:chicken_roost:c_luminarchy>, 
 		 [[<item:create:precision_mechanism>, <item:create_unbreakable:luminarchy>, <tag:items:forge:plates/brass>, <item:create_unbreakable:luminarchy>, <item:create:precision_mechanism>], 
-		 [<item:create_unbreakable:luminarchy>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:luminarchy>], 
+		 [<item:create_unbreakable:luminarchy>, <item:chicken_roost:c_brass>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_brass>, <item:create_unbreakable:luminarchy>], 
 		 [<tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>, <item:chicken_roost:chicken_essence_tier_9>, <tag:items:forge:plates/brass>, <tag:items:forge:plates/brass>], 
-		 [<item:create_unbreakable:luminarchy>, <item:chicken_roost:c_vanilla>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_vanilla>, <item:create_unbreakable:luminarchy>], 
+		 [<item:create_unbreakable:luminarchy>, <item:chicken_roost:c_brass>, <tag:items:forge:plates/brass>, <item:chicken_roost:c_brass>, <item:create_unbreakable:luminarchy>], 
 		 [<item:create:precision_mechanism>, <item:create_unbreakable:luminarchy>, <tag:items:forge:plates/brass>, <item:create_unbreakable:luminarchy>, <item:create:precision_mechanism>]]);
 			
 	
@@ -1547,10 +1547,10 @@
 			  "item": "mekanism:ingot_osmium"
 			},
 			{
-			  "item": "chicken_roost:c_vanilla"
+			  "item": "chicken_roost:c_osmium"
 			},
 			{
-			  "item": "chicken_roost:c_vanilla"
+			  "item": "chicken_roost:c_osmium"
 			},
 			{
 			  "item": "mekanism:ingot_osmium"
@@ -1715,8 +1715,9 @@
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_unobtainium>);
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_unobtainium>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_brass>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_refinediron>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_refinediron>);
 		
-
 
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.glasschicken", {
 		  "type": "chicken_roost:basic_breeding",
@@ -2554,7 +2555,7 @@
 		[<item:mekanism:block_uranium>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:block_uranium>], 
 		[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>]]);
 
-		craftingTable.addShaped("crafting.brass_chicken", <item:chicken_roost:c_brass>, 
+		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.brass.chicken", <item:chicken_roost:c_brass>, 
 		[[<item:create:brass_block>, <item:create:brass_ingot>, <item:create:brass_block>], 
 		[<item:create:brass_ingot>, <item:chicken_roost:chicken_essence_tier_6>, <item:create:brass_ingot>], 
 		[<item:create:brass_block>, <item:create:brass_ingot>, <item:create:brass_block>]]);	
@@ -2573,3 +2574,18 @@
 			"item": "create:brass_nugget"
 		  }
 		});		
+		
+		
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_steel>);
+		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.steel.chicken", <item:chicken_roost:c_steel>, 
+		[[<item:chicken_roost:c_brass>, <tag:items:forge:storage_blocks/steel>, <item:chicken_roost:c_brass>], 
+		[<tag:items:forge:storage_blocks/steel>, <item:chicken_roost:chicken_essence_tier_6>, <tag:items:forge:storage_blocks/steel>], 
+		[<item:chicken_roost:c_brass>, <tag:items:forge:storage_blocks/steel>, <item:chicken_roost:c_brass>]]);
+
+
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_silicon>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_silicon>);		
+		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.silicon.chicken", <item:chicken_roost:c_silicon>, 
+		[[<item:chicken_roost:c_brass>, <tag:items:forge:storage_blocks/silicon>, <item:chicken_roost:c_brass>], 
+		[<tag:items:forge:storage_blocks/silicon>, <item:chicken_roost:chicken_essence_tier_6>, <tag:items:forge:storage_blocks/silicon>], 
+		[<item:chicken_roost:c_brass>, <tag:items:forge:storage_blocks/silicon>, <item:chicken_roost:c_brass>]]);
