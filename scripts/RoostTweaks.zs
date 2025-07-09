@@ -24,6 +24,7 @@
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_ether>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_wastedradioactive>);	
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_beastmaster>);
+		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_sap>);
 		
 		
 		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_cherry>);
@@ -52,9 +53,11 @@
 		<tag:items:forge:roost/tier7>.addId(<resource:chicken_roost:c_ether>);
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
 		<tag:items:forge:roost/tier6>.addId(<resource:chicken_roost:c_beastmaster>);
+		<tag:items:forge:roost/tier8>.addId(<resource:chicken_roost:c_sap>);
+		
+		
 
-
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cherrychicken1", {
+		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cherrychicken1", {
 		  "type": "chicken_roost:basic_breeding",
 		  "ingredients": [
 			{
@@ -1547,10 +1550,10 @@
 			  "item": "mekanism:ingot_osmium"
 			},
 			{
-			  "item": "chicken_roost:c_osmium"
+			  "item": "chicken_roost:c_latex"
 			},
 			{
-			  "item": "chicken_roost:c_osmium"
+			  "item": "chicken_roost:c_latex"
 			},
 			{
 			  "item": "mekanism:ingot_osmium"
@@ -2547,9 +2550,7 @@
 		[<item:chicken_roost:c_brass>, <item:mekanism:bio_fuel>, <item:chicken_roost:c_brass>]]);
 		
 
-	<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_uranium>);
-	
-
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_uranium>);
 		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.uranium_chicken", <item:chicken_roost:c_uranium>, 
 		[[<item:chicken_roost:c_brass>, <item:mekanism:block_uranium>, <item:chicken_roost:c_brass>], 
 		[<item:mekanism:block_uranium>, <item:chicken_roost:chicken_essence_tier_6>, <item:mekanism:block_uranium>], 
@@ -2589,3 +2590,43 @@
 		[[<item:chicken_roost:c_brass>, <tag:items:forge:storage_blocks/silicon>, <item:chicken_roost:c_brass>], 
 		[<tag:items:forge:storage_blocks/silicon>, <item:chicken_roost:chicken_essence_tier_6>, <tag:items:forge:storage_blocks/silicon>], 
 		[<item:chicken_roost:c_brass>, <tag:items:forge:storage_blocks/silicon>, <item:chicken_roost:c_brass>]]);
+		
+			
+		<recipetype:create:mechanical_crafting>.addRecipe("chicken_roost.sap.chicken", <item:chicken_roost:c_sap>, 
+		[[<item:chicken_roost:c_latex>, <item:thermal:sap_bucket>, <item:chicken_roost:c_latex>], 
+		[<item:thermal:sap_bucket>, <item:chicken_roost:chicken_essence_tier_8>, <item:thermal:sap_bucket>], 
+		[<item:chicken_roost:c_latex>, <item:thermal:sap_bucket>, <item:chicken_roost:c_latex>]]);
+		
+		<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.sapchicken", {
+		  "type": "chicken_roost:soul_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:souls/tier8andup"
+			},
+			{
+			  "item": "chicken_roost:c_sap"
+			}
+		  ],
+		  "output": {
+			"item": "chicken_roost:c_sap"
+		  }
+		  
+		});
+		
+		<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.sapchicken", {
+		  "type": "chicken_roost:roost_output",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier8orup"
+			},
+			{
+			  "item": "chicken_roost:c_sap"
+			}
+		  ],
+		  "output": {
+			"item": "ccextras:sap_egg"
+		  }
+		});	
+		
+		<recipetype:create:mixing>.addRecipe("mixing.sapegg", <constant:create:heat_condition:superheated>, 
+		[<fluid:thermal:sap> * 1000], [<item:ccextras:sap_egg>]);
