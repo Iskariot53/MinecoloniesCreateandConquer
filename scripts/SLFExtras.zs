@@ -78,10 +78,11 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 			"item": "celestisynth:solar_crystal"
 		  }
 		});	
+craftingTable.remove(<item:artifacts:everlasting_beef>);
 <recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("artifacts.everlasting_beef", {
 		  "type": "celestisynth:starlit_factory",
 		  "core_material": {
-			"item": "better_fishing_rods:meat_bundle"
+			"item": "relics:infinity_ham"
 		  },
 		  "extra_core_material": {
 			"item": "mekanism:canteen"
@@ -95,7 +96,7 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 			"item": "celestisynth:solar_crystal"
 		  },
 		  "supporting_material_middle": {
-			"item": "minecraft:beef"
+			"item": "better_fishing_rods:meat_bundle"
 		  },
 		  "supporting_material_top": {
 			"item": "celestisynth:solar_crystal"
@@ -124,6 +125,7 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 			"item": "celestisynth:solar_crystal"
 		  }
 		});
+		
 <recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("artifacts.scarf_of_invisibility", {
 		  "type": "celestisynth:starlit_factory",
 		  "core_material": {
@@ -147,6 +149,7 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 			"item": "celestisynth:starstruck_scrap"
 		  }
 		});		
+craftingTable.remove(<item:artifacts:antidote_vessel>);
 <recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("artifacts.antidote_vessel", {
 		  "type": "celestisynth:starlit_factory",
 		  "core_material": {
