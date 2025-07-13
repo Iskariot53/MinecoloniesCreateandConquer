@@ -17,4 +17,5 @@ craftingTable.removeByName("better_fishing_rods:fishing_rods_to_wood_recipe");
 <recipetype:create:crushing>.removeByName("createhaven:crushing/blocks/recycle_copper_blocks");
 <recipetype:productivebees:bee_conversion>.removeByName("productivebees:bee_conversion/reactors/graphite_bee");
 craftingTable.removeByName("minecraft:orb_of_origin");
+craftingTable.removeByName("ars_instrumentum:archmage_spell_book_upgrade_alternate");
 //template for server admin: craftingTable.remove(<item:>);
