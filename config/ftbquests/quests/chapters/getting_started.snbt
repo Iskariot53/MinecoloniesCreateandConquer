@@ -20,6 +20,7 @@
 	}
 	id: "349605EDAF02E4F9"
 	order_index: 0
+	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -558,7 +559,7 @@
 			}]
 			title: "&6&lCreate and Conquer the World"
 			x: -0.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -618,9 +619,9 @@
 		}
 		{
 			dependencies: [
-				"32C249BE079B4054"
 				"1A8D6E6607B276B5"
 				"29428113245CF8E0"
+				"3788286CEB1BCD51"
 			]
 			description: [
 				"From here on out, many quests and tasks will be rewarded with Spurs, Bevels, Sprockets, Cogs, Crowns, and Suns."
@@ -657,7 +658,7 @@
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["32C249BE079B4054"]
@@ -830,6 +831,58 @@
 			title: "&6&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["32C249BE079B4054"]
+			description: [
+				"&6&l/tpa&r&r commands are &cdisabled&r in the pack by default, keeping the game more immersive and challenging. However, the &6&lWormhole Artifact&r&r is a useful item that allows you to teleport to your friends through a simple UI, offering a fair and balanced alternative to traditional teleportation with commands!"
+				""
+				"The &6&lWormhole Artifact&r&r allows you to teleport to friends, but &n&bonly within the same dimension&r&r."
+				""
+				"It can be upgraded to the &l&5Wormhole Remote&r&r, which lets you teleport to players &n&beven if they are in a different dimension&r&r."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "wormhole_artifact:wormhole_remote"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3788286CEB1BCD51"
+			rewards: [
+				{
+					id: "656870E3C5F96DEE"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "21B1853E2A1A98BD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&eNo /tpa? No problem."
+			tasks: [{
+				id: "49F4B5F8A02F20A9"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "&6&lTeleportation Methods"
+			x: -0.5d
+			y: -1.0d
 		}
 	]
 	title: "&eGetting Started"
