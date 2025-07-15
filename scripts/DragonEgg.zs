@@ -1,0 +1,2 @@
+craftingTable.addShapeless("dragonegg.conversion", <item:minecraft:dragon_egg>, 
+[<item:dragonmounts:dragon_egg>.withTag({BlockStateTag: {hatch_stage: "0"}, BlockEntityTag: {Breed: "dragonmounts:end"}})]);
