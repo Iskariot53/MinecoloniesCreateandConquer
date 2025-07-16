@@ -11,7 +11,7 @@ Mods Removed
 
 Mods Added
 
-
+- AdvancedAE
 - Create Big Cannons: Advanced Technologies
 - Create: Radars
 - Wormhole Artifact
@@ -31,16 +31,25 @@ Mods Updated
 - Citadel
 - Convenient Curios Container
 - Corail Tombstone
+- Create
+- Create Big Cannons
+- Create Encased
+- Create: Enchantment Industry
 - Create: Hypertubes
 - Create: Let The Adventure Begin
+- Create Mechanical Extruder
+- Create: Missions
 - Create: Protection Pixel
 - Create Railways Navigator
+- Create Sifting
 - Create Slice & Dice
 - Dawn Of Time
 - Domum Ornamentum
+- Draconic Evolution
 - Dynamic Trees - Biomes O' Plenty
 - FancyMenu
 - FTB Ultimine
+- Fusion
 - Immersive Melodies
 - Just Enough Items
 - L_Ender 's Cataclysm
@@ -51,6 +60,7 @@ Mods Updated
 - Oh The Biomes We've Gone
 - Packet Fixer
 - Realm RPG: Imps & Demons
+- Rechiseled: Create
 - Skin Layers 3D
 - Sophisticated Backpacks
 - Sophisticated Core
@@ -67,4 +77,11 @@ Changes
 
 - Relics loot tables rebalanced.
 - Issues with overspawning, especially in stuctures, addressed.
-- Multiple FPS and TPS optimization tweaks and improvements.
+- Multiple attempts at FPS and TPS optimization tweaks and improvements.
+- Fixed an issue with missions causing clients to be kicked from servers when completing feeding missions. 
+- multiple tweaks and bugfixes regarding minecolonies cooks and more, refer to MineColonies recent changelogs for more information.
+- Dragon mounts eggs, once converted, can now be converted back via shapeless crafting.
+- Added new researchs and many new recipes and compatibilities for minecolonies colonists. currently a WIP but if you see any duplicate recipes in jei, any and all will work.
+- Quantum Armor, newly added with the addition of AdvancedAE, reworked and is obtained via mechanical crafting after having beaten and crafted the associated armor piece from the corressponding boss - Courtesy of Grimmspark123.
+- Above the clouds enchantment is enabled by default now.
+- /tpa is disabled by default now as the same utility is now provided by via wormhole artifact.

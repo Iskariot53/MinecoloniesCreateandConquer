@@ -18,4 +18,8 @@ craftingTable.removeByName("better_fishing_rods:fishing_rods_to_wood_recipe");
 <recipetype:productivebees:bee_conversion>.removeByName("productivebees:bee_conversion/reactors/graphite_bee");
 craftingTable.removeByName("minecraft:orb_of_origin");
 craftingTable.removeByName("ars_instrumentum:archmage_spell_book_upgrade_alternate");
+craftingTable.remove(<item:advanced_ae:quantum_helmet>);
+craftingTable.remove(<item:advanced_ae:quantum_chestplate>);
+craftingTable.remove(<item:advanced_ae:quantum_leggings>);
+craftingTable.remove(<item:advanced_ae:quantum_boots>);
 //template for server admin: craftingTable.remove(<item:>);
