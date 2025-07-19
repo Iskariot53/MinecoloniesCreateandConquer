@@ -1892,7 +1892,7 @@
 		{
 			dependencies: ["112A9B8C8A737352"]
 			description: [
-				"With the absence of the likes of fusion reactors, the mycelial power grid is by far the most powerful generator available before reaching the true end-game reactor. While few things, if anything, in the pack will require this level of power production, it is a viable option if you cannot get your power grid running efficiently. Or if you just want a lot of power."
+				"The mycelial power grid is by far the most powerful generation available before reaching the true end-game reactors. While few things, if anything, in the pack will require this level of power production, it is a viable option if you cannot get your power grid running efficiently. Or if you just want a lot of power."
 				""
 				"The only exception being antimatter... you're gonna need &nA LOT&r of power for that... so make sure to build an induction matrix and start storing energy reserves sooner rather than later if you plan to progress to that point."
 			]
@@ -2785,9 +2785,7 @@
 			description: [
 				"When surrounded by the mycelial generators AND &eall generators are currently running&r. The Mycelial Reactor will output 25MFE/t."
 				""
-				"To put this in perspective it produces 5mfe/t MORE than a \"base\" level fusion reactor would from mekanism, which are not present. "
-				""
-				"(Just a little salt laden reminder for you.)"
+				"To put this in perspective it produces 5mfe/t MORE than a \"base\" level fusion reactor from mekanism does. "
 			]
 			hide_dependency_lines: true
 			id: "4E4B991E67B93047"

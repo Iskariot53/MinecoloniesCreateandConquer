@@ -925,7 +925,11 @@
 			description: [
 				"Everlasting Beef can be obtained from endlessy slaughtering mimics all day, but for those that RNGesus does not smile upon, there is always this route. "
 				""
-				"It has been tagged in a way that allows even the herbivores to enjoy! (just tell them it's tofu or something.. idk)"
+				"It has been tagged in a way that allows even the herbivores to enjoy! (just tell them it's tofu or something.. idk)."
+				""
+				"Most importantly, it can be cooked into &6Eternal Steak&r. &oThis&r steak is not just &oany&r steak.. It is an &oinfinite steak&r, of course, silly."
+				""
+				"This &oinfinite steak&r is not just &oany&r infinite steak. It functions effectively the same as an infinite &dgolden apple&r."
 			]
 			id: "587A63C9A1A60104"
 			subtitle: "&eInfinite food source"
@@ -2161,6 +2165,26 @@
 		{
 			dependencies: ["5408F21008F2B15F"]
 			id: "101C80D141CA5F6D"
+			rewards: [
+				{
+					id: "2B8C1E67FFE852B6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F1BEE389840DE4C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "7BE2EB933445654F"
