@@ -1,1 +1,0 @@
-<recipetype:create:emptying>.addRecipe("ooze_draining", <item:minecraft:bucket>, <fluid:enlightened_end:ooze_fluid> * 1000, <item:enlightened_end:ooze_fluid_bucket>, 200);

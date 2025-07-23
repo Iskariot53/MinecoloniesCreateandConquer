@@ -10,7 +10,8 @@
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "apotheotic_additions:endless_boss"}));
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "apotheotic_additions:caves_gate"}));
 	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:overworldian_nights"}));
-	
+	craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:born_zombie"}));
+
 	//SLIME
 		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.slimegateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/slime"}),
 		[[<item:minecraft:slime_ball>, <item:reliquary:slime_pearl>, <item:minecraft:slime_ball>],
@@ -82,3 +83,9 @@
 		[[<item:minecraft:glowstone_dust>, <item:minecraft:spider_eye>, <item:minecraft:glowstone_dust>],
 		[<item:minecraft:gunpowder>, <item:minecraft:ender_eye>, <item:minecraft:gunpowder>],
 		[<item:minecraft:bone>, <item:minecraft:rotten_flesh>, <item:minecraft:bone>]]);
+		
+	//UNDEAD MISSIONARY
+		<recipetype:create:mechanical_crafting>.addRecipe("mechanical.undeadmissiongateway", <item:gateways:gate_pearl>.withTag({gateway: "gateways:born_zombie"}),
+		[[<item:born_in_chaos_v1:dark_metal_ingot>, <item:minecraft:rotten_flesh>, <item:born_in_chaos_v1:dark_metal_ingot>],
+		[<item:minecraft:rotten_flesh>, <item:minecraft:ender_eye>, <item:minecraft:rotten_flesh>],
+		[<item:born_in_chaos_v1:dark_metal_ingot>, <item:minecraft:rotten_flesh>, <item:born_in_chaos_v1:dark_metal_ingot>]]);
