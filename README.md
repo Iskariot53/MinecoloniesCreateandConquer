@@ -2,6 +2,8 @@ Minecolonies - Create & Conquer
 ======
 This is the official repository and issue-tracker for Minecolonies - Create & Conquer 1.20
 
+Initially prepared for our own use for ease of testing, this repository is set up in such a way that it can be cloned into an instance folder and used to stay up-to-date with changes in real-time. For anyone who would like to test, contribute or just stay informed on changes as they happen.
+
 Create & Conquer your world, your way.
 
 Need Help?
