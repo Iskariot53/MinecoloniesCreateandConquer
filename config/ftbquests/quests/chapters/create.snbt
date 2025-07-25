@@ -1120,6 +1120,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			subtitle: "&6Automatic crafting tables, but cooler"
 			tasks: [{
 				id: "226025129A152B32"
@@ -4199,6 +4200,883 @@
 			title: "&e&lCrude Oil Bucket"
 			x: 16.0d
 			y: -2.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanism:ultimate_control_circuit"
+			}
+			id: "3AF12597B4D40B36"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5D168FFA9AA9FCF2"
+				title: "Ultimate Control Circuit"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_sa:steam_engine"
+			}
+			id: "6152DFDF772AA6F0"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "489876D55AAB389A"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createaddition:electric_motor"
+			}
+			id: "5AE777B509FB429E"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5A48B7291679F87D"
+				title: "Electric Motor"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"38FEAC55F958F1AF"
+				"06DE55B8F9F4A557"
+				"1DC8C706C321F8A5"
+				"59B58F487D188A06"
+			]
+			description: [
+				"To craft the Creative Motor you will need to acquire:"
+				""
+				""
+				"12 Steam Engines"
+				"4 Arcanite Blocks"
+				"4 Celestrium Blocks"
+				"4 Mechanism Blocks"
+				"4 Strong Motor Extensions"
+				"4 Electric Motors"
+				"4 Steam Engines"
+				"1 Ultimate Control Circuit"
+				""
+				""
+				"Once you have collected these 37 items and the necessary mechanical crafters to assemble them, the next section of quests can be used as a checklist and visual aid on how to arrange and fill them, if needed."
+			]
+			hide_dependent_lines: true
+			id: "33BC91A192BF16B1"
+			rewards: [
+				{
+					id: "50976A39A50FE579"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "31C0C75E3CD72F55"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
+			size: 1.75d
+			tasks: [{
+				id: "6E91872D34CC65BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:creative_motor"
+				}
+				type: "item"
+			}]
+			title: "&6&lCreative Motor"
+			x: -2.625d
+			y: -11.0d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_new_age:advanced_motor_extension"
+			}
+			id: "04AFCC802A95B37A"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "76459940797F83AD"
+				title: "Strong Motor Extension"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_compressed:mechanism_block"
+			}
+			id: "15FFACA9EF7411B6"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "04B57207120E42F9"
+				title: "Mechanism Block"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:celestrium_block"
+			}
+			id: "6935DAA7AFBA09BD"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5BFA9911CEB258D1"
+				title: "Celestrium Block"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:celestrium_block"
+			}
+			id: "3C76F1CE6BF42129"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3934BC81DD9E3BE4"
+				title: "Celestrium Block"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:celestrium_block"
+			}
+			id: "65C406A97EFD33DE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "0B18AE1B67EE4633"
+				title: "Celestrium Block"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:celestrium_block"
+			}
+			id: "59C6B5698F798714"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "29DC4657B09C9251"
+				title: "Celestrium Block"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:arcanite_block"
+			}
+			id: "2AA5DD13AA2ED4A6"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "52B220129167705A"
+				title: "Arcanite Block"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:arcanite_block"
+			}
+			id: "598310C96FF4D59D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "15EC759EC7B13A9E"
+				title: "Arcanite Block"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:arcanite_block"
+			}
+			id: "5126D48AA91085A1"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "32761A822CB913E2"
+				title: "Arcanite Block"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ccextras:arcanite_block"
+			}
+			id: "2B862AB55DBFA2E9"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "48813ED356B6C4A3"
+				title: "Arcanite Block"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_sa:steam_engine"
+			}
+			id: "56BAA053037CD8F8"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7E18A1984FD4DC08"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_sa:steam_engine"
+			}
+			id: "3FD6CADFC1423115"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "7171ABF241C039DA"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_sa:steam_engine"
+			}
+			id: "1B277C97816926DE"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "59E203CA1C6F7F52"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createaddition:electric_motor"
+			}
+			id: "450C5193B4D554A1"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "51C860E4C825C9A8"
+				title: "Electric Motor"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createaddition:electric_motor"
+			}
+			id: "1C25E347F52DE6B0"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4C29E140198002A8"
+				title: "Electric Motor"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createaddition:electric_motor"
+			}
+			id: "13E5FDF86F0BEB23"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4657F8B086FA3E93"
+				title: "Electric Motor"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_new_age:advanced_motor_extension"
+			}
+			id: "370EE949AEBE45CD"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "640090A95B07D023"
+				title: "Strong Motor Extension"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_new_age:advanced_motor_extension"
+			}
+			id: "5B8F28A6B6FBE455"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "5ABD85C86875D6D2"
+				title: "Strong Motor Extension"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_new_age:advanced_motor_extension"
+			}
+			id: "458C8D1F12614FE2"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "10F8A512A3539B99"
+				title: "Strong Motor Extension"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_compressed:mechanism_block"
+			}
+			id: "458536A402DFEE0C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4A54CB8D66B90A0A"
+				title: "Mechanism Block"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_compressed:mechanism_block"
+			}
+			id: "4B730A73D9E63828"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "70FCB4681D915428"
+				title: "Mechanism Block"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create_compressed:mechanism_block"
+			}
+			id: "2D79E2320B3ACB8C"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "6BB525FBB815FED6"
+				title: "Mechanism Block"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "17E433AB2DD76A23"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "17E8614E2B381196"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "591A0801CF7DCAB3"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1C16D4859FE04CA5"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "2DD62B3C6563E627"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "779182B1B5DA408F"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "6679821D47E81F73"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1A819460A2C908A4"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "7B31C25BB3E0D7C7"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "2BE2D6015025C01B"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "582140A33FB3DB49"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "1FDA3FF95E309E02"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "6B8D621B3B96956B"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "47389B79B01F9C13"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "4BE2025085DE9BA3"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "48FEA0A9B69574A6"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "14E7320394ADB829"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "541DA2E642B95DE6"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "62B6EA4B08F5A59D"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "3757406430341BCE"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "7C476F89965FCF17"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "03E0FF5D32B1A86D"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["33BC91A192BF16B1"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "0D8BB62C775AE225"
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "4F8B857619877D83"
+				title: "Steam Engine"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: -10.5d
 		}
 	]
 	title: "&eCreate"
