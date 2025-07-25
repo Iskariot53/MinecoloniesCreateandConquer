@@ -1,5 +1,4 @@
-craftingTable.remove(<item:ae2wtlib:quantum_bridge_card>);
-craftingTable.remove(<item:appflux:insulating_resin>);
+
 recipes.addJsonRecipe("ae2.calculation_processor",
 {
   "type": "ae2:inscriber",

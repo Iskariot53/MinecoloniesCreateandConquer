@@ -5508,7 +5508,7 @@
 				"746503BBE1C24E6E"
 				"1ED89471EB68D98D"
 			]
-			description: ["Breed an iron bee with a neon cuckoo bee."]
+			description: ["Convert an Athralite Bee into and Osmium Bee by feeding it a block of Osmium."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5535,7 +5535,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&eBee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "75D33D932325B731"

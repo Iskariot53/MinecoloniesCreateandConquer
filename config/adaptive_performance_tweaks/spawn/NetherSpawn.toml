@@ -9,7 +9,7 @@
 	#Range: 1 ~ 512
 	MaxPassiveMobsPerWorld = 32
 	#Range: 1 ~ 1024
-	MaxPassiveMobsPerServer = 320
+	MaxPassiveMobsPerServer = 128
 	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
 	PassiveMobsList = ["minecraft:strider"]
 	#e.g. mobs which will attack under certain conditions ...
@@ -18,7 +18,7 @@
 	#Range: 1 ~ 512
 	MaxNeutralMobsPerWorld = 32
 	#Range: 1 ~ 1024
-	MaxNeutralMobsPerServer = 320
+	MaxNeutralMobsPerServer = 128
 	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
 	NeutralMobsList = ["minecraft:zombified_piglin"]
 	#e.g. mobs which will always attack yon ...
@@ -27,7 +27,7 @@
 	#Range: 1 ~ 512
 	MaxHostileMobsPerWorld = 32
 	#Range: 1 ~ 1024
-	MaxHostileMobsPerServer = 320
+	MaxHostileMobsPerServer = 128
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["minecraft:blaze", "minecraft:ghast", "minecraft:hoglin", "minecraft:magma_cube", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:wither_skeleton"]
 

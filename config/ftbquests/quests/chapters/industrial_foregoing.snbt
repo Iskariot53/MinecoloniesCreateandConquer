@@ -19,6 +19,24 @@
 		}
 	}
 	id: "440BDF87EC88D105"
+	images: [
+		{
+			height: 6.0d
+			image: "ccextras:textures/laser-drills.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 9.0d
+			y: 19.5d
+		}
+		{
+			height: 8.0d
+			image: "ccextras:textures/ether_set_up.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 5.5d
+			y: 26.0d
+		}
+	]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]

@@ -22,19 +22,15 @@ import crafttweaker.api.recipe.IRecipeManager;
 	brewing.removeRecipeByReagent(<item:celestisynth:lunar_scrap>);
 	brewing.removeRecipeByReagent(<item:minecraft:feather>);
 	
-	
-//CRAFTING INGREDIENTS
-//CELESTIAL CORE
 		craftingTable.addShaped("celest.celestial_core", <item:celestisynth:celestial_core>, 
 		[[<item:minecraft:air>, <item:minecraft:amethyst_shard>, <item:minecraft:air>], 
 		[<item:minecraft:amethyst_shard>, <item:minecraft:nether_star>, <item:minecraft:amethyst_shard>], 
 		[<item:minecraft:air>, <item:minecraft:amethyst_shard>, <item:minecraft:air>]]);
 
-//SMITHING SUPERNAL NETHERITE INGOT
+
 	smithing.addTransformRecipe("smithing.celestisynth_supernal_netherite_ingot", <item:celestisynth:supernal_netherite_ingot>, <item:minecraft:netherite_upgrade_smithing_template>, <tag:items:forge:ingots/netherite>, <item:celestisynth:celestial_core_heated>);
 	
 	
-//IMBUEMENT EYEBOMINATION
 	<recipetype:ars_nouveau:imbuement>.addJsonRecipe("celestisynth.eyebomination", {
   "type": "ars_nouveau:imbuement",
   "count": 1,
@@ -67,9 +63,6 @@ import crafttweaker.api.recipe.IRecipeManager;
   "source": 500
 });
 
-
-//MANA POOL (LUNAR SCRAP + HEATED CELESTIAL CORE)
-	//LUNAR SCRAP
 		    <recipetype:botania:mana_infusion>.addJsonRecipe("celest.lunar_scrap", {
 		  "type": "botania:mana_infusion",
 		  "input": {
@@ -80,7 +73,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 			"item": "celestisynth:lunar_scrap"
 		  }});
 		
-	//HEATED CELESTIAL CORE
 			<recipetype:botania:mana_infusion>.addJsonRecipe("celest.heated_celestial_core", {
 		  "type": "botania:mana_infusion",
 		  "input": {
@@ -91,9 +83,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 			"item": "celestisynth:celestial_core_heated"
 		  }});
 		  
-		  
-//ELVEN GATEWAY (CELESTIAL NETHERITE INGOT + SOLAR CRYSTAL)
-	//CELESTIAL NETHERITE INGOT
 		<recipetype:botania:elven_trade>.addJsonRecipe("celest.celestial_netherite_ingot", {
 		  "type": "botania:elven_trade",
 		  "ingredients": [
@@ -107,7 +96,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 			}
 		  ]	});
 		
-	//SOLAR CRYSTAL
 		<recipetype:botania:elven_trade>.addJsonRecipe("celest.solar_crystal", {
 		  "type": "botania:elven_trade",
 		  "ingredients": [
@@ -121,8 +109,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 			}
 		  ]});
 		  
-//ALCHEMY TABLE STARSTRUCK (SCRAP + FEATHER)
-	//STARSTRUCK SCRAP
 		<recipetype:bloodmagic:alchemytable>.addJsonRecipe("celest.starstruck_scrap", {
 		  "type": "bloodmagic:alchemytable",
 		  "input": [
@@ -147,7 +133,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  "upgradeLevel": 2
 		});
 		
-	//STARSTRUCK FEATHER
 		<recipetype:bloodmagic:alchemytable>.addJsonRecipe("celest.starstruck_feather", {
 		  "type": "bloodmagic:alchemytable",
 		  "input": [
@@ -172,9 +157,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  "upgradeLevel": 2
 		});
 		
-		
-//WEAPON RECIPES
-	//AQUAFLORA
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:aquaflora");
 
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.aquaflora", {
@@ -201,7 +183,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  }
 		});
 		
-	//BREEZEBREAKER
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:breezebreaker");
 
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.breezebreaker", {
@@ -228,7 +209,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  }
 		});		
 		
-	//CRESCENTIA
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:crescentia");
 
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.crescentia", {
@@ -255,7 +235,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  }
 		});
 		
-	//FROSTBOUND
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:frostbound");
 
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.frostbound", {
@@ -282,7 +261,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  }
 		});
 
-	//POLTERGEIST
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:poltergeist");
 
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.poltergeist", {
@@ -309,7 +287,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  }
 		});
 
-	//RAINFALL-SERENITY
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:rainfall_serenity");
 
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.rainfall_serenity", {
@@ -336,7 +313,6 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  }
 		});
 
-	//SOLARIS
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:solaris");
 
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.solaris", {
@@ -362,8 +338,7 @@ import crafttweaker.api.recipe.IRecipeManager;
 			"item": "celestisynth:solar_crystal"
 		  }
 		});
-		
-	//KERES
+
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:keres");
 
 //		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.keres", {
@@ -389,28 +364,3 @@ import crafttweaker.api.recipe.IRecipeManager;
 //			"item": "minecraft:netherite_ingot"
 //		  }
 //		});
-
-
-	//SOLAR CRYSTAL HELMET
-		craftingTable.remove(<item:celestisynth:solar_crystal_helmet>);
-		
-	//SOLAR CRYSTAL CHESTPLATE
-		craftingTable.remove(<item:celestisynth:solar_crystal_chestplate>);
-		
-	//SOLAR CRYSTAL LEGGINGS
-		craftingTable.remove(<item:celestisynth:solar_crystal_leggings>);
-
-	//SOLAR CRYSTAL BOOTS
-		craftingTable.remove(<item:celestisynth:solar_crystal_boots>);
-
-	//LUNAR STONE HELMET
-		craftingTable.remove(<item:celestisynth:lunar_stone_helmet>);
-		
-	//LUNAR STONE CHESTPLATE
-		craftingTable.remove(<item:celestisynth:lunar_stone_chestplate>);
-		
-	//LUNAR STONE LEGGINGS
-		craftingTable.remove(<item:celestisynth:lunar_stone_leggings>);
-
-	//LUNAR STONE BOOTS
-		craftingTable.remove(<item:celestisynth:lunar_stone_boots>);

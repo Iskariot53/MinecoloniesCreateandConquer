@@ -8,7 +8,7 @@
 	#Range: 1 ~ 512
 	MaxPassiveMobsPerWorld = 12
 	#Range: 1 ~ 1024
-	MaxPassiveMobsPerServer = 320
+	MaxPassiveMobsPerServer = 128
 	#List of passive Mobs to optimize in the format ["minecraft:bat", "minecraft:cat", ..]
 	PassiveMobsList = []
 	#Range: 1 ~ 64
@@ -16,7 +16,7 @@
 	#Range: 1 ~ 512
 	MaxNeutralMobsPerWorld = 16
 	#Range: 1 ~ 1024
-	MaxNeutralMobsPerServer = 320
+	MaxNeutralMobsPerServer = 128
 	#List of neutral Mobs to optimize in the format ["minecraft:bee", "minecraft:wolf", ..]
 	NeutralMobsList = []
 	#Range: 1 ~ 64
@@ -24,7 +24,7 @@
 	#Range: 1 ~ 512
 	MaxHostileMobsPerWorld = 16
 	#Range: 1 ~ 1024
-	MaxHostileMobsPerServer = 320
+	MaxHostileMobsPerServer = 128
 	#List of hostile Mobs to optimize in the format ["minecraft:blaze", "minecraft:cave_spider", ..]
 	HostileMobsList = ["mekanismadditions:baby_creeper", "mekanismadditions:baby_enderman", "mekanismadditions:baby_skeleton", "mekanismadditions:baby_stray", "mekanismadditions:baby_wither_skeleton"]
 
