@@ -2207,12 +2207,9 @@
 				"1F928CBE0A59DAA7"
 				"03087EDC9D49B623"
 				"6C71DF67A70F4CE6"
-				"3FDE7B89D5506C1F"
-				"18A591944B761695"
 				"50ACED838AB0B6B2"
 				"5E89C8288AAB4D8D"
 				"197426F4C7943118"
-				"794ACE782B0C88D6"
 				"419EC9BF13913D5A"
 				"5B7999D9E984937B"
 				"3E5C68B929B04EAE"
@@ -2222,12 +2219,10 @@
 				"33A0337BEF4C3FBE"
 				"432F80B5F6F4B07F"
 				"069B8050F9D21239"
-				"701C776AE618939D"
 				"7B5D906573190F90"
 				"7FFF3A080AAF27D5"
 				"161DBAEB1036CB9B"
 				"2EFE98FAAB6ADE96"
-				"009223B06490A427"
 				"74033200D5504779"
 				"19B972074F45C185"
 				"6523DDE66674ED00"
@@ -2235,15 +2230,10 @@
 				"4B5AEF4BF7226B04"
 				"4C1F7F8761FFC6ED"
 				"5C9974B8AD973A6F"
-				"0577F2351A233864"
 				"0FBA935852C4C2B0"
 				"344CAC5152350947"
-				"7952181F1D39C3B1"
 				"25E3FD65C6F37857"
-				"6338F24EC3466E21"
-				"1C89FE7BF0D98D5C"
 				"124798A5CABAAD44"
-				"663C062DE7FF0599"
 				"0DF1C0BE4379578A"
 				"0B56B8064CC217CF"
 				"7A6D6B4A1FA6F2D4"
@@ -2255,8 +2245,6 @@
 				"2828A533D755CABB"
 				"6BCA251B706384BA"
 				"1B31F9468B7C5258"
-				"3FA1A10D207404ED"
-				"2C430C4D8CBA9B0F"
 				"06F2A9F987B4DB42"
 				"567F76C1FEEE3FEE"
 				"19C32F0E30411935"
@@ -2295,8 +2283,8 @@
 				title: "&6&lWhat time is it? Time to Open a Cafe!"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.25d
+			x: 0.0357142857142847d
+			y: 1.0714285714285694d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2311,8 +2299,8 @@
 				item: "createcafe:mango_milk_tea"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2327,24 +2315,8 @@
 				item: "createcafe:lime_milk_tea"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -2.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "663C062DE7FF0599"
-			rewards: [{
-				id: "2699B8772D100FD9"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7E92F7F9853255D2"
-				item: "createcafe:strawberry_milk_tea"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2375,8 +2347,8 @@
 				item: "createcafe:plum_milk_tea"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2439,7 +2411,7 @@
 				item: "createcafe:fig_milk_tea"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -2455,7 +2427,7 @@
 				item: "createcafe:grape_milk_tea"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -2471,7 +2443,7 @@
 				item: "createcafe:grapefruit_milk_tea"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -2488,23 +2460,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "009223B06490A427"
-			rewards: [{
-				id: "79D7559DA7E8E8F2"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "0A217A19C1C27C6D"
-				item: "createcafe:mandarin_milk_tea"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2520,7 +2476,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2536,7 +2492,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2553,22 +2509,6 @@
 			}]
 			x: 1.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "0577F2351A233864"
-			rewards: [{
-				id: "1AADB16A2335B4DF"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "50B6C6190D08E86E"
-				item: "createcafe:pineapple_milk_tea"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2616,7 +2556,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2631,8 +2571,8 @@
 				item: "createcafe:sweetberry_milk_tea"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2664,22 +2604,6 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "1C89FE7BF0D98D5C"
-			rewards: [{
-				id: "5333E92EAE1C86EE"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "45C80AC4290C779C"
-				item: "createcafe:redlove_milk_tea"
-				type: "item"
-			}]
-			x: 0.5d
 			y: 3.5d
 		}
 		{
@@ -2695,24 +2619,8 @@
 				item: "createcafe:mana_berry_milk_tea"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "701C776AE618939D"
-			rewards: [{
-				id: "237BCA27F8A56768"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6F2F18C50AFE888D"
-				item: "createcafe:kiwi_milk_tea"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 3.5d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2727,8 +2635,8 @@
 				item: "createcafe:orange_milk_tea"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2775,8 +2683,8 @@
 				item: "createcafe:coconut_milk_tea"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2791,8 +2699,8 @@
 				item: "createcafe:persimmon_milk_tea"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2809,38 +2717,6 @@
 			}]
 			x: 2.5d
 			y: 3.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "6338F24EC3466E21"
-			rewards: [{
-				id: "7C64605D2FA44C3D"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "0162A4AC28F34A86"
-				item: "createcafe:raspberry_milk_tea"
-				type: "item"
-			}]
-			x: -3.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "7952181F1D39C3B1"
-			rewards: [{
-				id: "2EFD1EB4547324D0"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "545FC32C292975DB"
-				item: "createcafe:pomelo_milk_tea"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2871,8 +2747,8 @@
 				item: "createcafe:watermelon_milk_tea"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -0.5d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2887,8 +2763,8 @@
 				item: "createcafe:vanilla_milk_tea"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2919,24 +2795,8 @@
 				item: "createcafe:cherry_milk_tea"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "18A591944B761695"
-			rewards: [{
-				id: "1917986B68E055C6"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7BF90495CD8E0533"
-				item: "createcafe:blackberry_milk_tea"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.5d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2952,7 +2812,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2968,7 +2828,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2984,7 +2844,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2999,8 +2859,8 @@
 				item: "createcafe:passionfruit_milk_tea"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3015,40 +2875,8 @@
 				item: "createcafe:lavender_milk_tea"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "794ACE782B0C88D6"
-			rewards: [{
-				id: "264A56BCC79E87F1"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "0C2A646FF1A0089E"
-				item: "createcafe:citron_milk_tea"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "3FDE7B89D5506C1F"
-			rewards: [{
-				id: "6B5282418B73B6AE"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "05219F7F377D3470"
-				item: "createcafe:barberry_milk_tea"
-				type: "item"
-			}]
 			x: -2.5d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3080,7 +2908,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3095,24 +2923,8 @@
 				item: "createcafe:iced_coffee_milk"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "2C430C4D8CBA9B0F"
-			rewards: [{
-				id: "6FF9EE7063354C8A"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "223197BEF07838BC"
-				item: "createcafe:strawberry_iced_coffee"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 5.5d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3127,24 +2939,8 @@
 				item: "createcafe:vanilla_iced_coffee"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 5.5d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "3FA1A10D207404ED"
-			rewards: [{
-				id: "2B5630E4CEB08535"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "1424BCF2CCA76652"
-				item: "createcafe:raspberry_iced_coffee"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -3159,7 +2955,7 @@
 				item: "createcafe:mint_iced_coffee"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: 5.5d
 		}
 		{
@@ -3175,7 +2971,7 @@
 				item: "createcafe:caramel_iced_coffee"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 1.0d
 			y: 5.5d
 		}
 		{
@@ -3207,8 +3003,8 @@
 				item: "createcafe:banana_iced_coffee"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
