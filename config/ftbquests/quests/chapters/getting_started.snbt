@@ -109,9 +109,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"This is it.... the only free one you're gonna get... Accidents happen or sometimes that ability just isn't as cool as it sounded... we get it. Here's one free Orb of Origins to repick your origins should you feel the need. We suggest holding onto it for now regardless, you never know, you may end up changing your mind one day."
+				"&0This is it.... the only free one you're gonna get... Accidents happen or sometimes that ability just isn't as cool as it sounded... we get it. Here's one  free Orb of Origins to repick your origins should you feel the need. We suggest holding onto it for now regardless, you never know, you may end up changing your mind one day.&r"
 				""
-				"You will have the opportunity to buy more via the \"Quest Shop\" soon enough, but for now, this is it. Use it wisely"
+				"&0You will have the opportunity to buy more via the \"Quest Shop\" soon enough, but for now, this is it. Use it wisely&r"
 			]
 			icon: {
 				Count: 1
@@ -466,7 +466,15 @@
 				{
 					count: 2
 					id: "3B1DCD308281D401"
-					item: "numismatics:spur"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 			]

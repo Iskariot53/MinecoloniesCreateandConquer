@@ -5,9 +5,7 @@
 	default_quest_shape: "hexagon"
 	filename: "simple_hats"
 	group: "40D70F6AEAC8BA2E"
-	hide_quest_details_until_startable: true
 	hide_quest_until_deps_complete: true
-	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
 		ForgeCaps: {
@@ -279,6 +277,7 @@
 			]
 			description: ["&l&6Hats Off to You!&r&r You have finally done it, you have collected every single type of hat!"]
 			hide_details_until_startable: true
+			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
