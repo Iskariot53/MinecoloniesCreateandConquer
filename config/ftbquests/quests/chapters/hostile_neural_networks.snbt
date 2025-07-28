@@ -108,7 +108,7 @@
 			description: [
 				"All data models begin with the &3model framework&r, once crafted, right click a mob with it to convert the framework into a data model of that mob. Easy! "
 				""
-				"Not all mobs are capable of being modeled though, &aJEI&r is your best bet to determine wether or not a simulation is a viable option for any given mob."
+				"Not all mobs are capable of being modeled though, &aJEI&r is your best bet to determine whether or not a simulation is a viable option for any given mob."
 			]
 			hide_dependency_lines: false
 			id: "39E5B5DD5E4252E0"
@@ -154,11 +154,11 @@
 		{
 			dependencies: ["15E9BF973EC079BD"]
 			description: [
-				"When supplied with a data model, prediction matrix and power the simulation chamber will run simulated battles with the mob placed inside. The RF cost of running any given simulation is dependant on the data model contained."
+				"When supplied with a data model, prediction matrix and power the simulation chamber will run simulated battles with the mob placed inside. The RF cost of running any given simulation is dependent on the data model contained."
 				""
-				"&9A generalized prediction will always be produced when a simulation ends&r, these can be used for multiple recipes and the generalized prediction given will be dependant on the mob type represented by the data model."
+				"&9A generalized prediction will always be produced when a simulation ends&r, these can be used for multiple recipes and the generalized prediction given will be dependent on the mob type represented by the data model."
 				""
-				"&6A mob prediction&r will be produced whenever a simulation ends &o&n&asuccessfully&r&r&r, success rates are directly dependant on the tier of the data model."
+				"&6A mob prediction&r will be produced whenever a simulation ends &o&n&asuccessfully&r&r&r, success rates are directly dependent on the tier of the data model."
 			]
 			hide_dependency_lines: false
 			id: "0E994BABB0A95E5F"
@@ -209,7 +209,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"When you recieve a mob prediction from a successful simulation, place it into a &6loot fabricator&r and supply the fabricator with power. "
+				"When you receive a mob prediction from a successful simulation, place it into a &6loot fabricator&r and supply the fabricator with power. "
 				""
 				"When provided with enough power and a mob prediction, &ethe fabricator GUI will allow you to select what loot item is fabricated&r, predictions can provide multiple different outputs, but any given prediction is only good for 1 round of loot fabrication. "
 				""
@@ -6875,7 +6875,7 @@
 				""
 				"To reach the first tier in which you can actually use it for simulations you will need to first manually kill the mob, once you have manually killed the required mobs enough times to reach \"&9basic&r\" tier, you can either keep manually training it (which is sometimes faster) &oOR&r you can go ahead and start using it for simulation, in which it will slowly upgrade over time (which is easier). "
 				""
-				"Refer to the deep learner gui or hover over the data model to see its required kill count required for the next tier. Ultimately, it doesn't really matter and is a matter of preference."
+				"Refer to the deep learner GUI or hover over the data model to see its required kill count required for the next tier. Ultimately, it doesn't really matter and is a matter of preference."
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -6911,9 +6911,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -6946,7 +6946,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

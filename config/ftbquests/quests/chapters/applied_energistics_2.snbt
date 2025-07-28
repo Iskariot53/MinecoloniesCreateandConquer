@@ -92,7 +92,7 @@
 				""
 				"&eEnergizing&r"
 				""
-				"Energize a &3block of quartz&r with &64Kfe&r to convert it into damaged budding certus quartz. From here you will need to use \"in-world transformation\" recipes to obtain higher quality blocks. This is also a means for converting &7stone&r into &8sky stone&r, although placing an annhilation plane face up at build limit still works just the same. "
+				"Energize a &3block of quartz&r with &64Kfe&r to convert it into damaged budding certus quartz. From here you will need to use \"in-world transformation\" recipes to obtain higher quality blocks. This is also a means for converting &7stone&r into &8sky stone&r, although placing an annihilation plane face up at build limit still works just the same. "
 				""
 				"&aYes&r, you can make &bflawless budding certus blocks&r in this pack, although the recipe is a little bit more expensive than the usual transformation for lesser quality blocks."
 				""
@@ -924,7 +924,7 @@
 				"7A4FF3976EB91CEB"
 				"1F8E11D7CAFA5B63"
 			]
-			description: ["Along with &dfluix crystals&r, &6processors&r are going to be used in &clarge quatities&r, you are going to want to automate the production process. Just as how fluix crystals are required for most things cable related, processors of one kind or another are going to be required for almost &eevery network component you will build&r."]
+			description: ["Along with &dfluix crystals&r, &6processors&r are going to be used in &clarge quantities&r, you are going to want to automate the production process. Just as how fluix crystals are required for most things cable related, processors of one kind or another are going to be required for almost &eevery network component you will build&r."]
 			id: "7A33AF5CD7476775"
 			min_required_dependencies: 5
 			rewards: [
@@ -1264,7 +1264,7 @@
 		}
 		{
 			dependencies: ["72F3A7D842D84C6A"]
-			description: ["ME dense smart cable provides all the functionalities ove previous tiers of cables. Except lines representing channels on these cables represent multiple channels each."]
+			description: ["ME dense smart cable provides all the functionalities of previous tiers of cables. Except lines representing channels on these cables represent multiple channels each."]
 			id: "54BCA40AC19FF61D"
 			rewards: [
 				{
@@ -1309,7 +1309,7 @@
 				"4A719341AA53B1CC"
 			]
 			description: [
-				"The controller is the heart of the ME Network. Without it, a network is refered to as \"ad-hoc\" and can only have a max of 16 channel-using devices total."
+				"The controller is the heart of the ME Network. Without it, a network is referred to as \"ad-hoc\" and can only have a max of 16 channel-using devices total."
 				""
 				"It is not possible to have 2 controllers in one ME Network."
 				""
@@ -1320,7 +1320,7 @@
 				"Multiblock Controllers can be built in a fairly free form but there &o&nare&r&r some general rules to follow: "
 				""
 				"{@pagebreak}"
-				"To make this easier, you can tell when your multiblock controller is valid or not by the color of the controller blocks. &cRed ME controller&r multi-blocks are not valid and you will know when you have correctly placed the structure when it begeins to cycle in color when powered."
+				"To make this easier, you can tell when your multiblock controller is valid or not by the color of the controller blocks. &cRed ME controller&r multi-blocks are not valid and you will know when you have correctly placed the structure when it begins to cycle in color when powered."
 				""
 				"All controller blocks on a ME Network must be connected otherwise they will turn red."
 				"The maximum size a controller multi block can be is 7x7x7, otherwise it will turn red."
@@ -3576,7 +3576,7 @@
 				"It can also be a good idea not to queue an excessive amount of recipes at once, if the system is not keeping up to your liking you should probably look into upgrading crafting CPUs, co-processors and the like."
 				""
 				"{@pagebreak}"
-				"Processing Patterns are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply saying \"if a pattern provider pushes \"X\" ingredients to adjacent inventories, the ME system will receive \"Y\" items in return at some point in the near future\". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really wierd stuff, like inputting the ingredients into an entire complex assembly line chain which will sort out the mess, take in other ingredients from infinitely-producing farms, the ME system does not care as long as it gets the product result the pattern specified."
+				"Processing Patterns are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply saying \"if a pattern provider pushes \"X\" ingredients to adjacent inventories, the ME system will receive \"Y\" items in return at some point in the near future\". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really weird stuff, like inputting the ingredients into an entire complex assembly line chain which will sort out the mess, take in other ingredients from infinitely-producing farms, the ME system does not care as long as it gets the product result the pattern specified."
 				""
 				"In fact, it doesn't even care if the ingredients make any sense in relation to the result. You could tell it \"1 oak fence = 1 echo shard\" and have your warden farm kill a warden upon an oak fence input trigger... and yes, it will still work."
 			]
@@ -4938,7 +4938,7 @@
 			description: [
 				"While ME networks are also constructed of adjacent ME-capable devices and machines, cables are the primary way of extending an ME network over longer distances."
 				""
-				"When refering to importing and exporting, we are always talking about in relation to your storage network. "
+				"When referring to importing and exporting, we are always talking about in relation to your storage network. "
 				""
 				"Stuff gets exported OUT of your network and into things and machines."
 				""
@@ -5078,9 +5078,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -5113,7 +5113,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

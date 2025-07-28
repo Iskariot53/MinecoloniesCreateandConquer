@@ -183,7 +183,7 @@
 			dependencies: ["61D74FC3BD5023C6"]
 			description: [
 				"The pressurized reaction chamber (PRC) is required for processing irradium into bars suitable for reactors. Setting up the process is no small"
-				"feat as you will not only require the PRC itslef and some &2irradium&r to process, but you will also require a supply of &3sulfuric acid&r and &auranium oxide&r for the reaction."
+				"feat as you will not only require the PRC itself and some &2irradium&r to process, but you will also require a supply of &3sulfuric acid&r and &auranium oxide&r for the reaction."
 				""
 				"The byproduct of this reaction is &cnuclear waste&r and is NOT to be taken lightly."
 				""
@@ -334,9 +334,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -369,7 +369,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -923,7 +923,7 @@
 		{
 			dependencies: ["5408F21008F2B15F"]
 			description: [
-				"Everlasting Beef can be obtained from endlessy slaughtering mimics all day, but for those that RNGesus does not smile upon, there is always this route. "
+				"Everlasting Beef can be obtained from endlessly slaughtering mimics all day, but for those that RNGesus does not smile upon, there is always this route. "
 				""
 				"It has been tagged in a way that allows even the herbivores to enjoy! (just tell them it's tofu or something.. idk)."
 				""
@@ -955,7 +955,7 @@
 			description: [
 				"useful in it of itself, The scarf of invisibility can be priceless for those who don't already have access to invisibility and take damage to sunlight."
 				""
-				"Plus, trolling... theres always trolling, good for that too."
+				"Plus, trolling... there's always trolling, good for that too."
 			]
 			id: "1A56E7E473DFE5E1"
 			subtitle: "&eYou can't see me"

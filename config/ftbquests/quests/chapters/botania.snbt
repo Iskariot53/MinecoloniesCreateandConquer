@@ -129,7 +129,7 @@
 				""
 				"Right clicking the apothecary with an empty hand will remove the last item thrown in. Right clicking with an empty hand &oafter&r the completion of a recipe will automatically pull and add another round of the recipes ingredients from your inventory, for up to 20 seconds after the recipe completes."
 				""
-				"If filled with lava, the apothecary will act as both a lightsource and an incernator, destroying any items that come into contact."
+				"If filled with lava, the apothecary will act as both a lightsource and an incinerator, destroying any items that come into contact."
 			]
 			id: "34B1F78384E7FE7F"
 			rewards: [
@@ -305,7 +305,7 @@
 		}
 		{
 			dependencies: ["585F7153AFC98B12"]
-			description: ["Flower pouchs can hold up to 1 stack of all colors of mystical flowers as well as tall mystical flowers. It will automatically collect any mystical flowers you pick up and sneak-right clicking it on an inventory will empty its contents into the container."]
+			description: ["Flower pouches can hold up to 1 stack of all colors of mystical flowers as well as tall mystical flowers. It will automatically collect any mystical flowers you pick up and sneak-right clicking it on an inventory will empty its contents into the container."]
 			id: "7B850BCDE25616EF"
 			rewards: [
 				{
@@ -349,7 +349,7 @@
 		{
 			dependencies: ["55D80F8F2BE16A7A"]
 			description: [
-				"Mana is Botanias form of \"energy\", learning to generate and properly manipulate it can get somewhat complicated down the road. As for the basics? It's fairly straight forward."
+				"Mana is Botania's form of \"energy\", learning to generate and properly manipulate it can get somewhat complicated down the road. As for the basics? It's fairly straight forward."
 				""
 				"Generating flora are used to create Mana. Mana generated can be extracted and transferred with mana spreaders and stored in mana pools."
 				""
@@ -394,7 +394,7 @@
 				""
 				"There are 2 types of mana pool, \"normal\" mana pools and the diluted mana pool. The diluted mana pool works exactly the same as the normal one, with the exception that it holds approx. 100x less mana, good for making small buffers where limited amounts of mana are needed and you don't want to store a large supply."
 				""
-				"Right-clicking with any color of mystical petal on a pool will have give the pool its color, for decoration or easier labelling. You can scrub the color off again with a clay ball."
+				"Right-clicking with any color of mystical petal on a pool will have give the pool its color, for decoration or easier labeling. You can scrub the color off again with a clay ball."
 			]
 			id: "25A502390EB93B31"
 			rewards: [
@@ -693,7 +693,7 @@
 				"46D18D5A3C7E5DFF"
 			]
 			description: [
-				"If you are familiar with the \"engineers goggles\" from the create mod. Then this will require little explanation, it's Botanias version of them."
+				"If you are familiar with the \"engineers goggles\" from the create mod. Then this will require little explanation, it's Botania's version of them."
 				""
 				"When equipped, the manaseer monocle automatically displays mana burst and functional ranges of flowers to the player without the need of holding the wand of the forest."
 			]
@@ -1435,7 +1435,7 @@
 		{
 			dependencies: ["04A3CE7E46200063"]
 			description: [
-				"The terrestrial Agglomeration plate is the capstone or focus point for the terrestrial agglomeration process. It should be placed over a checkerboard pattern of lapi lazuli blocks and livingrock (or shimmerrock) and centered. This block then needs to be provided with mana, with sparks being the most efficient mode of transfer. the \"board\" is made with 5 living stone (corners and center) and 4 lapis lazuli blocks in the remaining space, completing the square."
+				"The terrestrial Agglomeration plate is the capstone or focus point for the terrestrial agglomeration process. It should be placed over a checkerboard pattern of lapis lazuli blocks and livingrock (or shimmerrock) and centered. This block then needs to be provided with mana, with sparks being the most efficient mode of transfer. the \"board\" is made with 5 living stone (corners and center) and 4 lapis lazuli blocks in the remaining space, completing the square."
 				""
 				"Terrasteel is a complex and extremely potent magical alloy, so prepare for infusion to cost ridiculous amounts of mana."
 				""
@@ -2207,7 +2207,7 @@
 				"At least 2 natura pylons with mana pools below them must be placed in an 11×11×11 area centered on the gateway core. Once the structure is complete, use the wand of the forest on the gateway core to open the portal. This consumes a large amount of mana split between all pools feeding the gateway."
 				""
 				"To exchange resources, throw items into the portal - if they can be exchanged, the portal will slowly drop resulting items in its center and consume mana after each trade operation. If a Lexica Botania without elven knowledge is thrown into the portal, it will be returned with this knowledge added. You can extract your lexicon from the eccentric tome for this upgrade using sneak + Q with the tome in hand, while set to the lexicon."
-				"after upgrading it, it can then be reinsterted into the eccentric tome via shapeless crafting. Eccentric tome + upgraded lexicon. "
+				"after upgrading it, it can then be reinserted into the eccentric tome via shapeless crafting. Eccentric tome + upgraded lexicon. "
 				""
 				"{@pagebreak}"
 				"Items with no exchange recipe will be lost when thrown into the portal, with the exception of diamonds, iron ingots and ender pearls which will be returned."
@@ -2271,7 +2271,7 @@
 			description: [
 				"The implementation of the Dandelifeon into your botanical array is no easy mission. It is easily the most productive generating flora if set up properly, however, doing this is easier said then done."
 				""
-				"This flowers functioning is based on \"Conway's Game of Life\". The Game of Life is not an actual game, it is a program designed to exhibit the means of simulating the arrisal of complex patterns and cellular organisms from very simple originations. The amount of mana dispersed by the flower is directly dependant on how many \"generations\" the cell structures manage to replicate and survive through. In short, the longer the simulations run, the older the cells get, the more mana any given simulation will yield."
+				"This flowers functioning is based on \"Conway's Game of Life\". The Game of Life is not an actual game, it is a program designed to exhibit the means of simulating the arrival of complex patterns and cellular organisms from very simple originations. The amount of mana dispersed by the flower is directly dependent on how many \"generations\" the cell structures manage to replicate and survive through. In short, the longer the simulations run, the older the cells get, the more mana any given simulation will yield."
 				""
 				"{@pagebreak}"
 				""
@@ -2291,7 +2291,7 @@
 				""
 				"- Any dead cell with exactly three live neighbours becomes a live cell."
 				""
-				"All cells have an age and the mana yielded is directly dependant on the ages of the cells in the simulation at its completion. cells not created by the Dandelifeon start at zero. Whenever a cell survives a step, its age increases by one. Whenever a dead cell becomes a live cell, the age of the new live cell becomes the age of its oldest neighbour, plus one, capped at 100."
+				"All cells have an age and the mana yielded is directly dependent on the ages of the cells in the simulation at its completion. cells not created by the Dandelifeon start at zero. Whenever a cell survives a step, its age increases by one. Whenever a dead cell becomes a live cell, the age of the new live cell becomes the age of its oldest neighbour, plus one, capped at 100."
 				""
 				"The 3x3 zone centered around the Dandelifeon itself will absorb all cells that would otherwise generate in the area, converting them into a &n&oVERY LARGE&r&r amount mana. The older the cell that would be created, the more mana it yields. Age-zero cells produce no Mana. Whenever any live cells are absorbed by the 3x3 zone in the center, all other cells on the board die."
 				""
@@ -2345,7 +2345,7 @@
 		{
 			dependencies: ["159792662A8F6A9F"]
 			description: [
-				"The Thermalily is the lava version of the Hydroangeas. The flower absorbs lava around it (at the same Y level) to generate mana. After absorbing one block of lava, the flower will produce mana continually for approximately 30 seconds. Afterwards, it needs a bit of time to cool down before it can produce any more. It tends to decide on its own how long this cooldown period will be between absorbtions, anywhere from 20 seconds to a full 5 minutes."
+				"The Thermalily is the lava version of the Hydroangeas. The flower absorbs lava around it (at the same Y level) to generate mana. After absorbing one block of lava, the flower will produce mana continually for approximately 30 seconds. Afterwards, it needs a bit of time to cool down before it can produce any more. It tends to decide on its own how long this cooldown period will be between absorption, anywhere from 20 seconds to a full 5 minutes."
 				""
 				"You can tell how long the current cooldown period lasts with a comparator: twenty seconds for each level of signal strength."
 				""
@@ -2490,7 +2490,7 @@
 			description: [
 				"The Entropinnyum generates bursts of mana from bursts of TNT. Igniting a block of TNT near an Entropinnyum will cause it to absorb all the entropy generated by the blast, converting it into mana and nullifying any damage in the process. However, to absorb the explosion, the flower must not have any mana stored in it, otherwise, BOOM!... as usual."
 				""
-				"It is worth noting that the entropinnyum can discern if the TNT ingited is duplicated or not, if so, it will produce a greatly reduced mana burst."
+				"It is worth noting that the entropinnyum can discern if the TNT ignited is duplicated or not, if so, it will produce a greatly reduced mana burst."
 			]
 			id: "1E9B144AD43DB095"
 			rewards: [
@@ -2583,7 +2583,7 @@
 				""
 				"The amount of time it takes to digest any given food item depends on the nutritional value of the food in question. In short, the number of food points it restores. As such, a steak will take four seconds to digest, an apple will take two, a loaf of bread will take two and a half, etc. The rate of mana production will also vary with the nutritional benefit of the food meaning: the Gourmaryllis prefers larger, more nourishing foods. For example, a single steak will produce more mana than two Apples, both in total mana and  mana produced per-second."
 				""
-				"Of course, the Gourmaryllis loves variety in its diet. Feeding it many different foods can be very rewarding whereas feeding it the same food repeatedly isn;t going to work very well."
+				"Of course, the Gourmaryllis loves variety in its diet. Feeding it many different foods can be very rewarding whereas feeding it the same food repeatedly isn't going to work very well."
 				""
 				"In time, an experienced botanist can infer the Gourmaryllis' mood from the sounds it makes."
 			]
@@ -2628,7 +2628,7 @@
 		}
 		{
 			dependencies: ["159792662A8F6A9F"]
-			description: ["When placed in a slime chunk, The Narslimmus will absorb amy slimes in its vicinity created by the slime chuns spawning mechanics. The larger the slime absorbed, the larger the burst of mana produced."]
+			description: ["When placed in a slime chunk, The Narslimmus will absorb any slimes in its vicinity created by the slime chunks spawning mechanics. The larger the slime absorbed, the larger the burst of mana produced."]
 			id: "242287085FA7718A"
 			rewards: [
 				{
@@ -3243,7 +3243,7 @@
 				""
 				"Placing item frames on adjacent inventories will specify which items can or can't go in them."
 				""
-				"Any inventory with no adjacent item frame can accept any items, but labelled inventories will take priority."
+				"Any inventory with no adjacent item frame can accept any items, but labeled inventories will take priority."
 				""
 				"The rule used to sort items can be changed by sneak-right clicking (or using a fake player entity such as a dispenser or deployer) on the flower with a Wand of the Forest in function mode."
 			]
@@ -3422,7 +3422,7 @@
 		}
 		{
 			dependencies: ["74974B293BF303C1"]
-			description: ["The Hyacidus will lace the air with noxious gases causing the health of all movs in its vicinity to drop to 1 health. Oddly enough the poison does not actually kill entities, simply dropping them to their lowest health point value, allowing for quick and easy clean up."]
+			description: ["The Hyacidus will lace the air with noxious gases causing the health of all mobs in its vicinity to drop to 1 health. Oddly enough the poison does not actually kill entities, simply dropping them to their lowest health point value, allowing for quick and easy clean up."]
 			id: "6DD0D2B0CCEE428D"
 			rewards: [
 				{
@@ -4072,7 +4072,7 @@
 		{
 			dependencies: ["46D18D5A3C7E5DFF"]
 			description: [
-				"Crafting a mana spreader with redstone dust yields a pulse mana spreader, which (as the name implies) fires when given a redstone pulse, regardless of it's targets capabilities to recieve mana."
+				"Crafting a mana spreader with redstone dust yields a pulse mana spreader, which (as the name implies) fires when given a redstone pulse, regardless of it's targets capabilities to receive mana."
 				""
 				"Keep in mind that it still won't shoot a second burst until the last one dissipates or is absorbed."
 			]
@@ -4230,7 +4230,7 @@
 				"15169FE8866CD32A"
 				"09639200E03A54C2"
 			]
-			description: ["Crafting your mana pylons with 2 pixie dust and 2 elementium ingots will yield an augmented pylon. Attuned to the Godess. When placed around a beacon, they form the basis for the \"summoning point\"."]
+			description: ["Crafting your mana pylons with 2 pixie dust and 2 elementium ingots will yield an augmented pylon. Attuned to the Goddess. When placed around a beacon, they form the basis for the \"summoning point\"."]
 			id: "53AEAF0267FC2CE6"
 			rewards: [
 				{
@@ -4393,7 +4393,7 @@
 		{
 			dependencies: ["53AEAF0267FC2CE6"]
 			description: [
-				"Gaia spirits are recieved as fragments of the power of the Goddess of Gaia upon her guardians defeat. This ritual requires an active beacon with gaia pylons surrounding it to act as a summoning altar, as well as a single terrasteel ingot to sacrific for summoning."
+				"Gaia spirits are received as fragments of the power of the Goddess of Gaia upon her guardians defeat. This ritual requires an active beacon with gaia pylons surrounding it to act as a summoning altar, as well as a single terrasteel ingot to sacrifice for summoning."
 				""
 				"To start the ritual, sneak and right click the beacon with the terrasteel ingot, take a step back, and prepare for a tough fight. Preparation is absolutely required, the fight with the Guardian of Gaia can be even harder than that with the Wither or Warden. Upon the guardian's defeat,   spirits of gaia will be dropped as a prize."
 				""
@@ -4503,9 +4503,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -4538,7 +4538,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -4549,7 +4549,7 @@
 				""
 				"These gifts, known as Relics of the Aesir, are player-bound and unique. (giving someone a relic they themselves didn't earn is a bad idea.)"
 				""
-				"These items are obtained from rolls of the dice of fate, and possess tremendous power. Relics will never be given to the same player twice, so if you have recieved one that you were not hoping for, keep it. Having it will ensure that you will not recieve it a second time from proceeding rolls."
+				"These items are obtained from rolls of the dice of fate, and possess tremendous power. Relics will never be given to the same player twice, so if you have received one that you were not hoping for, keep it. Having it will ensure that you will not receive it a second time from proceeding rolls."
 				""
 				"Once a relic is obtained, any pertinent information to it will magically appear within your copy of the Lexica Botania."
 			]
@@ -4737,7 +4737,7 @@
 		}
 		{
 			dependencies: ["04A3CE7E46200063"]
-			description: ["Any mana bursts received by the fluxfield are converted into Energy and sent to any nearby recepticals capable of recieving/transferring it."]
+			description: ["Any mana bursts received by the fluxfield are converted into Energy and sent to any nearby receptacles capable of receiving/transferring it."]
 			hide_dependency_lines: true
 			id: "5CD92A1F116229BD"
 			rewards: [
@@ -4843,7 +4843,7 @@
 				"Combining 5 livingwood and a mana diamond in a crafting table yields an apparatus known as the Livingwood Avatar. By itself, the block is just a pretty face... however, giving it a Rod enables it to cast magic. At the cost of Mana, from a spreader, of course."
 				""
 				""
-				"Not all Rods can be used by an avatar though. If forwhatever reason you would like to toggle its casting for specific situations, a redstone signal can be used to disable it."
+				"Not all Rods can be used by an avatar though. If for whatever reason you would like to toggle its casting for specific situations, a redstone signal can be used to disable it."
 			]
 			hide_dependency_lines: true
 			id: "07B875E19AF689B6"
@@ -4892,7 +4892,7 @@
 				""
 				"The teru teru bozu is an amulet that can be placed into the world. Placing it while doing nothing else, will by itself shorten the duration of inclimate weather."
 				""
-				"However, feeding it a sunflower will automagically end rains and storms. The same effects can be applied in reverse to induce them, by feeding the bozu a blue orchid."
+				"However, feeding it a sunflower will automatically end rains and storms. The same effects can be applied in reverse to induce them, by feeding the bozu a blue orchid."
 				""
 				""
 				"{@pagebreak}"

@@ -41,7 +41,7 @@
 				"1114C76FE406FCFD"
 			]
 			dependency_requirement: "one_completed"
-			description: ["You will encounter and need to solve a variety of problems and puzzles... but with patience, perserverance (and maybe some sheer frustration) you will find the end portal, hidden deep within the castle."]
+			description: ["You will encounter and need to solve a variety of problems and puzzles... but with patience, perseverance (and maybe some sheer frustration) you will find the end portal, hidden deep within the castle."]
 			hide_details_until_startable: true
 			hide_until_deps_visible: true
 			icon: "minecraft:end_portal_frame"
@@ -798,9 +798,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -833,7 +833,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

@@ -870,7 +870,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &6wooden&r nest to obtain a gree carpenter bee. (use JEI to determine which wood for which type of carpenter bee)."]
+			description: ["Use a honey treat on a &6wooden&r nest to obtain a green carpenter bee. (use JEI to determine which wood for which type of carpenter bee)."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -912,7 +912,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &areed&r nest to spawn a reed bee if you sannot find one."]
+			description: ["Use a honey treat on a &areed&r nest to spawn a reed bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1130,7 +1130,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["The neon cuckoo bee wil periodically move into the nest of the &9blue banded bee&r."]
+			description: ["The neon cuckoo bee will periodically move into the nest of the &9blue banded bee&r."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -2305,9 +2305,9 @@
 				""
 				"Keep pepto beesmol on hand for &dquick remedies&r to unpleasant ailments."
 				""
-				"&6Provides temporary&r: Regeneration, absorbtion, haste, strength, saturation, luck as well as instant healing buffs. Along side all of this it also provides sugarbagcombs for eating! "
+				"&6Provides temporary&r: Regeneration, absorption, haste, strength, saturation, luck as well as instant healing buffs. Along side all of this it also provides sugarbagcombs for eating! "
 				""
-				"(does not help with indegestion... sorry)"
+				"(does not help with indigestion... sorry)"
 			]
 			id: "4AC862528DF87B7E"
 			rewards: [
@@ -5508,7 +5508,7 @@
 				"746503BBE1C24E6E"
 				"1ED89471EB68D98D"
 			]
-			description: ["Convert an Athralite Bee into and Osmium Bee by feeding it a block of Osmium."]
+			description: ["Convert an Anthralite Bee into and Osmium Bee by feeding it a block of Osmium."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -6167,7 +6167,7 @@
 				"When filled with cages, the catcher will automatically catch any bees that fly over it or within range when upgraded, "
 				""
 				""
-				"Tip: if you dont use range upgrades, it isn't even worth using the catcher at all. You may as well put your cages in a chest and wait for the chest to catch bees (which isn't going to happen)."
+				"Tip: if you don't use range upgrades, it isn't even worth using the catcher at all. You may as well put your cages in a chest and wait for the chest to catch bees (which isn't going to happen)."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -6232,9 +6232,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -6267,7 +6267,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

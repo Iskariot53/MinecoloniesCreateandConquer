@@ -87,7 +87,7 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Wether you choose to go the humble route of farming with the aid of water wheel, mob caging and botany mechanics, the pathway to technological superiority through advancments in metallurgy, electronics, and machine upgrades. Or if you prefer the way of the wanderer, endlessly exploring and dungeon delving. We have balanced the loot tables so every strategy is a viable strategy to success, but there are some decisions to make in general, you have many options at your disposal to decide from."
+				"Whether you choose to go the humble route of farming with the aid of water wheel, mob caging and botany mechanics, the pathway to technological superiority through advancements in metallurgy, electronics, and machine upgrades. Or if you prefer the way of the wanderer, endlessly exploring and dungeon delving. We have balanced the loot tables so every strategy is a viable strategy to success, but there are some decisions to make in general, you have many options at your disposal to decide from."
 				""
 				"The next few quests will cover some of these options, so we can better decide how best to establish ourselves, and what would be a good idea to work towards."
 			]
@@ -125,13 +125,13 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&eThe start of an empire"
+			subtitle: "&#8B4513The start of an empire"
 			tasks: [{
 				id: "66E2F4211A68508D"
 				title: "Check, Check, Check.."
 				type: "checkmark"
 			}]
-			title: "&6&lThe Basics"
+			title: "&#8B4513&lThe Basics"
 			x: -0.5d
 			y: -4.5d
 		}
@@ -157,7 +157,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eLet's not get ahead of ourselves..."
+			subtitle: "&#8B4513Let's not get ahead of ourselves..."
 			tasks: [{
 				id: "5DF2E4CF75F5E6B1"
 				item: {
@@ -169,7 +169,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lVanilla Gear"
+			title: "&#8B4513&lVanilla Gear"
 			x: -0.5357142857142847d
 			y: -2.25d
 		}
@@ -192,10 +192,10 @@
 				xp: 5
 			}]
 			size: 1.25d
-			subtitle: "&eStoring all the things"
+			subtitle: "&#8B4513Storing all the things"
 			tasks: [{
 				id: "7AA0D0D15E5106B2"
-				title: "&6&lStorage"
+				title: "&#8B4513&lStorage"
 				type: "checkmark"
 			}]
 			x: 3.4285714285714306d
@@ -220,10 +220,10 @@
 				xp: 5
 			}]
 			size: 1.25d
-			subtitle: "&eFarming all the things"
+			subtitle: "&#8B4513Farming all the things"
 			tasks: [{
 				id: "01317A17499831BE"
-				title: "&6&lResource Production"
+				title: "&#8B4513&lResource Production"
 				type: "checkmark"
 			}]
 			x: -4.160714285714278d
@@ -231,7 +231,7 @@
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
-			description: ["Sophistaced backpacks allow you to increase your on-the-go inventory as well as allow for upgrades such as automatic feeding and tank upgrades!"]
+			description: ["Sophisticated backpacks allow you to increase your on-the-go inventory as well as allow for upgrades such as automatic feeding and tank upgrades!"]
 			id: "52C1ABEEAA3AEEDB"
 			rewards: [
 				{
@@ -246,13 +246,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNo introduction needed"
+			subtitle: "&#8B4513No introduction needed"
 			tasks: [{
 				id: "6D6C482B14FFFD76"
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "&6Backpack"
+			title: "&#8B4513&lBackpack"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -277,13 +277,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMini - Bulk Container"
+			subtitle: "&#8B4513Mini - Bulk Container"
 			tasks: [{
 				id: "39557F0C1B1FB2C4"
 				item: "dankstorage:dank_1"
 				type: "item"
 			}]
-			title: "&6Danks"
+			title: "&#8B4513&lDanks"
 			x: 4.0d
 			y: -2.5d
 		}
@@ -317,13 +317,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNot as advanced, but nice and simple"
+			subtitle: "&#8B4513Not as advanced, but nice and simple"
 			tasks: [{
 				id: "535FE27C35EE82AB"
 				title: "Simple!"
 				type: "checkmark"
 			}]
-			title: "&6Tom's Simple Storage"
+			title: "&#8B4513&lTom's Simple Storage"
 			x: 3.5d
 			y: -5.5d
 		}
@@ -353,13 +353,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAdvanced, not so nice and simple"
+			subtitle: "&#8B4513Advanced, not so nice and simple"
 			tasks: [{
 				id: "4D2104DA156D3C6F"
 				title: "Not so simple"
 				type: "checkmark"
 			}]
-			title: "&6Applied Energistics 2"
+			title: "&#8B4513&lApplied Energistics 2"
 			x: 2.0d
 			y: -5.0d
 		}
@@ -384,7 +384,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eGreat for starting out!"
+			subtitle: "&#8B4513Great for starting out!"
 			tasks: [
 				{
 					id: "77D7A68492ED244D"
@@ -397,7 +397,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Iron Furnaces"
+			title: "&#8B4513&lIron Furnaces"
 			x: 5.0d
 			y: -3.5d
 		}
@@ -431,13 +431,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAnother good option for the early game"
+			subtitle: "&#8B4513Another good option for the early game"
 			tasks: [{
 				id: "2D55AEE5C080FB69"
 				item: "functionalstorage:oak_1"
 				type: "item"
 			}]
-			title: "&6Storage Racks and Functional Storage"
+			title: "&#8B4513&lStorage Racks and Functional Storage"
 			x: 5.0d
 			y: -5.0d
 		}
@@ -461,7 +461,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCan be color coded"
+			subtitle: "&#8B4513Can be color coded"
 			tasks: [
 				{
 					id: "168B6C825AE34677"
@@ -501,7 +501,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Ender Storage"
+			title: "&#8B4513&lEnder Storage"
 			x: 1.7142857142857224d
 			y: -3.5714285714285694d
 		}
@@ -531,12 +531,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBotany made easy"
+			subtitle: "&#8B4513Botany made easy"
 			tasks: [{
 				id: "46A34348C7D2C688"
 				type: "checkmark"
 			}]
-			title: "&6Botany Pots"
+			title: "&#8B4513&lBotany Pots"
 			x: -3.0d
 			y: -5.0d
 		}
@@ -566,12 +566,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThey're fiiiine"
+			subtitle: "&#8B4513They're fiiiine"
 			tasks: [{
 				id: "1CABFE003ECDD3EC"
 				type: "checkmark"
 			}]
-			title: "&6Hopping cages"
+			title: "&#8B4513&lHopping cages"
 			x: -4.303571428571416d
 			y: -5.464285714285712d
 		}
@@ -605,13 +605,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eResources from busy little bees"
+			subtitle: "&#8B4513Resources from busy little bees"
 			tasks: [{
 				id: "12899471313D7A16"
 				title: "Bees are the knees"
 				type: "checkmark"
 			}]
-			title: "&6Productive Bees"
+			title: "&#8B4513&lProductive Bees"
 			x: -5.5d
 			y: -5.0d
 		}
@@ -645,7 +645,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSifting Materials"
+			subtitle: "&#8B4513Sifting Materials"
 			tasks: [
 				{
 					id: "3401050B66988D34"
@@ -658,7 +658,7 @@
 					type: "item"
 				}
 			]
-			title: "&6Sifting for resources"
+			title: "&#8B4513&lSifting for resources"
 			x: -6.0d
 			y: -3.5d
 		}
@@ -693,13 +693,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eResource chickens! "
+			subtitle: "&#8B4513Resource chickens! "
 			tasks: [{
 				id: "3CF2610FCD05509D"
 				title: "Roost"
 				type: "checkmark"
 			}]
-			title: "&6Roost Ultimate"
+			title: "&#8B4513&lRoost Ultimate"
 			x: -5.0d
 			y: -2.5d
 		}
@@ -735,7 +735,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSpelunking and dungeoneering"
+			subtitle: "&#8B4513Spelunking and dungeoneering"
 			tasks: [{
 				id: "7590A67C07011638"
 				item: {
@@ -747,7 +747,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6\"Fortune n glory, kid... Fortune n glory\""
+			title: "&#8B4513&l\"Fortune n glory, kid... Fortune n glory\""
 			x: -2.482142857142854d
 			y: -3.5714285714285694d
 		}
@@ -756,7 +756,7 @@
 				"4F98CC4F3B2B2CF9"
 				"72ABF1E13212EB7A"
 			]
-			description: ["Wether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided. Let's build what we need to recharge or refill it, the next few chapters will explore the options."]
+			description: ["Whether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided. Let's build what we need to recharge or refill it, the next few chapters will explore the options."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -775,13 +775,13 @@
 				xp: 5
 			}]
 			size: 1.25d
-			subtitle: "&eHere we go"
+			subtitle: "&#8B4513Here we go"
 			tasks: [{
 				id: "00EE976A2B32EB00"
 				title: "Basic Automation"
 				type: "checkmark"
 			}]
-			title: "&6&lStress, Power and Basic Automation"
+			title: "&#8B4513&lStress, Power and Basic Automation"
 			x: -0.5d
 			y: 0.5d
 		}
@@ -801,22 +801,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "&emay as well make some power out of it"
+			subtitle: "&#8B4513may as well make some power out of it"
 			tasks: [{
 				id: "5E92B39817A8D9C2"
 				item: "productivebees:honey_generator"
 				type: "item"
 			}]
-			title: "&6&lHoney Generator"
+			title: "&#8B4513&lHoney Generator"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["626B4E8865E9892C"]
 			description: [
-				"As with any world featuring &eCreate&r, this is going to be your go-to method for getting started automating. When placed with a water source flowing past, they generate stress, attached shafts and gearboxs can be used to transfer stress from wheel to machines. Eventually you will be able to convert this stress into FE."
+				"As with any world featuring &eCreate&r, this is going to be your go-to method for getting started automating. When placed with a water source flowing past, they generate stress, attached shafts and gearboxes can be used to transfer stress from wheel to machines. Eventually you will be able to convert this stress into FE."
 				""
-				"Alternate forms of &4power generation&r have been provided to give some felixibility and options in gameplay. While the pack has been structured to lightly integrate mods, providing progression but also allowing for freedom of choice whenever possible... it will be impossible to avoid a few core mods such as Create if you choose to progress through certain paths, with the focus being changing how you \"reach\" a mod, rather than how it works. "
+				"Alternate forms of &4power generation&r have been provided to give some flexibility and options in gameplay. While the pack has been structured to lightly integrate mods, providing progression but also allowing for freedom of choice whenever possible... it will be impossible to avoid a few core mods such as Create if you choose to progress through certain paths, with the focus being changing how you \"reach\" a mod, rather than how it works. "
 				""
 				"The intent being: &9You will require at least some minimal infrastructure from certain mods, but not be forced to rely on it entirely if you choose not to&r, you will unlock other options and can choose to use those. (some tech and late game progression aside)"
 			]
@@ -833,13 +833,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eYou spin me right round"
+			subtitle: "&#8B4513You spin me right round"
 			tasks: [{
 				id: "122B14C6EA82231E"
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			title: "&6&lWater Wheel"
+			title: "&#8B4513&lWater Wheel"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -859,13 +859,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eName says it all"
+			subtitle: "&#8B4513Name says it all"
 			tasks: [{
 				id: "705864E015D9FB4B"
 				item: "industrialforegoing:pitiful_generator"
 				type: "item"
 			}]
-			title: "&6&lPitiful Generator"
+			title: "&#8B4513&lPitiful Generator"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -899,7 +899,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNot the greatest, but it's a start"
+			subtitle: "&#8B4513Not the greatest, but it's a start"
 			tasks: [{
 				consume_items: false
 				id: "37284D0F7E914138"
@@ -953,7 +953,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "&6&lPowered Flight"
+			title: "&#8B4513&lPowered Flight"
 			x: -0.5d
 			y: 3.5d
 		}
@@ -988,12 +988,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSimulation in a simulation, huh?"
+			subtitle: "&#8B4513Simulation in a simulation, huh?"
 			tasks: [{
 				id: "6D457F44C28030A7"
 				type: "checkmark"
 			}]
-			title: "&6Hostile Neural Networks"
+			title: "&#8B4513&lHostile Neural Networks"
 			x: -3.482142857142847d
 			y: -2.5357142857142776d
 		}
@@ -1032,13 +1032,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eWireless Power Networks"
+			subtitle: "&#8B4513Wireless Power Networks"
 			tasks: [{
 				id: "75AFFC536839C7A1"
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			title: "&6Flux Controller"
+			title: "&#8B4513&lFlux Controller"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -1072,13 +1072,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAn autocrafting table"
+			subtitle: "&#8B4513An autocrafting table"
 			tasks: [{
 				id: "3A276D31D998194E"
 				item: "craftingautomat:autocrafter"
 				type: "item"
 			}]
-			title: "&6&lCrafting Automat"
+			title: "&#8B4513&lCrafting Automat"
 			x: 3.5d
 			y: 1.5d
 		}
@@ -1111,13 +1111,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCollecting mob charms"
+			subtitle: "&#8B4513Collecting mob charms"
 			tasks: [{
 				id: "5619D79F5F045E00"
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			title: "&6&lCharm Belt"
+			title: "&#8B4513&lCharm Belt"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -1140,13 +1140,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSave some hotbar and inventory slots"
+			subtitle: "&#8B4513Save some hotbar and inventory slots"
 			tasks: [{
 				id: "59FF91E2F4728FC9"
 				item: "toolbelt:belt"
 				type: "item"
 			}]
-			title: "&6Tool Belt"
+			title: "&#8B4513&lTool Belt"
 			x: -3.5d
 			y: 0.0d
 		}
@@ -1155,7 +1155,7 @@
 			description: [
 				"Curios and hot key selection has been added to the &6spyglass&r, providing a vanilla friendly way to zoom in on things from a distance. "
 				""
-				"This world is going to be a very rough and dangerous place, at least at first. While designed in a way to get progessively easier provided enough effort, this pack isn't supposed to be a walk in the park... You're going to die, probably &n&o&ca lot&r&r&r, difficulty is going to vary from player to player but the early game will be particularly unforgiving if you are not cautious, Our goal was not to produce an expert level difficulty pack, but something \"challenging yet fun\", we hope and strive to hit that mark. Always be wary and check things out if you can before diving in."
+				"This world is going to be a very rough and dangerous place, at least at first. While designed in a way to get progressively easier provided enough effort, this pack isn't supposed to be a walk in the park... You're going to die, probably &n&o&ca lot&r&r&r, difficulty is going to vary from player to player but the early game will be particularly unforgiving if you are not cautious, Our goal was not to produce an expert level difficulty pack, but something \"challenging yet fun\", we hope and strive to hit that mark. Always be wary and check things out if you can before diving in."
 				""
 				" &eGood Luck!&r "
 				""
@@ -1185,24 +1185,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eZooming in from a safe distance"
+			subtitle: "&#8B4513Zooming in from a safe distance"
 			tasks: [{
 				id: "7A9EDD7EDF28B55F"
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			title: "&6Spyglass"
+			title: "&#8B4513&lSpyglass"
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"you can choose to stick with traditional sword, bow and shield tactics. However it is highly recommened you craft a &egun bench&r and give everything the pack has to offer a try, you'd be surprised how much fun it is!"
+				"you can choose to stick with traditional sword, bow and shield tactics. However it is highly recommended you craft a &egun bench&r and give everything the pack has to offer a try, you'd be surprised how much fun it is!"
 				""
 				"The weapons provided are available in progressive tiers, and are highly &9customizable&r and even &denchantable&r!"
 				""
-				"Refer to the \"&3Locked and Loaded&r\" secton of \"Optional Quests\" for more info."
+				"Refer to the \"&3Locked and Loaded&r\" section of \"Optional Quests\" for more info."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1220,13 +1220,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePersonal protection, done right"
+			subtitle: "&#8B4513Personal protection, done right"
 			tasks: [{
 				id: "0C7A962418894E02"
 				item: "scguns:gun_bench"
 				type: "item"
 			}]
-			title: "&6Gun Bench"
+			title: "&#8B4513&lGun Bench"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -1269,14 +1269,14 @@
 				}
 			]
 			size: 3.0d
-			subtitle: "&eThe Mechanical Grid 1.0"
+			subtitle: "&#8B4513The Mechanical Grid 1.0"
 			tasks: [{
 				count: 9L
 				id: "0566D4DFDAE65EE4"
 				item: { Count: 9, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			title: "&6&lThe 3x3 mechanical grid"
+			title: "&#8B4513&lThe 3x3 mechanical grid"
 			x: -0.5d
 			y: 9.035714285714292d
 		}
@@ -1307,14 +1307,14 @@
 				}
 			]
 			size: 1.0d
-			subtitle: "&eUsed in almost every assembly line"
+			subtitle: "&#8B4513Used in almost every assembly line"
 			tasks: [{
 				count: 3L
 				id: "24D5C9058390BD98"
 				item: { Count: 3, id: "create:deployer" }
 				type: "item"
 			}]
-			title: "&6&l3x Deployer"
+			title: "&#8B4513&l3x Deployer"
 			x: -0.5d
 			y: 15.5d
 		}
@@ -1340,13 +1340,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eHot off the press"
+			subtitle: "&#8B4513Hot off the press"
 			tasks: [{
 				id: "42E55AF62B96AB2B"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			title: "&6&lMechanical Press"
+			title: "&#8B4513&lMechanical Press"
 			x: -0.5d
 			y: 13.285714285714263d
 		}
@@ -1355,7 +1355,7 @@
 			description: [
 				"Guess what the &eenergizer&r does?"
 				""
-				"It energizes things, silly... who wouldv'e guessed?"
+				"It energizes things, silly... who would've guessed?"
 				""
 				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
 			]
@@ -1373,13 +1373,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBunny -not- included"
+			subtitle: "&#8B4513Bunny -not- included"
 			tasks: [{
 				id: "6006177E8C764ED1"
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			title: "&6&lBasic Energizer"
+			title: "&#8B4513&lBasic Energizer"
 			x: -0.5d
 			y: 14.5d
 		}
@@ -1414,7 +1414,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eInstantly travel any where, any time"
+			subtitle: "&#8B4513Instantly travel any where, any time"
 			tasks: [{
 				id: "5B42A94FFF9D53E0"
 				item: {
@@ -1424,7 +1424,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lTempad"
+			title: "&#8B4513&lTempad"
 			x: -0.5d
 			y: 19.5d
 		}
@@ -1451,13 +1451,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&5Turning source into gemstones"
+			subtitle: "&#8B4513Turning source into gemstones"
 			tasks: [{
 				id: "3C846B081D23310C"
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			title: "&d&lImbuement Chamber"
+			title: "&#8B4513&lImbuement Chamber"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -1491,7 +1491,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "&cEmbrace the darkness"
+			subtitle: "&#8B4513Embrace the darkness"
 			tasks: [
 				{
 					id: "338DC66EF0AD4956"
@@ -1508,7 +1508,7 @@
 					type: "item"
 				}
 			]
-			title: "&4&lBlood Altar"
+			title: "&#8B4513&lBlood Altar"
 			x: 3.125d
 			y: 8.125d
 		}
@@ -1541,13 +1541,13 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "&2Flower Power"
+			subtitle: "&#8B4513Flower Power"
 			tasks: [{
 				id: "6377BB8039A646F1"
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			title: "&a&lPetal Apothecary"
+			title: "&#8B4513&lPetal Apothecary"
 			x: -4.0d
 			y: 8.0d
 		}
@@ -1570,14 +1570,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eYa... this one isn't really optional"
+			subtitle: "&#8B4513Ya... this one isn't really optional"
 			tasks: [{
 				count: 3L
 				id: "00EE65B89A91228C"
 				item: { Count: 8, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			title: "&6&l3x Precision Mechanism"
+			title: "&#8B4513&l3x Precision Mechanism"
 			x: 0.0d
 			y: 17.5d
 		}
@@ -1606,7 +1606,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eManufacturing ammunition"
+			subtitle: "&#8B4513Manufacturing ammunition"
 			tasks: [
 				{
 					id: "704D9769A0D61F79"
@@ -1642,7 +1642,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lCasing Molds"
+			title: "&#8B4513&lCasing Molds"
 			x: -1.0d
 			y: 17.5d
 		}
@@ -1664,7 +1664,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNice in the early game"
+			subtitle: "&#8B4513Nice in the early game"
 			tasks: [{
 				id: "0E484B7467E1B672"
 				item: {
@@ -1676,7 +1676,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lMending Rune"
+			title: "&#8B4513&lMending Rune"
 			x: 1.0d
 			y: 17.5d
 		}
@@ -1703,13 +1703,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eWarping space and time"
+			subtitle: "&#8B4513Warping space and time"
 			tasks: [{
 				id: "1FFB945D08911C0F"
 				item: "createteleporters:quantum_mechanism"
 				type: "item"
 			}]
-			title: "&6&lQuantum Mechanism"
+			title: "&#8B4513&lQuantum Mechanism"
 			x: 0.5d
 			y: 18.5d
 		}
@@ -1738,13 +1738,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eReinforced Plating"
+			subtitle: "&#8B4513Reinforced Plating"
 			tasks: [{
 				id: "79B1DA8C1B116E03"
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
-			title: "&6&lSturdy Sheet"
+			title: "&#8B4513&lSturdy Sheet"
 			x: -2.0d
 			y: 17.5d
 		}
@@ -1783,13 +1783,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTotally safe. Seriously... Probably..."
+			subtitle: "&#8B4513Totally safe. Seriously... Probably..."
 			tasks: [{
 				id: "6F8AA3582A83277F"
 				item: "create_new_age:nuclear_fuel"
 				type: "item"
 			}]
-			title: "&6&lNuclear Fuel"
+			title: "&#8B4513&lNuclear Fuel"
 			x: -1.5d
 			y: 18.5d
 		}
@@ -1822,13 +1822,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&5Magic spells sold separately"
+			subtitle: "&#8B4513Magic spells sold separately"
 			tasks: [{
 				id: "4EC7589C6FC96C60"
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			title: "&d&l Novice Spell Book"
+			title: "&#8B4513&lNovice Spell Book"
 			x: -0.5d
 			y: 5.5714285714285765d
 		}
@@ -1853,13 +1853,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&5A different kind of enchanting"
+			subtitle: "&#8B4513A different kind of enchanting"
 			tasks: [{
 				id: "6F6E42891CA0BCBB"
 				item: "ars_nouveau:enchanting_apparatus"
 				type: "item"
 			}]
-			title: "&d&lEnchanting Apparatus"
+			title: "&#8B4513&lEnchanting Apparatus"
 			x: 1.5d
 			y: 9.5d
 		}
@@ -1883,13 +1883,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&cHas nothing to do with alchemy, but we didnt make the mod :)"
+			subtitle: "&#8B4513Has nothing to do with alchemy, but we didnt make the mod :)"
 			tasks: [{
 				id: "1D1699F925E95014"
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			title: "&4&lAlchemy Table"
+			title: "&#8B4513&lAlchemy Table"
 			x: 3.0d
 			y: 12.0d
 		}
@@ -1913,20 +1913,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "&cPowered by the will of the damned"
+			subtitle: "&#8B4513Powered by the will of the damned"
 			tasks: [{
 				id: "0B5871A5995DD686"
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			title: "&4&lHellfire Forge"
+			title: "&#8B4513&lHellfire Forge"
 			x: 2.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["579F37CE436DA670"]
 			description: [
-				"&aTerrasteel&r, required for the construction of the elven gateway core, a necessary component in contructing &dThe Portal to Alfheim&r. "
+				"&aTerrasteel&r, required for the construction of the elven gateway core, a necessary component in constructing &dThe Portal to Alfheim&r. "
 				""
 				"Establishing trade with the elves and using the secrets obtained from them is a key component to accessing the &3Celestial Arsenal&r."
 				""
@@ -1945,13 +1945,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&2Needed for the Elven Gateway"
+			subtitle: "&#8B4513Needed for the Elven Gateway"
 			tasks: [{
 				id: "6B67B5C3D0A40A0F"
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			title: "&a&lTerrestrial Agglomeration Plate"
+			title: "&#8B4513&lTerrestrial Agglomeration Plate"
 			x: -4.0d
 			y: 12.0d
 		}
@@ -1980,13 +1980,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&2Kinda shy, but these elves give nice stuff!"
+			subtitle: "&#8B4513Kinda shy, but these elves give nice stuff!"
 			tasks: [{
 				id: "2668E72D4B44EDBF"
 				item: "botania:alfheim_portal"
 				type: "item"
 			}]
-			title: "&a&lElven Gateway Core"
+			title: "&#8B4513&lElven Gateway Core"
 			x: -3.0d
 			y: 15.5d
 		}
@@ -2009,13 +2009,13 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "&eThe factory... must grow"
+			subtitle: "&#8B4513The factory... must grow"
 			tasks: [{
 				id: "5262AFD1BA2507FA"
 				title: "Assembly Lines"
 				type: "checkmark"
 			}]
-			title: "&6&lAssembly Lines"
+			title: "&#8B4513&lAssembly Lines"
 			x: -0.5d
 			y: 16.5d
 		}
@@ -2035,13 +2035,13 @@
 				xp: 15
 			}]
 			size: 2.0d
-			subtitle: "&eTime for an industrial revolution"
+			subtitle: "&#8B4513Time for an industrial revolution"
 			tasks: [{
 				id: "7599BA55BBDFE3C5"
 				title: "Automated Assembly"
 				type: "checkmark"
 			}]
-			title: "&6&lAutomated Assembly"
+			title: "&#8B4513&lAutomated Assembly"
 			x: -0.5d
 			y: 11.67857142857141d
 		}
@@ -2078,10 +2078,10 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eWell... Kinda"
+			subtitle: "&#8B4513Well... Kinda"
 			tasks: [{
 				id: "622BFC0973FA092D"
-				title: "&6&lNow we're really ready"
+				title: "&#8B4513&lNow we're really ready"
 				type: "checkmark"
 			}]
 			x: -0.4642857142857153d
@@ -2109,14 +2109,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "&e\"Feels cheap... just saying\""
+			subtitle: "&#8B4513\"Feels cheap... just saying\""
 			tasks: [{
 				count: 8L
 				id: "110822844BA9F8D2"
 				item: { Count: 8, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
-			title: "&6&l8x Plastic"
+			title: "&#8B4513&lPlastic"
 			x: -0.5d
 			y: 22.5d
 		}
@@ -2125,7 +2125,7 @@
 			description: [
 				"&eFluid extractors&r are the first step to &3plastic production&r, a highly utilized ingredient across many recipes, especially useful as you head into higher tiers of technology."
 				""
-				"I mean... Everythings made out of plastic in today's age... What did you expect?"
+				"I mean... Everything's made out of plastic in today's age... What did you expect?"
 				""
 				"Refer to the \"&6Industrial Foregoing&r\" chapter of \"Core Mods\" for more info!"
 			]
@@ -2154,13 +2154,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eCollecting latex"
+			subtitle: "&#8B4513Collecting latex"
 			tasks: [{
 				id: "2256AEC84EEAEDC0"
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
-			title: "&6&lFluid Extractor"
+			title: "&#8B4513&lFluid Extractor"
 			x: -0.5d
 			y: 21.0d
 		}
@@ -2170,14 +2170,14 @@
 				"771588CF1624B99F"
 			]
 			description: [
-				"So you have found a place to settle down and get started? Awesome! This line of quests will guide you through progressing into what the you are capable of in the pack while maintaining as much of the \"sandbox\" nature of the game as possible. As discussed in \"Getting Started\", you will want to create a &9Bank Terminal&r &cASAP&r. "
+				"&0  So you have found a place to settle    down and get started? Awesome! This    line of quests will guide you through    progressing into what the you are       capable of in the pack while               maintaining as much of the \"sandbox\"    nature of the game as possible. As      discussed in \"Getting Started\", you will  want to create a &#D2691E&lBank Terminal       ASAP&r&r. "
 				""
-				"This will grant you access to the &n&eSlayer Rewards&r and &n&eRewards Shop&r functions at the bottom of the quest book chapter section&r&r"
+				"&0  This will grant you access to the        &#D2691E&lSlayer Rewards&r&r &0and &#D2691E&lRewards       Shop&r&r &0functions at the bottom of the    quest book chapter section&r&r"
 				""
 				""
-				"Quests, Challenges, and Slayer Tasks are the only way to obtain &eNumi Coins&r and they are the only currency the shops take. If you choose, there are also vendor blocks you can use to make shops to sell items to other players using them! You can use the ID card's to share access to terminals and multiple numismatic blocks!"
+				"&0  Quests, Challenges, and Slayer Tasks  are the only way to obtain &#D2691E&lNumi        Coins&r &0and they are the only              currency the shops take. If you         choose, there are also vendor blocks  you can use to make shops to sell       items to other players using them! You  can use the ID card's to share           access to terminals and multiple          numismatic blocks!"
 				""
-				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
+				"&0  Refer to the \"&#D2691E&lCreate&r&r&0\" section of       \"Core Mods\" for more info!"
 			]
 			hide_until_deps_visible: true
 			id: "3B38BC10347BDA7D"
@@ -2195,13 +2195,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eIt's Very Important"
+			subtitle: "&#8B4513It's Very Important"
 			tasks: [{
 				id: "0508D23E33025ECC"
 				item: "numismatics:bank_terminal"
 				type: "item"
 			}]
-			title: "&6&lThe Bank Terminal"
+			title: "&#8B4513&lThe Bank Terminal"
 			x: -0.5d
 			y: -6.75d
 		}
@@ -2245,13 +2245,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA little storage buddy"
+			subtitle: "&#8B4513A little storage buddy"
 			tasks: [{
 				id: "3B2AC326480DDD36"
 				title: "Taming supply scamps"
 				type: "checkmark"
 			}]
-			title: "&6Supply Scamps"
+			title: "&#8B4513&lSupply Scamps"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -2281,7 +2281,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eEvery little bit helps!"
+			subtitle: "&#8B4513Every little bit helps!"
 			tasks: [
 				{
 					id: "2D4E880C0AC9A694"
@@ -2310,15 +2310,15 @@
 					type: "item"
 				}
 			]
-			title: "&6&lSupplemental Power"
+			title: "&#8B4513&lSupplemental Power"
 			x: -0.5d
 			y: 18.5d
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -2351,13 +2351,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
-			description: ["A fishing bot has been provided to make some aspects of life a little easier, as long as your rod is kept in the 9th hotbar slot (all the way to the right) your rod will automatically reel and recast itself!"]
+			description: ["&0  A fishing bot has been provided to      make some aspects of life a little         easier, as long as your rod is kept in   the 9th hotbar slot (all the way to the  right) your rod will automatically reel   and recast itself!"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2379,7 +2379,7 @@
 			}]
 			tasks: [{
 				id: "569149707F36CCE7"
-				title: "Fishing Made Easier"
+				title: "&#8B4513&lFishing Made Easier"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -2388,9 +2388,9 @@
 		{
 			dependencies: ["3B38BC10347BDA7D"]
 			description: [
-				"The Curios container can be used to both house and quickly and easily swap Curios equippable items such as trinkets, artifacts and relics!"
+				"&0  The Curios container can be used to   both house and quickly and easily        swap Curios equippable items such as   trinkets, artifacts and relics!"
 				""
-				"The default hotket to open the container, once crafted, is \"4\" on your keypad."
+				"&0  The default hotkey to open the          container, once crafted, is \"4\" on        your keypad."
 			]
 			hide_dependency_lines: true
 			id: "01809362419109D4"
@@ -2414,7 +2414,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Easily managing your Curios slots."
+			subtitle: "&#8B4513Easily managing your Curios slots."
 			tasks: [{
 				id: "6FFCD524D78F2C9C"
 				item: {
@@ -2432,6 +2432,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lCurios Container"
 			x: 0.5d
 			y: -8.5d
 		}

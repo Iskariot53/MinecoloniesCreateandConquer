@@ -198,7 +198,7 @@
 			dependencies: ["6DC66F240EF37760"]
 			dependency_requirement: "one_started"
 			description: [
-				"Much of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, automating the production of brass will lead into Industiral Foregoing and Mekanisms machines for more power generation options, but these will require more extensive resources to set up. Obtaining Andesite Alloy, and the ingredients to produce it, are the first steps on that path."
+				"Much of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, automating the production of brass will lead into Industiral Foregoing and Mekanism's machines for more power generation options, but these will require more extensive resources to set up. Obtaining Andesite Alloy, and the ingredients to produce it, are the first steps on that path."
 				""
 				"You will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress-powered alternators, generators, and motors. However, there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r to help supplement early game electricity struggles, if needed."
 			]
@@ -811,9 +811,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -846,7 +846,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

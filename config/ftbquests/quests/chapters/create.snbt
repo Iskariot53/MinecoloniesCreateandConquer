@@ -516,7 +516,7 @@
 		}
 		{
 			dependencies: ["2DFAB367F1A7D350"]
-			description: ["The Enginners Goggles allows you to see the stats of any given stress source, shaft, contraption, etc. they are very handy for troubleshooting problems."]
+			description: ["The Engineers Goggles allows you to see the stats of any given stress source, shaft, contraption, etc. they are very handy for troubleshooting problems."]
 			id: "2D5FB1453CD6A687"
 			rewards: [
 				{
@@ -628,7 +628,7 @@
 		}
 		{
 			dependencies: ["2DFAB367F1A7D350"]
-			description: ["Belts can both be used to transfer items and to tranfer stress, simply hold the belt and click on the 2 shafts you would like to connect. Rotational direction of the shafts matters though, it will determine which direction the belt travels."]
+			description: ["Belts can both be used to transfer items and stress, simply hold the belt and click on the 2 shafts you would like to connect. Rotational direction of the shafts matters though, it will determine which direction the belt travels."]
 			id: "7DB6CA1F6105CC96"
 			rewards: [
 				{
@@ -928,7 +928,7 @@
 		}
 		{
 			dependencies: ["328AA822DBA16B9C"]
-			description: ["The precision mechanism is just one of many mechanisms you will want to make assemply lines for. The &6ponder&r feature in &aJEI&r can give you more information if needed."]
+			description: ["The precision mechanism is just one of many mechanisms you will want to make assembly lines for. The &6ponder&r feature in &aJEI&r can give you more information if needed."]
 			id: "2D64B8D38B367DC0"
 			rewards: [
 				{
@@ -1079,7 +1079,7 @@
 		}
 		{
 			dependencies: ["53AA74F5A61C35FC"]
-			description: ["This card binds and allows access to any given &9Bank Account&r when used with a bank terminal. it can also be used in a vendor/depositor for automatically deposting collections to the bound account."]
+			description: ["This card binds and allows access to any given &9Bank Account&r when used with a bank terminal. it can also be used in a vendor/depositor for automatically depositing collections to the bound account."]
 			icon: "numismatics:white_card"
 			id: "2B71D9DF50615899"
 			rewards: [
@@ -1508,7 +1508,7 @@
 		}
 		{
 			dependencies: ["6410DD17441D06C6"]
-			description: ["&eEnergizers&r are used to create many different electrical components, as well as used in many recipe and assemply lines where RF is needed to complete the recipe. "]
+			description: ["&eEnergizers&r are used to create many different electrical components, as well as used in many recipe and assembly lines where RF is needed to complete the recipe. "]
 			id: "5F358699277E5DC6"
 			rewards: [
 				{
@@ -1535,9 +1535,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -1570,7 +1570,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -2013,7 +2013,7 @@
 			description: [
 				"When placed on a properly heated fluid tank, steam engines will begin to rotate, generating stress. shafts and gearboxes can then be attached to distribute it as needed."
 				""
-				"Steam engines in conjunction with crabon brushes attached to spinning generator coils are the best form of early game power generation available to you, once you've upgraded the magnets."
+				"Steam engines in conjunction with carbon brushes attached to spinning generator coils are the best form of early game power generation available to you, once you've upgraded the magnets."
 				""
 				"1 Maxed boiler will see you through the entire tech tree if you build wisely."
 			]
@@ -2255,7 +2255,7 @@
 		{
 			dependencies: ["7DA2480976B8950C"]
 			description: [
-				"While for the most part fully intercompatible, there are some slight differences between blaze burners, states and fuels. Here is a quick run down of each, for clarities sake."
+				"While for the most part fully intercompatible, there are some slight differences between blaze burners, states and fuels. Here is a quick run down of each, for clarity's sake."
 				""
 				"Blaze burners, liquid blaze burners and sails are all compatible and work with fans and other components to some extent or another."
 				""
@@ -2480,7 +2480,7 @@
 		}
 		{
 			dependencies: ["3198D02831C7A4F9"]
-			description: ["Insert coal into your coke oven to recieve &8coal coke&r. You will also recieve byproducts to find one way or another to deal with.. &eCreosote&r is worth holding onto though, it's needed to make hardened planks out of."]
+			description: ["Insert coal into your coke oven to receive &8coal coke&r. You will also receive byproducts to find one way or another to deal with.. &eCreosote&r is worth holding onto though, it's needed to make hardened planks out of."]
 			id: "66745E8729240CF0"
 			rewards: [
 				{
@@ -2685,7 +2685,7 @@
 		{
 			dependencies: ["73E47939B8BEDD9C"]
 			description: [
-				"Using cast iron and firebricks, You can make the Blast Furnace Output and complate your Blast Furnace Multiblock. You can use the \"&ePonder&r\" feature in &aJEI&r if you have any questions on block placement."
+				"Using cast iron and firebricks, You can make the Blast Furnace Output and complete your Blast Furnace Multiblock. You can use the \"&ePonder&r\" feature in &aJEI&r if you have any questions on block placement."
 				""
 				"Item ingredients and fuel are dropped into the top and the products can be extracted via the output."
 			]

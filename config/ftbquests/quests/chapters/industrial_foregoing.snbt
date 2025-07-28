@@ -146,7 +146,7 @@
 		}
 		{
 			dependencies: ["33B295CC0DBBE25D"]
-			description: ["Basic, but it works. The pitiful generator will burn most \"burnable\" fuels and slowly generate FE. They are not very efficient and will continue burning (and wasting) fuel, even if the power output buffer is full, they will not stop burning and attempting to generate power, wether they currently can or not."]
+			description: ["Basic, but it works. The pitiful generator will burn most \"burnable\" fuels and slowly generate FE. They are not very efficient and will continue burning (and wasting) fuel, even if the power output buffer is full, they will not stop burning and attempting to generate power, whether they currently can or not."]
 			id: "21C67F443586C6AE"
 			rewards: [
 				{
@@ -796,7 +796,7 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
-			description: ["Ranchers can be used for automating the more mundane tasks of things suchs as sheering sheep, milking cows, etc."]
+			description: ["Ranchers can be used for automating the more mundane tasks of things such as sheering sheep, milking cows, etc."]
 			id: "57F1C49F461902DE"
 			rewards: [
 				{
@@ -1007,7 +1007,7 @@
 		}
 		{
 			dependencies: ["3D4155EE85E93B3E"]
-			description: ["The planter sower will automatically plant seeds and saplings provided to it. You will notice in the GUI that the input is divided into 9 sections, this corresponds with the sowers working area, which is also divided into 9 sections. Seeds and saplings planted in any given section of the input will only be planted inthe corresponding section of working area, allowing you to separate and cultivate multiple things from one block with little fuss."]
+			description: ["The planter sower will automatically plant seeds and saplings provided to it. You will notice in the GUI that the input is divided into 9 sections, this corresponds with the sowers working area, which is also divided into 9 sections. Seeds and saplings planted in any given section of the input will only be planted in the corresponding section of working area, allowing you to separate and cultivate multiple things from one block with little fuss."]
 			id: "48A06D2929CADF5E"
 			rewards: [
 				{
@@ -1148,7 +1148,7 @@
 		{
 			dependencies: ["13D06CA200A91C28"]
 			description: [
-				"When provided with RF and placed over a pool of water atleast 3x3x1, the marine fisher will begin, wait for it...."
+				"When provided with RF and placed over a pool of water at least 3x3x1, the marine fisher will begin, wait for it...."
 				""
 				"Fishing. It is capable of catching virtually anything (live or dead) that can be obtained through the use of a fishing rod."
 			]
@@ -1394,7 +1394,7 @@
 		}
 		{
 			dependencies: ["2DEFA925E78A3A3E"]
-			description: ["The fluid laser base is a machine used with one or multiple laser drills to produce fluids. Laser lenses can be used to select which fluid the laser base will extract. When a purple laser lense is inserted and the base placed above a wither, it will attempt to extract ether. When placed in the nether with an orange lense inserted, it will attempt to extract lava. In the GUI of the laser base, the bar on the left displays the amount of work that has been performed by the laser drill(s). When it reaches 100%, one bucket of fluid is produced. Work changes by 1% every time a laser drill completes an operation."]
+			description: ["The fluid laser base is a machine used with one or multiple laser drills to produce fluids. Laser lenses can be used to select which fluid the laser base will extract. When a purple laser lens is inserted and the base placed above a wither, it will attempt to extract ether. When placed in the nether with an orange lens inserted, it will attempt to extract lava. In the GUI of the laser base, the bar on the left displays the amount of work that has been performed by the laser drill(s). When it reaches 100%, one bucket of fluid is produced. Work changes by 1% every time a laser drill completes an operation."]
 			id: "549AD8EF3E9A90F7"
 			rewards: [
 				{
@@ -1685,7 +1685,7 @@
 			description: [
 				"The stasis chamber can be used to trap entities in stasis, in short: it freezes them in place."
 				""
-				"A wither within a &6stasis chamber&r. With a &6fluid laser drill&r, containing a &dpurple laser lense&r, placed above it. Are the basis for starting &3ether gas&r production."
+				"A wither within a &6stasis chamber&r. With a &6fluid laser drill&r, containing a &dpurple laser lens&r, placed above it. Are the basis for starting &3ether gas&r production."
 			]
 			id: "0A4C2EEA3BB31EAC"
 			rewards: [
@@ -1768,7 +1768,7 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
-			description: ["The Enchantment Extractor will remove the first enchantment from the item and output the item with the same damage value and any remaining enchantments along with a book containing the removed enchantment. This process does not clear the NBT of items, even when the last enchantment is removed. Most notably the repair cost will remain, which will increase the XP neeeded to repair or enchant the item on an anvil as if the removed enchantment were still present."]
+			description: ["The Enchantment Extractor will remove the first enchantment from the item and output the item with the same damage value and any remaining enchantments along with a book containing the removed enchantment. This process does not clear the NBT of items, even when the last enchantment is removed. Most notably the repair cost will remain, which will increase the XP needed to repair or enchant the item on an anvil as if the removed enchantment were still present."]
 			id: "3FA3206857ACD468"
 			rewards: [
 				{
@@ -2119,7 +2119,7 @@
 		}
 		{
 			dependencies: ["112A9B8C8A737352"]
-			description: ["When supplied with water, lava and power the material stonework factory can be programmed to make many different stone types/recipes. JEI  will be very useful here and can be used to see the whole range of possiblities."]
+			description: ["When supplied with water, lava and power the material stonework factory can be programmed to make many different stone types/recipes. JEI  will be very useful here and can be used to see the whole range of possibilities."]
 			id: "1D4C452E6CFB4E08"
 			rewards: [
 				{
@@ -2416,7 +2416,7 @@
 		}
 		{
 			dependencies: ["64198B81337A34FE"]
-			description: ["The slimey mycelial generator converts slimeballs to FE."]
+			description: ["The slimey mycelial generator converts slime balls to FE."]
 			hide_dependency_lines: true
 			id: "4F92C086C8ABBCB2"
 			rewards: [
@@ -3260,9 +3260,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -3295,7 +3295,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

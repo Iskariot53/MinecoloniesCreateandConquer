@@ -535,9 +535,9 @@
 	quests: [
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -570,7 +570,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -578,7 +578,7 @@
 			id: "5F9076D1056A4053"
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&6This should help get you going and provide a limited means of safety"
+			subtitle: "&#8B4513This should help get you going and provide a limited means of safety"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -681,7 +681,7 @@
 				title: "Starter Hut"
 				type: "item"
 			}]
-			title: "&e&lPlace Your Starter Hut"
+			title: "&#8B4513&lPlace Your Starter Hut"
 			x: 1.0d
 			y: -4.428571428571431d
 		}
@@ -754,7 +754,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lWooden Tools"
+			title: "&#8B4513&lWooden Tools"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -827,7 +827,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lLeather Armor"
+			title: "&#8B4513&lLeather Armor"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -884,7 +884,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lStone Tools"
+			title: "&#8B4513&lStone Tools"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -929,7 +929,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lIron Ingots"
+			title: "&#8B4513&lIron Ingots"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1007,7 +1007,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lIron Tools"
+			title: "&#8B4513&lIron Tools"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -1117,7 +1117,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lIron Armor"
+			title: "&#8B4513&lIron Armor"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -1173,7 +1173,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lWater and Lava"
+			title: "&#8B4513&lWater and Lava"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -1215,7 +1215,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lDiamonds"
+			title: "&#8B4513&lDiamonds"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -1293,7 +1293,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lDiamond Tools"
+			title: "&#8B4513&lDiamond Tools"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -1387,7 +1387,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lDiamond Armor"
+			title: "&#8B4513&lDiamond Armor"
 			x: 9.0d
 			y: 2.5d
 		}
@@ -1431,7 +1431,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lBuild a Nether Portal"
+			title: "&#8B4513&lBuild a Nether Portal"
 			x: 11.5d
 			y: 1.5d
 		}
@@ -1448,10 +1448,10 @@
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "3C33DD2DA722B47E"
-				title: "The Nether"
+				title: "&#8B4513The Nether"
 				type: "dimension"
 			}]
-			title: "&e&lVisit the Nether Dimension"
+			title: "&#8B4513&lVisit the Nether Dimension"
 			x: 13.0d
 			y: 4.0d
 		}
@@ -1471,7 +1471,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lFurnace"
+			title: "&#8B4513&lFurnace"
 			x: 3.5d
 			y: -1.5d
 		}
@@ -1528,7 +1528,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lEnchanting"
+			title: "&#8B4513&lEnchanting"
 			x: 9.0d
 			y: -1.5d
 		}
@@ -1552,10 +1552,10 @@
 				}
 				id: "3CEAF3B38556D35A"
 				structure: "minecraft:fortress"
-				title: "Nether Fortress"
+				title: "&#8B4513Nether Fortress"
 				type: "structure"
 			}]
-			title: "&e&lFind a Nether Fortress"
+			title: "&#8B4513&lFind a Nether Fortress"
 			x: 15.5d
 			y: 4.0d
 		}
@@ -1580,7 +1580,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lCraft an Eye of Ender"
+			title: "&#8B4513&lCraft an Eye of Ender"
 			x: 22.0d
 			y: 4.0d
 		}
@@ -1639,7 +1639,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lTime for an Upgrade"
+			title: "&#8B4513&lTime for an Upgrade"
 			x: 9.0d
 			y: 4.0d
 		}
@@ -1666,10 +1666,10 @@
 				}
 				id: "331682D58E3A532F"
 				structure: "minecraft:bastion_remnant"
-				title: "Bastion Remnant"
+				title: "&#8B4513Bastion Remnant"
 				type: "structure"
 			}]
-			title: "&e&lVisit a Bastion Remnant"
+			title: "&#8B4513&lVisit a Bastion Remnant"
 			x: 10.5d
 			y: 4.0d
 		}
@@ -1766,7 +1766,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lNetherite Armor"
+			title: "&#8B4513&lNetherite Armor"
 			x: 7.0d
 			y: 3.0d
 		}
@@ -1860,7 +1860,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lNetherite Tools"
+			title: "&#8B4513&lNetherite Tools"
 			x: 7.0d
 			y: 4.5d
 		}
@@ -1901,7 +1901,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lNetherite Ingots"
+			title: "&#8B4513&lNetherite Ingots"
 			x: 9.0d
 			y: 5.5d
 		}
@@ -1926,7 +1926,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBlaze Rods"
+			title: "&#8B4513&lBlaze Rods"
 			x: 18.5d
 			y: 4.0d
 		}
@@ -1951,7 +1951,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBrewing Stand"
+			title: "&#8B4513&lBrewing Stand"
 			x: 18.5d
 			y: 6.0d
 		}
@@ -2004,7 +2004,7 @@
 				id: "2727DDD08400AB82"
 				type: "advancement"
 			}]
-			title: "&e&lHow Did We Get Here?"
+			title: "&#8B4513&lHow Did We Get Here?"
 			x: 16.5d
 			y: 8.25d
 		}
@@ -2034,16 +2034,16 @@
 			tasks: [{
 				dimension: "minecraft:the_end"
 				id: "1F139FF793DCAE1B"
-				title: "The End"
+				title: "&#8B4513The End"
 				type: "dimension"
 			}]
-			title: "&e&lVisit the End Dimension"
+			title: "&#8B4513&lVisit the End Dimension"
 			x: 22.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3779FD6DC7FAD7ED"]
-			description: ["            Kill the Ender Dragon."]
+			description: ["            &0Kill the Ender Dragon.&r"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2077,15 +2077,15 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&6Nuff said"
+			subtitle: "&#8B4513Nuff said"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				id: "6608C1B0F3917ED7"
-				title: "Slay the Dragon"
+				title: "&#8B4513Slay the Dragon"
 				type: "kill"
 				value: 1L
 			}]
-			title: "&e&lSlay The Dragon"
+			title: "&#8B4513&lSlay The Dragon"
 			x: 26.5d
 			y: -1.5d
 		}
@@ -2111,7 +2111,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lDragon's Breath"
+			title: "&#8B4513&lDragon's Breath"
 			x: 26.5d
 			y: 0.5d
 		}
@@ -2136,10 +2136,10 @@
 				}
 				id: "13EB0A5037515D65"
 				structure: "minecraft:end_city"
-				title: "Find an End City"
+				title: "&#8B4513Find an End City"
 				type: "structure"
 			}]
-			title: "&e&lFind an End City"
+			title: "&#8B4513&lFind an End City"
 			x: 35.5d
 			y: 2.5d
 		}
@@ -2182,7 +2182,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lElytra"
+			title: "&#8B4513&lElytra"
 			x: 35.5d
 			y: 4.5d
 		}
@@ -2222,7 +2222,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lDragon Egg"
+			title: "&#8B4513&lDragon Egg"
 			x: 26.5d
 			y: -3.5d
 		}
@@ -2263,7 +2263,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l3x Wither Skeleton Skull"
+			title: "&#8B4513&l3x Wither Skeleton Skull"
 			x: 16.5d
 			y: 2.5d
 		}
@@ -2303,7 +2303,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lDragon Head"
+			title: "&#8B4513&lDragon Head"
 			x: 33.5d
 			y: 4.0d
 		}
@@ -2329,7 +2329,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lShulker Shells"
+			title: "&#8B4513&lShulker Shells"
 			x: 37.5d
 			y: 4.0d
 		}
@@ -2374,7 +2374,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slay the Wither"
+			title: "&#8B4513Slay the Wither"
 			x: 15.5d
 			y: 1.0d
 		}
@@ -2414,7 +2414,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lNether Star"
+			title: "&#8B4513&lNether Star"
 			x: 16.5d
 			y: -0.5d
 		}
@@ -2432,7 +2432,7 @@
 				id: "2C5F2F2418B5BA0D"
 				type: "advancement"
 			}]
-			title: "&e&lTravel Through a Gateway to The Outer End"
+			title: "&#8B4513&lTravel Through a Gateway to The Outer End"
 			x: 30.714285714285708d
 			y: 0.4285714285714164d
 		}
@@ -2444,7 +2444,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Put a Crimson Mosquito Larva inside a Capsid"
+			subtitle: "&#8B4513Put a Crimson Mosquito Larva inside a Capsid"
 			tasks: [
 				{
 					id: "1A5D789C8C4B4B6F"
@@ -2473,20 +2473,20 @@
 					type: "item"
 				}
 			]
-			title: "&e&lCapsid Transformation"
+			title: "&#8B4513&lCapsid Transformation"
 			x: 25.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["0053793E3F98252F"]
-			description: ["Drop the Mysterious Worm in the Void"]
+			description: ["&0  Drop the Mysterious Worm in the Void&r"]
 			id: "2923456767E589E6"
 			rewards: [{
 				id: "4158FD9FE412C7BE"
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Summon the Void Worm"
+			subtitle: "&#8B4513Summon the Void Worm"
 			tasks: [{
 				id: "1660CD86F29D5311"
 				item: {
@@ -2500,16 +2500,16 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lMysterious Worm"
+			title: "&#8B4513&lMysterious Worm"
 			x: 26.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2923456767E589E6"]
 			description: [
-				"The Void Worm is an ancient boss that dwells in the void beneath the End. It can be summoned by tossing a Mysterious Worm into the void. This formidable creature possesses devastating attacks and deals significant damage."
+				"&0  The Void Worm is an ancient boss that  dwells in the void beneath the End. It    can be summoned by tossing a            Mysterious Worm into the void. This       formidable creature possesses          devastating attacks and deals            significant damage.&r"
 				""
-				"Drops: 1 Void Worm Eye and 2 Void Worm Mandibles upon defeat."
+				"&0  Drops: 1 Void Worm Eye and 2 Void      Worm Mandibles upon defeat.&r"
 			]
 			icon: {
 				Count: 1
@@ -2573,7 +2573,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lSlay the Void Worm"
+			title: "&#8B4513&lSlay the Void Worm"
 			x: 28.964285714285694d
 			y: 8.5d
 		}
@@ -2616,7 +2616,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBreak Through Reality"
+			title: "&#8B4513&lBreak Through Reality"
 			x: 31.0d
 			y: 10.92857142857143d
 		}
@@ -2656,7 +2656,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lVoid Worm Beak"
+			title: "&#8B4513&lVoid Worm Beak"
 			x: 27.0d
 			y: 10.92857142857143d
 		}
@@ -2674,7 +2674,7 @@
 				}
 				id: "3F7A56447B9E50D0"
 				structure: "integrated_villages:airship_village"
-				title: "Airship Village"
+				title: "&#8B4513Airship Village"
 				type: "structure"
 			}]
 			x: 3.0d
@@ -2694,7 +2694,7 @@
 				}
 				id: "3CE3DD884467C5BE"
 				structure: "integrated_villages:cabin_village"
-				title: "Cabin Village"
+				title: "&#8B4513Cabin Village"
 				type: "structure"
 			}]
 			x: 2.0d
@@ -2714,7 +2714,7 @@
 				}
 				id: "2A79EB90A7F98BEB"
 				structure: "integrated_villages:kutcha_village"
-				title: "Kutcha Village"
+				title: "&#8B4513Kutcha Village"
 				type: "structure"
 			}]
 			x: 4.0d
@@ -2734,7 +2734,7 @@
 				}
 				id: "0D808BB421C13302"
 				structure: "integrated_villages:marketstead_village"
-				title: "Marketstead Village"
+				title: "&#8B4513Marketstead Village"
 				type: "structure"
 			}]
 			x: 3.0d
@@ -2754,7 +2754,7 @@
 				}
 				id: "610E75121499D888"
 				structure: "integrated_villages:mediterranean_village"
-				title: "Mediterranean Village"
+				title: "&#8B4513Mediterranean Village"
 				type: "structure"
 			}]
 			x: 4.0d
@@ -2774,7 +2774,7 @@
 				}
 				id: "070130F502233A72"
 				structure: "integrated_villages:mossy_mounds"
-				title: "Mossy Mounds"
+				title: "&#8B4513Mossy Mounds"
 				type: "structure"
 			}]
 			x: 1.0d
@@ -2794,7 +2794,7 @@
 				}
 				id: "28091E504B42304A"
 				structure: "integrated_villages:oasis_village"
-				title: "Oasis Village"
+				title: "&#8B4513Oasis Village"
 				type: "structure"
 			}]
 			x: 1.0d
@@ -2814,7 +2814,7 @@
 				}
 				id: "017603C7C0DBDCB6"
 				structure: "integrated_villages:pirate_village"
-				title: "Pirate Village"
+				title: "&#8B4513Pirate Village"
 				type: "structure"
 			}]
 			x: 0.5d
@@ -2834,7 +2834,7 @@
 				}
 				id: "34698AB199FE7411"
 				structure: "integrated_villages:quark/minka_village"
-				title: "Minka Village"
+				title: "&#8B4513Minka Village"
 				type: "structure"
 			}]
 			x: 4.5d
@@ -2854,7 +2854,7 @@
 				}
 				id: "6438EC4EBCC5E1C7"
 				structure: "integrated_villages:tavern_village"
-				title: "Tavern Village"
+				title: "&#8B4513Tavern Village"
 				type: "structure"
 			}]
 			x: 2.0d
@@ -2923,7 +2923,7 @@
 				id: "4939B1A37BC5A1A6"
 				type: "checkmark"
 			}]
-			title: "&e&lVisit all types of Villages!"
+			title: "&#8B4513&lVisit all types of Villages!"
 			x: 2.5d
 			y: 4.5d
 		}
@@ -2966,7 +2966,7 @@
 				}
 				id: "4C9C15F359558806"
 				structure: "idas:ancient_mines"
-				title: "Ancient Mines"
+				title: "&#8B4513Ancient Mines"
 				type: "structure"
 			}]
 			x: 9.0d
@@ -3008,7 +3008,7 @@
 				}
 				id: "4136C7309693053E"
 				structure: "idas:apothecary_abode"
-				title: "Apothecary Abode"
+				title: "&#8B4513Apothecary Abode"
 				type: "structure"
 			}]
 			x: 9.0d
@@ -3050,7 +3050,7 @@
 				}
 				id: "50DC4B79D4E20325"
 				structure: "idas:ars_nouveau/archmages_tower"
-				title: "Archmage's Tower"
+				title: "&#8B4513Archmage's Tower"
 				type: "structure"
 			}]
 			x: 11.0d
@@ -3097,7 +3097,7 @@
 				}
 				id: "5B303E03021D6546"
 				structure: "idas:bazaar"
-				title: "Bazaar"
+				title: "&#8B4513Bazaar"
 				type: "structure"
 			}]
 			x: 11.0d
@@ -3139,7 +3139,7 @@
 				}
 				id: "63A3775A148A0346"
 				structure: "idas:desert_pyramid"
-				title: "Desert Pyramid"
+				title: "&#8B4513Desert Pyramid"
 				type: "structure"
 			}]
 			x: 11.0d
@@ -3184,7 +3184,7 @@
 				}
 				id: "518F6839E569792F"
 				structure: "idas:haunted_manor"
-				title: "Haunted Manor"
+				title: "&#8B4513Haunted Manor"
 				type: "structure"
 			}]
 			x: 10.0d
@@ -3226,7 +3226,7 @@
 				}
 				id: "39E8766BBBEB9CC8"
 				structure: "idas:labyrinth"
-				title: "Labyrinth"
+				title: "&#8B4513Labyrinth"
 				type: "structure"
 			}]
 			x: 10.0d
@@ -3269,7 +3269,7 @@
 				}
 				id: "1EBC2A5125304003"
 				structure: "queen_bee:beehive"
-				title: "Queen Bee Beehive"
+				title: "&#8B4513Queen Bee Beehive"
 				type: "structure"
 			}]
 			x: 10.0d
@@ -3312,7 +3312,7 @@
 				}
 				id: "44CF995335A65849"
 				structure: "idas:pillager_fortress"
-				title: "Pillager Fortress"
+				title: "&#8B4513Pillager Fortress"
 				type: "structure"
 			}]
 			x: 20.0d
@@ -3354,7 +3354,7 @@
 				}
 				id: "4C24C396D1DE30E1"
 				structure: "idas:ruins_of_the_deep"
-				title: "Ruins of The Deep"
+				title: "&#8B4513Ruins of The Deep"
 				type: "structure"
 			}]
 			x: 12.0d
@@ -3396,7 +3396,7 @@
 				}
 				id: "0C42913BCE2CEC5F"
 				structure: "idas:tinkers_citadel"
-				title: "Tinker's Citadel"
+				title: "&#8B4513Tinker's Citadel"
 				type: "structure"
 			}]
 			x: 8.0d
@@ -3438,7 +3438,7 @@
 				}
 				id: "0CDEEC049E0694B7"
 				structure: "idas:tinkers_workshop"
-				title: "Tinker's Workshop"
+				title: "&#8B4513Tinker's Workshop"
 				type: "structure"
 			}]
 			x: 8.0d
@@ -3480,7 +3480,7 @@
 				}
 				id: "6F69740D0B0A6D11"
 				structure: "idas:tree_of_wisdom"
-				title: "Tree of Wisdom"
+				title: "&#8B4513Tree of Wisdom"
 				type: "structure"
 			}]
 			x: 13.0d
@@ -3522,7 +3522,7 @@
 				}
 				id: "39FCC567142E8F88"
 				structure: "idas:necromancers_spire"
-				title: "Necromancer's Spire"
+				title: "&#8B4513Necromancer's Spire"
 				type: "structure"
 			}]
 			x: 20.0d
@@ -3565,7 +3565,7 @@
 				}
 				id: "59053364AD841B37"
 				structure: "minecraft:ancient_city"
-				title: "Ancient City"
+				title: "&#8B4513Ancient City"
 				type: "structure"
 			}]
 			x: 9.0d
@@ -3607,7 +3607,7 @@
 				}
 				id: "16E732062FA75A07"
 				structure: "dungeons_arise:bandit_towers"
-				title: "Bandit Towers"
+				title: "&#8B4513Bandit Towers"
 				type: "structure"
 			}]
 			x: 12.0d
@@ -3649,7 +3649,7 @@
 				}
 				id: "23CB96896BC8519D"
 				structure: "dungeons_arise:bathhouse"
-				title: "Bathhouse"
+				title: "&#8B4513Bathhouse"
 				type: "structure"
 			}]
 			x: 19.0d
@@ -3691,7 +3691,7 @@
 				}
 				id: "0F7C9F8901D32B16"
 				structure: "dungeons_arise:coliseum"
-				title: "Coliseum"
+				title: "&#8B4513Coliseum"
 				type: "structure"
 			}]
 			x: 13.0d
@@ -3733,7 +3733,7 @@
 				}
 				id: "572EA0C245513264"
 				structure: "dungeons_arise:foundry"
-				title: "Foundry"
+				title: "&#8B4513Foundry"
 				type: "structure"
 			}]
 			x: 7.0d
@@ -3775,7 +3775,7 @@
 				}
 				id: "109C9670127E5140"
 				structure: "dungeons_arise:illager_fort"
-				title: "Illager Fort"
+				title: "&#8B4513Illager Fort"
 				type: "structure"
 			}]
 			x: 13.0d
@@ -3817,7 +3817,7 @@
 				}
 				id: "0FB81290C4217A85"
 				structure: "dungeons_arise:infested_temple"
-				title: "Infested Temple"
+				title: "&#8B4513Infested Temple"
 				type: "structure"
 			}]
 			x: 14.0d
@@ -3859,7 +3859,7 @@
 				}
 				id: "6DFBB31CAB1E8E22"
 				structure: "dungeons_arise:keep_kayra"
-				title: "Keep Kayra"
+				title: "&#8B4513Keep Kayra"
 				type: "structure"
 			}]
 			x: 16.0d
@@ -3901,7 +3901,7 @@
 				}
 				id: "4BE93B870B2D98BC"
 				structure: "dungeons_arise:mining_system"
-				title: "Mining System"
+				title: "&#8B4513Mining System"
 				type: "structure"
 			}]
 			x: 14.0d
@@ -3943,7 +3943,7 @@
 				}
 				id: "0F251BD27F365AE5"
 				structure: "dungeons_arise:mushroom_mines"
-				title: "Mushroom Mines"
+				title: "&#8B4513Mushroom Mines"
 				type: "structure"
 			}]
 			x: 15.0d
@@ -3985,7 +3985,7 @@
 				}
 				id: "005479B116834A2E"
 				structure: "dungeons_arise:mushroom_village"
-				title: "Mushroom Village"
+				title: "&#8B4513Mushroom Village"
 				type: "structure"
 			}]
 			x: 15.0d
@@ -4030,7 +4030,7 @@
 				}
 				id: "7B59F6ED77C1EB5E"
 				structure: "dungeons_arise:plague_asylum"
-				title: "Plague Asylum"
+				title: "&#8B4513Plague Asylum"
 				type: "structure"
 			}]
 			x: 14.0d
@@ -4072,7 +4072,7 @@
 				}
 				id: "5FC53619EBB282CA"
 				structure: "dungeons_arise:scorched_mines"
-				title: "Scorched Mines"
+				title: "&#8B4513Scorched Mines"
 				type: "structure"
 			}]
 			x: 22.0d
@@ -4114,7 +4114,7 @@
 				}
 				id: "544990ED82C51091"
 				structure: "dungeons_arise:shiraz_palace"
-				title: "Shiraz Palace"
+				title: "&#8B4513Shiraz Palace"
 				type: "structure"
 			}]
 			x: 16.0d
@@ -4156,7 +4156,7 @@
 				}
 				id: "1D474902C502C04F"
 				structure: "dungeons_arise:thornborn_towers"
-				title: "Thornborn Towers"
+				title: "&#8B4513Thornborn Towers"
 				type: "structure"
 			}]
 			x: 16.0d
@@ -4198,7 +4198,7 @@
 				}
 				id: "6B7269C4E29B4EA4"
 				structure: "dungeons_arise:aviary"
-				title: "Aviary"
+				title: "&#8B4513Aviary"
 				type: "structure"
 			}]
 			x: 19.0d
@@ -4243,7 +4243,7 @@
 				}
 				id: "36D9F8B943A2E47B"
 				structure: "dungeons_arise:heavenly_challenger"
-				title: "Heavenly Challenger"
+				title: "&#8B4513Heavenly Challenger"
 				type: "structure"
 			}]
 			x: 15.0d
@@ -4288,7 +4288,7 @@
 				}
 				id: "7A3386E337D3F1B4"
 				structure: "dungeons_arise:heavenly_conqueror"
-				title: "Heavenly Conquerer"
+				title: "&#8B4513Heavenly Conquerer"
 				type: "structure"
 			}]
 			x: 15.0d
@@ -4330,7 +4330,7 @@
 				}
 				id: "364190D730B02EFB"
 				structure: "dungeons_arise:heavenly_rider"
-				title: "Heavenly Rider"
+				title: "&#8B4513Heavenly Rider"
 				type: "structure"
 			}]
 			x: 18.0d
@@ -4372,7 +4372,7 @@
 				}
 				id: "53CF9024D1C33C05"
 				structure: "ars_additions:arcane_library"
-				title: "Arcane Library"
+				title: "&#8B4513Arcane Library"
 				type: "structure"
 			}]
 			x: 10.0d
@@ -4414,7 +4414,7 @@
 				}
 				id: "2279063B1A74A165"
 				structure: "ati_structures:ancient_temple"
-				title: "Ancient Temple"
+				title: "&#8B4513Ancient Temple"
 				type: "structure"
 			}]
 			x: 17.0d
@@ -4456,7 +4456,7 @@
 				}
 				id: "511D58A375F13527"
 				structure: "ati_structures:fortified_temple"
-				title: "Fortified Temple"
+				title: "&#8B4513Fortified Temple"
 				type: "structure"
 			}]
 			x: 18.0d
@@ -4498,7 +4498,7 @@
 				}
 				id: "23AF3B21A89D2172"
 				structure: "ati_structures:granite_fort"
-				title: "Granite Fort"
+				title: "&#8B4513Granite Fort"
 				type: "structure"
 			}]
 			x: 19.0d
@@ -4540,7 +4540,7 @@
 				}
 				id: "6B320C4CDB176256"
 				structure: "ati_structures:herobrine_stronghold"
-				title: "Herobrine Stronghold"
+				title: "&#8B4513Herobrine Stronghold"
 				type: "structure"
 			}]
 			x: 17.0d
@@ -4582,7 +4582,7 @@
 				}
 				id: "615F9F90D5B725D4"
 				structure: "ati_structures:manor"
-				title: "Manor"
+				title: "&#8B4513Manor"
 				type: "structure"
 			}]
 			x: 17.0d
@@ -4624,7 +4624,7 @@
 				}
 				id: "7828EF718A3A4FFA"
 				structure: "ati_structures:marble_chateau"
-				title: "Marble Chateau"
+				title: "&#8B4513Marble Chateau"
 				type: "structure"
 			}]
 			x: 22.0d
@@ -4666,7 +4666,7 @@
 				}
 				id: "350558F7FA871759"
 				structure: "ati_structures:monastery_tower"
-				title: "Monastery Tower"
+				title: "&#8B4513Monastery Tower"
 				type: "structure"
 			}]
 			x: 21.0d
@@ -4708,7 +4708,7 @@
 				}
 				id: "3E538E3B1EDACB28"
 				structure: "ati_structures:old_fort"
-				title: "Old Fort"
+				title: "&#8B4513Old Fort"
 				type: "structure"
 			}]
 			x: 20.0d
@@ -4750,7 +4750,7 @@
 				}
 				id: "7C61825AEEDF790D"
 				structure: "ati_structures:sinking_temple"
-				title: "Sinking Temple"
+				title: "&#8B4513Sinking Temple"
 				type: "structure"
 			}]
 			x: 20.0d
@@ -4792,7 +4792,7 @@
 				}
 				id: "38705C2DEF84CB20"
 				structure: "ati_structures:tavern"
-				title: "Tavern"
+				title: "&#8B4513Tavern"
 				type: "structure"
 			}]
 			x: 21.0d
@@ -4834,7 +4834,7 @@
 				}
 				id: "1412A878A9D1F7DF"
 				structure: "ati_structures:villager_inn"
-				title: "Villager Inn"
+				title: "&#8B4513Villager Inn"
 				type: "structure"
 			}]
 			x: 21.0d
@@ -4875,7 +4875,7 @@
 				}
 				id: "6FB3D4A7ABE43AB3"
 				structure: "idas:winter_wagon"
-				title: "Winter Wagon"
+				title: "&#8B4513Winter Wagon"
 				type: "structure"
 			}]
 			x: 12.0d
@@ -4916,7 +4916,7 @@
 				}
 				id: "315B493C73BEFD9B"
 				structure: "minecraft:mansion"
-				title: "Mansion"
+				title: "&#8B4513Mansion"
 				type: "structure"
 			}]
 			x: 18.0d
@@ -4957,7 +4957,7 @@
 				}
 				id: "053E33CFD2147DD8"
 				structure: "idas:nexus"
-				title: "Nexus"
+				title: "&#8B4513Nexus"
 				type: "structure"
 			}]
 			x: 23.0d
@@ -5003,7 +5003,7 @@
 					}
 				}
 				id: "4A5B03B6A20CFEE5"
-				title: "&l&eTame Dobutsu (Creeper)"
+				title: "&l&#8B4513Tame Dobutsu (Creeper)"
 				type: "advancement"
 			}]
 			x: 7.5d
@@ -5012,8 +5012,8 @@
 		{
 			dependencies: ["019F9DFD295F0D27"]
 			description: [
-				"The Dobutsu is a quick-change artist that can mimic the appearance of other players, though its form will remain the same. Open the menu of a captured Dobutsu, click on Texture Settings, and it will attempt to mimic a chosen player’s appearance."
-				"They live in open fields and enjoy eating sweet berries."
+				"&0  The Dobutsu is a quick-change artist   that can mimic the appearance of         other players, though its form will       remain the same. Open the menu of a     captured Dobutsu, click on Texture      Settings, and it will attempt to mimic a     chosen player’s appearance.&r"
+				"&0  They live in open fields and enjoy      eating sweet berries.&r"
 			]
 			id: "7B1F40183EB020C1"
 			rewards: [
@@ -5053,7 +5053,7 @@
 					}
 				}
 				id: "5C52C16D3379E028"
-				title: "&l&eTame Dobutsu"
+				title: "&l&#8B4513Tame Dobutsu"
 				type: "advancement"
 			}]
 			x: 8.0d
@@ -5099,7 +5099,7 @@
 					}
 				}
 				id: "4C1CA1114A6110EA"
-				title: "&l&eTame Dobutsu (Enderman)"
+				title: "&l&#8B4513Tame Dobutsu (Enderman)"
 				type: "advancement"
 			}]
 			x: 8.0d
@@ -5108,8 +5108,8 @@
 		{
 			dependencies: ["09086210A45E9C28"]
 			description: [
-				"Fairies are magical creatures with a variety of abilities. They will heal you and your group throughout your journey and will even learn new abilities over time."
-				"They live in the flower forest and enjoy eating cakes."
+				"&0  Fairies are magical creatures with a    variety of abilities. They will heal you    and your group throughout your        journey and will even learn new          abilities over time.&r"
+				"&0  They live in the flower forest and      enjoy eating cakes.&r"
 			]
 			id: "60094B10C4A8C6FB"
 			rewards: [
@@ -5149,7 +5149,7 @@
 					}
 				}
 				id: "56FF1B00BAE81A64"
-				title: "&l&eTame Fairy"
+				title: "&l&#8B4513Tame Fairy"
 				type: "advancement"
 			}]
 			x: 10.5d
@@ -5195,7 +5195,7 @@
 					}
 				}
 				id: "7F2E27D588B409B9"
-				title: "&l&eTame Fairy (Blue)"
+				title: "&l&#8B4513Tame Fairy (Blue)"
 				type: "advancement"
 			}]
 			x: 11.5d
@@ -5241,7 +5241,7 @@
 					}
 				}
 				id: "526E0DB16CA7F4B3"
-				title: "&l&eTame Fairy (Red)"
+				title: "&l&#8B4513Tame Fairy (Red)"
 				type: "advancement"
 			}]
 			x: 9.5d
@@ -5250,9 +5250,9 @@
 		{
 			dependencies: ["610EC311E5BF574C"]
 			description: [
-				"Welsh Corgis are loyal companions that will support you, other players, and allies with their presence and special effects. The type of effects they provide depends on their level, offering increasing benefits as they grow stronger."
+				"&0  Welsh Corgis are loyal companions      that will support you, other players,     and allies with their presence and       special effects. The type of effects    they provide depends on their level,    offering increasing benefits as they    grow stronger.&r"
 				""
-				"These adorable dogs can be found in the taiga biome and, like other dogs, they enjoy chewing on bones."
+				"&0  These adorable dogs can be found     in the taiga biome and, like other dogs,  they enjoy chewing on bones.&r"
 			]
 			id: "4C0FF82149E4C4CE"
 			rewards: [
@@ -5292,11 +5292,11 @@
 					}
 				}
 				id: "2929B562264D4195"
-				title: "&l&eTame Welsh Corgi"
+				title: "&l&#8B4513Tame Welsh Corgi"
 				type: "advancement"
 			}]
-			x: 13.5d
-			y: 8.0d
+			x: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["610EC311E5BF574C"]
@@ -5338,11 +5338,11 @@
 					}
 				}
 				id: "6AE6ADAD214B2652"
-				title: "&l&eTame Welsh Corgi (Black)"
+				title: "&l&#8B4513Tame Welsh Corgi (Black)"
 				type: "advancement"
 			}]
-			x: 11.5d
-			y: 8.0d
+			x: 13.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["610EC311E5BF574C"]
@@ -5384,17 +5384,17 @@
 					}
 				}
 				id: "26D6081DAEDF9DFB"
-				title: "&l&eTame Welsh Corgi (Mixed)"
+				title: "&l&#8B4513Tame Welsh Corgi (Mixed)"
 				type: "advancement"
 			}]
-			x: 12.5d
-			y: 7.5d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2E9B4F7E5334B027"]
 			description: [
-				"The Samurai is a loyal companion that will protect you from harm. They can wield different types of weapons and armor, growing stronger over time as they fight alongside you."
-				"They live in the mountains and like eating healthy apples."
+				"&0  The Samurai is a loyal companion that  will protect you from harm. They can    wield different types of weapons and   armor, growing stronger over time as   they fight alongside you.&r"
+				"&0  They live in the mountains and like       eating healthy apples.&r"
 			]
 			id: "0D6CA24F9A8FEB3E"
 			rewards: [
@@ -5434,7 +5434,7 @@
 					}
 				}
 				id: "7DD863EBB8F0BB51"
-				title: "&l&eTame Samurai"
+				title: "&l&#8B4513Tame Samurai"
 				type: "advancement"
 			}]
 			x: 5.0d
@@ -5480,7 +5480,7 @@
 					}
 				}
 				id: "67378F8E6D51954F"
-				title: "&l&eTame Samurai (Black)"
+				title: "&l&#8B4513Tame Samurai (Black)"
 				type: "advancement"
 			}]
 			x: 4.5d
@@ -5489,8 +5489,8 @@
 		{
 			dependencies: ["019F9DFD295F0D27"]
 			description: [
-				"The Lizard is a simple companion that will follow you on your journey. While it doesn’t possess any special abilities, it’s easy to handle and a joy to have around."
-				"They live in deserts, jungles, swamps, and badlands, and they enjoy eating berries."
+				"&0  The Lizard is a simple companion that   will follow you on your journey. While   it doesn’t possess any special            abilities, it’s easy to handle and a joy   to have around.&r"
+				"&0  They live in deserts, jungles, swamps,  and badlands, and they enjoy eating    berries.&r"
 			]
 			id: "43BDD55DCEB4D8F6"
 			rewards: [
@@ -5530,11 +5530,11 @@
 					}
 				}
 				id: "56DCE5A4752E0BFB"
-				title: "&l&eTame Lizard "
+				title: "&l&#8B4513Tame Lizard "
 				type: "advancement"
 			}]
 			x: 9.0d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["2E9B4F7E5334B027"]
@@ -5576,7 +5576,7 @@
 					}
 				}
 				id: "7EAD0C2F20B21F9C"
-				title: "&l&eTame Samurai (Blue)"
+				title: "&l&#8B4513Tame Samurai (Blue)"
 				type: "advancement"
 			}]
 			x: 5.5d
@@ -5622,7 +5622,7 @@
 					}
 				}
 				id: "2F46F3E2B60D5B65"
-				title: "&l&eTame Lizard (Green)"
+				title: "&l&#8B4513Tame Lizard (Green)"
 				type: "advancement"
 			}]
 			x: 9.5d
@@ -5668,17 +5668,17 @@
 					}
 				}
 				id: "1616F2DC5F572407"
-				title: "&l&eTame Lizard (Desert)"
+				title: "&l&#8B4513Tame Lizard (Desert)"
 				type: "advancement"
 			}]
 			x: 9.0d
-			y: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["681A3A3C52431EAC"]
 			description: [
-				"The Raptor looks dangerous—and it is, especially when hungry! This fierce companion can be a powerful ally in your journey."
-				"They live in the jungle and enjoy eating meat."
+				"&0  The Raptor looks dangerous.. and it    is, especially when hungry! This fierce  companion can be a powerful ally in     your journey.&r"
+				"&0  They live in the jungle and enjoy       eating meat.&r"
 			]
 			id: "6E4CCFEB51760F2A"
 			rewards: [
@@ -5718,7 +5718,7 @@
 					}
 				}
 				id: "00BB0499F1803FB4"
-				title: "&l&eTame Raptor "
+				title: "&l&#8B4513Tame Raptor "
 				type: "advancement"
 			}]
 			x: 15.0d
@@ -5764,7 +5764,7 @@
 					}
 				}
 				id: "1B15B4A1AD7F65C8"
-				title: "&l&eTame Raptor (Dark Green)"
+				title: "&l&#8B4513Tame Raptor (Dark Green)"
 				type: "advancement"
 			}]
 			x: 15.5d
@@ -5810,7 +5810,7 @@
 					}
 				}
 				id: "0C3255F70AD00F63"
-				title: "&l&eTame Raptor (Pink)"
+				title: "&l&#8B4513Tame Raptor (Pink)"
 				type: "advancement"
 			}]
 			x: 15.0d
@@ -5819,9 +5819,9 @@
 		{
 			dependencies: ["2E9B4F7E5334B027"]
 			description: [
-				"Small Slimes are simple yet charming companions that will faithfully follow you on your journey. While they don’t possess any special abilities, they are easy to care for and make great player companions."
+				"&0  Small Slimes are simple yet charming    companions that will faithfully follow     you on your journey. While they don’t  possess any special abilities, they are  easy to care for and make great        player companions.&r"
 				""
-				"These little slimes can be found in jungles and swamps, and they enjoy snacking on apples."
+				"&0  These little slimes can be found in      jungles and swamps, and they enjoy    snacking on apples.&r"
 			]
 			id: "1E946855A06C92B6"
 			rewards: [
@@ -5861,7 +5861,7 @@
 					}
 				}
 				id: "37E0728BA7425BC8"
-				title: "&l&eTame Small Slime "
+				title: "&l&#8B4513Tame Small Slime "
 				type: "advancement"
 			}]
 			x: 3.5d
@@ -5907,7 +5907,7 @@
 					}
 				}
 				id: "223549B4FA3A4D72"
-				title: "&l&eTame Small Slime (White)"
+				title: "&l&#8B4513Tame Small Slime (White)"
 				type: "advancement"
 			}]
 			x: 3.5d
@@ -5953,7 +5953,7 @@
 					}
 				}
 				id: "164668F3B75A6B7A"
-				title: "&l&eTame Small Slime (Light Gray)"
+				title: "&l&#8B4513Tame Small Slime (Light Gray)"
 				type: "advancement"
 			}]
 			x: 4.5d
@@ -5999,7 +5999,7 @@
 					}
 				}
 				id: "4B8A07BAACD56B83"
-				title: "&l&eTame Small Slime (Gray)"
+				title: "&l&#8B4513Tame Small Slime (Gray)"
 				type: "advancement"
 			}]
 			x: 4.5d
@@ -6045,7 +6045,7 @@
 					}
 				}
 				id: "639EE18BDF976B6E"
-				title: "&l&eTame Small Slime (Black)"
+				title: "&l&#8B4513Tame Small Slime (Black)"
 				type: "advancement"
 			}]
 			x: 4.5d
@@ -6091,7 +6091,7 @@
 					}
 				}
 				id: "507BA26E0BAD5D26"
-				title: "&l&eTame Small Slime (Brown)"
+				title: "&l&#8B4513Tame Small Slime (Brown)"
 				type: "advancement"
 			}]
 			x: 4.5d
@@ -6137,7 +6137,7 @@
 					}
 				}
 				id: "29576F7E23FE0513"
-				title: "&l&eTame Small Slime (Red)"
+				title: "&l&#8B4513Tame Small Slime (Red)"
 				type: "advancement"
 			}]
 			x: 3.5d
@@ -6183,7 +6183,7 @@
 					}
 				}
 				id: "044EF15419EBA559"
-				title: "&l&eTame Small Slime (Orange)"
+				title: "&l&#8B4513Tame Small Slime (Orange)"
 				type: "advancement"
 			}]
 			x: 2.5d
@@ -6229,7 +6229,7 @@
 					}
 				}
 				id: "718D3C3B00F3CDBE"
-				title: "&l&eTame Small Slime (Yellow)"
+				title: "&l&#8B4513Tame Small Slime (Yellow)"
 				type: "advancement"
 			}]
 			x: 2.5d
@@ -6275,7 +6275,7 @@
 					}
 				}
 				id: "7E3A063DFD3C6532"
-				title: "&l&eTame Small Slime (Lime)"
+				title: "&l&#8B4513Tame Small Slime (Lime)"
 				type: "advancement"
 			}]
 			x: 2.5d
@@ -6321,7 +6321,7 @@
 					}
 				}
 				id: "2276DFB615F12613"
-				title: "&l&eTame Small Slime (Green)"
+				title: "&l&#8B4513Tame Small Slime (Green)"
 				type: "advancement"
 			}]
 			x: 2.5d
@@ -6367,7 +6367,7 @@
 					}
 				}
 				id: "033C7D345EA34B6D"
-				title: "&l&eTame Small Slime (Cyan)"
+				title: "&l&#8B4513Tame Small Slime (Cyan)"
 				type: "advancement"
 			}]
 			x: 5.5d
@@ -6413,7 +6413,7 @@
 					}
 				}
 				id: "1D30DDF02CF449F5"
-				title: "&l&eTame Small Slime (Light Blue)"
+				title: "&l&#8B4513Tame Small Slime (Light Blue)"
 				type: "advancement"
 			}]
 			x: 5.5d
@@ -6459,7 +6459,7 @@
 					}
 				}
 				id: "7F9B9AC667FE419B"
-				title: "&l&eTame Small Slime (Blue)"
+				title: "&l&#8B4513Tame Small Slime (Blue)"
 				type: "advancement"
 			}]
 			x: 5.5d
@@ -6505,7 +6505,7 @@
 					}
 				}
 				id: "10D9C1FF73CFCED0"
-				title: "&l&eTame Small Slime (Purple)"
+				title: "&l&#8B4513Tame Small Slime (Purple)"
 				type: "advancement"
 			}]
 			x: 1.5d
@@ -6551,7 +6551,7 @@
 					}
 				}
 				id: "39991BFBF196F84B"
-				title: "&l&eTame Small Slime (Magenta)"
+				title: "&l&#8B4513Tame Small Slime (Magenta)"
 				type: "advancement"
 			}]
 			x: 1.5d
@@ -6597,7 +6597,7 @@
 					}
 				}
 				id: "5B3F595AFB048DF9"
-				title: "&l&eTame Small Slime (Pink)"
+				title: "&l&#8B4513Tame Small Slime (Pink)"
 				type: "advancement"
 			}]
 			x: 1.5d
@@ -6606,8 +6606,8 @@
 		{
 			dependencies: ["40225EC7A83658FB"]
 			description: [
-				"The Rooster may not look dangerous, but it will bravely give its life to protect you. It can also carry a weapon, like a sword, to deal additional damage in battle."
-				"They live in the plains and enjoy eating wheat seeds."
+				"&0  The Rooster may not look dangerous,  but it will bravely give its life to          protect you. It can also carry a         weapon, like a sword, to deal additional  damage in battle.&r"
+				"&0  They live in the plains and enjoy        eating wheat seeds.&r"
 			]
 			id: "3C3300BBF37E580C"
 			rewards: [
@@ -6647,7 +6647,7 @@
 					}
 				}
 				id: "29AF01B90210D25E"
-				title: "&l&eTame Rooster"
+				title: "&l&#8B4513Tame Rooster"
 				type: "advancement"
 			}]
 			x: 13.0d
@@ -6693,7 +6693,7 @@
 					}
 				}
 				id: "087FB36FB94308B9"
-				title: "&l&eTame Rooster (Mixed)"
+				title: "&l&#8B4513Tame Rooster (Mixed)"
 				type: "advancement"
 			}]
 			x: 12.0d
@@ -6702,9 +6702,9 @@
 		{
 			dependencies: ["08D13FA4D57F1050"]
 			description: [
-				"Snails may be slow, but they are quite helpful! They will pick up any items within their range and store them in their inventory. To access their inventory, simply click on them with an empty hand."
+				"&0  Snails may be slow, but they are quite  helpful! They will pick up any items       within their range and store them in     their inventory. To access their          inventory, simply click on them with an   empty hand.&r"
 				""
-				"These gentle creatures live on beaches and love to munch on sea grass."
+				"&0  These gentle creatures live on          beaches and love to munch on sea       grass.&r"
 			]
 			id: "431B841C678F6FB1"
 			rewards: [
@@ -6744,7 +6744,7 @@
 					}
 				}
 				id: "1FE35771F2DEFC3F"
-				title: "&l&eTame Snail"
+				title: "&l&#8B4513Tame Snail"
 				type: "advancement"
 			}]
 			x: 13.0d
@@ -6790,17 +6790,17 @@
 					}
 				}
 				id: "593D25D54FF29217"
-				title: "&l&eTame Snail (Brown)"
+				title: "&l&#8B4513Tame Snail (Brown)"
 				type: "advancement"
 			}]
-			x: 14.0d
-			y: 13.5d
+			x: 13.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7C1A1740A2794718"]
 			description: [
-				"The Pig is a reliable companion that helps carry your belongings in its bags. It will also collect dropped items to ensure you don’t miss any loot during your journey."
-				"They live in the plains and like eating carrots."
+				"&0  The Pig is a reliable companion that     helps carry your belongings in its       bags. It will also collect dropped items  to ensure you don’t miss any loot        during your journey.&r"
+				"&0  They live in the plains and like           eating carrots.&r"
 			]
 			id: "0994E7FCC60E59DD"
 			rewards: [
@@ -6840,10 +6840,10 @@
 					}
 				}
 				id: "6229C765D4D35754"
-				title: "&l&eTame Pig"
+				title: "&l&#8B4513Tame Pig"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 15.5d
 		}
 		{
@@ -6886,7 +6886,7 @@
 					}
 				}
 				id: "1ABAA9AD59E1E5E6"
-				title: "&l&eTame (Spotted)"
+				title: "&l&#8B4513Tame (Spotted)"
 				type: "advancement"
 			}]
 			x: 9.0d
@@ -6895,8 +6895,8 @@
 		{
 			dependencies: ["4F0D568F9A540D15"]
 			description: [
-				"The Firefly will light up your path, even in the darkest places. They are easy to spot at night and will accompany you as long as you take care of them."
-				"They live in the plains and swamps and enjoy eating honeycombs."
+				"&0  The Firefly will light up your path,       even in the darkest places. They are   easy to spot at night and will              accompany you as long as you take     care of them.&r"
+				"&0  They live in the plains and swamps      and enjoy eating honeycombs.&r"
 			]
 			id: "58D3A958203633AF"
 			rewards: [
@@ -6936,7 +6936,7 @@
 					}
 				}
 				id: "5B1F7809DFC552DB"
-				title: "&l&eTame Firefly"
+				title: "&l&#8B4513Tame Firefly"
 				type: "advancement"
 			}]
 			x: 7.0d
@@ -6945,8 +6945,8 @@
 		{
 			dependencies: ["610EC311E5BF574C"]
 			description: [
-				"Small Ghasts are not easy to catch, but once you’ve befriended one, they will protect you for life. These loyal companions shoot small fireballs at your targets and some hostile mobs as well."
-				"They live in the Nether and Nether Wastes and enjoy eating fresh bones."
+				"&0  Small Ghasts are not easy to catch,    but once you’ve befriended one, they   will protect you for life. These loyal     companions shoot small fireballs at      your targets and some hostile mobs     as well.&r"
+				"&0  They live in the Nether and Nether      Wastes and enjoy eating fresh bones.&r"
 			]
 			id: "4EC97C5D3425BE0B"
 			rewards: [
@@ -6986,11 +6986,11 @@
 					}
 				}
 				id: "5B38BE4D80284D00"
-				title: "&l&eTame Small Ghast"
+				title: "&l&#8B4513Tame Small Ghast"
 				type: "advancement"
 			}]
-			x: 13.5d
-			y: 9.5d
+			x: 13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7269437C9234F086"]
@@ -7006,6 +7006,7 @@
 					}
 					id: "player_companions:tame_apple"
 				}
+				title: "&#8B4513&lApple"
 				type: "item"
 			}]
 			x: 7.5d
@@ -7027,6 +7028,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lBone"
 			x: 12.5d
 			y: 9.0d
 		}
@@ -7046,6 +7048,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lCake"
 			x: 10.5d
 			y: 16.0d
 		}
@@ -7065,6 +7068,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lCarrot"
 			x: 9.0d
 			y: 14.0d
 		}
@@ -7084,6 +7088,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lHoneycomb"
 			x: 8.0d
 			y: 13.0d
 		}
@@ -7103,6 +7108,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lRaw Mutton"
 			x: 13.5d
 			y: 11.5d
 		}
@@ -7122,6 +7128,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lSeagrass"
 			x: 12.5d
 			y: 13.0d
 		}
@@ -7141,6 +7148,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lSweet Berries"
 			x: 8.5d
 			y: 9.0d
 		}
@@ -7160,11 +7168,12 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lWheat Seeds"
 			x: 11.5d
 			y: 14.0d
 		}
 		{
-			description: ["Tame items are required to befriend the various types of player companions. Each companion has a preferred tame item, and in most cases, you will need several of these items to successfully tame them."]
+			description: ["&0  Tame items are required to befriend    the various types of player               companions. Each companion has a       preferred tame item, and in most          cases, you will need several of these   items to successfully tame them.&r"]
 			id: "7269437C9234F086"
 			rewards: [{
 				id: "68F5B7F925A0BF3B"
@@ -7185,12 +7194,12 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lPlayer Companions"
+			title: "&#8B4513&lPlayer Companions"
 			x: 10.5d
 			y: 11.5d
 		}
 		{
-			description: ["The Abyssal Chasm is a unique biome found deep beneath the world, but unlike other cave biomes, it is covered by hundreds of blocks of water instead of stone. This biome generates exclusively under ocean biomes and appears as a massive, dark trench where light barely penetrates the depths."]
+			description: ["&0  The Abyssal Chasm is a unique biome    found deep beneath the world, but       unlike other cave biomes, it is covered  by hundreds of blocks of water          instead of stone. This biome generates  exclusively under ocean biomes and     appears as a massive, dark trench      where light barely penetrates the       depths.&r"]
 			id: "4420269C5F270274"
 			rewards: [{
 				id: "160DE6FFD9DCC889"
@@ -7212,15 +7221,15 @@
 					}
 				}
 				id: "3F6DCAA272338625"
-				title: "Abyssal Chasm"
+				title: "&#8B4513Abyssal Chasm"
 				type: "biome"
 			}]
-			title: "&e&lAbyssal Chasm"
+			title: "&#8B4513&lAbyssal Chasm"
 			x: -3.5d
 			y: 11.5d
 		}
 		{
-			description: ["The Candy Cavity is a mysterious underground biome that defies all logic and expectation. This deeply unnatural place would be unsettling were it not for its overwhelming sugary sweetness. Made nearly entirely out of candy, this biome is a truly bizarre and mesmerizing sight to behold."]
+			description: ["&0  The Candy Cavity is a mysterious        underground biome that defies all        logic and expectation. This deeply        unnatural place would be unsettling     were it not for its overwhelming          sugary sweetness. Made nearly           entirely out of candy, this biome is a    truly bizarre and mesmerizing sight to  behold.&r"]
 			id: "258CDFBFFA8E1585"
 			rewards: [{
 				id: "29C8B618904C8F24"
@@ -7242,15 +7251,15 @@
 					}
 				}
 				id: "77871695C988AF34"
-				title: "Candy Cavity"
+				title: "&#8B4513Candy Cavity"
 				type: "biome"
 			}]
-			title: "&e&lCandy Cavity"
+			title: "&#8B4513&lCandy Cavity"
 			x: -7.5d
 			y: -7.5d
 		}
 		{
-			description: ["The Forlorn Hollows is an underground cavern system engulfed in pure darkness. Almost no light penetrates this eerie biome, as it is unnaturally shrouded by a thick shadow. While it may be tempting to light up this gloomy place, players must take care—light sources can attract unwanted attention. All creatures that inhabit the Forlorn Hollows have been twisted by its dark influence, with some subjected to even darker powers."]
+			description: ["&0  The Forlorn Hollows is an                 underground cavern system engulfed  in pure darkness. Almost no light         penetrates this eerie biome, as it is      unnaturally shrouded by a thick          shadow. While it may be tempting to        light up this gloomy place, players       must be careful, light sources can       attract unwanted attention. All            creatures that inhabit the Forlorn       Hollows have been twisted by its dark   influence, with some subjected to        even darker powers.&r"]
 			id: "1F8C247681E74F3A"
 			rewards: [{
 				id: "23DEDC8934E4F73D"
@@ -7272,20 +7281,20 @@
 					}
 				}
 				id: "22D2739D683E0FC3"
-				title: "Forlorn Hollows"
+				title: "&#8B4513Forlorn Hollows"
 				type: "biome"
 			}]
-			title: "&e&lForlorn Hollows"
+			title: "&#8B4513&lForlorn Hollows"
 			x: 19.5d
 			y: 14.5d
 		}
 		{
 			description: [
-				"The Magnetic Caves are a breathtaking and otherworldly biome, characterized by enormous Neodymium crystals that emerge from a terrain composed of Galena, an iron-rich stone. These crystals, the namesake of the cave, come in two distinct varieties: Scarlet Neodymium and Azure Neodymium."
+				"&0  The Magnetic Caves are a                 breathtaking and otherworldly biome,    characterized by enormous Neodymium  crystals that emerge from a terrain    composed of Galena, an iron-rich        stone. These crystals, the namesake    of the cave, come in two distinct          varieties: Scarlet Neodymium and          Azure Neodymium.&r"
 				""
-				"In addition to the crystals, Tesla Bulbs can be found scattered throughout the Magnetic Caves. While they may appear beautiful, these volatile blocks emit arcs of lightning that zap anything or anyone who ventures too close."
+				"&0  In addition to the crystals, Tesla        Bulbs can be found scattered            throughout the Magnetic Caves. While    they may appear beautiful, these         volatile blocks emit arcs of lightning     that zap anything or anyone who         ventures too close.&r"
 				""
-				"The Magnetic Caves also feature floating clusters of Galena that hover mysteriously within the cavern itself. These clusters are held aloft by the latent magnetic forces that permeate the biome, giving the caves their uniquely surreal structure."
+				"&0  The Magnetic Caves also feature        floating clusters of Galena that hover  mysteriously within the cavern itself.    These clusters are held aloft by the   latent magnetic forces that permeate   the biome, giving the caves their          uniquely surreal structure.&r"
 			]
 			id: "65010D52DC567C8F"
 			rewards: [{
@@ -7308,15 +7317,15 @@
 					}
 				}
 				id: "587F9B52A203FEEA"
-				title: "Magnetic Caves"
+				title: "&#8B4513Magnetic Caves"
 				type: "biome"
 			}]
-			title: "&e&lMagnetic Caves"
+			title: "&#8B4513&lMagnetic Caves"
 			x: 13.0d
 			y: -18.0d
 		}
 		{
-			description: ["The Primordial Caves are limestone-laden caverns isolated for millions of years, resulting in unique prehistoric geology, flora, and fauna. Ambersol clusters illuminate the caves from above, creating a daytime-like brightness that supports large plants such as Pewen Trees, Ancient Jungle Trees, Cycads, Flytraps, and Curly Ferns. The ground is mossy, with muddy lakes scattered throughout. Despite lacking monsters, the caves are not entirely safe."]
+			description: ["&0  The Primordial Caves are                  limestone-laden caverns isolated for   millions of years, resulting in unique     prehistoric geology, flora, and fauna.   Ambersol clusters illuminate the caves  from above, creating a daytime-like      brightness that supports large plants  such as Pewen Trees, Ancient Jungle    Trees, Cycads, Flytraps, and Curly      Ferns. The ground is mossy, with         muddy lakes scattered throughout.      Despite lacking monsters, the caves     are not entirely safe.&r"]
 			id: "17B7C61B3BA03A8A"
 			rewards: [{
 				id: "1B83E41148812857"
@@ -7338,18 +7347,18 @@
 					}
 				}
 				id: "4ABFD1698B1322D5"
-				title: "Primordial Caves"
+				title: "&#8B4513Primordial Caves"
 				type: "biome"
 			}]
-			title: "&e&lPrimordial Caves"
+			title: "&#8B4513&lPrimordial Caves"
 			x: 30.0d
 			y: -11.5d
 		}
 		{
 			description: [
-				"The Toxic Caves are a massive, hostile underground wasteland, likely the result of past scientific excess. The terrain is made of Radrock, which occasionally contains Uranium Ore. Large pits of Acid divide the caves, corroding armor and dissolving anything that enters. Acid can also turn Scrap Metal into Rusty Scrap Metal."
+				"&0  The Toxic Caves are a massive,          hostile underground wasteland, likely    the result of past scientific excess.     The terrain is made of Radrock, which   occasionally contains Uranium Ore.       Large pits of Acid divide the caves,      corroding armor and dissolving           anything that enters. Acid can also      turn Scrap Metal into Rusty Scrap       Metal.&r"
 				""
-				"Geothermal Vents spew deadly miasma from acidic pits, while Sulfur Stacks grow beneath dripping Acidic Radrock. Ruins of past industrial and atomic progress dot the caves, often containing valuable loot. However, radioactive items like Waste Drums or Uranium Rods can expose adventurers to radiation."
+				"&0  Geothermal Vents spew deadly           miasma from acidic pits, while Sulfur      Stacks grow beneath dripping Acidic     Radrock. Ruins of past industrial and    atomic progress dot the caves, often   containing valuable loot. However,        radioactive items like Waste Drums or    Uranium Rods can expose                  adventurers to radiation.&r"
 			]
 			id: "4AF1C9E8CC844C97"
 			rewards: [{
@@ -7372,19 +7381,19 @@
 					}
 				}
 				id: "2C10F4B541FF1BBE"
-				title: "Toxic Caves"
+				title: "&#8B4513Toxic Caves"
 				type: "biome"
 			}]
-			title: "&e&lToxic Caves"
+			title: "&#8B4513&lToxic Caves"
 			x: 37.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["4420269C5F270274"]
 			description: [
-				"The Hullbreaker is a colossal fish, over fifteen blocks long, and a terrifying predator perfectly adapted to hunt in the dark waters of the Abyssal Chasm. It seeks out glowing entities, using its massive teeth to bite prey or its powerful head to smash targets like a battering ram."
+				"&0  The Hullbreaker is a colossal fish,      over fifteen blocks long, and a           terrifying predator perfectly adapted  to hunt in the dark waters of the        Abyssal Chasm. It seeks out glowing      entities, using its massive teeth to bite  prey or its powerful head to smash     targets like a battering ram.&r"
 				""
-				"In the rare event that a Hullbreaker is defeated in combat, it will spew out what it has consumed before dying. Drops include common items such as ink sacs but can also include the remains of Submarines, like the Enigmatic Engine, as well as mysterious objects like Immortal Embryos."
+				"&0  In the rare event that a Hullbreaker   is defeated in combat, it will spew out    what it has consumed before dying.      Drops include common items such as     ink sacs but can also include the         remains of Submarines, like the            Enigmatic Engine, as well as mysterious  objects like Immortal Embryos.&r"
 			]
 			id: "14223D32A53F8EC7"
 			rewards: [
@@ -7423,15 +7432,16 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lHullbreaker"
 			x: -5.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["51B15C1AF50B15C7"]
 			description: [
-				"Mine Guardians are dangerous and often difficult to spot in the Abyssal Chasm. These sentinels are chained to an anchor on the seafloor, often near Abyssal Ruins. They periodically open their single eye to scan for targets. If a target is detected within close range, the Mine Guardian will begin to float toward it and suddenly explode upon contact."
+				"&0  Mine Guardians are dangerous and     often difficult to spot in the Abyssal    Chasm. These sentinels are chained to  an anchor on the seafloor, often        near Abyssal Ruins. They periodically   open their single eye to scan for        targets. If a target is detected within   close range, the Mine Guardian will       begin to float toward it and suddenly    explode upon contact.&r"
 				""
-				"If players manage to defeat a Mine Guardian before it detonates, it can drop a Depth Charge. This throwable item creates a small underwater explosion that can even destroy blocks."
+				"&0  If players manage to defeat a Mine     Guardian before it detonates, it can     drop a Depth Charge. This throwable    item creates a small underwater          explosion that can even destroy         blocks.&r"
 			]
 			id: "70A9E656D699BE49"
 			rewards: [
@@ -7470,12 +7480,13 @@
 				type: "kill"
 				value: 2L
 			}]
+			title: "&#8B4513&lMine Guardians"
 			x: -3.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["4420269C5F270274"]
-			description: ["The Abyssal Ruins are ancient, submerged structures scattered across the Abyssal Chasm. Occasionally, these ruins may contain a Submarine in disrepair. To restore a damaged Submarine, players can use copper ingots to repair it and an axe to remove any oxidation from its surfaces. Once repaired, a Submarine can be piloted and comes equipped with floodlights to improve visibility in the depths."]
+			description: ["&0  The Abyssal Ruins are ancient,           submerged structures scattered        across the Abyssal Chasm.                 Occasionally, these ruins may contain   a Submarine in disrepair. To restore a  damaged Submarine, players can use    copper ingots to repair it and an axe   to remove any oxidation from its          surfaces. Once repaired, a Submarine   can be piloted and comes equipped       with floodlights to improve visibility in    the depths.&r"]
 			id: "51B15C1AF50B15C7"
 			rewards: [
 				{
@@ -7510,9 +7521,10 @@
 				}
 				id: "621CFA67ED4B467F"
 				structure: "alexscaves:abyssal_ruins"
-				title: "Abyssal Ruins"
+				title: "&#8B4513Abyssal Ruins"
 				type: "structure"
 			}]
+			title: "&#8B4513&lAbyssal Ruins"
 			x: -2.0d
 			y: 13.0d
 		}
@@ -7521,7 +7533,7 @@
 				"14223D32A53F8EC7"
 				"51B15C1AF50B15C7"
 			]
-			description: ["To create an entirely new submarine will require multiple copper blocks, an Enigmatic Engine, and a few Depth Glass blocks. Simply surround the Enigmatic Engine with a copper cube, and make sure to use six Depth Glass to mark the front of the vehicle."]
+			description: ["&0  To create an entirely new submarine   will require multiple copper blocks, an   Enigmatic Engine, and a few Depth         Glass blocks. Simply surround the        Enigmatic Engine with a copper cube,     and make sure to use six Depth Glass   to mark the front of the vehicle.&r"]
 			id: "26D4159CE7AFDF0E"
 			rewards: [
 				{
@@ -7557,6 +7569,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lSubmarine"
 			x: -3.5d
 			y: 14.5d
 		}
@@ -7565,7 +7578,7 @@
 				"258CDFBFFA8E1585"
 				"124ACDE07700F485"
 			]
-			description: ["The Sweetish Fish is one of the many curious creatures found in the Candy Cavity. It comes in multiple color variations, adding to its vibrant, whimsical nature. If slain and cooked, a Sweetish Fish transforms into Gelatin, a common crafting ingredient."]
+			description: ["&0  The Sweetish Fish is one of the many   curious creatures found in the Candy  Cavity. It comes in multiple color          variations, adding to its vibrant,          whimsical nature. If slain and cooked,    a Sweetish Fish transforms into           Gelatin, a common crafting ingredient.&r"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -7615,7 +7628,7 @@
 				title: "Gelatin"
 				type: "item"
 			}]
-			title: "Sweetish Fish"
+			title: "&#8B4513&lSweetish Fish"
 			x: -6.0d
 			y: -6.0d
 		}
@@ -7660,15 +7673,15 @@
 				}
 				type: "item"
 			}]
-			title: "Licoroot Vines"
+			title: "&#8B4513&lLicoroot Vines"
 			x: -9.0d
 			y: -6.0d
 		}
 		{
 			description: [
-				"The Sack of Sating is a unique utility item that stores hunger values from food. Players can drag food items onto the sack to have it promptly devour them, saving their hunger value for later."
+				"&0  The Sack of Sating is a unique utility    item that stores hunger values from    food. Players can drag food items       onto the sack to have it promptly        devour them, saving their hunger        value for later.&r"
 				""
-				"When the Sack of Sating is in the inventory of a hungry player, it will automatically attempt to feed them, making it a convenient companion during long adventures."
+				"&0  When the Sack of Sating is in the        inventory of a hungry player, it will     automatically attempt to feed them,       making it a convenient companion          during long adventures.&r"
 			]
 			id: "124ACDE07700F485"
 			rewards: [
@@ -7706,6 +7719,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lSack of Sating"
 			x: -7.5d
 			y: -4.5d
 		}
@@ -7715,11 +7729,11 @@
 				"124ACDE07700F485"
 			]
 			description: [
-				"The Gum Worm is a colossal creature, stretching many tens of blocks long. Composed of hard candy segments held together by sticky gum, this titanic beast burrows through the layers of chocolate and cake that form the sediment of the Candy Cavity."
+				"&0  The Gum Worm is a colossal creature,  stretching many tens of blocks long.    Composed of hard candy segments       held together by sticky gum, this         titanic beast burrows through the       layers of chocolate and cake that       form the sediment of the Candy Cavity.&r"
 				""
-				"From time to time, the Gum Worm will surface and leap out of the earth. Players can launch dual-wielded Candy Cane Hooks at the creature, allowing them to ride the worm and control its direction to perform powerful leaps that deal area damage."
+				"&0  From time to time, the Gum Worm will      surface and leap out of the earth.      Players can launch dual-wielded         Candy Cane Hooks at the creature,      allowing them to ride the worm and       control its direction to perform          powerful leaps that deal area damage.&r"
 				""
-				"If slain, the Gum Worm can drop its legendary Sweet Tooth."
+				"&0  If slain, the Gum Worm can drop its      legendary Sweet Tooth.&r"
 			]
 			id: "77725E6278D26E36"
 			rewards: [
@@ -7756,13 +7770,13 @@
 				}
 				type: "item"
 			}]
-			title: "Gum Worm"
+			title: "&#8B4513&lGum Worm"
 			x: -7.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1F8C247681E74F3A"]
-			description: ["Underzealots are intelligent, mole-like cultists that roam the Forlorn Hollows. Due to their poor vision, they possess a naturally low detection range, making them less likely to spot players at a distance. However, fighting them is no easy feat—after each slash from their claws, Underzealots will burrow underground and reappear nearby, keeping combat unpredictable."]
+			description: ["&0  Underzealots are intelligent, mole-like  cultists that roam the Forlorn Hollows.  Due to their poor vision, they possess  a naturally low detection range,          making them less likely to spot players  at a distance. However, fighting them is  no easy feat, after each slash from    their claws, Underzealots will burrow    underground and reappear nearby,     keeping combat unpredictable.&r"]
 			id: "5CDAA0C3C17C33BC"
 			rewards: [
 				{
@@ -7798,21 +7812,22 @@
 				id: "1F0B0618FD5CD52B"
 				observe_type: 5
 				timer: 0L
-				title: "Observe: Underzealot"
+				title: "&#8B4513Observe: Underzealot"
 				to_observe: "alexscaves:underzealot"
 				type: "observation"
 			}]
+			title: "&#8B4513&lUnderzealot"
 			x: 19.5d
 			y: 16.0d
 		}
 		{
 			dependencies: ["5CDAA0C3C17C33BC"]
 			description: [
-				"Underzealots are especially drawn to Gloomoths, which are often seen fluttering around low-lying light sources like torches. If an Underzealot catches a Gloomoth and at least three other Underzealots take notice, a ritual will begin. During this ritual, an eminence of dark, otherworldly power briefly manifests, channeling its energy into the sacrifice and warping it into a new kind of monster."
+				"&0  Underzealots are especially drawn to  Gloomoths, which are often seen          fluttering around low-lying light          sources like torches. If an                Underzealot catches a Gloomoth and    at least three other Underzealots       take notice, a ritual will begin. During    this ritual, an eminence of dark,           otherworldly power briefly manifests,   channeling its energy into the             sacrifice and warping it into a new       kind of monster.&r"
 				""
-				"The Watcher is a relentless entity that stalks adventurers over great distances. It is not content to simply observe—on occasion, the Watcher will make its presence known by possessing its target. During this possession, the player’s perspective is forcibly shifted to the Watcher’s point of view, afterward, the Watcher's eerie moth-like face briefly appears in the player's vision, as if to remind them of its lingering presence."
+				"&0  The Watcher is a relentless entity      that stalks adventurers over great     distances. It is not content to simply     observe, on occasion, the Watcher will  make its presence known by               possessing its target. During this        possession, the player’s perspective   is forcibly shifted to the Watcher’s      point of view, afterward, the Watcher's  eerie moth-like face briefly appears    in the player's vision, as if to remind    them of its lingering presence.&r"
 				""
-				"Upon death, the Watcher will drop Dark Tatters and, on rare occasions, an Occult Gem."
+				"&0  Upon death, the Watcher will drop       Dark Tatters and, on rare occasions,   an Occult Gem.&r"
 			]
 			id: "43C56F56C194CA87"
 			rewards: [
@@ -7851,17 +7866,18 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lWatcher"
 			x: 20.5d
 			y: 17.5d
 		}
 		{
 			dependencies: ["5CDAA0C3C17C33BC"]
 			description: [
-				"The Forsaken is the most powerful monster lurking in the Forlorn Hollows, but it does not occur naturally. A Forsaken is created only when Underzealots successfully perform a ritual on a Vesper."
+				"&0  The Forsaken is the most powerful      monster lurking in the Forlorn Hollows,  but it does not occur naturally. A        Forsaken is created only when           Underzealots successfully perform a   ritual on a Vesper.&r"
 				""
-				"Imbued with the potent dark magic of the Forlorn Hollows, the Forsaken possesses a vast array of deadly attacks designed to quickly dispatch its prey. When reduced to low health, its shadowy magic becomes fully apparent—it will transform into a pitch-black figure with glowing red eyes. In this shadow state, the Forsaken will rapidly heal itself as long as it remains out of direct light."
+				"&0  Imbued with the potent dark magic of   the Forlorn Hollows, the Forsaken       possesses a vast array of deadly      attacks designed to quickly dispatch     its prey. When reduced to low health,    its shadowy magic becomes fully          apparent, it will transform into a          pitch-black figure with glowing red       eyes. In this shadow state, the            Forsaken will rapidly heal itself as       long as it remains out of direct light.&r"
 				""
-				"If defeated, the Forsaken will drop multitudes of Pure Darkness, a rare and powerful material."
+				"&0  If defeated, the Forsaken will drop     multitudes of Pure Darkness, a rare     and powerful material.&r"
 			]
 			id: "2DF8F6447EBF38F9"
 			rewards: [
@@ -7900,17 +7916,18 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lForsaken"
 			x: 18.5d
 			y: 17.5d
 		}
 		{
 			dependencies: ["65010D52DC567C8F"]
 			description: [
-				"The Magnetron is a rare and powerful being encountered in the Magnetic Caves. It is a machine of mysterious origins, originally designed to extract resources from the biome."
+				"&0  The Magnetron is a rare and             powerful being encountered in the       Magnetic Caves. It is a machine of        mysterious origins, originally designed  to extract resources from the biome.&r"
 				""
-				"Magnetrons keep a deceptively low profile, slowly rolling across the ground on their central heart. However, when an intruder is detected, the Magnetron springs to life, using nearby blocks to form a massive, imposing body around itself."
+				"&0  Magnetrons keep a deceptively low      profile, slowly rolling across the         ground on their central heart.            However, when an intruder is              detected, the Magnetron springs to      life, using nearby blocks to form a       massive, imposing body around itself.&r"
 				""
-				"Once defeated, the Magnetron’s constructed body will fall apart, causing its many blocks to disperse throughout the cave. Among the debris, players can recover its Heart of Iron, a valuable block and testament to the Magnetron’s formidable nature."
+				"&0  Once defeated, the Magnetron’s         constructed body will fall apart,          causing its many blocks to disperse     throughout the cave. Among the          debris, players can recover its Heart  of Iron, a valuable block and              testament to the Magnetron’s              formidable nature.&r"
 			]
 			id: "697B6370E74AE21A"
 			rewards: [
@@ -7949,17 +7966,18 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lMagnetron"
 			x: 11.5d
 			y: -16.5d
 		}
 		{
 			dependencies: ["65010D52DC567C8F"]
 			description: [
-				"The Boundroid may appear to be a single entity, but it is actually a mechanical being composed of two separate parts: A head and a walking winch, bound together by a chain."
+				"&0  The Boundroid may appear to be a      single entity, but it is actually a           mechanical being composed of two        separate parts: A head and a walking   winch, bound together by a chain.&r"
 				""
-				"When a target is spotted, the Boundroid will clamber to a position above the target and then slam down with great force, dealing significant damage."
+				"&0  When a target is spotted, the             Boundroid will clamber to a position      above the target and then slam down    with great force, dealing significant      damage.&r"
 				""
-				"If slain, the Boundroid drops chains and a Heavyweight, which is a rare and heavy component of its mechanical structure."
+				"&0  If slain, the Boundroid drops chains    and a Heavyweight, which is a rare       and heavy component of its                mechanical structure.&r"
 			]
 			id: "30C3D7856BBFC8C5"
 			rewards: [
@@ -7998,12 +8016,13 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lBoundroid"
 			x: 14.5d
 			y: -16.5d
 		}
 		{
 			dependencies: ["697B6370E74AE21A"]
-			description: ["The Resistor Shield is a unique variant of the standard shield, offering a blend of defense and offense. While it can block damage from incoming attacks and explosions, it also emits a continuous pulse of damage and knockback to enemies within a small radius."]
+			description: ["&0  The Resistor Shield is a unique           variant of the standard shield,           offering a blend of defense and         offense. While it can block damage        from incoming attacks and explosions,   it also emits a continuous pulse of       damage and knockback to enemies        within a small radius."]
 			id: "1163126CB341EF9A"
 			rewards: [
 				{
@@ -8042,18 +8061,19 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lResistor Shield"
 			x: 13.0d
 			y: -15.0d
 		}
 		{
 			dependencies: ["30C3D7856BBFC8C5"]
 			description: [
-				"The Magnetic Quarry Smasher is a placeable entity that works in conjunction with a Magnetic Quarry to create a fully automatic mining mechanism. To activate the system:"
+				"&0  The Magnetic Quarry Smasher is a      placeable entity that works in             conjunction with a Magnetic Quarry to  create a fully automatic mining            mechanism. To activate the system:&r"
 				""
-				"- Place a Magnetic Quarry Smasher within a square or rectangular area."
-				"- Mark the area using Magnetic Lights and ensure a Magnetic Quarry is placed."
+				"&0  - Place a Magnetic Quarry Smasher        within a square or rectangular           area.&r"
+				"&0  - Mark the area using Magnetic Lights     and ensure a Magnetic Quarry is         placed.&r"
 				""
-				"Once activated, white electricity will begin to dart between each Magnetic Light and the Smasher, signaling the start of the operation. The Quarry Smasher will then fly toward the most north-western corner of the marked area and begin its work."
+				"&0  Once activated, white electricity will     begin to dart between each Magnetic    Light and the Smasher, signaling the     start of the operation. The Quarry      Smasher will then fly toward the most   north-western corner of the marked   area and begin its work.&r"
 			]
 			id: "1D984219266DCB6E"
 			rewards: [
@@ -8090,12 +8110,13 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lMagnetic Quarry Smasher"
 			x: 13.0d
 			y: -16.5d
 		}
 		{
 			dependencies: ["17B7C61B3BA03A8A"]
-			description: ["The Tremorsaurus is a rare, hostile dinosaur whose footsteps shake the ground and ripple nearby water. It emits a deafening roar to scare off mobs and can bite or violently shake smaller prey. To tame one, repeatedly strike it with a Primitive Club to stun it, then feed it Serene Salad. Once tamed, it can be ridden, commanded, and made to roar, scaring enemies. Tamed Tremorsaurus can be bred with Dinosaur Chops, producing eggs that hatch loyal offspring. Drops include Dinosaur Chops and Heavy Bones."]
+			description: ["&0  The Tremorsaurus is a rare, hostile    dinosaur whose footsteps shake the    ground and ripple nearby water. It      emits a deafening roar to scare off     mobs and can bite or violently shake    smaller prey. To tame one, repeatedly   strike it with a Primitive Club to stun it,  then feed it Serene Salad. Once tamed,  it can be ridden, commanded, and made  to roar, scaring enemies. Tamed          Tremorsaurus can be bred with          Dinosaur Chops, producing eggs that    hatch loyal offspring. Drops include     Dinosaur Chops and Heavy Bones.&r"]
 			id: "6BE1E7E5578ED1C3"
 			rewards: [
 				{
@@ -8133,12 +8154,13 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lTremorsaurus"
 			x: 28.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["17B7C61B3BA03A8A"]
-			description: ["The Relicheirus is a massive, neutral dinosaur that browses Pewen Trees and hunts Trilocaris. Feeding it Primordial Soup energizes it to topple nearby trees in one sweep. It can be bred with a Tree Star, producing a single egg. Relicheirus drops feathers, Dinosaur Chops, and Heavy Bones when slain."]
+			description: ["&0  The Relicheirus is a massive, neutral   dinosaur that browses Pewen Trees     and hunts Trilocaris. Feeding it           Primordial Soup energizes it to topple   nearby trees in one sweep. It can be   bred with a Tree Star, producing a      single egg. Relicheirus drops              feathers, Dinosaur Chops, and Heavy    Bones when slain.&r"]
 			id: "60E18FA836C7EFE7"
 			rewards: [
 				{
@@ -8174,24 +8196,26 @@
 				id: "4EADB77F172FCB1E"
 				observe_type: 0
 				timer: 0L
-				title: "Observe: Relicheirus"
+				title: "&#8B4513Observe: Relicheirus"
 				to_observe: "alexscaves:relicheirus"
 				type: "observation"
 			}]
+			title: "&#8B4513&lRelicheirus"
 			x: 31.5d
 			y: -10.0d
 		}
 		{
 			dependencies: ["17B7C61B3BA03A8A"]
 			description: [
-				"The Luxtructosaurus is a fiery boss found in volcanic chambers of the Primordial Caves. Summon it by tossing an Ominous Catalyst into a volcano. This undead dinosaur can:"
-				"- Stomp to flatten terrain and create fissures of Primal Magma."
-				"- Breathe flames while dripping lava in its enraged state."
-				"- Use its tail spin and leg kick to disable shields and fling enemies."
+				"&0  The Luxtructosaurus is a fiery boss   found in volcanic chambers of the       Primordial Caves. Summon it by tossing   an Ominous Catalyst into a volcano.      This undead dinosaur can:&r"
 				""
-				"During the fight, nearby volcanoes erupt, and volcanic ash fills the sky, adding to the challenge. If defeated, the Luxtructosaurus drops Tectonic Shards, used to craft the Extinction Spear. This weapon unleashes dinosaur spirits for extra damage, defense, and explosive effects."
+				"&0  - Stomp to flatten terrain and create      fissures of Primal Magma.&r"
+				"&0  - Breathe flames while dripping lava        in its enraged state.&r"
+				"&0  - Use its tail spin and leg kick to           disable shields and fling enemies.&r"
 				""
-				"Defeating the Luxtructosaurus also causes Primal Magma to recede, reviving previously extinct dinosaurs that spawn near Amber Monoliths."
+				"&0  During the fight, nearby volcanoes     erupt, and volcanic ash fills the sky,    adding to the challenge. If defeated,    the Luxtructosaurus drops Tectonic    Shards, used to craft the Extinction     Spear. This weapon unleashes             dinosaur spirits for extra damage,       defense, and explosive effects.&r"
+				""
+				"&0  Defeating the Luxtructosaurus also    causes Primal Magma to recede,           reviving previously extinct dinosaurs   that spawn near Amber Monoliths.&r"
 			]
 			id: "7F4819E3CAFB4225"
 			rewards: [
@@ -8230,12 +8254,13 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lLuxtructosaurus"
 			x: 30.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["7F4819E3CAFB4225"]
-			description: ["The Atlatitan is a peaceful, living version of the Luxtructosaurus that spawns only after the boss is slain. These herbivores graze on Pewen Trees but can attack with tail swipes and kicks. Feeding them Serene Salad allows players to ride them briefly, enabling a stomp that levels terrain—ideal for terraforming. Atlatitans can be bred with a Tree Star and drop Heavy Bones and Dinosaur Chops when killed, though they lack natural predators."]
+			description: ["&0  The Atlatitan is a peaceful, living        version of the Luxtructosaurus that    spawns only after the boss is slain.     These herbivores graze on Pewen       Trees but can attack with tail swipes    and kicks. Feeding them Serene Salad    allows players to ride them briefly,      enabling a stomp that levels               terrain, ideal for terraforming.           Atlatitans can be bred with a Tree       Star and drop Heavy Bones and          Dinosaur Chops when killed, though       they lack natural predators.&r"]
 			id: "5A14CC15C915770B"
 			rewards: [
 				{
@@ -8271,19 +8296,20 @@
 				id: "03D23D65AEF38606"
 				observe_type: 5
 				timer: 0L
-				title: "Observe: Atlatitan"
+				title: "&#8B4513Observe: Atlatitan"
 				to_observe: "alexscaves:atlatitan"
 				type: "observation"
 			}]
+			title: "&#8B4513&lAtlatitan"
 			x: 30.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["4AF1C9E8CC844C97"]
 			description: [
-				"Brainiacs are fast, aggressive undead mutants composed of multiple zombies and unknown creatures. They use a large tongue for ranged whip attacks and carry Waste Drums on their backs. In combat, Brainiacs may drink from the drum to heal or throw it to spread acid. Up close, they smash with their arms or snap with their jaw-hands, inflicting the Irradiated effect."
+				"&0  Brainiacs are fast, aggressive           undead mutants composed of multiple    zombies and unknown creatures. They   use a large tongue for ranged whip     attacks and carry Waste Drums on       their backs. In combat, Brainiacs may    drink from the drum to heal or throw    it to spread acid. Up close, they smash  with their arms or snap with their        jaw-hands, inflicting the Irradiated      effect.&r"
 				""
-				"Upon death, they drop: Rotten Flesh, Soylent Green (heals while Irradiated), and Charred Remnants, a radioactive item."
+				"&0  Upon death, they drop: Rotten            Flesh, Soylent Green (heals while         Irradiated), and Charred Remnants, a   radioactive item.&r"
 			]
 			id: "14AFBECE97C5D7AD"
 			rewards: [
@@ -8319,6 +8345,7 @@
 					id: "alexscaves:spawn_egg_brainiac"
 				}
 				id: "186233AC513DBE81"
+				title: "&#8B4513&lBrainiac"
 				type: "kill"
 				value: 1L
 			}]
@@ -8328,14 +8355,17 @@
 		{
 			dependencies: ["4AF1C9E8CC844C97"]
 			description: [
-				"Tremorzilla is a colossal, player-created, neutral mob empowered by radiation. It can be tamed and ridden, but only after hatching its egg using a Nuclear Bomb or Nucleeper explosion. The egg, crafted from legendary monster remains, spawns the beast as a baby."
-				"Tremorzilla’s attacks include:"
-				"- Claw slashes and powerful bites."
-				"- Tail swings for massive knockback."
-				"- Foot stomps that crush terrain and enemies."
+				"&0  Tremorzilla is a colossal,                  player-created, neutral mob              empowered by radiation. It can be        tamed and ridden, but only after         hatching its egg using a Nuclear Bomb   or Nucleeper explosion. The egg,         crafted from legendary monster         remains, spawns the beast as a baby.&r"
 				""
-				"Its most feared move: a devastating energy beam up to 100 blocks long, activated by glowing, irradiated plates along its back."
-				"Taming Tremorzilla requires feeding it a highly radioactive item dangerous to hold. Once tamed, it can follow commands, be ridden, and its devastating beam attack can be controlled. It is theorized that breeding Tremorzillas involves the most powerful explosives known."
+				"&0  Tremorzilla’s attacks include:&r"
+				""
+				"&0  - Claw slashes and powerful bites.&r"
+				"&0  - Tail swings for massive knockback.&r"
+				"&0  - Foot stomps that crush terrain and     enemies.&r"
+				""
+				"&0  Its most feared move: a devastating    energy beam up to 100 blocks long,      activated by glowing, irradiated plates  along its back.&r"
+				""
+				"&0  Taming Tremorzilla requires feeding    it a highly radioactive item dangerous   to hold. Once tamed, it can follow         commands, be ridden, and its               devastating beam attack can be           controlled. It is theorized that            breeding Tremorzillas involves the       most powerful explosives known.&r"
 			]
 			id: "29F07B06C83C5211"
 			rewards: [
@@ -8372,21 +8402,22 @@
 				id: "7B76BB193F401C1C"
 				observe_type: 5
 				timer: 0L
-				title: "Observe: Tremorzilla"
+				title: "&#8B4513Observe: Tremorzilla"
 				to_observe: "alexscaves:tremorzilla"
 				type: "observation"
 			}]
+			title: "&#8B4513&lTermorzilla"
 			x: 39.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["4AF1C9E8CC844C97"]
 			description: [
-				"Nucleepers are rare, hostile mobs found in the Toxic Caves. These modified Creepers are larger, slower, and take longer to charge up their explosion but are far deadlier. Once they begin priming, they cannot be stopped under normal circumstances."
+				"&0  Nucleepers are rare, hostile mobs      found in the Toxic Caves. These          modified Creepers are larger, slower,   and take longer to charge up their      explosion but are far deadlier. Once    they begin priming, they cannot be       stopped under normal circumstances.&r"
 				""
-				"The Nucleeper’s detonation process starts with its glowing green core closing, accompanied by warning sirens and flashing lights. If not destroyed in time, it unleashes a devastating nuclear explosion, obliterating the nearby area."
+				"&0  The Nucleeper’s detonation process   starts with its glowing green core        closing, accompanied by warning          sirens and flashing lights. If not         destroyed in time, it unleashes a          devastating nuclear explosion,            obliterating the nearby area.&r"
 				""
-				"Drops (if slain before detonation): Gunpowder and occasionally a Fissile Core."
+				"&0  Drops (if slain before detonation):      Gunpowder and occasionally a Fissile    Core.&r"
 			]
 			id: "740041F201271ACF"
 			rewards: [
@@ -8425,12 +8456,13 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&#8B4513&lNucleeper"
 			x: 37.5d
 			y: 10.0d
 		}
 		{
 			dependencies: ["740041F201271ACF"]
-			description: ["The Nuclear Bomb is an explosive block that, when detonated, has an extremely powerful explosion."]
+			description: ["&0  The Nuclear Bomb is an explosive       block that, when detonated, has an       extremely powerful explosion.&r"]
 			id: "7357E2586B72BF3A"
 			rewards: [
 				{
@@ -8466,12 +8498,13 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lNuclear Bomb"
 			x: 36.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["740041F201271ACF"]
-			description: ["A Raygun is a futuristic ranged weapon that utilizes a continuous beam of energy to hurt any mobs in its way."]
+			description: ["&0  A Raygun is a futuristic ranged          weapon that utilizes a continuous beam  of energy to hurt any mobs in its way.&r"]
 			id: "158B880DE8E27EFB"
 			rewards: [
 				{
@@ -8507,6 +8540,7 @@
 				}
 				type: "item"
 			}]
+			title: "&#8B4513&lRaygun"
 			x: 38.5d
 			y: 11.5d
 		}
@@ -8550,7 +8584,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lIt's reward enough in it of itself, isn't it?"
+			title: "&#8B4513&lIt's reward enough in it of itself, isn't it?"
 			x: 31.0d
 			y: 13.0d
 		}

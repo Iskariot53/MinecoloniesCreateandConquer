@@ -134,9 +134,9 @@
 			description: [
 				"&9Affixes are modifiers&r added to armor and weapons that add extra stats and effects beyond what the item would normally provide, pretty cool huh?"
 				""
-				"Affixes come in many rarities and this will be discernable by the &6color&r of the name of the affixed item."
+				"Affixes come in many rarities and this will be discernible by the &6color&r of the name of the affixed item."
 				""
-				"Affixes can provide anything from added stats to enchantability bonues and will scale with the level of rarity. There will always be a threshold for any given rarity. Meaning that 2 items with the exact same affix will not necessarily give the exact same stat boost to the stat, it is entirely possible to roll higher or lower within the threshold of stats the affix level can provide."
+				"Affixes can provide anything from added stats to enchantability bonuses and will scale with the level of rarity. There will always be a threshold for any given rarity. Meaning that 2 items with the exact same affix will not necessarily give the exact same stat boost to the stat, it is entirely possible to roll higher or lower within the threshold of stats the affix level can provide."
 			]
 			id: "1CDD59D36902239A"
 			rewards: [
@@ -1417,7 +1417,7 @@
 				""
 				"&6For those up for a challenge&r: There are 2 farms best for farming affixed items of high rarity and maximizing your chance at high rolls. "
 				""
-				"&dWannabees&r farming amber encased treasure goblins is one of them, or for the more industrious, capturing a treasure goblin in a mob imprisonment tool and farming them via &3mob duplicator&r is an effective route too. This will provide you with an endless supply of gems and affixed items. &eBear in mind&r that treasure goblin loot tables are dependant on what dimension they are in when killed and not all dimensions are weighted equally."
+				"&dWannabees&r farming amber encased treasure goblins is one of them, or for the more industrious, capturing a treasure goblin in a mob imprisonment tool and farming them via &3mob duplicator&r is an effective route too. This will provide you with an endless supply of gems and affixed items. &eBear in mind&r that treasure goblin loot tables are dependent on what dimension they are in when killed and not all dimensions are weighted equally."
 			]
 			id: "101605FF172FD328"
 			rewards: [
@@ -1552,7 +1552,7 @@
 		}
 		{
 			dependencies: ["375EB6ADD26E0668"]
-			description: ["Apothesos mob spawners work a little bit differently here, some of the stats are capped lower than you are probably used to. Some of the required items to change stats and modifiers have been changed slightly as well. Luckily for you, through hard work and progress, you will eventually unlock multiple other means of meeting your mob farming needs."]
+			description: ["Apotheosis mob spawners work a little bit differently here, some of the stats are capped lower than you are probably used to. Some of the required items to change stats and modifiers have been changed slightly as well. Luckily for you, through hard work and progress, you will eventually unlock multiple other means of meeting your mob farming needs."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1852,9 +1852,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -1887,7 +1887,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -2507,7 +2507,7 @@
 			description: [
 				"Last but not least. Craft 3 &dShelf of End-Fused Rectification&r."
 				""
-				"with these, our &5Draconic Endshelf&r, and our 10 &3Sculkshelves&r, we have everything necessary to reach the maximum enchanting level. There are many other shelves that cen be used for added effects. Try experimenting!"
+				"with these, our &5Draconic Endshelf&r, and our 10 &3Sculkshelves&r, we have everything necessary to reach the maximum enchanting level. There are many other shelves that can be used for added effects. Try experimenting!"
 			]
 			hide_dependency_lines: true
 			id: "087E494DA97F22D7"

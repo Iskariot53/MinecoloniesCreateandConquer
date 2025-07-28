@@ -1649,7 +1649,7 @@
 			description: [
 				"The &l&6Mystical Site&r&r &9requires research&r at the &6University&r to be built, and is a simple building that increases a colony's overall happiness level. It has no worker and increases colonists' happiness just by existing."
 				""
-				"The happiness bonus &cdoes not&r stack - only the highest level of Mystical Site in the colony will provide a bonus. While there is no benefit to building multiple Mysical Sites, one is not prevented from doing so should they wish."
+				"The happiness bonus &cdoes not&r stack - only the highest level of Mystical Site in the colony will provide a bonus. While there is no benefit to building multiple Mystical Sites, one is not prevented from doing so should they wish."
 				""
 				"The Mystical Site also gives a bonus to the &9maximum resurrection chance&r of the &6Undertaker&r."
 			]
@@ -3003,7 +3003,7 @@
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
 			description: [
-				"The &6&lAncient Tome&r&r is a glowing book that's dropped by &craiders&r (barbarians, pirates, vikings, egyptian raiders, etc) during raids. The Ancient Tome &ccannot&r be crafted and is only available as a drop."
+				"The &6&lAncient Tome&r&r is a glowing book that's dropped by &craiders&r (Barbarians, Pirates, Vikings, Egyptian Raiders, etc) during raids. The Ancient Tome &ccannot&r be crafted and is only available as a drop."
 				""
 				"There are two uses for the &6Ancient Tome&r, one use for the player and one for the Enchanter. The player's use is that if you have the Ancient Tome in your inventory, it will glow when there is going to be a &craid&r that night. The Enchanters use is to use the experience they collect from other workers to turn the Ancient Tome into an enchantment book. When they do this, it will use up the Ancient Tome."
 			]
@@ -3114,9 +3114,9 @@
 		}
 		{
 			description: [
-				"The &6&lMinecolonies - Create and Conquer&r&r Modpack is licensed under &eAll Rights Reserved&r."
+				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"Meaning all content within the modpack, including &l&eQuests&r&r, is protected. As such, this content may &n&l&cNOT&r&r&r be reused or redistributed in any public modpacks not released by &l&6TeamMCC&r&r without explicit permission from the creators."
+				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -3149,7 +3149,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lQuests by TeamMCC for the MCC Modpack"
+			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -3260,7 +3260,7 @@
 			description: [
 				"From this point forward, as far as ComputerCraft + MineColonies + AE2 integration is concerned, Do NOT report any issues experienced as bugs. This is a process meant to be set up and programmed by the player, not to be provided to you. "
 				""
-				"More information (including working programs themselves) has been provided than you will recieve in virtually any other MineColonies pack. If you cannot get the system to work, this is actually to be expected, Most players are not technically proficient enough to make the process work. "
+				"More information (including working programs themselves) has been provided than you will receive in virtually any other MineColonies pack. If you cannot get the system to work, this is actually to be expected, Most players are not technically proficient enough to make the process work. "
 				""
 				"Don't feel bad! ComputerCraft is meant for programmers, most people won't get it at first but rest assured we have given you every thing we possibly can to set you up for success in integrating your colony. If you have any questions, feel free to stop by the MCC discord and ask! However, please &nDO NOT&r report any issues with \"The Colonizer\" as a bug."
 			]
