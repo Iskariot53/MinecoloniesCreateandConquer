@@ -52,8 +52,8 @@
 			image: "cataclysm:textures/entity/deepling/deepling_warlock_mark1.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -0.5d
-			y: 5.5d
+			x: -0.4897959183673706d
+			y: 5.561224489795919d
 		}
 		{
 			height: 2.0d
@@ -87,9 +87,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Whether you choose to go the humble route of farming with the aid of water wheel, mob caging and botany mechanics, the pathway to technological superiority through advancements in metallurgy, electronics, and machine upgrades. Or if you prefer the way of the wanderer, endlessly exploring and dungeon delving. We have balanced the loot tables so every strategy is a viable strategy to success, but there are some decisions to make in general, you have many options at your disposal to decide from."
+				"&0  Whether you choose to go the humble  route of farming with the aid of water   wheel, mob caging and botany              mechanics, the pathway to                  technological superiority through        advancements in metallurgy,               electronics, and machine upgrades. Or  if you prefer the way of the              wanderer, endlessly exploring and       dungeon delving. We have balanced      the loot tables so every strategy is a  viable strategy to success, but there   are some decisions to make in general,  you have many options at your           disposal to decide from."
 				""
-				"The next few quests will cover some of these options, so we can better decide how best to establish ourselves, and what would be a good idea to work towards."
+				"&0  The next few quests will cover some    of these options, so we can better       decide how best to establish               ourselves, and what would be a good    idea to work towards."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -140,7 +140,7 @@
 				"4386DFA29FCEDD4D"
 				"771588CF1624B99F"
 			]
-			description: ["First things first, As with any other Minecraft playthrough let's get ourselves at least a diamond pickaxe. "]
+			description: ["&0  First things first, As with any other     Minecraft playthrough let's get           ourselves at least a diamond pickaxe. "]
 			hide_until_deps_visible: true
 			id: "3126617D43B60448"
 			rewards: [
@@ -175,7 +175,7 @@
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
-			description: ["From simplistic drawers and racks, to large scale logistic networks, a variety of storage options have been made available to you, take your pick!"]
+			description: ["&0  From simplistic drawers and racks, to  large scale logistic networks, a           variety of storage options have been   made available to you, take your pick!"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -203,7 +203,7 @@
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
-			description: ["From catching and breeding resource laden mobs to grinding stone and sifting the by-products, a multitude of farming methods are at your disposal."]
+			description: ["&0  From catching and breeding              resource laden mobs to grinding         stone and sifting the by-products, a    multitude of farming methods are at      your disposal."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -231,7 +231,7 @@
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
-			description: ["Sophisticated backpacks allow you to increase your on-the-go inventory as well as allow for upgrades such as automatic feeding and tank upgrades!"]
+			description: ["&0  Sophisticated backpacks allow you to   increase your on-the-go inventory     as well as allow for upgrades such as  automatic feeding and tank upgrades!"]
 			id: "52C1ABEEAA3AEEDB"
 			rewards: [
 				{
@@ -259,9 +259,9 @@
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"Danks, easily configured, can be used for picking up and storing VERY large amounts of items in bulk. They're great for mining and gathering resources while keeping your pack and inventory clean."
+				"&0  Danks, easily configured, can be used  for picking up and storing VERY large   amounts of items in bulk. They're great  for mining and gathering resources     while keeping your pack and inventory  clean."
 				""
-				"They also work great for collecting coins, should you choose to automate sales with a task screen."
+				"&0  They also work great for collecting    coins, should you choose to automate   sales with a task screen."
 			]
 			id: "3A62EDEC4F73063C"
 			rewards: [
@@ -290,9 +290,9 @@
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"Tom's Simple Storage is a storage mod allowing many of the functionalities that more advanced storage mods offer, simplified! "
+				"&0  Tom's Simple Storage is a storage mod  allowing many of the functionalities       that more advanced storage mods       offer, simplified! "
 				""
-				"A good option for those new to logistics and item networking."
+				"&0  A good option for those new to          logistics and item networking."
 			]
 			icon: {
 				Count: 1
@@ -329,7 +329,7 @@
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
-			description: ["Advanced storage and autocrafting solutions."]
+			description: ["&0  Advanced storage and autocrafting    solutions."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -366,9 +366,9 @@
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"Iron Chests are great for storing large amounts of items in a single chest. While limited, they are a great option in the early game and even later."
+				"&0  Iron Chests are great for storing      large amounts of items in a single        chest. While limited, they are a great     option in the early game and even        later."
 				""
-				"Iron Furnaces are likely going to be your primary means of smelting for most of the early game, they are highly upgradable, although you will notice there are no generator augments. No, this is not a bug."
+				"&0  Iron Furnaces are likely going to be   your primary means of smelting for      most of the early game, they are         highly upgradable, although you will      notice there are no generator           augments. No, this is not a bug."
 			]
 			id: "6B4F90920F0A78A7"
 			rewards: [
@@ -404,9 +404,9 @@
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"Great for when you need a storage container that only holds a single item, or multiple of a few item."
+				"&0  Great for when you need a storage container that     only holds a single item, or multiple of a few item."
 				""
-				"With both Storage Racks and Functional Storage you can craft a controller allowing you to access your whole early game storage from 1 block!"
+				"&0  With both Storage Racks and Functional Storage         you can craft a controller allowing you to access       your whole early game storage from 1 block!"
 			]
 			icon: {
 				Count: 1
@@ -434,7 +434,19 @@
 			subtitle: "&#8B4513Another good option for the early game"
 			tasks: [{
 				id: "2D55AEE5C080FB69"
-				item: "functionalstorage:oak_1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Drawer"
 				type: "item"
 			}]
 			title: "&#8B4513&lStorage Racks and Functional Storage"
@@ -444,9 +456,9 @@
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"Carry, store and access your things from anywhere in the world with ender storage!"
+				"&0  Carry, store and access your things  from anywhere in the world with ender  storage!"
 				""
-				"&cNOTE&r: If someone else gets your color code they may gain access to your chest."
+				"  &#D2691E&lNOTE&r&0: If someone else gets your       color code they may gain access to     your chest."
 			]
 			id: "21F4FDA4DE601AF1"
 			rewards: [
@@ -507,7 +519,7 @@
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
-			description: ["hopper botany pots can be used as a compact way of farming resources if tech and automation isn't exactly your thing."]
+			description: ["&0  Hopper Botany Pots can be used as    a compact way of farming resources    if tech and automation isn't exactly      your thing."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -542,7 +554,7 @@
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
-			description: ["Craft a dna sampler and punch a mob while holding it to sample its dna, there are different tiers of samplers, and different mobs require different environments be provided inside of their cages."]
+			description: ["&0  Craft a dna sampler and punch a mob  while holding it to sample its dna, there  are different tiers of samplers, and    different mobs require different         environments be provided inside of      their cages."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -578,9 +590,9 @@
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"Productive bees can be found throughout the world and bred to produce a wide range of resources. "
+				"&0  Productive bees can be found           throughout the world and bred to        produce a wide range of resources. "
 				""
-				"Refer to the \"Productive Bees\" quest chapter for more info!"
+				"&0  Refer to the \"Productive Bees\" quest  chapter for more info!"
 			]
 			icon: {
 				Count: 1
@@ -618,9 +630,9 @@
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"You can use millstones, crushing wheels and more to prepare materials to be sifted for resources, if you like the stone block approach."
+				"&0  You can use millstones, crushing        wheels and more to prepare materials  to be sifted for resources, if you like  the stone block approach."
 				""
-				"Refer to the \"&6Sifting&r\" section of \"Resource Production\" to learn more!"
+				"&0  Refer to the \"&#D2691ESifting&r&0\" section of         \"Resource Production\" to learn more!"
 			]
 			icon: {
 				Count: 1
@@ -646,18 +658,11 @@
 				}
 			]
 			subtitle: "&#8B4513Sifting Materials"
-			tasks: [
-				{
-					id: "3401050B66988D34"
-					title: "Pans out i guess"
-					type: "checkmark"
-				}
-				{
-					id: "361FB6B7C8D84789"
-					item: "create:millstone"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3401050B66988D34"
+				title: "Pans out i guess"
+				type: "checkmark"
+			}]
 			title: "&#8B4513&lSifting for resources"
 			x: -6.0d
 			y: -3.5d
@@ -665,9 +670,9 @@
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"Roost resource producing chickens can be found throughout the world. Just as with bees these can be bred and used to produce a multitude of resources, for all intents and purposes anything you can get from one, you can get from the other."
+				"&0  Roost resource producing chickens    can be found throughout the world.     Just as with bees these can be bred    and used to produce a multitude of      resources, for all intents and            purposes anything you can get from    one, you can get from the other."
 				""
-				"Refer to the \"Roost Ultimate\" chapter for more info!"
+				"&0  Refer to the \"Roost Ultimate\" chapter  for more info!"
 			]
 			icon: {
 				Count: 1
@@ -706,9 +711,9 @@
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"While not a viable replacement for other methods, you will notice that of the many different dungeons, structures, NPCs and more... Exploring is usually always a good way to gather resources and find what you need to make moving forward in life easier."
+				"&0  While not a viable replacement for other methods, you    will notice that of the many different dungeons,             structures, NPCs and more... Exploring is usually always  a good way to gather resources and find what you        need to make moving forward in life easier."
 				""
-				"Adventuring and looting that new structure you just found is always a good idea, if you can manage it, pillage those chests and rack up those &cslayer rewards&r!"
+				"&0  Adventuring and looting that new structure you just     found is always a good idea, if you can manage it,           pillage those chests and rack up those &#D2691Eslayer              rewards&r&0!"
 			]
 			icon: {
 				Count: 1
@@ -756,7 +761,7 @@
 				"4F98CC4F3B2B2CF9"
 				"72ABF1E13212EB7A"
 			]
-			description: ["Whether you choose to rely on stress until electricity via alternator, or choose to incorporate early game power generators where possible and power your early automations that way, it's time to start working towards mobility. &6Jetpacks&r powered by both &aStress&r &oand&r &9FE&r have been provided. Let's build what we need to recharge or refill it, the next few chapters will explore the options."]
+			description: ["&0  Whether you choose to rely on stress until          electricity via alternator, or choose to                incorporate early game power generators where    possible and power your early automations that     way, it's time to start working towards mobility.        &#D2691EJetpacks&r &0powered by both &#D2691EStress&r &o&0and&r &#D2691EFE&r &0have       been provided. Let's build what we need to             recharge or refill it, the next few chapters will      explore the options."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -787,7 +792,7 @@
 		}
 		{
 			dependencies: ["626B4E8865E9892C"]
-			description: ["If you like the bee's route and have excess honey, you can always use some of it to get a head start on electricity! they're not the greatest generators, but they do provide an early game generator for the water wheel and windmill averse."]
+			description: ["&0  If you like the bee's route and have    excess honey, you can always use       some of it to get a head start on         electricity! they're not the greatest     generators, but they do provide an     early game generator for the water    wheel and windmill averse."]
 			id: "564103C41CAFF58C"
 			rewards: [
 				{
@@ -814,11 +819,11 @@
 		{
 			dependencies: ["626B4E8865E9892C"]
 			description: [
-				"As with any world featuring &eCreate&r, this is going to be your go-to method for getting started automating. When placed with a water source flowing past, they generate stress, attached shafts and gearboxes can be used to transfer stress from wheel to machines. Eventually you will be able to convert this stress into FE."
+				"&0  As with any world featuring &#D2691ECreate&r&0,     this is going to be your go-to method   for getting started automating. When     placed with a water source flowing       past, they generate stress, attached   shafts and gearboxes can be used to  transfer stress from wheel to            machines. Eventually you will be able     to convert this stress into FE."
 				""
-				"Alternate forms of &4power generation&r have been provided to give some flexibility and options in gameplay. While the pack has been structured to lightly integrate mods, providing progression but also allowing for freedom of choice whenever possible... it will be impossible to avoid a few core mods such as Create if you choose to progress through certain paths, with the focus being changing how you \"reach\" a mod, rather than how it works. "
+				"&0  Alternate forms of &#D2691Epower generation&r   &0have been provided to give some         flexibility and options in gameplay.        While the pack has been structured to  lightly integrate mods, providing          progression but also allowing for        freedom of choice whenever possible...  it will be impossible to avoid a few        core mods such as Create if you         choose to progress through certain    paths, with the focus being changing     how you \"reach\" a mod, rather than     how it works. "
 				""
-				"The intent being: &9You will require at least some minimal infrastructure from certain mods, but not be forced to rely on it entirely if you choose not to&r, you will unlock other options and can choose to use those. (some tech and late game progression aside)"
+				"&0  The intent being: &#D2691EYou will require at     least some minimal infrastructure from  certain mods, but not be forced to       rely on it entirely if you choose not     to&r&0, you will unlock other options and     can choose to use those. (some tech    and late game progression aside)"
 			]
 			id: "0B85AB53019A933E"
 			rewards: [
@@ -845,7 +850,7 @@
 		}
 		{
 			dependencies: ["626B4E8865E9892C"]
-			description: ["Not the fastest or the most powerful generators. But they're not called &cpitiful&r for no reason. Still, they are an early means of power generation for the more, stress averse."]
+			description: ["&0  Not the fastest or the most powerful   generators. But they're not called       &#D2691Epitiful&r &0for no reason. Still, they are an  early means of power generation for   the more, stress averse."]
 			id: "360EE5A27F4FDB47"
 			rewards: [
 				{
@@ -876,7 +881,7 @@
 				"564103C41CAFF58C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Now that you have a way to recharge and/or refill it, it's time to make a &6jetpack&r and make exploring and moving about in general a much easier affair."]
+			description: ["&0  Now that you have a way to recharge  and/or refill it, it's time to make a        &#D2691Ejetpack&r &0and make exploring and          moving about in general a much easier  affair."]
 			id: "4D2E03A6EB864CF2"
 			min_required_dependencies: 1
 			rewards: [
@@ -960,9 +965,9 @@
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"Hostile neural networks is an advanced means of farming mob drops in a lag friendly way. More on this later!"
+				"&0  Hostile neural networks is an             advanced means of farming mob drops  in a lag friendly way. More on this        later!"
 				""
-				"(unofficial hint from the devs, this is going to be the best way to farm mobs aside from possibly the wannabee)"
+				"&0  (unofficial hint from the devs, this is   going to be the best way to farm         mobs aside from possibly the              wannabee)"
 			]
 			hide_details_until_startable: false
 			icon: {
@@ -1006,7 +1011,7 @@
 				"52C1ABEEAA3AEEDB"
 				"3A62EDEC4F73063C"
 			]
-			description: ["Flux networks can be created and once a &2controller&r has been crafted, &cplugs&r and &9points&r can be used to distribute power throughout your network. Power can then be distributed directly to players as well, charging curios, hotbar and other slots!"]
+			description: ["&0  Flux networks can be created and      once a &#D2691Econtroller&r &0has been crafted,    &#D2691Eplugs&r &0and &#D2691Epoints&r &0can be used to          distribute power throughout your        network. Power can then be                distributed directly to players as well,  charging curios, hotbar and other       slots!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -1052,9 +1057,9 @@
 				"3A62EDEC4F73063C"
 			]
 			description: [
-				"The crafting automat can be used to automate single recipes, making some aspects of early progression not so tedious. While not meant to serve as an ACTUAL replacement for autocrafting, it does make repeatedly crafted recipes for things such as pickaxes and cogs not SO bad until actual automation can be achieved."
+				"&0  The crafting automat can be used to   automate single recipes, making some    aspects of early progression not so   tedious. While not meant to serve as     an ACTUAL replacement for                autocrafting, it does make repeatedly   crafted recipes for things such as     pickaxes and cogs not SO bad until      actual automation can be achieved."
 				""
-				"simply place the automat and supply it with the ingredients for the recipe, introduce a redstone signal and you have your crafted items on demand!"
+				"&0  Simply place the automat and supply it  with the ingredients for the recipe,      introduce a redstone signal and you    have your crafted items on demand!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1085,9 +1090,9 @@
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"The charm belt can be equipped to hold mob charms. Charms can be crafted using recipes found in &aJEI&r, most of the time this is going to involve having killed and collected enough of the respective mobs reliquary drops for the recipe materials."
+				"&0  The charm belt can be equipped to      hold mob charms. Charms can be          crafted using recipes found in &#D2691EJEI&r&0,      most of the time this is going to           involve having killed and collected       enough of the respective mobs           reliquary drops for the recipe           materials."
 				""
-				"Any time a charm is added to the empty slot, a new slot is generated. Most \"basic\" mobs in the world have a craftable charm that can be added to the belt to render them &9passive&r to the player."
+				"&0  Any time a charm is added to the        empty slot, a new slot is generated.      Most \"basic\" mobs in the world have a   craftable charm that can be added to  the belt to render them &#D2691Epassive&r &0to the  player."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1123,7 +1128,7 @@
 		}
 		{
 			dependencies: ["3126617D43B60448"]
-			description: ["The tool belt can hold and be used to quickly switch between held items, craftable &6pouches&r can be added to it to &eincrease&r the number of tools it is able to hold."]
+			description: ["&0  The tool belt can hold and be used to  quickly switch between held items,         craftable &#D2691Epouches&r &0can be added to it   to &#D2691Eincrease&r &0the number of tools it is    able to hold."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "37571112636254D1"
@@ -1153,15 +1158,15 @@
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"Curios and hot key selection has been added to the &6spyglass&r, providing a vanilla friendly way to zoom in on things from a distance. "
+				"&0  Curios and hot key selection has        been added to the &#D2691Espyglass&r&0, providing  a vanilla friendly way to zoom in on      things from a distance. "
 				""
-				"This world is going to be a very rough and dangerous place, at least at first. While designed in a way to get progressively easier provided enough effort, this pack isn't supposed to be a walk in the park... You're going to die, probably &n&o&ca lot&r&r&r, difficulty is going to vary from player to player but the early game will be particularly unforgiving if you are not cautious, Our goal was not to produce an expert level difficulty pack, but something \"challenging yet fun\", we hope and strive to hit that mark. Always be wary and check things out if you can before diving in."
+				"&0  This world is going to be a very         rough and dangerous place, at least    at first. While designed in a way to get  progressively easier provided enough  effort, this pack isn't supposed to be   a walk in the park... You're going to die,  probably &n&o&#D2691Ea lot&r&r&r&0, difficulty is going to      vary from player to player but the      early game will be particularly            unforgiving if you are not cautious.     Our goal was not to produce an          expert level difficulty pack, but          something \"challenging yet fun\", we       hope and strive to hit that mark.          Always be wary and check things out    if you can before diving in."
 				""
-				" &eGood Luck!&r "
+				"  &#D2691EGood Luck!&r "
 				""
-				"Any feedback or suggestions regarding the packs difficulty, good or bad, are welcomed to be heard in the &9MCC discord&r. If you are not already there, you should change that... "
+				"&0  Any feedback or suggestions            regarding the packs difficulty, good     or bad, are welcomed to be heard in     the &l&#D2691EMCC discord&r&r&0. If you are not        already there, you should change       that... "
 				""
-				"it's where all the cool kids are."
+				"&0  It's where all the cool kids are."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1198,11 +1203,11 @@
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"you can choose to stick with traditional sword, bow and shield tactics. However it is highly recommended you craft a &egun bench&r and give everything the pack has to offer a try, you'd be surprised how much fun it is!"
+				"&0  You can choose to stick with the         traditional sword, bow and shield         tactics. However it is highly                recommended you craft a &#D2691Egun bench&r    &0and give everything the pack has to     offer a try, you'd be surprised how     much fun it is!"
 				""
-				"The weapons provided are available in progressive tiers, and are highly &9customizable&r and even &denchantable&r!"
+				"&0  The weapons provided are available    in progressive tiers, and are highly     &#D2691Ecustomizable&r &0and even &#D2691Eenchantable&r&0!"
 				""
-				"Refer to the \"&3Locked and Loaded&r\" section of \"Optional Quests\" for more info."
+				"&0  Refer to the \"&#D2691ELocked and Loaded&r&0\"      section of \"Optional Quests\" for more   info."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1238,11 +1243,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The 3x3 mechanical crafting grid is going to be a &9mainstay&r in virtually every base, it is worth setting up an area for &9longterm&r use as many items and recipes within the pack are &9only&r obtainable/completable via the mechanical grid, or &9at least at first&r. "
+				"&0  The 3x3 mechanical crafting grid is     going to be a &#D2691Emainstay&r &0in virtually        every base, it is worth setting up an    area for &#D2691Elongterm&r &0use as many items    and recipes within the pack are &#D2691Eonly&r    &0obtainable/completable via the            mechanical grid, or &#D2691Eat least at first&r&0. "
 				""
-				"It is worth noting that only the 3x3 grid will be required for most integrations. "
+				"&0  It is worth noting that only the 3x3     grid will be required for most     integrations. "
 				""
-				"while progressing through technologies, an upgraded grid is required, but the 3x3 alone will open all that the pack has to offer in other areas and mods, again, &cexcluding&r higher tier technology. "
+				"&0  While progressing through technologies, an upgraded grid is required, but the 3x3 alone will open all that the pack has to offer in other areas and mods, again, &#D2691Eexcluding&r &0higher tier technology. "
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1801,9 +1806,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &dspell book&r, while limited at first, will be the beginning and key to most of your magical interactions with the world, as far as ars magic is concerned at least. "
+				"&0  The &#D2691Espell book&r&0, while limited at first,     will be the beginning and key to most     of your magical interactions with the    world, as far as ars magic is              concerned at least. "
 				""
-				"Refer to the \"&5Ars Nouveau&r\" chapter of \"Core Mods\" to learn more!"
+				"&0  Refer to the \"&#D2691EArs Nouveau&r&0\" chapter    of \"Core Mods\" to learn more!"
 			]
 			hide_dependency_lines: true
 			id: "045FC46B3A8BB2B2"
@@ -2208,11 +2213,11 @@
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"Supply scamps are passive mobs found in the world, while not immortal, they are pretty tough and ignored by most hostile mobs. Once tamed with &6ancient brass&r your scamp will follow and collect items it finds on the ground, storing them in its internal inventory. "
+				"&0  Supply scamps are passive mobs        found in the world, while not immortal,    they are pretty tough and ignored by  most hostile mobs. Once tamed with        &#D2691Eancient brass&r &0your scamp will follow     and collect items it finds on the           ground, storing them in its internal       inventory. "
 				""
-				"The easiest way to obtain ancient brass is killing cog mobs and regrettably, supply scamps! They also drop copper blueprints so killing 1 or 2 in order to get the brass to tame one is pretty useful, even if you don't want the scamp, they spawn pretty much everywhere in the overworld. "
+				"&0  The easiest way to obtain ancient       brass is killing cog mobs and              regrettably, supply scamps! They also  drop copper blueprints so killing 1 or  2 in order to get the brass to tame     one is pretty useful, even if you don't  want the scamp, they spawn pretty       much everywhere in the overworld. "
 				""
-				"The face plates can be changed with dye!"
+				"&0  The face plates can be changed with   dye!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
