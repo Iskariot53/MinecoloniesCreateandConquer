@@ -28,40 +28,34 @@
 				"                                 &9Minecolonies&r "
 				"                            &6Create and Conquer&r"
 				""
-				"Thank you for taking the time to download and enjoy our modpack! We've spent many years encountering, learning, and enjoying so many different mods from all over the Minecraft world. Some good, some great, however here is a small collection of some of our favorites. We hope you love playing it just as much as we loved making it. "
+				"&0Thank you for taking the time to download and enjoy our modpack! We've spent many years encountering and enjoying so   many different mods from all over the Minecraft world. Some good, some great, however here is a small collection of some of our favorites. We hope you love playing it just as much as we      loved making it.&r "
 				""
 				"{@pagebreak}"
-				"We know, we know... Enough with the formalities, and onto the good stuff!"
+				"&0   We know, we know... Enough with the formalities, and onto the good stuff!&r"
 				""
 				"{@pagebreak}"
 				""
-				"This Modpack is carefully designed to COMPLETELY overhaul the Minecraft experience. From custom biome generation to full on dimensional overhauls, from the HarvestCraft plants on the ground to the Dynamic Trees (yeah, even the trees don't work the same anymore). A completely overhauled combat mechanics system thanks to Better Combat, including the ability to wield new weapon types and classes like pole arms and two-handed weapons, as well as utilize new special and combo moves! Last but not least, many... MANY bosses and dungeons thanks to the likes of L Enders Cataclysm, When Dungeons Arise, and thanks to Dimensional Dungeons you can enjoy a literally endless spree of dungeoneering within your own base! Create Numismatics introduces an in-game economy players can use to purchase goods and services from other players or if going it solo, in the \"Quest Shop\" chapter of this quest book. "
+				"&0This Modpack is carefully designed to COMPLETELY overhaul the Minecraft experience. From custom biome generation to full on dimensional overhauls. A completely overhauled combat mechanics system, including the ability to wield new weapon types and classes like pole arms and two-handed weapons, as well as    utilize new special and combo moves! Last but not least, many... MANY bosses and dungeons.&r &6Create Numismatics&r &0introduces an in-game economy players can use to purchase goods and services from other players or if going it solo, in the             \"&r&2Quest Shop&r&0\" chapter of this quest book.&r "
 				""
 				"{@pagebreak}"
-				"A completely reworked health and stat calculating system. Quests. Missions. Bounties. And so... SO much more! "
+				" &0Capsules can be crafted and used to move your builds and        most animals are tamable. Find a place to get started and enjoy!&r"
 				""
 				"{@pagebreak}"
-				"Choose your origin and start your colony whenever you're ready, or don't, the pack is designed in such a way that you can choose to completely ignore the colony building aspect of the pack, with no downside. Likewise there's no downside to choosing a human origin and remaining within your castle walls, never fighting a boss. We HIGHLY suggest trying both, but understand some things aren't for everybody. So the pack has been structured in such a way that the \"colony building\" and \"adventuring\" aspects of the pack can be played completely independent of each other, should you choose to do so."
+				"&0In case you can't decide what to do, a few of the starter quest options may help introduce you to the swing of things.  "
+				"&0Otherwise the best advice you can follow is this, and follow along very carefully:&r"
 				""
 				"{@pagebreak}"
-				"Capsules can be crafted and used to move your builds and most animals are tamable. pick your favorite starter home, find a place to get started and enjoy!"
-				""
-				"{@pagebreak}"
-				"In case you can't decide what to do, a few of the starter quest options may help introduce you to the swing of things.  "
-				"Otherwise the best advice you can follow is this, and follow along very carefully:"
-				""
-				"{@pagebreak}"
-				"\"As with any good story, the best place to start, is at the beginning. Begin at the beginning and go along 'til you come to the end. Then stop.\""
+				"&0\"As with any good story, the best place to start, is at the beginning. Begin at the beginning and go along 'til you come to the end. Then stop.\"&r"
 				""
 				""
 				"                                             "
 				"                                                                     "
 				""
 				"                  &6&lMinecolonies - &eCreate and Conquer&r&r                                                                  &9Development Team:&r"
-				"                                                            Cuetsu                                                                          Iskariot053"
-				"                                                            Ogredude                                                                       grimmspark123"
-				"                                                            ZBGT                                                                             FailoFishy"
-				"                                                            GrooveypenguinX"
+				"                                                            &0Cuetsu&r                                                                          &0Iskariot053&r"
+				"                                                            &0Ogredude&r                                                                       &0grimmspark123&r"
+				"                                                            &0ZBGT&r                                                                             &0FailoFishy&r"
+				"                                                            &0GrooveypenguinX&r"
 				"                                                                "
 			]
 			icon: {
@@ -126,7 +120,15 @@
 			rewards: [
 				{
 					id: "6FD23593316F7E2D"
-					item: "origins:orb_of_origin"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "origins:orb_of_origin"
+					}
 					type: "item"
 				}
 				{
@@ -136,7 +138,15 @@
 				}
 				{
 					id: "58608783DB9344A8"
-					item: "numismatics:spur"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
 					type: "item"
 				}
 			]
