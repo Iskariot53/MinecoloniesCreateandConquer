@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Mob farms can be time-consuming and require a ton of work, whether you build them the simple vanilla way or with spawners. However, the &2&lCaged Mobs&r&r mod solves this issue by offering a smooth and lag-free method to gather resources from your favorite entities! &2&lCaged Mobs&r&r allows you to imprison various types of mobs in cages to easily collect their drops. It also includes numerous upgrades to make your resource farming more efficient."
+				"Mob farms can be time-consuming and require a ton of work, whether you build them the simple vanilla way or with spawners. However, the &#D2691E&lCaged Mobs&r&r mod solves this issue by offering a smooth and lag-free method to gather resources from your favorite entities! &#D2691E&lCaged Mobs&r&r allows you to imprison various types of mobs in cages to easily collect their drops. It also includes numerous upgrades to make your resource farming more efficient."
 				""
-				"Craft a &2Hopping Mob Cage&r to get started! A hopping mob cage is simply a cage combined with a hopper, enabling you to automatically transfer any drops into the inventory placed below it."
+				"Craft a &#D2691EHopping Mob Cage&r to get started! A hopping mob cage is simply a cage combined with a hopper, enabling you to automatically transfer any drops into the inventory placed below it."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -60,7 +60,7 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "Hopping Mob Cage"
+			subtitle: "&#8B4513Hopping Mob Cage"
 			tasks: [{
 				id: "3E2A745696712686"
 				item: {
@@ -74,21 +74,21 @@
 				}
 				type: "item"
 			}]
-			title: "&2&lMob Cages"
+			title: "&lMob Cages"
 			x: 1.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["729453D5C23D665E"]
 			description: [
-				"For the &2mob cage&r to function properly, you need to fill it with an item that creates the &2ideal environment&r for your chosen entity. There are many different environments, and the item you use must correspond to the habitat in which the mob naturally spawns and lives. Here are a few examples (&cfor other environments, refer to the JEI recipes&r):"
+				"For the &#D2691Emob cage&r to function properly, you need to fill it with an item that creates the &#D2691Eideal environment&r for your chosen entity. There are many different environments, and the item you use must correspond to the habitat in which the mob naturally spawns and lives. Here are a few examples (&#D2691Efor other environments, refer to the JEI recipes&r):"
 				""
-				"- &2&lAnimals and Neutral Mobs:&r&r Grass blocks/Hay Bale"
-				"- &3&lCold Biome Mobs:&r&r Snow Blocks/Blue Ice"
-				"- &e&lDesert&r &land &bUnderwater&r &lMobs:&r&r&r Sand"
-				"- &4&lMonsters:&r&r Stone/Diamond Ore"
-				"- &c&lNether Mobs:&r&r Magma Blocks/Gilded Blackstone"
-				"- &5&lEnd Mobs:&r&r End Stone"
+				"- &#D2691E&lAnimals and Neutral Mobs:&r&r Grass blocks/Hay Bale"
+				"- &#D2691E&lCold Biome Mobs:&r&r Snow Blocks/Blue Ice"
+				"- &#D2691E&lDesert&r &land &#D2691EUnderwater&r &lMobs:&r&r&r Sand"
+				"- &#D2691E&lMonsters:&r&r Stone/Diamond Ore"
+				"- &#D2691E&lNether Mobs:&r&r Magma Blocks/Gilded Blackstone"
+				"- &#D2691E&lEnd Mobs:&r&r End Stone"
 			]
 			icon: {
 				Count: 1
@@ -109,7 +109,7 @@
 				id: "66EB2F5949C01D2C"
 				type: "checkmark"
 			}]
-			title: "&2&lCheck out the unique environments"
+			title: "&lCheck out the unique environments"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -119,9 +119,9 @@
 				"53ABCA8CE10AD489"
 			]
 			description: [
-				"To imprison any mob in a cage, you first need to obtain its &2DNA sample&r. There are &c3&r types of &l&2DNA Samplers&r&r, each designed for specific types of mobs. The stronger the mob, the higher the tier of &2&lDNA Sampler&r&r required. (&cCheck JEI to see which mobs require which sampler&r)."
+				"To imprison any mob in a cage, you first need to obtain its &#D2691EDNA sample&r. There are &#D2691E3&r types of &l&#D2691EDNA Samplers&r&r, each designed for specific types of mobs. The stronger the mob, the higher the tier of &#D2691E&lDNA Sampler&r&r required. (&#D2691ECheck JEI to see which mobs require which sampler&r)."
 				""
-				"To obtain a DNA sample from any entity, simply hit it while holding the &l&2DNA Sampler&r&r in your main hand. Once the sample is collected, click on a cage to imprison the mob. Captured the wrong entity? Just crouch and right-click with the DNA Sampler to remove the previous sample."
+				"To obtain a DNA sample from any entity, simply hit it while holding the &l&#D2691EDNA Sampler&r&r in your main hand. Once the sample is collected, click on a cage to imprison the mob. Captured the wrong entity? Just crouch and right-click with the DNA Sampler to remove the previous sample."
 			]
 			id: "31F43D874B481B87"
 			rewards: [
@@ -145,7 +145,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "DNA Samplers"
+			subtitle: "&#8B4513DNA Samplers"
 			tasks: [{
 				id: "6E67688E98A13235"
 				item: {
@@ -163,7 +163,7 @@
 				title: "DNA Sampler"
 				type: "item"
 			}]
-			title: "&2&lCapture your first mob"
+			title: "&lCapture your first mob"
 			x: 1.0d
 			y: 5.0d
 		}
@@ -172,7 +172,7 @@
 				"729453D5C23D665E"
 				"31F43D874B481B87"
 			]
-			description: ["Kills entities inside the cage with &2lightning&r. This upgrade is essential for collecting specific drops such as &2mob heads&r, &2charged creeper drops&r, and more (refer to JEI recipes for details)."]
+			description: ["Kills entities inside the cage with &#D2691Elightning&r. This upgrade is essential for collecting specific drops such as &#D2691Emob heads&r, &#D2691Echarged creeper drops&r, and more (refer to JEI recipes for details)."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3850842135C89420"
@@ -218,7 +218,7 @@
 				"729453D5C23D665E"
 				"31F43D874B481B87"
 			]
-			description: ["Kills entities inside the cage with &2arrows&r. This upgrade is essential for collecting specific drops such as &2music discs from creepers&r, and more (refer to JEI recipes for details)."]
+			description: ["Kills entities inside the cage with &#D2691Earrows&r. This upgrade is essential for collecting specific drops such as &#D2691Emusic discs from creepers&r, and more (refer to JEI recipes for details)."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "31D7F71678919C10"
@@ -264,7 +264,7 @@
 				"729453D5C23D665E"
 				"31F43D874B481B87"
 			]
-			description: ["Automatically &2cooks&r cookable entity drops."]
+			description: ["Automatically &#D2691Ecooks&r cookable entity drops."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "2B7A51C8CAE15F2A"
@@ -310,7 +310,7 @@
 				"729453D5C23D665E"
 				"31F43D874B481B87"
 			]
-			description: ["Applies &2Looting III&r to the cage drops. This upgrade can stack."]
+			description: ["Applies &#D2691ELooting III&r to the cage drops. This upgrade can stack."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "01F1AC10A3365ABC"
@@ -356,7 +356,7 @@
 				"729453D5C23D665E"
 				"31F43D874B481B87"
 			]
-			description: ["Entities killed inside the cage drop &2Crystallized Experience&r. This upgrade can stack."]
+			description: ["Entities killed inside the cage drop &#D2691ECrystallized Experience&r. This upgrade can stack."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3E60381A9A1149ED"
@@ -402,7 +402,7 @@
 				"729453D5C23D665E"
 				"31F43D874B481B87"
 			]
-			description: ["Increases the cage's &2speed by 50%&r. This upgrade can stack."]
+			description: ["Increases the cage's &#D2691Espeed by 50%&r. This upgrade can stack."]
 			hide_dependency_lines: true
 			id: "190F60E63A1CE6C2"
 			rewards: [
@@ -444,7 +444,7 @@
 		}
 		{
 			dependencies: ["190F60E63A1CE6C2"]
-			description: ["Increases the cage's &2speed by 100%&r. This upgrade can stack."]
+			description: ["Increases the cage's &#D2691Espeed by 100%&r. This upgrade can stack."]
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
 			id: "525AD57340AB14D1"
@@ -486,7 +486,7 @@
 		}
 		{
 			dependencies: ["525AD57340AB14D1"]
-			description: ["Increases the cage's &2speed by 200%&r. This upgrade can stack."]
+			description: ["Increases the cage's &#D2691Espeed by 200%&r. This upgrade can stack."]
 			hide_until_deps_complete: true
 			id: "3C5DB2127560C5B4"
 			rewards: [
@@ -528,9 +528,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"The &2&lBotany Pots&r&r mod provides an easy and convenient way to grow and harvest certain types of crops. When combined with the &2&lBotany Trees&r&r mod, it also allows you to grow trees inside the Botany Pot. This can be used for decorative purposes or as a mini crop or wood farm."
+				"The &#D2691E&lBotany Pots&r&r mod provides an easy and convenient way to grow and harvest certain types of crops. When combined with the &#D2691E&lBotany Trees&r&r mod, it also allows you to grow trees inside the Botany Pot. This can be used for decorative purposes or as a mini crop or wood farm."
 				""
-				"A &2&lHopper Botany Pot&r&r automates the process by harvesting the crop or tree, placing the drops into any inventory beneath it, and replanting the seed or sapling."
+				"A &#D2691E&lHopper Botany Pot&r&r automates the process by harvesting the crop or tree, placing the drops into any inventory beneath it, and replanting the seed or sapling."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -550,21 +550,21 @@
 			}]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "Introduction"
+			subtitle: "&#8B4513Introduction"
 			tasks: [{
 				id: "7AAF7C8A412659F0"
 				type: "checkmark"
 			}]
-			title: "&2&lBotany Pots"
+			title: "&lBotany Pots"
 			x: 7.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["3002ABD3A1AAF1A7"]
 			description: [
-				"To get started, first craft a &l&2Hopper Botany Pot&r&r. Next, consider the type of crop you want to grow and the soil it requires. There are various types of soil blocks, and certain crops need specific soils. For example, wheat grows in dirt, while nether wart requires soul sand (&ccheck JEI for the appropriate types of soil blocks for each crop or sapling&r). Once you have the appropriate soil and seed, simply right-click the Botany Pot with the soil first, followed by the seed to begin the growth process. Crops may take some time to grow, but you can speed it up using bone meal or other fertilizers."
+				"To get started, first craft a &l&#D2691EHopper Botany Pot&r&r. Next, consider the type of crop you want to grow and the soil it requires. There are various types of soil blocks, and certain crops need specific soils. For example, wheat grows in dirt, while nether wart requires soul sand (&#D2691Echeck JEI for the appropriate types of soil blocks for each crop or sapling&r). Once you have the appropriate soil and seed, simply right-click the Botany Pot with the soil first, followed by the seed to begin the growth process. Crops may take some time to grow, but you can speed it up using bone meal or other fertilizers."
 				""
-				"Each &2&lHopper Botany Pot&r&r has its own 12-slot inventory. If the pot is not placed above a block with an inventory, it will fill its own inventory and stop growing once it’s full. Be sure to clear some space to keep the crops growing."
+				"Each &#D2691E&lHopper Botany Pot&r&r has its own 12-slot inventory. If the pot is not placed above a block with an inventory, it will fill its own inventory and stop growing once it’s full. Be sure to clear some space to keep the crops growing."
 			]
 			id: "7C3181ED07B8D3C4"
 			rewards: [
@@ -588,7 +588,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Hopper Botany Pot"
+			subtitle: "&#8B4513Hopper Botany Pot"
 			tasks: [{
 				id: "2CE9F26CA27BAE83"
 				item: {
@@ -606,13 +606,13 @@
 				title: "Hopper Botany Pot"
 				type: "item"
 			}]
-			title: "&2&lGetting Started"
+			title: "&lGetting Started"
 			x: 7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3002ABD3A1AAF1A7"]
-			description: ["Did you know that normal Botany Pots are &6one of the rarest items&r in our modpack? Well, it looks like you're the lucky one who got the Nubekube v1.0 starter hut and obtained this rare item. Cherish it and keep it stored in a safe place—you never know, it might unlock some opportunities for you in the future. Or may end up being the only one to exist on your world or server :o"]
+			description: ["Did you know that normal Botany Pots are &#D2691Eone of the rarest items&r in our modpack? Well, it looks like you're the lucky one who got the Nubekube v1.0 starter hut and obtained this rare item. Cherish it and keep it stored in a safe place—you never know, it might unlock some opportunities for you in the future. Or may end up being the only one to exist on your world or server :o"]
 			id: "51ABE2FCD3F79E4E"
 			invisible: true
 			rewards: [
@@ -636,7 +636,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "That’s a lot of pot-ential!"
+			subtitle: "&#8B4513That’s a lot of pot-ential!"
 			tasks: [{
 				id: "5C8AE2EB7288901D"
 				item: {
@@ -650,15 +650,15 @@
 				}
 				type: "item"
 			}]
-			title: "&2&lHow did you get this? :O"
+			title: "&lHow did you get this? :O"
 			x: 7.5d
 			y: 5.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -691,7 +691,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

@@ -38,8 +38,8 @@
 				"19C32F0E30411935"
 			]
 			description: [
-				"Now that we have gathered all the &l&6Tarot Cards&r&r,"
-				"maybe it's time to craft a &l&6&nTarot Deck&r&r&r and prepare for a Tarot Reading?"
+				"Now that we have gathered all the &l&#D2691ETarot Cards&r&r,"
+				"maybe it's time to craft a &l&#D2691E&nTarot Deck&r&r&r and prepare for a Tarot Reading?"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -95,7 +95,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lDown for a Tarot Reading?"
+			title: "&lDown for a Tarot Reading?"
 			x: -4.5d
 			y: -9.5d
 		}
@@ -882,12 +882,12 @@
 				"19C32F0E30411935"
 			]
 			description: [
-				"Think you got enough instruments to form your own &l&3Band&r&r?"
+				"Think you got enough instruments to form your own &l&#D2691EBand&r&r?"
 				"Great! Let's start looking for the perfect band members then!"
 				""
 				"Did you know you could drop each instrument to mobs for them to play the selected songs?"
-				"Isn't that amazing?!.. You know what's even better? That you can Import &l&n&cYOUR OWN&r&r&r favorite melodies!"
-				"For a detailed tutorial, open the &lGUI&r of any instrument and click the \"&l&6!&r&r\" Icon at the bottom right of the &lGUI&r."
+				"Isn't that amazing?!.. You know what's even better? That you can Import &l&n&#D2691EYOUR OWN&r&r&r favorite melodies!"
+				"For a detailed tutorial, open the &lGUI&r of any instrument and click the \"&l&#D2691E!&r&r\" Icon at the bottom right of the &lGUI&r."
 				""
 				" "
 			]
@@ -919,7 +919,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "382C22F1FD3530DA"
-				title: "&6&lLet's Start Looking for Band Members!"
+				title: "&lLet's Start Looking for Band Members!"
 				type: "checkmark"
 			}]
 			x: 7.0d
@@ -1133,7 +1133,7 @@
 				"0EB34BA512F8C9EC"
 				"19C32F0E30411935"
 			]
-			description: ["You have a good taste in &l&9Music&r&r! :D"]
+			description: ["You have a good taste in &l&#D2691EMusic&r&r! :D"]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
 			icon: {
@@ -1161,7 +1161,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "3C34F9F1E217AB19"
-				title: "&6&lMusic to Your Ears!"
+				title: "&lMusic to Your Ears!"
 				type: "checkmark"
 			}]
 			x: 11.5d
@@ -1918,13 +1918,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eCollect All The Animal Crates!"
+			subtitle: "&#8B4513Collect All The Animal Crates!"
 			tasks: [{
 				id: "378B950D2E826656"
 				item: "villagersellanimals:crate_zoglet"
 				type: "item"
 			}]
-			title: "&l&6Collect All The Animal Crates!"
+			title: "&lCollect All The Animal Crates!"
 			x: 0.0d
 			y: 8.6d
 		}
@@ -2250,8 +2250,8 @@
 				"19C32F0E30411935"
 			]
 			description: [
-				"What are you gonna do with all these &l&dDrinks&r&r?"
-				"maybe it's time to open a &l&6Cafe&r&r!"
+				"What are you gonna do with all these &l&#D2691EDrinks&r&r?"
+				"maybe it's time to open a &l&#D2691ECafe&r&r!"
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -2280,7 +2280,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "4FF21AC624AE80F4"
-				title: "&6&lWhat time is it? Time to Open a Cafe!"
+				title: "&lWhat time is it? Time to Open a Cafe!"
 				type: "checkmark"
 			}]
 			x: 0.0357142857142847d
@@ -3072,7 +3072,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "4614B10AA22C47F4"
-				title: "&6&lLook at You! What a Fashion Icon!"
+				title: "&lLook at You! What a Fashion Icon!"
 				type: "checkmark"
 			}]
 			x: -8.0d
@@ -3681,7 +3681,7 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			title: "&6&lPrince Charm-ing!"
+			title: "&lPrince Charm-ing!"
 			x: 3.0d
 			y: -12.75d
 		}
@@ -5184,9 +5184,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -5219,7 +5219,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -7080,7 +7080,7 @@
 				id: "662A15AE72441450"
 				type: "checkmark"
 			}]
-			title: "&6&lA bite-sized surprise!"
+			title: "&lA bite-sized surprise!"
 			x: -6.5d
 			y: -0.5d
 		}
@@ -8802,7 +8802,7 @@
 				id: "0F395326A6BB4949"
 				type: "checkmark"
 			}]
-			title: "&6&lThat's Relic-ulous!"
+			title: "&lThat's Relic-ulous!"
 			x: 8.5d
 			y: 7.5d
 		}

@@ -21,7 +21,7 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Getting started with Applied Energistics 2, from here on referred to as \"ae2\" is a bit different in the MCC world. Meteors no longer spawn in the world being the first thing of note. Craft yourself a quartz wrench, and over the course of the next few chapters, you will find all the information needed to track down resources normally obtained from locating meteorites. (Hint: We hope you've made an &6energizer&r set-up). "
+				"Getting started with Applied Energistics 2, from here on referred to as \"ae2\" is a bit different in the MCC world. Meteors no longer spawn in the world being the first thing of note. Craft yourself a quartz wrench, and over the course of the next few chapters, you will find all the information needed to track down resources normally obtained from locating meteorites. (Hint: We hope you've made an &#D2691Eenergizer&r set-up). "
 				""
 				"The only other major change of note is the limitations of channels having been doubled from the default standard: "
 				""
@@ -63,7 +63,7 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "Advanced Logistics Solutions."
+			subtitle: "&#8B4513Advanced Logistics Solutions."
 			tasks: [{
 				id: "38903810689BD801"
 				item: {
@@ -81,7 +81,7 @@
 				title: "Any #ae2:quartz_wrench"
 				type: "item"
 			}]
-			title: "Welcome to Applied Energistics 2!"
+			title: "&lWelcome to Applied Energistics 2!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -90,13 +90,13 @@
 			description: [
 				"With meteors no longer ruining the beautiful terrain, this leads to an interesting question of \"how do i get certus?\""
 				""
-				"&eEnergizing&r"
+				"&#D2691EEnergizing&r"
 				""
-				"Energize a &3block of quartz&r with &64Kfe&r to convert it into damaged budding certus quartz. From here you will need to use \"in-world transformation\" recipes to obtain higher quality blocks. This is also a means for converting &7stone&r into &8sky stone&r, although placing an annihilation plane face up at build limit still works just the same. "
+				"Energize a &#D2691Eblock of quartz&r with &#D2691E4Kfe&r to convert it into damaged budding certus quartz. From here you will need to use \"in-world transformation\" recipes to obtain higher quality blocks. This is also a means for converting &#D2691Estone&r into &#D2691Esky stone&r, although placing an annihilation plane face up at build limit still works just the same. "
 				""
-				"&aYes&r, you can make &bflawless budding certus blocks&r in this pack, although the recipe is a little bit more expensive than the usual transformation for lesser quality blocks."
+				"&#D2691EYes&r, you can make &#D2691Eflawless budding certus blocks&r in this pack, although the recipe is a little bit more expensive than the usual transformation for lesser quality blocks."
 				""
-				"(&eit's much easier if you use some of your first certus gathered to make a chicken or bee for this.&r) "
+				"(&#D2691Eit's much easier if you use some of your first certus gathered to make a chicken or bee for this.&r) "
 			]
 			id: "64D7B14BB546AA95"
 			rewards: [
@@ -119,7 +119,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gotta start somewhere."
+			subtitle: "&#8B4513Gotta start somewhere."
 			tasks: [
 				{
 					id: "5D7EAF90ADCF4697"
@@ -148,7 +148,7 @@
 					type: "item"
 				}
 			]
-			title: "Energizing quartz and stone"
+			title: "&lEnergizing quartz and stone"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -280,7 +280,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "#1 of 2 easier ways to obtain certus"
+			subtitle: "&#8B4513#1 of 2 easier ways to obtain certus"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -303,7 +303,7 @@
 				to_observe: "productivebees:spatial"
 				type: "observation"
 			}]
-			title: "Spatial (certus) Bee"
+			title: "&lSpatial (certus) Bee"
 			x: -1.0d
 			y: -2.5d
 		}
@@ -316,7 +316,7 @@
 				type: "xp"
 				xp: 20
 			}]
-			subtitle: "#2 of 2 easier ways to obtain certus"
+			subtitle: "&#8B4513#2 of 2 easier ways to obtain certus"
 			tasks: [{
 				id: "500FA57E6FB9D257"
 				item: {
@@ -359,7 +359,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Everything works normally from here!"
+			subtitle: "&#8B4513Everything works normally from here!"
 			tasks: [{
 				id: "50C06B3486D53FAE"
 				item: {
@@ -406,7 +406,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Charging certus"
+			subtitle: "&#8B4513Charging certus"
 			tasks: [{
 				id: "2DB4D521FFB9473D"
 				item: {
@@ -480,11 +480,11 @@
 			description: [
 				"Inscribers have 2 primary uses:"
 				" "
-				"Turning various materials to &6dust&r."
+				"Turning various materials to &#D2691Edust&r."
 				""
 				"as well as..."
 				""
-				"inscribing&e circuits&r and &9processors&r. "
+				"inscribing&#D2691E circuits&r and &#D2691Eprocessors&r. "
 				""
 				"To do this you will need to insert the prerequisite press for the circuit or processor needed. It is advisable to set up a dedicated inscriber for each, at least early on."
 			]
@@ -511,7 +511,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Dusts, circuits and processors"
+			subtitle: "&#8B4513Dusts, circuits and processors"
 			tasks: [{
 				id: "6E7C6E625C42AB5E"
 				item: {
@@ -582,7 +582,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x&3 nether quartz&r, 4 stone and 1 precision mechanism."]
+			description: ["Made with 16x&#D2691E nether quartz&r, 4 stone and 1 precision mechanism."]
 			id: "7EF66B49E69B57E0"
 			rewards: [
 				{
@@ -605,7 +605,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				id: "79949391C147392D"
 				item: {
@@ -624,7 +624,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x &6gold ingots&r, 4 stone and 1 precision mechanism."]
+			description: ["Made with 16x &#D2691Egold ingots&r, 4 stone and 1 precision mechanism."]
 			id: "757A217506F440A2"
 			rewards: [
 				{
@@ -647,7 +647,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				id: "189BB55180C35EC6"
 				item: {
@@ -666,7 +666,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x &7iron ingots&r, 4 stone and 1 precision mechanism."]
+			description: ["Made with 16x &#D2691Eiron ingots&r, 4 stone and 1 precision mechanism."]
 			id: "22891E06BE664695"
 			rewards: [
 				{
@@ -689,7 +689,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				id: "148FB2D52E8CEDF2"
 				item: {
@@ -708,7 +708,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x &bdiamonds&r, 4 stone and 1 precision mechanism."]
+			description: ["Made with 16x &#D2691Ediamonds&r, 4 stone and 1 precision mechanism."]
 			id: "7F7D5A012187CF4F"
 			rewards: [
 				{
@@ -731,7 +731,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Mechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				id: "2A024E686EBF264E"
 				item: {
@@ -752,9 +752,9 @@
 			dependencies: ["7A4FF3976EB91CEB"]
 			dependency_requirement: "one_started"
 			description: [
-				"One of the major differences you will notice if new to the swing of things is that ae2 uses its own native power, &dAE&r. While the ME Controller for a network can accept FE/RF directly, this is only true of the controllers, chargers, inscribers and the energy acceptor. Everything else requires &dAE&r."
+				"One of the major differences you will notice if new to the swing of things is that ae2 uses its own native power, &#D2691EAE&r. While the ME Controller for a network can accept FE/RF directly, this is only true of the controllers, chargers, inscribers and the energy acceptor. Everything else requires &#D2691EAE&r."
 				""
-				"in short &cdo not&r try to power your storage system components directly with FE/RF. Feed power into an &6energy acceptor&r or directly into the controller(s). Then connect and power the rest of the network from there."
+				"in short &#D2691Edo not&r try to power your storage system components directly with FE/RF. Feed power into an &#D2691Eenergy acceptor&r or directly into the controller(s). Then connect and power the rest of the network from there."
 			]
 			hide_until_deps_visible: true
 			id: "4F9B5850D630B7C2"
@@ -778,7 +778,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Powering your first network"
+			subtitle: "&#8B4513Powering your first network"
 			tasks: [{
 				id: "0EAE75638B3C208F"
 				item: {
@@ -798,11 +798,11 @@
 		{
 			dependencies: ["55B45DFB8B74400C"]
 			description: [
-				"&dFluix crystals&r are going to be one of the most important resources for building your network. Fluix is used for crafting &3network cabling&r as well as most components and machines."
+				"&#D2691EFluix crystals&r are going to be one of the most important resources for building your network. Fluix is used for crafting &#D2691Enetwork cabling&r as well as most components and machines."
 				""
 				"This will be a heavily used resource, be it birds, bees or mechanically speaking, you will want to automate this process."
 				""
-				"To make your first batch of &dfluix crystals&r, throw &7nether quartz&r, &credstone dust&r and a &3charged certus crystal&r into water."
+				"To make your first batch of &#D2691Efluix crystals&r, throw &#D2691Enether quartz&r, &#D2691Eredstone dust&r and a &#D2691Echarged certus crystal&r into water."
 			]
 			id: "4A719341AA53B1CC"
 			rewards: [
@@ -826,7 +826,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "Automate this"
+			subtitle: "&#8B4513Automate this"
 			tasks: [
 				{
 					id: "453BC1F39D29DF4A"
@@ -855,7 +855,7 @@
 					type: "item"
 				}
 			]
-			title: "Fluix"
+			title: "&lFluix"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -897,7 +897,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Network power buffer"
+			subtitle: "&#8B4513Network power buffer"
 			tasks: [{
 				id: "34875CBC59EB2CEE"
 				item: {
@@ -924,7 +924,7 @@
 				"7A4FF3976EB91CEB"
 				"1F8E11D7CAFA5B63"
 			]
-			description: ["Along with &dfluix crystals&r, &6processors&r are going to be used in &clarge quantities&r, you are going to want to automate the production process. Just as how fluix crystals are required for most things cable related, processors of one kind or another are going to be required for almost &eevery network component you will build&r."]
+			description: ["Along with &#D2691Efluix crystals&r, &#D2691Eprocessors&r are going to be used in &#D2691Elarge quantities&r, you are going to want to automate the production process. Just as how fluix crystals are required for most things cable related, processors of one kind or another are going to be required for almost &#D2691Eevery network component you will build&r."]
 			id: "7A33AF5CD7476775"
 			min_required_dependencies: 5
 			rewards: [
@@ -948,7 +948,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "This too!"
+			subtitle: "&#8B4513This too!"
 			tasks: [
 				{
 					id: "046243721B98B5CB"
@@ -990,7 +990,7 @@
 					type: "item"
 				}
 			]
-			title: "Processing processors"
+			title: "&lProcessing processors"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -1041,7 +1041,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your Basic ME Cable"
+			subtitle: "&#8B4513Your Basic ME Cable"
 			tasks: [{
 				id: "2459921D2A07DD2D"
 				item: {
@@ -1064,7 +1064,7 @@
 				"55B45DFB8B74400C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&3Quartz fiber&r is used to share power between networks, while keeping them separate. This allows you to power subnetworks without needing to put energy acceptors and power cables everywhere. It can also be used to keep cables from connecting, although using cables of differing colors, or using a&8 Cable Anchor&r is cheaper and more effective."]
+			description: ["&#D2691EQuartz fiber&r is used to share power between networks, while keeping them separate. This allows you to power subnetworks without needing to put energy acceptors and power cables everywhere. It can also be used to keep cables from connecting, although using cables of differing colors, or using a&#D2691E Cable Anchor&r is cheaper and more effective."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3D36143AECED6DDC"
@@ -1089,7 +1089,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cable Sub-Parts"
+			subtitle: "&#8B4513Cable Sub-Parts"
 			tasks: [{
 				id: "7ED9060C638AFD57"
 				item: {
@@ -1144,7 +1144,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cable, But Smarter"
+			subtitle: "&#8B4513Cable, But Smarter"
 			tasks: [{
 				id: "06006BFDD1FD37A4"
 				item: {
@@ -1186,7 +1186,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "x16 Channels"
+			subtitle: "&#8B4513x16 Channels"
 			tasks: [{
 				id: "12A1A742AD56BCA2"
 				item: {
@@ -1245,7 +1245,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "x64 Channels"
+			subtitle: "&#8B4513x64 Channels"
 			tasks: [{
 				id: "6FAC1629A682E0C9"
 				item: {
@@ -1286,7 +1286,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Smart Cable, But Thicker "
+			subtitle: "&#8B4513Smart Cable, But Thicker "
 			tasks: [{
 				id: "22E7FA8617233627"
 				item: {
@@ -1315,12 +1315,12 @@
 				""
 				"The controller provides 32 Channels per face."
 				""
-				"The controller requires 6 AE/t per controller block to function. Each controller block can store &68000 AE&r, so larger networks might require additional energy storage."
+				"The controller requires 6 AE/t per controller block to function. Each controller block can store &#D2691E8000 AE&r, so larger networks might require additional energy storage."
 				""
 				"Multiblock Controllers can be built in a fairly free form but there &o&nare&r&r some general rules to follow: "
 				""
 				"{@pagebreak}"
-				"To make this easier, you can tell when your multiblock controller is valid or not by the color of the controller blocks. &cRed ME controller&r multi-blocks are not valid and you will know when you have correctly placed the structure when it begins to cycle in color when powered."
+				"To make this easier, you can tell when your multiblock controller is valid or not by the color of the controller blocks. &#D2691ERed ME controller&r multi-blocks are not valid and you will know when you have correctly placed the structure when it begins to cycle in color when powered."
 				""
 				"All controller blocks on a ME Network must be connected otherwise they will turn red."
 				"The maximum size a controller multi block can be is 7x7x7, otherwise it will turn red."
@@ -1363,7 +1363,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "The heart of every major network"
+			subtitle: "&#8B4513The heart of every major network"
 			tasks: [{
 				id: "2FD7962D05501530"
 				item: {
@@ -1411,7 +1411,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Viewing your network"
+			subtitle: "&#8B4513Viewing your network"
 			tasks: [{
 				id: "6473ECD3D2CA99B7"
 				item: {
@@ -1529,7 +1529,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Energy cell 2.0"
+			subtitle: "&#8B4513Energy cell 2.0"
 			tasks: [{
 				id: "23DB67BF6E66698A"
 				item: {
@@ -1574,7 +1574,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Cells go here"
+			subtitle: "&#8B4513Cells go here"
 			tasks: [
 				{
 					id: "161926C34343F80C"
@@ -1603,7 +1603,7 @@
 					type: "item"
 				}
 			]
-			title: "ME Chests and Drives"
+			title: "&lME Chests and Drives"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -1612,7 +1612,7 @@
 			description: [
 				"Using a cell workbench, cells can be filtered to only accept certain items, similar to how ME Storage Busses can be filtered."
 				""
-				"Items can be dragged into the slots from &aJEI&r even, if you don't actually have any of that item."
+				"Items can be dragged into the slots from &#D2691EJEI&r even, if you don't actually have any of that item."
 			]
 			id: "03308BA3DDCC5932"
 			rewards: [
@@ -1649,7 +1649,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "filtering and partitioning storage cells"
+			subtitle: "&#8B4513filtering and partitioning storage cells"
 			tasks: [{
 				id: "06A667224E238BCF"
 				item: {
@@ -2797,7 +2797,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "In-world transformation"
+			subtitle: "&#8B4513In-world transformation"
 			tasks: [{
 				id: "7F9143316D29614D"
 				item: {
@@ -2854,7 +2854,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not Optional"
+			subtitle: "&#8B4513Not Optional"
 			tasks: [{
 				id: "576E903CA741CBF5"
 				item: {
@@ -2895,7 +2895,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Optional"
+			subtitle: "&#8B4513Optional"
 			tasks: [{
 				id: "1FC434451BE6A44B"
 				item: {
@@ -2949,7 +2949,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Optional... Kinda"
+			subtitle: "&#8B4513Optional... Kinda"
 			tasks: [{
 				id: "5D4CF84974CCE547"
 				item: {
@@ -3013,7 +3013,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not Optional"
+			subtitle: "&#8B4513Not Optional"
 			tasks: [{
 				id: "6801DB4616B73355"
 				item: {
@@ -3072,7 +3072,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Not Optional"
+			subtitle: "&#8B4513Not Optional"
 			tasks: [{
 				id: "649A35FD7F7BE250"
 				item: {
@@ -3143,7 +3143,7 @@
 				"{@pagebreak}"
 				"By default the bus will import anything it has access to. Items inserted into its filter slots will act as a whitelist, only allowing those specific items to be imported."
 				""
-				"Items and fluids can be dragged into the slots from &aJEI&r even if you don't actually have any of that item."
+				"Items and fluids can be dragged into the slots from &#D2691EJEI&r even if you don't actually have any of that item."
 				""
 				"Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item."
 			]
@@ -3184,7 +3184,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sub-Part - Pulls Things INTO Your Network."
+			subtitle: "&#8B4513Sub-Part - Pulls Things INTO Your Network."
 			tasks: [{
 				id: "0F8C1644F5934B79"
 				item: {
@@ -3211,7 +3211,7 @@
 				"{@pagebreak}"
 				"By default the bus will not export anything automatically. Items inserted into its filter slots will act as a whitelist, allowing those specific items to be exported."
 				""
-				"Items and fluids can be dragged into the slots from &aJEI&r even if you don't actually have any of that item."
+				"Items and fluids can be dragged into the slots from &#D2691EJEI&r even if you don't actually have any of that item."
 				""
 				"Right-click with a fluid container (like a bucket, fluid tank, etc) to set that fluid as a filter instead of the bucket or tank item."
 			]
@@ -3252,7 +3252,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Sub-Part - Sends Things FROM Your Network"
+			subtitle: "&#8B4513Sub-Part - Sends Things FROM Your Network"
 			tasks: [{
 				id: "6B5B21FE116DE88C"
 				item: {
@@ -3357,7 +3357,7 @@
 				""
 				"There is also a version that emits a redstone signal depending on the energy stored in your network."
 				""
-				"Items and fluids can be dragged into the slot from &aJEI&r even if you don't actually have any of that item."
+				"Items and fluids can be dragged into the slot from &#D2691EJEI&r even if you don't actually have any of that item."
 				""
 				"Right-click with a fluid container (like a bucket or fluid tank) to set that fluid as a filter instead of the bucket or tank item."
 				""
@@ -3398,7 +3398,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Doesn't Use Any Channels"
+			subtitle: "&#8B4513Doesn't Use Any Channels"
 			tasks: [{
 				id: "79CCD82E03E71596"
 				item: {
@@ -3439,13 +3439,13 @@
 				xp: 15
 			}]
 			size: 1.5d
-			subtitle: " The brain of every major network "
+			subtitle: "&#8B4513The brain of every major network "
 			tasks: [{
 				id: "1834585D85680CD2"
 				title: "Auto-Crafting basics"
 				type: "checkmark"
 			}]
-			title: "Crafting CPUs and Auto-crafting Basics"
+			title: "&lCrafting CPUs and Auto-crafting Basics"
 			x: -4.0d
 			y: 9.5d
 		}
@@ -3492,7 +3492,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The hoarding begins"
+			subtitle: "&#8B4513The hoarding begins"
 			tasks: [{
 				id: "7B41143765692B37"
 				item: {
@@ -3546,7 +3546,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Optional"
+			subtitle: "&#8B4513Optional"
 			tasks: [{
 				id: "67E2AA741C3DFED5"
 				item: {
@@ -3586,7 +3586,7 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Baby Steps"
+			subtitle: "&#8B4513Baby Steps"
 			tasks: [{
 				id: "447863D3BAABE95F"
 				title: "Some Pointers"
@@ -3637,7 +3637,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Input/Output"
+			subtitle: "&#8B4513Input/Output"
 			tasks: [{
 				id: "7EFC2800229FE102"
 				item: {
@@ -3875,7 +3875,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Do Not Use Excessively."
+			subtitle: "&#8B4513Do Not Use Excessively."
 			tasks: [{
 				id: "69D0C6627AA9F61D"
 				item: {
@@ -4567,7 +4567,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Going wireless"
+			subtitle: "&#8B4513Going wireless"
 			tasks: [{
 				id: "2110466A388E6449"
 				item: {
@@ -4608,7 +4608,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Curios and hotkey compatible!"
+			subtitle: "&#8B4513Curios and hotkey compatible!"
 			tasks: [{
 				id: "4AE4D7B9AA4122E5"
 				item: {
@@ -4663,7 +4663,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "More range, please"
+			subtitle: "&#8B4513More range, please"
 			tasks: [{
 				id: "2802F71998B6B81C"
 				item: {
@@ -4685,7 +4685,7 @@
 			description: [
 				"The matter condenser intakes just about any form of \"matter\" and well... condenses it, silly... Also accepts water!"
 				""
-				"&dCondensed matter&r, lots of it, is required for things such as &9singularities&r, which are in turn required for quantum mechanics."
+				"&#D2691ECondensed matter&r, lots of it, is required for things such as &#D2691Esingularities&r, which are in turn required for quantum mechanics."
 			]
 			id: "28064FA66EE0953B"
 			rewards: [
@@ -4722,7 +4722,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Great for trash cans!"
+			subtitle: "&#8B4513Great for trash cans!"
 			tasks: [{
 				id: "47635C0A51585467"
 				item: {
@@ -4777,7 +4777,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "super dense ball of matter "
+			subtitle: "&#8B4513super dense ball of matter "
 			tasks: [{
 				id: "699C9631B0B46FA7"
 				item: {
@@ -4832,7 +4832,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "1 singularity will make 2 Q.E singularities"
+			subtitle: "&#8B45131 singularity will make 2 Q.E singularities"
 			tasks: [{
 				id: "6497C8514F4882FF"
 				item: {
@@ -4949,9 +4949,9 @@
 				""
 				"{@pagebreak}"
 				""
-				"If you are new to AE2 and unfamiliar or unsure with channels, &6use smart cable and dense smart cable&r wherever you can. It will show how channels are currently being routed through your network, making their behavior easier to understand and troubleshoot."
+				"If you are new to AE2 and unfamiliar or unsure with channels, &#D2691Euse smart cable and dense smart cable&r wherever you can. It will show how channels are currently being routed through your network, making their behavior easier to understand and troubleshoot."
 				""
-				"These are not item or fluid or energy pipes. They have no internal inventory, pattern providers and machines do not \"push\" or \"pull\" things into them, all they do is connect AE2 network components together into an actual network. To import or export items, fluids, etc into or out of this network, you need specific components for this, such as &aimporters&r, &9exporters&r and &estorage buses&r."
+				"These are not item or fluid or energy pipes. They have no internal inventory, pattern providers and machines do not \"push\" or \"pull\" things into them, all they do is connect AE2 network components together into an actual network. To import or export items, fluids, etc into or out of this network, you need specific components for this, such as &#D2691Eimporters&r, &#D2691Eexporters&r and &#D2691Estorage buses&r."
 			]
 			hide_dependency_lines: true
 			id: "7D214A4E9FBE9A89"
@@ -4960,7 +4960,7 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "Some Basics"
+			subtitle: "&#8B4513Some Basics"
 			tasks: [{
 				id: "6B9CD362F723B733"
 				title: "General Cable Information."
@@ -4993,7 +4993,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Crafting Facades and Cable Anchors"
+			subtitle: "&#8B4513Crafting Facades and Cable Anchors"
 			tasks: [{
 				id: "6D01897F5BC07F85"
 				item: {
@@ -5067,7 +5067,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Loooong distance logistics"
+			subtitle: "&#8B4513Loooong distance logistics"
 			tasks: [{
 				id: "325CC8EF2680C13E"
 				title: "ME Quantum Network Bridge"
@@ -5078,9 +5078,9 @@
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -5113,7 +5113,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -5159,7 +5159,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Unlimited Range"
+			subtitle: "&#8B4513Unlimited Range"
 			tasks: [{
 				id: "64E36DA1D178C9C6"
 				item: {

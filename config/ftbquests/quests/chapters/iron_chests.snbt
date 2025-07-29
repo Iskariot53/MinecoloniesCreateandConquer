@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&e&lIron Furnaces&r&r adds multiple new &nfaster furnaces&r to the games as upgrades to the vanilla furnace, as well as complex functionality to better compliment other mods."
+				"&#D2691E&lIron Furnaces&r&r adds multiple new &nfaster furnaces&r to the games as upgrades to the vanilla furnace, as well as complex functionality to better compliment other mods."
 				""
-				"&eFurnaces&r each have a logical &eupgrade path&r, as well as an upgrade item associated with them with few exceptions. Progressing through the logical upgrade path will yield an &eincrease in cook speed&r, as well as i&encreased effectiveness&r when using certain &l&eAugments&r&r."
+				"&#D2691EFurnaces&r each have a logical &#D2691Eupgrade path&r, as well as an upgrade item associated with them with few exceptions. Progressing through the logical upgrade path will yield an &#D2691Eincrease in cook speed&r, as well as i&#D2691Encreased effectiveness&r when using certain &l&#D2691EAugments&r&r."
 			]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
@@ -55,7 +55,7 @@
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["&e&lIron Chests&r&r adds new better chests and trapped chests for the various metals in vanilla minecraft with varying sizes!"]
+			description: ["&#D2691E&lIron Chests&r&r adds new better chests and trapped chests for the various metals in vanilla minecraft with varying sizes!"]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -86,7 +86,7 @@
 		{
 			dependencies: ["0C57273BB6B64DA7"]
 			description: [
-				"The &l&cCopper Furnace&r&r is created by either crafting the furnace itself, or using the &n&cStone to Copper Furnace Upgrade&r&r on a Vanilla Furnace."
+				"The &l&#D2691ECopper Furnace&r&r is created by either crafting the furnace itself, or using the &n&#D2691EStone to Copper Furnace Upgrade&r&r on a Vanilla Furnace."
 				""
 				"&lCooktime:&r 180"
 				"&lItems Processed:&r 1 item"
@@ -140,7 +140,7 @@
 			description: [
 				"The &lIron Furnace&r is created by either crafting the furnace itself, or using the &nStone to Iron Furnace Upgrade&r on a Vanilla Furnace. "
 				""
-				"Additionally the &lIron Furnace&r can be obtained by using the &nCopper to Iron Furnace Upgrade&r on a &cCopper Furnace&r."
+				"Additionally the &lIron Furnace&r can be obtained by using the &nCopper to Iron Furnace Upgrade&r on a &#D2691ECopper Furnace&r."
 				""
 				"&lCooktime:&r 160"
 				"&lItems Processed:&r 1 item"
@@ -187,9 +187,9 @@
 		{
 			dependencies: ["3F10690BDA2332BF"]
 			description: [
-				"The &7&lSilver Furnace&r&r is created by either crafting the furnace itself, or using the &n&7Copper to Silver Furnace Upgrade&r&r on a &cCopper Furnace&r."
+				"The &#D2691E&lSilver Furnace&r&r is created by either crafting the furnace itself, or using the &n&#D2691ECopper to Silver Furnace Upgrade&r&r on a &#D2691ECopper Furnace&r."
 				""
-				"Additionally the furnace can be obtained by using the &7&nIron to Silver Furnace Upgrade&r&r on an Iron Furnace."
+				"Additionally the furnace can be obtained by using the &#D2691E&nIron to Silver Furnace Upgrade&r&r on an Iron Furnace."
 				""
 				"&lCooktime:&r 140"
 				"&lItems Processed:&r 1 item"
@@ -237,9 +237,9 @@
 		{
 			dependencies: ["3F10690BDA2332BF"]
 			description: [
-				"The &e&lGold Furnace&r&r is created by either crafting the furnace itself, or using the &n&eIron to Gold Furnace Upgrade&r&r on an Iron Furnace."
+				"The &#D2691E&lGold Furnace&r&r is created by either crafting the furnace itself, or using the &n&#D2691EIron to Gold Furnace Upgrade&r&r on an Iron Furnace."
 				""
-				"Additionally the &eGold Furnace&r can be obtained by using the &n&eSilver to Gold Furnace Upgrade&r&r on a &7Silver Furnace&r."
+				"Additionally the &#D2691EGold Furnace&r can be obtained by using the &n&#D2691ESilver to Gold Furnace Upgrade&r&r on a &#D2691ESilver Furnace&r."
 				""
 				"&lCooktime:&r 120"
 				"&lItems Processed:&r 1 item"
@@ -286,7 +286,7 @@
 		{
 			dependencies: ["4EF7A0BE96242393"]
 			description: [
-				"The &b&lDiamond Furnace&r&r is created by either crafting the furnace itself, or using the &n&bGold to Diamond Furnace Upgrade&r&r on a &eGold Furnace&r."
+				"The &#D2691E&lDiamond Furnace&r&r is created by either crafting the furnace itself, or using the &n&#D2691EGold to Diamond Furnace Upgrade&r&r on a &#D2691EGold Furnace&r."
 				""
 				"&lCooktime:&r 80"
 				"&lItems Processed:&r 1 item"
@@ -332,7 +332,7 @@
 		{
 			dependencies: ["00CE19DE85547103"]
 			description: [
-				"The &2&lEmerald Furnace&r&r is created by either crafting the furnace itself, or using the &n&2Diamond to Emerald Furnace Upgrade&r&r on a &bDiamond Furnace&r."
+				"The &#D2691E&lEmerald Furnace&r&r is created by either crafting the furnace itself, or using the &n&#D2691EDiamond to Emerald Furnace Upgrade&r&r on a &#D2691EDiamond Furnace&r."
 				""
 				"&lCooktime:&r 40"
 				"&lItems Processed:&r 1 item"
@@ -378,7 +378,7 @@
 		{
 			dependencies: ["00CE19DE85547103"]
 			description: [
-				"The &3&lCrystal Furnace&r&r is created by either crafting the furnace itself, or using the &n&3Diamond to Crystal Furnace Upgrade&r&r on a &bDiamond Furnace&r."
+				"The &#D2691E&lCrystal Furnace&r&r is created by either crafting the furnace itself, or using the &n&#D2691EDiamond to Crystal Furnace Upgrade&r&r on a &#D2691EDiamond Furnace&r."
 				""
 				"&lCooktime:&r 40"
 				"&lItems Processed:&r 1 item"
@@ -428,9 +428,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &5&lObsidian Furnace&r&r is created by either crafting the furnace itself, or using either the &n&5Emerald to Obsidian Furnace Upgrade&r&r on an &2Emerald Furnace&r"
+				"The &#D2691E&lObsidian Furnace&r&r is created by either crafting the furnace itself, or using either the &n&#D2691EEmerald to Obsidian Furnace Upgrade&r&r on an &#D2691EEmerald Furnace&r"
 				""
-				"or the &n&5Crystal to Obsidian Furnace Upgrade&r&r on a &3Crystal Furnace&r."
+				"or the &n&#D2691ECrystal to Obsidian Furnace Upgrade&r&r on a &#D2691ECrystal Furnace&r."
 				""
 				"&lCooktime:&r 20"
 				"&lItems Processed:&r 1 item"
@@ -476,7 +476,7 @@
 		{
 			dependencies: ["56E6FC26FDF8983C"]
 			description: [
-				"The &8&lNetherite Furnace&r&r is created by either crafting the furnace itself, or using the &n&8Obsidian to Netherite Furnace Upgrade&r&r on an &5Obsidian Furnace&r."
+				"The &#D2691E&lNetherite Furnace&r&r is created by either crafting the furnace itself, or using the &n&#D2691EObsidian to Netherite Furnace Upgrade&r&r on an &#D2691EObsidian Furnace&r."
 				""
 				"&lCooktime:&r 5"
 				"&lItems Processed:&r 1 item"
@@ -540,7 +540,7 @@
 				"69D7A70BAC877E4A"
 			]
 			description: [
-				"The &cR&r&dai&r&9n&r&eb&r&co&r&aw&r &eF&r&du&r&9r&r&en&r&9a&r&ec&r&9e&r is created by crafting the furnace itself, and &ccannot&r be created by upgrading another furnace."
+				"The &#D2691ER&r&#D2691Eai&r&#D2691En&r&#D2691Eb&r&#D2691Eo&r&#D2691Ew&r &#D2691EF&r&#D2691Eu&r&#D2691Er&r&#D2691En&r&#D2691Ea&r&#D2691Ec&r&#D2691Ee&r is created by crafting the furnace itself, and &#D2691Ecannot&r be created by upgrading another furnace."
 				""
 				"&lCooktime:&r 20"
 				"&lItems Processed:&r 64 items"
@@ -602,7 +602,7 @@
 		}
 		{
 			dependencies: ["4F3D79BF92A7FA4F"]
-			description: ["As the name suggests, it is needed as the &dCore&r of the &l&dRainbow Furnace&r&r."]
+			description: ["As the name suggests, it is needed as the &#D2691ECore&r of the &l&#D2691ERainbow Furnace&r&r."]
 			id: "69D7A70BAC877E4A"
 			rewards: [
 				{
@@ -652,7 +652,7 @@
 				"6A41826ACB906240"
 				"56E6FC26FDF8983C"
 			]
-			description: ["Crafted using all the previous Tiers of furnaces and is needed to craft the &d&lRainbow Furnace&r&r."]
+			description: ["Crafted using all the previous Tiers of furnaces and is needed to craft the &#D2691E&lRainbow Furnace&r&r."]
 			hide_dependency_lines: true
 			id: "4C5FEEEBE56D5107"
 			rewards: [
@@ -904,7 +904,7 @@
 		}
 		{
 			dependencies: ["0C57273BB6B64DA7"]
-			description: ["The &c&lFurnace Settings Linker&r&r allows you to easily copy the settings from one furnace to another."]
+			description: ["The &#D2691E&lFurnace Settings Linker&r&r allows you to easily copy the settings from one furnace to another."]
 			hide_dependency_lines: true
 			id: "6397AA8A64CD103F"
 			rewards: [
@@ -947,10 +947,10 @@
 		{
 			dependencies: ["0C57273BB6B64DA7"]
 			description: [
-				"The &c&lWireless Heat Transmitter&r&r is an item which transmits heat to the &cWireless Heat Receiver&r bound to it. To bind the item, simply insert it into the block's slot shown in the user interface. Smelting requires &4&l1600 FE&r&r per item."
+				"The &#D2691E&lWireless Heat Transmitter&r&r is an item which transmits heat to the &#D2691EWireless Heat Receiver&r bound to it. To bind the item, simply insert it into the block's slot shown in the user interface. Smelting requires &#D2691E&l1600 FE&r&r per item."
 				""
 				""
-				"The &c&lWireless Heat Receiver&r&r is an item which accepts heat from the &cWireless Heat Transmitter&r bound to it. To bind the item, simply insert it into the block's slot shown in the user interface. When this item is bound, simply place it into the fuel slot of any furnace. &l&41600 FE&r&r is required per item."
+				"The &#D2691E&lWireless Heat Receiver&r&r is an item which accepts heat from the &#D2691EWireless Heat Transmitter&r bound to it. To bind the item, simply insert it into the block's slot shown in the user interface. When this item is bound, simply place it into the fuel slot of any furnace. &l&#D2691E1600 FE&r&r is required per item."
 			]
 			hide_dependency_lines: true
 			id: "3E3145F6B2F14BF1"
@@ -1003,13 +1003,13 @@
 					type: "item"
 				}
 			]
-			title: "Wireless Heat"
+			title: "&lWireless Heat"
 			x: -4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["04717708B001F244"]
-			description: ["&e&lCapacity:&r&r 45 Slots"]
+			description: ["&#D2691E&lCapacity:&r&r 45 Slots"]
 			hide_dependency_lines: true
 			id: "6B59EC624F7BA18D"
 			rewards: [
@@ -1055,7 +1055,7 @@
 				"04717708B001F244"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&e&lCapacity:&r&r 54 Slots"]
+			description: ["&#D2691E&lCapacity:&r&r 54 Slots"]
 			id: "0EDCCF66E2F17A06"
 			rewards: [
 				{
@@ -1096,7 +1096,7 @@
 		}
 		{
 			dependencies: ["0EDCCF66E2F17A06"]
-			description: ["&e&lCapacity:&r&r 81 Slots"]
+			description: ["&#D2691E&lCapacity:&r&r 81 Slots"]
 			id: "2788D6F3D7445BCD"
 			rewards: [
 				{
@@ -1137,7 +1137,7 @@
 		}
 		{
 			dependencies: ["2788D6F3D7445BCD"]
-			description: ["&e&lCapacity:&r&r 108 Slots"]
+			description: ["&#D2691E&lCapacity:&r&r 108 Slots"]
 			id: "5564142E9EF19BB8"
 			rewards: [
 				{
@@ -1178,9 +1178,9 @@
 		{
 			dependencies: ["5564142E9EF19BB8"]
 			description: [
-				"&e&lCapacity:&r&r 108 Slots"
+				"&#D2691E&lCapacity:&r&r 108 Slots"
 				""
-				"&cDisplays any items placed inside&r."
+				"&#D2691EDisplays any items placed inside&r."
 			]
 			id: "430AA85ADC85FF47"
 			rewards: [
@@ -1221,7 +1221,7 @@
 		}
 		{
 			dependencies: ["5564142E9EF19BB8"]
-			description: ["&e&lCapacity:&r&r 108 Slots"]
+			description: ["&#D2691E&lCapacity:&r&r 108 Slots"]
 			id: "48B37BC73B13EDC2"
 			rewards: [
 				{
@@ -1353,9 +1353,9 @@
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -1388,7 +1388,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

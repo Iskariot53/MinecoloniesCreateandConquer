@@ -26,7 +26,7 @@
 	quests: [
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["The first step in acquiring and adding special affixes to your gear is collecting &9gems&r and &djewels&r. You want to collect and hold onto all of them that you can (this also applies to affixed gear but more on that later)."]
+			description: ["The first step in acquiring and adding special affixes to your gear is collecting &#D2691Egems&r and &#D2691Ejewels&r. You want to collect and hold onto all of them that you can (this also applies to affixed gear but more on that later)."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -51,7 +51,7 @@
 			}]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&eYour first gems"
+			subtitle: "&#8B4513Your first gems"
 			tasks: [{
 				advancement: "apotheosis:affix/gem"
 				criterion: ""
@@ -73,7 +73,7 @@
 				id: "555ECB1476A6CEE0"
 				type: "advancement"
 			}]
-			title: "&6&lWelcome to Apotheosis!"
+			title: "&lWelcome to Apotheosis!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -82,11 +82,11 @@
 			description: [
 				"Gem dust can be obtained a few different ways, bare in mind that the gem will be destroyed in the process and as such it's only advisable to crush low-tier gems or gems you have no need for or interest in."
 				""
-				"The first method available to you will be crushing them with a &8falling anvil&r. Simply throw the gems to be crushed on the ground and drop an anvil on them. Easy!"
+				"The first method available to you will be crushing them with a &#D2691Efalling anvil&r. Simply throw the gems to be crushed on the ground and drop an anvil on them. Easy!"
 				""
-				"Next will be the&6 salvaging table&r. Which requires gem dust to craft."
+				"Next will be the&#D2691E salvaging table&r. Which requires gem dust to craft."
 				""
-				"Lastly, the ability to crush and salvage gems, jewels and affixed armor to provide materials is one of the many integrations that has been provided to &ecrushing wheels&r."
+				"Lastly, the ability to crush and salvage gems, jewels and affixed armor to provide materials is one of the many integrations that has been provided to &#D2691Ecrushing wheels&r."
 			]
 			id: "5DE31936F9212582"
 			rewards: [
@@ -110,7 +110,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA few ways to do this"
+			subtitle: "&#8B4513A few ways to do this"
 			tasks: [{
 				count: 4L
 				id: "6B4248E67F3D072B"
@@ -125,16 +125,16 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lCrushing Gemstones"
+			title: "&lCrushing Gemstones"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["375EB6ADD26E0668"]
 			description: [
-				"&9Affixes are modifiers&r added to armor and weapons that add extra stats and effects beyond what the item would normally provide, pretty cool huh?"
+				"&#D2691EAffixes are modifiers&r added to armor and weapons that add extra stats and effects beyond what the item would normally provide, pretty cool huh?"
 				""
-				"Affixes come in many rarities and this will be discernible by the &6color&r of the name of the affixed item."
+				"Affixes come in many rarities and this will be discernible by the &#D2691Ecolor&r of the name of the affixed item."
 				""
 				"Affixes can provide anything from added stats to enchantability bonuses and will scale with the level of rarity. There will always be a threshold for any given rarity. Meaning that 2 items with the exact same affix will not necessarily give the exact same stat boost to the stat, it is entirely possible to roll higher or lower within the threshold of stats the affix level can provide."
 			]
@@ -160,7 +160,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6So what's an affix?"
+			subtitle: "&#8B4513So what's an affix?"
 			tasks: [{
 				advancement: "apotheosis:affix/root"
 				criterion: ""
@@ -179,7 +179,7 @@
 				id: "082468EA40963D92"
 				type: "advancement"
 			}]
-			title: "&eApotheotic gear and affixes"
+			title: "&lApotheotic gear and affixes"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -233,7 +233,7 @@
 						}
 						id: "apotheosis:gem_cutting_table"
 					}
-					title: "&eGem Cutting Table"
+					title: "&lGem Cutting Table"
 					type: "item"
 				}
 				{
@@ -269,7 +269,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Find an epic affixed item"
+			subtitle: "&#8B4513Find an epic affixed item"
 			tasks: [{
 				advancement: "apotheosis:affix/epic"
 				criterion: ""
@@ -303,7 +303,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Find a rare affixed item"
+			subtitle: "&#8B4513Find a rare affixed item"
 			tasks: [{
 				advancement: "apotheosis:affix/rare"
 				criterion: ""
@@ -350,7 +350,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Find a mythic affixed item"
+			subtitle: "&#8B4513Find a mythic affixed item"
 			tasks: [{
 				advancement: "apotheosis:affix/mythic"
 				criterion: ""
@@ -396,7 +396,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Find an artifact affixed item"
+			subtitle: "&#8B4513Find an artifact affixed item"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/artifact"
 				criterion: ""
@@ -429,7 +429,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Find an esoteric affixed item"
+			subtitle: "&#8B4513Find an esoteric affixed item"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/esoteric"
 				criterion: ""
@@ -462,7 +462,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Socket a gem into an item"
+			subtitle: "&#8B4513Socket a gem into an item"
 			tasks: [{
 				advancement: "apotheosis:affix/socket"
 				criterion: ""
@@ -495,7 +495,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain a flawless gem"
+			subtitle: "&#8B4513Obtain a flawless gem"
 			tasks: [{
 				advancement: "apotheosis:affix/mythic_gem"
 				criterion: ""
@@ -542,7 +542,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain a perfect gem"
+			subtitle: "&#8B4513Obtain a perfect gem"
 			tasks: [{
 				advancement: "apotheosis:affix/ancient_gem"
 				criterion: ""
@@ -575,7 +575,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain an artifact jewel"
+			subtitle: "&#8B4513Obtain an artifact jewel"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/artifact_gem"
 				criterion: ""
@@ -621,7 +621,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain an heirloom jewel"
+			subtitle: "&#8B4513Obtain an heirloom jewel"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/heirloom_gem"
 				criterion: ""
@@ -655,7 +655,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain an esoteric jewel"
+			subtitle: "&#8B4513Obtain an esoteric jewel"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/esoteric_gem"
 				criterion: ""
@@ -668,9 +668,9 @@
 		{
 			dependencies: ["5DE31936F9212582"]
 			description: [
-				"Once you have some gem dust you can craft a &6salvaging table&r, used for &ebreaking down gems and affixed items&r you don't want for materials that can be used to upgrade other gems and items you &odo&r want. Each tier of gem and affix provides it's own unique salvage material respective to it's rarity."
+				"Once you have some gem dust you can craft a &#D2691Esalvaging table&r, used for &#D2691Ebreaking down gems and affixed items&r you don't want for materials that can be used to upgrade other gems and items you &odo&r want. Each tier of gem and affix provides it's own unique salvage material respective to it's rarity."
 				""
-				"&9Note&r: This functionality has been added to &3crushing wheels&r as well!"
+				"&#D2691ENote&r: This functionality has been added to &#D2691Ecrushing wheels&r as well!"
 			]
 			id: "346A2C276A013F70"
 			rewards: [
@@ -693,7 +693,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSalvaging extra gems and items"
+			subtitle: "&#8B4513Salvaging extra gems and items"
 			tasks: [{
 				id: "41EFAE0830DB63FE"
 				item: {
@@ -707,7 +707,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSalvaging Table"
+			title: "&lSalvaging Table"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -735,7 +735,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Common rarity material"
+			subtitle: "&#8B4513Common rarity material"
 			tasks: [{
 				id: "1F23F44FA00D916B"
 				item: {
@@ -775,7 +775,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Uncommon rarity material"
+			subtitle: "&#8B4513Uncommon rarity material"
 			tasks: [{
 				id: "3976CDB717DE853F"
 				item: {
@@ -829,7 +829,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Rare rarity material"
+			subtitle: "&#8B4513Rare rarity material"
 			tasks: [{
 				id: "25B99B7571CD9076"
 				item: {
@@ -869,7 +869,7 @@
 					type: "item"
 				}
 			]
-			subtitle: " &6Epic rarity material"
+			subtitle: "&#8B4513Epic rarity material"
 			tasks: [{
 				id: "721E66C0BBDA793B"
 				item: {
@@ -922,7 +922,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Mythic rarity material"
+			subtitle: "&#8B4513Mythic rarity material"
 			tasks: [{
 				id: "129B3929F35C58FC"
 				item: {
@@ -989,7 +989,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Heirloom rarity material"
+			subtitle: "&#8B4513Heirloom rarity material"
 			tasks: [{
 				id: "44F95E31F153E9C9"
 				item: {
@@ -1003,7 +1003,7 @@
 				}
 				type: "item"
 			}]
-			title: "&eCore of the Family"
+			title: "&lCore of the Family"
 			x: -8.5d
 			y: 5.0d
 		}
@@ -1031,7 +1031,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Artifact rarity material"
+			subtitle: "&#8B4513Artifact rarity material"
 			tasks: [{
 				id: "4EEDDA851009961E"
 				item: {
@@ -1045,7 +1045,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e Artifact Shard"
+			title: "&l Artifact Shard"
 			x: -10.0d
 			y: 5.0d
 		}
@@ -1072,7 +1072,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Esoteric rarity material"
+			subtitle: "&#8B4513Esoteric rarity material"
 			tasks: [{
 				id: "4BB414864080128D"
 				item: {
@@ -1086,13 +1086,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e Galactic Core"
+			title: "&l Galactic Core"
 			x: -11.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["346A2C276A013F70"]
-			description: ["Gem dust can also be used with deepslate to craft &dgem-fused slate&r. This will be required for crafting &6sigils&r which will be needed for everything from adding sockets to items to powering your reforging and augmenting tables, but more on that shortly."]
+			description: ["Gem dust can also be used with deepslate to craft &#D2691Egem-fused slate&r. This will be required for crafting &#D2691Esigils&r which will be needed for everything from adding sockets to items to powering your reforging and augmenting tables, but more on that shortly."]
 			id: "2B28CE322D0A3A22"
 			rewards: [
 				{
@@ -1115,7 +1115,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFusing slates"
+			subtitle: "&#8B4513Fusing slates"
 			tasks: [{
 				id: "07DF274303BADD2A"
 				item: {
@@ -1129,13 +1129,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lGem-Fused Slate"
+			title: "&lGem-Fused Slate"
 			x: 1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&aThe Sigil of Withdrawal&r is used to reclaim gems from socketed items, leaving them intact."]
+			description: ["&#D2691EThe Sigil of Withdrawal&r is used to reclaim gems from socketed items, leaving them intact."]
 			id: "4FC603F5C7AB8683"
 			rewards: [
 				{
@@ -1157,7 +1157,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eI'm going to need those back, please"
+			subtitle: "&#8B4513I'm going to need those back, please"
 			tasks: [{
 				id: "6AEA19BF7F011160"
 				item: {
@@ -1171,13 +1171,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSigil of Withdrawal"
+			title: "&lSigil of Withdrawal"
 			x: 5.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&dSigils of rebirth&r are &crequired&r &6whenever reforging items&r in a reforging table, think of them as just another material cost so keep them at your disposal if you plan to do a lot of swapping and upgrading effects on your items."]
+			description: ["&#D2691ESigils of rebirth&r are &#D2691Erequired&r &#D2691Ewhenever reforging items&r in a reforging table, think of them as just another material cost so keep them at your disposal if you plan to do a lot of swapping and upgrading effects on your items."]
 			id: "30D2BF1E74147B8F"
 			rewards: [
 				{
@@ -1199,7 +1199,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNeeded for reforging "
+			subtitle: "&#8B4513Needed for reforging "
 			tasks: [{
 				id: "2D32DA4643339A0E"
 				item: {
@@ -1213,13 +1213,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSigil of Rebirth"
+			title: "&lSigil of Rebirth"
 			x: 2.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&7The Sigil of Unnaming&r is required if you would like to remove the affixed name of an item."]
+			description: ["&#D2691EThe Sigil of Unnaming&r is required if you would like to remove the affixed name of an item."]
 			id: "5B44891D07A8DA06"
 			rewards: [
 				{
@@ -1241,7 +1241,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eRemoving affixes"
+			subtitle: "&#8B4513Removing affixes"
 			tasks: [{
 				id: "15D2400CE39BCFDF"
 				item: {
@@ -1255,13 +1255,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSigil of Unnaming"
+			title: "&lSigil of Unnaming"
 			x: 4.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&6The Sigil of Enhancement&r i used to power the &eaugmentation table&r."]
+			description: ["&#D2691EThe Sigil of Enhancement&r i used to power the &#D2691Eaugmentation table&r."]
 			id: "459ED7497729B8B5"
 			rewards: [
 				{
@@ -1283,7 +1283,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAugmentation of affixes"
+			subtitle: "&#8B4513Augmentation of affixes"
 			tasks: [{
 				id: "45A6443DF7510E6E"
 				item: {
@@ -1297,13 +1297,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSigil of Enhancement"
+			title: "&lSigil of Enhancement"
 			x: 8.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&3The sigil of socketing&r allows you to add an additional socket to to an item"]
+			description: ["&#D2691EThe sigil of socketing&r allows you to add an additional socket to to an item"]
 			id: "07B55E94184EA4B9"
 			rewards: [
 				{
@@ -1325,7 +1325,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAdd more shiney"
+			subtitle: "&#8B4513Add more shiney"
 			tasks: [{
 				id: "4099B7C6FBD869BA"
 				item: {
@@ -1339,7 +1339,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSigil of Socketing"
+			title: "&lSigil of Socketing"
 			x: 7.0d
 			y: 5.0d
 		}
@@ -1348,7 +1348,7 @@
 				"30D2BF1E74147B8F"
 				"5DE31936F9212582"
 			]
-			description: ["With &6sigils of rebirth&r, the simple reforging table can be used to reforge items and change affixes up to \"&9rare&r\", provided you have the material cost necessary."]
+			description: ["With &#D2691Esigils of rebirth&r, the simple reforging table can be used to reforge items and change affixes up to \"&#D2691Erare&r\", provided you have the material cost necessary."]
 			id: "3C4B3305FA865E92"
 			rewards: [
 				{
@@ -1384,7 +1384,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eChanging affixes"
+			subtitle: "&#8B4513Changing affixes"
 			tasks: [{
 				id: "1B305DF1A8FE8C08"
 				item: {
@@ -1398,7 +1398,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSimple Reforging Table"
+			title: "&lSimple Reforging Table"
 			x: 0.0d
 			y: 6.5d
 		}
@@ -1409,15 +1409,15 @@
 				"3C4B3305FA865E92"
 			]
 			description: [
-				"The standard reforging table, when provided with sigils of rebirth, can be used to reforge affixes up to &o&6mythic&r&r. This is a good place to focus on getting good affixes to start with in your later game gear progression, but no they are not the most powerful affixes, simply the most powerful ones ones &o&eEASILY OBTAINED&r&r. Higher tiers of more powerful affixes &ocan&r be found, and this is the only way to obtain them. "
+				"The standard reforging table, when provided with sigils of rebirth, can be used to reforge affixes up to &o&#D2691Emythic&r&r. This is a good place to focus on getting good affixes to start with in your later game gear progression, but no they are not the most powerful affixes, simply the most powerful ones ones &o&#D2691EEASILY OBTAINED&r&r. Higher tiers of more powerful affixes &ocan&r be found, and this is the only way to obtain them. "
 				""
 				"This is to preserve the adventuring aspects of the game, the best gear shouldn't be obtained from feeding an endless supply of mats into a table anyways."
 				""
 				"Tiers such as ancient and esoteric can roll the same affixes with higher values, but luck is required."
 				""
-				"&6For those up for a challenge&r: There are 2 farms best for farming affixed items of high rarity and maximizing your chance at high rolls. "
+				"&#D2691EFor those up for a challenge&r: There are 2 farms best for farming affixed items of high rarity and maximizing your chance at high rolls. "
 				""
-				"&dWannabees&r farming amber encased treasure goblins is one of them, or for the more industrious, capturing a treasure goblin in a mob imprisonment tool and farming them via &3mob duplicator&r is an effective route too. This will provide you with an endless supply of gems and affixed items. &eBear in mind&r that treasure goblin loot tables are dependent on what dimension they are in when killed and not all dimensions are weighted equally."
+				"&#D2691EWannabees&r farming amber encased treasure goblins is one of them, or for the more industrious, capturing a treasure goblin in a mob imprisonment tool and farming them via &#D2691Emob duplicator&r is an effective route too. This will provide you with an endless supply of gems and affixed items. &#D2691EBear in mind&r that treasure goblin loot tables are dependent on what dimension they are in when killed and not all dimensions are weighted equally."
 			]
 			id: "101605FF172FD328"
 			rewards: [
@@ -1440,7 +1440,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMythic reforging"
+			subtitle: "&#8B4513Mythic reforging"
 			tasks: [{
 				id: "4A05F232CC5EDE24"
 				item: {
@@ -1454,7 +1454,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lReforging Table"
+			title: "&lReforging Table"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -1464,7 +1464,7 @@
 				"1B866D84345402A7"
 				"101605FF172FD328"
 			]
-			description: ["When provided with &6sigils of enhancement&r, the augmenting table can be used to augment an &eindividual affix,&r allowing you to leave desired traits intact while changing the less desirable ones."]
+			description: ["When provided with &#D2691Esigils of enhancement&r, the augmenting table can be used to augment an &#D2691Eindividual affix,&r allowing you to leave desired traits intact while changing the less desirable ones."]
 			id: "0F12DC69816D9D7F"
 			rewards: [
 				{
@@ -1499,7 +1499,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA table for more precise re-rolls"
+			subtitle: "&#8B4513A table for more precise re-rolls"
 			tasks: [{
 				id: "16657472D6E97973"
 				item: {
@@ -1513,7 +1513,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAugmenting Table"
+			title: "&lAugmenting Table"
 			x: 0.0d
 			y: 9.5d
 		}
@@ -1540,7 +1540,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Find an heirloom affixed item"
+			subtitle: "&#8B4513Find an heirloom affixed item"
 			tasks: [{
 				advancement: "apotheotic_additions:affix/heirloom"
 				criterion: ""
@@ -1565,10 +1565,10 @@
 			}
 			id: "617C3F408AAA1C1B"
 			size: 2.0d
-			subtitle: "&eThey're a little bit different here"
+			subtitle: "&#8B4513They're a little bit different here"
 			tasks: [{
 				id: "3D8B314BD53C1CD9"
-				title: "&6&lMCC Apothic spawners"
+				title: "&lMCC Apothic spawners"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1577,7 +1577,7 @@
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "067FA5C289FD4FEF"
-			subtitle: "&6Ignores Light Conditions"
+			subtitle: "&#8B4513Ignores Light Conditions"
 			tasks: [{
 				id: "69B3865DE012722E"
 				item: {
@@ -1591,14 +1591,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSoul Lantern"
+			title: "&lSoul Lantern"
 			x: -1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "5917DA44D16648CD"
-			subtitle: "&6Spawns Babies"
+			subtitle: "&#8B4513Spawns Babies"
 			tasks: [{
 				id: "0061FA30451DEDD8"
 				item: {
@@ -1612,14 +1612,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lTurtle Egg"
+			title: "&lTurtle Egg"
 			x: 0.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "28F81AB617E77D06"
-			subtitle: "&6+ Spawn Count"
+			subtitle: "&#8B4513+ Spawn Count"
 			tasks: [{
 				id: "215B58E8C40AE590"
 				item: {
@@ -1633,14 +1633,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lEcho Shards"
+			title: "&lEcho Shards"
 			x: -2.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "785543718448CCE7"
-			subtitle: "&6- Max Delay"
+			subtitle: "&#8B4513- Max Delay"
 			tasks: [{
 				id: "01C71EADE03967EB"
 				item: {
@@ -1654,14 +1654,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lPrecision Mechanism"
+			title: "&lPrecision Mechanism"
 			x: -2.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "622A49534DFDC1E4"
-			subtitle: "&6+ Max Entities"
+			subtitle: "&#8B4513+ Max Entities"
 			tasks: [{
 				id: "4F25DEE2AE97AFA0"
 				item: {
@@ -1675,14 +1675,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lNether Star"
+			title: "&lNether Star"
 			x: -2.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "6F332E6682D5B0B0"
-			subtitle: "&6Silence"
+			subtitle: "&#8B4513Silence"
 			tasks: [{
 				id: "3FF97C7FEED03C86"
 				item: {
@@ -1696,14 +1696,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lWhite Wool"
+			title: "&lWhite Wool"
 			x: 2.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "1BECBF73E0153C12"
-			subtitle: "&6No AI"
+			subtitle: "&#8B4513No AI"
 			tasks: [{
 				id: "63F80205DD2F5D2C"
 				item: {
@@ -1717,14 +1717,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lChorus Fruit"
+			title: "&lChorus Fruit"
 			x: 2.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "148F023E12BF1494"
-			subtitle: "&6- Min Spawn Delay"
+			subtitle: "&#8B4513- Min Spawn Delay"
 			tasks: [{
 				id: "3C9FE972077FA8EB"
 				item: {
@@ -1738,14 +1738,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lTreated Brass Ingot"
+			title: "&lTreated Brass Ingot"
 			x: 2.0d
 			y: 14.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "1272996A113663C4"
-			subtitle: "&6Redstone Sensitive"
+			subtitle: "&#8B4513Redstone Sensitive"
 			tasks: [{
 				id: "2B60E93A6FD2B0FA"
 				item: {
@@ -1759,14 +1759,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lRedstone Comparator"
+			title: "&lRedstone Comparator"
 			x: 1.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "2A21BF872E30B02B"
-			subtitle: "&6Ignore Players"
+			subtitle: "&#8B4513Ignore Players"
 			tasks: [{
 				id: "4F989F74548171C0"
 				item: {
@@ -1780,14 +1780,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lEther Gas Bucket"
+			title: "&lEther Gas Bucket"
 			x: -1.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "40F6AE83FEC2D255"
-			subtitle: "&6Ignores Spawn Conditions"
+			subtitle: "&#8B4513Ignores Spawn Conditions"
 			tasks: [{
 				id: "0F12E1137DD90E01"
 				item: {
@@ -1801,14 +1801,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lIrradium Bar"
+			title: "&lIrradium Bar"
 			x: 0.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
 			id: "2B1DAACDAD3EDA01"
-			subtitle: "&6+ Activation Range"
+			subtitle: "&#8B4513+ Activation Range"
 			tasks: [{
 				id: "251A5E5F5A462C3F"
 				item: {
@@ -1822,13 +1822,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lPrismarine Crystals"
+			title: "&lPrismarine Crystals"
 			x: 1.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
-			description: ["Hold nether quartz in your &6off hand&r slot, while using the required item on the spawner to revert any changes to settings needed."]
+			description: ["Hold nether quartz in your &#D2691Eoff hand&r slot, while using the required item on the spawner to revert any changes to settings needed."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1840,21 +1840,21 @@
 				id: "minecraft:quartz"
 			}
 			id: "37C05D5F67CA0AA6"
-			subtitle: "&6Nether quartz in off-hand"
+			subtitle: "&#8B4513Nether quartz in off-hand"
 			tasks: [{
 				id: "233707B6AC9943B8"
 				title: "Inverting spawner settings"
 				type: "checkmark"
 			}]
-			title: "&e&lInverting Spawner Settings"
+			title: "&lInverting Spawner Settings"
 			x: 0.0d
 			y: 17.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -1887,13 +1887,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
 		{
 			dependencies: ["375EB6ADD26E0668"]
-			description: ["The best way to get starting with higher level &denchanting&r will be to gather the materials to make 16 &3sea shelf&r"]
+			description: ["The best way to get starting with higher level &#D2691Eenchanting&r will be to gather the materials to make 16 &#D2691Esea shelf&r"]
 			hide_dependency_lines: true
 			id: "6DD809C91507EE22"
 			rewards: [
@@ -1931,13 +1931,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l16x Seashelf"
+			title: "&l16x Seashelf"
 			x: -8.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["6DD809C91507EE22"]
-			description: ["Once you have 16 &3sea shelves&r, Place 15 around an &5enchanting table&r and use it to &dinfuse&r the 16th."]
+			description: ["Once you have 16 &#D2691Esea shelves&r, Place 15 around an &#D2691Eenchanting table&r and use it to &#D2691Einfuse&r the 16th."]
 			id: "3C7B696ED6CF5C8B"
 			rewards: [
 				{
@@ -1985,13 +1985,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lInfused Seashelf"
+			title: "&lInfused Seashelf"
 			x: -8.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["3C7B696ED6CF5C8B"]
-			description: ["Craft 2 &9Heart-Forged Seashelf&r."]
+			description: ["Craft 2 &#D2691EHeart-Forged Seashelf&r."]
 			id: "3F32DAF61A75DA63"
 			rewards: [
 				{
@@ -2028,13 +2028,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l2x Heart-Forged Seashelf"
+			title: "&l2x Heart-Forged Seashelf"
 			x: -9.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["3C7B696ED6CF5C8B"]
-			description: ["Craft 7 &bCrystalline Seashelf&r."]
+			description: ["Craft 7 &#D2691ECrystalline Seashelf&r."]
 			id: "3F00DCAB35133433"
 			rewards: [
 				{
@@ -2083,13 +2083,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l7x Crystalline Seashelf"
+			title: "&l7x Crystalline Seashelf"
 			x: -6.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["3C7B696ED6CF5C8B"]
-			description: ["Now Craft 10 &3Dormant Deepshelf&r"]
+			description: ["Now Craft 10 &#D2691EDormant Deepshelf&r"]
 			id: "73F084BA44EC7B0C"
 			rewards: [
 				{
@@ -2126,7 +2126,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l10x Dormant Deepshelf"
+			title: "&l10x Dormant Deepshelf"
 			x: -8.0d
 			y: 12.0d
 		}
@@ -2136,7 +2136,7 @@
 				"73F084BA44EC7B0C"
 				"3F00DCAB35133433"
 			]
-			description: ["Now place down all of your &9Seashelves&r and use the set up to convert all 10 of your &3Dormant Deepshelf&r into &7Deepshelf&r"]
+			description: ["Now place down all of your &#D2691ESeashelves&r and use the set up to convert all 10 of your &#D2691EDormant Deepshelf&r into &#D2691EDeepshelf&r"]
 			id: "3D7A479206F8D24C"
 			rewards: [
 				{
@@ -2173,13 +2173,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l10x Deepshelf"
+			title: "&l10x Deepshelf"
 			x: -8.0d
 			y: 13.5d
 		}
 		{
 			dependencies: ["3D7A479206F8D24C"]
-			description: ["Craft 5 &3Soul-Touched Deepshelf&r"]
+			description: ["Craft 5 &#D2691ESoul-Touched Deepshelf&r"]
 			id: "0CD8B8B4D1AE4BD3"
 			rewards: [
 				{
@@ -2216,13 +2216,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l5x Soul-Touched Deepshelf"
+			title: "&l5x Soul-Touched Deepshelf"
 			x: -9.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["3D7A479206F8D24C"]
-			description: ["Craft 5 &3Echoing Deepshelf&r"]
+			description: ["Craft 5 &#D2691EEchoing Deepshelf&r"]
 			id: "3C44F06BA2CF0B62"
 			rewards: [
 				{
@@ -2259,14 +2259,14 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l5x Echoing Deepshelf"
+			title: "&l5x Echoing Deepshelf"
 			x: -6.5d
 			y: 14.0d
 		}
 		{
 			dependencies: ["0CD8B8B4D1AE4BD3"]
 			description: [
-				"Upgrade your &3Soul-Touched Deepshelves&r to &9Soul-Touched Sculkshelves&r."
+				"Upgrade your &#D2691ESoul-Touched Deepshelves&r to &#D2691ESoul-Touched Sculkshelves&r."
 				""
 				"We are done upgrading these shelves and will use them for our final enchanting set-up and other infusion crafting."
 			]
@@ -2305,14 +2305,14 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l5x Soul-Touched Sculkshelf"
+			title: "&l5x Soul-Touched Sculkshelf"
 			x: -9.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["3C44F06BA2CF0B62"]
 			description: [
-				"Upgrade your &3Echoing Deepshelves&r to&9 Echoing Sculkshelves&r. "
+				"Upgrade your &#D2691EEchoing Deepshelves&r to&#D2691E Echoing Sculkshelves&r. "
 				""
 				"We are done upgrading these shelves and will use them for our final enchanting set-up and other infusion crafting."
 			]
@@ -2351,13 +2351,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l5x Echoing Sculkshelf"
+			title: "&l5x Echoing Sculkshelf"
 			x: -6.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["3D7A479206F8D24C"]
-			description: ["10 &aMelonshelf&r, 5 &3Echoing Sculkshelf&r, and 5 &3Soul-Touched Sculk Shelf&r can be used to make &dInfused Dragon's Breath&r."]
+			description: ["10 &#D2691EMelonshelf&r, 5 &#D2691EEchoing Sculkshelf&r, and 5 &#D2691ESoul-Touched Sculk Shelf&r can be used to make &#D2691EInfused Dragon's Breath&r."]
 			id: "5F291621E68E7A43"
 			rewards: [
 				{
@@ -2406,7 +2406,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l10x Melonshelf"
+			title: "&l10x Melonshelf"
 			x: -8.0d
 			y: 15.0d
 		}
@@ -2450,7 +2450,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lInfused Dragon's Breath"
+			title: "&lInfused Dragon's Breath"
 			x: -8.0d
 			y: 16.5d
 		}
@@ -2460,7 +2460,7 @@
 				"0FBD251910CA4BE7"
 				"6A878C75D220D219"
 			]
-			description: ["Craft 1 &5Draconic Endshelf&r"]
+			description: ["Craft 1 &#D2691EDraconic Endshelf&r"]
 			id: "163E233F09160049"
 			rewards: [
 				{
@@ -2495,7 +2495,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lDraconic Endshelf"
+			title: "&lDraconic Endshelf"
 			x: -8.0d
 			y: 17.5d
 		}
@@ -2505,9 +2505,9 @@
 				"3C44F06BA2CF0B62"
 			]
 			description: [
-				"Last but not least. Craft 3 &dShelf of End-Fused Rectification&r."
+				"Last but not least. Craft 3 &#D2691EShelf of End-Fused Rectification&r."
 				""
-				"with these, our &5Draconic Endshelf&r, and our 10 &3Sculkshelves&r, we have everything necessary to reach the maximum enchanting level. There are many other shelves that can be used for added effects. Try experimenting!"
+				"with these, our &#D2691EDraconic Endshelf&r, and our 10 &#D2691ESculkshelves&r, we have everything necessary to reach the maximum enchanting level. There are many other shelves that can be used for added effects. Try experimenting!"
 			]
 			hide_dependency_lines: true
 			id: "087E494DA97F22D7"
@@ -2545,7 +2545,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&l3x Shelf of End Fused Rectification"
+			title: "&l3x Shelf of End Fused Rectification"
 			x: -8.0d
 			y: 18.5d
 		}

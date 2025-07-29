@@ -60,8 +60,8 @@
 			image: "celestisynth:textures/entity/visuals/keres_pulse.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 3.142857142857139d
-			y: 8.107142857142854d
+			x: 3.15d
+			y: 8.15d
 		}
 		{
 			height: 2.0d
@@ -87,9 +87,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&0  Whether you choose to go the humble  route of farming with the aid of water   wheel, mob caging and botany              mechanics, the pathway to                  technological superiority through        advancements in metallurgy,               electronics, and machine upgrades. Or  if you prefer the way of the              wanderer, endlessly exploring and       dungeon delving. We have balanced      the loot tables so every strategy is a  viable strategy to success, but there   are some decisions to make in general,  you have many options at your           disposal to decide from."
+				"  Whether you choose to go the humble  route of farming with the aid of water   wheel, mob caging and botany              mechanics, the pathway to                  technological superiority through        advancements in metallurgy,               electronics, and machine upgrades. Or  if you prefer the way of the              wanderer, endlessly exploring and       dungeon delving. We have balanced      the loot tables so every strategy is a  viable strategy to success, but there   are some decisions to make in general,  you have many options at your           disposal to decide from."
 				""
-				"&0  The next few quests will cover some    of these options, so we can better       decide how best to establish               ourselves, and what would be a good    idea to work towards."
+				"  The next few quests will cover some    of these options, so we can better       decide how best to establish               ourselves, and what would be a good    idea to work towards."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -131,7 +131,7 @@
 				title: "Check, Check, Check.."
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lThe Basics"
+			title: "&lThe Basics"
 			x: -0.5d
 			y: -4.5d
 		}
@@ -140,7 +140,7 @@
 				"4386DFA29FCEDD4D"
 				"771588CF1624B99F"
 			]
-			description: ["&0  First things first, As with any other     Minecraft playthrough let's get           ourselves at least a diamond pickaxe. "]
+			description: ["  First things first, As with any other     Minecraft playthrough let's get           ourselves at least a diamond pickaxe. "]
 			hide_until_deps_visible: true
 			id: "3126617D43B60448"
 			rewards: [
@@ -169,13 +169,13 @@
 				}
 				type: "item"
 			}]
-			title: "&#8B4513&lVanilla Gear"
+			title: "&lVanilla Gear"
 			x: -0.5357142857142847d
 			y: -2.25d
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
-			description: ["&0  From simplistic drawers and racks, to  large scale logistic networks, a           variety of storage options have been   made available to you, take your pick!"]
+			description: ["  From simplistic drawers and racks, to  large scale logistic networks, a           variety of storage options have been   made available to you, take your pick!"]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -195,7 +195,7 @@
 			subtitle: "&#8B4513Storing all the things"
 			tasks: [{
 				id: "7AA0D0D15E5106B2"
-				title: "&#8B4513&lStorage"
+				title: "&lStorage"
 				type: "checkmark"
 			}]
 			x: 3.4285714285714306d
@@ -203,7 +203,7 @@
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
-			description: ["&0  From catching and breeding              resource laden mobs to grinding         stone and sifting the by-products, a    multitude of farming methods are at      your disposal."]
+			description: ["  From catching and breeding              resource laden mobs to grinding         stone and sifting the by-products, a    multitude of farming methods are at      your disposal."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -223,7 +223,7 @@
 			subtitle: "&#8B4513Farming all the things"
 			tasks: [{
 				id: "01317A17499831BE"
-				title: "&#8B4513&lResource Production"
+				title: "&lResource Production"
 				type: "checkmark"
 			}]
 			x: -4.160714285714278d
@@ -231,7 +231,7 @@
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
-			description: ["&0  Sophisticated backpacks allow you to   increase your on-the-go inventory     as well as allow for upgrades such as  automatic feeding and tank upgrades!"]
+			description: ["  Sophisticated backpacks allow you to   increase your on-the-go inventory     as well as allow for upgrades such as  automatic feeding and tank upgrades!"]
 			id: "52C1ABEEAA3AEEDB"
 			rewards: [
 				{
@@ -252,16 +252,16 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "&#8B4513&lBackpack"
+			title: "&lBackpack"
 			x: 2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"&0  Danks, easily configured, can be used  for picking up and storing VERY large   amounts of items in bulk. They're great  for mining and gathering resources     while keeping your pack and inventory  clean."
+				"  Danks, easily configured, can be used  for picking up and storing VERY large   amounts of items in bulk. They're great  for mining and gathering resources     while keeping your pack and inventory  clean."
 				""
-				"&0  They also work great for collecting    coins, should you choose to automate   sales with a task screen."
+				"  They also work great for collecting    coins, should you choose to automate   sales with a task screen."
 			]
 			id: "3A62EDEC4F73063C"
 			rewards: [
@@ -283,16 +283,16 @@
 				item: "dankstorage:dank_1"
 				type: "item"
 			}]
-			title: "&#8B4513&lDanks"
+			title: "&lDanks"
 			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"&0  Tom's Simple Storage is a storage mod  allowing many of the functionalities       that more advanced storage mods       offer, simplified! "
+				"  Tom's Simple Storage is a storage mod  allowing many of the functionalities       that more advanced storage mods       offer, simplified! "
 				""
-				"&0  A good option for those new to          logistics and item networking."
+				"  A good option for those new to          logistics and item networking."
 			]
 			icon: {
 				Count: 1
@@ -323,13 +323,13 @@
 				title: "Simple!"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lTom's Simple Storage"
+			title: "&lTom's Simple Storage"
 			x: 3.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
-			description: ["&0  Advanced storage and autocrafting    solutions."]
+			description: ["  Advanced storage and autocrafting    solutions."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -359,16 +359,16 @@
 				title: "Not so simple"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lApplied Energistics 2"
+			title: "&lApplied Energistics 2"
 			x: 2.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"&0  Iron Chests are great for storing      large amounts of items in a single        chest. While limited, they are a great     option in the early game and even        later."
+				"  Iron Chests are great for storing      large amounts of items in a single        chest. While limited, they are a great     option in the early game and even        later."
 				""
-				"&0  Iron Furnaces are likely going to be   your primary means of smelting for      most of the early game, they are         highly upgradable, although you will      notice there are no generator           augments. No, this is not a bug."
+				"  Iron Furnaces are likely going to be   your primary means of smelting for      most of the early game, they are         highly upgradable, although you will      notice there are no generator           augments. No, this is not a bug."
 			]
 			id: "6B4F90920F0A78A7"
 			rewards: [
@@ -397,16 +397,16 @@
 					type: "item"
 				}
 			]
-			title: "&#8B4513&lIron Furnaces"
+			title: "&lIron Furnaces"
 			x: 5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"&0  Great for when you need a storage container that     only holds a single item, or multiple of a few item."
+				"  Great for when you need a storage container that     only holds a single item, or multiple of a few item."
 				""
-				"&0  With both Storage Racks and Functional Storage         you can craft a controller allowing you to access       your whole early game storage from 1 block!"
+				"  With both Storage Racks and Functional Storage         you can craft a controller allowing you to access       your whole early game storage from 1 block!"
 			]
 			icon: {
 				Count: 1
@@ -449,16 +449,16 @@
 				title: "Drawer"
 				type: "item"
 			}]
-			title: "&#8B4513&lStorage Racks and Functional Storage"
+			title: "&lStorage Racks and Functional Storage"
 			x: 5.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
 			description: [
-				"&0  Carry, store and access your things  from anywhere in the world with ender  storage!"
+				"  Carry, store and access your things  from anywhere in the world with ender  storage!"
 				""
-				"  &#D2691E&lNOTE&r&0: If someone else gets your       color code they may gain access to     your chest."
+				"  &#D2691E&lNOTE&r: If someone else gets your       color code they may gain access to     your chest."
 			]
 			id: "21F4FDA4DE601AF1"
 			rewards: [
@@ -513,13 +513,13 @@
 					type: "item"
 				}
 			]
-			title: "&#8B4513&lEnder Storage"
+			title: "&lEnder Storage"
 			x: 1.7142857142857224d
 			y: -3.5714285714285694d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
-			description: ["&0  Hopper Botany Pots can be used as    a compact way of farming resources    if tech and automation isn't exactly      your thing."]
+			description: ["  Hopper Botany Pots can be used as    a compact way of farming resources    if tech and automation isn't exactly      your thing."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -548,13 +548,13 @@
 				id: "46A34348C7D2C688"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lBotany Pots"
+			title: "&lBotany Pots"
 			x: -3.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
-			description: ["&0  Craft a dna sampler and punch a mob  while holding it to sample its dna, there  are different tiers of samplers, and    different mobs require different         environments be provided inside of      their cages."]
+			description: ["  Craft a dna sampler and punch a mob  while holding it to sample its dna, there  are different tiers of samplers, and    different mobs require different         environments be provided inside of      their cages."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -583,16 +583,16 @@
 				id: "1CABFE003ECDD3EC"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lHopping cages"
+			title: "&lHopping cages"
 			x: -4.303571428571416d
 			y: -5.464285714285712d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"&0  Productive bees can be found           throughout the world and bred to        produce a wide range of resources. "
+				"  Productive bees can be found           throughout the world and bred to        produce a wide range of resources. "
 				""
-				"&0  Refer to the \"Productive Bees\" quest  chapter for more info!"
+				"  Refer to the \"Productive Bees\" quest  chapter for more info!"
 			]
 			icon: {
 				Count: 1
@@ -623,16 +623,16 @@
 				title: "Bees are the knees"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lProductive Bees"
+			title: "&lProductive Bees"
 			x: -5.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"&0  You can use millstones, crushing        wheels and more to prepare materials  to be sifted for resources, if you like  the stone block approach."
+				"  You can use millstones, crushing        wheels and more to prepare materials  to be sifted for resources, if you like  the stone block approach."
 				""
-				"&0  Refer to the \"&#D2691ESifting&r&0\" section of         \"Resource Production\" to learn more!"
+				"  Refer to the \"&#D2691ESifting&r\" section of         \"Resource Production\" to learn more!"
 			]
 			icon: {
 				Count: 1
@@ -663,16 +663,16 @@
 				title: "Pans out i guess"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lSifting for resources"
+			title: "&lSifting for resources"
 			x: -6.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"&0  Roost resource producing chickens    can be found throughout the world.     Just as with bees these can be bred    and used to produce a multitude of      resources, for all intents and            purposes anything you can get from    one, you can get from the other."
+				"  Roost resource producing chickens    can be found throughout the world.     Just as with bees these can be bred    and used to produce a multitude of      resources, for all intents and            purposes anything you can get from    one, you can get from the other."
 				""
-				"&0  Refer to the \"Roost Ultimate\" chapter  for more info!"
+				"  Refer to the \"Roost Ultimate\" chapter  for more info!"
 			]
 			icon: {
 				Count: 1
@@ -704,16 +704,16 @@
 				title: "Roost"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lRoost Ultimate"
+			title: "&lRoost Ultimate"
 			x: -5.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"&0  While not a viable replacement for other methods, you    will notice that of the many different dungeons,             structures, NPCs and more... Exploring is usually always  a good way to gather resources and find what you        need to make moving forward in life easier."
+				"  While not a viable replacement for other methods, you    will notice that of the many different dungeons,             structures, NPCs and more... Exploring is usually always  a good way to gather resources and find what you        need to make moving forward in life easier."
 				""
-				"&0  Adventuring and looting that new structure you just     found is always a good idea, if you can manage it,           pillage those chests and rack up those &#D2691Eslayer              rewards&r&0!"
+				"  Adventuring and looting that new structure you just     found is always a good idea, if you can manage it,           pillage those chests and rack up those &#D2691Eslayer              rewards&r!"
 			]
 			icon: {
 				Count: 1
@@ -752,7 +752,7 @@
 				}
 				type: "item"
 			}]
-			title: "&#8B4513&l\"Fortune n glory, kid... Fortune n glory\""
+			title: "&l\"Fortune n glory, kid... Fortune n glory\""
 			x: -2.482142857142854d
 			y: -3.5714285714285694d
 		}
@@ -761,7 +761,7 @@
 				"4F98CC4F3B2B2CF9"
 				"72ABF1E13212EB7A"
 			]
-			description: ["&0  Whether you choose to rely on stress until          electricity via alternator, or choose to                incorporate early game power generators where    possible and power your early automations that     way, it's time to start working towards mobility.        &#D2691EJetpacks&r &0powered by both &#D2691EStress&r &o&0and&r &#D2691EFE&r &0have       been provided. Let's build what we need to             recharge or refill it, the next few chapters will      explore the options."]
+			description: ["  Whether you choose to rely on stress until          electricity via alternator, or choose to                incorporate early game power generators where    possible and power your early automations that     way, it's time to start working towards mobility.        &#D2691EJetpacks&r powered by both &#D2691EStress&r &oand&r &#D2691EFE&r have       been provided. Let's build what we need to             recharge or refill it, the next few chapters will      explore the options."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -786,13 +786,13 @@
 				title: "Basic Automation"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lStress, Power and Basic Automation"
+			title: "&lStress, Power and Basic Automation"
 			x: -0.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["626B4E8865E9892C"]
-			description: ["&0  If you like the bee's route and have    excess honey, you can always use       some of it to get a head start on         electricity! they're not the greatest     generators, but they do provide an     early game generator for the water    wheel and windmill averse."]
+			description: ["  If you like the bee's route and have    excess honey, you can always use       some of it to get a head start on         electricity! they're not the greatest     generators, but they do provide an     early game generator for the water    wheel and windmill averse."]
 			id: "564103C41CAFF58C"
 			rewards: [
 				{
@@ -812,18 +812,18 @@
 				item: "productivebees:honey_generator"
 				type: "item"
 			}]
-			title: "&#8B4513&lHoney Generator"
+			title: "&lHoney Generator"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["626B4E8865E9892C"]
 			description: [
-				"&0  As with any world featuring &#D2691ECreate&r&0,     this is going to be your go-to method   for getting started automating. When     placed with a water source flowing       past, they generate stress, attached   shafts and gearboxes can be used to  transfer stress from wheel to            machines. Eventually you will be able     to convert this stress into FE."
+				"  As with any world featuring &#D2691ECreate&r,     this is going to be your go-to method   for getting started automating. When     placed with a water source flowing       past, they generate stress, attached   shafts and gearboxes can be used to  transfer stress from wheel to            machines. Eventually you will be able     to convert this stress into FE."
 				""
-				"&0  Alternate forms of &#D2691Epower generation&r   &0have been provided to give some         flexibility and options in gameplay.        While the pack has been structured to  lightly integrate mods, providing          progression but also allowing for        freedom of choice whenever possible...  it will be impossible to avoid a few        core mods such as Create if you         choose to progress through certain    paths, with the focus being changing     how you \"reach\" a mod, rather than     how it works. "
+				"  Alternate forms of &#D2691Epower generation&r   have been provided to give some         flexibility and options in gameplay.        While the pack has been structured to  lightly integrate mods, providing          progression but also allowing for        freedom of choice whenever possible...  it will be impossible to avoid a few        core mods such as Create if you         choose to progress through certain    paths, with the focus being changing     how you \"reach\" a mod, rather than     how it works. "
 				""
-				"&0  The intent being: &#D2691EYou will require at     least some minimal infrastructure from  certain mods, but not be forced to       rely on it entirely if you choose not     to&r&0, you will unlock other options and     can choose to use those. (some tech    and late game progression aside)"
+				"  The intent being: &#D2691EYou will require at     least some minimal infrastructure from  certain mods, but not be forced to       rely on it entirely if you choose not     to&r, you will unlock other options and     can choose to use those. (some tech    and late game progression aside)"
 			]
 			id: "0B85AB53019A933E"
 			rewards: [
@@ -844,13 +844,13 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			title: "&#8B4513&lWater Wheel"
+			title: "&lWater Wheel"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["626B4E8865E9892C"]
-			description: ["&0  Not the fastest or the most powerful   generators. But they're not called       &#D2691Epitiful&r &0for no reason. Still, they are an  early means of power generation for   the more, stress averse."]
+			description: ["  Not the fastest or the most powerful   generators. But they're not called       &#D2691Epitiful&r for no reason. Still, they are an  early means of power generation for   the more, stress averse."]
 			id: "360EE5A27F4FDB47"
 			rewards: [
 				{
@@ -870,7 +870,7 @@
 				item: "industrialforegoing:pitiful_generator"
 				type: "item"
 			}]
-			title: "&#8B4513&lPitiful Generator"
+			title: "&lPitiful Generator"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -881,7 +881,7 @@
 				"564103C41CAFF58C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["&0  Now that you have a way to recharge  and/or refill it, it's time to make a        &#D2691Ejetpack&r &0and make exploring and          moving about in general a much easier  affair."]
+			description: ["  Now that you have a way to recharge  and/or refill it, it's time to make a        &#D2691Ejetpack&r and make exploring and          moving about in general a much easier  affair."]
 			id: "4D2E03A6EB864CF2"
 			min_required_dependencies: 1
 			rewards: [
@@ -958,16 +958,16 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "&#8B4513&lPowered Flight"
+			title: "&lPowered Flight"
 			x: -0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["72ABF1E13212EB7A"]
 			description: [
-				"&0  Hostile neural networks is an             advanced means of farming mob drops  in a lag friendly way. More on this        later!"
+				"  Hostile neural networks is an             advanced means of farming mob drops  in a lag friendly way. More on this        later!"
 				""
-				"&0  (unofficial hint from the devs, this is   going to be the best way to farm         mobs aside from possibly the              wannabee)"
+				"  (unofficial hint from the devs, this is   going to be the best way to farm         mobs aside from possibly the              wannabee)"
 			]
 			hide_details_until_startable: false
 			icon: {
@@ -998,7 +998,7 @@
 				id: "6D457F44C28030A7"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lHostile Neural Networks"
+			title: "&lHostile Neural Networks"
 			x: -3.482142857142847d
 			y: -2.5357142857142776d
 		}
@@ -1011,7 +1011,7 @@
 				"52C1ABEEAA3AEEDB"
 				"3A62EDEC4F73063C"
 			]
-			description: ["&0  Flux networks can be created and      once a &#D2691Econtroller&r &0has been crafted,    &#D2691Eplugs&r &0and &#D2691Epoints&r &0can be used to          distribute power throughout your        network. Power can then be                distributed directly to players as well,  charging curios, hotbar and other       slots!"]
+			description: ["  Flux networks can be created and      once a &#D2691Econtroller&r has been crafted,    &#D2691Eplugs&r and &#D2691Epoints&r can be used to          distribute power throughout your        network. Power can then be                distributed directly to players as well,  charging curios, hotbar and other       slots!"]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			icon: {
@@ -1043,7 +1043,7 @@
 				item: "fluxnetworks:flux_controller"
 				type: "item"
 			}]
-			title: "&#8B4513&lFlux Controller"
+			title: "&lFlux Controller"
 			x: -4.5d
 			y: 1.5d
 		}
@@ -1057,9 +1057,9 @@
 				"3A62EDEC4F73063C"
 			]
 			description: [
-				"&0  The crafting automat can be used to   automate single recipes, making some    aspects of early progression not so   tedious. While not meant to serve as     an ACTUAL replacement for                autocrafting, it does make repeatedly   crafted recipes for things such as     pickaxes and cogs not SO bad until      actual automation can be achieved."
+				"  The crafting automat can be used to   automate single recipes, making some    aspects of early progression not so   tedious. While not meant to serve as     an ACTUAL replacement for                autocrafting, it does make repeatedly   crafted recipes for things such as     pickaxes and cogs not SO bad until      actual automation can be achieved."
 				""
-				"&0  Simply place the automat and supply it  with the ingredients for the recipe,      introduce a redstone signal and you    have your crafted items on demand!"
+				"  Simply place the automat and supply it  with the ingredients for the recipe,      introduce a redstone signal and you    have your crafted items on demand!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1083,16 +1083,16 @@
 				item: "craftingautomat:autocrafter"
 				type: "item"
 			}]
-			title: "&#8B4513&lCrafting Automat"
+			title: "&lCrafting Automat"
 			x: 3.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"&0  The charm belt can be equipped to      hold mob charms. Charms can be          crafted using recipes found in &#D2691EJEI&r&0,      most of the time this is going to           involve having killed and collected       enough of the respective mobs           reliquary drops for the recipe           materials."
+				"  The charm belt can be equipped to      hold mob charms. Charms can be          crafted using recipes found in &#D2691EJEI&r,      most of the time this is going to           involve having killed and collected       enough of the respective mobs           reliquary drops for the recipe           materials."
 				""
-				"&0  Any time a charm is added to the        empty slot, a new slot is generated.      Most \"basic\" mobs in the world have a   craftable charm that can be added to  the belt to render them &#D2691Epassive&r &0to the  player."
+				"  Any time a charm is added to the        empty slot, a new slot is generated.      Most \"basic\" mobs in the world have a   craftable charm that can be added to  the belt to render them &#D2691Epassive&r to the  player."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1122,13 +1122,13 @@
 				item: "reliquary:mob_charm_belt"
 				type: "item"
 			}]
-			title: "&#8B4513&lCharm Belt"
+			title: "&lCharm Belt"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3126617D43B60448"]
-			description: ["&0  The tool belt can hold and be used to  quickly switch between held items,         craftable &#D2691Epouches&r &0can be added to it   to &#D2691Eincrease&r &0the number of tools it is    able to hold."]
+			description: ["  The tool belt can hold and be used to  quickly switch between held items,         craftable &#D2691Epouches&r can be added to it   to &#D2691Eincrease&r the number of tools it is    able to hold."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
 			id: "37571112636254D1"
@@ -1151,22 +1151,22 @@
 				item: "toolbelt:belt"
 				type: "item"
 			}]
-			title: "&#8B4513&lTool Belt"
+			title: "&lTool Belt"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"&0  Curios and hot key selection has        been added to the &#D2691Espyglass&r&0, providing  a vanilla friendly way to zoom in on      things from a distance. "
+				"  Curios and hot key selection has        been added to the &#D2691Espyglass&r, providing  a vanilla friendly way to zoom in on      things from a distance. "
 				""
-				"&0  This world is going to be a very         rough and dangerous place, at least    at first. While designed in a way to get  progressively easier provided enough  effort, this pack isn't supposed to be   a walk in the park... You're going to die,  probably &n&o&#D2691Ea lot&r&r&r&0, difficulty is going to      vary from player to player but the      early game will be particularly            unforgiving if you are not cautious.     Our goal was not to produce an          expert level difficulty pack, but          something \"challenging yet fun\", we       hope and strive to hit that mark.          Always be wary and check things out    if you can before diving in."
+				"  This world is going to be a very         rough and dangerous place, at least    at first. While designed in a way to get  progressively easier provided enough  effort, this pack isn't supposed to be   a walk in the park... You're going to die,  probably &n&o&#D2691Ea lot&r&r&r, difficulty is going to      vary from player to player but the      early game will be particularly            unforgiving if you are not cautious.     Our goal was not to produce an          expert level difficulty pack, but          something \"challenging yet fun\", we       hope and strive to hit that mark.          Always be wary and check things out    if you can before diving in."
 				""
 				"  &#D2691EGood Luck!&r "
 				""
-				"&0  Any feedback or suggestions            regarding the packs difficulty, good     or bad, are welcomed to be heard in     the &l&#D2691EMCC discord&r&r&0. If you are not        already there, you should change       that... "
+				"  Any feedback or suggestions            regarding the packs difficulty, good     or bad, are welcomed to be heard in     the &l&#D2691EMCC discord&r&r. If you are not        already there, you should change       that... "
 				""
-				"&0  It's where all the cool kids are."
+				"  It's where all the cool kids are."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1196,18 +1196,18 @@
 				item: "minecraft:spyglass"
 				type: "item"
 			}]
-			title: "&#8B4513&lSpyglass"
+			title: "&lSpyglass"
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"&0  You can choose to stick with the         traditional sword, bow and shield         tactics. However it is highly                recommended you craft a &#D2691Egun bench&r    &0and give everything the pack has to     offer a try, you'd be surprised how     much fun it is!"
+				"  You can choose to stick with the         traditional sword, bow and shield         tactics. However it is highly                recommended you craft a &#D2691Egun bench&r    and give everything the pack has to     offer a try, you'd be surprised how     much fun it is!"
 				""
-				"&0  The weapons provided are available    in progressive tiers, and are highly     &#D2691Ecustomizable&r &0and even &#D2691Eenchantable&r&0!"
+				"  The weapons provided are available    in progressive tiers, and are highly     &#D2691Ecustomizable&r and even &#D2691Eenchantable&r!"
 				""
-				"&0  Refer to the \"&#D2691ELocked and Loaded&r&0\"      section of \"Optional Quests\" for more   info."
+				"  Refer to the \"&#D2691ELocked and Loaded&r\"      section of \"Optional Quests\" for more   info."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -1231,7 +1231,7 @@
 				item: "scguns:gun_bench"
 				type: "item"
 			}]
-			title: "&#8B4513&lGun Bench"
+			title: "&lGun Bench"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -1243,11 +1243,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&0  The 3x3 mechanical crafting grid is     going to be a &#D2691Emainstay&r &0in virtually        every base, it is worth setting up an    area for &#D2691Elongterm&r &0use as many items    and recipes within the pack are &#D2691Eonly&r    &0obtainable/completable via the            mechanical grid, or &#D2691Eat least at first&r&0. "
+				"  The 3x3 mechanical crafting grid is     going to be a &#D2691Emainstay&r in virtually        every base, it is worth setting up an    area for &#D2691Elongterm&r use as many items    and recipes within the pack are &#D2691Eonly&r    obtainable/completable via the            mechanical grid, or &#D2691Eat least at first&r. "
 				""
-				"&0  It is worth noting that only the 3x3     grid will be required for most     integrations. "
+				"  It is worth noting that only the 3x3     grid will be required for most             integrations. "
 				""
-				"&0  While progressing through technologies, an upgraded grid is required, but the 3x3 alone will open all that the pack has to offer in other areas and mods, again, &#D2691Eexcluding&r &0higher tier technology. "
+				"  While progressing through                technologies, an upgraded grid is        required, but the 3x3 alone will open    all that the pack has to offer in other  areas and mods, again, &#D2691Eexcluding&r         higher tier technology. "
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -1281,16 +1281,16 @@
 				item: { Count: 9, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			title: "&#8B4513&lThe 3x3 mechanical grid"
+			title: "&lThe 3x3 mechanical grid"
 			x: -0.5d
 			y: 9.035714285714292d
 		}
 		{
 			dependencies: ["7DFB5B09F54FA60B"]
 			description: [
-				"Ah, the &edeployer&r, good luck finding many assembly lines that don't include at least 1 of these. "
+				"  Ah, the &#D2691Edeployer&r, good luck finding      many assembly lines that don't include   at least 1 of these. "
 				""
-				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691ECreate&r\" section of        \"Core Mods\" for more info!"
 			]
 			id: "1A21078ABCDD07F4"
 			rewards: [
@@ -1319,16 +1319,16 @@
 				item: { Count: 3, id: "create:deployer" }
 				type: "item"
 			}]
-			title: "&#8B4513&l3x Deployer"
+			title: "&l3x Deployer"
 			x: -0.5d
 			y: 15.5d
 		}
 		{
 			dependencies: ["7DFB5B09F54FA60B"]
 			description: [
-				"The &emechanical press&r is needed for producing sheet metals among other things. "
+				"  The &#D2691Emechanical press&r is needed for    producing sheet metals among other     things. "
 				""
-				"Refer to the \"&6Create&r\" chapter of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691ECreate&r\" chapter of       \"Core Mods\" for more info!"
 			]
 			id: "6510789A0795CF6A"
 			rewards: [
@@ -1351,18 +1351,18 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			title: "&#8B4513&lMechanical Press"
+			title: "&lMechanical Press"
 			x: -0.5d
 			y: 13.285714285714263d
 		}
 		{
 			dependencies: ["7DFB5B09F54FA60B"]
 			description: [
-				"Guess what the &eenergizer&r does?"
+				"  Guess what the &#D2691Eenergizer&r does?"
 				""
-				"It energizes things, silly... who would've guessed?"
+				"  It energizes things, silly... who            would've guessed?"
 				""
-				"Refer to the \"&6Create&r\" section of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691ECreate&r\" section of        \"Core Mods\" for more info!"
 			]
 			id: "54E921560B376491"
 			rewards: [
@@ -1384,24 +1384,24 @@
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			title: "&#8B4513&lBasic Energizer"
+			title: "&lBasic Energizer"
 			x: -0.5d
 			y: 14.5d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: [
-				"The almighty &6Tempad&r. "
+				"  The almighty &#D2691ETempad&r. "
 				""
-				"Already /sethome and could use another? "
+				"  Already /sethome and could use        another? "
 				""
-				"Have a waystone you would like to teleport to yet while out adventuring the world there are simply none to be found and teleport from?"
+				"  Have a waystone you would like to       teleport to yet while out adventuring    the world there are simply none to be  found and teleport from?"
 				""
-				"The Tempad allows a player to open a &dtemporary portal&r to any location in the world on the fly, it even automatically stores the location of tagged&3 waystones&r! "
+				"  The Tempad allows a player to open a  &#D2691Etemporary portal&r to any location in      the world on the fly, it even               automatically stores the location of     tagged &#D2691Ewaystones&r! "
 				""
-				"It also allows the user to export coordinates to &3location cards&r, which are automatically generated in the players inventory, give the location card to others and they can now open portals to the same location! "
+				"  It also allows the user to export        coordinates to &#D2691Elocation cards&r, which     are automatically generated in the       players inventory, give the location     card to others and they can now        open portals to the same location! "
 				""
-				"Note: The usual cooldown and consumption of exporting has been &cdisabled&r, you can freely make and share location cards as much as you like."
+				"  Note: The usual cooldown and            consumption of exporting has been      &#D2691Edisabled&r, you can freely make and       share location cards as much as you   like."
 			]
 			hide_until_deps_visible: true
 			id: "65C70FDB98BD8CC7"
@@ -1429,18 +1429,18 @@
 				}
 				type: "item"
 			}]
-			title: "&#8B4513&lTempad"
+			title: "&lTempad"
 			x: -0.5d
 			y: 19.5d
 		}
 		{
 			dependencies: ["045FC46B3A8BB2B2"]
 			description: [
-				"The &dimbuement chamber&r is used for creating source gems, amongst other things, and is going to be needed along our road of magical enlightenment."
+				"  The &#D2691Eimbuement chamber&r is used for     creating source gems, amongst other   things, and is going to be needed         along our road of magical                  enlightenment."
 				""
-				"Good luck reaching the peaks of magic and weaponry without one."
+				"  Good luck reaching the peaks of        magic and weaponry without one."
 				""
-				"Refer to the \"&5Ars Nouveau&r\" section of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EArs Nouveau&r\" section     of \"Core Mods\" for more info!"
 			]
 			id: "13653CA5E18B1111"
 			rewards: [
@@ -1462,7 +1462,7 @@
 				item: "ars_nouveau:imbuement_chamber"
 				type: "item"
 			}]
-			title: "&#8B4513&lImbuement Chamber"
+			title: "&lImbuement Chamber"
 			x: -2.5d
 			y: 9.5d
 		}
@@ -1474,11 +1474,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Who &odoesn't&r have a place to store the &4blood&r of the sacrificed for dark rituals, right?"
+				"  Who &odoesn't&r have a place to store      the &#D2691Eblood&r of the sacrificed for dark    rituals, right?"
 				""
-				"Jokes aside. The blood altar is going to be your key to accessing the darker side of magic in the MCC world."
+				"  Jokes aside. The blood altar is going   to be your key to accessing the          darker side of magic in the MCC world."
 				""
-				"Refer to the \"&cBlood Magic&r\" section of the \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EBlood Magic&r\" section of   the \"Core Mods\" for more info!"
 			]
 			hide_dependency_lines: true
 			id: "55630B6107F0B42B"
@@ -1513,7 +1513,7 @@
 					type: "item"
 				}
 			]
-			title: "&#8B4513&lBlood Altar"
+			title: "&lBlood Altar"
 			x: 3.125d
 			y: 8.125d
 		}
@@ -1525,9 +1525,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &epetal apothecary&r is your entry way into the world of Botania, taking the path of nature magic. Collect magic flowers found throughout the world and use the petals obtained to get started. "
+				"  The &#D2691Epetal apothecary&r is your entry    way into the world of Botania, taking     the path of nature magic. Collect magic  flowers found throughout the world     and use the petals obtained to get       started. "
 				""
-				"Refer to the \"&aBotania&r\" chapter of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EBotania&r\" chapter of       \"Core Mods\" for more info!"
 			]
 			hide_dependency_lines: true
 			id: "579F37CE436DA670"
@@ -1552,13 +1552,13 @@
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			title: "&#8B4513&lPetal Apothecary"
+			title: "&lPetal Apothecary"
 			x: -4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
-			description: ["Many &eMANY&r recipes will require these mechanisms, so make a &6dedicated assembly line&r for them."]
+			description: ["  Many &#D2691EMANY&r recipes will require these   mechanisms, so make a &#D2691Ededicated          assembly line&r for them."]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "3E49F7BA2D2D9DBF"
@@ -1582,13 +1582,13 @@
 				item: { Count: 8, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			title: "&#8B4513&l3x Precision Mechanism"
+			title: "&l3x Precision Mechanism"
 			x: 0.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
-			description: ["If bullets didn't solve the problem... you just didn't use enough bullets yet, this is always the case."]
+			description: ["  If bullets didn't solve the problem...     you just didn't use enough bullets       yet, this is always the case."]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "7ECEAD20A6ABF2F9"
@@ -1647,13 +1647,13 @@
 					type: "item"
 				}
 			]
-			title: "&#8B4513&lCasing Molds"
+			title: "&lCasing Molds"
 			x: -1.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
-			description: ["Pretty self explanatory, the &amending rune&r will repair your equipment, when held in your &6main hand&r, and provided you have the &2XP&r for it to burn."]
+			description: ["  Pretty self explanatory, the &#D2691Emending   rune&r will repair your equipment, when   held in your &#D2691Emain hand&r, and provided    you have the &#D2691EXP&r for it to burn."]
 			hide_until_deps_visible: true
 			id: "3E2502A84EE5ED7C"
 			optional: true
@@ -1681,13 +1681,13 @@
 				}
 				type: "item"
 			}]
-			title: "&#8B4513&lMending Rune"
+			title: "&lMending Rune"
 			x: 1.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
-			description: ["&dQuantum mechanisms&r are a crucial component in the construction of &6teleporters&r. Telejuice is another potential idea for something worth automating, if setting up a teleporter network is something that piques your interest."]
+			description: ["  &#D2691EQuantum mechanisms&r are a crucial       component in the construction of         &#D2691Eteleporters&r. Telejuice is another        potential idea for something worth       automating, if setting up a teleporter    network is something that piques your   interest."]
 			hide_until_deps_visible: true
 			id: "157768F2C05BDBDD"
 			optional: true
@@ -1714,13 +1714,13 @@
 				item: "createteleporters:quantum_mechanism"
 				type: "item"
 			}]
-			title: "&#8B4513&lQuantum Mechanism"
+			title: "&lQuantum Mechanism"
 			x: 0.5d
 			y: 18.5d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
-			description: ["Used for many useful things, the construction of &eProtection Pixel&r armors being a a prime example."]
+			description: ["  Used for many useful things, the        construction of &#D2691EProtection Pixel&r          armors being a a prime example."]
 			hide_dependency_lines: false
 			hide_until_deps_visible: true
 			id: "3C4614655C75AD6F"
@@ -1749,24 +1749,24 @@
 				item: "create:sturdy_sheet"
 				type: "item"
 			}]
-			title: "&#8B4513&lSturdy Sheet"
+			title: "&lSturdy Sheet"
 			x: -2.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: [
-				"&aNuclear fuel&r for reactors is made exclusively via &6assembly line&r, there are 2 variations of the recipe. "
+				"  &#D2691ENuclear fuel&r for reactors is made      exclusively via &#D2691Eassembly line&r, there      are 2 variations of the recipe. "
 				""
-				"The \"base\" recipe provides fuel at a 1:1 ratio, converting &ethorium&r into &anuclear fuel&r. while not very efficient, you can at least power your reactor with little risk of &cradiation&r. "
+				"  The \"base\" recipe provides fuel at a   1:1 ratio, converting &#D2691Ethorium&r into         &#D2691Enuclear fuel&r. while not very efficient,   you can at least power your reactor   with little risk of &#D2691Eradiation&r. "
 				""
-				"The &cradiation&r effects experienced due to mistakes at this point are very minimalist compared to what you are probably used to. It can be negated by a full set of leather armor, and if the reactor were to be \"unsealed\" the effects of radiation will dissipate once re-sealed."
+				"  The &#D2691Eradiation&r effects experienced      due to mistakes at this point are very   minimalist compared to what you are      probably used to. It can be negated     by a full set of leather armor, and if   the reactor were to be \"unsealed\" the  effects of radiation will dissipate once  re-sealed."
 				""
-				"The \"improved\" recipe converts &2irradium&r into &anuclear fuel&r at a 1:12 ratio, HOWEVER, this comes with the added trade off of producing radioactive nuclear waste in the process. The &cradiation&r caused by this waste is &o&nEXACTLY&r&r what you are used to, it will irradiate the environment killing anything in its vicinity and dissipates VERY slowly. Be very careful handling and processing this waste, releasing enough of it at once will effectively \"kill\" a base and render it unusable. "
-				"&e*************************************************&r"
-				"If you are not well versed in nuclear waste management, it is HIGHLY recommended to build these set ups in their own isolated environment. Very far away from anything and everything you care about... "
-				"&e*************************************************&r"
-				"&n&eYou have been warned&r&r"
+				"  The \"improved\" recipe converts         &#D2691Eirradium&r into &#D2691Enuclear fuel&r at a 1:12      ratio. HOWEVER, this comes with the       added trade off of producing             radioactive nuclear waste in the          process. The &#D2691Eradiation&r caused by this  waste is &o&nEXACTLY&r&r what you are used    to, it will irradiate the environment       killing anything in its vicinity and          dissipates VERY slowly. Be very           careful handling and processing this    waste, releasing enough of it at once   will effectively \"kill\" a base and           render it unusable. "
+				"&#D2691E&l***************************************&r"
+				"  If you are not well versed in nuclear  waste management, it is HIGHLY            recommended to build these set ups in  their own isolated environment. Very     far away from anything and               everything you care about... "
+				"&#D2691E&l***************************************&r"
+				"  &n&#D2691E&lYou have been warned&r&r"
 			]
 			hide_until_deps_visible: true
 			id: "5057087F615D440F"
@@ -1794,7 +1794,7 @@
 				item: "create_new_age:nuclear_fuel"
 				type: "item"
 			}]
-			title: "&#8B4513&lNuclear Fuel"
+			title: "&lNuclear Fuel"
 			x: -1.5d
 			y: 18.5d
 		}
@@ -1806,9 +1806,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&0  The &#D2691Espell book&r&0, while limited at first,     will be the beginning and key to most     of your magical interactions with the    world, as far as ars magic is              concerned at least. "
+				"  The &#D2691Espell book&r, while limited at first,     will be the beginning and key to most     of your magical interactions with the    world, as far as ars magic is              concerned at least. "
 				""
-				"&0  Refer to the \"&#D2691EArs Nouveau&r&0\" chapter    of \"Core Mods\" to learn more!"
+				"  Refer to the \"&#D2691EArs Nouveau&r\" chapter    of \"Core Mods\" to learn more!"
 			]
 			hide_dependency_lines: true
 			id: "045FC46B3A8BB2B2"
@@ -1833,16 +1833,16 @@
 				item: "ars_nouveau:novice_spell_book"
 				type: "item"
 			}]
-			title: "&#8B4513&lNovice Spell Book"
+			title: "&lNovice Spell Book"
 			x: -0.5d
 			y: 5.5714285714285765d
 		}
 		{
 			dependencies: ["045FC46B3A8BB2B2"]
 			description: [
-				"Paired with the imbuement chamber, the &denchanting apparatus&r will be required for progression into the higher tiers of magic and to reach the &3Celestial Arsenal&r."
+				"  Paired with the imbuement chamber,      the &#D2691Eenchanting apparatus&r will be         required for progression into the       higher tiers of magic and to reach the  &#D2691ECelestial Arsenal&r."
 				""
-				"Refer to the \"&5Ars Nouveau&r\" section of \"Core Mods\" for more info! "
+				"  Refer to the \"&#D2691EArs Nouveau&r\" section     of \"Core Mods\" for more info! "
 			]
 			id: "001BBFE075B35C84"
 			rewards: [
@@ -1864,16 +1864,16 @@
 				item: "ars_nouveau:enchanting_apparatus"
 				type: "item"
 			}]
-			title: "&#8B4513&lEnchanting Apparatus"
+			title: "&lEnchanting Apparatus"
 			x: 1.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["55630B6107F0B42B"]
 			description: [
-				"While it wont actually help with performing alchemy, the &6alchemy table&r is going to be required not only for blood magic progression, but it is a necessary component to reaching the &3Celestial Arsenal&r as well."
+				"  While it wont actually help with            performing alchemy, the &#D2691Ealchemy table&r  is going to be required not only for     blood magic progression, but it is a      necessary component to reaching the  &#D2691ECelestial Arsenal&r as well."
 				""
-				"Refer to the \"&cBlood Magic&r\" section of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EBlood Magic&r\" section of   \"Core Mods\" for more info!"
 			]
 			id: "71620C7CDB2A09D8"
 			rewards: [
@@ -1894,16 +1894,16 @@
 				item: "bloodmagic:alchemytable"
 				type: "item"
 			}]
-			title: "&#8B4513&lAlchemy Table"
+			title: "&lAlchemy Table"
 			x: 3.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["71620C7CDB2A09D8"]
 			description: [
-				"The &4hellfire forge&r is yet another crafting block, powered by demonic will. It is also a necessary component to reaching the &3Celestial Arsenal&r."
+				"  The &#D2691Ehellfire forge&r is yet another       crafting block, powered by demonic      will. It is also a necessary component   to reaching the &#D2691ECelestial Arsenal&r."
 				""
-				"Refer to the \"&cBlood Magic&r\" section of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EBlood Magic&r\" section of   \"Core Mods\" for more info!"
 			]
 			id: "51AECAA37271ED0A"
 			rewards: [
@@ -1924,18 +1924,18 @@
 				item: "bloodmagic:soulforge"
 				type: "item"
 			}]
-			title: "&#8B4513&lHellfire Forge"
+			title: "&lHellfire Forge"
 			x: 2.0d
 			y: 15.5d
 		}
 		{
 			dependencies: ["579F37CE436DA670"]
 			description: [
-				"&aTerrasteel&r, required for the construction of the elven gateway core, a necessary component in constructing &dThe Portal to Alfheim&r. "
+				"  &#D2691ETerrasteel&r, required for the construction of  the elven gateway core, a necessary             component in constructing &#D2691EThe Portal to          Alfheim&r. "
 				""
-				"Establishing trade with the elves and using the secrets obtained from them is a key component to accessing the &3Celestial Arsenal&r."
+				"  Establishing trade with the elves and using     the secrets obtained from them is a key          component to accessing the &#D2691ECelestial Arsenal&r."
 				""
-				"Refer to the \"&aBotania&r\" section of \"Core Mods\" for more info"
+				"  Refer to the \"&#D2691EBotania&r\" section of \"Core Mods\"  for more info"
 			]
 			id: "44B58A51C7F53BD1"
 			rewards: [
@@ -1956,16 +1956,16 @@
 				item: "botania:terra_plate"
 				type: "item"
 			}]
-			title: "&#8B4513&lTerrestrial Agglomeration Plate"
+			title: "&lTerrestrial Agglomeration Plate"
 			x: -4.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["44B58A51C7F53BD1"]
 			description: [
-				"The elven gateway core is required to construct &dThe Portal to Alfheim&r. While not open to visitors, the elves of Alfheim do have some invaluable things to offer, especially if you hope to ever reach the &3Celestial Arsenal&r."
+				"  The elven gateway core is required    to construct &#D2691EThe Portal to Alfheim&r.       While not open to visitors, the elves of  Alfheim do have some invaluable things  to offer, especially if you hope to       ever reach the &#D2691ECelestial Arsenal&r."
 				""
-				"Refer to the \"&aBotania&r\" section of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EBotania&r\" section of        \"Core Mods\" for more info!"
 			]
 			id: "6A8C6386F4A75428"
 			rewards: [
@@ -1991,7 +1991,7 @@
 				item: "botania:alfheim_portal"
 				type: "item"
 			}]
-			title: "&#8B4513&lElven Gateway Core"
+			title: "&lElven Gateway Core"
 			x: -3.0d
 			y: 15.5d
 		}
@@ -2002,11 +2002,11 @@
 				"54E921560B376491"
 			]
 			description: [
-				"Now that you have some of the basic components for industrializing the world, over the next few quests will be some examples of things either worth making a dedicated line for, or if nothing else making at least once at some point in your progress. "
+				"  Now that you have some of the basic   components for industrializing the       world, over the next few quests will     be some examples of things either       worth making a dedicated line for, or    if nothing else making at least once at  some point in your progress. "
 				""
-				"(DO NOT under estimate the power and utility of the &eTempad&r. Yes, you want one ASAP)"
+				"  (DO NOT underestimate the power and  utility of the &#D2691ETempad&r. Yes, you want      one ASAP)"
 				""
-				"There are many more things worth automating via assembly line. Bear in mind that the list is limited, but some items can &oonly&r be obtained via assembly line. As always &aJEI&r is your friend here."
+				"  There are many more things worth      automating via assembly line. Bear in     mind that the list is limited, but some      items can &oonly&r be obtained via             assembly line. As always &#D2691EJEI&r is your     friend here."
 			]
 			id: "594A3B3C9462F128"
 			rewards: [{
@@ -2020,18 +2020,18 @@
 				title: "Assembly Lines"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lAssembly Lines"
+			title: "&lAssembly Lines"
 			x: -0.5d
 			y: 16.5d
 		}
 		{
 			dependencies: ["17BDF7E9E9E70940"]
 			description: [
-				"The automated assembly line is going be another&9 mainstay&r if you truly want to experience &9everything&r this pack has to offer. "
+				"  The automated assembly line is going   be another &#D2691Emainstay&r if you truly want   to experience &#D2691Eeverything&r this pack      has to offer. "
 				""
-				"Starting an area for &ededicated assembly lines&r is going to be a very wise thing to do, many things can be made from the same line, but there will be multiple instances in which you may want to build specific lines dedicated to specific processes, always producing specific things. Ammunition being a prime example."
+				"  Starting an area for &#D2691Ededicated          assembly lines&r is going to be a very     wise thing to do, many things can be     made from the same line, but there will  be multiple instances in which you may   want to build specific lines dedicated    to specific processes, always             producing specific things. Ammunition     being a prime example."
 				""
-				"The next few quests will give you some ideas of parts and components to work towards in creating your first assembly lines. Refer to the \"&6Create&r\" chapter of core mods for information on how to craft them."
+				"  The next few quests will give you        some ideas of parts and components    to work towards in creating your first  assembly lines. Refer to the \"&#D2691ECreate&r\"    chapter of core mods for information   on how to craft them."
 			]
 			id: "7DFB5B09F54FA60B"
 			rewards: [{
@@ -2046,16 +2046,16 @@
 				title: "Automated Assembly"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lAutomated Assembly"
+			title: "&lAutomated Assembly"
 			x: -0.5d
 			y: 11.67857142857141d
 		}
 		{
 			dependencies: ["4868F382B1EE7C56"]
 			description: [
-				"If you have made it to this point and built or acquired everything contained in this chapter (barring a few assembly line examples) then most of what the pack has to offer is available to you. &eProvided you utilize it&r, the infrastructure you have constructed or unlocked the ability to construct will see you through almost &eanything&r you may want to do or explore aside from the highest tiers of technology and weaponry."
+				"  If you have made it to this point and    built or acquired everything contained  in this chapter (barring a few             assembly line examples) then most of    what the pack has to offer is             available to you. &#D2691EProvided you utilize    it&r, the infrastructure you have           constructed or unlocked the ability to  construct will see you through almost   &#D2691Eanything&r you may want to do or           explore aside from the highest tiers    of technology and weaponry."
 				""
-				"we'll need some more spice for &othose&r recipes! "
+				"  We'll need some more spice for &#D2691Ethose&r   recipes! "
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -2086,7 +2086,7 @@
 			subtitle: "&#8B4513Well... Kinda"
 			tasks: [{
 				id: "622BFC0973FA092D"
-				title: "&#8B4513&lNow we're really ready"
+				title: "&lNow we're really ready"
 				type: "checkmark"
 			}]
 			x: -0.4642857142857153d
@@ -2095,11 +2095,11 @@
 		{
 			dependencies: ["6C98BE9E0BC7E0C8"]
 			description: [
-				"Refining &7latex&r inevitably leads to &eplastic&r, used in all sorts of che.. efficiently produced gadgets and gizmos. "
+				"  Refining &#D2691Elatex&r inevitably leads to        &#D2691Eplastic&r, used in all sorts of che..         efficiently produced gadgets and        gizmos. "
 				""
-				"If progression to the end of the tech tree and fleshing out everything the pack has to offer in general is something you're interested in, then you will want to make a set up for keeping a steady supply of plastic on hand."
+				"  If progression to the end of the        tech tree and fleshing out everything  the pack has to offer in general is      something you're interested in, then     you will want to make a set up for        keeping a steady supply of plastic on   hand."
 				""
-				"Refer to the \"&6Industrial Foregoing&r\" section of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EIndustrial Foregoing&r\"     section of \"Core Mods\" for more info!"
 			]
 			id: "4868F382B1EE7C56"
 			rewards: [
@@ -2121,18 +2121,18 @@
 				item: { Count: 8, id: "industrialforegoing:plastic" }
 				type: "item"
 			}]
-			title: "&#8B4513&lPlastic"
+			title: "&lPlastic"
 			x: -0.5d
 			y: 22.5d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
 			description: [
-				"&eFluid extractors&r are the first step to &3plastic production&r, a highly utilized ingredient across many recipes, especially useful as you head into higher tiers of technology."
+				"  &#D2691EFluid extractors&r are the first step     to &#D2691Eplastic production&r, a highly utilized   ingredient across many recipes,          especially useful as you head into       higher tiers of technology."
 				""
-				"I mean... Everything's made out of plastic in today's age... What did you expect?"
+				"  I mean... Everything's made out of        plastic in today's age... What did you      expect?"
 				""
-				"Refer to the \"&6Industrial Foregoing&r\" chapter of \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691EIndustrial Foregoing&r\"     chapter of \"Core Mods\" for more info!"
 			]
 			id: "6C98BE9E0BC7E0C8"
 			rewards: [
@@ -2165,7 +2165,7 @@
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
-			title: "&#8B4513&lFluid Extractor"
+			title: "&lFluid Extractor"
 			x: -0.5d
 			y: 21.0d
 		}
@@ -2175,14 +2175,14 @@
 				"771588CF1624B99F"
 			]
 			description: [
-				"&0  So you have found a place to settle    down and get started? Awesome! This    line of quests will guide you through    progressing into what the you are       capable of in the pack while               maintaining as much of the \"sandbox\"    nature of the game as possible. As      discussed in \"Getting Started\", you will  want to create a &#D2691E&lBank Terminal       ASAP&r&r. "
+				"  So you have found a place to settle    down and get started? Awesome! This    line of quests will guide you through    progressing into what the you are       capable of in the pack while               maintaining as much of the \"sandbox\"    nature of the game as possible. As      discussed in \"Getting Started\", you will  want to create a &#D2691E&lBank Terminal       ASAP&r&r. "
 				""
-				"&0  This will grant you access to the        &#D2691E&lSlayer Rewards&r&r &0and &#D2691E&lRewards       Shop&r&r &0functions at the bottom of the    quest book chapter section&r&r"
+				"  This will grant you access to the        &#D2691E&lSlayer Rewards&r&r and &#D2691E&lRewards       Shop&r&r functions at the bottom of the    quest book chapter section&r&r"
 				""
 				""
-				"&0  Quests, Challenges, and Slayer Tasks  are the only way to obtain &#D2691E&lNumi        Coins&r &0and they are the only              currency the shops take. If you         choose, there are also vendor blocks  you can use to make shops to sell       items to other players using them! You  can use the ID card's to share           access to terminals and multiple          numismatic blocks!"
+				"  Quests, Challenges, and Slayer Tasks  are the only way to obtain &#D2691E&lNumi        Coins&r and they are the only              currency the shops take. If you         choose, there are also vendor blocks  you can use to make shops to sell       items to other players using them! You  can use the ID card's to share           access to terminals and multiple          numismatic blocks!"
 				""
-				"&0  Refer to the \"&#D2691E&lCreate&r&r&0\" section of       \"Core Mods\" for more info!"
+				"  Refer to the \"&#D2691E&lCreate&r&r\" section of       \"Core Mods\" for more info!"
 			]
 			hide_until_deps_visible: true
 			id: "3B38BC10347BDA7D"
@@ -2206,18 +2206,18 @@
 				item: "numismatics:bank_terminal"
 				type: "item"
 			}]
-			title: "&#8B4513&lThe Bank Terminal"
+			title: "&lThe Bank Terminal"
 			x: -0.5d
 			y: -6.75d
 		}
 		{
 			dependencies: ["3126617D43B60448"]
 			description: [
-				"&0  Supply scamps are passive mobs        found in the world, while not immortal,    they are pretty tough and ignored by  most hostile mobs. Once tamed with        &#D2691Eancient brass&r &0your scamp will follow     and collect items it finds on the           ground, storing them in its internal       inventory. "
+				"  Supply scamps are passive mobs        found in the world, while not immortal,    they are pretty tough and ignored by  most hostile mobs. Once tamed with        &#D2691Eancient brass&r your scamp will follow     and collect items it finds on the           ground, storing them in its internal       inventory. "
 				""
-				"&0  The easiest way to obtain ancient       brass is killing cog mobs and              regrettably, supply scamps! They also  drop copper blueprints so killing 1 or  2 in order to get the brass to tame     one is pretty useful, even if you don't  want the scamp, they spawn pretty       much everywhere in the overworld. "
+				"  The easiest way to obtain ancient       brass is killing cog mobs and              regrettably, supply scamps! They also  drop copper blueprints so killing 1 or  2 in order to get the brass to tame     one is pretty useful, even if you don't  want the scamp, they spawn pretty       much everywhere in the overworld. "
 				""
-				"&0  The face plates can be changed with   dye!"
+				"  The face plates can be changed with   dye!"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
@@ -2256,13 +2256,13 @@
 				title: "Taming supply scamps"
 				type: "checkmark"
 			}]
-			title: "&#8B4513&lSupply Scamps"
+			title: "&lSupply Scamps"
 			x: -0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["594A3B3C9462F128"]
-			description: ["When struck with &6lightning&r (go figure) the lightning rod, connector and battery can be used to provide an extra boost to your power reserves. They actually make a fairly impressive amount of power (&e24Kfe&r) per strike, extremely useful for helping manage early game power constraints."]
+			description: ["  When struck with &#D2691Elightning&r (go figure)   the lightning rod, connector and          battery can be used to provide an      extra boost to your power reserves.   They actually make a fairly impressive  amount of power (&#D2691E24Kfe&r) per strike,     extremely useful for helping manage    early game power constraints."]
 			hide_until_deps_visible: true
 			id: "020B554BDF65651E"
 			optional: true
@@ -2315,15 +2315,15 @@
 					type: "item"
 				}
 			]
-			title: "&#8B4513&lSupplemental Power"
+			title: "&lSupplemental Power"
 			x: -0.5d
 			y: 18.5d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -2356,13 +2356,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
 		{
 			dependencies: ["771588CF1624B99F"]
-			description: ["&0  A fishing bot has been provided to      make some aspects of life a little         easier, as long as your rod is kept in   the 9th hotbar slot (all the way to the  right) your rod will automatically reel   and recast itself!"]
+			description: ["  A fishing bot has been provided to      make some aspects of life a little         easier, as long as your rod is kept in   the 9th hotbar slot (all the way to the  right) your rod will automatically reel   and recast itself!"]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2384,7 +2384,7 @@
 			}]
 			tasks: [{
 				id: "569149707F36CCE7"
-				title: "&#8B4513&lFishing Made Easier"
+				title: "&lFishing Made Easier"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -2393,9 +2393,9 @@
 		{
 			dependencies: ["3B38BC10347BDA7D"]
 			description: [
-				"&0  The Curios container can be used to   both house and quickly and easily        swap Curios equippable items such as   trinkets, artifacts and relics!"
+				"  The Curios container can be used to   both house and quickly and easily        swap Curios equippable items such as   trinkets, artifacts and relics!"
 				""
-				"&0  The default hotkey to open the          container, once crafted, is \"4\" on        your keypad."
+				"  The default hotkey to open the          container, once crafted, is \"4\" on        your keypad."
 			]
 			hide_dependency_lines: true
 			id: "01809362419109D4"
@@ -2437,7 +2437,7 @@
 				}
 				type: "item"
 			}]
-			title: "&#8B4513&lCurios Container"
+			title: "&lCurios Container"
 			x: 0.5d
 			y: -8.5d
 		}

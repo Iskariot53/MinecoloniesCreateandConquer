@@ -23,7 +23,7 @@
 	quests: [
 		{
 			dependencies: ["0F8B14581586FFE2"]
-			description: ["When provided with lava, stand on the armor load platform with armor equipped, and press &6R-shift&r to open the menu. the armor load platform is used for applying plates to armor sets, configurations and is your &ekey to most interactions regarding your armor&r provided from the mod."]
+			description: ["When provided with lava, stand on the armor load platform with armor equipped, and press &#D2691ER-shift&r to open the menu. the armor load platform is used for applying plates to armor sets, configurations and is your &#D2691Ekey to most interactions regarding your armor&r provided from the mod."]
 			id: "3105B7765AFF237E"
 			rewards: [
 				{
@@ -45,7 +45,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eStand on me!"
+			subtitle: "&#8B4513Stand on me!"
 			tasks: [{
 				id: "1F449066A1C59BAE"
 				item: {
@@ -59,16 +59,16 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lArmor Load Platform"
+			title: "&lArmor Load Platform"
 			x: 0.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"From steam driven &9power-armor&r to &aplasma blades&r, this chapter has you covered! "
+				"From steam driven &#D2691Epower-armor&r to &#D2691Eplasma blades&r, this chapter has you covered! "
 				""
-				"Let's hope you took the time to get your assembly line floor ready, virtually everything contained in this chapter requires either &6mechanical crafting and/or an assembly line to craft&r."
+				"Let's hope you took the time to get your assembly line floor ready, virtually everything contained in this chapter requires either &#D2691Emechanical crafting and/or an assembly line to craft&r."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -88,13 +88,13 @@
 			}]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&eMay the kinetic force be with you"
+			subtitle: "&#8B4513May the kinetic force be with you"
 			tasks: [{
 				id: "07A30FAF267CF274"
 				title: "Getting started with Protection Pixel and Lightsabers"
 				type: "checkmark"
 			}]
-			title: "&6&lWelcome to Do, or do not, there is no \"try\""
+			title: "&lWelcome to Do, or do not, there is no \"try\""
 			x: 0.0d
 			y: 0.5d
 		}
@@ -122,7 +122,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 2 plating"
+			subtitle: "&#8B4513Tier 2 plating"
 			tasks: [{
 				id: "4848A6E62286DFBF"
 				item: {
@@ -142,7 +142,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBrass Armor Plate"
+			title: "&lBrass Armor Plate"
 			x: 0.0d
 			y: 5.5d
 		}
@@ -170,7 +170,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 1 plating"
+			subtitle: "&#8B4513Tier 1 plating"
 			tasks: [{
 				id: "63B528634BF0A7C6"
 				item: {
@@ -190,7 +190,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lIron Armor Plate"
+			title: "&lIron Armor Plate"
 			x: -3.0d
 			y: 4.5d
 		}
@@ -234,7 +234,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 3 plating"
+			subtitle: "&#8B4513Tier 3 plating"
 			tasks: [{
 				id: "4B97A760A517B19F"
 				item: {
@@ -254,7 +254,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAlloy Armor Plate"
+			title: "&lAlloy Armor Plate"
 			x: 3.0d
 			y: 4.5d
 		}
@@ -283,7 +283,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&e1 Netherite ingot = 2 sheets"
+			subtitle: "&#8B45131 Netherite ingot = 2 sheets"
 			tasks: [{
 				id: "68548DBF075CC935"
 				item: {
@@ -297,7 +297,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSmall Netherite Sheet"
+			title: "&lSmall Netherite Sheet"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -339,7 +339,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eObsidian dust + lava"
+			subtitle: "&#8B4513Obsidian dust + lava"
 			tasks: [{
 				id: "0CEDB607CFFFB559"
 				item: {
@@ -353,16 +353,16 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSturdy Sheet"
+			title: "&lSturdy Sheet"
 			x: -1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
-			description: ["Used for crafting &6protective lining socks&r. You will want these for &cheavier&r armor sets."]
+			description: ["Used for crafting &#D2691Eprotective lining socks&r. You will want these for &#D2691Eheavier&r armor sets."]
 			hide_dependency_lines: true
 			id: "7E79DE36E19AD271"
-			subtitle: "&eDon't forget the socks!"
+			subtitle: "&#8B4513Don't forget the socks!"
 			tasks: [{
 				id: "66F34FA4F73FE681"
 				item: {
@@ -376,7 +376,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lReinforced Fiber"
+			title: "&lReinforced Fiber"
 			x: -1.0d
 			y: 11.0d
 		}
@@ -388,7 +388,7 @@
 			description: [
 				"The combustion reactor generates steam by boiling water through the reaction of flarerods in water tanks, which produces steam and powers the armors operation. If the player does not activate the reactor when equipping the armor, not only will the special functions of the armor not work, but the player will also experience slowness, mining fatigue, and weakness effects."
 				""
-				"Players need &9water tanks&r and &6flarerods&r to activate the reactor. The projected run-time of the reactor is displayed, in minutes, in the GUI."
+				"Players need &#D2691Ewater tanks&r and &#D2691Eflarerods&r to activate the reactor. The projected run-time of the reactor is displayed, in minutes, in the GUI."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -427,7 +427,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePowering your suit - Part 3"
+			subtitle: "&#8B4513Powering your suit - Part 3"
 			tasks: [{
 				id: "0C966102061E4C8F"
 				item: {
@@ -445,13 +445,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lCombustion Reactor"
+			title: "&lCombustion Reactor"
 			x: 0.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
-			description: ["Disposable water tanks are the second 1/2 of the armors fuel system. When both a water tank and flare rods are placed into a &6combustion reactor&r, they will generate steam and power the armor set."]
+			description: ["Disposable water tanks are the second 1/2 of the armors fuel system. When both a water tank and flare rods are placed into a &#D2691Ecombustion reactor&r, they will generate steam and power the armor set."]
 			hide_dependency_lines: true
 			id: "7432E85A38B6F227"
 			rewards: [
@@ -475,7 +475,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePowering your suit - Part 2"
+			subtitle: "&#8B4513Powering your suit - Part 2"
 			tasks: [{
 				id: "4D39141E700F6451"
 				item: {
@@ -489,13 +489,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lEmpty Disposable Water Tank"
+			title: "&lEmpty Disposable Water Tank"
 			x: 0.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
-			description: ["Flare rods are 1/2 of the fuel that powers your suits combustion reactor. The &6more flarerods&r you add, the &emore weight&r can be carried."]
+			description: ["Flare rods are 1/2 of the fuel that powers your suits combustion reactor. The &#D2691Emore flarerods&r you add, the &#D2691Emore weight&r can be carried."]
 			hide_dependency_lines: true
 			id: "654A56A024540E3A"
 			rewards: [
@@ -519,7 +519,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePowering your suit - Part 1"
+			subtitle: "&#8B4513Powering your suit - Part 1"
 			tasks: [{
 				id: "5A743E1221039401"
 				item: {
@@ -536,7 +536,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lFlare Rod"
+			title: "&lFlare Rod"
 			x: -0.5d
 			y: 7.0d
 		}
@@ -579,7 +579,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBase Material"
+			subtitle: "&#8B4513Base Material"
 			tasks: [{
 				id: "280BF9A5D09FB66D"
 				item: {
@@ -593,7 +593,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lChestplate Lining"
+			title: "&lChestplate Lining"
 			x: -3.0d
 			y: 10.5d
 		}
@@ -636,7 +636,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBase Material"
+			subtitle: "&#8B4513Base Material"
 			tasks: [{
 				id: "5EE986D37E3EEB50"
 				item: {
@@ -650,7 +650,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lLeggings Lining"
+			title: "&lLeggings Lining"
 			x: 3.0d
 			y: 10.5d
 		}
@@ -658,7 +658,7 @@
 			dependencies: ["7E79DE36E19AD271"]
 			description: ["Protective lining socks allow for moving more freely in heavy armors."]
 			id: "29DC4259E8DF9A3F"
-			subtitle: "&ePretty dumb... but ok?"
+			subtitle: "&#8B4513Pretty dumb... but ok?"
 			tasks: [{
 				id: "4D1AAA496BB595B8"
 				item: {
@@ -675,7 +675,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lProtective Lining Socks"
+			title: "&lProtective Lining Socks"
 			x: 1.0d
 			y: 11.0d
 		}
@@ -732,7 +732,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBreaker Chestplate"
+			title: "&lBreaker Chestplate"
 			x: -3.5d
 			y: 12.5d
 		}
@@ -789,7 +789,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lWings of Prism Chestplate"
+			title: "&lWings of Prism Chestplate"
 			x: -3.5d
 			y: 13.5d
 		}
@@ -846,7 +846,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lMagnetic Storm Chestplate"
+			title: "&lMagnetic Storm Chestplate"
 			x: -3.5d
 			y: 15.5d
 		}
@@ -903,7 +903,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lWorker-Hornet Chestplate"
+			title: "&lWorker-Hornet Chestplate"
 			x: -3.5d
 			y: 14.5d
 		}
@@ -960,7 +960,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPioner Chestplate"
+			title: "&lPioner Chestplate"
 			x: -3.5d
 			y: 16.5d
 		}
@@ -1017,7 +1017,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lHellsnake Chestplate"
+			title: "&lHellsnake Chestplate"
 			x: -3.5d
 			y: 17.5d
 		}
@@ -1040,7 +1040,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSlingshot Leggings"
+			title: "&lSlingshot Leggings"
 			x: 2.5d
 			y: 12.5d
 		}
@@ -1063,7 +1063,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAnchor Point Leggings"
+			title: "&lAnchor Point Leggings"
 			x: 2.5d
 			y: 13.5d
 		}
@@ -1086,7 +1086,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBouyancy Leggings"
+			title: "&lBouyancy Leggings"
 			x: 2.5d
 			y: 14.5d
 		}
@@ -1131,7 +1131,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPlague Helmet"
+			title: "&lPlague Helmet"
 			x: -0.5d
 			y: 12.5d
 		}
@@ -1176,7 +1176,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lLancer Helmet"
+			title: "&lLancer Helmet"
 			x: -0.5d
 			y: 13.5d
 		}
@@ -1221,7 +1221,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lHammer Helmet"
+			title: "&lHammer Helmet"
 			x: -0.5d
 			y: 14.5d
 		}
@@ -1266,7 +1266,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lHunter Helmet"
+			title: "&lHunter Helmet"
 			x: -0.5d
 			y: 15.5d
 		}
@@ -1311,7 +1311,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lClosed Helmet"
+			title: "&lClosed Helmet"
 			x: -0.5d
 			y: 16.5d
 		}
@@ -1356,7 +1356,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBlood Prisoner Helmet"
+			title: "&lBlood Prisoner Helmet"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -1399,7 +1399,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBreaker-AS Chestplate"
+			title: "&lBreaker-AS Chestplate"
 			x: -2.5d
 			y: 12.5d
 		}
@@ -1442,7 +1442,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lWings of Prism-AS Chestplate"
+			title: "&lWings of Prism-AS Chestplate"
 			x: -2.5d
 			y: 13.5d
 		}
@@ -1485,7 +1485,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lWorker-Hornet-AS Chestplate"
+			title: "&lWorker-Hornet-AS Chestplate"
 			x: -2.5d
 			y: 14.5d
 		}
@@ -1528,7 +1528,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lMagnetic Storm-AS Chestplate"
+			title: "&lMagnetic Storm-AS Chestplate"
 			x: -2.5d
 			y: 15.5d
 		}
@@ -1571,7 +1571,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPioneer-AS Chestplate"
+			title: "&lPioneer-AS Chestplate"
 			x: -2.5d
 			y: 16.5d
 		}
@@ -1614,13 +1614,13 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lHellsnake-AS Chestplate"
+			title: "&lHellsnake-AS Chestplate"
 			x: -2.5d
 			y: 17.5d
 		}
 		{
 			dependencies: ["0AE5C8215A851FBE"]
-			description: ["Living life on the wild side, huh? This chestplate is purely experimental, &cUSE AT YOUR OWN RISK&r."]
+			description: ["Living life on the wild side, huh? This chestplate is purely experimental, &#D2691EUSE AT YOUR OWN RISK&r."]
 			hide_details_until_startable: true
 			hide_text_until_complete: true
 			hide_until_deps_visible: true
@@ -1646,7 +1646,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&4EXPERIMENTAL"
+			subtitle: "&#8B4513EXPERIMENTAL"
 			tasks: [{
 				id: "1FD310B705F23698"
 				item: {
@@ -1663,7 +1663,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lFloat Shield Chestplate"
+			title: "&lFloat Shield Chestplate"
 			x: -3.0d
 			y: 18.5d
 		}
@@ -1707,7 +1707,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPlague-AS Helmet"
+			title: "&lPlague-AS Helmet"
 			x: 0.5d
 			y: 12.5d
 		}
@@ -1751,7 +1751,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lLancer-AS Helmet"
+			title: "&lLancer-AS Helmet"
 			x: 0.5d
 			y: 13.5d
 		}
@@ -1795,7 +1795,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lHammer-AS Helmet"
+			title: "&lHammer-AS Helmet"
 			x: 0.5d
 			y: 14.5d
 		}
@@ -1839,7 +1839,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lHunter-AS Helmet"
+			title: "&lHunter-AS Helmet"
 			x: 0.5d
 			y: 15.5d
 		}
@@ -1882,7 +1882,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lClosed-AS Helmet"
+			title: "&lClosed-AS Helmet"
 			x: 0.5d
 			y: 16.5d
 		}
@@ -1925,7 +1925,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBlood Prisoner-AS Helmet"
+			title: "&lBlood Prisoner-AS Helmet"
 			x: 0.5d
 			y: 17.5d
 		}
@@ -1971,7 +1971,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAnchor Point-AS Leggings"
+			title: "&lAnchor Point-AS Leggings"
 			x: 3.5d
 			y: 13.5d
 		}
@@ -1994,7 +1994,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBouyancy-AS Leggings"
+			title: "&lBouyancy-AS Leggings"
 			x: 3.5d
 			y: 14.5d
 		}
@@ -2037,7 +2037,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lManeuvering Wing"
+			title: "&lManeuvering Wing"
 			x: -2.0d
 			y: 20.5d
 		}
@@ -2080,7 +2080,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lTactical Oxygen Supply Device"
+			title: "&lTactical Oxygen Supply Device"
 			x: -1.0d
 			y: 20.5d
 		}
@@ -2123,7 +2123,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lHeat Pulse Thruster"
+			title: "&lHeat Pulse Thruster"
 			x: 0.0d
 			y: 20.5d
 		}
@@ -2177,7 +2177,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPneumatic Grenade Launch Arm"
+			title: "&lPneumatic Grenade Launch Arm"
 			x: 2.0d
 			y: 20.5d
 		}
@@ -2220,7 +2220,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lSteam Booster"
+			title: "&lSteam Booster"
 			x: 1.0d
 			y: 20.5d
 		}
@@ -2261,7 +2261,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPneumatic Grenade"
+			title: "&lPneumatic Grenade"
 			x: 0.0d
 			y: 19.5d
 		}
@@ -2270,7 +2270,7 @@
 			description: [
 				"Armors can be improved and modified with armor plates of different values, allowing them to adapt to various situations without the need for armor replacement."
 				""
-				"At the same time, the armor plate also provides a new way of &9repairing armor&r."
+				"At the same time, the armor plate also provides a new way of &#D2691Erepairing armor&r."
 			]
 			id: "185F461DB2C89BC3"
 			rewards: [{
@@ -2278,21 +2278,21 @@
 				type: "xp"
 				xp: 15
 			}]
-			subtitle: "&eMix and Match!"
+			subtitle: "&#8B4513Mix and Match!"
 			tasks: [{
 				id: "2DB96E4063DF35B4"
 				title: "Plating your armor"
 				type: "checkmark"
 			}]
-			title: "&6&lPlating Your Armor"
+			title: "&lPlating Your Armor"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -2325,7 +2325,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&e&lDimensional Dungeons&r&r adds procedurally generated, renewable dungeons in a separate dimension accessible via a portal from the Overworld. This provides challenging, replayable content."
+				"&#D2691E&lDimensional Dungeons&r&r adds procedurally generated, renewable dungeons in a separate dimension accessible via a portal from the Overworld. This provides challenging, replayable content."
 				""
-				"In the dungeon dimension, &cbuilding and block breaking are limited&r, creating an adventure mode-like experience. The dungeons are filled with enemies and valuable loot, with many treasure rooms requiring puzzles that test Minecraft game mechanics."
+				"In the dungeon dimension, &#D2691Ebuilding and block breaking are limited&r, creating an adventure mode-like experience. The dungeons are filled with enemies and valuable loot, with many treasure rooms requiring puzzles that test Minecraft game mechanics."
 			]
 			icon: {
 				Count: 1
@@ -82,7 +82,7 @@
 				id: "1B76491A0E52715A"
 				type: "checkmark"
 			}]
-			title: "&e&lWelcome to Dimensional Dungeons!"
+			title: "&lWelcome to Dimensional Dungeons!"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -154,7 +154,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lGetting Started"
+			title: "&lGetting Started"
 			x: 1.5d
 			y: 2.0d
 		}
@@ -163,7 +163,7 @@
 			description: [
 				"After creating your portal, you'll need a key. It's recommended to craft multiple keys."
 				""
-				"&e&lBlank keys&r&r must be activated before use. Right-click with the blank key on an &eend portal frame&r to inscribe the name and location of a randomly generated dungeon. The frame doesn't need to be part of a valid portal. If all frames are occupied, you can break an eye of ender without disrupting The End portal."
+				"&#D2691E&lBlank keys&r&r must be activated before use. Right-click with the blank key on an &#D2691Eend portal frame&r to inscribe the name and location of a randomly generated dungeon. The frame doesn't need to be part of a valid portal. If all frames are occupied, you can break an eye of ender without disrupting The End portal."
 				""
 				"Once activated, place the key in your portal's keyhole block. Removing the key (by right-clicking the keyhole block again) will close the portal. Keys can only be inscribed once, but can be reused to reopen the same dungeon."
 			]
@@ -202,7 +202,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBlank Portal Key"
+			title: "&lBlank Portal Key"
 			x: 1.5d
 			y: 4.0d
 		}
@@ -238,7 +238,7 @@
 				id: "03B026D0553B3ED5"
 				type: "advancement"
 			}]
-			title: "&e&lInto The Dungeon"
+			title: "&lInto The Dungeon"
 			x: 1.5d
 			y: 6.0d
 		}
@@ -247,7 +247,7 @@
 				"44DDB3663F0AB1C1"
 				"49F179F14CDEEFA3"
 			]
-			description: ["While exploring dungeons you may rarely find portal keyhole blocks. These contain &l&eAdvanced Portal Keys&r&r, and this is the only way to find these keys. These keys open portals to dungeons that are TWICE as large with much higher quality loot!"]
+			description: ["While exploring dungeons you may rarely find portal keyhole blocks. These contain &l&#D2691EAdvanced Portal Keys&r&r, and this is the only way to find these keys. These keys open portals to dungeons that are TWICE as large with much higher quality loot!"]
 			id: "2AF3774E05A28DDB"
 			rewards: [
 				{
@@ -276,13 +276,13 @@
 				title: "Find an Advanced Key"
 				type: "advancement"
 			}]
-			title: "&eAdvanced Keys"
+			title: "&lAdvanced Keys"
 			x: -1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2AF3774E05A28DDB"]
-			description: ["To use the &l&eAdvanced Portal Key&r&r, you need to upgrade your portal. The upgraded build requires two &e&lportal crown&r&r blocks, which can only be found in dungeon chests. You will also need two banners, either purple or white. Refer to the portals section in your guidebook for more details."]
+			description: ["To use the &l&#D2691EAdvanced Portal Key&r&r, you need to upgrade your portal. The upgraded build requires two &#D2691E&lportal crown&r&r blocks, which can only be found in dungeon chests. You will also need two banners, either purple or white. Refer to the portals section in your guidebook for more details."]
 			id: "3F22C4B4E0761D9B"
 			rewards: [
 				{
@@ -318,13 +318,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lPortal Ugrade!"
+			title: "&lPortal Ugrade!"
 			x: -1.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["6137ED1ED375ED3C"]
-			description: ["The &e&lHomeward Pearl&r&r can be used to instantly warp you back to the entrance of the dungeon."]
+			description: ["The &#D2691E&lHomeward Pearl&r&r can be used to instantly warp you back to the entrance of the dungeon."]
 			hide_dependency_lines: true
 			id: "309EE6B27845AA01"
 			rewards: [
@@ -361,13 +361,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lHomeward Pearl"
+			title: "&lHomeward Pearl"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["309EE6B27845AA01"]
-			description: ["The &e&lPersonal Dimension Key&r&r turns your portal into a gateway to your own personal 8x8 chunk space."]
+			description: ["The &#D2691E&lPersonal Dimension Key&r&r turns your portal into a gateway to your own personal 8x8 chunk space."]
 			id: "0CBA2E4BF066C147"
 			rewards: [
 				{
@@ -403,18 +403,18 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lPersonal Dimension Key"
+			title: "&lPersonal Dimension Key"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["22063A9DA9F5DB4A"]
 			description: [
-				"The &e&lTeleporter Hub Key&r&r is a powerful reward found only in advanced dungeons. Teleporter hubs function like one-room dungeons, featuring eight entrances without mobs or treasure."
+				"The &#D2691E&lTeleporter Hub Key&r&r is a powerful reward found only in advanced dungeons. Teleporter hubs function like one-room dungeons, featuring eight entrances without mobs or treasure."
 				""
 				"Upon entering a teleporter hub, you'll find eight doors and seven keyholes. Placing keys into the portal frames will connect to those doors. You can build portal frames in various locations, including your personal pocket dimension, a friend's base, strongholds, and the outer end islands, allowing you to link up to eight remote locations."
 				""
-				"&e&lTeleporter Hub Keys&r&r are unique and irreplaceable, so handle them carefully. You can find more Blank Teleporter Hub Keys in advanced dungeons to create additional hubs if needed."
+				"&#D2691E&lTeleporter Hub Keys&r&r are unique and irreplaceable, so handle them carefully. You can find more Blank Teleporter Hub Keys in advanced dungeons to create additional hubs if needed."
 			]
 			hide_dependency_lines: true
 			id: "1239255AEB0D8967"
@@ -452,13 +452,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lTeleporter Hub Key"
+			title: "&lTeleporter Hub Key"
 			x: -3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["49F179F14CDEEFA3"]
-			description: ["The &e&lBell of Secrets&r&r is a useful item for your hotbar in dimensional dungeons. When used in most rooms, it plays a short two-note chime. However, if the room contains a chest, it will play an extended eight-note chime, indicating you should search the room for a secret chest. This extended chime will come from the direction of the chest, helping you locate it using stereo sound."]
+			description: ["The &#D2691E&lBell of Secrets&r&r is a useful item for your hotbar in dimensional dungeons. When used in most rooms, it plays a short two-note chime. However, if the room contains a chest, it will play an extended eight-note chime, indicating you should search the room for a secret chest. This extended chime will come from the direction of the chest, helping you locate it using stereo sound."]
 			id: "45BF148DC9FD2012"
 			invisible: true
 			rewards: [
@@ -494,14 +494,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBell of Secrets"
+			title: "&lBell of Secrets"
 			x: 3.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["49F179F14CDEEFA3"]
 			description: [
-				"The &e&lKey Inscribing Station&r&r is used in place of an End Portal Frame to activate all types of keys and is only available as loot inside the dungeons."
+				"The &#D2691E&lKey Inscribing Station&r&r is used in place of an End Portal Frame to activate all types of keys and is only available as loot inside the dungeons."
 				""
 				"The Key Inscribing Station has three stages of damage, similar to an anvil, meaning each station can be used for three keys."
 			]
@@ -540,7 +540,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lKey Inscribing Station"
+			title: "&lKey Inscribing Station"
 			x: 0.0d
 			y: 8.0d
 		}
@@ -574,15 +574,15 @@
 				id: "02CD349478CD085E"
 				type: "advancement"
 			}]
-			title: "&e&lThe Next Level"
+			title: "&lThe Next Level"
 			x: -1.5d
 			y: 6.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -615,7 +615,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

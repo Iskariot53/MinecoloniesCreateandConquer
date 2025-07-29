@@ -22,7 +22,7 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"The &l&2Twilight Forest&r&r realm is an expansive world, similar to other Minecraft dimensions, but it is densely forested. This dimension has a distinct enchanted, fairy tale, and mythological atmosphere, setting it apart from the Overworld. As you explore the Twilight Forest, you'll encounter a variety of dungeons, bosses, structures, trees, and numerous unique items. There is much to discover in this magical realm."
+				"The &l&#D2691ETwilight Forest&r&r realm is an expansive world, similar to other Minecraft dimensions, but it is densely forested. This dimension has a distinct enchanted, fairy tale, and mythological atmosphere, setting it apart from the Overworld. As you explore the Twilight Forest, you'll encounter a variety of dungeons, bosses, structures, trees, and numerous unique items. There is much to discover in this magical realm."
 				""
 				"To get started, you must first create a special portal. This portal is made by forming a 2×2 pool of water, only 1 block deep. The pool must then be surrounded by any naturally generated plants (flowers for example). Once surrounded, the portal is activated by throwing a diamond into the water. The water will turn purple, and a bolt of lightning will strike the portal, dealing minor damage to nearby players."
 			]
@@ -74,16 +74,16 @@
 				id: "7A2C14F98DD2AF10"
 				type: "dimension"
 			}]
-			title: "&2&lVisit The Twilight Forest"
+			title: "&lVisit The Twilight Forest"
 			x: -9.0d
 			y: -9.75d
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
 			description: [
-				"The &e&lNaga Courtyard&r&r is a large, walled structure made of various stones and Nagastone. Inside, there are hedges of Twilight Oak Leaves, pillars of Polished Andesite and Etched Nagastone, and decorative features. At the center is a Boss Spawner for the Naga."
+				"The &#D2691E&lNaga Courtyard&r&r is a large, walled structure made of various stones and Nagastone. Inside, there are hedges of Twilight Oak Leaves, pillars of Polished Andesite and Etched Nagastone, and decorative features. At the center is a Boss Spawner for the Naga."
 				""
-				"The &e&lNaga&r&r is a serpent that lurks in the courtyard, appearing as a massive green snake-like creature with a human-like face and subtly colored scales."
+				"The &#D2691E&lNaga&r&r is a serpent that lurks in the courtyard, appearing as a massive green snake-like creature with a human-like face and subtly colored scales."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -124,16 +124,16 @@
 				id: "52FF9ECF82CFFAF8"
 				type: "advancement"
 			}]
-			title: "&2&lSlay The Naga"
+			title: "&lSlay The Naga"
 			x: -6.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["224C2A4CAABD226E"]
 			description: [
-				"The &e&lLich Tower&r&r is a major landmark, featuring a tall structure with sprawling branches of smaller rooms made of Stone Bricks and Birch Planks. At the top, there is a Boss Spawner for the Twilight Lich."
+				"The &#D2691E&lLich Tower&r&r is a major landmark, featuring a tall structure with sprawling branches of smaller rooms made of Stone Bricks and Birch Planks. At the top, there is a Boss Spawner for the Twilight Lich."
 				""
-				"The &l&eTwilight Lich&r&r, or simply the Lich, resides at the top of the tower. It appears as a tall humanoid skeleton wearing a purple cape and a large golden crown, surrounded by a wall of shields that may be breakable."
+				"The &l&#D2691ETwilight Lich&r&r, or simply the Lich, resides at the top of the tower. It appears as a tall humanoid skeleton wearing a purple cape and a large golden crown, surrounded by a wall of shields that may be breakable."
 			]
 			id: "238BA4DDD4B10E64"
 			rewards: [
@@ -173,7 +173,7 @@
 				id: "4BC359A0BC66B95E"
 				type: "advancement"
 			}]
-			title: "&2&lSlay The Lich"
+			title: "&lSlay The Lich"
 			x: -3.0d
 			y: -7.5d
 		}
@@ -214,7 +214,7 @@
 					id: "twilightforest:quest_ram_trophy"
 				}
 				id: "67E45CB91EF1BAF5"
-				title: "&2&lThe Quest Ram"
+				title: "&lThe Quest Ram"
 				type: "advancement"
 			}]
 			x: -6.0d
@@ -223,9 +223,9 @@
 		{
 			dependencies: ["238BA4DDD4B10E64"]
 			description: [
-				"The &e&lLabyrinth&r&r is a major landmark that appears as an unremarkable hill in the Twilight Swamp, leading to an underground structure of sprawling maze passages. Deep within, a fenced-off room contains a Boss Spawner for the Minoshroom."
+				"The &#D2691E&lLabyrinth&r&r is a major landmark that appears as an unremarkable hill in the Twilight Swamp, leading to an underground structure of sprawling maze passages. Deep within, a fenced-off room contains a Boss Spawner for the Minoshroom."
 				""
-				"The &e&lMinoshroom&r&r is a mini-boss lurking in its prison at the bottom of the Labyrinth, resembling a bizarre hybrid of a Mooshroom and a Minotaur."
+				"The &#D2691E&lMinoshroom&r&r is a mini-boss lurking in its prison at the bottom of the Labyrinth, resembling a bizarre hybrid of a Mooshroom and a Minotaur."
 			]
 			id: "0CDBF9C116B9F573"
 			rewards: [
@@ -265,13 +265,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&2&lSlay The Minoshroom"
+			title: "&lSlay The Minoshroom"
 			x: -1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["0CDBF9C116B9F573"]
-			description: ["&e&lMeef Stroganoff&r&r is a food item that can only be obtained after defeating the Minoshroom. Upon consuming Meef Stroganoff, the player is rewarded with the Advancement: Mighty Stroganoff, granting access to both the Fire Swamp and the Hydra."]
+			description: ["&#D2691E&lMeef Stroganoff&r&r is a food item that can only be obtained after defeating the Minoshroom. Upon consuming Meef Stroganoff, the player is rewarded with the Advancement: Mighty Stroganoff, granting access to both the Fire Swamp and the Hydra."]
 			id: "63EF394154FAD7C5"
 			rewards: [
 				{
@@ -299,16 +299,16 @@
 				id: "3BD3F7186423BCD7"
 				type: "advancement"
 			}]
-			title: "&2&lUnlock The Fire Swamp"
+			title: "&lUnlock The Fire Swamp"
 			x: 0.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["63EF394154FAD7C5"]
 			description: [
-				"Resembling a large Hollow Hill, the &e&lHydra Lair&r&r rises from the flat swamplands, providing a home for the multi-headed Hydra in the Fire Swamp. The Hydra has hollowed out the hill for shelter, forcing challengers to approach head-on in an area devoid of cover."
+				"Resembling a large Hollow Hill, the &#D2691E&lHydra Lair&r&r rises from the flat swamplands, providing a home for the multi-headed Hydra in the Fire Swamp. The Hydra has hollowed out the hill for shelter, forcing challengers to approach head-on in an area devoid of cover."
 				""
-				"The &e&lHydra&r&r is a massive creature with two stumpy legs and a wide, scaly body. Its serpentine necks end in heads resembling those of the Ender Dragon, covered in blue-green and dark blue scales."
+				"The &#D2691E&lHydra&r&r is a massive creature with two stumpy legs and a wide, scaly body. Its serpentine necks end in heads resembling those of the Ender Dragon, covered in blue-green and dark blue scales."
 			]
 			id: "39A8F24D2A4A03A0"
 			rewards: [
@@ -339,16 +339,16 @@
 				id: "2BECD2C19293654B"
 				type: "advancement"
 			}]
-			title: "&2&lSlay The Hydra"
+			title: "&lSlay The Hydra"
 			x: 2.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["39A8F24D2A4A03A0"]
 			description: [
-				"Ancient and forlorn, the &e&lGoblin Knight Strongholds&r&r lie among the dense canopy of the Dark Forest. They are difficult to spot in the darkness, with little above ground aside from broken walls and cracked bricks. However, beneath the surface is a vast complex of rooms, hallways, and tombs. Some explorers have noted similarities to the labyrinths beneath the Twilight Swamp, but these fortresses offer a different challenge."
+				"Ancient and forlorn, the &#D2691E&lGoblin Knight Strongholds&r&r lie among the dense canopy of the Dark Forest. They are difficult to spot in the darkness, with little above ground aside from broken walls and cracked bricks. However, beneath the surface is a vast complex of rooms, hallways, and tombs. Some explorers have noted similarities to the labyrinths beneath the Twilight Swamp, but these fortresses offer a different challenge."
 				""
-				"The &e&lKnight Phantoms&r&r inhabit a brick-layered room in the Goblin Knight Stronghold. They appear as ghostly figures of Phantom Armor and have a spooky look when attacking."
+				"The &#D2691E&lKnight Phantoms&r&r inhabit a brick-layered room in the Goblin Knight Stronghold. They appear as ghostly figures of Phantom Armor and have a spooky look when attacking."
 			]
 			id: "6ACE6710E64ACF68"
 			rewards: [
@@ -388,16 +388,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&2&lSlay The Knight Phantom"
+			title: "&lSlay The Knight Phantom"
 			x: 4.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["6ACE6710E64ACF68"]
 			description: [
-				"Rising ominously over the Dark Forest, the &e&lDark Towers&r&r seem to pierce the sky. These immense structures contain unique rooms, obstacles, treasures, and monsters for adventurers to explore. They are typically found at the heart of the Dark Forest, where the thick foliage takes on a strange autumn hue, likely due to the Tower's sinister influence."
+				"Rising ominously over the Dark Forest, the &#D2691E&lDark Towers&r&r seem to pierce the sky. These immense structures contain unique rooms, obstacles, treasures, and monsters for adventurers to explore. They are typically found at the heart of the Dark Forest, where the thick foliage takes on a strange autumn hue, likely due to the Tower's sinister influence."
 				""
-				"At the top of the Dark Tower flies the &l&eUr-Ghast&r&r, a large supernatural creature with many waving tentacles, covered in what may be blood or Carminite. It resembles the Carminite Ghastguard in stalking players and the Nether-exclusive Ghasts but is much larger and more dangerous."
+				"At the top of the Dark Tower flies the &l&#D2691EUr-Ghast&r&r, a large supernatural creature with many waving tentacles, covered in what may be blood or Carminite. It resembles the Carminite Ghastguard in stalking players and the Nether-exclusive Ghasts but is much larger and more dangerous."
 			]
 			id: "7264C093510330F7"
 			rewards: [
@@ -437,16 +437,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&2&lSlay The Ur-Ghast"
+			title: "&lSlay The Ur-Ghast"
 			x: 7.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7264C093510330F7"]
 			description: [
-				"Nestled among the hills and fir trees of the Snowy Forest, the &e&lYeti Cave&r&r appears as a square-shaped hill with four entrances leading to its ice-covered interior, where packed ice hangs from stalactites. Many fierce Yetis inhabit these frigid caves, ruled by a larger &eAlpha Yeti&r."
+				"Nestled among the hills and fir trees of the Snowy Forest, the &#D2691E&lYeti Cave&r&r appears as a square-shaped hill with four entrances leading to its ice-covered interior, where packed ice hangs from stalactites. Many fierce Yetis inhabit these frigid caves, ruled by a larger &#D2691EAlpha Yeti&r."
 				""
-				"The &e&lAlpha Yeti&r&r is significantly bigger than the other Yetis in its pack, with six large blue horns, and it is constantly aggressive toward players."
+				"The &#D2691E&lAlpha Yeti&r&r is significantly bigger than the other Yetis in its pack, with six large blue horns, and it is constantly aggressive toward players."
 			]
 			icon: {
 				Count: 1
@@ -495,16 +495,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "&2&lSlay The Alpha Yeti"
+			title: "&lSlay The Alpha Yeti"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["43F71D97827116DD"]
 			description: [
-				"Standing over the desolate glaciers, the &e&lAurora Palace&r&r is a striking sight for adventurers in the Twilight Forest, with walls that constantly shift in various colors. However, dangers within will fiercely defend their magical home."
+				"Standing over the desolate glaciers, the &#D2691E&lAurora Palace&r&r is a striking sight for adventurers in the Twilight Forest, with walls that constantly shift in various colors. However, dangers within will fiercely defend their magical home."
 				""
-				"The &e&lSnow Queen&r&r resides in an ice-encrusted room near the top of the Aurora Palace. She is one of the most human-like creatures in the Twilight Forest, with large violet eyes and pale blue skin, and is immediately hostile to intruders, launching one of three main attack patterns."
+				"The &#D2691E&lSnow Queen&r&r resides in an ice-encrusted room near the top of the Aurora Palace. She is one of the most human-like creatures in the Twilight Forest, with large violet eyes and pale blue skin, and is immediately hostile to intruders, launching one of three main attack patterns."
 			]
 			id: "1B3CAAFB0ED99518"
 			rewards: [
@@ -535,14 +535,14 @@
 				id: "69368B5CC4A47BD9"
 				type: "advancement"
 			}]
-			title: "&2&lSlay The Snow Queen"
+			title: "&lSlay The Snow Queen"
 			x: 7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
 			description: [
-				"&e&lMagic Beans&r&r are a collection of colorful beans can be found in smaller vaults in the Troll Caves. A Diamond Pickaxe or a pickaxe of similar strength is normally needed to crack the vault open and claim the beans. You may also get Magic Beans as a very lucky drop from killing &eTrolls&r."
+				"&#D2691E&lMagic Beans&r&r are a collection of colorful beans can be found in smaller vaults in the Troll Caves. A Diamond Pickaxe or a pickaxe of similar strength is normally needed to crack the vault open and claim the beans. You may also get Magic Beans as a very lucky drop from killing &#D2691ETrolls&r."
 				""
 				"When Magic Beans are planted in Uberous Soil, they will grow a giant beanstalk, reaching to cloud level. This serves as a convenient way to access the Cloud Cottage over the Highlands."
 			]
@@ -589,7 +589,7 @@
 					type: "advancement"
 				}
 			]
-			title: "&2&lMagic Beans"
+			title: "&lMagic Beans"
 			x: 4.0d
 			y: 2.5d
 		}
@@ -598,7 +598,7 @@
 			description: [
 				"Once the magic beans have been planted in Uberous Soil, the resulting beanstalk provides a quick climb to the cloud. It’s recommended to place torches along the beanstalk to illuminate the darkness beneath."
 				""
-				"The next task is to fight and defeat a &e&lGiant&r&r carrying a &l&eGiant's Pickaxe&r&r. This oversized stone tool is strong enough to crack open the Giant Obsidian vault, which contains the Lamp of Cinders."
+				"The next task is to fight and defeat a &#D2691E&lGiant&r&r carrying a &l&#D2691EGiant's Pickaxe&r&r. This oversized stone tool is strong enough to crack open the Giant Obsidian vault, which contains the Lamp of Cinders."
 			]
 			id: "353A06EAE19F5598"
 			rewards: [
@@ -628,13 +628,13 @@
 				id: "10E4AA4335DF4144"
 				type: "advancement"
 			}]
-			title: "&2&lSlay A Giant Miner"
+			title: "&lSlay A Giant Miner"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["353A06EAE19F5598"]
-			description: ["The &e&lLamp of Cinders&r&r is a tool found in the central vault of the Troll Caves, which requires the Giant's Pickaxe to open. It is used to burn through the Thorns that fill the Thornlands biome. The lamp can be used in two ways: it can burn individual blocks by clicking on them, or it can be \"charged\" by holding the button to burn an entire area. The Lamp of Cinders has no usage limit."]
+			description: ["The &#D2691E&lLamp of Cinders&r&r is a tool found in the central vault of the Troll Caves, which requires the Giant's Pickaxe to open. It is used to burn through the Thorns that fill the Thornlands biome. The lamp can be used in two ways: it can burn individual blocks by clicking on them, or it can be \"charged\" by holding the button to burn an entire area. The Lamp of Cinders has no usage limit."]
 			id: "3704ECA09DAC9D7A"
 			rewards: [
 				{
@@ -673,16 +673,16 @@
 				}
 				type: "item"
 			}]
-			title: "&2&lLamp of Cinders"
+			title: "&lLamp of Cinders"
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3704ECA09DAC9D7A"]
 			description: [
-				"As explorers ventured deeper into the Twilight Highlands, they encountered a thick, spiny wall of foliage, impervious to cutting or burning attempts to access the Final Plateau. Disturbingly, any sections cut would regrow almost instantaneously, injuring one impatient adventurer. This natural yet unnatural barrier became known as the &l&eThornlands&r&r."
+				"As explorers ventured deeper into the Twilight Highlands, they encountered a thick, spiny wall of foliage, impervious to cutting or burning attempts to access the Final Plateau. Disturbingly, any sections cut would regrow almost instantaneously, injuring one impatient adventurer. This natural yet unnatural barrier became known as the &l&#D2691EThornlands&r&r."
 				""
-				"Only the powerful &eLamp of Cinders&r can burn the Thorns and stop their rapid regeneration, clearing a path to the Final Plateau and the Final Castle beyond."
+				"Only the powerful &#D2691ELamp of Cinders&r can burn the Thorns and stop their rapid regeneration, clearing a path to the Final Plateau and the Final Castle beyond."
 			]
 			id: "4E6C6EC0F82818A0"
 			rewards: [
@@ -720,14 +720,14 @@
 				id: "6F9C509175663B8F"
 				type: "biome"
 			}]
-			title: "&2&lVisit The Thornlands"
+			title: "&lVisit The Thornlands"
 			x: -3.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["4E6C6EC0F82818A0"]
 			description: [
-				"Once the player has traversed the Thornlands, they will encounter the &l&eFinal Castle&r&r, a structure that spawns in the &eFinal Plateau&r. It is primarily made of white castle bricks in different variants, some of which are engraved with colored runes and covered with force fields."
+				"Once the player has traversed the Thornlands, they will encounter the &l&#D2691EFinal Castle&r&r, a structure that spawns in the &#D2691EFinal Plateau&r. It is primarily made of white castle bricks in different variants, some of which are engraved with colored runes and covered with force fields."
 				""
 				"Currently, the Final Castle is a work in progress, with no active achievements and no mobs spawning inside."
 			]
@@ -768,13 +768,13 @@
 				structure: "twilightforest:final_castle"
 				type: "structure"
 			}]
-			title: "&2&lFinal Castle"
+			title: "&lFinal Castle"
 			x: -6.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["224C2A4CAABD226E"]
-			description: ["&e&lNaga Scale Armor&r&r is armor made from Naga Scales. This armor set consists of only Chestplate and Leggings."]
+			description: ["&#D2691E&lNaga Scale Armor&r&r is armor made from Naga Scales. This armor set consists of only Chestplate and Leggings."]
 			hide_until_deps_complete: false
 			id: "63C1EC8559D1E68B"
 			rewards: [
@@ -839,13 +839,13 @@
 					type: "item"
 				}
 			]
-			title: "Naga Scale Armor"
+			title: "&lNaga Scale Armor"
 			x: -6.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["The &l&eScepter of Twilight&r&r, dropped by the Lich, shoots projectiles resembling the Lich's, with a texture like Ender Pearls and a blue-green particle effect. Slightly affected by gravity, they deal 2.5 hearts of damage—four hits for Skeletons and Creepers, three for Spiders, and five for Zombies. The scepter cannot interact with End Crystals or the Ender Dragon."]
+			description: ["The &l&#D2691EScepter of Twilight&r&r, dropped by the Lich, shoots projectiles resembling the Lich's, with a texture like Ender Pearls and a blue-green particle effect. Slightly affected by gravity, they deal 2.5 hearts of damage—four hits for Skeletons and Creepers, three for Spiders, and five for Zombies. The scepter cannot interact with End Crystals or the Ender Dragon."]
 			id: "6F765560F3AF0737"
 			rewards: [
 				{
@@ -888,7 +888,7 @@
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["The &e&lScepter of Life Draining&r&r drains life energy from any mob it right-clicks, producing pink particle effects. To use it, hold right-click while looking at an enemy, causing them to float and transferring energy to the user for faster healing. If interrupted, the enemy gets the Slowness debuff and approaches slowly, allowing the player to recharge the scepter. It does not work against the Ender Dragon."]
+			description: ["The &#D2691E&lScepter of Life Draining&r&r drains life energy from any mob it right-clicks, producing pink particle effects. To use it, hold right-click while looking at an enemy, causing them to float and transferring energy to the user for faster healing. If interrupted, the enemy gets the Slowness debuff and approaches slowly, allowing the player to recharge the scepter. It does not work against the Ender Dragon."]
 			id: "1D34C364554673D1"
 			rewards: [
 				{
@@ -931,7 +931,7 @@
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["Summon your own powerful Zombies with the &l&eZombie Scepter&r&r! These Zombies are strong, fast, immune to sunlight, and ready to attack. They follow you and target enemies but self-immolate after about a minute. Unlike regular Zombies, they are not undead, are affected by potions, and can be targeted by the Wither. Summoned Zombies do not scare, target, or corrupt Villagers, and baby or chicken jockey variants do not exist."]
+			description: ["Summon your own powerful Zombies with the &l&#D2691EZombie Scepter&r&r! These Zombies are strong, fast, immune to sunlight, and ready to attack. They follow you and target enemies but self-immolate after about a minute. Unlike regular Zombies, they are not undead, are affected by potions, and can be targeted by the Wither. Summoned Zombies do not scare, target, or corrupt Villagers, and baby or chicken jockey variants do not exist."]
 			id: "3D24BA08A1F6F341"
 			rewards: [
 				{
@@ -974,7 +974,7 @@
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["The &e&lScepter of Fortification&r&r summons five shields around the player or target entity and produces a popping sound when used. These shields resemble those of the Lich but break upon damage, except from drowning, falling, or void damage. They can be restored after the scepter's cooldown, indicated by the remaining shields, but only five can be active at once."]
+			description: ["The &#D2691E&lScepter of Fortification&r&r summons five shields around the player or target entity and produces a popping sound when used. These shields resemble those of the Lich but break upon damage, except from drowning, falling, or void damage. They can be restored after the scepter's cooldown, indicated by the remaining shields, but only five can be active at once."]
 			id: "0E8B64CE67FC2ED6"
 			rewards: [
 				{
@@ -1017,7 +1017,7 @@
 		}
 		{
 			dependencies: ["0CDBF9C116B9F573"]
-			description: ["The &e&lDiamond Minotaur Axe&r&r is a unique axe that is dropped when the Minoshroom is killed. The Diamond Minotaur Axe is unique in that it has extra charge damage, meaning that when it is used while the player is sprinting, extra damage will be dealt to whatever monster it attacks."]
+			description: ["The &#D2691E&lDiamond Minotaur Axe&r&r is a unique axe that is dropped when the Minoshroom is killed. The Diamond Minotaur Axe is unique in that it has extra charge damage, meaning that when it is used while the player is sprinting, extra damage will be dealt to whatever monster it attacks."]
 			id: "61F6FCB0EA0E6EE3"
 			rewards: [
 				{
@@ -1060,7 +1060,7 @@
 		}
 		{
 			dependencies: ["39A8F24D2A4A03A0"]
-			description: ["&e&lFiery Armor&r&r is armor made from Fiery Ingots and has the innate skill to burn attackers."]
+			description: ["&#D2691E&lFiery Armor&r&r is armor made from Fiery Ingots and has the innate skill to burn attackers."]
 			id: "5E22B54E7749BB31"
 			rewards: [
 				{
@@ -1148,13 +1148,13 @@
 					type: "item"
 				}
 			]
-			title: "Fiery Armor"
+			title: "&lFiery Armor"
 			x: 3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["39A8F24D2A4A03A0"]
-			description: ["&e&lFiery Sword and Pickaxe&r&r are made from Fiery Ingots and have the ability to burn attackers, and auto-smelt blocks."]
+			description: ["&#D2691E&lFiery Sword and Pickaxe&r&r are made from Fiery Ingots and have the ability to burn attackers, and auto-smelt blocks."]
 			id: "72BE5D51B75EAB98"
 			rewards: [
 				{
@@ -1210,13 +1210,13 @@
 					type: "item"
 				}
 			]
-			title: "Fiery Sword and Pickaxe"
+			title: "&lFiery Sword and Pickaxe"
 			x: 2.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6ACE6710E64ACF68"]
-			description: ["&e&lPhantom Armor&r&r is a special set of armor that can be obtained after slaying a Knight Phantom. There is only two parts to this set. This armor is also unique in that it will not be lost on death."]
+			description: ["&#D2691E&lPhantom Armor&r&r is a special set of armor that can be obtained after slaying a Knight Phantom. There is only two parts to this set. This armor is also unique in that it will not be lost on death."]
 			id: "3B62B0D9334A609C"
 			rewards: [
 				{
@@ -1272,13 +1272,13 @@
 					type: "item"
 				}
 			]
-			title: "Phantom Armor"
+			title: "&lPhantom Armor"
 			x: 5.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6ACE6710E64ACF68"]
-			description: ["&e&lKnightmetal Armor&r&r is an armor set made from Knightmetal Ingots."]
+			description: ["&#D2691E&lKnightmetal Armor&r&r is an armor set made from Knightmetal Ingots."]
 			id: "2BC383AAEC8C05B4"
 			rewards: [
 				{
@@ -1366,13 +1366,13 @@
 					type: "item"
 				}
 			]
-			title: "Knightmetal Armor"
+			title: "&lKnightmetal Armor"
 			x: 4.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["6ACE6710E64ACF68"]
-			description: ["&e&lKnightmetal Tools and Weapons&r&r are made from Knightmetal Ingots."]
+			description: ["&#D2691E&lKnightmetal Tools and Weapons&r&r are made from Knightmetal Ingots."]
 			id: "7E1CF7ACBD6043AB"
 			rewards: [
 				{
@@ -1476,16 +1476,16 @@
 					type: "item"
 				}
 			]
-			title: "Knightmetal Tools and Weapons"
+			title: "&lKnightmetal Tools and Weapons"
 			x: 4.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["43F71D97827116DD"]
 			description: [
-				"&e&lAlpha Yeti Fur&r&r is an item that is always dropped by the Alpha Yeti. "
+				"&#D2691E&lAlpha Yeti Fur&r&r is an item that is always dropped by the Alpha Yeti. "
 				""
-				"&e&lYeti Armor&r&r is armor made from Alpha Yeti Fur. Making contact with an entity wearing this armor will inflict the attacker with Frosted III."
+				"&#D2691E&lYeti Armor&r&r is armor made from Alpha Yeti Fur. Making contact with an entity wearing this armor will inflict the attacker with Frosted III."
 			]
 			id: "79D9541D4D3A31BF"
 			rewards: [
@@ -1596,16 +1596,16 @@
 					type: "item"
 				}
 			]
-			title: "Yeti Armor"
+			title: "&lYeti Armor"
 			x: 10.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["43F71D97827116DD"]
 			description: [
-				"&e&lArctic Fur&r&r is an item dropped by Yetis and Winter Wolves."
+				"&#D2691E&lArctic Fur&r&r is an item dropped by Yetis and Winter Wolves."
 				""
-				"&e&lArctic Armor&r&r is armor made from Arctic Fur. "
+				"&#D2691E&lArctic Armor&r&r is armor made from Arctic Fur. "
 			]
 			id: "40B42B2D21A31F1A"
 			rewards: [
@@ -1694,13 +1694,13 @@
 					type: "item"
 				}
 			]
-			title: "Arctic Armor"
+			title: "&lArctic Armor"
 			x: 10.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
-			description: ["The &e&lSeeker Bow&r&r is one of two bows that can drop from the Snow Queen. Arrows fired from this bow will attempt to hone in onto nearby targets. Seeker arrows cannot land critical hits."]
+			description: ["The &#D2691E&lSeeker Bow&r&r is one of two bows that can drop from the Snow Queen. Arrows fired from this bow will attempt to hone in onto nearby targets. Seeker arrows cannot land critical hits."]
 			id: "5F9BCB81EDC7B5CC"
 			rewards: [
 				{
@@ -1743,7 +1743,7 @@
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
-			description: ["The &e&lTri-bow&r&r is one of two bows dropped by the Snow Queen upon defeat. When fired, it shoots three vertically aligned arrows at once, similar to the Multishot enchantment on crossbows, but it only uses one arrow and reduces durability by one. This bow is highly effective against single targets if all shots hit, as well as against multiple targets."]
+			description: ["The &#D2691E&lTri-bow&r&r is one of two bows dropped by the Snow Queen upon defeat. When fired, it shoots three vertically aligned arrows at once, similar to the Multishot enchantment on crossbows, but it only uses one arrow and reduces durability by one. This bow is highly effective against single targets if all shots hit, as well as against multiple targets."]
 			id: "02056C28AB828C96"
 			rewards: [
 				{
@@ -1787,9 +1787,9 @@
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
 			description: [
-				"&e&lRaven Feather&r&r is an item dropped by Ravens, each one dropping up to 2 of these."
+				"&#D2691E&lRaven Feather&r&r is an item dropped by Ravens, each one dropping up to 2 of these."
 				""
-				"&e&lTorchberries&r&r are an item found by harvesting Torchberry Plants or slaying Skeleton Druids. "
+				"&#D2691E&lTorchberries&r&r are an item found by harvesting Torchberry Plants or slaying Skeleton Druids. "
 			]
 			hide_until_deps_complete: true
 			id: "06B12750EF857686"
@@ -1841,13 +1841,13 @@
 					type: "item"
 				}
 			]
-			title: "Raven Feather and Torchberries"
+			title: "&lRaven Feather and Torchberries"
 			x: -8.5d
 			y: -7.5d
 		}
 		{
 			dependencies: ["06B12750EF857686"]
-			description: ["&e&lMagic Map Focus&r&r is an item crafted from a Raven Feather, Torchberries and Glowstone Dust."]
+			description: ["&#D2691E&lMagic Map Focus&r&r is an item crafted from a Raven Feather, Torchberries and Glowstone Dust."]
 			hide_until_deps_complete: false
 			id: "3EC49822628FE9B3"
 			rewards: [
@@ -1889,7 +1889,7 @@
 		{
 			dependencies: ["3EC49822628FE9B3"]
 			description: [
-				"&e&lMagic Maps&r&r are vital for explorers in the Twilight Forest, as they are linked to the dimension and reveal important details about the surrounding areas."
+				"&#D2691E&lMagic Maps&r&r are vital for explorers in the Twilight Forest, as they are linked to the dimension and reveal important details about the surrounding areas."
 				""
 				"While similar to an Overworld map, Magic Maps only work in the Twilight Forest and reveal an area four times larger upon first use. However, they cannot expand beyond their initial view, so multiple maps are needed for extensive exploration."
 				""
@@ -1938,9 +1938,9 @@
 		{
 			dependencies: ["238BA4DDD4B10E64"]
 			description: [
-				"The &e&lMaze Map&r&r is useful mostly for finding your way around the various mazes in the Twilight Forest. Like a vanilla map, it can see past walls and various places that you can normally not see. The Maze Map is special with this, as it will show you a slice of the world at your current depth or altitude, allowing you to find your way through caves and other structures. It is also zoomed in enough to show even the thinnest walls."
+				"The &#D2691E&lMaze Map&r&r is useful mostly for finding your way around the various mazes in the Twilight Forest. Like a vanilla map, it can see past walls and various places that you can normally not see. The Maze Map is special with this, as it will show you a slice of the world at your current depth or altitude, allowing you to find your way through caves and other structures. It is also zoomed in enough to show even the thinnest walls."
 				""
-				"&e&lMaze Map Focus&r&r is an item found in chests and rarely dropped by Minotaurs. Adventurers are most likely to find a Maze Map Focus by searching chests in a Labyrinth. It is used to craft a Maze Map."
+				"&#D2691E&lMaze Map Focus&r&r is an item found in chests and rarely dropped by Minotaurs. Adventurers are most likely to find a Maze Map Focus by searching chests in a Labyrinth. It is used to craft a Maze Map."
 			]
 			id: "5220FB0D131C6F95"
 			rewards: [
@@ -1976,13 +1976,13 @@
 				}
 				type: "item"
 			}]
-			title: "&2&lMaze Map"
+			title: "&lMaze Map"
 			x: -1.999999999999993d
 			y: -6.25d
 		}
 		{
 			dependencies: ["5220FB0D131C6F95"]
-			description: ["What if a &e&lMaze Map&r&r could see through stone to reveal hidden treasures? With an upgrade, the &e&lOre Map&r&r can. Though pricey, it detects ores above or below its layer and displays them in their respective colors. Starting blank, users must activate it to reveal the map. A useful trick is to create it on a layer with rare ores and navigate above ground to uncover what lies beneath."]
+			description: ["What if a &#D2691E&lMaze Map&r&r could see through stone to reveal hidden treasures? With an upgrade, the &#D2691E&lOre Map&r&r can. Though pricey, it detects ores above or below its layer and displays them in their respective colors. Starting blank, users must activate it to reveal the map. A useful trick is to create it on a layer with rare ores and navigate above ground to uncover what lies beneath."]
 			id: "49F76BDDF2D28E43"
 			rewards: [
 				{
@@ -2022,7 +2022,7 @@
 		}
 		{
 			dependencies: ["031BF5A5DDEA7DDF"]
-			description: ["Find an &e&lInactive Thorncutter&r&r inside a chest atop the Final Castle within the purple forcefield. When &e&lThorncutter&r&r is completed, you can harvest Thorns."]
+			description: ["Find an &#D2691E&lInactive Thorncutter&r&r inside a chest atop the Final Castle within the purple forcefield. When &#D2691E&lThorncutter&r&r is completed, you can harvest Thorns."]
 			hide_dependency_lines: true
 			id: "1701F87490DD6A9F"
 			rewards: [
@@ -2066,7 +2066,7 @@
 		}
 		{
 			dependencies: ["5220FB0D131C6F95"]
-			description: ["The &e&lMazebreaker&r&r is a special kind of Pickaxe only found in Labyrinth treasure vaults, viewable with a Maze Map. The Mazebreaker can mine through all types of Mazestone while only losing one durability point, whereas breaking Mazestone with any other pickaxe will lower that pickaxe's durability 16x faster. By default, the Mazebreaker is enchanted with Efficiency IV, Unbreaking III and Fortune II."]
+			description: ["The &#D2691E&lMazebreaker&r&r is a special kind of Pickaxe only found in Labyrinth treasure vaults, viewable with a Maze Map. The Mazebreaker can mine through all types of Mazestone while only losing one durability point, whereas breaking Mazestone with any other pickaxe will lower that pickaxe's durability 16x faster. By default, the Mazebreaker is enchanted with Efficiency IV, Unbreaking III and Fortune II."]
 			id: "707871C62A831E84"
 			rewards: [
 				{
@@ -2124,11 +2124,11 @@
 		{
 			dependencies: ["5F702BEE6C1C9852"]
 			description: [
-				"The &e&lCrumble Horn&r&r is one of the rewards for completing the Questing Ram's quest. If the quest is completed, this (along with one of each of the resource blocks) will be given to the player by the Quest Ram."
+				"The &#D2691E&lCrumble Horn&r&r is one of the rewards for completing the Questing Ram's quest. If the quest is completed, this (along with one of each of the resource blocks) will be given to the player by the Quest Ram."
 				""
 				"When the Crumble Horn is used, blocks around the player will begin to crumble into other blocks. The sound of a baaing sheep can also be heard emanating from the Crumble Horn when it is used."
 				""
-				"When the crumble horn is used in a &eDispenser&r, it will attempt to crumble the block in front of it. This action takes one durability to complete. Unlike other damageable items that can be used in the dispenser, the crumble horn will not break when depleted. If the durability hits zero it will instead refuse to fire again."
+				"When the crumble horn is used in a &#D2691EDispenser&r, it will attempt to crumble the block in front of it. This action takes one durability to complete. Unlike other damageable items that can be used in the dispenser, the crumble horn will not break when depleted. If the durability hits zero it will instead refuse to fire again."
 			]
 			hide_until_deps_complete: false
 			id: "31F9DFD0F505AE02"
@@ -2179,9 +2179,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&e&lSteeleaf Armor and Tools&r&r are made from Steeleaf."
+				"&#D2691E&lSteeleaf Armor and Tools&r&r are made from Steeleaf."
 				""
-				"&e&lSteeleaf&r&r is found in Labyrinth, Hollow Hill, and Dark Tower chests."
+				"&#D2691E&lSteeleaf&r&r is found in Labyrinth, Hollow Hill, and Dark Tower chests."
 			]
 			hide_dependency_lines: true
 			id: "2F2BA092915A7910"
@@ -2387,13 +2387,13 @@
 					type: "item"
 				}
 			]
-			title: "Steeleaf Armor and Tools"
+			title: "&lSteeleaf Armor and Tools"
 			x: -9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7DFA298A49BB99F4"]
-			description: ["&e&lIronwood Armor and Tools&r&r are made from Ironwood Ingots."]
+			description: ["&#D2691E&lIronwood Armor and Tools&r&r are made from Ironwood Ingots."]
 			id: "0E88C9364E12FEB3"
 			rewards: [
 				{
@@ -2597,13 +2597,13 @@
 					type: "item"
 				}
 			]
-			title: "Ironwood Armor and Tools"
+			title: "&lIronwood Armor and Tools"
 			x: -10.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["353A06EAE19F5598"]
-			description: ["Mine all types of giant blocks using the &e&lGiant's Pickaxe&r&r."]
+			description: ["Mine all types of giant blocks using the &#D2691E&lGiant's Pickaxe&r&r."]
 			id: "4A02F6F1822B0F69"
 			rewards: [
 				{
@@ -2684,7 +2684,7 @@
 		}
 		{
 			dependencies: ["76B211025E5ACC90"]
-			description: ["The &e&lOre Magnet&r&r is a treasure found in Hollow Hill chests. To use it, point the magnet at the ground or a wall, charge it up, and release. If you’re lucky, it will pull anything from an ore block to an entire vein to the surface, bringing up to 24 blocks, plus a few extra."]
+			description: ["The &#D2691E&lOre Magnet&r&r is a treasure found in Hollow Hill chests. To use it, point the magnet at the ground or a wall, charge it up, and release. If you’re lucky, it will pull anything from an ore block to an entire vein to the surface, bringing up to 24 blocks, plus a few extra."]
 			hide_dependency_lines: true
 			id: "2EFA532622EB7946"
 			rewards: [
@@ -2728,7 +2728,7 @@
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
-			description: ["The &e&lGlass Sword&r&r is a weapon that can occasionally be found in Aurora Palaces. Glass Swords cannot be crafted, and have no skills."]
+			description: ["The &#D2691E&lGlass Sword&r&r is a weapon that can occasionally be found in Aurora Palaces. Glass Swords cannot be crafted, and have no skills."]
 			hide_dependency_lines: true
 			id: "6AB19CF23F9B5A16"
 			rewards: [
@@ -2772,7 +2772,7 @@
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
-			description: ["The &e&lIce Sword&r&r is a weapon that can be found in Aurora Palaces. Ice Swords cannot be crafted, and inflict 10 seconds of Frosted III on targets, reducing their movement speed."]
+			description: ["The &#D2691E&lIce Sword&r&r is a weapon that can be found in Aurora Palaces. Ice Swords cannot be crafted, and inflict 10 seconds of Frosted III on targets, reducing their movement speed."]
 			hide_dependency_lines: true
 			id: "622B8EEE00C9F620"
 			rewards: [
@@ -2820,7 +2820,7 @@
 				"76B211025E5ACC90"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &e&lPeacock Feather Fan&r&r is a unique item found in Lich Towers and Medium Hollow Hills in the Twilight Forest. When used, it pushes entities in front of the player backwards, including mobs, dropped items, blocks, and even the player. The fan’s strong winds can uproot flowers and grasses. If the player runs and jumps while using the fan, it produces a high-jump effect."]
+			description: ["The &#D2691E&lPeacock Feather Fan&r&r is a unique item found in Lich Towers and Medium Hollow Hills in the Twilight Forest. When used, it pushes entities in front of the player backwards, including mobs, dropped items, blocks, and even the player. The fan’s strong winds can uproot flowers and grasses. If the player runs and jumps while using the fan, it produces a high-jump effect."]
 			hide_dependency_lines: true
 			id: "64587A7056D3BE7D"
 			rewards: [
@@ -2864,7 +2864,7 @@
 		}
 		{
 			dependencies: ["76B211025E5ACC90"]
-			description: ["&e&lTransformation Powder&r&r is a bright blue magical item found in Hollow Hills treasure chests. It can transform Twilight items into dimensional items and change otherworldly creatures into Twilight Forest creatures and vice versa. This powder can alter the environment or help escape dangerous creatures by turning them into harmless mobs."]
+			description: ["&#D2691E&lTransformation Powder&r&r is a bright blue magical item found in Hollow Hills treasure chests. It can transform Twilight items into dimensional items and change otherworldly creatures into Twilight Forest creatures and vice versa. This powder can alter the environment or help escape dangerous creatures by turning them into harmless mobs."]
 			hide_dependency_lines: true
 			id: "09FD0BBC59643076"
 			rewards: [
@@ -2906,9 +2906,9 @@
 		{
 			dependencies: ["5220FB0D131C6F95"]
 			description: [
-				"The &e&lCharm of Keeping&r&r is a small item resembling a lock. When the player dies, the charm will activate and attempt to preserve a portion of the player's inventory and give it to the player once they respawn. The charm is consumed in this process."
+				"The &#D2691E&lCharm of Keeping&r&r is a small item resembling a lock. When the player dies, the charm will activate and attempt to preserve a portion of the player's inventory and give it to the player once they respawn. The charm is consumed in this process."
 				""
-				"The &e&llevel I charm&r&r is bronze and will keep the player's armor, currently selected item, and the off-hand item. It can be found in some treasure chests, or as a rare drop from Maze Slimes."
+				"The &#D2691E&llevel I charm&r&r is bronze and will keep the player's armor, currently selected item, and the off-hand item. It can be found in some treasure chests, or as a rare drop from Maze Slimes."
 			]
 			id: "4D66C8BBEDAD4A2F"
 			rewards: [
@@ -2949,7 +2949,7 @@
 		}
 		{
 			dependencies: ["4D66C8BBEDAD4A2F"]
-			description: ["The &e&llevel II charm&r&r is silver and will keep the player's armor and full hotbar."]
+			description: ["The &#D2691E&llevel II charm&r&r is silver and will keep the player's armor and full hotbar."]
 			id: "76D9A2260275CEDD"
 			rewards: [
 				{
@@ -2989,7 +2989,7 @@
 		}
 		{
 			dependencies: ["76D9A2260275CEDD"]
-			description: ["The &e&llevel III charm&r&r is gold and will keep a player's entire inventory. "]
+			description: ["The &#D2691E&llevel III charm&r&r is gold and will keep a player's entire inventory. "]
 			id: "5458ED1325250C81"
 			rewards: [
 				{
@@ -3029,7 +3029,7 @@
 		}
 		{
 			dependencies: ["76B211025E5ACC90"]
-			description: ["The &e&lCharm of Life I&r&r will heal the player back to 4 hearts, and bestow Regeneration I for the next 10 seconds. Charm of Life I can be found in medium and large Hollow Hills, Leaf Dungeons, Lich Towers, Goblin Knight Strongholds, Dark Towers and Aurora Palaces."]
+			description: ["The &#D2691E&lCharm of Life I&r&r will heal the player back to 4 hearts, and bestow Regeneration I for the next 10 seconds. Charm of Life I can be found in medium and large Hollow Hills, Leaf Dungeons, Lich Towers, Goblin Knight Strongholds, Dark Towers and Aurora Palaces."]
 			hide_dependency_lines: true
 			id: "7F3DA56DAB79AC1E"
 			rewards: [
@@ -3070,7 +3070,7 @@
 		}
 		{
 			dependencies: ["7F3DA56DAB79AC1E"]
-			description: ["The &e&lCharm of Life II&r&r will heal the player fully, and activate Regeneration IV, Resistance and Fire Resistance for the next 30 seconds."]
+			description: ["The &#D2691E&lCharm of Life II&r&r will heal the player fully, and activate Regeneration IV, Resistance and Fire Resistance for the next 30 seconds."]
 			id: "6A2072648BBBEDAA"
 			rewards: [
 				{
@@ -3111,7 +3111,7 @@
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
 			description: [
-				"The &e&lTree of Time&r&r is a magical tree that cannot be found naturally in the Forest and must be grown from a Tree of Time Sapling, which can be found in \"tree dungeons\" within massive Twilight Oak trees."
+				"The &#D2691E&lTree of Time&r&r is a magical tree that cannot be found naturally in the Forest and must be grown from a Tree of Time Sapling, which can be found in \"tree dungeons\" within massive Twilight Oak trees."
 				""
 				"The Tree of Time accelerates the growth of nearby plants. Its clock ticks, and right-clicking it will turn the clock gray and stop it."
 			]
@@ -3159,7 +3159,7 @@
 				"238BA4DDD4B10E64"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &e&lMoonworm Queen&r&r is a peculiar green insect found in some Hollow Hill and Lich Tower chests. It contains Moonworm eggs that can attach to walls or any solid surface. By holding the button like a bow, the Queen can fire Moonworms as projectiles that stick upon landing. It can also shoot Moonworms through a Dispenser when powered with a Moonworm Queen inside."]
+			description: ["The &#D2691E&lMoonworm Queen&r&r is a peculiar green insect found in some Hollow Hill and Lich Tower chests. It contains Moonworm eggs that can attach to walls or any solid surface. By holding the button like a bow, the Queen can fire Moonworms as projectiles that stick upon landing. It can also shoot Moonworms through a Dispenser when powered with a Moonworm Queen inside."]
 			hide_dependency_lines: true
 			id: "3CB4CE1D7B55CD2B"
 			rewards: [
@@ -3203,7 +3203,7 @@
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
-			description: ["&e&lIce Bow&r&r is a weapon that can be found in the Aurora Palace. The Ice Bow acts like a normal bow, but when an arrow from an Ice Bow hits a target, they will be covered in ice and inflicted with Frosted III for 10 seconds. This bow is useful to slow down moving targets or make escape from a monster easy. Ice Bows cannot be crafted, but they can be repaired with any type of Ice using an Anvil."]
+			description: ["&#D2691E&lIce Bow&r&r is a weapon that can be found in the Aurora Palace. The Ice Bow acts like a normal bow, but when an arrow from an Ice Bow hits a target, they will be covered in ice and inflicted with Frosted III for 10 seconds. This bow is useful to slow down moving targets or make escape from a monster easy. Ice Bows cannot be crafted, but they can be repaired with any type of Ice using an Anvil."]
 			hide_dependency_lines: true
 			id: "2B596E2520D0539D"
 			rewards: [
@@ -3247,7 +3247,7 @@
 		}
 		{
 			dependencies: ["1B3CAAFB0ED99518"]
-			description: ["&e&lEnder Bow&r&r is a weapon that can be found in Aurora Palaces. The Ender Bow fires like a normal Bow, but if the arrow from the Ender Bow hits a creature then both the user and creature will swap places."]
+			description: ["&#D2691E&lEnder Bow&r&r is a weapon that can be found in Aurora Palaces. The Ender Bow fires like a normal Bow, but if the arrow from the Ender Bow hits a creature then both the user and creature will swap places."]
 			hide_dependency_lines: true
 			id: "6D09FA6FE768A4D1"
 			rewards: [
@@ -3292,7 +3292,7 @@
 		{
 			dependencies: ["0CDBF9C116B9F573"]
 			description: [
-				"&e&lRed Thread&r&r is a placeable item found in Labyrinth chests, serving as a navigation tool."
+				"&#D2691E&lRed Thread&r&r is a placeable item found in Labyrinth chests, serving as a navigation tool."
 				""
 				"When placed and held by the player, it lights up and is visible through surfaces, helping trace steps. It can attach to solid surfaces, allowing up to six Red Threads to occupy the same block."
 			]
@@ -3405,13 +3405,13 @@
 					type: "structure"
 				}
 			]
-			title: "&2&lHollow Hills"
+			title: "&lHollow Hills"
 			x: -10.0d
 			y: -7.5d
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
-			description: ["Sometimes Roots form strange, ore-like clusters, called &l&eLiveroots&r&r. Liveroots appear as roots webbed with a bright yellow-green color. They typically appear in clusters of between 4 and 8 blocks and can be found anywhere underground in the Twilight Forest. Breaking Liveroots without silk touch gives Liveroot, which forms a key ingredient in the creation of &l&eRaw Ironwood&r&r."]
+			description: ["Sometimes Roots form strange, ore-like clusters, called &l&#D2691ELiveroots&r&r. Liveroots appear as roots webbed with a bright yellow-green color. They typically appear in clusters of between 4 and 8 blocks and can be found anywhere underground in the Twilight Forest. Breaking Liveroots without silk touch gives Liveroot, which forms a key ingredient in the creation of &l&#D2691ERaw Ironwood&r&r."]
 			hide_dependency_lines: true
 			id: "7DFA298A49BB99F4"
 			rewards: [
@@ -3448,13 +3448,13 @@
 				}
 				type: "item"
 			}]
-			title: "Liveroot"
+			title: "&lLiveroot"
 			x: -10.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
-			description: ["Eat &5&lALL&r&r of the Food exclusive to the Twilight Forest."]
+			description: ["Eat &#D2691E&lALL&r&r of the Food exclusive to the Twilight Forest."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -3500,9 +3500,9 @@
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -3535,7 +3535,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

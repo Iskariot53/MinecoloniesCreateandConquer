@@ -494,7 +494,7 @@
 	quests: [
 		{
 			dependencies: ["5408F21008F2B15F"]
-			description: ["&0The &b&lStarlit Factory&r&r is crafted in a &eMechanical Crafter&r and used to forge all types of &b&lCelestial Weapons&r&r. It requires fuel to operate, such as &5Amethyst Shards&r, &5Celestial Cores&r or &5Heated Celestial Cores&r."]
+			description: ["The &#D2691E&lStarlit Factory&r&r is crafted in a &#D2691EMechanical Crafter&r and used to forge all types of &#D2691E&lCelestial Weapons&r&r. It requires fuel to operate, such as &#D2691EAmethyst Shards&r, &#D2691ECelestial Cores&r or &#D2691EHeated Celestial Cores&r."]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -534,7 +534,7 @@
 				id: "0FA047C433300A84"
 				type: "checkmark"
 			}]
-			title: "&b&lStarlit Factory"
+			title: "&lStarlit Factory"
 			x: 0.0d
 			y: 10.0d
 		}
@@ -544,9 +544,9 @@
 				"2432A9D7BE9F8BB4"
 			]
 			description: [
-				"&0Looking for some of the coolest weapons and armor sets in the pack? Well... you've come to the right place!"
+				"Looking for some of the coolest weapons and armor sets in the pack? Well... you've come to the right place!"
 				""
-				"&l&bCelestisynth&r adds a ton of &5celestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &bswift and agile combat&r or &5powerful, heavy-hitting strikes&r, there's something for every playstyle."
+				"&l&#D2691ECelestisynth&r adds a ton of &#D2691Ecelestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &#D2691Eswift and agile combat&r or &#D2691Epowerful, heavy-hitting strikes&r, there's something for every playstyle."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -586,20 +586,20 @@
 				id: "304ADCBBF45C7A24"
 				type: "checkmark"
 			}]
-			title: "&b&lWelcome to Celestial Arsenal!"
+			title: "&lWelcome to Celestial Arsenal!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["27871561BE483CFC"]
 			description: [
-				"To dive into the mod, you first need to gather the three &5&lprimary&r&r materials of &l&bCelestisynth&r&r:"
+				"To dive into the mod, you first need to gather the three &#D2691E&lprimary&r&r materials of &l&#D2691ECelestisynth&r&r:"
 				""
-				"&9&lLunar Stone:&r&r Found deep within &ecaves&r in large water-filled deposits, often alongside sea lanterns and lapis lazuli ore."
+				"&#D2691E&lLunar Stone:&r&r Found deep within &#D2691Ecaves&r in large water-filled deposits, often alongside sea lanterns and lapis lazuli ore."
 				""
-				"&3&lZephyr Deposit:&r&r Located high in the &emountains&r, typically at &eY=130&r or higher."
+				"&#D2691E&lZephyr Deposit:&r&r Located high in the &#D2691Emountains&r, typically at &#D2691EY=130&r or higher."
 				""
-				"&b&lWintereis:&r&r Found deep in &ecaves within cold biomes&r, typically below &eY=60&r. Requires silk touch to obtain the full block."
+				"&#D2691E&lWintereis:&r&r Found deep in &#D2691Ecaves within cold biomes&r, typically below &#D2691EY=60&r. Requires silk touch to obtain the full block."
 			]
 			hide_until_deps_complete: false
 			id: "189FF174FC1C2473"
@@ -668,7 +668,7 @@
 					type: "item"
 				}
 			]
-			title: "&b&lLunar Stone, Zephyr Deposit and Wintereis"
+			title: "&lLunar Stone, Zephyr Deposit and Wintereis"
 			x: 2.5d
 			y: 1.5d
 		}
@@ -689,7 +689,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lCelestial Core"
+			title: "&lCelestial Core"
 			x: -2.5d
 			y: 1.5d
 		}
@@ -710,7 +710,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lHeated Celestial Core"
+			title: "&lHeated Celestial Core"
 			x: -2.5d
 			y: 3.5d
 		}
@@ -731,7 +731,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lSupernal Netherite Ingot"
+			title: "&lSupernal Netherite Ingot"
 			x: -1.5d
 			y: 5.0d
 		}
@@ -752,7 +752,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lCelestial Netherite Ingot"
+			title: "&lCelestial Netherite Ingot"
 			x: -0.5d
 			y: 3.0d
 		}
@@ -773,7 +773,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lLunar Scrap"
+			title: "&lLunar Scrap"
 			x: 1.5d
 			y: 5.0d
 		}
@@ -794,7 +794,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lStarstruck Scrap"
+			title: "&lStarstruck Scrap"
 			x: 0.5d
 			y: 3.0d
 		}
@@ -815,7 +815,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lWintereis Shard"
+			title: "&lWintereis Shard"
 			x: 2.5d
 			y: 3.5d
 		}
@@ -836,7 +836,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lStarstruck Feather"
+			title: "&lStarstruck Feather"
 			x: -2.5d
 			y: -1.0d
 		}
@@ -857,7 +857,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lEyebomination"
+			title: "&lEyebomination"
 			x: 2.5d
 			y: -1.0d
 		}
@@ -878,7 +878,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lSolar Crystal"
+			title: "&lSolar Crystal"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -929,7 +929,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lRainfall Serenity"
+			title: "&lRainfall Serenity"
 			x: -8.0d
 			y: 5.0d
 		}
@@ -977,7 +977,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lFrostbound"
+			title: "&lFrostbound"
 			x: -8.0d
 			y: 10.0d
 		}
@@ -1025,7 +1025,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lAquaflora"
+			title: "&lAquaflora"
 			x: 8.0d
 			y: 10.0d
 		}
@@ -1074,7 +1074,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lPoltergeist"
+			title: "&lPoltergeist"
 			x: 0.0d
 			y: 15.0d
 		}
@@ -1123,7 +1123,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lBreezebreaker"
+			title: "&lBreezebreaker"
 			x: 8.0d
 			y: 5.0d
 		}
@@ -1171,7 +1171,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lCrescentia"
+			title: "&lCrescentia"
 			x: -8.0d
 			y: 15.0d
 		}
@@ -1219,7 +1219,7 @@
 				}
 				type: "item"
 			}]
-			title: "&b&lSolaris"
+			title: "&lSolaris"
 			x: 8.0d
 			y: 15.0d
 		}
@@ -1293,7 +1293,7 @@
 					type: "item"
 				}
 			]
-			title: "&b&lLunar Stone Armor"
+			title: "&lLunar Stone Armor"
 			x: 2.5d
 			y: 5.0d
 		}
@@ -1367,15 +1367,15 @@
 					type: "item"
 				}
 			]
-			title: "&b&lSolar Crystal Armor"
+			title: "&lSolar Crystal Armor"
 			x: 0.0d
 			y: -3.5d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -1408,7 +1408,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

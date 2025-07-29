@@ -2068,7 +2068,6 @@ craftingTable.addShaped("player_companions.tame_wheat_seeds", <item:player_compa
 craftingTable.remove(<item:blocksyouneed_luna:blastmetal_fence>);
 
 
-import mods.create.CuttingManager;
 import crafttweaker.api.recipe.StoneCutterManager;
 
 craftingTable.remove(<item:blocksyouneed_luna:blastmetal_wall>);

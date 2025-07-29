@@ -22,9 +22,9 @@
 		{
 			dependencies: ["374D27B6E8DB7066"]
 			description: [
-				"To start your way down the road of &6Productive Bees&r, we will first need to acquire some resources from their vanilla counterparts."
+				"To start your way down the road of &#D2691EProductive Bees&r, we will first need to acquire some resources from their vanilla counterparts."
 				""
-				"&ehoneycomb&r and &ehoney bottles&r are the foundation and fuel of any healthy swarm, we will want to automate and store these in bulk, eventually."
+				"&#D2691Ehoneycomb&r and &#D2691Ehoney bottles&r are the foundation and fuel of any healthy swarm, we will want to automate and store these in bulk, eventually."
 			]
 			id: "49735C24C8F46C97"
 			rewards: [
@@ -40,7 +40,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBeeginning with the basics"
+			subtitle: "&#8B4513Beeginning with the basics"
 			tasks: [
 				{
 					count: 4L
@@ -54,14 +54,14 @@
 					type: "item"
 				}
 			]
-			title: "&6&lVanilla Materials"
+			title: "&lVanilla Materials"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"In this chapter we will cover everything you need to know about &6Productive Bees&r, from the beeginners basics to some of the more advanced tips and keeping techniques as you grow and expand your facilibees to support them. "
+				"In this chapter we will cover everything you need to know about &#D2691EProductive Bees&r, from the beeginners basics to some of the more advanced tips and keeping techniques as you grow and expand your facilibees to support them. "
 				""
 				"First things first, let's find ourselves a vanilla bee nest so we can get started harvesting honey and honeycomb."
 				""
@@ -93,19 +93,19 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&eBeefore we get ahead of ourselves"
+			subtitle: "&#8B4513Beefore we get ahead of ourselves"
 			tasks: [{
 				id: "43EF9DD0BE50803A"
 				title: "Welcome to Porductive Bees!"
 				type: "checkmark"
 			}]
-			title: "&6&lWelcome to Productive Bees!"
+			title: "&lWelcome to Productive Bees!"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["49735C24C8F46C97"]
-			description: ["The basic &6bee cage&r can be used to catch and store any bee, they may seem limited but there are a few niche situations in which the one time use cages are going to be preferred over the sturdy variant. They're also the only ones you can craft where as sturdy reusable cages are only found as &eloot&r."]
+			description: ["The basic &#D2691Ebee cage&r can be used to catch and store any bee, they may seem limited but there are a few niche situations in which the one time use cages are going to be preferred over the sturdy variant. They're also the only ones you can craft where as sturdy reusable cages are only found as &#D2691Eloot&r."]
 			id: "0BA2EB1462A10A39"
 			rewards: [
 				{
@@ -120,14 +120,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "&e1 time use cages"
+			subtitle: "&#8B45131 time use cages"
 			tasks: [{
 				count: 4L
 				id: "7F7F0AA4760F6826"
 				item: { Count: 4, id: "productivebees:bee_cage" }
 				type: "item"
 			}]
-			title: "&6&l4x Bee Cage"
+			title: "&l4x Bee Cage"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -153,19 +153,19 @@
 				xp: 5
 			}]
 			size: 1.5d
-			subtitle: "&eJust in case"
+			subtitle: "&#8B4513Just in case"
 			tasks: [{
 				id: "39D587CCE8C01B2A"
 				title: "The Big Book of Bees"
 				type: "checkmark"
 			}]
-			title: "&6&lThe Big Book of Bees"
+			title: "&lThe Big Book of Bees"
 			x: 1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["0BA2EB1462A10A39"]
-			description: ["The &enest locator&r it essentially a compass, specially made for finding &6bee nests&r."]
+			description: ["The &#D2691Enest locator&r it essentially a compass, specially made for finding &#D2691Ebee nests&r."]
 			id: "58F5764607FE31DA"
 			rewards: [
 				{
@@ -181,7 +181,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eIf you prefer finding them"
+			subtitle: "&#8B4513If you prefer finding them"
 			tasks: [{
 				id: "700712ECBA2726D7"
 				item: {
@@ -191,7 +191,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lNest Locator"
+			title: "&lNest Locator"
 			x: -1.5d
 			y: -2.5d
 		}
@@ -212,7 +212,7 @@
 					type: "item"
 				}
 			]
-			subtitle: " &eCollecting honey and comb"
+			subtitle: "&#8B4513Collecting honey and comb"
 			tasks: [{
 				id: "0CE8EA0B16931F4D"
 				item: {
@@ -225,18 +225,18 @@
 				title: "Any #forge:hives"
 				type: "item"
 			}]
-			title: "&6&lGetting our vanilla bees set up"
+			title: "&lGetting our vanilla bees set up"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["79161CA712E9F7D0"]
 			description: [
-				"The primary difference between the standard hive VS. the advanced? &eThe inventory and its GUI&r."
+				"The primary difference between the standard hive VS. the advanced? &#D2691EThe inventory and its GUI&r."
 				""
 				"The advanced hive has an internal inventory, allowing it to store bottles for filling, as well as allowing it to produce honeycomb automatically (provided it has the inventory space)."
 				""
-				"Yes, &3pipes&r can be used to insert/remove items from the hives! "
+				"Yes, &#D2691Epipes&r can be used to insert/remove items from the hives! "
 			]
 			id: "0B7B4C27767760A1"
 			rewards: [
@@ -252,7 +252,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMuch better"
+			subtitle: "&#8B4513Much better"
 			tasks: [
 				{
 					id: "7ADB6EF272BF3CB7"
@@ -279,7 +279,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lAutomatic Hives"
+			title: "&lAutomatic Hives"
 			x: 0.0d
 			y: 0.5d
 		}
@@ -288,7 +288,7 @@
 			description: [
 				"combining honeycombs and honey (no, it doesn't make sense, but go with it) makes honey treats, these can be used on solitary bee nests to spawn the bee associated with the type of nest the treat is used on. They're useful for feeding babees in an incubator as well as combining with genes to change genetics! (more on that later)."
 				""
-				"&6You will definitely want to automate the production of all 3&r: honey bottles, honey combs &oand&r honey treats. These are your 3 primary resources for bees. "
+				"&#D2691EYou will definitely want to automate the production of all 3&r: honey bottles, honey combs &oand&r honey treats. These are your 3 primary resources for bees. "
 				""
 				"You will use more of all 3 than you can count."
 			]
@@ -309,13 +309,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eBees love these"
+			subtitle: "&#8B4513Bees love these"
 			tasks: [{
 				id: "28CD4ACAD2279769"
 				item: "productivebees:honey_treat"
 				type: "item"
 			}]
-			title: "&6&lHoney Treat"
+			title: "&lHoney Treat"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -339,19 +339,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThe work horse of any apiary."
+			subtitle: "&#8B4513The work horse of any apiary."
 			tasks: [{
 				id: "157C6D3E60DDA1C8"
 				item: "productivebees:centrifuge"
 				type: "item"
 			}]
-			title: "&6&lCentrifuge"
+			title: "&lCentrifuge"
 			x: 5.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["579409C3F3A2F2F0"]
-			description: ["The powered centrifuge uses &cRF&r to process materials at &6higher speeds&r."]
+			description: ["The powered centrifuge uses &#D2691ERF&r to process materials at &#D2691Ehigher speeds&r."]
 			id: "0895EF6E5296A1E8"
 			rewards: [
 				{
@@ -366,20 +366,20 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eFaster and Better"
+			subtitle: "&#8B4513Faster and Better"
 			tasks: [{
 				id: "05ACF6BCA9214B0F"
 				item: "productivebees:powered_centrifuge"
 				type: "item"
 			}]
-			title: "&6&lPowered Centrifuge"
+			title: "&lPowered Centrifuge"
 			x: 5.0d
 			y: 0.8392857142857082d
 		}
 		{
 			dependencies: ["0895EF6E5296A1E8"]
 			description: [
-				"The &cheated&r centrifuge is the fastest way to process combs, it also &6eliminates the production of wax&r, which is a good and bad thing."
+				"The &#D2691Eheated&r centrifuge is the fastest way to process combs, it also &#D2691Eeliminates the production of wax&r, which is a good and bad thing."
 				""
 				"&nIts recommended not to use heated centrifuges exclusively&r."
 				""
@@ -399,13 +399,13 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&eMore Faster, More Better"
+			subtitle: "&#8B4513More Faster, More Better"
 			tasks: [{
 				id: "46FCD48BE05C52BE"
 				item: "productivebees:heated_centrifuge"
 				type: "item"
 			}]
-			title: "&6&lHeated Centrifuge"
+			title: "&lHeated Centrifuge"
 			x: 5.0d
 			y: 3.0d
 		}
@@ -420,7 +420,7 @@
 				item: "productivebees:upgrade_base"
 				type: "item"
 			}]
-			title: "&6&lUpgrade Base"
+			title: "&lUpgrade Base"
 			x: -5.5d
 			y: -1.0d
 		}
@@ -428,13 +428,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["Speed upgrades will decrease the amount of time a bee spends in its hive after every trip, When placed in centrifuges or any other block it decreases the operation time."]
 			id: "00E32809B273084F"
-			subtitle: "&eFeeling the need for speed?"
+			subtitle: "&#8B4513Feeling the need for speed?"
 			tasks: [{
 				id: "39215F92287A0A53"
 				item: "productivebees:upgrade_time"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Speed"
+			title: "&lUpgrade: Speed"
 			x: -5.0d
 			y: -2.0d
 		}
@@ -442,13 +442,13 @@
 			dependencies: ["3B7EB59164BFECB7"]
 			description: ["The block upgrade causes bees to provide their combs in block form rather than just singular combs."]
 			id: "38A6143F44837211"
-			subtitle: "&eComb blocks"
+			subtitle: "&#8B4513Comb blocks"
 			tasks: [{
 				id: "450388EDB7E4BB13"
 				item: "productivebees:upgrade_comb_block"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Block"
+			title: "&lUpgrade: Block"
 			x: -8.0d
 			y: 0.5d
 		}
@@ -456,13 +456,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["Causes the catcher to only collect adult bee."]
 			id: "7DC30599E114A3A1"
-			subtitle: "&eNo more babees, please"
+			subtitle: "&#8B4513No more babees, please"
 			tasks: [{
 				id: "2837FE0877B49846"
 				item: "productivebees:upgrade_not_babee"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Not BaBee"
+			title: "&lUpgrade: Not BaBee"
 			x: -5.0d
 			y: 0.0d
 		}
@@ -470,13 +470,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["The anti-teleportation upgrade will stop any bees that live within the hive that it is installed in from teleporting anymore."]
 			id: "682179B547AC48A5"
-			subtitle: "&eLet's see them get out now"
+			subtitle: "&#8B4513Let's see them get out now"
 			tasks: [{
 				id: "2CCA6A2DAF9593C6"
 				item: "productivebees:upgrade_anti_teleport"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Anti Teleportation"
+			title: "&lUpgrade: Anti Teleportation"
 			x: -6.5d
 			y: -1.0d
 		}
@@ -488,13 +488,13 @@
 				"It can also be used in a catcher to make the catcher catch &oonly babees&r and not adults"
 			]
 			id: "4C8A24C2E2C2E995"
-			subtitle: "&eNeed more babees?"
+			subtitle: "&#8B4513Need more babees?"
 			tasks: [{
 				id: "06A751D2988F9F88"
 				item: "productivebees:upgrade_breeding"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: BaBee"
+			title: "&lUpgrade: BaBee"
 			x: -4.5d
 			y: -1.0d
 		}
@@ -502,13 +502,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["When installed in a hive, the gene sampler will extract small gene samples from the bees working within the hive periodically, multiple upgrades will increase the yield."]
 			id: "70C9E4903746E071"
-			subtitle: "&eThey're fiiiine"
+			subtitle: "&#8B4513They're fiiiine"
 			tasks: [{
 				id: "75ED970F57162330"
 				item: "productivebees:upgrade_bee_sampler"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Pokey Pokey Gene Sampler"
+			title: "&lUpgrade: Pokey Pokey Gene Sampler"
 			x: -6.0d
 			y: -2.0d
 		}
@@ -523,13 +523,13 @@
 				"For this to work the flower, block or slab must be placed 1 BLOCK IN FRONT OF AND &n&l&oBELOW&r&r&r the entrance to the hive."
 			]
 			id: "28C43D8DA14233E8"
-			subtitle: "&eYOU NEED THESE"
+			subtitle: "&#8B4513YOU NEED THESE"
 			tasks: [{
 				id: "289E39F33853ADB6"
 				item: "productivebees:upgrade_simulator"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Simulator"
+			title: "&lUpgrade: Simulator"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -541,13 +541,13 @@
 				"It can also be placed into a catcher to increase the range in which it can catch bees and make it actually worth using, otherwise don't bother."
 			]
 			id: "5EB495D8571A9118"
-			subtitle: "&eExpansion without boxes"
+			subtitle: "&#8B4513Expansion without boxes"
 			tasks: [{
 				id: "1821C976F84F1909"
 				item: "productivebees:upgrade_range"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Range"
+			title: "&lUpgrade: Range"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -555,13 +555,13 @@
 			dependencies: ["4745DE7E72238D40"]
 			description: ["The Alpha upgrade will increase the number of combs produced by any given bee per trip by %120."]
 			id: "0C4065E442FF26E2"
-			subtitle: "&eNow we're talking production."
+			subtitle: "&#8B4513Now we're talking production."
 			tasks: [{
 				id: "7F434191EFF0437A"
 				item: "productivebees:upgrade_productivity"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Productivity Alpha"
+			title: "&lUpgrade: Productivity Alpha"
 			x: -9.5d
 			y: -1.0d
 		}
@@ -569,13 +569,13 @@
 			dependencies: ["0C4065E442FF26E2"]
 			description: ["The beta upgrade functions the same as the alpha upgrade, but this one provides a %150 increase to combs yielded."]
 			id: "3B7EB59164BFECB7"
-			subtitle: "&eNeed more production"
+			subtitle: "&#8B4513Need more production"
 			tasks: [{
 				id: "2DF0D7BA7EC7A043"
 				item: "productivebees:upgrade_productivity_2"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Productivity Beta"
+			title: "&lUpgrade: Productivity Beta"
 			x: -9.5d
 			y: 0.5d
 		}
@@ -586,13 +586,13 @@
 			]
 			description: ["The gamma upgrade is essentially the same as the beta upgrade, except it provides a %200 boost to production as well as functioning as a simulator upgrade."]
 			id: "4E23C99DB4D1F7BD"
-			subtitle: "&eMore"
+			subtitle: "&#8B4513More"
 			tasks: [{
 				id: "72F614CF24EF5D9F"
 				item: "productivebees:upgrade_productivity_3"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Productivity Gamma"
+			title: "&lUpgrade: Productivity Gamma"
 			x: -9.5d
 			y: 2.0d
 		}
@@ -603,19 +603,19 @@
 			]
 			description: ["The omega upgrade. The pinnacle of bee production. it grants a %260 bonus to production as well as functions as BOTH a simulator AND a block upgrade."]
 			id: "7EF793431CB519F0"
-			subtitle: "&e&lMOAR"
+			subtitle: "&#8B4513&lMOAR"
 			tasks: [{
 				id: "045FDA063FDBCBFE"
 				item: "productivebees:upgrade_productivity_4"
 				type: "item"
 			}]
-			title: "&6&lUpgrade: Productivity Omega"
+			title: "&lUpgrade: Productivity Omega"
 			x: -9.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &3crystalline&r bee."]
+			description: ["The home of the &#D2691Ecrystalline&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "3776E78E513B95F2"
@@ -632,22 +632,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eIron Sword + Nether Quartz Ore"
+			subtitle: "&#8B4513Iron Sword + Nether Quartz Ore"
 			tasks: [{
 				id: "6AA1D5C1760EF1FB"
 				item: "productivebees:nether_quartz_nest"
 				type: "item"
 			}]
-			title: "&6&lQuartz Nest"
+			title: "&lQuartz Nest"
 			x: 0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
 			description: [
-				"&6Solitary bees&r and their nests can be found throughout the world, different nests can be found in different biomes and dimensions, we'll need to hunt some of these down in order to breed them for the resource producing bees we're all actually after."
+				"&#D2691ESolitary bees&r and their nests can be found throughout the world, different nests can be found in different biomes and dimensions, we'll need to hunt some of these down in order to breed them for the resource producing bees we're all actually after."
 				""
-				"&aJEI&r will be the best way to determine what nest to use for the bee you're hunting. They are also craftable using the respective nest material + a sword of varying materials, depending on the nest."
+				"&#D2691EJEI&r will be the best way to determine what nest to use for the bee you're hunting. They are also craftable using the respective nest material + a sword of varying materials, depending on the nest."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -666,7 +666,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "&eYou can find them, OR"
+			subtitle: "&#8B4513You can find them, OR"
 			tasks: [{
 				id: "14A1DEEB37A06DE9"
 				item: {
@@ -679,13 +679,13 @@
 				title: "Any #productivebees:solitary_overworld_nests"
 				type: "item"
 			}]
-			title: "&6&lOverworld Nests"
+			title: "&lOverworld Nests"
 			x: 0.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &eglowing&r bee."]
+			description: ["The home of the &#D2691Eglowing&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "589823025F8C78D2"
@@ -702,19 +702,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eWooden Sword + Glowstone"
+			subtitle: "&#8B4513Wooden Sword + Glowstone"
 			tasks: [{
 				id: "49923C5A02878752"
 				item: "productivebees:glowstone_nest"
 				type: "item"
 			}]
-			title: "&6&lGlowstone Nest"
+			title: "&lGlowstone Nest"
 			x: -1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &bghostly&r bee."]
+			description: ["The home of the &#D2691Eghostly&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0CDDB924182973FF"
@@ -731,19 +731,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eWooden Sword + Soul Sand"
+			subtitle: "&#8B4513Wooden Sword + Soul Sand"
 			tasks: [{
 				id: "5B0EE92558C641DF"
 				item: "productivebees:soul_sand_nest"
 				type: "item"
 			}]
-			title: "&6&lSoul Sand Nest"
+			title: "&lSoul Sand Nest"
 			x: 1.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &cmagmatic&r bee."]
+			description: ["The home of the &#D2691Emagmatic&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "054DC93067884DA6"
@@ -760,19 +760,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eIron Sword + Nether Bricks"
+			subtitle: "&#8B4513Iron Sword + Nether Bricks"
 			tasks: [{
 				id: "35218AC9D109720C"
 				item: "productivebees:nether_brick_nest"
 				type: "item"
 			}]
-			title: "&6&lNether Brick Nest"
+			title: "&lNether Brick Nest"
 			x: -0.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &0draconic&r bee."]
+			description: ["The home of the draconic bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "6C08D0E6135ECE97"
@@ -788,19 +788,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eDiamond Sword + Obsidian"
+			subtitle: "&#8B4513Diamond Sword + Obsidian"
 			tasks: [{
 				id: "5014CC68B77D9195"
 				item: "productivebees:obsidian_nest"
 				type: "item"
 			}]
-			title: "&6&lObsidian Nest"
+			title: "&lObsidian Nest"
 			x: -1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &dender&r bee."]
+			description: ["The home of the &#D2691Eender&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "3D80E0453827CB27"
@@ -816,19 +816,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eIron Sword + End Stone"
+			subtitle: "&#8B4513Iron Sword + End Stone"
 			tasks: [{
 				id: "7713CE47D4D8F86D"
 				item: "productivebees:end_stone_nest"
 				type: "item"
 			}]
-			title: "&6&lEnd Stone Nest"
+			title: "&lEnd Stone Nest"
 			x: 1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &6wooden&r nest to spawn a yellow carpenter bee. (use JEI to determine which wood to use for which bee)."]
+			description: ["Use a honey treat on a &#D2691Ewooden&r nest to spawn a yellow carpenter bee. (use JEI to determine which wood to use for which bee)."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -854,7 +854,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eWood nests"
+			subtitle: "&#8B4513Wood nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7ADC2EA595A49858"
@@ -864,13 +864,13 @@
 				to_observe: "productivebees:yellow_black_carpenter_bee"
 				type: "observation"
 			}]
-			title: "&6&lYellow Carpenter Bee"
+			title: "&lYellow Carpenter Bee"
 			x: -1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &6wooden&r nest to obtain a green carpenter bee. (use JEI to determine which wood for which type of carpenter bee)."]
+			description: ["Use a honey treat on a &#D2691Ewooden&r nest to obtain a green carpenter bee. (use JEI to determine which wood for which type of carpenter bee)."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -896,7 +896,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eWood nests"
+			subtitle: "&#8B4513Wood nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "458C517D3D1261A0"
@@ -906,13 +906,13 @@
 				to_observe: "productivebees:green_carpenter_bee"
 				type: "observation"
 			}]
-			title: "&6&lGreen Carpenter Bee"
+			title: "&lGreen Carpenter Bee"
 			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &areed&r nest to spawn a reed bee if you cannot find one."]
+			description: ["Use a honey treat on a &#D2691Ereed&r nest to spawn a reed bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -938,7 +938,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eLook near rivers"
+			subtitle: "&#8B4513Look near rivers"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3B07531AC37F1FF7"
@@ -948,7 +948,7 @@
 				to_observe: "productivebees:reed_bee"
 				type: "observation"
 			}]
-			title: "&6&lReed Bee"
+			title: "&lReed Bee"
 			x: 1.0d
 			y: 8.5d
 		}
@@ -980,7 +980,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCold areas"
+			subtitle: "&#8B4513Cold areas"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "50910F15C9ECFB6D"
@@ -990,13 +990,13 @@
 				to_observe: "productivebees:sweat_bee"
 				type: "observation"
 			}]
-			title: "&6&lSweat Bee"
+			title: "&lSweat Bee"
 			x: 2.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &6dark oak&r, &dcherry&r or &cacacia&r nest to spawn a blue banded bee if you cannot find one."]
+			description: ["Use a honey treat on a &#D2691Edark oak&r, &#D2691Echerry&r or &#D2691Eacacia&r nest to spawn a blue banded bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1022,7 +1022,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eDark oak, cherry and acacia nests"
+			subtitle: "&#8B4513Dark oak, cherry and acacia nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6C59AFEED74211BE"
@@ -1032,13 +1032,13 @@
 				to_observe: "productivebees:blue_banded_bee"
 				type: "observation"
 			}]
-			title: "&6&lBlue Banded Bee"
+			title: "&lBlue Banded Bee"
 			x: 2.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &6dirt&r nest to spawn a leafcutter bee if you cannot find one."]
+			description: ["Use a honey treat on a &#D2691Edirt&r nest to spawn a leafcutter bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1064,7 +1064,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eDirt nests"
+			subtitle: "&#8B4513Dirt nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2F451578944B014C"
@@ -1074,13 +1074,13 @@
 				to_observe: "productivebees:leafcutter_bee"
 				type: "observation"
 			}]
-			title: "&6&lLeafcutter Bee"
+			title: "&lLeafcutter Bee"
 			x: -2.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["The nomad bee has a small chance to spawn and take the nest of the &7ashy mining bee&r."]
+			description: ["The nomad bee has a small chance to spawn and take the nest of the &#D2691Eashy mining bee&r."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1106,7 +1106,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNest thief"
+			subtitle: "&#8B4513Nest thief"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1124,13 +1124,13 @@
 				to_observe: "productivebees:nomad_bee"
 				type: "observation"
 			}]
-			title: "&6&lNomad Bee"
+			title: "&lNomad Bee"
 			x: -3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["The neon cuckoo bee will periodically move into the nest of the &9blue banded bee&r."]
+			description: ["The neon cuckoo bee will periodically move into the nest of the &#D2691Eblue banded bee&r."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1156,7 +1156,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNest thief"
+			subtitle: "&#8B4513Nest thief"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4B979C37C46C37F1"
@@ -1166,13 +1166,13 @@
 				to_observe: "productivebees:neon_cuckoo_bee"
 				type: "observation"
 			}]
-			title: "&6&lNeon Cuckoo Bee"
+			title: "&lNeon Cuckoo Bee"
 			x: 3.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &7gravel&r or &7stone&r nest to spawn a digger bee."]
+			description: ["Use a honey treat on a &#D2691Egravel&r or &#D2691Estone&r nest to spawn a digger bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1198,7 +1198,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eGravel or stone"
+			subtitle: "&#8B4513Gravel or stone"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6A4B835D63076AAC"
@@ -1208,13 +1208,13 @@
 				to_observe: "productivebees:digger_bee"
 				type: "observation"
 			}]
-			title: "&6&lDigger Bee"
+			title: "&lDigger Bee"
 			x: -2.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &esand&r, &7gravel&r or&6 dirt &rnest to spawn a chocolate mining bee if you cannot find one."]
+			description: ["Use a honey treat on a &#D2691Esand&r, &#D2691Egravel&r or&#D2691E dirt &rnest to spawn a chocolate mining bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1240,7 +1240,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSand, gravel or dirt nests"
+			subtitle: "&#8B4513Sand, gravel or dirt nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5192854682D3DF80"
@@ -1250,13 +1250,13 @@
 				to_observe: "productivebees:chocolate_mining_bee"
 				type: "observation"
 			}]
-			title: "&6&lChocolate Mining Bee"
+			title: "&lChocolate Mining Bee"
 			x: -2.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &esand&r, &7gravel&r or &6dirt&r nest to spawn an ashy mining bee if you cannot find one."]
+			description: ["Use a honey treat on a &#D2691Esand&r, &#D2691Egravel&r or &#D2691Edirt&r nest to spawn an ashy mining bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1282,7 +1282,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSand, gravel and dirt nests"
+			subtitle: "&#8B4513Sand, gravel and dirt nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2E0FAFFC870F5142"
@@ -1292,7 +1292,7 @@
 				to_observe: "productivebees:ashy_mining_bee"
 				type: "observation"
 			}]
-			title: "&6&lAshy Mining Bee"
+			title: "&lAshy Mining Bee"
 			x: -3.0d
 			y: 8.5d
 		}
@@ -1304,11 +1304,11 @@
 			description: [
 				"Not all upgrades are created equally."
 				""
-				"As a &6general&r rule: "
+				"As a &#D2691Egeneral&r rule: "
 				""
-				"&aSpeed&r upgrades are best in machine blocks, like centrifuges."
+				"&#D2691ESpeed&r upgrades are best in machine blocks, like centrifuges."
 				""
-				"&9Omega&r upgrades are best for hives."
+				"&#D2691EOmega&r upgrades are best for hives."
 				""
 				"A hive with 4 omega upgrades will outpace a hive with a combination of them with speed."
 				""
@@ -1326,19 +1326,19 @@
 			}
 			id: "3825DE01F400EA4D"
 			size: 2.0d
-			subtitle: "&eThis is the way"
+			subtitle: "&#8B4513This is the way"
 			tasks: [{
 				id: "63E03E64BA6D80EB"
 				title: "So which is best?"
 				type: "checkmark"
 			}]
-			title: "&6&lSo Which Is Best?"
+			title: "&lSo Which Is Best?"
 			x: -5.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &7stone&r or &areed&r nest to spawn a mason bee if you cannot find one."]
+			description: ["Use a honey treat on a &#D2691Estone&r or &#D2691Ereed&r nest to spawn a mason bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1364,7 +1364,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eStone or reed nests"
+			subtitle: "&#8B4513Stone or reed nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3940D7A919DE5C99"
@@ -1374,13 +1374,13 @@
 				to_observe: "productivebees:mason_bee"
 				type: "observation"
 			}]
-			title: "&6&lMason Bee"
+			title: "&lMason Bee"
 			x: -1.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &6spruce&r nest to spawn a resin bee if you cannot find one."]
+			description: ["Use a honey treat on a &#D2691Espruce&r nest to spawn a resin bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1406,7 +1406,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSpruce nests"
+			subtitle: "&#8B4513Spruce nests"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "66DA8DF3FF6BB497"
@@ -1416,7 +1416,7 @@
 				to_observe: "productivebees:resin_bee"
 				type: "observation"
 			}]
-			title: "&6&lResin Bee"
+			title: "&lResin Bee"
 			x: 3.0d
 			y: 8.5d
 		}
@@ -1450,7 +1450,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eWoah there bee biscuit"
+			subtitle: "&#8B4513Woah there bee biscuit"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -1465,13 +1465,13 @@
 				to_observe: "productivebees:bumble_bee"
 				type: "observation"
 			}]
-			title: "&6&lOne you can ride!"
+			title: "&lOne you can ride!"
 			x: -0.035714285714277594d
 			y: 7.267857142857146d
 		}
 		{
 			dependencies: ["3776E78E513B95F2"]
-			description: ["Use nether quartz on a &7quartz&r nest to spawn a crystalline bee if you cannot find one."]
+			description: ["Use nether quartz on a &#D2691Equartz&r nest to spawn a crystalline bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1497,7 +1497,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNot as fragile as its name implies"
+			subtitle: "&#8B4513Not as fragile as its name implies"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "418B7CBFE8ABF7B2"
@@ -1507,14 +1507,14 @@
 				to_observe: "productivebees:crystalline"
 				type: "observation"
 			}]
-			title: "&6&lCrystalline Bee"
+			title: "&lCrystalline Bee"
 			x: 0.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["589823025F8C78D2"]
 			description: [
-				"Craft a &eglowstone&r nest, and use glowstone dust as bait to spawn a glowing bee if you cannot find one (good luck)."
+				"Craft a &#D2691Eglowstone&r nest, and use glowstone dust as bait to spawn a glowing bee if you cannot find one (good luck)."
 				""
 				"These can be notoriously difficult to find, just craft and bait the nest if so."
 			]
@@ -1543,7 +1543,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eJust go ahead and craft the nest for this one"
+			subtitle: "&#8B4513Just go ahead and craft the nest for this one"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "06AD8723E17F034F"
@@ -1553,13 +1553,13 @@
 				to_observe: "productivebees:glowing"
 				type: "observation"
 			}]
-			title: "&6&lGlowing Bee"
+			title: "&lGlowing Bee"
 			x: 1.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["054DC93067884DA6"]
-			description: ["Use magma cream on a &cnether brick&r nest to spawn a magmatic bee if you cannot find one."]
+			description: ["Use magma cream on a &#D2691Enether brick&r nest to spawn a magmatic bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1585,7 +1585,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFound around nether fortresses"
+			subtitle: "&#8B4513Found around nether fortresses"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "27EE17FD07458B36"
@@ -1595,7 +1595,7 @@
 				to_observe: "productivebees:magmatic"
 				type: "observation"
 			}]
-			title: "&6&lMagmatic Bee"
+			title: "&lMagmatic Bee"
 			x: -0.5d
 			y: 9.5d
 		}
@@ -1627,7 +1627,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eew... it's sticky"
+			subtitle: "&#8B4513ew... it's sticky"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2DA3480D11AE9DEF"
@@ -1637,13 +1637,13 @@
 				to_observe: "productivebees:slimy"
 				type: "observation"
 			}]
-			title: "&6&lSlimy Bee"
+			title: "&lSlimy Bee"
 			x: 2.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Sugarbag bees have a very small chance to spawn inside of &6cocoa bean pods&r, grow and break as many pods as you can and you should *eventually* spawn at least 1. They produce a comb very useful as an early game food supply. provided you have chosen an origin that allows you to eat it."]
+			description: ["Sugarbag bees have a very small chance to spawn inside of &#D2691Ecocoa bean pods&r, grow and break as many pods as you can and you should *eventually* spawn at least 1. They produce a comb very useful as an early game food supply. provided you have chosen an origin that allows you to eat it."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -1669,7 +1669,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThis one can be quick, can take a whille."
+			subtitle: "&#8B4513This one can be quick, can take a whille."
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5EF41BEDBCCCCC54"
@@ -1679,13 +1679,13 @@
 				to_observe: "productivebees:sugarbag"
 				type: "observation"
 			}]
-			title: "&6&lSugarbag Bee"
+			title: "&lSugarbag Bee"
 			x: 0.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["0CDDB924182973FF"]
-			description: ["Use a ghast tear on a &6soul sand&r nest to spawn a ghostly bee if you cannot find one."]
+			description: ["Use a ghast tear on a &#D2691Esoul sand&r nest to spawn a ghostly bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1711,7 +1711,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThis ones \"fun\""
+			subtitle: "&#8B4513This ones \"fun\""
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6054DB848B076888"
@@ -1721,7 +1721,7 @@
 				to_observe: "productivebees:ghostly"
 				type: "observation"
 			}]
-			title: "&6&lGhostly Bee"
+			title: "&lGhostly Bee"
 			x: -1.5d
 			y: 9.5d
 		}
@@ -1733,7 +1733,7 @@
 			description: [
 				"Bees will occasionally be caught while fishing, and are usually not very happy, but if you're quick you can catch them before they sting you and inevitably die. "
 				""
-				"Different bees are caught from fishing in &6different biomes&r, use &aJEI &rfor information on locating a specific bees biome location."
+				"Different bees are caught from fishing in &#D2691Edifferent biomes&r, use &#D2691EJEI &rfor information on locating a specific bees biome location."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1756,13 +1756,13 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eYa... that's a thing"
+			subtitle: "&#8B4513Ya... that's a thing"
 			tasks: [{
 				id: "3B3B3E27081D6D28"
 				title: "Fishing for bees"
 				type: "checkmark"
 			}]
-			title: "&6&lFishing For Bees"
+			title: "&lFishing For Bees"
 			x: 6.5d
 			y: 11.0d
 		}
@@ -1790,22 +1790,22 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eWorker bees"
+			subtitle: "&#8B4513Worker bees"
 			tasks: [{
 				id: "560433BAA5660024"
 				title: "Specialty bees"
 				type: "checkmark"
 			}]
-			title: "&6&lSpecialty Bees"
+			title: "&lSpecialty Bees"
 			x: -6.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["6C08D0E6135ECE97"]
 			description: [
-				"Use &ddragons breath&r on an obsidian nest to spawn a draconic bee. These are the key to the most powerful upgrades for your bees."
+				"Use &#D2691Edragons breath&r on an obsidian nest to spawn a draconic bee. These are the key to the most powerful upgrades for your bees."
 				""
-				"When working in the end they do not need a flower source, when in the overworld they require a &5dragon egg&r for a flower."
+				"When working in the end they do not need a flower source, when in the overworld they require a &#D2691Edragon egg&r for a flower."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1838,7 +1838,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&eGo see if the ender dragon's nice enough to help"
+			subtitle: "&#8B4513Go see if the ender dragon's nice enough to help"
 			tasks: [
 				{
 					icon: "productivebees:bee_cage"
@@ -1860,7 +1860,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lDraconic Bee"
+			title: "&lDraconic Bee"
 			x: 0.0d
 			y: 13.0d
 		}
@@ -1890,7 +1890,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eRiver bees"
+			subtitle: "&#8B4513River bees"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2AF893AF6E8356AD"
@@ -1900,16 +1900,16 @@
 				to_observe: "productivebees:water"
 				type: "observation"
 			}]
-			title: "&6&lWater Bee"
+			title: "&lWater Bee"
 			x: 5.999999999999993d
 			y: 10.124999999999993d
 		}
 		{
 			dependencies: ["284B2602637F5596"]
 			description: [
-				"Use a fishing rod to catch a &3prismarine&r bee."
+				"Use a fishing rod to catch a &#D2691Eprismarine&r bee."
 				""
-				"This is the best way to get the works in \"&6any&r\" weather gene."
+				"This is the best way to get the works in \"&#D2691Eany&r\" weather gene."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1936,7 +1936,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAlways has \"any\" weather gene"
+			subtitle: "&#8B4513Always has \"any\" weather gene"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "19A2ADA9DB6CAEFD"
@@ -1946,7 +1946,7 @@
 				to_observe: "productivebees:prismarine"
 				type: "observation"
 			}]
-			title: "&6&lPrismarine Bee"
+			title: "&lPrismarine Bee"
 			x: 5.999999999999993d
 			y: 11.910714285714278d
 		}
@@ -1976,7 +1976,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eOffshore oily bee"
+			subtitle: "&#8B4513Offshore oily bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2F88D672CE00A605"
@@ -1986,16 +1986,16 @@
 				to_observe: "productivebees:oily"
 				type: "observation"
 			}]
-			title: "&6&lOily Bee"
+			title: "&lOily Bee"
 			x: 7.035714285714278d
 			y: 11.94642857142857d
 		}
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Use a &8hopper&r on a vanilla be to convert it into a collector bee. "
+				"Use a &#D2691Ehopper&r on a vanilla be to convert it into a collector bee. "
 				""
-				"Collector bees will gather all &eitem&r entities within range of their hive and bring them back for storage!"
+				"Collector bees will gather all &#D2691Eitem&r entities within range of their hive and bring them back for storage!"
 			]
 			icon: {
 				Count: 1
@@ -2020,7 +2020,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eItem collection via bee"
+			subtitle: "&#8B4513Item collection via bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0EC997BB42002133"
@@ -2030,14 +2030,14 @@
 				to_observe: "productivebees:collector_bee"
 				type: "observation"
 			}]
-			title: "&6&lCollector Bee"
+			title: "&lCollector Bee"
 			x: -6.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Use a &dshulker shell&r on a collector bee to convert it into a hoarder bee."
+				"Use a &#D2691Eshulker shell&r on a collector bee to convert it into a hoarder bee."
 				""
 				"They are an upgraded variant of their lesser brethren."
 			]
@@ -2064,7 +2064,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA better collector bee"
+			subtitle: "&#8B4513A better collector bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "089279FD8D5BDD76"
@@ -2074,7 +2074,7 @@
 				to_observe: "productivebees:hoarder_bee"
 				type: "observation"
 			}]
-			title: "&6&lHoarder Bee"
+			title: "&lHoarder Bee"
 			x: -7.0d
 			y: 12.0d
 		}
@@ -2083,7 +2083,7 @@
 			description: [
 				"Breeding a yellow carpenter bee with a green one will yield lumber bees."
 				""
-				"Lumber bees will replicate &ojust about&r any type of log or wood given to them as a flowering block. Check &aJEI&r for a full list of all wood types they will accept."
+				"Lumber bees will replicate &ojust about&r any type of log or wood given to them as a flowering block. Check &#D2691EJEI&r for a full list of all wood types they will accept."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -2110,7 +2110,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eInfinite wood, anyone?"
+			subtitle: "&#8B4513Infinite wood, anyone?"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3056EF15349DF84A"
@@ -2120,7 +2120,7 @@
 				to_observe: "productivebees:lumber_bee"
 				type: "observation"
 			}]
-			title: "&6&lLumber Bee"
+			title: "&lLumber Bee"
 			x: -6.0d
 			y: 10.0d
 		}
@@ -2129,7 +2129,7 @@
 			description: [
 				"Breeding a chocolate mining bee with a digger bee will yield quarry bees."
 				""
-				"Much like the lumber bee, the quarry bee will accept &oalmost&r any type of stone given to it as a flowering block and replicate it. Check &aJEI&r for a full list of types acceptable as flowering blocks."
+				"Much like the lumber bee, the quarry bee will accept &oalmost&r any type of stone given to it as a flowering block and replicate it. Check &#D2691EJEI&r for a full list of types acceptable as flowering blocks."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -2156,7 +2156,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA stone gen with wings!"
+			subtitle: "&#8B4513A stone gen with wings!"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "678BCA56B861AD8D"
@@ -2166,7 +2166,7 @@
 				to_observe: "productivebees:quarry_bee"
 				type: "observation"
 			}]
-			title: "&6&lQuarry Bee"
+			title: "&lQuarry Bee"
 			x: -5.5d
 			y: 11.0d
 		}
@@ -2200,7 +2200,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMob farming bee."
+			subtitle: "&#8B4513Mob farming bee."
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2B9EEC5273C8FB05"
@@ -2210,7 +2210,7 @@
 				to_observe: "productivebees:rancher_bee"
 				type: "observation"
 			}]
-			title: "&6&lRancher Bee"
+			title: "&lRancher Bee"
 			x: -7.5d
 			y: 11.0d
 		}
@@ -2240,7 +2240,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eHim squishy"
+			subtitle: "&#8B4513Him squishy"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2E00420481E2655F"
@@ -2250,7 +2250,7 @@
 				to_observe: "productivebees:sponge"
 				type: "observation"
 			}]
-			title: "&6&lSponge Bee"
+			title: "&lSponge Bee"
 			x: 7.071428571428562d
 			y: 10.124999999999993d
 		}
@@ -2259,7 +2259,7 @@
 			description: [
 				"Breed a farmer bee and a rancher bee to obtain a cubee."
 				""
-				"Cubees travel around to mobs within range of their hives and &dencourages them to breed&r."
+				"Cubees travel around to mobs within range of their hives and &#D2691Eencourages them to breed&r."
 			]
 			icon: {
 				Count: 1
@@ -2284,7 +2284,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThe cupid bee"
+			subtitle: "&#8B4513The cupid bee"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7F4F8379B669D06F"
@@ -2294,7 +2294,7 @@
 				to_observe: "productivebees:cupid_bee"
 				type: "observation"
 			}]
-			title: "&6&lCubee"
+			title: "&lCubee"
 			x: -7.0d
 			y: 10.0d
 		}
@@ -2303,9 +2303,9 @@
 			description: [
 				"Breed a sugarbag bee with a neon cuckoo bee to obtain a pepto beesmol."
 				""
-				"Keep pepto beesmol on hand for &dquick remedies&r to unpleasant ailments."
+				"Keep pepto beesmol on hand for &#D2691Equick remedies&r to unpleasant ailments."
 				""
-				"&6Provides temporary&r: Regeneration, absorption, haste, strength, saturation, luck as well as instant healing buffs. Along side all of this it also provides sugarbagcombs for eating! "
+				"&#D2691EProvides temporary&r: Regeneration, absorption, haste, strength, saturation, luck as well as instant healing buffs. Along side all of this it also provides sugarbagcombs for eating! "
 				""
 				"(does not help with indigestion... sorry)"
 			]
@@ -2329,7 +2329,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Someone called for the doctor?"
+			subtitle: "&#8B4513Someone called for the doctor?"
 			tasks: [{
 				id: "752D03B3DC22BECA"
 				item: {
@@ -2343,23 +2343,23 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAcquire a Pepto Beesmol"
+			title: "&lAcquire a Pepto Beesmol"
 			x: -9.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["4AC862528DF87B7E"]
 			description: [
-				"Use bee squishing, genetics and incubation to obtain the &6spawn eggs&r of the following bees: "
+				"Use bee squishing, genetics and incubation to obtain the &#D2691Espawn eggs&r of the following bees: "
 				""
 				"pepto beesmol x2"
 				"hoarder bee x2"
 				"rancher bee x1"
 				"cubee x1"
 				""
-				"Then craft them with 2 &3echo shards&r and a copy of &9music disc #5&r to obtain a wannabee spawn egg."
+				"Then craft them with 2 &#D2691Eecho shards&r and a copy of &#D2691Emusic disc #5&r to obtain a wannabee spawn egg."
 				""
-				"These things are one of, &oBOTH&r, the most TPS friendly &oand&r the most productive mob farms you can build in almost any pack they are present in. They can farm virtually any mob that you can find a way to get encased in resin/amber, leading to some very interesting farms. You can even farm &eapotheosis items and gems&r with them! "
+				"These things are one of, &oBOTH&r, the most TPS friendly &oand&r the most productive mob farms you can build in almost any pack they are present in. They can farm virtually any mob that you can find a way to get encased in resin/amber, leading to some very interesting farms. You can even farm &#D2691Eapotheosis items and gems&r with them! "
 			]
 			id: "71A609F70B6B6958"
 			rewards: [
@@ -2387,7 +2387,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&eThe Wannabee Farm"
+			subtitle: "&#8B4513The Wannabee Farm"
 			tasks: [{
 				id: "21B3699DE25396D0"
 				item: {
@@ -2401,7 +2401,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAcquire a Wannabee"
+			title: "&lAcquire a Wannabee"
 			x: -11.0d
 			y: 11.0d
 		}
@@ -2424,7 +2424,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePersonal \"Bee\"fence"
+			subtitle: "&#8B4513Personal \"Bee\"fence"
 			tasks: [{
 				id: "0343434DB58B6D90"
 				item: {
@@ -2436,7 +2436,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBee Nest Helmet"
+			title: "&lBee Nest Helmet"
 			x: 8.5d
 			y: 5.5d
 		}
@@ -2472,7 +2472,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eVery High Productivity"
+			subtitle: "&#8B4513Very High Productivity"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1ED4E46960629069"
@@ -2482,13 +2482,13 @@
 				to_observe: "productivebees:kamikazbee"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Kamikazbee"
+			title: "&lAcquire a Kamikazbee"
 			x: 8.535714285714278d
 			y: 7.232142857142847d
 		}
 		{
 			dependencies: ["579409C3F3A2F2F0"]
-			description: ["When supplied with flowers (or whatever the respective breeding item is for the bees being bred) and bees that can breed, the breeding chamber will automate this process, just don't forget to provide it with both &cpower&r and &6cages&r to house the babees produced."]
+			description: ["When supplied with flowers (or whatever the respective breeding item is for the bees being bred) and bees that can breed, the breeding chamber will automate this process, just don't forget to provide it with both &#D2691Epower&r and &#D2691Ecages&r to house the babees produced."]
 			hide_dependency_lines: false
 			id: "1BFA11C779ED435C"
 			rewards: [
@@ -2504,26 +2504,26 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThe love shack"
+			subtitle: "&#8B4513The love shack"
 			tasks: [{
 				id: "4BE646E07C089C8F"
 				item: "productivebees:breeding_chamber"
 				type: "item"
 			}]
-			title: "&6&lBreeding Chamber"
+			title: "&lBreeding Chamber"
 			x: 7.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1BFA11C779ED435C"]
 			description: [
-				"Incubators are great for raising babees quickly, simply fill it with &6honey treats&r and a caged babee and wait!"
+				"Incubators are great for raising babees quickly, simply fill it with &#D2691Ehoney treats&r and a caged babee and wait!"
 				""
 				"Once you have type genes at your disposal, the incubator can also be used to combine the gene with an egg to create the spawn egg of the respective bee type the gene was extracted from."
 				""
-				"&cNOTE:&r gene incubation only works for \"type\" genes, all other genes used on the treat to incubate the egg will be lost. "
+				"&#D2691ENOTE:&r gene incubation only works for \"type\" genes, all other genes used on the treat to incubate the egg will be lost. "
 				""
-				"Change the new bees stats &o&eafter&r&r it has been spawned."
+				"Change the new bees stats &o&#D2691Eafter&r&r it has been spawned."
 			]
 			id: "58BCD239183B28AD"
 			rewards: [
@@ -2540,13 +2540,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eRaising babees and making spawn eggs."
+			subtitle: "&#8B4513Raising babees and making spawn eggs."
 			tasks: [{
 				id: "515FB98416BA44A3"
 				item: "productivebees:incubator"
 				type: "item"
 			}]
-			title: "&6&lBaBee Incubator"
+			title: "&lBaBee Incubator"
 			x: 7.5d
 			y: 3.0d
 		}
@@ -2555,15 +2555,15 @@
 			description: [
 				"Once centrifuged into singular gene samples, you will want to feed these genes into an indexer."
 				""
-				"you will notice that genes are harvested in percentages. &eA single bee will never provide a 100% sample&r of its genetics and as such, this is where the indexer comes into play."
+				"you will notice that genes are harvested in percentages. &#D2691EA single bee will never provide a 100% sample&r of its genetics and as such, this is where the indexer comes into play."
 				""
-				"When provided with samples, &6the indexer will collect and combine all \"like\" genes&r until it has accumulated enough genes to create a %100 sample at which point it will begin creating another \"complete\" sample of the gene. "
+				"When provided with samples, &#D2691Ethe indexer will collect and combine all \"like\" genes&r until it has accumulated enough genes to create a %100 sample at which point it will begin creating another \"complete\" sample of the gene. "
 				""
 				"It is for this reason that you will almost certainly want to make a small dedicated breeding set up, just for breeding a few sets of bees with \"perfect genes\" for squishing in order to automate a gene supply for perfecting the genes of future bees."
 				""
-				"Gene samples can be crafted with a honey treat and fed to a bee to cause the bee to inherit the stats added to the treat. &9Multiple&r stats can be combined into the same honey treat."
+				"Gene samples can be crafted with a honey treat and fed to a bee to cause the bee to inherit the stats added to the treat. &#D2691EMultiple&r stats can be combined into the same honey treat."
 				""
-				"Note: the indexer does not use power, it only needs a &credstone signal&r to be applied."
+				"Note: the indexer does not use power, it only needs a &#D2691Eredstone signal&r to be applied."
 			]
 			id: "2EF32806E1739F1A"
 			rewards: [
@@ -2578,13 +2578,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eGenetic modification."
+			subtitle: "&#8B4513Genetic modification."
 			tasks: [{
 				id: "73ED60F17BA76987"
 				item: "productivebees:gene_indexer"
 				type: "item"
 			}]
-			title: "&6&lGene Indexer"
+			title: "&lGene Indexer"
 			x: 10.0d
 			y: 3.0d
 		}
@@ -2620,7 +2620,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "592A374CAA69628B"
@@ -2630,7 +2630,7 @@
 				to_observe: "productivebees:copper"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Copper Bee"
+			title: "&lAcquire a Copper Bee"
 			x: -5.0d
 			y: 18.5d
 		}
@@ -2666,7 +2666,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3243BE98C6C047F5"
@@ -2676,7 +2676,7 @@
 				to_observe: "productivebees:coal"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Coal Bee"
+			title: "&lAcquire a Coal Bee"
 			x: -6.0d
 			y: 16.5d
 		}
@@ -2712,7 +2712,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "44F21DE471FAF500"
@@ -2722,7 +2722,7 @@
 				to_observe: "productivebees:obsidian"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Obsidian Bee"
+			title: "&lAcquire an Obsidian Bee"
 			x: -5.5d
 			y: 17.5d
 		}
@@ -2758,7 +2758,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "70A78884D09334FC"
@@ -2768,7 +2768,7 @@
 				to_observe: "productivebees:blazing"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Blazing Bee"
+			title: "&lAcquire a Blazing Bee"
 			x: 4.0d
 			y: 16.5d
 		}
@@ -2800,7 +2800,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "57C41A0C1456AC96"
@@ -2810,7 +2810,7 @@
 				to_observe: "productivebees:creeper_bee"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Creebee"
+			title: "&lAcquire a Creebee"
 			x: -4.0d
 			y: 16.5d
 		}
@@ -2846,7 +2846,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "267719275AC1D996"
@@ -2856,7 +2856,7 @@
 				to_observe: "productivebees:silky"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Silky Bee"
+			title: "&lAcquire a Silky Bee"
 			x: -3.5d
 			y: 17.5d
 		}
@@ -2889,7 +2889,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "538FF059B5F47525"
@@ -2899,7 +2899,7 @@
 				to_observe: "productivebees:sculk"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Sculk Bee"
+			title: "&lAcquire a Sculk Bee"
 			x: 6.0d
 			y: 16.5d
 		}
@@ -2935,7 +2935,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "48212B5E579B9ADA"
@@ -2945,7 +2945,7 @@
 				to_observe: "productivebees:sulfur"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Sulfur Bee"
+			title: "&lAcquire a Sulfur Bee"
 			x: -5.0d
 			y: 16.5d
 		}
@@ -2981,7 +2981,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7C689167996E504B"
@@ -2990,7 +2990,7 @@
 				to_observe: "productivebees:redstone"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Redstone Bee"
+			title: "&lAcquire a Redstone Bee"
 			x: -3.0d
 			y: 16.5d
 		}
@@ -3026,7 +3026,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "13F329B03F806E4F"
@@ -3036,7 +3036,7 @@
 				to_observe: "productivebees:lapis"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Lapis Bee"
+			title: "&lAcquire a Lapis Bee"
 			x: -4.5d
 			y: 17.5d
 		}
@@ -3072,7 +3072,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0BDEE1CB4A7D1E26"
@@ -3082,7 +3082,7 @@
 				to_observe: "productivebees:zinc"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Zinc Bee"
+			title: "&lAcquire a Zinc Bee"
 			x: 4.5d
 			y: 17.5d
 		}
@@ -3118,7 +3118,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "05C2BDC7998C7D66"
@@ -3128,7 +3128,7 @@
 				to_observe: "productivebees:brass"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Brass Bee"
+			title: "&lAcquire a Brass Bee"
 			x: 5.5d
 			y: 17.5d
 		}
@@ -3164,7 +3164,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "33C46E0CC2F814AA"
@@ -3174,7 +3174,7 @@
 				to_observe: "productivebees:iron"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Iron Bee"
+			title: "&lAcquire an Iron Bee"
 			x: -2.0d
 			y: 18.5d
 		}
@@ -3207,7 +3207,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0E73E6EFD8B08CF9"
@@ -3217,7 +3217,7 @@
 				to_observe: "productivebees:frosty"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Frosty Bee"
+			title: "&lAcquire a Frosty Bee"
 			x: -2.5d
 			y: 17.5d
 		}
@@ -3243,7 +3243,7 @@
 				"642F8A704D9EBFA7"
 				"74CED089C7C570EE"
 			]
-			description: ["Advanced hives placed in dark, unlit areas, will naturally spawn both &azombees&r and &7skeletal&r bees. While you will most likely want a &ofew&r skeletal bees at some point, the undead bees are typically a nuisance in general more than anything as they spawn and take up the space of the bees you do want to access the hives. Keeping your bee keeping area well lit is a very easy way to solve any problems caused by them, if they are spawning in an area you do not want them in, this is because at least 1 of the hives in the area is &enot lit well enough&r."]
+			description: ["Advanced hives placed in dark, unlit areas, will naturally spawn both &#D2691Ezombees&r and &#D2691Eskeletal&r bees. While you will most likely want a &ofew&r skeletal bees at some point, the undead bees are typically a nuisance in general more than anything as they spawn and take up the space of the bees you do want to access the hives. Keeping your bee keeping area well lit is a very easy way to solve any problems caused by them, if they are spawning in an area you do not want them in, this is because at least 1 of the hives in the area is &#D2691Enot lit well enough&r."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: false
@@ -3265,13 +3265,13 @@
 				xp: 5
 			}]
 			size: 1.5d
-			subtitle: "&eUndead and unwanted visitors"
+			subtitle: "&#8B4513Undead and unwanted visitors"
 			tasks: [{
 				id: "787356157611CFF7"
 				title: "Light up your hives!"
 				type: "checkmark"
 			}]
-			title: "&6&lLight up your Hives!"
+			title: "&lLight up your Hives!"
 			x: 0.0d
 			y: 15.0d
 		}
@@ -3303,7 +3303,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eKeep your hives lit or these guys will take over!"
+			subtitle: "&#8B4513Keep your hives lit or these guys will take over!"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "607B918B6D697ECE"
@@ -3313,7 +3313,7 @@
 				to_observe: "productivebees:zombie"
 				type: "observation"
 			}]
-			title: "&6&lZombees"
+			title: "&lZombees"
 			x: -1.5d
 			y: 15.0d
 		}
@@ -3345,7 +3345,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eKeep the hive nice and dark!"
+			subtitle: "&#8B4513Keep the hive nice and dark!"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "45B2DCA458966BDA"
@@ -3355,7 +3355,7 @@
 				to_observe: "productivebees:skeletal"
 				type: "observation"
 			}]
-			title: "&6&lSkeletal Bee"
+			title: "&lSkeletal Bee"
 			x: 1.5d
 			y: 15.0d
 		}
@@ -3387,7 +3387,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4E4D9E983F568316"
@@ -3397,7 +3397,7 @@
 				to_observe: "productivebees:withered"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Withered Bee"
+			title: "&lAcquire a Withered Bee"
 			x: 5.0d
 			y: 16.5d
 		}
@@ -3429,7 +3429,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "52CE66D7B2434D4A"
@@ -3439,7 +3439,7 @@
 				to_observe: "productivebees:philolite"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Philolite Bee"
+			title: "&lAcquire a Philolite Bee"
 			x: 1.5d
 			y: 17.5d
 		}
@@ -3471,7 +3471,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1D4BA4CCB62C060E"
@@ -3481,7 +3481,7 @@
 				to_observe: "productivebees:luminarchy"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Luminarchy Bee"
+			title: "&lAcquire a Luminarchy Bee"
 			x: 2.5d
 			y: 17.5d
 		}
@@ -3517,7 +3517,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eItem Conversion"
+			subtitle: "&#8B4513Item Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3FBCEBAB3FBE9BED"
@@ -3526,7 +3526,7 @@
 				to_observe: "productivebees:flux"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Flux Dust Bee"
+			title: "&lAcquire a Flux Dust Bee"
 			x: -2.0d
 			y: 16.5d
 		}
@@ -3562,7 +3562,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "633097EAEA7EFB16"
@@ -3572,7 +3572,7 @@
 				to_observe: "productivebees:silicon"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Silicon Bee"
+			title: "&lAcquire a Silicon Bee"
 			x: -0.5d
 			y: 17.5d
 		}
@@ -3610,7 +3610,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Bee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "48F5FC67108D0777"
@@ -3619,7 +3619,7 @@
 				to_observe: "productivebees:grave"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Grave Bee"
+			title: "&lAcquire a Grave Bee"
 			x: 1.5d
 			y: 21.5d
 		}
@@ -3651,7 +3651,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "33559FB8C6634DC3"
@@ -3661,7 +3661,7 @@
 				to_observe: "productivebees:rose_quartz"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Rose Quartz Bee"
+			title: "&lAcquire a Rose Quartz Bee"
 			x: 0.5d
 			y: 21.5d
 		}
@@ -3697,7 +3697,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4559C9CC63D22AD5"
@@ -3706,7 +3706,7 @@
 				to_observe: "productivebees:spacial"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Spatial Bee"
+			title: "&lAcquire a Spatial Bee"
 			x: -1.0d
 			y: 16.5d
 		}
@@ -3744,7 +3744,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eEnchanting Apparatus"
+			subtitle: "&#8B4513Enchanting Apparatus"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "56F10F48F3BCCD87"
@@ -3754,7 +3754,7 @@
 				to_observe: "productivebees:arcane"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Arcane bee"
+			title: "&lAcquire an Arcane bee"
 			x: 2.5d
 			y: 21.5d
 		}
@@ -3785,7 +3785,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePopped chorus fruit"
+			subtitle: "&#8B4513Popped chorus fruit"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "38C398664FAA3325"
@@ -3795,7 +3795,7 @@
 				to_observe: "productivebees:ender"
 				type: "observation"
 			}]
-			title: "&6&lEnder Bee"
+			title: "&lEnder Bee"
 			x: 0.0d
 			y: 10.5d
 		}
@@ -3827,7 +3827,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3348ED1D5842E723"
@@ -3837,7 +3837,7 @@
 				to_observe: "productivebees:fluix"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Fluix Bee"
+			title: "&lAcquire a Fluix Bee"
 			x: 0.5d
 			y: 17.5d
 		}
@@ -3869,7 +3869,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "13234420E36EFF62"
@@ -3879,7 +3879,7 @@
 				to_observe: "productivebees:apatite"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Apatite Bee"
+			title: "&lAcquire an Apatite Bee"
 			x: -1.5d
 			y: 17.5d
 		}
@@ -3915,7 +3915,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3B767C1079613226"
@@ -3925,7 +3925,7 @@
 				to_observe: "productivebees:bronze"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Bronze Bee"
+			title: "&lAcquire a Bronze Bee"
 			x: -3.0d
 			y: 18.5d
 		}
@@ -3961,7 +3961,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "6C37CD3119223FB1"
@@ -3971,7 +3971,7 @@
 				to_observe: "productivebees:gold"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Gold Bee"
+			title: "&lAcquire a Gold Bee"
 			x: 1.5d
 			y: 19.5d
 		}
@@ -4007,7 +4007,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "66872CB73BB7C9BC"
@@ -4017,7 +4017,7 @@
 				to_observe: "productivebees:silver"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Silver Bee"
+			title: "&lAcquire a Silver Bee"
 			x: 0.5d
 			y: 19.5d
 		}
@@ -4052,7 +4052,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5DC5BEF9ABD696F5"
@@ -4062,7 +4062,7 @@
 				to_observe: "productivebees:platinum"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Platinum Bee"
+			title: "&lAcquire a Platinum Bee"
 			x: 2.5d
 			y: 19.5d
 		}
@@ -4098,7 +4098,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "67D4EC0C86CE8362"
@@ -4108,7 +4108,7 @@
 				to_observe: "productivebees:lead"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Lead Bee"
+			title: "&lAcquire a Lead Bee"
 			x: -1.5d
 			y: 19.5d
 		}
@@ -4144,7 +4144,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "067732D0A2A97E6C"
@@ -4154,7 +4154,7 @@
 				to_observe: "productivebees:uranium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Radioactive Bee"
+			title: "&lAcquire a Radioactive Bee"
 			x: -0.5d
 			y: 19.5d
 		}
@@ -4190,7 +4190,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0CC6FA0267935C43"
@@ -4200,7 +4200,7 @@
 				to_observe: "productivebees:tin"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Tin Bee"
+			title: "&lAcquire a Tin Bee"
 			x: -1.0d
 			y: 18.5d
 		}
@@ -4236,7 +4236,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7111C0DB2B0C1884"
@@ -4246,7 +4246,7 @@
 				to_observe: "productivebees:nickel"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Nickel Bee"
+			title: "&lAcquire a Nickel Bee"
 			x: 0.0d
 			y: 18.5d
 		}
@@ -4281,7 +4281,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "36EA86535D8A05E7"
@@ -4291,7 +4291,7 @@
 				to_observe: "productivebees:invar"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Invar Bee"
+			title: "&lAcquire an Invar Bee"
 			x: 1.0d
 			y: 18.5d
 		}
@@ -4326,7 +4326,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "18CE74446F563C39"
@@ -4336,7 +4336,7 @@
 				to_observe: "productivebees:constantan"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Constantan Bee"
+			title: "&lAcquire a Constantan Bee"
 			x: 2.0d
 			y: 18.5d
 		}
@@ -4372,7 +4372,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "18A31675234A9339"
@@ -4382,7 +4382,7 @@
 				to_observe: "productivebees:electrum"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Electrum Bee"
+			title: "&lAcquire an Electrum Bee"
 			x: 3.0d
 			y: 18.5d
 		}
@@ -4418,7 +4418,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0746E33F514F2867"
@@ -4428,7 +4428,7 @@
 				to_observe: "productivebees:lumium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Lumium Bee"
+			title: "&lAcquire a Lumium Bee"
 			x: 4.0d
 			y: 18.5d
 		}
@@ -4464,7 +4464,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1FF0D58D0E3611DE"
@@ -4474,7 +4474,7 @@
 				to_observe: "productivebees:signalum"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Signalum Bee"
+			title: "&lAcquire a Signalum Bee"
 			x: 5.0d
 			y: 18.5d
 		}
@@ -4510,7 +4510,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "5D047184D670680F"
@@ -4520,7 +4520,7 @@
 				to_observe: "productivebees:enderium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Enderium Bee"
+			title: "&lAcquire an Enderium Bee"
 			x: 1.0d
 			y: 20.5d
 		}
@@ -4553,7 +4553,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "7A456BBE27067820"
@@ -4563,7 +4563,7 @@
 				to_observe: "productivebees:rose_gold"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Rose Gold Bee"
+			title: "&lAcquire a Rose Gold Bee"
 			x: -4.5d
 			y: 19.5d
 		}
@@ -4599,7 +4599,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "4E8C2DB75CDEDD72"
@@ -4609,7 +4609,7 @@
 				to_observe: "peoductivebees:steel"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Steel Bee"
+			title: "&lAcquire a Steel Bee"
 			x: -3.5d
 			y: 19.5d
 		}
@@ -4641,7 +4641,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eIn-World Transformation"
+			subtitle: "&#8B4513In-World Transformation"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "547D0A550320173B"
@@ -4651,7 +4651,7 @@
 				to_observe: "productivebees:sky_steel"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Sky Steel Bee"
+			title: "&lAcquire a Sky Steel Bee"
 			x: -3.5d
 			y: 21.5d
 		}
@@ -4682,7 +4682,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eElven Trade"
+			subtitle: "&#8B4513Elven Trade"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1538371EB965834B"
@@ -4692,7 +4692,7 @@
 				to_observe: "productivebees:elementium"
 				type: "observation"
 			}]
-			title: "&6&lACquire an Elementium Bee"
+			title: "&lACquire an Elementium Bee"
 			x: -1.0d
 			y: 20.5d
 		}
@@ -4729,7 +4729,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTerrestrial Agglomeration"
+			subtitle: "&#8B4513Terrestrial Agglomeration"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1955D210296383C9"
@@ -4739,7 +4739,7 @@
 				to_observe: "productivebees:terrasteel"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Terrasteel Bee"
+			title: "&lAcquire a Terrasteel Bee"
 			x: -2.0d
 			y: 20.5d
 		}
@@ -4770,7 +4770,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBotania Mana Pool"
+			subtitle: "&#8B4513Botania Mana Pool"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "1A69ADE737CFD0FA"
@@ -4780,7 +4780,7 @@
 				to_observe: "productivebees:manasteel"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Manasteel Bee"
+			title: "&lAcquire a Manasteel Bee"
 			x: -3.0d
 			y: 20.5d
 		}
@@ -4821,7 +4821,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCrafting"
+			subtitle: "&#8B4513Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "586BD2D4D08A8E51"
@@ -4831,7 +4831,7 @@
 				to_observe: "productivebees:dragonsteel"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Dragon Steel Bee"
+			title: "&lAcquire a Dragon Steel Bee"
 			x: -2.5d
 			y: 19.5d
 		}
@@ -4863,7 +4863,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "19D03572C40C3AF4"
@@ -4873,7 +4873,7 @@
 				to_observe: "productivebees:ancient"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Ancient Bee"
+			title: "&lAcquire an Ancient Bee"
 			x: 3.0d
 			y: 16.5d
 		}
@@ -4909,7 +4909,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "41F6B75B65C4D9FA"
@@ -4919,7 +4919,7 @@
 				to_observe: "productivebees:diamond"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Diamond Bee"
+			title: "&lAcquire a Diamond Bee"
 			x: 1.0d
 			y: 16.5d
 		}
@@ -4955,7 +4955,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2C668EF04A176CE5"
@@ -4965,7 +4965,7 @@
 				to_observe: "productivebees:emerald"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Emerald Bee"
+			title: "&lAcquire an Emerald Bee"
 			x: 2.0d
 			y: 16.5d
 		}
@@ -5001,7 +5001,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "331F3B9B48514A05"
@@ -5011,7 +5011,7 @@
 				to_observe: "productivebees:prismalium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Prismalium Bee"
+			title: "&lAcquire a Prismalium Bee"
 			x: 2.0d
 			y: 20.5d
 		}
@@ -5052,7 +5052,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCrafting"
+			subtitle: "&#8B4513Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2F03A2F602A480D9"
@@ -5062,7 +5062,7 @@
 				to_observe: "productivebees:melodium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Melodium Bee"
+			title: "&lAcquire a Melodium Bee"
 			x: 4.0d
 			y: 20.5d
 		}
@@ -5097,7 +5097,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCrafting"
+			subtitle: "&#8B4513Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "110F988FC75F6527"
@@ -5107,7 +5107,7 @@
 				to_observe: "productivebees:stellarium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Stellarium Bee"
+			title: "&lAcquire a Stellarium Bee"
 			x: 3.0d
 			y: 20.5d
 		}
@@ -5143,7 +5143,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -5161,7 +5161,7 @@
 				to_observe: "productivebees:refined_glowstone"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Refined Glowstone Bee"
+			title: "&lAcquire a Refined Glowstone Bee"
 			x: 3.5d
 			y: 19.5d
 		}
@@ -5197,7 +5197,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "269E6D08E6396407"
@@ -5207,7 +5207,7 @@
 				to_observe: "productivebees:refined_obsidian"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Refined Obsidian Bee"
+			title: "&lAcquire a Refined Obsidian Bee"
 			x: 4.5d
 			y: 19.5d
 		}
@@ -5239,7 +5239,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBlood Altar"
+			subtitle: "&#8B4513Blood Altar"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2E400494889893D9"
@@ -5249,7 +5249,7 @@
 				to_observe: "productivebees:hematophagous"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Hematophagus Bee"
+			title: "&lAcquire a Hematophagus Bee"
 			x: 1.0d
 			y: 22.5d
 		}
@@ -5293,7 +5293,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "432D579FC873A547"
@@ -5303,7 +5303,7 @@
 				to_observe: "productivebees:wasted_radioactive"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Wasted Radioactive Bee"
+			title: "&lAcquire a Wasted Radioactive Bee"
 			x: 3.0d
 			y: 22.5d
 		}
@@ -5341,7 +5341,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "182166C6B9A4166D"
@@ -5351,7 +5351,7 @@
 				to_observe: "productivebees:pink_slimy"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Pink Slimy Bee"
+			title: "&lAcquire a Pink Slimy Bee"
 			x: 0.0d
 			y: 20.5d
 		}
@@ -5388,7 +5388,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eRunic Altar"
+			subtitle: "&#8B4513Runic Altar"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "22F958F68B508490"
@@ -5398,7 +5398,7 @@
 				to_observe: "productivebees:mana"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Mana Bee"
+			title: "&lAcquire a Mana Bee"
 			x: 0.0d
 			y: 22.5d
 		}
@@ -5436,7 +5436,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePetal Apothecary"
+			subtitle: "&#8B4513Petal Apothecary"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -5454,7 +5454,7 @@
 				to_observe: "productivebees:pure"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Pure Bee"
+			title: "&lAcquire a Pure Bee"
 			x: -1.0d
 			y: 22.5d
 		}
@@ -5489,7 +5489,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "57F513DCBD9930F0"
@@ -5499,7 +5499,7 @@
 				to_observe: "productivebees:plastic"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Plastic Bee"
+			title: "&lAcquire a Plastic Bee"
 			x: -2.0d
 			y: 22.5d
 		}
@@ -5535,7 +5535,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "75D33D932325B731"
@@ -5545,13 +5545,13 @@
 				to_observe: "productivebees:osmium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Osmium Bee"
+			title: "&lAcquire an Osmium Bee"
 			x: -4.0d
 			y: 20.5d
 		}
 		{
 			dependencies: ["47F1D527F27D77EF"]
-			description: ["If you're reading this, a method for obtaining amber bee spawn eggs (other than finding them in ruins as usual) has not been implemented yet, this means &eresin bees have been enabled with the ability to encase mobs in resin&r (amber) still and you can use those for obtaining your encased mobs."]
+			description: ["If you're reading this, a method for obtaining amber bee spawn eggs (other than finding them in ruins as usual) has not been implemented yet, this means &#D2691Eresin bees have been enabled with the ability to encase mobs in resin&r (amber) still and you can use those for obtaining your encased mobs."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5582,7 +5582,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eResin works for now"
+			subtitle: "&#8B4513Resin works for now"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "0D192F6995B1E2EE"
@@ -5592,7 +5592,7 @@
 				to_observe: "productivebees:amber"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Amber Bee"
+			title: "&lAcquire an Amber Bee"
 			x: -3.0d
 			y: 22.5d
 		}
@@ -5635,7 +5635,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "30FEA769B7DE19F2"
@@ -5645,7 +5645,7 @@
 				to_observe: "productivebees:malachite"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Malachite Bee"
+			title: "&lAcquire a Malachite Bee"
 			x: -2.5d
 			y: 21.5d
 		}
@@ -5688,7 +5688,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMechanical Crafting"
+			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "277A91A9BD3E98BA"
@@ -5698,7 +5698,7 @@
 				to_observe: "productivebees:bismuth"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Bismuth Bee"
+			title: "&lAcquire a Bismuth Bee"
 			x: -1.5d
 			y: 21.5d
 		}
@@ -5742,7 +5742,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "004A1534CA8F86A4"
@@ -5752,7 +5752,7 @@
 				to_observe: "productivebees:irradium"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Irradium Bee"
+			title: "&lAcquire an Irradium Bee"
 			x: -0.5d
 			y: 21.5d
 		}
@@ -5790,7 +5790,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Conversion"
+			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "38ABC9DF23FFA4F4"
@@ -5800,7 +5800,7 @@
 				to_observe: "productivebees:ether_gas"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Ether Gas Bee"
+			title: "&lAcquire an Ether Gas Bee"
 			x: 2.0d
 			y: 22.5d
 		}
@@ -5836,7 +5836,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2CB86DB746200509"
@@ -5846,7 +5846,7 @@
 				to_observe: "productivebees:aluminum"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Aluminum Bee"
+			title: "&lAcquire an Aluminum Bee"
 			x: -4.0d
 			y: 18.5d
 		}
@@ -5888,7 +5888,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eHellfire Forge"
+			subtitle: "&#8B4513Hellfire Forge"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "09EE3EA1E53CA986"
@@ -5898,7 +5898,7 @@
 				to_observe: "productivebees:hellfire"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Hellfire Bee"
+			title: "&lAcquire a Hellfire Bee"
 			x: 3.5d
 			y: 17.5d
 		}
@@ -5933,7 +5933,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "3A6183F69E2C82C9"
@@ -5942,7 +5942,7 @@
 				to_observe: "productivebees:niter"
 				type: "observation"
 			}]
-			title: "&6&lAcquire a Niter Bee"
+			title: "&lAcquire a Niter Bee"
 			x: 0.0d
 			y: 16.5d
 		}
@@ -5954,13 +5954,13 @@
 			description: [
 				"To build a genetics set up you need to:"
 				""
-				"Place a &6piston&r ,&nfacing down&r, above a bottler supplied with bottles. With a 1 block gap in between."
+				"Place a &#D2691Episton&r ,&nfacing down&r, above a bottler supplied with bottles. With a 1 block gap in between."
 				""
-				"Use the piston to squish the bee and obtain its &dmaterials&r."
+				"Use the piston to squish the bee and obtain its &#D2691Ematerials&r."
 				""
 				"Feed the squashed bee materials into a centrifuge to separate the genes."
 				""
-				"Take the genes from the centrifuge and insert them into a gene indexer to be combined into 100% genes, and apply a &credstone signal&r."
+				"Take the genes from the centrifuge and insert them into a gene indexer to be combined into 100% genes, and apply a &#D2691Eredstone signal&r."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -5980,22 +5980,22 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eThis is always fun"
+			subtitle: "&#8B4513This is always fun"
 			tasks: [{
 				id: "55982478A10C86BE"
 				title: "Bee genetics"
 				type: "checkmark"
 			}]
-			title: "&6&lBee Genetics"
+			title: "&lBee Genetics"
 			x: 10.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["5EAC29DB29A4950E"]
 			description: [
-				"The bottler can be placed next to a centrifuge &oOR&r have &eliquid honey&r piped into it directly and if given a supply of empty bottles, will bottle honey for you automatically."
+				"The bottler can be placed next to a centrifuge &oOR&r have &#D2691Eliquid honey&r piped into it directly and if given a supply of empty bottles, will bottle honey for you automatically."
 				""
-				"Once you have a genetics set up in which a piston is placed above the bottler, it can also be used to squash bees and collect their genetic material, provided it has bottles to contain them. This \"&dbee material&r\" must then be &6centrifuged&r to separate the respective &dgenes&r."
+				"Once you have a genetics set up in which a piston is placed above the bottler, it can also be used to squash bees and collect their genetic material, provided it has bottles to contain them. This \"&#D2691Ebee material&r\" must then be &#D2691Ecentrifuged&r to separate the respective &#D2691Egenes&r."
 			]
 			id: "1F2742803A0D209E"
 			rewards: [
@@ -6011,22 +6011,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFor bottling, of course"
+			subtitle: "&#8B4513For bottling, of course"
 			tasks: [{
 				id: "1D719CC51B490088"
 				item: "productivebees:bottler"
 				type: "item"
 			}]
-			title: "&6&lBottler"
+			title: "&lBottler"
 			x: 10.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0B7B4C27767760A1"]
 			description: [
-				"If you're going to be taking the path of the apiarist, which is always a wise endeavor, you're also going to have access to &6supplemental power&r via &ehoney generator&r. "
+				"If you're going to be taking the path of the apiarist, which is always a wise endeavor, you're also going to have access to &#D2691Esupplemental power&r via &#D2691Ehoney generator&r. "
 				""
-				"&cPower constraints&r can be a very limiting factor, especially in the early game. If this is an issue you are facing or maybe you just want more power for the future then producing honey in excess and converting it to energy is a wise decision, at least until you have better options for power generation at your disposal."
+				"&#D2691EPower constraints&r can be a very limiting factor, especially in the early game. If this is an issue you are facing or maybe you just want more power for the future then producing honey in excess and converting it to energy is a wise decision, at least until you have better options for power generation at your disposal."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -6045,19 +6045,19 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eAuxiliary power"
+			subtitle: "&#8B4513Auxiliary power"
 			tasks: [{
 				id: "51CAA9CF509169E0"
 				item: "productivebees:honey_generator"
 				type: "item"
 			}]
-			title: "&6&lHoney Generator"
+			title: "&lHoney Generator"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &aslimy&r bee."]
+			description: ["The home of the &#D2691Eslimy&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "5AF7AD2AFE15D5FD"
@@ -6074,13 +6074,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eIron Sword + Slime Block"
+			subtitle: "&#8B4513Iron Sword + Slime Block"
 			tasks: [{
 				id: "24C7EE32733E8AB8"
 				item: "productivebees:slimy_nest"
 				type: "item"
 			}]
-			title: "&6&lSlimy Nest"
+			title: "&lSlimy Nest"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -6106,13 +6106,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA specially made hive, carved from the egg of the ends ruler."
+			subtitle: "&#8B4513A specially made hive, carved from the egg of the ends ruler."
 			tasks: [{
 				id: "2C8DDD4F68DC6F84"
 				item: "productivebees:dragon_egg_hive"
 				type: "item"
 			}]
-			title: "&6&lDragon Egg Nest"
+			title: "&lDragon Egg Nest"
 			x: 0.0d
 			y: 11.5d
 		}
@@ -6147,7 +6147,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eBee Breeding"
+			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
 				icon: "productivebees:bee_cage"
 				id: "2B34269A9F24E0AE"
@@ -6157,7 +6157,7 @@
 				to_observe: "productivebees:experience"
 				type: "observation"
 			}]
-			title: "&6&lAcquire an Experience Bee"
+			title: "&lAcquire an Experience Bee"
 			x: 3.5d
 			y: 21.5d
 		}
@@ -6186,20 +6186,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAn automated bee trap."
+			subtitle: "&#8B4513An automated bee trap."
 			tasks: [{
 				id: "5C7680DEA7161B76"
 				item: "productivebees:catcher"
 				type: "item"
 			}]
-			title: "&6&lCatcher"
+			title: "&lCatcher"
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0B7B4C27767760A1"]
 			description: [
-				"The feeding slab is a great way to provide a \"feeding point\" for multiple bees to feed different flowering items from a &esingle block space&r, and are very useful in conjunction with &6simulation&r upgrades. A single slab can hold up to 3 items, allowing different types of bees to share the same slab. They can also be stacked, effectively doubling this. Lumber and quarry bees will eat from the slab and produce from the items provided in the slab at random if there are multiple outputs possible."
+				"The feeding slab is a great way to provide a \"feeding point\" for multiple bees to feed different flowering items from a &#D2691Esingle block space&r, and are very useful in conjunction with &#D2691Esimulation&r upgrades. A single slab can hold up to 3 items, allowing different types of bees to share the same slab. They can also be stacked, effectively doubling this. Lumber and quarry bees will eat from the slab and produce from the items provided in the slab at random if there are multiple outputs possible."
 				""
 				"In short, they allow you to place 6 flowers or \"flowering items\" in the same spot."
 			]
@@ -6220,21 +6220,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCan be honeylogged for regeneration effects!"
+			subtitle: "&#8B4513Can be honeylogged for regeneration effects!"
 			tasks: [{
 				id: "2A3CBFDE750E97C5"
 				item: "productivebees:feeder"
 				type: "item"
 			}]
-			title: "&6&lFeeding Slab"
+			title: "&lFeeding Slab"
 			x: 6.5d
 			y: 5.5d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including            &l&#D2691EQuests&r&r, is protected. As such, this content may &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -6267,7 +6267,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

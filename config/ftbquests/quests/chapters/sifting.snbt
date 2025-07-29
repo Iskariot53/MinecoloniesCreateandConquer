@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Sifting is a great way to get started in resource generation and for what can be produced from it, great even into the late game! The primary limitation you will notice is the &o&erange&r&r of resources that can be acquired from this method. "
+				"Sifting is a great way to get started in resource generation and for what can be produced from it, great even into the late game! The primary limitation you will notice is the &o&#D2691Erange&r&r of resources that can be acquired from this method. "
 				""
-				"While capable of producing most vanilla &cgems&r, &3ores&r and &9other resources&r, even some from other mods. You can only get so much from crushing and sifting stone and basalt by-products. However, for what it &o&eis&r&r capable of producing, the stone block approach works great and can see you through for as long as you need as well as most needs in a general sense."
+				"While capable of producing most vanilla &#D2691Egems&r, &#D2691Eores&r and &#D2691Eother resources&r, even some from other mods. You can only get so much from crushing and sifting stone and basalt by-products. However, for what it &o&#D2691Eis&r&r capable of producing, the stone block approach works great and can see you through for as long as you need as well as most needs in a general sense."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -44,13 +44,13 @@
 			}]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&6Limited but quick and easy!"
+			subtitle: "&#8B4513Limited but quick and easy!"
 			tasks: [{
 				id: "1C0CB9CFDB31CD91"
 				title: "Getting started with sifting."
 				type: "checkmark"
 			}]
-			title: "&e&lWelcome to Sifting!"
+			title: "&lWelcome to Sifting!"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -59,7 +59,7 @@
 			description: [
 				"If you plan to use sifting for a primary means of resource generation and more than getting the most out of your excess stone by crushing and sifting it. You're going to need some mechanical extruders to generate stone/basalt to be crushed and sifted."
 				""
-				"&6This is entirely optional&r and only necessary if you really want to lean on sifting for resources, extruders are not needed in any way for the sifting process to work, they just make life easier for those who prefer the stone and sky block life."
+				"&#D2691EThis is entirely optional&r and only necessary if you really want to lean on sifting for resources, extruders are not needed in any way for the sifting process to work, they just make life easier for those who prefer the stone and sky block life."
 			]
 			id: "62D68282050AC873"
 			rewards: [
@@ -83,7 +83,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Might want at least 1 of these."
+			subtitle: "&#8B4513Might want at least 1 of these."
 			tasks: [{
 				id: "2F41879B9DE9075B"
 				item: {
@@ -97,7 +97,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lMechanical Extruder"
+			title: "&lMechanical Extruder"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -108,9 +108,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Millstones and crushing wheels work very similarly in the sense that they can both grind things up for sifting, but you will notice &ethe items obtained from the recipes for each are slightly different&r, if you cannot find a recipe to answer your needs with one, always check the other. "
+				"Millstones and crushing wheels work very similarly in the sense that they can both grind things up for sifting, but you will notice &#D2691Ethe items obtained from the recipes for each are slightly different&r, if you cannot find a recipe to answer your needs with one, always check the other. "
 				""
-				"&aJEI&r is going to be your friend here."
+				"&#D2691EJEI&r is going to be your friend here."
 			]
 			id: "50D2146A81A69519"
 			rewards: [
@@ -134,7 +134,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Crushing wheels work too."
+			subtitle: "&#8B4513Crushing wheels work too."
 			tasks: [{
 				count: 2L
 				id: "41860D664910DE96"
@@ -149,7 +149,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l2x Millstone"
+			title: "&l2x Millstone"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -158,9 +158,9 @@
 			description: [
 				"Neither sifters nor meshes produce the exact same resources. Any given tier of mesh or sifter can possibly produce different resources, with different weights for the resources provided from sifting through them. "
 				""
-				"As a general rule: The &6higher the tier&r of sifter/mesh used, the higher the chance it has for yielding &emore valuable resources&r, more frequently. They can also be water logged to produce an even wider range of resources!"
+				"As a general rule: The &#D2691Ehigher the tier&r of sifter/mesh used, the higher the chance it has for yielding &#D2691Emore valuable resources&r, more frequently. They can also be water logged to produce an even wider range of resources!"
 				""
-				"Again, &aJEI&r is going to save you a lot of headache here."
+				"Again, &#D2691EJEI&r is going to save you a lot of headache here."
 			]
 			id: "1C496A76CE535F1E"
 			rewards: [{
@@ -168,13 +168,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "&6Not all meshes are created equally."
+			subtitle: "&#8B4513Not all meshes are created equally."
 			tasks: [{
 				id: "7ECD69A0E10E0AF7"
 				title: "Setting up your sifting build."
 				type: "checkmark"
 			}]
-			title: "&e&lSetting Up For Sifting"
+			title: "&lSetting Up For Sifting"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tier 1"
+			subtitle: "&#8B4513Tier 1"
 			tasks: [{
 				id: "49BDF4CE9A6F2B2E"
 				item: {
@@ -216,7 +216,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSifter"
+			title: "&lSifter"
 			x: -1.5d
 			y: 7.5d
 		}
@@ -260,7 +260,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tier 2"
+			subtitle: "&#8B4513Tier 2"
 			tasks: [{
 				id: "0A305A14A93FFA10"
 				item: {
@@ -274,7 +274,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBrass Sifter"
+			title: "&lBrass Sifter"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -302,7 +302,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tier 1"
+			subtitle: "&#8B4513Tier 1"
 			tasks: [{
 				id: "408419DBC212E81F"
 				item: {
@@ -317,7 +317,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lString Mesh"
+			title: "&lString Mesh"
 			x: -2.0d
 			y: 6.0d
 		}
@@ -345,7 +345,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tier 2"
+			subtitle: "&#8B4513Tier 2"
 			tasks: [{
 				id: "7A8D084931A0863A"
 				item: {
@@ -360,7 +360,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lAndesite Mesh"
+			title: "&lAndesite Mesh"
 			x: -1.0d
 			y: 6.0d
 		}
@@ -388,7 +388,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tier 3"
+			subtitle: "&#8B4513Tier 3"
 			tasks: [{
 				id: "7671094CA76E6321"
 				item: {
@@ -403,7 +403,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lZinc Mesh"
+			title: "&lZinc Mesh"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -431,7 +431,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tier 4"
+			subtitle: "&#8B4513Tier 4"
 			tasks: [{
 				id: "44BB6A58F6F050C7"
 				item: {
@@ -446,7 +446,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBrass Mesh"
+			title: "&lBrass Mesh"
 			x: 1.0d
 			y: 6.0d
 		}
@@ -473,7 +473,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Tier 5"
+			subtitle: "&#8B4513Tier 5"
 			tasks: [{
 				id: "3C2E3535E9D628F2"
 				item: {
@@ -487,15 +487,15 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lAdvanced Brass Mesh"
+			title: "&lAdvanced Brass Mesh"
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -528,7 +528,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

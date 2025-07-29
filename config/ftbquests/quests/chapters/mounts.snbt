@@ -42,7 +42,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"It's time to have your main character moment and befriend a &l&5Dragon&r&r! Dragons are special mounts that can be summoned by hatching a &l&8Dragon Egg&r&r in a specific habitat."
+				"It's time to have your main character moment and befriend a &l&#D2691EDragon&r&r! Dragons are special mounts that can be summoned by hatching a &l&#D2691EDragon Egg&r&r in a specific habitat."
 				""
 				"To summon any type of dragon, you need an &lEnder Dragon Egg&r. You obtain a dragon egg by slaying the Ender Dragon. Left-click the egg to teleport it to a safer location, then right-click it to start the hatching process. After that, you can mine the egg by left-clicking it."
 				""
@@ -77,21 +77,21 @@
 				}
 			]
 			size: 2.5d
-			subtitle: "&eHow to Train Your Dragon"
+			subtitle: "&#8B4513How to Train Your Dragon"
 			tasks: [{
 				id: "5A7ADC5D35BE0AC6"
 				title: "Dragon Mounts"
 				type: "checkmark"
 			}]
-			title: "&a&lDragon Mounts"
+			title: "&lDragon Mounts"
 			x: 9.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&2Forest Dragon&r&r Egg,"
-				"place &l&2leaves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691EForest Dragon&r&r Egg,"
+				"place &l&#D2691Eleaves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
@@ -117,7 +117,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Forest Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Forest Dragon Egg"
 			tasks: [{
 				id: "46F5EDEE8310253F"
 				item: {
@@ -138,15 +138,15 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lForest Dragon"
+			title: "&lForest Dragon"
 			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&6Fire Dragon&r&r Egg,"
-				"place &l&6magma blocks&r&r in a 3x3 area under the Egg or surround the egg by &l&6lava&r&r then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691EFire Dragon&r&r Egg,"
+				"place &l&#D2691Emagma blocks&r&r in a 3x3 area under the Egg or surround the egg by &l&#D2691Elava&r&r then right-click it to start the hatching process."
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
@@ -172,7 +172,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Fire Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Fire Dragon Egg"
 			tasks: [{
 				id: "5DA06C4032F2FAD1"
 				item: {
@@ -193,7 +193,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lFire Dragon"
+			title: "&lFire Dragon"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -227,7 +227,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into an Ice Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into an Ice Dragon Egg"
 			tasks: [{
 				id: "34F3E5626CC021B1"
 				item: {
@@ -248,15 +248,15 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lIce Dragon"
+			title: "&lIce Dragon"
 			x: 9.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&bWater Dragon&r&r Egg,"
-				"surround the egg by &l&bwater&r&r in a 3x3 area then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691EWater Dragon&r&r Egg,"
+				"surround the egg by &l&#D2691Ewater&r&r in a 3x3 area then right-click it to start the hatching process."
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
@@ -282,7 +282,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Water Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Water Dragon Egg"
 			tasks: [{
 				id: "29D77EF4D41DC716"
 				item: {
@@ -303,15 +303,15 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lWater Dragon"
+			title: "&lWater Dragon"
 			x: 11.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&cNether Dragon&r&r Egg,"
-				"place &l&cblackstone or basalt blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691ENether Dragon&r&r Egg,"
+				"place &l&#D2691Eblackstone or basalt blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
@@ -337,7 +337,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Nether Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Nether Dragon Egg"
 			tasks: [{
 				id: "6C6B3C2FC795DAD2"
 				item: {
@@ -358,7 +358,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lNether Dragon"
+			title: "&lNether Dragon"
 			x: 7.0d
 			y: 1.0d
 		}
@@ -392,7 +392,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into an Aether Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into an Aether Dragon Egg"
 			tasks: [{
 				id: "1506BE6CE1850B9A"
 				item: {
@@ -413,7 +413,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lAether Dragon"
+			title: "&lAether Dragon"
 			x: 12.0d
 			y: 1.0d
 		}
@@ -447,7 +447,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Ghost Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Ghost Dragon Egg"
 			tasks: [{
 				id: "62B390AE6AD6E2BE"
 				item: {
@@ -468,14 +468,14 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lGhost Dragon"
+			title: "&lGhost Dragon"
 			x: 13.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To hatch the &l&5Ender Dragon&r&r Egg, simply right-click it to start the hatching process."
+				"To hatch the &l&#D2691EEnder Dragon&r&r Egg, simply right-click it to start the hatching process."
 				""
 				"You can breed or tame it by feeding it &lFish&r."
 			]
@@ -501,7 +501,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eHatch The Ender Dragon Egg"
+			subtitle: "&#8B4513Hatch The Ender Dragon Egg"
 			tasks: [{
 				id: "27C33381F5867F6A"
 				item: {
@@ -522,17 +522,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lEnder Dragon"
+			title: "&lEnder Dragon"
 			x: 9.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into an &l&dAurora Dragon&r&r Egg,"
-				"place &l&dAmethyst Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into an &l&#D2691EAurora Dragon&r&r Egg,"
+				"place &l&#D2691EAmethyst Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&dAmethyst Crystals&r&r."
+				"You can tame and breed this dragon with &l&#D2691EAmethyst Crystals&r&r."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -556,7 +556,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into an Aurora Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into an Aurora Dragon Egg"
 			tasks: [{
 				id: "16292CBD5BC65113"
 				item: {
@@ -577,17 +577,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lAurora Dragon"
+			title: "&lAurora Dragon"
 			x: 10.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into an &l&8Enchantment Dragon&r&r Egg,"
-				"place &l&8Bookshelves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into an &l&#D2691EEnchantment Dragon&r&r Egg,"
+				"place &l&#D2691EBookshelves&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&8Books&r&r."
+				"You can tame and breed this dragon with &l&#D2691EBooks&r&r."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -611,7 +611,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into an Enchantment Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into an Enchantment Dragon Egg"
 			tasks: [{
 				id: "215D48F618B209A8"
 				item: {
@@ -632,17 +632,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lEnchantment Dragon"
+			title: "&lEnchantment Dragon"
 			x: 8.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&9Storm Dragon&r&r Egg,"
-				"place &l&9Copper Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691EStorm Dragon&r&r Egg,"
+				"place &l&#D2691ECopper Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&9Copper Ingots&r&r."
+				"You can tame and breed this dragon with &l&#D2691ECopper Ingots&r&r."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -666,7 +666,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Storm Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Storm Dragon Egg"
 			tasks: [{
 				id: "63CAC81468D6ACEC"
 				item: {
@@ -687,17 +687,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lStorm Dragon"
+			title: "&lStorm Dragon"
 			x: 7.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&eSunlight Dragon&r&r Egg,"
-				"place &l&eGold Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691ESunlight Dragon&r&r Egg,"
+				"place &l&#D2691EGold Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&eGold Ingots&r&r."
+				"You can tame and breed this dragon with &l&#D2691EGold Ingots&r&r."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -721,7 +721,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Sunlight Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Sunlight Dragon Egg"
 			tasks: [{
 				id: "1EE27D5A3015B820"
 				item: {
@@ -742,17 +742,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lSunlight Dragon"
+			title: "&lSunlight Dragon"
 			x: 11.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&3Sylphid Dragon&r&r Egg,"
-				"place &l&3Prismarine Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691ESylphid Dragon&r&r Egg,"
+				"place &l&#D2691EPrismarine Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&3Prismarine Shards&r&r."
+				"You can tame and breed this dragon with &l&#D2691EPrismarine Shards&r&r."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -776,7 +776,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Sylphid Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Sylphid Dragon Egg"
 			tasks: [{
 				id: "3338960C1F492883"
 				item: {
@@ -797,17 +797,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lSylphid Dragon"
+			title: "&lSylphid Dragon"
 			x: 13.0d
 			y: 3.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&cTerra Dragon&r&r Egg,"
-				"place &l&cBrick Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691ETerra Dragon&r&r Egg,"
+				"place &l&#D2691EBrick Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&cBricks&r&r."
+				"You can tame and breed this dragon with &l&#D2691EBricks&r&r."
 			]
 			hide_until_deps_visible: true
 			icon: {
@@ -831,7 +831,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Terra Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Terra Dragon Egg"
 			tasks: [{
 				id: "66EFB7EF88CC757F"
 				item: {
@@ -852,17 +852,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lTerra Dragon"
+			title: "&lTerra Dragon"
 			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&0Wither Dragon&r&r Egg,"
-				"place &l&0Wither Skeleton Skulls&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &lWither Dragon&r&r Egg,"
+				"place &lWither Skeleton Skulls&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&0Soul Lanterns&r&r."
+				"You can tame and breed this dragon with &lSoul Lanterns&r&r."
 			]
 			icon: {
 				Count: 1
@@ -885,7 +885,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Wither Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Wither Dragon Egg"
 			tasks: [{
 				id: "4167F80AF440AEC8"
 				item: {
@@ -906,17 +906,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lWither Dragon"
+			title: "&lWither Dragon"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&2Zombie Dragon&r&r Egg,"
-				"place &l&2Iron Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691EZombie Dragon&r&r Egg,"
+				"place &l&#D2691EIron Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&2Rotten Flesh&r&r."
+				"You can tame and breed this dragon with &l&#D2691ERotten Flesh&r&r."
 			]
 			icon: {
 				Count: 1
@@ -939,7 +939,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg Into a Zombie Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg Into a Zombie Dragon Egg"
 			tasks: [{
 				id: "030C97DAE68B4C31"
 				item: {
@@ -960,15 +960,15 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lZombie Dragon"
+			title: "&lZombie Dragon"
 			x: 6.0d
 			y: 3.5d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -1001,7 +1001,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -1012,17 +1012,17 @@
 				"4245E9029CD3AE0B"
 			]
 			description: [
-				"A &aTremorzilla&r is a gigantic, resilient, player-created, and &4highly destructive&r neutral mob that can be tamed and mounted. It has a devastating energy beam attack that can kill almost any living thing in seconds and blast through the terrain."
+				"A &#D2691ETremorzilla&r is a gigantic, resilient, player-created, and &#D2691Ehighly destructive&r neutral mob that can be tamed and mounted. It has a devastating energy beam attack that can kill almost any living thing in seconds and blast through the terrain."
 				""
-				"&aTremorzilla&r are spawned by triggering a &2Nuclear Bomb&r or &2Nucleeper&r explosion on a Tremorzilla Egg and will always spawn as a baby. &aTremorzilla&r will aimlessly wander around, making heavy thumping noises, violently shaking the screen for all players on the ground within 64 blocks of it."
+				"&#D2691ETremorzilla&r are spawned by triggering a &#D2691ENuclear Bomb&r or &#D2691ENucleeper&r explosion on a Tremorzilla Egg and will always spawn as a baby. &#D2691ETremorzilla&r will aimlessly wander around, making heavy thumping noises, violently shaking the screen for all players on the ground within 64 blocks of it."
 				""
 				"{@pagebreak}"
 				""
-				"&aTremorzilla&r can be tamed by feeding it a minimum of 4 &2Waste Drums&r - once tamed, it will not accept any more. Each &2Waste Drum&r after the 4th has a 1⁄3 chance of taming the Tremorzilla. once tamed they can be controlled and mounted the same as any other mob! "
+				"&#D2691ETremorzilla&r can be tamed by feeding it a minimum of 4 &#D2691EWaste Drums&r - once tamed, it will not accept any more. Each &#D2691EWaste Drum&r after the 4th has a 1⁄3 chance of taming the Tremorzilla. once tamed they can be controlled and mounted the same as any other mob! "
 				""
-				"&aTremorzilla&r is immune to fall, fire, lava, burning, freezing and takes 100% less knockback in addition to 65% less damage from projectiles."
+				"&#D2691ETremorzilla&r is immune to fall, fire, lava, burning, freezing and takes 100% less knockback in addition to 65% less damage from projectiles."
 				""
-				"Due to its own ability to roar, a &aTremorzilla&r will not run away when a nearby Tremorsaurus or &4Luxtructosaurus&r roars. Due to its immense size, it also cannot be possessed by the Totem of Possession."
+				"Due to its own ability to roar, a &#D2691ETremorzilla&r will not run away when a nearby Tremorsaurus or &#D2691ELuxtructosaurus&r roars. Due to its immense size, it also cannot be possessed by the Totem of Possession."
 			]
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -1048,7 +1048,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&eGodjira!"
+			subtitle: "&#8B4513Godjira!"
 			tasks: [{
 				id: "5A2F798F2236CD20"
 				item: {
@@ -1062,18 +1062,18 @@
 				}
 				type: "item"
 			}]
-			title: "&a&lTremorzilla Egg"
+			title: "&lTremorzilla Egg"
 			x: 9.5d
 			y: 9.142857142857139d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Large hostile mobs found in the &2Primordial Caves&r, Tremorsaurus are fearsome apex predators and will attack any Subterranodons, Grottoceratops, or Relicheirus within a 32-block radius, in addition to any players that stay within 8 blocks of them."
+				"Large hostile mobs found in the &#D2691EPrimordial Caves&r, Tremorsaurus are fearsome apex predators and will attack any Subterranodons, Grottoceratops, or Relicheirus within a 32-block radius, in addition to any players that stay within 8 blocks of them."
 				""
-				"Tremorsaurus will follow any player that holds out &6Dinosaur Chops&r within a 6 block radius. As soon as the player puts away the Dinosaur Chops, however, they will attack."
+				"Tremorsaurus will follow any player that holds out &#D2691EDinosaur Chops&r within a 6 block radius. As soon as the player puts away the Dinosaur Chops, however, they will attack."
 				""
-				"If a Tremorsaurus gets stunned by a hit from a &6Primitive Club&r, feeding it a &aSerene Salad&r will automatically remove the effect - performing this procedure 3-8 times will tame it. Once a Tremorsaurus is tamed, it can be interacted with, controlled or mounted the same as any other mob!"
+				"If a Tremorsaurus gets stunned by a hit from a &#D2691EPrimitive Club&r, feeding it a &#D2691ESerene Salad&r will automatically remove the effect - performing this procedure 3-8 times will tame it. Once a Tremorsaurus is tamed, it can be interacted with, controlled or mounted the same as any other mob!"
 			]
 			id: "79F969F9254C17AB"
 			rewards: [
@@ -1096,7 +1096,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eJurassic World"
+			subtitle: "&#8B4513Jurassic World"
 			tasks: [{
 				id: "12B0214164A3FFBF"
 				item: {
@@ -1110,16 +1110,16 @@
 				}
 				type: "item"
 			}]
-			title: "&a&lTremorsaurus Egg"
+			title: "&lTremorsaurus Egg"
 			x: 8.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"While not tamable, &9The Hullbreaker&r &oDOES&r possess something we need if we would like to raise our own Tremorzilla, which is the &3Immortal Embryo&r."
+				"While not tamable, &#D2691EThe Hullbreaker&r &oDOES&r possess something we need if we would like to raise our own Tremorzilla, which is the &#D2691EImmortal Embryo&r."
 				""
-				"&9Hullbreakers&r are rare gigantic neutral aquatic mobs found in the &8Abyssal Chasm. "
+				"&#D2691EHullbreakers&r are rare gigantic neutral aquatic mobs found in the &#D2691EAbyssal Chasm. "
 			]
 			id: "4245E9029CD3AE0B"
 			rewards: [
@@ -1142,7 +1142,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eIf you look really close, it's actually smiling"
+			subtitle: "&#8B4513If you look really close, it's actually smiling"
 			tasks: [{
 				id: "198C43B86F01B9DF"
 				item: {
@@ -1156,22 +1156,22 @@
 				}
 				type: "item"
 			}]
-			title: "&a&lImmortal Embryo"
+			title: "&lImmortal Embryo"
 			x: 11.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"The &4Luxtructosaurus&r is a gigantic hostile boss mob that can be summoned from a volcano in the &2Primordial Caves&r. It can be spawned by dropping an Ominous Catalyst onto an active Volcanic Core."
+				"The &#D2691ELuxtructosaurus&r is a gigantic hostile boss mob that can be summoned from a volcano in the &#D2691EPrimordial Caves&r. It can be spawned by dropping an Ominous Catalyst onto an active Volcanic Core."
 				""
 				""
-				"The &4Luxtructosaurus&r is immune to fall damage, fire damage, suffocation, and it takes 100% less knockback in addition to 35% less damage from non-&aTremorzilla&r dinosaurs, 50% less damage from Iron Golems, and 75% less damage from Wardens. In addition to this, it takes 55% less damage from projectiles that hit its torso and 67% less damage from those that hit anywhere else. Upon initially taking damage, it will take 65% less of any further damage for 10 seconds."
+				"The &#D2691ELuxtructosaurus&r is immune to fall damage, fire damage, suffocation, and it takes 100% less knockback in addition to 35% less damage from non-&#D2691ETremorzilla&r dinosaurs, 50% less damage from Iron Golems, and 75% less damage from Wardens. In addition to this, it takes 55% less damage from projectiles that hit its torso and 67% less damage from those that hit anywhere else. Upon initially taking damage, it will take 65% less of any further damage for 10 seconds."
 				""
 				"{@pagebreak}"
-				"Due to its own ability to roar, the &4Luxtructosaurus&r will not run away when a nearby Tremorsaurus or &aTremorzilla&r roars. As a boss monster, it cannot be possessed by the Totem of Possession."
+				"Due to its own ability to roar, the &#D2691ELuxtructosaurus&r will not run away when a nearby Tremorsaurus or &#D2691ETremorzilla&r roars. As a boss monster, it cannot be possessed by the Totem of Possession."
 				""
-				"Once slain, it will provide the &cTectonic Shards&r needed to craft our egg."
+				"Once slain, it will provide the &#D2691ETectonic Shards&r needed to craft our egg."
 			]
 			id: "2E5E8A5099C2CF75"
 			rewards: [
@@ -1195,7 +1195,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eHarvested from it's mortal enemy"
+			subtitle: "&#8B4513Harvested from it's mortal enemy"
 			tasks: [{
 				id: "0903A9BF26ACF6CB"
 				item: {
@@ -1209,13 +1209,13 @@
 				}
 				type: "item"
 			}]
-			title: "&a&lTectonic Shard"
+			title: "&lTectonic Shard"
 			x: 9.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["Neutral flying mobs, found in &2Primordial Caves&r. Subterranodons will follow any player that holds out raw cod, cooked cod, or raw/cooked Trilocaris Tails within a 6 block radius. A Subterranodon will always walk on the ground when following players - if airborne, it will land near them. They can be tamed and used as mounts by feeding them &6Trilocaris tails&r!"]
+			description: ["Neutral flying mobs, found in &#D2691EPrimordial Caves&r. Subterranodons will follow any player that holds out raw cod, cooked cod, or raw/cooked Trilocaris Tails within a 6 block radius. A Subterranodon will always walk on the ground when following players - if airborne, it will land near them. They can be tamed and used as mounts by feeding them &#D2691ETrilocaris tails&r!"]
 			id: "1A9C36F594BA5D31"
 			rewards: [
 				{
@@ -1238,7 +1238,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&ePrimordial Cave"
+			subtitle: "&#8B4513Primordial Cave"
 			tasks: [
 				{
 					advancement: "alexscaves:alexscaves/tame_subterranodon"
@@ -1260,13 +1260,13 @@
 					type: "item"
 				}
 			]
-			title: "&a&lSubterranodon"
+			title: "&lSubterranodon"
 			x: 9.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["Found in the &dCandy Cavity&r biome,&e Candicorns&r spawn in groups of 4-6 and can be tamed with &6caramel apples&r!."]
+			description: ["Found in the &#D2691ECandy Cavity&r biome,&#D2691E Candicorns&r spawn in groups of 4-6 and can be tamed with &#D2691Ecaramel apples&r!."]
 			id: "4411722C7401E0AC"
 			rewards: [
 				{
@@ -1288,7 +1288,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCandy Cavity"
+			subtitle: "&#8B4513Candy Cavity"
 			tasks: [
 				{
 					advancement: "alexscaves:alexscaves/tame_candicorn"
@@ -1311,16 +1311,16 @@
 					type: "item"
 				}
 			]
-			title: "&a&lCandicorn"
+			title: "&lCandicorn"
 			x: 12.5d
 			y: 6.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&cLaviathans&r can be tamed by equipping both a &6straddlite saddle&r and a &estraddlite tack&r on one and while equipped with both of these are less likely to flee."
+				"&#D2691ELaviathans&r can be tamed by equipping both a &#D2691Estraddlite saddle&r and a &#D2691Estraddlite tack&r on one and while equipped with both of these are less likely to flee."
 				""
-				"Tamed &cLaviathans&r can be used to cross vast distances of lava with ease and up to four players can ride one. They can be healed with magma cream and if used on water will transform into an &5obsidian&r variant!"
+				"Tamed &#D2691ELaviathans&r can be used to cross vast distances of lava with ease and up to four players can ride one. They can be healed with magma cream and if used on water will transform into an &#D2691Eobsidian&r variant!"
 			]
 			id: "2D457AA39661120F"
 			rewards: [
@@ -1343,7 +1343,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eObserve it with a spyglass"
+			subtitle: "&#8B4513Observe it with a spyglass"
 			tasks: [
 				{
 					advancement: "alexsmobs:alexsmobs/laviathan_spyglass"
@@ -1384,10 +1384,10 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"To transform a dragon egg into a &l&3Moonlight Dragon&r&r Egg,"
-				"place &l&3Purpur Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
+				"To transform a dragon egg into a &l&#D2691EMoonlight Dragon&r&r Egg,"
+				"place &l&#D2691EPurpur Blocks&r&r in a 3x3 area under the Egg then right-click it to start the hatching process."
 				""
-				"You can tame and breed this dragon with &l&3Shulker Shells&r&r."
+				"You can tame and breed this dragon with &l&#D2691EShulker Shells&r&r."
 			]
 			id: "793067D55F22E687"
 			rewards: [{
@@ -1395,7 +1395,7 @@
 				type: "xp"
 				xp: 5
 			}]
-			subtitle: "&eTransform a Dragon Egg into a Moonlight Dragon Egg"
+			subtitle: "&#8B4513Transform a Dragon Egg into a Moonlight Dragon Egg"
 			tasks: [{
 				id: "314E846A227B215B"
 				item: {
@@ -1416,7 +1416,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "&a&lMoonlight Dragon Egg"
+			title: "&lMoonlight Dragon Egg"
 			x: 9.5d
 			y: 4.5d
 		}

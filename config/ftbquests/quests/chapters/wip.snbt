@@ -78,7 +78,7 @@
 				""
 				"You're in luck! This chapter is all about digging into the methods of entry to the highest tiers of technology, the utmost potential of magics, as well as the most powerful weaponry and armor the MCC world has to offer. "
 				""
-				"A good place to start will be upgrading the &6mechanical grid&r from 3x3 to &65x5&r allowing the crafting of more advanced machines, at least once we have access to &3ether&r, more on that in the following quests."
+				"A good place to start will be upgrading the &#D2691Emechanical grid&r from 3x3 to &#D2691E5x5&r allowing the crafting of more advanced machines, at least once we have access to &#D2691Eether&r, more on that in the following quests."
 			]
 			hide_until_deps_complete: true
 			id: "5E29948F7393675B"
@@ -96,23 +96,23 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&eHighly dependant on your definition of fun :D"
+			subtitle: "&#8B4513Highly dependant on your definition of fun :D"
 			tasks: [{
 				count: 25L
 				id: "2C508634283B7D5C"
 				item: { Count: 25, id: "create:mechanical_crafter" }
 				type: "item"
 			}]
-			title: "&6&lWelcome to the fun stuff!"
+			title: "&lWelcome to the fun stuff!"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5E29948F7393675B"]
 			description: [
-				"&3Ether gas&r is required for crafting steel casings and machine frames. Between a compacting set up fed with ether and upgraded &e5x5 mechanical grid&r, both Mekanism and Thermals machinery now becomes available to you. Once you have the machines themselves, virtually everything else about them functions as originally designed, all that has been changed is how you get them."
+				"&#D2691EEther gas&r is required for crafting steel casings and machine frames. Between a compacting set up fed with ether and upgraded &#D2691E5x5 mechanical grid&r, both Mekanism and Thermals machinery now becomes available to you. Once you have the machines themselves, virtually everything else about them functions as originally designed, all that has been changed is how you get them."
 				""
-				"Refer to the \"&6Industrial Foregoing&r\" section of \"Core Mods\" for more info!"
+				"Refer to the \"&#D2691EIndustrial Foregoing&r\" section of \"Core Mods\" for more info!"
 			]
 			id: "206BBE6C92511589"
 			rewards: [
@@ -135,19 +135,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eSmells like happy in here..."
+			subtitle: "&#8B4513Smells like happy in here..."
 			tasks: [{
 				id: "0705E8D27A85E971"
 				item: "industrialforegoing:ether_gas_bucket"
 				type: "item"
 			}]
-			title: "&6&lEther Gas Bucket"
+			title: "&lEther Gas Bucket"
 			x: -5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["206BBE6C92511589"]
-			description: ["The recipe for steel casing has been augmented to now require &3ether&r, as well as for the ingredients to be &6compacted in a heated basin&r."]
+			description: ["The recipe for steel casing has been augmented to now require &#D2691Eether&r, as well as for the ingredients to be &#D2691Ecompacted in a heated basin&r."]
 			id: "61D74FC3BD5023C6"
 			rewards: [
 				{
@@ -169,13 +169,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA little spicey here"
+			subtitle: "&#8B4513A little spicey here"
 			tasks: [{
 				id: "4490D02CF509D699"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			title: "&6&lSteel Casing"
+			title: "&lSteel Casing"
 			x: -8.0d
 			y: -0.5d
 		}
@@ -183,22 +183,22 @@
 			dependencies: ["61D74FC3BD5023C6"]
 			description: [
 				"The pressurized reaction chamber (PRC) is required for processing irradium into bars suitable for reactors. Setting up the process is no small"
-				"feat as you will not only require the PRC itself and some &2irradium&r to process, but you will also require a supply of &3sulfuric acid&r and &auranium oxide&r for the reaction."
+				"feat as you will not only require the PRC itself and some &#D2691Eirradium&r to process, but you will also require a supply of &#D2691Esulfuric acid&r and &#D2691Euranium oxide&r for the reaction."
 				""
-				"The byproduct of this reaction is &cnuclear waste&r and is NOT to be taken lightly."
+				"The byproduct of this reaction is &#D2691Enuclear waste&r and is NOT to be taken lightly."
 				""
 				"{@pagebreak}"
 				""
 				"When using nuclear fuel created by thorium, the radiation levels experienced are quite minimal. In fact you could easily destroy part of your reactor wall and just replace the blocks with little to no ill effect."
 				""
-				"&c&nTHIS IS NOT TRUE OF THE RADIATION CAUSED BY NUCLEAR WASTE&r&r "
+				"&#D2691E&nTHIS IS NOT TRUE OF THE RADIATION CAUSED BY NUCLEAR WASTE&r&r "
 				"Never break a block or pipe containing radioactive materials as a general rule:"
 				"Once you start processing irradium, other than the nuclear fuel created, none of its byproducts are safe to handle or be released by breaking the block or pipe containing it until you have crystallized it to it's pellet form. "
 				""
 				"{@pagebreak}"
 				"Waste will slowly and safely dissipate if collected in waste barrels, otherwise, the only way to safely removed processed nuclear material from your system is continuing the refinement process until you reached the ability to refine them either plutonium, polonium or the coveted antimatter pellets."
 				""
-				"&aJEI&r is your friend here, as always. Again: &6If in doubt. If it's not empty or a pellet yet it's probably not safe for you to break that block&r."
+				"&#D2691EJEI&r is your friend here, as always. Again: &#D2691EIf in doubt. If it's not empty or a pellet yet it's probably not safe for you to break that block&r."
 			]
 			id: "15CBA02058507A50"
 			rewards: [
@@ -223,13 +223,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eStarting nucelear waste management"
+			subtitle: "&#8B4513Starting nucelear waste management"
 			tasks: [{
 				id: "501BE18A63FE45EA"
 				item: "mekanism:pressurized_reaction_chamber"
 				type: "item"
 			}]
-			title: "&6&lPressurized Reaction Chamber"
+			title: "&lPressurized Reaction Chamber"
 			x: -10.0d
 			y: 2.0d
 		}
@@ -262,7 +262,7 @@
 				item: "enlightened_end:irradium_bar"
 				type: "item"
 			}]
-			title: "&6&lIrradium Bar"
+			title: "&lIrradium Bar"
 			x: -10.0d
 			y: 3.5d
 		}
@@ -295,7 +295,7 @@
 				item: "scguns:scorched_ingot"
 				type: "item"
 			}]
-			title: "&6&lScorched Ingot"
+			title: "&lScorched Ingot"
 			x: 3.5d
 			y: 2.5d
 		}
@@ -328,15 +328,15 @@
 				item: "celestisynth:celestial_netherite_ingot"
 				type: "item"
 			}]
-			title: "&6&lCelestial Netherite Ingot"
+			title: "&lCelestial Netherite Ingot"
 			x: -3.5d
 			y: 2.5d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -369,7 +369,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -415,7 +415,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lArcanite Ingot"
+			title: "&lArcanite Ingot"
 			x: -4.0d
 			y: 5.0d
 		}
@@ -461,7 +461,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lCelestrium Ingot"
+			title: "&lCelestrium Ingot"
 			x: 4.0d
 			y: 5.0d
 		}
@@ -469,7 +469,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			id: "1A09486B79BB3A91"
 			size: 1.75d
-			subtitle: "&eInfinite Munitions"
+			subtitle: "&#8B4513Infinite Munitions"
 			tasks: [{
 				id: "24FEAF2EA4CAFD50"
 				item: {
@@ -483,7 +483,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lCreative Ammo Box"
+			title: "&lCreative Ammo Box"
 			x: 3.0d
 			y: 9.964285714285715d
 		}
@@ -516,7 +516,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&eGetting to the good stuff"
+			subtitle: "&#8B4513Getting to the good stuff"
 			tasks: [{
 				id: "09A1E78E2F48D4DC"
 				item: {
@@ -530,7 +530,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lStarlit Factory"
+			title: "&lStarlit Factory"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -570,7 +570,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFound in The End"
+			subtitle: "&#8B4513Found in The End"
 			tasks: [{
 				id: "77F56CCFBC0106A6"
 				item: {
@@ -584,7 +584,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lMalachite"
+			title: "&lMalachite"
 			x: -4.5d
 			y: 2.5d
 		}
@@ -611,7 +611,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFound below Y = -4"
+			subtitle: "&#8B4513Found below Y = -4"
 			tasks: [{
 				id: "152A2B278DC036EA"
 				item: {
@@ -625,7 +625,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lLuminarchy"
+			title: "&lLuminarchy"
 			x: -2.5d
 			y: 2.5d
 		}
@@ -678,7 +678,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lStarstruck Scrap"
+			title: "&lStarstruck Scrap"
 			x: -1.5d
 			y: 2.5d
 		}
@@ -705,7 +705,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFound below Y = -4"
+			subtitle: "&#8B4513Found below Y = -4"
 			tasks: [{
 				id: "289AD214601A8439"
 				item: {
@@ -719,7 +719,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPhilolite"
+			title: "&lPhilolite"
 			x: 2.5d
 			y: 2.5d
 		}
@@ -759,7 +759,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFound in The End"
+			subtitle: "&#8B4513Found in The End"
 			tasks: [{
 				id: "7D9B0070B15C9563"
 				item: {
@@ -773,7 +773,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lBismuth Ingot"
+			title: "&lBismuth Ingot"
 			x: 4.5d
 			y: 2.5d
 		}
@@ -826,7 +826,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lNitro Powder"
+			title: "&lNitro Powder"
 			x: 1.5d
 			y: 2.5d
 		}
@@ -871,7 +871,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lMeka-Bow"
+			title: "&lMeka-Bow"
 			x: -3.5d
 			y: 13.0d
 		}
@@ -916,7 +916,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lMeka-Tana"
+			title: "&lMeka-Tana"
 			x: -7.0d
 			y: 13.0d
 		}
@@ -927,12 +927,12 @@
 				""
 				"It has been tagged in a way that allows even the herbivores to enjoy! (just tell them it's tofu or something.. idk)."
 				""
-				"Most importantly, it can be cooked into &6Eternal Steak&r. &oThis&r steak is not just &oany&r steak.. It is an &oinfinite steak&r, of course, silly."
+				"Most importantly, it can be cooked into &#D2691EEternal Steak&r. &oThis&r steak is not just &oany&r steak.. It is an &oinfinite steak&r, of course, silly."
 				""
-				"This &oinfinite steak&r is not just &oany&r infinite steak. It functions effectively the same as an infinite &dgolden apple&r."
+				"This &oinfinite steak&r is not just &oany&r infinite steak. It functions effectively the same as an infinite &#D2691Egolden apple&r."
 			]
 			id: "587A63C9A1A60104"
-			subtitle: "&eInfinite food source"
+			subtitle: "&#8B4513Infinite food source"
 			tasks: [{
 				id: "418896B7EF711868"
 				item: {
@@ -946,7 +946,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lEverlasting Beef"
+			title: "&lEverlasting Beef"
 			x: 0.0d
 			y: 8.5d
 		}
@@ -958,7 +958,7 @@
 				"Plus, trolling... there's always trolling, good for that too."
 			]
 			id: "1A56E7E473DFE5E1"
-			subtitle: "&eYou can't see me"
+			subtitle: "&#8B4513You can't see me"
 			tasks: [{
 				id: "19664B5F365A04F5"
 				item: {
@@ -972,7 +972,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lScarf of Invisibility"
+			title: "&lScarf of Invisibility"
 			x: 1.5d
 			y: 7.0d
 		}
@@ -980,7 +980,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["The chorus totem is a very special totem. Rather than just giving you a second chance form death, this totem will flat out teleport you away from danger BEFORE death, whenever you would have otherwise taken a lethal blow."]
 			id: "7C69595EA36712AE"
-			subtitle: "&eGotta go, bro"
+			subtitle: "&#8B4513Gotta go, bro"
 			tasks: [{
 				id: "042D10A6B2E34F02"
 				item: {
@@ -994,7 +994,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lChorus Totem"
+			title: "&lChorus Totem"
 			x: 1.5d
 			y: 10.0d
 		}
@@ -1002,7 +1002,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["The vampiric glove allows melee users a lifesteal buff on strike."]
 			id: "0B12849B9C82F31A"
-			subtitle: "&eThe best defence is more offence"
+			subtitle: "&#8B4513The best defence is more offence"
 			tasks: [{
 				id: "3D91920BB10586FF"
 				item: {
@@ -1016,7 +1016,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lVampiric Glove"
+			title: "&lVampiric Glove"
 			x: 0.5d
 			y: 9.5d
 		}
@@ -1024,7 +1024,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["Useful for quickly negating negative status effects!"]
 			id: "2E8A7CFF375D0125"
-			subtitle: "&ePretty sure it's just pepto bismol..."
+			subtitle: "&#8B4513Pretty sure it's just pepto bismol..."
 			tasks: [{
 				id: "036BD4D29EEA1EB5"
 				item: {
@@ -1038,7 +1038,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAntidote Vessel"
+			title: "&lAntidote Vessel"
 			x: 2.5d
 			y: 7.5d
 		}
@@ -1046,7 +1046,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			description: ["Rainbow coal can be used to smelt A LOT of items per chunk used."]
 			id: "45D55F099A2FED2F"
-			subtitle: "&eNot quite infinite"
+			subtitle: "&#8B4513Not quite infinite"
 			tasks: [{
 				id: "674DA3E0EA204C00"
 				item: {
@@ -1060,7 +1060,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lRainbow Coal"
+			title: "&lRainbow Coal"
 			x: 3.0d
 			y: 8.5d
 		}
@@ -1101,7 +1101,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPlutonium Pellet"
+			title: "&lPlutonium Pellet"
 			x: -11.0d
 			y: 5.0d
 		}
@@ -1142,7 +1142,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lPolonium Pellet"
+			title: "&lPolonium Pellet"
 			x: -9.0d
 			y: 5.0d
 		}
@@ -1187,7 +1187,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAntimatter Pellet"
+			title: "&lAntimatter Pellet"
 			x: -10.0d
 			y: 7.0d
 		}
@@ -1207,7 +1207,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lEnergy Arrows Unit"
+			title: "&lEnergy Arrows Unit"
 			x: -3.0d
 			y: 17.0d
 		}
@@ -1227,7 +1227,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lDraw Speed Unit"
+			title: "&lDraw Speed Unit"
 			x: -4.5d
 			y: 17.0d
 		}
@@ -1247,7 +1247,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lAuto Fire Unit"
+			title: "&lAuto Fire Unit"
 			x: -6.0d
 			y: 17.0d
 		}
@@ -1270,7 +1270,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lGravity Dampener Unit"
+			title: "&lGravity Dampener Unit"
 			x: -7.5d
 			y: 17.0d
 		}
@@ -1278,7 +1278,7 @@
 			dependencies: ["5408F21008F2B15F"]
 			id: "194F32052F90240A"
 			size: 1.5d
-			subtitle: "&eCreative stress relief"
+			subtitle: "&#8B4513Creative stress relief"
 			tasks: [{
 				id: "00AECA8F4259AA5B"
 				item: {
@@ -1292,7 +1292,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lCreative Blaze Cake"
+			title: "&lCreative Blaze Cake"
 			x: 1.75d
 			y: 8.75d
 		}
@@ -1338,7 +1338,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lNumismatic Dynamo"
+			title: "&lNumismatic Dynamo"
 			x: -7.0d
 			y: 5.25d
 		}
@@ -1371,7 +1371,7 @@
 				}
 			]
 			size: 3.0d
-			subtitle: "Induction Smelter"
+			subtitle: "&#8B4513Induction Smelter"
 			tasks: [{
 				id: "6AEA84C190B2D635"
 				item: {
@@ -1385,7 +1385,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lDraconium Ingot"
+			title: "&lDraconium Ingot"
 			x: 4.5d
 			y: 15.75d
 		}
@@ -1426,7 +1426,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lMachine Frame"
+			title: "&lMachine Frame"
 			x: -5.5d
 			y: 3.5d
 		}
@@ -1468,7 +1468,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lInduction Smelter"
+			title: "&lInduction Smelter"
 			x: -5.392857142857146d
 			y: 7.464285714285715d
 		}
@@ -1477,13 +1477,13 @@
 			description: [
 				"Draconium Cores are formed within an Imbuement Chamber using"
 				""
-				"4 &5Draconium Ingots&r"
-				"2 &3Hellforged Ingots&r"
-				"2 &dElementium Ingots&r "
-				"And 1 &6Dragon Egg&r."
+				"4 &#D2691EDraconium Ingots&r"
+				"2 &#D2691EHellforged Ingots&r"
+				"2 &#D2691EElementium Ingots&r "
+				"And 1 &#D2691EDragon Egg&r."
 				""
 				""
-				"You will want a very productive &dsource farm&r if you plan for advancing past this point and into &8Draconic Evolution&r."
+				"You will want a very productive &#D2691Esource farm&r if you plan for advancing past this point and into &#D2691EDraconic Evolution&r."
 			]
 			id: "48D9A81E2A9CB3F5"
 			rewards: [
@@ -1507,7 +1507,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Imbuement"
+			subtitle: "&#8B4513Imbuement"
 			tasks: [{
 				id: "4247EF242D5E42DC"
 				item: {
@@ -1521,7 +1521,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lDraconium Core"
+			title: "&lDraconium Core"
 			x: 0.0d
 			y: 20.0d
 		}
@@ -1575,7 +1575,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lWyvern Core"
+			title: "&lWyvern Core"
 			x: 3.0d
 			y: 22.0d
 		}
@@ -1673,7 +1673,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&l2x Draconium Fusion Crafting Injector"
+			title: "&l2x Draconium Fusion Crafting Injector"
 			x: -1.5d
 			y: 21.0d
 		}
@@ -1740,7 +1740,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lFusion Crafting Core"
+			title: "&lFusion Crafting Core"
 			x: 0.0d
 			y: 22.0d
 		}
@@ -1808,7 +1808,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lDraconic Core"
+			title: "&lDraconic Core"
 			x: 3.0d
 			y: 24.5d
 		}
@@ -1866,7 +1866,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lChaotic Core"
+			title: "&lChaotic Core"
 			x: 3.0d
 			y: 26.0d
 		}
@@ -1922,7 +1922,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lWyvern Fusion Crafting Injector"
+			title: "&lWyvern Fusion Crafting Injector"
 			x: -3.0d
 			y: 22.0d
 		}
@@ -1979,7 +1979,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lDraconic Fusion Crafting Injector"
+			title: "&lDraconic Fusion Crafting Injector"
 			x: -3.0d
 			y: 24.5d
 		}
@@ -2036,7 +2036,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lChaotic Fusion Crafting Injector"
+			title: "&lChaotic Fusion Crafting Injector"
 			x: -3.0d
 			y: 26.0d
 		}
@@ -2076,7 +2076,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lDraconic Reactor Core"
+			title: "&lDraconic Reactor Core"
 			x: 1.5d
 			y: 27.5d
 		}
@@ -2117,7 +2117,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lReactor Stabilizer"
+			title: "&lReactor Stabilizer"
 			x: -1.5d
 			y: 27.5d
 		}
@@ -2158,7 +2158,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lChaos Shard"
+			title: "&lChaos Shard"
 			x: 0.0d
 			y: 26.0d
 		}
@@ -2199,7 +2199,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lScorched Blueprint"
+			title: "&lScorched Blueprint"
 			x: -3.75d
 			y: 7.5d
 		}

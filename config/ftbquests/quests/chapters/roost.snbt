@@ -24,11 +24,11 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&l&cRoost Ultimate&r&r is a comprehensive expansion for Minecraft that opens up a new dimension of chicken breeding and resource production. Immerse yourself in a world of diverse chicken breeds, experiment with breeding, and optimize your resource yield. Enjoy the challenges and rewards this mod brings, and experience the game in a whole new way."
+				"&l&#D2691ERoost Ultimate&r&r is a comprehensive expansion for Minecraft that opens up a new dimension of chicken breeding and resource production. Immerse yourself in a world of diverse chicken breeds, experiment with breeding, and optimize your resource yield. Enjoy the challenges and rewards this mod brings, and experience the game in a whole new way."
 				""
-				"Let’s start by crafting the &d&lRoost Ultimate Book&r&r, your starter guide for diving into the mod. Some basic chickens naturally spawn in specific biomes, and the last page of the book provides information on where different chickens can be found in the world."
+				"Let’s start by crafting the &#D2691E&lRoost Ultimate Book&r&r, your starter guide for diving into the mod. Some basic chickens naturally spawn in specific biomes, and the last page of the book provides information on where different chickens can be found in the world."
 				""
-				"Aside from the &l&6Chicken Stick-Wrench&r&r looking cool in your hand, it’s the primary tool used to pick up any chickens you find while exploring. Craft one and get ready to chase down some chickens!"
+				"Aside from the &l&#D2691EChicken Stick-Wrench&r&r looking cool in your hand, it’s the primary tool used to pick up any chickens you find while exploring. Craft one and get ready to chase down some chickens!"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -56,13 +56,13 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&eI'm not counting any chickens."
+			subtitle: "&#8B4513I'm not counting any chickens."
 			tasks: [{
 				id: "74E31978507842CB"
 				item: "chicken_roost:chicken_stick"
 				type: "item"
 			}]
-			title: "&6&lDon't count your chickens before they hatch!"
+			title: "&lDon't count your chickens before they hatch!"
 			x: 0.0d
 			y: -4.5d
 		}
@@ -72,7 +72,7 @@
 				"4386DFA29FCEDD4D"
 				"517B276D1D59EC02"
 			]
-			description: ["Catch your first vanilla chicken using the &6&lChicken Stick&r&r. Vanilla chickens are essential for crafting the &l&eBreeder&r&r block, which is the core of the Roost Ultimate mod. Most of your chicken breeding will be done inside the Breeder to obtain all types of chickens from Tier 1 to Tier 9."]
+			description: ["Catch your first vanilla chicken using the &#D2691E&lChicken Stick&r&r. Vanilla chickens are essential for crafting the &l&#D2691EBreeder&r&r block, which is the core of the Roost Ultimate mod. Most of your chicken breeding will be done inside the Breeder to obtain all types of chickens from Tier 1 to Tier 9."]
 			hide_until_deps_visible: true
 			id: "6C435C7136BA92C9"
 			rewards: [{
@@ -80,7 +80,7 @@
 				type: "xp"
 				xp: 3
 			}]
-			subtitle: "&eWow.. did you think those were useless now?"
+			subtitle: "&#8B4513Wow.. did you think those were useless now?"
 			tasks: [{
 				count: 4L
 				id: "2240C5574AAAE67B"
@@ -91,7 +91,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lCatch your first vanilla chicken!"
+			title: "&lCatch your first vanilla chicken!"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -103,19 +103,19 @@
 				"517B276D1D59EC02"
 			]
 			description: [
-				"A simple Roost setup consists of at least &l&91 Roost, 1 Breeder, and 1 Trainer."
+				"A simple Roost setup consists of at least &l&#D2691E1 Roost, 1 Breeder, and 1 Trainer."
 				""
 				"Craft 1 of each to get started (again, JEI is your best friend)."
 				""
-				"&l&cBreeder&r&r: The Breeder allows you to create new chicken breeds. Each chicken variant has its own resource outputs, such as feathers, iron, or gold. Experiment with the Breeder to obtain the perfect chickens for your needs. Open the Breeder, input a chicken and some seeds to start the breeding process. Each tier of chickens requires a specific tier of chicken seeds for breeding, so check the third page of your &l&dRoost Ultimate Book&r&r for more information!"
+				"&l&#D2691EBreeder&r&r: The Breeder allows you to create new chicken breeds. Each chicken variant has its own resource outputs, such as feathers, iron, or gold. Experiment with the Breeder to obtain the perfect chickens for your needs. Open the Breeder, input a chicken and some seeds to start the breeding process. Each tier of chickens requires a specific tier of chicken seeds for breeding, so check the third page of your &l&#D2691ERoost Ultimate Book&r&r for more information!"
 				""
 				"{@pagebreak}"
 				""
-				"&l&cRoost&r&r: This special chicken coop offers resource production. Chickens in the Roost not only produce typical resources like eggs and feathers but can also generate &4&nhigh-quality&r&r materials such as iron, gemstones, or magical items. Utilize these resources to craft powerful tools, armor, and items. Open the Roost, input a chicken and some chicken seeds to start resource production. Similar to the Breeder, each tier of chickens requires a specific tier of chicken seeds for resource production, so check the fourth page of your &l&dRoost Ultimate Book&r&r for more information!"
+				"&l&#D2691ERoost&r&r: This special chicken coop offers resource production. Chickens in the Roost not only produce typical resources like eggs and feathers but can also generate &#D2691E&nhigh-quality&r&r materials such as iron, gemstones, or magical items. Utilize these resources to craft powerful tools, armor, and items. Open the Roost, input a chicken and some chicken seeds to start resource production. Similar to the Breeder, each tier of chickens requires a specific tier of chicken seeds for resource production, so check the fourth page of your &l&#D2691ERoost Ultimate Book&r&r for more information!"
 				""
 				"{@pagebreak}"
 				""
-				"&l&3Trainer&r&r: The Trainer is used to level up your chickens and improve their statistics, allowing them to produce more resources, faster. You may have already noticed that each chicken seed provides some extra XP; that XP is used to train your chickens. Unlike the Breeder and Roost, you can use any tier of seeds for any tier of chickens. However, the higher the seed tier, the more XP it provides, and the faster the leveling process is. All chickens &lMAX&r out at &l&6Level 60&r&r, but each tier requires a different amount of XP to level up—the higher the tier, the more XP is required."
+				"&l&#D2691ETrainer&r&r: The Trainer is used to level up your chickens and improve their statistics, allowing them to produce more resources, faster. You may have already noticed that each chicken seed provides some extra XP; that XP is used to train your chickens. Unlike the Breeder and Roost, you can use any tier of seeds for any tier of chickens. However, the higher the seed tier, the more XP it provides, and the faster the leveling process is. All chickens &lMAX&r out at &l&#D2691ELevel 60&r&r, but each tier requires a different amount of XP to level up—the higher the tier, the more XP is required."
 			]
 			hide_until_deps_visible: true
 			id: "2F4EC3771D41D693"
@@ -132,7 +132,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eCraft the main blocks needed to get started!"
+			subtitle: "&#8B4513Craft the main blocks needed to get started!"
 			tasks: [
 				{
 					id: "2839CBD0D5D01E8E"
@@ -150,7 +150,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lCreate your first Roost setup"
+			title: "&lCreate your first Roost setup"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -163,13 +163,13 @@
 			description: [
 				"Chickens have different tiers depending on the type of resources they can produce. Chickens of higher tiers can provide more valuable resources that are harder to obtain or belong in the end-game."
 				""
-				"Find any &l&cTier 1 Chicken&r&r by picking it up with your Chicken Stick, then craft a &lSoul Extractor&r."
+				"Find any &l&#D2691ETier 1 Chicken&r&r by picking it up with your Chicken Stick, then craft a &lSoul Extractor&r."
 				""
-				"A &lSoul Extractor&r, as the name suggests, is used to extract different tiers of souls from chickens. Each chicken soul is used to craft a different tier of chicken seeds (JEI is your best friend) and for &6Soul Breeding&r. But don’t get ahead of yourself—let's take baby steps for now."
+				"A &lSoul Extractor&r, as the name suggests, is used to extract different tiers of souls from chickens. Each chicken soul is used to craft a different tier of chicken seeds (JEI is your best friend) and for &#D2691ESoul Breeding&r. But don’t get ahead of yourself—let's take baby steps for now."
 				""
-				"Place your &lSoul Extractor&r down, open it, and input your &l&cTier 1 chicken&r&r. After a few seconds, the soul will be extracted, and you will have a &l&cChicken Soul Tier 1&r&r. Combine it with some wheat seeds in a crafting table to get &l&cChicken Seeds Tier 1&r&r."
+				"Place your &lSoul Extractor&r down, open it, and input your &l&#D2691ETier 1 chicken&r&r. After a few seconds, the soul will be extracted, and you will have a &l&#D2691EChicken Soul Tier 1&r&r. Combine it with some wheat seeds in a crafting table to get &l&#D2691EChicken Seeds Tier 1&r&r."
 				""
-				"&lChicken Seeds&r are crucial—without them, you CAN'T breed, train, or even produce resources with your chickens. Don’t worry though; you don't need to repeat this process for every handful of seeds. The great thing about all tiers of chicken seeds is that you can grow and harvest them in &l&eBotany Pots&r&r for more seeds and souls of the same tier. Now you no longer have any reason to harm those poor chickens for their souls—you cruel monster. Isn’t that amazing! C:"
+				"&lChicken Seeds&r are crucial—without them, you CAN'T breed, train, or even produce resources with your chickens. Don’t worry though; you don't need to repeat this process for every handful of seeds. The great thing about all tiers of chicken seeds is that you can grow and harvest them in &l&#D2691EBotany Pots&r&r for more seeds and souls of the same tier. Now you no longer have any reason to harm those poor chickens for their souls—you cruel monster. Isn’t that amazing! C:"
 			]
 			hide_until_deps_visible: true
 			id: "01079DE692B0FDC1"
@@ -185,7 +185,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eChicken Souls and Chicken Seeds"
+			subtitle: "&#8B4513Chicken Souls and Chicken Seeds"
 			tasks: [
 				{
 					id: "501B108899C439F3"
@@ -215,7 +215,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTaking your first steps"
+			title: "&lTaking your first steps"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -227,7 +227,7 @@
 			]
 			description: [
 				"Now that you have learnt the basics, it is time to start looking into obtaining chickens of higher tiers."
-				"Obtain a &l&9Tier 2 Chicken&r&r to be able to extract a &l&9Tier 2 Chicken Soul&r&r and make some &l&9Tier 2 Chicken Seeds&r&r."
+				"Obtain a &l&#D2691ETier 2 Chicken&r&r to be able to extract a &l&#D2691ETier 2 Chicken Soul&r&r and make some &l&#D2691ETier 2 Chicken Seeds&r&r."
 			]
 			hide_until_deps_visible: true
 			id: "1A4AD68A9B4E4694"
@@ -244,7 +244,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 2 everything"
+			subtitle: "&#8B4513Tier 2 everything"
 			tasks: [
 				{
 					id: "663AC8264CE1A122"
@@ -269,7 +269,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 2 Chickens"
+			title: "&lTier 2 Chickens"
 			x: 4.0d
 			y: -3.0d
 		}
@@ -279,7 +279,7 @@
 				"1A4AD68A9B4E4694"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&2Tier 3 Chicken&r&r to be able to extract a &l&2Tier 3 Chicken Soul&r&r and make some &l&2Tier 3 Chicken Seeds&r&r."]
+			description: ["Obtain a &l&#D2691ETier 3 Chicken&r&r to be able to extract a &l&#D2691ETier 3 Chicken Soul&r&r and make some &l&#D2691ETier 3 Chicken Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "5F88C2724BD3710D"
 			rewards: [
@@ -295,7 +295,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 3 everything"
+			subtitle: "&#8B4513Tier 3 everything"
 			tasks: [
 				{
 					id: "057E8B8DE184F374"
@@ -320,7 +320,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 3 Chicken"
+			title: "&lTier 3 Chicken"
 			x: 4.0d
 			y: -0.5d
 		}
@@ -330,7 +330,7 @@
 				"5F88C2724BD3710D"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&eTier 4 Chicken&r&r to be able to extract a &l&eTier 4 Chicken Soul&r&r and make some &l&eTier 4 Chicken Seeds&r&r."]
+			description: ["Obtain a &l&#D2691ETier 4 Chicken&r&r to be able to extract a &l&#D2691ETier 4 Chicken Soul&r&r and make some &l&#D2691ETier 4 Chicken Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "3FD822D14A220FDF"
 			rewards: [
@@ -346,7 +346,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 4 everything"
+			subtitle: "&#8B4513Tier 4 everything"
 			tasks: [
 				{
 					id: "5A5CFA2B04F6EBC8"
@@ -371,7 +371,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 4 Chicken"
+			title: "&lTier 4 Chicken"
 			x: 3.5d
 			y: 2.5d
 		}
@@ -381,7 +381,7 @@
 				"3FD822D14A220FDF"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&3Tier 5 Chicken&r&r to be able to extract a &l&3Tier 5 Chicken Soul&r&r and make some &l&3Tier 5 Chicken Seeds&r&r."]
+			description: ["Obtain a &l&#D2691ETier 5 Chicken&r&r to be able to extract a &l&#D2691ETier 5 Chicken Soul&r&r and make some &l&#D2691ETier 5 Chicken Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "672BFCAB5B703608"
 			rewards: [
@@ -396,7 +396,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 5 everything"
+			subtitle: "&#8B4513Tier 5 everything"
 			tasks: [
 				{
 					count: 2L
@@ -423,7 +423,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 5 Chicken"
+			title: "&lTier 5 Chicken"
 			x: 2.5d
 			y: 5.0d
 		}
@@ -433,7 +433,7 @@
 				"672BFCAB5B703608"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&cTier 6 Chicken&r&r to be able to extract a &l&cTier 6 Chicken Soul&r&r and make some &l&cTier 6 Chicken Seeds&r&r."]
+			description: ["Obtain a &l&#D2691ETier 6 Chicken&r&r to be able to extract a &l&#D2691ETier 6 Chicken Soul&r&r and make some &l&#D2691ETier 6 Chicken Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "1A675526ABF1871F"
 			rewards: [
@@ -448,7 +448,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 6 everything"
+			subtitle: "&#8B4513Tier 6 everything"
 			tasks: [
 				{
 					count: 3L
@@ -475,7 +475,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 6 Chicken"
+			title: "&lTier 6 Chicken"
 			x: -2.5d
 			y: 5.0d
 		}
@@ -485,7 +485,7 @@
 				"1A675526ABF1871F"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&7Tier 7 Chicken&r&r to be able to extract a &l&7Tier 7 Chicken Soul&r&r and make some &l&7Tier 7 Chicken Seeds&r&r."]
+			description: ["Obtain a &l&#D2691ETier 7 Chicken&r&r to be able to extract a &l&#D2691ETier 7 Chicken Soul&r&r and make some &l&#D2691ETier 7 Chicken Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "389A22E99EF7CCF6"
 			rewards: [
@@ -500,7 +500,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 7 everything"
+			subtitle: "&#8B4513Tier 7 everything"
 			tasks: [
 				{
 					count: 4L
@@ -527,7 +527,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 7 Chicken"
+			title: "&lTier 7 Chicken"
 			x: -3.5d
 			y: 2.5d
 		}
@@ -537,7 +537,7 @@
 				"389A22E99EF7CCF6"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&2Tier 8 Chicken&r&r to be able to extract a &l&2Tier 8 Chicken Soul&r&r and make some &l&2Tier 8 Chicken Seeds&r&r."]
+			description: ["Obtain a &l&#D2691ETier 8 Chicken&r&r to be able to extract a &l&#D2691ETier 8 Chicken Soul&r&r and make some &l&#D2691ETier 8 Chicken Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "64D6890763153102"
 			rewards: [
@@ -552,7 +552,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eTier 8 everything"
+			subtitle: "&#8B4513Tier 8 everything"
 			tasks: [
 				{
 					count: 4L
@@ -579,7 +579,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 8 Chicken"
+			title: "&lTier 8 Chicken"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -589,7 +589,7 @@
 				"64D6890763153102"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&5Tier 9 Chicken&r&r to be able to extract a &l&5Tier 9 Chicken Soul&r&r and make some &l&5Tier 9 Chicken Seeds&r&r."]
+			description: ["Obtain a &l&#D2691ETier 9 Chicken&r&r to be able to extract a &l&#D2691ETier 9 Chicken Soul&r&r and make some &l&#D2691ETier 9 Chicken Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "477692F18537EC03"
 			rewards: [
@@ -604,7 +604,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eYou made it to the last Tier! :D"
+			subtitle: "&#8B4513You made it to the last Tier! :D"
 			tasks: [
 				{
 					count: 4L
@@ -631,7 +631,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lTier 9 Chicken"
+			title: "&lTier 9 Chicken"
 			x: -4.0d
 			y: -3.0d
 		}
@@ -642,11 +642,11 @@
 				"517B276D1D59EC02"
 			]
 			description: [
-				"Now that you have obtained the 6 Tiers of Chicken Souls, you can craft a &l&6Soul Breeder&r&r!"
+				"Now that you have obtained the 6 Tiers of Chicken Souls, you can craft a &l&#D2691ESoul Breeder&r&r!"
 				""
-				"Do you have a chicken that you want another of, but you don’t feel like going through the tiring process of basic breeding and all the extra steps? The &l&6Soul Breeder&r&r has got you covered!"
+				"Do you have a chicken that you want another of, but you don’t feel like going through the tiring process of basic breeding and all the extra steps? The &l&#D2691ESoul Breeder&r&r has got you covered!"
 				""
-				"Input any chicken into the Soul Breeder along with a Chicken Soul that is &n&ethe same tier as the chicken or a tier higher&r&r to soul breed it and obtain a second chicken of the same type!"
+				"Input any chicken into the Soul Breeder along with a Chicken Soul that is &n&#D2691Ethe same tier as the chicken or a tier higher&r&r to soul breed it and obtain a second chicken of the same type!"
 			]
 			hide_until_deps_visible: true
 			id: "32E228C76C3960C3"
@@ -663,21 +663,21 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&eHey you.. wanna dupe some chickens? *wink*"
+			subtitle: "&#8B4513Hey you.. wanna dupe some chickens? *wink*"
 			tasks: [{
 				id: "0DE909BC796EB9B3"
 				item: "chicken_roost:soul_breeder"
 				type: "item"
 			}]
-			title: "&6&lSoul Breeder"
+			title: "&lSoul Breeder"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -710,7 +710,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

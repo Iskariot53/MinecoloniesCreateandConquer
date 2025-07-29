@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&c&lSophisticated Backpacks&r&r is a backpack mod (obviously) with backpacks that you can place in the world, color in different color combinations, upgrade with more inventory slots and enhance with many functional upgrades."
+				"&#D2691E&lSophisticated Backpacks&r&r is a backpack mod (obviously) with backpacks that you can place in the world, color in different color combinations, upgrade with more inventory slots and enhance with many functional upgrades."
 				""
-				"When your backpack is in your &ninventory&r, your &nchestplate&r or your &n\"Back\" Curio slot&r, you can access it using a key press (&cby default B&r)."
+				"When your backpack is in your &ninventory&r, your &nchestplate&r or your &n\"Back\" Curio slot&r, you can access it using a key press (&#D2691Eby default B&r)."
 			]
 			hide_dependency_lines: false
 			hide_until_deps_complete: true
@@ -62,7 +62,7 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "Your first backpack"
+			subtitle: "&#8B4513Your first backpack"
 			tasks: [{
 				id: "7C354F1BD3AAF2C0"
 				type: "checkmark"
@@ -74,10 +74,10 @@
 		{
 			dependencies: ["1A37DEDF6AA33C72"]
 			description: [
-				"You can &l&ccolor&r&r your backpack in the crafting table similar to &ncoloring leather armor&r, except backpacks can have &ctwo&r colors - &emain&r and &eaccent&r!"
-				"Dyes to the &cleft&r of the backpack in the crafting grid apply to the &cmain&r color. Dyes to the &cright&r of the backpack apply to the &caccent&r color. Dyes in the &csame column&r as the backpack apply to &cboth main and accent&r."
+				"You can &l&#D2691Ecolor&r&r your backpack in the crafting table similar to &ncoloring leather armor&r, except backpacks can have &#D2691Etwo&r colors - &#D2691Emain&r and &#D2691Eaccent&r!"
+				"Dyes to the &#D2691Eleft&r of the backpack in the crafting grid apply to the &#D2691Emain&r color. Dyes to the &#D2691Eright&r of the backpack apply to the &#D2691Eaccent&r color. Dyes in the &#D2691Esame column&r as the backpack apply to &#D2691Eboth main and accent&r."
 				""
-				"Once the backpack is dyed, you can continue adding dyes which combine the current main, accent or both colors. You can &cwash away&r the color from any dyed backpack by holding it in your main hand and clicking with it on a &ccauldron with water&r."
+				"Once the backpack is dyed, you can continue adding dyes which combine the current main, accent or both colors. You can &#D2691Ewash away&r the color from any dyed backpack by holding it in your main hand and clicking with it on a &#D2691Ecauldron with water&r."
 			]
 			hide_dependency_lines: false
 			icon: {
@@ -2002,8 +2002,8 @@
 		{
 			dependencies: ["1A37DEDF6AA33C72"]
 			description: [
-				"&c&lSophisticated Backpacks&r&r have a &lTON&r of useful and functional upgrades that you can mix and match to satisfy your different needs."
-				"Each upgrade requires an &c&lUpgrade Base&r&r in its crafting recipe."
+				"&#D2691E&lSophisticated Backpacks&r&r have a &lTON&r of useful and functional upgrades that you can mix and match to satisfy your different needs."
+				"Each upgrade requires an &#D2691E&lUpgrade Base&r&r in its crafting recipe."
 			]
 			hide_dependency_lines: false
 			id: "00B9671338E0E8A4"
@@ -2048,9 +2048,9 @@
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -2083,7 +2083,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

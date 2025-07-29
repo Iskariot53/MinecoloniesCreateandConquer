@@ -25,37 +25,37 @@
 	quests: [
 		{
 			description: [
-				"                                 &9Minecolonies&r "
-				"                            &6Create and Conquer&r"
+				"                                 &#D2691EMinecolonies&r "
+				"                            &#D2691ECreate and Conquer&r"
 				""
-				"&0Thank you for taking the time to download and enjoy our modpack! We've spent many years encountering and enjoying so   many different mods from all over the Minecraft world. Some good, some great, however here is a small collection of some of our favorites. We hope you love playing it just as much as we      loved making it.&r "
-				""
-				"{@pagebreak}"
-				"&0   We know, we know... Enough with the formalities, and onto the good stuff!&r"
+				"  Thank you for taking the time to download and enjoy our          modpack! We've spent many years encountering and enjoying      so many different mods from all over the Minecraft world. Some   good, some great, however here is a small collection of some of  our favorites. We hope you love playing it just as much as we     loved making it. "
 				""
 				"{@pagebreak}"
-				""
-				"&0This Modpack is carefully designed to COMPLETELY overhaul the Minecraft experience. From custom biome generation to full on dimensional overhauls. A completely overhauled combat mechanics system, including the ability to wield new weapon types and classes like pole arms and two-handed weapons, as well as    utilize new special and combo moves! Last but not least, many... MANY bosses and dungeons.&r &6Create Numismatics&r &0introduces an in-game economy players can use to purchase goods and services from other players or if going it solo, in the             \"&r&2Quest Shop&r&0\" chapter of this quest book.&r "
-				""
-				"{@pagebreak}"
-				" &0Capsules can be crafted and used to move your builds and        most animals are tamable. Find a place to get started and enjoy!&r"
+				"  We know, we know... Enough with the formalities, and onto the       good stuff!"
 				""
 				"{@pagebreak}"
-				"&0In case you can't decide what to do, a few of the starter quest options may help introduce you to the swing of things.  "
-				"&0Otherwise the best advice you can follow is this, and follow along very carefully:&r"
+				""
+				"  This Modpack is carefully designed to COMPLETELY overhaul      the Minecraft experience. From custom biome generation to full   on dimensional overhauls. A completely overhauled combat          mechanics system, including the ability to wield new weapon types  and classes like pole arms and two-handed weapons, as well as   utilize new special and combo moves! Last but not least, many...     MANY bosses and dungeons. &#D2691ECreate Numismatics&r introduces an     in-game economy players can use to purchase goods and          services from other players or if going it solo, in the               \"&#D2691EQuest Shop&r\" chapter of this quest book. "
 				""
 				"{@pagebreak}"
-				"&0\"As with any good story, the best place to start, is at the beginning. Begin at the beginning and go along 'til you come to the end. Then stop.\"&r"
+				"  Capsules can be crafted and used to move your builds and       most animals are tamable. Find a place to get started and           enjoy!"
+				""
+				"{@pagebreak}"
+				"  In case you can't decide what to do, a few of the starter         quest options may help introduce you to the swing of things.  "
+				" Otherwise the best advice you can follow is this, and follow        along very carefully:"
+				""
+				"{@pagebreak}"
+				"  \"As with any good story, the best place to start, is at the         beginning. Begin at the beginning and go along 'til you come to     the end. Then stop.\""
 				""
 				""
 				"                                             "
 				"                                                                     "
 				""
-				"                  &6&lMinecolonies - &eCreate and Conquer&r&r                                                                  &9Development Team:&r"
-				"                                                            &0Cuetsu&r                                                                          &0Iskariot053&r"
-				"                                                            &0Ogredude&r                                                                       &0grimmspark123&r"
-				"                                                            &0ZBGT&r                                                                             &0FailoFishy&r"
-				"                                                            &0GrooveypenguinX&r"
+				"                  &#D2691E&lMinecolonies - Create and Conquer&r                                                                  &#D2691EDevelopment Team:&r"
+				"                                                            Cuetsu&r                                                                          Iskariot053&r"
+				"                                                            Ogredude&r                                                                       grimmspark123&r"
+				"                                                            ZBGT&r                                                                             FailoFishy&r"
+				"                                                            GrooveypenguinX&r"
 				"                                                                "
 			]
 			icon: {
@@ -90,22 +90,22 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&eYou will learn how to unlock the few chapters of the quest book which remain locked, when this chapter is completed."
+			subtitle: "&#8B4513You will learn how to unlock the few chapters of the quest book which remain locked, when this chapter is completed."
 			tasks: [{
 				id: "4043FC396208C343"
 				title: "Create and Conquer The World!"
 				type: "checkmark"
 			}]
-			title: "&6&lWelcome to Minecolonies - &e&lCreate and Conquer!"
+			title: "&lWelcome to MineColonies - Create and Conquer!"
 			x: -0.5d
 			y: -12.607142857142858d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&0This is it.... the only free one you're gonna get... Accidents happen or sometimes that ability just isn't as cool as it sounded... we get it. Here's one  free Orb of Origins to repick your origins should you feel the need. We suggest holding onto it for now regardless, you never know, you may end up changing your mind one day.&r"
+				"  This is it.... the only free one you're    gonna get... Accidents happen or         sometimes that ability just isn't as        cool as it sounded... we get it. Here's     one free Orb of Origins to repick        your origins should you feel the need.  We suggest holding onto it for now       regardless, you never know, you may   end up changing your mind one day."
 				""
-				"&0You will have the opportunity to buy more via the \"Quest Shop\" soon enough, but for now, this is it. Use it wisely&r"
+				"  You will have the opportunity to buy    more via the \"Quest Shop\" soon           enough, but for now, this is it. Use it     wisely"
 			]
 			icon: {
 				Count: 1
@@ -150,10 +150,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNo more freebies!"
+			subtitle: "&#8B4513No more freebies!"
 			tasks: [{
 				id: "6184AC9EF7FAB977"
-				title: "&6&l\"Origin\"al Mistakes"
+				title: "&l\"Origin\"al Mistakes"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -161,7 +161,7 @@
 		}
 		{
 			dependencies: ["613C7011A8A8033C"]
-			description: ["Use a supply camp or supply ship to get many of the early huts and resources associated with MineColonies, such as the build tool and town hall. However, on many servers, these items are banned, which can make getting started a bit different than normal. Use a build tool to place your town hall, found your colony, and then place and &9build the builder’s hut FIRST.&r Then have your builder construct the town hall. All buildings and the levels to which they can be upgraded within a colony are directly dependent on the builder and the builder’s hut level, so you need a level 1 builder’s hut to build your level 1 town hall, houses, etc. This trend will continue throughout the mod’s progression. The Tavern has a max level of 3, but most, if not all, other huts can be upgraded to 5, provided there is a level 5 builder to build/upgrade it."]
+			description: ["  Use a supply camp or supply ship to      get many of the early huts and             resources associated with MineColonies,   such as the build tool and town hall.       However, on many servers, these items    are banned, which can make getting         started a bit different than normal. Use   a build tool to place your town hall,        found your colony, and then place and    &#D2691Ebuild the builder’s hut FIRST.&r Then have   your builder construct the town hall. All  buildings and the levels to which they      can be upgraded within a colony are       directly dependent on the builder and     the builder’s hut level, so you need a     level 1 builder’s hut to build your level   1 town hall, houses, etc. This trend will    continue throughout the mod’s               progression. The Tavern has a max        level of 3, but most, if not all, other        huts can be upgraded to 5, provided      there is a level 5 builder to                  build/upgrade it."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -184,13 +184,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThe Build Tool and Town Hall. How to begin MineColonies"
+			subtitle: "&#8B4513The Build Tool and Town Hall. How to begin MineColonies"
 			tasks: [{
 				id: "1554DEDE4B7F9F4A"
 				title: "Your very own village"
 				type: "checkmark"
 			}]
-			title: "&6&lThe Heart of Every Colony"
+			title: "&lThe Heart of Every Colony"
 			x: -0.5d
 			y: -6.0d
 		}
@@ -198,9 +198,9 @@
 			dependencies: ["6DC66F240EF37760"]
 			dependency_requirement: "one_started"
 			description: [
-				"Much of what is going to be most easily available to you, tech-wise, in the early game will be &6Create&r, automating the production of brass will lead into Industiral Foregoing and Mekanism's machines for more power generation options, but these will require more extensive resources to set up. Obtaining Andesite Alloy, and the ingredients to produce it, are the first steps on that path."
+				"  Much of what is going to be most         easily available to you, tech-wise, in     the early game will be &#D2691ECreate&r,             automating the production of brass      will lead into Industiral Foregoing and   Mekanism's machines for more power     generation options, but these will         require more extensive resources to   set up. Obtaining Andesite Alloy, and     the ingredients to produce it, are the   first steps on that path."
 				""
-				"You will also notice that osmium is an EXTREMELY rare mineral in the overworld now. You will eventually craft stress-powered alternators, generators, and motors. However, there are some more creative and outside of the norm power generation methods you can employ, such as &ehoney generators&r to help supplement early game electricity struggles, if needed."
+				"  You will also notice that osmium is an    EXTREMELY rare mineral in the            overworld now. You will eventually        craft stress-powered alternators,      generators, and motors. However,        there are some more creative and       outside of the norm power generation   methods you can employ, such as         &#D2691Ehoney generators&r to help supplement   early game electricity struggles, if      needed."
 			]
 			icon: {
 				Count: 1
@@ -225,7 +225,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eStress and Power"
+			subtitle: "&#8B4513Stress and Power"
 			tasks: [
 				{
 					count: 8L
@@ -240,16 +240,16 @@
 					type: "item"
 				}
 			]
-			title: "&6&lStressing Over Power?"
+			title: "&lStressing Over Power?"
 			x: -2.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["69F61E7551B10F85"]
 			description: [
-				"This pack features multiple routes to learn and advance in the arcane arts."
+				"  This pack features multiple routes to  learn and advance in the arcane arts."
 				""
-				"With the likes of schools of magic from mods such as: &dArs Nouveau&r, &cBlood Magic&r, and &2Botania&r as well as many compatibilities and integrations for each, you can farm your botanicals in new ways, as well as combine your Ars and Blood arsenal with the Tome of Blood and Heretic's Armor among many other things."
+				"  With the likes of schools of magic        from mods such as: &#D2691EArs Nouveau&r,         &#D2691EBlood Magic&r, and &#D2691EBotania&r as well as       many compatibilities and integrations     for each, you can farm your              botanicals in new ways, as well as        combine your Ars and Blood arsenal    with the Tome of Blood and Heretic's     Armor among many other things."
 			]
 			icon: {
 				Count: 1
@@ -273,19 +273,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFamiliars, Blood and Magic Flowers"
+			subtitle: "&#8B4513Familiars, Blood and Magic Flowers"
 			tasks: [{
 				id: "7CC73515A016F3B8"
 				title: "Magic"
 				type: "checkmark"
 			}]
-			title: "&6&lThe Arcane Arts"
+			title: "&lThe Arcane Arts"
 			x: 1.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["7FA3787123BC491F"]
-			description: ["Multiple mods in the pack provide a means to protect and secure your belongings such as: SecurityCraft, Scorched Guns 2 and Create Big Cannons. FTB claims manager can also be used to help, to an extent. Here’s a mega torch for now, but it won’t help much on its own or for very long..."]
+			description: ["  Multiple mods in the pack provide a      means to protect and secure your      belongings such as: SecurityCraft,       Scorched Guns 2 and Create Big         Cannons. FTB claims manager can also  be used to help, to an extent. Here’s    a mega torch for now, but it won’t help  much on its own or for very long..."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -309,21 +309,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eClick the icon and submit 3 torches to recieve a mega torch."
+			subtitle: "&#8B4513Click the icon and submit 4 torches to receive a mega torch."
 			tasks: [{
 				consume_items: true
-				count: 3L
+				count: 4L
 				id: "039D14CDC6BBA8AF"
-				item: { Count: 3, id: "minecraft:torch" }
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:torch"
+				}
 				type: "item"
 			}]
-			title: "&6&lProtecting Yourself"
+			title: "&lProtecting Yourself"
 			x: -2.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["2F84AAEDD67C3C61"]
-			description: ["Craft a market, as this will help make your herbivorous lifestyle a little easier... if you get down like that. Easy Villagers/Piglins is also a nice lag friendly way to get your farming and trading needs covered."]
+			description: ["  Craft a market, as this will help make   your herbivorous lifestyle a little        easier... if you get down like that. Easy  Villagers/Piglins is also a nice lag        friendly way to get your farming and    trading needs covered."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -346,10 +354,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eFarming for Blockheads, Easy Villagers and Botany Pots"
+			subtitle: "&#8B4513Farming for Blockheads, Easy Villagers and Botany Pots"
 			tasks: [{
 				id: "601043016B191D5C"
-				title: "&6&lFarming Options"
+				title: "&lFarming Options"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -358,21 +366,24 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"                                                                    &6Capsules&r"
+				"                                                                    &#D2691ECapsules&r"
 				""
-				"One of our favorite mods ever! This quest will let you choose a starter home sample, conveniently pre-packed in a re-usable capsule, courtesy of the devs (they're actually the same ones we built and used for our own play!)"
-				""
-				""
-				"&4MOST CAPSULES YOU FIND ARE NOT REUSABLE, ONCE PLACED, THEY CANNOT BE PUT BACK INSIDE AS THE ORIGINAL CAPSULE DISAPPEARS ON USE!&r"
+				"  One of our favorite mods ever! This    quest will let you choose a starter      home sample, conveniently pre-packed  in a re-usable capsule, courtesy of     the devs (they're actually the same     ones we built and used for our own     play!)"
 				""
 				""
-				"Using JEI you can find recipes to craft multiple types and sizes of your own capsules to store and move many things. &9As a general rule you can store and move any vanilla item or container and many different modded blocks and containers, however there's a few things you should never EVER try to move with a capsule.&r: ANY type of cable or machine/parts, multi-block structure, mobs/entities, any type of bulk storage... "
+				"  &#D2691EMOST CAPSULES YOU FIND ARE NOT       REUSABLE, ONCE PLACED, THEY CANNOT   BE PUT BACK INSIDE AS THE ORIGINAL    CAPSULE DISAPPEARS ON USE!&r"
 				""
-				"In short, be smart, be careful and DON'T use them around anything you care about without some testing first. They have been blacklisted against most tech mods and are incompatible with many others,"
 				""
-				"&4USE CAPSULES ON TECH/MAGIC/COMPLEX MODS AT YOUR OWN RISK. THEY ARE SAFE IN GENERAL BUT YOU HAVE BEEN WARNED&r"
+				"  Using JEI you can find recipes to       craft multiple types and sizes of your  own capsules to store and move many   things. &#D2691EAs a general rule you can        store and move any vanilla item or       container and many different modded   blocks and containers, however          there's a few things you should never  EVER try to move with a capsule&r: ANY    type of cable or machine/parts,          multi-block structure, mobs/entities,     any type of bulk storage... "
 				""
-				"As close to a full list of blacklisted/incompatible mods as possible can be found in the capsule configurations, found in your config folder. For all intents and purposes most other blocks/entities are safe to be moved via capsule. &9Test First.&r Better safe then sorry."
+				""
+				"{@pagebreak}"
+				""
+				"  In short, be smart, be careful and      DON'T use them around anything you     care about without some testing first.   They have been blacklisted against      most tech mods and are incompatible     with many others,"
+				""
+				"  &#D2691EUSE CAPSULES ON TECH / MAGIC /        COMPLEX MODS AT YOUR OWN RISK. THEY  ARE SAFE IN GENERAL BUT YOU HAVE      BEEN WARNED&r"
+				""
+				"  As close to a full list of blacklisted/   incompatible mods as possible can be    found in the capsule configurations,     found in your config folder. For all     intents and purposes most other         blocks/entities are safe to be moved    via capsule. &#D2691ETest First.&r Better safe      than sorry."
 			]
 			icon: {
 				Count: 1
@@ -429,7 +440,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eA home in your hand!"
+			subtitle: "&#8B4513A home in your hand!"
 			tasks: [
 				{
 					id: "0DC232F1F688E4C3"
@@ -450,13 +461,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "&6&lCapsules!"
+			title: "&lCapsules!"
 			x: -1.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["It is highly recommended for carnivores to look up the Mob Cages mod in JEI sooner rather than later."]
+			description: ["  It is highly recommended for             carnivores to look up the Mob Cages    mod in JEI sooner rather than later."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -488,22 +499,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eMob cages will help"
+			subtitle: "&#8B4513Mob cages will help"
 			tasks: [{
 				id: "212DCC8044DCE538"
-				title: "Lasso's"
 				type: "checkmark"
 			}]
-			title: "&6&lMobs and Cages"
+			title: "&lMobs and Cages"
 			x: 0.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["0A4196BD7B0FC574"]
 			description: [
-				"A backpack will do for now, and the starter home options each come with enough storage space to get you by until you can find more long-term accommodations."
+				"  A backpack will do for now, and the     starter home options each come with    enough storage space to get you by    until you can find more long-term        accommodations."
 				""
-				"You have Storage Racks, Functional Storage, Tom's Simple Storage, and Applied Energistics 2, as well as many of the core mods in the pack, which provide their own means of storage, such as: Create's item vaults, Mekanism's QIO drive array, Ars Nouveau's storage lectern, and much more!"
+				"  You have Storage Racks, Functional    Storage, Tom's Simple Storage, and       Applied Energistics 2, as well as many   of the core mods in the pack, which      provide their own means of storage,     such as: Create's item vaults,              Mekanism's QIO drive array, Ars           Nouveau's storage lectern, and much    more!"
 			]
 			icon: {
 				Count: 1
@@ -527,10 +537,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eStorage Racks, Functional Storage and AE2"
+			subtitle: "&#8B4513Storage Racks, Functional Storage and AE2"
 			tasks: [{
 				id: "5FB7629295C9B39C"
-				title: "&6&lStorage Options Galore"
+				title: "&lStorage Options Galore"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -539,9 +549,9 @@
 		{
 			dependencies: ["0BD601443B63B208"]
 			description: [
-				"Any remaining quest chapters yet to be unlocked by the time you reach this quest will be unlocked when you either craft a &6Bank Terminal&r OR complete \"&6Breaking Ground and Setting Up&r\"."
+				"  Any remaining quest chapters yet to be       unlocked by the time you reach this quest     will be unlocked when you either craft a       &#D2691EBank Terminal&r OR complete \"&#D2691EBreaking Ground  and Setting Up&r\"."
 				""
-				"Have fun, and please report any problems on the MCC CurseForge issue tracker or submit any relevant crash reports to mclo.gs, providing the link in the appropriate channel of the &9MCC Discord&r. Have any ideas or suggestions? Please let us know. Thanks!"
+				"  Have fun, and please report any problems   on the MCC CurseForge issue tracker or      submit any relevant crash reports to          mclo.gs, providing the link in the appropriate  channel of the &#D2691EMCC Discord&r. Have any ideas   or suggestions? Please let us know. Thanks!"
 			]
 			icon: {
 				Count: 1
@@ -569,13 +579,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eAnd so it begins..."
+			subtitle: "&#8B4513And so it begins..."
 			tasks: [{
 				id: "275F8023AD79CAB4"
 				title: "Create and Conquer"
 				type: "checkmark"
 			}]
-			title: "&6&lCreate and Conquer the World"
+			title: "&lCreate and Conquer the World"
 			x: -0.5d
 			y: 2.0d
 		}
@@ -586,9 +596,9 @@
 				"36E76244E933E017"
 			]
 			description: [
-				"A &2Nature's Compass&r will help you find that &dperfect&r biome to settle down in."
+				"  A &#D2691ENature's Compass&r will help you find   that &#D2691Eperfect&r biome to settle down in."
 				""
-				"While &6Dirt Buckets&r allow you to convert tree seeds into saplings."
+				"  While &#D2691EDirt Buckets&r allow you to           convert tree seeds into saplings."
 			]
 			icon: {
 				Count: 1
@@ -614,7 +624,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThat way!"
+			subtitle: "&#8B4513That way!"
 			tasks: [
 				{
 					id: "7723C91C600BC445"
@@ -631,7 +641,7 @@
 					type: "item"
 				}
 			]
-			title: "&6&lNatural Coordination"
+			title: "&lNatural Coordination"
 			x: -0.5d
 			y: -2.5d
 		}
@@ -642,9 +652,9 @@
 				"3788286CEB1BCD51"
 			]
 			description: [
-				"From here on out, many quests and tasks will be rewarded with Spurs, Bevels, Sprockets, Cogs, Crowns, and Suns."
+				"  From here on out, many quests and tasks will be rewarded with Spurs,      Bevels, Sprockets, Cogs, Crowns, and Suns."
 				""
-				"A &9Bank Terminal&r is going to be one of your &2&oBEST&r&r friends early on. It is your primary means of storing and converting Numismatics Coinage. From here on out, we will be referring to them as \"&6Numi Coins&r\" for shorthand and simplicities sake."
+				"  A &#D2691EBank Terminal&r is going to be one of your &#D2691E&oBEST&r&r friends early on. It is     your primary means of storing and converting Numismatics Coinage. From    here on out, we will be referring to them as \"&#D2691ENumi Coins&r\" for shorthand     and simplicity's sake."
 			]
 			icon: {
 				Count: 1
@@ -669,10 +679,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eCh-Ching"
+			subtitle: "&#8B4513Ch-Ching"
 			tasks: [{
 				id: "7CC76F1871B585EB"
-				title: "&6&lCraft a bank terminal to store and convert your coins"
+				title: "&lCraft a bank terminal to store and convert your coins"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -680,7 +690,7 @@
 		}
 		{
 			dependencies: ["32C249BE079B4054"]
-			description: ["You're really going to want to automate this process. Though very inefficient, smashing 6 &7Iron&r or &eGold&r ingots together into plates will suffice for now."]
+			description: ["  You're really going to want to automate this      process. Though very inefficient, smashing 6      &#D2691EIron&r or &#D2691EGold&r ingots together into plates will       suffice for now."]
 			id: "1A8D6E6607B276B5"
 			rewards: [
 				{
@@ -695,7 +705,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eThe First of Many"
+			subtitle: "&#8B4513The First of Many"
 			tasks: [
 				{
 					id: "070E83C68BC7ECAA"
@@ -708,13 +718,13 @@
 					type: "item"
 				}
 			]
-			title: "&6&lGetting Started with Sheet Metals"
+			title: "&lGetting Started with Sheet Metals"
 			x: 1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["32C249BE079B4054"]
-			description: ["While not very efficient, your rudimentary understanding of metals and tools does allow you to craft some blocks and items by hand. With time and progress, either magically or technologically, you will advance to more practical and efficient means."]
+			description: ["  While not very efficient, your             rudimentary understanding of metals    and tools does allow you to craft        some blocks and items by hand. With      time and progress, either magically or  technologically, you will advance to      more practical and efficient means."]
 			id: "29428113245CF8E0"
 			rewards: [
 				{
@@ -729,7 +739,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eIt's Expensive."
+			subtitle: "&#8B4513It's Expensive."
 			tasks: [
 				{
 					id: "014E687816C31681"
@@ -743,22 +753,22 @@
 					type: "item"
 				}
 			]
-			title: "&6&lHand Crafting the Basics"
+			title: "&lHand Crafting the Basics"
 			x: -2.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["7A10879779D35FF1"]
 			description: [
-				"Ever wanted to send your friend a gift, trade with others, or ship items home while you're still deep in a cave or across the map? The Ender Mail mod has you covered!"
+				"  Ever wanted to send your friend a gift, trade with       others, or ship items home while you're still deep in a     cave or across the map? The Ender Mail mod has you    covered!"
 				""
-				"Ender Mail allows you to employ Endermen as mail carriers to deliver packages anywhere in the world. You can have packages sent to specific coordinates or directly to a Locker if you know its unique ID."
+				"  Ender Mail allows you to employ Endermen as mail         carriers to deliver packages anywhere in the world.      You can have packages sent to specific coordinates     or directly to a Locker if you know its unique ID."
 				""
-				"Crafted packages come with 5 inventory slots for your items. Think 5 slots aren’t enough? Here’s a tip: you can place Shulker Boxes or backpacks full of items inside the package to expand your delivery capacity!"
+				"  Crafted packages come with 5 inventory slots for        your items. Think 5 slots aren’t enough? Here’s a tip:     you can place Shulker Boxes or backpacks full of        items inside the package to expand your delivery          capacity!"
 				""
-				"To send a package, stamp it to set the delivery location, then right-click with a package controller to summon an Ender Mailman to deliver it. To access the contents of a delivered package, simply crouch and right-click to remove the stamp and open it. Packages can also be picked up as items, retaining their inventory for later use!"
+				"  To send a package, stamp it to set the delivery           location, then right-click with a package controller to    summon an Ender Mailman to deliver it. To access the     contents of a delivered package, simply crouch and      right-click to remove the stamp and open it. Packages    can also be picked up as items, retaining their              inventory for later use!"
 				""
-				"As an alternative, mailboxes can be crafted and used to share items as well, although they lack the functionality of being able to send a package anywhere without having already been there first, unlike the mail men."
+				"  As an alternative, mailboxes can be crafted and used   to share items as well, although they lack the               functionality of being able to send a package anywhere  without having already been there first, unlike the mail   men."
 			]
 			icon: {
 				Count: 1
@@ -800,20 +810,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eEnder Mail"
+			subtitle: "&#8B4513Ender Mail"
 			tasks: [{
 				id: "77D3987BB0FC14B1"
 				type: "checkmark"
 			}]
-			title: "&6&lMy mailman is great, he always delivers!"
+			title: "&lMy mailman is great, he always delivers!"
 			x: -0.5d
 			y: -8.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -846,18 +856,20 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
 		{
 			dependencies: ["32C249BE079B4054"]
 			description: [
-				"&6&l/tpa&r&r commands are &cdisabled&r in the pack by default, keeping the game more immersive and challenging. However, the &6&lWormhole Artifact&r&r is a useful item that allows you to teleport to your friends through a simple UI, offering a fair and balanced alternative to traditional teleportation with commands!"
+				"  &#D2691E&l/tpa&r&r commands are &#D2691Edisabled&r in the     pack by default, keeping the game        more immersive and challenging.           However, the &#D2691E&lWormhole Artifact&r&r is    a useful item that allows you to           teleport to your friends through a      simple UI, offering a fair and balanced  alternative to traditional teleportation  with commands!"
 				""
-				"The &6&lWormhole Artifact&r&r allows you to teleport to friends, but &n&bonly within the same dimension&r&r."
+				"  The &#D2691E&lWormhole Artifact&r&r allows you    to teleport to friends, but &#D2691Eonly within    the same dimension&r&r."
 				""
-				"It can be upgraded to the &l&5Wormhole Remote&r&r, which lets you teleport to players &n&beven if they are in a different dimension&r&r."
+				"  It can be upgraded to the &l&#D2691EWormhole  Remote&r&r, which lets you teleport to      players &#D2691Eeven if they are in a             different dimension&r&r."
+				""
+				"  &#D2691E&lNOTE:&r&r If you have the Wormhole         Artifact or Remote in your inventory    and someone tries to teleport to you,   they will be able to do so instantly       without any warning or a teleport        request appearing in chat. To prevent  that, make sure to store the Artifact    or Remote in your backpack or any      type of storage, and only take it out    when needed!"
 			]
 			icon: {
 				Count: 1
@@ -892,13 +904,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&eNo /tpa? No problem."
+			subtitle: "&#8B4513No /tpa? No problem."
 			tasks: [{
 				id: "49F4B5F8A02F20A9"
 				title: "Checkmark"
 				type: "checkmark"
 			}]
-			title: "&6&lTeleportation Methods"
+			title: "&lTeleportation Methods"
 			x: -0.5d
 			y: -1.0d
 		}

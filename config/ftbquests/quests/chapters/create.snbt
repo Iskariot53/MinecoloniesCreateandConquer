@@ -131,7 +131,7 @@
 				"This quest line, like all of the other lines in the pack, is not meant to be all inclusive. It will however teach and familiarize you with the basics and standards of the mod to prepare you with the knowledge necessary to explore what you are capable of."
 				""
 				""
-				"You've got what you need for andesite alloy already, that's good. you'll need &2LOTS&r of it, automation, anyone? Well, to get there, we'll need some shafts"
+				"You've got what you need for andesite alloy already, that's good. you'll need &#D2691ELOTS&r of it, automation, anyone? Well, to get there, we'll need some shafts"
 			]
 			hide_until_deps_complete: true
 			id: "2DFAB367F1A7D350"
@@ -150,20 +150,20 @@
 			]
 			shape: "diamond"
 			size: 2.5d
-			subtitle: "&6We'll need this"
+			subtitle: "&#8B4513We'll need this"
 			tasks: [{
 				count: 16L
 				id: "1E2D981801530076"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			title: "&e&lWelcome to Create!"
+			title: "&lWelcome to Create!"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4FCCFF074785EA66"]
-			description: ["Cogwheels, when partnered with shafts, can be used to transfer \"&7stress&r\" units, which can in-turn be used to power various contraptions and machines. It's going to take some effort and infrastructure to get there, but It can even be used to generate &eelectricity&r!"]
+			description: ["Cogwheels, when partnered with shafts, can be used to transfer \"&#D2691Estress&r\" units, which can in-turn be used to power various contraptions and machines. It's going to take some effort and infrastructure to get there, but It can even be used to generate &#D2691Eelectricity&r!"]
 			id: "426C6E9A3E8A1474"
 			rewards: [
 				{
@@ -178,7 +178,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Shops don't take these, sorry"
+			subtitle: "&#8B4513Shops don't take these, sorry"
 			tasks: [
 				{
 					count: 4L
@@ -193,13 +193,13 @@
 					type: "item"
 				}
 			]
-			title: "&e&lCogwheels"
+			title: "&lCogwheels"
 			x: 0.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["426C6E9A3E8A1474"]
-			description: ["The &6Wrench&r is the primary tool you will use to manipulate and configure most blocks and contraptions in the mod, it is also functional with many of the other pipes and blocks available within the pack."]
+			description: ["The &#D2691EWrench&r is the primary tool you will use to manipulate and configure most blocks and contraptions in the mod, it is also functional with many of the other pipes and blocks available within the pack."]
 			id: "6B1989495942B8D6"
 			rewards: [
 				{
@@ -214,19 +214,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Also works on Pipez!"
+			subtitle: "&#8B4513Also works on Pipez!"
 			tasks: [{
 				id: "6F9B8788B2247C81"
 				item: "create:wrench"
 				type: "item"
 			}]
-			title: "&e&lWrench"
+			title: "&lWrench"
 			x: -1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2DFAB367F1A7D350"]
-			description: ["&7Shafts&r will be used for many crafts and builds, as well as transferring &9stress&r."]
+			description: ["&#D2691EShafts&r will be used for many crafts and builds, as well as transferring &#D2691Estress&r."]
 			id: "4FCCFF074785EA66"
 			rewards: [
 				{
@@ -241,14 +241,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6And These"
+			subtitle: "&#8B4513And These"
 			tasks: [{
 				count: 8L
 				id: "609CEDFE7D66BF42"
 				item: { Count: 8, id: "create:shaft" }
 				type: "item"
 			}]
-			title: "&e&lShafts"
+			title: "&lShafts"
 			x: 0.0d
 			y: 4.0d
 		}
@@ -269,7 +269,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Paper... for sanding"
+			subtitle: "&#8B4513Paper... for sanding"
 			tasks: [{
 				id: "521AA69D385CA1AB"
 				item: {
@@ -281,7 +281,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSand Paper"
+			title: "&lSand Paper"
 			x: -7.5d
 			y: -4.5d
 		}
@@ -302,13 +302,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Handy when sanded"
+			subtitle: "&#8B4513Handy when sanded"
 			tasks: [{
 				id: "03C25B8CF801B399"
 				item: "create:rose_quartz"
 				type: "item"
 			}]
-			title: "&e&lRose Quartz"
+			title: "&lRose Quartz"
 			x: -5.5d
 			y: -4.5d
 		}
@@ -317,7 +317,7 @@
 				"3FC010FC5CF4E383"
 				"3E586374A38D1536"
 			]
-			description: ["&cPolished rose quartz&r is the last thing you need to get you on your way to banking, converting and spending those coins you've been gathering. Its also used in many components for contraptions."]
+			description: ["&#D2691EPolished rose quartz&r is the last thing you need to get you on your way to banking, converting and spending those coins you've been gathering. Its also used in many components for contraptions."]
 			id: "483D3EC791231340"
 			rewards: [
 				{
@@ -332,13 +332,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Used in many contraptions"
+			subtitle: "&#8B4513Used in many contraptions"
 			tasks: [{
 				id: "7F2EBF9CFBE1CB05"
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			title: "&e&lPolished Rose Quartz"
+			title: "&lPolished Rose Quartz"
 			x: -6.5d
 			y: -3.5d
 		}
@@ -363,13 +363,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Early game stress"
+			subtitle: "&#8B4513Early game stress"
 			tasks: [{
 				id: "69CBA375F4A633D6"
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			title: "&e&lWater Wheels"
+			title: "&lWater Wheels"
 			x: 1.0d
 			y: 6.0d
 		}
@@ -394,13 +394,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6More Bigger More Better"
+			subtitle: "&#8B4513More Bigger More Better"
 			tasks: [{
 				id: "697168D7ADC78A5C"
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			title: "&e&lLarge Water Wheel"
+			title: "&lLarge Water Wheel"
 			x: 2.0d
 			y: 5.5d
 		}
@@ -422,20 +422,20 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Encase, just in case"
+			subtitle: "&#8B4513Encase, just in case"
 			tasks: [{
 				count: 4L
 				id: "1883C5B29D55F01D"
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			title: "&e&lYour first casings"
+			title: "&lYour first casings"
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["6410DD17441D06C6"]
-			description: ["The &9mechanical press&r can be used for a multitude of things from pressing ingots into sheets to pressing kelp in a basin, again &aJEI&r is going to be your friend, as always."]
+			description: ["The &#D2691Emechanical press&r can be used for a multitude of things from pressing ingots into sheets to pressing kelp in a basin, again &#D2691EJEI&r is going to be your friend, as always."]
 			id: "2D0E3347EF63B89E"
 			rewards: [
 				{
@@ -450,13 +450,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Flattening ingots the right way"
+			subtitle: "&#8B4513Flattening ingots the right way"
 			tasks: [{
 				id: "52052F6C0D533016"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			title: "&e&lMechanical Press"
+			title: "&lMechanical Press"
 			x: -1.5d
 			y: -2.0d
 		}
@@ -477,13 +477,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Blending all the things"
+			subtitle: "&#8B4513Blending all the things"
 			tasks: [{
 				id: "129F622F4A9141DD"
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			title: "&e&lMechanical Mixer"
+			title: "&lMechanical Mixer"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -504,13 +504,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Deposit here"
+			subtitle: "&#8B4513Deposit here"
 			tasks: [{
 				id: "1681306E6E838475"
 				item: "create:depot"
 				type: "item"
 			}]
-			title: "&e&lDepot"
+			title: "&lDepot"
 			x: 1.5d
 			y: -2.0d
 		}
@@ -531,19 +531,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6See the numbers"
+			subtitle: "&#8B4513See the numbers"
 			tasks: [{
 				id: "13F379C01CF8058B"
 				item: "create:goggles"
 				type: "item"
 			}]
-			title: "&e&lEngineer's Goggles"
+			title: "&lEngineer's Goggles"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2D5FB1453CD6A687"]
-			description: ["The Speedometer displays the current rotational &aspeed&r of attached contraptions and devices."]
+			description: ["The Speedometer displays the current rotational &#D2691Espeed&r of attached contraptions and devices."]
 			id: "3EEA72AEAF2BD6D4"
 			rewards: [
 				{
@@ -558,19 +558,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Speed gauge"
+			subtitle: "&#8B4513Speed gauge"
 			tasks: [{
 				id: "687B194C8DC8C52C"
 				item: "create:speedometer"
 				type: "item"
 			}]
-			title: "&e&lSpeedometer"
+			title: "&lSpeedometer"
 			x: 2.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2D5FB1453CD6A687"]
-			description: ["The stressometer displays the current &astress&r capacity of attached contraptions and devices."]
+			description: ["The stressometer displays the current &#D2691Estress&r capacity of attached contraptions and devices."]
 			id: "3957608162603C18"
 			rewards: [
 				{
@@ -585,13 +585,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Stress capacity gauge"
+			subtitle: "&#8B4513Stress capacity gauge"
 			tasks: [{
 				id: "1341A9C93DB19257"
 				item: "create:stressometer"
 				type: "item"
 			}]
-			title: "&e&lStressometer"
+			title: "&lStressometer"
 			x: 2.5d
 			y: 1.0d
 		}
@@ -600,7 +600,7 @@
 			description: [
 				"Not just used for sequential crafting, deployers can be very versatile, used to plant crops, equipped with tools to farm them, sword to kill mobs, etc."
 				""
-				"More info on deployers and their uses using \"&6ponder&r\" in &aJEI&r"
+				"More info on deployers and their uses using \"&#D2691Eponder&r\" in &#D2691EJEI&r"
 			]
 			id: "328AA822DBA16B9C"
 			rewards: [
@@ -616,13 +616,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Need a hand?"
+			subtitle: "&#8B4513Need a hand?"
 			tasks: [{
 				id: "3019C2C4CBA33427"
 				item: "create:deployer"
 				type: "item"
 			}]
-			title: "&e&lDeployer"
+			title: "&lDeployer"
 			x: -2.5d
 			y: -7.5d
 		}
@@ -643,13 +643,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Transfer both stress and items"
+			subtitle: "&#8B4513Transfer both stress and items"
 			tasks: [{
 				id: "68A7DC981C6031BA"
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			title: "&e&lMechanical Belt"
+			title: "&lMechanical Belt"
 			x: -1.5d
 			y: 1.5d
 		}
@@ -659,7 +659,7 @@
 				"2D0E3347EF63B89E"
 				"5B3660BF8A28EBE4"
 			]
-			description: ["The &cblaze burner&r can be used to capture a blaze and heat your basin for mixing. They must be fed burnable materials to function though, and later, &6blaze cakes&r."]
+			description: ["The &#D2691Eblaze burner&r can be used to capture a blaze and heat your basin for mixing. They must be fed burnable materials to function though, and later, &#D2691Eblaze cakes&r."]
 			icon: "create:blaze_burner"
 			id: "367E77978AA55FAB"
 			rewards: [
@@ -674,13 +674,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6it's fiiiine... it heats your basin because it's happy :D"
+			subtitle: "&#8B4513it's fiiiine... it heats your basin because it's happy :D"
 			tasks: [{
 				id: "415534F718AA0B91"
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			title: "&e&lBlaze Burner"
+			title: "&lBlaze Burner"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -690,9 +690,9 @@
 				"6410DD17441D06C6"
 			]
 			description: [
-				"The &9basin&r, when used with a &9mechanical mixer&r, can be used to make many alloys among other things. There are many compatibilities for the mixer so just keep an eye out for its recipes in &aJEI&r for chances to utilize it and the basin to make your life easier."
+				"The &#D2691Ebasin&r, when used with a &#D2691Emechanical mixer&r, can be used to make many alloys among other things. There are many compatibilities for the mixer so just keep an eye out for its recipes in &#D2691EJEI&r for chances to utilize it and the basin to make your life easier."
 				""
-				"for many recipes, including alloys, the basin must be &cheated&r though."
+				"for many recipes, including alloys, the basin must be &#D2691Eheated&r though."
 			]
 			id: "5B3660BF8A28EBE4"
 			rewards: [
@@ -708,13 +708,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6A big mixing bowl."
+			subtitle: "&#8B4513A big mixing bowl."
 			tasks: [{
 				id: "46F53DB42A7A642D"
 				item: "create:basin"
 				type: "item"
 			}]
-			title: "&e&lBasin"
+			title: "&lBasin"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -737,19 +737,19 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6A slightly nicer casing"
+			subtitle: "&#8B4513A slightly nicer casing"
 			tasks: [{
 				id: "40F84DAA85B8B265"
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			title: "&e&lCopper Casing"
+			title: "&lCopper Casing"
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7F23B52CD0488C38"]
-			description: ["Spouts can be attached to tanks directly or using pipes to store and dispense liquids, experience, etc. \"&6ponder&r\" in &aJEI&r to learn more!"]
+			description: ["Spouts can be attached to tanks directly or using pipes to store and dispense liquids, experience, etc. \"&#D2691Eponder&r\" in &#D2691EJEI&r to learn more!"]
 			id: "14BE9FBB6E54D012"
 			rewards: [
 				{
@@ -764,13 +764,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Fluid dispensing"
+			subtitle: "&#8B4513Fluid dispensing"
 			tasks: [{
 				id: "7530B59EDCA3C71D"
 				item: "create:spout"
 				type: "item"
 			}]
-			title: "&e&lSpout"
+			title: "&lSpout"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -779,7 +779,7 @@
 				"53FD4FE35BC82D70"
 				"14BE9FBB6E54D012"
 			]
-			description: ["Blaze cakes can be used to fuel and super heat &cblaze burners&r, required for some of the more advanced recipes."]
+			description: ["Blaze cakes can be used to fuel and super heat &#D2691Eblaze burners&r, required for some of the more advanced recipes."]
 			id: "7DA2480976B8950C"
 			rewards: [
 				{
@@ -794,13 +794,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Probably not edible"
+			subtitle: "&#8B4513Probably not edible"
 			tasks: [{
 				id: "766D539D8151704B"
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			title: "&e&lBlaze Cake"
+			title: "&lBlaze Cake"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -826,14 +826,14 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Shiny!"
+			subtitle: "&#8B4513Shiny!"
 			tasks: [{
 				count: 16L
 				id: "7BED8B9B79616E89"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			title: "&e&lDiscovering new alloys: Brass"
+			title: "&lDiscovering new alloys: Brass"
 			x: 0.0d
 			y: -6.75d
 		}
@@ -858,13 +858,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6A much nicer casing"
+			subtitle: "&#8B4513A much nicer casing"
 			tasks: [{
 				id: "2A3A3DC60E6B8A52"
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			title: "&e&lBrass Casing"
+			title: "&lBrass Casing"
 			x: 0.0d
 			y: -9.0d
 		}
@@ -886,13 +886,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6MUCH better"
+			subtitle: "&#8B4513MUCH better"
 			tasks: [{
 				id: "024E3AFBD0612760"
 				title: "Much better"
 				type: "checkmark"
 			}]
-			title: "&e&lSheets made efficiently"
+			title: "&lSheets made efficiently"
 			x: -4.0d
 			y: -2.0d
 		}
@@ -901,7 +901,7 @@
 				"483D3EC791231340"
 				"5392A8DC9F2C3D5C"
 			]
-			description: ["Electron tubes are used to make many different components to your machines and contraptions. Such as the &9Bank Terminal&r and &cRedstone Links&r."]
+			description: ["Electron tubes are used to make many different components to your machines and contraptions. Such as the &#D2691EBank Terminal&r and &#D2691ERedstone Links&r."]
 			id: "1E324D81453A1191"
 			rewards: [
 				{
@@ -916,19 +916,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6ooooh fancy"
+			subtitle: "&#8B4513ooooh fancy"
 			tasks: [{
 				id: "328A7F307C1060AF"
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			title: "&e&lElectron Tube"
+			title: "&lElectron Tube"
 			x: -6.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["328AA822DBA16B9C"]
-			description: ["The precision mechanism is just one of many mechanisms you will want to make assembly lines for. The &6ponder&r feature in &aJEI&r can give you more information if needed."]
+			description: ["The precision mechanism is just one of many mechanisms you will want to make assembly lines for. The &#D2691Eponder&r feature in &#D2691EJEI&r can give you more information if needed."]
 			id: "2D64B8D38B367DC0"
 			rewards: [
 				{
@@ -942,13 +942,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Practically accurate"
+			subtitle: "&#8B4513Practically accurate"
 			tasks: [{
 				id: "0C57BE9FC326C12B"
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			title: "&e&lPrecision Mechanism"
+			title: "&lPrecision Mechanism"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -957,7 +957,7 @@
 				"2D64B8D38B367DC0"
 				"1E324D81453A1191"
 			]
-			description: ["The bank terminal will allow you to store and convert your &6Numi Coins&r anywhere in the world."]
+			description: ["The bank terminal will allow you to store and convert your &#D2691ENumi Coins&r anywhere in the world."]
 			id: "53AA74F5A61C35FC"
 			rewards: [
 				{
@@ -986,13 +986,13 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&6If we haven't made it clear yet. MAKE THIS"
+			subtitle: "&#8B4513If we haven't made it clear yet. MAKE THIS"
 			tasks: [{
 				id: "0E48E6764CDD62E1"
 				item: "numismatics:bank_terminal"
 				type: "item"
 			}]
-			title: "&e&lBank Terminal"
+			title: "&lBank Terminal"
 			x: -4.0d
 			y: -4.0d
 		}
@@ -1030,13 +1030,13 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6A builder's best friend"
+			subtitle: "&#8B4513A builder's best friend"
 			tasks: [{
 				id: "431E0D44385A0EA4"
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			title: "&e&lWand of Symmetry"
+			title: "&lWand of Symmetry"
 			x: -4.5d
 			y: -6.75d
 		}
@@ -1046,7 +1046,7 @@
 				"2B71D9DF50615899"
 			]
 			description: [
-				"These \"ID cards\" bind to the &9player&r. The other \"cards\" bind to &aaccounts&r."
+				"These \"ID cards\" bind to the &#D2691Eplayer&r. The other \"cards\" bind to &#D2691Eaccounts&r."
 				""
 				"In short, since these cards bind to players (using right-click). These can be bound to players and placed in numismatic blocks to allow access to other players."
 				""
@@ -1067,19 +1067,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6so what's the difference?"
+			subtitle: "&#8B4513so what's the difference?"
 			tasks: [{
 				id: "145F50225AF027B5"
 				title: "Id Cards"
 				type: "checkmark"
 			}]
-			title: "&e&lID Cards"
+			title: "&lID Cards"
 			x: -2.571428571428548d
 			y: -3.9285714285714377d
 		}
 		{
 			dependencies: ["53AA74F5A61C35FC"]
-			description: ["This card binds and allows access to any given &9Bank Account&r when used with a bank terminal. it can also be used in a vendor/depositor for automatically depositing collections to the bound account."]
+			description: ["This card binds and allows access to any given &#D2691EBank Account&r when used with a bank terminal. it can also be used in a vendor/depositor for automatically depositing collections to the bound account."]
 			icon: "numismatics:white_card"
 			id: "2B71D9DF50615899"
 			rewards: [
@@ -1094,13 +1094,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6This is like your credit card"
+			subtitle: "&#8B4513This is like your credit card"
 			tasks: [{
 				id: "358D5AC1C21B17DB"
 				title: "Other id"
 				type: "checkmark"
 			}]
-			title: "&e&lCards"
+			title: "&lCards"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -1121,19 +1121,19 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Automatic crafting tables, but cooler"
+			subtitle: "&#8B4513Automatic crafting tables, but cooler"
 			tasks: [{
 				id: "226025129A152B32"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			title: "&e&lMechanical Crafter"
+			title: "&lMechanical Crafter"
 			x: 0.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["59B58F487D188A06"]
-			description: ["Mechanical arms can be used to move items quickly and efficiently, they can also be programmed and filtered to grab from and deposit in different locations depending on the filters. This is another device to \"&6ponder&r\" in &aJEI&r."]
+			description: ["Mechanical arms can be used to move items quickly and efficiently, they can also be programmed and filtered to grab from and deposit in different locations depending on the filters. This is another device to \"&#D2691Eponder&r\" in &#D2691EJEI&r."]
 			id: "28F619ABF0BF4904"
 			rewards: [
 				{
@@ -1153,19 +1153,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6A helping hand"
+			subtitle: "&#8B4513A helping hand"
 			tasks: [{
 				id: "7D47515C169C4328"
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			title: "&e&lMechanical Arm"
+			title: "&lMechanical Arm"
 			x: 0.0d
 			y: -12.5d
 		}
 		{
 			dependencies: ["6EB67049F07A7C80"]
-			description: ["Much like their andesite brethren, the brass funnel is used to insert or extract from any given inventory. These funnels, however, come with a fancy new twist in that they allow for the &9filtering&r of items. More on the using the \"&6ponder&r\" feature in &aJEi&r."]
+			description: ["Much like their andesite brethren, the brass funnel is used to insert or extract from any given inventory. These funnels, however, come with a fancy new twist in that they allow for the &#D2691Efiltering&r of items. More on the using the \"&#D2691Eponder&r\" feature in &#D2691EJEi&r."]
 			id: "11C9F5D06A650A0B"
 			rewards: [
 				{
@@ -1180,13 +1180,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Item transfer 2.0"
+			subtitle: "&#8B4513Item transfer 2.0"
 			tasks: [{
 				id: "096206FAFED8A840"
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			title: "&e&lBrass Funnel"
+			title: "&lBrass Funnel"
 			x: 1.0d
 			y: -5.5d
 		}
@@ -1207,13 +1207,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Belt sorting 2.0"
+			subtitle: "&#8B4513Belt sorting 2.0"
 			tasks: [{
 				id: "3CB51474D530845F"
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			title: "&e&lBrass Tunnel"
+			title: "&lBrass Tunnel"
 			x: -1.0d
 			y: -5.5d
 		}
@@ -1222,7 +1222,7 @@
 			description: [
 				"The hose pulley is a retractable hose that can extract and transport any number of fluids. "
 				""
-				"a nice thing to note about them is any body of liquid containing 10k buckets or more of liquid will be considered an \"&6infinite&r\" fluid source... provided you can find or create one that large."
+				"a nice thing to note about them is any body of liquid containing 10k buckets or more of liquid will be considered an \"&#D2691Einfinite&r\" fluid source... provided you can find or create one that large."
 			]
 			id: "2F5B1536B8F289FF"
 			rewards: [
@@ -1238,13 +1238,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Retractable hoses"
+			subtitle: "&#8B4513Retractable hoses"
 			tasks: [{
 				id: "793818955F0B28E1"
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			title: "&e&lHose Pulley"
+			title: "&lHose Pulley"
 			x: 7.0d
 			y: 1.0d
 		}
@@ -1265,13 +1265,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6contraption fluid transfer"
+			subtitle: "&#8B4513contraption fluid transfer"
 			tasks: [{
 				id: "7677AD53B928ECF4"
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			title: "&e&lPortable Fluid Interface"
+			title: "&lPortable Fluid Interface"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -1292,13 +1292,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Item transfer component"
+			subtitle: "&#8B4513Item transfer component"
 			tasks: [{
 				id: "2DBD01BA526E8DF4"
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			title: "&e&lPortable Storage Interface"
+			title: "&lPortable Storage Interface"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -1320,13 +1320,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Energy tansfer from build to build"
+			subtitle: "&#8B4513Energy tansfer from build to build"
 			tasks: [{
 				id: "1395A665EE8740A2"
 				item: "createaddition:portable_energy_interface"
 				type: "item"
 			}]
-			title: "&e&lPortable Energy Interface"
+			title: "&lPortable Energy Interface"
 			x: -1.0d
 			y: -8.0d
 		}
@@ -1347,19 +1347,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Stress and turning corners"
+			subtitle: "&#8B4513Stress and turning corners"
 			tasks: [{
 				id: "7465566D2B41CEF1"
 				item: "create:gearbox"
 				type: "item"
 			}]
-			title: "&e&lGearboxes"
+			title: "&lGearboxes"
 			x: 0.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["2DFAB367F1A7D350"]
-			description: ["Can &ainput&r items into or &cextract&r items from containers."]
+			description: ["Can &#D2691Einput&r items into or &#D2691Eextract&r items from containers."]
 			id: "25E6D46400D0EECF"
 			rewards: [
 				{
@@ -1374,19 +1374,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Item transfer"
+			subtitle: "&#8B4513Item transfer"
 			tasks: [{
 				id: "0342A1F1D7A9E251"
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
-			title: "&e&lAndesite Funnel"
+			title: "&lAndesite Funnel"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2DFAB367F1A7D350"]
-			description: ["Like funnels, tunnels allow for the &ainsertion&r and &cextraction&r of items, but these may only be placed onto belts, and then fed into the container of choosing."]
+			description: ["Like funnels, tunnels allow for the &#D2691Einsertion&r and &#D2691Eextraction&r of items, but these may only be placed onto belts, and then fed into the container of choosing."]
 			id: "566F3B5361936B1A"
 			rewards: [
 				{
@@ -1401,13 +1401,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Belt exclusive item transfer"
+			subtitle: "&#8B4513Belt exclusive item transfer"
 			tasks: [{
 				id: "388A9B45C84FB5F7"
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
-			title: "&e&lAndesite Tunnel"
+			title: "&lAndesite Tunnel"
 			x: -1.0d
 			y: 3.0d
 		}
@@ -1416,7 +1416,7 @@
 			description: [
 				"Crushing wheels have been granted a VERY wide range of utility. They will almost certainly be worth having for one reason or another. A few of the many uses and utilities provided to you through them include but are not limited to:"
 				""
-				"Crushing &6material&r to sift for resources. &9Ores&r for processing. &cMobs&r for experience and spawn eggs. &3Tools and armor&r for apotheosis materials. and much more! As always &aJEI&r is going to be your friend here."
+				"Crushing &#D2691Ematerial&r to sift for resources. &#D2691EOres&r for processing. &#D2691EMobs&r for experience and spawn eggs. &#D2691ETools and armor&r for apotheosis materials. and much more! As always &#D2691EJEI&r is going to be your friend here."
 			]
 			id: "1B808286EB22BDFD"
 			rewards: [
@@ -1437,14 +1437,14 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6You've got ALOT of axes to grind."
+			subtitle: "&#8B4513You've got ALOT of axes to grind."
 			tasks: [{
 				count: 2L
 				id: "04532AF297B109DB"
 				item: { Count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			title: "&e&l2x Crushing Wheel"
+			title: "&l2x Crushing Wheel"
 			x: 1.5d
 			y: -11.0d
 		}
@@ -1465,13 +1465,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Yet another means to move items"
+			subtitle: "&#8B4513Yet another means to move items"
 			tasks: [{
 				id: "47DB6B103293653C"
 				item: "create:chute"
 				type: "item"
 			}]
-			title: "&e&lChute"
+			title: "&lChute"
 			x: -2.6785714285714377d
 			y: 1.5d
 		}
@@ -1481,7 +1481,7 @@
 				"5392A8DC9F2C3D5C"
 				"1E324D81453A1191"
 			]
-			description: ["The upgraded form allows for item filtering and the creation of &6automated&r &9mob cages&r and &abotany pots&r!"]
+			description: ["The upgraded form allows for item filtering and the creation of &#D2691Eautomated&r &#D2691Emob cages&r and &#D2691Ebotany pots&r!"]
 			id: "4269D7599CFB4E9B"
 			rewards: [
 				{
@@ -1496,19 +1496,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6It's a smarter chute, of course"
+			subtitle: "&#8B4513It's a smarter chute, of course"
 			tasks: [{
 				id: "58DF02F36AD8E0FD"
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			title: "&e&lSmart Chute"
+			title: "&lSmart Chute"
 			x: -4.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6410DD17441D06C6"]
-			description: ["&eEnergizers&r are used to create many different electrical components, as well as used in many recipe and assembly lines where RF is needed to complete the recipe. "]
+			description: ["&#D2691EEnergizers&r are used to create many different electrical components, as well as used in many recipe and assembly lines where RF is needed to complete the recipe. "]
 			id: "5F358699277E5DC6"
 			rewards: [
 				{
@@ -1523,21 +1523,21 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Used for.... Energizing!"
+			subtitle: "&#8B4513Used for.... Energizing!"
 			tasks: [{
 				id: "6280789A9E80122E"
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			title: "&e&lBasic Energizer"
+			title: "&lBasic Energizer"
 			x: 2.5d
 			y: -1.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -1570,7 +1570,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -1581,9 +1581,9 @@
 				""
 				"On one end of the generator coil, attach your shaft/gearbox for turning the coil."
 				""
-				"On the other end of the generator coil, attach &8carbon brushes&r. You can extract any &cpower&r your coils generate from the carbon brushes via pipe, flux plug, etc."
+				"On the other end of the generator coil, attach &#D2691Ecarbon brushes&r. You can extract any &#D2691Epower&r your coils generate from the carbon brushes via pipe, flux plug, etc."
 				""
-				"The \"&ePonder&r\" feature can be used on any of the blocks used in this process to provide a visual aid for how to construct the entirety of the set up."
+				"The \"&#D2691EPonder&r\" feature can be used on any of the blocks used in this process to provide a visual aid for how to construct the entirety of the set up."
 			]
 			hide_dependency_lines: true
 			id: "72EE4C7641CF8431"
@@ -1607,7 +1607,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Extracting the power"
+			subtitle: "&#8B4513Extracting the power"
 			tasks: [{
 				id: "667603ED19111659"
 				item: {
@@ -1621,14 +1621,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lCarbon Brushes"
+			title: "&lCarbon Brushes"
 			x: -10.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["2DFAB367F1A7D350"]
 			description: [
-				"When placed centered within 12 magnets and given the stress necessary to turn them, &6generator coils&r can be used to produce power when &8carbon brushes&r are attached. "
+				"When placed centered within 12 magnets and given the stress necessary to turn them, &#D2691Egenerator coils&r can be used to produce power when &#D2691Ecarbon brushes&r are attached. "
 				""
 				"Stronger and stronger magnets, will generate more and more power, however, they will also require increasing levels of stress to turn the coils within them."
 			]
@@ -1655,7 +1655,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Rotational Power Generation"
+			subtitle: "&#8B4513Rotational Power Generation"
 			tasks: [{
 				id: "7E40BE44E6B8F384"
 				item: {
@@ -1669,16 +1669,16 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lGenerator Coil"
+			title: "&lGenerator Coil"
 			x: -6.0d
 			y: 6.5d
 		}
 		{
 			dependencies: ["2DFAB367F1A7D350"]
 			description: [
-				"Gather 12 &8Magnetite&r blocks and place them in the formation shown on the quest page."
+				"Gather 12 &#D2691EMagnetite&r blocks and place them in the formation shown on the quest page."
 				""
-				"You can also \"&ePonder&r\" magnetite or any \"&bmagnet&r\" block at any point, to learn more about placement."
+				"You can also \"&#D2691EPonder&r\" magnetite or any \"&#D2691Emagnet&r\" block at any point, to learn more about placement."
 			]
 			id: "120C05A214BF774B"
 			rewards: [
@@ -1701,7 +1701,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6T1 Magnets"
+			subtitle: "&#8B4513T1 Magnets"
 			tasks: [{
 				count: 12L
 				id: "0BB5039399781E01"
@@ -1716,7 +1716,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l12x Magnetite Block"
+			title: "&l12x Magnetite Block"
 			x: -4.0d
 			y: 3.0d
 		}
@@ -1757,7 +1757,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6T2 Magnets"
+			subtitle: "&#8B4513T2 Magnets"
 			tasks: [{
 				count: 12L
 				id: "53AAA520AF2965D4"
@@ -1772,7 +1772,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l12x Redstone Magnet"
+			title: "&l12x Redstone Magnet"
 			x: -5.0d
 			y: 3.0d
 		}
@@ -1799,7 +1799,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6T3 Magnets"
+			subtitle: "&#8B4513T3 Magnets"
 			tasks: [{
 				count: 12L
 				id: "1C3C1849EE0D2A76"
@@ -1814,7 +1814,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l12x Layered Magnet"
+			title: "&l12x Layered Magnet"
 			x: -6.0d
 			y: 3.0d
 		}
@@ -1854,7 +1854,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6T4 Magnets"
+			subtitle: "&#8B4513T4 Magnets"
 			tasks: [{
 				count: 12L
 				id: "68C0511047D69A70"
@@ -1869,7 +1869,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l12x Fluxuated Magnet"
+			title: "&l12x Fluxuated Magnet"
 			x: -7.0d
 			y: 3.0d
 		}
@@ -1896,7 +1896,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6T5 Magnets"
+			subtitle: "&#8B4513T5 Magnets"
 			tasks: [{
 				count: 12L
 				id: "6C7FB9E3A5181275"
@@ -1911,13 +1911,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l12x Netherite Magnet"
+			title: "&l12x Netherite Magnet"
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2D0E3347EF63B89E"]
-			description: ["Copper sheets will be need for making &9fluid tanks&r, which are needed for utilizing &6steam engines&r and storing fluid."]
+			description: ["Copper sheets will be need for making &#D2691Efluid tanks&r, which are needed for utilizing &#D2691Esteam engines&r and storing fluid."]
 			hide_dependency_lines: true
 			id: "3CB0AECD7D7FB955"
 			rewards: [
@@ -1942,7 +1942,7 @@
 				}
 			]
 			size: 1.25d
-			subtitle: "&6First steps towards fluid containment"
+			subtitle: "&#8B4513First steps towards fluid containment"
 			tasks: [{
 				count: 6L
 				id: "3B9627877E010398"
@@ -1957,7 +1957,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l6x Copper Sheet"
+			title: "&l6x Copper Sheet"
 			x: 1.5d
 			y: -3.5d
 		}
@@ -1966,7 +1966,7 @@
 			description: [
 				"Much like item vaults and accumulators, fluid tanks will form together into multi block structures when placed adjacent to each other, joining their internal capacities. Pipes can be used to pipe fluids into and out of the tanks as needed. "
 				""
-				"They can also be heated and used as boilers for steam engines. Use the \"&ePonder&r\" feature when hovering over a steam engine in &aJEI&r for more info!"
+				"They can also be heated and used as boilers for steam engines. Use the \"&#D2691EPonder&r\" feature when hovering over a steam engine in &#D2691EJEI&r for more info!"
 			]
 			id: "7721A8AA827DDB7A"
 			rewards: [
@@ -1989,7 +1989,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Multiblock fluid storage"
+			subtitle: "&#8B4513Multiblock fluid storage"
 			tasks: [{
 				count: 3L
 				id: "19BD8E37B392CBCE"
@@ -2004,7 +2004,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l3x Fluid Tank"
+			title: "&l3x Fluid Tank"
 			x: 3.0d
 			y: -3.5d
 		}
@@ -2052,7 +2052,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Steam Power"
+			subtitle: "&#8B4513Steam Power"
 			tasks: [{
 				id: "1B9C673326CC5E66"
 				item: {
@@ -2066,16 +2066,16 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSteam Engine"
+			title: "&lSteam Engine"
 			x: 4.5d
 			y: -3.5d
 		}
 		{
 			dependencies: ["6410DD17441D06C6"]
 			description: [
-				"Found between Y = -4 and -64, &2Luminarchy&r is a very rare earth mineral which produces a faint glow. Extreme caution must be used when harvesting as it explodes upon breaking, even when silk touched."
+				"Found between Y = -4 and -64, &#D2691ELuminarchy&r is a very rare earth mineral which produces a faint glow. Extreme caution must be used when harvesting as it explodes upon breaking, even when silk touched."
 				""
-				"Any you find is worth mining and holding onto, as Luminarchy is a critical component to both &aArcanite&r and &6Irromolding&r."
+				"Any you find is worth mining and holding onto, as Luminarchy is a critical component to both &#D2691EArcanite&r and &#D2691EIrromolding&r."
 			]
 			hide_dependency_lines: true
 			id: "034258931F71A733"
@@ -2099,7 +2099,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Rare Green Angry Ore"
+			subtitle: "&#8B4513Rare Green Angry Ore"
 			tasks: [{
 				id: "09701CAB60FCF59A"
 				item: {
@@ -2113,16 +2113,16 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLuminarchy"
+			title: "&lLuminarchy"
 			x: 4.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["6410DD17441D06C6"]
 			description: [
-				"Found between Y = -4 and -64, &8Philolite&r is a very rare earth mineral. Extreme caution must be used when harvesting as it explodes upon breaking, even when silk touched."
+				"Found between Y = -4 and -64, &#D2691EPhilolite&r is a very rare earth mineral. Extreme caution must be used when harvesting as it explodes upon breaking, even when silk touched."
 				""
-				"Any you find is worth mining and holding onto, as Philolite is a critical component to both &eCelestrium&r and &6Irromolding&r."
+				"Any you find is worth mining and holding onto, as Philolite is a critical component to both &#D2691ECelestrium&r and &#D2691EIrromolding&r."
 			]
 			hide_dependency_lines: true
 			id: "48303A10272403D1"
@@ -2146,7 +2146,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Rare Grey Angry Ore"
+			subtitle: "&#8B4513Rare Grey Angry Ore"
 			tasks: [{
 				id: "1435B2C7FEA46694"
 				item: {
@@ -2160,7 +2160,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lPhilolite"
+			title: "&lPhilolite"
 			x: 7.5d
 			y: 3.5d
 		}
@@ -2169,7 +2169,7 @@
 				"034258931F71A733"
 				"48303A10272403D1"
 			]
-			description: ["Crafted within 21 mechanical crafters, &6Irromolding&r can be used on any enchantable item, with few limitations, in an anvil to make that item &eunbreakable&r. However, this only works if the item does not have the Mending or Unbreaking enchantment applied to it."]
+			description: ["Crafted within 21 mechanical crafters, &#D2691EIrromolding&r can be used on any enchantable item, with few limitations, in an anvil to make that item &#D2691Eunbreakable&r. However, this only works if the item does not have the Mending or Unbreaking enchantment applied to it."]
 			id: "65FC215C206F9A63"
 			rewards: [
 				{
@@ -2192,7 +2192,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Unbreakable"
+			subtitle: "&#8B4513Unbreakable"
 			tasks: [{
 				id: "4EB174F0AA66EE74"
 				item: {
@@ -2206,13 +2206,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lIrromolding"
+			title: "&lIrromolding"
 			x: 6.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["367E77978AA55FAB"]
-			description: ["When used on a blaze burner, &6straws&r will convert them into their liquid fueled form. &aJEI&r can be used to see the full list of liquid fuels usable on blaze burners."]
+			description: ["When used on a blaze burner, &#D2691Estraws&r will convert them into their liquid fueled form. &#D2691EJEI&r can be used to see the full list of liquid fuels usable on blaze burners."]
 			id: "4704B7CAEE41A25B"
 			rewards: [
 				{
@@ -2234,7 +2234,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Liquid Blaze Burners"
+			subtitle: "&#8B4513Liquid Blaze Burners"
 			tasks: [{
 				id: "7E4999C52A087BAC"
 				item: {
@@ -2248,7 +2248,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lStraw"
+			title: "&lStraw"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -2260,22 +2260,22 @@
 				"Blaze burners, liquid blaze burners and sails are all compatible and work with fans and other components to some extent or another."
 				""
 				"{@pagebreak}"
-				"Non-heated (smouldering) normal burners can be used for &8smoking&r."
+				"Non-heated (smouldering) normal burners can be used for &#D2691Esmoking&r."
 				""
-				"Heated (kindled) normal burners can be used for &6blasting&r."
+				"Heated (kindled) normal burners can be used for &#D2691Eblasting&r."
 				""
-				"Non heated/heated liquid burners can be used for &dhaunting&r."
+				"Non heated/heated liquid burners can be used for &#D2691Ehaunting&r."
 				""
-				"Super-heated (seething) normal AND liquid burners can be used for &cseething&r."
+				"Super-heated (seething) normal AND liquid burners can be used for &#D2691Eseething&r."
 				""
 				"{@pagebreak}"
-				"When left unfueled, a burner is considered to be in the \"&8smouldering&r\" or \"non-heated\" state."
+				"When left unfueled, a burner is considered to be in the \"&#D2691Esmouldering&r\" or \"non-heated\" state."
 				""
-				"When fueled and a burner glows orange, it is considered \"&6kindled&r\" or \"heated\"."
+				"When fueled and a burner glows orange, it is considered \"&#D2691Ekindled&r\" or \"heated\"."
 				""
-				"When fueled and the burner glows blue, it is considered \"&9seething&r\" or \"super-heated\"."
+				"When fueled and the burner glows blue, it is considered \"&#D2691Eseething&r\" or \"super-heated\"."
 				""
-				"Different fuels are fed to different burners to achieve different states. &aJEI&r will help you to best discern the best fuel choice to suit your current needs from here."
+				"Different fuels are fed to different burners to achieve different states. &#D2691EJEI&r will help you to best discern the best fuel choice to suit your current needs from here."
 			]
 			id: "75FFB0BEB9094C7A"
 			rewards: [{
@@ -2284,13 +2284,13 @@
 				xp: 15
 			}]
 			size: 1.5d
-			subtitle: "&6There are a few differences..."
+			subtitle: "&#8B4513There are a few differences..."
 			tasks: [{
 				id: "0819E99A28CDC4F2"
 				title: "Choosing the right burner and fuel"
 				type: "checkmark"
 			}]
-			title: "&e&lChoosing the right burner and fuel"
+			title: "&lChoosing the right burner and fuel"
 			x: 5.0d
 			y: -0.5d
 		}
@@ -2331,7 +2331,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6T2 Energizer"
+			subtitle: "&#8B4513T2 Energizer"
 			tasks: [{
 				id: "639E112A1F21A058"
 				item: {
@@ -2345,7 +2345,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lAdvanced Energizer"
+			title: "&lAdvanced Energizer"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -2372,7 +2372,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6T3 Energizer"
+			subtitle: "&#8B4513T3 Energizer"
 			tasks: [{
 				id: "26F78452981593BD"
 				item: {
@@ -2386,13 +2386,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lReinforced Energizer"
+			title: "&lReinforced Energizer"
 			x: 4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["71EC8771E073828D"]
-			description: ["Blend an iron ingot with a piece of coal using a mixer over a &c&oheated&r&r basin to make &8Cast Iron&r. "]
+			description: ["Blend an iron ingot with a piece of coal using a mixer over a &#D2691E&oheated&r&r basin to make &#D2691ECast Iron&r. "]
 			hide_dependency_lines: true
 			id: "302FB69D0B16C77A"
 			rewards: [
@@ -2416,7 +2416,7 @@
 				}
 			]
 			size: 2.0d
-			subtitle: "&6Casting Cast Iron"
+			subtitle: "&#8B4513Casting Cast Iron"
 			tasks: [{
 				count: 16L
 				id: "6884CB5E1479BC50"
@@ -2431,13 +2431,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l16x Cast Iron Ingot"
+			title: "&l16x Cast Iron Ingot"
 			x: 3.25d
 			y: -6.5d
 		}
 		{
 			dependencies: ["302FB69D0B16C77A"]
-			description: ["Once you have access to cast iron, you can construct a &8Coke Oven&r Multiblock. They can be a bit slow, so you may want to make more than one multiblock. Using the \"&ePonder&r\" feature in &aJEI&r will help with any questions on placement. "]
+			description: ["Once you have access to cast iron, you can construct a &#D2691ECoke Oven&r Multiblock. They can be a bit slow, so you may want to make more than one multiblock. Using the \"&#D2691EPonder&r\" feature in &#D2691EJEI&r will help with any questions on placement. "]
 			id: "3198D02831C7A4F9"
 			rewards: [
 				{
@@ -2459,7 +2459,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Making Coal Coke"
+			subtitle: "&#8B4513Making Coal Coke"
 			tasks: [{
 				count: 9L
 				id: "57D2BBF6E60BEA1C"
@@ -2474,13 +2474,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l9x Coke Oven"
+			title: "&l9x Coke Oven"
 			x: 3.25d
 			y: -8.0d
 		}
 		{
 			dependencies: ["3198D02831C7A4F9"]
-			description: ["Insert coal into your coke oven to receive &8coal coke&r. You will also receive byproducts to find one way or another to deal with.. &eCreosote&r is worth holding onto though, it's needed to make hardened planks out of."]
+			description: ["Insert coal into your coke oven to receive &#D2691Ecoal coke&r. You will also receive byproducts to find one way or another to deal with.. &#D2691ECreosote&r is worth holding onto though, it's needed to make hardened planks out of."]
 			id: "66745E8729240CF0"
 			rewards: [
 				{
@@ -2516,7 +2516,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Processing Coal Coke"
+			subtitle: "&#8B4513Processing Coal Coke"
 			tasks: [{
 				count: 32L
 				id: "468979CD662E1719"
@@ -2531,13 +2531,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l32x Coal Coke"
+			title: "&l32x Coal Coke"
 			x: 4.75d
 			y: -8.0d
 		}
 		{
 			dependencies: ["66745E8729240CF0"]
-			description: ["Once crushed with crushing wheels, &6coal coke dust&r can be used with &eblasting mixture&r in a &cblast furnace&r to make &3steel&r."]
+			description: ["Once crushed with crushing wheels, &#D2691Ecoal coke dust&r can be used with &#D2691Eblasting mixture&r in a &#D2691Eblast furnace&r to make &#D2691Esteel&r."]
 			id: "0B9660153A817EFC"
 			rewards: [
 				{
@@ -2559,7 +2559,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Steel Ingredients"
+			subtitle: "&#8B4513Steel Ingredients"
 			tasks: [{
 				count: 32L
 				id: "320FF09C6DF359CE"
@@ -2574,13 +2574,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l32x Coal Coke Dust"
+			title: "&l32x Coal Coke Dust"
 			x: 5.75d
 			y: -7.5d
 		}
 		{
 			dependencies: ["66745E8729240CF0"]
-			description: ["Crushing limestone yields &elimesand&r, which can then be mixed with 3 &bcrushed iron&r in a basin to make &6Blasting Mixture&r."]
+			description: ["Crushing limestone yields &#D2691Elimesand&r, which can then be mixed with 3 &#D2691Ecrushed iron&r in a basin to make &#D2691EBlasting Mixture&r."]
 			id: "27D1736E99455CD6"
 			rewards: [
 				{
@@ -2602,7 +2602,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Steel Ingredients"
+			subtitle: "&#8B4513Steel Ingredients"
 			tasks: [{
 				id: "13507C9D875BDC3F"
 				item: {
@@ -2616,7 +2616,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBlasting Mixture"
+			title: "&lBlasting Mixture"
 			x: 5.75d
 			y: -8.5d
 		}
@@ -2647,7 +2647,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Gathering Fireclay"
+			subtitle: "&#8B4513Gathering Fireclay"
 			tasks: [
 				{
 					count: 4L
@@ -2678,14 +2678,14 @@
 					type: "item"
 				}
 			]
-			title: "&e&lFireproof Brick"
+			title: "&lFireproof Brick"
 			x: 2.5d
 			y: -9.5d
 		}
 		{
 			dependencies: ["73E47939B8BEDD9C"]
 			description: [
-				"Using cast iron and firebricks, You can make the Blast Furnace Output and complete your Blast Furnace Multiblock. You can use the \"&ePonder&r\" feature in &aJEI&r if you have any questions on block placement."
+				"Using cast iron and firebricks, You can make the Blast Furnace Output and complete your Blast Furnace Multiblock. You can use the \"&#D2691EPonder&r\" feature in &#D2691EJEI&r if you have any questions on block placement."
 				""
 				"Item ingredients and fuel are dropped into the top and the products can be extracted via the output."
 			]
@@ -2710,7 +2710,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6The Interface"
+			subtitle: "&#8B4513The Interface"
 			tasks: [{
 				id: "38D344E8B49133EA"
 				item: {
@@ -2724,7 +2724,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lBlast Furnace Output"
+			title: "&lBlast Furnace Output"
 			x: 5.75d
 			y: -9.5d
 		}
@@ -2753,7 +2753,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Reinforcing the bottom"
+			subtitle: "&#8B4513Reinforcing the bottom"
 			tasks: [{
 				count: 8L
 				id: "1FBA77BDECF9A9A3"
@@ -2768,7 +2768,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l8x Fireproof Brick Reinforcement"
+			title: "&l8x Fireproof Brick Reinforcement"
 			x: 4.25d
 			y: -9.5d
 		}
@@ -2814,7 +2814,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Just need to get it to a casting set up"
+			subtitle: "&#8B4513Just need to get it to a casting set up"
 			tasks: [{
 				id: "48969412C55F8E68"
 				item: {
@@ -2828,7 +2828,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lMolten Steel Bucket"
+			title: "&lMolten Steel Bucket"
 			x: 7.5d
 			y: -8.5d
 		}
@@ -2882,7 +2882,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lCasting Spout"
+			title: "&lCasting Spout"
 			x: 6.5d
 			y: -6.0d
 		}
@@ -2922,7 +2922,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lCasting Basin"
+			title: "&lCasting Basin"
 			x: 6.5d
 			y: -4.0d
 		}
@@ -2978,7 +2978,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lIngot Mold"
+			title: "&lIngot Mold"
 			x: 6.5d
 			y: -5.0d
 		}
@@ -2989,7 +2989,7 @@
 				"19846B891CAD03FA"
 				"5B79E9C7FE152405"
 			]
-			description: ["Once you have steel ingots, you can now begin creating a wide range of more advanced tools and structures, such as &6screwdrivers&r for making&3 steel mechanisms&r and &edistillery blocks&r for refining and distilling &8crude oil&r."]
+			description: ["Once you have steel ingots, you can now begin creating a wide range of more advanced tools and structures, such as &#D2691Escrewdrivers&r for making&#D2691E steel mechanisms&r and &#D2691Edistillery blocks&r for refining and distilling &#D2691Ecrude oil&r."]
 			id: "23E4A6AD9E7F51B1"
 			rewards: [
 				{
@@ -3026,7 +3026,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "&6Advanced Hardware and Machinery"
+			subtitle: "&#8B4513Advanced Hardware and Machinery"
 			tasks: [{
 				id: "6164A5F20CB6A01F"
 				item: {
@@ -3040,7 +3040,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSteel Ingot"
+			title: "&lSteel Ingot"
 			x: 9.25d
 			y: -7.0d
 		}
@@ -3068,7 +3068,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Takes little more umph"
+			subtitle: "&#8B4513Takes little more umph"
 			tasks: [{
 				id: "483A69EE751A877D"
 				item: {
@@ -3082,13 +3082,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSteel Plate"
+			title: "&lSteel Plate"
 			x: 11.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["23E4A6AD9E7F51B1"]
-			description: ["Cutting ingots in general can yield a surprisingly wide range of useful materials. Cutting &3steel&r can be used to make &6screws&r, needed for more advanced hardware and mekanisms."]
+			description: ["Cutting ingots in general can yield a surprisingly wide range of useful materials. Cutting &#D2691Esteel&r can be used to make &#D2691Escrews&r, needed for more advanced hardware and mekanisms."]
 			id: "4C72E139FF6A0721"
 			rewards: [
 				{
@@ -3111,7 +3111,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Stone Cutting"
+			subtitle: "&#8B4513Stone Cutting"
 			tasks: [{
 				count: 16L
 				id: "6A88B3D516556351"
@@ -3126,13 +3126,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l16x Screw"
+			title: "&l16x Screw"
 			x: 11.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["23E4A6AD9E7F51B1"]
-			description: ["Steel ingots can be cut into rebar which can then be used for &8reinforced materials&r and &6screwdrivers&r"]
+			description: ["Steel ingots can be cut into rebar which can then be used for &#D2691Ereinforced materials&r and &#D2691Escrewdrivers&r"]
 			id: "24F0F5CC858F9043"
 			rewards: [
 				{
@@ -3155,7 +3155,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Stone Cutting"
+			subtitle: "&#8B4513Stone Cutting"
 			tasks: [{
 				id: "69C2DF6995ED94E4"
 				item: {
@@ -3169,7 +3169,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lRebar"
+			title: "&lRebar"
 			x: 9.285714285714285d
 			y: -8.142857142857153d
 		}
@@ -3200,7 +3200,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6A Precision Instrument"
+			subtitle: "&#8B4513A Precision Instrument"
 			tasks: [{
 				id: "433E5D234363D92F"
 				item: {
@@ -3217,7 +3217,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lScrewdriver"
+			title: "&lScrewdriver"
 			x: 11.0d
 			y: -8.0d
 		}
@@ -3227,7 +3227,7 @@
 				"4C72E139FF6A0721"
 				"0467C829D8CA235F"
 			]
-			description: ["Steel mechanisms are made by feeding a steel plate into an assembly line with 1 steel ingot, 1 aluminum ingot, 1 screw and 1 screwdriver. The \"&ePonder&r\" feature in &aJEI&r can be used for more info!"]
+			description: ["Steel mechanisms are made by feeding a steel plate into an assembly line with 1 steel ingot, 1 aluminum ingot, 1 screw and 1 screwdriver. The \"&#D2691EPonder&r\" feature in &#D2691EJEI&r can be used for more info!"]
 			id: "3C48078506D42E67"
 			rewards: [
 				{
@@ -3249,7 +3249,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6A New Mechanism"
+			subtitle: "&#8B4513A New Mechanism"
 			tasks: [{
 				id: "41B3A6C38716CAB2"
 				item: {
@@ -3263,7 +3263,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSteel Mechanism"
+			title: "&lSteel Mechanism"
 			x: 13.5d
 			y: -7.0d
 		}
@@ -3291,7 +3291,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Engines will need these!"
+			subtitle: "&#8B4513Engines will need these!"
 			tasks: [{
 				id: "29C75A4888FC2C84"
 				item: {
@@ -3305,7 +3305,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSpark Plug"
+			title: "&lSpark Plug"
 			x: 13.5d
 			y: -8.0d
 		}
@@ -3349,7 +3349,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Needed for Radial Engines"
+			subtitle: "&#8B4513Needed for Radial Engines"
 			tasks: [{
 				id: "54B060F7C6C4AD55"
 				item: {
@@ -3363,7 +3363,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lEngine Chamber"
+			title: "&lEngine Chamber"
 			x: 14.5d
 			y: -7.5d
 		}
@@ -3372,9 +3372,9 @@
 				"14BE9FBB6E54D012"
 				"7E82D59C0755896F"
 			]
-			description: ["Planks can by hardened by using a spout to saturate them with &ecreosote&r, after which they can be sued for &8steel casing&r."]
+			description: ["Planks can by hardened by using a spout to saturate them with &#D2691Ecreosote&r, after which they can be sued for &#D2691Esteel casing&r."]
 			id: "5E420A10E9DCC1B6"
-			subtitle: "&6Step 1 to making steel casings"
+			subtitle: "&#8B4513Step 1 to making steel casings"
 			tasks: [{
 				id: "3A57C6E8D66AC453"
 				item: {
@@ -3388,7 +3388,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lHardened Planks"
+			title: "&lHardened Planks"
 			x: 9.214285714285715d
 			y: -4.464285714285722d
 		}
@@ -3419,7 +3419,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Steel applied to hardened planks"
+			subtitle: "&#8B4513Steel applied to hardened planks"
 			tasks: [{
 				id: "75A9EEE9D03C2F66"
 				item: {
@@ -3433,7 +3433,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSteel Casing"
+			title: "&lSteel Casing"
 			x: 11.0d
 			y: -4.5d
 		}
@@ -3477,7 +3477,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Steel plate applied to steel casing"
+			subtitle: "&#8B4513Steel plate applied to steel casing"
 			tasks: [{
 				id: "39FFDABF2B7A08E4"
 				item: {
@@ -3491,7 +3491,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lHeavy Machinery Casing"
+			title: "&lHeavy Machinery Casing"
 			x: 13.0d
 			y: -4.5d
 		}
@@ -3520,7 +3520,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Fluid storage and refinement"
+			subtitle: "&#8B4513Fluid storage and refinement"
 			tasks: [{
 				count: 7L
 				id: "7DC5B1291A47D836"
@@ -3535,7 +3535,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l7x Steel Fluid Tank"
+			title: "&l7x Steel Fluid Tank"
 			x: 16.0d
 			y: -6.0d
 		}
@@ -3545,7 +3545,7 @@
 				"3C48078506D42E67"
 				"52D7284BC40D565B"
 			]
-			description: ["&8Crude oil&r can be pumped into an active steel distillation controller and distilled into different sub-parts. These fluids can be used for a wide range of things, such as powering engines made to run on them or &6lubricants&r after further refinement."]
+			description: ["&#D2691ECrude oil&r can be pumped into an active steel distillation controller and distilled into different sub-parts. These fluids can be used for a wide range of things, such as powering engines made to run on them or &#D2691Elubricants&r after further refinement."]
 			id: "3D3B701917D59EF9"
 			rewards: [
 				{
@@ -3580,7 +3580,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Distilling your crude oil"
+			subtitle: "&#8B4513Distilling your crude oil"
 			tasks: [{
 				id: "30D6602E54177545"
 				item: {
@@ -3594,13 +3594,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lSteel Distillation Controller"
+			title: "&lSteel Distillation Controller"
 			x: 16.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["77139DB3DC85CD55"]
-			description: ["Placed next to the tank of your distillation build, &3steel distillation outputs&r can be attached to&8 industrial pipes&r and used to extract the &6byproducts&r of your distillation set ups."]
+			description: ["Placed next to the tank of your distillation build, &#D2691Esteel distillation outputs&r can be attached to&#D2691E industrial pipes&r and used to extract the &#D2691Ebyproducts&r of your distillation set ups."]
 			id: "5A0AC28A4AD35118"
 			rewards: [
 				{
@@ -3635,7 +3635,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Outputting your byproducts"
+			subtitle: "&#8B4513Outputting your byproducts"
 			tasks: [{
 				count: 6L
 				id: "7EB76BA2A68B768C"
@@ -3650,7 +3650,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l6x Steel Distillation Output"
+			title: "&l6x Steel Distillation Output"
 			x: 16.0d
 			y: -7.5d
 		}
@@ -3660,7 +3660,7 @@
 				"5A0AC28A4AD35118"
 				"3D3B701917D59EF9"
 			]
-			description: ["&8Heavy oil&r is one of the many byproducts that can be distilled. This process can and will need to be refined even further to produce &6lubricant&r."]
+			description: ["&#D2691EHeavy oil&r is one of the many byproducts that can be distilled. This process can and will need to be refined even further to produce &#D2691Elubricant&r."]
 			id: "4C5CFD2F23381B93"
 			rewards: [
 				{
@@ -3709,7 +3709,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Required for Radial Engine"
+			subtitle: "&#8B4513Required for Radial Engine"
 			tasks: [{
 				id: "3A7CA3AD2F8C1383"
 				item: {
@@ -3723,13 +3723,13 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lHeavy Oil Bucket"
+			title: "&lHeavy Oil Bucket"
 			x: 18.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["4C5CFD2F23381B93"]
-			description: ["Further distilling your heavy oil will yield &6Lubricant Oil&r and&e Diesel.&r One is required for Radial Engines the other great for feeding blaze burners."]
+			description: ["Further distilling your heavy oil will yield &#D2691ELubricant Oil&r and&#D2691E Diesel.&r One is required for Radial Engines the other great for feeding blaze burners."]
 			id: "6F6313140FFCA6EF"
 			rewards: [
 				{
@@ -3752,7 +3752,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Advanced Distilling"
+			subtitle: "&#8B4513Advanced Distilling"
 			tasks: [{
 				id: "4E98BD64141D297C"
 				item: {
@@ -3766,7 +3766,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLubrication Oil Bucket"
+			title: "&lLubrication Oil Bucket"
 			x: 19.5d
 			y: -6.0d
 		}
@@ -3791,7 +3791,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lKerosene Bucket"
+			title: "&lKerosene Bucket"
 			x: 18.0d
 			y: -8.0d
 		}
@@ -3816,7 +3816,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lDiesel Bucket"
+			title: "&lDiesel Bucket"
 			x: 18.0d
 			y: -7.0d
 		}
@@ -3841,7 +3841,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lNaphtha Bucket"
+			title: "&lNaphtha Bucket"
 			x: 18.0d
 			y: -9.0d
 		}
@@ -3866,7 +3866,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lGasoline Bucket"
+			title: "&lGasoline Bucket"
 			x: 18.0d
 			y: -10.0d
 		}
@@ -3891,14 +3891,14 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLPG Tank"
+			title: "&lLPG Tank"
 			x: 18.0d
 			y: -11.0d
 		}
 		{
 			dependencies: ["6F6313140FFCA6EF"]
 			description: [
-				"These are just the first of many steps to assembling &dThe Creative Motor&r. It is the single most complex recipe in the pack and will require these radial engines and many more items from a multitude of different mods."
+				"These are just the first of many steps to assembling &#D2691EThe Creative Motor&r. It is the single most complex recipe in the pack and will require these radial engines and many more items from a multitude of different mods."
 				""
 				"Don't worry though! As always, if you explore the quest book, everything you need to know is explained to you as the book progresses. You have not heard the last of the creative motor but that is the last you'll hear for now. "
 			]
@@ -3923,7 +3923,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6There's a lot packed into that little motor!"
+			subtitle: "&#8B4513There's a lot packed into that little motor!"
 			tasks: [{
 				id: "712FCA48E7B398F3"
 				item: {
@@ -3937,7 +3937,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lLarge Radial Engine"
+			title: "&lLarge Radial Engine"
 			x: 21.0d
 			y: -6.0d
 		}
@@ -3964,7 +3964,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Needed for hardened planks"
+			subtitle: "&#8B4513Needed for hardened planks"
 			tasks: [{
 				id: "6CE28AC34703FDE8"
 				item: {
@@ -3978,7 +3978,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lCreosote Bucket"
+			title: "&lCreosote Bucket"
 			x: 7.0d
 			y: -7.0d
 		}
@@ -4006,7 +4006,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6Industrial Grade"
+			subtitle: "&#8B4513Industrial Grade"
 			tasks: [{
 				count: 32L
 				id: "5FD6878B256A1792"
@@ -4021,7 +4021,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&l32x Industrial Pipe"
+			title: "&l32x Industrial Pipe"
 			x: 10.5d
 			y: -2.5d
 		}
@@ -4069,7 +4069,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&6USE THE PONDER FOR THIS ONE"
+			subtitle: "&#8B4513USE THE PONDER FOR THIS ONE"
 			tasks: [
 				{
 					id: "731317044306BF88"
@@ -4163,7 +4163,7 @@
 					type: "item"
 				}
 			]
-			title: "&e&lExtracting Liquid Dinosaur"
+			title: "&lExtracting Liquid Dinosaur"
 			x: 14.5d
 			y: -2.5d
 		}
@@ -4183,7 +4183,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "&6Black Gold!"
+			subtitle: "&#8B4513Black Gold!"
 			tasks: [{
 				id: "4FD3B29810E206BE"
 				item: {
@@ -4197,7 +4197,7 @@
 				}
 				type: "item"
 			}]
-			title: "&e&lCrude Oil Bucket"
+			title: "&lCrude Oil Bucket"
 			x: 16.0d
 			y: -2.5d
 		}
@@ -4326,7 +4326,7 @@
 				}
 				type: "item"
 			}]
-			title: "&6&lCreative Motor"
+			title: "&lCreative Motor"
 			x: -2.625d
 			y: -11.0d
 		}

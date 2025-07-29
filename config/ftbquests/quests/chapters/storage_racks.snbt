@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Looking for an early-game storage system that's simple to use? &e&lStorage Racks&r&r might be just the mod for you!"
+				"Looking for an early-game storage system that's simple to use? &#D2691E&lStorage Racks&r&r might be just the mod for you!"
 				""
-				"&e&lStorage Racks&r&r provides an easy solution to organize all your Minecraft storage needs, allowing you to craft &eracks&r with various inventory sizes to keep your items neatly organized and easily accessible!"
+				"&#D2691E&lStorage Racks&r&r provides an easy solution to organize all your Minecraft storage needs, allowing you to craft &#D2691Eracks&r with various inventory sizes to keep your items neatly organized and easily accessible!"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -62,7 +62,7 @@
 				""
 				"Corners are connector blocks that can be placed between racks or between racks and a controller to keep your storage system linked to the controller."
 				""
-				"Craft your first wood rack, which has &c18&r inventory slots."
+				"Craft your first wood rack, which has &#D2691E18&r inventory slots."
 			]
 			icon: {
 				Count: 1
@@ -95,7 +95,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wood Tier"
+			subtitle: "&#8B4513Wood Tier"
 			tasks: [
 				{
 					id: "65DECCE3DEE7D689"
@@ -341,7 +341,7 @@
 				"377E286CDF4BDA5C"
 				"7417D7EB6D7EAA3D"
 			]
-			description: ["Stone Racks have &c27&r inventory slots."]
+			description: ["Stone Racks have &#D2691E27&r inventory slots."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -374,7 +374,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Stone Tier"
+			subtitle: "&#8B4513Stone Tier"
 			tasks: [
 				{
 					id: "7D5BE8EA83DD2A35"
@@ -620,7 +620,7 @@
 				"377E286CDF4BDA5C"
 				"7417D7EB6D7EAA3D"
 			]
-			description: ["Iron Racks have &c36&r Inventory slots."]
+			description: ["Iron Racks have &#D2691E36&r Inventory slots."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -653,7 +653,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Iron Tier"
+			subtitle: "&#8B4513Iron Tier"
 			tasks: [
 				{
 					id: "2BBDA1B6DAB2A673"
@@ -899,7 +899,7 @@
 				"377E286CDF4BDA5C"
 				"7417D7EB6D7EAA3D"
 			]
-			description: ["Gold Racks have &c45&r Inventory slots."]
+			description: ["Gold Racks have &#D2691E45&r Inventory slots."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -932,7 +932,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Gold Tier"
+			subtitle: "&#8B4513Gold Tier"
 			tasks: [
 				{
 					id: "11F1EDF25F971C31"
@@ -1178,7 +1178,7 @@
 				"377E286CDF4BDA5C"
 				"7417D7EB6D7EAA3D"
 			]
-			description: ["Emerald Racks have &c54&r Inventory slots."]
+			description: ["Emerald Racks have &#D2691E54&r Inventory slots."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1211,7 +1211,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Emerald Tier"
+			subtitle: "&#8B4513Emerald Tier"
 			tasks: [
 				{
 					id: "086555C174E35DCB"
@@ -1457,7 +1457,7 @@
 				"377E286CDF4BDA5C"
 				"7417D7EB6D7EAA3D"
 			]
-			description: ["Diamond Racks have &c63&r Inventory slots."]
+			description: ["Diamond Racks have &#D2691E63&r Inventory slots."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1489,7 +1489,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Diamond Tier"
+			subtitle: "&#8B4513Diamond Tier"
 			tasks: [
 				{
 					id: "7DD6B340590C7718"
@@ -1735,7 +1735,7 @@
 				"377E286CDF4BDA5C"
 				"7417D7EB6D7EAA3D"
 			]
-			description: ["Netherite Racks have &c72&r Inventory slots."]
+			description: ["Netherite Racks have &#D2691E72&r Inventory slots."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1767,7 +1767,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Netherite Tier"
+			subtitle: "&#8B4513Netherite Tier"
 			tasks: [
 				{
 					id: "76A7B2E25C3E4A6C"
@@ -2011,9 +2011,9 @@
 		{
 			dependencies: ["377E286CDF4BDA5C"]
 			description: [
-				"To place any storage racks, you'll first need a storage controller. Storage controllers help you locate and manage items in your racks easily. They come in different tiers, with each tier supporting a different number of connected racks. When you open the controller's GUI, you can unlock &9sorting&r and &9insertion&r options at the bottom of the menu by using a redstone block and a hopper for even easier storage management. Struggling to find an item in a large number of racks? Don't worry! Simply search for the item and click the &6&l\"?\"&r&r icon next to it—the rack containing the item will light up."
+				"To place any storage racks, you'll first need a storage controller. Storage controllers help you locate and manage items in your racks easily. They come in different tiers, with each tier supporting a different number of connected racks. When you open the controller's GUI, you can unlock &#D2691Esorting&r and &#D2691Einsertion&r options at the bottom of the menu by using a redstone block and a hopper for even easier storage management. Struggling to find an item in a large number of racks? Don't worry! Simply search for the item and click the &#D2691E&l\"?\"&r&r icon next to it—the rack containing the item will light up."
 				""
-				"Craft a &8&lStone Controller&r&r, which supports up to &c20&r racks!"
+				"Craft a &#D2691E&lStone Controller&r&r, which supports up to &#D2691E20&r racks!"
 			]
 			id: "7417D7EB6D7EAA3D"
 			rewards: [
@@ -2056,7 +2056,7 @@
 		}
 		{
 			dependencies: ["7417D7EB6D7EAA3D"]
-			description: ["Upgrade your &l&8Stone Controller&r&r to an &lIron Controller&r, which supports up to &c40&r racks!"]
+			description: ["Upgrade your &l&#D2691EStone Controller&r&r to an &lIron Controller&r, which supports up to &#D2691E40&r racks!"]
 			id: "41D560810B632C4D"
 			rewards: [
 				{
@@ -2098,7 +2098,7 @@
 		}
 		{
 			dependencies: ["41D560810B632C4D"]
-			description: ["Upgrade your &lIron Controller&r to a &l&eGold Controller&r&r, which supports up to &c60&r racks!"]
+			description: ["Upgrade your &lIron Controller&r to a &l&#D2691EGold Controller&r&r, which supports up to &#D2691E60&r racks!"]
 			id: "56098F44C4727C5B"
 			rewards: [
 				{
@@ -2140,7 +2140,7 @@
 		}
 		{
 			dependencies: ["56098F44C4727C5B"]
-			description: ["Upgrade your &l&eGold Controller&r&r to an &2&lEmerald Controller&r&r, which supports up to &c80&r racks!"]
+			description: ["Upgrade your &l&#D2691EGold Controller&r&r to an &#D2691E&lEmerald Controller&r&r, which supports up to &#D2691E80&r racks!"]
 			id: "09D99D77C2C2E0C1"
 			rewards: [
 				{
@@ -2182,7 +2182,7 @@
 		}
 		{
 			dependencies: ["09D99D77C2C2E0C1"]
-			description: ["Upgrade your &2&lEmerald Controller&r&r to a &l&0Netherite Controller&r&r, which supports up to &c120&r racks!"]
+			description: ["Upgrade your &#D2691E&lEmerald Controller&r&r to a &lNetherite Controller&r&r, which supports up to &#D2691E120&r racks!"]
 			id: "0EB8B1A953617CD4"
 			rewards: [
 				{
@@ -2223,7 +2223,7 @@
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["&e&lFunctional Storage&r&r is a mod that adds a variety of drawers, allowing you to store large quantities of items while offering useful functionalities and upgrades."]
+			description: ["&#D2691E&lFunctional Storage&r&r is a mod that adds a variety of drawers, allowing you to store large quantities of items while offering useful functionalities and upgrades."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -2252,7 +2252,7 @@
 		}
 		{
 			dependencies: ["1BE501041FE031B5"]
-			description: ["&e&lDrawers&r&r are where your items will be stored. Craft your first &edrawer&r to start exploring the mod further."]
+			description: ["&#D2691E&lDrawers&r&r are where your items will be stored. Craft your first &#D2691Edrawer&r to start exploring the mod further."]
 			id: "16AC24360DB72530"
 			rewards: [
 				{
@@ -2799,7 +2799,7 @@
 		}
 		{
 			dependencies: ["7060F6D312FAA2C1"]
-			description: ["You can copy an &e&lEnder Drawer&r&r frequency by left-clicking it with a &eLinking Tool&r. Then, right-click another &eEnder Drawer&r to sync their contents. They work similarly to Ender Chests, as the name suggests, but are designed for drawers."]
+			description: ["You can copy an &#D2691E&lEnder Drawer&r&r frequency by left-clicking it with a &#D2691ELinking Tool&r. Then, right-click another &#D2691EEnder Drawer&r to sync their contents. They work similarly to Ender Chests, as the name suggests, but are designed for drawers."]
 			id: "063669950CA41ACB"
 			rewards: [
 				{
@@ -2841,7 +2841,7 @@
 		}
 		{
 			dependencies: ["7060F6D312FAA2C1"]
-			description: ["&e&lFramed Drawers&r&r are customizable drawers that can be tailored to your preferences. Hover over any framed drawer for a guide on how to customize it."]
+			description: ["&#D2691E&lFramed Drawers&r&r are customizable drawers that can be tailored to your preferences. Hover over any framed drawer for a guide on how to customize it."]
 			id: "250A47CC0072B020"
 			rewards: [
 				{
@@ -2951,7 +2951,7 @@
 		}
 		{
 			dependencies: ["7060F6D312FAA2C1"]
-			description: ["&e&lFluid Drawers&r&r are similar to regular drawers, but instead of storing items, they store fluids."]
+			description: ["&#D2691E&lFluid Drawers&r&r are similar to regular drawers, but instead of storing items, they store fluids."]
 			id: "2D7150E023A3138C"
 			rewards: [
 				{
@@ -3026,9 +3026,9 @@
 		{
 			dependencies: ["7060F6D312FAA2C1"]
 			description: [
-				"&e&lCompacting drawers&r&r are special drawers that automatically convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, place them in a compacting drawer. The drawer will internally maintain a pool of the material and allow you to insert or remove the material in any of the displayed forms. This compacting behavior works with any item that has a &ecompressed&r recipe."
+				"&#D2691E&lCompacting drawers&r&r are special drawers that automatically convert compressible items. Instead of manually crafting and uncrafting between gold blocks, ingots, and nuggets, place them in a compacting drawer. The drawer will internally maintain a pool of the material and allow you to insert or remove the material in any of the displayed forms. This compacting behavior works with any item that has a &#D2691Ecompressed&r recipe."
 				""
-				"&e&lSimple Compacting Drawers&r&r function similarly to Compacting Drawers but have only two slots."
+				"&#D2691E&lSimple Compacting Drawers&r&r function similarly to Compacting Drawers but have only two slots."
 			]
 			id: "40B701BD235ACE08"
 			rewards: [
@@ -3087,9 +3087,9 @@
 		{
 			dependencies: ["7060F6D312FAA2C1"]
 			description: [
-				"The &e&lConfiguration Tool&r&r allows you to change the settings for each drawer to hide/show Item renders, amounts, upgrade renders or swap indicator modes."
+				"The &#D2691E&lConfiguration Tool&r&r allows you to change the settings for each drawer to hide/show Item renders, amounts, upgrade renders or swap indicator modes."
 				""
-				"Drawers can also be locked or unlocked with the &l&eConfiguration Tool&r&r. When a drawer is locked, it will maintain its current item association even if the last item is removed. This will prevent pipes and other transport systems from re-filling that drawer with other items."
+				"Drawers can also be locked or unlocked with the &l&#D2691EConfiguration Tool&r&r. When a drawer is locked, it will maintain its current item association even if the last item is removed. This will prevent pipes and other transport systems from re-filling that drawer with other items."
 			]
 			id: "6428558E5BD92E2C"
 			rewards: [
@@ -3133,9 +3133,9 @@
 		{
 			dependencies: ["7060F6D312FAA2C1"]
 			description: [
-				"&e&lStorage Controllers&r&r are arguably the most important block in the mod. They search for any drawers they're linked to using the &eLinking Tool&r and expose all those drawers as a single, large combined inventory. This allows you to, for example, connect a single pipe and interact with the entire bank of drawers."
+				"&#D2691E&lStorage Controllers&r&r are arguably the most important block in the mod. They search for any drawers they're linked to using the &#D2691ELinking Tool&r and expose all those drawers as a single, large combined inventory. This allows you to, for example, connect a single pipe and interact with the entire bank of drawers."
 				""
-				"The second function of the controller is as a &edeposit-only&r interactive block. By right-clicking the front face with an item, the item will be deposited into the connected network. Double-right-clicking will attempt to dump your entire inventory. Items will only be deposited if they already exist in the network, making it easy to clear out mob drops or farmed crops without dumping your entire inventory."
+				"The second function of the controller is as a &#D2691Edeposit-only&r interactive block. By right-clicking the front face with an item, the item will be deposited into the connected network. Double-right-clicking will attempt to dump your entire inventory. Items will only be deposited if they already exist in the network, making it easy to clear out mob drops or farmed crops without dumping your entire inventory."
 			]
 			id: "5B7CFD38909BADF8"
 			rewards: [
@@ -3179,7 +3179,7 @@
 		}
 		{
 			dependencies: ["5B7CFD38909BADF8"]
-			description: ["The &e&lController Access Point&r&r functions as a &eStorage Controller&r when linked to one, providing additional faces for attaching machines, pipes, or crafting frames. All access points bound to the same controller will share the same inventory and range as that controller. Using controller access points is more &eperformance-efficient&r than using multiple controllers."]
+			description: ["The &#D2691E&lController Access Point&r&r functions as a &#D2691EStorage Controller&r when linked to one, providing additional faces for attaching machines, pipes, or crafting frames. All access points bound to the same controller will share the same inventory and range as that controller. Using controller access points is more &#D2691Eperformance-efficient&r than using multiple controllers."]
 			id: "4D448CEBA92D5A14"
 			rewards: [
 				{
@@ -3221,7 +3221,7 @@
 		}
 		{
 			dependencies: ["5B7CFD38909BADF8"]
-			description: ["The &e&lArmory Cabinet&r&r stores &c&l4096&r&r non stackable items, and can only be accessed with external tools like Applied Energistics external storage tools. It is useful to keep any items with &eNBT&r data out of your storage system."]
+			description: ["The &#D2691E&lArmory Cabinet&r&r stores &#D2691E&l4096&r&r non stackable items, and can only be accessed with external tools like Applied Energistics external storage tools. It is useful to keep any items with &#D2691ENBT&r data out of your storage system."]
 			id: "3E48563A0826A220"
 			rewards: [
 				{
@@ -3282,9 +3282,9 @@
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -3317,7 +3317,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

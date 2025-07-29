@@ -21,7 +21,7 @@
 	quests: [
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["&d&lArs Nouveau&r&r is a magic mod inspired by Ars Magicka that allows players to craft their own spells, create magical artifacts, perform rituals, and much more. It introduces a flexible glyph-based spell system, letting players customize spells with different effects, shapes, and modifiers. Additionally, players can summon familiars, automate tasks with magical constructs, offering endless opportunities for creativity and progression in the game."]
+			description: ["&#D2691E&lArs Nouveau&r&r is a magic mod inspired by Ars Magicka that allows players to craft their own spells, create magical artifacts, perform rituals, and much more. It introduces a flexible glyph-based spell system, letting players customize spells with different effects, shapes, and modifiers. Additionally, players can summon familiars, automate tasks with magical constructs, offering endless opportunities for creativity and progression in the game."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -60,13 +60,13 @@
 				id: "7C8B84F8A30E9B37"
 				type: "checkmark"
 			}]
-			title: "&d&lWelcome to Ars Nouveau!"
+			title: "&lWelcome to Ars Nouveau!"
 			x: -7.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["40CD64536505D590"]
-			description: ["To begin spell casting, you will need to first obtain a &l&dSpellbook&r&r. A spellbook will allow you to create, store, and cast spells using Mana. A higher tier spell book will provide additional spell slots, allowing you to craft more complex spells."]
+			description: ["To begin spell casting, you will need to first obtain a &l&#D2691ESpellbook&r&r. A spellbook will allow you to create, store, and cast spells using Mana. A higher tier spell book will provide additional spell slots, allowing you to craft more complex spells."]
 			id: "20A73BE11D09BAFB"
 			rewards: [
 				{
@@ -102,7 +102,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lNovice Spell Book"
+			title: "&lNovice Spell Book"
 			x: -2.5d
 			y: -8.5d
 		}
@@ -144,13 +144,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lWilden Tribute"
+			title: "&lWilden Tribute"
 			x: 8.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["1D413A634B40C893"]
-			description: ["The &dEnchanting Apparatus&r and &dArcane core&r are used in conjunction with up to eight pedestals for crafting special machines, curios, and equipment used to progress in Ars Nouveau."]
+			description: ["The &#D2691EEnchanting Apparatus&r and &#D2691EArcane core&r are used in conjunction with up to eight pedestals for crafting special machines, curios, and equipment used to progress in Ars Nouveau."]
 			id: "18612C429179D483"
 			rewards: [
 				{
@@ -202,7 +202,7 @@
 					type: "item"
 				}
 			]
-			title: "&d&lEnchanting Apparatus"
+			title: "&lEnchanting Apparatus"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -243,7 +243,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lMagebloom Fiber"
+			title: "&lMagebloom Fiber"
 			x: 0.0d
 			y: 7.5d
 		}
@@ -330,7 +330,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lScribes Table"
+			title: "&lScribes Table"
 			x: 2.5d
 			y: -8.5d
 		}
@@ -370,7 +370,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dMage's Spell Book"
+			title: "&lMage's Spell Book"
 			x: -2.5d
 			y: -10.0d
 		}
@@ -398,13 +398,13 @@
 				}
 				type: "item"
 			}]
-			title: "&dArchmage Spell Book"
+			title: "&lArchmage Spell Book"
 			x: -2.5d
 			y: -11.5d
 		}
 		{
 			dependencies: ["1CC4682D04DA96C8"]
-			description: ["Imbues certain items with Source to create new items. The primary way to obtain &l&dSource Gems&r&r, amethyst and lapis may be used to create Source Gems. The Imbuement Chamber will passively accumulate source for recipes, or will draw from Source Jars 2 block away. Some recipes require additional items placed in pedestals within 1 block of the Imbuement Chamber, such as Essences. Items in pedestals will not be consumed."]
+			description: ["Imbues certain items with Source to create new items. The primary way to obtain &l&#D2691ESource Gems&r&r, amethyst and lapis may be used to create Source Gems. The Imbuement Chamber will passively accumulate source for recipes, or will draw from Source Jars 2 block away. Some recipes require additional items placed in pedestals within 1 block of the Imbuement Chamber, such as Essences. Items in pedestals will not be consumed."]
 			id: "5D4DF864718041D1"
 			rewards: [
 				{
@@ -441,13 +441,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lImbuement Chamber"
+			title: "&lImbuement Chamber"
 			x: 0.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["20A73BE11D09BAFB"]
-			description: ["Several resources can spawn in the world, each with their own magical properties. &d&lArchwood trees&r&r come in several decorative variants and are used to craft a ton of items."]
+			description: ["Several resources can spawn in the world, each with their own magical properties. &#D2691E&lArchwood trees&r&r come in several decorative variants and are used to craft a ton of items."]
 			id: "1CC4682D04DA96C8"
 			rewards: [
 				{
@@ -487,7 +487,7 @@
 				title: "Archwood"
 				type: "item"
 			}]
-			title: "&d&lArchwood"
+			title: "&lArchwood"
 			x: 0.0d
 			y: -8.5d
 		}
@@ -520,7 +520,7 @@
 				id: "75A4518F74E1DEDC"
 				type: "checkmark"
 			}]
-			title: "&d&lTier 1 Glyphs"
+			title: "&lTier 1 Glyphs"
 			x: 7.0d
 			y: -8.5d
 		}
@@ -553,7 +553,7 @@
 				id: "10BEFFA251D4C1E0"
 				type: "checkmark"
 			}]
-			title: "&d&lTier 2 Glyphs"
+			title: "&lTier 2 Glyphs"
 			x: 14.0d
 			y: -8.5d
 		}
@@ -586,13 +586,13 @@
 				id: "2C3904261556A2F9"
 				type: "checkmark"
 			}]
-			title: "&d&lTier 3 Glyphs"
+			title: "&lTier 3 Glyphs"
 			x: 21.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5D4DF864718041D1"]
-			description: ["To obtain a source gem, place an Amethyst or Lapis inside your Imbuement Chamber and wait. Imbuement Chambers will consume source from nearby Source Jars to speed up any crafting. A &d&lDowsing Rod&r&r can be used for finding Budding Amethyst early."]
+			description: ["To obtain a source gem, place an Amethyst or Lapis inside your Imbuement Chamber and wait. Imbuement Chambers will consume source from nearby Source Jars to speed up any crafting. A &#D2691E&lDowsing Rod&r&r can be used for finding Budding Amethyst early."]
 			id: "46446FB4C697F51E"
 			rewards: [
 				{
@@ -628,13 +628,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lSource Gem"
+			title: "&lSource Gem"
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["46446FB4C697F51E"]
-			description: ["&d&lSource Jars&r&r store source gathered from nearby Sourcelinks. Source is used in glyphs and rituals by powering devices like the Imbuement Chamber and Enchanting Apparatus. Source may be moved using a Source Relay or by breaking and moving it. To use Source in a jar, simply place the jar near your desired device. Source Jars will provide a signal to Redstone Comparators based on their fill level."]
+			description: ["&#D2691E&lSource Jars&r&r store source gathered from nearby Sourcelinks. Source is used in glyphs and rituals by powering devices like the Imbuement Chamber and Enchanting Apparatus. Source may be moved using a Source Relay or by breaking and moving it. To use Source in a jar, simply place the jar near your desired device. Source Jars will provide a signal to Redstone Comparators based on their fill level."]
 			id: "615528DF4F844102"
 			rewards: [
 				{
@@ -671,13 +671,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lSource Jar"
+			title: "&lSource Jar"
 			x: 2.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["615528DF4F844102"]
-			description: ["The &l&dAgronomic Sourcelink&r&r generates source from crop and tree growth within 15 blocks. Bonus source is generated for magical plants such as Mageblooms, Source Berry Bushes, and Archwood Saplings. Source will be output from the Sourcelink to nearby jars within 5 blocks. Note: Bonemealing crops will not grant Source."]
+			description: ["The &l&#D2691EAgronomic Sourcelink&r&r generates source from crop and tree growth within 15 blocks. Bonus source is generated for magical plants such as Mageblooms, Source Berry Bushes, and Archwood Saplings. Source will be output from the Sourcelink to nearby jars within 5 blocks. Note: Bonemealing crops will not grant Source."]
 			id: "0FC22B1785C09294"
 			rewards: [
 				{
@@ -718,7 +718,7 @@
 		}
 		{
 			dependencies: ["615528DF4F844102"]
-			description: ["The &d&lVolcanic Sourcelink&r&r generates Source by consuming burnable items. Archwood logs will generate bonus Source, with Blazing Archwood generating the most. As the Volcanic Sourcelink produces Source, it also produces heat, used for spawning Lava Lilies and converting stone into lava. The Volcanic Sourcelink automatically outputs to nearby jars, starting with the one closest to it."]
+			description: ["The &#D2691E&lVolcanic Sourcelink&r&r generates Source by consuming burnable items. Archwood logs will generate bonus Source, with Blazing Archwood generating the most. As the Volcanic Sourcelink produces Source, it also produces heat, used for spawning Lava Lilies and converting stone into lava. The Volcanic Sourcelink automatically outputs to nearby jars, starting with the one closest to it."]
 			id: "763266D43CE084AF"
 			rewards: [
 				{
@@ -918,16 +918,16 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lSourcestone"
+			title: "&lSourcestone"
 			x: 0.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["18612C429179D483"]
 			description: [
-				"A &d&lbrazier&r&r serves as both decoration and a ritual tool. To light it for decoration, cast a Light spell; the brazier will change color based on the spell used. A redstone signal will disable any active ritual."
+				"A &#D2691E&lbrazier&r&r serves as both decoration and a ritual tool. To light it for decoration, cast a Light spell; the brazier will change color based on the spell used. A redstone signal will disable any active ritual."
 				""
-				"To perform a ritual, you need a &d&lRitual Brazier&r&r and a &dtablet&r&r. Place the brazier in the world and use the tablet on it to ignite it and await activation. You can augment the ritual by tossing additional items onto the brazier."
+				"To perform a ritual, you need a &#D2691E&lRitual Brazier&r&r and a &#D2691Etablet&r&r. Place the brazier in the world and use the tablet on it to ignite it and await activation. You can augment the ritual by tossing additional items onto the brazier."
 				""
 				"To activate the ritual, interact with the brazier with an empty hand. Once activated, the ritual cannot be augmented and is permanently consumed. If a ritual requires a source to operate, the brazier will draw from source jars within 6 blocks."
 			]
@@ -967,7 +967,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lRitual Brazier"
+			title: "&lRitual Brazier"
 			x: 0.0357142857142847d
 			y: 2.4285714285714306d
 		}
@@ -1574,9 +1574,9 @@
 		{
 			dependencies: ["6CF308170079ADCC"]
 			description: [
-				"To begin &esummoning familiars&r, obtain a &d&lBound Script&r&r for the entity you wish to befriend by performing the &dRitual of Binding&r near it. Use the Bound Script to learn the familiar."
+				"To begin &#D2691Esummoning familiars&r, obtain a &#D2691E&lBound Script&r&r for the entity you wish to befriend by performing the &#D2691ERitual of Binding&r near it. Use the Bound Script to learn the familiar."
 				""
-				"Afterward, access your list of familiars from the &dSpellbook&r crafting menu in the Familiars section. Summoning a familiar will inflict Familiar Sickness, temporarily preventing you from summoning another for a short time."
+				"Afterward, access your list of familiars from the &#D2691ESpellbook&r crafting menu in the Familiars section. Summoning a familiar will inflict Familiar Sickness, temporarily preventing you from summoning another for a short time."
 			]
 			id: "5E96FAABB9DF4C39"
 			rewards: [
@@ -2139,7 +2139,7 @@
 		}
 		{
 			dependencies: ["6CF308170079ADCC"]
-			description: ["Once you have setup your apparatus, you should craft your first &l&dMagebloom Seed&r&r. A magically infused flower, Mageblooms provide additional source to nearby Agronomic Sourcelinks as they grow and provide a source of Magebloom Fiber. Mageblooms can also be used in crafting Potions of Spell Damage, increasing the damage of your spells."]
+			description: ["Once you have setup your apparatus, you should craft your first &l&#D2691EMagebloom Seed&r&r. A magically infused flower, Mageblooms provide additional source to nearby Agronomic Sourcelinks as they grow and provide a source of Magebloom Fiber. Mageblooms can also be used in crafting Potions of Spell Damage, increasing the damage of your spells."]
 			id: "470B3A7008E2E1DE"
 			rewards: [
 				{
@@ -2176,7 +2176,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lMagebloom Seed"
+			title: "&lMagebloom Seed"
 			x: 0.0d
 			y: 5.0d
 		}
@@ -2222,7 +2222,7 @@
 		}
 		{
 			dependencies: ["3542FA6FA3D06D8B"]
-			description: ["The &d&lAlteration Table&r&r is used to inscribe &d&lThreads&r&r onto magical armor. To begin, place the armor onto the stand of the table, where the tablet will display the available Thread Slots on the armor. To add or remove a Thread, simply use the Thread on the tablet of the table, and once the armor is removed, the Threads will be applied. If you wish to remove a Thread, place the armor back on the table and interact with the display using an empty hand."]
+			description: ["The &#D2691E&lAlteration Table&r&r is used to inscribe &#D2691E&lThreads&r&r onto magical armor. To begin, place the armor onto the stand of the table, where the tablet will display the available Thread Slots on the armor. To add or remove a Thread, simply use the Thread on the tablet of the table, and once the armor is removed, the Threads will be applied. If you wish to remove a Thread, place the armor back on the table and interact with the display using an empty hand."]
 			id: "0547BC2656119EF4"
 			rewards: [
 				{
@@ -2259,7 +2259,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lAlteration Table"
+			title: "&lAlteration Table"
 			x: -1.5d
 			y: 7.5d
 		}
@@ -2327,7 +2327,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Illusion Blocks"
+			subtitle: "&#8B4513Illusion Blocks"
 			tasks: [{
 				id: "15AA6B5FF61A0E7B"
 				item: {
@@ -2341,7 +2341,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dMagebloom Block"
+			title: "&lMagebloom Block"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -2614,7 +2614,7 @@
 				"5BD697A70EEFCDA5"
 				"587113163F9F2610"
 			]
-			description: ["&d&lGhostweave&r&r has the same properties as Mirrorweave, but can be turned into an invisible wall by casting Invisibility on it. Casting Dispel will reveal the block again. Sense Magic will cause the block to appear solid again."]
+			description: ["&#D2691E&lGhostweave&r&r has the same properties as Mirrorweave, but can be turned into an invisible wall by casting Invisibility on it. Casting Dispel will reveal the block again. Sense Magic will cause the block to appear solid again."]
 			id: "79D12D8126E48D00"
 			rewards: [
 				{
@@ -2658,7 +2658,7 @@
 				"5BD697A70EEFCDA5"
 				"3F7DE9F707D6D133"
 			]
-			description: ["&d&lSkyweave&r&r will display the skybox of the dimension it is placed in. To toggle the skybox and show the facade, cast Dispel on it. The facade may be set to another block like Mirrorweave."]
+			description: ["&#D2691E&lSkyweave&r&r will display the skybox of the dimension it is placed in. To toggle the skybox and show the facade, cast Dispel on it. The facade may be set to another block like Mirrorweave."]
 			id: "66DF51967E144FB5"
 			rewards: [
 				{
@@ -2702,7 +2702,7 @@
 				"5BD697A70EEFCDA5"
 				"1CCD5FB2E7C48F0B"
 			]
-			description: ["&d&lFalseweave&r&r has the same properties as Mirrorweave, but can be passed through as if it were air. Sense Magic will cause the block to become invisible, revealing any hidden paths."]
+			description: ["&#D2691E&lFalseweave&r&r has the same properties as Mirrorweave, but can be passed through as if it were air. Sense Magic will cause the block to become invisible, revealing any hidden paths."]
 			id: "016B8199D595578C"
 			rewards: [
 				{
@@ -2746,7 +2746,7 @@
 				"5BD697A70EEFCDA5"
 				"643B53AB75DA4DEB"
 			]
-			description: ["&d&lMirrorweave&r&r can replicate the appearance of any block that is used on it. These blocks will take on the same collisions and light as their replicated block. Sense Magic will reveal the illusion. All illusion blocks can also be used as frames for portals. Casting light on an illusion block will allow it to emit light."]
+			description: ["&#D2691E&lMirrorweave&r&r can replicate the appearance of any block that is used on it. These blocks will take on the same collisions and light as their replicated block. Sense Magic will reveal the illusion. All illusion blocks can also be used as frames for portals. Casting light on an illusion block will allow it to emit light."]
 			id: "6478638BA385631D"
 			rewards: [
 				{
@@ -2957,7 +2957,7 @@
 		}
 		{
 			dependencies: ["18612C429179D483"]
-			description: ["A caster tool that can cast inscribed spells remotely through a &l&dScry Crystal&r&r. Use the eye on a Scry Crystal to bind the location, or hold a bound Scry Parchment in the offhand. Spells will be cast through the eye similar to a Spell Turret, but you are considered the caster for all effects. Useful for remote teleportation or item movement."]
+			description: ["A caster tool that can cast inscribed spells remotely through a &l&#D2691EScry Crystal&r&r. Use the eye on a Scry Crystal to bind the location, or hold a bound Scry Parchment in the offhand. Spells will be cast through the eye similar to a Spell Turret, but you are considered the caster for all effects. Useful for remote teleportation or item movement."]
 			id: "616E493D310437EB"
 			rewards: [
 				{
@@ -9743,7 +9743,7 @@
 		}
 		{
 			dependencies: ["615528DF4F844102"]
-			description: ["&dEnables the transport of source between Source Jars and other Source Relays&r. To pull source from jars, use the Dominion Wand on the jar, and then on the relay. To send between relays or from a relay to a jar, use the wand on the relay and then the target you wish to send source to. Relays may only reach up to 30 blocks away. To clear connections, sneak while using the Dominion Wand on the relay."]
+			description: ["&#D2691EEnables the transport of source between Source Jars and other Source Relays&r. To pull source from jars, use the Dominion Wand on the jar, and then on the relay. To send between relays or from a relay to a jar, use the wand on the relay and then the target you wish to send source to. Relays may only reach up to 30 blocks away. To clear connections, sneak while using the Dominion Wand on the relay."]
 			id: "77FA84CFD9E47E54"
 			rewards: [
 				{
@@ -9784,7 +9784,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay, but will &dsupport taking from and transferring to multiple jars at once&r. The splitter has a much larger through-put than the Source Relay, and will split this throughput amongst all of its jars. See the instructions on the Source Relay for use."]
+			description: ["Operates similar to the Source Relay, but will &#D2691Esupport taking from and transferring to multiple jars at once&r. The splitter has a much larger through-put than the Source Relay, and will split this throughput amongst all of its jars. See the instructions on the Source Relay for use."]
 			id: "3D8828F522087796"
 			rewards: [
 				{
@@ -9825,7 +9825,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay, but will &ddeposit to jars it is not linked to within 5 blocks&r. See the instructions on the Source Relay for use."]
+			description: ["Operates similar to the Source Relay, but will &#D2691Edeposit to jars it is not linked to within 5 blocks&r. See the instructions on the Source Relay for use."]
 			id: "5D21774751A2BED4"
 			rewards: [
 				{
@@ -9866,7 +9866,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay: Splitter but can &dteleport source an endless distance between other Warp relays&r. For distances beyond 30 blocks, there is a chance that some source will be lost during warp."]
+			description: ["Operates similar to the Source Relay: Splitter but can &#D2691Eteleport source an endless distance between other Warp relays&r. For distances beyond 30 blocks, there is a chance that some source will be lost during warp."]
 			id: "6B80ACB11BE88DCF"
 			rewards: [
 				{
@@ -9907,7 +9907,7 @@
 		}
 		{
 			dependencies: ["77FA84CFD9E47E54"]
-			description: ["Operates similar to the Source Relay, but will &dautomatically take from jars it is not linked to within 5 blocks&r. See the instructions on the Source Relay for use."]
+			description: ["Operates similar to the Source Relay, but will &#D2691Eautomatically take from jars it is not linked to within 5 blocks&r. See the instructions on the Source Relay for use."]
 			id: "4D57912C67CD5074"
 			rewards: [
 				{
@@ -10104,7 +10104,7 @@
 		}
 		{
 			dependencies: ["5B61615F525ED5EF"]
-			description: ["This spell focus is attuned to the &dSchool of Air&r. While equipped, glyphs from this school will be both amplified and discounted, enhancing air-based spells. The lesser focus, however, comes with a drawback, weakening glyphs from the other elemental schools. The major focus offers an additional perk, granting Mana Regen I when the wearer is standing above &eY-level 200&r or is under the Shocked effect."]
+			description: ["This spell focus is attuned to the &#D2691ESchool of Air&r. While equipped, glyphs from this school will be both amplified and discounted, enhancing air-based spells. The lesser focus, however, comes with a drawback, weakening glyphs from the other elemental schools. The major focus offers an additional perk, granting Mana Regen I when the wearer is standing above &#D2691EY-level 200&r or is under the Shocked effect."]
 			id: "2160877BA8B6F12B"
 			rewards: [
 				{
@@ -10144,7 +10144,7 @@
 		}
 		{
 			dependencies: ["6CF95D590E3366E1"]
-			description: ["This spell focus is attuned to the &dSchool of Earth&r. While equipped, glyphs from this school will be amplified and discounted, boosting the power and efficiency of earth-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Mana Regen I when the wearer is standing below &eY-level 0&r, providing a unique benefit in deep underground environments."]
+			description: ["This spell focus is attuned to the &#D2691ESchool of Earth&r. While equipped, glyphs from this school will be amplified and discounted, boosting the power and efficiency of earth-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Mana Regen I when the wearer is standing below &#D2691EY-level 0&r, providing a unique benefit in deep underground environments."]
 			id: "04A1A9580CE2902A"
 			rewards: [
 				{
@@ -10184,7 +10184,7 @@
 		}
 		{
 			dependencies: ["39BAD0152D10734E"]
-			description: ["This spell focus is attuned to the &dSchool of Fire&r. While equipped, glyphs from this school will be amplified and discounted, enhancing the strength and efficiency of fire-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Spell Damage II when the wearer is either &eon fire or submerged in lava&r, making it a powerful tool for mages who thrive in dangerous, fiery environments."]
+			description: ["This spell focus is attuned to the &#D2691ESchool of Fire&r. While equipped, glyphs from this school will be amplified and discounted, enhancing the strength and efficiency of fire-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus also grants Spell Damage II when the wearer is either &#D2691Eon fire or submerged in lava&r, making it a powerful tool for mages who thrive in dangerous, fiery environments."]
 			id: "35C3697FACD98EC1"
 			rewards: [
 				{
@@ -10224,7 +10224,7 @@
 		}
 		{
 			dependencies: ["3DAE02920A11DBB3"]
-			description: ["This spell focus is attuned to the &dSchool of Water&r. While equipped, glyphs from this school will be amplified and discounted, enhancing water-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus grants Mana Regen I &ewhen the wearer is wet&r, and further boosts this to Mana Regen II and Dolphin's Grace &ewhile swimming&r, making it ideal for aquatic mages or those frequently near water."]
+			description: ["This spell focus is attuned to the &#D2691ESchool of Water&r. While equipped, glyphs from this school will be amplified and discounted, enhancing water-based spells. The lesser focus, as a drawback, weakens glyphs from the other elemental schools. The major focus grants Mana Regen I &#D2691Ewhen the wearer is wet&r, and further boosts this to Mana Regen II and Dolphin's Grace &#D2691Ewhile swimming&r, making it ideal for aquatic mages or those frequently near water."]
 			id: "420795AD09FFD406"
 			rewards: [
 				{
@@ -10353,13 +10353,13 @@
 				}
 				type: "item"
 			}]
-			title: "&d&lMark of Mastery"
+			title: "&lMark of Mastery"
 			x: -7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1628B05C9134984A"]
-			description: ["A special casting focus. Grants summons from spells additional duration, strength, speed, and deals damage to enemies that kill them. Additionally, casting spells that target you like &eSelf&r and &eOrbit&r will cast a copy of the spell on your nearby summons."]
+			description: ["A special casting focus. Grants summons from spells additional duration, strength, speed, and deals damage to enemies that kill them. Additionally, casting spells that target you like &#D2691ESelf&r and &#D2691EOrbit&r will cast a copy of the spell on your nearby summons."]
 			id: "435EA78F77B205C2"
 			rewards: [
 				{
@@ -10399,7 +10399,7 @@
 		}
 		{
 			dependencies: ["435EA78F77B205C2"]
-			description: ["By imbuing the &dFocus of Summoning&r with evil energies, you can corrupt its powers toward &dNecromancy&r. This dark enhancement grants Glyphs from the Anima school two free Extend Time modifiers, significantly increasing the duration of summoning spells. The Heal spell receives two Amplify modifiers for greater restorative power. Additionally, the Charm spell gains a much higher chance of affecting undead mobs, turning them into loyal minions."]
+			description: ["By imbuing the &#D2691EFocus of Summoning&r with evil energies, you can corrupt its powers toward &#D2691ENecromancy&r. This dark enhancement grants Glyphs from the Anima school two free Extend Time modifiers, significantly increasing the duration of summoning spells. The Heal spell receives two Amplify modifiers for greater restorative power. Additionally, the Charm spell gains a much higher chance of affecting undead mobs, turning them into loyal minions."]
 			id: "5C67D2D04CE1D8F6"
 			rewards: [
 				{
@@ -10439,7 +10439,7 @@
 		}
 		{
 			dependencies: ["18612C429179D483"]
-			description: ["&d&lStarbuncles&r&r naturally appear in wooded areas, drawn to their search for golden nuggets. Although they are typically shy and afraid of humans, they will allow someone to approach if the person is holding a gold nugget. Once a Starbuncle picks up a golden nugget, it will vanish from the world, leaving behind a valuable Starbuncle Token as a parting gift."]
+			description: ["&#D2691E&lStarbuncles&r&r naturally appear in wooded areas, drawn to their search for golden nuggets. Although they are typically shy and afraid of humans, they will allow someone to approach if the person is holding a gold nugget. Once a Starbuncle picks up a golden nugget, it will vanish from the world, leaving behind a valuable Starbuncle Token as a parting gift."]
 			id: "659C0D54E764897D"
 			rewards: [
 				{
@@ -10475,7 +10475,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dStarbuncle Token"
+			title: "&lStarbuncle Token"
 			x: 1.7738095238095184d
 			y: -0.9047619047618696d
 		}
@@ -10517,13 +10517,13 @@
 				}
 				type: "item"
 			}]
-			title: "&dStarbuncle Charm"
+			title: "&lStarbuncle Charm"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["25809A8312BEA45C"]
-			description: ["This device &dgenerates rotational force&r for the Create mod. Placing a gold block in front of the wheel will increase its RPM, allowing for faster and more efficient mechanical power generation."]
+			description: ["This device &#D2691Egenerates rotational force&r for the Create mod. Placing a gold block in front of the wheel will increase its RPM, allowing for faster and more efficient mechanical power generation."]
 			id: "60D287AA88CA6A07"
 			rewards: [
 				{
@@ -10559,13 +10559,13 @@
 				}
 				type: "item"
 			}]
-			title: "&dStarbuncle Wheel"
+			title: "&lStarbuncle Wheel"
 			x: 4.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3542FA6FA3D06D8B"]
-			description: ["Your mana pool may be expanded with special mage armors, enchantments, learning new glyphs, or by drinking potions. Once you have acquired a Magebloom Seed, you may craft &d&lNovice Robes&r&r which will expand your casting abilities significantly. These robes will self-repair using your mana pool, have a high enchantability, and provide decent armor."]
+			description: ["Your mana pool may be expanded with special mage armors, enchantments, learning new glyphs, or by drinking potions. Once you have acquired a Magebloom Seed, you may craft &#D2691E&lNovice Robes&r&r which will expand your casting abilities significantly. These robes will self-repair using your mana pool, have a high enchantability, and provide decent armor."]
 			id: "5ED5AF313931C077"
 			rewards: [
 				{
@@ -10658,16 +10658,16 @@
 					type: "item"
 				}
 			]
-			title: "&d&lNovice Robes"
+			title: "&lNovice Robes"
 			x: 0.0d
 			y: 11.0d
 		}
 		{
 			dependencies: ["20A73BE11D09BAFB"]
 			description: [
-				"&d&lSpell Mana&r&r is used to cast spells with a Spellbook. You can increase your maximum mana and its regeneration speed by wearing special Mage Armor or applying the Mana Boost and Mana Regen enchantments. Additionally, each glyph unlocked in your spellbook grants bonus mana and regeneration, which scales with your spellbook's tier."
+				"&#D2691E&lSpell Mana&r&r is used to cast spells with a Spellbook. You can increase your maximum mana and its regeneration speed by wearing special Mage Armor or applying the Mana Boost and Mana Regen enchantments. Additionally, each glyph unlocked in your spellbook grants bonus mana and regeneration, which scales with your spellbook's tier."
 				""
-				"&dSource Berries&r, found in Taigas, are essential for crafting Mana Regeneration potions."
+				"&#D2691ESource Berries&r, found in Taigas, are essential for crafting Mana Regeneration potions."
 			]
 			id: "42D26607313EFF98"
 			rewards: [
@@ -10708,7 +10708,7 @@
 				}
 				type: "item"
 			}]
-			title: "&dSpell Mana"
+			title: "&lSpell Mana"
 			x: -2.5d
 			y: -7.199999999999999d
 		}
@@ -10756,7 +10756,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["Increases &d&lmax mana&r&r by a moderate amount."]
+			description: ["Increases &#D2691E&lmax mana&r&r by a moderate amount."]
 			id: "79218A38E5A51B67"
 			rewards: [
 				{
@@ -10796,7 +10796,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["Increases &d&lmana regeneration&r&r by a moderate amount."]
+			description: ["Increases &#D2691E&lmana regeneration&r&r by a moderate amount."]
 			id: "7B961572D3013D41"
 			rewards: [
 				{
@@ -11079,7 +11079,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["With the &l&dWizard's Armarium&r&r, your wardrobe travels with you, allowing you to switch between three different armor and hotbar configurations."]
+			description: ["With the &l&#D2691EWizard's Armarium&r&r, your wardrobe travels with you, allowing you to switch between three different armor and hotbar configurations."]
 			id: "0BDA0D8AF33932FE"
 			rewards: [
 				{
@@ -11284,7 +11284,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["&d&lRunic chalk&r&r can be used to place permanent Runes on the ground that will cast spells on entities that walk over them. To give a rune a spell, inscribe spell parchment using the scribes table. Once the rune has cast the spell, it will become uncharged. An uncharged rune will charge itself from nearby source jars. Using Runic Chalk on a temporary rune will convert it to a permanent one."]
+			description: ["&#D2691E&lRunic chalk&r&r can be used to place permanent Runes on the ground that will cast spells on entities that walk over them. To give a rune a spell, inscribe spell parchment using the scribes table. Once the rune has cast the spell, it will become uncharged. An uncharged rune will charge itself from nearby source jars. Using Runic Chalk on a temporary rune will convert it to a permanent one."]
 			id: "2697175960ACA939"
 			rewards: [
 				{
@@ -11367,7 +11367,7 @@
 		}
 		{
 			dependencies: ["1339E7ADECEFC955"]
-			description: ["For the mage that craves every bit of data, the &d&lNumeric Mana Charm&r&r adds a precise numeric mana indicator while worn in the charm slot."]
+			description: ["For the mage that craves every bit of data, the &#D2691E&lNumeric Mana Charm&r&r adds a precise numeric mana indicator while worn in the charm slot."]
 			id: "625BC4059536940E"
 			rewards: [
 				{
@@ -12056,15 +12056,15 @@
 					type: "item"
 				}
 			]
-			title: "&5&lUpgrade your armor!"
+			title: "&lUpgrade your armor!"
 			x: -1.5d
 			y: 11.0d
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -12097,7 +12097,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
@@ -12118,7 +12118,7 @@
 				}
 				type: "item"
 			}]
-			title: "&d8x Arcane Pedestal"
+			title: "&l8x Arcane Pedestal"
 			x: 1.7857142857142847d
 			y: 0.0357142857142847d
 		}

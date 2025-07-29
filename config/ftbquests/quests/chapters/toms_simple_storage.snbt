@@ -33,7 +33,7 @@
 			description: [
 				"Are you looking for a better storage system that offers a ton of functionality while remaining simple and easy to understand? You've come to the right place!"
 				""
-				"&l&eTom's Simple Storage&r&r, as the name suggests, is a simple vanilla style storage mod that provides a straightforward and easy-to-use network for all of your storage needs."
+				"&l&#D2691ETom's Simple Storage&r&r, as the name suggests, is a simple vanilla style storage mod that provides a straightforward and easy-to-use network for all of your storage needs."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -63,7 +63,7 @@
 		}
 		{
 			dependencies: ["5975E292A7528076"]
-			description: ["The &e&lStorage Terminal&r&r allows you to access the inventory of any block that can hold items, such as chests or crates by simply placing it on the inventory block."]
+			description: ["The &#D2691E&lStorage Terminal&r&r allows you to access the inventory of any block that can hold items, such as chests or crates by simply placing it on the inventory block."]
 			id: "03C85DC2F154684B"
 			rewards: [
 				{
@@ -106,7 +106,7 @@
 		}
 		{
 			dependencies: ["03C85DC2F154684B"]
-			description: ["The &e&lCrafting Terminal&r&r is an upgraded version of the Storage Terminal, featuring a built-in crafting table. It also integrates with &eJEI&r for automatic interaction with the terminal."]
+			description: ["The &#D2691E&lCrafting Terminal&r&r is an upgraded version of the Storage Terminal, featuring a built-in crafting table. It also integrates with &#D2691EJEI&r for automatic interaction with the terminal."]
 			icon_scale: 1.5d
 			id: "78DC4A5D9E49BE0E"
 			rewards: [
@@ -151,9 +151,9 @@
 		{
 			dependencies: ["03C85DC2F154684B"]
 			description: [
-				"Now that you know how to connect a single chest or crate to your terminal, how do you connect multiple to expand your storage? You can do this with an &e&lInventory Connector&r&r block! "
+				"Now that you know how to connect a single chest or crate to your terminal, how do you connect multiple to expand your storage? You can do this with an &#D2691E&lInventory Connector&r&r block! "
 				""
-				"Simply place the &e&lInventory Connector&r&r block against a storage block like a chest or crate, then attach the terminal to the Inventory Connector. You can stack chests or crates on top of each other or side by side to increase storage, and access all of them through the terminal."
+				"Simply place the &#D2691E&lInventory Connector&r&r block against a storage block like a chest or crate, then attach the terminal to the Inventory Connector. You can stack chests or crates on top of each other or side by side to increase storage, and access all of them through the terminal."
 			]
 			id: "6CE068D4A1B95EB9"
 			rewards: [
@@ -198,9 +198,9 @@
 		{
 			dependencies: ["6CE068D4A1B95EB9"]
 			description: [
-				"Now you can store large amounts of items, but what if you have items in two different areas and want to access both from a single terminal? This is where the &e&lInventory Cable&r&r and &e&lInventory Cable Connector&r&r come into play!"
+				"Now you can store large amounts of items, but what if you have items in two different areas and want to access both from a single terminal? This is where the &#D2691E&lInventory Cable&r&r and &#D2691E&lInventory Cable Connector&r&r come into play!"
 				""
-				"Place the &e&lInventory Cable Connector&r&r on the storage block, then connect it to the &c&lInventory Connector block&r&r using &e&lInventory Cables&r&r. Repeat this for as many storage blocks as needed, and all of them will be accessible through the terminal."
+				"Place the &#D2691E&lInventory Cable Connector&r&r on the storage block, then connect it to the &#D2691E&lInventory Connector block&r&r using &#D2691E&lInventory Cables&r&r. Repeat this for as many storage blocks as needed, and all of them will be accessible through the terminal."
 			]
 			id: "06F6FB4557C2EFCB"
 			rewards: [
@@ -260,7 +260,7 @@
 		}
 		{
 			dependencies: ["6CE068D4A1B95EB9"]
-			description: ["&e&lInventory Trims&r&r work similarly to &cInventory Cables&r. Place Inventory Trims between an Inventory Connector block and any storage block to access it through the terminal."]
+			description: ["&#D2691E&lInventory Trims&r&r work similarly to &#D2691EInventory Cables&r. Place Inventory Trims between an Inventory Connector block and any storage block to access it through the terminal."]
 			id: "43763E012BBF5951"
 			rewards: [
 				{
@@ -305,11 +305,11 @@
 		{
 			dependencies: ["06F6FB4557C2EFCB"]
 			description: [
-				"The &e&lBasic Inventory Hopper&r&r allows you to pull items from an inventory and send them elsewhere in the network. Simply place the Inventory Hopper against the storage block and connect it with cables. You can also set a &efilter&r by right-clicking on the hopper with an item or filter. To remove the filter, shift-right-click on the hopper."
+				"The &#D2691E&lBasic Inventory Hopper&r&r allows you to pull items from an inventory and send them elsewhere in the network. Simply place the Inventory Hopper against the storage block and connect it with cables. You can also set a &#D2691Efilter&r by right-clicking on the hopper with an item or filter. To remove the filter, shift-right-click on the hopper."
 				""
-				"If you want to send specific items to certain chests, use a &l&eFiltered Inventory Cable Connector&r&r. Place it against the storage block and connect it with inventory cables. To &efilter&r the items allowed into the storage block, right-click on the connector and you can assign up to nine different items."
+				"If you want to send specific items to certain chests, use a &l&#D2691EFiltered Inventory Cable Connector&r&r. Place it against the storage block and connect it with inventory cables. To &#D2691Efilter&r the items allowed into the storage block, right-click on the connector and you can assign up to nine different items."
 				""
-				"Now that you've created a simple auto-sorting setup, you can easily sort items from something like a skeleton farm for example. However, you might face one problem: skeletons also drop bows and armor, which you may not want in your system. This is where the &e&lOpen Crate&r&r comes in play. The &e&lOpen Crate&r&r will automatically pull out any items from the system and drop them on the ground if they can't be sorted into any chests. You can place it with some lava in front of it to burn unwanted items. (&l&cMake sure there's something to destroy the items the Open Crate drops, or else a large number of item entities on the ground could cause significant lag!&r&r)"
+				"Now that you've created a simple auto-sorting setup, you can easily sort items from something like a skeleton farm for example. However, you might face one problem: skeletons also drop bows and armor, which you may not want in your system. This is where the &#D2691E&lOpen Crate&r&r comes in play. The &#D2691E&lOpen Crate&r&r will automatically pull out any items from the system and drop them on the ground if they can't be sorted into any chests. You can place it with some lava in front of it to burn unwanted items. (&l&#D2691EMake sure there's something to destroy the items the Open Crate drops, or else a large number of item entities on the ground could cause significant lag!&r&r)"
 			]
 			id: "483153D5181940D0"
 			rewards: [
@@ -382,13 +382,13 @@
 		{
 			dependencies: ["483153D5181940D0"]
 			description: [
-				"An &e&lItem Filter&r&r allows you to filter multiple items, damage and NBT data."
+				"An &#D2691E&lItem Filter&r&r allows you to filter multiple items, damage and NBT data."
 				""
-				"A &e&lTag Item Filter&r&r allows you to filter items based on a tag."
+				"A &#D2691E&lTag Item Filter&r&r allows you to filter items based on a tag."
 				""
-				"A &e&lPolymorphic Item Filter&r&r only allow inserting items that already exist in the inventory."
+				"A &#D2691E&lPolymorphic Item Filter&r&r only allow inserting items that already exist in the inventory."
 				""
-				"After setting up a Filter, click with it on the &e&lBasic Inventory Hopper&r&r to use it."
+				"After setting up a Filter, click with it on the &#D2691E&lBasic Inventory Hopper&r&r to use it."
 			]
 			id: "480754D635A66A50"
 			rewards: [
@@ -460,7 +460,7 @@
 		}
 		{
 			dependencies: ["03C85DC2F154684B"]
-			description: ["The &e&lWireless Terminal&r&r extends your range, allowing you to interact with any terminal within &c16&r blocks or less, as long as it is &ein your line of sight&r."]
+			description: ["The &#D2691E&lWireless Terminal&r&r extends your range, allowing you to interact with any terminal within &#D2691E16&r blocks or less, as long as it is &#D2691Ein your line of sight&r."]
 			id: "43313C5DC0B1A869"
 			rewards: [
 				{
@@ -504,11 +504,11 @@
 		{
 			dependencies: ["43313C5DC0B1A869"]
 			description: [
-				"The &e&lAdvanced Wireless Terminal&r&r is an upgraded version of the &eWireless Terminal&r, allowing you to access the terminal's inventory from up to &c64&r blocks away. Shift + right-click your storage terminal to bind your wireless terminal to it."
+				"The &#D2691E&lAdvanced Wireless Terminal&r&r is an upgraded version of the &#D2691EWireless Terminal&r, allowing you to access the terminal's inventory from up to &#D2691E64&r blocks away. Shift + right-click your storage terminal to bind your wireless terminal to it."
 				""
-				"Building a &elevel 1 beacon&r within range of the regular terminal will let you access its inventory from &9anywhere in the same dimension&r."
+				"Building a &#D2691Elevel 1 beacon&r within range of the regular terminal will let you access its inventory from &#D2691Eanywhere in the same dimension&r."
 				""
-				"Building a &elevel 4 beacon&r within range of the regular terminal will let you access its inventory from &9anywhere across any dimension&r."
+				"Building a &#D2691Elevel 4 beacon&r within range of the regular terminal will let you access its inventory from &#D2691Eanywhere across any dimension&r."
 			]
 			id: "7AF413345F4556FF"
 			rewards: [
@@ -551,7 +551,7 @@
 		}
 		{
 			dependencies: ["06F6FB4557C2EFCB"]
-			description: ["The &e&lLevel Emitter&r&r emits a redstone signal based on the contents of the inventory. For example, you can place one on top of an &eInventory Connector&r and configure it to emit a redstone signal when your diamonds fill up an entire chest."]
+			description: ["The &#D2691E&lLevel Emitter&r&r emits a redstone signal based on the contents of the inventory. For example, you can place one on top of an &#D2691EInventory Connector&r and configure it to emit a redstone signal when your diamonds fill up an entire chest."]
 			id: "5071993FEB516DF2"
 			rewards: [
 				{
@@ -593,7 +593,7 @@
 		}
 		{
 			dependencies: ["06F6FB4557C2EFCB"]
-			description: ["&e&lFramed Inventory Cables&r&r and &e&lFramed Inventory Cable Connectors&r&r are used to create a storage system without compromising the aesthetics of your base. When these items are placed, you can use a &l&ePaint Kit&r&r. Simply shift-right-click any full-sized block with the &l&ePaint Kit&r&r, then right-click your cables and connectors to transform them into any other block, ensuring your building's appearance remains intact."]
+			description: ["&#D2691E&lFramed Inventory Cables&r&r and &#D2691E&lFramed Inventory Cable Connectors&r&r are used to create a storage system without compromising the aesthetics of your base. When these items are placed, you can use a &l&#D2691EPaint Kit&r&r. Simply shift-right-click any full-sized block with the &l&#D2691EPaint Kit&r&r, then right-click your cables and connectors to transform them into any other block, ensuring your building's appearance remains intact."]
 			id: "67A58B04577F0602"
 			rewards: [
 				{
@@ -666,7 +666,7 @@
 		}
 		{
 			dependencies: ["5975E292A7528076"]
-			description: ["The &e&lInventory Proxy block&r&r allows you to extend the face of a block. Each block has &c6 sides&r by default, but if you have a machine that requires power, an input, an output, fluid input, fluid output, and redstone control, you may run into a problem if you need another side. This block enables you to extend it, providing an additional &c4 sides&r for use with your machine."]
+			description: ["The &#D2691E&lInventory Proxy block&r&r allows you to extend the face of a block. Each block has &#D2691E6 sides&r by default, but if you have a machine that requires power, an input, an output, fluid input, fluid output, and redstone control, you may run into a problem if you need another side. This block enables you to extend it, providing an additional &#D2691E4 sides&r for use with your machine."]
 			id: "7C8E2FFA1BD65AE6"
 			rewards: [
 				{
@@ -728,9 +728,9 @@
 		}
 		{
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -763,7 +763,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}

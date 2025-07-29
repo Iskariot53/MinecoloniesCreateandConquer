@@ -275,7 +275,7 @@
 				"3743FEABBAC0424C"
 				"0986E171B0B49CEA"
 			]
-			description: ["&l&6Hats Off to You!&r&r You have finally done it, you have collected every single type of hat!"]
+			description: ["&l&#D2691EHats Off to You!&r&r You have finally done it, you have collected every single type of hat!"]
 			hide_details_until_startable: true
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -315,7 +315,7 @@
 				title: "Hats Off to You"
 				type: "checkmark"
 			}]
-			title: "&6&lHats Off To You"
+			title: "&lHats Off To You"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -3094,9 +3094,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&0  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r &0Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
+				"  The&r &#D2691E&lMinecolonies - Create and Conquer&r&r Modpack   is licensed under&r &#D2691EAll Rights Reserved&r."
 				""
-				"&0  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r&0, is protected. As such, this content may&r &n&l&4NOT&r&r&r &0be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r &0without explicit permission from    the creators.&r"
+				"  Meaning all content within the modpack, including&r            &l&#D2691EQuests&r&r, is protected. As such, this content may&r &n&l&#D2691ENOT&r&r&r be  reused or redistributed in any public modpacks not        released by&r &l&#D2691ETeamMCC&r&r without explicit permission from    the creators.&r"
 			]
 			disable_toast: true
 			hide_details_until_startable: false
@@ -3121,7 +3121,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "&#8B4513&lQuests by TeamMCC for the MCC Modpack"
+			title: "&lQuests by TeamMCC for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
 		}
