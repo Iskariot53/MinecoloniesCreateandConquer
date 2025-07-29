@@ -551,18 +551,18 @@
 		"origins-plus-plus:panoptican/toggle" = true
 
 	[origins."origins-plus-plus:rift_mage"]
-		enabled = false
-		"origins:fall_immunity" = false
+		enabled = true
+		"origins:fall_immunity" = true
 		"origins-plus-plus:rift-mage/city_memory" = false
-		"origins-plus-plus:rift-mage/frail" = false
+		"origins-plus-plus:rift-mage/frail" = true
 		"origins-plus-plus:rift-mage/incompatible" = false
-		"origins-plus-plus:rift-mage/invert" = false
-		"origins-plus-plus:rift-mage/no_food" = false
-		"origins-plus-plus:rift-mage/no_pearls" = false
-		"origins-plus-plus:rift-mage/portality" = false
-		"origins-plus-plus:rift-mage/return_to_rift" = false
-		"origins-plus-plus:rift-mage/sustain" = false
-		"origins-plus-plus:rift-mage/turn_purpur" = false
+		"origins-plus-plus:rift-mage/invert" = true
+		"origins-plus-plus:rift-mage/no_food" = true
+		"origins-plus-plus:rift-mage/no_pearls" = true
+		"origins-plus-plus:rift-mage/portality" = true
+		"origins-plus-plus:rift-mage/return_to_rift" = true
+		"origins-plus-plus:rift-mage/sustain" = true
+		"origins-plus-plus:rift-mage/turn_purpur" = true
 		"origins-plus-plus:rift-mage/water_hater" = false
 
 	[origins."origins-plus-plus:drakonwither"]
