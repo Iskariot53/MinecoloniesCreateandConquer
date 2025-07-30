@@ -40,9 +40,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&#D2691E&lBosses of Mass Destruction&r&r introduces four intriguing yet challenging bosses into Minecraft, each located in &ndifferent dimensions&r:"
+				"  &#D2691E&lBosses of Mass Destruction&r&r            introduces four intriguing yet challenging  bosses into Minecraft, each located in      &ndifferent dimensions&r:"
 				""
-				"the &l&#D2691ENight Lich&r&r, &l&#D2691ENether Gauntlet&r&r, &l&#D2691EObsidilith&r&r, and &l&#D2691EVoid Blossom&r&r."
+				"  The &l&#D2691ENight Lich&r&r, &l&#D2691ENether Gauntlet&r&r,        &l&#D2691EObsidilith&r&r, and &l&#D2691EVoid Blossom&r&r."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -125,13 +125,13 @@
 		{
 			dependencies: ["4CF52BD0F616AE35"]
 			description: [
-				"The &#D2691E&lLich Tower&r&r spawns on the surface of the &noverworld in colder biomes&r and is home to the &l&#D2691ENight Lich&r&r."
+				"  The &#D2691E&lLich Tower&r&r spawns on the         surface of the overworld in colder     biomes and is home to the &l&#D2691ENight Lich&r&r."
 				""
-				"Due to the sheer size of the &#D2691ELich Tower&r, you may naturally come across it while exploring. However, it can also be found by using &l&#D2691ESoul Stars&r&r, which are dropped by undead mobs such as Skeletons and Zombies. &#D2691E&lSoul Stars&r&r function like &nender eyes&r, guiding you toward the &#D2691ELich Tower&r."
+				"  Due to the sheer size of the &#D2691ELich       Tower&r, you may naturally come across  it while exploring. However, it can also   be found by using &l&#D2691ESoul Stars&r&r, which   are dropped by undead mobs such as  Skeletons and Zombies. &#D2691E&lSoul Stars&r&r     function like &nender eyes&r, guiding you    toward the &#D2691ELich Tower&r."
 				""
-				"Inside the &#D2691ELich Tower&r, there are multiple spawners that summon mobs like Skeletons equipped with armor. The tower consists of several floors, where you can also find Chests containing loot."
+				"  Inside the &#D2691ELich Tower&r, there are        multiple spawners that summon mobs     like Skeletons equipped with armor.       The tower consists of several floors,  where you can also find Chests          containing loot."
 				""
-				"On one of the floors, you will discover four &l&#D2691EChiseled Stone Altars&r&r. Each altar requires a &#D2691E&lSoul Star&r&r to activate. Once all are filled, the &#D2691E&lNight Lich&r&r will spawn, and if it isn’t already, the day will turn to night."
+				"  On one of the floors, you will             discover four &l&#D2691EChiseled Stone        Altars&r&r. Each altar requires a &#D2691E&lSoul    Star&r&r to activate. Once all are filled,    the &#D2691E&lNight Lich&r&r will spawn, and if it       isn’t already, the day will turn to         night."
 			]
 			icon: {
 				Count: 1
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["4CF52BD0F616AE35"]
-			description: ["The &#D2691E&lVoid Blossom&r&r is a large, flower-like creature found &ndeep underground in the overworld&r, in areas resembling &#D2691ELush Caves&r. You may come across the &#D2691E&lVoid Blossom Arena&r&r while mining, but it can also be located by crafting a &#D2691E&lVoid Lily&r&r and following the direction of its &#D2691Epollen&r, which will lead you to the cave. Upon entering the arena, the &#D2691E&lVoid Blossom&r&r will spawn."]
+			description: ["  The &#D2691E&lVoid Blossom&r&r is a large,           flower-like creature found deep         underground in the overworld, in         areas resembling &#D2691ELush Caves&r. You may  come across the &#D2691E&lVoid Blossom        Arena&r&r while mining, but it can also be   located by crafting a &#D2691E&lVoid Lily&r&r and    following the direction of its &#D2691Epollen&r,      which will lead you to the cave. Upon     entering the arena, the &#D2691E&lVoid           Blossom&r&r will spawn."]
 			icon_scale: 1.25d
 			id: "7D030024982AFE5D"
 			rewards: [
@@ -258,9 +258,9 @@
 		{
 			dependencies: ["1A03A8FFA3898D37"]
 			description: [
-				"The &#D2691E&lGauntlet Arena&r&r spawns in the &nnether&r and is often partially submerged in lava. "
+				"  The &#D2691E&lGauntlet Arena&r&r spawns in the    &nnether&r and is often partially              submerged in lava. "
 				""
-				"At the center of the arena is a monument with four blocks featuring an &#D2691Eeye texture&r. Breaking one of these blocks will cause the monument to open, and the &#D2691E&lNether Gauntlet&r&r will appear."
+				"  At the center of the arena is a          monument with four blocks featuring     an &#D2691Eeye texture&r. Breaking one of these  blocks will cause the monument to        open, and the &#D2691E&lNether Gauntlet&r&r will    appear."
 			]
 			id: "294B4CF074D98389"
 			rewards: [
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["2EC54EDD3E926ACC"]
-			description: ["The &#D2691E&lObsidilith Arena&r&r is a giant floating structure that spawns in the &nEnd&r. The rest of the arena &#D2691Ecannot&r be entered, so you’ll need to make your way to the roof. There, you will find the &#D2691EObsidian Altar&r. When an &#D2691EEye of Ender&r is placed on the altar, the &l&#D2691EObsidilith&r&r, a monolith-like entity, will spawn."]
+			description: ["  The &#D2691E&lObsidilith Arena&r&r is a giant        floating structure that spawns in the   &nEnd&r. The rest of the arena &#D2691Ecannot&r be   entered, so you’ll need to make your    way to the roof. There, you will find     the &#D2691EObsidian Altar&r. When an &#D2691EEye of       Ender&r is placed on the altar, the         &l&#D2691EObsidilith&r&r, a monolith-like entity, will     spawn."]
 			id: "5203E039D937F637"
 			rewards: [
 				{
@@ -376,9 +376,9 @@
 		{
 			dependencies: ["109C0864BDFA30D7"]
 			description: [
-				"The &#D2691E&lNight Lich&r&r moves around frequently, so the most effective way to defeat it is with a &nranged weapon&r, such as a Bow or Crossbow. During the battle, the &#D2691E&lNight Lich&r&r will use several abilities, including launching explosive projectiles at you and summoning multiple Phantoms to attack."
+				"  The &#D2691E&lNight Lich&r&r moves around           frequently, so the most effective way   to defeat it is with a &nranged weapon&r,     such as a Bow or Crossbow. During      the battle, the &#D2691E&lNight Lich&r&r will use       several abilities, including launching     explosive projectiles at you and         summoning multiple Phantoms to attack."
 				""
-				"If the &#D2691E&lNight Lich&r&r is unable to attack you, it may begin to &n&#D2691Eregenerate&r&r health. Its health bar is divided into four sections, and once a section is fully depleted, it cannot regenerate that portion. Upon death, it will drop &#D2691Eenchanted books&r, bones, &#D2691Ediamonds&r and &#D2691E2&r &l&#D2691EAnicent Anima&r&r."
+				"  If the &#D2691E&lNight Lich&r&r is unable to attack  you, it may begin to &n&#D2691Eregenerate&r&r health.  Its health bar is divided into four        sections, and once a section is fully     depleted, it cannot regenerate that      portion. Upon death, it will drop           &#D2691Eenchanted books&r, bones, &#D2691Ediamonds&r        and &#D2691E2&r &l&#D2691EAnicent Anima&r&r."
 			]
 			id: "184803F41B12C091"
 			rewards: [
@@ -422,7 +422,7 @@
 		}
 		{
 			dependencies: ["184803F41B12C091"]
-			description: ["&l&#D2691EAncient Anima&r&r is a special drop that allows you to craft 3 useful items."]
+			description: ["  &l&#D2691EAncient Anima&r&r is a special drop       that allows you to craft 3 useful         items."]
 			id: "14BEBF80D88D75BE"
 			rewards: [
 				{
@@ -465,13 +465,13 @@
 		{
 			dependencies: ["7D030024982AFE5D"]
 			description: [
-				"The &#D2691E&lVoid Blossom's&r&r health bar is divided into multiple sections. Once you reduce its health below a certain point, it won’t regenerate into the next section. For this fight, you’ll need &#D2691Ehealing&r, &#D2691Ehealth regeneration&r, and the ability to &#D2691Emove quickly&r."
+				"  The &#D2691E&lVoid Blossom's&r&r health bar is     divided into multiple sections. Once you  reduce its health below a certain        point, it won’t regenerate into the next  section. For this fight, you’ll need        &#D2691Ehealing&r, &#D2691Ehealth regeneration&r, and the    ability to &#D2691Emove quickly&r."
 				""
-				"During the battle, the &#D2691E&lVoid Blossom&r&r will summon spiky thorns from the ground, which damage the player. These thorns are difficult to dodge, but not impossible. If you see the ground light up green, the &#D2691E&lVoid Blossom&r&r is preparing a spitting attack. If hit, you'll be poisoned, which inflicts significant damage."
+				"  During the battle, the &#D2691E&lVoid Blossom&r&r   will summon spiky thorns from the        ground, which damage the player.         These thorns are difficult to dodge,     but not impossible. If you see the        ground light up green, the &#D2691E&lVoid        Blossom&r&r is preparing a spitting          attack. If hit, you'll be poisoned, which   inflicts significant damage."
 				""
-				"Several times throughout the fight, the &#D2691E&lVoid Blossom&r&r will summon &#D2691Epetals&r around the arena, which will continuously heal it. You’ll need to destroy these petals. As the fight progresses, Vines will protect the petals, similar to how End Crystals are protected by cages in the End."
+				"  Several times throughout the fight,     the &#D2691E&lVoid Blossom&r&r will summon &#D2691Epetals&r   around the arena, which will               continuously heal it. You’ll need to       destroy these petals. As the fight       progresses, Vines will protect the       petals, similar to how End Crystals are  protected by cages in the End."
 				""
-				"Upon defeating the &#D2691E&lVoid Blossom&r&r, it will drop &#D2691ECrystal Fruit&r, along with &#D2691E2&r &#D2691E&lVoid Thorns&r&r."
+				"  Upon defeating the &#D2691E&lVoid Blossom&r&r, it   will drop &#D2691ECrystal Fruit&r, along with &#D2691E2&r      &#D2691E&lVoid Thorns&r&r."
 			]
 			icon_scale: 1.5d
 			id: "31018D381B345B5E"
@@ -516,7 +516,7 @@
 		}
 		{
 			dependencies: ["31018D381B345B5E"]
-			description: ["&#D2691E&lVoid Thorns&r&r are a special drop that allow you to craft 2 useful items."]
+			description: ["  &#D2691E&lVoid Thorns&r&r are a special drop       that allow you to craft 2 useful items."]
 			id: "7C3D0A3E13B1ADA4"
 			rewards: [
 				{
@@ -559,13 +559,13 @@
 		{
 			dependencies: ["294B4CF074D98389"]
 			description: [
-				"It’s important to note that the &#D2691E&lNether Gauntlet&r&r can only take damage when hit in the &#D2691E&leye&r&r, located on the front."
+				"  It’s important to note that the            &#D2691E&lNether Gauntlet&r&r can only take         damage when hit in the &#D2691E&leye&r&r, located     on the front."
 				""
-				"One of its primary attacks is clenching its fist and charging at the player. This attack deals significant damage, knocks the player into the air, and destroys nearby terrain, but it’s fairly easy to dodge."
+				"  One of its primary attacks is             clenching its fist and charging at the   player. This attack deals significant     damage, knocks the player into the air,  and destroys nearby terrain, but it’s   fairly easy to dodge."
 				""
-				"Occasionally, the &#D2691E&lNether Gauntlet&r&r will perform a second attack. After a brief charge-up, it fires a laser that destroys blocks and deals heavy damage, which must also be dodged."
+				"  Occasionally, the &#D2691E&lNether Gauntlet&r&r    will perform a second attack. After a    brief charge-up, it fires a laser that   destroys blocks and deals heavy        damage, which must also be dodged."
 				""
-				"Since the &#D2691E&lNether Gauntlet&r&r can only be damaged through its &#D2691Eeye&r, the fight may take some time. After being defeated, a small structure will spawn in its place, containing some &#D2691EAncient Debris&r. There will also be a Chest with a &#D2691E&lBlazing Eye&r&r inside."
+				"  Since the &#D2691E&lNether Gauntlet&r&r can only  be damaged through its &#D2691Eeye&r, the fight   may take some time. After being           defeated, a small structure will spawn   in its place, containing some &#D2691EAncient      Debris&r. There will also be a Chest with   a &#D2691E&lBlazing Eye&r&r inside."
 			]
 			id: "3F821D4CBD600C68"
 			rewards: [
@@ -609,7 +609,7 @@
 		}
 		{
 			dependencies: ["3F821D4CBD600C68"]
-			description: ["The &#D2691E&lBlazing Eye&r&r is a special drop that allows you to craft 2 useful items."]
+			description: ["  The &#D2691E&lBlazing Eye&r&r is a special drop     that allows you to craft 2 useful         items."]
 			id: "24871C0DC9CF1BDC"
 			rewards: [
 				{
@@ -651,11 +651,11 @@
 		{
 			dependencies: ["5203E039D937F637"]
 			description: [
-				"There are several attacks you should be aware of. When lights appear on the ground around the &l&#D2691EObsidilith&r&r, move away quickly as they can knock you into the air and deal significant damage. The &#D2691ESlow Falling&r effect or the &#D2691EFeather Falling&r enchantment can be very helpful here. Be cautious, as this attack may also knock you into the void, making &#D2691EElytra and Firework Rockets&r useful for recovery."
+				"  There are several attacks you          should be aware of. When lights           appear on the ground around the       &l&#D2691EObsidilith&r&r, move away quickly as they   can knock you into the air and deal      significant damage. The &#D2691ESlow Falling&r      effect or the &#D2691EFeather Falling&r             enchantment can be very helpful         here. Be cautious, as this attack may    also knock you into the void, making      &#D2691EElytra and Firework Rockets&r useful      for recovery."
 				""
-				"The &#D2691E&lObsidilith&r&r will occasionally teleport around the arena, causing massive explosive damage. Another ability to watch for is when it summons &#D2691E&lrunic blocks&r&r around the arena, which empower it. These blocks should be destroyed with a Netherite Pickaxe, ideally enchanted with Efficiency to speed up the process."
+				"  The &#D2691E&lObsidilith&r&r will occasionally          teleport around the arena, causing      massive explosive damage. Another       ability to watch for is when it summons  &#D2691E&lrunic blocks&r&r around the arena,        which empower it. These blocks should   be destroyed with a Netherite Pickaxe,  ideally enchanted with Efficiency to      speed up the process."
 				""
-				"After defeating the &l&#D2691EObsidilith&r&r, loot will spawn inside a Shulker Box atop a new Obsidian Pillar. Some of the loot includes enchanted weapons or tools, Obsidian, Purpur Blocks, and an &l&#D2691EObsidian Heart&r&r."
+				"  After defeating the &l&#D2691EObsidilith&r&r, loot    will spawn inside a Shulker Box atop a   new Obsidian Pillar. Some of the loot     includes enchanted weapons or tools,   Obsidian, Purpur Blocks, and an           &l&#D2691EObsidian Heart&r&r."
 			]
 			id: "4FF9F3EE7F5B8988"
 			rewards: [
@@ -699,7 +699,7 @@
 		}
 		{
 			dependencies: ["4FF9F3EE7F5B8988"]
-			description: ["The &l&#D2691EObsidian Heart&r&r is a special drop that allows you to craft 3 useful items."]
+			description: ["  The &l&#D2691EObsidian Heart&r&r is a special       drop that allows you to craft 3 useful  items."]
 			id: "0CE0D164B29B447F"
 			rewards: [
 				{
@@ -744,7 +744,7 @@
 				"7C3D0A3E13B1ADA4"
 				"14BEBF80D88D75BE"
 			]
-			description: ["The &l&#D2691ECharged Ender Pearl&r&r is a reusable Ender Pearl that gives you brief slow falling and resistance after teleporting."]
+			description: ["  The &l&#D2691ECharged Ender Pearl&r&r is a       reusable Ender Pearl that gives you    brief slow falling and resistance         after teleporting."]
 			id: "5D372F87F8603AC9"
 			rewards: [
 				{
@@ -788,7 +788,7 @@
 				"0CE0D164B29B447F"
 				"14BEBF80D88D75BE"
 			]
-			description: ["The &l&#D2691EStaff of Suppression&r&r prevents natural mobs spawn in a 64 block radius."]
+			description: ["  The &l&#D2691EStaff of Suppression&r&r            prevents natural mobs spawn in a 64    block radius."]
 			id: "0478F6ADEF7ACEB9"
 			rewards: [
 				{
@@ -832,7 +832,7 @@
 				"24871C0DC9CF1BDC"
 				"14BEBF80D88D75BE"
 			]
-			description: ["The &l&#D2691ETable of Elevation&r&r grants creative flight in a 7x7 column from bedrock to the height limit."]
+			description: ["  The &l&#D2691ETable of Elevation&r&r grants       creative flight in a 7x7 column from     bedrock to the height limit."]
 			id: "6C118F4C5F3D54B5"
 			rewards: [
 				{
@@ -876,7 +876,7 @@
 				"0CE0D164B29B447F"
 				"7C3D0A3E13B1ADA4"
 			]
-			description: ["The &l&#D2691EEarthdive Spear&r&r is a weapon that grants short range teleportation through solid blocks."]
+			description: ["  The &l&#D2691EEarthdive Spear&r&r is a weapon    that grants short range teleportation  through solid blocks."]
 			id: "77281C61CC629C03"
 			rewards: [
 				{
@@ -923,7 +923,7 @@
 				"0CE0D164B29B447F"
 				"24871C0DC9CF1BDC"
 			]
-			description: ["The &#D2691E&lBlast Amplifier&r&r Increases explosion damage by 30% in a 64 block radius."]
+			description: ["  The &#D2691E&lBlast Amplifier&r&r Increases        explosion damage by 30% in a 64 block  radius."]
 			hide_dependency_lines: false
 			id: "2E8657E1135A52E1"
 			rewards: [
@@ -965,7 +965,7 @@
 		}
 		{
 			dependencies: ["635B2979C6A9CBDB"]
-			description: ["Are you disappointed that the boss structure you just found has already been raided? Don’t worry! The &#D2691E&lBrimstone Nectar&r&r allows you to &#D2691Ereset&r nearby boss structures when used, so you can defeat the bosses in the same location repeatedly!"]
+			description: ["  Are you disappointed that the boss     structure you just found has            already been raided? Don’t worry!       The &#D2691E&lBrimstone Nectar&r&r allows you to  &#D2691Ereset&r nearby boss structures when    used, so you can defeat the bosses     in the same location repeatedly!"]
 			hide_until_deps_complete: true
 			id: "324CBE05EE84729A"
 			rewards: [{
