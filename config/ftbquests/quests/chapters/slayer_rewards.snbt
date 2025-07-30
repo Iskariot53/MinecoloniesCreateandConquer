@@ -25,7 +25,7 @@
 	quests: [
 		{
 			dependencies: ["3B38BC10347BDA7D"]
-			description: ["Slay 10 Zombies"]
+			description: [""]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -64,7 +64,7 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
-			description: ["Slay 10 skeleton"]
+			description: [""]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -102,7 +102,7 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
-			description: ["Slay 10 Spiders"]
+			description: [""]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -366,7 +366,7 @@
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
-			description: ["Slay 10 Pillagers"]
+			description: [""]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2581,7 +2581,7 @@
 		{
 			can_repeat: false
 			dependencies: ["3B38BC10347BDA7D"]
-			description: ["Endermen have started to inhabit the overworld, even developing adaptations to specific biome conditions. Hunt some of every variant you can find and thin out the numbers a little bit... do a good enough job and eye think you may get some help reaching their home dimension."]
+			description: ["  Endermen have started to inhabit the  overworld, even developing                adaptations to specific biome              conditions. Hunt some of every variant  you can find and thin out the numbers  a little bit... do a good enough job and  eye think you may get some help          reaching their home dimension."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2696,7 +2696,7 @@
 				"08E693958C6BD51C"
 				"3B38BC10347BDA7D"
 			]
-			description: ["Track down the: Dark Oak, Flower Fields, Windswept Hills and Savannah Enderman variants and slay 10 of each."]
+			description: ["  Track down the: Dark Oak, Flower        Fields, Windswept Hills and Savannah     Enderman variants and slay 10 of       each."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2744,7 +2744,7 @@
 				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
-			description: ["Track down the: Nether Wastes, Soul Sand Valley, Warped Forest and Crimson Forest Enderman variants and slay 10 of each."]
+			description: ["  Track down the: Nether Wastes, Soul    Sand Valley, Warped Forest and          Crimson Forest Enderman variants       and slay 10 of each."]
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
@@ -2795,7 +2795,7 @@
 				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
-			description: ["Track down the: Swamp, Coral, Snowy and Ice Spikes Enderman variants and slay 10 of each."]
+			description: ["  Track down the: Swamp, Coral, Snowy    and Ice Spikes Enderman variants and  slay 10 of each."]
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
@@ -2846,7 +2846,7 @@
 				"3B38BC10347BDA7D"
 			]
 			dependency_requirement: "one_started"
-			description: ["Track down the: Mushroom Fields, Badlands, Desert and Cave Enderman variants and slay 10 of each."]
+			description: ["  Track down the: Mushroom Fields,        Badlands, Desert and Cave Enderman    variants and slay 10 of each."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -2887,15 +2887,15 @@
 		{
 			dependencies: ["3B38BC10347BDA7D"]
 			description: [
-				"&#D2691EThe Nightmare Stalker&r is a mini-boss you will randomly encounter while playing. After &#D2691E3 in-game days&r, you will begin to see warnings to the effect of \"&#D2691Eyou are being stalked&r\" and The Nightmare Stalker will begin to spawn."
+				"  &#D2691EThe Nightmare Stalker&r is a mini-boss you will randomly  encounter while playing. After &#D2691E3 in-game days&r, you will  begin to see warnings to the effect of \"&#D2691Eyou are being  stalked&r\" and The Nightmare Stalker will begin to spawn."
 				""
-				"The boss has a base HP of 70, the ability to both inflict harmful status effects upon you &oand&r render itself, well... everything but it's &#D2691Eeyes&r... invisible."
+				"  The boss has a base HP of 70, the ability to both       inflict harmful status effects upon you &oand&r render     itself, well... everything but it's &#D2691Eeyes&r... invisible."
 				""
-				"Oh. Also... its stats scale over time. "
+				"  Oh. Also... its stats scale over time. "
 				""
-				"As you get stronger, slowly, so will it. So take heed and pay attention &oor else&r. If you're smart you'll realize there are plenty of ways to avoid, out smart and eventually overpower it."
+				"  As you get stronger, slowly, so will it. So take heed     and pay attention &oor else&r. If you're smart you'll          realize there are plenty of ways to avoid, out smart    and eventually overpower it."
 				""
-				"It is worth noting that the scaling is capped and &odoes&r stop after a certain period of time."
+				"  It is worth noting that the scaling is capped and         &odoes&r stop after a certain period of time."
 			]
 			icon: {
 				Count: 1

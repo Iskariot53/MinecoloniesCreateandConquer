@@ -33,9 +33,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"&#D2691E&lGateways to Eternity&r&r is a mod where players open giant portals that release hordes of enemies in a series of progressively stronger waves. Completing each wave grants rewards, and finishing the entire gateway provides a completion bonus."
+				"  &#D2691E&lGateways to Eternity&r&r is a mod       where players open giant portals that  release hordes of enemies in a series  of progressively stronger waves.       Completing each wave grants rewards,  and finishing the entire gateway          provides a completion bonus."
 				""
-				"To get started with &#D2691E&lGateways to Eternity&r&r, you need to craft yourself a &#D2691EGate Pearl&r, which is the item used to summon a Gateway into your world."
+				"  To get started with &#D2691E&lGateways to      Eternity&r&r, you need to craft yourself  a &#D2691EGate Pearl&r, which is the item used to   summon a Gateway into your world."
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -96,6 +96,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Slime Gateway"
 				type: "item"
 			}]
 			x: 2.5d
@@ -140,6 +141,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Enderman Gateway"
 				type: "item"
 			}]
 			x: -2.5d
@@ -184,6 +186,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Blaze Gateway"
 				type: "item"
 			}]
 			x: 0.0d
@@ -227,6 +230,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Endless Blaze Gateway"
 				type: "item"
 			}]
 			x: -1.0d
@@ -271,6 +275,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Gateway of the Emerald Grove"
 				type: "item"
 			}]
 			x: -4.0d
@@ -315,6 +320,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Gateway of Overworldian Nights"
 				type: "item"
 			}]
 			x: 4.0d
@@ -358,6 +364,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Gateway of the Hellish Fortress"
 				type: "item"
 			}]
 			x: 0.0d
@@ -401,6 +408,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Gateway of The Nether Animals"
 				type: "item"
 			}]
 			x: 2.5d
@@ -445,6 +453,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Gateway of Ignis"
 				type: "item"
 			}]
 			x: -2.5d
@@ -489,6 +498,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Gateway of The Cataclysmic End"
 				type: "item"
 			}]
 			x: -4.0d
@@ -532,6 +542,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Apothic Cave Gateway"
 				type: "item"
 			}]
 			x: 4.0d
@@ -576,6 +587,7 @@
 					}
 				}
 				match_nbt: true
+				title: "Endless Apothic Boss Gateway"
 				type: "item"
 			}]
 			x: 1.0d
