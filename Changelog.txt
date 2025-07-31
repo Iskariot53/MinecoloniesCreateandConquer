@@ -27,3 +27,15 @@ Mods Updated
 Changes
 
 
+- Quest Book Completely overhualed visually and updated for accuracy.
+- Rift Mage origin re-enabled with end city trait disabled.
+- Beast Master class tames now receive an increased buff to both HP and Damage, 100% and 200% respectively.
+- Origins and Origin Classes tweaks to add more compatibility between the former and other mods like Cataclysm, Born in Chaos, Alex's Mobs and Caves as well as core mods + add-ons.
+- Abandoned graves loot nerfed
+- Dimensional Dungeons loot tables addressed and are now capable of providing a much wider range of loot, some very valuable or otherwise not easily obtainable elsewhere.
+- Resolved some arbitrary log spam due to the server detecting client side only resources when there are no client side mods installed, as well as a few other arbitrary warnings and errors.
+- Removed recipes for: strawberry, raspberry, pomelo, pineapple, citron, mandarin, barberry, kiwi, redlove syrup/coffee/tea missing cafe recipes from view in JEI as well as removing them as quest objectives.
+- Added recipes for: grape, aloe, vanilla tea as well as mint and vanilla syrup fixing the remaining cafe recipes having issues.
+- Converted all Create related recipes to Json and moved from scripts to data for better compatibility.
+- New default spawn caps set.
+- Changed the Creative Motor recipe to be more accessible at an earlier stage.
