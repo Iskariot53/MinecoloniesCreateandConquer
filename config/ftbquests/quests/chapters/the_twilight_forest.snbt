@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"The &l&#D2691ETwilight Forest&r&r realm is an expansive world, similar to other Minecraft dimensions, but it is densely forested. This dimension has a distinct enchanted, fairy tale, and mythological atmosphere, setting it apart from the Overworld. As you explore the Twilight Forest, you'll encounter a variety of dungeons, bosses, structures, trees, and numerous unique items. There is much to discover in this magical realm."
+				"  The &l&#D2691ETwilight Forest&r&r realm is an       expansive world, similar to other         Minecraft dimensions, but it is densely   forested. This dimension has a distinct  enchanted, fairy tale, and mythological  atmosphere, setting it apart from the    Overworld. As you explore the Twilight  Forest, you'll encounter a variety of    dungeons, bosses, structures, trees,   and numerous unique items. There is     much to discover in this magical realm."
 				""
-				"To get started, you must first create a special portal. This portal is made by forming a 2×2 pool of water, only 1 block deep. The pool must then be surrounded by any naturally generated plants (flowers for example). Once surrounded, the portal is activated by throwing a diamond into the water. The water will turn purple, and a bolt of lightning will strike the portal, dealing minor damage to nearby players."
+				"  To get started, you must first create  a special portal. This portal is made     by forming a 2×2 pool of water, only 1  block deep. The pool must then be        surrounded by any naturally             generated plants (flowers for            example). Once surrounded, the portal  is activated by throwing a diamond into  the water. The water will turn purple,    and a bolt of lightning will strike the     portal, dealing minor damage to           nearby players."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -81,9 +81,9 @@
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
 			description: [
-				"The &#D2691E&lNaga Courtyard&r&r is a large, walled structure made of various stones and Nagastone. Inside, there are hedges of Twilight Oak Leaves, pillars of Polished Andesite and Etched Nagastone, and decorative features. At the center is a Boss Spawner for the Naga."
+				"  The &#D2691E&lNaga Courtyard&r&r is a large,       walled structure made of various        stones and Nagastone. Inside, there     are hedges of Twilight Oak Leaves,       pillars of Polished Andesite and          Etched Nagastone, and decorative       features. At the center is a Boss        Spawner for the Naga."
 				""
-				"The &#D2691E&lNaga&r&r is a serpent that lurks in the courtyard, appearing as a massive green snake-like creature with a human-like face and subtly colored scales."
+				"  The &#D2691E&lNaga&r&r is a serpent that lurks in    the courtyard, appearing as a            massive green snake-like creature      with a human-like face and subtly        colored scales."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -131,9 +131,9 @@
 		{
 			dependencies: ["224C2A4CAABD226E"]
 			description: [
-				"The &#D2691E&lLich Tower&r&r is a major landmark, featuring a tall structure with sprawling branches of smaller rooms made of Stone Bricks and Birch Planks. At the top, there is a Boss Spawner for the Twilight Lich."
+				"  The &#D2691E&lLich Tower&r&r is a major              landmark, featuring a tall structure     with sprawling branches of smaller      rooms made of Stone Bricks and Birch  Planks. At the top, there is a Boss       Spawner for the Twilight Lich."
 				""
-				"The &l&#D2691ETwilight Lich&r&r, or simply the Lich, resides at the top of the tower. It appears as a tall humanoid skeleton wearing a purple cape and a large golden crown, surrounded by a wall of shields that may be breakable."
+				"  The &l&#D2691ETwilight Lich&r&r, or simply the        Lich, resides at the top of the tower.    It appears as a tall humanoid skeleton  wearing a purple cape and a large      golden crown, surrounded by a wall     of shields that may be breakable."
 			]
 			id: "238BA4DDD4B10E64"
 			rewards: [
@@ -223,9 +223,9 @@
 		{
 			dependencies: ["238BA4DDD4B10E64"]
 			description: [
-				"The &#D2691E&lLabyrinth&r&r is a major landmark that appears as an unremarkable hill in the Twilight Swamp, leading to an underground structure of sprawling maze passages. Deep within, a fenced-off room contains a Boss Spawner for the Minoshroom."
+				"  The &#D2691E&lLabyrinth&r&r is a major landmark    that appears as an unremarkable hill   in the Twilight Swamp, leading to an       underground structure of sprawling    maze passages. Deep within, a             fenced-off room contains a Boss        Spawner for the Minoshroom."
 				""
-				"The &#D2691E&lMinoshroom&r&r is a mini-boss lurking in its prison at the bottom of the Labyrinth, resembling a bizarre hybrid of a Mooshroom and a Minotaur."
+				"  The &#D2691E&lMinoshroom&r&r is a mini-boss         lurking in its prison at the bottom of     the Labyrinth, resembling a bizarre      hybrid of a Mooshroom and a Minotaur."
 			]
 			id: "0CDBF9C116B9F573"
 			rewards: [
@@ -774,7 +774,7 @@
 		}
 		{
 			dependencies: ["224C2A4CAABD226E"]
-			description: ["&#D2691E&lNaga Scale Armor&r&r is armor made from Naga Scales. This armor set consists of only Chestplate and Leggings."]
+			description: ["  &#D2691E&lNaga Scale Armor&r&r is armor made     from Naga Scales. This armor set        consists of only Chestplate and          Leggings."]
 			hide_until_deps_complete: false
 			id: "63C1EC8559D1E68B"
 			rewards: [
@@ -845,7 +845,7 @@
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["The &l&#D2691EScepter of Twilight&r&r, dropped by the Lich, shoots projectiles resembling the Lich's, with a texture like Ender Pearls and a blue-green particle effect. Slightly affected by gravity, they deal 2.5 hearts of damage—four hits for Skeletons and Creepers, three for Spiders, and five for Zombies. The scepter cannot interact with End Crystals or the Ender Dragon."]
+			description: ["  The &l&#D2691EScepter of Twilight&r&r, dropped    by the Lich, shoots projectiles           resembling the Lich's, with a texture     like Ender Pearls and a blue-green     particle effect. Slightly affected by     gravity, they deal 2.5 hearts of          damage."]
 			id: "6F765560F3AF0737"
 			rewards: [
 				{
@@ -888,7 +888,7 @@
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["The &#D2691E&lScepter of Life Draining&r&r drains life energy from any mob it right-clicks, producing pink particle effects. To use it, hold right-click while looking at an enemy, causing them to float and transferring energy to the user for faster healing. If interrupted, the enemy gets the Slowness debuff and approaches slowly, allowing the player to recharge the scepter. It does not work against the Ender Dragon."]
+			description: ["  The &#D2691E&lScepter of Life Draining&r&r       drains life energy from any mob it       right-clicks, producing pink particle     effects. To use it, hold right-click        while looking at an enemy, causing them  to float and transferring energy to     the user for faster healing. If           interrupted, the enemy gets the          Slowness debuff and approaches        slowly, allowing the player to              recharge the scepter. It does not       work against the Ender Dragon."]
 			id: "1D34C364554673D1"
 			rewards: [
 				{
@@ -931,7 +931,7 @@
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["Summon your own powerful Zombies with the &l&#D2691EZombie Scepter&r&r! These Zombies are strong, fast, immune to sunlight, and ready to attack. They follow you and target enemies but self-immolate after about a minute. Unlike regular Zombies, they are not undead, are affected by potions, and can be targeted by the Wither. Summoned Zombies do not scare, target, or corrupt Villagers, and baby or chicken jockey variants do not exist."]
+			description: ["  Summon your own powerful Zombies     with the &l&#D2691EZombie Scepter&r&r! These        Zombies are strong, fast, immune to      sunlight, and ready to attack. They      follow you and target enemies but        self-immolate after about a minute.       Unlike regular Zombies, they are not     undead, are affected by potions, and   can be targeted by the Wither.            Summoned Zombies do not scare,          target, or corrupt Villagers, and         baby or chicken jockey variants do     not exist."]
 			id: "3D24BA08A1F6F341"
 			rewards: [
 				{
@@ -974,7 +974,7 @@
 		}
 		{
 			dependencies: ["238BA4DDD4B10E64"]
-			description: ["The &#D2691E&lScepter of Fortification&r&r summons five shields around the player or target entity and produces a popping sound when used. These shields resemble those of the Lich but break upon damage, except from drowning, falling, or void damage. They can be restored after the scepter's cooldown, indicated by the remaining shields, but only five can be active at once."]
+			description: ["  The &#D2691E&lScepter of Fortification&r&r        summons five shields around the         player or target entity and produces   a popping sound when used. These       shields resemble those of the Lich but  break upon damage, except from         drowning, falling, or void damage. They  can be restored after the scepter's    cooldown, indicated by the remaining     shields, but only five can be active at   once."]
 			id: "0E8B64CE67FC2ED6"
 			rewards: [
 				{
@@ -1017,7 +1017,7 @@
 		}
 		{
 			dependencies: ["0CDBF9C116B9F573"]
-			description: ["The &#D2691E&lDiamond Minotaur Axe&r&r is a unique axe that is dropped when the Minoshroom is killed. The Diamond Minotaur Axe is unique in that it has extra charge damage, meaning that when it is used while the player is sprinting, extra damage will be dealt to whatever monster it attacks."]
+			description: ["  The &#D2691E&lDiamond Minotaur Axe&r&r is a       unique axe that is dropped when the    Minoshroom is killed. The Diamond          Minotaur Axe is unique in that it has     extra charge damage, meaning that      when it is used while the player is        sprinting, extra damage will be dealt to  whatever monster it attacks."]
 			id: "61F6FCB0EA0E6EE3"
 			rewards: [
 				{
@@ -1787,9 +1787,9 @@
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
 			description: [
-				"&#D2691E&lRaven Feather&r&r is an item dropped by Ravens, each one dropping up to 2 of these."
+				"  &#D2691E&lRaven Feather&r&r is an item dropped by            Ravens, each one dropping up to 2 of these."
 				""
-				"&#D2691E&lTorchberries&r&r are an item found by harvesting Torchberry Plants or slaying Skeleton Druids. "
+				"  &#D2691E&lTorchberries&r&r are an item found by              harvesting Torchberry Plants or slaying          Skeleton Druids. "
 			]
 			hide_until_deps_complete: true
 			id: "06B12750EF857686"
@@ -1847,7 +1847,7 @@
 		}
 		{
 			dependencies: ["06B12750EF857686"]
-			description: ["&#D2691E&lMagic Map Focus&r&r is an item crafted from a Raven Feather, Torchberries and Glowstone Dust."]
+			description: ["  &#D2691E&lMagic Map Focus&r&r is an item crafted  from a Raven Feather, Torchberries    and Glowstone Dust."]
 			hide_until_deps_complete: false
 			id: "3EC49822628FE9B3"
 			rewards: [
@@ -1889,13 +1889,13 @@
 		{
 			dependencies: ["3EC49822628FE9B3"]
 			description: [
-				"&#D2691E&lMagic Maps&r&r are vital for explorers in the Twilight Forest, as they are linked to the dimension and reveal important details about the surrounding areas."
+				"  &#D2691E&lMagic Maps&r&r are vital for explorers   in the Twilight Forest, as they are        linked to the dimension and reveal        important details about the                 surrounding areas."
 				""
-				"While similar to an Overworld map, Magic Maps only work in the Twilight Forest and reveal an area four times larger upon first use. However, they cannot expand beyond their initial view, so multiple maps are needed for extensive exploration."
+				"  While similar to an Overworld map,        Magic Maps only work in the Twilight      Forest and reveal an area four times  larger upon first use. However, they    cannot expand beyond their initial        view, so multiple maps are needed for   extensive exploration."
 				""
-				"Instead of showing terrain, Magic Maps display the biomes and boundaries of the Twilight Forest in different colors, allowing users to quickly identify their location and nearby regions, including areas under magical protection."
+				"  Instead of showing terrain, Magic        Maps display the biomes and               boundaries of the Twilight Forest in     different colors, allowing users to       quickly identify their location and        nearby regions, including areas under  magical protection."
 				""
-				"The map’s magical focus detects major landmarks with distinct icons, making it easy for explorers to navigate and plan their journey in the Twilight Forest."
+				"  The map’s magical focus detects         major landmarks with distinct icons,      making it easy for explorers to           navigate and plan their journey in the  Twilight Forest."
 			]
 			hide_until_deps_complete: false
 			id: "0E15E3DEA2EF1D63"
@@ -1938,9 +1938,9 @@
 		{
 			dependencies: ["238BA4DDD4B10E64"]
 			description: [
-				"The &#D2691E&lMaze Map&r&r is useful mostly for finding your way around the various mazes in the Twilight Forest. Like a vanilla map, it can see past walls and various places that you can normally not see. The Maze Map is special with this, as it will show you a slice of the world at your current depth or altitude, allowing you to find your way through caves and other structures. It is also zoomed in enough to show even the thinnest walls."
+				"  The &#D2691E&lMaze Map&r&r is useful mostly for    finding your way around the various    mazes in the Twilight Forest. Like a       vanilla map, it can see past walls and    various places that you can normally   not see. The Maze Map is special with    this, as it will show you a slice of the    world at your current depth or          altitude, allowing you to find your way   through caves and other structures.   It is also zoomed in enough to show      even the thinnest walls."
 				""
-				"&#D2691E&lMaze Map Focus&r&r is an item found in chests and rarely dropped by Minotaurs. Adventurers are most likely to find a Maze Map Focus by searching chests in a Labyrinth. It is used to craft a Maze Map."
+				"  &#D2691E&lMaze Map Focus&r&r is an item found in  chests and rarely dropped by            Minotaurs. Adventurers are most likely  to find a Maze Map Focus by               searching chests in a Labyrinth. It is   used to craft a Maze Map."
 			]
 			id: "5220FB0D131C6F95"
 			rewards: [
@@ -1982,7 +1982,7 @@
 		}
 		{
 			dependencies: ["5220FB0D131C6F95"]
-			description: ["What if a &#D2691E&lMaze Map&r&r could see through stone to reveal hidden treasures? With an upgrade, the &#D2691E&lOre Map&r&r can. Though pricey, it detects ores above or below its layer and displays them in their respective colors. Starting blank, users must activate it to reveal the map. A useful trick is to create it on a layer with rare ores and navigate above ground to uncover what lies beneath."]
+			description: ["  What if a &#D2691E&lMaze Map&r&r could see           through stone to reveal hidden           treasures? With an upgrade, the &#D2691E&lOre   Map&r&r can. Though pricey, it detects      ores above or below its layer and       displays them in their respective         colors. Starting blank, users must        activate it to reveal the map. A useful   trick is to create it on a layer with      rare ores and navigate above ground  to uncover what lies beneath."]
 			id: "49F76BDDF2D28E43"
 			rewards: [
 				{
@@ -2066,7 +2066,7 @@
 		}
 		{
 			dependencies: ["5220FB0D131C6F95"]
-			description: ["The &#D2691E&lMazebreaker&r&r is a special kind of Pickaxe only found in Labyrinth treasure vaults, viewable with a Maze Map. The Mazebreaker can mine through all types of Mazestone while only losing one durability point, whereas breaking Mazestone with any other pickaxe will lower that pickaxe's durability 16x faster. By default, the Mazebreaker is enchanted with Efficiency IV, Unbreaking III and Fortune II."]
+			description: ["  The &#D2691E&lMazebreaker&r&r is a special kind    of Pickaxe only found in Labyrinth       treasure vaults, viewable with a Maze   Map. The Mazebreaker can mine           through all types of Mazestone while    only losing one durability point,           whereas breaking Mazestone with any   other pickaxe will lower that pickaxe's   durability 16x faster. By default, the    Mazebreaker is enchanted with            Efficiency IV, Unbreaking III and          Fortune II."]
 			id: "707871C62A831E84"
 			rewards: [
 				{
@@ -2124,11 +2124,11 @@
 		{
 			dependencies: ["5F702BEE6C1C9852"]
 			description: [
-				"The &#D2691E&lCrumble Horn&r&r is one of the rewards for completing the Questing Ram's quest. If the quest is completed, this (along with one of each of the resource blocks) will be given to the player by the Quest Ram."
+				"  The &#D2691E&lCrumble Horn&r&r is one of the       rewards for completing the Questing    Ram's quest. If the quest is completed,  this (along with one of each of the       resource blocks) will be given to the    player by the Quest Ram."
 				""
-				"When the Crumble Horn is used, blocks around the player will begin to crumble into other blocks. The sound of a baaing sheep can also be heard emanating from the Crumble Horn when it is used."
+				"  When the Crumble Horn is used,          blocks around the player will begin to   crumble into other blocks. The sound    of a baaing sheep can also be heard   emanating from the Crumble Horn when  it is used."
 				""
-				"When the crumble horn is used in a &#D2691EDispenser&r, it will attempt to crumble the block in front of it. This action takes one durability to complete. Unlike other damageable items that can be used in the dispenser, the crumble horn will not break when depleted. If the durability hits zero it will instead refuse to fire again."
+				"  When the crumble horn is used in a     &#D2691EDispenser&r, it will attempt to crumble      the block in front of it. This action       takes one durability to complete. Unlike  other damageable items that can be      used in the dispenser, the crumble       horn will not break when depleted. If    the durability hits zero it will instead    refuse to fire again."
 			]
 			hide_until_deps_complete: false
 			id: "31F9DFD0F505AE02"
@@ -2179,9 +2179,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&#D2691E&lSteeleaf Armor and Tools&r&r are made from Steeleaf."
+				"  &#D2691E&lSteeleaf Armor and Tools&r&r are      made from Steeleaf."
 				""
-				"&#D2691E&lSteeleaf&r&r is found in Labyrinth, Hollow Hill, and Dark Tower chests."
+				"  &#D2691E&lSteeleaf&r&r is found in Labyrinth,          Hollow Hill, and Dark Tower chests."
 			]
 			hide_dependency_lines: true
 			id: "2F2BA092915A7910"
@@ -2393,7 +2393,7 @@
 		}
 		{
 			dependencies: ["7DFA298A49BB99F4"]
-			description: ["&#D2691E&lIronwood Armor and Tools&r&r are made from Ironwood Ingots."]
+			description: ["  &#D2691E&lIronwood Armor and Tools&r&r are      made from Ironwood Ingots."]
 			id: "0E88C9364E12FEB3"
 			rewards: [
 				{
@@ -2684,7 +2684,7 @@
 		}
 		{
 			dependencies: ["76B211025E5ACC90"]
-			description: ["The &#D2691E&lOre Magnet&r&r is a treasure found in Hollow Hill chests. To use it, point the magnet at the ground or a wall, charge it up, and release. If you’re lucky, it will pull anything from an ore block to an entire vein to the surface, bringing up to 24 blocks, plus a few extra."]
+			description: ["  The &#D2691E&lOre Magnet&r&r is a treasure         found in Hollow Hill chests. To use it,     point the magnet at the ground or a     wall, charge it up, and release. If        you’re lucky, it will pull anything from   an ore block to an entire vein to the    surface, bringing up to 24 blocks,        plus a few extra."]
 			hide_dependency_lines: true
 			id: "2EFA532622EB7946"
 			rewards: [
@@ -2820,7 +2820,7 @@
 				"76B211025E5ACC90"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &#D2691E&lPeacock Feather Fan&r&r is a unique item found in Lich Towers and Medium Hollow Hills in the Twilight Forest. When used, it pushes entities in front of the player backwards, including mobs, dropped items, blocks, and even the player. The fan’s strong winds can uproot flowers and grasses. If the player runs and jumps while using the fan, it produces a high-jump effect."]
+			description: ["  The &#D2691E&lPeacock Feather Fan&r&r is a       unique item found in Lich Towers and    Medium Hollow Hills in the Twilight          Forest. When used, it pushes entities    in front of the player backwards,        including mobs, dropped items, blocks,    and even the player. The fan’s strong  winds can uproot flowers and             grass. If the player runs and jumps    while using the fan, it produces a        high-jump effect."]
 			hide_dependency_lines: true
 			id: "64587A7056D3BE7D"
 			rewards: [
@@ -2864,7 +2864,7 @@
 		}
 		{
 			dependencies: ["76B211025E5ACC90"]
-			description: ["&#D2691E&lTransformation Powder&r&r is a bright blue magical item found in Hollow Hills treasure chests. It can transform Twilight items into dimensional items and change otherworldly creatures into Twilight Forest creatures and vice versa. This powder can alter the environment or help escape dangerous creatures by turning them into harmless mobs."]
+			description: ["  &#D2691E&lTransformation Powder&r&r is a         bright blue magical item found in Hollow  Hills treasure chests. It can              transform Twilight items into               dimensional items and change              otherworldly creatures into Twilight     Forest creatures and vice versa.       This powder can alter the environment  or help escape dangerous creatures   by turning them into harmless mobs."]
 			hide_dependency_lines: true
 			id: "09FD0BBC59643076"
 			rewards: [
@@ -2906,9 +2906,9 @@
 		{
 			dependencies: ["5220FB0D131C6F95"]
 			description: [
-				"The &#D2691E&lCharm of Keeping&r&r is a small item resembling a lock. When the player dies, the charm will activate and attempt to preserve a portion of the player's inventory and give it to the player once they respawn. The charm is consumed in this process."
+				"  The &#D2691E&lCharm of Keeping&r&r is a small      item resembling a lock. When the           player dies, the charm will activate       and attempt to preserve a portion of   the player's inventory and give it to     the player once they respawn. The      charm is consumed in this process."
 				""
-				"The &#D2691E&llevel I charm&r&r is bronze and will keep the player's armor, currently selected item, and the off-hand item. It can be found in some treasure chests, or as a rare drop from Maze Slimes."
+				"  The &#D2691E&llevel I charm&r&r is bronze and      will keep the player's armor, currently  selected item, and the off-hand item.     It can be found in some treasure        chests, or as a rare drop from Maze   Slimes."
 			]
 			id: "4D66C8BBEDAD4A2F"
 			rewards: [
@@ -2949,7 +2949,7 @@
 		}
 		{
 			dependencies: ["4D66C8BBEDAD4A2F"]
-			description: ["The &#D2691E&llevel II charm&r&r is silver and will keep the player's armor and full hotbar."]
+			description: ["  The &#D2691E&llevel II charm&r&r is silver and will  keep the player's armor and full         hotbar."]
 			id: "76D9A2260275CEDD"
 			rewards: [
 				{
@@ -2989,7 +2989,7 @@
 		}
 		{
 			dependencies: ["76D9A2260275CEDD"]
-			description: ["The &#D2691E&llevel III charm&r&r is gold and will keep a player's entire inventory. "]
+			description: ["  The &#D2691E&llevel III charm&r&r is gold and will  keep a player's entire inventory. "]
 			id: "5458ED1325250C81"
 			rewards: [
 				{
@@ -3029,7 +3029,7 @@
 		}
 		{
 			dependencies: ["76B211025E5ACC90"]
-			description: ["The &#D2691E&lCharm of Life I&r&r will heal the player back to 4 hearts, and bestow Regeneration I for the next 10 seconds. Charm of Life I can be found in medium and large Hollow Hills, Leaf Dungeons, Lich Towers, Goblin Knight Strongholds, Dark Towers and Aurora Palaces."]
+			description: ["  The &#D2691E&lCharm of Life I&r&r will heal the     player back to 4 hearts, and bestow    Regeneration I for the next 10           seconds. Charm of Life I can be found  in medium and large Hollow Hills, Leaf    Dungeons, Lich Towers, Goblin Knight     Strongholds, Dark Towers and Aurora  Palaces."]
 			hide_dependency_lines: true
 			id: "7F3DA56DAB79AC1E"
 			rewards: [
@@ -3070,7 +3070,7 @@
 		}
 		{
 			dependencies: ["7F3DA56DAB79AC1E"]
-			description: ["The &#D2691E&lCharm of Life II&r&r will heal the player fully, and activate Regeneration IV, Resistance and Fire Resistance for the next 30 seconds."]
+			description: ["  The &#D2691E&lCharm of Life II&r&r will heal the    player fully, and activate                  Regeneration IV, Resistance and Fire    Resistance for the next 30 seconds."]
 			id: "6A2072648BBBEDAA"
 			rewards: [
 				{
@@ -3111,9 +3111,9 @@
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
 			description: [
-				"The &#D2691E&lTree of Time&r&r is a magical tree that cannot be found naturally in the Forest and must be grown from a Tree of Time Sapling, which can be found in \"tree dungeons\" within massive Twilight Oak trees."
+				"  The &#D2691E&lTree of Time&r&r is a magical tree   that cannot be found naturally in the   Forest and must be grown from a        Tree of Time Sapling, which can be       found in \"tree dungeons\" within           massive Twilight Oak trees."
 				""
-				"The Tree of Time accelerates the growth of nearby plants. Its clock ticks, and right-clicking it will turn the clock gray and stop it."
+				"  The Tree of Time accelerates the       growth of nearby plants. Its clock       ticks, and right-clicking it will turn the   clock gray and stop it."
 			]
 			hide_dependency_lines: true
 			id: "631758525E8CB77C"
@@ -3159,7 +3159,7 @@
 				"238BA4DDD4B10E64"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &#D2691E&lMoonworm Queen&r&r is a peculiar green insect found in some Hollow Hill and Lich Tower chests. It contains Moonworm eggs that can attach to walls or any solid surface. By holding the button like a bow, the Queen can fire Moonworms as projectiles that stick upon landing. It can also shoot Moonworms through a Dispenser when powered with a Moonworm Queen inside."]
+			description: ["  The &#D2691E&lMoonworm Queen&r&r is a peculiar   green insect found in some Hollow Hill   and Lich Tower chests. It contains       Moonworm eggs that can attach to       walls or any solid surface. By holding   the button like a bow, the Queen can     fire Moonworms as projectiles that      stick upon landing. It can also shoot     Moonworms through a Dispenser when   powered with a Moonworm Queen inside."]
 			hide_dependency_lines: true
 			id: "3CB4CE1D7B55CD2B"
 			rewards: [
@@ -3292,9 +3292,9 @@
 		{
 			dependencies: ["0CDBF9C116B9F573"]
 			description: [
-				"&#D2691E&lRed Thread&r&r is a placeable item found in Labyrinth chests, serving as a navigation tool."
+				"  &#D2691E&lRed Thread&r&r is a placeable item        found in Labyrinth chests, serving as   a navigation tool."
 				""
-				"When placed and held by the player, it lights up and is visible through surfaces, helping trace steps. It can attach to solid surfaces, allowing up to six Red Threads to occupy the same block."
+				"  When placed and held by the player,    it lights up and is visible through         surfaces, helping trace steps. It can   attach to solid surfaces, allowing up    to six Red Threads to occupy the        same block."
 			]
 			hide_dependency_lines: true
 			id: "5E48E915C1B4ABE9"
@@ -3411,7 +3411,7 @@
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
-			description: ["Sometimes Roots form strange, ore-like clusters, called &l&#D2691ELiveroots&r&r. Liveroots appear as roots webbed with a bright yellow-green color. They typically appear in clusters of between 4 and 8 blocks and can be found anywhere underground in the Twilight Forest. Breaking Liveroots without silk touch gives Liveroot, which forms a key ingredient in the creation of &l&#D2691ERaw Ironwood&r&r."]
+			description: ["  Sometimes Roots form strange,           ore-like clusters, called &l&#D2691ELiveroots&r&r.    Liveroots appear as roots webbed      with a bright yellow-green color. They  typically appear in clusters of           between 4 and 8 blocks and can be      found anywhere underground in the     Twilight Forest. Breaking Liveroots       without silk touch gives Liveroot, which  forms a key ingredient in the creation  of &l&#D2691ERaw Ironwood&r&r."]
 			hide_dependency_lines: true
 			id: "7DFA298A49BB99F4"
 			rewards: [
@@ -3454,7 +3454,7 @@
 		}
 		{
 			dependencies: ["7EE137CFDCBB88DF"]
-			description: ["Eat &#D2691E&lALL&r&r of the Food exclusive to the Twilight Forest."]
+			description: ["  Eat &#D2691E&lALL&r&r of the Food exclusive to the Twilight      Forest."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
