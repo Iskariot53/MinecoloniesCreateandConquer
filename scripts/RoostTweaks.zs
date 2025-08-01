@@ -53,7 +53,7 @@
 		<tag:items:forge:roost/tier7>.addId(<resource:chicken_roost:c_ether>);
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
 		<tag:items:forge:roost/tier6>.addId(<resource:chicken_roost:c_beastmaster>);
-		<tag:items:forge:roost/tier8>.addId(<resource:chicken_roost:c_sap>);
+		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_sap>);
 		
 		
 
@@ -2510,7 +2510,7 @@
 		  "type": "chicken_roost:soul_breeding",
 		  "ingredients": [
 			{
-			  "tag": "forge:souls/tier8andup"
+			  "tag": "forge:souls/tier9andup"
 			},
 			{
 			  "item": "chicken_roost:c_sap"
@@ -2526,7 +2526,7 @@
 		  "type": "chicken_roost:roost_output",
 		  "ingredients": [
 			{
-			  "tag": "forge:seeds/tier8orup"
+			  "tag": "forge:seeds/tier9orup"
 			},
 			{
 			  "item": "chicken_roost:c_sap"
