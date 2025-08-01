@@ -22,9 +22,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Hostile neural networks (referred to as HNN from here forward) is an upgraded and as always, lag friendly way to farm mobs. Other than potentially the wannabee, this is going to be the optimal way to farm multiple mobs. "
+				"  Hostile neural networks (referred to as HNN from  here forward) is an upgraded and as always, lag    friendly way to farm mobs. Other than potentially    the wannabee, this is going to be the optimal way to  farm multiple mobs. "
 				""
-				"However, not *all* mobs are capable of being modeled."
+				"  However, not *all* mobs are capable of being        modeled."
 			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -58,9 +58,9 @@
 		{
 			dependencies: ["6F5F058B8042EFB6"]
 			description: [
-				"The most important tool and one of the key components to setting up any HNN, the &#D2691EDeep Learner&r. Right clicking opens the GUI, in which you will see 4 slots for holding data models and \"learning\" data about any mobs killed. &#D2691EData will be gathered for any model placed inside&r, no matter where it is in your inventory, whenever you kill a mob related to the models contained. There's even a curios slot for it! "
+				"  The most important tool and one of     the key components to setting up any   HNN, the &#D2691EDeep Learner&r. Right clicking    opens the GUI, in which you will see 4    slots for holding data models and        \"learning\" data about any mobs killed.   &#D2691EData will be gathered for any model     placed inside&r, no matter where it is in    your inventory, whenever you kill a      mob related to the models contained.    There's even a curios slot for it! "
 				""
-				"Multiple learners can be carried at once and data will be collected and distributed to all models contained in all learners for the respective mob that is killed., you only get 1 curios slot though."
+				"  Multiple learners can be carried at     once and data will be collected and      distributed to all models contained in    all learners for the respective mob     that is killed., you only get 1 curios      slot though."
 			]
 			hide_dependency_lines: false
 			id: "607DA6A658569B39"
@@ -106,9 +106,9 @@
 		{
 			dependencies: ["6F5F058B8042EFB6"]
 			description: [
-				"All data models begin with the &#D2691Emodel framework&r, once crafted, right click a mob with it to convert the framework into a data model of that mob. Easy! "
+				"  All data models begin with the &#D2691Emodel     framework&r, once crafted, right click a   mob with it to convert the framework    into a data model of that mob. Easy! "
 				""
-				"Not all mobs are capable of being modeled though, &#D2691EJEI&r is your best bet to determine whether or not a simulation is a viable option for any given mob."
+				"  Not all mobs are capable of being       modeled though, &#D2691EJEI&r is your best bet    to determine whether or not a            simulation is a viable option for any      given mob."
 			]
 			hide_dependency_lines: false
 			id: "39E5B5DD5E4252E0"
@@ -154,11 +154,11 @@
 		{
 			dependencies: ["15E9BF973EC079BD"]
 			description: [
-				"When supplied with a data model, prediction matrix and power the simulation chamber will run simulated battles with the mob placed inside. The RF cost of running any given simulation is dependent on the data model contained."
+				"  When supplied with a data model,         prediction matrix and power the          simulation chamber will run simulated     battles with the mob placed inside. The  RF cost of running any given              simulation is dependent on the data      model contained."
 				""
-				"&#D2691EA generalized prediction will always be produced when a simulation ends&r, these can be used for multiple recipes and the generalized prediction given will be dependent on the mob type represented by the data model."
+				"  &#D2691EA generalized prediction will always     be produced when a simulation ends&r,     these can be used for multiple            recipes and the generalized               prediction given will be dependent on    the mob type represented by the data  model."
 				""
-				"&#D2691EA mob prediction&r will be produced whenever a simulation ends &o&n&#D2691Esuccessfully&r&r&r, success rates are directly dependent on the tier of the data model."
+				"  &#D2691EA mob prediction&r will be produced       whenever a simulation ends                &o&n&#D2691Esuccessfully&r&r&r, success rates are         directly dependent on the tier of the   data model."
 			]
 			hide_dependency_lines: false
 			id: "0E994BABB0A95E5F"
@@ -209,11 +209,11 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"When you receive a mob prediction from a successful simulation, place it into a &#D2691Eloot fabricator&r and supply the fabricator with power. "
+				"  When you receive a mob prediction      from a successful simulation, place it    into a &#D2691Eloot fabricator&r and supply the    fabricator with power. "
 				""
-				"When provided with enough power and a mob prediction, &#D2691Ethe fabricator GUI will allow you to select what loot item is fabricated&r, predictions can provide multiple different outputs, but any given prediction is only good for 1 round of loot fabrication. "
+				"  When provided with enough power and  a mob prediction, &#D2691Ethe fabricator GUI     will allow you to select what loot item    is fabricated&r, predictions can provide   multiple different outputs, but any       given prediction is only good for 1      round of loot fabrication. "
 				""
-				"&#D2691ENote:&r Your selection within the fabricator is saved making it easy to automate production of a specific item."
+				"  &#D2691ENote:&r Your selection within the            fabricator is saved making it easy to    automate production of a specific item."
 			]
 			hide_dependency_lines: false
 			id: "769AED363D348BC3"
@@ -271,7 +271,7 @@
 		}
 		{
 			dependencies: ["0E994BABB0A95E5F"]
-			description: ["A material used for crafting a multitude of overworld items."]
+			description: ["  A material used for crafting a multitude of        overworld items."]
 			hide_dependency_lines: false
 			id: "44650505CEB2A00D"
 			rewards: [
@@ -315,7 +315,7 @@
 		}
 		{
 			dependencies: ["0E994BABB0A95E5F"]
-			description: ["A material used for crafting a multitude of nether items."]
+			description: ["  A material used for crafting a multitude of   nether items."]
 			hide_dependency_lines: false
 			id: "12E0CA5C8D437275"
 			rewards: [
@@ -372,7 +372,7 @@
 		}
 		{
 			dependencies: ["0E994BABB0A95E5F"]
-			description: ["A material used for crafting a multitude of twilight items."]
+			description: ["  A material used for crafting a multitude of      twilight items."]
 			hide_dependency_lines: false
 			id: "78509D6A43BBC48E"
 			rewards: [
@@ -415,7 +415,7 @@
 		}
 		{
 			dependencies: ["0E994BABB0A95E5F"]
-			description: ["A material used for crafting a multitude of end items."]
+			description: ["  A material used for crafting a multitude of  end items."]
 			hide_dependency_lines: false
 			id: "3538730DDE7D87BF"
 			rewards: [
@@ -459,11 +459,11 @@
 		{
 			dependencies: ["5D75DD692FA38572"]
 			description: [
-				"Before we get into the machines, we will need 1 last thing: &#D2691EThe prediction matrix&r."
+				"  Before we get into the machines, we     will need 1 last thing: &#D2691EThe prediction     matrix&r."
 				""
-				"In order for a simulation to run and provide a prediction, &#D2691Ethere must be a prediction matrix for the prediction to be imprinted on.&r"
+				"  In order for a simulation to run and   provide a prediction, &#D2691Ethere must be a   prediction matrix for the prediction to  be imprinted on.&r"
 				""
-				"no matrix = no prediction = no loot... pretty simple."
+				"  no matrix = no prediction = no loot...    pretty simple."
 			]
 			hide_dependency_lines: false
 			id: "15E9BF973EC079BD"
@@ -6871,11 +6871,11 @@
 				"39E5B5DD5E4252E0"
 			]
 			description: [
-				"Once you have your first data model, you will notice that it is \"&#D2691Efaulty&r\" this is true of all data models, at first."
+				"  Once you have your first data model,    you will notice that it is \"&#D2691Efaulty&r\" this is    true of all data models, at first."
 				""
-				"To reach the first tier in which you can actually use it for simulations you will need to first manually kill the mob, once you have manually killed the required mobs enough times to reach \"&#D2691Ebasic&r\" tier, you can either keep manually training it (which is sometimes faster) &oOR&r you can go ahead and start using it for simulation, in which it will slowly upgrade over time (which is easier). "
+				"  To reach the first tier in which you      can actually use it for simulations you   will need to first manually kill the mob,    once you have manually killed the          required mobs enough times to reach     \"&#D2691Ebasic&r\" tier, you can either keep           manually training it (which is sometimes    faster) &oOR&r you can go ahead and start  using it for simulation, in which it will       slowly upgrade over time (which is         easier). "
 				""
-				"Refer to the deep learner GUI or hover over the data model to see its required kill count required for the next tier. Ultimately, it doesn't really matter and is a matter of preference."
+				"  Refer to the deep learner GUI or        hover over the data model to see its     required kill count required for the      next tier. Ultimately, it doesn't really      matter and is a matter of preference."
 			]
 			hide_dependency_lines: false
 			icon: {

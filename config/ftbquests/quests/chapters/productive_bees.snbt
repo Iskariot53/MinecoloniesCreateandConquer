@@ -22,9 +22,9 @@
 		{
 			dependencies: ["374D27B6E8DB7066"]
 			description: [
-				"To start your way down the road of &#D2691EProductive Bees&r, we will first need to acquire some resources from their vanilla counterparts."
+				"  To start your way down the road of    &#D2691EProductive Bees&r, we will first need to    acquire some resources from their      vanilla counterparts."
 				""
-				"&#D2691Ehoneycomb&r and &#D2691Ehoney bottles&r are the foundation and fuel of any healthy swarm, we will want to automate and store these in bulk, eventually."
+				"  &#D2691EHoneycomb&r and &#D2691Ehoney bottles&r are the  foundation and fuel of any healthy      swarm, we will want to automate and      store these in bulk, eventually."
 			]
 			id: "49735C24C8F46C97"
 			rewards: [
@@ -61,11 +61,11 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"In this chapter we will cover everything you need to know about &#D2691EProductive Bees&r, from the beeginners basics to some of the more advanced tips and keeping techniques as you grow and expand your facilibees to support them. "
+				"  In this chapter we will cover everything   you need to know about &#D2691EProductive Bees&r,   from the beeginners basics to some of      the more advanced tips and keeping          techniques as you grow and expand your  facilibees to support them. "
 				""
-				"First things first, let's find ourselves a vanilla bee nest so we can get started harvesting honey and honeycomb."
+				"  First things first, let's find ourselves a    vanilla bee nest so we can get started      harvesting honey and honeycomb."
 				""
-				"(No, the bee puns won't be stopping, not sorry)"
+				"  (No, the bee puns won't be stopping, not    sorry)"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -105,7 +105,7 @@
 		}
 		{
 			dependencies: ["49735C24C8F46C97"]
-			description: ["The basic &#D2691Ebee cage&r can be used to catch and store any bee, they may seem limited but there are a few niche situations in which the one time use cages are going to be preferred over the sturdy variant. They're also the only ones you can craft where as sturdy reusable cages are only found as &#D2691Eloot&r."]
+			description: ["  The basic &#D2691Ebee cage&r can be used to     catch and store any bee, they may      seem limited but there are a few niche  situations in which the one time use      cages are going to be preferred        over the sturdy variant. They're also   the only ones you can craft where as  sturdy reusable cages are only         found as &#D2691Eloot&r."]
 			id: "0BA2EB1462A10A39"
 			rewards: [
 				{
@@ -133,7 +133,7 @@
 		}
 		{
 			dependencies: ["0BA2EB1462A10A39"]
-			description: ["If for whatever reason you lose the tome provided within the starter hut or you opted to not use the huts at all, The Big Book of Bees is easily crafted with a bee cage and a book."]
+			description: ["  If for whatever reason you lose the   tome provided within the starter hut     or you opted to not use the huts at     all, The Big Book of Bees is easily        crafted with a bee cage and a book."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -165,7 +165,7 @@
 		}
 		{
 			dependencies: ["0BA2EB1462A10A39"]
-			description: ["The &#D2691Enest locator&r it essentially a compass, specially made for finding &#D2691Ebee nests&r."]
+			description: ["  The &#D2691Enest locator&r it essentially a         compass, specially made for finding      &#D2691Ebee nests&r."]
 			id: "58F5764607FE31DA"
 			rewards: [
 				{
@@ -197,7 +197,7 @@
 		}
 		{
 			dependencies: ["0BA2EB1462A10A39"]
-			description: ["To get started we're going to need to to automate the production of honey bottles and honey comb. The basic hive is the first step in moving from manual to automatic collection."]
+			description: ["  To get started we're going to need to to       automate the production of honey bottles       and honey comb. The basic hive is the first     step in moving from manual to automatic          collection."]
 			id: "79161CA712E9F7D0"
 			rewards: [
 				{
@@ -232,11 +232,11 @@
 		{
 			dependencies: ["79161CA712E9F7D0"]
 			description: [
-				"The primary difference between the standard hive VS. the advanced? &#D2691EThe inventory and its GUI&r."
+				"  The primary difference between the    standard hive VS. the advanced? &#D2691EThe   inventory and its GUI&r."
 				""
-				"The advanced hive has an internal inventory, allowing it to store bottles for filling, as well as allowing it to produce honeycomb automatically (provided it has the inventory space)."
+				"  The advanced hive has an internal      inventory, allowing it to store bottles    for filling, as well as allowing it to        produce honeycomb automatically        (provided it has the inventory space)."
 				""
-				"Yes, &#D2691Epipes&r can be used to insert/remove items from the hives! "
+				"  Yes, &#D2691Epipes&r can be used to                 insert/remove items from the hives! "
 			]
 			id: "0B7B4C27767760A1"
 			rewards: [
@@ -286,11 +286,11 @@
 		{
 			dependencies: ["0B7B4C27767760A1"]
 			description: [
-				"combining honeycombs and honey (no, it doesn't make sense, but go with it) makes honey treats, these can be used on solitary bee nests to spawn the bee associated with the type of nest the treat is used on. They're useful for feeding babees in an incubator as well as combining with genes to change genetics! (more on that later)."
+				"  Combining honeycombs and honey (no,  it doesn't make sense, but go with it)     makes honey treats, these can be        used on solitary bee nests to spawn    the bee associated with the type of      nest the treat is used on. They're       useful for feeding babees in an          incubator as well as combining with       genes to change genetics! (more on     that later)."
 				""
-				"&#D2691EYou will definitely want to automate the production of all 3&r: honey bottles, honey combs &oand&r honey treats. These are your 3 primary resources for bees. "
+				"  &#D2691EYou will definitely want to automate      the production of all 3&r: honey bottles,  honey combs &oand&r honey treats. These  are your 3 primary resources for      bees. "
 				""
-				"You will use more of all 3 than you can count."
+				"  You will use more of all 3 than you      can count."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -321,7 +321,7 @@
 		}
 		{
 			dependencies: ["0B7B4C27767760A1"]
-			description: ["The centrifuge is used to process combs into various resources as well as separating genes from squashed bee material."]
+			description: ["  The centrifuge is used to process      combs into various resources as well   as separating genes from squashed     bee material."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -351,7 +351,7 @@
 		}
 		{
 			dependencies: ["579409C3F3A2F2F0"]
-			description: ["The powered centrifuge uses &#D2691ERF&r to process materials at &#D2691Ehigher speeds&r."]
+			description: ["  The powered centrifuge uses &#D2691ERF&r to     process materials at &#D2691Ehigher speeds&r."]
 			id: "0895EF6E5296A1E8"
 			rewards: [
 				{
@@ -379,11 +379,11 @@
 		{
 			dependencies: ["0895EF6E5296A1E8"]
 			description: [
-				"The &#D2691Eheated&r centrifuge is the fastest way to process combs, it also &#D2691Eeliminates the production of wax&r, which is a good and bad thing."
+				"  The &#D2691Eheated&r centrifuge is the fastest   way to process combs, it also             &#D2691Eeliminates the production of wax&r, which  is a good and bad thing."
 				""
-				"&nIts recommended not to use heated centrifuges exclusively&r."
+				"  &lIts recommended not to use       heated centrifuges exclusively&r."
 				""
-				"Or else you will completely eliminate the production of wax, which you need lots of for upgrades."
+				"  Or else you will completely eliminate     the production of wax, which you need  lots of for upgrades."
 			]
 			id: "530DFF4F3A9CCB42"
 			rewards: [
@@ -426,7 +426,7 @@
 		}
 		{
 			dependencies: ["4745DE7E72238D40"]
-			description: ["Speed upgrades will decrease the amount of time a bee spends in its hive after every trip, When placed in centrifuges or any other block it decreases the operation time."]
+			description: ["  Speed upgrades will decrease the      amount of time a bee spends in its hive  after every trip, When placed in          centrifuges or any other block it        decreases the operation time."]
 			id: "00E32809B273084F"
 			subtitle: "&#8B4513Feeling the need for speed?"
 			tasks: [{
@@ -440,7 +440,7 @@
 		}
 		{
 			dependencies: ["3B7EB59164BFECB7"]
-			description: ["The block upgrade causes bees to provide their combs in block form rather than just singular combs."]
+			description: ["  The block upgrade causes bees to     provide their combs in block form        rather than just singular combs."]
 			id: "38A6143F44837211"
 			subtitle: "&#8B4513Comb blocks"
 			tasks: [{
@@ -454,7 +454,7 @@
 		}
 		{
 			dependencies: ["4745DE7E72238D40"]
-			description: ["Causes the catcher to only collect adult bee."]
+			description: ["  Causes the catcher to only collect     adult bees."]
 			id: "7DC30599E114A3A1"
 			subtitle: "&#8B4513No more babees, please"
 			tasks: [{
@@ -468,7 +468,7 @@
 		}
 		{
 			dependencies: ["4745DE7E72238D40"]
-			description: ["The anti-teleportation upgrade will stop any bees that live within the hive that it is installed in from teleporting anymore."]
+			description: ["  The anti-teleportation upgrade will stop   any bees that live within the hive that it    is installed in from teleporting anymore."]
 			id: "682179B547AC48A5"
 			subtitle: "&#8B4513Let's see them get out now"
 			tasks: [{
@@ -483,9 +483,9 @@
 		{
 			dependencies: ["4745DE7E72238D40"]
 			description: [
-				"The babee upgrade can be used in a hive to provide a small chance for the bees within to breed without you having to do anything, providing that they would normally be capable of breeding otherwise."
+				"  The babee upgrade can be used in a   hive to provide a small chance for the  bees within to breed without you          having to do anything, providing that    they would normally be capable of       breeding otherwise."
 				""
-				"It can also be used in a catcher to make the catcher catch &oonly babees&r and not adults"
+				"  It can also be used in a catcher to     make the catcher catch &oonly babees&r    and not adults"
 			]
 			id: "4C8A24C2E2C2E995"
 			subtitle: "&#8B4513Need more babees?"
@@ -500,7 +500,7 @@
 		}
 		{
 			dependencies: ["4745DE7E72238D40"]
-			description: ["When installed in a hive, the gene sampler will extract small gene samples from the bees working within the hive periodically, multiple upgrades will increase the yield."]
+			description: ["  When installed in a hive, the gene sampler will         extract small gene samples from the bees working   within the hive periodically, multiple upgrades will     increase the yield."]
 			id: "70C9E4903746E071"
 			subtitle: "&#8B4513They're fiiiine"
 			tasks: [{
@@ -515,12 +515,12 @@
 		{
 			dependencies: ["682179B547AC48A5"]
 			description: [
-				"If going big with bees, then these are a must have to eliminate performance issues caused by things like entity pathing AI calculations."
+				"  If going big with bees, then these are  a must have to eliminate performance   issues caused by things like entity       pathing AI calculations."
 				""
-				"The simulator upgrade causes the bees to remain within their hives and simulate a trip to their feeding flower/block/slab."
+				"  The simulator upgrade causes the      bees to remain within their hives and    simulate a trip to their feeding            flower/block/slab."
 				""
 				""
-				"For this to work the flower, block or slab must be placed 1 BLOCK IN FRONT OF AND &n&l&oBELOW&r&r&r the entrance to the hive."
+				"  For this to work the flower, block or   slab must be placed 1 BLOCK IN FRONT  OF AND &n&l&oBELOW&r&r&r the entrance to the      hive."
 			]
 			id: "28C43D8DA14233E8"
 			subtitle: "&#8B4513YOU NEED THESE"
@@ -536,9 +536,9 @@
 		{
 			dependencies: ["4745DE7E72238D40"]
 			description: [
-				"The range upgrade will increase the effective range of specialty bees like the farmer, rancher and hoarder bee by 1 block per upgrade. "
+				"  The range upgrade will increase the   effective range of specialty bees like  the farmer, rancher and hoarder bee  by 1 block per upgrade. "
 				""
-				"It can also be placed into a catcher to increase the range in which it can catch bees and make it actually worth using, otherwise don't bother."
+				"  It can also be placed into a catcher   to increase the range in which it can    catch bees and make it actually worth   using, otherwise don't bother."
 			]
 			id: "5EB495D8571A9118"
 			subtitle: "&#8B4513Expansion without boxes"
@@ -553,7 +553,7 @@
 		}
 		{
 			dependencies: ["4745DE7E72238D40"]
-			description: ["The Alpha upgrade will increase the number of combs produced by any given bee per trip by %120."]
+			description: ["  The Alpha upgrade will increase the        number of combs produced by any given   bee per trip by %120."]
 			id: "0C4065E442FF26E2"
 			subtitle: "&#8B4513Now we're talking production."
 			tasks: [{
@@ -567,7 +567,7 @@
 		}
 		{
 			dependencies: ["0C4065E442FF26E2"]
-			description: ["The beta upgrade functions the same as the alpha upgrade, but this one provides a %150 increase to combs yielded."]
+			description: ["  The beta upgrade functions the same     as the alpha upgrade, but this one         provides a %150 increase to combs        yielded."]
 			id: "3B7EB59164BFECB7"
 			subtitle: "&#8B4513Need more production"
 			tasks: [{
@@ -584,7 +584,7 @@
 				"3B7EB59164BFECB7"
 				"28C43D8DA14233E8"
 			]
-			description: ["The gamma upgrade is essentially the same as the beta upgrade, except it provides a %200 boost to production as well as functioning as a simulator upgrade."]
+			description: ["  The gamma upgrade is essentially the       same as the beta upgrade, except it         provides a %200 boost to production as    well as functioning as a simulator             upgrade."]
 			id: "4E23C99DB4D1F7BD"
 			subtitle: "&#8B4513More"
 			tasks: [{
@@ -601,7 +601,7 @@
 				"4E23C99DB4D1F7BD"
 				"38A6143F44837211"
 			]
-			description: ["The omega upgrade. The pinnacle of bee production. it grants a %260 bonus to production as well as functions as BOTH a simulator AND a block upgrade."]
+			description: ["  The omega upgrade. The pinnacle of bee   production. it grants a %260 bonus to       production as well as functions as BOTH a  simulator AND a block upgrade."]
 			id: "7EF793431CB519F0"
 			subtitle: "&#8B4513&lMOAR"
 			tasks: [{
@@ -615,7 +615,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &#D2691Ecrystalline&r bee."]
+			description: ["  The home of the &#D2691Ecrystalline&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "3776E78E513B95F2"
@@ -645,9 +645,9 @@
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
 			description: [
-				"&#D2691ESolitary bees&r and their nests can be found throughout the world, different nests can be found in different biomes and dimensions, we'll need to hunt some of these down in order to breed them for the resource producing bees we're all actually after."
+				"  &#D2691ESolitary bees&r and their nests can be   found throughout the world, different  nests can be found in different          biomes and dimensions, we'll need to      hunt some of these down in order to    breed them for the resource             producing bees we're all actually        after."
 				""
-				"&#D2691EJEI&r will be the best way to determine what nest to use for the bee you're hunting. They are also craftable using the respective nest material + a sword of varying materials, depending on the nest."
+				"  &#D2691EJEI&r will be the best way to determine   what nest to use for the bee you're     hunting. They are also craftable using  the respective nest material + a          sword of varying materials, depending  on the nest."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -685,7 +685,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &#D2691Eglowing&r bee."]
+			description: ["  The home of the &#D2691Eglowing&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "589823025F8C78D2"
@@ -714,7 +714,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &#D2691Eghostly&r bee."]
+			description: ["  The home of the &#D2691Eghostly&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0CDDB924182973FF"
@@ -743,7 +743,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &#D2691Emagmatic&r bee."]
+			description: ["  The home of the &#D2691Emagmatic&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "054DC93067884DA6"
@@ -772,7 +772,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the draconic bee."]
+			description: ["  The home of the draconic bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "6C08D0E6135ECE97"
@@ -800,7 +800,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &#D2691Eender&r bee."]
+			description: [" The home of the &#D2691Eender&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "3D80E0453827CB27"
@@ -828,7 +828,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Ewooden&r nest to spawn a yellow carpenter bee. (use JEI to determine which wood to use for which bee)."]
+			description: ["  Use a honey treat on a &#D2691Ewooden&r nest   to spawn a yellow carpenter bee. (use  JEI to determine which wood to use      for which bee)."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -870,7 +870,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Ewooden&r nest to obtain a green carpenter bee. (use JEI to determine which wood for which type of carpenter bee)."]
+			description: ["  Use a honey treat on a &#D2691Ewooden&r nest   to obtain a green carpenter bee. (use  JEI to determine which wood for which   type of carpenter bee)."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -912,7 +912,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Ereed&r nest to spawn a reed bee if you cannot find one."]
+			description: ["  Use a honey treat on a &#D2691Ereed&r nest to   spawn a reed bee if you cannot find    one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -954,7 +954,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a snow nest to spawn a sweat bee if you cannot find one."]
+			description: ["  Use a honey treat on a snow nest to   spawn a sweat bee if you cannot find   one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -996,7 +996,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Edark oak&r, &#D2691Echerry&r or &#D2691Eacacia&r nest to spawn a blue banded bee if you cannot find one."]
+			description: ["  Use a honey treat on a &#D2691Edark oak&r,       &#D2691Echerry&r or &#D2691Eacacia&r nest to spawn a       blue banded bee if you cannot find      one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1038,7 +1038,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Edirt&r nest to spawn a leafcutter bee if you cannot find one."]
+			description: ["  Use a honey treat on a &#D2691Edirt&r nest to    spawn a leafcutter bee if you cannot   find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1080,7 +1080,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["The nomad bee has a small chance to spawn and take the nest of the &#D2691Eashy mining bee&r."]
+			description: ["  The nomad bee has a small chance to  spawn and take the nest of the &#D2691Eashy    mining bee&r."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1130,7 +1130,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["The neon cuckoo bee will periodically move into the nest of the &#D2691Eblue banded bee&r."]
+			description: ["  The neon cuckoo bee will periodically   move into the nest of the &#D2691Eblue banded  bee&r."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1172,7 +1172,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Egravel&r or &#D2691Estone&r nest to spawn a digger bee."]
+			description: ["  Use a honey treat on a &#D2691Egravel&r or       &#D2691Estone&r nest to spawn a digger bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1214,7 +1214,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Esand&r, &#D2691Egravel&r or&#D2691E dirt &rnest to spawn a chocolate mining bee if you cannot find one."]
+			description: ["  Use a honey treat on a &#D2691Esand&r, &#D2691Egravel&r   or&#D2691E dirt &rnest to spawn a chocolate        mining bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1256,7 +1256,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Esand&r, &#D2691Egravel&r or &#D2691Edirt&r nest to spawn an ashy mining bee if you cannot find one."]
+			description: ["  Use a honey treat on a &#D2691Esand&r, &#D2691Egravel&r   or &#D2691Edirt&r nest to spawn an ashy mining    bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1302,17 +1302,17 @@
 				"00E32809B273084F"
 			]
 			description: [
-				"Not all upgrades are created equally."
+				"  Not all upgrades are created            equally."
 				""
-				"As a &#D2691Egeneral&r rule: "
+				"  As a &#D2691Egeneral&r rule: "
 				""
-				"&#D2691ESpeed&r upgrades are best in machine blocks, like centrifuges."
+				"  &#D2691ESpeed&r upgrades are best in machine   blocks, like centrifuges."
 				""
-				"&#D2691EOmega&r upgrades are best for hives."
+				"  &#D2691EOmega&r upgrades are best for hives."
 				""
-				"A hive with 4 omega upgrades will outpace a hive with a combination of them with speed."
+				"  A hive with 4 omega upgrades will        outpace a hive with a combination of     them with speed."
 				""
-				"While slow, with patience, pokey pokey upgrades are oftentimes the easiest way to duplicate a bee species. Especially the more \"exotic\" bees"
+				"  While slow, with patience, pokey pokey   upgrades are oftentimes the easiest    way to duplicate a bee species.           Especially the more \"exotic\" bees"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1338,7 +1338,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Estone&r or &#D2691Ereed&r nest to spawn a mason bee if you cannot find one."]
+			description: ["  Use a honey treat on a &#D2691Estone&r or        &#D2691Ereed&r nest to spawn a mason bee if       you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1380,7 +1380,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Use a honey treat on a &#D2691Espruce&r nest to spawn a resin bee if you cannot find one."]
+			description: ["  Use a honey treat on a &#D2691Espruce&r nest   to spawn a resin bee if you cannot      find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1422,7 +1422,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["Using a honey treat on a stick, you can mount and fly a bumblebee, just like vanilla pigs with wings!"]
+			description: ["  Using a honey treat on a stick, you     can mount and fly a bumblebee, just     like vanilla pigs with wings!"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: false
@@ -1471,7 +1471,7 @@
 		}
 		{
 			dependencies: ["3776E78E513B95F2"]
-			description: ["Use nether quartz on a &#D2691Equartz&r nest to spawn a crystalline bee if you cannot find one."]
+			description: ["  Use nether quartz on a &#D2691Equartz&r nest   to spawn a crystalline bee if you         cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1514,9 +1514,9 @@
 		{
 			dependencies: ["589823025F8C78D2"]
 			description: [
-				"Craft a &#D2691Eglowstone&r nest, and use glowstone dust as bait to spawn a glowing bee if you cannot find one (good luck)."
+				"  Craft a &#D2691Eglowstone&r nest, and use         glowstone dust as bait to spawn a        glowing bee if you cannot find one       (good luck)."
 				""
-				"These can be notoriously difficult to find, just craft and bait the nest if so."
+				"  These can be notoriously difficult to   find, just craft and bait the nest if      so."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1559,7 +1559,7 @@
 		}
 		{
 			dependencies: ["054DC93067884DA6"]
-			description: ["Use magma cream on a &#D2691Enether brick&r nest to spawn a magmatic bee if you cannot find one."]
+			description: ["  Use magma cream on a &#D2691Enether brick&r     nest to spawn a magmatic bee if you     cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1601,7 +1601,7 @@
 		}
 		{
 			dependencies: ["5AF7AD2AFE15D5FD"]
-			description: ["Use a honey treat on a slimy nest to spawn a slimy bee if you cannot find one."]
+			description: ["  Use a honey treat on a slimy nest to   spawn a slimy bee if you cannot find     one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1643,7 +1643,7 @@
 		}
 		{
 			dependencies: ["27C3E7FB9ADD2FA0"]
-			description: ["Sugarbag bees have a very small chance to spawn inside of &#D2691Ecocoa bean pods&r, grow and break as many pods as you can and you should *eventually* spawn at least 1. They produce a comb very useful as an early game food supply. provided you have chosen an origin that allows you to eat it."]
+			description: ["  Sugarbag bees have a very small       chance to spawn inside of &#D2691Ecocoa bean  pods&r, grow and break as many pods     as you can and you should                *eventually* spawn at least 1. They      produce a comb very useful as an      early game food supply. provided you   have chosen an origin that allows you  to eat it."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -1685,7 +1685,7 @@
 		}
 		{
 			dependencies: ["0CDDB924182973FF"]
-			description: ["Use a ghast tear on a &#D2691Esoul sand&r nest to spawn a ghostly bee if you cannot find one."]
+			description: ["  Use a ghast tear on a &#D2691Esoul sand&r nest  to spawn a ghostly bee if you cannot   find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -1731,9 +1731,9 @@
 				"27C3E7FB9ADD2FA0"
 			]
 			description: [
-				"Bees will occasionally be caught while fishing, and are usually not very happy, but if you're quick you can catch them before they sting you and inevitably die. "
+				"  Bees will occasionally be caught while  fishing, and are usually not very         happy, but if you're quick you can       catch them before they sting you and   inevitably die. "
 				""
-				"Different bees are caught from fishing in &#D2691Edifferent biomes&r, use &#D2691EJEI &rfor information on locating a specific bees biome location."
+				"  Different bees are caught from         fishing in &#D2691Edifferent biomes&r, use &#D2691EJEI&r       for information on locating a specific   bees biome location."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -1771,7 +1771,7 @@
 				"27C3E7FB9ADD2FA0"
 				"1CC5B5C8271FEC0E"
 			]
-			description: ["Not all bees are created equally... as such... not all bees work equally, here are some examples of \"specialty\" bees bred for a specific job, rather than just producing combs."]
+			description: ["  Not all bees are created equally... as  such... not all bees work equally, here   are some examples of \"specialty\" bees  bred for a specific job, rather than    just producing combs."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
@@ -1803,9 +1803,9 @@
 		{
 			dependencies: ["6C08D0E6135ECE97"]
 			description: [
-				"Use &#D2691Edragons breath&r on an obsidian nest to spawn a draconic bee. These are the key to the most powerful upgrades for your bees."
+				"  Use &#D2691Edragons breath&r on an obsidian     nest to spawn a draconic bee. These    are the key to the most powerful         upgrades for your bees."
 				""
-				"When working in the end they do not need a flower source, when in the overworld they require a &#D2691Edragon egg&r for a flower."
+				"  When working in the end they do not    need a flower source, when in the       overworld they require a &#D2691Edragon egg&r   for a flower."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1866,7 +1866,7 @@
 		}
 		{
 			dependencies: ["284B2602637F5596"]
-			description: ["Use a fishing rod to catch a water bee."]
+			description: ["  Use a fishing rod to catch a water      bee."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1907,9 +1907,9 @@
 		{
 			dependencies: ["284B2602637F5596"]
 			description: [
-				"Use a fishing rod to catch a &#D2691Eprismarine&r bee."
+				"  Use a fishing rod to catch a              &#D2691Eprismarine&r bee."
 				""
-				"This is the best way to get the works in \"&#D2691Eany&r\" weather gene."
+				"  This is the best way to get the works   in \"&#D2691Eany&r\" weather gene."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -1952,7 +1952,7 @@
 		}
 		{
 			dependencies: ["284B2602637F5596"]
-			description: ["Use a fishing rod to catch an oily bee."]
+			description: ["  Use a fishing rod to catch an oily       bee."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -1993,9 +1993,9 @@
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Use a &#D2691Ehopper&r on a vanilla be to convert it into a collector bee. "
+				"  Use a &#D2691Ehopper&r on a vanilla be to         convert it into a collector bee. "
 				""
-				"Collector bees will gather all &#D2691Eitem&r entities within range of their hive and bring them back for storage!"
+				"  Collector bees will gather all &#D2691Eitem&r       entities within range of their hive and   bring them back for storage!"
 			]
 			icon: {
 				Count: 1
@@ -2037,9 +2037,9 @@
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Use a &#D2691Eshulker shell&r on a collector bee to convert it into a hoarder bee."
+				"  Use a &#D2691Eshulker shell&r on a collector      bee to convert it into a hoarder bee."
 				""
-				"They are an upgraded variant of their lesser brethren."
+				"  They are an upgraded variant of       their lesser brethren."
 			]
 			icon: {
 				Count: 1
@@ -2081,9 +2081,9 @@
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Breeding a yellow carpenter bee with a green one will yield lumber bees."
+				"  Breeding a yellow carpenter bee with  a green one will yield lumber bees."
 				""
-				"Lumber bees will replicate &ojust about&r any type of log or wood given to them as a flowering block. Check &#D2691EJEI&r for a full list of all wood types they will accept."
+				"  Lumber bees will replicate &ojust about&r  any type of log or wood given to them  as a flowering block. Check &#D2691EJEI&r for a   full list of all wood types they will        accept."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -2127,9 +2127,9 @@
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Breeding a chocolate mining bee with a digger bee will yield quarry bees."
+				"  Breeding a chocolate mining bee with    a digger bee will yield quarry bees."
 				""
-				"Much like the lumber bee, the quarry bee will accept &oalmost&r any type of stone given to it as a flowering block and replicate it. Check &#D2691EJEI&r for a full list of types acceptable as flowering blocks."
+				"  Much like the lumber bee, the quarry   bee will accept &oalmost&r any type of       stone given to it as a flowering block   and replicate it. Check &#D2691EJEI&r for a full    list of types acceptable as flowering    blocks."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -2173,9 +2173,9 @@
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Breed a lumber bee with a sweat bee to obtain a rancher bee."
+				"  Breed a lumber bee with a sweat bee   to obtain a rancher bee."
 				""
-				"Rancher bees will periodically travel to mobs within range of their hives and bring back the drops it collects."
+				"  Rancher bees will periodically travel   to mobs within range of their hives       and bring back the drops it collects."
 			]
 			icon: {
 				Count: 1
@@ -2216,7 +2216,7 @@
 		}
 		{
 			dependencies: ["284B2602637F5596"]
-			description: ["Use a fishing rod to catch a sponge bee."]
+			description: ["  Use a fishing rod to catch a sponge    bee."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2257,9 +2257,9 @@
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Breed a farmer bee and a rancher bee to obtain a cubee."
+				"  Breed a farmer bee and a rancher     bee to obtain a cubee."
 				""
-				"Cubees travel around to mobs within range of their hives and &#D2691Eencourages them to breed&r."
+				"  Cubees travel around to mobs within    range of their hives and &#D2691Eencourages   them to breed&r."
 			]
 			icon: {
 				Count: 1
@@ -2301,13 +2301,13 @@
 		{
 			dependencies: ["00D738AD58B0E84A"]
 			description: [
-				"Breed a sugarbag bee with a neon cuckoo bee to obtain a pepto beesmol."
+				"  Breed a sugarbag bee with a neon      cuckoo bee to obtain a pepto beesmol."
 				""
-				"Keep pepto beesmol on hand for &#D2691Equick remedies&r to unpleasant ailments."
+				"  Keep pepto beesmol on hand for        &#D2691Equick remedies&r to unpleasant ailments."
 				""
-				"&#D2691EProvides temporary&r: Regeneration, absorption, haste, strength, saturation, luck as well as instant healing buffs. Along side all of this it also provides sugarbagcombs for eating! "
+				"  &#D2691EProvides temporary&r: Regeneration,      absorption, haste, strength,               saturation, luck as well as instant        healing buffs. Along side all of this it    also provides sugarbagcombs for       eating! "
 				""
-				"(does not help with indigestion... sorry)"
+				"  (does not help with indigestion...          sorry)"
 			]
 			id: "4AC862528DF87B7E"
 			rewards: [
@@ -2350,16 +2350,16 @@
 		{
 			dependencies: ["4AC862528DF87B7E"]
 			description: [
-				"Use bee squishing, genetics and incubation to obtain the &#D2691Espawn eggs&r of the following bees: "
+				"  Use bee squishing, genetics and         incubation to obtain the &#D2691Espawn eggs&r of  the following bees: "
 				""
-				"pepto beesmol x2"
-				"hoarder bee x2"
-				"rancher bee x1"
-				"cubee x1"
+				"  pepto beesmol x2"
+				"  hoarder bee x2"
+				"  rancher bee x1"
+				"  cubee x1"
 				""
-				"Then craft them with 2 &#D2691Eecho shards&r and a copy of &#D2691Emusic disc #5&r to obtain a wannabee spawn egg."
+				"  Then craft them with 2 &#D2691Eecho shards&r    and a copy of &#D2691Emusic disc #5&r to obtain   a wannabee spawn egg."
 				""
-				"These things are one of, &oBOTH&r, the most TPS friendly &oand&r the most productive mob farms you can build in almost any pack they are present in. They can farm virtually any mob that you can find a way to get encased in resin/amber, leading to some very interesting farms. You can even farm &#D2691Eapotheosis items and gems&r with them! "
+				"  These things are one of, &oBOTH&r, the      most TPS friendly &oand&r the most           productive mob farms you can build in  almost any pack they are present in.    They can farm virtually any mob that    you can find a way to get encased in    resin/amber, leading to some very       interesting farms. You can even farm   &#D2691Eapotheosis items and gems&r with them! "
 			]
 			id: "71A609F70B6B6958"
 			rewards: [
@@ -2407,7 +2407,7 @@
 		}
 		{
 			dependencies: ["5EAC29DB29A4950E"]
-			description: ["Craft the bee nest helmet. The helmet has a chance to spawn a highly aggressive kamikazbee to attack anything that struck you with reckless abandon. While useful in this nature alone, they are also the &oonly&r bees who naturally spawn with the \"very high\" productivity gene, making capturing them for genetics a top priority for anyone truly looking to go big with bees."]
+			description: ["  Craft the bee nest helmet. The helmet  has a chance to spawn a highly           aggressive kamikazbee to attack          anything that struck you with reckless  abandon. While useful in this nature      alone, they are also the &oonly&r bees       who naturally spawn with the \"very      high\" productivity gene, making            capturing them for genetics a top        priority for anyone truly looking to     go big with bees."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: false
 			hide_until_deps_visible: true
@@ -2442,7 +2442,7 @@
 		}
 		{
 			dependencies: ["281D776A33FBE67D"]
-			description: ["Equip a bee nest helmet and spawn a kamikazbee. The unchecked aggression of the kamikazbee makes them hard to gain control of, but if you can, they can be used to harvest the most highly productive genes available."]
+			description: ["  Equip a bee nest helmet and spawn a   kamikazbee. The unchecked aggression  of the kamikazbee makes them hard to   gain control of, but if you can, they     can be used to harvest the most         highly productive genes available."]
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -2488,7 +2488,7 @@
 		}
 		{
 			dependencies: ["579409C3F3A2F2F0"]
-			description: ["When supplied with flowers (or whatever the respective breeding item is for the bees being bred) and bees that can breed, the breeding chamber will automate this process, just don't forget to provide it with both &#D2691Epower&r and &#D2691Ecages&r to house the babees produced."]
+			description: ["  When supplied with flowers (or           whatever the respective breeding item  is for the bees being bred) and bees   that can breed, the breeding chamber  will automate this process, just don't    forget to provide it with both &#D2691Epower&r     and &#D2691Ecages&r to house the babees          produced."]
 			hide_dependency_lines: false
 			id: "1BFA11C779ED435C"
 			rewards: [
@@ -2517,13 +2517,13 @@
 		{
 			dependencies: ["1BFA11C779ED435C"]
 			description: [
-				"Incubators are great for raising babees quickly, simply fill it with &#D2691Ehoney treats&r and a caged babee and wait!"
+				"  Incubators are great for raising       babees quickly, simply fill it with &#D2691Ehoney  treats&r and a caged babee and wait!"
 				""
-				"Once you have type genes at your disposal, the incubator can also be used to combine the gene with an egg to create the spawn egg of the respective bee type the gene was extracted from."
+				"  Once you have type genes at your     disposal, the incubator can also be      used to combine the gene with an egg   to create the spawn egg of the           respective bee type the gene was       extracted from."
 				""
-				"&#D2691ENOTE:&r gene incubation only works for \"type\" genes, all other genes used on the treat to incubate the egg will be lost. "
+				"  &#D2691ENOTE:&r gene incubation only works for   \"type\" genes, all other genes used on  the treat to incubate the egg will be     lost. "
 				""
-				"Change the new bees stats &o&#D2691Eafter&r&r it has been spawned."
+				"  Change the new bees stats &o&#D2691Eafter&r&r it     has been spawned."
 			]
 			id: "58BCD239183B28AD"
 			rewards: [
@@ -2553,17 +2553,17 @@
 		{
 			dependencies: ["1F2742803A0D209E"]
 			description: [
-				"Once centrifuged into singular gene samples, you will want to feed these genes into an indexer."
+				"  Once centrifuged into singular gene    samples, you will want to feed these     genes into an indexer."
 				""
-				"you will notice that genes are harvested in percentages. &#D2691EA single bee will never provide a 100% sample&r of its genetics and as such, this is where the indexer comes into play."
+				"  you will notice that genes are            harvested in percentages. &#D2691EA single      bee will never provide a 100% sample&r    of its genetics and as such, this is       where the indexer comes into play."
 				""
-				"When provided with samples, &#D2691Ethe indexer will collect and combine all \"like\" genes&r until it has accumulated enough genes to create a %100 sample at which point it will begin creating another \"complete\" sample of the gene. "
+				"  When provided with samples, &#D2691Ethe          indexer will collect and combine all       \"like\" genes&r until it has accumulated     enough genes to create a %100          sample at which point it will begin          creating another \"complete\" sample of  the gene. "
 				""
-				"It is for this reason that you will almost certainly want to make a small dedicated breeding set up, just for breeding a few sets of bees with \"perfect genes\" for squishing in order to automate a gene supply for perfecting the genes of future bees."
+				"  It is for this reason that you will        almost certainly want to make a small    dedicated breeding set up, just for     breeding a few sets of bees with         \"perfect genes\" for squishing in         order to automate a gene supply for   perfecting the genes of future bees."
 				""
-				"Gene samples can be crafted with a honey treat and fed to a bee to cause the bee to inherit the stats added to the treat. &#D2691EMultiple&r stats can be combined into the same honey treat."
+				"  Gene samples can be crafted with a    honey treat and fed to a bee to          cause the bee to inherit the stats       added to the treat. &#D2691EMultiple&r stats can   be combined into the same honey         treat."
 				""
-				"Note: the indexer does not use power, it only needs a &#D2691Eredstone signal&r to be applied."
+				"  Note: the indexer does not use          power, it only needs a &#D2691Eredstone signal&r  to be applied."
 			]
 			id: "2EF32806E1739F1A"
 			rewards: [
@@ -2593,7 +2593,7 @@
 				"2B23AD177049428C"
 				"74CED089C7C570EE"
 			]
-			description: ["Breed a crystalline bee with an ashy mining bee."]
+			description: ["  Breed a crystalline bee with an ashy   mining bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2639,7 +2639,7 @@
 				"612DB4407ADEEDEE"
 				"55D2A095F821FACF"
 			]
-			description: ["Breed a magmatic bee with a leaf cutter bee."]
+			description: ["  Breed a magmatic bee with a leaf        cutter bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2685,7 +2685,7 @@
 				"612DB4407ADEEDEE"
 				"4EA048C35F3DDF3D"
 			]
-			description: ["Breed a magmatic bee with a sweat bee."]
+			description: ["  Breed a magmatic bee with a sweat      bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2731,7 +2731,7 @@
 				"683D320D0550F5D2"
 				"612DB4407ADEEDEE"
 			]
-			description: ["Breed a blazing bee with a nomad bee."]
+			description: ["  Breed a blazing bee with a nomad bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2774,7 +2774,7 @@
 		}
 		{
 			dependencies: ["303E5FEBA512547F"]
-			description: ["Feed TNT to a vanilla bee to convert it."]
+			description: ["  Feed TNT to a vanilla bee to convert   it."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -2819,7 +2819,7 @@
 				"52AE104474C902F2"
 				"47F1D527F27D77EF"
 			]
-			description: ["Breed a reed bee with a resin bee."]
+			description: ["  Breed a reed bee with a resin bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2862,7 +2862,7 @@
 		}
 		{
 			dependencies: ["0155DD9149A294EF"]
-			description: ["Feed sculk to a digger bee."]
+			description: ["  Feed sculk to a digger bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2908,7 +2908,7 @@
 				"612DB4407ADEEDEE"
 				"45A07D6919957C62"
 			]
-			description: ["Breed a magmatic bee with a coal bee."]
+			description: ["  Breed a magmatic bee with a coal bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2954,7 +2954,7 @@
 				"25DD01A25EBDFE0A"
 				"1B0961593E2BB06A"
 			]
-			description: ["Breed a chocolate mining bee with a glowing bee. This bee emits a redstone signal so be careful, it can open doors."]
+			description: ["  Breed a chocolate mining bee with a     glowing bee. This bee emits a redstone  signal so be careful, it can open         doors."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -2999,7 +2999,7 @@
 				"3801CE956A146F48"
 				"62BB492DEB62CA4A"
 			]
-			description: ["Breed a redstone and a blue banded bee."]
+			description: ["  Breed a redstone and a blue banded   bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3045,7 +3045,7 @@
 				"4EA048C35F3DDF3D"
 				"746503BBE1C24E6E"
 			]
-			description: ["Breed a sweat bee with an iron bee."]
+			description: ["  Breed a sweat bee with an iron bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3091,7 +3091,7 @@
 				"7305ABB0B70273EC"
 				"1FA0FF08715F6E77"
 			]
-			description: ["Breed a copper bee with a zinc bee."]
+			description: ["  Breed a copper bee with a zinc bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3137,7 +3137,7 @@
 				"2B23AD177049428C"
 				"74CED089C7C570EE"
 			]
-			description: ["Breed a crystalline bee with an ashy mining bee."]
+			description: ["  Breed a crystalline bee with an ashy   mining bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3180,7 +3180,7 @@
 		}
 		{
 			dependencies: ["4EA048C35F3DDF3D"]
-			description: ["Feed some snow or ice to a sweat bee."]
+			description: ["  Feed some snow or ice to a sweat       bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3243,7 +3243,7 @@
 				"642F8A704D9EBFA7"
 				"74CED089C7C570EE"
 			]
-			description: ["Advanced hives placed in dark, unlit areas, will naturally spawn both &#D2691Ezombees&r and &#D2691Eskeletal&r bees. While you will most likely want a &ofew&r skeletal bees at some point, the undead bees are typically a nuisance in general more than anything as they spawn and take up the space of the bees you do want to access the hives. Keeping your bee keeping area well lit is a very easy way to solve any problems caused by them, if they are spawning in an area you do not want them in, this is because at least 1 of the hives in the area is &#D2691Enot lit well enough&r."]
+			description: ["  Advanced hives placed in dark, unlit    areas, will naturally spawn both          &#D2691Ezombees&r and &#D2691Eskeletal&r bees. While you    will most likely want a &ofew&r skeletal        bees at some point, the undead bees    are typically a nuisance in general      more than anything as they spawn and  take up the space of the bees you do  want to access the hives. Keeping        your bee keeping area well lit is a       very easy way to solve any problems   caused by them, if they are spawning    in an area you do not want them in,      this is because at least 1 of the hives  in the area is &#D2691Enot lit well enough&r."]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: false
@@ -3277,7 +3277,7 @@
 		}
 		{
 			dependencies: ["303E5FEBA512547F"]
-			description: ["Zombees will spawn and take space in any advanced hive placed in too dark of an area."]
+			description: ["  Zombees will spawn and take space in   any advanced hive placed in too dark   of an area."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -3319,7 +3319,7 @@
 		}
 		{
 			dependencies: ["303E5FEBA512547F"]
-			description: ["If you need them for converting you can easily obtain skeletal bees by placing an advanced bee hive in the dark and waiting. Light the area around the hive sufficiently to stop them from spawning."]
+			description: ["  If you need them for converting you   can easily obtain skeletal bees by       placing an advanced bee hive in the     dark and waiting. Light the area           around the hive sufficiently to stop     them from spawning."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -3361,7 +3361,7 @@
 		}
 		{
 			dependencies: ["7551EF4FE53DDAC8"]
-			description: ["Feed a wither rose to a skeletal bee."]
+			description: ["  Feed a wither rose to a skeletal bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -3403,7 +3403,7 @@
 		}
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
-			description: ["Obtain a brass bee spawn egg and use it to craft a philolite bee spawn egg."]
+			description: ["  Obtain a brass bee spawn egg and      use it to craft a philolite bee spawn     egg."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3445,7 +3445,7 @@
 		}
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
-			description: ["Obtain a brass bee spawn egg and use it to craft a luminarchy bee spawn egg."]
+			description: ["  Obtain a brass bee spawn egg and       use it to craft a luminarchy bee spawn  egg."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3490,7 +3490,7 @@
 				"3801CE956A146F48"
 				"498613C3ED5FE24A"
 			]
-			description: ["Obtain a redstone bee spawn egg, and use it as a flower in a feeding slab for an obsidian bee, the obsidian bee will eventually convert the egg into a flux dust bee spawn egg."]
+			description: ["  Obtain a redstone bee spawn egg,       and use it as a flower in a feeding       slab for an obsidian bee, the obsidian   bee will eventually convert the egg      into a flux dust bee spawn egg."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3535,7 +3535,7 @@
 				"52AE104474C902F2"
 				"683D320D0550F5D2"
 			]
-			description: ["Breed a reed bee with a nomad bee."]
+			description: ["  Breed a reed bee with a nomad bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3582,7 +3582,7 @@
 				"7551EF4FE53DDAC8"
 				"035E5B628D21FA20"
 			]
-			description: ["Breed a ghostly bee with another type of undead bee."]
+			description: ["  Breed a ghostly bee with another       type of undead bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3625,7 +3625,7 @@
 		}
 		{
 			dependencies: ["220D6A97C5D12DC6"]
-			description: ["Feed a block of rose quartz to a diamond bee."]
+			description: ["  Feed a block of rose quartz to a          diamond bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3670,7 +3670,7 @@
 				"6BE0F4935A898C44"
 				"2B23AD177049428C"
 			]
-			description: ["Breed an ender bee with a crystalline bee."]
+			description: ["  Breed an ender bee with a                crystalline bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3712,7 +3712,7 @@
 		}
 		{
 			dependencies: ["303E5FEBA512547F"]
-			description: ["Place an amethyst bee spawn egg into an enchanting apparatus surrounded by source gems."]
+			description: ["  Place an amethyst bee spawn egg into  an enchanting apparatus surrounded   by source gems."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3760,7 +3760,7 @@
 		}
 		{
 			dependencies: ["3D80E0453827CB27"]
-			description: ["Use a piece of popped chorus fruit on an end stone nest to spawn an ender bee if you cannot find one."]
+			description: ["  Use a piece of popped chorus fruit    on an end stone nest to spawn an       ender bee if you cannot find one."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -3801,7 +3801,7 @@
 		}
 		{
 			dependencies: ["4AAAC0241B45AA06"]
-			description: ["Feed a fluix pearl to a spatial bee."]
+			description: ["  Feed a fluix pearl to a spatial bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -3843,7 +3843,7 @@
 		}
 		{
 			dependencies: ["220D6A97C5D12DC6"]
-			description: ["Feed a block of apatite to a diamond bee."]
+			description: ["  Feed a block of apatite to a diamond    bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -3888,7 +3888,7 @@
 				"7305ABB0B70273EC"
 				"20DF26B506B5FC96"
 			]
-			description: ["Breed a copper bee and a tin bee."]
+			description: ["  Breed a copper bee and a tin bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3934,7 +3934,7 @@
 				"746503BBE1C24E6E"
 				"0BCA00285412FC60"
 			]
-			description: ["Breed an iron bee with a mason bee."]
+			description: ["  Breed an iron bee with a mason bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -3980,7 +3980,7 @@
 				"746503BBE1C24E6E"
 				"0BCA00285412FC60"
 			]
-			description: ["Breed an iron bee with a mason bee."]
+			description: ["  Breed an iron bee with a mason bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4026,7 +4026,7 @@
 				"6BE0F4935A898C44"
 				"1E8D1F69C6E842E1"
 			]
-			description: ["Breed an ender bee and a gold bee."]
+			description: ["  Breed an ender bee and a gold bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4071,7 +4071,7 @@
 				"746503BBE1C24E6E"
 				"62BB492DEB62CA4A"
 			]
-			description: ["Breed an iron bee and a blue banded bee."]
+			description: ["  Breed an iron bee and a blue banded  bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4117,7 +4117,7 @@
 				"4515B2F4675BE4FB"
 				"746503BBE1C24E6E"
 			]
-			description: ["Breed a creebee and an iron bee."]
+			description: ["  Breed a creebee and an iron bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4163,7 +4163,7 @@
 				"2B23AD177049428C"
 				"74CED089C7C570EE"
 			]
-			description: ["Breed a crystalline bee with an ashy mining bee."]
+			description: ["  Breed a crystalline bee with an ashy   mining bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4209,7 +4209,7 @@
 				"746503BBE1C24E6E"
 				"4EA048C35F3DDF3D"
 			]
-			description: ["Breed and iron bee and a sweat bee."]
+			description: ["  Breed and iron bee and a sweat bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4255,7 +4255,7 @@
 				"60D14B97285106EB"
 				"746503BBE1C24E6E"
 			]
-			description: ["Breed a nickel and an iron bee."]
+			description: ["  Breed a nickel and an iron bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -4300,7 +4300,7 @@
 				"60D14B97285106EB"
 				"7305ABB0B70273EC"
 			]
-			description: ["Breed a nickel and a copper bee."]
+			description: ["  Breed a nickel and a copper bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -4345,7 +4345,7 @@
 				"1E8D1F69C6E842E1"
 				"10C6AA32FD92C5E6"
 			]
-			description: ["Breed a gold bee and a silver bee."]
+			description: ["  Breed a gold bee and a silver bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4391,7 +4391,7 @@
 				"10C6AA32FD92C5E6"
 				"20DF26B506B5FC96"
 			]
-			description: ["Breed a silver bee and a tin bee."]
+			description: ["  Breed a silver bee and a tin bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4437,7 +4437,7 @@
 				"10C6AA32FD92C5E6"
 				"7305ABB0B70273EC"
 			]
-			description: ["Breed a copper bee and a silver bee."]
+			description: [" Breed a copper bee and a silver bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4484,7 +4484,7 @@
 				"220D6A97C5D12DC6"
 				"1A928D3BFC41C8E9"
 			]
-			description: ["Breed a lead bee with either a platinum bee or a diamond bee."]
+			description: ["  Breed a lead bee with either a           platinum bee or a diamond bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -4526,7 +4526,7 @@
 		}
 		{
 			dependencies: ["1E8D1F69C6E842E1"]
-			description: ["Feed a block of copper to a gold bee."]
+			description: ["  Feed a block of copper to a gold       bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4572,7 +4572,7 @@
 				"746503BBE1C24E6E"
 				"45A07D6919957C62"
 			]
-			description: ["Breed an iron bee and a coal bee."]
+			description: ["  Breed an iron bee and a coal bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4615,7 +4615,7 @@
 		}
 		{
 			dependencies: ["4AAAC0241B45AA06"]
-			description: ["Obtain a spatial bee spawn egg, then throw it and a skysteel block into a lava source block."]
+			description: ["  Obtain a spatial bee spawn egg, then    throw it and a skysteel block into a      lava source block."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4657,7 +4657,7 @@
 		}
 		{
 			dependencies: ["303E5FEBA512547F"]
-			description: ["Trade a manasteel bee spawn egg for an elementium bee spawn egg using a portal to alfheim."]
+			description: ["  Trade a manasteel bee spawn egg for   an elementium bee spawn egg using a      portal to alfheim."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -4698,7 +4698,7 @@
 		}
 		{
 			dependencies: ["6FDEB4E9AC050F9F"]
-			description: ["Obtain a manasteel bee spawn egg, then combine it with a mana pearl and mana diamond on a terrestrial agglomeration plate."]
+			description: ["  Obtain a manasteel bee spawn egg,       then combine it with a mana pearl          and mana diamond on a terrestrial        agglomeration plate."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -4745,7 +4745,7 @@
 		}
 		{
 			dependencies: ["746503BBE1C24E6E"]
-			description: ["Obtain an iron bee spawn egg, then throw it into a mana pool."]
+			description: ["  Obtain an iron bee spawn egg, then     throw it into a mana pool."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -4790,7 +4790,7 @@
 				"09625551CD317B28"
 				"0E890DBF19049A6D"
 			]
-			description: ["First, obtain both an ancient bee spawn egg and an apatite bee spawn egg. Next craft them together along with 3 bottles of dragons breathe."]
+			description: ["  First, obtain both an ancient bee spawn   egg and an apatite bee spawn egg. Next    craft them together along with 3 bottles   of dragons breathe."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4837,7 +4837,7 @@
 		}
 		{
 			dependencies: ["220D6A97C5D12DC6"]
-			description: ["Feed a block of netherite to a diamond bee."]
+			description: ["  Feed a block of netherite to a           diamond bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -4882,7 +4882,7 @@
 				"11F38F627F49DCAE"
 				"6BE0F4935A898C44"
 			]
-			description: ["Breed a lapis bee with an ender bee"]
+			description: ["  Breed a lapis bee with an ender bee"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4928,7 +4928,7 @@
 				"220D6A97C5D12DC6"
 				"20635A3C82EA9451"
 			]
-			description: ["Breed a diamond bee with a slimy bee."]
+			description: ["  Breed a diamond bee with a slimy bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -4974,7 +4974,7 @@
 				"74BB924138418DD3"
 				"60D14B97285106EB"
 			]
-			description: ["Breed a prismarine bee with a nickel bee."]
+			description: ["  Breed a prismarine bee with a nickel    bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: false
@@ -5020,7 +5020,7 @@
 				"6BE0F4935A898C44"
 				"1E8D1F69C6E842E1"
 			]
-			description: ["Obtain the spawn egg of an amethyst, gold and ender bee then craft them all together."]
+			description: ["  Obtain the spawn egg of an amethyst,   gold and ender bee then craft them     all together."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5071,7 +5071,7 @@
 				"0184227CE952621D"
 				"6599AFF4623F28C0"
 			]
-			description: ["Obtain an ancient bee spawn egg and a quarry bee spawn egg then combine them together with a nether star in a crafting table."]
+			description: ["  Obtain an ancient bee spawn egg and   a quarry bee spawn egg then combine  them together with a nether star in a   crafting table."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: false
@@ -5116,7 +5116,7 @@
 				"19CC579914069E61"
 				"25DD01A25EBDFE0A"
 			]
-			description: ["Breed an osmium bee with a glowing bee."]
+			description: ["  Breed an osmium bee with a glowing bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5170,7 +5170,7 @@
 				"19CC579914069E61"
 				"498613C3ED5FE24A"
 			]
-			description: ["Breed an osmium bee with an obsidian bee."]
+			description: ["  Breed an osmium bee with an obsidian bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5213,7 +5213,7 @@
 		}
 		{
 			dependencies: ["683D320D0550F5D2"]
-			description: ["Obtain a nomad bee spawn egg and place it on a tier 2 blood altar."]
+			description: ["  Obtain a nomad bee spawn egg and place   it on a tier 2 blood altar."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5255,7 +5255,7 @@
 		}
 		{
 			dependencies: ["0DDC127F1CB70026"]
-			description: ["Feed a polonium pellet to a radioactive bee."]
+			description: ["  Feed a polonium pellet to a radioactive bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5309,7 +5309,7 @@
 		}
 		{
 			dependencies: ["20635A3C82EA9451"]
-			description: ["Feed pink slime to a slimy bee."]
+			description: ["  Feed pink slime to a slimy bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5357,7 +5357,7 @@
 		}
 		{
 			dependencies: ["226D9E7D5808E82A"]
-			description: ["Combine: 4 runes of mana, 1 rune of greed, 1 pure bee spawn egg and 1 livingrock block in a runic altar."]
+			description: ["  Combine: 4 runes of mana, 1 rune of    greed, 1 pure bee spawn egg and 1     livingrock block in a runic altar."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5404,7 +5404,7 @@
 		}
 		{
 			dependencies: ["303E5FEBA512547F"]
-			description: ["Combine: 3 mystical flowers, 1 bucket of water, 1 bee spawn egg and 1 honey treat in a petal apothecary."]
+			description: ["  Combine: 3 mystical flowers, 1 bucket   of water, 1 bee spawn egg and 1         honey treat in a petal apothecary."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5463,7 +5463,7 @@
 				"47F1D527F27D77EF"
 				"73592FC0A4AB0C92"
 			]
-			description: ["Breed a resin bee with a lumber bee."]
+			description: ["  Breed a resin bee with a lumber bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: false
@@ -5504,11 +5504,7 @@
 			y: 22.5d
 		}
 		{
-			dependencies: [
-				"746503BBE1C24E6E"
-				"1ED89471EB68D98D"
-			]
-			description: ["Convert an Anthralite Bee into and Osmium Bee by feeding it a block of Osmium."]
+			description: ["  Convert an Anthralite Bee into and      Osmium Bee by feeding it a block of      Osmium."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5551,7 +5547,7 @@
 		}
 		{
 			dependencies: ["47F1D527F27D77EF"]
-			description: ["If you're reading this, a method for obtaining amber bee spawn eggs (other than finding them in ruins as usual) has not been implemented yet, this means &#D2691Eresin bees have been enabled with the ability to encase mobs in resin&r (amber) still and you can use those for obtaining your encased mobs."]
+			description: ["  If you're reading this, a method for    obtaining amber bee spawn eggs          (other than finding them in ruins as      usual) has not been implemented yet,    this means &#D2691Eresin bees have been         enabled with the ability to encase        mobs in resin&r (amber) still and you       can use those for obtaining your        encased mobs."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5598,7 +5594,7 @@
 		}
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
-			description: ["Obtain a brass bee spawn egg, combine with 4 malachite blocks, 2 end stone blocks and 2 palerock blocks in a mechanical crafting grid."]
+			description: ["  Obtain a brass bee spawn egg,           combine with 4 malachite blocks, 2 end   stone blocks and 2 palerock blocks in  a mechanical crafting grid."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5651,7 +5647,7 @@
 		}
 		{
 			dependencies: ["05B51A9CB2D9EE54"]
-			description: ["Obtain a brass bee spawn egg, combine with 4 bismuth blocks, 2 end stone blocks and 2 palerock blocks in a mechanical crafting grid."]
+			description: ["  Obtain a brass bee spawn egg,           combine with 4 bismuth blocks, 2 end     stone blocks and 2 palerock blocks in  a mechanical crafting grid."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5704,7 +5700,7 @@
 		}
 		{
 			dependencies: ["1BEE6E1D7AF0105F"]
-			description: ["Feed an irradium bar to a bismuth bee."]
+			description: ["  Feed an irradium bar to a bismuth       bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5758,7 +5754,7 @@
 		}
 		{
 			dependencies: ["34C0A051E3FA567D"]
-			description: ["Feed an ether gas bucket to a pink slimy bee."]
+			description: ["  Feed an ether gas bucket to a pink      slimy bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5809,7 +5805,7 @@
 				"2B23AD177049428C"
 				"74CED089C7C570EE"
 			]
-			description: ["Breed a crystalline bee with an ashy mining bee."]
+			description: ["  Breed a crystalline bee with an ashy   mining bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -5853,9 +5849,9 @@
 		{
 			dependencies: ["308E90210D36D709"]
 			description: [
-				"Obtain a regenerative bee spawn egg and use a hellfire forge to forge a hellfire bee spawn egg. "
+				"  Obtain a regenerative bee spawn egg  and use a hellfire forge to forge a     hellfire bee spawn egg. "
 				""
-				"(JEI will help a lot on this one.)"
+				"  (JEI will help a lot on this one.)"
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -5907,7 +5903,7 @@
 				"45A07D6919957C62"
 				"4515B2F4675BE4FB"
 			]
-			description: ["Breed a coal bee with a creebee,"]
+			description: ["  Breed a coal bee with a creebee,"]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			icon: {
@@ -5952,15 +5948,15 @@
 				"58BCD239183B28AD"
 			]
 			description: [
-				"To build a genetics set up you need to:"
+				"  To build a genetics set up you need    to:"
 				""
-				"Place a &#D2691Episton&r ,&nfacing down&r, above a bottler supplied with bottles. With a 1 block gap in between."
+				"  Place a &#D2691Episton&r ,&nfacing down&r, above a    bottler supplied with bottles. With a 1    block gap in between."
 				""
-				"Use the piston to squish the bee and obtain its &#D2691Ematerials&r."
+				"  Use the piston to squish the bee and   obtain its &#D2691Ematerials&r."
 				""
-				"Feed the squashed bee materials into a centrifuge to separate the genes."
+				"  Feed the squashed bee materials into  a centrifuge to separate the genes."
 				""
-				"Take the genes from the centrifuge and insert them into a gene indexer to be combined into 100% genes, and apply a &#D2691Eredstone signal&r."
+				"  Take the genes from the centrifuge    and insert them into a gene indexer to  be combined into 100% genes, and        apply a &#D2691Eredstone signal&r."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -5993,9 +5989,9 @@
 		{
 			dependencies: ["5EAC29DB29A4950E"]
 			description: [
-				"The bottler can be placed next to a centrifuge &oOR&r have &#D2691Eliquid honey&r piped into it directly and if given a supply of empty bottles, will bottle honey for you automatically."
+				"  The bottler can be placed next to a    centrifuge &oOR&r have &#D2691Eliquid honey&r piped   into it directly and if given a supply     of empty bottles, will bottle honey for   you automatically."
 				""
-				"Once you have a genetics set up in which a piston is placed above the bottler, it can also be used to squash bees and collect their genetic material, provided it has bottles to contain them. This \"&#D2691Ebee material&r\" must then be &#D2691Ecentrifuged&r to separate the respective &#D2691Egenes&r."
+				"  Once you have a genetics set up in     which a piston is placed above the       bottler, it can also be used to squash  bees and collect their genetic            material, provided it has bottles to       contain them. This \"&#D2691Ebee material&r\" must    then be &#D2691Ecentrifuged&r to separate the    respective &#D2691Egenes&r."
 			]
 			id: "1F2742803A0D209E"
 			rewards: [
@@ -6024,9 +6020,9 @@
 		{
 			dependencies: ["0B7B4C27767760A1"]
 			description: [
-				"If you're going to be taking the path of the apiarist, which is always a wise endeavor, you're also going to have access to &#D2691Esupplemental power&r via &#D2691Ehoney generator&r. "
+				"  If you're going to be taking the path   of the apiarist, which is always a wise   endeavor, you're also going to have     access to &#D2691Esupplemental power&r via        &#D2691Ehoney generator&r. "
 				""
-				"&#D2691EPower constraints&r can be a very limiting factor, especially in the early game. If this is an issue you are facing or maybe you just want more power for the future then producing honey in excess and converting it to energy is a wise decision, at least until you have better options for power generation at your disposal."
+				"  &#D2691EPower constraints&r can be a very       limiting factor, especially in the early    game. If this is an issue you are          facing or maybe you just want more     power for the future then producing   honey in excess and converting it to    energy is a wise decision, at least        until you have better options for        power generation at your disposal."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -6057,7 +6053,7 @@
 		}
 		{
 			dependencies: ["1CC5B5C8271FEC0E"]
-			description: ["The home of the &#D2691Eslimy&r bee."]
+			description: ["  The home of the &#D2691Eslimy&r bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "5AF7AD2AFE15D5FD"
@@ -6086,7 +6082,7 @@
 		}
 		{
 			dependencies: ["0E890DBF19049A6D"]
-			description: ["A specially made home for draconic bees to harvest dragons breath."]
+			description: ["  A specially made home for draconic     bees to harvest dragons breath."]
 			id: "18E742B005126239"
 			rewards: [
 				{
@@ -6121,7 +6117,7 @@
 				"44E384D32758F281"
 				"11F38F627F49DCAE"
 			]
-			description: ["Breed an emerald bee with a lapis bee."]
+			description: ["  Breed an emerald bee with a lapis bee."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			hide_until_deps_visible: true
@@ -6164,10 +6160,10 @@
 		{
 			dependencies: ["0BA2EB1462A10A39"]
 			description: [
-				"When filled with cages, the catcher will automatically catch any bees that fly over it or within range when upgraded, "
+				"  When filled with cages, the catcher      will automatically catch any bees that   fly over it or within range when          upgraded."
 				""
 				""
-				"Tip: if you don't use range upgrades, it isn't even worth using the catcher at all. You may as well put your cages in a chest and wait for the chest to catch bees (which isn't going to happen)."
+				"  Tip: if you don't use range upgrades,   it isn't even worth using the catcher    at all. You may as well put your cages  in a chest and wait for the chest to     catch bees (which isn't going to           happen)."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -6199,9 +6195,9 @@
 		{
 			dependencies: ["0B7B4C27767760A1"]
 			description: [
-				"The feeding slab is a great way to provide a \"feeding point\" for multiple bees to feed different flowering items from a &#D2691Esingle block space&r, and are very useful in conjunction with &#D2691Esimulation&r upgrades. A single slab can hold up to 3 items, allowing different types of bees to share the same slab. They can also be stacked, effectively doubling this. Lumber and quarry bees will eat from the slab and produce from the items provided in the slab at random if there are multiple outputs possible."
+				"  The feeding slab is a great way to      provide a \"feeding point\" for multiple    bees to feed different flowering items  from a &#D2691Esingle block space&r, and are      very useful in conjunction with           &#D2691Esimulation&r upgrades. A single slab can   hold up to 3 items, allowing different     types of bees to share the same slab.  They can also be stacked, effectively   doubling this. Lumber and quarry bees  will eat from the slab and produce       from the items provided in the slab at   random if there are multiple outputs     possible."
 				""
-				"In short, they allow you to place 6 flowers or \"flowering items\" in the same spot."
+				"  In short, they allow you to place 6      flowers or \"flowering items\" in the       same spot."
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true

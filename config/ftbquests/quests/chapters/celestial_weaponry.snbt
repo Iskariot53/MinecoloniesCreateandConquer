@@ -494,7 +494,7 @@
 	quests: [
 		{
 			dependencies: ["5408F21008F2B15F"]
-			description: ["The &#D2691E&lStarlit Factory&r&r is crafted in a &#D2691EMechanical Crafter&r and used to forge all types of &#D2691E&lCelestial Weapons&r&r. It requires fuel to operate, such as &#D2691EAmethyst Shards&r, &#D2691ECelestial Cores&r or &#D2691EHeated Celestial Cores&r."]
+			description: ["  The &#D2691E&lStarlit Factory&r&r is crafted in     a &#D2691EMechanical Crafter&r and used to        forge all types of &#D2691E&lCelestial           Weapons&r&r. It requires fuel to             operate, such as &#D2691EAmethyst Shards&r,      &#D2691ECelestial Cores&r or &#D2691EHeated Celestial      Cores&r."]
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -544,9 +544,9 @@
 				"2432A9D7BE9F8BB4"
 			]
 			description: [
-				"Looking for some of the coolest weapons and armor sets in the pack? Well... you've come to the right place!"
+				"  Looking for some of the coolest weapons   and armor sets in the pack? Well... you've    come to the right place!"
 				""
-				"&l&#D2691ECelestisynth&r adds a ton of &#D2691Ecelestial weapons&r with stunning visuals for enhanced gameplay, all forged to perfection and boasting mind-blowing powers, complete with customized player animations! Whether you prefer &#D2691Eswift and agile combat&r or &#D2691Epowerful, heavy-hitting strikes&r, there's something for every playstyle."
+				"  &l&#D2691ECelestisynth&r adds a ton of &#D2691Ecelestial       weapons&r with stunning visuals for             enhanced gameplay, all forged to              perfection and boasting mind-blowing         powers, complete with customized player     animations! Whether you prefer &#D2691Eswift and    agile combat&r or &#D2691Epowerful, heavy-hitting       strikes&r, there's something for every          playstyle."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -593,13 +593,13 @@
 		{
 			dependencies: ["27871561BE483CFC"]
 			description: [
-				"To dive into the mod, you first need to gather the three &#D2691E&lprimary&r&r materials of &l&#D2691ECelestisynth&r&r:"
+				"  To dive into the mod, you first need to gather the three     &#D2691E&lprimary&r&r materials of &l&#D2691ECelestisynth&r&r:"
 				""
-				"&#D2691E&lLunar Stone:&r&r Found deep within &#D2691Ecaves&r in large water-filled deposits, often alongside sea lanterns and lapis lazuli ore."
+				"  &#D2691E&lLunar Stone:&r&r Found deep within &#D2691Ecaves&r in large              water-filled deposits, often alongside sea lanterns and      lapis lazuli ore."
 				""
-				"&#D2691E&lZephyr Deposit:&r&r Located high in the &#D2691Emountains&r, typically at &#D2691EY=130&r or higher."
+				"  &#D2691E&lZephyr Deposit:&r&r Located high in the &#D2691Emountains&r, typically  at &#D2691EY=130&r or higher."
 				""
-				"&#D2691E&lWintereis:&r&r Found deep in &#D2691Ecaves within cold biomes&r, typically below &#D2691EY=60&r. Requires silk touch to obtain the full block."
+				"  &#D2691E&lWintereis:&r&r Found deep in &#D2691Ecaves within cold biomes&r,           typically below &#D2691EY=60&r. Requires silk touch to obtain the full   block."
 			]
 			hide_until_deps_complete: false
 			id: "189FF174FC1C2473"
@@ -884,7 +884,7 @@
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
-			description: ["A laser-shooting futuristic longbow that can pierce through targets. Used for damage from long distances."]
+			description: ["  A laser-shooting futuristic longbow     that can pierce through targets. Used  for damage from long distances."]
 			hide_until_deps_visible: true
 			icon_scale: 2.0d
 			id: "2258C0AF2913A3F5"
@@ -935,7 +935,7 @@
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
-			description: ["A shimmering scythe that is seemingly made of ice. Used for area control and balanced damage."]
+			description: ["  A shimmering scythe that is seemingly   made of ice. Used for area control      and balanced damage."]
 			hide_until_deps_visible: true
 			icon_scale: 1.8d
 			id: "38B303D486C6CD35"
@@ -983,7 +983,7 @@
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
-			description: ["A very light blade with a pointy tip adorned with plants and flowers. Used for area control and continuous damage."]
+			description: ["  A very light blade with a pointy tip      adorned with plants and flowers. Used  for area control and continuous         damage."]
 			hide_until_deps_visible: true
 			icon_scale: 1.8d
 			id: "07EBC617228EB7C2"
@@ -1031,7 +1031,7 @@
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
-			description: ["An ominous heavy axe filled with the eyes of ender. Used for massive burst damage."]
+			description: ["  An ominous heavy axe filled with the    eyes of ender. Used for massive         burst damage."]
 			hide_until_deps_visible: true
 			icon_scale: 1.5d
 			id: "50BD0780ABCBCEFC"
@@ -1080,7 +1080,7 @@
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
-			description: ["A sharp, tall, and slim sword that can be used for movement and burst damage."]
+			description: ["  A sharp, tall, and slim sword that can   be used for movement and burst         damage."]
 			hide_until_deps_visible: true
 			icon_scale: 1.8d
 			id: "0D5BBEC15DB5A793"
@@ -1129,7 +1129,7 @@
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
-			description: ["A shiny sickle that can be used for defensive buffs and continuous damage."]
+			description: ["  A shiny sickle that can be used for     defensive buffs and continuous          damage."]
 			hide_until_deps_visible: true
 			icon_scale: 1.8d
 			id: "76965FFDA13F0C33"
@@ -1177,7 +1177,7 @@
 		}
 		{
 			dependencies: ["6921EAADE3E74049"]
-			description: ["A flaming sword that can be used for movement and continuous damage."]
+			description: ["  A flaming sword that can be used       for movement and continuous damage."]
 			hide_until_deps_visible: true
 			icon_scale: 1.8d
 			id: "3BFDBA0115E6288E"

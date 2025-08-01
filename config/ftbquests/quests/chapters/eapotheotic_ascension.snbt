@@ -26,7 +26,7 @@
 	quests: [
 		{
 			dependencies: ["19C32F0E30411935"]
-			description: ["The first step in acquiring and adding special affixes to your gear is collecting &#D2691Egems&r and &#D2691Ejewels&r. You want to collect and hold onto all of them that you can (this also applies to affixed gear but more on that later)."]
+			description: ["  The first step in acquiring and adding  special affixes to your gear is           collecting &#D2691Egems&r and &#D2691Ejewels&r. You want    to collect and hold onto all of them      that you can (this also applies to        affixed gear but more on that later)."]
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
@@ -80,13 +80,13 @@
 		{
 			dependencies: ["375EB6ADD26E0668"]
 			description: [
-				"Gem dust can be obtained a few different ways, bare in mind that the gem will be destroyed in the process and as such it's only advisable to crush low-tier gems or gems you have no need for or interest in."
+				"  Gem dust can be obtained a few          different ways, bare in mind that the    gem will be destroyed in the process    and as such it's only advisable to        crush low-tier gems or gems you have  no need for or interest in."
 				""
-				"The first method available to you will be crushing them with a &#D2691Efalling anvil&r. Simply throw the gems to be crushed on the ground and drop an anvil on them. Easy!"
+				"  The first method available to you will   be crushing them with a &#D2691Efalling anvil&r.     Simply throw the gems to be crushed    on the ground and drop an anvil on     them. Easy!"
 				""
-				"Next will be the&#D2691E salvaging table&r. Which requires gem dust to craft."
+				"  Next will be the&#D2691E salvaging table&r. Which  requires gem dust to craft."
 				""
-				"Lastly, the ability to crush and salvage gems, jewels and affixed armor to provide materials is one of the many integrations that has been provided to &#D2691Ecrushing wheels&r."
+				"  Lastly, the ability to crush and          salvage gems, jewels and affixed        armor to provide materials is one of    the many integrations that has been     provided to &#D2691Ecrushing wheels&r."
 			]
 			id: "5DE31936F9212582"
 			rewards: [
@@ -132,11 +132,11 @@
 		{
 			dependencies: ["375EB6ADD26E0668"]
 			description: [
-				"&#D2691EAffixes are modifiers&r added to armor and weapons that add extra stats and effects beyond what the item would normally provide, pretty cool huh?"
+				"  &#D2691EAffixes are modifiers&r added to armor       and weapons that add extra stats and      effects beyond what the item would           normally provide, pretty cool huh?"
 				""
-				"Affixes come in many rarities and this will be discernible by the &#D2691Ecolor&r of the name of the affixed item."
+				"  Affixes come in many rarities and this will  be discernible by the &#D2691Ecolor&r of the name     of the affixed item."
 				""
-				"Affixes can provide anything from added stats to enchantability bonuses and will scale with the level of rarity. There will always be a threshold for any given rarity. Meaning that 2 items with the exact same affix will not necessarily give the exact same stat boost to the stat, it is entirely possible to roll higher or lower within the threshold of stats the affix level can provide."
+				"  Affixes can provide anything from added  stats to enchantability bonuses and will     scale with the level of rarity. There will     always be a threshold for any given         rarity. Meaning that 2 items with the exact  same affix will not necessarily give the      exact same stat boost to the stat, it is      entirely possible to roll higher or lower    within the threshold of stats the affix       level can provide."
 			]
 			id: "1CDD59D36902239A"
 			rewards: [
@@ -668,9 +668,9 @@
 		{
 			dependencies: ["5DE31936F9212582"]
 			description: [
-				"Once you have some gem dust you can craft a &#D2691Esalvaging table&r, used for &#D2691Ebreaking down gems and affixed items&r you don't want for materials that can be used to upgrade other gems and items you &odo&r want. Each tier of gem and affix provides it's own unique salvage material respective to it's rarity."
+				"  Once you have some gem dust you      can craft a &#D2691Esalvaging table&r, used for   &#D2691Ebreaking down gems and affixed items&r   you don't want for materials that can   be used to upgrade other gems and     items you &odo&r want. Each tier of gem      and affix provides it's own unique        salvage material respective to it's       rarity."
 				""
-				"&#D2691ENote&r: This functionality has been added to &#D2691Ecrushing wheels&r as well!"
+				"  &#D2691ENote&r: This functionality has been        added to &#D2691Ecrushing wheels&r as well!"
 			]
 			id: "346A2C276A013F70"
 			rewards: [
@@ -1092,7 +1092,7 @@
 		}
 		{
 			dependencies: ["346A2C276A013F70"]
-			description: ["Gem dust can also be used with deepslate to craft &#D2691Egem-fused slate&r. This will be required for crafting &#D2691Esigils&r which will be needed for everything from adding sockets to items to powering your reforging and augmenting tables, but more on that shortly."]
+			description: ["  Gem dust can also be used with          deepslate to craft &#D2691Egem-fused slate&r.     This will be required for crafting        &#D2691Esigils&r which will be needed for             everything from adding sockets to       items to powering your reforging and   augmenting tables, but more on that      shortly."]
 			id: "2B28CE322D0A3A22"
 			rewards: [
 				{
@@ -1135,7 +1135,7 @@
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&#D2691EThe Sigil of Withdrawal&r is used to reclaim gems from socketed items, leaving them intact."]
+			description: ["  &#D2691EThe Sigil of Withdrawal&r is used to        reclaim gems from socketed items,        leaving them intact."]
 			id: "4FC603F5C7AB8683"
 			rewards: [
 				{
@@ -1177,7 +1177,7 @@
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&#D2691ESigils of rebirth&r are &#D2691Erequired&r &#D2691Ewhenever reforging items&r in a reforging table, think of them as just another material cost so keep them at your disposal if you plan to do a lot of swapping and upgrading effects on your items."]
+			description: ["  &#D2691ESigils of rebirth&r are &#D2691Erequired&r            &#D2691Ewhenever reforging items&r in a             reforging table, think of them as just   another material cost so keep them at  your disposal if you plan to do a lot    of swapping and upgrading effects on  your items."]
 			id: "30D2BF1E74147B8F"
 			rewards: [
 				{
@@ -1219,7 +1219,7 @@
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&#D2691EThe Sigil of Unnaming&r is required if you would like to remove the affixed name of an item."]
+			description: ["  &#D2691EThe Sigil of Unnaming&r is required if      you would like to remove the affixed     name of an item."]
 			id: "5B44891D07A8DA06"
 			rewards: [
 				{
@@ -1261,7 +1261,7 @@
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&#D2691EThe Sigil of Enhancement&r i used to power the &#D2691Eaugmentation table&r."]
+			description: ["  &#D2691EThe Sigil of Enhancement&r is used to      power the &#D2691Eaugmentation table&r."]
 			id: "459ED7497729B8B5"
 			rewards: [
 				{
@@ -1303,7 +1303,7 @@
 		}
 		{
 			dependencies: ["2B28CE322D0A3A22"]
-			description: ["&#D2691EThe sigil of socketing&r allows you to add an additional socket to to an item"]
+			description: ["  &#D2691EThe sigil of socketing&r allows you to     add an additional socket to an item"]
 			id: "07B55E94184EA4B9"
 			rewards: [
 				{
@@ -1348,7 +1348,7 @@
 				"30D2BF1E74147B8F"
 				"5DE31936F9212582"
 			]
-			description: ["With &#D2691Esigils of rebirth&r, the simple reforging table can be used to reforge items and change affixes up to \"&#D2691Erare&r\", provided you have the material cost necessary."]
+			description: ["  With &#D2691Esigils of rebirth&r, the simple          reforging table can be used to           reforge items and change affixes up    to \"&#D2691Erare&r\", provided you have the         material cost necessary."]
 			id: "3C4B3305FA865E92"
 			rewards: [
 				{
@@ -1409,15 +1409,15 @@
 				"3C4B3305FA865E92"
 			]
 			description: [
-				"The standard reforging table, when provided with sigils of rebirth, can be used to reforge affixes up to &o&#D2691Emythic&r&r. This is a good place to focus on getting good affixes to start with in your later game gear progression, but no they are not the most powerful affixes, simply the most powerful ones ones &o&#D2691EEASILY OBTAINED&r&r. Higher tiers of more powerful affixes &ocan&r be found, and this is the only way to obtain them. "
+				"  The standard reforging table, when    provided with sigils of rebirth, can be   used to reforge affixes up to &o&#D2691Emythic&r&r.   This is a good place to focus on         getting good affixes to start with in     your later game gear progression,      but no they are not the most powerful  affixes, simply the most powerful ones  &o&#D2691EEASILY OBTAINED&r&r. Higher tiers of more  powerful affixes &ocan&r be found, and      this is the only way to obtain them. "
 				""
-				"This is to preserve the adventuring aspects of the game, the best gear shouldn't be obtained from feeding an endless supply of mats into a table anyways."
+				"  This is to preserve the adventuring    aspects of the game, the best gear      shouldn't be obtained from feeding an   endless supply of mats into a table      anyways."
 				""
-				"Tiers such as ancient and esoteric can roll the same affixes with higher values, but luck is required."
+				"  Tiers such as ancient and esoteric     can roll the same affixes with higher    values, but luck is required."
 				""
-				"&#D2691EFor those up for a challenge&r: There are 2 farms best for farming affixed items of high rarity and maximizing your chance at high rolls. "
+				"  &#D2691EFor those up for a challenge&r: There   are 2 farms best for farming affixed   items of high rarity and maximizing        your chance at high rolls. "
 				""
-				"&#D2691EWannabees&r farming amber encased treasure goblins is one of them, or for the more industrious, capturing a treasure goblin in a mob imprisonment tool and farming them via &#D2691Emob duplicator&r is an effective route too. This will provide you with an endless supply of gems and affixed items. &#D2691EBear in mind&r that treasure goblin loot tables are dependent on what dimension they are in when killed and not all dimensions are weighted equally."
+				"  &#D2691EWannabees&r farming amber encased      treasure goblins is one of them, or      for the more industrious, capturing a   treasure goblin in a mob imprisonment   tool and farming them via &#D2691Emob             duplicator&r is an effective route too.     This will provide you with an endless     supply of gems and affixed items.        &#D2691EBear in mind&r that treasure goblin loot   tables are dependent on what             dimension they are in when killed and    not all dimensions are weighted           equally."
 			]
 			id: "101605FF172FD328"
 			rewards: [
@@ -1464,7 +1464,7 @@
 				"1B866D84345402A7"
 				"101605FF172FD328"
 			]
-			description: ["When provided with &#D2691Esigils of enhancement&r, the augmenting table can be used to augment an &#D2691Eindividual affix,&r allowing you to leave desired traits intact while changing the less desirable ones."]
+			description: ["  When provided with &#D2691Esigils of               enhancement&r, the augmenting table can  be used to augment an &#D2691Eindividual affix,&r  allowing you to leave desired traits      intact while changing the less             desirable ones."]
 			id: "0F12DC69816D9D7F"
 			rewards: [
 				{
@@ -1552,7 +1552,7 @@
 		}
 		{
 			dependencies: ["375EB6ADD26E0668"]
-			description: ["Apotheosis mob spawners work a little bit differently here, some of the stats are capped lower than you are probably used to. Some of the required items to change stats and modifiers have been changed slightly as well. Luckily for you, through hard work and progress, you will eventually unlock multiple other means of meeting your mob farming needs."]
+			description: ["  Apotheosis mob spawners work a little  bit differently here, some of the stats  are capped lower than you are           probably used to. Some of the            required items to change stats and      modifiers have been changed slightly    as well. Luckily for you, through hard   work and progress, you will eventually  unlock multiple other means of meeting  your mob farming needs."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1828,7 +1828,7 @@
 		}
 		{
 			dependencies: ["617C3F408AAA1C1B"]
-			description: ["Hold nether quartz in your &#D2691Eoff hand&r slot, while using the required item on the spawner to revert any changes to settings needed."]
+			description: ["  Hold nether quartz in your &#D2691Eoff hand&r      slot, while using the required item on the  spawner to revert any changes to         settings needed."]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
@@ -1893,7 +1893,7 @@
 		}
 		{
 			dependencies: ["375EB6ADD26E0668"]
-			description: ["The best way to get starting with higher level &#D2691Eenchanting&r will be to gather the materials to make 16 &#D2691Esea shelf&r"]
+			description: ["  The best way to get starting with        higher level &#D2691Eenchanting&r will be to         gather the materials to make 16 &#D2691Esea     shelf&r"]
 			hide_dependency_lines: true
 			id: "6DD809C91507EE22"
 			rewards: [
@@ -1937,7 +1937,7 @@
 		}
 		{
 			dependencies: ["6DD809C91507EE22"]
-			description: ["Once you have 16 &#D2691Esea shelves&r, Place 15 around an &#D2691Eenchanting table&r and use it to &#D2691Einfuse&r the 16th."]
+			description: ["  Once you have 16 &#D2691Esea shelves&r, Place  15 around an &#D2691Eenchanting table&r and      use it to &#D2691Einfuse&r the 16th."]
 			id: "3C7B696ED6CF5C8B"
 			rewards: [
 				{
@@ -1991,7 +1991,7 @@
 		}
 		{
 			dependencies: ["3C7B696ED6CF5C8B"]
-			description: ["Craft 2 &#D2691EHeart-Forged Seashelf&r."]
+			description: ["  Craft 2 &#D2691EHeart-Forged Seashelf&r."]
 			id: "3F32DAF61A75DA63"
 			rewards: [
 				{
@@ -2034,7 +2034,7 @@
 		}
 		{
 			dependencies: ["3C7B696ED6CF5C8B"]
-			description: ["Craft 7 &#D2691ECrystalline Seashelf&r."]
+			description: ["  Craft 7 &#D2691ECrystalline Seashelf&r."]
 			id: "3F00DCAB35133433"
 			rewards: [
 				{
@@ -2089,7 +2089,7 @@
 		}
 		{
 			dependencies: ["3C7B696ED6CF5C8B"]
-			description: ["Now Craft 10 &#D2691EDormant Deepshelf&r"]
+			description: ["  Now Craft 10 &#D2691EDormant Deepshelf&r"]
 			id: "73F084BA44EC7B0C"
 			rewards: [
 				{
@@ -2136,7 +2136,7 @@
 				"73F084BA44EC7B0C"
 				"3F00DCAB35133433"
 			]
-			description: ["Now place down all of your &#D2691ESeashelves&r and use the set up to convert all 10 of your &#D2691EDormant Deepshelf&r into &#D2691EDeepshelf&r"]
+			description: ["  Now place down all of your               &#D2691ESeashelves&r and use the set up to        convert all 10 of your &#D2691EDormant           Deepshelf&r into &#D2691EDeepshelf&r"]
 			id: "3D7A479206F8D24C"
 			rewards: [
 				{
@@ -2179,7 +2179,7 @@
 		}
 		{
 			dependencies: ["3D7A479206F8D24C"]
-			description: ["Craft 5 &#D2691ESoul-Touched Deepshelf&r"]
+			description: ["  Craft 5 &#D2691ESoul-Touched Deepshelf&r"]
 			id: "0CD8B8B4D1AE4BD3"
 			rewards: [
 				{
@@ -2222,7 +2222,7 @@
 		}
 		{
 			dependencies: ["3D7A479206F8D24C"]
-			description: ["Craft 5 &#D2691EEchoing Deepshelf&r"]
+			description: ["  Craft 5 &#D2691EEchoing Deepshelf&r"]
 			id: "3C44F06BA2CF0B62"
 			rewards: [
 				{
@@ -2266,9 +2266,9 @@
 		{
 			dependencies: ["0CD8B8B4D1AE4BD3"]
 			description: [
-				"Upgrade your &#D2691ESoul-Touched Deepshelves&r to &#D2691ESoul-Touched Sculkshelves&r."
+				"  Upgrade your &#D2691ESoul-Touched                  Deepshelves&r to &#D2691ESoul-Touched                 Sculkshelves&r."
 				""
-				"We are done upgrading these shelves and will use them for our final enchanting set-up and other infusion crafting."
+				"  We are done upgrading these shelves      and will use them for our final enchanting  set-up and other infusion crafting."
 			]
 			id: "6A878C75D220D219"
 			rewards: [
@@ -2312,9 +2312,9 @@
 		{
 			dependencies: ["3C44F06BA2CF0B62"]
 			description: [
-				"Upgrade your &#D2691EEchoing Deepshelves&r to&#D2691E Echoing Sculkshelves&r. "
+				"  Upgrade your &#D2691EEchoing Deepshelves&r     to&#D2691E Echoing Sculkshelves&r. "
 				""
-				"We are done upgrading these shelves and will use them for our final enchanting set-up and other infusion crafting."
+				"  We are done upgrading these shelves  and will use them for our final            enchanting set-up and other infusion   crafting."
 			]
 			id: "0FBD251910CA4BE7"
 			rewards: [
@@ -2357,7 +2357,7 @@
 		}
 		{
 			dependencies: ["3D7A479206F8D24C"]
-			description: ["10 &#D2691EMelonshelf&r, 5 &#D2691EEchoing Sculkshelf&r, and 5 &#D2691ESoul-Touched Sculk Shelf&r can be used to make &#D2691EInfused Dragon's Breath&r."]
+			description: ["  10 &#D2691EMelonshelf&r, 5 &#D2691EEchoing Sculkshelf&r,    and 5 &#D2691ESoul-Touched Sculk Shelf&r can     be used to make &#D2691EInfused Dragon's       Breath&r."]
 			id: "5F291621E68E7A43"
 			rewards: [
 				{
@@ -2460,7 +2460,7 @@
 				"0FBD251910CA4BE7"
 				"6A878C75D220D219"
 			]
-			description: ["Craft 1 &#D2691EDraconic Endshelf&r"]
+			description: ["  Craft 1 &#D2691EDraconic Endshelf&r"]
 			id: "163E233F09160049"
 			rewards: [
 				{
@@ -2505,9 +2505,9 @@
 				"3C44F06BA2CF0B62"
 			]
 			description: [
-				"Last but not least. Craft 3 &#D2691EShelf of End-Fused Rectification&r."
+				"  Last but not least. Craft 3 &#D2691EShelf of End-Fused      Rectification&r."
 				""
-				"with these, our &#D2691EDraconic Endshelf&r, and our 10 &#D2691ESculkshelves&r, we have everything necessary to reach the maximum enchanting level. There are many other shelves that can be used for added effects. Try experimenting!"
+				"  With these, our &#D2691EDraconic Endshelf&r, and our 10       &#D2691ESculkshelves&r, we have everything necessary to      reach the maximum enchanting level. There are       many other shelves that can be used for added     effects. Try experimenting!"
 			]
 			hide_dependency_lines: true
 			id: "087E494DA97F22D7"

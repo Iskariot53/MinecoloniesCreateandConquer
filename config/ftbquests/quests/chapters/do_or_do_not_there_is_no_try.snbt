@@ -23,7 +23,7 @@
 	quests: [
 		{
 			dependencies: ["0F8B14581586FFE2"]
-			description: ["When provided with lava, stand on the armor load platform with armor equipped, and press &#D2691ER-shift&r to open the menu. the armor load platform is used for applying plates to armor sets, configurations and is your &#D2691Ekey to most interactions regarding your armor&r provided from the mod."]
+			description: ["  When provided with lava, stand on the  armor load platform with armor           equipped, and press &#D2691ER-shift&r to open     the menu. the armor load platform is     used for applying plates to armor       sets, configurations and is your &#D2691Ekey    to most interactions regarding your     armor&r provided from the mod."]
 			id: "3105B7765AFF237E"
 			rewards: [
 				{
@@ -66,9 +66,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"From steam driven &#D2691Epower-armor&r to &#D2691Eplasma blades&r, this chapter has you covered! "
+				"  From steam driven &#D2691Epower-armor&r to &#D2691Eplasma blades&r, this       chapter has you covered! "
 				""
-				"Let's hope you took the time to get your assembly line floor ready, virtually everything contained in this chapter requires either &#D2691Emechanical crafting and/or an assembly line to craft&r."
+				"  Let's hope you took the time to get your assembly line        floor ready, virtually everything contained in this chapter   requires either &#D2691Emechanical crafting and/or an assembly      line to craft&r."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -260,7 +260,7 @@
 		}
 		{
 			dependencies: ["185F461DB2C89BC3"]
-			description: ["Reinforced plating used for upgrading armor sets."]
+			description: ["  Reinforced plating used for              upgrading armor sets."]
 			id: "1C4668CF39CED797"
 			rewards: [
 				{
@@ -303,7 +303,7 @@
 		}
 		{
 			dependencies: ["185F461DB2C89BC3"]
-			description: ["Sturdier plating for upgrading armor sets, made from pouring lava over obsidian dust and pressing."]
+			description: ["  Sturdier plating for upgrading armor  sets, made from pouring lava over       obsidian dust and pressing."]
 			id: "4EE1BF4A38C6021C"
 			rewards: [
 				{
@@ -359,7 +359,7 @@
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
-			description: ["Used for crafting &#D2691Eprotective lining socks&r. You will want these for &#D2691Eheavier&r armor sets."]
+			description: ["  Used for crafting &#D2691Eprotective lining      socks&r. You will want these for &#D2691Eheavier&r  armor sets."]
 			hide_dependency_lines: true
 			id: "7E79DE36E19AD271"
 			subtitle: "&#8B4513Don't forget the socks!"
@@ -386,9 +386,9 @@
 				"654A56A024540E3A"
 			]
 			description: [
-				"The combustion reactor generates steam by boiling water through the reaction of flarerods in water tanks, which produces steam and powers the armors operation. If the player does not activate the reactor when equipping the armor, not only will the special functions of the armor not work, but the player will also experience slowness, mining fatigue, and weakness effects."
+				"  The combustion reactor generates     steam by boiling water through the       reaction of flarerods in water tanks,   which produces steam and powers the  armors operation. If the player does   not activate the reactor when            equipping the armor, not only will the    special functions of the armor not       work, but the player will also              experience slowness, mining fatigue,     and weakness effects."
 				""
-				"Players need &#D2691Ewater tanks&r and &#D2691Eflarerods&r to activate the reactor. The projected run-time of the reactor is displayed, in minutes, in the GUI."
+				"  Players need &#D2691Ewater tanks&r and           &#D2691Eflarerods&r to activate the reactor.       The projected run-time of the            reactor is displayed, in minutes, in the   GUI."
 			]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
@@ -451,7 +451,7 @@
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
-			description: ["Disposable water tanks are the second 1/2 of the armors fuel system. When both a water tank and flare rods are placed into a &#D2691Ecombustion reactor&r, they will generate steam and power the armor set."]
+			description: ["  Disposable water tanks are the second     1/2 of the armors fuel system. When both   a water tank and flare rods are placed     into a &#D2691Ecombustion reactor&r, they will           generate steam and power the armor set."]
 			hide_dependency_lines: true
 			id: "7432E85A38B6F227"
 			rewards: [
@@ -495,7 +495,7 @@
 		}
 		{
 			dependencies: ["3105B7765AFF237E"]
-			description: ["Flare rods are 1/2 of the fuel that powers your suits combustion reactor. The &#D2691Emore flarerods&r you add, the &#D2691Emore weight&r can be carried."]
+			description: ["  Flare rods are 1/2 of the fuel that    powers your suits combustion             reactor. The &#D2691Emore flarerods&r you add,  the &#D2691Emore weight&r can be carried."]
 			hide_dependency_lines: true
 			id: "654A56A024540E3A"
 			rewards: [
@@ -656,7 +656,7 @@
 		}
 		{
 			dependencies: ["7E79DE36E19AD271"]
-			description: ["Protective lining socks allow for moving more freely in heavy armors."]
+			description: ["  Protective lining socks allow for         moving more freely in heavy armors."]
 			id: "29DC4259E8DF9A3F"
 			subtitle: "&#8B4513Pretty dumb... but ok?"
 			tasks: [{
@@ -2268,9 +2268,9 @@
 		{
 			dependencies: ["3105B7765AFF237E"]
 			description: [
-				"Armors can be improved and modified with armor plates of different values, allowing them to adapt to various situations without the need for armor replacement."
+				"  Armors can be improved and modified   with armor plates of different values,   allowing them to adapt to various         situations without the need for armor   replacement."
 				""
-				"At the same time, the armor plate also provides a new way of &#D2691Erepairing armor&r."
+				"  At the same time, the armor plate also  provides a new way of &#D2691Erepairing          armor&r."
 			]
 			id: "185F461DB2C89BC3"
 			rewards: [{
