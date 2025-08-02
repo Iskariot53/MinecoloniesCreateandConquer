@@ -1278,6 +1278,23 @@ craftingTable.remove(<item:tiab:time_in_a_bottle>);
   "source": 10000
 });
 
+craftingTable.remove(<item:mob_grinding_utils:rotten_egg>);
+craftingTable.remove(<item:mob_grinding_utils:golden_egg>);
+craftingTable.remove(<item:mob_grinding_utils:mob_swab>);
+craftingTable.remove(<item:mob_grinding_utils:mob_swab_used>);
+craftingTable.remove(<item:mob_grinding_utils:gm_chicken_feed>);
+craftingTable.remove(<item:mob_grinding_utils:gm_chicken_feed_cursed>);
+craftingTable.remove(<item:mob_grinding_utils:nutritious_chicken_feed>);
+craftingTable.remove(<item:mob_grinding_utils:saw>);
+craftingTable.remove(<item:mob_grinding_utils:spikes>);
+craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_fire>);
+craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_smite>);
+craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_arthropod>);
+craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_beheading>);
+craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_looting>);
+craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_sharpness>);
+craftingTable.remove(<item:mob_grinding_utils:entity_spawner>);
+
 craftingTable.remove(<item:tarotcards:tarot_deck>);
 <recipetype:ars_nouveau:imbuement>.addJsonRecipe("tarotcards.tarot_deck", {
   "type": "ars_nouveau:imbuement",

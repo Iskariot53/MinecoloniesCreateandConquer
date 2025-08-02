@@ -4,7 +4,7 @@
 	#General allow list for spawn entities (e.g. minecraft:squid) which should be ignored for optimization.
 	allowList = [""]
 	#General deny list for spawn entities (e.g. minecraft:bat) to no longer spawn in all worlds.
-	denyList = [""]
+	denyList = ["scguns:cog_minion"]
 	#General list of ignored dimensions.
 	spawnIgnoreDimensionList = ["minecraft:the_end"]
 	#Enable/Disable more aggressive and strict spawn limitations.
@@ -24,14 +24,14 @@
 	spawnLimitationEnabled = true
 	#Blocks every x spawn to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
 	#Range: 0 ~ 100
-	spawnLimitationLimiter = 16
+	spawnLimitationLimiter = 5
 	#Defines the max. number of entities of a specific type, which could spawn within the player view area. Use 0 to disable this optimization.
 	#Range: 0 ~ 256
-	spawnLimitationMaxMobsPerPlayer = 18
+	spawnLimitationMaxMobsPerPlayer = 4
 	#Defines the max. number of entities of a specific type, which could spawn within a single world. Use 0 to disable this optimization.
 	#Range: 0 ~ 1024
-	spawnLimitationMaxMobsPerWorld = 96
+	spawnLimitationMaxMobsPerWorld = 20
 	#Defines the max. number of entities of a specific type, which could spawn within the server. Use 0 to disable this optimization.
 	#Range: 0 ~ 1024
-	spawnLimitationMaxMobsPerServer = 384
+	spawnLimitationMaxMobsPerServer = 60
 
