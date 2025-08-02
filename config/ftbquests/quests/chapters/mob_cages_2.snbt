@@ -15,6 +15,14 @@
 		id: "cagedmobs:hopping_mob_cage"
 	}
 	id: "1C94C59905280E25"
+	images: [{
+		height: 2.0d
+		image: "ccextras:textures/cages_botany_pots_title.png"
+		rotation: 0.0d
+		width: 17.0d
+		x: 4.5d
+		y: -1.0d
+	}]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -481,7 +489,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -522,8 +530,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]

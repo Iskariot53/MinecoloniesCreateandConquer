@@ -15,6 +15,14 @@
 		id: "ironfurnaces:iron_furnace"
 	}
 	id: "5200A7E0422864C0"
+	images: [{
+		height: 2.0d
+		image: "ccextras:textures/iron_chests_furnaces_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 3.5d
+		y: -2.5d
+	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -1349,7 +1357,7 @@
 			}]
 			title: "AUTOFOCUS"
 			x: 3.0d
-			y: 3.75d
+			y: 3.0d
 		}
 		{
 			description: [

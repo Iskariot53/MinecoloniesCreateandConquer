@@ -23,7 +23,7 @@
 			rotation: 0.0d
 			width: 10.58d
 			x: 0.0d
-			y: -1.7d
+			y: 0.30000000000000004d
 		}
 		{
 			height: 2.0d
@@ -31,7 +31,15 @@
 			rotation: 45.0d
 			width: 2.0d
 			x: 0.0d
-			y: -2.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "ccextras:textures/minecolonies_title.png"
+			rotation: 0.0d
+			width: 8.7d
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	order_index: 3
@@ -95,7 +103,7 @@
 			}]
 			title: "&lEvery new town is a blank page waiting to be written"
 			x: -3.0d
-			y: 0.0d
+			y: 4.571428571428562d
 		}
 		{
 			dependencies: [
@@ -148,7 +156,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 4.571428571428562d
 		}
 		{
 			dependencies: [
@@ -234,7 +242,7 @@
 			]
 			title: "&lThe heartbeat of every community"
 			x: 3.0d
-			y: 0.0d
+			y: 4.571428571428562d
 		}
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
@@ -294,7 +302,7 @@
 			}]
 			title: "&lBuilders see possibilities where others see obstacles"
 			x: 0.0d
-			y: 4.5d
+			y: 9.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -346,7 +354,7 @@
 			}]
 			title: "&lThe simplest shelter offers the greatest comfort"
 			x: 1.0d
-			y: 3.5d
+			y: 8.071428571428562d
 		}
 		{
 			dependencies: ["3B3C2C300801BCEE"]
@@ -398,7 +406,7 @@
 			}]
 			title: "&lHome is where the heart is"
 			x: 2.0d
-			y: 2.5d
+			y: 7.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -476,7 +484,7 @@
 			}]
 			title: "&lThe secret ingredient to every dish? Hunger"
 			x: 1.5d
-			y: 4.5d
+			y: 9.071428571428562d
 		}
 		{
 			dependencies: ["2E9E12CAEE6E6A4C"]
@@ -519,7 +527,7 @@
 			}]
 			title: "&lI bake because punching dough is socially acceptable"
 			x: 2.625d
-			y: 4.125d
+			y: 8.696428571428562d
 		}
 		{
 			dependencies: ["2E9E12CAEE6E6A4C"]
@@ -569,7 +577,7 @@
 			}]
 			title: "&lYou didn’t choose the spatula life, the spatula life chose you!"
 			x: 2.625d
-			y: 4.875d
+			y: 9.446428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -616,7 +624,7 @@
 			}]
 			title: "&lYou are quite a catch!"
 			x: 1.0d
-			y: 5.5d
+			y: 10.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -666,7 +674,7 @@
 			}]
 			title: "&lWhat did the buffalo say to his son when he left for university? Bi-son."
 			x: 0.0d
-			y: 13.5d
+			y: 18.071428571428562d
 		}
 		{
 			dependencies: [
@@ -715,7 +723,7 @@
 			}]
 			title: "&lWho needs peace and quiet when you can have the chaos of herding?"
 			x: -1.0d
-			y: 3.5d
+			y: 8.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -766,7 +774,7 @@
 			}]
 			title: "&lHerding sheep? More like managing a fluffy rebellion."
 			x: -2.25d
-			y: 3.0d
+			y: 7.571428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -817,7 +825,7 @@
 			}]
 			title: "&lThe chicken may cross the road, but I’m still wondering why I have 10 of them in my backyard"
 			x: -3.0d
-			y: 2.65d
+			y: 7.221428571428563d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -868,7 +876,7 @@
 			}]
 			title: "&lWhat do you get from a pampered cow? Spoiled milk!"
 			x: -2.7d
-			y: 3.5d
+			y: 8.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -919,7 +927,7 @@
 			}]
 			title: "&lHopping around like nobody's business"
 			x: -2.25d
-			y: 4.0d
+			y: 8.571428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -970,7 +978,7 @@
 			}]
 			title: "&lWhat do you call a pig that knows karate? A pork chop!"
 			x: -3.0d
-			y: 4.35d
+			y: 8.921428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1042,7 +1050,7 @@
 			]
 			title: "&lI’m going to be a gold digger"
 			x: 0.0d
-			y: 6.0d
+			y: 10.571428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1113,7 +1121,7 @@
 			]
 			title: "&lThe best crop a farmer can grow? A sense of humor."
 			x: -1.5d
-			y: 4.5d
+			y: 9.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1155,7 +1163,7 @@
 			}]
 			title: "&lI can’t help but root for my fellow foresters!"
 			x: -1.0d
-			y: 5.5d
+			y: 10.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1201,7 +1209,7 @@
 			}]
 			title: "&lA warehouse is just a giant game of hide and seek with boxes"
 			x: 0.0d
-			y: 3.0d
+			y: 7.571428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1248,7 +1256,7 @@
 			}]
 			title: "&lWhy go to the gym when you can lift boxes all day?"
 			x: 0.0d
-			y: 2.0d
+			y: 6.571428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1305,7 +1313,7 @@
 			}]
 			title: "&lBehind every great beekeeper is a trail of sweet honey and a few stings"
 			x: -3.5d
-			y: 3.5d
+			y: 8.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1375,7 +1383,7 @@
 			]
 			title: "&lIf you can't dazzle them with your brilliance, baffle them with your enchantment!"
 			x: -2.0d
-			y: 5.5d
+			y: 10.071428571428562d
 		}
 		{
 			dependencies: ["7A4231E1D13D27A9"]
@@ -1422,7 +1430,7 @@
 			}]
 			title: "&lWhat’s a guard’s favorite type of music? Heavy metal—because it’s all about security!"
 			x: -4.5d
-			y: 8.0d
+			y: 12.571428571428562d
 		}
 		{
 			dependencies: ["14840116BC6E52B7"]
@@ -1468,7 +1476,7 @@
 			}]
 			title: "&lNo \"rest\" for the regimented"
 			x: -1.5d
-			y: 8.0d
+			y: 12.571428571428562d
 		}
 		{
 			dependencies: ["07FED65149F877AA"]
@@ -1510,7 +1518,7 @@
 			}]
 			title: "&lWe don’t throw shade, we throw “punches!”"
 			x: -3.5d
-			y: 9.5d
+			y: 14.071428571428562d
 		}
 		{
 			dependencies: ["07FED65149F877AA"]
@@ -1552,7 +1560,7 @@
 			}]
 			title: "&lI’d tell you an archery joke, but I’m afraid it might miss the mark"
 			x: -5.5d
-			y: 9.5d
+			y: 14.071428571428562d
 		}
 		{
 			dependencies: ["07FED65149F877AA"]
@@ -1600,7 +1608,7 @@
 			}]
 			title: "&lNo \"slacking\" in the barracks!"
 			x: -3.0d
-			y: 8.0d
+			y: 12.571428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -1642,7 +1650,7 @@
 			}]
 			title: "&lI’m just here to “rest” in peace!"
 			x: 0.0d
-			y: 10.0d
+			y: 14.571428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -1690,7 +1698,7 @@
 			}]
 			title: "&lI’m “sky-high” on this scenery!"
 			x: -1.0d
-			y: 10.5d
+			y: 15.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -1736,7 +1744,7 @@
 			}]
 			title: "&lThe library is the best place to get \"booked\" for hours!"
 			x: 1.0d
-			y: 10.5d
+			y: 15.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -1789,7 +1797,7 @@
 			}]
 			title: "&lWhat’s a school’s favorite type of music? “Class”-ical!"
 			x: 2.0d
-			y: 11.5d
+			y: 16.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -1838,7 +1846,7 @@
 			}]
 			title: "&lIt’s time for a “check-up” on my humor!"
 			x: 2.5d
-			y: 12.5d
+			y: 17.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -1891,7 +1899,7 @@
 			}]
 			title: "&lThis place is one “hell” of a mine!"
 			x: -2.5d
-			y: 12.5d
+			y: 17.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -1933,7 +1941,7 @@
 			}]
 			title: "&lYou’re my “soil-mate”!"
 			x: 2.5d
-			y: 14.5d
+			y: 19.071428571428562d
 		}
 		{
 			dependencies: ["77D84FE0B729775E"]
@@ -1975,7 +1983,7 @@
 			}]
 			title: "&lYou make my heart “bloom”!"
 			x: 2.0d
-			y: 15.5d
+			y: 20.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2017,7 +2025,7 @@
 			}]
 			title: "&l“Wood” you believe it?"
 			x: 3.0d
-			y: 13.5d
+			y: 18.071428571428562d
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
@@ -2063,7 +2071,7 @@
 			}]
 			title: "&l“Crushing” the competition!"
 			x: 4.0d
-			y: 11.5d
+			y: 16.071428571428562d
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
@@ -2105,7 +2113,7 @@
 			}]
 			title: "&lLet’s not take this for “granite”!"
 			x: 5.0d
-			y: 12.0d
+			y: 16.571428571428562d
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
@@ -2147,7 +2155,7 @@
 			}]
 			title: "&lWhat’s a blacksmith’s favorite game? \"Forge\"-nite!"
 			x: 5.5d
-			y: 14.0d
+			y: 18.571428571428562d
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
@@ -2193,7 +2201,7 @@
 			}]
 			title: "&lLet’s not “overheat” the situation!"
 			x: 5.5d
-			y: 13.0d
+			y: 17.571428571428562d
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
@@ -2235,7 +2243,7 @@
 			}]
 			title: "&lI’m feeling “rock”-solid about this smelt!"
 			x: 5.0d
-			y: 15.0d
+			y: 19.571428571428562d
 		}
 		{
 			dependencies: ["4E2B4BFA5EF80546"]
@@ -2277,7 +2285,7 @@
 			}]
 			title: "&lDon’t let the small stuff slip through the “sieve”!"
 			x: 4.0d
-			y: 15.5d
+			y: 20.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2326,7 +2334,7 @@
 			}]
 			title: "&lI’d tell you a chemistry joke, but I know I wouldn’t get a reaction!"
 			x: 1.0d
-			y: 16.5d
+			y: 21.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2375,7 +2383,7 @@
 			}]
 			title: "&lConcrete plans lead to solid results!"
 			x: -2.0d
-			y: 15.5d
+			y: 20.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2427,7 +2435,7 @@
 			}]
 			title: "&lI’ve got a “growing” interest in agriculture!"
 			x: -1.0d
-			y: 16.5d
+			y: 21.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2476,7 +2484,7 @@
 			}]
 			title: "&lLet’s “shift” gears and move on!"
 			x: -2.0d
-			y: 11.5d
+			y: 16.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2525,7 +2533,7 @@
 			}]
 			title: "&l“Shooting” for success!"
 			x: 0.0d
-			y: 17.0d
+			y: 21.571428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2574,7 +2582,7 @@
 			}]
 			title: "&lLet’s keep things “vibrant” around here!"
 			x: -3.0d
-			y: 13.5d
+			y: 18.071428571428562d
 		}
 		{
 			dependencies: ["5DE1C3B17B55B4D1"]
@@ -2623,7 +2631,7 @@
 			}]
 			title: "&lI’m not just any glassblower; I’m a real “pane” in the glass!"
 			x: -2.5d
-			y: 14.5d
+			y: 19.071428571428562d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -2692,8 +2700,8 @@
 				}
 			]
 			title: "&lIMPORTANT INFORMATION"
-			x: 0.0357142857142847d
-			y: -1.9642857142857224d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
@@ -2809,7 +2817,7 @@
 			]
 			title: "&lUseful Tools"
 			x: 3.0d
-			y: 8.0d
+			y: 12.571428571428562d
 		}
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
@@ -2878,7 +2886,7 @@
 			]
 			title: "&lResource Scrolls and Clipboards"
 			x: 4.0d
-			y: 8.0d
+			y: 12.571428571428562d
 		}
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
@@ -2946,7 +2954,7 @@
 			]
 			title: "&lStash and Postbox"
 			x: 5.0d
-			y: 8.0d
+			y: 12.571428571428562d
 		}
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
@@ -2998,7 +3006,7 @@
 			}]
 			title: "&lRallying Banner"
 			x: 4.0d
-			y: 9.0d
+			y: 13.571428571428562d
 		}
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
@@ -3053,7 +3061,7 @@
 			}]
 			title: "&lAncient Tome"
 			x: 3.0d
-			y: 9.0d
+			y: 13.571428571428562d
 		}
 		{
 			dependencies: ["7AA37760F9C6BA7D"]
@@ -3110,7 +3118,7 @@
 			}]
 			title: "&lMineColonies for ComputerCraft!"
 			x: 5.0d
-			y: 9.0d
+			y: 13.571428571428562d
 		}
 		{
 			description: [
@@ -3253,7 +3261,7 @@
 			]
 			title: "&lThe \"Colonizer\"&r&r"
 			x: 8.0d
-			y: 10.5d
+			y: 15.071428571428562d
 		}
 		{
 			dependencies: ["2B84931E84D9FEDF"]
@@ -3287,7 +3295,7 @@
 			}]
 			title: "&lNo Bug Reports on this one&r&r"
 			x: 6.5d
-			y: 10.5d
+			y: 15.071428571428562d
 		}
 		{
 			dependencies: ["2B84931E84D9FEDF"]
@@ -3331,7 +3339,7 @@
 			}]
 			title: "&lColonial Wireless Upgrade&r&r"
 			x: 6.5d
-			y: 9.0d
+			y: 13.571428571428562d
 		}
 	]
 	title: "&eMinecolonies"

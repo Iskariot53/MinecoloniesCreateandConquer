@@ -18,14 +18,24 @@
 		}
 	}
 	id: "6F8CB6954B931EE0"
-	images: [{
-		height: 4.0d
-		image: "gateways:item/gate_pearl_large"
-		rotation: 0.0d
-		width: 4.0d
-		x: 0.0d
-		y: 0.25d
-	}]
+	images: [
+		{
+			height: 4.0d
+			image: "gateways:item/gate_pearl_large"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: 0.25d
+		}
+		{
+			height: 2.0d
+			image: "ccextras:textures/gateways_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -5.5d
+		}
+	]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]

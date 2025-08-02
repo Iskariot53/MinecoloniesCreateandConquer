@@ -17,6 +17,14 @@
 		id: "minecraft:end_portal_frame"
 	}
 	id: "7EA97DD5A2DA75FA"
+	images: [{
+		height: 2.0d
+		image: "ccextras:textures/end_remastered_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -7.5d
+	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]

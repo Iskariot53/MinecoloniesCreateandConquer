@@ -17,6 +17,14 @@
 		tag: { }
 	}
 	id: "7F753391C4A08141"
+	images: [{
+		height: 1.5d
+		image: "ccextras:textures/roost_title.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 0.0d
+		y: -6.5d
+	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -111,11 +119,11 @@
 				""
 				"{@pagebreak}"
 				""
-				"  &l&#D2691ERoost&r&r: This special chicken coop offers      resource production. Chickens in the Roost    not only produce typical resources like        eggs and feathers but can also generate     &#D2691E&nhigh-quality&r&r materials such as iron,            gemstones, or magical items. Utilize these resources to craft powerful tools, armor, and items. Open the Roost, input a chicken and some chicken seeds to start resource production. Similar to the Breeder, each tier of chickens requires a specific tier of chicken seeds for resource production, so check the fourth page of your &l&#D2691ERoost Ultimate Book&r&r for more information!"
+				"  &l&#D2691ERoost&r&r: This special chicken coop offers      resource production. Chickens in the Roost    not only produce typical resources like        eggs and feathers but can also generate     &#D2691E&nhigh-quality&r&r materials such as iron,              gemstones, or magical items. Utilize these       resources to craft powerful tools, armor,     and items. Open the Roost, input a chicken      and some chicken seeds to start resource    production. Similar to the Breeder, each tier   of chickens requires a specific tier of         chicken seeds for resource production,       so check the fourth page of your &l&#D2691ERoost     Ultimate Book&r&r for more information!"
 				""
 				"{@pagebreak}"
 				""
-				"  &l&#D2691ETrainer&r&r: The Trainer is used to level up your chickens and improve their statistics, allowing them to produce more resources, faster. You may have already noticed that each chicken seed provides some extra XP; that XP is used to train your chickens. Unlike the Breeder and Roost, you can use any tier of seeds for any tier of chickens. However, the higher the seed tier, the more XP it provides, and the faster the leveling process is. All chickens &lMAX&r out at &l&#D2691ELevel 60&r&r, but each tier requires a different amount of XP to level up—the higher the tier, the more XP is required."
+				"  &l&#D2691ETrainer&r&r: The Trainer is used to level up     your chickens and improve their statistics,     allowing them to produce more resources,     faster. You may have already noticed that     each chicken seed provides some extra XP;    that XP is used to train your chickens. Unlike  the Breeder and Roost, you can use any       tier of seeds for any tier of chickens.         However, the higher the seed tier, the more   XP it provides, and the faster the leveling     process is. All chickens &lMAX&r out at &l&#D2691ELevel    60&r&r, but each tier requires a different          amount of XP to level up, the higher the tier,  the more XP is required."
 			]
 			hide_until_deps_visible: true
 			id: "2F4EC3771D41D693"
@@ -146,7 +154,16 @@
 				}
 				{
 					id: "00498C57703E61F9"
-					item: "chicken_roost:trainer"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "chicken_roost:trainer"
+					}
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -226,8 +243,9 @@
 				"517B276D1D59EC02"
 			]
 			description: [
-				"Now that you have learnt the basics, it is time to start looking into obtaining chickens of higher tiers."
-				"Obtain a &l&#D2691ETier 2 Chicken&r&r to be able to extract a &l&#D2691ETier 2 Chicken Soul&r&r and make some &l&#D2691ETier 2 Chicken Seeds&r&r."
+				"  Now that you have learnt the basics,   it is time to start looking into obtaining  chickens of higher tiers."
+				""
+				"  Obtain a &l&#D2691ETier 2 Chicken&r&r to be able   to extract a &l&#D2691ETier 2 Chicken Soul&r&r     and make some &l&#D2691ETier 2 Chicken        Seeds&r&r."
 			]
 			hide_until_deps_visible: true
 			id: "1A4AD68A9B4E4694"
@@ -279,7 +297,7 @@
 				"1A4AD68A9B4E4694"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&#D2691ETier 3 Chicken&r&r to be able to extract a &l&#D2691ETier 3 Chicken Soul&r&r and make some &l&#D2691ETier 3 Chicken Seeds&r&r."]
+			description: ["  Obtain a &l&#D2691ETier 3 Chicken&r&r to be able   to extract a &l&#D2691ETier 3 Chicken Soul&r&r     and make some &l&#D2691ETier 3 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "5F88C2724BD3710D"
 			rewards: [
@@ -330,7 +348,7 @@
 				"5F88C2724BD3710D"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&#D2691ETier 4 Chicken&r&r to be able to extract a &l&#D2691ETier 4 Chicken Soul&r&r and make some &l&#D2691ETier 4 Chicken Seeds&r&r."]
+			description: ["  Obtain a &l&#D2691ETier 4 Chicken&r&r to be able   to extract a &l&#D2691ETier 4 Chicken Soul&r&r     and make some &l&#D2691ETier 4 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "3FD822D14A220FDF"
 			rewards: [
@@ -381,7 +399,7 @@
 				"3FD822D14A220FDF"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&#D2691ETier 5 Chicken&r&r to be able to extract a &l&#D2691ETier 5 Chicken Soul&r&r and make some &l&#D2691ETier 5 Chicken Seeds&r&r."]
+			description: ["  Obtain a &l&#D2691ETier 5 Chicken&r&r to be able   to extract a &l&#D2691ETier 5 Chicken Soul&r&r     and make some &l&#D2691ETier 5 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "672BFCAB5B703608"
 			rewards: [
@@ -433,7 +451,7 @@
 				"672BFCAB5B703608"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&#D2691ETier 6 Chicken&r&r to be able to extract a &l&#D2691ETier 6 Chicken Soul&r&r and make some &l&#D2691ETier 6 Chicken Seeds&r&r."]
+			description: ["  Obtain a &l&#D2691ETier 6 Chicken&r&r to be able   to extract a &l&#D2691ETier 6 Chicken Soul&r&r     and make some &l&#D2691ETier 6 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "1A675526ABF1871F"
 			rewards: [
@@ -485,7 +503,7 @@
 				"1A675526ABF1871F"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&#D2691ETier 7 Chicken&r&r to be able to extract a &l&#D2691ETier 7 Chicken Soul&r&r and make some &l&#D2691ETier 7 Chicken Seeds&r&r."]
+			description: ["  Obtain a &l&#D2691ETier 7 Chicken&r&r to be able   to extract a &l&#D2691ETier 7 Chicken Soul&r&r     and make some &l&#D2691ETier 7 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "389A22E99EF7CCF6"
 			rewards: [
@@ -537,7 +555,7 @@
 				"389A22E99EF7CCF6"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&#D2691ETier 8 Chicken&r&r to be able to extract a &l&#D2691ETier 8 Chicken Soul&r&r and make some &l&#D2691ETier 8 Chicken Seeds&r&r."]
+			description: ["  Obtain a &l&#D2691ETier 8 Chicken&r&r to be able   to extract a &l&#D2691ETier 8 Chicken Soul&r&r     and make some &l&#D2691ETier 8 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "64D6890763153102"
 			rewards: [
@@ -589,7 +607,7 @@
 				"64D6890763153102"
 				"517B276D1D59EC02"
 			]
-			description: ["Obtain a &l&#D2691ETier 9 Chicken&r&r to be able to extract a &l&#D2691ETier 9 Chicken Soul&r&r and make some &l&#D2691ETier 9 Chicken Seeds&r&r."]
+			description: ["  Obtain a &l&#D2691ETier 9 Chicken&r&r to be able   to extract a &l&#D2691ETier 9 Chicken Soul&r&r     and make some &l&#D2691ETier 9 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "477692F18537EC03"
 			rewards: [
@@ -642,11 +660,11 @@
 				"517B276D1D59EC02"
 			]
 			description: [
-				"Now that you have obtained the 6 Tiers of Chicken Souls, you can craft a &l&#D2691ESoul Breeder&r&r!"
+				"  Now that you have obtained the 6       Tiers of Chicken Souls, you can craft   a &l&#D2691ESoul Breeder&r&r!"
 				""
-				"Do you have a chicken that you want another of, but you don’t feel like going through the tiring process of basic breeding and all the extra steps? The &l&#D2691ESoul Breeder&r&r has got you covered!"
+				"  Do you have a chicken that you want   another of, but you don’t feel like       going through the tiring process of     basic breeding and all the extra         steps? The &l&#D2691ESoul Breeder&r&r has got     you covered!"
 				""
-				"Input any chicken into the Soul Breeder along with a Chicken Soul that is &n&#D2691Ethe same tier as the chicken or a tier higher&r&r to soul breed it and obtain a second chicken of the same type!"
+				"  Input any chicken into the Soul          Breeder along with a Chicken Soul that  is &#D2691Ethe same tier as the chicken or a     tier higher&r to soul breed it and obtain  a second chicken of the same type!"
 			]
 			hide_until_deps_visible: true
 			id: "32E228C76C3960C3"

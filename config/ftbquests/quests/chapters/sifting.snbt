@@ -15,6 +15,14 @@
 		id: "createsifter:sifter"
 	}
 	id: "727F3220F72E3AA6"
+	images: [{
+		height: 1.5d
+		image: "ccextras:textures/sifting_title.png"
+		rotation: 0.0d
+		width: 7.0d
+		x: 0.0d
+		y: -2.5d
+	}]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -22,9 +30,9 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Sifting is a great way to get started in resource generation and for what can be produced from it, great even into the late game! The primary limitation you will notice is the &o&#D2691Erange&r&r of resources that can be acquired from this method. "
+				"  Sifting is a great way to get started    in resource generation and for what    can be produced from it, great even    into the late game! The primary            limitation you will notice is the &o&#D2691Erange&r&r     of resources that can be acquired      from this method. "
 				""
-				"While capable of producing most vanilla &#D2691Egems&r, &#D2691Eores&r and &#D2691Eother resources&r, even some from other mods. You can only get so much from crushing and sifting stone and basalt by-products. However, for what it &o&#D2691Eis&r&r capable of producing, the stone block approach works great and can see you through for as long as you need as well as most needs in a general sense."
+				"  While capable of producing most         vanilla &#D2691Egems&r, &#D2691Eores&r and &#D2691Eother              resources&r, even some from other        mods. You can only get so much from    crushing and sifting stone and basalt   by-products. However, for what it &o&#D2691Eis&r&r     capable of producing, the stone block  approach works great and can see      you through for as long as you need   as well as most needs in a general       sense."
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -57,9 +65,9 @@
 		{
 			dependencies: ["259D1FE054C42D8B"]
 			description: [
-				"If you plan to use sifting for a primary means of resource generation and more than getting the most out of your excess stone by crushing and sifting it. You're going to need some mechanical extruders to generate stone/basalt to be crushed and sifted."
+				"  If you plan to use sifting for a          primary means of resource                generation and more than getting the   most out of your excess stone by       crushing and sifting it. You're going to  need some mechanical extruders to      generate stone/basalt to be crushed   and sifted."
 				""
-				"&#D2691EThis is entirely optional&r and only necessary if you really want to lean on sifting for resources, extruders are not needed in any way for the sifting process to work, they just make life easier for those who prefer the stone and sky block life."
+				"  &#D2691EThis is entirely optional&r and only        necessary if you really want to lean    on sifting for resources, extruders    are not needed in any way for the       sifting process to work, they just       make life easier for those who prefer  the stone and sky block life."
 			]
 			id: "62D68282050AC873"
 			rewards: [
@@ -108,9 +116,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Millstones and crushing wheels work very similarly in the sense that they can both grind things up for sifting, but you will notice &#D2691Ethe items obtained from the recipes for each are slightly different&r, if you cannot find a recipe to answer your needs with one, always check the other. "
+				"  Millstones and crushing wheels work    very similarly in the sense that they    can both grind things up for sifting,     but you will notice &#D2691Ethe items obtained    from the recipes for each are           slightly different&r, if you cannot find a  recipe to answer your needs with one,  always check the other. "
 				""
-				"&#D2691EJEI&r is going to be your friend here."
+				"  &#D2691EJEI&r is going to be your friend here."
 			]
 			id: "50D2146A81A69519"
 			rewards: [
@@ -156,11 +164,11 @@
 		{
 			dependencies: ["50D2146A81A69519"]
 			description: [
-				"Neither sifters nor meshes produce the exact same resources. Any given tier of mesh or sifter can possibly produce different resources, with different weights for the resources provided from sifting through them. "
+				"  Neither sifters nor meshes produce    the exact same resources. Any given   tier of mesh or sifter can possibly      produce different resources, with       different weights for the resources    provided from sifting through them. "
 				""
-				"As a general rule: The &#D2691Ehigher the tier&r of sifter/mesh used, the higher the chance it has for yielding &#D2691Emore valuable resources&r, more frequently. They can also be water logged to produce an even wider range of resources!"
+				"  As a general rule: The &#D2691Ehigher the       tier&r of sifter/mesh used, the higher     the chance it has for yielding &#D2691Emore      valuable resources&r, more frequently.   They can also be water logged to        produce an even wider range of         resources!"
 				""
-				"Again, &#D2691EJEI&r is going to save you a lot of headache here."
+				"  Again, &#D2691EJEI&r is going to save you a lot    of headache here."
 			]
 			id: "1C496A76CE535F1E"
 			rewards: [{

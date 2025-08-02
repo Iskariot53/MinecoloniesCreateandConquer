@@ -32,6 +32,14 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			height: 2.5d
+			image: "ccextras:textures/bosses_destruction_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -2.5d
+		}
 	]
 	order_index: 0
 	progression_mode: "flexible"
@@ -1057,7 +1065,7 @@
 			}]
 			title: "AUTOFOCUS"
 			x: 0.0d
-			y: 7.0d
+			y: 4.75d
 		}
 	]
 	title: "&eBosses of Mass Destruction"

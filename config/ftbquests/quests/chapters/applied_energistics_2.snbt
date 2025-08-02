@@ -14,6 +14,14 @@
 		id: "ae2:controller"
 	}
 	id: "34633DCECF1920EB"
+	images: [{
+		height: 1.7d
+		image: "ccextras:textures/ae2_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -6.0d
+	}]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -21,13 +29,13 @@
 		{
 			dependencies: ["19C32F0E30411935"]
 			description: [
-				"Getting started with Applied Energistics 2, from here on referred to as \"ae2\" is a bit different in the MCC world. Meteors no longer spawn in the world being the first thing of note. Craft yourself a quartz wrench, and over the course of the next few chapters, you will find all the information needed to track down resources normally obtained from locating meteorites. (Hint: We hope you've made an &#D2691Eenergizer&r set-up). "
+				"  Getting started with Applied Energistics 2, from  here on referred to as \"ae2\" is a bit different  in the MCC world. Meteors no longer spawn in     the world being the first thing of note. Craft     yourself a quartz wrench, and over the           course of the next few chapters, you will find    all the information needed to track down           resources normally obtained from locating        meteorites. (Hint: We hope you've made an          &#D2691Eenergizer&r set-up). "
 				""
-				"The only other major change of note is the limitations of channels having been doubled from the default standard: "
+				"  The only other major change of note is the     limitations of channels having been doubled       from the default standard: "
 				""
-				"each section of basic ME cable as well as ad-hoc networks can support up to 16 channels."
+				"  Each section of basic ME cable as well as        ad-hoc networks can support up to 16             channels."
 				""
-				"Dense ME cable can support up to 64 channels . "
+				"  Dense ME cable can support up to 64              channels . "
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -88,15 +96,15 @@
 		{
 			dependencies: ["2ED038A81358A49E"]
 			description: [
-				"With meteors no longer ruining the beautiful terrain, this leads to an interesting question of \"how do i get certus?\""
+				"  With meteors no longer ruining the           beautiful terrain, this leads to an             interesting question of \"how do I get         certus?\""
 				""
-				"&#D2691EEnergizing&r"
+				"  &#D2691EEnergizing&r"
 				""
-				"Energize a &#D2691Eblock of quartz&r with &#D2691E4Kfe&r to convert it into damaged budding certus quartz. From here you will need to use \"in-world transformation\" recipes to obtain higher quality blocks. This is also a means for converting &#D2691Estone&r into &#D2691Esky stone&r, although placing an annihilation plane face up at build limit still works just the same. "
+				"  Energize a &#D2691Eblock of quartz&r with &#D2691E4Kfe&r to    convert it into damaged budding certus      quartz. From here you will need to use      \"in-world transformation\" recipes to         obtain higher quality blocks. This is also a  means for converting &#D2691Estone&r into &#D2691Esky         stone&r, although placing an annihilation        plane face up at build limit still works just  the same. "
 				""
-				"&#D2691EYes&r, you can make &#D2691Eflawless budding certus blocks&r in this pack, although the recipe is a little bit more expensive than the usual transformation for lesser quality blocks."
+				"  &#D2691EYes&r, you can make &#D2691Eflawless budding          certus blocks&r in this pack, although the     recipe is a little bit more expensive than    the usual transformation for lesser         quality blocks."
 				""
-				"(&#D2691Eit's much easier if you use some of your first certus gathered to make a chicken or bee for this.&r) "
+				"  (&#D2691Eit's much easier if you use some of your  first certus gathered to make a chicken     or bee for this.&r) "
 			]
 			id: "64D7B14BB546AA95"
 			rewards: [
@@ -273,7 +281,7 @@
 		}
 		{
 			dependencies: ["64D7B14BB546AA95"]
-			description: ["You can go the route of in-world transformation, or if you have already set up for bee keeping, this will probably be a better route than growing and harvesting crystals the old fashioned way, it's up to you."]
+			description: ["  You can go the route of in-world       transformation, or if you have            already set up for bee keeping, this     will probably be a better route than     growing and harvesting crystals the    old fashioned way, it's up to you."]
 			id: "18247C2CCD71DF3D"
 			rewards: [{
 				id: "4866A8CE5591069F"
@@ -309,7 +317,7 @@
 		}
 		{
 			dependencies: ["64D7B14BB546AA95"]
-			description: ["You can go the route of in-world transformation, or if you have already set up for roosting chickens, this will probably be a better route than growing and harvesting crystals the old fashioned way, it's up to you."]
+			description: ["  You can go the route of in-world       transformation, or if you have            already set up for roosting chickens,   this will probably be a better route      than growing and harvesting crystals   the old fashioned way, it's up to you."]
 			id: "4082E16DA772705A"
 			rewards: [{
 				id: "45F2AAF526867ED2"
@@ -336,7 +344,7 @@
 		}
 		{
 			dependencies: ["64D7B14BB546AA95"]
-			description: ["Certus quartz is the primary resource utilized by the mod, at least in the early stages. Now that you have access to certus crystals and therefor dust, now it's time to work towards charging it."]
+			description: ["  Certus quartz is the primary             resource utilized by the mod, at least   in the early stages. Now that you have  access to certus crystals and           therefor dust, now it's time to work      towards charging it."]
 			id: "55B45DFB8B74400C"
 			rewards: [
 				{
@@ -379,9 +387,9 @@
 		{
 			dependencies: ["55B45DFB8B74400C"]
 			description: [
-				"When provided with power and certus quartz crystals, the charger.. well... charges them."
+				"  When provided with power and certus  quartz crystals, the charger.. well...     charges them."
 				""
-				"This can also be accomplished via tesla coil charging if you prefer the Create route!"
+				"  This can also be accomplished via       tesla coil charging if you prefer the    Create route!"
 			]
 			hide_until_deps_complete: true
 			id: "1F8E11D7CAFA5B63"
@@ -478,15 +486,15 @@
 		{
 			dependencies: ["55B45DFB8B74400C"]
 			description: [
-				"Inscribers have 2 primary uses:"
+				"  Inscribers have 2 primary uses:"
 				" "
-				"Turning various materials to &#D2691Edust&r."
+				"  Turning various materials to &#D2691Edust&r."
 				""
-				"as well as..."
+				"  as well as..."
 				""
-				"inscribing&#D2691E circuits&r and &#D2691Eprocessors&r. "
+				"  inscribing&#D2691E circuits&r and &#D2691Eprocessors&r. "
 				""
-				"To do this you will need to insert the prerequisite press for the circuit or processor needed. It is advisable to set up a dedicated inscriber for each, at least early on."
+				"  To do this you will need to insert the   prerequisite press for the circuit or   processor needed. It is advisable to    set up a dedicated inscriber for each,  at least early on."
 			]
 			hide_until_deps_complete: true
 			id: "7A4FF3976EB91CEB"
@@ -582,7 +590,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x&#D2691E nether quartz&r, 4 stone and 1 precision mechanism."]
+			description: ["  Made with 16x&#D2691E nether quartz&r, 4 stone  and 1 precision mechanism."]
 			id: "7EF66B49E69B57E0"
 			rewards: [
 				{
@@ -624,7 +632,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x &#D2691Egold ingots&r, 4 stone and 1 precision mechanism."]
+			description: ["  Made with 16x &#D2691Egold ingots&r, 4 stone       and 1 precision mechanism."]
 			id: "757A217506F440A2"
 			rewards: [
 				{
@@ -666,7 +674,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x &#D2691Eiron ingots&r, 4 stone and 1 precision mechanism."]
+			description: ["  Made with 16x &#D2691Eiron ingots&r, 4 stone       and 1 precision mechanism."]
 			id: "22891E06BE664695"
 			rewards: [
 				{
@@ -708,7 +716,7 @@
 		}
 		{
 			dependencies: ["2ED038A81358A49E"]
-			description: ["Made with 16x &#D2691Ediamonds&r, 4 stone and 1 precision mechanism."]
+			description: ["  Made with 16x &#D2691Ediamonds&r, 4 stone and    1 precision mechanism."]
 			id: "7F7D5A012187CF4F"
 			rewards: [
 				{
@@ -752,9 +760,9 @@
 			dependencies: ["7A4FF3976EB91CEB"]
 			dependency_requirement: "one_started"
 			description: [
-				"One of the major differences you will notice if new to the swing of things is that ae2 uses its own native power, &#D2691EAE&r. While the ME Controller for a network can accept FE/RF directly, this is only true of the controllers, chargers, inscribers and the energy acceptor. Everything else requires &#D2691EAE&r."
+				"  One of the major differences you will  notice if new to the swing of things is   that ae2 uses its own native power,      &#D2691EAE&r. While the ME Controller for a         network can accept FE/RF directly,      this is only true of the controllers,     chargers, inscribers and the energy   acceptor. Everything else requires      &#D2691EAE&r."
 				""
-				"in short &#D2691Edo not&r try to power your storage system components directly with FE/RF. Feed power into an &#D2691Eenergy acceptor&r or directly into the controller(s). Then connect and power the rest of the network from there."
+				"  In short &#D2691Edo not&r try to power your      storage system components directly     with FE/RF. Feed power into an &#D2691Eenergy  acceptor&r or directly into the              controller(s). Then connect and          power the rest of the network from     there."
 			]
 			hide_until_deps_visible: true
 			id: "4F9B5850D630B7C2"
@@ -861,7 +869,7 @@
 		}
 		{
 			dependencies: ["4F9B5850D630B7C2"]
-			description: ["As your network grows, the power demands will inevitably grow with it. You'll notice that the network itself only holds a small amount of energy, adding a controller increases this. However, your network will almost certainly reach a point of demanding more power than it is capable of buffering at any given time. This is where we introduce the energy cell, allowing your network to buffer more power and avoid periodic network drops due to spikes in consumption."]
+			description: ["  As your network grows, the power      demands will inevitably grow with it.       You'll notice that the network itself      only holds a small amount of energy,    adding a controller increases this.      However, your network will almost        certainly reach a point of demanding    more power than it is capable of         buffering at any given time. This is       where we introduce the energy cell,     allowing your network to buffer more   power and avoid periodic network        drops due to spikes in consumption."]
 			id: "527D99B5715B3DAE"
 			rewards: [
 				{
@@ -4683,9 +4691,9 @@
 		{
 			dependencies: ["4F9B5850D630B7C2"]
 			description: [
-				"The matter condenser intakes just about any form of \"matter\" and well... condenses it, silly... Also accepts water!"
+				"  The matter condenser intakes just     about any form of \"matter\" and well...    condenses it, silly... Also accepts         water!"
 				""
-				"&#D2691ECondensed matter&r, lots of it, is required for things such as &#D2691Esingularities&r, which are in turn required for quantum mechanics."
+				"  &#D2691ECondensed matter&r, lots of it, is           required for things such as               &#D2691Esingularities&r, which are in turn            required for quantum mechanics."
 			]
 			id: "28064FA66EE0953B"
 			rewards: [
@@ -4741,7 +4749,7 @@
 		}
 		{
 			dependencies: ["28064FA66EE0953B"]
-			description: ["Made with 256k items or buckets in a Matter Condenser in singularity mode."]
+			description: ["  Made with 256k items or buckets in a    Matter Condenser in singularity mode."]
 			id: "5FA7113B0E256602"
 			rewards: [
 				{
@@ -4796,7 +4804,7 @@
 		}
 		{
 			dependencies: ["5FA7113B0E256602"]
-			description: ["Crafted by causing a reaction between Ender Dust and a Singularity. Any explosive force should work to trigger the reaction, tiny tnt has a radius that provides minimal risk of accidental damage and is sufficient to create the reaction. They can be labeled with things like an anvil to help keep track of which to are linked (entangled) to which."]
+			description: ["  Crafted by causing a reaction           between Ender Dust and a Singularity.   Any explosive force should work to     trigger the reaction, tiny tnt has a      radius that provides minimal risk of      accidental damage and is sufficient to   create the reaction. They can be        labeled with things like an anvil to help  keep track of which to are linked         (entangled) to which."]
 			id: "1C761E69DB39289E"
 			rewards: [
 				{

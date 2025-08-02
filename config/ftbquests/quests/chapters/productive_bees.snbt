@@ -15,6 +15,33 @@
 		id: "luphieclutteredmod:luphie_bee_lamp"
 	}
 	id: "707349D42B2378BD"
+	images: [
+		{
+			height: 2.0d
+			image: "ccextras:textures/productive_bees_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "productivebees:block/advanced_beehive/tinted/cherry/honey"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.642857142857146d
+			y: -7.285714285714285d
+		}
+		{
+			height: 3.0d
+			image: "productivebees:block/advanced_beehive/tinted/kousa/honey"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.515306122448976d
+			y: -8.11224489795919d
+		}
+	]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -5504,9 +5531,11 @@
 			y: 22.5d
 		}
 		{
+			dependencies: ["4386DFA29FCEDD4D"]
 			description: ["  Convert an Anthralite Bee into and      Osmium Bee by feeding it a block of      Osmium."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1

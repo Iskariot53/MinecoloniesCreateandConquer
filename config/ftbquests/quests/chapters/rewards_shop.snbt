@@ -19,6 +19,14 @@
 		id: "numismatics:crown"
 	}
 	id: "4A35CA1A0038AB58"
+	images: [{
+		height: 2.0d
+		image: "ccextras:textures/rewards_shop_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -7.0d
+		y: -3.5d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -68,7 +76,7 @@
 			}]
 			title: "&lOrb of Origin"
 			x: -5.5d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -114,7 +122,7 @@
 			}]
 			title: "&lHeart Piece"
 			x: -8.5d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -151,7 +159,7 @@
 			}]
 			title: "&l16x Logs"
 			x: -5.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -188,7 +196,7 @@
 			}]
 			title: "&l16x Stripped Logs"
 			x: -4.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -225,7 +233,7 @@
 			}]
 			title: "&lAnimal Plushie"
 			x: -13.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -262,7 +270,7 @@
 			}]
 			title: "&lUnique Animal Plushie"
 			x: -12.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -299,7 +307,7 @@
 			}]
 			title: "&lHostile Plushie"
 			x: -11.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -337,7 +345,7 @@
 			}]
 			title: "&lBoss Plushie"
 			x: -10.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -375,7 +383,7 @@
 			}]
 			title: "&lSpecial Plushie"
 			x: -9.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -412,7 +420,7 @@
 			}]
 			title: "&lGlass Bundle"
 			x: -9.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -449,7 +457,7 @@
 			}]
 			title: "&lClear Glass Bundle"
 			x: -9.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -486,7 +494,7 @@
 			}]
 			title: "&lConnecting Glass Bundle"
 			x: -9.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -523,7 +531,7 @@
 			}]
 			title: "&lWool Bundle"
 			x: -9.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -561,7 +569,7 @@
 			}]
 			title: "&l64x Glass"
 			x: -8.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -599,7 +607,7 @@
 			}]
 			title: "&l64x Clear Glass"
 			x: -8.5d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -637,7 +645,7 @@
 			}]
 			title: "&lConnecting Stained Glass"
 			x: -8.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -675,7 +683,7 @@
 			}]
 			title: "&l64x Wool"
 			x: -8.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -713,7 +721,7 @@
 			}]
 			title: "&l64x Terracotta"
 			x: -8.5d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -751,7 +759,7 @@
 			}]
 			title: "&l64x Concrete"
 			x: -8.5d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -789,7 +797,7 @@
 			}]
 			title: "&l64x Stone"
 			x: -4.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -826,7 +834,7 @@
 			}]
 			title: "&lTerracotte Bundle"
 			x: -9.5d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -863,7 +871,7 @@
 			}]
 			title: "&lConcrete Bundle"
 			x: -9.5d
-			y: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -900,7 +908,7 @@
 			}]
 			title: "&lStone Bundle"
 			x: -5.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -937,7 +945,7 @@
 			}]
 			title: "&lFoilage Bundle #1"
 			x: -5.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -974,7 +982,7 @@
 			}]
 			title: "&lCoral Bundle"
 			x: -5.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1011,7 +1019,7 @@
 			}]
 			title: "&lOxidized Copper Bundle"
 			x: -5.5d
-			y: 5.464285714285715d
+			y: 7.464285714285715d
 		}
 		{
 			dependencies: [
@@ -1051,7 +1059,7 @@
 			}]
 			title: "&lDye Bundle"
 			x: -5.5d
-			y: 4.464285714285715d
+			y: 6.464285714285715d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1089,7 +1097,7 @@
 			}]
 			title: "&lFoliage Bundle #2"
 			x: -4.5d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1127,7 +1135,7 @@
 			}]
 			title: "&l64x Coral"
 			x: -4.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1165,7 +1173,7 @@
 			}]
 			title: "&l64x Oxidized Copper"
 			x: -4.5d
-			y: 5.464285714285715d
+			y: 7.464285714285715d
 		}
 		{
 			dependencies: [
@@ -1206,7 +1214,7 @@
 			}]
 			title: "&l64x Dye"
 			x: -4.5d
-			y: 4.464285714285715d
+			y: 6.464285714285715d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1250,7 +1258,7 @@
 			}]
 			title: "&lRepair Kit"
 			x: -1.9642857142857153d
-			y: 2.499999999999993d
+			y: 4.499999999999993d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1301,7 +1309,7 @@
 			}]
 			title: "&l2x Flare Rods"
 			x: -1.9642857142857153d
-			y: 4.535714285714285d
+			y: 6.535714285714285d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1351,7 +1359,7 @@
 			}]
 			title: "&lReplacement Tank"
 			x: -1.9642857142857153d
-			y: 3.5357142857142847d
+			y: 5.535714285714285d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1397,7 +1405,7 @@
 			}]
 			title: "&l1x Flawless Gem/Jewel"
 			x: -5.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1451,7 +1459,7 @@
 			}]
 			title: "&l1x Perfect Gem/Jewel"
 			x: -3.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1488,7 +1496,7 @@
 			}]
 			title: "&lCogs and Shafts Kit"
 			x: -1.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1525,7 +1533,7 @@
 			}]
 			title: "&l16x Pipez/Wire"
 			x: -2.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1564,7 +1572,7 @@
 			}]
 			title: "&lPerimeter Expansion Kit"
 			x: -1.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1609,7 +1617,7 @@
 			}]
 			title: "&lHopping Mob Cage"
 			x: -1.0d
-			y: 4.464285714285715d
+			y: 6.464285714285715d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1654,7 +1662,7 @@
 			}]
 			title: "&lHopper Botany Pot"
 			x: -1.0d
-			y: 3.4642857142857153d
+			y: 5.464285714285715d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1692,7 +1700,7 @@
 			}]
 			title: "&l8x Framed Drawers"
 			x: -1.0d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -1736,7 +1744,7 @@
 			}]
 			title: "&lBlank Portal Key"
 			x: -1.9642857142857153d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -2247,7 +2255,7 @@
 			}]
 			title: "&lReplacement Tome"
 			x: -7.0d
-			y: -1.6785714285714306d
+			y: 0.3214285714285694d
 		}
 		{
 			description: [
@@ -2658,7 +2666,7 @@
 			}]
 			title: "&l16x Powder and Ball"
 			x: -12.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -2705,7 +2713,7 @@
 			}]
 			title: "&l16x Standard Bullets"
 			x: -12.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -2753,7 +2761,7 @@
 			}]
 			title: "&l12x Hardened Bullets"
 			x: -12.0d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -2800,7 +2808,7 @@
 			}]
 			title: "&l12x Grapeshot"
 			x: -12.0d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -2847,7 +2855,7 @@
 			}]
 			title: "&l12x Buckshot"
 			x: -12.0d
-			y: 4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3114,7 +3122,7 @@
 				type: "checkmark"
 			}]
 			x: -7.0d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3632,7 +3640,7 @@
 			}]
 			title: "&lCommon Hat Grab-Bag"
 			x: -7.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3675,7 +3683,7 @@
 			}]
 			title: "&lUncommon Hat Grab-Bag"
 			x: -6.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3719,7 +3727,7 @@
 			}]
 			title: "&lRare Hat Grab-Bag"
 			x: -5.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3762,7 +3770,7 @@
 			}]
 			title: "&lEpic Hat Grab-Bag"
 			x: -4.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3806,7 +3814,7 @@
 			}]
 			title: "&lSummer Hat Grab-Bag"
 			x: -1.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3850,7 +3858,7 @@
 			}]
 			title: "&lHalloween Hat Grab-Bag"
 			x: -0.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3894,7 +3902,7 @@
 			}]
 			title: "&lEaster Hat Grab-Bag"
 			x: -2.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3938,7 +3946,7 @@
 			}]
 			title: "&lFestive Hat Grab-Bag"
 			x: -3.5d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -3984,7 +3992,7 @@
 			}]
 			title: "&l1x Jewel Lottery"
 			x: -2.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4028,7 +4036,7 @@
 			}]
 			title: "&l1x Tarot Card"
 			x: -12.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4066,7 +4074,7 @@
 			}]
 			title: "&l1x Mob Crate"
 			x: -9.0d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4104,7 +4112,7 @@
 			}]
 			title: "&l1x Artifact"
 			x: -10.5d
-			y: -1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4149,7 +4157,7 @@
 			}]
 			title: "&l16x Standard Copper Rounds"
 			x: -13.0d
-			y: 0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4195,7 +4203,7 @@
 			}]
 			title: "&l12x Advanced Rounds"
 			x: -13.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4240,7 +4248,7 @@
 			}]
 			title: "&l12x Krahg Rounds"
 			x: -13.0d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4284,7 +4292,7 @@
 			}]
 			title: "&l16x Shotgun Shells"
 			x: -13.0d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4328,7 +4336,7 @@
 			}]
 			title: "&l12x Bearpack Shells"
 			x: -13.0d
-			y: 4.5d
+			y: 6.5d
 		}
 	]
 	title: "&eRewards Shop"

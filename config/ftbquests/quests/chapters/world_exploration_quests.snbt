@@ -389,16 +389,16 @@
 			image: "alexscaves:textures/misc/advancement/magnetic_background.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 13.0d
-			y: -16.5d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			height: 6.0d
 			image: "alexscaves:textures/misc/advancement/magnetic_midground.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 13.0d
-			y: -16.5d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			height: 6.0d
@@ -485,8 +485,8 @@
 			image: "ftbquests:textures/shapes/square/outline.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 13.0d
-			y: -16.5d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			height: 6.0d
@@ -509,8 +509,8 @@
 			image: "ftbquests:textures/shapes/rsquare/outline.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 13.0d
-			y: -16.5d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			height: 6.0d
@@ -527,6 +527,14 @@
 			width: 6.0d
 			x: -3.5d
 			y: 13.0d
+		}
+		{
+			height: 3.5d
+			image: "ccextras:textures/exploration_title.png"
+			rotation: 0.0d
+			width: 17.0d
+			x: 15.0d
+			y: -9.5d
 		}
 	]
 	order_index: 0
@@ -2972,8 +2980,8 @@
 				title: "Ancient Mines"
 				type: "structure"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 20.5d
+			y: -16.0d
 		}
 		{
 			id: "3582AE2542689AED"
@@ -3014,8 +3022,8 @@
 				title: "Apothecary Abode"
 				type: "structure"
 			}]
-			x: 9.0d
-			y: -7.0d
+			x: 16.0d
+			y: -17.0d
 		}
 		{
 			id: "462C37E42216E1A1"
@@ -3056,8 +3064,8 @@
 				title: "Archmage's Tower"
 				type: "structure"
 			}]
-			x: 11.0d
-			y: -7.0d
+			x: 12.0d
+			y: -14.0d
 		}
 		{
 			id: "430E00872CDFDA95"
@@ -3103,8 +3111,8 @@
 				title: "Bazaar"
 				type: "structure"
 			}]
-			x: 11.0d
-			y: -6.0d
+			x: 18.0d
+			y: -16.0d
 		}
 		{
 			id: "693872D82470D28E"
@@ -3145,8 +3153,8 @@
 				title: "Desert Pyramid"
 				type: "structure"
 			}]
-			x: 11.0d
-			y: -5.0d
+			x: 9.0d
+			y: -15.0d
 		}
 		{
 			id: "378F61B68695DA39"
@@ -3190,8 +3198,8 @@
 				title: "Haunted Manor"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: -6.5d
+			x: 17.0d
+			y: -16.5d
 		}
 		{
 			id: "3F760147B6A4D5A8"
@@ -3232,8 +3240,8 @@
 				title: "Labyrinth"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: -4.5d
+			x: 9.5d
+			y: -14.0d
 		}
 		{
 			icon_scale: 1.5d
@@ -3275,8 +3283,8 @@
 				title: "Queen Bee Beehive"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: -5.5d
+			x: 15.0d
+			y: -17.5d
 		}
 		{
 			icon_scale: 1.5d
@@ -3318,8 +3326,8 @@
 				title: "Pillager Fortress"
 				type: "structure"
 			}]
-			x: 20.0d
-			y: -4.5d
+			x: 15.0d
+			y: -12.5d
 		}
 		{
 			id: "2868BC4D50B27AEA"
@@ -3360,8 +3368,8 @@
 				title: "Ruins of The Deep"
 				type: "structure"
 			}]
-			x: 12.0d
-			y: -6.5d
+			x: 13.0d
+			y: -13.5d
 		}
 		{
 			id: "29DE0A0FD258B463"
@@ -3402,8 +3410,8 @@
 				title: "Tinker's Citadel"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: -6.5d
+			x: 9.5d
+			y: -16.0d
 		}
 		{
 			id: "1DFE3F1340DF52DE"
@@ -3444,8 +3452,8 @@
 				title: "Tinker's Workshop"
 				type: "structure"
 			}]
-			x: 8.0d
-			y: -5.5d
+			x: 10.0d
+			y: -13.0d
 		}
 		{
 			id: "69A8B5839855B4B6"
@@ -3486,8 +3494,8 @@
 				title: "Tree of Wisdom"
 				type: "structure"
 			}]
-			x: 13.0d
-			y: -6.0d
+			x: 14.0d
+			y: -13.0d
 		}
 		{
 			id: "41D9F561FE0110BF"
@@ -3528,8 +3536,8 @@
 				title: "Necromancer's Spire"
 				type: "structure"
 			}]
-			x: 20.0d
-			y: -7.5d
+			x: 19.0d
+			y: -14.5d
 		}
 		{
 			icon_scale: 1.5d
@@ -3571,8 +3579,8 @@
 				title: "Ancient City"
 				type: "structure"
 			}]
-			x: 9.0d
-			y: -6.0d
+			x: 10.0d
+			y: -15.0d
 		}
 		{
 			id: "038E24A1FB14217E"
@@ -3613,8 +3621,8 @@
 				title: "Bandit Towers"
 				type: "structure"
 			}]
-			x: 12.0d
-			y: -5.5d
+			x: 19.0d
+			y: -15.5d
 		}
 		{
 			id: "7316F2CCC433AABC"
@@ -3655,8 +3663,8 @@
 				title: "Bathhouse"
 				type: "structure"
 			}]
-			x: 19.0d
-			y: -5.0d
+			x: 20.0d
+			y: -15.0d
 		}
 		{
 			id: "1A120834CDDA48D2"
@@ -3698,7 +3706,7 @@
 				type: "structure"
 			}]
 			x: 13.0d
-			y: -9.0d
+			y: -15.5d
 		}
 		{
 			id: "56E9CC231B51203A"
@@ -3739,8 +3747,8 @@
 				title: "Foundry"
 				type: "structure"
 			}]
-			x: 7.0d
-			y: -6.0d
+			x: 8.0d
+			y: -15.0d
 		}
 		{
 			id: "0AB9D5AAE7DB0F55"
@@ -3782,7 +3790,7 @@
 				type: "structure"
 			}]
 			x: 13.0d
-			y: -8.0d
+			y: -14.5d
 		}
 		{
 			id: "30B4895A913629E7"
@@ -3824,7 +3832,7 @@
 				type: "structure"
 			}]
 			x: 14.0d
-			y: -9.5d
+			y: -16.0d
 		}
 		{
 			id: "67353329D42533AB"
@@ -3866,7 +3874,7 @@
 				type: "structure"
 			}]
 			x: 16.0d
-			y: -9.5d
+			y: -16.0d
 		}
 		{
 			id: "17BD0D76A8CDEBC7"
@@ -3908,7 +3916,7 @@
 				type: "structure"
 			}]
 			x: 14.0d
-			y: -8.5d
+			y: -15.0d
 		}
 		{
 			id: "143010B48BC294DC"
@@ -3950,7 +3958,7 @@
 				type: "structure"
 			}]
 			x: 15.0d
-			y: -8.0d
+			y: -14.5d
 		}
 		{
 			id: "3021722724F642B9"
@@ -3992,7 +4000,7 @@
 				type: "structure"
 			}]
 			x: 15.0d
-			y: -9.0d
+			y: -15.5d
 		}
 		{
 			id: "6740EABD14A307BC"
@@ -4037,7 +4045,7 @@
 				type: "structure"
 			}]
 			x: 14.0d
-			y: -7.5d
+			y: -14.0d
 		}
 		{
 			id: "549C8FD7DCF41954"
@@ -4078,8 +4086,8 @@
 				title: "Scorched Mines"
 				type: "structure"
 			}]
-			x: 22.0d
-			y: -6.5d
+			x: 20.0d
+			y: -17.0d
 		}
 		{
 			id: "247C050E60F39E1C"
@@ -4121,7 +4129,7 @@
 				type: "structure"
 			}]
 			x: 16.0d
-			y: -8.5d
+			y: -15.0d
 		}
 		{
 			id: "741CF3C27F071949"
@@ -4163,7 +4171,7 @@
 				type: "structure"
 			}]
 			x: 16.0d
-			y: -7.5d
+			y: -14.0d
 		}
 		{
 			id: "27AB4F2150B42C89"
@@ -4204,8 +4212,8 @@
 				title: "Aviary"
 				type: "structure"
 			}]
-			x: 19.0d
-			y: -7.0d
+			x: 18.0d
+			y: -14.0d
 		}
 		{
 			id: "60CA380E1AC799C3"
@@ -4250,7 +4258,7 @@
 				type: "structure"
 			}]
 			x: 15.0d
-			y: -7.0d
+			y: -13.5d
 		}
 		{
 			id: "3B8BC7F14564CDB5"
@@ -4295,7 +4303,7 @@
 				type: "structure"
 			}]
 			x: 15.0d
-			y: -10.0d
+			y: -16.5d
 		}
 		{
 			id: "24CCAFF4FA152629"
@@ -4336,8 +4344,8 @@
 				title: "Heavenly Rider"
 				type: "structure"
 			}]
-			x: 18.0d
-			y: -6.5d
+			x: 17.0d
+			y: -13.5d
 		}
 		{
 			id: "34E48B6B015B8395"
@@ -4378,8 +4386,8 @@
 				title: "Arcane Library"
 				type: "structure"
 			}]
-			x: 10.0d
-			y: -7.5d
+			x: 11.0d
+			y: -14.5d
 		}
 		{
 			id: "76E3542F9A9F56DE"
@@ -4421,7 +4429,7 @@
 				type: "structure"
 			}]
 			x: 17.0d
-			y: -9.0d
+			y: -15.5d
 		}
 		{
 			id: "6DA00F8554032A95"
@@ -4462,8 +4470,8 @@
 				title: "Fortified Temple"
 				type: "structure"
 			}]
-			x: 18.0d
-			y: -5.5d
+			x: 11.0d
+			y: -15.5d
 		}
 		{
 			id: "6E164CCA78603131"
@@ -4504,8 +4512,8 @@
 				title: "Granite Fort"
 				type: "structure"
 			}]
-			x: 19.0d
-			y: -6.0d
+			x: 12.0d
+			y: -16.0d
 		}
 		{
 			id: "1AFE93780FAD52BD"
@@ -4546,8 +4554,8 @@
 				title: "Herobrine Stronghold"
 				type: "structure"
 			}]
-			x: 17.0d
-			y: -6.0d
+			x: 16.0d
+			y: -13.0d
 		}
 		{
 			id: "4A1F19EC97A3BCD1"
@@ -4589,7 +4597,7 @@
 				type: "structure"
 			}]
 			x: 17.0d
-			y: -8.0d
+			y: -14.5d
 		}
 		{
 			id: "1EDB990BDA6E9A88"
@@ -4630,8 +4638,8 @@
 				title: "Marble Chateau"
 				type: "structure"
 			}]
-			x: 22.0d
-			y: -5.5d
+			x: 10.0d
+			y: -17.0d
 		}
 		{
 			id: "2356FB77A7D25E8C"
@@ -4672,8 +4680,8 @@
 				title: "Monastery Tower"
 				type: "structure"
 			}]
-			x: 21.0d
-			y: -5.0d
+			x: 20.0d
+			y: -13.0d
 		}
 		{
 			id: "19CE036260DEF9D2"
@@ -4714,8 +4722,8 @@
 				title: "Old Fort"
 				type: "structure"
 			}]
-			x: 20.0d
-			y: -6.5d
+			x: 13.0d
+			y: -16.5d
 		}
 		{
 			id: "626C135150FD0A02"
@@ -4756,8 +4764,8 @@
 				title: "Sinking Temple"
 				type: "structure"
 			}]
-			x: 20.0d
-			y: -5.5d
+			x: 21.0d
+			y: -15.0d
 		}
 		{
 			id: "22FBB3621E80B2D7"
@@ -4798,8 +4806,8 @@
 				title: "Tavern"
 				type: "structure"
 			}]
-			x: 21.0d
-			y: -6.0d
+			x: 20.5d
+			y: -14.0d
 		}
 		{
 			id: "508B35B8A96ECD48"
@@ -4840,8 +4848,8 @@
 				title: "Villager Inn"
 				type: "structure"
 			}]
-			x: 21.0d
-			y: -7.0d
+			x: 14.0d
+			y: -17.0d
 		}
 		{
 			id: "761E98E7E19395D6"
@@ -4882,7 +4890,7 @@
 				type: "structure"
 			}]
 			x: 12.0d
-			y: -8.5d
+			y: -15.0d
 		}
 		{
 			id: "30B2ADF33BF82B1E"
@@ -4923,7 +4931,7 @@
 				type: "structure"
 			}]
 			x: 18.0d
-			y: -8.5d
+			y: -15.0d
 		}
 		{
 			id: "4AD83920AE3E726A"
@@ -4963,8 +4971,8 @@
 				title: "Nexus"
 				type: "structure"
 			}]
-			x: 23.0d
-			y: -6.0d
+			x: 22.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["019F9DFD295F0D27"]
@@ -7324,8 +7332,8 @@
 				type: "biome"
 			}]
 			title: "&lMagnetic Caves"
-			x: 13.0d
-			y: -18.0d
+			x: 15.0d
+			y: -6.0d
 		}
 		{
 			description: ["  The Primordial Caves are                  limestone-laden caverns isolated for   millions of years, resulting in unique     prehistoric geology, flora, and fauna.   Ambersol clusters illuminate the caves  from above, creating a daytime-like      brightness that supports large plants  such as Pewen Trees, Ancient Jungle    Trees, Cycads, Flytraps, and Curly      Ferns. The ground is mossy, with         muddy lakes scattered throughout.      Despite lacking monsters, the caves     are not entirely safe.&r"]
@@ -7970,8 +7978,8 @@
 				value: 1L
 			}]
 			title: "&lMagnetron"
-			x: 11.5d
-			y: -16.5d
+			x: 13.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["65010D52DC567C8F"]
@@ -8020,8 +8028,8 @@
 				value: 1L
 			}]
 			title: "&lBoundroid"
-			x: 14.5d
-			y: -16.5d
+			x: 16.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["697B6370E74AE21A"]
@@ -8065,8 +8073,8 @@
 				type: "item"
 			}]
 			title: "&lResistor Shield"
-			x: 13.0d
-			y: -15.0d
+			x: 15.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["30C3D7856BBFC8C5"]
@@ -8114,8 +8122,8 @@
 				type: "item"
 			}]
 			title: "&lMagnetic Quarry Smasher"
-			x: 13.0d
-			y: -16.5d
+			x: 15.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["17B7C61B3BA03A8A"]

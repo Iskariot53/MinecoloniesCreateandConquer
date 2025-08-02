@@ -7,6 +7,14 @@
 	group: "40D70F6AEAC8BA2E"
 	hide_quest_until_deps_complete: true
 	id: "51B960244202310D"
+	images: [{
+		height: 2.5d
+		image: "ccextras:textures/collection_quests.png"
+		rotation: 0.0d
+		width: 13.0d
+		x: 0.0d
+		y: -4.5d
+	}]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -920,8 +928,8 @@
 				title: "&lLet's Start Looking for Band Members!"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: -5.75d
+			x: 9.0d
+			y: -6.75d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -940,8 +948,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -7.5d
+			x: 11.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -960,8 +968,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -7.0d
+			x: 10.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -980,8 +988,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.0d
+			x: 6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1000,8 +1008,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: -4.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1020,8 +1028,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
-			y: -6.0d
+			x: 10.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1040,8 +1048,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.5d
+			x: 7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1060,8 +1068,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -4.5d
+			x: 8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -1080,8 +1088,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: -6.5d
+			x: 11.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [

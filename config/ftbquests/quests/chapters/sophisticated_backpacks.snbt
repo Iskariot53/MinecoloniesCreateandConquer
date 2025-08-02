@@ -15,6 +15,14 @@
 		id: "sophisticatedbackpacks:backpack"
 	}
 	id: "0C40BEA2F3B1B245"
+	images: [{
+		height: 2.0d
+		image: "ccextras:textures/sophisticated_backpacks_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: 4.0d
+	}]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -321,7 +329,7 @@
 				type: "item"
 			}]
 			x: -5.232142857142875d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["7F6EEDD18DAFAF44"]
@@ -363,7 +371,7 @@
 				type: "item"
 			}]
 			x: -5.232142857142875d
-			y: 7.174999999999997d
+			y: 9.25d
 		}
 		{
 			dependencies: ["713F7914D703293A"]
@@ -405,7 +413,7 @@
 				type: "item"
 			}]
 			x: -3.7321428571428754d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["158ACB32CD46F0E7"]
@@ -446,7 +454,7 @@
 				type: "item"
 			}]
 			x: -3.7321428571428754d
-			y: 7.174999999999997d
+			y: 9.25d
 		}
 		{
 			dependencies: ["2B9D019FFBFC9393"]
@@ -487,7 +495,7 @@
 				type: "item"
 			}]
 			x: -3.7321428571428754d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["0DE5AF56850D4B59"]
@@ -529,7 +537,7 @@
 				type: "item"
 			}]
 			x: -2.2321428571428754d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -570,7 +578,7 @@
 				type: "item"
 			}]
 			x: -2.2321428571428754d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["0DC612012D9F5CC8"]
@@ -612,7 +620,7 @@
 				type: "item"
 			}]
 			x: -2.2321428571428754d
-			y: 9.174999999999997d
+			y: 11.25d
 		}
 		{
 			dependencies: ["26AB28723901180C"]
@@ -654,7 +662,7 @@
 				type: "item"
 			}]
 			x: -0.7321428571428754d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -695,7 +703,7 @@
 				type: "item"
 			}]
 			x: -0.7321428571428754d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["78D0A8DE604F4EF5"]
@@ -737,7 +745,7 @@
 				type: "item"
 			}]
 			x: -0.7321428571428754d
-			y: 9.174999999999997d
+			y: 11.25d
 		}
 		{
 			dependencies: ["097132287977D15D"]
@@ -779,7 +787,7 @@
 				type: "item"
 			}]
 			x: 0.7678571428571246d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -820,7 +828,7 @@
 				type: "item"
 			}]
 			x: 0.7678571428571246d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["398846F77C0A87CD"]
@@ -862,7 +870,7 @@
 				type: "item"
 			}]
 			x: 0.7678571428571246d
-			y: 9.174999999999997d
+			y: 11.25d
 		}
 		{
 			dependencies: ["10A03B6AFCB30520"]
@@ -904,7 +912,7 @@
 				type: "item"
 			}]
 			x: 2.2678571428571246d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -945,7 +953,7 @@
 				type: "item"
 			}]
 			x: 2.2678571428571246d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["3293026C1A823B87"]
@@ -987,7 +995,7 @@
 				type: "item"
 			}]
 			x: 2.2678571428571246d
-			y: 9.174999999999997d
+			y: 11.25d
 		}
 		{
 			dependencies: ["05A9CF0A23D66D04"]
@@ -1029,7 +1037,7 @@
 				type: "item"
 			}]
 			x: 3.7678571428571246d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1070,7 +1078,7 @@
 				type: "item"
 			}]
 			x: 3.7678571428571246d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["35DAB0A24A073B70"]
@@ -1112,7 +1120,7 @@
 				type: "item"
 			}]
 			x: 3.7678571428571246d
-			y: 9.174999999999997d
+			y: 11.25d
 		}
 		{
 			dependencies: ["645B4A7596CB5DCA"]
@@ -1154,7 +1162,7 @@
 				type: "item"
 			}]
 			x: 5.267857142857125d
-			y: 6.174999999999997d
+			y: 8.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1195,7 +1203,7 @@
 				type: "item"
 			}]
 			x: 5.267857142857125d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["665D2B45126BFD6A"]
@@ -1237,7 +1245,7 @@
 				type: "item"
 			}]
 			x: 5.267857142857125d
-			y: 9.174999999999997d
+			y: 11.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1278,7 +1286,7 @@
 				type: "item"
 			}]
 			x: -5.232142857142875d
-			y: 8.174999999999997d
+			y: 10.25d
 		}
 		{
 			dependencies: ["0BDADAF7B4756E90"]
@@ -1320,7 +1328,7 @@
 				type: "item"
 			}]
 			x: -5.232142857142875d
-			y: 9.174999999999997d
+			y: 11.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1361,7 +1369,7 @@
 				type: "item"
 			}]
 			x: -5.25d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			dependencies: [
@@ -1405,7 +1413,7 @@
 				type: "item"
 			}]
 			x: -5.25d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1446,7 +1454,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1487,7 +1495,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1528,7 +1536,7 @@
 				type: "item"
 			}]
 			x: -0.75d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1569,7 +1577,7 @@
 				type: "item"
 			}]
 			x: 0.75d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1610,7 +1618,7 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1651,7 +1659,7 @@
 				type: "item"
 			}]
 			x: 3.75d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1692,7 +1700,7 @@
 				type: "item"
 			}]
 			x: 5.25d
-			y: 5.174999999999997d
+			y: 7.25d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1733,7 +1741,7 @@
 				type: "item"
 			}]
 			x: -3.75d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1774,7 +1782,7 @@
 				type: "item"
 			}]
 			x: -2.25d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1815,7 +1823,7 @@
 				type: "item"
 			}]
 			x: -0.75d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1856,7 +1864,7 @@
 				type: "item"
 			}]
 			x: 0.75d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1897,7 +1905,7 @@
 				type: "item"
 			}]
 			x: 2.25d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1937,7 +1945,7 @@
 				type: "item"
 			}]
 			x: 3.75d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1977,7 +1985,7 @@
 				type: "item"
 			}]
 			x: 5.25d
-			y: 3.674999999999997d
+			y: 5.75d
 		}
 		{
 			description: [""]
@@ -1997,7 +2005,7 @@
 			}]
 			title: "AUTOFOCUS"
 			x: 0.0d
-			y: 4.25d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1A37DEDF6AA33C72"]

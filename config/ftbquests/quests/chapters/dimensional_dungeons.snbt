@@ -15,6 +15,14 @@
 		id: "dimdungeons:block_portal_keyhole"
 	}
 	id: "0997701C3A1E97E0"
+	images: [{
+		height: 1.7d
+		image: "ccextras:textures/dimdungeons_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -2.5d
+	}]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]

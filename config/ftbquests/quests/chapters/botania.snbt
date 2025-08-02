@@ -14,6 +14,14 @@
 		id: "botania:pure_daisy"
 	}
 	id: "6F379C74A5FFBE73"
+	images: [{
+		height: 2.5d
+		image: "ccextras:textures/botania_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 1.0d
+		y: -2.0d
+	}]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]

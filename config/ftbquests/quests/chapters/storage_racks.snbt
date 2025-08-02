@@ -15,6 +15,14 @@
 		id: "functionalstorage:storage_controller"
 	}
 	id: "31DCE05DEFCBD0B3"
+	images: [{
+		height: 1.7d
+		image: "ccextras:textures/functional_storage_racks_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -12.0d
+		y: -10.5d
+	}]
 	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]

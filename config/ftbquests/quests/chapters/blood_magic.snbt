@@ -15,6 +15,14 @@
 		id: "bloodmagic:altar"
 	}
 	id: "503DA522454331CE"
+	images: [{
+		height: 2.5d
+		image: "ccextras:textures/blood_magic_title.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: 0.0d
+		y: -12.5d
+	}]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -66,8 +74,8 @@
 				type: "checkmark"
 			}]
 			title: "&lWelcome to Blood Magic!"
-			x: -6.25d
-			y: -10.0d
+			x: -6.464285714285715d
+			y: -9.642857142857146d
 		}
 		{
 			dependencies: ["305904786B9CF570"]
