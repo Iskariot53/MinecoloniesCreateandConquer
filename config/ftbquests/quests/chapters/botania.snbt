@@ -14,14 +14,34 @@
 		id: "botania:pure_daisy"
 	}
 	id: "6F379C74A5FFBE73"
-	images: [{
-		height: 2.5d
-		image: "ccextras:textures/botania_title.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: 1.0d
-		y: -2.0d
-	}]
+	images: [
+		{
+			height: 2.5d
+			image: "ccextras:textures/botania_title.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "botania:block/orange_double_flower_top"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5357142857142847d
+			y: -2.892857142857153d
+		}
+		{
+			height: 3.0d
+			image: "dawnoftimebuilder:item/camellia_seeds"
+			order: -2
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.4285714285714306d
+			y: -3.6428571428571495d
+		}
+	]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
