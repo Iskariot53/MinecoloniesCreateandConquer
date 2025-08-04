@@ -1244,6 +1244,7 @@ craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "apotheotic_ad
 craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "apotheotic_additions:caves_gate"}));
 craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:overworldian_nights"}));
 craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:born_zombie"}));
+craftingTable.remove(<item:advanced_ae:step_assist_card>);
 
 craftingTable.remove(<item:tiab:time_in_a_bottle>);
 <recipetype:ars_nouveau:imbuement>.addJsonRecipe("tiab.time_in_a_bottle", {
