@@ -533,57 +533,44 @@
 		});
 		
 
-			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("blazingarchwoodchicken", {
-		  "type": "ars_nouveau:imbuement",
-		  "count": 1,
-		  "input": {
-			"item": "chicken_roost:chicken_essence_tier_3"
-		  },
-		  "output": "chicken_roost:c_blazingarchwood",
-		  "pedestalItems": [
-			{
-			  "item": {
-				"item": "ars_nouveau:red_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:red_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:red_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:red_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			}
-		  ],
-		  "source": 1000
-		});
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("blazingarchwoodchicken", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "chicken_roost:c_blazingarchwood"
+	},
+  "pedestalItems": [   
+    {
+        "item": "ars_nouveau:red_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:red_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    },
+    {
+        "item": "ars_nouveau:red_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:red_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    }
+  ],
+  "reagent": [
+	{
+		"item": "chicken_roost:chicken_essence_tier_3"
+	}
+  ],
+  "sourceCost": 1000
+});
 
 
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.blazingarchwoodchicken", {
@@ -619,57 +606,44 @@
 		});
 		
 
-			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("cascadingarchwoodchicken", {
-		  "type": "ars_nouveau:imbuement",
-		  "count": 1,
-		  "input": {
-			"item": "chicken_roost:chicken_essence_tier_3"
-		  },
-		  "output": "chicken_roost:c_cascadingarchwood",
-		  "pedestalItems": [
-			{
-			  "item": {
-				"item": "ars_nouveau:blue_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:blue_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:blue_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:blue_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			}
-		  ],
-		  "source": 1000
-		});
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("cascadingarchwoodchicken", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "chicken_roost:c_cascadingarchwood"
+	},
+  "pedestalItems": [   
+    {
+        "item": "ars_nouveau:blue_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:blue_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    },
+    {
+        "item": "ars_nouveau:blue_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:blue_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    }
+  ],
+  "reagent": [
+	{
+		"item": "chicken_roost:chicken_essence_tier_3"
+	}
+  ],
+  "sourceCost": 1000
+});
 
 
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cascadingarchwoodchicken", {
@@ -705,57 +679,44 @@
 		});
 		
 
-			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("vexingarchwoodchicken", {
-		  "type": "ars_nouveau:imbuement",
-		  "count": 1,
-		  "input": {
-			"item": "chicken_roost:chicken_essence_tier_3"
-		  },
-		  "output": "chicken_roost:c_vexingarchwood",
-		  "pedestalItems": [
-			{
-			  "item": {
-				"item": "ars_nouveau:purple_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:purple_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:purple_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:purple_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			}
-		  ],
-		  "source": 1000
-		});
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("vexingarchwoodchicken", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "chicken_roost:c_vexingarchwood"
+	},
+  "pedestalItems": [   
+    {
+        "item": "ars_nouveau:purple_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:purple_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    },
+    {
+        "item": "ars_nouveau:purple_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:purple_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    }
+  ],
+  "reagent": [
+	{
+		"item": "chicken_roost:chicken_essence_tier_3"
+	}
+  ],
+  "sourceCost": 1000
+});
 
 
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.vexingarchwoodchicken", {
@@ -791,57 +752,44 @@
 		});
 		
 
-			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("flourishingarchwoodchicken", {
-		  "type": "ars_nouveau:imbuement",
-		  "count": 1,
-		  "input": {
-			"item": "chicken_roost:chicken_essence_tier_3"
-		  },
-		  "output": "chicken_roost:c_flourishingarchwood",
-		  "pedestalItems": [
-			{
-			  "item": {
-				"item": "ars_nouveau:green_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:green_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:green_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:green_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			}
-		  ],
-		  "source": 1000
-		});
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("flourishingarchwoodchicken", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "chicken_roost:c_flourishingarchwood"
+	},
+  "pedestalItems": [   
+    {
+        "item": "ars_nouveau:green_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:green_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    },
+    {
+        "item": "ars_nouveau:green_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_nouveau:green_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    }
+  ],
+  "reagent": [
+	{
+		"item": "chicken_roost:chicken_essence_tier_3"
+	}
+  ],
+  "sourceCost": 1000
+});
 
 
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.flourishingarchwoodchicken", {
@@ -877,57 +825,44 @@
 		});
 		
 
-			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("flashingarchwoodchicken", {
-		  "type": "ars_nouveau:imbuement",
-		  "count": 1,
-		  "input": {
-			"item": "chicken_roost:chicken_essence_tier_3"
-		  },
-		  "output": "chicken_roost:c_flashingarchwood",
-		  "pedestalItems": [
-			{
-			  "item": {
-				"item": "ars_elemental:yellow_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_elemental:yellow_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_elemental:yellow_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_elemental:yellow_archwood_sapling"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_oakwood"
-			  }
-			}
-		  ],
-		  "source": 1000
-		});
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("flashingarchwoodchicken", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "chicken_roost:c_flashingarchwood"
+	},
+  "pedestalItems": [   
+    {
+        "item": "ars_elemental:yellow_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_elemental:yellow_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    },
+    {
+        "item": "ars_elemental:yellow_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+	},
+    {
+        "item": "ars_elemental:yellow_archwood_sapling"
+    },
+    {
+        "item": "chicken_roost:c_oakwood"
+    }
+  ],
+  "reagent": [
+	{
+		"item": "chicken_roost:chicken_essence_tier_3"
+	}
+  ],
+  "sourceCost": 1000
+});
 
 
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.flashingarchwoodchicken", {
@@ -963,57 +898,44 @@
 		});
 		
 
-			<recipetype:ars_nouveau:imbuement>.addJsonRecipe("magebloomchicken", {
-		  "type": "ars_nouveau:imbuement",
-		  "count": 1,
-		  "input": {
-			"item": "chicken_roost:chicken_essence_tier_4"
-		  },
-		  "output": "chicken_roost:c_magebloom",
-		  "pedestalItems": [
-			{
-			  "item": {
-				"item": "ars_nouveau:source_gem"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_blazingarchwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:magebloom_crop"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_flourishingarchwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:source_gem"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_vexingarchwood"
-			  }
-			},
-			{
-			  "item": {
-				"item": "ars_nouveau:magebloom_crop"
-			  }
-			},
-			{
-			  "item": {
-				"item": "chicken_roost:c_cascadingarchwood"
-			  }
-			}
-		  ],
-		  "source": 1000
-		});
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("magebloomchicken", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "chicken_roost:c_magebloom"
+	},
+  "pedestalItems": [   
+    {
+        "item": "ars_nouveau:source_gem"
+    },
+    {
+        "item": "chicken_roost:c_blazingarchwood"
+	},
+    {
+        "item": "ars_nouveau:magebloom_crop"
+    },
+    {
+        "item": "chicken_roost:c_flourishingarchwood"
+    },
+    {
+        "item": "ars_nouveau:source_gem"
+    },
+    {
+        "item": "chicken_roost:c_vexingarchwood"
+	},
+    {
+        "item": "ars_nouveau:magebloom_crop"
+    },
+    {
+        "item": "chicken_roost:c_cascadingarchwood"
+    }
+  ],
+  "reagent": [
+	{
+		"item": "chicken_roost:chicken_essence_tier_4"
+	}
+  ],
+  "sourceCost": 1000
+});
 
 
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.magebloomchicken", {

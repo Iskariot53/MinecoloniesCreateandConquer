@@ -97,36 +97,31 @@ import crafttweaker.api.recipe.IRecipeManager;
 	smithing.addTransformRecipe("smithing.celestisynth_supernal_netherite_ingot", <item:celestisynth:supernal_netherite_ingot>, <item:minecraft:netherite_upgrade_smithing_template>, <tag:items:forge:ingots/netherite>, <item:celestisynth:celestial_core_heated>);
 	
 	
-	<recipetype:ars_nouveau:imbuement>.addJsonRecipe("celestisynth.eyebomination", {
-  "type": "ars_nouveau:imbuement",
-  "count": 1,
-  "input": {
-    "item": "minecraft:blaze_powder"
-  },
-  "output": "celestisynth:eyebomination",
-  "pedestalItems": [
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("enchanting_apparatus.eyebomination", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "celestisynth:eyebomination"
+	},
+  "pedestalItems": [   
     {
-      "item": {
         "item": "minecraft:ender_eye"
-      }
     },
     {
-      "item": {
         "item": "minecraft:ender_eye"
-      }
+	},
+    {
+        "item": "minecraft:ender_eye"
     },
     {
-      "item": {
         "item": "minecraft:ender_eye"
-      }
-    },
-    {
-      "item": {
-        "item": "minecraft:ender_eye"
-      }
     }
   ],
-  "source": 500
+  "reagent": [
+	{
+		"item": "minecraft:blaze_powder"
+	}
+  ],
+  "sourceCost": 500
 });
 
 		    <recipetype:botania:mana_infusion>.addJsonRecipe("celest.lunar_scrap", {
@@ -1247,36 +1242,31 @@ craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:born
 craftingTable.remove(<item:advanced_ae:step_assist_card>);
 
 craftingTable.remove(<item:tiab:time_in_a_bottle>);
-<recipetype:ars_nouveau:imbuement>.addJsonRecipe("tiab.time_in_a_bottle", {
-  "type": "ars_nouveau:imbuement",
-  "count": 1,
-  "input": {
-    "item": "botania:vial"
-  },
-  "output": "tiab:time_in_a_bottle",
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("tiab.time_in_a_bottle", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "tiab:time_in_a_bottle"
+	},
   "pedestalItems": [   
     {
-      "item": {
         "item": "modularrouters:speed_upgrade"
-      }
     },
     {
-      "item": {
         "item": "bloodmagic:speedrune"
-      }
-    },
+	},
     {
-      "item": {
         "item": "ars_nouveau:glyph_accelerate"
-      }
     },
     {
-      "item": {
         "item": "create:rotation_speed_controller"
-      }
     }
   ],
-  "source": 10000
+  "reagent": [
+	{
+		"item": "botania:vial"
+	}
+  ],
+  "sourceCost": 10000
 });
 
 craftingTable.remove(<item:mob_grinding_utils:rotten_egg>);
@@ -1297,56 +1287,43 @@ craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_sharpness>);
 craftingTable.remove(<item:mob_grinding_utils:entity_spawner>);
 
 craftingTable.remove(<item:tarotcards:tarot_deck>);
-<recipetype:ars_nouveau:imbuement>.addJsonRecipe("tarotcards.tarot_deck", {
-  "type": "ars_nouveau:imbuement",
-  "count": 1,
-  "input": {
-    "item": "minecraft:nether_star"
-  },
-  "output": "tarotcards:tarot_deck",
-  "pedestalItems": [
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("tarotcards.tarot_deck", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "tarotcards:tarot_deck"
+	},
+  "pedestalItems": [   
     {
-      "item": {
         "tag": "tarotcards:tarot_cards"
-      }
     },
     {
-      "item": {
         "item": "ars_elemental:mark_of_mastery"
-      }
-    },
+	},
     {
-      "item": {
         "tag": "tarotcards:tarot_cards"
-      }
     },
     {
-      "item": {
         "item": "bloodmagic:sigilofholding"
-      }
     },
     {
-      "item": {
         "item": "botania:bauble_box"
-      }
     },
     {
-      "item": {
         "item": "bloodmagic:sigilofholding"
-      }
-    },
+	},
     {
-      "item": {
         "tag": "tarotcards:tarot_cards"
-      }
     },
     {
-      "item": {
         "item": "ars_elemental:mark_of_mastery"
-      }
     }
   ],
-  "source": 10000
+  "reagent": [
+	{
+		"item": "minecraft:nether_star"
+	}
+  ],
+  "sourceCost": 10000
 });
 
 craftingTable.remove(<item:minecraft:bookshelf>);
@@ -1546,108 +1523,82 @@ import crafttweaker.api.entity.effect.MobEffectInstance;
   "energy": 10000
 });
 craftingTable.remove(<item:draconicevolution:draconium_core>);
-<recipetype:ars_nouveau:imbuement>.addJsonRecipe("draconicevolution.draconium_core", {
-  "type": "ars_nouveau:imbuement",
-  "count": 1,
-  "input": {
-    "item": "minecraft:dragon_egg"
-  },
-  "output": "draconicevolution:draconium_core",
-  "pedestalItems": [
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("draconicevolution.draconium_core", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "draconicevolution:draconium_core"
+	},
+  "pedestalItems": [   
     {
-      "item": {
         "item": "draconicevolution:draconium_ingot"
-      }
     },
     {
-      "item": {
         "item": "bloodmagic:ingot_hellforged"
-      }
-    },
+	},
     {
-      "item": {
         "item": "draconicevolution:draconium_ingot"
-      }
     },
     {
-      "item": {
         "item": "botania:elementium_ingot"
-      }
     },
     {
-      "item": {
         "item": "draconicevolution:draconium_ingot"
-      }
     },
     {
-      "item": {
         "item": "bloodmagic:ingot_hellforged"
-      }
-    },
+	},
     {
-      "item": {
         "item": "draconicevolution:draconium_ingot"
-      }
     },
     {
-      "item": {
         "item": "botania:elementium_ingot"
-      }
     }
   ],
-  "source": 10000
+  "reagent": [
+	{
+		"item": "minecraft:dragon_egg"
+	}
+  ],
+  "sourceCost": 10000
 });
 craftingTable.remove(<item:draconicevolution:wyvern_core>);
-<recipetype:ars_nouveau:imbuement>.addJsonRecipe("draconicevolution.wyvern_core", {
-  "type": "ars_nouveau:imbuement",
-  "count": 1,
-  "input": {
-    "item": "minecraft:nether_star"
-  },
-  "output": "draconicevolution:wyvern_core",
-  "pedestalItems": [
+<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("draconicevolution.wyvern_core", {
+  "type": "ars_nouveau:enchanting_apparatus",
+  "output": {
+	"item": "draconicevolution:wyvern_core"
+	},
+  "pedestalItems": [   
     {
-      "item": {
         "item": "draconicevolution:draconium_core"
-      }
     },
     {
-      "item": {
         "item": "thermalendergy:prismalium_ingot"
-      }
-    },
+	},
     {
-      "item": {
         "item": "thermalendergy:melodium_ingot"
-      }
     },
     {
-      "item": {
         "item": "thermalendergy:stellarium_ingot"
-      }
     },
     {
-      "item": {
         "item": "draconicevolution:draconium_core"
-      }
     },
     {
-      "item": {
         "item": "thermalendergy:stellarium_ingot"
-      }
-    },
+	},
     {
-      "item": {
         "item": "thermalendergy:melodium_ingot"
-      }
     },
     {
-      "item": {
         "item": "thermalendergy:prismalium_ingot"
-      }
     }
   ],
-  "source": 30000
+  "reagent": [
+	{
+		"item": "minecraft:nether_star"
+	}
+  ],
+  "sourceCost": 30000
 });
 
 craftingTable.remove(<item:modularrouters:blank_upgrade>);
