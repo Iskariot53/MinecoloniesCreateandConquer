@@ -1502,6 +1502,7 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			tasks: [
 				{
 					id: "795EF2023BA78F4B"
@@ -1533,7 +1534,7 @@
 			]
 			title: "&lEnchanting"
 			x: 9.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["55D68E5A8B42E94F"]

@@ -1,5 +1,5 @@
 {
-	autofocus_id: "78509D6A43BBC48E"
+	autofocus_id: "15E9BF973EC079BD"
 	default_hide_dependency_lines: true
 	default_quest_shape: "rsquare"
 	filename: "hostile_neural_networks"
@@ -2369,8 +2369,8 @@
 				type: "item"
 			}]
 			title: "&lSkreecher Prediction"
-			x: -9.5d
-			y: 24.5d
+			x: -11.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["12E0CA5C8D437275"]
@@ -3273,8 +3273,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -7.5d
-			y: 24.5d
+			x: -9.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["44650505CEB2A00D"]
@@ -3363,8 +3363,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -7.5d
-			y: 23.5d
+			x: -10.5d
+			y: 18.5d
 		}
 		{
 			dependencies: ["44650505CEB2A00D"]
@@ -3544,7 +3544,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 23.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["12E0CA5C8D437275"]
@@ -3772,51 +3772,6 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["44650505CEB2A00D"]
-			id: "733FB2BD2A7F7A61"
-			rewards: [
-				{
-					id: "7073A7574941A577"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "1146385B41BA2EB5"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "17683C4FCD7B7465"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:llama"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -8.5d
-			y: 15.5d
-		}
-		{
 			dependencies: ["12E0CA5C8D437275"]
 			id: "42820EB4DAD58077"
 			rewards: [
@@ -3949,7 +3904,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 19.5d
+			y: 17.5d
 		}
 		{
 			dependencies: ["44650505CEB2A00D"]
@@ -4039,51 +3994,6 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: 14.5d
-		}
-		{
-			dependencies: ["44650505CEB2A00D"]
-			id: "6B84E9C1AA72412A"
-			rewards: [
-				{
-					id: "528CF060F4D5922E"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "0F975CC6407D33C9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6492486E62747EC5"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:pufferfish"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -9.5d
 			y: 14.5d
 		}
 		{
@@ -4263,8 +4173,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -11.5d
-			y: 24.5d
+			x: -8.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["44650505CEB2A00D"]
@@ -4403,51 +4313,6 @@
 		}
 		{
 			dependencies: ["44650505CEB2A00D"]
-			id: "42F609953C43E0E5"
-			rewards: [
-				{
-					id: "281069275B42341B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "239FC283CADF12FB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5F4D76E8DD76CAF3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:salmon"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -11.5d
-			y: 17.5d
-		}
-		{
-			dependencies: ["44650505CEB2A00D"]
 			id: "134B7D6F55BB9CC5"
 			rewards: [
 				{
@@ -4579,51 +4444,6 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 22.5d
-		}
-		{
-			dependencies: ["44650505CEB2A00D"]
-			id: "4978E2E3A85EBF64"
-			rewards: [
-				{
-					id: "64E5FCDBD0EC249A"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "1CAEF31F354B7AF0"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "59876688443B875B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:skeleton_horse"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -9.5d
 			y: 22.5d
 		}
 		{
@@ -4760,7 +4580,7 @@
 			}]
 			title: "&lSpider Prediction"
 			x: -11.5d
-			y: 22.5d
+			y: 19.5d
 		}
 		{
 			dependencies: ["44650505CEB2A00D"]
@@ -4942,96 +4762,6 @@
 			}]
 			x: -10.5d
 			y: 23.5d
-		}
-		{
-			dependencies: ["44650505CEB2A00D"]
-			id: "3073C3D3C0E5633F"
-			rewards: [
-				{
-					id: "7B9BF7DC2BB88923"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "038F643B27F2F5D1"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "79FC41D2444193F2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:tropical_fish"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -11.5d
-			y: 18.5d
-		}
-		{
-			dependencies: ["44650505CEB2A00D"]
-			id: "415FE3C938C00726"
-			rewards: [
-				{
-					id: "13CA2F1D0724617B"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "16DB50F3D04FFDF2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7DAC1160E710EDAB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:turtle"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -10.5d
-			y: 18.5d
 		}
 		{
 			dependencies: ["78509D6A43BBC48E"]
@@ -6645,8 +6375,8 @@
 				match_nbt: true
 				type: "item"
 			}]
-			x: -10.5d
-			y: 24.5d
+			x: -9.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["3538730DDE7D87BF"]
@@ -6782,51 +6512,6 @@
 			}]
 			x: -9.5d
 			y: 21.5d
-		}
-		{
-			dependencies: ["44650505CEB2A00D"]
-			id: "55673B3AB3B9931F"
-			rewards: [
-				{
-					id: "0C00E8B68A9DAF52"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "07B6B51C14D622B2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7D9FF428D4E403A8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "hostilenetworks:prediction"
-					tag: {
-						data_model: {
-							id: "hostilenetworks:zombie_horse"
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			x: -8.5d
-			y: 24.5d
 		}
 		{
 			dependencies: ["12E0CA5C8D437275"]
