@@ -4,6 +4,10 @@ craftingTable.addShaped("dawnoftimebuilder.moraq_mosaic_traditional", <item:dawn
 [<item:dawnoftimebuilder:clay_tile_blue>, <item:dawnoftimebuilder:clay_tile_white>, <item:dawnoftimebuilder:clay_tile_cyan>], 
 [<item:minecraft:smooth_sandstone>, <item:minecraft:smooth_sandstone>, <item:minecraft:smooth_sandstone>]]);
 
+craftingTable.addShaped("dark_oak_stone", <item:mob_grinding_utils:dark_oak_stone>, 
+[[<item:minecraft:dark_oak_planks>, <item:minecraft:cobblestone>], 
+[<item:minecraft:cobblestone>, <item:minecraft:dark_oak_planks>]]);
+
 craftingTable.removeByName("blocksyouneed_luna:rockwool");
 craftingTable.addShaped("blocksyouneed_luna.rockwool", <item:blocksyouneed_luna:rockwool> * 2, 
 [[<tag:items:forge:stone>, <tag:items:minecraft:wool>], 
@@ -658,44 +662,6 @@ craftingTable.addShapeless("if_lat_bucket_2_rubber", <item:thermal:rubber> * 3, 
       "depth_max": 255,
       "depth_min": 0,
       "weight": 1,
-      "whitelist": {}
-    }
-  ]
-});
-<recipetype:industrialforegoing:laser_drill_fluid>.addJsonRecipe("laserdrill.sapb",
-{
-  "type": "industrialforegoing:laser_drill_fluid",
-  "catalyst": {
-    "item": "industrialforegoing:laser_lens4"
-  },
-  "entity": "productivebees:resin_bee",
-  "output": "{Amount:10,FluidName:\"create_dd:sap\"}",
-  "pointer": 0,
-  "rarity": [
-    {
-      "blacklist": {},
-      "depth_max": 256,
-      "depth_min": -64,
-      "weight": 8,
-      "whitelist": {}
-    }
-  ]
-});
-<recipetype:industrialforegoing:laser_drill_fluid>.addJsonRecipe("laserdrill.sapc",
-{
-  "type": "industrialforegoing:laser_drill_fluid",
-  "catalyst": {
-    "item": "industrialforegoing:laser_lens4"
-  },
-  "entity": "chicken_roost:c_oakwood",
-  "output": "{Amount:10,FluidName:\"create_dd:sap\"}",
-  "pointer": 0,
-  "rarity": [
-    {
-      "blacklist": {},
-      "depth_max": 256,
-      "depth_min": -64,
-      "weight": 8,
       "whitelist": {}
     }
   ]
