@@ -22,7 +22,7 @@
 	sniffer_range = 5
 	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
 	#Range: 0 ~ 100
-	chance_mob_on_grave_recovery = 0
+	chance_mob_on_grave_recovery = 100
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
@@ -177,9 +177,9 @@
 	#Range: 100 ~ 200000
 	max_xp_lost_page = 5000
 	#Denied mods for equipment drops
-	denied_modid_for_equipment = ["tombstone"]
+	denied_modid_for_equipment = ["tombstone", "celestisynth", "draconicevolution", "mekanism", "protection_pixel", "adamsarsplus", "advancedae", "mekaweapons", "scguns"]
 	#Only vanilla drops for equipment [false/true|default:false]
-	only_vanilla_for_equipment = false
+	only_vanilla_for_equipment = true
 
 #Allows to enable some features related to others mods
 [compatibility]
@@ -197,9 +197,9 @@
 #Allows to enable special events
 [special_events]
 	#Allows Halloween [false/true|default:true]
-	allow_halloween = true
+	allow_halloween = false
 	#Allows Christmas [false/true|default:true]
-	allow_christmas = true
+	allow_christmas = false
 	#Allows you to set a Special Event as permanent [NONE/HALLOWEEN/CHRISTMAS/SPRING_BLOOM|default:NONE]
 	#Allowed Values: NONE, HALLOWEEN, CHRISTMAS, SPRING_BLOOM
 	force_special_event = "NONE"
