@@ -24,7 +24,7 @@ maxAlarmRange = 100
 #Allows to claim blocks that do not have an owner by rightclicking them with the Universal Owner Changer.
 allowBlockClaim = false
 #Should reinforced blocks' textures be slightly darker than their vanilla counterparts? Servers can force this setting on clients if the server config "force_reinforced_block_tint" is set to true.
-reinforced_block_tint = true
+reinforced_block_tint = false
 #Set this to true if you want to force the setting of reinforced_block_tint for players.
 force_reinforced_block_tint = false
 #Display owner face on retinal scanner?
