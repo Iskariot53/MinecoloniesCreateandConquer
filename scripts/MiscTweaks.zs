@@ -2027,3 +2027,18 @@ craftingTable.addShaped("blocksyouneed_luna.blastmetal", <item:blocksyouneed_lun
 craftingTable.remove(<item:luphieclutteredmod:luphie_floral_striped_wallpaper>);
 
 craftingTable.addShaped("luphieclutteredmod.luphie_floral_striped_wallpaper", <item:luphieclutteredmod:luphie_floral_striped_wallpaper> * 6, [[<item:minecraft:pink_wool>, <item:minecraft:pink_wool>, <item:minecraft:pink_wool>], [<item:minecraft:red_tulip>, <item:minecraft:pink_tulip>, <item:minecraft:orange_tulip>], [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>]]);
+
+<recipetype:thermal:refinery>.removeByName("thermal:machines/refinery/refinery_crude_oil");
+craftingTable.remove(<item:tfmg:steel_fluid_tank>);
+
+craftingTable.remove(<item:tfmg:firebox>);
+craftingTable.addShaped("tfmg.firebox", <item:tfmg:firebox>,
+[[<item:tfmg:fireproof_brick>, <item:create:fluid_tank>, <item:tfmg:fireproof_brick>],
+[<item:tfmg:brass_pipe>, <item:tfmg:brass_pipe>, <item:tfmg:brass_pipe>],
+[<item:tfmg:fireproof_brick>, <item:tfmg:fireproof_brick>, <item:tfmg:fireproof_brick>]]);
+
+craftingTable.remove(<item:tfmg:diesel_engine_expansion>);
+craftingTable.addShaped("tfmg.diesel_engine_expansion", <item:tfmg:diesel_engine_expansion>,
+[[<item:tfmg:industrial_pipe>, <item:create:andesite_bars>, <item:tfmg:industrial_pipe>],
+[<item:create:fluid_tank>, <item:tfmg:heavy_machinery_casing>, <item:create:fluid_tank>],
+[<item:tfmg:industrial_pipe>, <item:create:fluid_tank>, <item:tfmg:industrial_pipe>]]);
