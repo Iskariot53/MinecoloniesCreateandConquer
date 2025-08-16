@@ -3272,8 +3272,8 @@
 				type: "item"
 			}]
 			title: "&lSteel Mechanism"
-			x: 13.5d
-			y: -7.0d
+			x: 14.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["23E4A6AD9E7F51B1"]
@@ -3314,7 +3314,7 @@
 				type: "item"
 			}]
 			title: "&lSpark Plug"
-			x: 13.5d
+			x: 14.5d
 			y: -8.0d
 		}
 		{
@@ -3373,7 +3373,7 @@
 			}]
 			title: "&lEngine Chamber"
 			x: 14.5d
-			y: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -3504,171 +3504,8 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["23E4A6AD9E7F51B1"]
-			description: ["Steel fluid tanks are used to store fluids but are also used for distillation when stacked tall enough with a distillation controller placed next to them."]
-			hide_dependency_lines: true
-			id: "77139DB3DC85CD55"
-			rewards: [
-				{
-					id: "55A0CB7591F3D5A1"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "6DF258977361AB6C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:sprocket"
-					}
-					type: "item"
-				}
-			]
-			subtitle: "&#8B4513Fluid storage and refinement"
-			tasks: [{
-				count: 7L
-				id: "7DC5B1291A47D836"
-				item: {
-					Count: 6
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tfmg:steel_fluid_tank"
-				}
-				type: "item"
-			}]
-			title: "&l7x Steel Fluid Tank"
-			x: 16.0d
-			y: -6.0d
-		}
-		{
-			dependencies: [
-				"6DE3EE2FC7D51E4D"
-				"3C48078506D42E67"
-				"52D7284BC40D565B"
-			]
-			description: ["&#D2691ECrude oil&r can be pumped into an active steel distillation controller and distilled into different sub-parts. These fluids can be used for a wide range of things, such as powering engines made to run on them or &#D2691Elubricants&r after further refinement."]
-			id: "3D3B701917D59EF9"
-			rewards: [
-				{
-					id: "323F6298160981EF"
-					type: "xp"
-					xp: 35
-				}
-				{
-					id: "31E2C688C191796D"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:sprocket"
-					}
-					type: "item"
-				}
-				{
-					id: "640F28564DCB86F8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			subtitle: "&#8B4513Distilling your crude oil"
-			tasks: [{
-				id: "30D6602E54177545"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tfmg:steel_distillation_controller"
-				}
-				type: "item"
-			}]
-			title: "&lSteel Distillation Controller"
-			x: 16.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["77139DB3DC85CD55"]
-			description: ["Placed next to the tank of your distillation build, &#D2691Esteel distillation outputs&r can be attached to&#D2691E industrial pipes&r and used to extract the &#D2691Ebyproducts&r of your distillation set ups."]
-			id: "5A0AC28A4AD35118"
-			rewards: [
-				{
-					id: "58A5446597CB758D"
-					type: "xp"
-					xp: 30
-				}
-				{
-					id: "2345F058FEA97257"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:sprocket"
-					}
-					type: "item"
-				}
-				{
-					id: "2BB5B3137FB3A864"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:bevel"
-					}
-					type: "item"
-				}
-			]
-			subtitle: "&#8B4513Outputting your byproducts"
-			tasks: [{
-				count: 6L
-				id: "7EB76BA2A68B768C"
-				item: {
-					Count: 6
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "tfmg:steel_distillation_output"
-				}
-				type: "item"
-			}]
-			title: "&l6x Steel Distillation Output"
-			x: 16.0d
-			y: -7.5d
-		}
-		{
-			dependencies: [
-				"77139DB3DC85CD55"
-				"5A0AC28A4AD35118"
-				"3D3B701917D59EF9"
-			]
-			description: ["&#D2691EHeavy oil&r is one of the many byproducts that can be distilled. This process can and will need to be refined even further to produce &#D2691Elubricant&r."]
+			dependencies: ["52D7284BC40D565B"]
+			description: ["&#D2691EHeavy oil&r is one of the many byproducts that can be refined. This process can and will need to be refined even further to produce &#D2691Elubricant&r."]
 			id: "4C5CFD2F23381B93"
 			rewards: [
 				{
@@ -3737,7 +3574,7 @@
 		}
 		{
 			dependencies: ["4C5CFD2F23381B93"]
-			description: ["Further distilling your heavy oil will yield &#D2691ELubricant Oil&r and&#D2691E Diesel.&r One is required for Radial Engines the other great for feeding blaze burners."]
+			description: ["Further refining your heavy oil will yield &#D2691ELubricant Oil&r and&#D2691E Diesel.&r One is required for Radial Engines the other great for feeding blaze burners."]
 			id: "6F6313140FFCA6EF"
 			rewards: [
 				{
@@ -3760,7 +3597,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Advanced Distilling"
+			subtitle: "&#8B4513Advanced Refining"
 			tasks: [{
 				id: "4E98BD64141D297C"
 				item: {
@@ -3779,11 +3616,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"77139DB3DC85CD55"
-				"5A0AC28A4AD35118"
-				"3D3B701917D59EF9"
-			]
+			dependencies: ["0F8165E24ED46EE3"]
 			hide_dependency_lines: true
 			id: "0E6EAF8E3289D1CC"
 			tasks: [{
@@ -3804,11 +3637,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: [
-				"77139DB3DC85CD55"
-				"5A0AC28A4AD35118"
-				"3D3B701917D59EF9"
-			]
+			dependencies: ["4C5CFD2F23381B93"]
 			hide_dependency_lines: true
 			id: "0F8165E24ED46EE3"
 			tasks: [{
@@ -3829,11 +3658,7 @@
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"77139DB3DC85CD55"
-				"5A0AC28A4AD35118"
-				"3D3B701917D59EF9"
-			]
+			dependencies: ["0E6EAF8E3289D1CC"]
 			hide_dependency_lines: true
 			id: "4E87A3C2D50C2C3D"
 			tasks: [{
@@ -3854,11 +3679,7 @@
 			y: -9.0d
 		}
 		{
-			dependencies: [
-				"77139DB3DC85CD55"
-				"5A0AC28A4AD35118"
-				"3D3B701917D59EF9"
-			]
+			dependencies: ["4E87A3C2D50C2C3D"]
 			hide_dependency_lines: true
 			id: "63DEFFE717A6CB60"
 			tasks: [{
@@ -3879,11 +3700,7 @@
 			y: -10.0d
 		}
 		{
-			dependencies: [
-				"77139DB3DC85CD55"
-				"5A0AC28A4AD35118"
-				"3D3B701917D59EF9"
-			]
+			dependencies: ["63DEFFE717A6CB60"]
 			hide_dependency_lines: true
 			id: "5C27CDFD23B20BBA"
 			tasks: [{
@@ -3905,11 +3722,7 @@
 		}
 		{
 			dependencies: ["6F6313140FFCA6EF"]
-			description: [
-				"These are just the first of many steps to assembling &#D2691EThe Creative Motor&r. It is the single most complex recipe in the pack and will require these radial engines and many more items from a multitude of different mods."
-				""
-				"Don't worry though! As always, if you explore the quest book, everything you need to know is explained to you as the book progresses. You have not heard the last of the creative motor but that is the last you'll hear for now. "
-			]
+			description: [""]
 			id: "50F25807DAD6047A"
 			rewards: [
 				{
@@ -3931,7 +3744,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513There's a lot packed into that little motor!"
 			tasks: [{
 				id: "712FCA48E7B398F3"
 				item: {
@@ -4206,8 +4018,8 @@
 				type: "item"
 			}]
 			title: "&lCrude Oil Bucket"
-			x: 16.0d
-			y: -2.5d
+			x: 16.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["33BC91A192BF16B1"]

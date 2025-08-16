@@ -878,13 +878,15 @@
 			dependencies: [
 				"214097D45CC5262C"
 				"381D91B7B6C74082"
-				"04FDAEE548F05818"
 				"16D6864FC269A2F3"
 				"798FEC0BB0EAB8D5"
 				"34A843735D8A5881"
 				"3D54BC74E9FA687D"
 				"2B0B69B7B79D1D84"
 				"19C32F0E30411935"
+				"16082792AF6D2AD6"
+				"754F16572E09789D"
+				"40B4AD7AFFC21690"
 			]
 			description: [
 				"  Think you got enough instruments to form your own    &l&#D2691EBand&r&r?"
@@ -924,9 +926,18 @@
 			]
 			size: 1.5d
 			tasks: [{
-				id: "382C22F1FD3530DA"
-				title: "&lLet's Start Looking for Band Members!"
-				type: "checkmark"
+				id: "32FDC6CDDE206D2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
 			}]
 			x: 9.0d
 			y: -6.75d
@@ -990,26 +1001,6 @@
 			}]
 			x: 6.5d
 			y: -6.0d
-		}
-		{
-			dependencies: ["19C32F0E30411935"]
-			id: "04FDAEE548F05818"
-			rewards: [{
-				id: "6EC90E6A0FB207FA"
-				type: "xp"
-				xp: 5
-			}]
-			tasks: [{
-				id: "25ABE7C31D62756A"
-				item: {
-					Count: 1
-					id: "immersive_melodies:lute"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: -5.0d
 		}
 		{
 			dependencies: ["19C32F0E30411935"]
@@ -8811,6 +8802,81 @@
 			title: "&lThat's Relic-ulous!"
 			x: 8.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "16082792AF6D2AD6"
+			rewards: [{
+				id: "73C99AB7C72524FE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0B93F94732C769C2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_melodies:ender_bass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "40B4AD7AFFC21690"
+			rewards: [{
+				id: "34AFFE4E0C238DAE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "34BAC35D1CCB6213"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_melodies:handpan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["19C32F0E30411935"]
+			id: "754F16572E09789D"
+			rewards: [{
+				id: "319EA777D264504E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "740DAE4B99D9A38E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "immersive_melodies:vielle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
 		}
 	]
 	title: "&eFun Collection Quests"

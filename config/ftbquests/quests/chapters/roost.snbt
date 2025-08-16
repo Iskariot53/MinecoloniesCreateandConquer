@@ -75,11 +75,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"1C06D0643A1A3CD6"
-				"4386DFA29FCEDD4D"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["1C06D0643A1A3CD6"]
 			description: ["  Catch your first vanilla chicken using the        &#D2691E&lChicken Stick&r&r. Vanilla chickens are essential   for crafting the &l&#D2691EBreeder&r&r block, which is the    core of the Roost Ultimate mod. Most of your     chicken breeding will be done inside the            Breeder to obtain all types of chickens from     Tier 1 to Tier 9."]
 			hide_until_deps_visible: true
 			id: "6C435C7136BA92C9"
@@ -105,10 +101,8 @@
 		}
 		{
 			dependencies: [
-				"4386DFA29FCEDD4D"
 				"6C435C7136BA92C9"
 				"01079DE692B0FDC1"
-				"517B276D1D59EC02"
 			]
 			description: [
 				"  A simple Roost setup consists of at least &l&#D2691E1   Roost, 1 Breeder, and 1 Trainer."
@@ -172,11 +166,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"1C06D0643A1A3CD6"
-				"4386DFA29FCEDD4D"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["1C06D0643A1A3CD6"]
 			description: [
 				"  Chickens have different tiers            depending on the type of resources    they can produce. Chickens of higher   tiers can provide more valuable          resources that are harder to obtain   or belong in the end-game."
 				""
@@ -237,11 +227,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"2F4EC3771D41D693"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["2F4EC3771D41D693"]
 			description: [
 				"  Now that you have learnt the basics,   it is time to start looking into obtaining  chickens of higher tiers."
 				""
@@ -292,11 +278,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1A4AD68A9B4E4694"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["1A4AD68A9B4E4694"]
 			description: ["  Obtain a &l&#D2691ETier 3 Chicken&r&r to be able   to extract a &l&#D2691ETier 3 Chicken Soul&r&r     and make some &l&#D2691ETier 3 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "5F88C2724BD3710D"
@@ -343,11 +325,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"5F88C2724BD3710D"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["5F88C2724BD3710D"]
 			description: ["  Obtain a &l&#D2691ETier 4 Chicken&r&r to be able   to extract a &l&#D2691ETier 4 Chicken Soul&r&r     and make some &l&#D2691ETier 4 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "3FD822D14A220FDF"
@@ -394,11 +372,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"3FD822D14A220FDF"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["3FD822D14A220FDF"]
 			description: ["  Obtain a &l&#D2691ETier 5 Chicken&r&r to be able   to extract a &l&#D2691ETier 5 Chicken Soul&r&r     and make some &l&#D2691ETier 5 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "672BFCAB5B703608"
@@ -446,11 +420,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"672BFCAB5B703608"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["672BFCAB5B703608"]
 			description: ["  Obtain a &l&#D2691ETier 6 Chicken&r&r to be able   to extract a &l&#D2691ETier 6 Chicken Soul&r&r     and make some &l&#D2691ETier 6 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "1A675526ABF1871F"
@@ -498,11 +468,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1A675526ABF1871F"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["1A675526ABF1871F"]
 			description: ["  Obtain a &l&#D2691ETier 7 Chicken&r&r to be able   to extract a &l&#D2691ETier 7 Chicken Soul&r&r     and make some &l&#D2691ETier 7 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "389A22E99EF7CCF6"
@@ -550,11 +516,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"389A22E99EF7CCF6"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["389A22E99EF7CCF6"]
 			description: ["  Obtain a &l&#D2691ETier 8 Chicken&r&r to be able   to extract a &l&#D2691ETier 8 Chicken Soul&r&r     and make some &l&#D2691ETier 8 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "64D6890763153102"
@@ -602,11 +564,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"64D6890763153102"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["64D6890763153102"]
 			description: ["  Obtain a &l&#D2691ETier 9 Chicken&r&r to be able   to extract a &l&#D2691ETier 9 Chicken Soul&r&r     and make some &l&#D2691ETier 9 Chicken        Seeds&r&r."]
 			hide_until_deps_visible: true
 			id: "477692F18537EC03"
@@ -654,11 +612,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"4386DFA29FCEDD4D"
-				"1A675526ABF1871F"
-				"517B276D1D59EC02"
-			]
+			dependencies: ["1A675526ABF1871F"]
 			description: [
 				"  Now that you have obtained the 6       Tiers of Chicken Souls, you can craft   a &l&#D2691ESoul Breeder&r&r!"
 				""
