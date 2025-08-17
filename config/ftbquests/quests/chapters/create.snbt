@@ -4022,7 +4022,8 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4044,7 +4045,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4066,7 +4068,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4093,6 +4096,43 @@
 				"06DE55B8F9F4A557"
 				"1DC8C706C321F8A5"
 				"59B58F487D188A06"
+				"04AFCC802A95B37A"
+				"59C6B5698F798714"
+				"3AF12597B4D40B36"
+				"7C476F89965FCF17"
+				"1B277C97816926DE"
+				"5B8F28A6B6FBE455"
+				"7B31C25BB3E0D7C7"
+				"65C406A97EFD33DE"
+				"4B730A73D9E63828"
+				"4BE2025085DE9BA3"
+				"458C8D1F12614FE2"
+				"15FFACA9EF7411B6"
+				"6935DAA7AFBA09BD"
+				"591A0801CF7DCAB3"
+				"62B6EA4B08F5A59D"
+				"6152DFDF772AA6F0"
+				"0D8BB62C775AE225"
+				"5126D48AA91085A1"
+				"3FD6CADFC1423115"
+				"14E7320394ADB829"
+				"598310C96FF4D59D"
+				"3C76F1CE6BF42129"
+				"2B862AB55DBFA2E9"
+				"450C5193B4D554A1"
+				"6B8D621B3B96956B"
+				"56BAA053037CD8F8"
+				"2DD62B3C6563E627"
+				"458536A402DFEE0C"
+				"370EE949AEBE45CD"
+				"13E5FDF86F0BEB23"
+				"5AE777B509FB429E"
+				"582140A33FB3DB49"
+				"17E433AB2DD76A23"
+				"2D79E2320B3ACB8C"
+				"2AA5DD13AA2ED4A6"
+				"1C25E347F52DE6B0"
+				"6679821D47E81F73"
 			]
 			description: [
 				"To craft the Creative Motor you will need to acquire:"
@@ -4111,6 +4151,7 @@
 				"Once you have collected these 37 items and the necessary mechanical crafters to assemble them, the next section of quests can be used as a checklist and visual aid on how to arrange and fill them, if needed."
 			]
 			hide_dependent_lines: true
+			hide_until_deps_visible: false
 			id: "33BC91A192BF16B1"
 			rewards: [
 				{
@@ -4151,7 +4192,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4173,7 +4215,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4195,7 +4238,8 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4217,7 +4261,8 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4239,7 +4284,8 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4261,7 +4307,8 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4283,7 +4330,8 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4305,7 +4353,8 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4327,7 +4376,8 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4349,7 +4399,8 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4371,7 +4422,8 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4393,7 +4445,8 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4415,7 +4468,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4437,7 +4491,8 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4459,7 +4514,8 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4481,7 +4537,8 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4503,7 +4560,8 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4525,7 +4583,8 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4547,7 +4606,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4569,7 +4629,8 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4591,7 +4652,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4613,7 +4675,8 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4635,7 +4698,8 @@
 			y: -11.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4657,7 +4721,8 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4679,7 +4744,8 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4701,7 +4767,8 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4723,7 +4790,8 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4745,7 +4813,8 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4767,7 +4836,8 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4789,7 +4859,8 @@
 			y: -14.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4811,7 +4882,8 @@
 			y: -13.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4833,7 +4905,8 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4855,7 +4928,8 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
@@ -4877,7 +4951,8 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["33BC91A192BF16B1"]
+			dependencies: ["59B58F487D188A06"]
+			hide_dependency_lines: true
 			icon: {
 				Count: 1
 				ForgeCaps: {
