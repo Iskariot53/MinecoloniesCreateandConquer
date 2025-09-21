@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "ccextras:ether_egg"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "industrialforegoing:ether_gas",
+      "nbt": {}
+    }
+  ]
+}

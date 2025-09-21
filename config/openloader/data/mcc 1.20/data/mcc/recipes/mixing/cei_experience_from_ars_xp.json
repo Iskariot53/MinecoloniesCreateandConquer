@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "ars_nouveau:greater_experience_gem"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "create_enchantment_industry:experience"
+    }
+  ]
+}

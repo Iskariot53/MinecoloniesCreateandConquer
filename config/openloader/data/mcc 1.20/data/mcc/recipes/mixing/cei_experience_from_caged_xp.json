@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+	{
+      "item": "cagedmobs:crystallized_experience_block"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "create_enchantment_industry:experience"
+    }
+  ]
+}

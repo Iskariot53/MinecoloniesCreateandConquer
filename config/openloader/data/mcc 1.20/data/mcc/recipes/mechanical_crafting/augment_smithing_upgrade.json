@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "thermal:invar_plate"
+    },
+    "C": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal_extra:augment_smithing_upgrade"
+  }
+}

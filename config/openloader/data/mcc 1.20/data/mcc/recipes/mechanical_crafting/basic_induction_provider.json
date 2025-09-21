@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:dusts/lithium"
+    },
+    "B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "C": {
+      "item": "mekanism:basic_energy_cube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:basic_induction_provider"
+  }
+}

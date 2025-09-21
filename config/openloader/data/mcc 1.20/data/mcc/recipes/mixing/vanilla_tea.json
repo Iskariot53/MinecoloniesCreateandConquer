@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "pamhc2trees:vanillabeanitem"
+    },
+    {
+      "fluid": "createcafe:melted_sugar",
+      "amount": 250
+    },
+    {
+      "fluidTag": "forge:milk",
+	  "amount": 250
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "fluid": "createcafe:vanilla_tea"
+    }
+  ]
+}

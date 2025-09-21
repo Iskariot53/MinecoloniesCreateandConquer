@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "thermal:apatite"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "thermal:bronze_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal_extra:shellite_ingot"
+  
+    }
+  ],
+  "heatRequirement": "heated"
+}

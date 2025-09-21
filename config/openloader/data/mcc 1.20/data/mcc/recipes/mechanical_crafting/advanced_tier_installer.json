@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_infused"
+    },
+    "B": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "C": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:advanced_tier_installer"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanismgenerators:solar_generator"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "tag": "forge:ingots/osmium"
+    },
+    "D": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:advanced_solar_generator"
+  }
+}

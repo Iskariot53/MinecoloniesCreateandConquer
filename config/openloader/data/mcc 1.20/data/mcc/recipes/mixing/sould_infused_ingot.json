@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "thermal:apatite"
+    },
+    {
+      "item": "thermal_extra:soul_sand_dust"
+    },
+    {
+      "item": "thermal_extra:soul_sand_dust"
+    },
+    {
+      "item": "thermal:invar_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal_extra:soul_infused_ingot"
+  
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+	  "type": "forge:nbt",
+      "item": "productivebees:configurable_honeycomb",
+	   "nbt": {
+            "EntityTag": {
+                "type": "productivebees:hematophagous"
+            }
+        }
+    }
+  ],
+  "results": [
+    {
+      "amount": 250,
+      "fluid": "bloodmagic:life_essence_fluid"
+    }
+	
+  ]
+}

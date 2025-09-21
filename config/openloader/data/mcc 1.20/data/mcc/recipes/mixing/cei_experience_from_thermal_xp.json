@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "amount": 1000,
+      "fluid": "cofh_core:experience"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "create_enchantment_industry:experience"
+    }
+  ]
+}

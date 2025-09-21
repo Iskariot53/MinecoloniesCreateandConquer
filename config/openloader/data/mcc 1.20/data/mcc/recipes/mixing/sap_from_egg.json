@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "ccextras:sap_egg"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "thermal:sap",
+      "nbt": {}
+    }
+  ]
+}

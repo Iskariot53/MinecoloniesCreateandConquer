@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "amount": 1000,
+      "fluid": "cofh_core:experience"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "industrialforegoing:essence"
+    }
+  ]
+}

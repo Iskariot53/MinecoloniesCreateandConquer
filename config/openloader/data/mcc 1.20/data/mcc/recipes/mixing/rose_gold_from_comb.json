@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+	  "type": "forge:nbt",
+      "item": "productivebees:configurable_honeycomb",
+	   "nbt": {
+            "EntityTag": {
+                "type": "productivebees:rose_gold"
+            }
+        }
+    }
+  ],
+  "results": [
+    {
+      "amount": 50,
+      "fluid": "productivebees:honey",
+	  "chance": 0.25
+    },
+	{
+      "count": 3,
+      "item": "thermal:rose_gold_nugget",
+	  "chance": 0.5
+    }
+  ]
+}

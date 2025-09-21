@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:cobblestone"
+    },
+    "B": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "item": "industrialforegoing:plastic"
+    },
+    "D": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:basic_bin"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:shears"
+    },
+    "C": {
+      "item": "minecraft:bucket"
+    },
+    "D": {
+      "tag": "forge:gears/gold"
+    },
+    "E": {
+      "item": "industrialforegoing:machine_frame_pity"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:animal_rancher"
+  }
+}

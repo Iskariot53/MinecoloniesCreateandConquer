@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "mekanism:energy_tablet"
+    },
+    "D": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "BDB",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:basic_energy_cube"
+  }
+}

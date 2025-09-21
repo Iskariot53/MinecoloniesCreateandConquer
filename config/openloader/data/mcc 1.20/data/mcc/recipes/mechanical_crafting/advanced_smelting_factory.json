@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_infused"
+    },
+    "B": {
+      "tag": "forge:ingots/osmium"
+    },
+    "C": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "D": {
+      "item": "mekanism:basic_smelting_factory"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "BDB",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:advanced_smelting_factory"
+  }
+}

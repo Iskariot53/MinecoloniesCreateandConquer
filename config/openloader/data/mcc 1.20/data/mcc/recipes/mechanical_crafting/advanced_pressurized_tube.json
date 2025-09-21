@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+    "count": 8,
+    "item": "mekanism:advanced_pressurized_tube"
+  }
+}

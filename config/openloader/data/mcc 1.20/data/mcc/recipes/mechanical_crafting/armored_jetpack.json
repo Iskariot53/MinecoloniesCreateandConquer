@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "tag": "forge:dusts/diamond"
+    },
+    "C": {
+      "tag": "forge:ingots/bronze"
+    },
+    "D": {
+      "item": "mekanism:jetpack"
+    },
+    "E": {
+      "tag": "forge:storage_blocks/steel"
+    }
+  },
+  "pattern": [
+    "B B",
+    "CEC",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:jetpack_armored"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+	  "type": "forge:nbt",
+      "item": "productivebees:configurable_honeycomb",
+	   "nbt": {
+            "EntityTag": {
+                "type": "productivebees:fluorite"
+            }
+        }
+    }
+  ],
+  "results": [
+    {
+      "amount": 50,
+      "fluid": "productivebees:honey",
+	  "chance": 0.25
+    },
+	{
+      "count": 1,
+      "item": "mekanism:fluorite_gem",
+	  "chance": 0.5
+    }
+  ]
+}

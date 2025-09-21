@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {      
+      "item": "create:experience_block"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "industrialforegoing:essence"
+    }
+  ]
+}

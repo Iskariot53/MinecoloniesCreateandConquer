@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "D": {
+      "item": "mekanism:energy_tablet"
+    },
+    "C": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "E": {
+      "item": "mekanism:ingot_refined_obsidian"
+    }
+  },
+  "pattern": [
+    "BDB",
+    "BCB",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:atomic_disassembler"
+  }
+}

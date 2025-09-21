@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "C": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "D": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "E": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "F": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "G": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACDCA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:antiprotonic_nucleosynthesizer"
+  }
+}

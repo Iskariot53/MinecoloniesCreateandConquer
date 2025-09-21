@@ -1,0 +1,34 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:bone_meal"
+    },
+	{
+      "item": "ae2:silicon"
+    },
+	{
+      "item": "minecraft:slime_ball"
+    },
+	{
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "amount": 2,
+      "item": "appflux:insulating_resin"
+    }
+  ]
+}

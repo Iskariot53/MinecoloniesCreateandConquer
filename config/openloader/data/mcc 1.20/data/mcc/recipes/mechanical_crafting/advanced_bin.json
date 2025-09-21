@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:cobblestone"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "item": "mekanism:basic_bin"
+    },
+    "D": {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:advanced_bin"
+  }
+}

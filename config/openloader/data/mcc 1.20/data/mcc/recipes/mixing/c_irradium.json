@@ -1,0 +1,33 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "chicken_roost:c_endstone"
+    },
+    {
+      "item": "chicken_roost:chicken_essence_tier_7"
+    },
+    {
+      "item": "enlightened_end:irradium_bar"
+    },
+    {
+      "item": "enlightened_end:irradium_bar"
+    },
+    {
+      "item": "enlightened_end:irradium_bar"
+    },
+    {
+      "item": "enlightened_end:irradium_bar"
+    },
+    {
+      "amount": 1000,
+      "fluid": "enlightened_end:ooze_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "chicken_roost:c_irradium"
+    }
+  ]
+}
