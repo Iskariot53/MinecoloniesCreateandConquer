@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:ingots/lead"
+    },
+    "C": {
+      "item": "mekanism:laser_amplifier"
+    },
+    "D": {
+      "tag": "mekanism:personal_storage"
+    },
+    "E": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:laser_tractor_beam"
+  }
+}

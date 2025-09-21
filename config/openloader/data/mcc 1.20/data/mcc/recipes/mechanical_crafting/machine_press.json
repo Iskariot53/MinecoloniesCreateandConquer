@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:storage_blocks/iron"
+    },
+    "C": {
+      "tag": "forge:ingots/bronze"
+    },
+    "D": {
+      "item": "thermal:machine_frame"
+    },
+    "E": {
+      "tag": "forge:gears/constantan"
+    },
+    "F": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:machine_press"
+  }
+}

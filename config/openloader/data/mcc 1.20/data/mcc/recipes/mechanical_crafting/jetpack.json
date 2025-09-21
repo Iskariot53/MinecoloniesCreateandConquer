@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/brass"
+    },
+    "B": {
+      "tag": "forge:ingots/steel"
+    },
+    "C": {
+      "tag": "forge:ingots/tin"
+    },
+    "D": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "E": {
+      "item": "mekanism:basic_chemical_tank"
+    }
+  },
+  "pattern": [
+    "BDB",
+    "CEC",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:jetpack"
+  }
+}

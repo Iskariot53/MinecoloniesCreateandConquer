@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "B": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "D": {
+      "item": "mekanism:pellet_plutonium"
+    },
+    "E": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "pattern": [
+    " DE",
+    "BCD",
+    "AB "
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekaweapons:katana_blade"
+  }
+}

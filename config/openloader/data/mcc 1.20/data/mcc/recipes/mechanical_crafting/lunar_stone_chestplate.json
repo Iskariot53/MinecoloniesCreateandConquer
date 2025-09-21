@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "celestisynth:lunar_scrap"
+    },
+    "B": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "C": {
+      "item": "celestisynth:lunar_stone"
+    },
+    "D": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "CDC",
+    "ABA",
+	"AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "celestisynth:lunar_stone_chestplate"
+  }
+}
