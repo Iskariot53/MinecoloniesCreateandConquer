@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "thermal:steel_ingot"
+    },
+    {
+      "count": 4,
+      "item": "thermal:tin_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:bucket"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanismgenerators:saturating_condenser"
+}

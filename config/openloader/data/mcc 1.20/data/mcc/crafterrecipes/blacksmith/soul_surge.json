@@ -1,0 +1,26 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:stone"
+    },
+    {
+      "count": 2,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/industrial_t3_unlock",
+  "result": "industrialforegoingsouls:soul_surge"
+}

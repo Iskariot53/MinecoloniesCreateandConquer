@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "minecraft:deepslate"
+    },
+    {
+      "count": 2,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/industrial_t3_unlock",
+  "result": "industrialforegoingsouls:soul_network_pipe"
+}

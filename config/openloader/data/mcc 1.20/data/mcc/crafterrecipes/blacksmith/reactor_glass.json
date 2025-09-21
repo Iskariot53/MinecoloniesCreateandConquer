@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 4,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "thermal:lead_ingot"
+    },
+    {
+      "count": 4,
+      "item": "mekanism:enriched_iron"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:glass"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanismgenerators:reactor_glass"
+}

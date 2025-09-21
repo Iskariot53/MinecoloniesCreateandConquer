@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 5,
+      "item": "thermal:steel_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:chest"
+    },
+    {
+	  "count": 1,
+      "item": "minecraft:glass"
+    },
+    {
+	  "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanism:personal_chest"
+}

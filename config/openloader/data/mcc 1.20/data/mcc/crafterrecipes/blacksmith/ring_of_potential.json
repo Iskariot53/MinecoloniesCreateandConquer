@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+	  "count": 8,
+      "item": "minecraft:iron_nugget"
+    },
+	{
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "mcc:effects/ars_t1_unlock",
+  "result": "ars_nouveau:ring_of_potential"
+}

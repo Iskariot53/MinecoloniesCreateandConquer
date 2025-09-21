@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "thermal:tin_ingot"
+    },
+    {
+      "count": 4,
+      "item": "thermal:bronze_nugget"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:hdpe_sheet"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanism:module_base"
+}
