@@ -1,0 +1,592 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper"
+        }
+      ],
+      "functions": [
+        {
+          "add": false,
+          "count": 3.0,
+          "function": "minecraft:set_count"
+        },
+        {
+          "count": {
+            "type": "minecraft:uniform",
+            "max": 1.0,
+            "min": 0.0
+          },
+          "function": "minecraft:looting_enchant"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "quality": 3,
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 19
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "twilightforest:entities/death_tome_books"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "twilightforest:magic_map_focus"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_interact"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_self"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_underfoot"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_amplify"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_phantom_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_bounce"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_sensitive"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_light"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_craft"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_cut"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_dispel"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_freeze"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_phantom_block"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_leap"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_launch"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_launch"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_gust"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_pickup"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_ignite"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_harvest"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_pull"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_redstone_signal"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_snare"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_summon_steed"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_summon_wolves"
+        }
+      ],
+      "rolls": 1.0
+    },
+	{
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.01,
+          "condition": "minecraft:random_chance_with_looting",
+          "looting_multiplier": 0.005
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ars_nouveau:glyph_toss"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "twilightforest:entities/death_tome"
+}
