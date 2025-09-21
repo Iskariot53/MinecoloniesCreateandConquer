@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#FFFF33",
+    "secondaryColor": "#00FF00",
+    "renderer": "default",
+    "description": "A bee with a knack for taming creatures. To obtain this bee, refer to jei for the spawn egg recipe.",
+    "flowerItem": "minecraft:lead",
+    "createComb": true,
+	"fireproof": true,
+    "draconic": false,
+    "selfbreed": true,
+	"attributes": {
+        "temper": 0,
+        "behavior": 0,
+        "weather_tolerance": 2
+	}
+}

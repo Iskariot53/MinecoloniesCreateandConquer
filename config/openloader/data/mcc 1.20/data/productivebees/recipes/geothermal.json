@@ -1,0 +1,39 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PMP",
+        "BEB",
+        "PMP"
+    ],
+    "key": {
+        "M": {
+            "item": "create:precision_mechanism"
+        },
+        "B": {
+            "item": "scguns:vent_collector"
+        },
+        "E": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:iron\"}}"
+        },
+        "P": {
+            "tag": "forge:storage_blocks/niter"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:geothermal\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:iron"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:geothermal"
+        }
+    ]
+}

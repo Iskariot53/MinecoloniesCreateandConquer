@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:dark_metal"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "born_in_chaos_v1:pieceofdarkmetal"
+            },
+            "chance": 25
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ]
+}

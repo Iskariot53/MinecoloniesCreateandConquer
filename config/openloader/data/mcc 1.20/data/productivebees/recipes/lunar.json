@@ -1,0 +1,39 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PMP",
+        "BEB",
+        "PMP"
+    ],
+    "key": {
+        "M": {
+            "item": "create:precision_mechanism"
+        },
+        "B": {
+            "item": "celestisynth:lunar_stone"
+        },
+        "E": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:lapis\"}}"
+        },
+        "P": {
+            "item": "celestisynth:lunar_scrap"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:lunar\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:lapis"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:lunar"
+        }
+    ]
+}

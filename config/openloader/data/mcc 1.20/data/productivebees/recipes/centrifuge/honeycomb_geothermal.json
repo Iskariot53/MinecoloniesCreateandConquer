@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:geothermal"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "scguns:niter_dust"
+            },
+            "chance": 25
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ]
+}

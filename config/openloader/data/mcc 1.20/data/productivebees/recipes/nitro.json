@@ -1,0 +1,29 @@
+{
+	"type": "celestisynth:starlit_factory",
+		  "core_material": {
+			"item": "scguns:nitro_powder"
+		  },
+		  "extra_core_material": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:geothermal\"}}"
+        },
+		  "forging_time": 6000,
+		  "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:nitro\"}}"
+		},
+		  "supporting_core_material": {
+			"item": "scguns:nitro_powder"
+		  },
+		  "supporting_material_bottom": {
+			"item": "scguns:nitro_keg"
+		  },
+		  "supporting_material_middle": {
+			"item": "scguns:scorched_ingot"
+		  },
+		  "supporting_material_top": {
+			"item": "scguns:nitro_keg"
+		  }
+}

@@ -1,0 +1,39 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PMP",
+        "BEB",
+        "PMP"
+    ],
+    "key": {
+        "M": {
+            "item": "minecraft:end_stone"
+        },
+        "B": {
+            "item": "enlightened_end:palerock"
+        },
+        "E": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:brass\"}}"
+        },
+        "P": {
+            "item": "enlightened_end:malachite_block"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:end_malachite\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:brass"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:end_malachite"
+        }
+    ]
+}

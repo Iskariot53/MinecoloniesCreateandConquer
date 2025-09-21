@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#800020",
+    "secondaryColor": "#461326",
+    "renderer": "default",
+    "description": "A highly unstable bee. To obtain this bee, refer to jei for the spawn egg recipe.",
+    "flowerItem": "scguns:nitro_keg",
+    "createComb": true,
+	"fireproof": true,
+    "draconic": false,
+    "selfbreed": true,
+	"attributes": {
+        "temper": 0,
+        "behavior": 0,
+        "weather_tolerance": 2
+	}
+}

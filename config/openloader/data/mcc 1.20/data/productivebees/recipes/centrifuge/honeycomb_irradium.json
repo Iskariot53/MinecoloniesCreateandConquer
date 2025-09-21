@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:irradium"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "enlightened_end:raw_irradium"
+            },
+            "chance": 50
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ]
+}

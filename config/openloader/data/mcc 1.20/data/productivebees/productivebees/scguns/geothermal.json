@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#CCCC99",
+    "secondaryColor": "#CCCCCC",
+    "renderer": "default",
+    "description": "A bee drawn to geothermal activity. To obtain this bee, refer to jei for the spawn egg recipe.",
+    "flowerTag": "forge:storage_blocks/niter",
+    "createComb": true,
+	"fireproof": true,
+    "draconic": false,
+    "selfbreed": true,
+	"attributes": {
+        "temper": 0,
+        "behavior": 0,
+        "weather_tolerance": 1
+	}
+}

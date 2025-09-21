@@ -1,0 +1,39 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "LML",
+        "BEB",
+        "LML"
+    ],
+    "key": {
+        "M": {
+            "item": "create:precision_mechanism"
+        },
+        "B": {
+            "item": "create:brass_ingot"
+        },
+        "E": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:brass\"}}"
+        },
+        "L": {
+            "item": "create_unbreakable:luminarchy"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:luminarchy\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:brass"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:luminarchy"
+        }
+    ]
+}

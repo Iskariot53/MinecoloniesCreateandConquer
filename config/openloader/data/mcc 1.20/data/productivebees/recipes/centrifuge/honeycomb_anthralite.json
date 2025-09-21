@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:anthralite"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "scguns:raw_anthralite"
+            },
+            "chance": 50
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ]
+}

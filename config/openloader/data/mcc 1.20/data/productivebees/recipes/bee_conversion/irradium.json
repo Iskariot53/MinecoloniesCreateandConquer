@@ -1,0 +1,15 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:end_bismuth",
+  "result": "productivebees:irradium",
+  "item": {
+    "item": "enlightened_end:irradium_bar"
+  },
+  "chance": 30,
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:irradium"
+    }
+  ]
+}

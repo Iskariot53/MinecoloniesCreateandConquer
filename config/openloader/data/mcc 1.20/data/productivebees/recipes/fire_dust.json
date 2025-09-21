@@ -1,0 +1,39 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PMP",
+        "BEB",
+        "PMP"
+    ],
+    "key": {
+        "M": {
+            "item": "create:precision_mechanism"
+        },
+        "B": {
+            "item": "born_in_chaos_v1:ethereal_spirit"
+        },
+        "E": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:coal\"}}"
+        },
+        "P": {
+            "item": "born_in_chaos_v1:fire_dust"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:fiery\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:coal"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:fiery"
+        }
+    ]
+}

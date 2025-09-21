@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:philolite"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "create_unbreakable:philolite"
+            },
+            "chance": 25
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ]
+}

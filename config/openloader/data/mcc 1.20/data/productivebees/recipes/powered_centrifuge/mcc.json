@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RBR",
+    "ICI",
+    "RBR"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "C": {
+      "item": "productivebees:centrifuge"
+    }
+  },
+  "result": {
+    "item": "productivebees:powered_centrifuge"
+  }
+}

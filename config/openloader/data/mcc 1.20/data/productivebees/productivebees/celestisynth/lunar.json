@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#0033FF",
+    "secondaryColor": "#0066FF",
+    "renderer": "default",
+    "description": "A bee attuned to the lunar cycle. To obtain this bee, refer to jei for the spawn egg recipe.",
+    "flowerItem": "celestisynth:lunar_scrap",
+    "createComb": true,
+	"fireproof": true,
+    "draconic": false,
+    "selfbreed": true,
+	"attributes": {
+        "temper": 0,
+        "behavior": 1,
+        "weather_tolerance": 2
+	}
+}

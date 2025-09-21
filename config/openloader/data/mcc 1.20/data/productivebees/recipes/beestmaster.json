@@ -1,0 +1,65 @@
+{
+    "type": "create:mechanical_crafting",
+	"acceptMirrored": true,
+    "pattern": [
+	   "  A  ",
+       " BCD ",
+       "EFGHI",
+       " JKL "
+    ],
+    "key": {
+        "A": {
+            "item": "player_companions:tame_apple"
+        },
+        "B": {
+            "item": "player_companions:tame_bone"
+        },
+		"C": {
+            "item": "player_companions:tame_cake"
+        },
+		"D": {
+            "item": "player_companions:tame_carrot"
+        },
+		"E": {
+            "item": "player_companions:tame_honeycomb"
+        },
+		"F": {
+            "item": "player_companions:tame_raw_mutton"
+        },
+        "G": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:brass\"}}"
+        },
+        "H": {
+            "item": "player_companions:tame_seagrass"
+        },
+		"I": {
+            "item": "player_companions:tame_sweet_berries"
+        },
+		"J": {
+            "item": "minecraft:lead"
+        },
+		"K": {
+            "item": "player_companions:tame_wheat_seeds"
+        },
+		"L": {
+            "item": "minecraft:lead"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:beestmaster\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:brass"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:beestmaster"
+        }
+    ]
+}

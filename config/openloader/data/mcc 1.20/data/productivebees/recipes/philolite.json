@@ -1,0 +1,39 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "PMP",
+        "BEB",
+        "PMP"
+    ],
+    "key": {
+        "M": {
+            "item": "create:precision_mechanism"
+        },
+        "B": {
+            "item": "create:brass_ingot"
+        },
+        "E": {
+            "type": "forge:nbt",
+            "item": "productivebees:spawn_egg_configurable_bee",
+            "nbt": "{EntityTag:{type:\"productivebees:brass\"}}"
+        },
+        "P": {
+            "item": "create_unbreakable:philolite"
+        }
+    },
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:philolite\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:brass"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:philolite"
+        }
+    ]
+}

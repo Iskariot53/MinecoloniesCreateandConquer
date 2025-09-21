@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:quantum"
+            }
+        }
+    },
+    "outputs": [
+        {
+         "item": {
+         "tag": "forge:wax"
+            }
+        },
+		{
+		 "fluid": {
+		 "fluid": "createteleporters:quantum_fluid"
+      },
+      "amount": 250
+    }
+  ]
+}

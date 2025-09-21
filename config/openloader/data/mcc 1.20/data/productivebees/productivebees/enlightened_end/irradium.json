@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#ccff00",
+    "secondaryColor": "#99ff33",
+    "renderer": "default",
+    "description": "A bee enlightened with the knowledge of irradium",
+    "flowerItem": "enlightened_end:irradium_block",
+    "createComb": true,
+	"fireproof": false,
+    "draconic": false,
+    "selfbreed": false,
+	"attributes": {
+        "temper": 0,
+        "behavior": 0,
+        "weather_tolerance": 2
+	}
+}

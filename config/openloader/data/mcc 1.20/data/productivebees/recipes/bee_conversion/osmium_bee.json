@@ -1,0 +1,15 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:anthralite",
+  "result": "productivebees:osmium",
+  "item": {
+    "item": "mekanism:block_osmium"
+  },
+  "chance": 100,
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:anthralite"
+    }
+  ]
+}

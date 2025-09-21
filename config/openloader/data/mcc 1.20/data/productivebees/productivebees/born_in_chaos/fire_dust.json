@@ -1,0 +1,16 @@
+{
+    "primaryColor": "#BA110C",
+    "secondaryColor": "#000000",
+    "renderer": "default",
+    "description": "This bee with a fiery attitude. To obtain this bee, refer to jei for the spawn egg recipe.",
+    "flowerItem": "born_in_chaos_v1:fire_dust",
+    "createComb": true,
+	"fireproof": true,
+    "draconic": false,
+    "selfbreed": true,
+	"attributes": {
+        "temper": 1,
+        "behavior": 1,
+        "weather_tolerance": 2
+	}
+}

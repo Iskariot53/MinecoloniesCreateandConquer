@@ -1,0 +1,18 @@
+{
+    "primaryColor": "#9900CC",
+    "secondaryColor": "#990066",
+    "renderer": "default",
+    "description": "A bee that... Gets around... To obtain this bee, refer to jei for the spawn egg recipe.",
+    "flowerItem": "createteleporters:quantum_mechanism",
+    "createComb": true,
+	"fireproof": true,
+    "draconic": false,
+	"size": 0.6,
+	"teleporting": true,
+    "selfbreed": true,
+	"attributes": {
+        "temper": 0,
+        "behavior": 0,
+        "weather_tolerance": 2
+	}
+}

@@ -1,0 +1,25 @@
+{
+    "type": "productivebees:centrifuge",
+    "ingredient": {
+        "type": "forge:nbt",
+        "item": "productivebees:configurable_honeycomb",
+        "nbt": {
+            "EntityTag": {
+                "type": "productivebees:luminarchy"
+            }
+        }
+    },
+    "outputs": [
+        {
+            "item": {
+                "item": "create_unbreakable:luminarchy"
+            },
+            "chance": 25
+        },
+        {
+            "item": {
+                "tag": "forge:wax"
+            }
+        }
+    ]
+}
