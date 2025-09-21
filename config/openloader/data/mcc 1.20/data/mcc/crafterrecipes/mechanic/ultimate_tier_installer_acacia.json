@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "mekanism:alloy_atomic"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:diamond"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:acacia_planks"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:ultimate_tier_installer"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "mekanism:elite_induction_cell"
+    },
+    {
+      "count": 4,
+      "item": "mekanism:energy_tablet"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:ultimate_energy_cube"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:ultimate_induction_cell"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 2,
+      "item": "mekanism:energy_tablet"
+    },
+	{
+      "count": 3,
+      "item": "mekanism:ingot_osmium"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:alloy_infused"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:plastic"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanismgenerators:wind_generator"
+}

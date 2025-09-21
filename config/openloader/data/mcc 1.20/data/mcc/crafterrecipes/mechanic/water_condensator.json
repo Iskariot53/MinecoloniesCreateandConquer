@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:piston"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:redstone"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:water_bucket"
+    },
+	{
+      "count": 2,
+      "item": "thermal:iron_gear"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/industrial_t1_unlock",
+  "result": "industrialforegoing:water_condensator"
+}
