@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 9,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 4,
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    {
+      "count": 2,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:ingot_refined_glowstone"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:teleporter_frame"
+}

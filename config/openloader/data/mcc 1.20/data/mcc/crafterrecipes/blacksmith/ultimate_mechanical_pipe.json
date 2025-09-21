@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 8,
+      "item": "mekanism:elite_mechanical_pipe"
+    },
+    {
+	  "count": 1,
+      "item": "mekanism:alloy_atomic"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:ultimate_mechanical_pipe"
+}

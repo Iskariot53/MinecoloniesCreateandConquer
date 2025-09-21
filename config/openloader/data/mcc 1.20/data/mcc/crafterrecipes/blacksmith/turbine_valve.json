@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "mekanismgenerators:turbine_casing"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:advanced_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanismgenerators:turbine_valve"
+}

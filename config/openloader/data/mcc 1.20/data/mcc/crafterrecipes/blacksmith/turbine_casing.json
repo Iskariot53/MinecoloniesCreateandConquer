@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "thermal:steel_ingot"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:ingot_osmium"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanismgenerators:turbine_casing"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "mekanism:alloy_atomic"
+    },
+    {
+      "count": 4,
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+	  "count": 1,
+      "item": "mekanism:elite_chemical_tank"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:ultimate_chemical_tank"
+}

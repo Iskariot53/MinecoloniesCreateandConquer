@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 4,
+      "item": "mekanism:sps_casing"
+    },
+    {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:sps_port"
+}
