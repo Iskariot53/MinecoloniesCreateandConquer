@@ -1,0 +1,45 @@
+{
+  "name": "power.origins.carnivore.name",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:and",
+        "conditions": [
+          {
+            "type": "origins:or",
+            "conditions": [
+              {
+                "type": "origins:ingredient",
+                "ingredient": {
+                  "tag": "origins:meat"
+                }
+              },
+              {
+                "type": "origins:meat"
+              },
+              {
+                "type": "origins:ingredient",
+                "ingredient": {
+                  "tag": "oef:omnivore_only"
+                }
+              }
+            ],
+            "inverted": true
+          },
+          {
+            "type": "origins:food"
+          },
+          {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:ignore_diet"
+            },
+            "inverted": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "ae2:transform",
+  "circumstance": {
+    "type": "fluid",
+    "tag": "minecraft:water"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "ae2:flawed_budding_quartz"
+    }
+  ],
+  "result": {
+    "item": "ae2:flawless_budding_quartz"
+  }
+}

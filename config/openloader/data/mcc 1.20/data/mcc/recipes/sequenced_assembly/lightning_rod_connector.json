@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mekanism:ingot_osmium"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "scguns:lightning_rod_connector",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "minecraft:copper_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "create:brass_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "minecraft:copper_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	 {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+}

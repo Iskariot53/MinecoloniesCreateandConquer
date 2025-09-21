@@ -1,0 +1,78 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "industrialforegoing:plastic"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "tempad:tempad",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "minecraft:redstone"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "create:brass_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create_new_age:energising",
+      "energy_needed": 3000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mekanism:steel_casing"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "draconicevolution:basic_crafting_injector",
+	 "count": 2,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "cataclysm:ancient_metal_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+         "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "cataclysm:cursium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "cataclysm:witherite_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+		  "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "draconicevolution:draconium_core"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create_new_age:energising",
+      "energy_needed": 160000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "endermanoverhaul"
+		}
+	],
+	"entity": "endermanoverhaul:swamp_enderman",
+	"samplerTier": 2,
+	"environments": ["end", "warped_nylium"],
+	"growTicks": 1200,
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "minecraft:ender_pearl"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "endermanoverhaul:summoner_pearl"
+				},
+				"minAmount": 0,
+				"maxAmount": 1
+		}
+	]
+	
+}

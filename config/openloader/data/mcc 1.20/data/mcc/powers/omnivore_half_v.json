@@ -1,0 +1,40 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "reduce_mixed": {
+    "type": "origins:modify_food",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "oef:omnivore_only"
+      }
+    },
+    "food_modifier": {
+      "name": "Halved Food",
+      "operation": "multiply_total",
+      "value": -0.5
+    },
+    "saturation_modifier": {
+      "name": "Halved Saturation",
+      "operation": "multiply_total",
+      "value": -0.5
+    }
+  },
+  "mixed_tooltip": {
+    "type": "apoli:tooltip",
+    "item_condition": {
+      "type": "apoli:ingredient",
+      "ingredient": {
+        "tag": "oef:omnivore_only"
+      }
+    },
+    "text": [
+      {"text": "Halved Nutrition (","color":"gray"},
+      {
+        "translate": "power.origins.vegetarian.name",
+        "color": "yellow"
+      },
+      {"text": ")","color":"gray"}
+    ]
+  }
+}

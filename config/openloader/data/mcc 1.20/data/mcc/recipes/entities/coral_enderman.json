@@ -1,0 +1,44 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "endermanoverhaul"
+		}
+	],
+	"entity": "endermanoverhaul:coral_enderman",
+	"samplerTier": 1,
+	"environments": ["sand"],
+	"growTicks": 1200,
+	"requiresWater": true,
+	"results": [
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "minecraft:tropical_fish"
+				},
+				"output_cooked": {
+					"item": "minecraft:cooked_cod"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.05,
+				"output": {
+					"item": "minecraft:ender_pearl"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		},
+		{
+			"chance": 0.7,
+				"output": {
+					"item": "endermanoverhaul:bubble_pearl"
+				},
+				"minAmount": 0,
+				"maxAmount": 1
+		}
+	]
+	
+}

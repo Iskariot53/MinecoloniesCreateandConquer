@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ender_pearls"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:ender_dust"
+    },
+	{
+      "item": "wormhole_artifact:ender_nacre",
+	  "count": 4,
+	  "chance": 0.2
+	}
+  ],
+  "processingTime": 400
+}

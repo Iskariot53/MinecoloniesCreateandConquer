@@ -1,0 +1,42 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "tag": "forge:glass/silica"
+    },
+    {
+      "tag": "forge:glass/silica"
+    },
+    {
+      "tag": "forge:glass/silica"
+    },
+    {
+      "tag": "forge:glass/silica"
+    },
+    {
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+      "amount": 250,
+      "fluid": "industrialforegoing:ether_gas"
+    }
+  ],
+  "results": [
+    {
+      "item": "mekanism:steel_casing"
+    }
+  ]
+}

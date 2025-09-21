@@ -1,0 +1,16 @@
+{
+  "type": "ars_nouveau:crush",
+  "input": {
+    "item": "apotheosis:gem",
+	"rarity": "apotheotic_additions:artifact"
+  },
+  "output": [
+    {
+      "chance": 1.0,
+      "count": 14,
+      "item": "apotheosis:gem_dust",
+      "maxRange": 1
+    }
+  ],
+  "skip_block_place": false
+}

@@ -1,0 +1,42 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "item": "create:brass_ingot"
+    },
+    {
+      "tag": "thermal:glass/hardened"
+    },
+    {
+      "tag": "thermal:glass/hardened"
+    },
+    {
+      "tag": "thermal:glass/hardened"
+    },
+    {
+      "tag": "thermal:glass/hardened"
+    },
+    {
+      "item": "thermal:tin_gear"
+    },
+    {
+      "amount": 250,
+      "fluid": "industrialforegoing:ether_gas"
+    }
+  ],
+  "results": [
+    {
+      "item": "thermal:machine_frame"
+    }
+  ]
+}
