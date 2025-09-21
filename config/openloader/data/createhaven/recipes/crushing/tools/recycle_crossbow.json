@@ -1,0 +1,29 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:crossbow"
+    }
+  ],
+  "processingTime": 200,
+  "results": [
+    {
+      "count": 1,
+      "item": "minecraft:stick"
+    },
+    {
+      "chance": 0.5,
+      "count": 1,
+      "item": "minecraft:string"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "chance": 0.25,
+      "count": 4,
+      "item": "minecraft:iron_nugget"
+    }
+  ]
+}
