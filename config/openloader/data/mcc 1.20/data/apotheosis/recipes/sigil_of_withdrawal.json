@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [{
+	"type": "apotheosis:module",
+    "module": "adventure"
+  }],
+  "group": "something",
+  "pattern": [
+    "SBS",
+    "ELE",
+    "SGS"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+	"G": {
+      "item": "apotheosis:gem_dust"
+    },
+	"S": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+	"E": {
+      "tag": "forge:ender_pearls"
+    },
+	"L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "apotheosis:sigil_of_withdrawal",
+    "count": 4
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "conditions": [{
+	"type": "apotheosis:module",
+    "module": "adventure"
+  }],
+  "group": "something",
+  "pattern": [
+    "GDG",
+    "SSS",
+    "GEG"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dragon_breath"
+    },
+	"G": {
+      "item": "apotheosis:gem_dust"
+    },
+	"S": {
+      "item": "apotheosis:gem_fused_slate"
+    },
+	"E": {
+      "item": "minecraft:echo_shard"
+    }
+  },
+  "result": {
+    "item": "apotheosis:sigil_of_socketing",
+    "count": 3
+  }
+}

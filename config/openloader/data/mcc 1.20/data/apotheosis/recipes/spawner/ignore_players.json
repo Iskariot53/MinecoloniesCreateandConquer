@@ -1,0 +1,14 @@
+{
+	"type": "apotheosis:spawner_modifier",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "spawner"
+	}],
+	"mainhand": {
+		"item": "industrialforegoing:ether_gas_bucket"
+	},
+	"stat_changes": [{
+		"id": "ignore_players",
+		"value": true
+	}]
+}
