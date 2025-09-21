@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 3,
+      "item": "mekanism:pellet_polonium"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:module_base"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:alloy_atomic"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:tnt"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:module_blasting_unit"
+}

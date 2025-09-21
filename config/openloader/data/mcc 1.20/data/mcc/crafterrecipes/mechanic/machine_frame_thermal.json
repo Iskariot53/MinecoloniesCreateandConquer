@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:glass"
+    },
+	{
+      "count": 1,
+      "item": "thermal:tin_gear"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t5_unlock",
+  "result": "thermal:machine_frame"
+}

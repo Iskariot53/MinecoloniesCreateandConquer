@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 1,
+      "item": "minecraft:acacia_slab"
+    },
+	{
+      "count": 1,
+      "item": "create:andesite_casing"
+    },
+	{
+      "count": 1,
+      "item": "create:piston_extension_pole"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/create_t1_unlock",
+  "result": "create:mechanical_piston"
+}

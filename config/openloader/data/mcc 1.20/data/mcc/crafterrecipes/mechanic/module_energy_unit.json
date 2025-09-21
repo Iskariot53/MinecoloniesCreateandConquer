@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "mekanism:alloy_infused"
+    },
+	{
+      "count": 3,
+      "item": "mekanism:hdpe_sheet"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:module_base"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_induction_cell"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanism:module_energy_unit"
+}

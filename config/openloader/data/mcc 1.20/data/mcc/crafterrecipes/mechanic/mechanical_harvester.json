@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 2,
+      "item": "create:iron_sheet"
+    },
+	{
+      "count": 4,
+      "item": "create:andesite_alloy"
+    },
+	{
+      "count": 1,
+      "item": "create:andesite_casing"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/create_t1_unlock",
+  "result": "create:mechanical_harvester"
+}

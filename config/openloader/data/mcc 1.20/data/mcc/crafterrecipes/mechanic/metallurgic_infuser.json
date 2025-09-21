@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 3,
+      "item": "mekanism:ingot_osmium"
+    },
+	{
+      "count": 2,
+      "item": "create:brass_ingot"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:redstone"
+    },
+	{
+      "count": 1,
+      "item": "create:blaze_burner"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:metallurgic_infuser"
+}
