@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:wheat"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:golden_carrot"
+    },
+	{
+      "count": 2,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+	{
+      "count": 1,
+      "item": "thermal:gold_gear"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/industrial_t2_unlock",
+  "result": "industrialforegoing:animal_baby_separator"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 8,
+      "item": "mekanism:basic_logistical_transporter"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:alloy_infused"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanism:advanced_logistical_transporter"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "mekanismgenerators:solar_generator"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:ingot_osmium"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:alloy_infused"
+    },
+	{
+      "count": 1,
+      "item": "create:brass_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanismgenerators:advanced_solar_generator"
+}

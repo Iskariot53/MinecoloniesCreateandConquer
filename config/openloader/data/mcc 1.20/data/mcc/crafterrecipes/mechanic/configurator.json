@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:alloy_infused"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:stick"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:lapis_lazuli"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:energy_tablet"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanism:configurator"
+}

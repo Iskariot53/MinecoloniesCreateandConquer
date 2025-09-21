@@ -1,0 +1,39 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 2,
+      "item": "mekanism:alloy_atomic"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:elite_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "create:precision_mechanism"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:pellet_antimatter"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:steel_casing"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:antiprotonic_nucleosynthesizer"
+}

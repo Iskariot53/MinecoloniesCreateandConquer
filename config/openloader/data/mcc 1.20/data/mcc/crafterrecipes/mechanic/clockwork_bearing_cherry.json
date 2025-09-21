@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 1,
+      "item": "minecraft:cherry_slab"
+    },
+	{
+      "count": 1,
+      "item": "create:brass_casing"
+    },
+	{
+      "count": 1,
+      "item": "create:electron_tube"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/create_t3_unlock",
+  "result": "create:clockwork_bearing"
+}

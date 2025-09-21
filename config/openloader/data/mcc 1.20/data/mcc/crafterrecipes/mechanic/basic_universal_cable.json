@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 2,
+      "item": "thermal:steel_ingot"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:redstone"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanism:basic_universal_cable"
+}

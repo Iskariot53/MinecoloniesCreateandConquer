@@ -1,0 +1,39 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 2,
+      "item": "mekanism:alloy_infused"
+    },
+	{
+      "count": 2,
+      "item": "create:brass_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:personal_barrel"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_chemical_tank"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:dynamic_tank"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:chemical_oxidizer"
+}
