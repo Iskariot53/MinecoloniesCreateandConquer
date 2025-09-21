@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "chicken_roost:c_brass"
+    },
+    "B": {
+      "item": "mekanism:block_uranium"
+    },
+    "C": {
+      "item": "chicken_roost:chicken_essence_tier_6"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "chicken_roost:c_uranium"
+  }
+}

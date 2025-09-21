@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "B": {
+      "tag": "forge:nuggets/lead"
+    },
+    "C": {
+      "item": "thermal:electrum_ingot"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:dynamo_throttle_augment"
+  }
+}

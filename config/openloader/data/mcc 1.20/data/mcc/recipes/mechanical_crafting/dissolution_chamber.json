@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:chests"
+    },
+    "C": {
+      "item": "minecraft:bucket"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "E": {
+      "tag": "forge:storage_blocks/brass"
+    },
+    "F": {
+      "tag": "forge:gears/diamond"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:dissolution_chamber"
+  }
+}

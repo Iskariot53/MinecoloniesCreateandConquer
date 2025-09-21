@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "D": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "E": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "F": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "G": {
+      "tag": "forge:storage_blocks/diamond"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACDCA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:dimensional_stabilizer"
+  }
+}

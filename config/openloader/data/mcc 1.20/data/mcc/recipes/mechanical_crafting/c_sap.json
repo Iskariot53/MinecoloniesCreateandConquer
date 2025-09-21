@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "chicken_roost:c_ether"
+    },
+    "B": {
+      "item": "thermal:sap_bucket"
+    },
+    "C": {
+      "item": "chicken_roost:chicken_essence_tier_8"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "chicken_roost:c_sap"
+  }
+}

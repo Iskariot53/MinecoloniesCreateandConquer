@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:ingots/brass"
+    },
+    "C": {
+      "item": "minecraft:book"
+    },
+    "D": {
+      "tag": "forge:glass/silica"
+    },
+    "E": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "pattern": [
+    "AEA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:dictionary"
+  }
+}

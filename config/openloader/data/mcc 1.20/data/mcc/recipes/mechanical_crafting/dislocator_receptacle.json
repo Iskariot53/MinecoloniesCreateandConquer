@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CBC",
+        " D ",
+        "C C"
+    ],
+    "key": {
+        "B": {
+            "item": "draconicevolution:draconium_core"
+        },
+        "C": {
+            "item": "mekanism:ingot_osmium"
+        },
+		"D": {
+            "item": "draconicevolution:infused_obsidian"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:dislocator_receptacle"
+        }
+}

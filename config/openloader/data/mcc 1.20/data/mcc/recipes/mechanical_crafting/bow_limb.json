@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "tag": "forge:glass_panes"
+    },
+    "A": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekaweapons:bow_limb"
+  }
+}

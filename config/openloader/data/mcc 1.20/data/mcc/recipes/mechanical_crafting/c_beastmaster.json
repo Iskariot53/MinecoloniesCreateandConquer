@@ -1,0 +1,49 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "player_companions:tame_apple"
+    },
+    "B": {
+      "item": "player_companions:tame_bone"
+    },
+    "C": {
+      "item": "player_companions:tame_cake"
+    },
+    "D": {
+      "item": "player_companions:tame_carrot"
+    },
+    "E": {
+      "item": "player_companions:tame_honeycomb"
+    },
+    "F": {
+      "item": "player_companions:tame_raw_mutton"
+    },
+    "G": {
+      "item": "chicken_roost:c_brass"
+    },
+    "H": {
+      "item": "player_companions:tame_seagrass"
+    },
+    "I": {
+      "item": "player_companions:tame_sweet_berries"
+    },
+    "J": {
+      "item": "minecraft:lead"
+    },
+    "K": {
+      "item": "player_companions:tame_wheat_seeds"
+    }
+  },
+  "pattern": [
+    "  A  ",
+    " BCD ",
+    "EFGHI",
+	" JKJ "
+  ],
+  "result": {
+    "count": 1,
+    "item": "chicken_roost:c_beastmaster"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "item": "mekanism:energy_tablet"
+    },
+    "D": {
+      "tag": "forge:gems/lapis"
+    },
+    "E": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:configurator"
+  }
+}

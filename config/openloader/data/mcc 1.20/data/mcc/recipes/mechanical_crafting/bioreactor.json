@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "C": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "architects_palette:nether_brass_ingot"
+    },
+    "F": {
+      "tag": "forge:gears/gold"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:bioreactor"
+  }
+}

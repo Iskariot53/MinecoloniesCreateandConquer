@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "thermal:electrum_ingot"
+    },
+    "B": {
+      "item": "thermal:rf_coil"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "D": {
+      "tag": "forge:ingots/lead"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DBD"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:charge_bench"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "forge:gears/iron"
+    },
+    "C": {
+      "tag": "forge:glass"
+    },
+    "D": {
+      "item": "minecraft:composter"
+    },
+    "E": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:device_composter"
+  }
+}

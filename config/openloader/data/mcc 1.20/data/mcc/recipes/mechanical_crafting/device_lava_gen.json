@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "thermal_extra:soul_infused_rod"
+    },
+    "B": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "minecraft:warped_wart_block"
+    },
+    "D": {
+      "item": "minecraft:bucket"
+    },
+    "E": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal_extra:device_lava_gen"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CDC",
+        "AEA",
+        "BFB"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        "B": {
+            "item": "mekanism:ingot_osmium"
+        },
+        "C": {
+            "tag": "forge:storage_blocks/redstone"
+        },
+		"D": {
+            "item": "minecraft:clock"
+        },
+		"E": {
+            "item": "minecraft:dragon_egg"
+        },
+		"F": {
+            "item": "draconicevolution:wyvern_core"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:celestial_manipulator"
+        }
+}

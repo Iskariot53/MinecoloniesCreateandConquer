@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " C ",
+        " D ",
+        "BEB"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:stone_slab"
+        },
+        "C": {
+            "item": "minecraft:stone_pressure_plate"
+        },
+		"D": {
+            "tag": "forge:stone"
+        },
+		"E": {
+            "item": "minecraft:blaze_powder"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:dislocator_pedestal"
+        }
+}

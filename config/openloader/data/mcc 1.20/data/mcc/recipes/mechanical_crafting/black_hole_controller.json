@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:gears/diamond"
+    },
+    "C": {
+      "item": "minecraft:ender_eye"
+    },
+    "D": {
+      "tag": "forge:chests/ender"
+    },
+    "E": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:black_hole_controller"
+  }
+}

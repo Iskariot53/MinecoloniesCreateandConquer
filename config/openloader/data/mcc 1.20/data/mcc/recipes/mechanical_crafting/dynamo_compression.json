@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "thermal:rf_coil"
+    },
+    "C": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "D": {
+      "tag": "forge:gears/bronze"
+    },
+    "E": {
+      "tag": "forge:ingots/bronze"
+    },
+    "F": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:dynamo_compression"
+  }
+}

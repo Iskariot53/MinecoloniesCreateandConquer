@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "ccextras:arcanite_block"
+    },
+    "B": {
+      "item": "thermalendergy:prismalium_block"
+    },
+    "C": {
+      "item": "ccextras:celestrium_block"
+    },
+    "D": {
+      "item": "numismatics:bank_terminal"
+    },
+    "E": {
+      "item": "thermal:machine_frame"
+    },
+    "F": {
+      "item": "thermalendergy:melodium_block"
+    },
+    "G": {
+      "item": "thermalendergy:stellarium_block"
+    },
+    "H": {
+      "item": "enlightened_end:irradium_block"
+    }
+  },
+  "pattern": [
+    "   A   ",
+    " CBDBC ",
+    " BFGFB ",
+	"AEGHGEA",
+	" BFGFB ",
+	" CBDBC ",
+	"   A   "
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:dynamo_numismatic"
+  }
+}

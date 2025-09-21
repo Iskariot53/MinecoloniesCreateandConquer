@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:configuration_card"
+  }
+}

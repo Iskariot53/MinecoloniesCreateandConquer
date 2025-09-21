@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "tag": "forge:ingots/iron"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "D": {
+      "item": "mekanism:precision_sawmill"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "BDB",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:basic_sawing_factory"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "D": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "E": {
+      "item": "minecraft:lava_bucket"
+    },
+    "F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "AADAA",
+    "ABCBA",
+    "BEFEB",
+    "ABCBA",
+    "AADAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:crusher"
+  }
+}

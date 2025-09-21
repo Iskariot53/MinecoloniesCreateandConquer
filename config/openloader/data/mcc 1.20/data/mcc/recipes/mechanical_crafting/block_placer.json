@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:dropper"
+    },
+    "C": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "D": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:block_placer"
+  }
+}

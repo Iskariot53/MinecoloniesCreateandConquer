@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "create:precision_mechanism"
+    },
+    "B": {
+      "item": "create_unbreakable:luminarchy"
+    },
+    "C": {
+      "tag": "forge:plates/brass"
+    },
+    "D": {
+      "item": "chicken_roost:c_brass"
+    },
+    "E": {
+      "item": "chicken_roost:chicken_essence_tier_9"
+    }
+  },
+  "pattern": [
+    "ABCBA",
+    "BDCDB",
+    "CCECC",
+	"BDCDB",
+	"ABCBA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "chicken_roost:c_luminarchy"
+  }
+}

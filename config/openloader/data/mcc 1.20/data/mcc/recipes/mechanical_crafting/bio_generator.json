@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "mekanism:bio_fuel"
+    },
+    "C": {
+      "tag": "forge:ingots/osmium"
+    },
+    "D": {
+      "item": "create:precision_mechanism"
+    },
+    "E": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "F": {
+      "item": "mekanism:alloy_infused"
+    }
+  },
+  "pattern": [
+    "AFA",
+    "BEB",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:bio_generator"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CCC",
+        "BAB",
+        "CCC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:magnet"
+        },
+        "B": {
+            "item": "minecraft:iron_bars"
+        },
+        "C": {
+            "item": "mekanism:ingot_osmium"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:dislocation_inhibitor"
+        }
+}

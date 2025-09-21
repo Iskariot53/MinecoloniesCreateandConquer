@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CAC",
+        "ABA",
+        "CAC"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:nether_star"
+        },
+        "B": {
+            "item": "draconicevolution:wyvern_energy_core"
+        },
+        "C": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:basic_relay_crystal"
+        }
+}

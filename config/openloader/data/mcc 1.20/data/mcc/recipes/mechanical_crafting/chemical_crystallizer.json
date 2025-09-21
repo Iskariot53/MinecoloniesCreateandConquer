@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "D": {
+      "item": "mekanism:fluorite_gem"
+    },
+    "E": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "F": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "G": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACDCA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:chemical_crystallizer"
+  }
+}

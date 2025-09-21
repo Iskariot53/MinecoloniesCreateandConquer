@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "forge:gears/iron"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_pity"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "BDB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:common_black_hole_tank"
+  }
+}

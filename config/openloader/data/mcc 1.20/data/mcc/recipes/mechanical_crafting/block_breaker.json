@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:gears/gold"
+    },
+    "C": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "E": {
+      "item": "minecraft:iron_shovel"
+    },
+    "F": {
+      "tag": "forge:gears/iron"
+    },
+    "G": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGF"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:block_breaker"
+  }
+}

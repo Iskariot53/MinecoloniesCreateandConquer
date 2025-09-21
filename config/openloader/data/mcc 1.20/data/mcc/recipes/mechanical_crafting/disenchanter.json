@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CDC",
+        "AEA",
+        "BBB"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:enchanted_book"
+        },
+        "B": {
+            "item": "minecraft:bookshelf"
+        },
+        "C": {
+            "item": "minecraft:emerald"
+        },
+		"D": {
+            "item": "draconicevolution:draconium_core"
+        },
+		"E": {
+            "item": "minecraft:enchanting_table"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:disenchanter"
+        }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/invar"
+    },
+    "B": {
+      "tag": "forge:ender_pearls"
+    },
+    "C": {
+      "tag": "forge:glass"
+    },
+    "D": {
+      "item": "minecraft:hopper"
+    },
+    "E": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:device_collector"
+  }
+}

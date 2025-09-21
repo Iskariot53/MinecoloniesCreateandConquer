@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:sawdust"
+    },
+    "B": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+	"AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:cardboard_box"
+  }
+}

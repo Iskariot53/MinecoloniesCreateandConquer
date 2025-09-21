@@ -1,0 +1,43 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "create:steam_engine"
+    },
+    "B": {
+      "item": "create_compressed:mechanism_block"
+    },
+    "C": {
+      "item": "ccextras:arcanite_block"
+    },
+    "D": {
+      "item": "create_new_age:advanced_motor_extension"
+    },
+    "E": {
+      "item": "ccextras:celestrium_block"
+    },
+    "F": {
+      "item": "createaddition:electric_motor"
+    },
+    "G": {
+      "item": "create_sa:steam_engine"
+    },
+    "H": {
+      "item": "mekanism:ultimate_control_circuit"
+    }
+  },
+  "pattern": [
+    "  ABA  ",
+    " ACDCA ",
+    "AEFGFEA",
+	"BDGHGDB",
+	"AEFGFEA",
+	" ACDCA ",
+	"  ABA  "
+  ],
+  "result": {
+    "count": 1,
+    "item": "create:creative_motor"
+  }
+}

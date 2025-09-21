@@ -1,0 +1,47 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "industrialforegoing:block_breaker"
+    },
+    "C": {
+      "item": "industrialforegoing:block_placer"
+    },
+    "D": {
+      "item": "create:mechanical_drill"
+    },
+    "E": {
+      "item": "mekanism:teleportation_core"
+    },
+    "F": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "G": {
+      "item": "mekanism:logistical_sorter"
+    },
+    "H": {
+      "item": "mekanism:robit"
+    },
+    "I": {
+      "item": "mekanism:steel_casing"
+    },
+    "J": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "pattern": [
+    "AADAA",
+    "AFJFA",
+    "BGHGC",
+    "AEIEA",
+    "AADAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:digital_miner"
+  }
+}

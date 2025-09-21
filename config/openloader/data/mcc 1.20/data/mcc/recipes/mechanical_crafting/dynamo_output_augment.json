@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "B": {
+      "tag": "forge:gears/silver"
+    },
+    "C": {
+      "item": "thermal:signalum_plate"
+    },
+    "D": {
+      "tag": "thermal:glass/hardened"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:dynamo_output_augment"
+  }
+}

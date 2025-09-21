@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "C": {
+      "item": "create:brass_ingot"
+    },
+    "D": {
+      "item": "thermal:lumium_gear"
+    },
+    "E": {
+      "item": "thermalendergy:melodium_plate"
+    },
+    "F": {
+      "tag": "thermal:glass/hardened"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACDCA",
+    "BEFEB",
+	"ACDCA",
+	"AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermalendergy:dynamo_consumption_nullifier_augment"
+  }
+}

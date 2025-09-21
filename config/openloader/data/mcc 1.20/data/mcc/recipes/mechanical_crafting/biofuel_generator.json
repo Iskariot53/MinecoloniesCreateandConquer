@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:blaze_cake"
+    },
+    "C": {
+      "item": "create:precision_mechanism"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_simple"
+    },
+    "E": {
+      "tag": "forge:gears/gold"
+    },
+    "F": {
+      "item": "minecraft:piston"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:biofuel_generator"
+  }
+}

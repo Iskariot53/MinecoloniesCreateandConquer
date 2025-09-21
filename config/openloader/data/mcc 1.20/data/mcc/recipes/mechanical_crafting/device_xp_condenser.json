@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/silver"
+    },
+    "B": {
+      "tag": "forge:gears/lapis"
+    },
+    "C": {
+      "tag": "forge:glass"
+    },
+    "D": {
+      "item": "thermal:xp_crystal"
+    },
+    "E": {
+      "item": "thermal:redstone_servo"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:device_xp_condenser"
+  }
+}
