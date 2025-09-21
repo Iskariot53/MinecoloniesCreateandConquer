@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "cataclysm:void_jaw"
+    },
+    "B": {
+      "item": "cataclysm:void_stone"
+    },
+    "C": {
+      "item": "cataclysm:void_core"
+    },
+    "D": {
+      "item": "cataclysm:void_eye"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CDC",
+    "BBB"
+  ],
+  "result": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:cataclysm_ender"
+     }
+  }
+}

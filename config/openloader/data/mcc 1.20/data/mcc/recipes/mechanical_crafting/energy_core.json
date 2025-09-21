@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CCC",
+        "BAB",
+        "CCC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:wyvern_core"
+        },
+        "B": {
+            "item": "draconicevolution:wyvern_energy_core"
+        },
+        "C": {
+            "item": "draconicevolution:draconium_ingot"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:energy_core"
+        }
+}

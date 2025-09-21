@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:basic/blaze"
+     }
+	},
+    "A": {
+      "item": "reliquary:molten_core"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "result": {
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:endless/blaze"
+     }
+  }
+}

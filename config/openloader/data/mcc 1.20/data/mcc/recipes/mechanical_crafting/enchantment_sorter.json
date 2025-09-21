@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "minecraft:book"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    },
+    "E": {
+      "tag": "forge:gears/diamond"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:enchantment_sorter"
+  }
+}

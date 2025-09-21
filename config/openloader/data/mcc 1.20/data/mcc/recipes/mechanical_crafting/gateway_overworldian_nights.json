@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "item": "minecraft:gunpowder"
+    },
+    "D": {
+      "item": "minecraft:spider_eye"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "F": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "CEC",
+    "BFB"
+  ],
+  "result": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:overworldian_nights"
+     }
+  }
+}

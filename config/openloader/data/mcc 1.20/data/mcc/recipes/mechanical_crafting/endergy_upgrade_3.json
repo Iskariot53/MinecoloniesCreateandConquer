@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "C": {
+      "item": "thermalendergy:stellarium_ingot"
+    },
+    "D": {
+      "item": "minecraft:clay"
+    },
+    "E": {
+      "item": "create:brass_ingot"
+    },
+    "F": {
+      "item": "thermalendergy:melodium_gear"
+    },
+    "G": {
+      "item": "thermalendergy:endergy_upgrade_2"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACDCA",
+    "EFGFE",
+	"ACDCA",
+	"AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermalendergy:endergy_upgrade_3"
+  }
+}

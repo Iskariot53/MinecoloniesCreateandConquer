@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "ACA",
+        "BDB",
+        "AEA"
+    ],
+    "key": {
+        "A": {
+            "item": "mekanism:ingot_osmium"
+        },
+        "B": {
+            "item": "minecraft:diamond_sword"
+        },
+        "C": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+		"D": {
+            "item": "draconicevolution:wyvern_energy_core"
+        },
+		"E": {
+            "tag": "forge:heads"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:grinder"
+        }
+}

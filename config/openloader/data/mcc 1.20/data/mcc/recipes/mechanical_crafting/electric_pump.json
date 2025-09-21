@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "item": "mekanism:steel_casing"
+    },
+    "D": {
+      "item": "industrialforegoing:plastic"
+    },
+    "E": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "DED",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:electric_pump"
+  }
+}

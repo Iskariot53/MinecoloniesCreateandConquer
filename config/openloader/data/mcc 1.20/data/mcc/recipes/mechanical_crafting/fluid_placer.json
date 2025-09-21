@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:water_bucket"
+    },
+    "C": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "D": {
+      "tag": "forge:gears/iron"
+    },
+    "E": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:fluid_placer"
+  }
+}

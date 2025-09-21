@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "create:brass_ingot"
+    },
+    "B": {
+      "tag": "thermal:glass/hardened"
+    },
+    "C": {
+      "item": "thermal:bronze_gear"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:fluid_cell_frame"
+  }
+}

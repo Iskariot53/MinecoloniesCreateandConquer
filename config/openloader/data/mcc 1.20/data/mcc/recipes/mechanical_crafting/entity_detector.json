@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CDC",
+        "AEA",
+        "BFB"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:redstone"
+        },
+        "B": {
+            "item": "mekanism:ingot_osmium"
+        },
+        "C": {
+            "item": "minecraft:lapis_lazuli"
+        },
+		"D": {
+            "item": "minecraft:ender_eye"
+        },
+		"E": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+		"F": {
+            "item": "draconicevolution:draconium_core"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:entity_detector"
+        }
+}

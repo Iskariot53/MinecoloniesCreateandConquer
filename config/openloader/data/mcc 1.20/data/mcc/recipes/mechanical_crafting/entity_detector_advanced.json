@@ -1,0 +1,31 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CDC",
+        "AEA",
+        "BFB"
+    ],
+    "key": {
+        "A": {
+            "tag": "forge:storage_blocks/lapis"
+        },
+        "B": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        "C": {
+            "tag": "forge:storage_blocks/redstone"
+        },
+		"D": {
+            "item": "minecraft:skeleton_skull"
+        },
+		"E": {
+            "item": "thermalendergy:prismalium_ingot"
+        },
+		"F": {
+            "item": "draconicevolution:entity_detector"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:entity_detector_advanced"
+        }
+}

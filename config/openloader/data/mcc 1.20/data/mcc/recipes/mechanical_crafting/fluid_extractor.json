@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/brass"
+    },
+    "B": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "C": {
+      "tag": "forge:stone"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "E": {
+      "item": "minecraft:piston"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:fluid_extractor"
+  }
+}

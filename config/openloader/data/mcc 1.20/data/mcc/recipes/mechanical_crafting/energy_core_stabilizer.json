@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CBC",
+        "BAB",
+        "CBC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:particle_generator"
+        },
+        "B": {
+            "item": "thermalendergy:melodium_ingot"
+        },
+        "C": {
+            "item": "thermalendergy:stellarium_ingot"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:energy_core_stabilizer"
+        }
+}

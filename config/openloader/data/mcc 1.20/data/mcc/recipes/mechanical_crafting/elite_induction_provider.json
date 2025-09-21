@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "B": {
+      "item": "mekanism:advanced_induction_provider"
+    },
+    "A": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "C": {
+      "item": "mekanism:elite_energy_cube"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:elite_induction_provider"
+  }
+}

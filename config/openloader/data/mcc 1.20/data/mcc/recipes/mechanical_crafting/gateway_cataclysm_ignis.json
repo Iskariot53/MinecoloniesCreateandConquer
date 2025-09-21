@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "cataclysm:burning_ashes"
+    },
+    "B": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "C": {
+      "item": "minecraft:blaze_rod"
+    },
+    "D": {
+      "item": "cataclysm:flame_eye"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CDC",
+    "BBB"
+  ],
+  "result": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:cataclysm_ignis"
+     }
+  }
+}

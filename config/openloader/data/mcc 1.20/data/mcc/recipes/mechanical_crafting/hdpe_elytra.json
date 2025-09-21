@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "B": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "C": {
+      "item": "industrialforegoing:plastic"
+    },
+    "D": {
+      "item": "minecraft:elytra"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "ADA",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:hdpe_elytra"
+  }
+}

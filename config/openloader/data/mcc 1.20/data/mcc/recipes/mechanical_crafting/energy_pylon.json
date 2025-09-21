@@ -1,0 +1,28 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "ACA",
+        "BDB",
+        "AEA"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        "B": {
+            "item": "minecraft:emerald"
+        },
+        "C": {
+            "item": "minecraft:ender_eye"
+        },
+		"D": {
+            "item": "draconicevolution:draconium_core"
+        },
+		"E": {
+            "item": "thermalendergy:prismalium_ingot"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:energy_pylon"
+        }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "alexsmobs:blood_sac"
+    },
+    "B": {
+      "item": "minecraft:netherrack"
+    },
+    "C": {
+      "item": "alexsmobs:straddlite"
+    },
+    "D": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CDC",
+    "BBB"
+  ],
+  "result": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:alexs_hell"
+     }
+  }
+}

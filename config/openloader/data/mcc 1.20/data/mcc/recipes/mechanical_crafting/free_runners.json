@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:energy_tablet"
+    },
+    "B": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "C": {
+      "item": "mekanism:alloy_infused"
+    },
+    "D": {
+      "item": "industrialforegoing:plastic"
+    },
+    "E": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "pattern": [
+    "BDB",
+    "CDC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:free_runners"
+  }
+}

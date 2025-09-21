@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:dirt"
+    },
+    "C": {
+      "item": "minecraft:iron_hoe"
+    },
+    "D": {
+      "item": "industrialforegoing:fertilizer"
+    },
+    "E": {
+      "tag": "forge:gears/gold"
+    },
+    "F": {
+      "item": "industrialforegoing:machine_frame_simple"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:hydroponic_bed"
+  }
+}

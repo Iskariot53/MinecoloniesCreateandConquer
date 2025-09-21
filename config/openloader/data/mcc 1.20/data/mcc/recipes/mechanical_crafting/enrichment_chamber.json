@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "C": {
+      "item": "create:brass_ingot"
+    },
+    "D": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "E": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACDCA",
+    "BDEDB",
+    "ACDCA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:enrichment_chamber"
+  }
+}

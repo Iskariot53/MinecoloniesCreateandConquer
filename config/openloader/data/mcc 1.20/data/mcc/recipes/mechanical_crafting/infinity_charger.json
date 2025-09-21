@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:repeater"
+    },
+    "C": {
+      "tag": "forge:gears/diamond"
+    },
+    "D": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "E": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:infinity_charger"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "C": {
+      "item": "minecraft:book"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    },
+    "E": {
+      "tag": "forge:gems/diamond"
+    },
+    "F": {
+      "tag": "forge:gears/gold"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:enchantment_extractor"
+  }
+}

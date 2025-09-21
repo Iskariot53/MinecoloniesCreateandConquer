@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "item": "minecraft:nether_bricks"
+    },
+    "C": {
+      "item": "reliquary:molten_core"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ACA",
+    "BBB"
+  ],
+  "result": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "gateways:basic/blaze"
+     }
+  }
+}

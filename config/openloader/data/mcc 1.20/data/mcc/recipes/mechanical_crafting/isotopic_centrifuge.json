@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "C": {
+      "tag": "forge:ingots/lead"
+    },
+    "D": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "E": {
+      "item": "mekanism:basic_chemical_tank"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACCCA",
+    "BDEDB",
+    "ACCCA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:isotopic_centrifuge"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "item": "minecraft:sticky_piston"
+    },
+    "C": {
+      "item": "mekanism:alloy_atomic"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "C A",
+	"ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2:inscriber"
+  }
+}

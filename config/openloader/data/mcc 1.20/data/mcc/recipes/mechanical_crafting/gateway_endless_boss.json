@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "apotheotic_additions:artifact_material"
+    },
+    "B": {
+      "item": "apotheotic_additions:heirloom_material"
+    },
+    "C": {
+      "item": "apotheosis:mythic_material"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+      "type": "forge:partial_nbt",
+      "item": "gateways:gate_pearl",
+      "nbt": {
+          "gateway": "apotheotic_additions:endless_boss"
+     }
+  }
+}

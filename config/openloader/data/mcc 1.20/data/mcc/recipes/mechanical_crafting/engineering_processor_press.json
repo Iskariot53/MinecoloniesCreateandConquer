@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:diamond"
+    },
+    "P": {
+      "tag": "forge:stone"
+    },
+    "S": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "pattern": [
+    " AAA ",
+    "AAPAA",
+    "APSPA",
+    "AAPAA",
+    " AAA "
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2:engineering_processor_press"
+  }
+}

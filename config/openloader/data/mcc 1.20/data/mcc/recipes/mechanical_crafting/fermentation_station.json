@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "minecraft:logs"
+    },
+    "C": {
+      "tag": "forge:gears/gold"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_simple"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ADA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:fermentation_station"
+  }
+}

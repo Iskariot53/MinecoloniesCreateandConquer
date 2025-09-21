@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "mekanism:steel_casing"
+    },
+    "D": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:fuelwood_heater"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CBC",
+        "BAB",
+        "CBC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_dust"
+        },
+        "B": {
+            "item": "minecraft:obsidian"
+        },
+        "C": {
+            "item": "minecraft:blaze_powder"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:infused_obsidian"
+        }
+}

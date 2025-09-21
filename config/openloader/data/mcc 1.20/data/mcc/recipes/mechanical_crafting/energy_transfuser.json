@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CBC",
+        "ADA",
+        "CAC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_core"
+        },
+        "B": {
+            "item": "draconicevolution:energy_core_stabilizer"
+        },
+        "C": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+		"D": {
+            "item": "minecraft:enchanting_table"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:energy_transfuser"
+        }
+}

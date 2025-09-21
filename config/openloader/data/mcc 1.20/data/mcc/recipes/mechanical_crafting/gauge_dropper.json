@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:glass/silica"
+    },
+    "B": {
+      "item": "industrialforegoing:plastic"
+    },
+    "C": {
+      "item": "mekanism:ingot_osmium"
+    }
+  },
+  "pattern": [
+    "BCB",
+    "A A",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:gauge_dropper"
+  }
+}

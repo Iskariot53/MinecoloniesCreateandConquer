@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/tin"
+    },
+    "B": {
+      "tag": "forge:ingots/bronze"
+    },
+    "C": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "D": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "E": {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ADC",
+    "BEB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:flamethrower"
+  }
+}

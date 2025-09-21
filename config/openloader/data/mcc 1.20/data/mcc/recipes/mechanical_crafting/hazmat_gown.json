@@ -1,0 +1,21 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/lead"
+    },
+    "B": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "AAA",
+	"AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:hazmat_gown"
+  }
+}

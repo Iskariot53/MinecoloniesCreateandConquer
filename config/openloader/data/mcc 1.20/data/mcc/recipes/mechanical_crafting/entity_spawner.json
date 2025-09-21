@@ -1,0 +1,58 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "cataclysm:witherite_ingot"
+    },
+    "B": {
+      "item": "cataclysm:cursium_ingot"
+    },
+    "C": {
+      "item": "ccextras:arcanite_block"
+    },
+    "D": {
+      "item": "botania:gaia_ingot"
+    },
+    "E": {
+      "item": "ccextras:celestrium_block"
+    },
+    "F": {
+      "item": "cataclysm:essence_of_the_storm"
+    },
+    "G": {
+      "item": "cataclysm:ignitium_ingot"
+    },
+    "H": {
+      "item": "draconicevolution:draconium_core"
+    },
+    "I": {
+      "item": "bloodmagic:dungeon_metal"
+    },
+    "J": {
+      "item": "twilightforest:steeleaf_block"
+    },
+    "K": {
+      "item": "twilightforest:carminite_block"
+    },
+    "L": {
+      "item": "draconicevolution:chaos_shard"
+    },
+    "M": {
+      "item": "cataclysm:abyssal_egg"
+    }
+  },
+  "pattern": [
+    " KLMLK ",
+    "JACDCAJ",
+    "AEFGFEA",
+	"BDGHGDB",
+	"AEFGFEA",
+	"IACDCAI",
+	"JIABAIJ"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mob_grinding_utils:entity_spawner"
+  }
+}

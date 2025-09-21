@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:blaze_burner"
+    },
+    "C": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "D": {
+      "item": "create:brass_ingot"
+    },
+    "E": {
+      "tag": "forge:glass/silica"
+    },
+    "F": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "G": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ADFDA",
+    "CEGEC",
+    "ADFDA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:energized_smelter"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/bronze"
+    },
+    "C": {
+      "tag": "forge:dusts/diamond"
+    },
+    "D": {
+      "tag": "forge:storage_blocks/steel"
+    },
+    "E": {
+      "tag": "forge:ingots/brass"
+    },
+    "F": {
+      "item": "mekanism:free_runners"
+    }
+  },
+  "pattern": [
+    " D ",
+    "CFC",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:free_runners_armored"
+  }
+}

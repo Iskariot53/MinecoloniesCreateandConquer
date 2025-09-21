@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/iron"
+    },
+    "B": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "tag": "forge:ingots/brass"
+    },
+    "D": {
+      "item": "minecraft:furnace"
+    },
+    "E": {
+      "tag": "forge:ingots/osmium"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:heat_generator"
+  }
+}
