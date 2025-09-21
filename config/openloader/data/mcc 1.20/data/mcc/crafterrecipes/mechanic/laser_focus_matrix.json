@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "mekanismgenerators:reactor_glass"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanismgenerators:laser_focus_matrix"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:stone"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:piston"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/industrial_t1_unlock",
+  "result": "industrialforegoing:fluid_extractor"
+}

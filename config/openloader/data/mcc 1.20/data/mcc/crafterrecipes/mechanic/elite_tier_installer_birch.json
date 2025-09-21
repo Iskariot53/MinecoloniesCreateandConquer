@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "mekanism:alloy_reinforced"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:gold_ingot"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:birch_planks"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:elite_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:elite_tier_installer"
+}

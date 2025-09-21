@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 2,
+      "item": "mekanism:alloy_reinforced"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:advanced_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:elite_control_circuit"
+}

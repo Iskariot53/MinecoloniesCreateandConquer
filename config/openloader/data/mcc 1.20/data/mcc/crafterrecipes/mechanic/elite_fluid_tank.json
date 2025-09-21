@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 1,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 4,
+      "item": "minecraft:iron_ingot"
+    },
+	{
+      "count": 4,
+      "item": "mekanism:alloy_reinforced"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:elite_fluid_tank"
+}

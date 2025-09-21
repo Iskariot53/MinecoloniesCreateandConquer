@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 3,
+      "item": "thermal:tin_ingot"
+    },
+	{
+      "count": 2,
+      "item": "thermal:steel_ingot"
+    },
+	{
+      "count": 2,
+      "item": "create:brass_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:basic_chemical_tank"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanism:jetpack"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "thermal:steel_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_energy_cube"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:diamond"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:laser_amplifier"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "create:zinc_ingot"
+    },
+	{
+      "count": 4,
+      "item": "create:andesite_alloy"
+    },
+	{
+      "count": 1,
+      "item": "create:propeller"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/create_t2_unlock",
+  "result": "create_sa:fan_component"
+}

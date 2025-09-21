@@ -1,0 +1,43 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 2,
+      "item": "thermal:steel_ingot"
+    },
+	{
+      "count": 1,
+      "item": "create:brass_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:ingot_osmium"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:chest"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:crafting_table"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:steel_casing"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:formulaic_assemblicator"
+}

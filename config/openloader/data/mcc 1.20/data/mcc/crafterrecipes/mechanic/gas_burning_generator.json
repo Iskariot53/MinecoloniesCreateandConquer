@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:electrolytic_core"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:alloy_infused"
+    },
+	{
+      "count": 2,
+      "item": "create:precision_mechanism"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanismgenerators:gas_burning_generator"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 1,
+      "item": "thermal:diamond_gear"
+    },
+	{
+      "count": 3,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_advanced"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:repeater"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:redstone_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/industrial_t3_unlock",
+  "result": "industrialforegoing:infinity_charger"
+}

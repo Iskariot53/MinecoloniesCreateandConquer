@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 3,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 3,
+      "item": "minecraft:mangrove_log"
+    },
+	{
+      "count": 2,
+      "item": "create:andesite_alloy"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/create_t1_unlock",
+  "result": "create:linear_chassis"
+}

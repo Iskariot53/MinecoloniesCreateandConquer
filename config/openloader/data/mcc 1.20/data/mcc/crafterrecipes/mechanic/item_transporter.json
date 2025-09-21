@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:redstone"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:gold_ingot"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:piston"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/industrial_t1_unlock",
+  "result": "industrialforegoing:item_transporter_type"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 2,
+      "item": "create:brass_block"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:bucket"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:chest"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+	{
+      "count": 1,
+      "item": "thermal:diamond_gear"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/industrial_t1_unlock",
+  "result": "industrialforegoing:dissolution_chamber"
+}
