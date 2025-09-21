@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "count": 9,
+  "crafter": "crusher_custom",
+  "inputs": [
+    {
+      "item": "thermal:raw_lead_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/create_t2_unlock",
+  "result": "create:crushed_raw_lead"
+}

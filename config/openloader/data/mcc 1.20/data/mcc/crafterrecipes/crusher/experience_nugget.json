@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "crusher_custom",
+  "inputs": [
+    {
+      "item": "minecraft:quartz"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/create_t4_unlock",
+  "result": "create:experience_nugget"
+}

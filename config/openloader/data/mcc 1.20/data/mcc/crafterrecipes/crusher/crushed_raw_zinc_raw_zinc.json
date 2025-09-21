@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "crusher_custom",
+  "inputs": [
+    {
+      "item": "create:raw_zinc"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/create_t2_unlock",
+  "result": "create:crushed_raw_zinc"
+}
