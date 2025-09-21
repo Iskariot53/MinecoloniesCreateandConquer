@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 4,
+      "item": "mekanism:boiler_casing"
+    },
+    {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanism:boiler_valve"
+}

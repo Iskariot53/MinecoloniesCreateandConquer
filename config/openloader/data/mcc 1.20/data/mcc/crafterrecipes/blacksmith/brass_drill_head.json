@@ -1,0 +1,24 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "create:brass_ingot"
+    },
+    {
+      "count": 4,
+      "item": "create:andesite_alloy"
+    },
+    {
+      "count": 1,
+      "item": "create_sa:brass_pickaxe"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/create_t3_unlock",
+  "result": "create_sa:brass_drill_head"
+
+}

@@ -1,0 +1,20 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 8,
+      "item": "mekanism:basic_pressurized_tube"
+    },
+    {
+	  "count": 1,
+      "item": "mekanism:alloy_infused"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanism:advanced_pressurized_tube"
+  
+}

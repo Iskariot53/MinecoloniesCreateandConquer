@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 4,
+      "item": "mekanism:ingot_osmium"
+    },
+    {
+	  "count": 1,
+      "item": "industrialforegoing:plastic"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "result": "mekanism:basic_chemical_tank"
+}

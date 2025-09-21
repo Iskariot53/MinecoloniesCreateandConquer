@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 2,
+      "item": "thermal:steel_ingot"
+    },
+    {
+	  "count": 1,
+      "item": "minecraft:bucket"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "result": "mekanism:basic_mechanical_pipe"
+}

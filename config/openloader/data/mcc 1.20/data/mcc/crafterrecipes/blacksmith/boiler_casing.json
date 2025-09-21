@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 8,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "thermal:steel_ingot"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanism:boiler_casing"
+}

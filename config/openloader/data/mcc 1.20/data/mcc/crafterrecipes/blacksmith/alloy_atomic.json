@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "mekanism:dust_refined_obsidian"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:alloy_reinforced"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:alloy_atomic"
+}
