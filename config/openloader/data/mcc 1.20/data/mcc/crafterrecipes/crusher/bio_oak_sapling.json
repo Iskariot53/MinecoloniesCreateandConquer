@@ -1,0 +1,13 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "crusher_custom",
+  "inputs": [
+    {
+      "item": "minecraft:oak_sapling"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "mcc:effects/biofuel_unlock",
+  "result": "mekanism:bio_fuel"
+}
