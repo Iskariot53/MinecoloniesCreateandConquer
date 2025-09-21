@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+  	  "name":"dimdungeons:pool_super",
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/pillager_outpost",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/shipwreck_treasure",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/ancient_city",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/end_city_treasure",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/nether_bridge",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "name": "minecraft:chests/bastion_other",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
