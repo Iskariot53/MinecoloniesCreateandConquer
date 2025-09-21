@@ -1,0 +1,36 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "count": 1,
+      "item": "create:cogwheel"
+    },
+    {
+      "count": 1,
+      "item": "create_sa:hydraulic_engine"
+    },
+    {
+      "count": 1,
+      "item": "create:andesite_alloy"
+    },
+    {
+      "count": 2,
+      "item": "create:fluid_tank"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:copper_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/create_t4_unlock",
+  "result": "create_sa:copper_exoskeleton_chestplate"
+
+}

@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+	  "count": 2,
+      "item": "ars_nouveau:archwood_planks"
+    },
+	{
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "mcc:effects/ars_t1_unlock",
+  "result": "ars_nouveau:dowsing_rod"
+}

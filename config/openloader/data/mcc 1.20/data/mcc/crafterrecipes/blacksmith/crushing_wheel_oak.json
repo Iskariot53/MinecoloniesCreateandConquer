@@ -1,0 +1,24 @@
+{
+  "type": "recipe",
+  "count": 2,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 16,
+      "item": "create:andesite_alloy"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:oak_planks"
+    },
+	{
+	  "count": 1,
+	  "item": "minecraft:stone"
+	}
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/create_t2_unlock",
+  "result": "create:crushing_wheel"
+
+}

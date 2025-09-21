@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 5,
+      "item": "thermal:steel_ingot"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:furnace"
+    },
+    {
+	  "count": 1,
+      "item": "mekanism:steel_casing"
+    },
+    {
+	  "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanism:fuelwood_heater"
+}

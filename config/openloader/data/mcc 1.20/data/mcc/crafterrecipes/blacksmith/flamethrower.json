@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "thermal:tin_ingot"
+    },
+    {
+      "count": 2,
+      "item": "thermal:bronze_ingot"
+    },
+    {
+	  "count": 1,
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:basic_chemical_tank"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:advanced_control_circuit"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/mekanism_t2_unlock",
+  "result": "mekanism:flamethrower"
+}

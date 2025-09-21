@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "thermal:lead_ingot"
+    },
+    {
+      "count": 2,
+      "item": "thermal:steel_ingot"
+    },
+    {
+      "count": 1,
+      "item": "mekanism:basic_chemical_tank"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanismgenerators:fission_fuel_assembly"
+}
