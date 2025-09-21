@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Refined Industry",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/industrial_t3_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "industrialforegoing:machine_frame_advanced",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 3
+    }
+  ],
+  "parentResearch": "mcc:science/advancedindustry",
+  "researchLevel": 3
+}

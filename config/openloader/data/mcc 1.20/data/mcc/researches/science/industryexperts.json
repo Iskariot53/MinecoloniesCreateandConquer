@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Industry Experts",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 4
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/industrial_t4_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "industrialforegoing:machine_frame_advanced",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 4
+    }
+  ],
+  "parentResearch": "mcc:science/refinedindustry",
+  "researchLevel": 4
+}

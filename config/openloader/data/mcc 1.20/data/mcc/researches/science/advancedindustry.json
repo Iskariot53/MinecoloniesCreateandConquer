@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Advanced Industry",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/industrial_t2_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "industrialforegoing:machine_frame_simple",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 2
+    }
+  ],
+  "parentResearch": "mcc:science/industrialrevolution",
+  "researchLevel": 2
+}

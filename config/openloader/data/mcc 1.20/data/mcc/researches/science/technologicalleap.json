@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Technological Leap",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/mekanism_t2_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "mekanism:advanced_control_circuit",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 2
+    }
+  ],
+  "parentResearch": "mcc:science/advancedmekanisms",
+  "researchLevel": 2
+}

@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Advanced Mekanisms",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:cog",
+      "quantity": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/mekanism_t1_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "mekanism:basic_control_circuit",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 1
+    }
+  ],
+  "researchLevel": 1,
+  "sortOrder": 3
+}

@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Botanic Advancement",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/botania_t2_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "botania:mana_spreader",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 2
+    }
+  ],
+  "parentResearch": "mcc:mysticism/botanicgardening",
+  "researchLevel": 2
+}

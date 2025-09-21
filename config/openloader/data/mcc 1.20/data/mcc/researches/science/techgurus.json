@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Tech Gurus",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:sun",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/mekanism_t5_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "mekanism:ultimate_induction_cell",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 5
+    }
+  ],
+  "parentResearch": "mcc:science/technicalexperts",
+  "researchLevel": 5
+}

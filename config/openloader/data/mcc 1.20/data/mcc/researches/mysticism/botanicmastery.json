@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Botanic Mastery",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:sun",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/botania_t5_unlock",	  
+      "level": 1
+    }
+  ],
+  "icon": "botania:gaia_pylon",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 5
+    }
+  ],
+  "parentResearch": "mcc:mysticism/botanicexpertise",
+  "researchLevel": 5
+}

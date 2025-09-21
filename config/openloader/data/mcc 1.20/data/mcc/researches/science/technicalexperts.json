@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Technical Experts",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 4
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/mekanism_t4_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "mekanism:ultimate_control_circuit",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 4
+    }
+  ],
+  "parentResearch": "mcc:science/hightechnology",
+  "researchLevel": 4
+}

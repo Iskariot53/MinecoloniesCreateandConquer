@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Creative Experts",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 4
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/create_t4_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "create:linked_controller",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 4
+    }
+  ],
+  "parentResearch": "mcc:science/creativecomplexity",
+  "researchLevel": 4
+}

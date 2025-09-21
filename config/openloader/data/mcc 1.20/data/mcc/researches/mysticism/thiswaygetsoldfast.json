@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "This way gets old fast",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/blood_t2_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "bloodmagic:weakbloodorb",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 2
+    }
+  ],
+  "parentResearch": "mcc:mysticism/bloodfromyou",
+  "researchLevel": 2
+}

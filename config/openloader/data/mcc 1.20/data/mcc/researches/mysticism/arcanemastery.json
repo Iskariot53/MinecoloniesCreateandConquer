@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Arcane Mastery",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:sun",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/ars_t5_unlock",	  
+      "level": 1
+    }
+  ],
+  "icon": "ars_elemental:mark_of_mastery",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 5
+    }
+  ],
+  "parentResearch": "mcc:mysticism/arcaneexpertise",
+  "researchLevel": 5
+}

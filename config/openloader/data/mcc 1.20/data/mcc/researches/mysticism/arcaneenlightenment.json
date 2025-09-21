@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Arcane Enlightenment",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/ars_t2_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "ars_nouveau:apprentice_spell_book",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 2
+    }
+  ],
+  "parentResearch": "mcc:mysticism/arcaneengineering",
+  "researchLevel": 2
+}

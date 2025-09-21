@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Creative Complexity",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/create_t3_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "create:mechanical_crafter",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 3
+    }
+  ],
+  "parentResearch": "mcc:science/advancedcreations",
+  "researchLevel": 3
+}

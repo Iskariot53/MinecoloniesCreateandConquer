@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Industrial Revolution",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:cog",
+      "quantity": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/industrial_t1_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "industrialforegoing:machine_frame_pity",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 1
+    }
+  ],
+  "researchLevel": 1,
+  "sortOrder": 2
+}

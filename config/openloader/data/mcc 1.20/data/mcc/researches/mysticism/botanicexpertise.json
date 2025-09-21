@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Botanic Expertise",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 4
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/botania_t4_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "botania:natura_pylon",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 4
+    }
+  ],
+  "parentResearch": "mcc:mysticism/botanicsecrets",
+  "researchLevel": 4
+}

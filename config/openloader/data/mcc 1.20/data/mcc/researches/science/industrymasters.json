@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Industry Masters",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:sun",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/industrial_t5_unlock",	  
+      "level": 1
+    }
+  ],
+  "icon": "industrialforegoing:machine_frame_supreme",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 5
+    }
+  ],
+  "parentResearch": "mcc:science/industryexperts",
+  "researchLevel": 5
+}

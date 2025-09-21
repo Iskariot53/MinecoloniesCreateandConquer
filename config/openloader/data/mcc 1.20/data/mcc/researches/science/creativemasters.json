@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Creative Masters",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:sun",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/create_t5_unlock",	  
+      "level": 1
+    }
+  ],
+  "icon": "create:schematicannon",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 5
+    }
+  ],
+  "parentResearch": "mcc:science/creativeexperts",
+  "researchLevel": 5
+}

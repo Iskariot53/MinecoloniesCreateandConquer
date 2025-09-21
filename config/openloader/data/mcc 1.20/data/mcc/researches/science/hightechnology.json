@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "High Technology",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/mekanism_t3_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "mekanism:elite_control_circuit",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 3
+    }
+  ],
+  "parentResearch": "mcc:science/technologicalleap",
+  "researchLevel": 3
+}

@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:science",
+  "name": "Advanced Creations",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/create_t2_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "create:large_cogwheel",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 2
+    }
+  ],
+  "parentResearch": "mcc:science/creativeengineering",
+  "researchLevel": 2
+}

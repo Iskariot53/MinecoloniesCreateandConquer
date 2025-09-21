@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Blood from you",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:cog",
+      "quantity": 2
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/blood_t1_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "bloodmagic:blood_altar",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 1
+    }
+  ],
+  "researchLevel": 1,
+  "sortOrder": 3
+}

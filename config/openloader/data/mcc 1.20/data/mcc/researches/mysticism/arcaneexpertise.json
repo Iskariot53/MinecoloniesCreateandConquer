@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Arcane Expertise",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:crown",
+      "quantity": 4
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/ars_t4_unlock",
+      "level": 1
+    }
+  ],
+  "icon": "ars_nouveau:scribes_table",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 4
+    }
+  ],
+  "parentResearch": "mcc:mysticism/arcanedecryption",
+  "researchLevel": 4
+}

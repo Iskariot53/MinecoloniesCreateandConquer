@@ -1,0 +1,27 @@
+{
+  "branch": "mcc:mysticism",
+  "name": "Blood Mastery",
+  "costs": [
+    {
+      "type": "minecolonies:item_simple",
+      "item": "numismatics:sun",
+      "quantity": 1
+    }
+  ],
+  "effects": [
+    {
+      "id": "mcc:effects/blood_t5_unlock",	  
+      "level": 1
+    }
+  ],
+  "icon": "bloodmagic:reinforcedteleposerfocus",
+  "requirements": [
+    {
+      "type": "minecolonies:building",
+      "building": "university",
+      "level": 5
+    }
+  ],
+  "parentResearch": "mcc:mysticism/notverypopular",
+  "researchLevel": 5
+}
