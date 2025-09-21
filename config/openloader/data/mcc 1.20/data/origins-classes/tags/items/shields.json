@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "tetra:modular_shield",
+      "required": false
+    },
+	{
+      "id": "minecraft:shield",
+      "required": false
+    },
+	{
+      "id": "cataclysm:black_steel_targe",
+      "required": false
+    },
+    {
+      "id": "cataclysm:azure_sea_shield",
+      "required": false
+    },
+	{
+      "id": "cataclysm:bulwark_of_the_flame",
+      "required": false
+    },
+	{
+      "id": "cataclysm:gauntlet_of_guard",
+      "required": false
+    },
+	{
+      "id": "cataclysm:gauntlet_of_bulwark",
+      "required": false
+    },
+	{
+      "id": "cataclysm:gauntlet_of_maelstrom",
+      "required": false
+    },
+	{
+      "id": "#spartanshields:basic_shields",
+      "required": false
+    },
+	{
+      "id": "#spartanshields:tower_shields",
+      "required": false
+    },
+	{
+      "id": "#forge:tools/shields",
+      "required": false
+    }
+  ]
+}

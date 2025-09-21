@@ -1,0 +1,28 @@
+{
+  "parent": "tombstone:adventure/root",
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "tombstone.advancement.halloween.desc"
+    },
+    "frame": "task",
+    "hidden": true,
+    "icon": {
+      "item": "tombstone:advancement_6"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "tombstone.advancement.halloween.title"
+    }
+  },
+  "requirements": [
+    [
+      "coded_trigger"
+    ]
+  ]
+}

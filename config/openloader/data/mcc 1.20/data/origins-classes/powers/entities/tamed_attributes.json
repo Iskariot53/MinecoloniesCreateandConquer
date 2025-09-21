@@ -1,0 +1,17 @@
+{
+  "type": "apoli:attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "name": "Beastmaster Bonus",
+      "value": 1.0,
+      "operation": "multiply_total"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "name": "Beastmaster Bonus",
+      "value": 2.0,
+      "operation": "multiply_total"
+    }
+  ]
+}
