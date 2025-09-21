@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/netherite"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "D": {
+      "tag": "forge:storage_blocks/coal"
+    },
+    "E": {
+      "tag": "forge:storage_blocks/brass"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "cagedmobs:speed_i_upgrade"
+  }
+}

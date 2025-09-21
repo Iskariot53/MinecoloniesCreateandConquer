@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "C": {
+      "item": "create:brass_ingot"
+    },
+    "D": {
+      "item": "thermal:signalum_gear"
+    },
+    "E": {
+      "item": "thermalendergy:prismalium_plate"
+    },
+    "F": {
+      "item": "thermalendergy:vibrating_core"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACDCA",
+    "BEFEB",
+	"ACDCA",
+	"AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermalendergy:resonant_catalyst_augment"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:pink_slime_ingot"
+    },
+    "B": {
+      "item": "industrialforegoing:meat_feeder"
+    },
+    "C": {
+      "item": "industrialforegoing:plastic"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    },
+    "E": {
+      "tag": "forge:gears/diamond"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:washing_factory"
+  }
+}

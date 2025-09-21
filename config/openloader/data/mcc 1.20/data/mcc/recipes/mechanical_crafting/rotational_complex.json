@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "item": "mekanism:advanced_control_circuit"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CBC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:rotational_complex"
+  }
+}

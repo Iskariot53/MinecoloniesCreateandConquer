@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "tag": "forge:ingots/brick"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+    "E": {
+      "tag": "forge:gears/iron"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "CEC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:sewer"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "minecraft:soul_sand"
+    },
+    "B": {
+      "item": "minecraft:ghast_tear"
+    },
+    "C": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    },
+    "D": {
+      "tag": "forge:gears/gold"
+    },
+    "E": {
+      "item": "minecraft:piston"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:stasis_chamber"
+  }
+}

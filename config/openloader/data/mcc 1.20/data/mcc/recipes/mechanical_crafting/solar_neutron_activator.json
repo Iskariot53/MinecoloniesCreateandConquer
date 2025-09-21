@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "tag": "forge:ingots/bronze"
+    },
+    "D": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "E": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "F": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "G": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACDCA",
+    "BFGFB",
+    "ACCCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:solar_neutron_activator"
+  }
+}

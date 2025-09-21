@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "C": {
+      "item": "minecraft:iron_bars"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    },
+    "E": {
+      "tag": "forge:gears/diamond"
+    },
+    "F": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoingsouls:soul_laser_base"
+  }
+}

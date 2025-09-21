@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/copper"
+    },
+    "B": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "D": {
+      "item": "mekanism:laser"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "CDC",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:supercharged_coil"
+  }
+}

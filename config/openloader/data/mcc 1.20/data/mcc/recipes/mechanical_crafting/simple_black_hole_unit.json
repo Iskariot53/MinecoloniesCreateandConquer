@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "tag": "forge:ender_pearls"
+    },
+    "D": {
+      "tag": "forge:chests/wooden"
+    },
+    "E": {
+      "item": "industrialforegoing:machine_frame_simple"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "DED"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:simple_black_hole_unit"
+  }
+}

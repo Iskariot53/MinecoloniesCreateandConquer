@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "cagedmobs:warden_receptor"
+    },
+    "B": {
+      "item": "cagedmobs:star_infused_netherite_block"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "D": {
+      "item": "cagedmobs:speed_ii_upgrade"
+    },
+    "E": {
+      "tag": "forge:storage_blocks/brass"
+    },
+    "F": {
+      "item": "mekanism:block_osmium"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "cagedmobs:speed_iii_upgrade"
+  }
+}

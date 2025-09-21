@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "thermal:enderium_ingot"
+    },
+    "B": {
+      "tag": "thermal:glass/hardened"
+    },
+    "C": {
+      "item": "thermal:lumium_gear"
+    },
+    "D": {
+      "item": "thermal:upgrade_augment_2"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:upgrade_augment_3"
+  }
+}

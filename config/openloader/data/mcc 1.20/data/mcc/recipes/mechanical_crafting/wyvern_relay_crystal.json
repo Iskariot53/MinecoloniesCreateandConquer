@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CBC",
+        "BAB",
+        "CBC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_core"
+        },
+        "B": {
+            "item": "draconicevolution:basic_relay_crystal"
+        },
+        "C": {
+            "item": "draconicevolution:wyvern_energy_core"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:wyvern_relay_crystal"
+        }
+}

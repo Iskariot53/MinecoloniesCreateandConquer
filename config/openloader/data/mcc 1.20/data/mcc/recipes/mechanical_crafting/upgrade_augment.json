@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "thermal_extra:ancient_dust"
+    },
+    "B": {
+      "item": "thermal_extra:dragonsteel_gear"
+    },
+    "C": {
+      "item": "thermal:upgrade_augment_3"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal_extra:upgrade_augment"
+  }
+}

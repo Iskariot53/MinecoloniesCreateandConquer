@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:glass_panes"
+    },
+    "B": {
+      "tag": "forge:ingots/osmium"
+    },
+    "C": {
+      "item": "mekanism:alloy_infused"
+    },
+    "D": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "DCD",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:solar_panel"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "item": "industrialforegoing:plastic"
+    },
+    "C": {
+      "tag": "forge:glass/silica"
+    },
+    "D": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "E": {
+      "item": "mekanism:basic_control_circuit"
+    }
+  },
+  "pattern": [
+    "BEB",
+    "CDC",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:scuba_tank"
+  }
+}

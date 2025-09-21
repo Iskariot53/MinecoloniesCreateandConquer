@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "tag": "forge:gears/iron"
+    },
+    "C": {
+      "tag": "forge:mushrooms"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_pity"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:spores_recreator"
+  }
+}

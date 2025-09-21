@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/osmium"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "item": "mekanism:energy_tablet"
+    },
+    "D": {
+      "item": "industrialforegoing:plastic"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:wind_generator"
+  }
+}

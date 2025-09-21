@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "D": {
+	  "item": "mekanism:ingot_refined_glowstone"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACCCA",
+    "BCDCB",
+    "ACCCA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:teleporter_frame"
+  }
+}

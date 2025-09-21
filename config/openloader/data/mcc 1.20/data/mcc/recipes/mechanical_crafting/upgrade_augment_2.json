@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "thermal:electrum_ingot"
+    },
+    "B": {
+      "item": "minecraft:quartz"
+    },
+    "C": {
+      "item": "thermal:signalum_gear"
+    },
+    "D": {
+      "item": "thermal:upgrade_augment_1"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:upgrade_augment_2"
+  }
+}

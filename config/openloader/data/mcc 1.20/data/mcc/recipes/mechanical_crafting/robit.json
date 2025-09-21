@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+    "B": {
+      "item": "mekanism:energy_tablet"
+    },
+    "C": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "D": {
+      "tag": "forge:ingots/steel"
+    },
+    "E": {
+      "tag": "mekanism:personal_storage"
+    }
+  },
+  "pattern": [
+    " D ",
+    "BCB",
+    "AEA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:robit"
+  }
+}

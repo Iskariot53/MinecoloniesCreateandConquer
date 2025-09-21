@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CBC",
+        "BAB",
+        "CBC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_core"
+        },
+        "B": {
+            "tag": "forge:storage_blocks/redstone"
+        },
+        "C": {
+            "item": "draconicevolution:draconium_ingot"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:wyvern_energy_core"
+        }
+}

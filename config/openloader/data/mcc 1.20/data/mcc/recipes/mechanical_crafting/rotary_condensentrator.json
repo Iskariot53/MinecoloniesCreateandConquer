@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "tag": "forge:glass/silica"
+    },
+    "D": {
+	  "item": "mekanism:basic_control_circuit"
+    },
+    "E": {
+      "item": "mekanism:basic_chemical_tank"
+    },
+    "F": {
+	  "item": "mekanism:basic_fluid_tank"
+    },
+    "G": {
+      "item": "mekanism:energy_tablet"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACDCA",
+    "BEGFB",
+    "ACDCA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:rotary_condensentrator"
+  }
+}

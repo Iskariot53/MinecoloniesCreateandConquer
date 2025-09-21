@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/invar"
+    },
+    "B": {
+      "tag": "forge:glass"
+    },
+    "C": {
+      "item": "minecraft:redstone"
+    },
+    "D": {
+      "tag": "forge:gears/gold"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal:upgrade_augment_1"
+  }
+}

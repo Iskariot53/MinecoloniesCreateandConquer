@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:gems/lapis"
+    },
+    "B": {
+      "item": "mekanism:energy_tablet"
+    },
+    "C": {
+      "tag": "forge:ingots/steel"
+    }
+  },
+  "pattern": [
+    "CAC",
+    "CBC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:seismic_reader"
+  }
+}

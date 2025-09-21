@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "D": {
+	  "tag": "forge:ingots/steel"
+    },
+    "E": {
+      "item": "mekanism:teleportation_core"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACDCA",
+    "BDEDB",
+    "ACDCA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:teleporter"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "B": {
+      "item": "mekanism:thermal_evaporation_block"
+    },
+    "C": {
+      "item": "minecraft:bucket"
+    },
+    "D": {
+      "tag": "forge:glass/silica"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:thermal_evaporation_controller"
+  }
+}

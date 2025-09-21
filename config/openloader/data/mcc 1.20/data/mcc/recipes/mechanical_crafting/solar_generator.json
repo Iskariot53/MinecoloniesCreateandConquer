@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanismgenerators:solar_panel"
+    },
+    "B": {
+      "item": "mekanism:alloy_infused"
+    },
+    "C": {
+      "tag": "forge:ingots/osmium"
+    },
+    "D": {
+      "item": "mekanism:energy_tablet"
+    },
+    "E": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanismgenerators:solar_generator"
+  }
+}

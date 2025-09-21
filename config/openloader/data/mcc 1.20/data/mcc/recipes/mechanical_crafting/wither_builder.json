@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:nether_star"
+    },
+    "C": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_supreme"
+    },
+    "E": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:wither_builder"
+  }
+}

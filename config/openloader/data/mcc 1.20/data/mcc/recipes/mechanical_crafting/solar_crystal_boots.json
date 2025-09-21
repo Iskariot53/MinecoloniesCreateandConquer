@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "celestisynth:solar_crystal"
+    },
+    "B": {
+      "item": "minecraft:iron_boots"
+    },
+    "C": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "celestisynth:solar_crystal_boots"
+  }
+}

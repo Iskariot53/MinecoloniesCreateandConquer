@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:gems/lapis"
+    },
+    "B": {
+      "tag": "forge:dusts/gold"
+    },
+    "C": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "D": {
+      "tag": "forge:gems/diamond"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "BDB",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:teleportation_core"
+  }
+}

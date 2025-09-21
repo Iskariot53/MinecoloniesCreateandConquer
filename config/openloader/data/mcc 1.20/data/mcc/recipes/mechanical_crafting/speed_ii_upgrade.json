@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "scguns:nether_star_fragment"
+    },
+    "B": {
+      "item": "cagedmobs:star_infused_netherite_ingot"
+    },
+    "C": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "D": {
+      "item": "cagedmobs:speed_i_upgrade"
+    },
+    "E": {
+      "tag": "forge:storage_blocks/brass"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "cagedmobs:speed_ii_upgrade"
+  }
+}

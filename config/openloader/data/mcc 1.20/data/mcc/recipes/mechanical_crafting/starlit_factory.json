@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "celestisynth:lunar_stone"
+    },
+    "B": {
+      "item": "celestisynth:wintereis"
+    },
+    "C": {
+      "item": "ccextras:celestrium_ingot"
+    },
+    "D": {
+      "item": "ccextras:arcanite_ingot"
+    },
+    "E": {
+      "item": "bloodmagic:demoncrystallizer"
+    },
+    "F": {
+      "item": "celestisynth:zephyr_deposit"
+    },
+    "G": {
+      "item": "celestisynth:celestial_netherite_ingot"
+    },
+    "H": {
+      "item": "ars_nouveau:arcane_core"
+    }
+  },
+  "pattern": [
+    "ABABA",
+    "CDEDC",
+    "FGGGF",
+	"CDHDC",
+	"ABABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "celestisynth:starlit_factory"
+  }
+}

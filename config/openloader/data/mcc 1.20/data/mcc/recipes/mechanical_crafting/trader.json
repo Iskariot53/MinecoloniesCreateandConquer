@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CCC",
+        "CAC",
+        "DBD"
+    ],
+    "key": {
+        "A": {
+            "item": "industrialforegoing:mob_imprisonment_tool"
+        },
+        "B": {
+            "item": "minecraft:emerald"
+        },
+        "C": {
+            "tag": "forge:glass_panes/colorless"
+        },
+        "D": {
+            "item": "create:brass_ingot"
+        }		
+    },
+    "result": {
+        "item": "easy_villagers:trader"
+        }
+}
