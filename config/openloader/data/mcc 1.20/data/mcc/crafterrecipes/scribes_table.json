@@ -1,0 +1,23 @@
+{
+  "type" : "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+	    "count": 3,
+        "item" : "ars_nouveau:archwood_slab"
+    },
+    {
+	    "count": 2,
+        "item" : "minecraft:gold_nugget"
+    },
+    {
+	    "count": 2,
+        "item" : "ars_nouveau:archwood_planks"
+    
+    }
+  ],
+  "intermediate" : "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/ars_t1_unlock",
+  "result": "ars_nouveau:scribes_table"
+}

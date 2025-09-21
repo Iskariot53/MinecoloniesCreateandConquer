@@ -1,0 +1,23 @@
+{
+  "type" : "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+	    "count": 1,
+        "item" : "minecraft:lectern"
+    },
+    {
+	    "count": 4,
+        "item" : "minecraft:chest"
+    },
+    {
+	    "count": 4,
+        "item" : "ars_nouveau:source_gem"
+    
+    }
+  ],
+  "intermediate" : "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/ars_t2_unlock",
+  "result": "ars_nouveau:storage_lectern"
+}

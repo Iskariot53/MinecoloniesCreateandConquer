@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "inputs": [
+    {
+	  "count": 4,
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+	{
+      "item": "ars_nouveau:scribes_table"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "mcc:effects/ars_t3_unlock",
+  "result": "ars_nouveau:alteration_table"
+}

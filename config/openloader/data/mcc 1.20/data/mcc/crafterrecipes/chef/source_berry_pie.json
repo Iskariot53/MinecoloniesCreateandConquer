@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "crafter": "chef_crafting",
+  "inputs": [
+    {
+	  "count": 3,
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+    {
+      "item": "ars_nouveau:magebloom"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "result": "ars_nouveau:source_berry_pie"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "fletcher_crafting",
+  "inputs": [
+    {
+	  "count": 1,
+      "item": "minecraft:spruce_slab"
+    },
+	{
+	  "count": 1,
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "mcc:effects/create_t1_unlock",
+  "result": "create:white_seat"
+}

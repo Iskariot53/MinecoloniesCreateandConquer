@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "alchemist_crafting",
+  "inputs": [
+    {
+      "count": 1,
+      "item": "ars_nouveau:apprentice_spell_book"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:nether_star"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:totem_of_undying"
+    },
+	{
+      "count": 1,
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:emerald"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:ender_pearl"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/ars_t5_unlock",
+  "result": "ars_nouveau:archmage_spell_book"
+}

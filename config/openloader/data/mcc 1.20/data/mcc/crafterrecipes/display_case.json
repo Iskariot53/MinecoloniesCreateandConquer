@@ -1,0 +1,22 @@
+{
+  "type" : "recipe",
+  "crafter": "glassblower_crafting",
+  "inputs": [
+    {
+	    "count": 3,
+        "item" : "ars_nouveau:archwood_planks"   
+    },
+    {
+        "count": 5,
+        "item" : "minecraft:glass"
+    },
+    {
+        "count": 1,
+        "item" : "minecraft:observer"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/ars_t1_unlock",
+  "result": "ars_nouveau:item_detector"
+}

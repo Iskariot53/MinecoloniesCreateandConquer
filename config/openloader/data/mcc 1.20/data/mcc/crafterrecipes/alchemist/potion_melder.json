@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "alchemist_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "count": 2,
+      "item": "ars_nouveau:abjuration_essence"
+    },
+	{
+	  "count": 2,
+	  "item": "minecraft:gold_block"
+	}
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/ars_t5_unlock",
+  "result": "ars_nouveau:potion_melder"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:leather"
+    },
+	{
+      "item": "ars_nouveau:blank_parchment"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "mcc:effects/ars_t2_unlock",
+  "result": "ars_nouveau:annotated_codex"
+}

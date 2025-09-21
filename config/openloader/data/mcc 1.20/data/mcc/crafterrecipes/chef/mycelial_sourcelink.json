@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "chef_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "ars_nouveau:source_gem"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:mushroom_stew"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/ars_t2_unlock",
+  "result": "ars_nouveau:mycelial_sourcelink"
+}

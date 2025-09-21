@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "inputs": [
+    {
+	  "count": 8,
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+	{
+      "item": "ars_nouveau:air_essence"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/ars_t2_unlock",
+  "result": "ars_nouveau:falseweave"
+}

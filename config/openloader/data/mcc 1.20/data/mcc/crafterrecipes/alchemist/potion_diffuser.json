@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "alchemist_crafting",
+  "inputs": [
+    {
+      "count": 3,
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "count": 3,
+      "item": "ars_nouveau:archwood_planks"
+    },
+	{
+	  "count": 1,
+	  "item": "minecraft:campfire"
+	}
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/ars_t4_unlock",
+  "result": "ars_nouveau:potion_diffuser"
+}

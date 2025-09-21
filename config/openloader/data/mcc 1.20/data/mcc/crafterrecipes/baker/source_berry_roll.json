@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "baker_smelting",
+  "inputs": [
+    {
+      "item": "ars_nouveau:sourceberry_bush"
+    },
+	{
+	  "count": 3,
+      "item": "minecraft:wheat"
+    }
+  ],
+  "intermediate": "minecraft:furnace",
+  "min-building-level": 1,
+  "result": "ars_nouveau:source_berry_roll"
+}

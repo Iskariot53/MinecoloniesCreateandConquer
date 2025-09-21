@@ -1,0 +1,16 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "inputs": [
+    {
+	  "count": 8,
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+	{
+      "item": "minecraft:feather"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "research-id": "mcc:effects/ars_t1_unlock",
+  "result": "ars_nouveau:orange_sbed"
+}

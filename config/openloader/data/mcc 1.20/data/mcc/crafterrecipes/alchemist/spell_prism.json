@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "alchemist_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "ars_nouveau:archwood_planks"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:quartz_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/ars_t3_unlock",
+  "result": "ars_nouveau:spell_prism"
+}

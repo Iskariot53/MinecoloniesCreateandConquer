@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "fletcher_crafting",
+  "inputs": [
+    {
+	  "count": 8,
+      "item": "ars_nouveau:magebloom_fiber"
+    },
+	{
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/ars_t1_unlock",
+  "result": "ars_nouveau:wixie_hat"
+}
