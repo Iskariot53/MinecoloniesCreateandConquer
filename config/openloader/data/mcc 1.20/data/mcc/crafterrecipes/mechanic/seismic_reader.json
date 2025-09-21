@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 5,
+      "item": "thermal:steel_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:energy_tablet"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/mekanism_t1_unlock",
+  "result": "mekanism:seismic_reader"
+}

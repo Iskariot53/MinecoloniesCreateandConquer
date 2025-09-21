@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 1,
+      "item": "create:item_vault"
+    },
+	{
+      "count": 1,
+      "item": "create:transmitter"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/create_t2_unlock",
+  "result": "create:stock_link"
+}

@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 3,
+      "item": "minecraft:stone"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:lever"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:redstone"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:redstone_torch"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/create_t1_unlock",
+  "result": "create:powered_latch"
+}

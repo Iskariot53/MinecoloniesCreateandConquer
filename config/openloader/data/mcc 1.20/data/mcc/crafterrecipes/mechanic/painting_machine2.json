@@ -1,0 +1,39 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 2,
+      "item": "mekanism:alloy_infused"
+    },
+	{
+      "count": 2,
+      "item": "create:brass_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:advanced_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:dye_base"
+    },
+	{
+      "count": 1,
+      "item": "thermal:steel_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t5_unlock",
+  "result": "mekanism:painting_machine"
+}

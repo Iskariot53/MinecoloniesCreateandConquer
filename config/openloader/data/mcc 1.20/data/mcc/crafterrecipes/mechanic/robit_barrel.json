@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 2,
+      "item": "mekanism:ingot_refined_obsidian"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:energy_tablet"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:personal_barrel"
+    },
+	{
+      "count": 1,
+      "item": "thermal:steel_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:alloy_atomic"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 4,
+  "research-id": "mcc:effects/mekanism_t3_unlock",
+  "result": "mekanism:robit"
+}

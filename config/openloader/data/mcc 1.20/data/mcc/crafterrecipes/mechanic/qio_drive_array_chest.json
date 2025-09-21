@@ -1,0 +1,43 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:glass_pane"
+    },
+	{
+      "count": 1,
+      "item": "create:item_vault"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:teleportation_core"
+    },
+	{
+      "count": 2,
+      "item": "mekanism:pellet_polonium"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:ultimate_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:hdpe_sheet"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:personal_chest"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:qio_drive_array"
+}

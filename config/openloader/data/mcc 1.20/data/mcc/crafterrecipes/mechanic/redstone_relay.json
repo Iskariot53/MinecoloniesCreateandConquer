@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+	  "count": 6,
+      "item": "minecraft:gold_ingot"
+    },
+	{
+	  "count": 2,
+      "item": "minecraft:redstone"
+    },
+	{
+      "item": "ars_nouveau:source_gem_block"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/ars_t3_unlock",
+  "result": "ars_nouveau:redstone_relay"
+}

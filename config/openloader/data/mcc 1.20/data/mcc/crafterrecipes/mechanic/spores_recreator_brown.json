@@ -1,0 +1,27 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:brown_mushroom"
+    },
+	{
+      "count": 2,
+      "item": "thermal:iron_gear"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/industrial_t2_unlock",
+  "result": "industrialforegoing:spores_recreator"
+}

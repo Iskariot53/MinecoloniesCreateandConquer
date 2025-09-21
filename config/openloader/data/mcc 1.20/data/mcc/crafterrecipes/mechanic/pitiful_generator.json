@@ -1,0 +1,31 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "minecraft:cobblestone"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:iron_bars"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:furnace"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 1,
+  "research-id": "mcc:effects/industrial_t1_unlock",
+  "result": "industrialforegoing:pitiful_generator"
+}

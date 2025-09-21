@@ -1,0 +1,39 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:redstone"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:flint"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:ingot_osmium"
+    },
+	{
+      "count": 1,
+      "item": "create:brass_ingot"
+    },
+	{
+      "count": 1,
+      "item": "thermal:steel_ingot"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t5_unlock",
+  "result": "mekanism:pigment_extractor"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "industrialforegoing:plastic"
+    },
+	{
+      "count": 2,
+      "item": "minecraft:brick"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:piston"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:furnace"
+    },
+	{
+      "count": 1,
+      "item": "industrialforegoing:machine_frame_pity"
+    },
+	{
+      "count": 1,
+      "item": "thermal:iron_gear"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 2,
+  "research-id": "mcc:effects/industrial_t2_unlock",
+  "result": "industrialforegoing:sewage_composter"
+}

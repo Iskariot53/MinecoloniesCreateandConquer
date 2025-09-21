@@ -1,0 +1,23 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+	{
+      "count": 4,
+      "item": "thermal:lead_ingot"
+    },
+	{
+      "count": 4,
+      "item": "mekanism:qio_drive_hyper_dense"
+    },
+	{
+      "count": 1,
+      "item": "minecraft:emerald"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:qio_drive_time_dilating"
+}

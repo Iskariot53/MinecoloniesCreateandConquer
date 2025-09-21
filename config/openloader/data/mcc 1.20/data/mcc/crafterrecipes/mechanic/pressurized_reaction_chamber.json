@@ -1,0 +1,43 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "mechanic_crafting",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "industrialforegoing:plastic"
+    },
+    {
+      "count": 1,
+      "tag": "forge:ingots/steel"
+    },
+	{
+      "count": 1,
+      "item": "create:brass_ingot"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:ingot_osmium"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_control_circuit"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:basic_chemical_tank"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:dynamic_tank"
+    },
+	{
+      "count": 1,
+      "item": "mekanism:steel_casing"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 5,
+  "research-id": "mcc:effects/mekanism_t4_unlock",
+  "result": "mekanism:pressurized_reaction_chamber"
+}
