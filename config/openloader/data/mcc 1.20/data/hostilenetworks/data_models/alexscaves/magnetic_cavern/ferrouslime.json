@@ -1,0 +1,50 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}
+	],
+    "entity": "alexscaves:ferrouslime",
+    "name": "entity.alexscaves.ferrouslime",
+    "name_color": "#52546b",
+    "gui_scale": 0.98,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.ferrouslime",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:ferrouslime_ball",
+            "count": 8
+        },
+        {
+            "item": "minecraft:iron_nugget",
+            "count": 24
+        },
+        {
+            "optional": true,
+            "item": "reliquary:slime_pearl",
+            "count": 3
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "quark"
+	}
+	],
+    "entity": "quark:foxhound",
+    "name": "entity.quark.foxhound",
+    "name_color": "#751d23",
+    "gui_scale": 1.25,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:nether_prediction"
+    },
+	"trivia": "custom.trivia.foxhound",
+    "fabricator_drops": [
+		{
+            "item": "minecraft:coal",
+            "count": 32
+        },
+		{
+            "item": "minecraft:leather",
+            "count": 16
+        }
+    ]
+}

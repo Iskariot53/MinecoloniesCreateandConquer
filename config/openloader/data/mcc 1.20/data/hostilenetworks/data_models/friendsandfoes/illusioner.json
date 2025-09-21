@@ -1,0 +1,38 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "friendsandfoes"
+	}
+	],
+    "entity": "minecraft:illusioner",
+    "variants": [],
+    "name": "entity.minecraft.illusioner",
+    "name_color": "#40531A",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.illusioner",
+    "fabricator_drops": [
+        {
+            "item": "friendsandfoes:totem_of_illusion",
+            "count": 1
+        },
+        {
+            "item": "minecraft:emerald",
+            "count": 16
+        },
+        {
+            "item": "minecraft:arrow",
+            "count": 16
+        }
+    ]
+}

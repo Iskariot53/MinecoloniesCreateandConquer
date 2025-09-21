@@ -1,0 +1,29 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:tarantula_hawk",
+    "name": "entity.alexsmobs.tarantula_hawk",
+    "name_color": "#1c1f2f",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.tarantula_hawk",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:tarantula_hawk_wing_fragment",
+            "count": 2
+        }
+    ]
+}

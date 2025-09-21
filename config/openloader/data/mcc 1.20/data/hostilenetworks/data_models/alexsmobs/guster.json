@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:guster",
+    "name": "entity.alexsmobs.guster",
+    "name_color": "#9d8662",
+    "gui_scale": 0.8,
+    "gui_x_offset": 0,
+    "gui_y_offset": -0.25,
+    "gui_z_offset": 0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.guster",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:guster_eye",
+            "count": 1
+        },
+        {
+            "item": "minecraft:sand",
+            "count": 16
+        }
+    ]
+}

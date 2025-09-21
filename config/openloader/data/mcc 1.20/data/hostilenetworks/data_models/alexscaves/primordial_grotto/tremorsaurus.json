@@ -1,0 +1,50 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}
+	],
+    "entity": "alexscaves:tremorsaurus",
+    "name": "entity.alexscaves.tremorsaurus",
+    "name_color": "#304206",
+    "gui_scale": 0.2,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+		"count": 2
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.tremorsaurus",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:dinosaur_chop",
+            "count": 8
+        },
+        {
+            "item": "alexscaves:heavy_bone",
+            "count": 8
+        },
+        {
+            "item": "alexscaves:tremorsaurus_egg",
+            "count": 4
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        8,
+        16,
+        16,
+        32
+    ]
+}

@@ -1,0 +1,37 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:rocky_roller",
+    "name": "entity.alexsmobs.rocky_roller",
+    "name_color": "#9d8662",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 136,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.rocky_roller",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:rocky_shell",
+            "count": 2
+        },
+        {
+            "item": "minecraft:tuff",
+            "count": 16
+        },
+        {
+            "item": "minecraft:pointed_dripstone",
+            "count": 16
+        }
+    ]
+}

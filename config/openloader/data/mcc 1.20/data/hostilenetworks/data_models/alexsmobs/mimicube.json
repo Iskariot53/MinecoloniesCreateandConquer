@@ -1,0 +1,38 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:mimicube",
+    "name": "entity.alexsmobs.mimicube",
+    "name_color": "#524867",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:end_prediction"
+    },
+    "trivia": "custom.trivia.mimicube",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:mimicream",
+            "count": 1
+        },
+        {
+			"optional": true,
+            "item": "alexscaves:ferrouslime_ball",
+            "count": 8
+        },
+        {
+            "item": "minecraft:slime_ball",
+            "count": 8
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:murmur",
+    "name": "entity.alexsmobs.murmur",
+    "name_color": "#733c4e",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.murmur",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:elastic_tendon",
+            "count": 16
+        },
+        {
+            "item": "minecraft:red_wool",
+            "count": 8
+        }
+    ]
+}

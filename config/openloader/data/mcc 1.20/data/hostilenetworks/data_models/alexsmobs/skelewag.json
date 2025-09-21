@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:skelewag",
+    "name": "entity.alexsmobs.skelewag",
+    "name_color": "#c3e5ae",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.skelewag",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:fish_bones",
+            "count": 32
+        },
+        {
+            "item": "minecraft:bone",
+            "count": 16
+        }
+    ]
+}

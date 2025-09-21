@@ -1,0 +1,29 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:centipede_head",
+    "name": "entity.alexsmobs.cave_centipede",
+    "name_color": "#85435e",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 92,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.cave_centipede",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:centipede_leg",
+            "count": 16
+        }
+    ]
+}

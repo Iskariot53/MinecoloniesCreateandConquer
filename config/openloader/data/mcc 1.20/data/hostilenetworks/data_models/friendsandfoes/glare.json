@@ -1,0 +1,35 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "friendsandfoes"
+	}
+	],
+    "entity": "friendsandfoes:glare",
+    "variants": [],
+    "name": "entity.friendsandfoes.glare",
+    "name_color": "#40531A",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.glare",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:moss_block",
+            "count": 1
+        },
+        {
+			"optional": true,
+            "item": "ecologics:surface_moss",
+            "count": 16
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:bison",
+    "name": "entity.alexsmobs.bison",
+    "name_color": "#382b22",
+    "gui_scale": 0.65,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.bison",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:bison_fur",
+            "count": 16
+        },
+        {
+            "item": "minecraft:beef",
+            "count": 32
+        }
+    ]
+}

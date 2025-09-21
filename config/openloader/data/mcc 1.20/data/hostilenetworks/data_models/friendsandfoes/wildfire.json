@@ -1,0 +1,34 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "friendsandfoes"
+	}
+	],
+    "entity": "friendsandfoes:wildfire",
+    "variants": [],
+    "name": "entity.friendsandfoes.wildfire",
+    "name_color": "#C37400",
+    "gui_scale": 0.7,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.wildfire",
+    "fabricator_drops": [
+        {
+            "item": "friendsandfoes:wildfire_crown_fragment",
+            "count": 4
+        },
+        {
+            "item": "minecraft:blaze_rod",
+            "count": 32
+        }
+    ]
+}

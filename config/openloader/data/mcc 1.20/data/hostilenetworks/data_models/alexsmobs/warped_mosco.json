@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:warped_mosco",
+    "name": "entity.alexsmobs.warped_mosco",
+    "name_color": "#1d7572",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 1024,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:nether_prediction"
+    },
+    "trivia": "custom.trivia.warped_mosco",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:warped_muscle",
+            "count": 1
+        },
+        {
+            "item": "alexsmobs:hemolymph_sac",
+            "count": 6
+        }
+    ]
+}

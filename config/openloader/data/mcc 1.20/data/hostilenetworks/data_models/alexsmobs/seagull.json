@@ -1,0 +1,29 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:seagull",
+    "name": "entity.alexsmobs.seagull",
+    "name_color": "#e6e9ec",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.seagull",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:feather",
+            "count": 16
+        }
+    ]
+}

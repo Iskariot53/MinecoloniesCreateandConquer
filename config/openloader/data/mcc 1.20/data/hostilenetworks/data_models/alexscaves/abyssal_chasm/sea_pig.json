@@ -1,0 +1,53 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}
+	],
+    "entity": "alexscaves:sea_pig",
+    "name": "entity.alexscaves.sea_pig",
+    "name_color": "#ef8e8b",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.sea_pig",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:sea_pig",
+            "count": 8
+        },
+        {
+            "item": "alexscaves:marine_snow",
+            "count": 16
+        },
+        {
+            "item": "alexscaves:muck",
+            "count": 4
+        },
+        {
+            "item": "alexscaves:pearl",
+            "count": 1
+        }
+    ],
+    "tier_data": [
+		16,
+        64,
+        128,
+        384
+    ],
+    "data_per_kill": [
+        4,
+        8,
+        8,
+        16
+    ]
+}

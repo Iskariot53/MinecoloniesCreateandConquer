@@ -1,0 +1,41 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}
+	],
+    "entity": "alexscaves:forsaken",
+    "name": "entity.alexscaves.forsaken",
+    "name_color": "#4d1a2c",
+    "gui_scale": 0.35,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.forsaken",
+    "fabricator_drops": [
+        {
+            "item": "alexscaves:pure_darkness",
+            "count": 16
+        }
+    ],
+    "tier_data": [
+		32,
+        96,
+        256,
+        1280
+    ],
+    "data_per_kill": [
+        16,
+        32,
+        64,
+        256
+    ]
+}

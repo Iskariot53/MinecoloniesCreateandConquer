@@ -1,0 +1,29 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:giant_squid",
+    "name": "entity.alexsmobs.giant_squid",
+    "name_color": "#b35654",
+    "gui_scale": 0.5,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.giant_squid",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:ink_sac",
+            "count": 64
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "friendsandfoes"
+	}
+	],
+    "entity": "friendsandfoes:copper_golem",
+    "variants": [],
+    "name": "entity.friendsandfoes.copper_golem",
+    "name_color": "#8A4F42",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix",
+        "count": 1
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction",
+        "count": 1
+    },
+	"trivia": "custom.trivia.copper_golem",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:copper_ingot",
+            "count": 32
+        }
+    ]
+}

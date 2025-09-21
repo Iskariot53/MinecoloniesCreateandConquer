@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:kangaroo",
+    "name": "entity.alexsmobs.kangaroo",
+    "name_color": "#533f28",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.kangaroo",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:kangaroo_hide",
+            "count": 16
+        },
+        {
+            "item": "alexsmobs:kangaroo_meat",
+            "count": 16
+        }
+    ]
+}

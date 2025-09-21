@@ -1,0 +1,29 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:banana_slug",
+    "name": "entity.alexsmobs.banana_slug",
+    "name_color": "#fbcd44",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 64,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.banana_slug",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:banana_slug_slime",
+            "count": 16
+        }
+    ]
+}

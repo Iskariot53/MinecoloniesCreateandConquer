@@ -1,0 +1,30 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "friendsandfoes"
+	}
+	],
+    "entity": "friendsandfoes:tuff_golem",
+    "variants": [],
+    "name": "entity.friendsandfoes.tuff_golem",
+    "name_color": "#605E58",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+	"trivia": "custom.trivia.tuff_golem",
+    "fabricator_drops": [
+        {
+            "item": "minecraft:tuff",
+            "count": 16
+        }
+    ]
+}

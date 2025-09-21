@@ -1,0 +1,33 @@
+{
+	"conditions": [
+	{
+		"type": "forge:mod_loaded",
+		"modid": "alexsmobs"
+	}
+	],
+    "entity": "alexsmobs:flying_fish",
+    "name": "entity.alexsmobs.flying_fish",
+    "name_color": "#75a4e2",
+    "gui_scale": 1,
+    "gui_x_offset": 0,
+    "gui_y_offset": 0,
+    "gui_z_offset": 0,
+    "sim_cost": 32,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "item": "hostilenetworks:overworld_prediction"
+    },
+    "trivia": "custom.trivia.flying_fish",
+    "fabricator_drops": [
+        {
+            "item": "alexsmobs:flying_fish",
+            "count": 32
+        },
+        {
+            "item": "minecraft:bone_meal",
+            "count": 2
+        }
+    ]
+}
