@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:storage_blocks/coal"
+    },
+    "B": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "tag": "forge:dusts/redstone"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:mycelial_furnace"
+  }
+}

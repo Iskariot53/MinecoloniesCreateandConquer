@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "I": {
+      "item": "scguns:diamond_steel_block"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    }
+  },
+  "pattern": [
+    " S ",
+    "SIS"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:spikes"
+  },
+  "show_notification": true
+}

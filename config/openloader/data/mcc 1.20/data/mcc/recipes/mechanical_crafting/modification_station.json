@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "D": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "E": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "F": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "G": {
+      "item": "mekanism:steel_casing"
+    },
+    "H": {
+      "tag": "forge:chests/wooden"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACHCA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:modification_station"
+  }
+}

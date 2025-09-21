@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "B": {
+      "item": "mekanism:teleportation_core"
+    },
+    "C": {
+      "item": "mekanism:qio_dashboard"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "ACA",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:portable_qio_dashboard"
+  }
+}

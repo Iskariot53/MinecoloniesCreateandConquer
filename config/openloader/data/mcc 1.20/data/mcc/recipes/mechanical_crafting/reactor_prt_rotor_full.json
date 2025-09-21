@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " CD",
+        "ABB",
+        " CD"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:wyvern_core"
+        },
+        "B": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        "C": {
+            "item": "draconicevolution:reactor_prt_in_rotor"
+        },
+		"D": {
+            "item": "draconicevolution:reactor_prt_out_rotor"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:reactor_prt_rotor_full"
+        }
+}

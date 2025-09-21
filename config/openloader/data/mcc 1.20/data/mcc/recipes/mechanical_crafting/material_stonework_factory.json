@@ -1,0 +1,36 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "minecraft:crafting_table"
+    },
+    "C": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "D": {
+      "item": "industrialforegoing:machine_frame_advanced"
+    },
+    "E": {
+      "item": "minecraft:furnace"
+    },
+    "F": {
+      "tag": "forge:gears/gold"
+    },
+    "G": {
+      "item": "industrialforegoing:pink_slime"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDE",
+    "FGF"
+  ],
+  "result": {
+    "count": 1,
+    "item": "industrialforegoing:material_stonework_factory"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "G": {
+      "tag": "forge:storage_blocks/diamond"
+    },
+    "L": {
+      "item": "born_in_chaos_v1:dark_metal_ingot"
+    },
+    "R": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "GLG",
+    "LRL",
+    "GLG"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:saw_upgrade_looting"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "B": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "C": {
+      "tag": "forge:dusts/redstone"
+    },
+    "D": {
+      "item": "minecraft:redstone_torch"
+    },
+    "E": {
+      "item": "industrialforegoing:plastic"
+    },
+    "F": {
+      "item": "mekanism:teleportation_core"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:qio_redstone_adapter"
+  }
+}

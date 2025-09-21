@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CBC",
+        "BAB",
+        "CBC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_core"
+        },
+        "B": {
+            "item": "minecraft:blaze_rod"
+        },
+        "C": {
+            "tag": "forge:storage_blocks/redstone"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:particle_generator"
+        }
+}

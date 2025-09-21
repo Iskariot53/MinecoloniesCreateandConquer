@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "BBB",
+        "ACD",
+        "BBB"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:wyvern_core"
+        },
+        "B": {
+            "item": "thermalendergy:melodium_ingot"
+        },
+        "C": {
+            "item": "draconicevolution:awakened_draconium_ingot"
+        },
+		"D": {
+            "item": "thermalendergy:stellarium_ingot"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:reactor_prt_stab_frame"
+        }
+}

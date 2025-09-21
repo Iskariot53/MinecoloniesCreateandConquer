@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " C ",
+        "BDB",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:stone_slab"
+        },
+        "B": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "item": "minecraft:bucket"
+        },
+		"D": {
+            "item": "minecraft:stone_pressure_plate"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:rain_sensor"
+        }
+}

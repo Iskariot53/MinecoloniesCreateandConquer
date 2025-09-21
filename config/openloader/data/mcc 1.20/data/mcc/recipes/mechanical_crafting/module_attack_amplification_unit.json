@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_infused"
+    },
+    "B": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "C": {
+      "item": "minecraft:iron_sword"
+    },
+    "D": {
+      "item": "mekanism:module_base"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "ADA",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:module_attack_amplification_unit"
+  }
+}

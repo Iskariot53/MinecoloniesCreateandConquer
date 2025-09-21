@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "F": {
+      "item": "born_in_chaos_v1:monster_skin"
+    },
+    "G": {
+      "tag": "forge:storage_blocks/gold"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "GFG",
+    "FRF",
+    "GFG"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:saw_upgrade_smite"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:energy_tablet"
+    },
+    "B": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "C": {
+      "item": "mekanism:elite_control_circuit"
+    },
+    "D": {
+      "item": "mekanism:module_base"
+    },
+    "E": {
+      "item": "minecraft:arrow"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "ADA",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekaweapons:module_arrowenergy_unit"
+  }
+}

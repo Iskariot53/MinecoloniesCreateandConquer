@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_infused"
+    },
+    "B": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "C": {
+      "item": "mekanism:basic_induction_cell"
+    },
+    "D": {
+      "item": "mekanism:module_base"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "ADA",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:module_energy_unit"
+  }
+}

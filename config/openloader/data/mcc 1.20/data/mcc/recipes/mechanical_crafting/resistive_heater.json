@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "tag": "forge:ingots/tin"
+    },
+    "D": {
+      "item": "mekanism:energy_tablet"
+    },
+    "E": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "F": {
+      "tag": "forge:dusts/redstone"
+    },
+    "G": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACECA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:resistive_heater"
+  }
+}

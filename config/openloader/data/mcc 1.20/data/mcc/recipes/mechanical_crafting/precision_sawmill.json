@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "C": {
+      "item": "create:brass_ingot"
+    },
+    "D": {
+      "item": "mekanism:alloy_infused"
+    },
+    "E": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "F": {
+      "item": "mekanism:steel_casing"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ACECA",
+    "BDFDB",
+    "ACECA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:precision_sawmill"
+  }
+}

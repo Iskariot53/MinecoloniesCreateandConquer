@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/lead"
+    },
+    "B": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "C": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "D": {
+      "item": "mekanism:teleportation_core"
+    },
+    "E": {
+      "item": "industrialforegoing:plastic"
+    },
+    "F": {
+      "item": "minecraft:sticky_piston"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:qio_importer"
+  }
+}

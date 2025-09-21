@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "F": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "G": {
+      "tag": "forge:storage_blocks/gold"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "pattern": [
+    "GFG",
+    "FRF",
+    "GFG"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:saw_upgrade_fire"
+  },
+  "show_notification": true
+}

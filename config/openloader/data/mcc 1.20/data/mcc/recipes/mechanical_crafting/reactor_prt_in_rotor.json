@@ -1,0 +1,22 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "   ",
+        "BBB",
+        "ACC"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_core"
+        },
+        "B": {
+            "item": "draconicevolution:awakened_draconium_ingot"
+        },
+        "C": {
+            "item": "draconicevolution:draconium_ingot"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:reactor_prt_in_rotor"
+        }
+}

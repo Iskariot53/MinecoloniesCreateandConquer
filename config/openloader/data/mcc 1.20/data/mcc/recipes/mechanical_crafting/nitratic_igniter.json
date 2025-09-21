@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "thermal_extra:twinite_ingot"
+    },
+    "C": {
+      "item": "thermal_extra:polyolefin_plate"
+    },
+    "D": {
+      "item": "thermal:machine_frame"
+    },
+    "E": {
+      "tag": "forge:gears/signalum"
+    },
+    "F": {
+      "item": "thermal:rf_coil"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EFE"
+  ],
+  "result": {
+    "count": 1,
+    "item": "thermal_extra:nitratic_igniter"
+  }
+}

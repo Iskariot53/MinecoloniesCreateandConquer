@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "tag": "forge:ingots/lead"
+    },
+    "D": {
+      "item": "mekanism:teleportation_core"
+    },
+    "E": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "F": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "G": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACFCA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:qio_dashboard"
+  }
+}

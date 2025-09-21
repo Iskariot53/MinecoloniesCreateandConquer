@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "B": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "C": {
+      "item": "mekanism:upgrade_speed"
+    },
+    "D": {
+      "item": "mekanism:module_base"
+    },
+    "E": {
+      "item": "minecraft:bow"
+    }
+  },
+  "pattern": [
+    "CEC",
+    "ADA",
+    "BBB"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekaweapons:module_drawspeed_unit"
+  }
+}

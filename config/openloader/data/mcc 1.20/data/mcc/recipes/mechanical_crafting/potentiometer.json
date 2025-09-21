@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        " C ",
+        "BDB",
+        "AAA"
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:stone_slab"
+        },
+        "B": {
+            "item": "minecraft:redstone"
+        },
+        "C": {
+            "tag": "minecraft:planks"
+        },
+		"D": {
+            "item": "draconicevolution:draconium_dust"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:potentiometer"
+        }
+}

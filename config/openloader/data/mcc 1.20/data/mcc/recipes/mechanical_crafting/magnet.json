@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "C C",
+        "A A",
+        "BDB"
+    ],
+    "key": {
+        "A": {
+            "item": "draconicevolution:draconium_ingot"
+        },
+        "B": {
+            "item": "thermalendergy:prismalium_ingot"
+        },
+        "C": {
+            "item": "minecraft:redstone"
+        },
+		"D": {
+            "item": "draconicevolution:dislocator"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:magnet"
+        }
+}

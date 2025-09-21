@@ -1,0 +1,38 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:alloy_infused"
+    },
+    "D": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "E": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "F": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "G": {
+      "item": "mekanism:enrichment_chamber"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACDCA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:purification_chamber"
+  }
+}

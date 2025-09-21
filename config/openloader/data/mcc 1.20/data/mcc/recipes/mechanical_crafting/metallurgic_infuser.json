@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:blaze_burner"
+    },
+    "C": {
+      "item": "mekanism:ingot_osmium"
+    },
+    "D": {
+      "item": "create:brass_ingot"
+    },
+    "E": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "AABAA",
+    "ADCDA",
+    "CECEC",
+    "ADCDA",
+    "AABAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:metallurgic_infuser"
+  }
+}

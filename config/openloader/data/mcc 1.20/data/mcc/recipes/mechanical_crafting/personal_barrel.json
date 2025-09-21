@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "forge:ingots/steel"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    },
+    "C": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "D": {
+      "tag": "forge:glass/silica"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:personal_barrel"
+  }
+}

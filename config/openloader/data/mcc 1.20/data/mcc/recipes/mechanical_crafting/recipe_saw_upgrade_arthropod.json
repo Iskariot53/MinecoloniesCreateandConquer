@@ -1,0 +1,24 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "G": {
+      "tag": "forge:storage_blocks/gold"
+    },
+    "R": {
+      "tag": "forge:dusts/redstone"
+    },
+    "S": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "pattern": [
+    "GSG",
+    "SRS",
+    "GSG"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:saw_upgrade_arthropod"
+  },
+  "show_notification": true
+}

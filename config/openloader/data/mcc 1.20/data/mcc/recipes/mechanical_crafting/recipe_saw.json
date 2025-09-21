@@ -1,0 +1,30 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "D": {
+      "tag": "forge:storage_blocks/knightmetal"
+    },
+    "I": {
+      "tag": "forge:storage_blocks/fiery"
+    },
+    "R": {
+      "tag": "forge:storage_blocks/redstone"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    },
+    "V": {
+      "item": "mob_grinding_utils:spikes"
+    }
+  },
+  "pattern": [
+    "SDS",
+    "VRV",
+    "DID"
+  ],
+  "result": {
+    "item": "mob_grinding_utils:saw"
+  },
+  "show_notification": true
+}

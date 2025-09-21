@@ -1,0 +1,41 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "item": "industrialforegoing:plastic"
+    },
+    "B": {
+      "item": "create:brass_ingot"
+    },
+    "C": {
+      "item": "mekanism:pellet_polonium"
+    },
+    "D": {
+      "item": "mekanism:teleportation_core"
+    },
+    "E": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "F": {
+      "item": "mekanism:ultimate_control_circuit"
+    },
+    "G": {
+      "tag": "mekanism:personal_storage"
+    },
+    "H": {
+      "tag": "forge:glass_panes"
+    }
+  },
+  "pattern": [
+    "AAEAA",
+    "ACHCA",
+    "BFGFB",
+    "ACDCA",
+    "AAEAA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism:qio_drive_array"
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "create:mechanical_crafting",
+    "pattern": [
+        "CAC",
+        "BDB",
+        "CAC"
+    ],
+    "key": {
+        "A": {
+            "item": "thermalendergy:melodium_ingot"
+        },
+        "B": {
+            "item": "draconicevolution:wyvern_core"
+        },
+        "C": {
+            "item": "thermalendergy:prismalium_ingot"
+        },
+		"D": {
+            "item": "thermalendergy:stellarium_ingot"
+        }
+    },
+    "result": {
+        "item": "draconicevolution:reactor_prt_focus_ring"
+        }
+}
