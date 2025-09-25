@@ -1,6 +1,6 @@
 #Adjust this value to define how much the matching spell cost gets discounted by the greater focus
 #Range: 0.0 ~ 0.99
-"Elemental Focus discount" = 0.25
+"Elemental Focus discount" = 0.50
 
 #Adjust these values to balance how much a spell gets amplified by the matching spell focus, doubled for major foci.
 ["Elemental Spell Foci - Amplify"]
@@ -26,7 +26,7 @@
 ["Elemental Armors"]
 	#Max mana bonus for each elemental armor piece
 	#Range: 0 ~ 10000
-	armorMaxMana = 100
+	armorMaxMana = 125
 	#Mana regen bonus for each elemental armor piece
 	#Range: 0 ~ 100
 	armorManaRegen = 4
