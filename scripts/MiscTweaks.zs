@@ -2028,3 +2028,14 @@ craftingTable.remove(<item:luphieclutteredmod:luphie_floral_striped_wallpaper>);
 craftingTable.addShaped("luphieclutteredmod.luphie_floral_striped_wallpaper", <item:luphieclutteredmod:luphie_floral_striped_wallpaper> * 6, [[<item:minecraft:pink_wool>, <item:minecraft:pink_wool>, <item:minecraft:pink_wool>], [<item:minecraft:red_tulip>, <item:minecraft:pink_tulip>, <item:minecraft:orange_tulip>], [<item:minecraft:white_wool>, <item:minecraft:white_wool>, <item:minecraft:white_wool>]]);
 
 <recipetype:ae2:charger>.remove(<item:ae2:meteorite_compass>);
+
+import crafttweaker.api.recipe.MirrorAxis;
+
+craftingTable.addShaped("sourcestone.slab", <item:ars_nouveau:sourcestone_slab> * 6,
+[[<item:ars_nouveau:sourcestone>, <item:ars_nouveau:sourcestone>, <item:ars_nouveau:sourcestone>]]);
+craftingTable.addShapedMirrored("sourcestone.stairs", MirrorAxis.HORIZONTAL, <item:ars_nouveau:sourcestone_stairs> * 4,
+[[<item:ars_nouveau:sourcestone>, <item:minecraft:air>, <item:minecraft:air>],
+[<item:ars_nouveau:sourcestone>, <item:ars_nouveau:sourcestone>, <item:minecraft:air>],
+[<item:ars_nouveau:sourcestone>, <item:ars_nouveau:sourcestone>, <item:ars_nouveau:sourcestone>]]);
+stoneCutter.addRecipe("cutter.sourcestone.stairs", <item:ars_nouveau:sourcestone_stairs>, <item:ars_nouveau:sourcestone>);
+stoneCutter.addRecipe("cutter.sourcestone.slab", <item:ars_nouveau:sourcestone_slab> * 2, <item:ars_nouveau:sourcestone>);
