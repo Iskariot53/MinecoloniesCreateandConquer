@@ -150,9 +150,6 @@
   "cagedmobs": {
     "cagedmobs_jade": true
   },
-  "tombstone": {
-    "graves": true
-  },
   "mekanismcardboardtooltip": {
     "cardboard_box": true
   },
@@ -219,5 +216,8 @@
     "fruit": true,
     "rooty": true,
     "branch": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }
