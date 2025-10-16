@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "old_growth_spruce_taiga",
+  "spawners": {
+    "type": "chicken_roost:c_sprucewood",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 0
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "desert",
+  "spawners": {
+    "type": "chicken_roost:c_sand",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 0
+  }
+}

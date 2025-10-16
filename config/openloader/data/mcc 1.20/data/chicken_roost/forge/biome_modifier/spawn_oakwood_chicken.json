@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": ["forest", "flower_forest"],
+  "spawners": {
+    "type": "chicken_roost:c_oakwood",
+    "maxCount": 1,
+    "minCount": 1,
+    "weight": 0
+  }
+}
