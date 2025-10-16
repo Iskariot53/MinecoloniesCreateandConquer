@@ -4,15 +4,7 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "31CA1CE9A64781BD"
-	icon: {
-		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
-		id: "botania:pure_daisy"
-	}
+	icon: "botania:pure_daisy"
 	id: "6F379C74A5FFBE73"
 	images: [
 		{
@@ -31,15 +23,6 @@
 			width: 2.0d
 			x: -2.5357142857142847d
 			y: -2.892857142857153d
-		}
-		{
-			height: 3.0d
-			image: "dawnoftimebuilder:item/camellia_seeds"
-			order: -2
-			rotation: 0.0d
-			width: 3.0d
-			x: -2.4285714285714306d
-			y: -3.6428571428571495d
 		}
 	]
 	order_index: 3

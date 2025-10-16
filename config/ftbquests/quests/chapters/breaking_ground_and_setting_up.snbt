@@ -772,15 +772,7 @@
 			description: ["  Whether you choose to rely on stress until          electricity via alternator, or choose to                incorporate early game power generators where    possible and power your early automations that     way, it's time to start working towards mobility.        &#D2691EJetpacks&r powered by both &#D2691EStress&r &oand&r &#D2691EFE&r have       been provided. Let's build what we need to             recharge or refill it, the next few chapters will      explore the options."]
 			hide_dependency_lines: true
 			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "tfmg:steel_encased_large_steel_cogwheel"
-			}
+			icon: "create:cogwheel"
 			id: "626B4E8865E9892C"
 			rewards: [{
 				id: "13624C9FED49A672"
@@ -1053,46 +1045,6 @@
 			}]
 			title: "&lFlux Controller"
 			x: -4.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"4F98CC4F3B2B2CF9"
-				"72ABF1E13212EB7A"
-				"5EE45B1CFDB10215"
-				"4F028FCAAFC2AD22"
-				"52C1ABEEAA3AEEDB"
-				"3A62EDEC4F73063C"
-			]
-			description: [
-				"  The crafting automat can be used to   automate single recipes, making some    aspects of early progression not so   tedious. While not meant to serve as     an ACTUAL replacement for                autocrafting, it does make repeatedly   crafted recipes for things such as     pickaxes and cogs not SO bad until      actual automation can be achieved."
-				""
-				"  Simply place the automat and supply it  with the ingredients for the recipe,      introduce a redstone signal and you    have your crafted items on demand!"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_visible: true
-			id: "328F2E09297C9A18"
-			rewards: [
-				{
-					id: "7128C1D4F6578D2B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 4
-					id: "0D79CC724BAB3B9B"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
-			subtitle: "&#8B4513An autocrafting table"
-			tasks: [{
-				id: "3A276D31D998194E"
-				item: "craftingautomat:autocrafter"
-				type: "item"
-			}]
-			title: "&lCrafting Automat"
-			x: 3.5d
 			y: 1.5d
 		}
 		{
