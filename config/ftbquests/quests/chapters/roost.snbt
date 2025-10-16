@@ -33,21 +33,11 @@
 			dependencies: ["19C32F0E30411935"]
 			description: [
 				"  &l&#D2691ERoost Ultimate&r&r is a comprehensive expansion for Minecraft   that opens up a new dimension of chicken breeding and            resource production. Immerse yourself in a world of diverse    chicken breeds, experiment with breeding, and optimize your      resource yield. Enjoy the challenges and rewards this mod      brings, and experience the game in a whole new way."
-				""
-				"  Let’s start by crafting the &#D2691E&lRoost Ultimate Book&r&r, your         starter guide for diving into the mod. Some basic chickens        naturally spawn in specific biomes, and the last page of the      book provides information on where different chickens can be   found in the world."
-				""
+				" "
 				"  Aside from the &l&#D2691EChicken Stick-Wrench&r&r looking cool in your    hand, it’s the primary tool used to pick up any chickens you      find while exploring. Craft one and get ready to chase down     some chickens!"
 			]
 			hide_until_deps_complete: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "chicken_roost:chicken_stick"
-			}
+			icon: "chicken_roost:chicken_stick"
 			id: "1C06D0643A1A3CD6"
 			rewards: [
 				{

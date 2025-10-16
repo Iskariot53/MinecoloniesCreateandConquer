@@ -1,15 +1,6 @@
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_cherry>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_mangrove>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_cactus>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_bamboo>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_potato>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_cocoabeans>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_pumpkin>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_blazingarchwood>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_cascadingarchwood>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_flashingarchwood>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_vexingarchwood>);
-		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_flourishingarchwood>);
+		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_wood>);
+		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_crop>);
+		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_archwood>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_magebloom>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_anthralite>);
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_thorium>);
@@ -27,18 +18,9 @@
 		<tag:items:forge:roost/tiered>.addId(<resource:chicken_roost:c_sap>);
 		
 		
-		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_cherry>);
-		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_mangrove>);
-		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_cactus>);
-		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_bamboo>);
-		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_potato>);
-		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_cocoabeans>);
-		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_pumpkin>);
-		<tag:items:forge:roost/tier3>.addId(<resource:chicken_roost:c_blazingarchwood>);
-		<tag:items:forge:roost/tier3>.addId(<resource:chicken_roost:c_cascadingarchwood>);
-		<tag:items:forge:roost/tier3>.addId(<resource:chicken_roost:c_flashingarchwood>);
-		<tag:items:forge:roost/tier3>.addId(<resource:chicken_roost:c_vexingarchwood>);
-		<tag:items:forge:roost/tier3>.addId(<resource:chicken_roost:c_flourishingarchwood>);
+		<tag:items:forge:roost/tier1>.addId(<resource:chicken_roost:c_wood>);
+		<tag:items:forge:roost/tier2>.addId(<resource:chicken_roost:c_crop>);
+		<tag:items:forge:roost/tier3>.addId(<resource:chicken_roost:c_archwood>);
 		<tag:items:forge:roost/tier4>.addId(<resource:chicken_roost:c_magebloom>);
 		<tag:items:forge:roost/tier6>.addId(<resource:chicken_roost:c_anthralite>);
 		<tag:items:forge:roost/tier6>.addId(<resource:chicken_roost:c_thorium>);
@@ -54,850 +36,7 @@
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_wastedradioactive>);
 		<tag:items:forge:roost/tier6>.addId(<resource:chicken_roost:c_beastmaster>);
 		<tag:items:forge:roost/tier9>.addId(<resource:chicken_roost:c_sap>);
-		
-		
-
-		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cherrychicken1", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_bone"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_cherry"
-			}
-		  
-		});
-		
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cherrychicken2", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_bonemeal"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_cherry"
-			}
-		  
-		});
-		
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cherrychicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier1andup"
-			},
-			{
-			  "item": "chicken_roost:c_cherry"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_cherry"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cherrychicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_cherry"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:cherry_log"
-		  }
-		});
-		
-
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.mangrovechicken1", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_bone"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_mangrove"
-			}
-		  
-		});
-		
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.mangrovechicken2", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_bonemeal"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_mangrove"
-			}
-		  
-		});
-		
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.mangrovechicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier1andup"
-			},
-			{
-			  "item": "chicken_roost:c_mangrove"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_mangrove"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.mangrovechicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_mangrove"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:mangrove_log"
-		  }
-		});
-		
-
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cactuschicken1", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bone"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_cactus"
-			}
-		  
-		});
-		
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cactuschicken2", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bonemeal"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_cactus"
-			}
-		  
-		});
-		
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cactuschicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier2andup"
-			},
-			{
-			  "item": "chicken_roost:c_cactus"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_cactus"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cactuschicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_cactus"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:cactus"
-		  }
-		});
-		
-
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.bamboochicken1", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bone"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_bamboo"
-			}
-		  
-		});
-		
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.bamboochicken2", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bonemeal"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_bamboo"
-			}
-		  
-		});
-		
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.bamboochicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier2andup"
-			},
-			{
-			  "item": "chicken_roost:c_bamboo"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_bamboo"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.bamboochicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bamboo"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:bamboo"
-		  }
-		});
-		
-
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.potatochicken1", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bone"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_potato"
-			}
-		  
-		});
-		
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.potatochicken2", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bonemeal"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_potato"
-			}
-		  
-		});
-		
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.potatochicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier2andup"
-			},
-			{
-			  "item": "chicken_roost:c_potato"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_potato"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.potatochicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_potato"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:potato"
-		  }
-		});
-		
-
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cocoabeanschicken1", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bone"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_cocoabeans"
-			}
-		  
-		});
-		
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cocoabeanschicken2", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bonemeal"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_cocoabeans"
-			}
-		  
-		});
-		
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cocoabeanschicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier2andup"
-			},
-			{
-			  "item": "chicken_roost:c_cocoabeans"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_cocoabeans"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cocoabeanschicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_cocoabeans"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:cocoa_beans"
-		  }
-		});
-		
-
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.pumpkinchicken1", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bone"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_pumpkin"
-			}
-		  
-		});
-		
-				<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.pumpkinchicken2", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_bonemeal"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_pumpkin"
-			}
-		  
-		});
-		
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.pumpkinchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier2andup"
-			},
-			{
-			  "item": "chicken_roost:c_pumpkin"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_pumpkin"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.pumpkinchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_pumpkin"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:pumpkin"
-		  }
-		});
-		
-
-<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("blazingarchwoodchicken", {
-  "type": "ars_nouveau:enchanting_apparatus",
-  "output": {
-	"item": "chicken_roost:c_blazingarchwood"
-	},
-  "pedestalItems": [   
-    {
-        "item": "ars_nouveau:red_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:red_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    },
-    {
-        "item": "ars_nouveau:red_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:red_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    }
-  ],
-  "reagent": [
-	{
-		"item": "chicken_roost:chicken_essence_tier_3"
-	}
-  ],
-  "sourceCost": 1000
-});
-
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.blazingarchwoodchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier3andup"
-			},
-			{
-			  "item": "chicken_roost:c_blazingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_blazingarchwood"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.blazingarchwoodchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier3orup"
-			},
-			{
-			  "item": "chicken_roost:c_blazingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "ars_nouveau:red_archwood_log"
-		  }
-		});
-		
-
-<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("cascadingarchwoodchicken", {
-  "type": "ars_nouveau:enchanting_apparatus",
-  "output": {
-	"item": "chicken_roost:c_cascadingarchwood"
-	},
-  "pedestalItems": [   
-    {
-        "item": "ars_nouveau:blue_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:blue_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    },
-    {
-        "item": "ars_nouveau:blue_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:blue_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    }
-  ],
-  "reagent": [
-	{
-		"item": "chicken_roost:chicken_essence_tier_3"
-	}
-  ],
-  "sourceCost": 1000
-});
-
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cascadingarchwoodchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier3andup"
-			},
-			{
-			  "item": "chicken_roost:c_cascadingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_cascadingarchwood"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cascadingarchwoodchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier3orup"
-			},
-			{
-			  "item": "chicken_roost:c_cascadingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "ars_nouveau:blue_archwood_log"
-		  }
-		});
-		
-
-<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("vexingarchwoodchicken", {
-  "type": "ars_nouveau:enchanting_apparatus",
-  "output": {
-	"item": "chicken_roost:c_vexingarchwood"
-	},
-  "pedestalItems": [   
-    {
-        "item": "ars_nouveau:purple_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:purple_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    },
-    {
-        "item": "ars_nouveau:purple_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:purple_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    }
-  ],
-  "reagent": [
-	{
-		"item": "chicken_roost:chicken_essence_tier_3"
-	}
-  ],
-  "sourceCost": 1000
-});
-
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.vexingarchwoodchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier3andup"
-			},
-			{
-			  "item": "chicken_roost:c_vexingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_vexingarchwood"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.vexingarchwoodchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier3orup"
-			},
-			{
-			  "item": "chicken_roost:c_vexingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "ars_nouveau:purple_archwood_log"
-		  }
-		});
-		
-
-<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("flourishingarchwoodchicken", {
-  "type": "ars_nouveau:enchanting_apparatus",
-  "output": {
-	"item": "chicken_roost:c_flourishingarchwood"
-	},
-  "pedestalItems": [   
-    {
-        "item": "ars_nouveau:green_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:green_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    },
-    {
-        "item": "ars_nouveau:green_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_nouveau:green_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    }
-  ],
-  "reagent": [
-	{
-		"item": "chicken_roost:chicken_essence_tier_3"
-	}
-  ],
-  "sourceCost": 1000
-});
-
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.flourishingarchwoodchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier3andup"
-			},
-			{
-			  "item": "chicken_roost:c_flourishingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_flourishingarchwood"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.flourishingarchwoodchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier3orup"
-			},
-			{
-			  "item": "chicken_roost:c_flourishingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "ars_nouveau:green_archwood_log"
-		  }
-		});
-		
-
-<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("flashingarchwoodchicken", {
-  "type": "ars_nouveau:enchanting_apparatus",
-  "output": {
-	"item": "chicken_roost:c_flashingarchwood"
-	},
-  "pedestalItems": [   
-    {
-        "item": "ars_elemental:yellow_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_elemental:yellow_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    },
-    {
-        "item": "ars_elemental:yellow_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-	},
-    {
-        "item": "ars_elemental:yellow_archwood_sapling"
-    },
-    {
-        "item": "chicken_roost:c_oakwood"
-    }
-  ],
-  "reagent": [
-	{
-		"item": "chicken_roost:chicken_essence_tier_3"
-	}
-  ],
-  "sourceCost": 1000
-});
-
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.flashingarchwoodchicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier3andup"
-			},
-			{
-			  "item": "chicken_roost:c_flashingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_flashingarchwood"
-		  }
-		  
-		});
-	
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.flashingarchwoodchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier3orup"
-			},
-			{
-			  "item": "chicken_roost:c_flashingarchwood"
-			}
-		  ],
-		  "output": {
-			"item": "ars_elemental:yellow_archwood_log"
-		  }
-		});
-		
-
+			
 <recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("magebloomchicken", {
   "type": "ars_nouveau:enchanting_apparatus",
   "output": {
@@ -908,25 +47,25 @@
         "item": "ars_nouveau:source_gem"
     },
     {
-        "item": "chicken_roost:c_blazingarchwood"
+        "item": "chicken_roost:c_archwood"
 	},
     {
         "item": "ars_nouveau:magebloom_crop"
     },
     {
-        "item": "chicken_roost:c_flourishingarchwood"
+        "item": "chicken_roost:c_archwood"
     },
     {
         "item": "ars_nouveau:source_gem"
     },
     {
-        "item": "chicken_roost:c_vexingarchwood"
+        "item": "chicken_roost:c_archwood"
 	},
     {
         "item": "ars_nouveau:magebloom_crop"
     },
     {
-        "item": "chicken_roost:c_cascadingarchwood"
+        "item": "chicken_roost:c_archwood"
     }
   ],
   "reagent": [
@@ -1601,58 +740,7 @@
 			}
 		  
 		});
-
-
-		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.tintedglasschicken", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_glass"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_tintedglass"
-			}
-		  
-		});
-
-
-			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.tintedglasschicken", {
-		  "type": "chicken_roost:soul_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:souls/tier1andup"
-			},
-			{
-			  "item": "chicken_roost:c_tintedglass"
-			}
-		  ],
-		  "output": {
-			"item": "chicken_roost:c_tintedglass"
-		  }
-		  
-		});
 		
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.tintedglasschicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier1orup"
-			},
-			{
-			  "item": "chicken_roost:c_tintedglass"
-			}
-		  ],
-		  "output": {
-			"item": "minecraft:tinted_glass"
-		  }
-		});
-
 
 		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.prismarineshardchicken", {
 		  "type": "chicken_roost:basic_breeding",
@@ -1791,41 +879,7 @@
 			}
 		  ],
 		  "output": {
-			"item": "thermal:rose_gold_ingot"
-		  }
-		});
-
-
-		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.pigironchicken", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier6orup"
-			},
-			{
-			  "item": "chicken_roost:c_iron"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_pigiron"
-			}
-		  
-		});
-
-
-			<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.pigironchicken", {
-		  "type": "chicken_roost:roost_output",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier6orup"
-			},
-			{
-			  "item": "chicken_roost:c_pigiron"
-			}
-		  ],
-		  "output": {
-			"item": "blocksyouneed_luna:pig_iron_ingot"
+			"item": "thermal:rose_gold_dust"
 		  }
 		});
 
@@ -1959,25 +1013,7 @@
 			"item": "ae2:charged_certus_quartz_crystal"
 		  }
 		});
-
-
-		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.paperchicken", {
-		  "type": "chicken_roost:basic_breeding",
-		  "ingredients": [
-			{
-			  "tag": "forge:seeds/tier2orup"
-			},
-			{
-			  "item": "chicken_roost:c_sugar"
-			}
-		  ],
-		  "output": 
-			{
-			  "item": "chicken_roost:c_paper"
-			}
-		  
-		});
-					
+		
 
 			<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.osmium_chicken", {
 			  "type": "chicken_roost:soul_breeding",
@@ -2459,3 +1495,492 @@
 		  }
 		});	
 		
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_cobble>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_cobble>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:cobblestone>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_granit>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_granit>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:granite>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_andesite>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_andesite>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:andesite>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_diorite>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_diorite>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_stone>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:diorite>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:stone>);
+
+		<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.stonechicken", {
+		  "type": "chicken_roost:roost_output",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier1orup"
+			},
+			{
+			  "item": "chicken_roost:c_stone"
+			}
+		  ],
+		  "output": {
+			"item": "ccextras:stone_egg"
+		  }
+		});
+
+		craftingTable.addShaped("crafting.stone_fromegg", <item:minecraft:stone>,
+		[[<item:ccextras:stone_egg>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.cobble_fromegg", <item:minecraft:cobblestone>,
+		[[<item:minecraft:air>, <item:ccextras:stone_egg>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.andesite_fromegg", <item:minecraft:andesite>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:stone_egg>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.granite_fromegg", <item:minecraft:granite>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:ccextras:stone_egg>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.diorite_fromegg", <item:minecraft:diorite>,
+		[[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:ccextras:stone_egg>, <item:minecraft:air>],
+		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		stoneCutter.addRecipe("cutter.asurine_fromegg", <item:create:asurine>, <item:ccextras:stone_egg>);
+		stoneCutter.addRecipe("cutter.crimsite_fromegg", <item:create:crimsite>, <item:ccextras:stone_egg>);
+		stoneCutter.addRecipe("cutter.ochrum_fromegg", <item:create:ochrum>, <item:ccextras:stone_egg>);
+		stoneCutter.addRecipe("cutter.scoria_fromegg", <item:create:scoria>, <item:ccextras:stone_egg>);
+		stoneCutter.addRecipe("cutter.scorchia_fromegg", <item:create:scorchia>, <item:ccextras:stone_egg>);
+		stoneCutter.addRecipe("cutter.veridium_fromegg", <item:create:veridium>, <item:ccextras:stone_egg>);
+		
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_birchwood>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_birchwood>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:birch_log>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_oakwood>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_oakwood>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:oak_log>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_darkoak>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_darkoak>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:dark_oak_log>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_acaciawood>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_acaciawood>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:acacia_log>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_junglewood>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_junglewood>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:jungle_log>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_sprucewood>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_sprucewood>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:spruce_log>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_crimstonstem>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_crimstonstem>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:crimson_stem>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_warpedstem>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_warpedstem>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:warped_stem>);	
+
+		
+		<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.woodchicken", {
+		  "type": "chicken_roost:soul_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:souls/tier1andup"
+			},
+			{
+			  "item": "chicken_roost:c_wood"
+			}
+		  ],
+		  "output": {
+			"item": "chicken_roost:c_wood"
+		  }
+		  
+		});
+	
+
+		<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.woodchicken", {
+		  "type": "chicken_roost:roost_output",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier1orup"
+			},
+			{
+			  "item": "chicken_roost:c_wood"
+			}
+		  ],
+		  "output": {
+			"item": "ccextras:wooden_egg"
+		  }
+		});
+
+		craftingTable.addShaped("crafting.birch_fromegg", <item:minecraft:birch_log>,
+        [[<item:ccextras:wooden_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.oak_fromegg", <item:minecraft:oak_log>,
+        [[<item:minecraft:air>, <item:ccextras:wooden_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.darkoak_fromegg", <item:minecraft:dark_oak_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:wooden_egg>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.acacia_fromegg", <item:minecraft:acacia_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:ccextras:wooden_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.jungle_fromegg", <item:minecraft:jungle_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:wooden_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.spruce_fromegg", <item:minecraft:spruce_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:wooden_egg>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.crimsonstem_fromegg", <item:minecraft:crimson_stem> * 2,
+        [[<item:ccextras:wooden_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:wooden_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.warpedstem_fromegg", <item:minecraft:warped_stem> * 2,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:wooden_egg>],
+        [<item:minecraft:air>, <item:ccextras:wooden_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.cherry_fromegg", <item:minecraft:cherry_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:wooden_egg>, <item:minecraft:air>]]);
+
+        craftingTable.addShaped("crafting.mangrove_fromegg", <item:minecraft:mangrove_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:ccextras:wooden_egg>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+
+		<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("archwoodchicken", {
+  		"type": "ars_nouveau:enchanting_apparatus",
+  		"output": {
+			"item": "chicken_roost:c_archwood"
+			},
+  		"pedestalItems": [   
+    		{
+    		    "item": "ars_elemental:yellow_archwood_sapling"
+    		},
+    		{
+    		    "item": "chicken_roost:c_wood"
+			},
+    		{
+    		    "item": "ars_nouveau:blue_archwood_sapling"
+    		},
+    		{
+    		    "item": "chicken_roost:c_wood"
+    		},
+    		{
+    		    "item": "ars_nouveau:red_archwood_sapling"
+    		},
+    		{
+    		    "item": "chicken_roost:c_wood"
+			},
+    		{
+    		    "item": "ars_nouveau:purple_archwood_sapling"
+    		},
+    		{
+    		    "item": "chicken_roost:c_wood"
+    		}
+  		],
+  		"reagent": [
+			{
+				"item": "chicken_roost:chicken_essence_tier_3"
+			}
+  		],
+		"sourceCost": 1000
+		});
+
+
+		<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.archwoodchicken", {
+		  "type": "chicken_roost:soul_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:souls/tier3andup"
+			},
+			{
+			  "item": "chicken_roost:c_archwood"
+			}
+		  ],
+		  "output": {
+			"item": "chicken_roost:c_archwood"
+		  }
+		  
+		});
+	
+
+		<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.archwoodchicken", {
+		  "type": "chicken_roost:roost_output",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier3orup"
+			},
+			{
+			  "item": "chicken_roost:c_archwood"
+			}
+		  ],
+		  "output": {
+			"item": "ccextras:archwood_egg"
+		  }
+		});
+
+		craftingTable.addShaped("crafting.vexingarchwood_fromegg", <item:ars_nouveau:purple_archwood_log>,
+        [[<item:ccextras:archwood_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.flourishingarchwood_fromegg", <item:ars_nouveau:green_archwood_log>,
+        [[<item:minecraft:air>, <item:ccextras:archwood_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.flashingarchwood_fromegg", <item:ars_elemental:yellow_archwood_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:archwood_egg>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.cascadingarchwood_fromegg", <item:ars_nouveau:blue_archwood_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:ccextras:archwood_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.blazingarchwood_fromegg", <item:ars_nouveau:red_archwood_log>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:archwood_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_sugar>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_sugar>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:sugar_cane>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_apple>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_apple>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:apple>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_melon>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_melon>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:melon_slice>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_glowberries>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_glowberries>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:glow_berries>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_sweetberries>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_sweetberries>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:sweet_berries>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_beetroot>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_beetroot>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:beetroot>);	
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_carrot>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_carrot>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:carrot>);	
+
+		<recipetype:chicken_roost:soul_breeding>.addJsonRecipe("soulbreeding.cropchicken", {
+		  "type": "chicken_roost:soul_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:souls/tier2andup"
+			},
+			{
+			  "item": "chicken_roost:c_crop"
+			}
+		  ],
+		  "output": {
+			"item": "chicken_roost:c_crop"
+		  }
+		  
+		});
+	
+
+		<recipetype:chicken_roost:roost_output>.addJsonRecipe("roost.cropchicken", {
+		  "type": "chicken_roost:roost_output",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier2orup"
+			},
+			{
+			  "item": "chicken_roost:c_crop"
+			}
+		  ],
+		  "output": {
+			"item": "ccextras:crop_egg"
+		  }
+		});
+
+		craftingTable.addShaped("crafting.sugarcane_fromegg", <item:minecraft:sugar_cane>,
+        [[<item:ccextras:crop_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.apple_fromegg", <item:minecraft:apple>,
+        [[<item:minecraft:air>, <item:ccextras:crop_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.melon_fromegg", <item:minecraft:melon_slice>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:crop_egg>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.glowberries_fromegg", <item:minecraft:glow_berries>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:ccextras:crop_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.sweetberries_fromegg", <item:minecraft:sweet_berries>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:crop_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.beetroot_fromegg", <item:minecraft:beetroot>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:crop_egg>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.carrot_fromegg", <item:minecraft:carrot>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:ccextras:crop_egg>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.bamboo_fromegg", <item:minecraft:bamboo>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:crop_egg>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.cactus_fromegg", <item:minecraft:cactus>,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:crop_egg>]]);
+
+		craftingTable.addShaped("crafting.cocoabeans_fromegg", <item:minecraft:cocoa_beans> * 2,
+        [[<item:ccextras:crop_egg>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:crop_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.potato_fromegg", <item:minecraft:potato> * 2,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:ccextras:crop_egg>],
+        [<item:minecraft:air>, <item:ccextras:crop_egg>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		craftingTable.addShaped("crafting.pumpkin_fromegg", <item:minecraft:pumpkin> * 2,
+        [[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:ccextras:crop_egg>, <item:minecraft:air>],
+        [<item:ccextras:crop_egg>, <item:minecraft:air>, <item:minecraft:air>]]);
+
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:paper>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_paper>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_pigiron>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_blazepowder>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_blazepowder>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:blaze_powder>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_endereye>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_endereye>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:ender_eye>);
+		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_bonemeal>);
+		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_bonemeal>);
+		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:bone_meal>);
+
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromandesite/bb_sand");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromdiorite/bb_sand");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromgranit/bb_sand");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromcobble/bb_sand");
+
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromandesite/bb_gravel");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromdiorite/bb_gravel");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromgranit/bb_gravel");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromcobble/bb_gravel");
+
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_apple_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_acaciawood_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_carrot_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_birchwood_bone");	
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_oakwood_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_darkoak_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_sprucewood_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_sweetberries_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_junglewood_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_sugar_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_beetroot_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_glowberries_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombone/bb_melon_bone");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/frombonemeal/bb_bone");
+
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromandesite/bb_coal");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromdiorite/bb_coal");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromgranit/bb_coal");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromcobble/bb_coal");
+
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromblazepowder/bb_basalt");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromblazepowder/bb_blazerod");
+		<recipetype:chicken_roost:basic_breeding>.removeByName("chicken_roost:basicbreeding/fromslime/bb_ae_silicon");
+
+		craftingTable.addShaped("crafting.stonechicken", <item:chicken_roost:c_stone>,
+        [[<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>],
+        [<item:minecraft:stone>, <item:chicken_roost:c_vanilla>, <item:minecraft:stone>],
+        [<item:minecraft:stone>, <item:minecraft:stone>, <item:minecraft:stone>]]);
+
+		craftingTable.addShaped("crafting.netherrackchicken", <item:chicken_roost:c_netherrack>,
+        [[<item:minecraft:netherrack>, <item:minecraft:netherrack>, <item:minecraft:netherrack>],
+        [<item:minecraft:netherrack>, <item:chicken_roost:chicken_essence_tier_2>, <item:minecraft:netherrack>],
+        [<item:minecraft:netherrack>, <item:minecraft:netherrack>, <item:minecraft:netherrack>]]);
+
+		craftingTable.addShaped("crafting.snowchicken", <item:chicken_roost:c_snow>,
+        [[<item:minecraft:snow_block>, <item:minecraft:snow_block>, <item:minecraft:snow_block>],
+        [<item:minecraft:snow_block>, <item:chicken_roost:chicken_essence_tier_2>, <item:minecraft:snow_block>],
+        [<item:minecraft:snow_block>, <item:minecraft:snow_block>, <item:minecraft:snow_block>]]);
+
+		craftingTable.addShaped("crafting.basaltchicken", <item:chicken_roost:c_basalt>,
+        [[<item:minecraft:basalt>, <item:minecraft:basalt>, <item:minecraft:basalt>],
+        [<item:minecraft:basalt>, <item:chicken_roost:c_netherrack>, <item:minecraft:basalt>],
+        [<item:minecraft:basalt>, <item:minecraft:basalt>, <item:minecraft:basalt>]]);
+
+		craftingTable.addShaped("roost.spidereyechicken", <item:chicken_roost:c_spidereye>,
+        [[<item:minecraft:spider_eye>, <item:minecraft:spider_eye>, <item:minecraft:spider_eye>],
+        [<item:minecraft:spider_eye>, <item:chicken_roost:c_vanilla>, <item:minecraft:spider_eye>],
+        [<item:minecraft:spider_eye>, <item:minecraft:spider_eye>, <item:minecraft:spider_eye>]]);
+
+		craftingTable.addShaped("crafting.rottenchicken", <item:chicken_roost:c_rotten>,
+        [[<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>],
+        [<item:minecraft:rotten_flesh>, <item:chicken_roost:c_vanilla>, <item:minecraft:rotten_flesh>],
+        [<item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>, <item:minecraft:rotten_flesh>]]);
+
+		craftingTable.addShaped("crafting.bonechicken", <item:chicken_roost:c_bone>,
+        [[<item:minecraft:bone>, <item:minecraft:bone>, <item:minecraft:bone>],
+        [<item:minecraft:bone>, <item:chicken_roost:c_vanilla>, <item:minecraft:bone>],
+        [<item:minecraft:bone>, <item:minecraft:bone>, <item:minecraft:bone>]]);
+
+		craftingTable.addShaped("crafting.woodchicken", <item:chicken_roost:c_wood>,
+        [[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+        [<tag:items:minecraft:logs>, <item:chicken_roost:c_vanilla>, <tag:items:minecraft:logs>],
+        [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>, <tag:items:minecraft:logs>]]);
+
+		craftingTable.addShaped("crafting.endstonechicken", <item:chicken_roost:c_endstone>,
+        [[<item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:end_stone>],
+        [<item:minecraft:end_stone>, <item:chicken_roost:c_blazerod>, <item:minecraft:end_stone>],
+        [<item:minecraft:end_stone>, <item:minecraft:end_stone>, <item:minecraft:end_stone>]]);
+
+		<recipetype:chicken_roost:basic_breeding>.addJsonRecipe("basicbreeding.cropchicken", {
+		  "type": "chicken_roost:basic_breeding",
+		  "ingredients": [
+			{
+			  "tag": "forge:seeds/tier2orup"
+			},
+			{
+			  "item": "chicken_roost:c_bone"
+			}
+		  ],
+		  "output": 
+			{
+			  "item": "chicken_roost:c_crop"
+			}
+		});

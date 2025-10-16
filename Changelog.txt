@@ -84,3 +84,11 @@ Changes
 - Fixed a major spawning issue.
 - Disabled Computer Craft and Advanced Peripherals blocks from being moved by capsules to prevent a crash issue.
 - Fixed the Science and Mysticism Research Branches at the university.
+- Roost Ultimate Tweaks and Changes:
+    - Natural Spawns: Disabled all natural chicken spawns and added new crafting recipes to obtain them instead. You no longer need to explore the world to find specific types of chickens, all you need are vanilla chickens to get started.
+    - Removals: Removed the Paper, Tinted Glass, Blaze Powder, Eye of Ender, and Pig Iron Chickens.
+    - Chicken Merging and Optimization: Chickens have been merged into new groups to improve storage organization and reduce the number of ticking roost entities, blocks, and NBT data.
+        • Stone Chicken: Merged Cobble, Granite, Andesite, and Diorite Chickens into a single Stone Chicken, which now produces a Stone Egg.
+        • Wood Chicken: Merged Birch, Oak, Dark Oak, Acacia, Jungle, Spruce, Cherry, Mangrove, Crimson, and Warped Chickens into a single Wood Chicken, which now produces a Wooden Egg.
+        • Archwood Chicken: Merged Blazing, Cascading, Flashing, Flourishing, and Vexing Archwood Chickens into a single Archwood Chicken, which now produces an Archwood Egg.
+        • Crop Chicken: Merged Sugar, Apple, Melon, Glow Berries, Sweet Berries, Beetroot, Carrot, Bamboo, Cactus, Cocoa Beans, Potato, and Pumpkin Chickens into a single Crop Chicken, which now produces a Crop Egg.
