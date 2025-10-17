@@ -1,0 +1,31 @@
+{
+  "type": "ars_nouveau:enchanting_apparatus",
+  "keepNbtOfReagent": true,
+  "output": {
+    "count": 10,
+    "item": "adamsarsplus:mage_cloth"
+  },
+  "pedestalItems": [
+    {
+      "item": "ars_elemental:thread_shock"
+    },
+    {
+      "item": "ars_nouveau:thread_chilling"
+    },
+    {
+      "item": "ars_nouveau:thread_immolation"
+    },
+    {
+      "item": "ars_nouveau:thread_spellpower"
+    },
+    {
+      "item": "ars_nouveau:thread_undying"
+    }
+  ],
+  "reagent": [
+    {
+      "item": "ars_elemental:mark_of_mastery"
+    }
+  ],
+  "sourceCost": 20000
+}
