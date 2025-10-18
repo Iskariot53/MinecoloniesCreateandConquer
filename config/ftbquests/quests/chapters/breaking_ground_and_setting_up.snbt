@@ -239,7 +239,7 @@
 		}
 		{
 			dependencies: ["4F98CC4F3B2B2CF9"]
-			description: ["  Sophisticated backpacks allow you to   increase your on-the-go inventory     as well as allow for upgrades such as  automatic feeding and tank upgrades!"]
+			description: [""]
 			id: "52C1ABEEAA3AEEDB"
 			rewards: [
 				{
@@ -257,7 +257,7 @@
 			subtitle: "&#8B4513No introduction needed"
 			tasks: [{
 				id: "6D6C482B14FFFD76"
-				item: "sophisticatedbackpacks:backpack"
+				item: "backpacked:backpack"
 				type: "item"
 			}]
 			title: "&lBackpack"
@@ -1044,8 +1044,8 @@
 				type: "item"
 			}]
 			title: "&lFlux Controller"
-			x: -4.5d
-			y: 1.5d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3126617D43B60448"]
@@ -1157,7 +1157,7 @@
 				type: "item"
 			}]
 			title: "&lSpyglass"
-			x: 1.0d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -1192,8 +1192,8 @@
 				type: "item"
 			}]
 			title: "&lGun Bench"
-			x: -2.0d
-			y: -1.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -2217,7 +2217,7 @@
 				type: "checkmark"
 			}]
 			title: "&lSupply Scamps"
-			x: -0.5d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
