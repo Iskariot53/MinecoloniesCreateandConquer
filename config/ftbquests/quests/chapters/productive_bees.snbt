@@ -3604,53 +3604,6 @@
 			y: 17.5d
 		}
 		{
-			dependencies: [
-				"0B87874066386C35"
-				"7551EF4FE53DDAC8"
-				"035E5B628D21FA20"
-			]
-			description: ["  Breed a ghostly bee with another       type of undead bee."]
-			hide_dependency_lines: false
-			hide_dependent_lines: true
-			hide_until_deps_visible: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "tombstone:grave_dust"
-			}
-			id: "1D514E8FB2246A4A"
-			min_required_dependencies: 2
-			rewards: [
-				{
-					id: "37E4FC5CCEB21A08"
-					type: "xp"
-					xp: 15
-				}
-				{
-					count: 7
-					id: "1C8A0A236F5BAE7A"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
-			subtitle: "&#8B4513Bee Breeding"
-			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "48F5FC67108D0777"
-				observe_type: 5
-				timer: 0L
-				to_observe: "productivebees:grave"
-				type: "observation"
-			}]
-			title: "&lAcquire a Grave Bee"
-			x: 1.5d
-			y: 21.5d
-		}
-		{
 			dependencies: ["220D6A97C5D12DC6"]
 			description: ["  Feed a block of rose quartz to a          diamond bee."]
 			hide_dependency_lines: false
@@ -5277,7 +5230,7 @@
 				type: "observation"
 			}]
 			title: "&lAcquire a Hematophagus Bee"
-			x: 1.0d
+			x: 1.5d
 			y: 22.5d
 		}
 		{
@@ -5331,8 +5284,8 @@
 				type: "observation"
 			}]
 			title: "&lAcquire a Wasted Radioactive Bee"
-			x: 3.0d
-			y: 22.5d
+			x: 1.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["20635A3C82EA9451"]
@@ -5426,7 +5379,7 @@
 				type: "observation"
 			}]
 			title: "&lAcquire a Mana Bee"
-			x: 0.0d
+			x: 0.5d
 			y: 22.5d
 		}
 		{
@@ -5482,7 +5435,7 @@
 				type: "observation"
 			}]
 			title: "&lAcquire a Pure Bee"
-			x: -1.0d
+			x: -0.5d
 			y: 22.5d
 		}
 		{
@@ -5527,7 +5480,7 @@
 				type: "observation"
 			}]
 			title: "&lAcquire a Plastic Bee"
-			x: -2.0d
+			x: -1.5d
 			y: 22.5d
 		}
 		{
@@ -5618,7 +5571,7 @@
 				type: "observation"
 			}]
 			title: "&lAcquire an Amber Bee"
-			x: -3.0d
+			x: -2.5d
 			y: 22.5d
 		}
 		{
@@ -5826,7 +5779,7 @@
 				type: "observation"
 			}]
 			title: "&lAcquire an Ether Gas Bee"
-			x: 2.0d
+			x: 2.5d
 			y: 22.5d
 		}
 		{

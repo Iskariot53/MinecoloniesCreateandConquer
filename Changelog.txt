@@ -86,6 +86,7 @@ Changes
 - Fixed the Science and Mysticism Research Branches at the university.
 - Roost Ultimate Tweaks and Changes:
     - Natural Spawns: Disabled all natural chicken spawns and added new crafting recipes to obtain them instead. You no longer need to explore the world to find specific types of chickens, all you need are vanilla chickens to get started.
+    - Chicken Training: Disabled chicken trainers and added a new crafting recipe to convert them into Roosts. Chickens no longer need to be removed from their Roosts to gain experience. They will now earn XP and level up directly inside their Roosts while continuing to produce resources. This means the same seeds used for resource production will also contribute to leveling your chickens too. This change improves performance, as the Trainers were previously one of the highest resource-usage blocks due to their functionality, animations, as well as the amount of trainers needed to level up multiple chickens at once.
     - Removals: Removed the Paper, Tinted Glass, Blaze Powder, Eye of Ender, and Pig Iron Chickens.
     - Chicken Merging and Optimization: Chickens have been merged into new groups to improve storage organization and reduce the number of ticking roost entities, blocks, and NBT data.
         • Stone Chicken: Merged Cobble, Granite, Andesite, and Diorite Chickens into a single Stone Chicken, which now produces a Stone Egg.

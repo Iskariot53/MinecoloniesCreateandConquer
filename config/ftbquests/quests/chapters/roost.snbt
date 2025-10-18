@@ -95,7 +95,7 @@
 				"01079DE692B0FDC1"
 			]
 			description: [
-				"  A simple Roost setup consists of at least &l&#D2691E1   Roost, 1 Breeder, and 1 Trainer."
+				"  A simple Roost setup consists of at least &l&#D2691E1   Roost and 1 Breeder."
 				""
 				"  Craft 1 of each to get started (again, JEI    is your best friend)."
 				""
@@ -104,10 +104,6 @@
 				"{@pagebreak}"
 				""
 				"  &l&#D2691ERoost&r&r: This special chicken coop offers      resource production. Chickens in the Roost    not only produce typical resources like        eggs and feathers but can also generate     &#D2691E&nhigh-quality&r&r materials such as iron,              gemstones, or magical items. Utilize these       resources to craft powerful tools, armor,     and items. Open the Roost, input a chicken      and some chicken seeds to start resource    production. Similar to the Breeder, each tier   of chickens requires a specific tier of         chicken seeds for resource production,       so check the fourth page of your &l&#D2691ERoost     Ultimate Book&r&r for more information!"
-				""
-				"{@pagebreak}"
-				""
-				"  &l&#D2691ETrainer&r&r: The Trainer is used to level up     your chickens and improve their statistics,     allowing them to produce more resources,     faster. You may have already noticed that     each chicken seed provides some extra XP;    that XP is used to train your chickens. Unlike  the Breeder and Roost, you can use any       tier of seeds for any tier of chickens.         However, the higher the seed tier, the more   XP it provides, and the faster the leveling     process is. All chickens &lMAX&r out at &l&#D2691ELevel    60&r&r, but each tier requires a different          amount of XP to level up, the higher the tier,  the more XP is required."
 			]
 			hide_until_deps_visible: true
 			id: "2F4EC3771D41D693"
@@ -136,20 +132,6 @@
 					item: "chicken_roost:roost"
 					type: "item"
 				}
-				{
-					id: "00498C57703E61F9"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "chicken_roost:trainer"
-					}
-					optional_task: true
-					type: "item"
-				}
 			]
 			title: "&lCreate your first Roost setup"
 			x: 0.0d
@@ -166,7 +148,7 @@
 				""
 				"  Place your &lSoul Extractor&r down,     open it, and input your &l&#D2691ETier 1          chicken&r&r. After a few seconds, the      soul will be extracted, and you will       have a &l&#D2691EChicken Soul Tier 1&r&r.            Combine it with some wheat seeds in a    crafting table to get &l&#D2691EChicken Seeds  Tier 1&r&r."
 				""
-				"  &lChicken Seeds&r are crucial, without   them, you CAN'T breed, train, or even    produce resources with your             chickens. Don’t worry though; you        don't need to repeat this process for  every handful of seeds. The great      thing about all tiers of chicken seeds   is that you can grow and harvest        them in &l&#D2691EBotany Pots&r&r for more seeds  and souls of the same tier. Now you     no longer have any reason to harm     those poor chickens for their souls..    you cruel monster. Isn’t that amazing!"
+				"  &lChicken Seeds&r are crucial, without   them, you CAN'T breed, level up, or       even produce resources with your      chickens. Don’t worry though; you        don't need to repeat this process for  every handful of seeds. The great      thing about all tiers of chicken seeds   is that you can grow and harvest        them in &l&#D2691EBotany Pots&r&r for more seeds  and souls of the same tier. Now you     no longer have any reason to harm     those poor chickens for their souls..    you cruel monster. Isn’t that amazing!"
 			]
 			hide_until_deps_visible: true
 			id: "01079DE692B0FDC1"
@@ -188,9 +170,60 @@
 					id: "501B108899C439F3"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:roost/tier1"
+							items: [
+								{
+									Count: 1b
+									id: "chicken_roost:c_sand"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_gravel"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_feather"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_prismarineshard"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_netherbrick"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_honeycomb"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_stone"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_wool"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_vanilla"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_wood"
+									tag: { }
+								}
+							]
 						}
 					}
 					title: "Tier 1 Chicken"
@@ -244,9 +277,55 @@
 					id: "663AC8264CE1A122"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:roost/tier2"
+							items: [
+								{
+									Count: 1b
+									id: "chicken_roost:c_glass"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_flint"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_netherrack"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_ink"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_bone"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_coal"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_charcoal"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_snow"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_crop"
+									tag: { }
+								}
+							]
 						}
 					}
 					title: "Tier 2 Chicken"
@@ -385,9 +464,100 @@
 					id: "68DCB8B67AF6F81B"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:roost/tier5"
+							items: [
+								{
+									Count: 1b
+									id: "chicken_roost:c_gold"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_silicon"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_manasteel"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_quartz"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_tnt"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_glowstone"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_blazerod"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_enderpearl"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_chorusfruit"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_silver"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_endstone"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_signalum"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_lumium"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_constantan"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_enderium"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_blitz"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_blizz"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_hemophiliac"
+									tag: { }
+								}
+							]
 						}
 					}
 					title: "Tier 5 Chicken"
@@ -433,9 +603,85 @@
 					id: "54204024FCC593F5"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:roost/tier6"
+							items: [
+								{
+									Count: 1b
+									id: "chicken_roost:c_osmium"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_certusquartz"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_bronze"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_steel"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_uranium"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_biofuel"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_emerald"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_ghasttear"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_brass"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_rosegold"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_ruby"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_sapphire"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_anthralite"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_beastmaster"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_thorium"
+									tag: { }
+								}
+							]
 						}
 					}
 					title: "Tier 6 Chicken"
@@ -481,9 +727,85 @@
 					id: "4A188044CA4BD919"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:roost/tier7"
+							items: [
+								{
+									Count: 1b
+									id: "chicken_roost:c_diamond"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_fluixcrystal"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_chargedcertus"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_terrasteel"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_elementium"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_netherstar"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_netherite"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_nickel"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_electrum"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_invar"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_amethystshard"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_bismuth"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_ether"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_irradium"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_malachite"
+									tag: { }
+								}
+							]
 						}
 					}
 					title: "Tier 7 Chicken"
@@ -529,10 +851,8 @@
 					id: "48C232A6132FBFDC"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:roost/tier8"
-						}
+						id: "chicken_roost:c_platinum"
+						tag: { }
 					}
 					title: "Tier 8 Chicken"
 					type: "item"
@@ -577,9 +897,35 @@
 					id: "63ED513C4FA6F39C"
 					item: {
 						Count: 1
-						id: "itemfilters:tag"
+						id: "itemfilters:or"
 						tag: {
-							value: "forge:roost/tier9"
+							items: [
+								{
+									Count: 1b
+									id: "chicken_roost:c_ancientdust"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_luminarchy"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_philolite"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_sap"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "chicken_roost:c_wastedradioactive"
+									tag: { }
+								}
+							]
 						}
 					}
 					title: "Tier 9 Chicken"

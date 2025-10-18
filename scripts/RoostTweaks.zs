@@ -1550,13 +1550,7 @@
 		[<item:minecraft:air>, <item:ccextras:stone_egg>, <item:minecraft:air>],
 		[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]]);
 
-		stoneCutter.addRecipe("cutter.asurine_fromegg", <item:create:asurine>, <item:ccextras:stone_egg>);
-		stoneCutter.addRecipe("cutter.crimsite_fromegg", <item:create:crimsite>, <item:ccextras:stone_egg>);
-		stoneCutter.addRecipe("cutter.ochrum_fromegg", <item:create:ochrum>, <item:ccextras:stone_egg>);
-		stoneCutter.addRecipe("cutter.scoria_fromegg", <item:create:scoria>, <item:ccextras:stone_egg>);
-		stoneCutter.addRecipe("cutter.scorchia_fromegg", <item:create:scorchia>, <item:ccextras:stone_egg>);
-		stoneCutter.addRecipe("cutter.veridium_fromegg", <item:create:veridium>, <item:ccextras:stone_egg>);
-		
+
 		<recipetype:chicken_roost:soul_breeding>.remove(<item:chicken_roost:c_birchwood>);
 		<recipetype:chicken_roost:basic_breeding>.remove(<item:chicken_roost:c_birchwood>);
 		<recipetype:chicken_roost:roost_output>.remove(<item:minecraft:birch_log>);	
@@ -1984,3 +1978,25 @@
 			  "item": "chicken_roost:c_crop"
 			}
 		});
+
+	craftingTable.remove(<item:chicken_roost:trainer>);
+	craftingTable.addShapeless("conversion.trainer_to_roost", <item:chicken_roost:roost>, [<item:chicken_roost:trainer>]);
+
+	<item:chicken_roost:chicken_food_tier_1>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_1>.addTooltip("§a§lXP: §9100");
+	<item:chicken_roost:chicken_food_tier_2>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_2>.addTooltip("§a§lXP: §9125");
+	<item:chicken_roost:chicken_food_tier_3>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_3>.addTooltip("§a§lXP: §9175");
+	<item:chicken_roost:chicken_food_tier_4>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_4>.addTooltip("§a§lXP: §9250");
+	<item:chicken_roost:chicken_food_tier_5>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_5>.addTooltip("§a§lXP: §9350");
+	<item:chicken_roost:chicken_food_tier_6>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_6>.addTooltip("§a§lXP: §9475");
+	<item:chicken_roost:chicken_food_tier_7>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_7>.addTooltip("§a§lXP: §9625");
+	<item:chicken_roost:chicken_food_tier_8>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_8>.addTooltip("§a§lXP: §9800");
+	<item:chicken_roost:chicken_food_tier_9>.clearTooltip(true);
+	<item:chicken_roost:chicken_food_tier_9>.addTooltip("§a§lXP: §91000");

@@ -205,18 +205,18 @@
 	#Gun Mob Spawning Configuration
 	[common.gunner_config]
 		#If enabled, mobs will have a chance to spawn with guns.
-		gunnerMobSpawning = true
+		gunnerMobSpawning = false
 		#Base chance for progression-based gunner mobs to spawn (0.0 = never, 1.0 = always).
 		#This is the spawn chance on NORMAL difficulty. Thematic mobs use their own config.
 		#Range: 0.0 ~ 1.0
-		gunnerSpawnChance = 0.3
+		gunnerSpawnChance = 0.0
 		#If enabled, spawn chances scale with game difficulty.
 		#PEACEFUL: 50% of base chance, EASY: 75%, NORMAL: 100%, HARD: 150%
-		scaleToDifficulty = true
+		scaleToDifficulty = false
 		#If enabled, gunner mobs will have a chance to spawn as Elites with better armor.
-		eliteSpawning = true
+		eliteSpawning = false
 		#Base chance for Elite Gunners to spawn (0.0 = never, 1.0 = always).
 		#This is the spawn chance on NORMAL difficulty.
 		#Range: 0.0 ~ 1.0
-		eliteChance = 0.2
+		eliteChance = 0.0
 
