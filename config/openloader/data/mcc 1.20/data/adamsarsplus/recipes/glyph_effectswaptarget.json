@@ -1,0 +1,33 @@
+{
+  "type": "ars_nouveau:glyph",
+  "count": 1,
+  "exp": 160,
+  "inputItems": [
+    {
+      "item": {
+        "item": "minecraft:emerald_block"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:glyph_exchange"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    {
+      "item": {
+        "item": "ars_nouveau:manipulation_essence"
+      }
+    }
+  ],
+  "output": "adamsarsplus:glyph_effectswaptarget"
+}
