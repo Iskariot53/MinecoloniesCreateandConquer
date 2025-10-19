@@ -12,6 +12,8 @@
 	INFESTED_DIAMONDS_ENABLED = true
 	#Whether you get the warning effect that you get for Missioners and Nightmare Stalkers
 	WARNING_SPAWN_ENABLED = true
+	#Whether you gain naughtiness from certain actions
+	NAUGHTINESS_ENABLED = false
 
 [Weapons]
 	#Amount of phantom bombs that gets spawned when thrown
