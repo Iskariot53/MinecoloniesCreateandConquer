@@ -93,7 +93,7 @@
 		#Max Essence [mb] - Default: [8000 mb]
 		tankSize = 8000
 		#Exact Copy to spawn - Default: [false]
-		exactCopy = false
+		exactCopy = true
 		#Essence needed to spawn [Mob health*EssenceNeeded] - Default: [12]
 		essenceNeeded = 12
 

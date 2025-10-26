@@ -1,36 +1,18 @@
-Minecolonies - Create and Conquer- 3.0.0 Changelog
+Minecolonies - Create and Conquer- 3.0.2 Changelog
 
  
 
 Mods Removed
 
 
-- Advanced Chimneys
-- ATi Structures
-- Corail Tombstone
-- Crafting Automat
-- Create Contraption Terminals
-- Create: Let The Adventure Begin
-- Create: Molten Vents
-- Diagonal Walls
-- Diagonal Fences
-- ForgeEndertech
-- Protection Pixel
-- Skin Layers 3D
-- Sophisticated Backpacks
-- Sophisticated Core
-- Sophisticated Storage
-- YetAnotherConfigLib
+- Backpacked
 
 
 
 Mods Added
 
 
-- Backpacked
-- Corpse
-- Corpse x Cosmetic Armor Reworked Compat
-- Corpse x Curios API Compat
+- 
 
  
 
@@ -38,66 +20,15 @@ Mods Added
 Mods Updated
 
 
-- AdvancedAE
-- Applied Energistics 2 Wireless Terminals
-- Applied Botanics Addon
-- Applied Energistics 2
-- Applied Flux
-- Attributizer
-- Balm
-- Blocks You Need
-- Born in Chaos
-- Born In Configuration
-- Byzantine Styles Pack for Minecolonies
-- Celestisynth: Wishes and Hells
-- Collective
-- Convenient Curios Container
-- Cooking for Blockheads
-- Create: Hypertubes
-- Dawn Of Time
-- Dimensional Dungeons
-- ExtendedAE
-- Euphoria Patches
-- GuideME
-- Immersive Optimization
-- Industrial Foregoing
-- Integrated Cataclysm
-- Integrated Dungeons and Structures
-- Inventory Essentials
-- Mekanism: Weapons
-- Oh The Biomes We've Gone
-- Packet Fixer
-- Relics
-- Relics: Artifacts Compat
-- SCORCHED GUNS 2
-- Thermal Extra
-- Wireless Redstone
-- MineColonies
-- Stylecolonies
-- Structurize
+- 
 
 
 
 Changes
 
 
-- Fixed entity tick budgeting issues impacting bosses and other entities.
-- Fixed a spawning issues with select mobs not respecting mob caps.
-- Fixed issue causing Nightmarestalkers, Lifestealers and Missioners to rarely spawn/not spawn at all in certain cases.
-- Disabled Computer Craft and Advanced Peripherals blocks from being moved by capsules to prevent a crash issue.
-- Fixed the Science and Mysticism research branches at the university.
-- Introduced new method to obtain mage cloth and removed Adams Ars Plus armors.
-- Updated Colony schematics not included in base MineColonies/StyleColonies.
-	- Archwood Collective
-	- Arcology
-	- Cliffs
-	- Dark Dust
-	- Gem Butterfly
-	- High Elven
-	- Mangrove- Nomad
-	- Old ENglish
-- Chicken Merging and Optimization: Chickens have been merged into new groups to improve storage organization and reduce the number of ticking roost entities, blocks, and NBT data.
-    - Stone Chicken: Merged Cobble, Granite, Andesite, and Diorite Chickens into a single Stone Chicken, which now produces a Stone Egg.
-    - Wood Chicken: Merged Birch, Oak, Dark Oak, Acacia, Jungle, Spruce, Cherry, Mangrove, Crimson, and Warped Chickens into a single Wood Chicken, which now produces a Wooden Egg.
-    - Archwood Chicken: Merged Blazing, Cascading, Flashing, Flourishing, and Vexing Archwood Chickens into a single Archwood Chicken, which now produces an Archwood Egg.
-    - Crop Chicken: Merged Sugar, Apple, Melon, Glow Berries, Sweet Berries, Beetroot, Carrot, Bamboo, Cactus, Cocoa Beans, Potato, and Pumpkin Chickens into a single Crop Chicken, which now produces a Crop Egg.
+- Fixed mage cloth recipe.
+- 
+
+
+- DUE TO UNFORSEEN ISSUES CAUSING BACKPACKED TO BE INCOMPATIBLE, TO SOME DEGREE OR ANOTHER FOR DIFFERENT PLAYERS IN DIFFERENT WAYS ACROSS ALL 1.20 VERSIONS, IT WILL BE REPLACED IN THE BEST INTEREST OF EVERYONE. APOLOGIES FOR ANY INCONVENIENCE.
