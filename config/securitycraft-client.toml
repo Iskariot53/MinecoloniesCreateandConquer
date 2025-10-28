@@ -15,4 +15,6 @@ frame_feed_resolution = 512
 #The maximum amount of frames per second the Frame camera feed renders at. Higher values will lead to worse performance.
 #Range: 10 ~ 260
 frame_feed_fps_limit = 30
+#If this debug feature is enabled, SecurityCraft will attempt to find and report mods that prevent the feature of viewing security cameras from working when they immediately reset the player's camera entity.
+debug_camera_reset_tracing = false
 
