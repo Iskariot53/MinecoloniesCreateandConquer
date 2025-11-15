@@ -257,7 +257,11 @@
 			subtitle: "&#8B4513No introduction needed"
 			tasks: [{
 				id: "6D6C482B14FFFD76"
-				item: "backpacked:backpack"
+				item: {
+					Count: 1
+					id: "packedup:basicbackpack"
+					tag: { }
+				}
 				type: "item"
 			}]
 			title: "&lBackpack"

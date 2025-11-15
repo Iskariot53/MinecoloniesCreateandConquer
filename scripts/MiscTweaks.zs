@@ -2040,3 +2040,11 @@ stoneCutter.addRecipe("cutter.sourcestone.stairs", <item:ars_nouveau:sourcestone
 stoneCutter.addRecipe("cutter.sourcestone.slab", <item:ars_nouveau:sourcestone_slab> * 2, <item:ars_nouveau:sourcestone>);
 
 craftingTable.addShaped("byn.barbed_wire", <item:blocksyouneed_luna:barbed_wire> * 4, [[<item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>], [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>], [<item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>, <item:minecraft:iron_nugget>]]);
+
+
+import crafttweaker.api.entity.EntityType;
+import crafttweaker.forge.api.event.entity.living.LivingDamageEvent;
+events.register<crafttweaker.forge.api.event.entity.living.LivingDamageEvent>(event => {
+if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
+    event.cancel();
+}});
