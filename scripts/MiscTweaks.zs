@@ -2048,3 +2048,60 @@ events.register<crafttweaker.forge.api.event.entity.living.LivingDamageEvent>(ev
 if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
     event.cancel();
 }});
+
+
+	<item:scguns:antique_flare>.clearTooltip(true);
+	<item:scguns:antique_flare>.addTooltip("§4§lThis item is disabled");
+  <item:scguns:frontier_flare>.clearTooltip(true);
+	<item:scguns:frontier_flare>.addTooltip("§4§lThis item is disabled");
+	<item:scguns:copper_flare>.clearTooltip(true);
+	<item:scguns:copper_flare>.addTooltip("§4§lThis item is disabled");
+  <item:scguns:iron_flare>.clearTooltip(true);
+	<item:scguns:iron_flare>.addTooltip("§4§lThis item is disabled");
+	<item:scguns:wrecker_flare>.clearTooltip(true);
+	<item:scguns:wrecker_flare>.addTooltip("§4§lThis item is disabled");
+  <item:scguns:ocean_flare>.clearTooltip(true);
+	<item:scguns:ocean_flare>.addTooltip("§4§lThis item is disabled");
+	<item:scguns:gold_flare>.clearTooltip(true);
+	<item:scguns:gold_flare>.addTooltip("§4§lThis item is disabled");
+  <item:scguns:sculk_flare>.clearTooltip(true);
+	<item:scguns:sculk_flare>.addTooltip("§4§lThis item is disabled");
+	<item:scguns:treated_brass_flare>.clearTooltip(true);
+	<item:scguns:treated_brass_flare>.addTooltip("§4§lThis item is disabled");
+  <item:scguns:diamond_steel_flare>.clearTooltip(true);
+	<item:scguns:diamond_steel_flare>.addTooltip("§4§lThis item is disabled");
+
+  import crafttweaker.api.item.tooltip.ITooltipFunction;
+
+	<item:scguns:sculk_tome>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Ancient Cities");
+  });
+	<item:scguns:leviathan_tooth>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Burried Treasure Chests");
+  });
+	<item:scguns:gold_idol>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Bastions");
+  });
+  <item:scguns:cog_heart>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Supply Crates, Cog Chambers, Osgood Labs, and Asgharian Citadels");
+  });
+	<item:scguns:ceremonial_cod>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Supply Crates, Cog Chambers, Osgood Labs, and Asgharian Dungeons");
+  });
+  <item:scguns:labor_trophy>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Supply Crates, Cog Chambers, Osgood Labs, and Asgharian Citadels");
+  });
+	<item:scguns:snapped_cogwheel>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Supply Crates, Cog Chambers, Asgharian Citadels, and Mineshafts");
+  });
+  <item:scguns:rusty_medal>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.remove(2);
+    tooltip.insert(2, "§8§oFound in Supply Crates, Cog Chambers, Dungeons, and Mineshafts");
+  });

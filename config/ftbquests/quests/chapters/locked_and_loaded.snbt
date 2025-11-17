@@ -813,7 +813,7 @@
 				type: "item"
 			}]
 			title: "&lIron Gun Frame"
-			x: 6.5d
+			x: 5.0d
 			y: 5.0d
 		}
 		{
@@ -911,7 +911,7 @@
 				type: "item"
 			}]
 			title: "&lDiamond Steel Gun Frame"
-			x: 6.5d
+			x: 5.0d
 			y: 6.5d
 		}
 		{
@@ -966,8 +966,8 @@
 				type: "item"
 			}]
 			title: "&lScorched Gun Frame"
-			x: 5.035714285714292d
-			y: 5.785714285714285d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
@@ -1041,7 +1041,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Obtained from gunsmith villagers"
 			tasks: [{
 				id: "1F03208DC9DF735F"
 				item: {
@@ -1055,9 +1054,9 @@
 				}
 				type: "item"
 			}]
-			title: "&lCopper Blueprint"
-			x: 3.5d
-			y: 0.5d
+			title: "&lRust Ridge Blueprint"
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
@@ -1083,7 +1082,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Gunsmith villagers or dungeons"
 			tasks: [{
 				id: "7C57A90ED497E684"
 				item: {
@@ -1097,8 +1095,8 @@
 				}
 				type: "item"
 			}]
-			title: "&lIron Blueprint"
-			x: 4.5d
+			title: "&lFederal Blueprint"
+			x: 3.5d
 			y: 0.5d
 		}
 		{
@@ -1139,7 +1137,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Osgood dungeon, wandering trader or bastions."
 			tasks: [{
 				id: "6AD2FEF58996A1BB"
 				item: {
@@ -1153,7 +1150,7 @@
 				}
 				type: "item"
 			}]
-			title: "&lTreated Brass Blueprint"
+			title: "&lCog Blueprint"
 			x: 5.5d
 			y: 0.5d
 		}
@@ -1181,7 +1178,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Asgharian dungeons, ancient cities or wandering trader"
 			tasks: [{
 				id: "1F4D1236EAAD5787"
 				item: {
@@ -1195,7 +1191,7 @@
 				}
 				type: "item"
 			}]
-			title: "&lDiamond Steel Blueprint"
+			title: "&lAsgharian Blueprint"
 			x: 6.5d
 			y: 0.5d
 		}
@@ -1223,7 +1219,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Obtained from buried treasure"
 			tasks: [{
 				id: "38D8110967A31372"
 				item: {
@@ -1237,7 +1232,7 @@
 				}
 				type: "item"
 			}]
-			title: "&lOcean Blueprint"
+			title: "&lWhaler Blueprint"
 			x: 4.0d
 			y: 1.5d
 		}
@@ -1265,7 +1260,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Obtained from nether bastions"
 			tasks: [{
 				id: "3DF7C31888EC3BFD"
 				item: {
@@ -1307,7 +1301,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Obtained from ancient cities"
 			tasks: [{
 				id: "1A10F160E8D7B535"
 				item: {
@@ -1362,7 +1355,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "&#8B4513Obtained from end cities"
 			tasks: [{
 				id: "23BD9CAAEB3B0619"
 				item: {
@@ -1382,7 +1374,7 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
-			description: ["  Combine 1 Piglin Blueprint, 1 End         Blueprint, 1 Ocean Blueprint, 1 Deep     Dark Blueprint with 1 Scorched Ingot    and 1 Antimatter pellet in a starlit        factory."]
+			description: ["  Combine 1 Piglin Blueprint, 1 End         Blueprint, 1 Whaler Blueprint, 1 Deep     Dark Blueprint with 1 Scorched Ingot    and 1 Antimatter pellet in a starlit        factory."]
 			hide_dependent_lines: true
 			id: "7B064B7FED666763"
 			rewards: [
@@ -1528,6 +1520,7 @@
 			dependencies: [
 				"0E758ADA20F75254"
 				"2FE906280AA4EBB7"
+				"4E9326F636B56B3D"
 			]
 			id: "2B693CD4EDB3C8B1"
 			rewards: [
@@ -1569,13 +1562,14 @@
 				type: "item"
 			}]
 			title: "&lFlintlock Pistol"
-			x: -10.0d
+			x: -10.5d
 			y: 8.5d
 		}
 		{
 			dependencies: [
 				"2FE906280AA4EBB7"
 				"0E758ADA20F75254"
+				"4E9326F636B56B3D"
 			]
 			id: "2E6536D1B84CA68E"
 			rewards: [
@@ -1617,13 +1611,14 @@
 				type: "item"
 			}]
 			title: "&lHandcannon"
-			x: -9.0d
+			x: -9.5d
 			y: 8.5d
 		}
 		{
 			dependencies: [
 				"2FE906280AA4EBB7"
 				"0E758ADA20F75254"
+				"4E9326F636B56B3D"
 			]
 			id: "57EE3FF022799586"
 			rewards: [
@@ -1665,13 +1660,14 @@
 				type: "item"
 			}]
 			title: "&lMusket"
-			x: -8.0d
+			x: -8.5d
 			y: 8.5d
 		}
 		{
 			dependencies: [
 				"2FE906280AA4EBB7"
 				"0E758ADA20F75254"
+				"4E9326F636B56B3D"
 			]
 			id: "256D3982DE3F8072"
 			rewards: [
@@ -1713,7 +1709,7 @@
 				type: "item"
 			}]
 			title: "&lBlunderbuss"
-			x: -7.0d
+			x: -7.5d
 			y: 8.5d
 		}
 		{
@@ -1723,6 +1719,7 @@
 				"06CCD91482A2551B"
 				"6814CB57B13933BD"
 				"22CBD24B5D2C0AA6"
+				"4E9326F636B56B3D"
 			]
 			id: "4E04D2B51594EEBA"
 			rewards: [
@@ -1764,7 +1761,7 @@
 				type: "item"
 			}]
 			title: "&lRepeating Musket"
-			x: -6.0d
+			x: -6.5d
 			y: 8.5d
 		}
 		{
@@ -1774,6 +1771,7 @@
 				"06CCD91482A2551B"
 				"6814CB57B13933BD"
 				"24A447A07D79ED00"
+				"23CD5226BEA06692"
 			]
 			id: "36C1BB8AD72AADC8"
 			rewards: [
@@ -1814,7 +1812,7 @@
 				type: "item"
 			}]
 			title: "&lPax"
-			x: -4.0d
+			x: 1.5d
 			y: 8.5d
 		}
 		{
@@ -1823,6 +1821,7 @@
 				"0E758ADA20F75254"
 				"06CCD91482A2551B"
 				"24A447A07D79ED00"
+				"23CD5226BEA06692"
 			]
 			id: "6F9B9A94B43A931E"
 			rewards: [
@@ -1863,7 +1862,7 @@
 				type: "item"
 			}]
 			title: "&lWinnie"
-			x: -3.0d
+			x: 2.5d
 			y: 8.5d
 		}
 		{
@@ -1872,6 +1871,7 @@
 				"0E758ADA20F75254"
 				"06CCD91482A2551B"
 				"24A447A07D79ED00"
+				"23CD5226BEA06692"
 			]
 			id: "64ED6BE6981B51F3"
 			rewards: [
@@ -1912,7 +1912,7 @@
 				type: "item"
 			}]
 			title: "&lCallwell Conversion"
-			x: -1.0d
+			x: 4.5d
 			y: 8.5d
 		}
 		{
@@ -1921,6 +1921,7 @@
 				"0E758ADA20F75254"
 				"06CCD91482A2551B"
 				"24A447A07D79ED00"
+				"23CD5226BEA06692"
 			]
 			id: "7604BB6E18618C8C"
 			rewards: [
@@ -1961,7 +1962,7 @@
 				type: "item"
 			}]
 			title: "&lCallwell"
-			x: -2.0d
+			x: 3.5d
 			y: 8.5d
 		}
 		{
@@ -1970,6 +1971,7 @@
 				"0E758ADA20F75254"
 				"06CCD91482A2551B"
 				"24A447A07D79ED00"
+				"23CD5226BEA06692"
 			]
 			id: "6D002DFC3DC2CF08"
 			rewards: [
@@ -2010,7 +2012,7 @@
 				type: "item"
 			}]
 			title: "&lSaketini"
-			x: 0.0d
+			x: 5.5d
 			y: 8.5d
 		}
 		{
@@ -2018,6 +2020,7 @@
 				"1DC2A831E87C134F"
 				"2FE906280AA4EBB7"
 				"0E758ADA20F75254"
+				"4E9326F636B56B3D"
 			]
 			id: "58FE53C589025D7A"
 			rewards: [
@@ -2060,7 +2063,7 @@
 				type: "item"
 			}]
 			title: "&lLaser Musket"
-			x: -5.0d
+			x: -5.5d
 			y: 8.5d
 		}
 		{
@@ -2110,7 +2113,7 @@
 			}]
 			title: "&lFloundergat"
 			x: 1.0d
-			y: 8.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -2160,8 +2163,8 @@
 				type: "item"
 			}]
 			title: "&lScrapper"
-			x: 2.0d
-			y: 8.5d
+			x: -11.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2212,8 +2215,8 @@
 				type: "item"
 			}]
 			title: "&lRusty Gnat"
-			x: 3.0d
-			y: 8.5d
+			x: -10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2263,8 +2266,8 @@
 				type: "item"
 			}]
 			title: "&lUmax Pistol"
-			x: 4.0d
-			y: 8.5d
+			x: -9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2314,8 +2317,8 @@
 				type: "item"
 			}]
 			title: "&lMakeshift Rifle"
-			x: 5.0d
-			y: 8.5d
+			x: -8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2364,8 +2367,8 @@
 				type: "item"
 			}]
 			title: "&lBoomstick"
-			x: 6.0d
-			y: 8.5d
+			x: -7.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2414,8 +2417,8 @@
 				type: "item"
 			}]
 			title: "&lBruiser"
-			x: 7.0d
-			y: 8.5d
+			x: -6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2465,8 +2468,8 @@
 				type: "item"
 			}]
 			title: "&lLLR Director"
-			x: 8.0d
-			y: 8.5d
+			x: -5.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2517,8 +2520,8 @@
 				type: "item"
 			}]
 			title: "&lArc Worker"
-			x: 10.0d
-			y: 8.5d
+			x: -4.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2568,8 +2571,8 @@
 				type: "item"
 			}]
 			title: "&lDefender Pistol"
-			x: 9.0d
-			y: 8.5d
+			x: 0.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -2620,7 +2623,7 @@
 				type: "item"
 			}]
 			title: "&lGreaser SMG"
-			x: -10.0d
+			x: 1.0d
 			y: 9.5d
 		}
 		{
@@ -2672,7 +2675,7 @@
 				type: "item"
 			}]
 			title: "&lM3 Carabine"
-			x: -9.0d
+			x: 2.0d
 			y: 9.5d
 		}
 		{
@@ -2724,7 +2727,7 @@
 				type: "item"
 			}]
 			title: "&lCombat Shotgun"
-			x: -8.0d
+			x: 3.0d
 			y: 9.5d
 		}
 		{
@@ -2776,7 +2779,7 @@
 				type: "item"
 			}]
 			title: "&lVenturi"
-			x: -7.0d
+			x: 4.0d
 			y: 9.5d
 		}
 		{
@@ -2827,7 +2830,7 @@
 				type: "item"
 			}]
 			title: "&lIron Javelin"
-			x: -6.0d
+			x: 5.0d
 			y: 9.5d
 		}
 		{
@@ -2878,7 +2881,7 @@
 				type: "item"
 			}]
 			title: "&lIron Spear"
-			x: -5.0d
+			x: 6.0d
 			y: 9.5d
 		}
 		{
@@ -2929,7 +2932,7 @@
 				type: "item"
 			}]
 			title: "&lAuvtomag"
-			x: -4.0d
+			x: 7.0d
 			y: 9.5d
 		}
 		{
@@ -2980,7 +2983,7 @@
 				type: "item"
 			}]
 			title: "&lPulsar"
-			x: -3.0d
+			x: 8.0d
 			y: 9.5d
 		}
 		{
@@ -3031,7 +3034,7 @@
 				type: "item"
 			}]
 			title: "&lGyrojet Pistol"
-			x: -2.0d
+			x: 9.0d
 			y: 9.5d
 		}
 		{
@@ -3081,7 +3084,7 @@
 				type: "item"
 			}]
 			title: "&lBrawler"
-			x: -1.0d
+			x: 10.0d
 			y: 9.5d
 		}
 		{
@@ -3133,7 +3136,7 @@
 				type: "item"
 			}]
 			title: "&lMK43 Rifle"
-			x: 0.0d
+			x: 11.0d
 			y: 9.5d
 		}
 		{
@@ -3184,8 +3187,8 @@
 				type: "item"
 			}]
 			title: "&lRocket Rifle"
-			x: 1.0d
-			y: 9.5d
+			x: -11.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -3235,7 +3238,7 @@
 			}]
 			title: "&lMarlin"
 			x: 2.0d
-			y: 9.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -3285,7 +3288,7 @@
 			}]
 			title: "&lBomb Lance"
 			x: 3.0d
-			y: 9.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -3336,7 +3339,7 @@
 			}]
 			title: "&lSequoia"
 			x: 4.0d
-			y: 9.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -3385,8 +3388,8 @@
 				type: "item"
 			}]
 			title: "&lKrauser"
-			x: 5.0d
-			y: 9.5d
+			x: 2.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3436,8 +3439,8 @@
 				type: "item"
 			}]
 			title: "&lSoul Drummer"
-			x: 6.0d
-			y: 9.5d
+			x: 3.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3488,8 +3491,8 @@
 				type: "item"
 			}]
 			title: "&lUppercut"
-			x: 7.0d
-			y: 9.5d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3540,8 +3543,8 @@
 				type: "item"
 			}]
 			title: "&lPrush Gun"
-			x: 8.0d
-			y: 9.5d
+			x: 5.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3592,8 +3595,8 @@
 				type: "item"
 			}]
 			title: "&lLockewood"
-			x: 9.0d
-			y: 9.5d
+			x: 6.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3643,8 +3646,8 @@
 				type: "item"
 			}]
 			title: "&lInertial"
-			x: 10.0d
-			y: 9.5d
+			x: 7.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3696,8 +3699,8 @@
 				type: "item"
 			}]
 			title: "&lMas 55"
-			x: -9.0d
-			y: 10.5d
+			x: 8.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3748,8 +3751,8 @@
 				type: "item"
 			}]
 			title: "&lPlasgun"
-			x: -8.0d
-			y: 10.5d
+			x: 9.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3799,8 +3802,8 @@
 				type: "item"
 			}]
 			title: "&lCyclone"
-			x: -7.0d
-			y: 10.5d
+			x: 10.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -3850,7 +3853,7 @@
 				type: "item"
 			}]
 			title: "&lM22 Waltz"
-			x: -6.0d
+			x: 6.5d
 			y: 10.5d
 		}
 		{
@@ -3903,7 +3906,7 @@
 				type: "item"
 			}]
 			title: "&lWaltz Conversion"
-			x: -5.0d
+			x: 7.5d
 			y: 10.5d
 		}
 		{
@@ -3954,7 +3957,7 @@
 				type: "item"
 			}]
 			title: "&lOsgood .50"
-			x: -4.0d
+			x: 8.5d
 			y: 10.5d
 		}
 		{
@@ -4007,7 +4010,7 @@
 				type: "item"
 			}]
 			title: "&lCogloader"
-			x: -3.0d
+			x: 9.5d
 			y: 10.5d
 		}
 		{
@@ -4059,7 +4062,7 @@
 				type: "item"
 			}]
 			title: "&lGale"
-			x: -2.0d
+			x: 10.5d
 			y: 10.5d
 		}
 		{
@@ -4111,7 +4114,7 @@
 				type: "item"
 			}]
 			title: "&lJackhammer"
-			x: -1.0d
+			x: 11.5d
 			y: 10.5d
 		}
 		{
@@ -4164,8 +4167,8 @@
 				type: "item"
 			}]
 			title: "&lHowler"
-			x: 0.0d
-			y: 10.5d
+			x: -11.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -4216,8 +4219,8 @@
 				type: "item"
 			}]
 			title: "&lHowler Conversion"
-			x: 1.0d
-			y: 10.5d
+			x: -10.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -4268,8 +4271,8 @@
 				type: "item"
 			}]
 			title: "&lGauss Rifle"
-			x: 2.0d
-			y: 10.5d
+			x: -9.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -4320,8 +4323,8 @@
 				type: "item"
 			}]
 			title: "&lSpitfire"
-			x: 3.0d
-			y: 10.5d
+			x: -8.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -4372,8 +4375,8 @@
 				type: "item"
 			}]
 			title: "&lGattaler"
-			x: 4.0d
-			y: 10.5d
+			x: -7.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -4424,8 +4427,8 @@
 				type: "item"
 			}]
 			title: "&lThunderhead"
-			x: 5.0d
-			y: 10.5d
+			x: -6.5d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -4476,11 +4479,16 @@
 				type: "item"
 			}]
 			title: "&lDozier RL"
-			x: 6.0d
-			y: 10.5d
+			x: -5.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["04F5E10803F9EB28"]
+			dependencies: [
+				"04F5E10803F9EB28"
+				"5043184486978233"
+				"349EE89C1F6B4377"
+				"16888B7345E3CABF"
+			]
 			id: "4EADE8E8165EE282"
 			rewards: [
 				{
@@ -4535,8 +4543,8 @@
 				}
 			]
 			title: "&lBlasphemy"
-			x: -7.0d
-			y: 11.5d
+			x: 11.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -4585,8 +4593,8 @@
 				type: "item"
 			}]
 			title: "&lPyroclastic Flow"
-			x: 8.0d
-			y: 10.5d
+			x: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -4636,8 +4644,8 @@
 				type: "item"
 			}]
 			title: "&lFreyr"
-			x: 9.0d
-			y: 10.5d
+			x: 10.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -4687,8 +4695,8 @@
 				type: "item"
 			}]
 			title: "&lVulcanic Repeater"
-			x: 7.0d
-			y: 10.5d
+			x: 8.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
@@ -4732,8 +4740,8 @@
 				type: "item"
 			}]
 			title: "&lSuper Shotgun"
-			x: -6.0d
-			y: 11.5d
+			x: -9.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -4798,8 +4806,8 @@
 				type: "item"
 			}]
 			title: "&lWhispers"
-			x: -5.0d
-			y: 11.5d
+			x: -8.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -4863,8 +4871,8 @@
 				type: "item"
 			}]
 			title: "&lEchoes 2"
-			x: -4.0d
-			y: 11.5d
+			x: -7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -4928,8 +4936,8 @@
 				type: "item"
 			}]
 			title: "&lSculk Resonator"
-			x: -3.0d
-			y: 11.5d
+			x: -6.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -4979,8 +4987,8 @@
 				type: "item"
 			}]
 			title: "&lCarapice"
-			x: -2.0d
-			y: 11.5d
+			x: -4.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5030,8 +5038,8 @@
 				type: "item"
 			}]
 			title: "&lShellurker"
-			x: -1.0d
-			y: 11.5d
+			x: -3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5080,8 +5088,8 @@
 				type: "item"
 			}]
 			title: "&lDark Matter"
-			x: 0.0d
-			y: 11.5d
+			x: -2.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5131,8 +5139,8 @@
 				type: "item"
 			}]
 			title: "&lLone Wonder"
-			x: 1.0d
-			y: 11.5d
+			x: -1.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5181,8 +5189,8 @@
 				type: "item"
 			}]
 			title: "&lRaygun"
-			x: 2.0d
-			y: 11.5d
+			x: 0.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5246,8 +5254,8 @@
 				type: "item"
 			}]
 			title: "&lThe Rat King and Queen"
-			x: 3.0d
-			y: 11.5d
+			x: 2.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5312,8 +5320,8 @@
 				type: "item"
 			}]
 			title: "&lLocust"
-			x: 4.0d
-			y: 11.5d
+			x: 3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5377,8 +5385,8 @@
 				type: "item"
 			}]
 			title: "&lNewborn Cyst"
-			x: 5.0d
-			y: 11.5d
+			x: 4.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5443,8 +5451,8 @@
 				type: "item"
 			}]
 			title: "&lEarth's Corpse"
-			x: 6.0d
-			y: 11.5d
+			x: 5.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5508,8 +5516,8 @@
 				type: "item"
 			}]
 			title: "&lAstella"
-			x: 7.0d
-			y: 11.5d
+			x: 6.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
@@ -6543,6 +6551,7 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
 			id: "756D107C9D1E2213"
 			rewards: [
 				{
@@ -6904,6 +6913,7 @@
 		}
 		{
 			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
 			id: "0E17C5833E47ECED"
 			rewards: [
 				{
@@ -7167,7 +7177,7 @@
 			}]
 			title: "&lStandard Bullet"
 			x: -4.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7208,7 +7218,7 @@
 			}]
 			title: "&lBuckshot"
 			x: -4.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7249,7 +7259,7 @@
 			}]
 			title: "&lPowder and Ball"
 			x: -5.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7290,7 +7300,7 @@
 			}]
 			title: "&lGrapeshot"
 			x: -5.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7331,7 +7341,7 @@
 			}]
 			title: "&lHardened Bullet"
 			x: -3.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7372,7 +7382,7 @@
 			}]
 			title: "&lShotgun Shell"
 			x: -2.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7412,7 +7422,7 @@
 			}]
 			title: "&lBearpack Shell"
 			x: -1.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7453,7 +7463,7 @@
 			}]
 			title: "&lCompact Copper Round"
 			x: -1.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7494,7 +7504,7 @@
 			}]
 			title: "&lStandard Copper Round"
 			x: -0.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7535,7 +7545,7 @@
 			}]
 			title: "&lRamrod Round"
 			x: -2.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7576,7 +7586,7 @@
 			}]
 			title: "&lHog Round"
 			x: 0.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7617,7 +7627,7 @@
 			}]
 			title: "&lCompact Advanced Round"
 			x: 1.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7658,7 +7668,7 @@
 			}]
 			title: "&lAdvanced Round"
 			x: 2.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7699,7 +7709,7 @@
 			}]
 			title: "&lKrahg Round"
 			x: 3.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7740,7 +7750,7 @@
 			}]
 			title: "&lBeowulf Round"
 			x: 4.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7781,7 +7791,7 @@
 			}]
 			title: "&lGibbs Round"
 			x: 5.5d
-			y: 13.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7821,7 +7831,7 @@
 			}]
 			title: "&lMicrojet"
 			x: 1.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7861,7 +7871,7 @@
 			}]
 			title: "&lRocket"
 			x: 2.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7901,7 +7911,7 @@
 			}]
 			title: "&lSculkshot"
 			x: 0.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -7942,7 +7952,7 @@
 			}]
 			title: "&lNitro Buckshot"
 			x: -3.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: [
@@ -8074,7 +8084,7 @@
 			}]
 			title: "&lShock Cell"
 			x: 3.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -8114,7 +8124,7 @@
 			}]
 			title: "&lPlasma Cell"
 			x: 4.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["2B5FF0E86B673C1C"]
@@ -8154,7 +8164,7 @@
 			}]
 			title: "&lSculk Cell"
 			x: 5.0d
-			y: 14.5d
+			y: 17.0d
 		}
 		{
 			description: [
@@ -8196,6 +8206,2701 @@
 			title: "&lQuests by Modulix Nebula for the MCC Modpack"
 			x: 30.0d
 			y: 30.0d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "66A0CDBD1508AD83"
+			rewards: [
+				{
+					id: "116317448F3C1A5E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "1E32577A55B2416F"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "267DFD459F6D05AE"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B7D8F2C9C625AE8"
+				item: "scguns:exo_suit_blueprint"
+				type: "item"
+			}]
+			title: "&lExoSuit Blueprint"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "5ECB2818EEA26313"
+			rewards: [
+				{
+					id: "58ED4403307F74D2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "1AB4BFEDE2F9113B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "301069C22387CCB7"
+				item: "scguns:wrecker_blueprint"
+				type: "item"
+			}]
+			title: "&lWrecker Blueprint"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "23CD5226BEA06692"
+			rewards: [
+				{
+					id: "764BF33087B26E54"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "35367ABAD7A7A14D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65A144B29ACB29F4"
+				item: "scguns:frontier_blueprint"
+				type: "item"
+			}]
+			title: "&lFrontier Blueprint"
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "4E9326F636B56B3D"
+			rewards: [
+				{
+					id: "522AA14AE84B0EDF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "5A0010A572CEC0C2"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "247F47641EAECD5C"
+				item: "scguns:antique_blueprint"
+				type: "item"
+			}]
+			title: "&lAntique Blueprint"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4E9326F636B56B3D"
+				"06CCD91482A2551B"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"2FE906280AA4EBB7"
+				"24A447A07D79ED00"
+			]
+			id: "4B8CC27ED929277C"
+			rewards: [
+				{
+					id: "4B1B480050F90C3B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "4A55993EC6B4C51C"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06EEC27A10BC2860"
+				item: {
+					Count: 1
+					id: "scguns:longarm"
+					tag: {
+						Damage: 0
+						GeckoLibID: 4L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4E9326F636B56B3D"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"2FE906280AA4EBB7"
+			]
+			id: "455882649C484822"
+			rewards: [
+				{
+					id: "1D84F1952312D45B"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "6A555E69A4A77A57"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A11A6420EB68EC4"
+				item: {
+					Count: 1
+					id: "scguns:fencer_thumper"
+					tag: {
+						Damage: 0
+						GeckoLibID: 1L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4E9326F636B56B3D"
+				"2FE906280AA4EBB7"
+			]
+			id: "0CCCFE3A1E3B25CE"
+			rewards: [
+				{
+					id: "04ED1BAC4BB210EF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "777EC15B40AB9D93"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C0A684768A39E48"
+				item: {
+					Count: 1
+					id: "scguns:doublet"
+					tag: {
+						Damage: 0
+						GeckoLibID: 5L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4E9326F636B56B3D"
+				"3475A072DB4D829B"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"24A447A07D79ED00"
+			]
+			id: "7979EFB6AEFEDB2F"
+			rewards: [
+				{
+					id: "0C0870122A6C06B8"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "77B735EACE8C687B"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69C002D7B58C428E"
+				item: {
+					Count: 1
+					id: "scguns:teslock_rifle"
+					tag: {
+						Damage: 0
+						GeckoLibID: 2L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4E9326F636B56B3D"
+				"756D107C9D1E2213"
+				"24A447A07D79ED00"
+				"2FE906280AA4EBB7"
+				"06CCD91482A2551B"
+			]
+			id: "39DFF243B0C179CE"
+			rewards: [
+				{
+					id: "1839230ECEAD8535"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "4BAF33E6B86C6493"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CDCC379921FE064"
+				item: {
+					Count: 1
+					id: "scguns:fencer_carabine"
+					tag: {
+						Damage: 0
+						GeckoLibID: 6L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4E9326F636B56B3D"
+				"2FE906280AA4EBB7"
+				"1DC2A831E87C134F"
+				"0E758ADA20F75254"
+			]
+			id: "3732CA4C7F38D213"
+			rewards: [
+				{
+					id: "06C4FBED00131879"
+					type: "xp"
+					xp: 15
+				}
+				{
+					count: 6
+					id: "36A4F3E4947EEE5D"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C6D6E6249CB7F66"
+				item: {
+					Count: 1
+					id: "scguns:plasmabuss"
+					tag: {
+						Damage: 0
+						GeckoLibID: 3L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["66A0CDBD1508AD83"]
+			id: "49A32C0FD252DBC4"
+			rewards: [
+				{
+					id: "40587B9F521AC8EA"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "2FCDB1967DF4824A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3384633BB4794D62"
+				item: {
+					Count: 1
+					id: "scguns:exo_suit_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66A0CDBD1508AD83"]
+			id: "0601BF198AA489A7"
+			rewards: [
+				{
+					id: "1C0D90383E8109C1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "0679BD3D7420FA00"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "622C85A10005D1C2"
+				item: {
+					Count: 1
+					id: "scguns:exo_suit_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66A0CDBD1508AD83"]
+			id: "2B877AB66A552AC7"
+			rewards: [
+				{
+					id: "3913C8D4D188AC54"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4BF3D178BBFC21CD"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "74277E3386574666"
+				item: {
+					Count: 1
+					id: "scguns:exo_suit_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["66A0CDBD1508AD83"]
+			id: "0A1C981CC427B164"
+			rewards: [
+				{
+					id: "25BB0BA138226422"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4B01B39935AECCE4"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F511F5090C5706C"
+				item: {
+					Count: 1
+					id: "scguns:exo_suit_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"23CD5226BEA06692"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "6C91E50C3491C51A"
+			rewards: [
+				{
+					id: "4010ACE68DE8F0E9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2BC9C420E7485866"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "247278CB5936AD87"
+				item: {
+					Count: 1
+					id: "scguns:saketini_ironport"
+					tag: {
+						Damage: 0
+						GeckoLibID: 10L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"23CD5226BEA06692"
+				"0E758ADA20F75254"
+				"3658DE9ED672A3C4"
+				"24A447A07D79ED00"
+				"16888B7345E3CABF"
+			]
+			id: "40D1FB76EA15D94A"
+			rewards: [
+				{
+					id: "59179A4C98E06A4E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4CCBAF34CC77D74B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27751DF3E5445CE3"
+				item: {
+					Count: 1
+					id: "scguns:big_bore"
+					tag: {
+						Damage: 0
+						GeckoLibID: 12L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"23CD5226BEA06692"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"0E758ADA20F75254"
+			]
+			id: "088D10F17172C985"
+			rewards: [
+				{
+					id: "49DFC0A2D02FDEBA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "40B364A34031FE78"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A7B8DA01FFA956C"
+				item: {
+					Count: 1
+					id: "scguns:red_raydar"
+					tag: {
+						Damage: 0
+						GeckoLibID: 13L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"23CD5226BEA06692"
+				"349EE89C1F6B4377"
+				"3658DE9ED672A3C4"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "24402AE21C3A285B"
+			rewards: [
+				{
+					id: "051B6DCA4147029F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "14E50EDDA4089D86"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3040CE47ABE666A0"
+				item: {
+					Count: 1
+					id: "scguns:callwell_terminal"
+					tag: {
+						Damage: 0
+						GeckoLibID: 14L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"23CD5226BEA06692"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+			]
+			id: "0683E300A0B88E44"
+			rewards: [
+				{
+					id: "1664AA13547A3849"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "53696BED3F086494"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E9726EBD73267EA"
+				item: {
+					Count: 1
+					id: "scguns:winnie_millend"
+					tag: {
+						Damage: 0
+						GeckoLibID: 15L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"22CBD24B5D2C0AA6"
+				"3067FA82EC0C2D70"
+			]
+			id: "00E99540D3102A85"
+			rewards: [
+				{
+					id: "55BCD233E44A3CF8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7CF15CE51A901459"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "716D587A4361B56F"
+				item: {
+					Count: 1
+					id: "scguns:stigg"
+					tag: {
+						Damage: 0
+						GeckoLibID: 16L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["04F5E10803F9EB28"]
+			hide_dependent_lines: true
+			id: "3067FA82EC0C2D70"
+			rewards: [
+				{
+					id: "6A386DEA7632DB66"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "066EBA81FC5BA22F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5B7DCB4A9B693B00"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "690D89142C8D7705"
+				item: "scguns:treated_iron_gun_frame"
+				type: "item"
+			}]
+			title: "&lTreated Iron Gun Frame"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "33D24F14AB4394D6"
+			rewards: [
+				{
+					id: "179556FFFF842BE0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "55D7C66C1FE86E52"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6FA747E0B0860A54"
+				item: {
+					Count: 1
+					id: "scguns:mokova"
+					tag: {
+						Damage: 0
+						GeckoLibID: 17L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"22CBD24B5D2C0AA6"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"3067FA82EC0C2D70"
+			]
+			id: "1EA575E0ED4C5965"
+			rewards: [
+				{
+					id: "44032F6314C596DC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3CFD47EBF2CF7991"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B58D47242303260"
+				item: {
+					Count: 1
+					id: "scguns:mak_mkii"
+					tag: {
+						Damage: 0
+						GeckoLibID: 18L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"0E758ADA20F75254"
+				"24A447A07D79ED00"
+				"3067FA82EC0C2D70"
+			]
+			id: "1DB291E924EFAEE7"
+			rewards: [
+				{
+					id: "2007709428AD3601"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "39803A16B6A3E510"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33955522BD6F9EDF"
+				item: {
+					Count: 1
+					id: "scguns:killer_23"
+					tag: {
+						Damage: 0
+						GeckoLibID: 19L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "73939634E647488C"
+			rewards: [
+				{
+					id: "3767E59EF7C866D5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "679972E46383164C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3016EC68E11F6FC9"
+				item: {
+					Count: 1
+					id: "scguns:railworker"
+					tag: {
+						Damage: 0
+						GeckoLibID: 20L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"349EE89C1F6B4377"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"22CBD24B5D2C0AA6"
+				"3067FA82EC0C2D70"
+			]
+			id: "20DF56B76E25BDF2"
+			rewards: [
+				{
+					id: "244FC34C9DD90B37"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6CA4B6AA229D15DC"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79EF4CAFD8DA52C2"
+				item: {
+					Count: 1
+					id: "scguns:basker"
+					tag: {
+						Damage: 0
+						GeckoLibID: 21L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"22CBD24B5D2C0AA6"
+				"3067FA82EC0C2D70"
+			]
+			id: "39F7E5B30E39CA60"
+			rewards: [
+				{
+					id: "4BD401FA26DF1BA3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2320A39A1088FD7D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2F5316A80A750FB1"
+				item: {
+					Count: 1
+					id: "scguns:kalaskah"
+					tag: {
+						Damage: 0
+						GeckoLibID: 22L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"3658DE9ED672A3C4"
+				"0E758ADA20F75254"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+			]
+			id: "03075DFC12C29B8A"
+			rewards: [
+				{
+					id: "51F1733D688D9988"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "28683B5FF2398BEA"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "039091CD58B50B27"
+				item: {
+					Count: 1
+					id: "scguns:stiletto"
+					tag: {
+						Damage: 0
+						GeckoLibID: 23L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"24A447A07D79ED00"
+				"6C57016525598242"
+			]
+			id: "5A01085273CBACE3"
+			rewards: [
+				{
+					id: "60EBF8C8CB69A333"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "62ADF865251D95C0"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CCE0AE4814487F9"
+				item: {
+					Count: 1
+					id: "scguns:whizzbanger"
+					tag: {
+						Damage: 0
+						GeckoLibID: 24L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"3067FA82EC0C2D70"
+				"3658DE9ED672A3C4"
+				"349EE89C1F6B4377"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+			]
+			id: "13DFD752FDFD81F6"
+			rewards: [
+				{
+					id: "64935038185A6970"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4897AB7B07B747E6"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "671B8565298C5558"
+				item: {
+					Count: 1
+					id: "scguns:turnpike"
+					tag: {
+						Damage: 0
+						GeckoLibID: 25L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"3658DE9ED672A3C4"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"1DC2A831E87C134F"
+			]
+			id: "622FDBDED06A63D6"
+			rewards: [
+				{
+					id: "33AB8C2145EEBB30"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "38EA8C6AC472D822"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "261452B2526B9EC7"
+				item: {
+					Count: 1
+					id: "scguns:tl_runner"
+					tag: {
+						Damage: 0
+						GeckoLibID: 26L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5ECB2818EEA26313"
+				"3067FA82EC0C2D70"
+				"3658DE9ED672A3C4"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+			]
+			id: "76B70BBF528B461E"
+			rewards: [
+				{
+					id: "05242752FC18E3D2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5D94EEB2166FE730"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30163DE843CAB106"
+				item: {
+					Count: 1
+					id: "scguns:homemaker"
+					tag: {
+						Damage: 0
+						GeckoLibID: 27L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"22CBD24B5D2C0AA6"
+				"06CCD91482A2551B"
+				"0E758ADA20F75254"
+				"3658DE9ED672A3C4"
+				"349EE89C1F6B4377"
+				"5D3C0DE6F28E1A01"
+			]
+			id: "2F9DF3E0B9785255"
+			rewards: [
+				{
+					id: "2785FEE39061B6C5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "093333FC04BA3EEC"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4549C0EECB4CDE6E"
+				item: {
+					Count: 1
+					id: "scguns:birdfeeder"
+					tag: {
+						Damage: 0
+						GeckoLibID: 28L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"24A447A07D79ED00"
+				"3658DE9ED672A3C4"
+				"0E758ADA20F75254"
+				"16888B7345E3CABF"
+				"5D3C0DE6F28E1A01"
+			]
+			id: "7701339EA162FC3A"
+			rewards: [
+				{
+					id: "10865D3B804B95BA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6D006947A783E04F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "653FF67E614C05FF"
+				item: {
+					Count: 1
+					id: "scguns:blooper"
+					tag: {
+						Damage: 0
+						GeckoLibID: 29L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"42CBE8EDAB2A61EA"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"3658DE9ED672A3C4"
+				"5D3C0DE6F28E1A01"
+				"16888B7345E3CABF"
+			]
+			id: "6F36DF14431D30F9"
+			rewards: [
+				{
+					id: "75D38DE6A27C2B38"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5C7333CBFDDD8C7B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "045AB1C0C5E92B62"
+				item: {
+					Count: 1
+					id: "scguns:whistler"
+					tag: {
+						Damage: 0
+						GeckoLibID: 30L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0DF7262D734A77CE"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+				"63686D1DAC0E466A"
+				"3658DE9ED672A3C4"
+				"6814CB57B13933BD"
+			]
+			id: "68676845F4D781E1"
+			rewards: [
+				{
+					id: "7932BDE0A4EB75A0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5BDEDC1370B6EE29"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "434BBF61D78E51C9"
+				item: {
+					Count: 1
+					id: "scguns:m3_marksman"
+					tag: {
+						Damage: 0
+						GeckoLibID: 31L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0DF7262D734A77CE"
+				"24A447A07D79ED00"
+				"3658DE9ED672A3C4"
+				"0E758ADA20F75254"
+				"16888B7345E3CABF"
+			]
+			id: "11124E80D0D03B9D"
+			rewards: [
+				{
+					id: "6DCB09F5F65CB03F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4219B3E5438F5B52"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AE0BED77E5C7ECC"
+				item: {
+					Count: 1
+					id: "scguns:ultra_knight_hawk"
+					tag: {
+						Damage: 0
+						GeckoLibID: 32L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0DF7262D734A77CE"
+				"63686D1DAC0E466A"
+				"3658DE9ED672A3C4"
+				"0E758ADA20F75254"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+			]
+			id: "656C220BEC5BA3A5"
+			rewards: [
+				{
+					id: "06A567C8FBAC1214"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "641972C008FEE64F"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73E62D379E690215"
+				item: {
+					Count: 1
+					id: "scguns:triquetra"
+					tag: {
+						Damage: 0
+						GeckoLibID: 33L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0DF7262D734A77CE"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+			]
+			id: "545010B384AEE240"
+			rewards: [
+				{
+					id: "2CCFE9A2ACC696F7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "64E3AE06A8728DB2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2012C1E130F80BCD"
+				item: {
+					Count: 1
+					id: "scguns:trenchur"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 34L
+						IsDrawing: 1b
+						IsDrawn: 1b
+						WasHeldLastTick: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0DF7262D734A77CE"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"63686D1DAC0E466A"
+			]
+			id: "0A98D1CE03781839"
+			rewards: [
+				{
+					id: "63D4816DB5478516"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "63E7EF282A4B4750"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27D678CABDC2BDC9"
+				item: {
+					Count: 1
+					id: "scguns:crusader"
+					tag: {
+						Damage: 0
+						GeckoLibID: 35L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"39CB711E5A0E25D4"
+				"1DD75A3C04FD3411"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"22CBD24B5D2C0AA6"
+			]
+			id: "604DCE7B23F59BD1"
+			rewards: [
+				{
+					id: "6C8850FB344983EB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "05744124F72CD889"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55C266AAD08DA375"
+				item: {
+					Count: 1
+					id: "scguns:grandle"
+					tag: {
+						Damage: 0
+						GeckoLibID: 36L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"39CB711E5A0E25D4"
+				"1DD75A3C04FD3411"
+				"0E758ADA20F75254"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"22CBD24B5D2C0AA6"
+			]
+			id: "62440A2CEF0F90F7"
+			rewards: [
+				{
+					id: "1182BA4599690D74"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "67A0969C78FF14F3"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78F432C6EF373C7C"
+				item: {
+					Count: 1
+					id: "scguns:cr4k_mining_laser"
+					tag: {
+						Damage: 0
+						GeckoLibID: 37L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"39CB711E5A0E25D4"
+				"1DD75A3C04FD3411"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "7EC68F6A4D7650B6"
+			rewards: [
+				{
+					id: "33D2A95211E5757F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "777BB9A8971C8E64"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19BE2D63E04AF9C3"
+				item: {
+					Count: 1
+					id: "scguns:grandle_og"
+					tag: {
+						Damage: 0
+						GeckoLibID: 38L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"39CB711E5A0E25D4"
+				"1DD75A3C04FD3411"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"24A447A07D79ED00"
+			]
+			id: "352D9B304804AC12"
+			rewards: [
+				{
+					id: "516A8A09BD5BE2E7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "75F929E3B4FEC7E2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "098FE33186F02FED"
+				item: {
+					Count: 1
+					id: "scguns:niami"
+					tag: {
+						Damage: 0
+						DrawnTick: 17
+						GeckoLibID: 39L
+						IsDrawing: 1b
+						IsDrawn: 1b
+						WasHeldLastTick: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"39CB711E5A0E25D4"
+				"1DD75A3C04FD3411"
+				"0E758ADA20F75254"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"22CBD24B5D2C0AA6"
+				"6814CB57B13933BD"
+			]
+			id: "2C51B1A8107E6ABA"
+			rewards: [
+				{
+					id: "455061957379D0FF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1E5F838D5E979F19"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3786BC3A47D9E58B"
+				item: {
+					Count: 1
+					id: "scguns:jr_wristbreaker"
+					tag: {
+						Damage: 0
+						GeckoLibID: 40L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"39CB711E5A0E25D4"
+				"1DD75A3C04FD3411"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"16888B7345E3CABF"
+				"22CBD24B5D2C0AA6"
+			]
+			id: "5199212255C261A0"
+			rewards: [
+				{
+					id: "39F607B4B350DB80"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "69BC90D76DAD3191"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "198018EC7021DD89"
+				item: {
+					Count: 1
+					id: "scguns:scratches"
+					tag: {
+						Damage: 0
+						GeckoLibID: 41L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"39CB711E5A0E25D4"
+				"1DD75A3C04FD3411"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"3658DE9ED672A3C4"
+				"1DC2A831E87C134F"
+				"16888B7345E3CABF"
+			]
+			id: "683B9DE04ACCB44F"
+			rewards: [
+				{
+					id: "422C479DC98DC439"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "40CF108B031F548C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53C8F2A2BC789534"
+				item: {
+					Count: 1
+					id: "scguns:libertas"
+					tag: {
+						Damage: 0
+						GeckoLibID: 43L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"22CBD24B5D2C0AA6"
+			]
+			id: "676DBA7ACDD228BB"
+			rewards: [
+				{
+					id: "3A9B4A855A18BFAF"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0E6FD22CF0A518CD"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16F0E934CBF167E7"
+				item: {
+					Count: 1
+					id: "scguns:nailer"
+					tag: {
+						Damage: 0
+						GeckoLibID: 44L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"19DB7F0FB58D0A1B"
+				"349EE89C1F6B4377"
+				"24A447A07D79ED00"
+				"06CCD91482A2551B"
+			]
+			id: "252EA31EC8E17670"
+			rewards: [
+				{
+					id: "16872625CAD53E88"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4009AF1F48FC4B13"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E65AAEBA050930C"
+				item: {
+					Count: 1
+					id: "scguns:drill"
+					tag: {
+						Damage: 0
+						GeckoLibID: 45L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"0E17C5833E47ECED"
+				"6814CB57B13933BD"
+				"349EE89C1F6B4377"
+				"16888B7345E3CABF"
+				"22CBD24B5D2C0AA6"
+			]
+			id: "24D3B2769F0891C7"
+			rewards: [
+				{
+					id: "09C36EB61DFBA4A5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2EED35BB583D6F8C"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16D3DF25944AC84D"
+				item: {
+					Count: 1
+					id: "scguns:valora"
+					tag: {
+						Damage: 0
+						GeckoLibID: 46L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"7005C05D344840A7"
+				"16888B7345E3CABF"
+				"349EE89C1F6B4377"
+				"19DB7F0FB58D0A1B"
+			]
+			id: "364585009232D3C0"
+			rewards: [
+				{
+					id: "48C397115057ABFB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "68F17B69E92C984A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58C9C59BE3F5260B"
+				item: {
+					Count: 1
+					id: "scguns:shard_culler"
+					tag: {
+						Damage: 0
+						GeckoLibID: 47L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"24A447A07D79ED00"
+				"06CCD91482A2551B"
+				"349EE89C1F6B4377"
+				"19DB7F0FB58D0A1B"
+			]
+			id: "08FC1867858D5FC4"
+			rewards: [
+				{
+					id: "5FE632EB15AD6C6B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "66A36C016B12EA5B"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0171A4CBF11387D6"
+				item: {
+					Count: 1
+					id: "scguns:drill_conversion"
+					tag: {
+						Damage: 0
+						GeckoLibID: 48L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"22CBD24B5D2C0AA6"
+				"16888B7345E3CABF"
+				"19DB7F0FB58D0A1B"
+				"6814CB57B13933BD"
+				"349EE89C1F6B4377"
+			]
+			id: "1AE9CD1F55566986"
+			rewards: [
+				{
+					id: "169B558C9DB4951F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4FE9ACAFAC1B2E70"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4E8648877E322050"
+				item: {
+					Count: 1
+					id: "scguns:zilk_45"
+					tag: {
+						Damage: 0
+						DrawnTick: 15
+						GeckoLibID: 49L
+						IsDrawing: 1b
+						IsDrawn: 1b
+						WasHeldLastTick: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"24A447A07D79ED00"
+				"06CCD91482A2551B"
+				"19DB7F0FB58D0A1B"
+				"3658DE9ED672A3C4"
+			]
+			id: "0EC6DF9168947450"
+			rewards: [
+				{
+					id: "2DC9037BE3782E13"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "34212892EE173B12"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7E4462B1DFAECA9C"
+				item: {
+					Count: 1
+					id: "scguns:rg_jigsaw"
+					tag: {
+						Damage: 0
+						GeckoLibID: 50L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"19DB7F0FB58D0A1B"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+				"3658DE9ED672A3C4"
+			]
+			id: "68D00E10D762F102"
+			rewards: [
+				{
+					id: "31F990D719B35DD4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3603947951AF169D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6EE543F2B825337B"
+				item: {
+					Count: 1
+					id: "scguns:inertial"
+					tag: {
+						Damage: 0
+						GeckoLibID: 51L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"7005C05D344840A7"
+				"19DB7F0FB58D0A1B"
+				"349EE89C1F6B4377"
+				"16888B7345E3CABF"
+			]
+			id: "2839923060C61630"
+			rewards: [
+				{
+					id: "7F92190023A02D24"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "35CF9F569DE63EA0"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48DDDF4D23CCF5EA"
+				item: {
+					Count: 1
+					id: "scguns:minksy"
+					tag: {
+						Damage: 0
+						GeckoLibID: 52L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"19DB7F0FB58D0A1B"
+				"6814CB57B13933BD"
+				"24A447A07D79ED00"
+			]
+			id: "1466B9A4A46AFAC6"
+			rewards: [
+				{
+					id: "01B5405DC1481EB7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "341444A23B7BEFA9"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "02EBE05D83D72AFD"
+				item: {
+					Count: 1
+					id: "scguns:truant"
+					tag: {
+						Damage: 0
+						GeckoLibID: 53L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"19DB7F0FB58D0A1B"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"349EE89C1F6B4377"
+			]
+			id: "156366FA48221DA1"
+			rewards: [
+				{
+					id: "6DD6A6AAC124B9F6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "67A8A199AD2ED51A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CA44E9032B5CD09"
+				item: {
+					Count: 1
+					id: "scguns:inquisitor"
+					tag: {
+						Damage: 0
+						GeckoLibID: 54L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"349EE89C1F6B4377"
+				"3658DE9ED672A3C4"
+				"19DB7F0FB58D0A1B"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+			]
+			id: "07E5EA18CE683A3F"
+			rewards: [
+				{
+					id: "221F4A439C1AC17D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6EE94099905A4D82"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1A438C71FB9E945B"
+				item: {
+					Count: 1
+					id: "scguns:mas_peddler"
+					tag: {
+						Damage: 0
+						GeckoLibID: 55L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"67CA3C145B206835"
+				"0E758ADA20F75254"
+				"06CCD91482A2551B"
+				"6814CB57B13933BD"
+				"22CBD24B5D2C0AA6"
+				"19DB7F0FB58D0A1B"
+				"349EE89C1F6B4377"
+			]
+			id: "5BE0F82930DC2173"
+			rewards: [
+				{
+					id: "4B4C8387AD9F5C12"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7EE92B03D7138730"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6D16E1606BAA291A"
+				item: {
+					Count: 1
+					id: "scguns:micina"
+					tag: {
+						Damage: 0
+						GeckoLibID: 56L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2F7AC6843EAF505C"
+				"0E758ADA20F75254"
+				"16888B7345E3CABF"
+				"3067FA82EC0C2D70"
+				"24A447A07D79ED00"
+			]
+			id: "02B22BE148A1A3FC"
+			rewards: [
+				{
+					id: "56BB30C4109909DE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "70F8F9087E1A5199"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53B23ACB3D6980CF"
+				item: {
+					Count: 1
+					id: "scguns:hullbreaker"
+					tag: {
+						Damage: 0
+						GeckoLibID: 57L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2F7AC6843EAF505C"
+				"0E758ADA20F75254"
+				"16888B7345E3CABF"
+				"6814CB57B13933BD"
+				"349EE89C1F6B4377"
+			]
+			id: "0F888611CBFAA465"
+			rewards: [
+				{
+					id: "31AB93615E382030"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "371F9EC8A5ED1228"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34530B7FDA2F02E7"
+				item: {
+					Count: 1
+					id: "scguns:spirulida"
+					tag: {
+						Damage: 0
+						GeckoLibID: 58L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"2F7AC6843EAF505C"
+				"0E758ADA20F75254"
+				"16888B7345E3CABF"
+				"6814CB57B13933BD"
+				"349EE89C1F6B4377"
+				"24A447A07D79ED00"
+			]
+			id: "0AFD08D8D4EE9D0A"
+			rewards: [
+				{
+					id: "5811BBB0386F99F7"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "385683E4ECE34A7D"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20DBC96A494F1327"
+				item: {
+					Count: 1
+					id: "scguns:hyperbaria"
+					tag: {
+						Damage: 0
+						GeckoLibID: 59L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5043184486978233"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+			]
+			id: "2913FE9678F7A820"
+			rewards: [
+				{
+					id: "008F1290ABD2C10C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1264EE9230CA01D2"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FD07CF389E6C395"
+				item: {
+					Count: 1
+					id: "scguns:mangalitsa"
+					tag: {
+						Damage: 0
+						GeckoLibID: 60L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5043184486978233"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"24A447A07D79ED00"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+			]
+			id: "6DDC89CE2E471389"
+			rewards: [
+				{
+					id: "204A9676C5A1BE8D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6894030DBA542607"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18A68A323F009E44"
+				item: {
+					Count: 1
+					id: "scguns:trotters"
+					tag: {
+						Damage: 0
+						GeckoLibID: 61L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5AC495ECD7DD11B0"
+				"6814CB57B13933BD"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"19DB7F0FB58D0A1B"
+				"24A447A07D79ED00"
+			]
+			id: "4DAB15A2440E92E7"
+			rewards: [
+				{
+					id: "4769346A3E084A3E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4097DE6F2ECFFD89"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "74929DE8FCF5D060"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B185000A946E5B6"
+				item: {
+					Count: 1
+					id: "scguns:forlorn_hope"
+					tag: {
+						Damage: 0
+						GeckoLibID: 62L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"02376846C2E38F10"
+				"19DB7F0FB58D0A1B"
+				"3658DE9ED672A3C4"
+				"16888B7345E3CABF"
+				"22CBD24B5D2C0AA6"
+				"0E758ADA20F75254"
+			]
+			id: "170DE901A796655A"
+			rewards: [
+				{
+					id: "63899FA8EA0941F0"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "77797D003574A2FB"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41785B6C73D0139D"
+				item: {
+					Count: 1
+					id: "scguns:weevil"
+					tag: {
+						Damage: 0
+						DrawnTick: 16
+						GeckoLibID: 63L
+						IsDrawing: 1b
+						IsDrawn: 1b
+						WasHeldLastTick: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7B064B7FED666763"
+				"0E758ADA20F75254"
+				"6FFBACAFBF46226D"
+				"3658DE9ED672A3C4"
+				"349EE89C1F6B4377"
+				"16888B7345E3CABF"
+				"7005C05D344840A7"
+			]
+			id: "0A3FBBE607F0BD6F"
+			rewards: [
+				{
+					id: "06CD83A576C38539"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "03FFEEB6C4EA1042"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "36EDA750060B9A9E"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1CF58BAF5B6B6D52"
+				item: {
+					Count: 1
+					id: "scguns:flayed_god"
+					tag: {
+						Damage: 0
+						GeckoLibID: 64L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7B064B7FED666763"
+				"0E758ADA20F75254"
+				"6FFBACAFBF46226D"
+				"3658DE9ED672A3C4"
+				"349EE89C1F6B4377"
+				"6814CB57B13933BD"
+				"16888B7345E3CABF"
+			]
+			id: "0DB64F626233FB97"
+			rewards: [
+				{
+					id: "7B8CD81FEE843459"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "294F6FCC55A4FE29"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "04FB71DA0A973F04"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6031AFBD3F5A3E47"
+				item: {
+					Count: 1
+					id: "scguns:nervepinch"
+					tag: {
+						Damage: 0
+						GeckoLibID: 65L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7B064B7FED666763"
+				"0E758ADA20F75254"
+				"349EE89C1F6B4377"
+				"06CCD91482A2551B"
+				"6814CB57B13933BD"
+				"24A447A07D79ED00"
+			]
+			id: "4FEA87BB0713BE69"
+			rewards: [
+				{
+					id: "235B5ECDE730219D"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "22D9BCF41BDB865F"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "181DAE79C5890E57"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0C880FB2716993FE"
+				item: {
+					Count: 1
+					id: "scguns:prima_materia"
+					tag: {
+						Damage: 0
+						GeckoLibID: 66L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7B064B7FED666763"
+				"0E758ADA20F75254"
+				"6814CB57B13933BD"
+				"3658DE9ED672A3C4"
+				"1DC2A831E87C134F"
+				"6FFBACAFBF46226D"
+			]
+			id: "148AA42E6FD76B20"
+			rewards: [
+				{
+					id: "0FD0D73DCA90F4B6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2B1446F0E78C10C6"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "157FBBA207E278AA"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C0F16B6C7809D48"
+				item: {
+					Count: 1
+					id: "scguns:sterilizer"
+					tag: {
+						Damage: 0
+						GeckoLibID: 68L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7B064B7FED666763"
+				"0E758ADA20F75254"
+				"22CBD24B5D2C0AA6"
+				"16888B7345E3CABF"
+				"3658DE9ED672A3C4"
+				"6FFBACAFBF46226D"
+			]
+			id: "72062A816B95EBC2"
+			rewards: [
+				{
+					id: "072E48770C0A6AE1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "73A8B310555DE94F"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "2C92A45086D29FB0"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64435868E2D83C02"
+				item: {
+					Count: 1
+					id: "scguns:terra_incognita"
+					tag: {
+						Damage: 0
+						GeckoLibID: 67L
+						WasHeldLastTick: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 13.5d
 		}
 	]
 	title: "&eLocked and Loaded"
