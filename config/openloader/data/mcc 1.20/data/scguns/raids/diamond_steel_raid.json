@@ -1,0 +1,241 @@
+{
+  "raid_id": "diamond_steel",
+  "raid_level": 4,
+
+  "boss": {
+    "entity_type": "minecraft:husk",
+    "custom_name": "translation:raid.boss.scguns.diamond_steel",
+    "fixed_health": 150.0,
+    "weapon": {
+      "item": "scguns:plasgun",
+      "drop_chance": 0.25,
+      "nbt": {
+        "Enchantments": [
+          {
+            "id": "scguns:puncturing",
+            "lvl": 1
+          }
+        ]
+      }
+    },
+    "armor": [
+      {
+        "item": "scguns:diamond_steel_helmet",
+        "slot": "head",
+        "drop_chance": 0.2
+      },
+      {
+        "item": "scguns:diamond_steel_chestplate",
+        "slot": "chest",
+        "drop_chance": 0.2
+      },
+      {
+        "item": "scguns:diamond_steel_leggings",
+        "slot": "legs",
+        "drop_chance": 0.15
+      },
+      {
+        "item": "scguns:diamond_steel_boots",
+        "slot": "feet",
+        "drop_chance": 0.15
+      }
+    ],
+    "effects": [
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 1,
+        "duration": -1,
+        "ambient": false,
+        "visible": false
+      }
+    ],
+    "ai_difficulty": 4,
+    "ai_type": "TACTICAL",
+    "special_loot_table": "scguns:raids/diamond_steel_boss",
+    "mount": {
+      "entity_type": "scguns:dissident",
+      "health_multiplier": 2.0,
+      "armor": [
+
+      ],
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "amplifier": 1,
+          "duration": 2000,
+          "ambient": true,
+          "visible": false
+        }
+      ],
+      "drops_loot": true
+    }
+  },
+
+  "henchmen": {
+    "types": [
+      {
+        "entity_type": "scguns:adjudicator",
+        "weight": 0.0,
+        "health_multiplier": 1.5,
+        "weapons": [
+          "scguns:krauser",
+          "scguns:micina",
+          "scguns:lockewood",
+          "minecraft:diamond_axe"
+        ],
+        "armor": [],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": false,
+            "visible": false
+          },
+          {
+            "effect": "minecraft:resistance",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 4,
+        "ai_type": "TACTICAL"
+      },
+      {
+        "entity_type": "scguns:subjugator",
+        "weight": 0.0,
+        "fixed_health": 60.0,
+        "weapons": [
+          "scguns:valora",
+          "scguns:soul_drummer",
+          "scguns:krauser",
+          "minecraft:diamond_sword"
+        ],
+        "armor": [],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": false,
+            "visible": false
+          },
+          {
+            "effect": "minecraft:strength",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 4,
+        "ai_type": "DEFAULT"
+      },
+      {
+        "entity_type": "minecraft:stray",
+        "weight": 0.0,
+        "health_multiplier": 1.4,
+        "weapons": [
+          "scguns:krauser",
+          "scguns:micina",
+          "scguns:lockewood",
+          "minecraft:diamond_sword",
+          "minecraft:diamond_axe"
+        ],
+        "armor": [
+          {
+            "item": "scguns:diamond_steel_helmet",
+            "slot": "head",
+            "chance": 1.0
+          },
+          {
+            "item": "scguns:diamond_steel_chestplate",
+            "slot": "chest",
+            "chance": 0.5
+          },
+          {
+            "item": "scguns:diamond_steel_leggings",
+            "slot": "legs",
+            "chance": 0.4
+          }
+        ],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": false,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 3,
+        "ai_type": "DEFAULT"
+      },
+      {
+        "entity_type": "scguns:dissident",
+        "weight": 0.0,
+        "fixed_health": 80.0,
+        "weapons": [],
+        "armor": [],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          },
+          {
+            "effect": "minecraft:resistance",
+            "amplifier": 1,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 3,
+        "ai_type": "DEFAULT"
+      },
+      {
+        "entity_type": "scguns:praetor",
+        "weight": 0.0,
+        "fixed_health": 100.0,
+        "weapons": [],
+        "armor": [],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          },
+          {
+            "effect": "minecraft:resistance",
+            "amplifier": 1,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 3,
+        "ai_type": "DEFAULT"
+      }
+    ],
+    "spawn_interval_ticks": 500,
+    "max_alive": 6,
+    "spawn_radius": 15,
+    "spawn_attempts_per_wave": 6
+  },
+
+  "spawn_conditions": {
+    "min_players_nearby": 1,
+    "search_radius": 64,
+    "valid_dimensions": [
+      "minecraft:overworld"
+    ],
+    "announcement_message": "translation:raid.announcement.scguns.diamond_steel"
+  }
+}

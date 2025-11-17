@@ -1,0 +1,208 @@
+{
+  "raid_id": "sculk",
+  "raid_level": 4,
+
+  "boss": {
+    "entity_type": "minecraft:vindicator",
+    "custom_name": "translation:raid.boss.scguns.sculk",
+    "fixed_health": 180.0,
+    "weapon": {
+      "item": "scguns:sculk_resonator",
+      "drop_chance": 0.25,
+      "nbt": {
+        "Enchantments": [
+          {
+            "id": "scguns:puncturing",
+            "lvl": 1
+          }
+        ]
+      }
+    },
+    "armor": [
+      {
+        "item": "minecraft:diamond_helmet",
+        "slot": "head",
+        "drop_chance": 0.2
+      },
+      {
+        "item": "minecraft:diamond_chestplate",
+        "slot": "chest",
+        "drop_chance": 0.2
+      },
+      {
+        "item": "minecraft:diamond_leggings",
+        "slot": "legs",
+        "drop_chance": 0.15
+      },
+      {
+        "item": "minecraft:diamond_boots",
+        "slot": "feet",
+        "drop_chance": 0.15
+      }
+    ],
+    "effects": [
+      {
+        "effect": "minecraft:speed",
+        "amplifier": 1,
+        "duration": -1,
+        "ambient": false,
+        "visible": false
+      }
+    ],
+    "ai_difficulty": 4,
+    "ai_type": "TACTICAL",
+    "special_loot_table": "scguns:raids/sculk_boss",
+    "mount": {
+      "entity_type": "minecraft:ravager",
+      "health_multiplier": 1.75,
+      "armor": [
+
+      ],
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "amplifier": 1,
+          "duration": 2000,
+          "ambient": true,
+          "visible": false
+        }
+      ],
+      "drops_loot": false
+    }
+  },
+
+  "henchmen": {
+    "types": [
+      {
+        "entity_type": "minecraft:vindicator",
+        "weight": 0.0,
+        "fixed_health": 40.0,
+        "weapons": [
+          "scguns:echoes_2",
+          "scguns:forlorn_hope",
+          "scguns:whispers",
+          "minecraft:diamond_axe"
+        ],
+        "armor": [
+          {
+            "item": "scguns:anthralite_helmet",
+            "slot": "head",
+            "chance": 1.0
+          },
+          {
+            "item": "scguns:anthralite_chestplate",
+            "slot": "chest",
+            "chance": 0.4
+          }
+        ],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": false,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "DEFAULT"
+      },
+      {
+        "entity_type": "scguns:blunderer",
+        "weight": 0.0,
+        "fixed_health": 100.0,
+        "weapons": [
+          "scguns:forlorn_hope",
+          "scguns:echoes_2",
+            "scguns:kiln_gun",
+            "scguns:war_axe"
+        ],
+        "armor": [
+          {
+            "item": "scguns:anthralite_helmet",
+            "slot": "head",
+            "chance": 1.0
+          }
+        ],
+        "ai_difficulty": 2,
+        "ai_type": "DEFAULT"
+      },
+      {
+        "entity_type": "minecraft:pillager",
+        "weight": 0.0,
+        "health_multiplier": 1.4,
+        "weapons": [
+          "scguns:whispers",
+          "scguns:sculk_resonator",
+          "minecraft:diamond_axe"
+        ],
+        "armor": [
+          {
+            "item": "scguns:anthralite_helmet",
+            "slot": "head",
+            "chance": 0.5
+          },
+          {
+            "item": "scguns:anthralite_chestplate",
+            "slot": "chest",
+            "chance": 0.6
+          }
+        ],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 3,
+        "ai_type": "DEFAULT"
+      },
+      {
+        "entity_type": "minecraft:witch",
+        "weight": 0.0,
+        "health_multiplier": 1.4,
+        "weapons": [
+        ],
+        "armor": [
+          {
+            "item": "scguns:anthralite_helmet",
+            "slot": "head",
+            "chance": 0.5
+          },
+          {
+            "item": "scguns:anthralite_chestplate",
+            "slot": "chest",
+            "chance": 0.6
+          }
+        ],
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "amplifier": 0,
+            "duration": -1,
+            "ambient": true,
+            "visible": false
+          }
+        ],
+        "ai_difficulty": 3,
+        "ai_type": "DEFAULT"
+      }
+    ],
+    "spawn_interval_ticks": 500,
+    "max_alive": 9,
+    "spawn_radius": 15,
+    "spawn_attempts_per_wave": 6
+  },
+
+  "spawn_conditions": {
+    "min_players_nearby": 1,
+    "search_radius": 64,
+    "valid_dimensions": [
+      "minecraft:overworld"
+    ],
+    "announcement_message": "translation:raid.announcement.scguns.sculk"
+  }
+}

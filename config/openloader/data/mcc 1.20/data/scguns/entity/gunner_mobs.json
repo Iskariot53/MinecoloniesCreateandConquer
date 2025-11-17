@@ -1,0 +1,172 @@
+{
+  "mobs": {
+    "minecraft:pillager": {
+      "spawn_chance": 0.0,
+      "ai_difficulty": 2,
+      "weapon_drop_chance": 0.0,
+      "weapons": [
+      ],
+      "armor": [
+        {
+          "item": "minecraft:iron_helmet",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:iron_chestplate",
+          "slot": "chest",
+          "chance": 0.0
+        }
+      ]
+    },
+    "minecraft:vindicator": {
+      "spawn_chance": 0.0,
+      "ai_difficulty": 2,
+      "weapon_drop_chance": 0.0,
+      "weapons": [
+      ],
+      "armor": [
+        {
+          "item": "minecraft:iron_helmet",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:iron_chestplate",
+          "slot": "chest",
+          "chance": 0.0
+        }
+      ]
+    },
+    "minecraft:piglin": {
+      "spawn_chance": 0.0,
+      "ai_difficulty": 2,
+      "weapon_drop_chance": 0.0,
+      "weapons": [
+      ],
+      "armor": [
+        {
+          "item": "minecraft:golden_helmet",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "scguns:anthralite_respirator",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:golden_chestplate",
+          "slot": "chest",
+          "chance": 0.0
+        }
+      ]
+    },
+    "minecraft:zombified_piglin": {
+      "spawn_chance": 0.0,
+      "ai_difficulty": 2,
+      "weapon_drop_chance": 0.0,
+      "weapons": [
+      ],
+      "armor": [
+        {
+          "item": "minecraft:golden_helmet",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "scguns:anthralite_respirator",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:golden_chestplate",
+          "slot": "chest",
+          "chance": 0.0
+        }
+      ]
+    },
+    "minecraft:piglin_brute": {
+      "spawn_chance": 0.0,
+      "ai_difficulty": 2,
+      "weapon_drop_chance": 0.0,
+      "weapons": [
+      ],
+      "armor": [
+        {
+          "item": "minecraft:golden_helmet",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "scguns:anthralite_respirator",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:golden_chestplate",
+          "slot": "chest",
+          "chance": 0.0
+        }
+      ]
+    },
+    "scguns:hornlin": {
+      "spawn_chance": 0.0,
+      "ai_difficulty": 1,
+      "weapon_drop_chance": 0.0,
+      "weapons": [
+      ],
+      "armor": [
+        {
+          "item": "minecraft:golden_helmet",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "scguns:anthralite_respirator",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:golden_chestplate",
+          "slot": "chest",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:golden_boots",
+          "slot": "feet",
+          "chance": 0.0
+        }
+      ]
+    },
+    "scguns:zombified_hornlin": {
+      "spawn_chance": 0.0,
+      "ai_difficulty": 1,
+      "weapon_drop_chance": 0.0,
+      "weapons": [
+      ],
+      "armor": [
+        {
+          "item": "minecraft:golden_helmet",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "scguns:anthralite_respirator",
+          "slot": "head",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:golden_chestplate",
+          "slot": "chest",
+          "chance": 0.0
+        },
+        {
+          "item": "minecraft:golden_boots",
+          "slot": "feet",
+          "chance": 0.0
+        }
+      ]
+    }
+  }
+}
