@@ -13,11 +13,13 @@ Mods Updated
 
 
 - Scorched Guns 2
-
+- Born In Configuration
 
 
 Changes
 
 
 - Made Piglin Gamblers invincible as a temporary solution to fix a crash issue.
+- Blacklisted Storage Racks from being moved by capsules to prevent a crash issue.
 - Disabled Raids from scguns and added their rewards as loot tables instead.
+- Krampus Henchmen will no longer delete the held weapon.

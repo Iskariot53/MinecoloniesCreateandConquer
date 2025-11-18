@@ -2083,7 +2083,7 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
   });
 	<item:scguns:gold_idol>.modifyTooltip((stack, tooltip, flag) => {
     tooltip.remove(2);
-    tooltip.insert(2, "§8§oFound in Bastions");
+    tooltip.insert(2, "§8§oFound in Bastions as well as Obtained From Bartering");
   });
   <item:scguns:cog_heart>.modifyTooltip((stack, tooltip, flag) => {
     tooltip.remove(2);
