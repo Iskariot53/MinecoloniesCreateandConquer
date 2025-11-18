@@ -1,0 +1,22 @@
+{
+  "id": "scguns:adjudicator",
+  "equipment_chance": 1.0,
+  "items": [
+    {
+      "item": "minecraft:diamond_sword",
+      "weight": 8.0,
+      "drop_chance": 0.3,
+      "min_durability": 0.2,
+      "max_durability": 0.6,
+      "slot": "mainhand"
+    },
+    {
+      "item": "scguns:diamond_bayonet",
+      "weight": 8.0,
+      "drop_chance": 0.3,
+      "min_durability": 0.2,
+      "max_durability": 0.6,
+      "slot": "mainhand"
+    }
+  ]
+}

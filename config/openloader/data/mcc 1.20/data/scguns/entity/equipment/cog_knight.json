@@ -1,0 +1,46 @@
+{
+  "id": "scguns:cog_knight",
+  "equipment_chance": 1.0,
+  "items": [
+    {
+      "item": "scguns:cog_mace",
+      "weight": 16.0,
+      "drop_chance": 0.5,
+      "min_durability": 0.5,
+      "max_durability": 1.0,
+      "slot": "mainhand"
+    },
+    {
+      "item": "minecraft:iron_sword",
+      "weight": 8.0,
+      "drop_chance": 0.4,
+      "min_durability": 0.5,
+      "max_durability": 1.0,
+      "slot": "mainhand"
+    },
+    {
+      "item": "scguns:anthralite_sword",
+      "weight": 8.0,
+      "drop_chance": 0.2,
+      "min_durability": 0.5,
+      "max_durability": 1.0,
+      "slot": "mainhand"
+    },
+    {
+      "item": "minecraft:golden_sword",
+      "weight": 10.0,
+      "drop_chance": 0.3,
+      "min_durability": 0.5,
+      "max_durability": 1.0,
+      "slot": "mainhand"
+    },
+    {
+      "item": "minecraft:diamond_sword",
+      "weight": 4.0,
+      "drop_chance": 0.2,
+      "min_durability": 0.5,
+      "max_durability": 1.0,
+      "slot": "mainhand"
+    }
+  ]
+}
