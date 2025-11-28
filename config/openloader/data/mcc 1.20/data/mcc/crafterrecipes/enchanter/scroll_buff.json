@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "enchanter_custom",
+  "inputs": [
+    {
+      "count": 6,
+      "item": "minecraft:paper"
+    },
+    {
+      "count": 3,
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "result": "minecolonies:scroll_buff",
+  "show-tooltip": true
+}
