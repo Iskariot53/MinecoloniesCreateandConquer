@@ -39,7 +39,7 @@
 
 	[Peripherals.Chunky_Turtle]
 		#Enable the Chunky Turtle or not.
-		enableChunkyTurtle = true
+		enableChunkyTurtle = false
 		#Time in seconds, while loaded chunk can be consider as valid without touch
 		#Range: > 60
 		chunkLoadValidTime = 600
@@ -159,9 +159,9 @@
 		#Range: > 1000
 		scanBlocksCooldown = 2000
 		#Range: > 1
-		scanBlocksMaxFreeRadius = 8
+		scanBlocksMaxFreeRadius = 32
 		#Range: > 1
-		scanBlocksMaxCostRadius = 16
+		scanBlocksMaxCostRadius = 64
 		#Range: 0.1 ~ 1.7976931348623157E308
 		scanBlocksExtraBlockCost = 0.17
 		#Range: > 1000
