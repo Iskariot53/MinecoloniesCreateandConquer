@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "artifacts:config_value_chance",
+          "config": "everlasting_beef"
+        },
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ],
+      "entries": [],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "artifacts:inject/entities/mooshroom"
+}
