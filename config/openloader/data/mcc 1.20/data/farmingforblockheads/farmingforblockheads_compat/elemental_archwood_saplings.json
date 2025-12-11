@@ -1,0 +1,20 @@
+{
+  "modId": "ars_elemental",
+  "group": {
+    "name": "Elemental Archwood Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "ars_elemental:yellow_archwood_sapling",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    }
+  ]
+}
