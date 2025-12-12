@@ -2102,25 +2102,3 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
     tooltip.insert(2, "§8§oFound in Supply Crates, Cog Chambers, Dungeons, and Mineshafts");
   });
 
-
-craftingTable.addShapeless("sapling.conversion_1", <item:minecraft:warped_fungus>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:warped_seed>]);
-craftingTable.addShapeless("sapling.conversion_2", <item:minecraft:spruce_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:spruce_seed>]);
-craftingTable.addShapeless("sapling.conversion_3", <item:minecraft:oak_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:oak_seed>]);
-craftingTable.addShapeless("sapling.conversion_4", <item:minecraft:mangrove_propagule>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:mangrove_seed>]);
-craftingTable.addShapeless("sapling.conversion_5", <item:minecraft:jungle_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:jungle_seed>]);
-craftingTable.addShapeless("sapling.conversion_6", <item:minecraft:dark_oak_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:dark_oak_seed>]);
-craftingTable.addShapeless("sapling.conversion_7", <item:minecraft:crimson_fungus>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:crimson_seed>]);
-craftingTable.addShapeless("sapling.conversion_8", <item:minecraft:birch_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:birch_seed>]);
-craftingTable.addShapeless("sapling.conversion_9", <item:minecraft:acacia_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:acacia_seed>]);
-craftingTable.addShapeless("sapling.conversion_10", <item:minecraft:azalea>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:azalea_seed>]);
-craftingTable.addShapeless("sapling.conversion_11", <item:minecraft:red_mushroom>, [<item:dynamictrees:dirt_bucket>, <item:dynamictreesplus:red_mushroom_seed>]);
-craftingTable.addShapeless("sapling.conversion_12", <item:minecraft:brown_mushroom>, [<item:dynamictrees:dirt_bucket>, <item:dynamictreesplus:brown_mushroom_seed>]);
-craftingTable.addShapeless("sapling.conversion_13", <item:ars_nouveau:red_archwood_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtarsnouveau:red_archwood_seed>]);
-craftingTable.addShapeless("sapling.conversion_14", <item:ars_nouveau:purple_archwood_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtarsnouveau:purple_archwood_seed>]);
-craftingTable.addShapeless("sapling.conversion_15", <item:ars_nouveau:green_archwood_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtarsnouveau:green_archwood_seed>]);
-craftingTable.addShapeless("sapling.conversion_16", <item:ars_nouveau:blue_archwood_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtarsnouveau:blue_archwood_seed>]);
-craftingTable.addShapeless("sapling.conversion_17", <item:ars_elemental:yellow_archwood_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtarsnouveau:yellow_archwood_seed>]);
-craftingTable.addShapeless("sapling.conversion_18", <item:autumnity:yellow_maple_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtautumnity:yellow_maple_seed>]);
-craftingTable.addShapeless("sapling.conversion_19", <item:autumnity:red_maple_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtautumnity:red_maple_seed>]);
-craftingTable.addShapeless("sapling.conversion_20", <item:autumnity:orange_maple_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtautumnity:orange_maple_seed>]);
-craftingTable.addShapeless("sapling.conversion_21", <item:autumnity:maple_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dtautumnity:maple_seed>]);
