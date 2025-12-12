@@ -1,0 +1,27 @@
+{
+  "modId": "cluttered",
+  "group": {
+    "name": "Cluttered Mushrooms",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    {
+      "output": "cluttered:fly_agaric",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    },
+    {
+      "output": "cluttered:blue_roundhead",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    }
+  ]
+}

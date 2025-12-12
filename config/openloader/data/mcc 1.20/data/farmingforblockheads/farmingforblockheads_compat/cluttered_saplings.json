@@ -1,0 +1,48 @@
+{
+  "modId": "cluttered",
+  "group": {
+    "name": "Cluttered Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": {
+      "item": "minecraft:emerald"
+    },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    {
+      "output": "cluttered:willow_sapling",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    },
+    {
+      "output": "cluttered:poplar_sapling",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    },
+    {
+      "output": "cluttered:crabapple_sapling",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    },
+    {
+      "output": "cluttered:sycamore_sapling",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    },
+    {
+      "output": "cluttered:fluorescent_maple_sapling",
+      "payment": {
+        "item": "minecraft:emerald",
+        "count": 5
+      }
+    }
+  ]
+}
