@@ -1,3 +1,56 @@
 {
-  "type": "minecraft:empty"
+  "type": "ars_elemental:armor_upgrade",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "adamsarsplus:cade_hood_a"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "adamsarsplus:cade_hood"
+    }
+  ],
+  "sourceCost": 8500,
+  "tier": 3
 }

@@ -1,7 +1,7 @@
 #Responsible for how much energy is generated per 1 stress unit in a tick
 #Default value is supposed to be compatible with default configuration of Create: Crafts and Additions
 #Range: 0.0 ~ 1.7976931348623157E308
-suToEnergy = 0.029296875
+suToEnergy = 0.035
 #How many coils can the carbon brushes collect energy from
 #Range: > 0
 maxCoils = 8
@@ -23,7 +23,7 @@ overheatingMultiplier = 1.0
 #Multiplier for how much heat pipes obtain from passive heat sources like Lava or even Boilers.
 #Range: 0.0 ~ 1.7976931348623157E308
 passiveHeatSourceMultiplier = 1.0
-#How much heat do pipes loose per second.
+#How much heat do pipes lose per second.
 #Range: 0.0 ~ 1.7976931348623157E308
 passivePipeHeatLoss = 1.0
 #Multiplier for how much heat a boiler needs.
@@ -31,8 +31,8 @@ passivePipeHeatLoss = 1.0
 boilerRequiredHeatMultiplier = 1.0
 #How much heat per tick a nuclear reactor rod generate.
 #Range: 0.0 ~ 1.7976931348623157E308
-ReactorRodHeat = 30.0
-#How much heat per tick a nuclear reactor rod looses above the 16000*overheatingMultiplier.
+ReactorRodHeat = 60.0
+#How much heat per tick a nuclear reactor rod loses above the 16000*overheatingMultiplier.
 #Range: 0.0 ~ 1.7976931348623157E308
 ReactorRodHeatLoss = 25.0
 #Multiplier for how much heat solar panels output.
@@ -45,7 +45,7 @@ maxWireLength = 16
 [Motors]
 	#Maximum motor SU multiplier
 	#Range: 0.0 ~ 1.7976931348623157E308
-	motorSuMultiplier = 1.0
+	motorSuMultiplier = 2.0
 	#Internal energy capacity of a basic motor
 	#Range: > 1
 	basicMotorCapacity = 16000

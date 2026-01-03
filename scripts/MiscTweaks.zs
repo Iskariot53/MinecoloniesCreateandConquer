@@ -470,7 +470,6 @@ craftingTable.addJsonRecipe("cagedmobs.warden_receptor", {
 craftingTable.remove(<item:enlightened_end:irradium_bar>);
 furnace.remove(<item:enlightened_end:irradium_bar>);
 blastFurnace.remove(<item:enlightened_end:irradium_bar>);
-<recipetype:create:mixing>.removeByName("create_new_age:thorium_multiplication");
 
 <recipetype:mekanism:reaction>.addRecipe("reaction/raw_irradium", <tag:items:enlightened_end:low_radioactive> * 3, 
 <fluid:mekanism:sulfuric_acid> * 100, <gas:mekanism:uranium_oxide> * 400, 600, 

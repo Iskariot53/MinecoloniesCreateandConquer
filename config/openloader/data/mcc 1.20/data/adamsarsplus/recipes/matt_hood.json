@@ -1,3 +1,56 @@
 {
-  "type": "minecraft:empty"
+  "type": "ars_elemental:armor_upgrade",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "adamsarsplus:matt_hood"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "adamsarsplus:hero_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:hero_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:hero_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:hero_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "adamsarsplus:hood_a"
+    }
+  ],
+  "sourceCost": 8000,
+  "tier": 4
 }

@@ -1,3 +1,56 @@
 {
-  "type": "minecraft:empty"
+  "type": "ars_elemental:armor_upgrade",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "adamsarsplus:matt_robes_a"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "adamsarsplus:true_elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:true_elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:true_elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:true_elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "adamsarsplus:matt_robes"
+    }
+  ],
+  "sourceCost": 9000,
+  "tier": 4
 }

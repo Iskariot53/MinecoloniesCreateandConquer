@@ -1,3 +1,56 @@
 {
-  "type": "minecraft:empty"
+  "type": "ars_elemental:armor_upgrade",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "adamsarsplus:ryan_hood"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "adamsarsplus:flame_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:flame_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:flame_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:flame_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "ars_nouveau:hood"
+    }
+  ],
+  "sourceCost": 7000,
+  "tier": 3
 }

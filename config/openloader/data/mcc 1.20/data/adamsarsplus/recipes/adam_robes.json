@@ -1,3 +1,56 @@
 {
-  "type": "minecraft:empty"
+  "type": "ars_elemental:armor_upgrade",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "adamsarsplus:adam_robes"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:mana_diamond"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "tag": "adamsarsplus:robe_b"
+    }
+  ],
+  "sourceCost": 8500,
+  "tier": 5
 }

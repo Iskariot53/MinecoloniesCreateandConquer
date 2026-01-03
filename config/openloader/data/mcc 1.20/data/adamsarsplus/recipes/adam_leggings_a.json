@@ -1,3 +1,56 @@
 {
-  "type": "minecraft:empty"
+  "type": "ars_elemental:armor_upgrade",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "adamsarsplus:adam_leggings_a"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:void_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "adamsarsplus:adam_leggings"
+    }
+  ],
+  "sourceCost": 10000,
+  "tier": 5
 }

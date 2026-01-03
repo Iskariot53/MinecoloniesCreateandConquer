@@ -1,3 +1,56 @@
 {
-  "type": "minecraft:empty"
+  "type": "ars_elemental:armor_upgrade",
+  "keepNbtOfReagent": true,
+  "output": {
+    "item": "adamsarsplus:nick_boots_a"
+  },
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "adamsarsplus:elemental_soul"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    {
+      "item": {
+        "item": "minecraft:netherite_ingot"
+      }
+    }
+  ],
+  "reagent": [
+    {
+      "item": "adamsarsplus:nick_boots"
+    }
+  ],
+  "sourceCost": 8500,
+  "tier": 3
 }
