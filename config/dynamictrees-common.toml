@@ -14,6 +14,8 @@
 	generateDirtBucketRecipes = true
 	#The base potion the Biochar Base is brewed from. Minecraft potions use 'awkward'. If you change this, don't forget to update the patchouli manual page too.
 	biocharBrewingBase = "thick"
+	#If enabled, seeds for mega species can be crafted with four regular seeds.
+	generateMegaSeedRecipe = false
 
 #Mod Integration Settings
 [integration]
