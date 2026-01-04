@@ -2074,7 +2074,7 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
   });
 	<item:scguns:leviathan_tooth>.modifyTooltip((stack, tooltip, flag) => {
     tooltip.remove(2);
-    tooltip.insert(2, "§8§oFound in Burried Treasure Chests");
+    tooltip.insert(2, "§8§oFound in Buried Treasure Chests");
   });
 	<item:scguns:gold_idol>.modifyTooltip((stack, tooltip, flag) => {
     tooltip.remove(2);
