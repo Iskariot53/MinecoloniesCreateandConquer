@@ -1511,28 +1511,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "2B23AD177049428C"
-			rewards: [
-				{
-					id: "608C39BE69459ACC"
-					type: "xp"
-					xp: 15
-				}
-				{
-					count: 7
-					id: "75598900216A17B6"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Not as fragile as its name implies"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "418B7CBFE8ABF7B2"
-				observe_type: 5
-				timer: 0L
-				title: "Find a crystalline bee"
-				to_observe: "productivebees:crystalline"
-				type: "observation"
+				id: "7CA68A69FC0C4711"
+				type: "checkmark"
 			}]
 			title: "&lCrystalline Bee"
 			x: 0.5d
@@ -1557,28 +1539,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "25DD01A25EBDFE0A"
-			rewards: [
-				{
-					id: "2050F85174F95463"
-					type: "xp"
-					xp: 15
-				}
-				{
-					count: 7
-					id: "11F7A3DB06320A92"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Just go ahead and craft the nest for this one"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "06AD8723E17F034F"
-				observe_type: 5
-				timer: 0L
-				title: "Find a glowing bee"
-				to_observe: "productivebees:glowing"
-				type: "observation"
+				id: "2539E3A74B945CB6"
+				type: "checkmark"
 			}]
 			title: "&lGlowing Bee"
 			x: 1.5d
@@ -1599,28 +1563,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "612DB4407ADEEDEE"
-			rewards: [
-				{
-					id: "2CDDA4FB199FC58D"
-					type: "xp"
-					xp: 15
-				}
-				{
-					count: 7
-					id: "27211ADB4C947CD5"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Found around nether fortresses"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "27EE17FD07458B36"
-				observe_type: 5
-				timer: 0L
-				title: "Find a magmatic bee"
-				to_observe: "productivebees:magmatic"
-				type: "observation"
+				id: "3522C3AD0EE6BD8B"
+				type: "checkmark"
 			}]
 			title: "&lMagmatic Bee"
 			x: -0.5d
@@ -1641,28 +1587,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "20635A3C82EA9451"
-			rewards: [
-				{
-					id: "25CEDD79D0BD6ED0"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "50C3B093C6E399BB"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513ew... it's sticky"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2DA3480D11AE9DEF"
-				observe_type: 5
-				timer: 0L
-				title: "Find a slimy bee"
-				to_observe: "productivebees:slimy"
-				type: "observation"
+				id: "4416DD8CECDEF5AE"
+				type: "checkmark"
 			}]
 			title: "&lSlimy Bee"
 			x: 2.5d
@@ -1683,28 +1611,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "24D263576EA9EAB9"
-			rewards: [
-				{
-					id: "296CD16AF7A87FC4"
-					type: "xp"
-					xp: 15
-				}
-				{
-					count: 7
-					id: "06686263017EE6D1"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513This one can be quick, can take a whille."
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "5EF41BEDBCCCCC54"
-				observe_type: 5
-				timer: 0L
-				title: "Find a sugarbag bee"
-				to_observe: "productivebees:sugarbag"
-				type: "observation"
+				id: "24ED34D38CDF60BA"
+				type: "checkmark"
 			}]
 			title: "&lSugarbag Bee"
 			x: 0.0d
@@ -1725,28 +1635,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "0B87874066386C35"
-			rewards: [
-				{
-					id: "4ECC3E724D707A4E"
-					type: "xp"
-					xp: 15
-				}
-				{
-					count: 7
-					id: "124B612C185A5400"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513This ones \"fun\""
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "6054DB848B076888"
-				observe_type: 5
-				timer: 0L
-				title: "Find a ghostly bee"
-				to_observe: "productivebees:ghostly"
-				type: "observation"
+				id: "4B496206A2589FDB"
+				type: "checkmark"
 			}]
 			title: "&lGhostly Bee"
 			x: -1.5d
@@ -1868,15 +1760,6 @@
 			subtitle: "&#8B4513Go see if the ender dragon's nice enough to help"
 			tasks: [
 				{
-					icon: "productivebees:bee_cage"
-					id: "2E5E77BB5ED682FD"
-					observe_type: 5
-					timer: 0L
-					title: "Find a draconic bee"
-					to_observe: "productivebees:draconic"
-					type: "observation"
-				}
-				{
 					id: "70544FF5E3173A62"
 					item: "minecraft:dragon_breath"
 					type: "item"
@@ -1904,28 +1787,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "3A22D022867F9AC9"
-			rewards: [
-				{
-					id: "7833AD7740D5CC39"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "25862A0F0198D8BC"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513River bees"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2AF893AF6E8356AD"
-				observe_type: 5
-				timer: 0L
-				title: "Find a water bee"
-				to_observe: "productivebees:water"
-				type: "observation"
+				id: "66653A499C183053"
+				type: "checkmark"
 			}]
 			title: "&lWater Bee"
 			x: 5.999999999999993d
@@ -1950,28 +1815,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "74BB924138418DD3"
-			rewards: [
-				{
-					id: "664ACC2F46037214"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "4D2D6FFBD229881F"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Always has \"any\" weather gene"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "19A2ADA9DB6CAEFD"
-				observe_type: 5
-				timer: 0L
-				title: "Find a prismarine bee"
-				to_observe: "productivebees:prismarine"
-				type: "observation"
+				id: "31203FBEE622624F"
+				type: "checkmark"
 			}]
 			title: "&lPrismarine Bee"
 			x: 5.999999999999993d
@@ -1990,28 +1837,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "3D7F0641EB55CA01"
-			rewards: [
-				{
-					id: "3FC23D63D9D06AEB"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "17E1D4ECDA7EA903"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Offshore oily bee"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2F88D672CE00A605"
-				observe_type: 5
-				timer: 0L
-				title: "Find an oily bee"
-				to_observe: "productivebees:oily"
-				type: "observation"
+				id: "2F8E5C08E704E79B"
+				type: "checkmark"
 			}]
 			title: "&lOily Bee"
 			x: 7.035714285714278d
@@ -2254,28 +2083,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "637FB30FCBAF4440"
-			rewards: [
-				{
-					id: "79602EA97A629386"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "05C59BC3DAF2D754"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Him squishy"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2E00420481E2655F"
-				observe_type: 5
-				timer: 0L
-				title: "Find a sponge bee"
-				to_observe: "productivebees:sponge"
-				type: "observation"
+				id: "65188D5ADD7ADFDD"
+				type: "checkmark"
 			}]
 			title: "&lSponge Bee"
 			x: 7.071428571428562d
@@ -2480,34 +2291,11 @@
 				id: "cluttered:bee_lamp_angry"
 			}
 			id: "77388DD8E7921408"
-			rewards: [
-				{
-					id: "2C53C76D5F6F5597"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "4BA4FA7540CBEB39"
-					item: "numismatics:bevel"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "02CF6E3FDB1EB05E"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
 			size: 1.5d
 			subtitle: "&#8B4513Very High Productivity"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "1ED4E46960629069"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a kamikazbee"
-				to_observe: "productivebees:kamikazbee"
-				type: "observation"
+				id: "64BD6FAACFF5485F"
+				type: "checkmark"
 			}]
 			title: "&lAcquire a Kamikazbee"
 			x: 8.535714285714278d
@@ -2649,13 +2437,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "592A374CAA69628B"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a copper bee"
-				to_observe: "productivebees:copper"
-				type: "observation"
+				id: "4C14B45A95C1A7B2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Copper Bee"
 			x: -5.0d
@@ -2695,13 +2488,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "3243BE98C6C047F5"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a coal bee"
-				to_observe: "productivebees:coal"
-				type: "observation"
+				id: "6105F3D26DE272C2"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:coal"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Coal Bee"
 			x: -6.0d
@@ -2741,13 +2539,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "44F21DE471FAF500"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an obsidian bee"
-				to_observe: "productivebees:obsidian"
-				type: "observation"
+				id: "4FA19339FB25BE10"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Obsidian Bee"
 			x: -5.5d
@@ -2787,13 +2590,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "70A78884D09334FC"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a Blazing bee"
-				to_observe: "productivebees:blazing"
-				type: "observation"
+				id: "7B84873BC5F56AE1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:blazing"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Blazing Bee"
 			x: 4.0d
@@ -2829,13 +2637,10 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "57C41A0C1456AC96"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a creebee"
-				to_observe: "productivebees:creeper_bee"
-				type: "observation"
+				id: "34E2C73CE074DBB3"
+				item: "productivebees:honeycomb_powdery"
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Creebee"
 			x: -4.0d
@@ -2875,13 +2680,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "267719275AC1D996"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a silky bee"
-				to_observe: "productivebees:silky"
-				type: "observation"
+				id: "176A88821D37A25E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silky"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Silky Bee"
 			x: -3.5d
@@ -2918,13 +2728,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "538FF059B5F47525"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a sculk bee"
-				to_observe: "productivebees:sculk"
-				type: "observation"
+				id: "68E7F77342AD9273"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sculk"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Sculk Bee"
 			x: 6.0d
@@ -2964,13 +2779,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "48212B5E579B9ADA"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a sulfur bee"
-				to_observe: "productivebees:sulfur"
-				type: "observation"
+				id: "4F7AFDD7450A3501"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sulfur"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Sulfur Bee"
 			x: -5.0d
@@ -3010,12 +2830,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "7C689167996E504B"
-				observe_type: 5
-				timer: 0L
-				to_observe: "productivebees:redstone"
-				type: "observation"
+				id: "55A8A980E4B40327"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:redstone"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Redstone Bee"
 			x: -3.0d
@@ -3055,13 +2881,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "13F329B03F806E4F"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a lapis bee"
-				to_observe: "productivebees:lapis"
-				type: "observation"
+				id: "065CCA2A6EEEF9A1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Lapis Bee"
 			x: -4.5d
@@ -3101,13 +2932,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "0BDEE1CB4A7D1E26"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a zinc bee"
-				to_observe: "productivebees:zinc"
-				type: "observation"
+				id: "715A6B8391DA5903"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zinc"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Zinc Bee"
 			x: 4.5d
@@ -3147,13 +2983,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "05C2BDC7998C7D66"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a brass bee"
-				to_observe: "productivebees:brass"
-				type: "observation"
+				id: "7BB8DD04C16354A7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:brass"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Brass Bee"
 			x: 5.5d
@@ -3193,13 +3034,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "33C46E0CC2F814AA"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an iron bee"
-				to_observe: "productivebees:iron"
-				type: "observation"
+				id: "4F16B8239E43CBF0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Iron Bee"
 			x: -2.0d
@@ -3236,13 +3082,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "0E73E6EFD8B08CF9"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a frosty bee"
-				to_observe: "productivebees:frosty"
-				type: "observation"
+				id: "769639D07B7C1FE7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:frosty"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Frosty Bee"
 			x: -2.5d
@@ -3332,13 +3183,18 @@
 			]
 			subtitle: "&#8B4513Keep your hives lit or these guys will take over!"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "607B918B6D697ECE"
-				observe_type: 5
-				timer: 0L
-				title: "Have a zombee move in"
-				to_observe: "productivebees:zombie"
-				type: "observation"
+				id: "651485E6BFABC965"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:zombie"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lZombees"
 			x: -1.5d
@@ -3374,13 +3230,18 @@
 			]
 			subtitle: "&#8B4513Keep the hive nice and dark!"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "45B2DCA458966BDA"
-				observe_type: 5
-				timer: 0L
-				title: "Have a skeletal bee move in."
-				to_observe: "productivebees:skeletal"
-				type: "observation"
+				id: "305C0FD597A14256"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lSkeletal Bee"
 			x: 1.5d
@@ -3416,13 +3277,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "4E4D9E983F568316"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a withered bee"
-				to_observe: "productivebees:withered"
-				type: "observation"
+				id: "16873D109230A6C3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:withered"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Withered Bee"
 			x: 5.0d
@@ -3458,13 +3324,18 @@
 			]
 			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "52CE66D7B2434D4A"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a philolite bee"
-				to_observe: "productivebees:philolite"
-				type: "observation"
+				id: "735496ABB51C17C8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:philolite"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Philolite Bee"
 			x: 1.5d
@@ -3500,13 +3371,18 @@
 			]
 			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "1D4BA4CCB62C060E"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a luminarchy bee"
-				to_observe: "productivebees:luminarchy"
-				type: "observation"
+				id: "1A7312B588E700C0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:luminarchy"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Luminarchy Bee"
 			x: 2.5d
@@ -3546,12 +3422,18 @@
 			]
 			subtitle: "&#8B4513Item Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "3FBCEBAB3FBE9BED"
-				observe_type: 5
-				timer: 0L
-				to_observe: "productivebees:flux"
-				type: "observation"
+				id: "6FA058572B0D14AD"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:flux"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Flux Dust Bee"
 			x: -2.0d
@@ -3591,13 +3473,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "633097EAEA7EFB16"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a silicon bee"
-				to_observe: "productivebees:silicon"
-				type: "observation"
+				id: "0A03317660FA91C1"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silicon"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Silicon Bee"
 			x: -0.5d
@@ -3633,13 +3520,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "33559FB8C6634DC3"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a rose quartz bee"
-				to_observe: "productivebees:rose_quartz"
-				type: "observation"
+				id: "7411C0EE45D36B2E"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_quartz"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Rose Quartz Bee"
 			x: 0.5d
@@ -3679,12 +3571,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "4559C9CC63D22AD5"
-				observe_type: 5
-				timer: 0L
-				to_observe: "productivebees:spacial"
-				type: "observation"
+				id: "14279CEA0233A960"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:spacial"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Spatial Bee"
 			x: -1.0d
@@ -3726,13 +3624,18 @@
 			]
 			subtitle: "&#8B4513Enchanting Apparatus"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "56F10F48F3BCCD87"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an arcane bee"
-				to_observe: "productivebees:arcane"
-				type: "observation"
+				id: "77144CA73FCF85C9"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:arcane"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Arcane bee"
 			x: 2.5d
@@ -3753,27 +3656,10 @@
 				id: "cluttered:bee_lamp"
 			}
 			id: "6BE0F4935A898C44"
-			rewards: [
-				{
-					id: "478DE1EE6DAF8AF5"
-					type: "xp"
-					xp: 20
-				}
-				{
-					id: "663093B37598304E"
-					item: "numismatics:bevel"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Popped chorus fruit"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "38C398664FAA3325"
-				observe_type: 5
-				timer: 0L
-				title: "Find an ender bee"
-				to_observe: "productivebees:ender"
-				type: "observation"
+				id: "78DA5EE8D17DD251"
+				type: "checkmark"
 			}]
 			title: "&lEnder Bee"
 			x: 0.0d
@@ -3809,13 +3695,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "3348ED1D5842E723"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a fluix bee"
-				to_observe: "productivebees:fluix"
-				type: "observation"
+				id: "440B1E86C4E8956C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Fluix Bee"
 			x: 0.5d
@@ -3851,13 +3742,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "13234420E36EFF62"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an apatite bee"
-				to_observe: "productivebees:apatite"
-				type: "observation"
+				id: "41BB1BF068447BD7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:apatite"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Apatite Bee"
 			x: -1.5d
@@ -3897,13 +3793,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "3B767C1079613226"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a bronze bee"
-				to_observe: "productivebees:bronze"
-				type: "observation"
+				id: "7F52E9916838CD49"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:bronze"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Bronze Bee"
 			x: -3.0d
@@ -3943,13 +3844,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "6C37CD3119223FB1"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a gold bee"
-				to_observe: "productivebees:gold"
-				type: "observation"
+				id: "4F8E4FF40E81B374"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:gold"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Gold Bee"
 			x: 1.5d
@@ -3989,13 +3895,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "66872CB73BB7C9BC"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a silver bee"
-				to_observe: "productivebees:silver"
-				type: "observation"
+				id: "7EE0504939287103"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:silver"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Silver Bee"
 			x: 0.5d
@@ -4034,13 +3945,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "5DC5BEF9ABD696F5"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a platinum bee"
-				to_observe: "productivebees:platinum"
-				type: "observation"
+				id: "311EE49C6C275AAA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:platinum"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Platinum Bee"
 			x: 2.5d
@@ -4080,13 +3996,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "67D4EC0C86CE8362"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a lead bee"
-				to_observe: "productivebees:lead"
-				type: "observation"
+				id: "751FD789FDC6365D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lead"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Lead Bee"
 			x: -1.5d
@@ -4126,13 +4047,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "067732D0A2A97E6C"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a radioactive bee"
-				to_observe: "productivebees:uranium"
-				type: "observation"
+				id: "11A259D8A74C1C9F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:radioactive"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Radioactive Bee"
 			x: -0.5d
@@ -4172,13 +4098,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "0CC6FA0267935C43"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a tin bee"
-				to_observe: "productivebees:tin"
-				type: "observation"
+				id: "0B07EA77A63FA3BF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:tin"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Tin Bee"
 			x: -1.0d
@@ -4218,13 +4149,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "7111C0DB2B0C1884"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a nickel bee"
-				to_observe: "productivebees:nickel"
-				type: "observation"
+				id: "1A97F9784A146AB8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:nickel"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Nickel Bee"
 			x: 0.0d
@@ -4263,13 +4199,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "36EA86535D8A05E7"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an invar bee"
-				to_observe: "productivebees:invar"
-				type: "observation"
+				id: "3E3C345E16EAD3D4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:invar"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Invar Bee"
 			x: 1.0d
@@ -4308,13 +4249,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "18CE74446F563C39"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a constantan bee"
-				to_observe: "productivebees:constantan"
-				type: "observation"
+				id: "69D1F32B5DEE97EE"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:constantan"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Constantan Bee"
 			x: 2.0d
@@ -4354,13 +4300,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "18A31675234A9339"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an electrum bee."
-				to_observe: "productivebees:electrum"
-				type: "observation"
+				id: "31FAC243B8AF842F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:electrum"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Electrum Bee"
 			x: 3.0d
@@ -4400,13 +4351,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "0746E33F514F2867"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a lumium bee"
-				to_observe: "productivebees:lumium"
-				type: "observation"
+				id: "1428E1C30E318F6C"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lumium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Lumium Bee"
 			x: 4.0d
@@ -4446,13 +4402,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "1FF0D58D0E3611DE"
-				observe_type: 5
-				timer: 0L
-				title: "Avquire a signalum bee"
-				to_observe: "productivebees:signalum"
-				type: "observation"
+				id: "3D927A6076361538"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:signalum"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Signalum Bee"
 			x: 5.0d
@@ -4492,13 +4453,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "5D047184D670680F"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an enderium bee"
-				to_observe: "productivebees:enderium"
-				type: "observation"
+				id: "2D0E6AB11E450900"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:enderium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Enderium Bee"
 			x: 1.0d
@@ -4535,13 +4501,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "7A456BBE27067820"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a rose gold bee"
-				to_observe: "productivebees:rose_gold"
-				type: "observation"
+				id: "40E54519A1B819F0"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:rose_gold"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Rose Gold Bee"
 			x: -4.5d
@@ -4581,13 +4552,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "4E8C2DB75CDEDD72"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a steel bee"
-				to_observe: "peoductivebees:steel"
-				type: "observation"
+				id: "389CCD6F338898E8"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:steel"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Steel Bee"
 			x: -3.5d
@@ -4623,13 +4599,18 @@
 			]
 			subtitle: "&#8B4513In-World Transformation"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "547D0A550320173B"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a sky steel bee"
-				to_observe: "productivebees:sky_steel"
-				type: "observation"
+				id: "40B3CE3842B0CBA3"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:sky_steel"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Sky Steel Bee"
 			x: -3.5d
@@ -4640,15 +4621,7 @@
 			description: ["  Trade a manasteel bee spawn egg for   an elementium bee spawn egg using a      portal to alfheim."]
 			hide_dependency_lines: false
 			hide_dependent_lines: true
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "botania:elementium_ingot"
-			}
+			icon: "botania:elementium_ingot"
 			id: "75CE2934A9C3F18E"
 			rewards: [
 				{
@@ -4664,15 +4637,20 @@
 			]
 			subtitle: "&#8B4513Elven Trade"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "1538371EB965834B"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an elementium bee"
-				to_observe: "productivebees:elementium"
-				type: "observation"
+				id: "0EE3B135C845DF5F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:elementium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
-			title: "&lACquire an Elementium Bee"
+			title: "&lAcquire an Elementium Bee"
 			x: -1.0d
 			y: 20.5d
 		}
@@ -4711,13 +4689,18 @@
 			]
 			subtitle: "&#8B4513Terrestrial Agglomeration"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "1955D210296383C9"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a terrasteel bee"
-				to_observe: "productivebees:terrasteel"
-				type: "observation"
+				id: "590C4888E49A8FD4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:terrasteel"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Terrasteel Bee"
 			x: -2.0d
@@ -4752,13 +4735,18 @@
 			]
 			subtitle: "&#8B4513Botania Mana Pool"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "1A69ADE737CFD0FA"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a manasteel bee"
-				to_observe: "productivebees:manasteel"
-				type: "observation"
+				id: "30233852BE1CC727"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:manasteel"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Manasteel Bee"
 			x: -3.0d
@@ -4803,13 +4791,18 @@
 			]
 			subtitle: "&#8B4513Crafting"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "586BD2D4D08A8E51"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a dragonsteel bee"
-				to_observe: "productivebees:dragonsteel"
-				type: "observation"
+				id: "1F4287940976DD49"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:dragonsteel"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Dragon Steel Bee"
 			x: -2.5d
@@ -4845,13 +4838,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "19D03572C40C3AF4"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an ancient bee"
-				to_observe: "productivebees:ancient"
-				type: "observation"
+				id: "1AB5E4247E02C3AE"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:netherite"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Ancient Bee"
 			x: 3.0d
@@ -4891,13 +4889,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "41F6B75B65C4D9FA"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a diamond bee"
-				to_observe: "productivebees:diamond"
-				type: "observation"
+				id: "7F760DAD5C5B647B"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Diamond Bee"
 			x: 1.0d
@@ -4937,13 +4940,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2C668EF04A176CE5"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an emerald bee"
-				to_observe: "productivebees:emerald"
-				type: "observation"
+				id: "1968B45CD4F4D364"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:emerald"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Emerald Bee"
 			x: 2.0d
@@ -4983,13 +4991,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "331F3B9B48514A05"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a prismalium bee"
-				to_observe: "productivebees:prismalium"
-				type: "observation"
+				id: "12DFCA9674A2E2B5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:prismalium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Prismalium Bee"
 			x: 2.0d
@@ -5034,13 +5047,18 @@
 			]
 			subtitle: "&#8B4513Crafting"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2F03A2F602A480D9"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a melodium bee"
-				to_observe: "productivebees:melodium"
-				type: "observation"
+				id: "0AF699D6B9F59593"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:melodium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Melodium Bee"
 			x: 4.0d
@@ -5079,13 +5097,18 @@
 			]
 			subtitle: "&#8B4513Crafting"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "110F988FC75F6527"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a stellarium bee"
-				to_observe: "productivebees:stellarium"
-				type: "observation"
+				id: "68B8B838D9BEACAF"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:stellarium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Stellarium Bee"
 			x: 3.0d
@@ -5125,21 +5148,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: {
+				id: "441E80C13FEFEF4C"
+				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_glowstone"
 						}
 					}
-					id: "productivebees:bee_cage"
 				}
-				id: "603C97CFDC36815B"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a refined glowstone bee"
-				to_observe: "productivebees:refined_glowstone"
-				type: "observation"
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Refined Glowstone Bee"
 			x: 3.5d
@@ -5179,13 +5199,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "269E6D08E6396407"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a refined obsidian bee"
-				to_observe: "productivebees:refined_obsidian"
-				type: "observation"
+				id: "6336A6161B0AC63A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:refined_obsidian"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Refined Obsidian Bee"
 			x: 4.5d
@@ -5221,13 +5246,18 @@
 			]
 			subtitle: "&#8B4513Blood Altar"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2E400494889893D9"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a hematophagus bee"
-				to_observe: "productivebees:hematophagous"
-				type: "observation"
+				id: "0E47BD6189BB5802"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hematophagous"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Hematophagus Bee"
 			x: 1.5d
@@ -5275,13 +5305,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "432D579FC873A547"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a wasted radioactive bee"
-				to_observe: "productivebees:wasted_radioactive"
-				type: "observation"
+				id: "150D75EC08E9A050"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:wasted_radioactive"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Wasted Radioactive Bee"
 			x: 1.5d
@@ -5323,13 +5358,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "182166C6B9A4166D"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a pink slimy bee"
-				to_observe: "productivebees:pink_slimy"
-				type: "observation"
+				id: "6A620AE04FF8B37F"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pink_slimy"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Pink Slimy Bee"
 			x: 0.0d
@@ -5370,13 +5410,18 @@
 			]
 			subtitle: "&#8B4513Runic Altar"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "22F958F68B508490"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a mana bee"
-				to_observe: "productivebees:mana"
-				type: "observation"
+				id: "1F86F222A6671556"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:mana"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Mana Bee"
 			x: 0.5d
@@ -5418,21 +5463,18 @@
 			]
 			subtitle: "&#8B4513Petal Apothecary"
 			tasks: [{
-				icon: {
+				id: "52F2624451112557"
+				item: {
 					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:pure"
 						}
 					}
-					id: "productivebees:sturdy_bee_cage"
 				}
-				id: "08BD2CD08566394B"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a pure bee"
-				to_observe: "productivebees:pure"
-				type: "observation"
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Pure Bee"
 			x: -0.5d
@@ -5471,13 +5513,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "57F513DCBD9930F0"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a plastic bee"
-				to_observe: "productivebees:plastic"
-				type: "observation"
+				id: "1F207B7A2D684FC4"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:plastic"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Plastic Bee"
 			x: -1.5d
@@ -5515,13 +5562,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "75D33D932325B731"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an osmium bee"
-				to_observe: "productivebees:osmium"
-				type: "observation"
+				id: "252B8F870E191A02"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:osmium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Osmium Bee"
 			x: -4.0d
@@ -5543,32 +5595,10 @@
 				id: "productivebees:amber"
 			}
 			id: "54961C3BE7126035"
-			rewards: [
-				{
-					id: "14361FB43F67019D"
-					type: "xp"
-					xp: 25
-				}
-				{
-					id: "5C2EF8640E07C539"
-					item: "numismatics:sprocket"
-					type: "item"
-				}
-				{
-					id: "4C1ED1305C46324F"
-					item: "numismatics:bevel"
-					type: "item"
-				}
-			]
 			subtitle: "&#8B4513Resin works for now"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "0D192F6995B1E2EE"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an amber bee"
-				to_observe: "productivebees:amber"
-				type: "observation"
+				id: "07B5FE157E609089"
+				type: "checkmark"
 			}]
 			title: "&lAcquire an Amber Bee"
 			x: -2.5d
@@ -5615,13 +5645,18 @@
 			]
 			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "30FEA769B7DE19F2"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a malachite bee"
-				to_observe: "productivebees:malachite"
-				type: "observation"
+				id: "171F92606235B58A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:end_malachite"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Malachite Bee"
 			x: -2.5d
@@ -5668,13 +5703,18 @@
 			]
 			subtitle: "&#8B4513Mechanical Crafting"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "277A91A9BD3E98BA"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a bismuth bee"
-				to_observe: "productivebees:bismuth"
-				type: "observation"
+				id: "15AE83E50FDFC83A"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:end_bismuth"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Bismuth Bee"
 			x: -1.5d
@@ -5722,13 +5762,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "004A1534CA8F86A4"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an irradium bee"
-				to_observe: "productivebees:irradium"
-				type: "observation"
+				id: "520CD6499176A0CA"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:irradium"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Irradium Bee"
 			x: -0.5d
@@ -5770,13 +5815,18 @@
 			]
 			subtitle: "&#8B4513Bee Conversion"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "38ABC9DF23FFA4F4"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an ether gas bee"
-				to_observe: "productivebees:ether_gas"
-				type: "observation"
+				id: "58C82BF58CDA8A51"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:ether_gas"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Ether Gas Bee"
 			x: 2.5d
@@ -5816,13 +5866,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2CB86DB746200509"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an aluminum bee"
-				to_observe: "productivebees:aluminum"
-				type: "observation"
+				id: "5A173D4E5BEA65F7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:aluminum"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Aluminum Bee"
 			x: -4.0d
@@ -5868,13 +5923,18 @@
 			]
 			subtitle: "&#8B4513Hellfire Forge"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "09EE3EA1E53CA986"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire a hellfire bee"
-				to_observe: "productivebees:hellfire"
-				type: "observation"
+				id: "4F63FBE392BFBE7D"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:hellfire"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Hellfire Bee"
 			x: 3.5d
@@ -5913,12 +5973,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "3A6183F69E2C82C9"
-				observe_type: 5
-				timer: 0L
-				to_observe: "productivebees:niter"
-				type: "observation"
+				id: "71FA020AAF4F93C5"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:niter"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire a Niter Bee"
 			x: 0.0d
@@ -6127,13 +6193,18 @@
 			]
 			subtitle: "&#8B4513Bee Breeding"
 			tasks: [{
-				icon: "productivebees:bee_cage"
-				id: "2B34269A9F24E0AE"
-				observe_type: 5
-				timer: 0L
-				title: "Acquire an experience bee"
-				to_observe: "productivebees:experience"
-				type: "observation"
+				id: "033D4410B4BB90D7"
+				item: {
+					Count: 1
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
 			}]
 			title: "&lAcquire an Experience Bee"
 			x: 3.5d
