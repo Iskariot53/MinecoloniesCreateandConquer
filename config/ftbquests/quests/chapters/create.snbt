@@ -1526,7 +1526,7 @@
 			subtitle: "&#8B4513Used for.... Energizing!"
 			tasks: [{
 				id: "6280789A9E80122E"
-				item: "create_new_age:energiser_t1"
+				item: "create_new_age:basic_energiser"
 				type: "item"
 			}]
 			title: "&lBasic Energizer"
@@ -2334,15 +2334,7 @@
 			subtitle: "&#8B4513T2 Energizer"
 			tasks: [{
 				id: "639E112A1F21A058"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "create_new_age:energiser_t2"
-				}
+				item: "create_new_age:advanced_energiser"
 				type: "item"
 			}]
 			title: "&lAdvanced Energizer"
@@ -2375,15 +2367,7 @@
 			subtitle: "&#8B4513T3 Energizer"
 			tasks: [{
 				id: "26F78452981593BD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "create_new_age:energiser_t3"
-				}
+				item: "create_new_age:reinforced_energiser"
 				type: "item"
 			}]
 			title: "&lReinforced Energizer"
