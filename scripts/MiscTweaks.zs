@@ -2101,3 +2101,4 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
     tooltip.insert(2, "§8§oFound in Supply Crates, Cog Chambers, Dungeons, and Mineshafts");
   });
 
+  craftingTable.remove(<item:rarcompat:mimi_dust>);

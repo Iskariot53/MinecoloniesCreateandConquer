@@ -1,4 +1,4 @@
-Minecolonies - Create and Conquer- 3.1.1 Changelog
+Minecolonies - Create and Conquer- 3.1.2 Changelog
 
  
 
@@ -13,10 +13,20 @@ Mods Added
 Mods Updated
 
 
+- Building But Better
+- Byzantine Styles Pack for Minecolonies
+- CC - Tweaked
+- Chisels & Bits - For Forge
+- Domum Ornamentum
 - Euphoria Patches
+- MineColonies
+- Structurize
+- Stylecolonies
 
 
 Changes
 
 
 - General performance and optimization tweaks.
+- Removed NBT data from some custom mixing recipes that output fluids or gases (they should now be stackable in your ae2 storage).
+- Added a visual guide to the MineColonies quest chapter for Project A.L.I.C.E.

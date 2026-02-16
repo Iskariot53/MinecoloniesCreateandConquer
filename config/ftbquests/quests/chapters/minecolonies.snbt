@@ -6,15 +6,7 @@
 	group: "5B6588F2B5558488"
 	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
-	icon: {
-		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
-		id: "minecolonies:blockhuttownhall"
-	}
+	icon: "minecolonies:blockhuttownhall"
 	id: "65AAD4FF3CB2E745"
 	images: [
 		{
@@ -40,6 +32,15 @@
 			width: 8.9d
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependency: "505CB5D419E6E4AF"
+			height: 15.0d
+			image: "ccextras:textures/project_alice.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 15.5d
+			y: 15.0d
 		}
 	]
 	order_index: 3
