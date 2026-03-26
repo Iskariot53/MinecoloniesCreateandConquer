@@ -1982,21 +1982,42 @@
 	craftingTable.remove(<item:chicken_roost:trainer>);
 	craftingTable.addShapeless("conversion.trainer_to_roost", <item:chicken_roost:roost>, [<item:chicken_roost:trainer>]);
 
-	<item:chicken_roost:chicken_food_tier_1>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_1>.addTooltip("§a§lXP: §9100");
-	<item:chicken_roost:chicken_food_tier_2>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_2>.addTooltip("§a§lXP: §9125");
-	<item:chicken_roost:chicken_food_tier_3>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_3>.addTooltip("§a§lXP: §9175");
-	<item:chicken_roost:chicken_food_tier_4>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_4>.addTooltip("§a§lXP: §9250");
-	<item:chicken_roost:chicken_food_tier_5>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_5>.addTooltip("§a§lXP: §9350");
-	<item:chicken_roost:chicken_food_tier_6>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_6>.addTooltip("§a§lXP: §9475");
-	<item:chicken_roost:chicken_food_tier_7>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_7>.addTooltip("§a§lXP: §9625");
-	<item:chicken_roost:chicken_food_tier_8>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_8>.addTooltip("§a§lXP: §9800");
-	<item:chicken_roost:chicken_food_tier_9>.clearTooltip(true);
-	<item:chicken_roost:chicken_food_tier_9>.addTooltip("§a§lXP: §91000");
+	
+	import crafttweaker.api.item.tooltip.ITooltipFunction;
+
+	<item:chicken_roost:chicken_food_tier_1>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9100");
+	});
+	<item:chicken_roost:chicken_food_tier_2>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9125");
+	});
+	<item:chicken_roost:chicken_food_tier_3>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9175");
+	});
+	<item:chicken_roost:chicken_food_tier_4>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9250");
+	});
+	<item:chicken_roost:chicken_food_tier_5>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9350");
+	});
+	<item:chicken_roost:chicken_food_tier_6>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9475");
+	});
+	<item:chicken_roost:chicken_food_tier_7>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9625");
+	});
+	<item:chicken_roost:chicken_food_tier_8>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §9800");
+	});
+	<item:chicken_roost:chicken_food_tier_9>.modifyTooltip((stack, tooltip, flag) => {
+		tooltip.remove(1);
+ 		tooltip.insert(1, "§a§lXP: §91000");
+	});

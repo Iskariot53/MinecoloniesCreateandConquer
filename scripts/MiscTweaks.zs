@@ -2045,28 +2045,39 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
 }});
 
 
-	<item:scguns:antique_flare>.clearTooltip(true);
-	<item:scguns:antique_flare>.addTooltip("§4§lThis item is disabled");
-  <item:scguns:frontier_flare>.clearTooltip(true);
-	<item:scguns:frontier_flare>.addTooltip("§4§lThis item is disabled");
-	<item:scguns:copper_flare>.clearTooltip(true);
-	<item:scguns:copper_flare>.addTooltip("§4§lThis item is disabled");
-  <item:scguns:iron_flare>.clearTooltip(true);
-	<item:scguns:iron_flare>.addTooltip("§4§lThis item is disabled");
-	<item:scguns:wrecker_flare>.clearTooltip(true);
-	<item:scguns:wrecker_flare>.addTooltip("§4§lThis item is disabled");
-  <item:scguns:ocean_flare>.clearTooltip(true);
-	<item:scguns:ocean_flare>.addTooltip("§4§lThis item is disabled");
-	<item:scguns:gold_flare>.clearTooltip(true);
-	<item:scguns:gold_flare>.addTooltip("§4§lThis item is disabled");
-  <item:scguns:sculk_flare>.clearTooltip(true);
-	<item:scguns:sculk_flare>.addTooltip("§4§lThis item is disabled");
-	<item:scguns:treated_brass_flare>.clearTooltip(true);
-	<item:scguns:treated_brass_flare>.addTooltip("§4§lThis item is disabled");
-  <item:scguns:diamond_steel_flare>.clearTooltip(true);
-	<item:scguns:diamond_steel_flare>.addTooltip("§4§lThis item is disabled");
-
   import crafttweaker.api.item.tooltip.ITooltipFunction;
+  
+	<item:scguns:antique_flare>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:frontier_flare>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:copper_flare>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:iron_flare>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:wrecker_flare>.modifyTooltip((stack, tooltip, flag) => {
+  tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:ocean_flare>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:gold_flare>.modifyTooltip((stack, tooltip, flag) => {
+   tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:sculk_flare>.modifyTooltip((stack, tooltip, flag) => {
+   tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:treated_brass_flare>.modifyTooltip((stack, tooltip, flag) => {
+    tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+	<item:scguns:diamond_steel_flare>.modifyTooltip((stack, tooltip, flag) => {
+   tooltip.insert(1, "§4§lThis item is DISABLED");
+  });
+
 
 	<item:scguns:sculk_tome>.modifyTooltip((stack, tooltip, flag) => {
     tooltip.remove(2);

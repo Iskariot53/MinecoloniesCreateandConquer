@@ -150,6 +150,7 @@ craftingTable.remove(<item:artifacts:everlasting_beef>);
 		  }
 		});		
 craftingTable.remove(<item:artifacts:antidote_vessel>);
+craftingTable.removeByName("apotheotic_additions:artifacts/antidote_vessel");
 <recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("artifacts.antidote_vessel", {
 		  "type": "celestisynth:starlit_factory",
 		  "core_material": {
