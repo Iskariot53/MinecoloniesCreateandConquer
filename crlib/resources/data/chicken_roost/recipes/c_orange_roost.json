@@ -1,0 +1,13 @@
+{
+  "type": "chicken_roost:roost_output",
+  "food": {
+    "tag": "forge:seeds/tier1orup"
+  },
+  "chicken": {
+    "item": "chicken_roost:c_orange"
+  },
+  "time": 20,
+  "output": {
+    "item": "minecraft:orange_dye"
+  }
+}

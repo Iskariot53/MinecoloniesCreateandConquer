@@ -1,0 +1,13 @@
+{
+  "type": "chicken_roost:roost_output",
+  "food": {
+    "tag": "forge:seeds/tier3orup"
+  },
+  "chicken": {
+    "item": "chicken_roost:c_water"
+  },
+  "time": 20,
+  "output": {
+    "item": "chicken_roost:water_egg"
+  }
+}

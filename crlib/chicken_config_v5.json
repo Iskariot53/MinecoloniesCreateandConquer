@@ -1,0 +1,3464 @@
+[
+  {
+    "ChickenName": "Sand Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_sand",
+    "itemtexture": "sandchicken",
+    "mobtexture": "sandchicken",
+    "dropitem": "minecraft:sand",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:sand"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_sand",
+          "right": "chicken_roost:c_sand",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_sand"
+        },
+        {
+          "left": "chicken_roost:c_stone",
+          "right": "chicken_roost:c_stone",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_sand"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Gravel Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_gravel",
+    "itemtexture": "graychicken",
+    "mobtexture": "graychicken",
+    "dropitem": "minecraft:gravel",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:gravel"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_gravel",
+          "right": "chicken_roost:c_gravel",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_gravel"
+        },
+        {
+          "left": "chicken_roost:c_stone",
+          "right": "chicken_roost:c_stone",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_gravel"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Feather Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_feather",
+    "itemtexture": "ghastchicken",
+    "mobtexture": "ghastchicken",
+    "dropitem": "minecraft:feather",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:feather"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_feather",
+          "right": "chicken_roost:c_feather",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_feather"
+        },
+        {
+          "left": "chicken_roost:c_vanilla",
+          "right": "chicken_roost:c_vanilla",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_feather"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Nether Brick Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_netherbrick",
+    "itemtexture": "brownchicken",
+    "mobtexture": "brownchicken",
+    "dropitem": "minecraft:nether_brick",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:nether_brick"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_netherbrick",
+          "right": "chicken_roost:c_netherbrick",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_netherbrick"
+        },
+        {
+          "left": "chicken_roost:c_netherrack",
+          "right": "chicken_roost:c_netherrack",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_netherbrick"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Honeycomb Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_honeycomb",
+    "itemtexture": "yellowchicken",
+    "mobtexture": "yellowchicken",
+    "dropitem": "minecraft:honeycomb",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:honeycomb"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_honeycomb",
+          "right": "chicken_roost:c_honeycomb",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_honeycomb"
+        },
+        {
+          "left": "chicken_roost:c_bone",
+          "right": "chicken_roost:c_bone",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_honeycomb"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Stone Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_stone",
+    "itemtexture": "stoneburntchicken",
+    "mobtexture": "stoneburntchicken",
+    "dropitem": "ccextras:stone_egg",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "ccextras:stone_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_stone",
+          "right": "chicken_roost:c_stone",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_stone"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Wool Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_wool",
+    "itemtexture": "enoricrystalchicken",
+    "mobtexture": "enoricrystalchicken",
+    "dropitem": "minecraft:white_wool",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:white_wool"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_wool",
+          "right": "chicken_roost:c_wool",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_wool"
+        },
+        {
+          "left": "chicken_roost:c_feather",
+          "right": "chicken_roost:c_feather",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_wool"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Vanilla Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_vanilla",
+    "itemtexture": "saltchicken",
+    "mobtexture": "saltchicken",
+    "dropitem": "minecraft:egg",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_vanilla",
+          "right": "chicken_roost:c_vanilla",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_vanilla"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Prismarine Shard Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_prismarineshard",
+    "itemtexture": "pshardchicken",
+    "mobtexture": "pshard_chicken",
+    "dropitem": "minecraft:prismarine_shard",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:prismarine_shard"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_prismarineshard",
+          "right": "chicken_roost:c_prismarineshard",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_prismarineshard"
+        },
+        {
+          "left": "chicken_roost:c_sand",
+          "right": "chicken_roost:c_sand",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_prismarineshard"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Red Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_red",
+    "itemtexture": "redchicken",
+    "mobtexture": "redchicken",
+    "dropitem": "minecraft:red_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:red_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_red",
+          "right": "chicken_roost:c_red",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_red"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Yellow Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_yellow",
+    "itemtexture": "yellowchicken",
+    "mobtexture": "yellowchicken",
+    "dropitem": "minecraft:yellow_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:yellow_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_yellow",
+          "right": "chicken_roost:c_yellow",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_yellow"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Green Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_green",
+    "itemtexture": "greenchicken",
+    "mobtexture": "greenchicken",
+    "dropitem": "minecraft:green_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:green_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_green",
+          "right": "chicken_roost:c_green",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_green"
+        },
+        {
+          "left": "chicken_roost:c_blue",
+          "right": "chicken_roost:c_yellow",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_green"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Orange Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_orange",
+    "itemtexture": "orangechicken",
+    "mobtexture": "orangechicken",
+    "dropitem": "minecraft:orange_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:orange_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_orange",
+          "right": "chicken_roost:c_orange",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_orange"
+        },
+        {
+          "left": "chicken_roost:c_red",
+          "right": "chicken_roost:c_yellow",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_orange"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Black Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_black",
+    "itemtexture": "blackchicken",
+    "mobtexture": "blackchicken",
+    "dropitem": "minecraft:black_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:black_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_black",
+          "right": "chicken_roost:c_black",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_black"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Light Blue Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_light_blue",
+    "itemtexture": "lightbluechicken",
+    "mobtexture": "lightbluechicken",
+    "dropitem": "minecraft:light_blue_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:light_blue_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_light_blue",
+          "right": "chicken_roost:c_light_blue",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_light_blue"
+        },
+        {
+          "left": "chicken_roost:c_blue",
+          "right": "chicken_roost:c_white",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_light_blue"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Lime Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_lime",
+    "itemtexture": "limechicken",
+    "mobtexture": "limechicken",
+    "dropitem": "minecraft:lime_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:lime_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_lime",
+          "right": "chicken_roost:c_lime",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_lime"
+        },
+        {
+          "left": "chicken_roost:c_green",
+          "right": "chicken_roost:c_white",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_lime"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Pink Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_pink",
+    "itemtexture": "pinkchicken",
+    "mobtexture": "pinkchicken",
+    "dropitem": "minecraft:pink_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:pink_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_pink",
+          "right": "chicken_roost:c_pink",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_pink"
+        },
+        {
+          "left": "chicken_roost:c_red",
+          "right": "chicken_roost:c_white",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_pink"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Gray Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_gray",
+    "itemtexture": "graychicken",
+    "mobtexture": "graychicken",
+    "dropitem": "minecraft:gray_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:gray_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_gray",
+          "right": "chicken_roost:c_gray",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_gray"
+        },
+        {
+          "left": "chicken_roost:c_black",
+          "right": "chicken_roost:c_white",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_gray"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Cyan Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_cyan",
+    "itemtexture": "cyanchicken",
+    "mobtexture": "cyanchicken",
+    "dropitem": "minecraft:cyan_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:cyan_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_cyan",
+          "right": "chicken_roost:c_cyan",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_cyan"
+        },
+        {
+          "left": "chicken_roost:c_blue",
+          "right": "chicken_roost:c_green",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_cyan"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Purple Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_purple",
+    "itemtexture": "purplechicken",
+    "mobtexture": "purplechicken",
+    "dropitem": "minecraft:purple_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:purple_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_purple",
+          "right": "chicken_roost:c_purple",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_purple"
+        },
+        {
+          "left": "chicken_roost:c_red",
+          "right": "chicken_roost:c_blue",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_purple"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Brown Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_brown",
+    "itemtexture": "brownchicken",
+    "mobtexture": "brownchicken",
+    "dropitem": "minecraft:brown_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:brown_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_brown",
+          "right": "chicken_roost:c_brown",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_brown"
+        },
+        {
+          "left": "chicken_roost:c_orange",
+          "right": "chicken_roost:c_black",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_brown"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Blue Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_blue",
+    "itemtexture": "lightbluechicken",
+    "mobtexture": "lightbluechicken",
+    "dropitem": "minecraft:blue_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:blue_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_blue",
+          "right": "chicken_roost:c_blue",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_blue"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "White Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_white",
+    "itemtexture": "saltchicken",
+    "mobtexture": "saltchicken",
+    "dropitem": "minecraft:white_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:white_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_white",
+          "right": "chicken_roost:c_white",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_white"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Magenta Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_magenta",
+    "itemtexture": "magentachicken",
+    "mobtexture": "magentachicken",
+    "dropitem": "minecraft:magenta_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:magenta_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_magenta",
+          "right": "chicken_roost:c_magenta",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_magenta"
+        },
+        {
+          "left": "chicken_roost:c_purple",
+          "right": "chicken_roost:c_pink",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_magenta"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Light Gray Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_light_gray",
+    "itemtexture": "graychicken",
+    "mobtexture": "graychicken",
+    "dropitem": "minecraft:light_gray_dye",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "minecraft:light_gray_dye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_light_gray",
+          "right": "chicken_roost:c_light_gray",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_light_gray"
+        },
+        {
+          "left": "chicken_roost:c_gray",
+          "right": "chicken_roost:c_white",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_light_gray"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Ink Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_ink",
+    "itemtexture": "blackchicken",
+    "mobtexture": "blackchicken",
+    "dropitem": "minecraft:ink_sac",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:ink_sac"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_ink",
+          "right": "chicken_roost:c_ink",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_ink"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Bone Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_bone",
+    "itemtexture": "whitechicken",
+    "mobtexture": "whitechicken",
+    "dropitem": "minecraft:bone",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:bone"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_bone",
+          "right": "chicken_roost:c_bone",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_bone"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Flint Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_flint",
+    "itemtexture": "flintchicken",
+    "mobtexture": "flintchicken",
+    "dropitem": "minecraft:flint",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:flint"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_flint",
+          "right": "chicken_roost:c_flint",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_flint"
+        },
+        {
+          "left": "chicken_roost:c_gravel",
+          "right": "chicken_roost:c_gravel",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_flint"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Netherrack Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_netherrack",
+    "itemtexture": "netherwartchicken",
+    "mobtexture": "netherwartchicken",
+    "dropitem": "minecraft:netherrack",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:netherrack"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_netherrack",
+          "right": "chicken_roost:c_netherrack",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_netherrack"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Coal Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_coal",
+    "itemtexture": "coalchicken",
+    "mobtexture": "coalchicken",
+    "dropitem": "minecraft:coal",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:coal"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_coal",
+          "right": "chicken_roost:c_coal",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_coal"
+        },
+        {
+          "left": "chicken_roost:c_stone",
+          "right": "chicken_roost:c_stone",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_coal"
+        },
+        {
+          "left": "chicken_roost:c_basalt",
+          "right": "chicken_roost:c_basalt",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_coal"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Charcoal Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_charcoal",
+    "itemtexture": "coalchicken",
+    "mobtexture": "coalchicken",
+    "dropitem": "minecraft:charcoal",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:charcoal"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_charcoal",
+          "right": "chicken_roost:c_charcoal",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_charcoal"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Snow Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_snow",
+    "itemtexture": "snowballchicken",
+    "mobtexture": "snowballchicken",
+    "dropitem": "minecraft:snowball",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:snowball"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_snow",
+          "right": "chicken_roost:c_snow",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_snow"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Glass Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_glass",
+    "itemtexture": "glasschicken",
+    "mobtexture": "glasschicken",
+    "dropitem": "minecraft:glass",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "minecraft:glass"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_glass",
+          "right": "chicken_roost:c_glass",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_glass"
+        },
+        {
+          "left": "chicken_roost:c_sand",
+          "right": "chicken_roost:c_sand",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_glass"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Soul Sand Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_soulsand",
+    "itemtexture": "soulsandchicken",
+    "mobtexture": "soulariumchicken",
+    "dropitem": "minecraft:soul_sand",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:soul_sand"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_soulsand",
+          "right": "chicken_roost:c_soulsand",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_soulsand"
+        },
+        {
+          "left": "chicken_roost:c_netherrack",
+          "right": "chicken_roost:c_netherrack",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_soulsand"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "String Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_string",
+    "itemtexture": "destructioncorechicken",
+    "mobtexture": "destructioncorechicken",
+    "dropitem": "minecraft:string",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:string"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_string",
+          "right": "chicken_roost:c_string",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_string"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Lava Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_lava",
+    "itemtexture": "lavachicken",
+    "mobtexture": "lavachicken",
+    "dropitem": "chicken_roost:lava_egg",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "chicken_roost:lava_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_lava",
+          "right": "chicken_roost:c_lava",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_lava"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Water Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_water",
+    "itemtexture": "waterchicken",
+    "mobtexture": "waterchicken",
+    "dropitem": "chicken_roost:water_egg",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "chicken_roost:water_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_water",
+          "right": "chicken_roost:c_water",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_water"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Copper Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_copper",
+    "itemtexture": "copperchicken",
+    "mobtexture": "copperchicken",
+    "dropitem": "minecraft:raw_copper",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:raw_copper"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_copper",
+          "right": "chicken_roost:c_copper",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_copper"
+        },
+        {
+          "left": "chicken_roost:c_coal",
+          "right": "chicken_roost:c_coal",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_copper"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Living Rock Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_livingrock",
+    "itemtexture": "moonstonechicken",
+    "mobtexture": "moonstonechicken",
+    "dropitem": "botania:livingrock",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "botania:livingrock"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_livingrock",
+          "right": "chicken_roost:c_livingrock",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_livingrock"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Living Wood Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_livingwood",
+    "itemtexture": "magicalwoodchicken",
+    "mobtexture": "magicalwoodchicken",
+    "dropitem": "botania:livingwood",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "botania:livingwood"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_livingwood",
+          "right": "chicken_roost:c_livingwood",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_livingwood"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Soul Soil Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_soulsoil",
+    "itemtexture": "soulariumchicken",
+    "mobtexture": "soulariumchicken",
+    "dropitem": "minecraft:soul_soil",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:soul_soil"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_soulsoil",
+          "right": "chicken_roost:c_soulsoil",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_soulsoil"
+        },
+        {
+          "left": "chicken_roost:c_netherrack",
+          "right": "chicken_roost:c_netherrack",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_soulsoil"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Basalt Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_basalt",
+    "itemtexture": "basalzrodchicken",
+    "mobtexture": "basalzrodchicken",
+    "dropitem": "minecraft:basalt",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:basalt"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_basalt",
+          "right": "chicken_roost:c_basalt",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_basalt"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Clay Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_clay",
+    "itemtexture": "claychicken",
+    "mobtexture": "claychicken",
+    "dropitem": "minecraft:clay_ball",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:clay_ball"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_clay",
+          "right": "chicken_roost:c_clay",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_clay"
+        },
+        {
+          "left": "chicken_roost:c_gravel",
+          "right": "chicken_roost:c_gravel",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_clay"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Rabbit Hide Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_rabbithide",
+    "itemtexture": "bronzechicken",
+    "mobtexture": "bronzechicken",
+    "dropitem": "minecraft:rabbit_hide",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:rabbit_hide"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_rabbithide",
+          "right": "chicken_roost:c_rabbithide",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_rabbithide"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Leather Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_leather",
+    "itemtexture": "bronzechicken",
+    "mobtexture": "bronzechicken",
+    "dropitem": "minecraft:leather",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:leather"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_leather",
+          "right": "chicken_roost:c_leather",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_leather"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Sponge Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_sponge",
+    "itemtexture": "brasschicken",
+    "mobtexture": "brasschicken",
+    "dropitem": "minecraft:sponge",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:sponge"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_sponge",
+          "right": "chicken_roost:c_sponge",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_sponge"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Spider Eye Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_spidereye",
+    "itemtexture": "redstonealloychicken",
+    "mobtexture": "redstonealloychicken",
+    "dropitem": "minecraft:spider_eye",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "minecraft:spider_eye"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_spidereye",
+          "right": "chicken_roost:c_spidereye",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_spidereye"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Iron Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_iron",
+    "itemtexture": "ironchicken",
+    "mobtexture": "ironchicken",
+    "dropitem": "minecraft:raw_iron",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:raw_iron"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_iron",
+          "right": "chicken_roost:c_iron",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_iron"
+        },
+        {
+          "left": "chicken_roost:c_copper",
+          "right": "chicken_roost:c_copper",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_iron"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Redstone Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_redstone",
+    "itemtexture": "redstonechicken",
+    "mobtexture": "redstonechicken",
+    "dropitem": "minecraft:redstone",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:redstone"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_redstone",
+          "right": "chicken_roost:c_redstone",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_redstone"
+        },
+        {
+          "left": "chicken_roost:c_iron",
+          "right": "chicken_roost:c_iron",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_redstone"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Lapis Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_lapis",
+    "itemtexture": "lightbluechicken",
+    "mobtexture": "lightbluechicken",
+    "dropitem": "minecraft:lapis_lazuli",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:lapis_lazuli"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_lapis",
+          "right": "chicken_roost:c_lapis",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_lapis"
+        },
+        {
+          "left": "chicken_roost:c_redstone",
+          "right": "chicken_roost:c_redstone",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_lapis"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Lead Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_lead",
+    "itemtexture": "leadchicken",
+    "mobtexture": "leadchicken",
+    "dropitem": "thermal:raw_lead",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:raw_lead"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_lead",
+          "right": "chicken_roost:c_lead",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_lead"
+        },
+        {
+          "left": "chicken_roost:c_iron",
+          "right": "chicken_roost:c_iron",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_lead"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Nether Wart Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_netherwart",
+    "itemtexture": "netherwartchicken",
+    "mobtexture": "netherwartchicken",
+    "dropitem": "minecraft:nether_wart",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:nether_wart"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_netherwart",
+          "right": "chicken_roost:c_netherwart",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_netherwart"
+        },
+        {
+          "left": "chicken_roost:c_netherrack",
+          "right": "chicken_roost:c_netherrack",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_netherwart"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Aluminium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_aluminium",
+    "itemtexture": "aluminumchicken",
+    "mobtexture": "aluminiumchicken",
+    "dropitem": "chicken_roost:ingot_aluminum",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "chicken_roost:ingot_aluminum"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_aluminium",
+          "right": "chicken_roost:c_aluminium",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_aluminium"
+        },
+        {
+          "left": "chicken_roost:c_iron",
+          "right": "chicken_roost:c_iron",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_aluminium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Sulfur Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_sulfur",
+    "itemtexture": "sulfurchicken",
+    "mobtexture": "sulfurchicken",
+    "dropitem": "thermal:sulfur",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:sulfur"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_sulfur",
+          "right": "chicken_roost:c_sulfur",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_sulfur"
+        },
+        {
+          "left": "chicken_roost:c_coal",
+          "right": "chicken_roost:c_coal",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_sulfur"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Obsidian Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_obsidian",
+    "itemtexture": "obsidianchicken",
+    "mobtexture": "obsidianchicken",
+    "dropitem": "minecraft:obsidian",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:obsidian"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_obsidian",
+          "right": "chicken_roost:c_obsidian",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_obsidian"
+        },
+        {
+          "left": "chicken_roost:c_diamond",
+          "right": "chicken_roost:c_diamond",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_obsidian"
+        },
+        {
+          "left": "chicken_roost:c_netherrack",
+          "right": "chicken_roost:c_netherrack",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_obsidian"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Slime Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_slime",
+    "itemtexture": "slimechicken",
+    "mobtexture": "slimechicken",
+    "dropitem": "minecraft:slime_ball",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:slime_ball"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_slime",
+          "right": "chicken_roost:c_slime",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_slime"
+        },
+        {
+          "left": "chicken_roost:c_clay",
+          "right": "chicken_roost:c_clay",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_slime"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Tin Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_tin",
+    "itemtexture": "quartzenrichedironchicken",
+    "mobtexture": "quartzenrichedironchicken",
+    "dropitem": "thermal:raw_tin",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:raw_tin"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_tin",
+          "right": "chicken_roost:c_tin",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_tin"
+        },
+        {
+          "left": "chicken_roost:c_iron",
+          "right": "chicken_roost:c_iron",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_tin"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Rotten Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_rotten",
+    "itemtexture": "richslagchicken",
+    "mobtexture": "richslagchicken",
+    "dropitem": "minecraft:rotten_flesh",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:rotten_flesh"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_rotten",
+          "right": "chicken_roost:c_rotten",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_rotten"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Zinc Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_zinc",
+    "itemtexture": "zincchicken",
+    "mobtexture": "zincchicken",
+    "dropitem": "create:raw_zinc",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "create:raw_zinc"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_zinc",
+          "right": "chicken_roost:c_zinc",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_zinc"
+        },
+        {
+          "left": "chicken_roost:c_iron",
+          "right": "chicken_roost:c_iron",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_zinc"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Niter Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_niter",
+    "itemtexture": "vinteumchicken",
+    "mobtexture": "vinteumchicken",
+    "dropitem": "thermal:niter",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:niter"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_niter",
+          "right": "chicken_roost:c_niter",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_niter"
+        },
+        {
+          "left": "chicken_roost:c_sulfur",
+          "right": "chicken_roost:c_sulfur",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_niter"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Tar Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_tar",
+    "itemtexture": "blackquartzchicken",
+    "mobtexture": "blackquartzchicken",
+    "dropitem": "thermal:tar",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:tar"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_tar",
+          "right": "chicken_roost:c_tar",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_tar"
+        },
+        {
+          "left": "chicken_roost:c_coal",
+          "right": "chicken_roost:c_coal",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_tar"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Apatite Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_apatite",
+    "itemtexture": "sapphirechicken",
+    "mobtexture": "sapphirechicken",
+    "dropitem": "thermal:apatite",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:apatite"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_apatite",
+          "right": "chicken_roost:c_apatite",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_apatite"
+        },
+        {
+          "left": "chicken_roost:c_lapis",
+          "right": "chicken_roost:c_lapis",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_apatite"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Bitumen Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_bitumen",
+    "itemtexture": "coalchicken",
+    "mobtexture": "coalchicken",
+    "dropitem": "thermal:bitumen",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:bitumen"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_bitumen",
+          "right": "chicken_roost:c_bitumen",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_bitumen"
+        },
+        {
+          "left": "chicken_roost:c_coal",
+          "right": "chicken_roost:c_coal",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_bitumen"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Coke Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_coke",
+    "itemtexture": "coalchicken",
+    "mobtexture": "coalchicken",
+    "dropitem": "thermal:coal_coke",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:coal_coke"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_coke",
+          "right": "chicken_roost:c_coke",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_coke"
+        },
+        {
+          "left": "chicken_roost:c_coal",
+          "right": "chicken_roost:c_coal",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_coke"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Magma Cream Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_magmacream",
+    "itemtexture": "magmachicken",
+    "mobtexture": "magmachicken",
+    "dropitem": "minecraft:magma_cream",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:magma_cream"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_magmacream",
+          "right": "chicken_roost:c_magmacream",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_magmacream"
+        },
+        {
+          "left": "chicken_roost:c_obsidian",
+          "right": "chicken_roost:c_obsidian",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_magmacream"
+        },
+        {
+          "left": "chicken_roost:c_basalt",
+          "right": "chicken_roost:c_basalt",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_magmacream"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Cinnabar Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_cinnabar",
+    "itemtexture": "cinnabarchicken",
+    "mobtexture": "cinnabarchicken",
+    "dropitem": "thermal:cinnabar",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:cinnabar"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_cinnabar",
+          "right": "chicken_roost:c_cinnabar",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_cinnabar"
+        },
+        {
+          "left": "chicken_roost:c_obsidian",
+          "right": "chicken_roost:c_obsidian",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_cinnabar"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Basalz Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_basalz",
+    "itemtexture": "basalzrodchicken",
+    "mobtexture": "basalzrodchicken",
+    "dropitem": "thermal:basalz_powder",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "thermal:basalz_powder"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_basalz",
+          "right": "chicken_roost:c_basalz",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_basalz"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Prismarine Crystal Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_prismarinecrystal",
+    "itemtexture": "pcrystalchicken",
+    "mobtexture": "pcrystal_chicken",
+    "dropitem": "minecraft:prismarine_crystals",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "minecraft:prismarine_crystals"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_prismarinecrystal",
+          "right": "chicken_roost:c_prismarinecrystal",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_prismarinecrystal"
+        },
+        {
+          "left": "chicken_roost:c_prismarineshard",
+          "right": "chicken_roost:c_prismarineshard",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_prismarinecrystal"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Quartz Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_quartz",
+    "itemtexture": "quartzchicken",
+    "mobtexture": "quartzchicken",
+    "dropitem": "minecraft:quartz",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:quartz"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_quartz",
+          "right": "chicken_roost:c_quartz",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_quartz"
+        },
+        {
+          "left": "chicken_roost:c_magmacream",
+          "right": "chicken_roost:c_magmacream",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_quartz"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Glowstone Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_glowstone",
+    "itemtexture": "glowstonechicken",
+    "mobtexture": "glowstonechicken",
+    "dropitem": "minecraft:glowstone_dust",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:glowstone_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_glowstone",
+          "right": "chicken_roost:c_glowstone",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_glowstone"
+        },
+        {
+          "left": "chicken_roost:c_magmacream",
+          "right": "chicken_roost:c_magmacream",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_glowstone"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Gunpowder Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_tnt",
+    "itemtexture": "gunpowderchicken",
+    "mobtexture": "gunpowderchicken",
+    "dropitem": "minecraft:gunpowder",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:gunpowder"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_tnt",
+          "right": "chicken_roost:c_tnt",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_tnt"
+        },
+        {
+          "left": "chicken_roost:c_magmacream",
+          "right": "chicken_roost:c_magmacream",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_tnt"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Gold Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_gold",
+    "itemtexture": "goldchicken",
+    "mobtexture": "goldchicken",
+    "dropitem": "minecraft:raw_gold",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:raw_gold"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_gold",
+          "right": "chicken_roost:c_gold",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_gold"
+        },
+        {
+          "left": "chicken_roost:c_lapis",
+          "right": "chicken_roost:c_lapis",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_gold"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Silver Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_silver",
+    "itemtexture": "silverorechicken",
+    "mobtexture": "silverchicken",
+    "dropitem": "thermal:raw_silver",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "thermal:raw_silver"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_silver",
+          "right": "chicken_roost:c_silver",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_silver"
+        },
+        {
+          "left": "chicken_roost:c_iron",
+          "right": "chicken_roost:c_iron",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_silver"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Constantan Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_constantan",
+    "itemtexture": "constantanchicken",
+    "mobtexture": "constantanchicken",
+    "dropitem": "thermal:constantan_dust",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "thermal:constantan_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_constantan",
+          "right": "chicken_roost:c_constantan",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_constantan"
+        },
+        {
+          "left": "chicken_roost:c_silver",
+          "right": "chicken_roost:c_silver",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_constantan"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Blaze Rod Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_blazerod",
+    "itemtexture": "blazechicken",
+    "mobtexture": "blazechicken",
+    "dropitem": "minecraft:blaze_rod",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:blaze_rod"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_blazerod",
+          "right": "chicken_roost:c_blazerod",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_blazerod"
+        },
+        {
+          "left": "chicken_roost:c_obsidian",
+          "right": "chicken_roost:c_obsidian",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_blazerod"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Signalum Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_signalum",
+    "itemtexture": "signalumchicken",
+    "mobtexture": "signalumchicken",
+    "dropitem": "thermal:signalum_dust",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "thermal:signalum_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_signalum",
+          "right": "chicken_roost:c_signalum",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_signalum"
+        },
+        {
+          "left": "chicken_roost:c_silver",
+          "right": "chicken_roost:c_silver",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_signalum"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Silicon Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_silicon",
+    "itemtexture": "siliconchicken",
+    "mobtexture": "siliconchicken",
+    "dropitem": "ae2:silicon",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "ae2:silicon"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_silicon",
+          "right": "chicken_roost:c_silicon",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_silicon"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Lumium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_lumium",
+    "itemtexture": "lumiumchicken",
+    "mobtexture": "lumiumchicken",
+    "dropitem": "thermal:lumium_dust",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "thermal:lumium_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_lumium",
+          "right": "chicken_roost:c_lumium",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_lumium"
+        },
+        {
+          "left": "chicken_roost:c_silver",
+          "right": "chicken_roost:c_silver",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_lumium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Chorus Fruit Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_chorusfruit",
+    "itemtexture": "magentachicken",
+    "mobtexture": "magentachicken",
+    "dropitem": "minecraft:chorus_fruit",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:chorus_fruit"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_chorusfruit",
+          "right": "chicken_roost:c_chorusfruit",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_chorusfruit"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Ender Pearl Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_enderpearl",
+    "itemtexture": "enderchicken",
+    "mobtexture": "enderchicken",
+    "dropitem": "minecraft:ender_pearl",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:ender_pearl"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_enderpearl",
+          "right": "chicken_roost:c_enderpearl",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_enderpearl"
+        },
+        {
+          "left": "chicken_roost:c_endstone",
+          "right": "chicken_roost:c_endstone",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_enderpearl"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Endstone Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_endstone",
+    "itemtexture": "bulletchicken",
+    "mobtexture": "bulletchicken",
+    "dropitem": "minecraft:end_stone",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "minecraft:end_stone"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_endstone",
+          "right": "chicken_roost:c_endstone",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_endstone"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Enderium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_enderium",
+    "itemtexture": "enderiumchicken",
+    "mobtexture": "enderiumchicken",
+    "dropitem": "thermal:enderium_dust",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "thermal:enderium_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_enderium",
+          "right": "chicken_roost:c_enderium",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_enderium"
+        },
+        {
+          "left": "chicken_roost:c_enderpearl",
+          "right": "chicken_roost:c_enderpearl",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_enderium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Manasteel Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_manasteel",
+    "itemtexture": "manasteelchicken",
+    "mobtexture": "manasteelchicken",
+    "dropitem": "botania:manasteel_ingot",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "botania:manasteel_ingot"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_manasteel",
+          "right": "chicken_roost:c_manasteel",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_manasteel"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Blitz Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_blitz",
+    "itemtexture": "blitzrodchicken",
+    "mobtexture": "blitzrodchicken",
+    "dropitem": "thermal:blitz_powder",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "thermal:blitz_powder"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_blitz",
+          "right": "chicken_roost:c_blitz",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_blitz"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Blizz Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_blizz",
+    "itemtexture": "blizzrodchicken",
+    "mobtexture": "blizzrodchicken",
+    "dropitem": "thermal:blizz_powder",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "thermal:blizz_powder"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_blizz",
+          "right": "chicken_roost:c_blizz",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_blizz"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Osmium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_osmium",
+    "itemtexture": "osmiumchicken",
+    "mobtexture": "osmiumchicken",
+    "dropitem": "mekanism:raw_osmium",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "mekanism:raw_osmium"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_osmium",
+          "right": "chicken_roost:c_osmium",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_osmium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Steel Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_steel",
+    "itemtexture": "steelchicken",
+    "mobtexture": "steelchicken",
+    "dropitem": "thermal:steel_dust",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "thermal:steel_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_steel",
+          "right": "chicken_roost:c_steel",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_steel"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Bronze Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_bronze",
+    "itemtexture": "bronzechicken",
+    "mobtexture": "bronzechicken",
+    "dropitem": "thermal:bronze_dust",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "thermal:bronze_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_bronze",
+          "right": "chicken_roost:c_bronze",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_bronze"
+        },
+        {
+          "left": "chicken_roost:c_gold",
+          "right": "chicken_roost:c_gold",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_bronze"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Emerald Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_emerald",
+    "itemtexture": "emeradiccrystalchicken",
+    "mobtexture": "emeradiccrystalchicken",
+    "dropitem": "minecraft:emerald",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "minecraft:emerald"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_emerald",
+          "right": "chicken_roost:c_emerald",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_emerald"
+        },
+        {
+          "left": "chicken_roost:c_magmacream",
+          "right": "chicken_roost:c_magmacream",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_emerald"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Ghast Tear Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_ghasttear",
+    "itemtexture": "ghastchicken",
+    "mobtexture": "ghastchicken",
+    "dropitem": "minecraft:ghast_tear",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "minecraft:ghast_tear"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_ghasttear",
+          "right": "chicken_roost:c_ghasttear",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_ghasttear"
+        },
+        {
+          "left": "chicken_roost:c_glowstone",
+          "right": "chicken_roost:c_glowstone",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_ghasttear"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Rose Gold Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_rosegold",
+    "itemtexture": "pinkslimechicken",
+    "mobtexture": "pinkslimechicken",
+    "dropitem": "thermal:rose_gold_dust",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "thermal:rose_gold_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_rosegold",
+          "right": "chicken_roost:c_rosegold",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_rosegold"
+        },
+        {
+          "left": "chicken_roost:c_gold",
+          "right": "chicken_roost:c_gold",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_rosegold"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Ruby Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_ruby",
+    "itemtexture": "rubychicken",
+    "mobtexture": "rubychicken",
+    "dropitem": "thermal:ruby",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "thermal:ruby"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_ruby",
+          "right": "chicken_roost:c_ruby",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_ruby"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Sapphire Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_sapphire",
+    "itemtexture": "sapphirechicken",
+    "mobtexture": "sapphirechicken",
+    "dropitem": "thermal:sapphire",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "thermal:sapphire"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_sapphire",
+          "right": "chicken_roost:c_sapphire",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_sapphire"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Brass Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_brass",
+    "itemtexture": "brasschicken",
+    "mobtexture": "brasschicken",
+    "dropitem": "create:brass_nugget",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "create:brass_nugget"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_brass",
+          "right": "chicken_roost:c_brass",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_brass"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Certus Quartz Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_certusquartz",
+    "itemtexture": "quartzenrichedironchicken",
+    "mobtexture": "quartzenrichedironchicken",
+    "dropitem": "ae2:certus_quartz_crystal",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "ae2:certus_quartz_crystal"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_certusquartz",
+          "right": "chicken_roost:c_certusquartz",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_certusquartz"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Bio Fuel Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_biofuel",
+    "itemtexture": "enderiumchicken",
+    "mobtexture": "enderiumchicken",
+    "dropitem": "mekanism:bio_fuel",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "mekanism:bio_fuel"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_biofuel",
+          "right": "chicken_roost:c_biofuel",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_biofuel"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Uranium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_uranium",
+    "itemtexture": "uraniumchicken",
+    "mobtexture": "uraniumchicken",
+    "dropitem": "mekanism:raw_uranium",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "mekanism:raw_uranium"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_uranium",
+          "right": "chicken_roost:c_uranium",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_uranium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Nickel Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_nickel",
+    "itemtexture": "nickelchicken",
+    "mobtexture": "nickelchicken",
+    "dropitem": "thermal:raw_nickel",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "thermal:raw_nickel"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_nickel",
+          "right": "chicken_roost:c_nickel",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_nickel"
+        },
+        {
+          "left": "chicken_roost:c_osmium",
+          "right": "chicken_roost:c_osmium",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_nickel"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Invar Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_invar",
+    "itemtexture": "invarchicken",
+    "mobtexture": "invarchicken",
+    "dropitem": "thermal:invar_dust",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "thermal:invar_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_invar",
+          "right": "chicken_roost:c_invar",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_invar"
+        },
+        {
+          "left": "chicken_roost:c_osmium",
+          "right": "chicken_roost:c_osmium",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_invar"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Electrum Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_electrum",
+    "itemtexture": "electrumchicken",
+    "mobtexture": "electrumchicken",
+    "dropitem": "thermal:electrum_dust",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "thermal:electrum_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_electrum",
+          "right": "chicken_roost:c_electrum",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_electrum"
+        },
+        {
+          "left": "chicken_roost:c_osmium",
+          "right": "chicken_roost:c_osmium",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_electrum"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Diamond Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_diamond",
+    "itemtexture": "diamondchicken",
+    "mobtexture": "diamondchicken",
+    "dropitem": "minecraft:diamond",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "minecraft:diamond"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_diamond",
+          "right": "chicken_roost:c_diamond",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_diamond"
+        },
+        {
+          "left": "chicken_roost:c_emerald",
+          "right": "chicken_roost:c_emerald",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_diamond"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Charged Certus Quartz Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_chargedcertus",
+    "itemtexture": "quartzchicken",
+    "mobtexture": "quartzchicken",
+    "dropitem": "ae2:charged_certus_quartz_crystal",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "ae2:charged_certus_quartz_crystal"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_chargedcertus",
+          "right": "chicken_roost:c_chargedcertus",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_chargedcertus"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Fluix Crystal Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_fluixcrystal",
+    "itemtexture": "lunarreactivedustchicken",
+    "mobtexture": "lunarreactivedustchicken",
+    "dropitem": "ae2:fluix_crystal",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "ae2:fluix_crystal"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_fluixcrystal",
+          "right": "chicken_roost:c_fluixcrystal",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_fluixcrystal"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Amethyst Shard Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_amethystshard",
+    "itemtexture": "amethystchicken",
+    "mobtexture": "amethystchicken",
+    "dropitem": "minecraft:amethyst_shard",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "minecraft:amethyst_shard"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_amethystshard",
+          "right": "chicken_roost:c_amethystshard",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_amethystshard"
+        },
+        {
+          "left": "chicken_roost:c_diamond",
+          "right": "chicken_roost:c_diamond",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_amethystshard"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Terrasteel Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_terrasteel",
+    "itemtexture": "terrasteelchicken",
+    "mobtexture": "terrasteelchicken",
+    "dropitem": "botania:terrasteel_ingot",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "botania:terrasteel_ingot"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_terrasteel",
+          "right": "chicken_roost:c_terrasteel",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_terrasteel"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Netherite Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_netherite",
+    "itemtexture": "netherwartchicken",
+    "mobtexture": "netherwartchicken",
+    "dropitem": "minecraft:netherite_scrap",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "minecraft:netherite_scrap"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_netherite",
+          "right": "chicken_roost:c_netherite",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_netherite"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Nether Star Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_netherstar",
+    "itemtexture": "blitzrodchicken",
+    "mobtexture": "blitzrodchicken",
+    "dropitem": "minecraft:nether_star",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "minecraft:nether_star"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_netherstar",
+          "right": "chicken_roost:c_netherstar",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_netherstar"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Elementium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_elementium",
+    "itemtexture": "elementiumchicken",
+    "mobtexture": "elementiumchicken",
+    "dropitem": "botania:elementium_ingot",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "botania:elementium_ingot"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_elementium",
+          "right": "chicken_roost:c_elementium",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_elementium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Platinum Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_platinum",
+    "itemtexture": "platinumchicken",
+    "mobtexture": "platinumchicken",
+    "dropitem": "chicken_roost:ingot_platinum",
+    "eggtime": 600,
+    "tier": 8,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier8orup",
+        "output": "chicken_roost:ingot_platinum"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_platinum",
+          "right": "chicken_roost:c_platinum",
+          "foodTag": "forge:seeds/tier8orup",
+          "output": "chicken_roost:c_platinum"
+        },
+        {
+          "left": "chicken_roost:c_diamond",
+          "right": "chicken_roost:c_diamond",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_platinum"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Wood Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_wood",
+    "itemtexture": "c_wood",
+    "mobtexture": "c_wood",
+    "dropitem": "ccextras:wooden_egg",
+    "eggtime": 600,
+    "tier": 1,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier1orup",
+        "output": "ccextras:wooden_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_wood",
+          "right": "chicken_roost:c_wood",
+          "foodTag": "forge:seeds/tier1orup",
+          "output": "chicken_roost:c_wood"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Crop Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_crop",
+    "itemtexture": "c_crop",
+    "mobtexture": "c_crop",
+    "dropitem": "ccextras:crop_egg",
+    "eggtime": 600,
+    "tier": 2,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier2orup",
+        "output": "ccextras:crop_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_crop",
+          "right": "chicken_roost:c_crop",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_crop"
+        },
+        {
+          "left": "chicken_roost:c_bone",
+          "right": "chicken_roost:c_bone",
+          "foodTag": "forge:seeds/tier2orup",
+          "output": "chicken_roost:c_crop"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Archwood Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_archwood",
+    "itemtexture": "c_archwood",
+    "mobtexture": "c_archwood",
+    "dropitem": "ccextras:archwood_egg",
+    "eggtime": 600,
+    "tier": 3,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier3orup",
+        "output": "ccextras:archwood_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_archwood",
+          "right": "chicken_roost:c_archwood",
+          "foodTag": "forge:seeds/tier3orup",
+          "output": "chicken_roost:c_archwood"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Latex Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_latex",
+    "itemtexture": "c_latex",
+    "mobtexture": "c_latex",
+    "dropitem": "ccextras:latex_egg",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "ccextras:latex_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_latex",
+          "right": "chicken_roost:c_latex",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_latex"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Magebloom Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_magebloom",
+    "itemtexture": "c_magebloom",
+    "mobtexture": "c_magebloom",
+    "dropitem": "ars_nouveau:magebloom",
+    "eggtime": 600,
+    "tier": 4,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier4orup",
+        "output": "ars_nouveau:magebloom"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_magebloom",
+          "right": "chicken_roost:c_magebloom",
+          "foodTag": "forge:seeds/tier4orup",
+          "output": "chicken_roost:c_magebloom"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Hemophiliac Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_hemophiliac",
+    "itemtexture": "c_hemophiliac",
+    "mobtexture": "c_hemophiliac",
+    "dropitem": "ccextras:bloody_egg",
+    "eggtime": 600,
+    "tier": 5,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier5orup",
+        "output": "ccextras:bloody_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_hemophiliac",
+          "right": "chicken_roost:c_hemophiliac",
+          "foodTag": "forge:seeds/tier5orup",
+          "output": "chicken_roost:c_hemophiliac"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Thorium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_thorium",
+    "itemtexture": "c_thorium",
+    "mobtexture": "c_thorium",
+    "dropitem": "create_new_age:thorium",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "create_new_age:thorium"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_thorium",
+          "right": "chicken_roost:c_thorium",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_thorium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Beastmaster Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_beastmaster",
+    "itemtexture": "c_beastmaster",
+    "mobtexture": "c_beastmaster",
+    "dropitem": "ccextras:beastmaster_egg",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "ccextras:beastmaster_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_beastmaster",
+          "right": "chicken_roost:c_beastmaster",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_beastmaster"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Anthralite Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_anthralite",
+    "itemtexture": "c_anthralite",
+    "mobtexture": "c_anthralite",
+    "dropitem": "scguns:raw_anthralite",
+    "eggtime": 600,
+    "tier": 6,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier6orup",
+        "output": "scguns:raw_anthralite"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_anthralite",
+          "right": "chicken_roost:c_anthralite",
+          "foodTag": "forge:seeds/tier6orup",
+          "output": "chicken_roost:c_anthralite"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Bismuth Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_bismuth",
+    "itemtexture": "c_bismuth",
+    "mobtexture": "c_bismuth",
+    "dropitem": "enlightened_end:raw_bismuth",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "enlightened_end:raw_bismuth"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_bismuth",
+          "right": "chicken_roost:c_bismuth",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_bismuth"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Irradium Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_irradium",
+    "itemtexture": "c_irradium",
+    "mobtexture": "c_irradium",
+    "dropitem": "enlightened_end:raw_irradium",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "enlightened_end:raw_irradium"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_irradium",
+          "right": "chicken_roost:c_irradium",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_irradium"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Malachite Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_malachite",
+    "itemtexture": "c_malachite",
+    "mobtexture": "c_malachite",
+    "dropitem": "enlightened_end:malachite",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "enlightened_end:malachite"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_malachite",
+          "right": "chicken_roost:c_malachite",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_malachite"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Ether Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_ether",
+    "itemtexture": "c_ether",
+    "mobtexture": "c_ether",
+    "dropitem": "ccextras:ether_egg",
+    "eggtime": 600,
+    "tier": 7,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier7orup",
+        "output": "ccextras:ether_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_ether",
+          "right": "chicken_roost:c_ether",
+          "foodTag": "forge:seeds/tier7orup",
+          "output": "chicken_roost:c_ether"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Ancient Dust Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_ancientdust",
+    "itemtexture": "c_ancientdust",
+    "mobtexture": "c_ancientdust",
+    "dropitem": "thermal_extra:ancient_dust",
+    "eggtime": 600,
+    "tier": 9,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier9orup",
+        "output": "thermal_extra:ancient_dust"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_ancientdust",
+          "right": "chicken_roost:c_ancientdust",
+          "foodTag": "forge:seeds/tier9orup",
+          "output": "chicken_roost:c_ancientdust"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Luminarchy Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_luminarchy",
+    "itemtexture": "c_luminarchy",
+    "mobtexture": "c_luminarchy",
+    "dropitem": "create_unbreakable:luminarchy",
+    "eggtime": 600,
+    "tier": 9,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier9orup",
+        "output": "create_unbreakable:luminarchy"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_luminarchy",
+          "right": "chicken_roost:c_luminarchy",
+          "foodTag": "forge:seeds/tier9orup",
+          "output": "chicken_roost:c_luminarchy"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Philolite Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_philolite",
+    "itemtexture": "c_philolite",
+    "mobtexture": "c_philolite",
+    "dropitem": "create_unbreakable:philolite",
+    "eggtime": 600,
+    "tier": 9,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier9orup",
+        "output": "create_unbreakable:philolite"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_philolite",
+          "right": "chicken_roost:c_philolite",
+          "foodTag": "forge:seeds/tier9orup",
+          "output": "chicken_roost:c_philolite"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Sap Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_sap",
+    "itemtexture": "c_sap",
+    "mobtexture": "c_sap",
+    "dropitem": "ccextras:sap_egg",
+    "eggtime": 600,
+    "tier": 9,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier9orup",
+        "output": "ccextras:sap_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_sap",
+          "right": "chicken_roost:c_sap",
+          "foodTag": "forge:seeds/tier9orup",
+          "output": "chicken_roost:c_sap"
+        }
+      ]
+    }
+  },
+  {
+    "ChickenName": "Wasted Radioactive Chicken",
+    "MobOrMonster": "Mob",
+    "id": "c_wastedradioactive",
+    "itemtexture": "c_wastedradioactive",
+    "mobtexture": "c_wastedradioactive",
+    "dropitem": "ccextras:wasted_radioactive_egg",
+    "eggtime": 600,
+    "tier": 9,
+    "recipes": {
+      "roost_output": {
+        "foodTag": "forge:seeds/tier9orup",
+        "output": "ccextras:wasted_radioactive_egg"
+      },
+      "basic_breeding": [
+        {
+          "left": "chicken_roost:c_wastedradioactive",
+          "right": "chicken_roost:c_wastedradioactive",
+          "foodTag": "forge:seeds/tier9orup",
+          "output": "chicken_roost:c_wastedradioactive"
+        }
+      ]
+    }
+  }
+]

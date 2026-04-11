@@ -1,0 +1,13 @@
+{
+  "type": "chicken_roost:roost_output",
+  "food": {
+    "tag": "forge:seeds/tier5orup"
+  },
+  "chicken": {
+    "item": "chicken_roost:c_constantan"
+  },
+  "time": 20,
+  "output": {
+    "item": "thermal:constantan_dust"
+  }
+}

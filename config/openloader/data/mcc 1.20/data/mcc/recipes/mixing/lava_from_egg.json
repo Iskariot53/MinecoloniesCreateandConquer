@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "chicken_roost:lava_egg"
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "minecraft:lava"
+    }
+  ]
+}

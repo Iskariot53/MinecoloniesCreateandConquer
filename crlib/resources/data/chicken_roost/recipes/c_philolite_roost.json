@@ -1,0 +1,13 @@
+{
+  "type": "chicken_roost:roost_output",
+  "food": {
+    "tag": "forge:seeds/tier9orup"
+  },
+  "chicken": {
+    "item": "chicken_roost:c_philolite"
+  },
+  "time": 20,
+  "output": {
+    "item": "create_unbreakable:philolite"
+  }
+}

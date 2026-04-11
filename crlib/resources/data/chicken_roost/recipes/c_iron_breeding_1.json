@@ -1,0 +1,16 @@
+{
+  "type": "chicken_roost:basic_breeding",
+  "food": {
+    "tag": "forge:seeds/tier3orup"
+  },
+  "left-chicken": {
+    "item": "chicken_roost:c_copper"
+  },
+  "right-chicken": {
+    "item": "chicken_roost:c_copper"
+  },
+  "time": 20,
+  "output": {
+    "item": "chicken_roost:c_iron"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "chickenName": "Water Egg",
+    "id": "egg_water",
+    "fluidId": "minecraft:water",
+    "texture": "fluid_egg",
+    "colorMode": "OVERRIDE",
+    "r": 120,
+    "g": 180,
+    "b": 255
+  },
+  {
+    "chickenName": "Lava Egg",
+    "id": "egg_lava",
+    "fluidId": "minecraft:lava",
+    "texture": "fluid_egg",
+    "colorMode": "OVERRIDE",
+    "r": 255,
+    "g": 110,
+    "b": 20
+  }
+]

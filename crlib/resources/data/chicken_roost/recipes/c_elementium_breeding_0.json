@@ -1,0 +1,16 @@
+{
+  "type": "chicken_roost:basic_breeding",
+  "food": {
+    "tag": "forge:seeds/tier7orup"
+  },
+  "left-chicken": {
+    "item": "chicken_roost:c_elementium"
+  },
+  "right-chicken": {
+    "item": "chicken_roost:c_elementium"
+  },
+  "time": 20,
+  "output": {
+    "item": "chicken_roost:c_elementium"
+  }
+}
