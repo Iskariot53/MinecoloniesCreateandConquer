@@ -1,5 +1,5 @@
 {
-	autofocus_id: "32E228C76C3960C3"
+	autofocus_id: "6C435C7136BA92C9"
 	consume_items: false
 	default_hide_dependency_lines: false
 	default_quest_shape: "hexagon"
@@ -8,11 +8,6 @@
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
 		id: "chicken_roost:c_diamond"
 		tag: { }
 	}
@@ -62,7 +57,7 @@
 			}]
 			title: "&lDon't count your chickens before they hatch!"
 			x: 0.0d
-			y: -4.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["1C06D0643A1A3CD6"]
@@ -86,14 +81,11 @@
 				type: "item"
 			}]
 			title: "&lCatch your first vanilla chicken!"
-			x: 1.5d
-			y: -3.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
-			dependencies: [
-				"6C435C7136BA92C9"
-				"01079DE692B0FDC1"
-			]
+			dependencies: ["6C435C7136BA92C9"]
 			description: [
 				"  A simple Roost setup consists of at least &l&#D2691E1   Roost and 1 Breeder."
 				""
@@ -105,6 +97,7 @@
 				""
 				"  &l&#D2691ERoost&r&r: This special chicken coop offers      resource production. Chickens in the Roost    not only produce typical resources like        eggs and feathers but can also generate     &#D2691E&nhigh-quality&r&r materials such as iron,              gemstones, or magical items. Utilize these       resources to craft powerful tools, armor,     and items. Open the Roost, input a chicken      and some chicken seeds to start resource    production. Similar to the Breeder, each tier   of chickens requires a specific tier of         chicken seeds for resource production,       so check the fourth page of your &l&#D2691ERoost     Ultimate Book&r&r for more information!"
 			]
+			hide_dependent_lines: true
 			hide_until_deps_visible: true
 			id: "2F4EC3771D41D693"
 			rewards: [
@@ -135,10 +128,10 @@
 			]
 			title: "&lCreate your first Roost setup"
 			x: 0.0d
-			y: -1.5d
+			y: 2.25d
 		}
 		{
-			dependencies: ["1C06D0643A1A3CD6"]
+			dependencies: ["2F4EC3771D41D693"]
 			description: [
 				"  Chickens have different tiers            depending on the type of resources    they can produce. Chickens of higher   tiers can provide more valuable          resources that are harder to obtain   or belong in the end-game."
 				""
@@ -246,11 +239,11 @@
 				}
 			]
 			title: "&lTaking your first steps"
-			x: -1.5d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
-			dependencies: ["2F4EC3771D41D693"]
+			dependencies: ["01079DE692B0FDC1"]
 			description: [
 				"  Now that you have learnt the basics,   it is time to start looking into obtaining  chickens of higher tiers."
 				""
@@ -344,7 +337,7 @@
 			]
 			title: "&lTier 2 Chickens"
 			x: 4.0d
-			y: -3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1A4AD68A9B4E4694"]
@@ -391,7 +384,7 @@
 			]
 			title: "&lTier 3 Chicken"
 			x: 4.0d
-			y: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["5F88C2724BD3710D"]
@@ -437,8 +430,8 @@
 				}
 			]
 			title: "&lTier 4 Chicken"
-			x: 3.5d
-			y: 2.5d
+			x: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3FD822D14A220FDF"]
@@ -576,7 +569,7 @@
 				}
 			]
 			title: "&lTier 5 Chicken"
-			x: 2.5d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -700,7 +693,7 @@
 				}
 			]
 			title: "&lTier 6 Chicken"
-			x: -2.5d
+			x: -4.0d
 			y: 5.0d
 		}
 		{
@@ -824,7 +817,7 @@
 				}
 			]
 			title: "&lTier 7 Chicken"
-			x: -3.5d
+			x: -4.0d
 			y: 2.5d
 		}
 		{
@@ -946,40 +939,6 @@
 			title: "&lTier 9 Chicken"
 			x: -4.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["1A675526ABF1871F"]
-			description: [
-				"  Now that you have obtained the 6       Tiers of Chicken Souls, you can craft   a &l&#D2691ESoul Breeder&r&r!"
-				""
-				"  Do you have a chicken that you want   another of, but you don’t feel like       going through the tiring process of     basic breeding and all the extra         steps? The &l&#D2691ESoul Breeder&r&r has got     you covered!"
-				""
-				"  Input any chicken into the Soul          Breeder along with a Chicken Soul that  is &#D2691Ethe same tier as the chicken or a     tier higher&r to soul breed it and obtain  a second chicken of the same type!"
-			]
-			hide_until_deps_visible: true
-			id: "32E228C76C3960C3"
-			rewards: [
-				{
-					id: "18A7A09124EB384B"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "2FFB1722D902E491"
-					item: "numismatics:bevel"
-					type: "item"
-				}
-			]
-			size: 1.5d
-			subtitle: "&#8B4513Hey you.. wanna dupe some chickens? *wink*"
-			tasks: [{
-				id: "0DE909BC796EB9B3"
-				item: "chicken_roost:soul_breeder"
-				type: "item"
-			}]
-			title: "&lSoul Breeder"
-			x: 0.0d
-			y: 1.5d
 		}
 		{
 			description: [

@@ -14,7 +14,7 @@ preventDespawnIfNamed = true
 	traderMinSpawnLevel = -64
 	# The amount of ticks to wait before trying to spawn a trader again if the spawn failed
 	# Valid range: 1 to 2147483647 (inclusive)
-	spawnInterval = 12000
+	spawnInterval = 72000
 	# The amount of ticks before the trader will despawn
 	# Valid range: 1 to 2147483647 (inclusive)
 	traderDespawnDelay = 24000
@@ -103,7 +103,7 @@ preventDespawnIfNamed = true
 	traderDespawnDelay = 24000
 	# The amount of ticks to wait before trying to spawn a trader again if the spawn failed
 	# Valid range: 1 to 2147483647 (inclusive)
-	spawnInterval = 12000
+	spawnInterval = 36000
 	# The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 	# Valid range: -1 to 2147483647 (inclusive)
 	restockDelay = 48000
