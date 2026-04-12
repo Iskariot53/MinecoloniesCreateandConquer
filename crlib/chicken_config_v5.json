@@ -5,8 +5,8 @@
     "id": "c_sand",
     "itemtexture": "sandchicken",
     "mobtexture": "sandchicken",
-    "dropitem": "minecraft:sand",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -35,8 +35,8 @@
     "id": "c_gravel",
     "itemtexture": "graychicken",
     "mobtexture": "graychicken",
-    "dropitem": "minecraft:gravel",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -65,8 +65,8 @@
     "id": "c_feather",
     "itemtexture": "ghastchicken",
     "mobtexture": "ghastchicken",
-    "dropitem": "minecraft:feather",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -95,8 +95,8 @@
     "id": "c_netherbrick",
     "itemtexture": "brownchicken",
     "mobtexture": "brownchicken",
-    "dropitem": "minecraft:nether_brick",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -125,8 +125,8 @@
     "id": "c_honeycomb",
     "itemtexture": "yellowchicken",
     "mobtexture": "yellowchicken",
-    "dropitem": "minecraft:honeycomb",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -155,8 +155,8 @@
     "id": "c_stone",
     "itemtexture": "stoneburntchicken",
     "mobtexture": "stoneburntchicken",
-    "dropitem": "ccextras:stone_egg",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -179,8 +179,8 @@
     "id": "c_wool",
     "itemtexture": "enoricrystalchicken",
     "mobtexture": "enoricrystalchicken",
-    "dropitem": "minecraft:white_wool",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -233,8 +233,8 @@
     "id": "c_prismarineshard",
     "itemtexture": "pshardchicken",
     "mobtexture": "pshard_chicken",
-    "dropitem": "minecraft:prismarine_shard",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -263,8 +263,8 @@
     "id": "c_red",
     "itemtexture": "redchicken",
     "mobtexture": "redchicken",
-    "dropitem": "minecraft:red_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -287,8 +287,8 @@
     "id": "c_yellow",
     "itemtexture": "yellowchicken",
     "mobtexture": "yellowchicken",
-    "dropitem": "minecraft:yellow_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -311,8 +311,8 @@
     "id": "c_green",
     "itemtexture": "greenchicken",
     "mobtexture": "greenchicken",
-    "dropitem": "minecraft:green_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -341,8 +341,8 @@
     "id": "c_orange",
     "itemtexture": "orangechicken",
     "mobtexture": "orangechicken",
-    "dropitem": "minecraft:orange_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -371,8 +371,8 @@
     "id": "c_black",
     "itemtexture": "blackchicken",
     "mobtexture": "blackchicken",
-    "dropitem": "minecraft:black_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -395,8 +395,8 @@
     "id": "c_light_blue",
     "itemtexture": "lightbluechicken",
     "mobtexture": "lightbluechicken",
-    "dropitem": "minecraft:light_blue_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -425,8 +425,8 @@
     "id": "c_lime",
     "itemtexture": "limechicken",
     "mobtexture": "limechicken",
-    "dropitem": "minecraft:lime_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -455,8 +455,8 @@
     "id": "c_pink",
     "itemtexture": "pinkchicken",
     "mobtexture": "pinkchicken",
-    "dropitem": "minecraft:pink_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -485,8 +485,8 @@
     "id": "c_gray",
     "itemtexture": "graychicken",
     "mobtexture": "graychicken",
-    "dropitem": "minecraft:gray_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -515,8 +515,8 @@
     "id": "c_cyan",
     "itemtexture": "cyanchicken",
     "mobtexture": "cyanchicken",
-    "dropitem": "minecraft:cyan_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -545,8 +545,8 @@
     "id": "c_purple",
     "itemtexture": "purplechicken",
     "mobtexture": "purplechicken",
-    "dropitem": "minecraft:purple_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -575,8 +575,8 @@
     "id": "c_brown",
     "itemtexture": "brownchicken",
     "mobtexture": "brownchicken",
-    "dropitem": "minecraft:brown_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -605,8 +605,8 @@
     "id": "c_blue",
     "itemtexture": "lightbluechicken",
     "mobtexture": "lightbluechicken",
-    "dropitem": "minecraft:blue_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -629,8 +629,8 @@
     "id": "c_white",
     "itemtexture": "saltchicken",
     "mobtexture": "saltchicken",
-    "dropitem": "minecraft:white_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -653,8 +653,8 @@
     "id": "c_magenta",
     "itemtexture": "magentachicken",
     "mobtexture": "magentachicken",
-    "dropitem": "minecraft:magenta_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -683,8 +683,8 @@
     "id": "c_light_gray",
     "itemtexture": "graychicken",
     "mobtexture": "graychicken",
-    "dropitem": "minecraft:light_gray_dye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -713,8 +713,8 @@
     "id": "c_ink",
     "itemtexture": "blackchicken",
     "mobtexture": "blackchicken",
-    "dropitem": "minecraft:ink_sac",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -737,8 +737,8 @@
     "id": "c_bone",
     "itemtexture": "whitechicken",
     "mobtexture": "whitechicken",
-    "dropitem": "minecraft:bone",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -761,8 +761,8 @@
     "id": "c_flint",
     "itemtexture": "flintchicken",
     "mobtexture": "flintchicken",
-    "dropitem": "minecraft:flint",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -791,8 +791,8 @@
     "id": "c_netherrack",
     "itemtexture": "netherwartchicken",
     "mobtexture": "netherwartchicken",
-    "dropitem": "minecraft:netherrack",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -815,8 +815,8 @@
     "id": "c_coal",
     "itemtexture": "coalchicken",
     "mobtexture": "coalchicken",
-    "dropitem": "minecraft:coal",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -851,8 +851,8 @@
     "id": "c_charcoal",
     "itemtexture": "coalchicken",
     "mobtexture": "coalchicken",
-    "dropitem": "minecraft:charcoal",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -875,8 +875,8 @@
     "id": "c_snow",
     "itemtexture": "snowballchicken",
     "mobtexture": "snowballchicken",
-    "dropitem": "minecraft:snowball",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -899,8 +899,8 @@
     "id": "c_glass",
     "itemtexture": "glasschicken",
     "mobtexture": "glasschicken",
-    "dropitem": "minecraft:glass",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -929,8 +929,8 @@
     "id": "c_soulsand",
     "itemtexture": "soulsandchicken",
     "mobtexture": "soulariumchicken",
-    "dropitem": "minecraft:soul_sand",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -959,8 +959,8 @@
     "id": "c_string",
     "itemtexture": "destructioncorechicken",
     "mobtexture": "destructioncorechicken",
-    "dropitem": "minecraft:string",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -983,8 +983,8 @@
     "id": "c_lava",
     "itemtexture": "lavachicken",
     "mobtexture": "lavachicken",
-    "dropitem": "chicken_roost:lava_egg",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1007,8 +1007,8 @@
     "id": "c_water",
     "itemtexture": "waterchicken",
     "mobtexture": "waterchicken",
-    "dropitem": "chicken_roost:water_egg",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1031,8 +1031,8 @@
     "id": "c_copper",
     "itemtexture": "copperchicken",
     "mobtexture": "copperchicken",
-    "dropitem": "minecraft:raw_copper",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1061,8 +1061,8 @@
     "id": "c_livingrock",
     "itemtexture": "moonstonechicken",
     "mobtexture": "moonstonechicken",
-    "dropitem": "botania:livingrock",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1085,8 +1085,8 @@
     "id": "c_livingwood",
     "itemtexture": "magicalwoodchicken",
     "mobtexture": "magicalwoodchicken",
-    "dropitem": "botania:livingwood",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1109,8 +1109,8 @@
     "id": "c_soulsoil",
     "itemtexture": "soulariumchicken",
     "mobtexture": "soulariumchicken",
-    "dropitem": "minecraft:soul_soil",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1139,8 +1139,8 @@
     "id": "c_basalt",
     "itemtexture": "basalzrodchicken",
     "mobtexture": "basalzrodchicken",
-    "dropitem": "minecraft:basalt",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1163,8 +1163,8 @@
     "id": "c_clay",
     "itemtexture": "claychicken",
     "mobtexture": "claychicken",
-    "dropitem": "minecraft:clay_ball",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1193,8 +1193,8 @@
     "id": "c_rabbithide",
     "itemtexture": "bronzechicken",
     "mobtexture": "bronzechicken",
-    "dropitem": "minecraft:rabbit_hide",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1217,8 +1217,8 @@
     "id": "c_leather",
     "itemtexture": "bronzechicken",
     "mobtexture": "bronzechicken",
-    "dropitem": "minecraft:leather",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1241,8 +1241,8 @@
     "id": "c_sponge",
     "itemtexture": "brasschicken",
     "mobtexture": "brasschicken",
-    "dropitem": "minecraft:sponge",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1265,8 +1265,8 @@
     "id": "c_spidereye",
     "itemtexture": "redstonealloychicken",
     "mobtexture": "redstonealloychicken",
-    "dropitem": "minecraft:spider_eye",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -1289,8 +1289,8 @@
     "id": "c_iron",
     "itemtexture": "ironchicken",
     "mobtexture": "ironchicken",
-    "dropitem": "minecraft:raw_iron",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1319,8 +1319,8 @@
     "id": "c_redstone",
     "itemtexture": "redstonechicken",
     "mobtexture": "redstonechicken",
-    "dropitem": "minecraft:redstone",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1349,8 +1349,8 @@
     "id": "c_lapis",
     "itemtexture": "lightbluechicken",
     "mobtexture": "lightbluechicken",
-    "dropitem": "minecraft:lapis_lazuli",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1379,8 +1379,8 @@
     "id": "c_lead",
     "itemtexture": "leadchicken",
     "mobtexture": "leadchicken",
-    "dropitem": "thermal:raw_lead",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1409,8 +1409,8 @@
     "id": "c_netherwart",
     "itemtexture": "netherwartchicken",
     "mobtexture": "netherwartchicken",
-    "dropitem": "minecraft:nether_wart",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1439,8 +1439,8 @@
     "id": "c_aluminium",
     "itemtexture": "aluminumchicken",
     "mobtexture": "aluminiumchicken",
-    "dropitem": "chicken_roost:ingot_aluminum",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1469,8 +1469,8 @@
     "id": "c_sulfur",
     "itemtexture": "sulfurchicken",
     "mobtexture": "sulfurchicken",
-    "dropitem": "thermal:sulfur",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1499,8 +1499,8 @@
     "id": "c_obsidian",
     "itemtexture": "obsidianchicken",
     "mobtexture": "obsidianchicken",
-    "dropitem": "minecraft:obsidian",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1535,8 +1535,8 @@
     "id": "c_slime",
     "itemtexture": "slimechicken",
     "mobtexture": "slimechicken",
-    "dropitem": "minecraft:slime_ball",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1565,8 +1565,8 @@
     "id": "c_tin",
     "itemtexture": "quartzenrichedironchicken",
     "mobtexture": "quartzenrichedironchicken",
-    "dropitem": "thermal:raw_tin",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1595,8 +1595,8 @@
     "id": "c_rotten",
     "itemtexture": "richslagchicken",
     "mobtexture": "richslagchicken",
-    "dropitem": "minecraft:rotten_flesh",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1619,8 +1619,8 @@
     "id": "c_zinc",
     "itemtexture": "zincchicken",
     "mobtexture": "zincchicken",
-    "dropitem": "create:raw_zinc",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1649,8 +1649,8 @@
     "id": "c_niter",
     "itemtexture": "vinteumchicken",
     "mobtexture": "vinteumchicken",
-    "dropitem": "thermal:niter",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1679,8 +1679,8 @@
     "id": "c_tar",
     "itemtexture": "blackquartzchicken",
     "mobtexture": "blackquartzchicken",
-    "dropitem": "thermal:tar",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1709,8 +1709,8 @@
     "id": "c_apatite",
     "itemtexture": "sapphirechicken",
     "mobtexture": "sapphirechicken",
-    "dropitem": "thermal:apatite",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1739,8 +1739,8 @@
     "id": "c_bitumen",
     "itemtexture": "coalchicken",
     "mobtexture": "coalchicken",
-    "dropitem": "thermal:bitumen",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1769,8 +1769,8 @@
     "id": "c_coke",
     "itemtexture": "coalchicken",
     "mobtexture": "coalchicken",
-    "dropitem": "thermal:coal_coke",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1799,8 +1799,8 @@
     "id": "c_magmacream",
     "itemtexture": "magmachicken",
     "mobtexture": "magmachicken",
-    "dropitem": "minecraft:magma_cream",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1835,8 +1835,8 @@
     "id": "c_cinnabar",
     "itemtexture": "cinnabarchicken",
     "mobtexture": "cinnabarchicken",
-    "dropitem": "thermal:cinnabar",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1865,8 +1865,8 @@
     "id": "c_basalz",
     "itemtexture": "basalzrodchicken",
     "mobtexture": "basalzrodchicken",
-    "dropitem": "thermal:basalz_powder",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1889,8 +1889,8 @@
     "id": "c_prismarinecrystal",
     "itemtexture": "pcrystalchicken",
     "mobtexture": "pcrystal_chicken",
-    "dropitem": "minecraft:prismarine_crystals",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -1919,8 +1919,8 @@
     "id": "c_quartz",
     "itemtexture": "quartzchicken",
     "mobtexture": "quartzchicken",
-    "dropitem": "minecraft:quartz",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -1949,8 +1949,8 @@
     "id": "c_glowstone",
     "itemtexture": "glowstonechicken",
     "mobtexture": "glowstonechicken",
-    "dropitem": "minecraft:glowstone_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -1979,8 +1979,8 @@
     "id": "c_tnt",
     "itemtexture": "gunpowderchicken",
     "mobtexture": "gunpowderchicken",
-    "dropitem": "minecraft:gunpowder",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2009,8 +2009,8 @@
     "id": "c_gold",
     "itemtexture": "goldchicken",
     "mobtexture": "goldchicken",
-    "dropitem": "minecraft:raw_gold",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2039,8 +2039,8 @@
     "id": "c_silver",
     "itemtexture": "silverorechicken",
     "mobtexture": "silverchicken",
-    "dropitem": "thermal:raw_silver",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2069,8 +2069,8 @@
     "id": "c_constantan",
     "itemtexture": "constantanchicken",
     "mobtexture": "constantanchicken",
-    "dropitem": "thermal:constantan_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2099,8 +2099,8 @@
     "id": "c_blazerod",
     "itemtexture": "blazechicken",
     "mobtexture": "blazechicken",
-    "dropitem": "minecraft:blaze_rod",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2129,8 +2129,8 @@
     "id": "c_signalum",
     "itemtexture": "signalumchicken",
     "mobtexture": "signalumchicken",
-    "dropitem": "thermal:signalum_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2159,8 +2159,8 @@
     "id": "c_silicon",
     "itemtexture": "siliconchicken",
     "mobtexture": "siliconchicken",
-    "dropitem": "ae2:silicon",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2183,8 +2183,8 @@
     "id": "c_lumium",
     "itemtexture": "lumiumchicken",
     "mobtexture": "lumiumchicken",
-    "dropitem": "thermal:lumium_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2213,8 +2213,8 @@
     "id": "c_chorusfruit",
     "itemtexture": "magentachicken",
     "mobtexture": "magentachicken",
-    "dropitem": "minecraft:chorus_fruit",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2237,8 +2237,8 @@
     "id": "c_enderpearl",
     "itemtexture": "enderchicken",
     "mobtexture": "enderchicken",
-    "dropitem": "minecraft:ender_pearl",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2267,8 +2267,8 @@
     "id": "c_endstone",
     "itemtexture": "bulletchicken",
     "mobtexture": "bulletchicken",
-    "dropitem": "minecraft:end_stone",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2291,8 +2291,8 @@
     "id": "c_enderium",
     "itemtexture": "enderiumchicken",
     "mobtexture": "enderiumchicken",
-    "dropitem": "thermal:enderium_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2321,8 +2321,8 @@
     "id": "c_manasteel",
     "itemtexture": "manasteelchicken",
     "mobtexture": "manasteelchicken",
-    "dropitem": "botania:manasteel_ingot",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2345,8 +2345,8 @@
     "id": "c_blitz",
     "itemtexture": "blitzrodchicken",
     "mobtexture": "blitzrodchicken",
-    "dropitem": "thermal:blitz_powder",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2369,8 +2369,8 @@
     "id": "c_blizz",
     "itemtexture": "blizzrodchicken",
     "mobtexture": "blizzrodchicken",
-    "dropitem": "thermal:blizz_powder",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -2393,8 +2393,8 @@
     "id": "c_osmium",
     "itemtexture": "osmiumchicken",
     "mobtexture": "osmiumchicken",
-    "dropitem": "mekanism:raw_osmium",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2417,8 +2417,8 @@
     "id": "c_steel",
     "itemtexture": "steelchicken",
     "mobtexture": "steelchicken",
-    "dropitem": "thermal:steel_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2441,8 +2441,8 @@
     "id": "c_bronze",
     "itemtexture": "bronzechicken",
     "mobtexture": "bronzechicken",
-    "dropitem": "thermal:bronze_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2471,8 +2471,8 @@
     "id": "c_emerald",
     "itemtexture": "emeradiccrystalchicken",
     "mobtexture": "emeradiccrystalchicken",
-    "dropitem": "minecraft:emerald",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2501,8 +2501,8 @@
     "id": "c_ghasttear",
     "itemtexture": "ghastchicken",
     "mobtexture": "ghastchicken",
-    "dropitem": "minecraft:ghast_tear",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2531,8 +2531,8 @@
     "id": "c_rosegold",
     "itemtexture": "pinkslimechicken",
     "mobtexture": "pinkslimechicken",
-    "dropitem": "thermal:rose_gold_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2561,8 +2561,8 @@
     "id": "c_ruby",
     "itemtexture": "rubychicken",
     "mobtexture": "rubychicken",
-    "dropitem": "thermal:ruby",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2585,8 +2585,8 @@
     "id": "c_sapphire",
     "itemtexture": "sapphirechicken",
     "mobtexture": "sapphirechicken",
-    "dropitem": "thermal:sapphire",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2609,8 +2609,8 @@
     "id": "c_brass",
     "itemtexture": "brasschicken",
     "mobtexture": "brasschicken",
-    "dropitem": "create:brass_nugget",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2633,8 +2633,8 @@
     "id": "c_certusquartz",
     "itemtexture": "quartzenrichedironchicken",
     "mobtexture": "quartzenrichedironchicken",
-    "dropitem": "ae2:certus_quartz_crystal",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2657,8 +2657,8 @@
     "id": "c_biofuel",
     "itemtexture": "enderiumchicken",
     "mobtexture": "enderiumchicken",
-    "dropitem": "mekanism:bio_fuel",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2681,8 +2681,8 @@
     "id": "c_uranium",
     "itemtexture": "uraniumchicken",
     "mobtexture": "uraniumchicken",
-    "dropitem": "mekanism:raw_uranium",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -2705,8 +2705,8 @@
     "id": "c_nickel",
     "itemtexture": "nickelchicken",
     "mobtexture": "nickelchicken",
-    "dropitem": "thermal:raw_nickel",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2735,8 +2735,8 @@
     "id": "c_invar",
     "itemtexture": "invarchicken",
     "mobtexture": "invarchicken",
-    "dropitem": "thermal:invar_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2765,8 +2765,8 @@
     "id": "c_electrum",
     "itemtexture": "electrumchicken",
     "mobtexture": "electrumchicken",
-    "dropitem": "thermal:electrum_dust",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2795,8 +2795,8 @@
     "id": "c_diamond",
     "itemtexture": "diamondchicken",
     "mobtexture": "diamondchicken",
-    "dropitem": "minecraft:diamond",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2825,8 +2825,8 @@
     "id": "c_chargedcertus",
     "itemtexture": "quartzchicken",
     "mobtexture": "quartzchicken",
-    "dropitem": "ae2:charged_certus_quartz_crystal",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2849,8 +2849,8 @@
     "id": "c_fluixcrystal",
     "itemtexture": "lunarreactivedustchicken",
     "mobtexture": "lunarreactivedustchicken",
-    "dropitem": "ae2:fluix_crystal",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2873,8 +2873,8 @@
     "id": "c_amethystshard",
     "itemtexture": "amethystchicken",
     "mobtexture": "amethystchicken",
-    "dropitem": "minecraft:amethyst_shard",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2903,8 +2903,8 @@
     "id": "c_terrasteel",
     "itemtexture": "terrasteelchicken",
     "mobtexture": "terrasteelchicken",
-    "dropitem": "botania:terrasteel_ingot",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2927,8 +2927,8 @@
     "id": "c_netherite",
     "itemtexture": "netherwartchicken",
     "mobtexture": "netherwartchicken",
-    "dropitem": "minecraft:netherite_scrap",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2951,8 +2951,8 @@
     "id": "c_netherstar",
     "itemtexture": "blitzrodchicken",
     "mobtexture": "blitzrodchicken",
-    "dropitem": "minecraft:nether_star",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2975,8 +2975,8 @@
     "id": "c_elementium",
     "itemtexture": "elementiumchicken",
     "mobtexture": "elementiumchicken",
-    "dropitem": "botania:elementium_ingot",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -2999,8 +2999,8 @@
     "id": "c_platinum",
     "itemtexture": "platinumchicken",
     "mobtexture": "platinumchicken",
-    "dropitem": "chicken_roost:ingot_platinum",
-    "eggtime": 600,
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 8,
     "recipes": {
       "roost_output": {
@@ -3028,9 +3028,9 @@
     "MobOrMonster": "Mob",
     "id": "c_wood",
     "itemtexture": "c_wood",
-    "mobtexture": "c_wood",
-    "dropitem": "ccextras:wooden_egg",
-    "eggtime": 600,
+    "mobtexture": "brownchicken",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 1,
     "recipes": {
       "roost_output": {
@@ -3052,9 +3052,9 @@
     "MobOrMonster": "Mob",
     "id": "c_crop",
     "itemtexture": "c_crop",
-    "mobtexture": "c_crop",
-    "dropitem": "ccextras:crop_egg",
-    "eggtime": 600,
+    "mobtexture": "crop",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 2,
     "recipes": {
       "roost_output": {
@@ -3082,9 +3082,9 @@
     "MobOrMonster": "Mob",
     "id": "c_archwood",
     "itemtexture": "c_archwood",
-    "mobtexture": "c_archwood",
-    "dropitem": "ccextras:archwood_egg",
-    "eggtime": 600,
+    "mobtexture": "archwood",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 3,
     "recipes": {
       "roost_output": {
@@ -3106,9 +3106,9 @@
     "MobOrMonster": "Mob",
     "id": "c_latex",
     "itemtexture": "c_latex",
-    "mobtexture": "c_latex",
-    "dropitem": "ccextras:latex_egg",
-    "eggtime": 600,
+    "mobtexture": "latex",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -3130,9 +3130,9 @@
     "MobOrMonster": "Mob",
     "id": "c_magebloom",
     "itemtexture": "c_magebloom",
-    "mobtexture": "c_magebloom",
-    "dropitem": "ars_nouveau:magebloom",
-    "eggtime": 600,
+    "mobtexture": "magebloom",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 4,
     "recipes": {
       "roost_output": {
@@ -3154,9 +3154,9 @@
     "MobOrMonster": "Mob",
     "id": "c_hemophiliac",
     "itemtexture": "c_hemophiliac",
-    "mobtexture": "c_hemophiliac",
-    "dropitem": "ccextras:bloody_egg",
-    "eggtime": 600,
+    "mobtexture": "hemophiliac",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 5,
     "recipes": {
       "roost_output": {
@@ -3178,9 +3178,9 @@
     "MobOrMonster": "Mob",
     "id": "c_thorium",
     "itemtexture": "c_thorium",
-    "mobtexture": "c_thorium",
-    "dropitem": "create_new_age:thorium",
-    "eggtime": 600,
+    "mobtexture": "thorium",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -3202,9 +3202,9 @@
     "MobOrMonster": "Mob",
     "id": "c_beastmaster",
     "itemtexture": "c_beastmaster",
-    "mobtexture": "c_beastmaster",
-    "dropitem": "ccextras:beastmaster_egg",
-    "eggtime": 600,
+    "mobtexture": "beastmaster",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -3226,9 +3226,9 @@
     "MobOrMonster": "Mob",
     "id": "c_anthralite",
     "itemtexture": "c_anthralite",
-    "mobtexture": "c_anthralite",
-    "dropitem": "scguns:raw_anthralite",
-    "eggtime": 600,
+    "mobtexture": "anthralite",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 6,
     "recipes": {
       "roost_output": {
@@ -3250,9 +3250,9 @@
     "MobOrMonster": "Mob",
     "id": "c_bismuth",
     "itemtexture": "c_bismuth",
-    "mobtexture": "c_bismuth",
-    "dropitem": "enlightened_end:raw_bismuth",
-    "eggtime": 600,
+    "mobtexture": "bismuth",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -3274,9 +3274,9 @@
     "MobOrMonster": "Mob",
     "id": "c_irradium",
     "itemtexture": "c_irradium",
-    "mobtexture": "c_irradium",
-    "dropitem": "enlightened_end:raw_irradium",
-    "eggtime": 600,
+    "mobtexture": "irradium",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -3298,9 +3298,9 @@
     "MobOrMonster": "Mob",
     "id": "c_malachite",
     "itemtexture": "c_malachite",
-    "mobtexture": "c_malachite",
-    "dropitem": "enlightened_end:malachite",
-    "eggtime": 600,
+    "mobtexture": "malachite",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -3322,9 +3322,9 @@
     "MobOrMonster": "Mob",
     "id": "c_ether",
     "itemtexture": "c_ether",
-    "mobtexture": "c_ether",
-    "dropitem": "ccextras:ether_egg",
-    "eggtime": 600,
+    "mobtexture": "ether",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 7,
     "recipes": {
       "roost_output": {
@@ -3346,9 +3346,9 @@
     "MobOrMonster": "Mob",
     "id": "c_ancientdust",
     "itemtexture": "c_ancientdust",
-    "mobtexture": "c_ancientdust",
-    "dropitem": "thermal_extra:ancient_dust",
-    "eggtime": 600,
+    "mobtexture": "ancientdust",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 9,
     "recipes": {
       "roost_output": {
@@ -3370,9 +3370,9 @@
     "MobOrMonster": "Mob",
     "id": "c_luminarchy",
     "itemtexture": "c_luminarchy",
-    "mobtexture": "c_luminarchy",
-    "dropitem": "create_unbreakable:luminarchy",
-    "eggtime": 600,
+    "mobtexture": "luminarchy",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 9,
     "recipes": {
       "roost_output": {
@@ -3394,9 +3394,9 @@
     "MobOrMonster": "Mob",
     "id": "c_philolite",
     "itemtexture": "c_philolite",
-    "mobtexture": "c_philolite",
-    "dropitem": "create_unbreakable:philolite",
-    "eggtime": 600,
+    "mobtexture": "philolite",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 9,
     "recipes": {
       "roost_output": {
@@ -3418,9 +3418,9 @@
     "MobOrMonster": "Mob",
     "id": "c_sap",
     "itemtexture": "c_sap",
-    "mobtexture": "c_sap",
-    "dropitem": "ccextras:sap_egg",
-    "eggtime": 600,
+    "mobtexture": "sap",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 9,
     "recipes": {
       "roost_output": {
@@ -3442,9 +3442,9 @@
     "MobOrMonster": "Mob",
     "id": "c_wastedradioactive",
     "itemtexture": "c_wastedradioactive",
-    "mobtexture": "c_wastedradioactive",
-    "dropitem": "ccextras:wasted_radioactive_egg",
-    "eggtime": 600,
+    "mobtexture": "wastedradioactive",
+    "dropitem": "minecraft:air",
+    "eggtime": 1000,
     "tier": 9,
     "recipes": {
       "roost_output": {

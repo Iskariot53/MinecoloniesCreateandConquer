@@ -8131,6 +8131,74 @@
 			x: 31.0d
 			y: 13.0d
 		}
+		{
+			id: "69AFE450A3E6825B"
+			rewards: [
+				{
+					id: "68FD1F34AA8E6C30"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "708BAB93D741811B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: "cluttered:basket_of_produce"
+				id: "510C1B3CF25FF442"
+				structure: "idas:wacky_wares"
+				title: "Wacky Wares"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -15.5d
+		}
+		{
+			id: "6A2AB34E6C19FC79"
+			rewards: [
+				{
+					id: "42A388D3D2C34039"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 3
+					id: "708083168FBF7A98"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: "cluttered:wine_bottles"
+				id: "7EE3A21BEBF97867"
+				structure: "idas:tudor_pub"
+				title: "Tudor Pub"
+				type: "structure"
+			}]
+			x: 22.0d
+			y: -15.5d
+		}
 	]
 	title: "&eWorld Exploration Quests"
 }

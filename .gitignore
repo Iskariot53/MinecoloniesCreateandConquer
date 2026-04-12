@@ -3,19 +3,9 @@
 !/.gitattributes
 !/config
 !/defaultconfigs
-!/roostultimate
 !/scripts
 !/README.md
 !/Changelog.txt
-!/chicken_biomes.json
-!/crlib
-!/crlib/**
-!/defaultconfigs/chicken_roost-server.toml
-!/config/chicken_roost-client.toml
-!/config/roostultimate
-!/config/roostultimate/**
-!/config/openloader
-!/config/openloader/**
 *.bak
 
 #specifics to ignore
@@ -44,5 +34,3 @@ config/jei/ingredient-list-mod-sort-order.ini
 config/quark-common.toml
 
 journeymap/config/5.10/journeymap.minimap.config
-config/chiselsandbits-client.toml
-config/chiselsandbits-common.toml
