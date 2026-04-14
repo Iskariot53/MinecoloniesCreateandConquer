@@ -768,7 +768,7 @@
 		{
 			dependencies: ["7A10879779D35FF1"]
 			description: [
-				"  Ever wanted to send your friend a gift, trade with       others, or ship items home while you're still deep in a     cave or across the map? The Ender Mail mod has you    covered!"
+				" While Post and Mailboxes are fully functional, ever        wanted to send your friend a gift, trade with others,     or ship items home while you're still deep in a cave or    across the map? The Ender Mail mod has you covered!"
 				""
 				"  Ender Mail allows you to employ Endermen as mail         carriers to deliver packages anywhere in the world.      You can have packages sent to specific coordinates     or directly to a Locker if you know its unique ID."
 				""
@@ -778,15 +778,7 @@
 				""
 				"  As an alternative, mailboxes can be crafted and used   to share items as well, although they lack the               functionality of being able to send a package anywhere  without having already been there first, unlike the mail   men."
 			]
-			icon: {
-				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "endermail:stamp"
-			}
+			icon: "endermail:stamp"
 			icon_scale: 1.3d
 			id: "613C7011A8A8033C"
 			rewards: [
@@ -819,10 +811,18 @@
 				}
 			]
 			subtitle: "&#8B4513Ender Mail"
-			tasks: [{
-				id: "77D3987BB0FC14B1"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "77D3987BB0FC14B1"
+					type: "checkmark"
+				}
+				{
+					id: "314FB6068D6ABB09"
+					item: "cfm:post_box"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "&lMy mailman is great, he always delivers!"
 			x: -0.5d
 			y: -8.0d
