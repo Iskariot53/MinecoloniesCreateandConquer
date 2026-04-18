@@ -356,12 +356,12 @@ craftingTable.addShaped("crafting.c_wood", <item:chicken_roost:c_wood>,
 	"consumptionRate": 30,
 	"drainRate": 50,
 	"input": {
-	    "item": "chicken_roost:c_vanilla"
+	    "item": "minecraft:chicken_spawn_egg"
 	},
 	"output": {
 	    "item": "chicken_roost:c_hemophiliac"
 	},
-	"upgradeLevel": 1
+	"upgradeLevel": 2
 });
 
 <recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("if.c_ether", {
@@ -438,7 +438,7 @@ craftingTable.addShaped("crafting.c_wood", <item:chicken_roost:c_wood>,
     },
 	"gasInput":{
         "amount":1000,
-        "gas":"mekanism:plutonium"
+        "gas":"mekanism:antimatter"
     },
 	"gasOutput":{
         "amount":1000,
@@ -674,7 +674,7 @@ craftingTable.addShaped("player_companions.tame_wheat_seeds_fromegg", <item:play
 	},
 	"output": {
 	    "gas": "mekanism:nuclear_waste",
-		"amount": 400
+		"amount": 50
 	},
 	"conditions": [
 		{
