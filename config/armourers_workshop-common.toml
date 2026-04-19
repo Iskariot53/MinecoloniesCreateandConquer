@@ -36,31 +36,6 @@
 	#2 = always enable
 	#Range: 0 ~ 2
 	enableFirstPersonSkinRenderer = 0
-	#If enabled the server will allow client use server skins in the resource pack.
-	enableServerSkinsInResourcePack = false
-	#If enabled the link tool will allow bind between different dimensions block.
-	enableLinkDimensional = true
-	#the link tool will allow max range in which blocks can be bound?
-	#0 = infinite range
-	#Range: 0 ~ 100000
-	maxLinkDistance = 0
-
-#Setting to configure tooltips on skinned items.
-[tooltip]
-	#Show has skin tooltip on skinned items.
-	tooltipHasSkin = true
-	#Show skin name tooltip on items.
-	tooltipSkinName = true
-	#Show skin author tooltip on items.
-	tooltipSkinAuthor = true
-	#Show skin type tooltip on items.
-	tooltipSkinType = true
-	#Show skin flavour text tooltip on items.
-	tooltipFlavour = true
-	#Show skin preview tooltip on items.
-	tooltipSkinPreview = true
-	#Show open wardrobe message on skins.
-	tooltipOpenWardrobe = true
 
 #Setting for the players wardrobe.
 [wardrobe]
@@ -76,8 +51,6 @@
 	enableColourTab = true
 	#Enable the wardrobe dyes tab.
 	enableDyeTab = true
-	#Only allows the player place to skin item into slots.
-	onlySkinIntoSlots = false
 	#Number of slot columns the mob starts with for skins.
 	#Range: 1 ~ 10
 	mobStartingSlots = 3
@@ -109,23 +82,6 @@
 	#We priority use https for the access token APIs.
 	skinServerURLs = []
 
-#Setting for the Database.
-[database]
-	#Save/Load skin data for the database.
-	#example1: "jdbc:mysql://<localhost>[:3306]/<database>[?user=<username>][&password=<password>]"
-	#example2: "jdbc:sqlite://</path/name.db>"
-	skin = ""
-	#Use fallback when database is specified.
-	#0 = enable
-	#1 = disable
-	#2 = migrate to database
-	#Range: 0 ~ 2
-	fallback = 0
-	#Keep alive time check when database is specified.
-	#the unit is seconds, 0 is disabled.
-	#Range: 0 ~ 86400
-	keepalive = 600
-
 #Enable/disable holiday events.
 [holiday-events]
 	#Setting to true will disable all holiday events. What's wrong with you!
@@ -134,9 +90,10 @@
 #Change (memory use/IO access) ratio by category setting in this category.
 [cache]
 	#How long in seconds the server will keep skins in it's cache.
+	#Default 600 seconds is 10 minutes.
 	#Setting to 0 turns off this option.
-	#Range: 0 ~ 31536000
-	expireTime = 86400
+	#Range: 0 ~ 36000
+	expireTime = 36000
 	#Max size the skin cache can reach before skins are removed.
 	#Setting to 0 turns off this option.
 	#Range: 0 ~ 10000
