@@ -1,0 +1,40 @@
+{
+	id: "13B9A7EAACA2C801"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "test"
+	}
+	loot_size: 1
+	order_index: 41
+	rewards: [
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "numismatics:bevel"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mekanism:basic_fluid_tank"
+			}
+		}
+	]
+	title: "TEST"
+}

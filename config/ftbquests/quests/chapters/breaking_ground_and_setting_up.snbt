@@ -256,12 +256,26 @@
 			]
 			subtitle: "&#8B4513No introduction needed"
 			tasks: [{
-				id: "6D6C482B14FFFD76"
+				id: "2A608FCA3DB4AD08"
 				item: {
 					Count: 1
-					id: "packedup:basicbackpack"
-					tag: { }
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "backpacked:backpack"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "packedup:basicbackpack"
+								tag: { }
+							}
+						]
+					}
 				}
+				title: "Backpack"
 				type: "item"
 			}]
 			title: "&lBackpack"

@@ -2045,4 +2045,8 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
 }});
 
 
-  craftingTable.remove(<item:rarcompat:mimi_dust>);
+craftingTable.remove(<item:rarcompat:mimi_dust>);
+
+craftingTable.remove(<item:cfm:post_box>);
+craftingTable.addShaped("cfm.post_box", <item:cfm:post_box>, 
+[[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>], [<item:minecraft:iron_ingot>, <item:endermail:package>, <item:minecraft:iron_ingot>], [<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]]);

@@ -2,15 +2,15 @@
 !/.gitignore
 !/.gitattributes
 !/config
+!/config/**
 !/defaultconfigs
+!/defaultconfigs/**
 !/scripts
 !/README.md
 !/Changelog.txt
 *.bak
 !/crlib
 !/crlib/**
-!/config/openloader
-!/config/openloader/**
 
 #specifics to ignore
 **config/jecalculation/record.json
@@ -34,12 +34,11 @@ config/embeddium-options.json
 config/embeddium-fingerprint.json
 config/chiselsandbits-common.toml
 config/chiselsandbits-client.toml
-config/jei/ingredient-list-mod-sort-order.ini
 config/quark-common.toml
-
 journeymap/config/5.10/journeymap.minimap.config
 config/openloader/data/CreateVillagersNOCREATIVERECIPES.zip
 config/openloader/data/LessStructures-SpacingTweaks-1.20.1-2.1.56.zip
 config/openloader/data/Origins_Expanded_Foods_v2.7.zip
 config/openloader/data/WDA-NoFlyingStructures-1.18.2-1.19.2.zip
 config/openloader/data/WDA-VanillaLoot-1.18.2-1.19.2-0.0.1.zip
+config/chloride-client.json

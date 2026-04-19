@@ -1,0 +1,16 @@
+#SERVER CONFIGURATION
+#does the domain glyph have a cooldown burnout?
+doDomainBurnout = true
+#does the spell efficiency glyph inflict mana exhaustion?
+doDiscountBacklash = true
+#maximum number of times spell efficiency can appear
+#Range: 0 ~ 10
+maxDiscount = 5
+#maximum number of entities a domain can target every spell cast
+#Range: 1 ~ 100
+maxDomainEntities = 10
+#include community spells for the mysterious mage entity?
+doComMages = false
+#Dimensions where mages will not spawn. Ex: ["minecraft:overworld", "undergarden:undergarden"]. . Run /forge dimensions for a list.
+dimensionBlacklist = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+

@@ -93,14 +93,6 @@
     "curseForgeHash": 1000930585,
     "modrinthHash": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f"
   },
-  "alltheleaks-1.1.1+1.20.1-forge.jar": {
-    "jarName": "alltheleaks-1.1.1+1.20.1-forge.jar",
-    "modId": "alltheleaks",
-    "name": "All The Leaks",
-    "version": "1.1.1+1.20.1-forge",
-    "curseForgeHash": 1225915087,
-    "modrinthHash": "3c43c2e76093dc7ef5ad6e456d20da9674c653aa"
-  },
   "almostunified-forge-1.20.1-0.11.0.jar": {
     "jarName": "almostunified-forge-1.20.1-0.11.0.jar",
     "modId": "almostunified",
@@ -1333,14 +1325,6 @@
     "curseForgeHash": 1548502984,
     "modrinthHash": "88a9ec30e4acb5c80a3ae060ad70b79e945293c6"
   },
-  "CullLessLeaves-Reforged-1.20.1-1.0.5.jar": {
-    "jarName": "CullLessLeaves-Reforged-1.20.1-1.0.5.jar",
-    "modId": "culllessleaves",
-    "name": "Cull Less Leaves Reforged",
-    "version": "1.20.1-1.0.5",
-    "curseForgeHash": 3417341354,
-    "modrinthHash": "71b1603071461e036a3ba2aaeeb52cc10fa3d348"
-  },
   "cupboard-1.20.1-3.7.jar": {
     "jarName": "cupboard-1.20.1-3.7.jar",
     "modId": "cupboard",
@@ -1757,6 +1741,14 @@
     "curseForgeHash": 597355476,
     "modrinthHash": "985eb925a7d8e3d3eca79f7759f59d0af09e3831"
   },
+  "fastasyncworldsave-1.20.1-2.6.jar": {
+    "jarName": "fastasyncworldsave-1.20.1-2.6.jar",
+    "modId": "fastasyncworldsave",
+    "name": "fastasyncworldsave mod",
+    "version": "1.20.1-2.6",
+    "curseForgeHash": 1473382339,
+    "modrinthHash": "3a3180f5fc9d1209ca0ad69084afe8ee42ba44d6"
+  },
   "FasterLadderClimbing-1.20.1-0.2.10.jar": {
     "jarName": "FasterLadderClimbing-1.20.1-0.2.10.jar",
     "modId": "fasterladderclimbing",
@@ -2028,6 +2020,14 @@
     "version": "1.11.5",
     "curseForgeHash": 3878486938,
     "modrinthHash": "12bf1775fae7132c4f10ce3f61122bc0a2f171d6"
+  },
+  "gpumemleakfix-1.20.1-1.8.jar": {
+    "jarName": "gpumemleakfix-1.20.1-1.8.jar",
+    "modId": "gpumemleakfix",
+    "name": "Gpu memory leak fix",
+    "version": "1.20.1-1.8",
+    "curseForgeHash": 686879422,
+    "modrinthHash": "54301c2db5467e0f9f5c504887436f358335331f"
   },
   "guideme-20.1.14.jar": {
     "jarName": "guideme-20.1.14.jar",
@@ -2714,13 +2714,13 @@
     "curseForgeHash": 287662361,
     "modrinthHash": "c7c384d91180b7a37064504a9839fa6f14801224"
   },
-  "moonlight-1.20-2.16.28-forge.jar": {
-    "jarName": "moonlight-1.20-2.16.28-forge.jar",
+  "moonlight-1.20-2.16.30-forge.jar": {
+    "jarName": "moonlight-1.20-2.16.30-forge.jar",
     "modId": "moonlight",
     "name": "Moonlight Library",
-    "version": "1.20-2.16.28",
-    "curseForgeHash": 3281522967,
-    "modrinthHash": "c2def460fc3b99804331228b9ca0e48063578c57"
+    "version": "1.20-2.16.30",
+    "curseForgeHash": 2538281642,
+    "modrinthHash": "1a5dcb87e0391beee9b631a1c8126b7169b521c8"
   },
   "moredragoneggs-4.0.jar": {
     "jarName": "moredragoneggs-4.0.jar",
@@ -3066,13 +3066,13 @@
     "curseForgeHash": 1139186331,
     "modrinthHash": "253f16ac0ed2222be5fcd06703d57e890881fd4d"
   },
-  "projectresonance-1.20.1 v1.5.4.1-forge.jar": {
-    "jarName": "projectresonance-1.20.1 v1.5.4.1-forge.jar",
+  "projectresonance-1.20.1 v1.5.4.3-forge.jar": {
+    "jarName": "projectresonance-1.20.1 v1.5.4.3-forge.jar",
     "modId": "ancientcity",
     "name": "AncientCity",
-    "version": "1.5.4",
-    "curseForgeHash": 726682423,
-    "modrinthHash": "338b8ecb32278c5f0218d94ce95f8bdd7019ced5"
+    "version": "1.5.5",
+    "curseForgeHash": 3231162552,
+    "modrinthHash": "a62d084fe07c5a18e4d8b095c4985e7f439ba8e3"
   },
   "PuzzlesLib-v8.1.33-1.20.1-Forge.jar": {
     "jarName": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
@@ -3113,14 +3113,6 @@
     "version": "0.1.3",
     "curseForgeHash": 1366248117,
     "modrinthHash": "3e7613883e6f356fedb8b91bf9bce8ef40a4c857"
-  },
-  "radium-mc1.20.1-0.12.4+git.26c9d8e.jar": {
-    "jarName": "radium-mc1.20.1-0.12.4+git.26c9d8e.jar",
-    "modId": "radium",
-    "name": "Radium",
-    "version": "0.12.4+git.26c9d8e",
-    "curseForgeHash": 1441086174,
-    "modrinthHash": "f5f5f792473bb7b85ec221f75c5afb3740afb13a"
   },
   "ramcompat-1.20.1-0.1.4.jar": {
     "jarName": "ramcompat-1.20.1-0.1.4.jar",
