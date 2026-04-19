@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Rhythm of the Earth",
+  "description": "Primal beats hasten the hands and spring the step of nearby allies",
+  "color": "CC6633",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 6,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:jump_boost",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_rhythm_of_the_earth.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_rhythm_of_the_earth_selected.png"
+}

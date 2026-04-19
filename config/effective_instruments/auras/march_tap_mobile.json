@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "March Tap",
+  "description": "A marching beat that quickens nearby allies on the road",
+  "color": "B8860B",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 207,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_march_tap_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_march_tap_mobile_selected.png"
+}

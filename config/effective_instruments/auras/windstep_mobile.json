@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Windstep",
+  "description": "A light melody that keeps nearby allies nimble while on the move",
+  "color": "7FDBCA",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 200,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_windstep_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_windstep_mobile_selected.png"
+}

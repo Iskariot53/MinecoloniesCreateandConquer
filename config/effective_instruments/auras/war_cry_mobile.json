@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "War Cry",
+  "description": "A brassy blare demoralizes nearby foes",
+  "color": "5A1F1F",
+  "enabled": true,
+  "durationTicks": 40,
+  "radius": -1,
+  "sortOrder": 406,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_war_cry_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_war_cry_mobile_selected.png"
+}

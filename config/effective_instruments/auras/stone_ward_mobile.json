@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Stone Ward",
+  "description": "A low drone saps the digging strength of nearby foes",
+  "color": "5A3A1F",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 404,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_stone_ward_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_stone_ward_mobile_selected.png"
+}

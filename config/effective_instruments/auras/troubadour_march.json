@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Troubadour\u0027s March",
+  "description": "A bold ballad emboldens nearby allies and sharpens their night sight",
+  "color": "5A3A6E",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 23,
+  "effects": [
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:night_vision",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_troubadour_march.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_troubadour_march_selected.png"
+}

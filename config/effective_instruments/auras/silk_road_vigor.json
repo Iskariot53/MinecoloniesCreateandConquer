@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Silk Road Vigor",
+  "description": "Fierce melodies drive nearby allies to move and strike with vigor",
+  "color": "FF6644",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 10,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_silk_road_vigor.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_silk_road_vigor_selected.png"
+}

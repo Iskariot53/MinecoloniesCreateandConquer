@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Zephyr\u0027s Blessing",
+  "description": "A gentle breeze quickens the step of nearby allies",
+  "color": "7FDBCA",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 0,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_zephyrs_blessing.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_zephyrs_blessing_selected.png"
+}

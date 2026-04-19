@@ -1,0 +1,27 @@
+
+#Overlay settings for instrument screens
+[overlay]
+	#Show aura selector overlay on instrument screens
+	showOverlay = true
+	#Scale factor for the overlay buttons
+	#Range: 0.5 ~ 2.0
+	overlayScale = 1.0
+	#Use compact button layout (smaller icons)
+	compactMode = false
+
+#Screen detection settings
+[screens]
+	#Fallback: fully-qualified class names of screens to treat as instrument screens.
+	#Used for instrument mods that do NOT extend Genshin Instruments' InstrumentScreen.
+	#Genshin Instruments and Even More Instruments screens are detected automatically.
+	screenClassAllowlist = []
+
+#Visual effects settings
+[visuals]
+	#Particle effects when aura is active: ALL, MINIMAL, or NONE
+	#Allowed Values: ALL, MINIMAL, NONE
+	particlesMode = "ALL"
+	#Reduce aura particle motion (dampens velocity and pulse intensity).
+	#Useful for players sensitive to rapid visual motion.
+	reducedMotion = false
+

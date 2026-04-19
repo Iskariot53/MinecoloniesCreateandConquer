@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Smoky Allure",
+  "description": "Charismatic jazz melodies charm villagers into offering better trades",
+  "color": "DAA520",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 11,
+  "effects": [
+    {
+      "effect": "minecraft:hero_of_the_village",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_smoky_allure.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_smoky_allure_selected.png"
+}

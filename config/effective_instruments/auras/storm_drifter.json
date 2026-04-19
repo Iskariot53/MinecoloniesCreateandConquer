@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Storm Drifter",
+  "description": "An angry riff wears down and slows nearby foes",
+  "color": "3A2A5A",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 307,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_storm_drifter.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_storm_drifter_selected.png"
+}

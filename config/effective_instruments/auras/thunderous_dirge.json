@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Thunderous Dirge",
+  "description": "A pounding salvo drains the arms of nearby foes",
+  "color": "4A2A2A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 317,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_thunderous_dirge.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_thunderous_dirge_selected.png"
+}

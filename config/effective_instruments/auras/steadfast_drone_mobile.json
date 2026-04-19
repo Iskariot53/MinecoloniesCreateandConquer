@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Steadfast Drone",
+  "description": "A resolute drone that steels nearby allies against harm",
+  "color": "CC8800",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 205,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:resistance",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_steadfast_drone_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_steadfast_drone_mobile_selected.png"
+}

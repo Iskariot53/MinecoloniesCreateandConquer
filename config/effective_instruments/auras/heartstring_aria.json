@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Heartstring Aria",
+  "description": "A soaring melody that heals and shields nearby allies",
+  "color": "CC4466",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 14,
+  "effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:absorption",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_heartstring_aria.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_heartstring_aria_selected.png"
+}

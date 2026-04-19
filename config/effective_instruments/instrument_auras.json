@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 2,
+  "_comment": "Maps instrument IDs to aura configs. String value \u003d single aura (default + only allowed). Object value \u003d {\"default\": \"aura_id\", \"allowed\": [\"aura1\", \"aura2\"]}. Remove an entry to show all auras for that instrument. Reload with /effectiveinstruments reload.",
+  "evenmoreinstruments:violin": {
+    "default": "heartstring_aria",
+    "allowed": [
+      "heartstring_aria",
+      "dirge_of_grief"
+    ]
+  },
+  "evenmoreinstruments:trombone": {
+    "default": "bulwark_fanfare",
+    "allowed": [
+      "bulwark_fanfare",
+      "obsidian_blast"
+    ]
+  },
+  "genshinstrument:floral_zither": {
+    "default": "bloom_veil",
+    "allowed": [
+      "bloom_veil",
+      "withering_bloom"
+    ]
+  },
+  "evenmoreinstruments:keyboard": {
+    "default": "harmonic_resonance",
+    "allowed": [
+      "harmonic_resonance",
+      "discordant_chord"
+    ]
+  },
+  "evenmoreinstruments:bit_note_block_instrument": {
+    "default": "pixel_pulse",
+    "allowed": [
+      "pixel_pulse",
+      "pixel_rot"
+    ]
+  },
+  "evenmoreinstruments:didgeridoo_note_block_instrument": {
+    "default": "hearthlight_drone",
+    "allowed": [
+      "hearthlight_drone",
+      "hearthshade_dirge"
+    ]
+  },
+  "evenmoreinstruments:flute_note_block_instrument": {
+    "default": "fleetfoot_lilt",
+    "allowed": [
+      "fleetfoot_lilt",
+      "fleetfoot_fall"
+    ]
+  },
+  "evenmoreinstruments:bell_note_block_instrument": {
+    "default": "chiming_revival",
+    "allowed": [
+      "chiming_revival",
+      "tolling_entropy"
+    ]
+  },
+  "evenmoreinstruments:harp_note_block_instrument": {
+    "default": "skyward_zephyr",
+    "allowed": [
+      "skyward_zephyr",
+      "skyward_blight"
+    ]
+  },
+  "evenmoreinstruments:hat_note_block_instrument": {
+    "default": "artisan_tempo",
+    "allowed": [
+      "artisan_tempo",
+      "artisan_curse"
+    ]
+  },
+  "evenmoreinstruments:guitar": {
+    "default": "wanderers_anthem",
+    "allowed": [
+      "wanderers_anthem",
+      "storm_drifter"
+    ]
+  },
+  "evenmoreinstruments:pipa": {
+    "default": "silk_road_vigor",
+    "allowed": [
+      "silk_road_vigor",
+      "winds_of_war"
+    ]
+  },
+  "genshinstrument:ukulele": {
+    "default": "sunkissed_serenade",
+    "allowed": [
+      "sunkissed_serenade",
+      "mischief_melody"
+    ]
+  },
+  "genshinstrument:djem_djem_drum": {
+    "default": "rhythm_of_the_earth",
+    "allowed": [
+      "rhythm_of_the_earth",
+      "earth_tremor"
+    ]
+  },
+  "evenmoreinstruments:basedrum_note_block_instrument": {
+    "default": "thunderous_cadence",
+    "allowed": [
+      "thunderous_cadence",
+      "thunderous_dirge"
+    ]
+  },
+  "evenmoreinstruments:chime_note_block_instrument": {
+    "default": "starlit_grace",
+    "allowed": [
+      "starlit_grace",
+      "starlit_malice"
+    ]
+  },
+  "evenmoreinstruments:pling_note_block_instrument": {
+    "default": "bellwether_toll",
+    "allowed": [
+      "bellwether_toll",
+      "bellwether_rot"
+    ]
+  },
+  "evenmoreinstruments:snare_note_block_instrument": {
+    "default": "drumline_vigor",
+    "allowed": [
+      "drumline_vigor",
+      "drumline_blight"
+    ]
+  },
+  "evenmoreinstruments:saxophone": {
+    "default": "smoky_allure",
+    "allowed": [
+      "smoky_allure",
+      "bleeding_note"
+    ]
+  },
+  "evenmoreinstruments:iron_xylophone_note_block_instrument": {
+    "default": "ironwright_anthem",
+    "allowed": [
+      "ironwright_anthem",
+      "ironwright_curse"
+    ]
+  },
+  "evenmoreinstruments:koto": {
+    "default": "tranquil_current",
+    "allowed": [
+      "tranquil_current",
+      "fathomless_pull"
+    ]
+  },
+  "genshinstrument:nightwind_horn": {
+    "default": "moonlit_passage",
+    "allowed": [
+      "moonlit_passage",
+      "ebon_dirge"
+    ]
+  },
+  "evenmoreinstruments:xylophone_note_block_instrument": {
+    "default": "craftwork_rondo",
+    "allowed": [
+      "craftwork_rondo",
+      "craftwork_rot"
+    ]
+  },
+  "genshinstrument:windsong_lyre": {
+    "default": "zephyrs_blessing",
+    "allowed": [
+      "zephyrs_blessing",
+      "zephyrs_wrath"
+    ]
+  },
+  "genshinstrument:glorious_drum": {
+    "default": "warcry_cadence",
+    "allowed": [
+      "warcry_cadence",
+      "battle_fanfare"
+    ]
+  },
+  "evenmoreinstruments:guitar_note_block_instrument": {
+    "default": "troubadour_march",
+    "allowed": [
+      "troubadour_march",
+      "troubadour_dirge"
+    ]
+  },
+  "evenmoreinstruments:cow_bell_note_block_instrument": {
+    "default": "pasture_serenade",
+    "allowed": [
+      "pasture_serenade",
+      "pasture_rot"
+    ]
+  },
+  "evenmoreinstruments:bass_note_block_instrument": {
+    "default": "rumbling_anthem",
+    "allowed": [
+      "rumbling_anthem",
+      "rumbling_curse"
+    ]
+  },
+  "evenmoreinstruments:banjo_note_block_instrument": {
+    "default": "wayfinders_reel",
+    "allowed": [
+      "wayfinders_reel",
+      "wayfinders_lament"
+    ]
+  },
+  "evenmoreinstruments:shamisen": {
+    "default": "ghost_flame",
+    "allowed": [
+      "ghost_flame",
+      "spectral_wail"
+    ]
+  },
+  "genshinstrument:vintage_lyre": {
+    "default": "echoes_of_antiquity",
+    "allowed": [
+      "echoes_of_antiquity",
+      "echoes_of_decay"
+    ]
+  }
+}

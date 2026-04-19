@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Gale Shock",
+  "description": "A sharp whistle stumbles nearby foes",
+  "color": "2E4A5E",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 400,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_gale_shock_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_gale_shock_mobile_selected.png"
+}

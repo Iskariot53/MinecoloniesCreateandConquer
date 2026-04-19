@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Ebon Dirge",
+  "description": "A discordant funeral horn blinds and sickens nearby foes",
+  "color": "2B1F4A",
+  "enabled": true,
+  "durationTicks": 120,
+  "radius": -1,
+  "sortOrder": 304,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_ebon_dirge.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_ebon_dirge_selected.png"
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Echoes of Antiquity",
+  "description": "Ancient melodies mend the wounds of nearby allies",
+  "color": "D4A574",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 1,
+  "effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_echoes_of_antiquity.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_echoes_of_antiquity_selected.png"
+}

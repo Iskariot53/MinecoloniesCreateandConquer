@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Wanderer\u0027s Anthem",
+  "description": "Quickens stride and lightens step for nearby allies",
+  "color": "B8860B",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 7,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:jump_boost",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_wanderers_anthem.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_wanderers_anthem_selected.png"
+}

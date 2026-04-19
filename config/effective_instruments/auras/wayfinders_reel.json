@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Wayfinder\u0027s Reel",
+  "description": "A lively banjo reel quickens nearby allies and brings fortune",
+  "color": "CC9933",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 29,
+  "effects": [
+    {
+      "effect": "minecraft:luck",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_wayfinders_reel.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_wayfinders_reel_selected.png"
+}

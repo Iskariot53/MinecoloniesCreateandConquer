@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Skyward Blight",
+  "description": "An ill wind dulls the wits of nearby foes",
+  "color": "3A4A6E",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 315,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_skyward_blight.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_skyward_blight_selected.png"
+}

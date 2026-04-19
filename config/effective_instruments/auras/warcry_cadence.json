@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Warcry Cadence",
+  "description": "Emboldens nearby allies with strength and resilience",
+  "color": "FF4422",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 3,
+  "effects": [
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:resistance",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_warcry_cadence.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_warcry_cadence_selected.png"
+}

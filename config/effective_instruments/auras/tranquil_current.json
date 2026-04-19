@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Tranquil Current",
+  "description": "Flowing tones grant water breathing and aquatic grace to nearby allies",
+  "color": "44AACC",
+  "enabled": true,
+  "durationTicks": 260,
+  "radius": -1,
+  "sortOrder": 9,
+  "effects": [
+    {
+      "effect": "minecraft:water_breathing",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:dolphins_grace",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_tranquil_current.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_tranquil_current_selected.png"
+}

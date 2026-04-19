@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Fleetfoot Lilt",
+  "description": "A dancing flute-line lightens the step and speeds nearby allies",
+  "color": "9FE5B3",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 22,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:slow_falling",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_fleetfoot_lilt.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_fleetfoot_lilt_selected.png"
+}

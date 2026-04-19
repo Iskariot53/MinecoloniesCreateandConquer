@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Pasture Serenade",
+  "description": "A warm cow-bell jingle mends and brings fortune to nearby allies",
+  "color": "D9A43C",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 26,
+  "effects": [
+    {
+      "effect": "minecraft:luck",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_pasture_serenade.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_pasture_serenade_selected.png"
+}

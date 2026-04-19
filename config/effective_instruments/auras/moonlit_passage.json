@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Moonlit Passage",
+  "description": "Grants night sight and safe descent to nearby allies",
+  "color": "6644BB",
+  "enabled": true,
+  "durationTicks": 260,
+  "radius": -1,
+  "sortOrder": 4,
+  "effects": [
+    {
+      "effect": "minecraft:night_vision",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:slow_falling",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_moonlit_passage.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_moonlit_passage_selected.png"
+}

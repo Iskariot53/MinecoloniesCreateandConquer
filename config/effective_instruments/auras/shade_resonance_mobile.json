@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Shade Resonance",
+  "description": "A deep, cool resonance that shields nearby allies from flame",
+  "color": "88CCFF",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 210,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:fire_resistance",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_shade_resonance_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_shade_resonance_mobile_selected.png"
+}

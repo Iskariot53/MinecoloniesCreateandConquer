@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Bellwether Toll",
+  "description": "A resonant pling sharpens night sight and quickens the hands of nearby allies",
+  "color": "8F8FFF",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 30,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:night_vision",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_bellwether_toll.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_bellwether_toll_selected.png"
+}

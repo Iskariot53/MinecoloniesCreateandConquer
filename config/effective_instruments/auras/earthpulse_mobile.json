@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Earthpulse",
+  "description": "A deep drone that lightens the step of nearby allies",
+  "color": "CC6633",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 204,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:jump_boost",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_earthpulse_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_earthpulse_mobile_selected.png"
+}

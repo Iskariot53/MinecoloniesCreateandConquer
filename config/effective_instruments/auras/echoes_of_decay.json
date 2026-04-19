@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Echoes of Decay",
+  "description": "Funerary notes wither and tire nearby foes",
+  "color": "4A3A4A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 301,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_echoes_of_decay.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_echoes_of_decay_selected.png"
+}

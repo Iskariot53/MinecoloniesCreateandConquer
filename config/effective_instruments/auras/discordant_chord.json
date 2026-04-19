@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Discordant Chord",
+  "description": "An unsettling chord slows and saps the stamina of nearby foes",
+  "color": "3A3A4A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 308,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:hunger",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_discordant_chord.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_discordant_chord_selected.png"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Starlit Grace",
+  "description": "A shimmering chime sharpens night sight and aquatic grace for nearby allies",
+  "color": "AACCFF",
+  "enabled": true,
+  "durationTicks": 260,
+  "radius": -1,
+  "sortOrder": 21,
+  "effects": [
+    {
+      "effect": "minecraft:night_vision",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:dolphins_grace",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_starlit_grace.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_starlit_grace_selected.png"
+}

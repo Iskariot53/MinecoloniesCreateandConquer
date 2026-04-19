@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Spectral Wail",
+  "description": "A ghostly cry nauseates nearby foes",
+  "color": "3A4A4A",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 312,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 2
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_spectral_wail.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_spectral_wail_selected.png"
+}

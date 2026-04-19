@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Hearthshade Dirge",
+  "description": "A hollow drone blinds and withers nearby foes",
+  "color": "2A1A1A",
+  "enabled": true,
+  "durationTicks": 120,
+  "radius": -1,
+  "sortOrder": 327,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_hearthshade_dirge.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_hearthshade_dirge_selected.png"
+}

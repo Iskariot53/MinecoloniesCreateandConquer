@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Starlit Malice",
+  "description": "A cold chime blinds and sickens nearby foes",
+  "color": "2A2A4A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 321,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_starlit_malice.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_starlit_malice_selected.png"
+}

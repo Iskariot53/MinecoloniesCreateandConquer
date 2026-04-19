@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Troubadour\u0027s Dirge",
+  "description": "A mournful strum blinds and weakens nearby foes",
+  "color": "4A2A4A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 323,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_troubadour_dirge.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_troubadour_dirge_selected.png"
+}

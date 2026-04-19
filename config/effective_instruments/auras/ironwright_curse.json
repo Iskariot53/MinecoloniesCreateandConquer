@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Ironwright\u0027s Curse",
+  "description": "A leaden toll dulls arms and hands of nearby foes",
+  "color": "2A2A2A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 325,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_ironwright_curse.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_ironwright_curse_selected.png"
+}

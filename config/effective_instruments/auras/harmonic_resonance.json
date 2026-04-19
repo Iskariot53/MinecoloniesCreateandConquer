@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Harmonic Resonance",
+  "description": "Precise harmonies restore and energize nearby allies",
+  "color": "EEEEFF",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 8,
+  "effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_harmonic_resonance.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_harmonic_resonance_selected.png"
+}

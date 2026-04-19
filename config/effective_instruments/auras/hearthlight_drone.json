@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Hearthlight Drone",
+  "description": "A warming drone sharpens night sight and shields from flame for nearby allies",
+  "color": "FF8844",
+  "enabled": true,
+  "durationTicks": 260,
+  "radius": -1,
+  "sortOrder": 27,
+  "effects": [
+    {
+      "effect": "minecraft:night_vision",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:fire_resistance",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_hearthlight_drone.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_hearthlight_drone_selected.png"
+}

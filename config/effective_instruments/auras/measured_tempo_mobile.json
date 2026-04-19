@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Measured Tempo",
+  "description": "A steady rhythm that quickens the hands of nearby allies",
+  "color": "EEEEFF",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 202,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_measured_tempo_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_measured_tempo_mobile_selected.png"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "War Drum",
+  "description": "A steady beat tires nearby foes",
+  "color": "7A6A1A",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 407,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_war_drum_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_war_drum_mobile_selected.png"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Echoing Chill",
+  "description": "A soft tinkle unnerves nearby foes",
+  "color": "2B1F4A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 408,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_echoing_chill_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_echoing_chill_mobile_selected.png"
+}

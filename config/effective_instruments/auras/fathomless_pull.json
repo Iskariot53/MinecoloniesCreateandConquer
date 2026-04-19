@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Fathomless Pull",
+  "description": "Deep resonance drags nearby foes into dizzying currents",
+  "color": "1F3A5A",
+  "enabled": true,
+  "durationTicks": 120,
+  "radius": -1,
+  "sortOrder": 309,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_fathomless_pull.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_fathomless_pull_selected.png"
+}

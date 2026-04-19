@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Sunkissed Serenade",
+  "description": "Fortune favors nearby allies with improved luck",
+  "color": "FFDD44",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 5,
+  "effects": [
+    {
+      "effect": "minecraft:luck",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_sunkissed_serenade.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_sunkissed_serenade_selected.png"
+}

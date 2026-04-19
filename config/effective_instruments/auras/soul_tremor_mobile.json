@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Soul Tremor",
+  "description": "A dark pulse withers nearby foes",
+  "color": "1A1A2A",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 410,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_soul_tremor_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_soul_tremor_mobile_selected.png"
+}

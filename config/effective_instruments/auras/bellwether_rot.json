@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Bellwether Rot",
+  "description": "A tolling pling blinds and dulls the arms of nearby foes",
+  "color": "3A2A3A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 330,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_bellwether_rot.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_bellwether_rot_selected.png"
+}

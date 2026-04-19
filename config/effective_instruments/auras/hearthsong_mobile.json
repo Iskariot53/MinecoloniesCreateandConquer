@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Hearthsong",
+  "description": "A warm hearth-song that slowly mends nearby allies",
+  "color": "CC4466",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 203,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_hearthsong_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_hearthsong_mobile_selected.png"
+}

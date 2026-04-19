@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Battle Fanfare",
+  "description": "A concussive war beat weakens and slows nearby foes",
+  "color": "7A1F1F",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 303,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_battle_fanfare.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_battle_fanfare_selected.png"
+}

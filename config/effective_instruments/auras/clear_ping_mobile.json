@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Clear Ping",
+  "description": "A pure tone that sharpens night-sight for nearby allies",
+  "color": "6644BB",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 208,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:night_vision",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_clear_ping_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_clear_ping_mobile_selected.png"
+}

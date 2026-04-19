@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Zephyr\u0027s Wrath",
+  "description": "A howling headwind slows and weakens nearby foes",
+  "color": "2E4A5E",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 300,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_zephyrs_wrath.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_zephyrs_wrath_selected.png"
+}

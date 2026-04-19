@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Artisan\u0027s Curse",
+  "description": "A shrill hat-strike disorients and tires nearby foes",
+  "color": "3A3A1F",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 319,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_artisan_curse.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_artisan_curse_selected.png"
+}

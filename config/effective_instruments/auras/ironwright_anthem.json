@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Ironwright Anthem",
+  "description": "A tempered xylophone toll braces and quickens nearby allies",
+  "color": "B0B8C0",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 25,
+  "effects": [
+    {
+      "effect": "minecraft:resistance",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_ironwright_anthem.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_ironwright_anthem_selected.png"
+}

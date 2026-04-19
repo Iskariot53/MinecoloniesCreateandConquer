@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "_comment": "Per-instrument durability. Each entry: {maxDurability, repairMaterial, repairPerUnit}. Remove an entry to fall back to the server-config defaultMax; set repairMaterial to \"\" to disable anvil-material repair. Reload with /effectiveinstruments reload.",
+  "instruments": {
+    "genshinstrument:windsong_lyre": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:phantom_membrane",
+      "repairPerUnit": 240
+    },
+    "genshinstrument:vintage_lyre": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:gold_ingot",
+      "repairPerUnit": 240
+    },
+    "genshinstrument:floral_zither": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 240
+    },
+    "genshinstrument:glorious_drum": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 320
+    },
+    "genshinstrument:nightwind_horn": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:ender_pearl",
+      "repairPerUnit": 240
+    },
+    "genshinstrument:ukulele": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 160
+    },
+    "genshinstrument:djem_djem_drum": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 320
+    },
+    "evenmoreinstruments:guitar": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:keyboard": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:redstone",
+      "repairPerUnit": 320
+    },
+    "evenmoreinstruments:koto": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:pipa": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:saxophone": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:copper_ingot",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:shamisen": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:trombone": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:copper_ingot",
+      "repairPerUnit": 320
+    },
+    "evenmoreinstruments:violin": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:harp_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:bass_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:basedrum_note_block_instrument": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 320
+    },
+    "evenmoreinstruments:snare_note_block_instrument": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 320
+    },
+    "evenmoreinstruments:hat_note_block_instrument": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 160
+    },
+    "evenmoreinstruments:bell_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:gold_ingot",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:chime_note_block_instrument": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:iron_ingot",
+      "repairPerUnit": 160
+    },
+    "evenmoreinstruments:flute_note_block_instrument": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:feather",
+      "repairPerUnit": 160
+    },
+    "evenmoreinstruments:guitar_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:xylophone_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:copper_ingot",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:iron_xylophone_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:iron_ingot",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:cow_bell_note_block_instrument": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:copper_ingot",
+      "repairPerUnit": 160
+    },
+    "evenmoreinstruments:didgeridoo_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:bamboo",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:bit_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:redstone",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:banjo_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "evenmoreinstruments:pling_note_block_instrument": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:redstone",
+      "repairPerUnit": 240
+    },
+    "immersive_melodies:flute": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:feather",
+      "repairPerUnit": 160
+    },
+    "immersive_melodies:lute": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "immersive_melodies:piano": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:redstone",
+      "repairPerUnit": 320
+    },
+    "immersive_melodies:vielle": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:string",
+      "repairPerUnit": 240
+    },
+    "immersive_melodies:didgeridoo": {
+      "maxDurability": 1200,
+      "repairMaterial": "minecraft:bamboo",
+      "repairPerUnit": 240
+    },
+    "immersive_melodies:bagpipe": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 320
+    },
+    "immersive_melodies:trumpet": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:copper_ingot",
+      "repairPerUnit": 320
+    },
+    "immersive_melodies:tiny_drum": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:leather",
+      "repairPerUnit": 160
+    },
+    "immersive_melodies:triangle": {
+      "maxDurability": 800,
+      "repairMaterial": "minecraft:iron_ingot",
+      "repairPerUnit": 160
+    },
+    "immersive_melodies:handpan": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:iron_ingot",
+      "repairPerUnit": 320
+    },
+    "immersive_melodies:ender_bass": {
+      "maxDurability": 1600,
+      "repairMaterial": "minecraft:ender_pearl",
+      "repairPerUnit": 320
+    }
+  }
+}

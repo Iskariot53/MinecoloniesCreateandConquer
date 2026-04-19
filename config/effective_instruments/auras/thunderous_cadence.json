@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Thunderous Cadence",
+  "description": "A pounding drum fuels the arms and hands of nearby allies",
+  "color": "CC3300",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 17,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_thunderous_cadence.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_thunderous_cadence_selected.png"
+}

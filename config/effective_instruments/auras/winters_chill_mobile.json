@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Winter\u0027s Chill",
+  "description": "A cold warble chills the feet of nearby foes",
+  "color": "1F3A5A",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 403,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_winters_chill_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_winters_chill_mobile_selected.png"
+}

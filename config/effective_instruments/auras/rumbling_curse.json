@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Rumbling Curse",
+  "description": "A low groan weakens and starves nearby foes",
+  "color": "3A2A1F",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 316,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:hunger",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_rumbling_curse.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_rumbling_curse_selected.png"
+}

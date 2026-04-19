@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Brass Call",
+  "description": "A brassy call that emboldens nearby allies to strike harder",
+  "color": "FF6644",
+  "enabled": true,
+  "durationTicks": 40,
+  "radius": -1,
+  "sortOrder": 206,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_brass_call_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_brass_call_mobile_selected.png"
+}

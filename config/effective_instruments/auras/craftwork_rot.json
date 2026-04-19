@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Craftwork Rot",
+  "description": "A brittle xylophone run saps hunger and strength from nearby foes",
+  "color": "3A3A2A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 324,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:hunger",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_craftwork_rot.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_craftwork_rot_selected.png"
+}

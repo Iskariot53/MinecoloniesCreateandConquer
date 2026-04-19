@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Traveler\u0027s Hum",
+  "description": "A wandering tune that stirs fortune for travellers nearby",
+  "color": "D4A574",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 201,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:luck",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_traveler_hum_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_traveler_hum_mobile_selected.png"
+}

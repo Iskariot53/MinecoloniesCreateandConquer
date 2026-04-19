@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Drumline Vigor",
+  "description": "A sharp snare cadence sets a higher gear for nearby allies",
+  "color": "D2B48C",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 18,
+  "effects": [
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:jump_boost",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_drumline_vigor.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_drumline_vigor_selected.png"
+}

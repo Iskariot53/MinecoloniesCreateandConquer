@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Skyward Zephyr",
+  "description": "A bright noteplume quickens nearby allies and sharpens their luck",
+  "color": "B4D8FF",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 15,
+  "effects": [
+    {
+      "effect": "minecraft:luck",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:speed",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_skyward_zephyr.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_skyward_zephyr_selected.png"
+}

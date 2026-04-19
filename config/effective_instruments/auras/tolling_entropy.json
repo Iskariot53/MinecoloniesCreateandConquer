@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Tolling Entropy",
+  "description": "A funeral bell withers and drains nearby foes",
+  "color": "4A3A2A",
+  "enabled": true,
+  "durationTicks": 120,
+  "radius": -1,
+  "sortOrder": 320,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_tolling_entropy.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_tolling_entropy_selected.png"
+}

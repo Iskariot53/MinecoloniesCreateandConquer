@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Mischief Melody",
+  "description": "A jinxing tune blinds and poisons nearby foes",
+  "color": "7A6A1A",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 305,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:poison",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_mischief_melody.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_mischief_melody_selected.png"
+}

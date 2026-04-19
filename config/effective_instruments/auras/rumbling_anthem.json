@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Rumbling Anthem",
+  "description": "A deep bassline emboldens and feeds nearby allies",
+  "color": "8B4513",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 16,
+  "effects": [
+    {
+      "effect": "minecraft:saturation",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_rumbling_anthem.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_rumbling_anthem_selected.png"
+}

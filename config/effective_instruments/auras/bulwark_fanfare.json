@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Bulwark Fanfare",
+  "description": "Triumphant brass fortifies and shields nearby allies",
+  "color": "CC8800",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 13,
+  "effects": [
+    {
+      "effect": "minecraft:resistance",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:absorption",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_bulwark_fanfare.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_bulwark_fanfare_selected.png"
+}

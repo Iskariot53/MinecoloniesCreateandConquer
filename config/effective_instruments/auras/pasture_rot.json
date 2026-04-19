@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Pasture Rot",
+  "description": "A sour cow-bell jangles and sickens nearby foes",
+  "color": "4A3A1F",
+  "enabled": true,
+  "durationTicks": 120,
+  "radius": -1,
+  "sortOrder": 326,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_pasture_rot.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_pasture_rot_selected.png"
+}

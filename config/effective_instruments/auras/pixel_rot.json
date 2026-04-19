@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Pixel Rot",
+  "description": "A jagged bit-run tires and slows nearby foes",
+  "color": "3A3A3A",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 328,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_pixel_rot.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_pixel_rot_selected.png"
+}

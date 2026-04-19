@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Earth Tremor",
+  "description": "A rumbling earth-beat slows and fatigues nearby foes",
+  "color": "5A3A1F",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 306,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:mining_fatigue",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_earth_tremor.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_earth_tremor_selected.png"
+}

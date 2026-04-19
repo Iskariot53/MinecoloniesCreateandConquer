@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Ghost Flame",
+  "description": "Spectral fire shields from flame and emboldens nearby allies",
+  "color": "88CCFF",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 12,
+  "effects": [
+    {
+      "effect": "minecraft:fire_resistance",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:strength",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_ghost_flame.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_ghost_flame_selected.png"
+}

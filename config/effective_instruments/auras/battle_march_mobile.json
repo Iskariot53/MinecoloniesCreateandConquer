@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Battle March",
+  "description": "A discordant drone imposes weariness on nearby foes",
+  "color": "7A1F1F",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 405,
+  "polarity": "negative",
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": false,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_battle_march_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_battle_march_mobile_selected.png"
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Chiming Revival",
+  "description": "Bright bells mend and win the goodwill of villagers for nearby allies",
+  "color": "FFE066",
+  "enabled": true,
+  "durationTicks": 200,
+  "radius": -1,
+  "sortOrder": 20,
+  "effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:hero_of_the_village",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_chiming_revival.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_chiming_revival_selected.png"
+}

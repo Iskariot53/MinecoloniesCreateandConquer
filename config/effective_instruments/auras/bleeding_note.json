@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Bleeding Note",
+  "description": "A piercing jazz note disorients nearby foes",
+  "color": "5A4A1F",
+  "enabled": true,
+  "durationTicks": 60,
+  "radius": -1,
+  "sortOrder": 311,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:weakness",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:levitation",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_bleeding_note.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_bleeding_note_selected.png"
+}

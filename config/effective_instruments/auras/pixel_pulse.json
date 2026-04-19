@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Pixel Pulse",
+  "description": "A staccato bit-run quickens the hands and springs the step of nearby allies",
+  "color": "66DDAA",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 28,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:jump_boost",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_pixel_pulse.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_pixel_pulse_selected.png"
+}

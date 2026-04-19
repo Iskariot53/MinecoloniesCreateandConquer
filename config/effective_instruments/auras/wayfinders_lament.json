@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Wayfinder\u0027s Lament",
+  "description": "A sour banjo-twang disorients and slows nearby foes",
+  "color": "4A3A1A",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 329,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:nausea",
+      "amplifier": 1
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 1
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_wayfinders_lament.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_wayfinders_lament_selected.png"
+}

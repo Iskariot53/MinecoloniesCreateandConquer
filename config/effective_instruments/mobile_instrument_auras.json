@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 2,
+  "_comment": "Maps Immersive Melodies instrument item IDs to mobile-tier passive aura configs. String value \u003d single aura (default + only allowed). Object value \u003d {\"default\": \"aura_id\", \"allowed\": [\"positive\", \"offensive\"]}. In 1.4.0 only \u0027default\u0027 is honored at runtime; \u0027allowed\u0027 is reserved for future UI. Reload with /effectiveinstruments reload. No-ops when Immersive Melodies is not installed.",
+  "immersive_melodies:flute": {
+    "default": "windstep_mobile",
+    "allowed": [
+      "windstep_mobile",
+      "gale_shock_mobile"
+    ]
+  },
+  "immersive_melodies:lute": {
+    "default": "traveler_hum_mobile",
+    "allowed": [
+      "traveler_hum_mobile",
+      "calamitys_chant_mobile"
+    ]
+  },
+  "immersive_melodies:piano": {
+    "default": "measured_tempo_mobile",
+    "allowed": [
+      "measured_tempo_mobile",
+      "iron_hammer_mobile"
+    ]
+  },
+  "immersive_melodies:vielle": {
+    "default": "hearthsong_mobile",
+    "allowed": [
+      "hearthsong_mobile",
+      "winters_chill_mobile"
+    ]
+  },
+  "immersive_melodies:didgeridoo": {
+    "default": "earthpulse_mobile",
+    "allowed": [
+      "earthpulse_mobile",
+      "stone_ward_mobile"
+    ]
+  },
+  "immersive_melodies:bagpipe": {
+    "default": "steadfast_drone_mobile",
+    "allowed": [
+      "steadfast_drone_mobile",
+      "battle_march_mobile"
+    ]
+  },
+  "immersive_melodies:trumpet": {
+    "default": "brass_call_mobile",
+    "allowed": [
+      "brass_call_mobile",
+      "war_cry_mobile"
+    ]
+  },
+  "immersive_melodies:tiny_drum": {
+    "default": "march_tap_mobile",
+    "allowed": [
+      "march_tap_mobile",
+      "war_drum_mobile"
+    ]
+  },
+  "immersive_melodies:triangle": {
+    "default": "clear_ping_mobile",
+    "allowed": [
+      "clear_ping_mobile",
+      "echoing_chill_mobile"
+    ]
+  },
+  "immersive_melodies:handpan": {
+    "default": "stillwater_mobile",
+    "allowed": [
+      "stillwater_mobile",
+      "abyssal_rattle_mobile"
+    ]
+  },
+  "immersive_melodies:ender_bass": {
+    "default": "shade_resonance_mobile",
+    "allowed": [
+      "shade_resonance_mobile",
+      "soul_tremor_mobile"
+    ]
+  }
+}

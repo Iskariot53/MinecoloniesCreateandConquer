@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Artisan Tempo",
+  "description": "A crisp hi-hat quickens the hands and fortune of nearby allies",
+  "color": "E0E0E0",
+  "enabled": true,
+  "durationTicks": 160,
+  "radius": -1,
+  "sortOrder": 19,
+  "effects": [
+    {
+      "effect": "minecraft:haste",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:luck",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_artisan_tempo.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_artisan_tempo_selected.png"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Winds of War",
+  "description": "A harsh war-chant withers nearby foes",
+  "color": "5A1F1F",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 310,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:wither",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_winds_of_war.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_winds_of_war_selected.png"
+}

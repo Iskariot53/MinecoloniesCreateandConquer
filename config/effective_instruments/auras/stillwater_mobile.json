@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Stillwater",
+  "description": "A tranquil resonance that lets nearby allies breathe underwater",
+  "color": "44AACC",
+  "enabled": true,
+  "durationTicks": 100,
+  "radius": -1,
+  "sortOrder": 209,
+  "tiers": [
+    "mobile"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:water_breathing",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_stillwater_mobile.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_stillwater_mobile_selected.png"
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "displayName": "Fleetfoot Fall",
+  "description": "A swooning trill unsteadies and lifts nearby foes",
+  "color": "3A3A5A",
+  "enabled": true,
+  "durationTicks": 80,
+  "radius": -1,
+  "sortOrder": 322,
+  "polarity": "negative",
+  "tiers": [
+    "stationary"
+  ],
+  "showInSelector": true,
+  "effects": [
+    {
+      "effect": "minecraft:levitation",
+      "amplifier": 0
+    },
+    {
+      "effect": "minecraft:slowness",
+      "amplifier": 0
+    }
+  ],
+  "icon": "effectiveinstruments:textures/gui/aura_fleetfoot_fall.png",
+  "iconSelected": "effectiveinstruments:textures/gui/aura_fleetfoot_fall_selected.png"
+}
