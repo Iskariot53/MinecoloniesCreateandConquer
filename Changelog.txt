@@ -97,6 +97,7 @@ Mods Updated
 - ImmediatelyFast
 - Immersive Optimization
 - Immersive Paintings
+- Industrial Foregoing
 - Integrated API
 - Integrated Dungeons and Structures
 - Integrated Villages
@@ -148,6 +149,8 @@ Changes
 
 - General performance and optimization tweaks.
 - Fixed a crash that occured whenever a fruit fell from a tree on a player's head.
+- Fixed IF Infinity Nuke explosion calculation not being thread safe.
+- Fixed Architect's Cutter not working with some blocks.
 - Added some new Chickens as well as fixed some of their recipes.
 - General recipe and tooltips fixes.
 - Added a new MineColonies style pack centered on reclaiming the Ancient City.
