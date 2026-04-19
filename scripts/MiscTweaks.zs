@@ -1250,45 +1250,6 @@ craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_looting>);
 craftingTable.remove(<item:mob_grinding_utils:saw_upgrade_sharpness>);
 craftingTable.remove(<item:mob_grinding_utils:entity_spawner>);
 
-craftingTable.remove(<item:tarotcards:tarot_deck>);
-<recipetype:ars_nouveau:enchanting_apparatus>.addJsonRecipe("tarotcards.tarot_deck", {
-  "type": "ars_nouveau:enchanting_apparatus",
-  "output": {
-	"item": "tarotcards:tarot_deck"
-	},
-  "pedestalItems": [   
-    {
-        "tag": "tarotcards:tarot_cards"
-    },
-    {
-        "item": "ars_elemental:mark_of_mastery"
-	},
-    {
-        "tag": "tarotcards:tarot_cards"
-    },
-    {
-        "item": "bloodmagic:sigilofholding"
-    },
-    {
-        "item": "botania:bauble_box"
-    },
-    {
-        "item": "bloodmagic:sigilofholding"
-	},
-    {
-        "tag": "tarotcards:tarot_cards"
-    },
-    {
-        "item": "ars_elemental:mark_of_mastery"
-    }
-  ],
-  "reagent": [
-	{
-		"item": "minecraft:nether_star"
-	}
-  ],
-  "sourceCost": 10000
-});
 
 craftingTable.remove(<item:minecraft:bookshelf>);
 
