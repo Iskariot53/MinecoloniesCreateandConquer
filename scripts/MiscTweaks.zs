@@ -2009,3 +2009,7 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
 craftingTable.remove(<item:rarcompat:mimi_dust>);
 
 craftingTable.addShapeless("resonance_guide", <item:patchouli:guide_book>.withTag({"patchouli:book": "ancientcity:resonanceguide"}), [<item:minecraft:book>, <item:minecolonies:blockhuttownhall>]);
+
+craftingTable.addShaped("acacia_sail", <item:create_things_and_misc:acacia_sail> * 2,
+[[<item:minecraft:acacia_planks>, <item:minecraft:stick>],
+[<item:minecraft:stick>, <item:create:andesite_alloy>]]);
