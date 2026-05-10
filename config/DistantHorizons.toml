@@ -1,13 +1,14 @@
-_version = 3
+_version = 4
 
 [client]
 	#
 	# Should Distant Horizon's config button appear in Minecraft's options screen next to the fov slider?
 	showDhOptionsButtonInMinecraftUi = true
 
-	[client.advanced]
-
 		[client.advanced.graphics]
+			#
+			# Enable Screen Space Ambient Occlusion
+			enableSsao = true
 			#
 			# If true some vanilla graphics settings will be automatically changed 
 			# during DH setup to provide a better experience. 
@@ -66,10 +67,6 @@ _version = 3
 				# False: skipped blocks will not change color of surface below them.
 				tintWithAvoidedBlocks = true
 				#
-				# What value should vanilla Minecraft's texture LodBias be? 
-				# If set to 0 the mod wont overwrite vanilla's default (which so happens to also be 0)
-				lodBias = "0.0"
-				#
 				# How should LODs be shaded? 
 				# 
 				# AUTO: Uses the same side shading as vanilla Minecraft blocks. 
@@ -123,37 +120,6 @@ _version = 3
 				#     '2' equals to Vanilla Biome Blending of '5x5'...
 				lodBiomeBlending = 3
 
-			[client.advanced.graphics.ssao]
-				#
-				# Enable Screen Space Ambient Occlusion
-				enableSsao = true
-				#
-				# Determines how many points in space are sampled for the occlusion test. 
-				# Higher numbers will improve quality and reduce banding, but will increase GPU load.
-				sampleCount = 6
-				#
-				# Determines the radius Screen Space Ambient Occlusion is applied, measured in blocks.
-				radius = "4.0"
-				#
-				# Determines how dark the Screen Space Ambient Occlusion effect will be.
-				strength = "0.2"
-				#
-				# Increasing the value can reduce banding at the cost of reducing the strength of the effect.
-				bias = "0.02"
-				#
-				# Determines how dark the occlusion shadows can be. 
-				# 0 = totally black at the corners 
-				# 1 = no shadow
-				minLight = "0.25"
-				#
-				# The radius, measured in pixels, that blurring is calculated for the SSAO. 
-				# Higher numbers will reduce banding at the cost of GPU performance.
-				blurRadius = 2
-				#
-				# The distance in blocks from the camera where the SSAO will fade out to. 
-				# This is done to prevent banding and noise at extreme distances.
-				fadeDistanceInBlocks = 1600
-
 			[client.advanced.graphics.genericRendering]
 				#
 				# If true non terrain objects will be rendered in DH's terrain. 
@@ -166,12 +132,20 @@ _version = 3
 				# Sets the maximum height at which beacons will render.This will only affect new beacons coming into LOD render distance.Beacons currently visible in LOD chunks will not be affected.
 				beaconRenderHeight = 6000
 				#
+				# If true LOD beacon beams will be rendered wider at extreme distances, 
+				# making them easier to see. 
+				# If false all LOD beacon beams will only ever be 1 block wide.
+				expandDistantBeacons = true
+				#
 				# If true LOD clouds will be rendered.
 				enableCloudRendering = true
 				#
-				# Can be disabled to use much slower but more compatible direct rendering. 
-				# Disabling this can be used to fix some crashes on Mac.
-				enableInstancedRendering = true
+				# A comma separated separated list of dimension resource locations where DH clouds will render.
+				# 
+				# Example: "minecraft:overworld,minecraft:the_end"
+				# 
+				# Changes will only be seen when the world is re-loaded.
+				dimensionEnabledCloudRenderingCsv = "minecraft:overworld"
 
 			[client.advanced.graphics.fog]
 				#
@@ -300,7 +274,7 @@ _version = 3
 				noiseSteps = 4
 				#
 				# How intense should the noise should be?
-				noiseIntensity = "5.0"
+				noiseIntensity = "0.05"
 				#
 				# Defines how far should the noise texture render before it fades away. (in blocks) 
 				# Set to 0 to disable noise from fading away
@@ -311,14 +285,21 @@ _version = 3
 				# Determines how far from the camera Distant Horizons will start rendering. 
 				# Measured as a percentage of the vanilla render distance.
 				# 
-				# 0 = auto, overdraw will change based on the vanilla render distance.
+				# -1 = auto, overdraw will change based on the vanilla render distance.
 				# 
 				# Higher values will prevent LODs from rendering behind vanilla blocks at a higher distance,
 				# but may cause holes in the world. 
 				# Holes are most likely to appear when flying through unloaded terrain. 
 				# 
 				# Increasing the vanilla render distance increases the effectiveness of this setting.
-				overdrawPrevention = "0.0"
+				overdrawPrevention = "-1.0"
+				#
+				# If set to true the overdraw prevention radius will get closer
+				# to the camera when flying/moving quickly.
+				# 
+				# This helps reduce issues where Minecraft can't load or
+				# generate chunks fast enough to keep up with DH.
+				reduceOverdrawWithFastMovement = true
 				#
 				# If enabled caves won't be rendered. 
 				# 
@@ -326,7 +307,7 @@ _version = 3
 				#  overhangs or walls for floating objects. 
 				#  Tweaking the caveCullingHeight, can resolve some 
 				#  of those issues.
-				enableCaveCulling = false
+				enableCaveCulling = true
 				#
 				# At what Y value should cave culling start? 
 				# Lower this value if you get walls for areas with 0 light.
@@ -357,19 +338,27 @@ _version = 3
 				#
 				# A comma separated list of block resource locations that won't be rendered by DH. 
 				# Air is always included in this list. 
-				# Requires a restart to change. 
 				# 
 				# Note:
 				# If you see gaps, or holes you may have to change
 				# worldCompression to [MERGE_SAME_BLOCKS] and re-generate the LODs.
-				# Black spots may happen occur to block lighting being zero for covered blocks.
 				ignoredRenderBlockCsv = "minecraft:barrier,minecraft:structure_void,minecraft:light,minecraft:tripwire,minecraft:brown_mushroom"
 				#
 				# A comma separated list of block resource locations that shouldn't be rendered 
 				# if they are in a 0 sky light underground area. 
 				# Air is always included in this list. 
-				# Requires a restart to change.
-				ignoredRenderCaveBlockCsv = "minecraft:glow_lichen,minecraft:rail,minecraft:water,minecraft:lava,minecraft:bubble_column,minecraft:cave_vines_plant,minecraft:vine,minecraft:cave_vines,minecraft:short_grass,minecraft:tall_grass,minecraft:small_dripleaf,minecraft:big_dripleaf,minecraft:big_dripleaf_stem,minecraft:sculk_vein"
+				# 
+				# Defaults to an empty list since most cave blocks will be automatically ignored due to being: 
+				# transparent, non-solid, or liquids, but new blocks can be added here if needed.
+				ignoredRenderCaveBlockCsv = ""
+				#
+				# A comma separated list of block resource locations that will be replaced by water 
+				# if they're visible on the water's surface.
+				waterSubSurfaceBlockReplacementCsv = "minecraft:kelp,minecraft:tall_seagrass,minecraft:seagrass"
+				#
+				# A comma separated list of block resource locations that will be removed 
+				# when on top of water.
+				waterSurfaceBlockReplacementCsv = "minecraft:lily_pad"
 
 			[client.advanced.graphics.experimental]
 				#
@@ -394,6 +383,14 @@ _version = 3
 				# Some DH settings will be disabled and/or changed to improve 
 				# visuals when DH rendering is disabled.
 				ignoredDimensionCsv = ""
+				#
+				# Requires a restart to change. 
+				#  
+				# Options: 
+				# AUTO - changes based on the most likely API for that MC version 
+				# OPEN_GL - Default 
+				# BLAZE_3D - Only supported on MC 1.21.11
+				renderingApi = "AUTO"
 
 		[client.advanced.multiplayer]
 			#
@@ -424,7 +421,7 @@ _version = 3
 			# What renderer is active? 
 			# 
 			# DEFAULT: Default lod renderer 
-			# DEBUG: Debug testing renderer 
+			# DEBUG_TRIANGLE: Debug testing renderer 
 			# DISABLED: Disable rendering
 			rendererMode = "DEFAULT"
 			#
@@ -434,7 +431,11 @@ _version = 3
 			# SHOW_DETAIL: LODs' color will be based on their detail level. 
 			# SHOW_BLOCK_MATERIAL: LODs' color will be based on their material. 
 			# SHOW_OVERLAPPING_QUADS: LODs will be drawn with total white, but overlapping quads will be drawn with red.
-			debugRendering = "OFF"
+			debugRenderingColors = "OFF"
+			#
+			# Stops vertex colors from being passed. 
+			# Useful for debugging shaders
+			enableWhiteWorld = false
 			#
 			# If enabled this will disable (most) vanilla Minecraft rendering. 
 			# 
@@ -446,13 +447,11 @@ _version = 3
 			# If enabled the LODs will render as wireframe.
 			renderWireframe = false
 			#
-			# If true the F8 key can be used to cycle through the different debug modes. 
-			# and the F6 key can be used to enable and disable LOD rendering.
+			# If true several keys can be used to toggle debug states. 
+			# F6 - enable/disable LOD rendering 
+			# F7 - enable/disable LOD only rendering 
+			# F8 - cycle through the different debug rendering modes
 			enableDebugKeybindings = false
-			#
-			# Stops vertex colors from being passed. 
-			# Useful for debugging shaders
-			enableWhiteWorld = false
 			#
 			# If true overlapping quads will be rendered as bright red for easy identification. 
 			# If false the quads will be rendered normally.
@@ -479,12 +478,6 @@ _version = 3
 				#
 				# Render LOD section status?
 				showRenderSectionStatus = false
-				#
-				# A white box will be drawn when an LOD starts rendering 
-				# and a purple box when an LOD stops rendering. 
-				# 
-				# This can be used to debug Quad Tree holes.
-				showRenderSectionToggling = false
 				#
 				# Render Quad Tree Rendering status?
 				showQuadTreeRenderStatus = false
@@ -516,9 +509,6 @@ _version = 3
 				#            Warning: this should only be enabled when debugging the LOD renderer 
 				#            as it may break Minecraft's renderer when an exception is thrown.
 				glErrorHandlingMode = "IGNORE"
-				#
-				# 
-				glUploadMode = "AUTO"
 
 			[client.advanced.debugging.f3Screen]
 				#
@@ -532,17 +522,23 @@ _version = 3
 				# Shows info about each thread pool.
 				showThreadPools = true
 				#
+				# Shows info about the render thread tasks.
+				showRenderThreadTasks = false
+				#
 				# Shows the combined memory use and array counts for all DH pooled objects.
 				showCombinedObjectPools = false
 				#
 				# Shows the memory use and array counts for each DH object pool.
 				showSeparatedObjectPools = false
 				#
-				# Shows how many chunks are queud for processing and the max count that can be queued.
+				# Shows how many chunks are queued for processing and the max count that can be queued.
 				showQueuedChunkUpdateCount = true
 				#
 				# Shows what levels are loaded and world gen/rendering info about those levels.
 				showLevelStatus = true
+				#
+				# Only show levels that DH is actively rendering.
+				onlyShowRenderingLevels = true
 
 			[client.advanced.debugging.exampleConfigScreen]
 				boolTest = false
@@ -556,8 +552,6 @@ _version = 3
 				listTest = ["option 1", "option 2", "option 3"]
 				mapTest = "{}"
 				linkableTest = 420
-
-[common]
 
 	[common.worldGenerator]
 		#
@@ -753,8 +747,13 @@ _version = 3
 			#
 			# If enabled, a message will be logged if the garbage 
 			# collector Java is currently using is known 
-			# to cause stutters and/or issues.
+			# to cause frame stuttering and/or other issues.
 			logGarbageCollectorWarning = true
+			#
+			# If enabled, a chat message will be displayed if the garbage 
+			# collector Java is currently using is known 
+			# to cause frame stuttering and/or other issues.
+			showGarbageCollectorWarning = true
 
 [server]
 	#
@@ -765,7 +764,7 @@ _version = 3
 	# DO NOT CHANGE UNLESS YOU KNOW WHAT YOU'RE DOING.
 	# Autogenerated ID used to prevent multiple independent servers from accidentally
 	# writing over each other's LODs when the same serverKey is set on both.
-	serverId = -1539842392
+	serverId = 445856060
 	#
 	# Custom server key used which can be used to always reuse the same LOD data folder,
 	# for cases when the server doesn't have a static IP for some reason.
@@ -777,6 +776,11 @@ _version = 3
 	# If the mod is running behind a proxy, each backend should use a unique value.
 	# If this value is empty, level key will be based on the server's seed hash.
 	levelKeyPrefix = ""
+	#
+	# When enabled, Distant Horizons will attempt to download missing LODs from the server.
+	# 
+	# Note: the server must have Distant Generation enabled for it to work.
+	enableServerGeneration = true
 	#
 	# How many LOD generation requests per second should a client send? 
 	# Also limits the number of client requests allowed to stay in the server's queue.
@@ -821,4 +825,3 @@ _version = 3
 		# This must also be enabled on the server; otherwise, it will have no effect.
 		# For better performance when switching LOD detail levels, enabling [upsampleLowerDetailLodsToFillHoles] is recommended.
 		enableNSizedGeneration = false
-

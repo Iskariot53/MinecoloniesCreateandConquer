@@ -890,7 +890,6 @@ craftingTable.remove(<item:createcasing:creative_mixer>);
 craftingTable.remove(<item:createcasing:creative_encased_chain_drive>);
 craftingTable.remove(<item:createcasing:creative_press>);
 craftingTable.remove(<item:createcasing:creative_depot>);
-craftingTable.remove(<item:reliquary:magicbane>);
 craftingTable.remove(<item:reliquary:fertile_lily_pad>);
 craftingTable.remove(<item:bhc:blade_of_vitality>);
 <recipetype:productivebees:bee_breeding>.removeByName("productivebees:bee_breeding/raw_materials/osmium_bee");

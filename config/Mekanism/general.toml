@@ -6,7 +6,7 @@
 	#Disable to make the anchor upgrade not do anything.
 	allowChunkloading = true
 	#Enable this to allow dragging items from JEI into the target slot of Digital Miner filters.
-	easyMinerFilters = false
+	easyMinerFilters = true
 	#How many ticks must pass until a block's active state is synced with the client, if it has been rapidly changing.
 	#Range: 0 ~ 1200
 	blockDeactivationDelay = 60
@@ -117,7 +117,7 @@
 	[general.digital_miner]
 		#Energy multiplier for using silk touch mode with the Digital Miner.
 		#Range: > 1
-		silkMultiplier = 12
+		silkMultiplier = 6
 		#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value).
 		#Range: > 1
 		maxRadius = 32

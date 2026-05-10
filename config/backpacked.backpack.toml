@@ -3,7 +3,7 @@
 [augmentBays]
 	# If true, the first augment bay will automatically be unlocked by default and for free.
 	# Valid values: true, false
-	unlockFirstAugmentBay = false
+	unlockFirstAugmentBay = true
 	# If set to true, all augment bays will be unlocked by default.
 	# Valid values: true, false
 	unlockAllAugmentBays = false
@@ -15,12 +15,12 @@
 	[augmentBays.unlockCost]
 		# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 		# to unlock new slots.
-		paymentItem = "minecraft:emerald"
+		paymentItem = "numismatics:cog"
 		# A list of numbers that represent the cost values, must be whole and positive
 		# numbers only. See customCostsSelectionFunction property to set the behaviour of
 		# how values are selected from the custom costs list.
 		# 
-		customCosts = [10, 20, 30, 40]
+		customCosts = [1, 2, 4, 7]
 		# If enabled, instead of using a cost that is calculated based on a minCost
 		# and maxCost, custom costs allow the cost to be specified manually using
 		# a list of values (see customCosts).
@@ -110,7 +110,7 @@
 		# ITEM, this will instead consume a specified item from the player's inventory (including anything
 		# placed in the backpack) to unlock new slots.
 		# Valid values: EXPERIENCE, ITEM
-		paymentType = "EXPERIENCE"
+		paymentType = "ITEM"
 
 # Equipable related properties
 [equipable]
@@ -141,12 +141,12 @@
 	[equipable.unlockCost]
 		# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 		# to unlock new slots.
-		paymentItem = "minecraft:emerald"
+		paymentItem = "numismatics:crown"
 		# A list of numbers that represent the cost values, must be whole and positive
 		# numbers only. See customCostsSelectionFunction property to set the behaviour of
 		# how values are selected from the custom costs list.
 		# 
-		customCosts = [30, 30, 30, 40]
+		customCosts = [5, 10, 20, 40]
 		# If enabled, instead of using a cost that is calculated based on a minCost
 		# and maxCost, custom costs allow the cost to be specified manually using
 		# a list of values (see customCosts).
@@ -236,7 +236,7 @@
 		# ITEM, this will instead consume a specified item from the player's inventory (including anything
 		# placed in the backpack) to unlock new slots.
 		# Valid values: EXPERIENCE, ITEM
-		paymentType = "EXPERIENCE"
+		paymentType = "ITEM"
 
 # Inventory related properties
 [inventory]
@@ -265,7 +265,7 @@
 		[inventory.slots.unlockCost]
 			# Only applicable if paymentType is set to ITEM. This option will control the item used when paying
 			# to unlock new slots.
-			paymentItem = "minecraft:emerald"
+			paymentItem = "numismatics:sprocket"
 			# A list of numbers that represent the cost values, must be whole and positive
 			# numbers only. See customCostsSelectionFunction property to set the behaviour of
 			# how values are selected from the custom costs list.
@@ -275,7 +275,7 @@
 			# and maxCost, custom costs allow the cost to be specified manually using
 			# a list of values (see customCosts).
 			# Valid values: true, false
-			useCustomCosts = false
+			useCustomCosts = true
 			# The maximum cost to unlock a backpack slot. This value would be the cost
 			# when unlocking the final slot in a backpack inventory. The cost to unlock
 			# prior slots are interpolated from the minCost to this value, and scaled
@@ -360,7 +360,7 @@
 			# ITEM, this will instead consume a specified item from the player's inventory (including anything
 			# placed in the backpack) to unlock new slots.
 			# Valid values: EXPERIENCE, ITEM
-			paymentType = "EXPERIENCE"
+			paymentType = "ITEM"
 
 	# Size related properties
 	[inventory.size]

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "N": {
+      "item": "reliquary:nebulous_heart"
+    }
+  },
+  "pattern": [
+    "NG",
+    "IN"
+  ],
+  "result": {
+    "item": "minecraft:air"
+  },
+  "show_notification": true
+}

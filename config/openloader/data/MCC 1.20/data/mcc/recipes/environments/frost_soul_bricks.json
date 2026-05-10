@@ -1,0 +1,15 @@
+{
+	"type": "cagedmobs:environment_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "adamsarsplus"
+		}
+	],
+	"input": {
+		"item": "adamsarsplus:frost_soul_brick_block"
+	},
+	"render": "adamsarsplus:frost_soul_brick_block",
+	"growModifier": 1.0,
+	"categories": ["frost_soul_bricks"]
+}

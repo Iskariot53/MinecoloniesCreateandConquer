@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "adamsarsplus"
+		}
+	],
+	"entity": "adamsarsplus:josh",
+	"samplerTier": 3,
+	"environments": ["void_soul_bricks"],
+	"growTicks": 1600,
+	"results": [
+		{
+			"chance": 0.8,
+				"output": {
+					"item": "adamsarsplus:advanced_clockwork"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+	
+}

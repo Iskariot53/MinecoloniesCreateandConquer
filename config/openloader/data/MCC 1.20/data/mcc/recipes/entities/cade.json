@@ -1,0 +1,24 @@
+{
+	"type": "cagedmobs:entity_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "adamsarsplus"
+		}
+	],
+	"entity": "adamsarsplus:cade",
+	"samplerTier": 3,
+	"environments": ["frost_soul_bricks", "void_soul_bricks"],
+	"growTicks": 1600,
+	"results": [
+		{
+			"chance": 0.8,
+				"output": {
+					"item": "adamsarsplus:frost_soul"
+				},
+				"minAmount": 1,
+				"maxAmount": 1
+		}
+	]
+	
+}

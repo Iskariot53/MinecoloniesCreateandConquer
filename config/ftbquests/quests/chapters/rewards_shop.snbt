@@ -2229,7 +2229,7 @@
 			}]
 			title: "&lSell - 1x Antimatter Pellet"
 			x: -7.0d
-			y: -6.125d
+			y: -5.8214285714285765d
 		}
 		{
 			dependencies: ["3B38BC10347BDA7D"]
@@ -4181,6 +4181,33 @@
 			title: "&l12x Bearpack Shells"
 			x: -13.0d
 			y: 8.5d
+		}
+		{
+			dependencies: ["3B38BC10347BDA7D"]
+			id: "23FC99313C1F549C"
+			rewards: [
+				{
+					id: "3DF719A04BF1D70B"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "690DF8782E92EE50"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "64E9713956E4341D"
+				item: "adamsarsplus:mage_cloth"
+				title: "32 Mage Cloth = 1 cog"
+				type: "item"
+			}]
+			title: "&lSell - 32 Mage Cloth"
+			x: -7.0d
+			y: -7.142857142857146d
 		}
 	]
 	title: "&eRewards Shop"

@@ -1,0 +1,15 @@
+{
+	"type": "cagedmobs:environment_data",
+	"conditions": [
+		{
+			"type": "forge:mod_loaded",
+			"modid": "adamsarsplus"
+		}
+	],
+	"input": {
+		"item": "adamsarsplus:holy_soul_brick_block"
+	},
+	"render": "adamsarsplus:holy_soul_brick_block",
+	"growModifier": 1.0,
+	"categories": ["holy_soul_bricks"]
+}
