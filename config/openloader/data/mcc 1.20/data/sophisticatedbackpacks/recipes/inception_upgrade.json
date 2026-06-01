@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:inception_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "C": {
+      "item": "ccextras:celestrium_ingot"
+    },
+    "A": {
+      "item": "ccextras:arcanite_ingot"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "S": {
+      "item": "mekanism:pellet_antimatter"
+    }
+  },
+  "pattern": [
+    "ESE",
+    "DBD",
+    "ECE"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:inception_upgrade"
+  }
+}

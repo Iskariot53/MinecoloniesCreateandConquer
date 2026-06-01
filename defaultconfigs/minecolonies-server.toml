@@ -10,17 +10,15 @@
 	allowinfinitecolonies = false
 	#Should colonies in other dimensions be allowed? [Default: true]
 	allowotherdimcolonies = true
-	#Max citizens in one colony. [Default: 250, min: 100, max: 500]
-	#Range: 100 ~ 500
-	maxcitizenpercolony = 150
+	#Max citizens in one colony. [Default: 250, min: 25, max: 500]
+	#Range: 25 ~ 500
+	maxcitizenpercolony = 250
 	#Should development features be enabled (might be buggy)? [Default: false]
 	enableindevelopmentfeatures = false
 	#Should citizen name tags be rendered? [Default: true]
 	alwaysrendernametag = true
 	#Should workers work during the rain? [Default: false]
 	workersalwaysworkinrain = false
-	#Should special holiday content be displayed? [Default: true]
-	holidayfeatures = false
 	#Chance for the Miner to get an ore when mining cobblestone or stone (by default, can be expanded with datapacks to other materials). This is a percentage. (To change which ores the Miner can find, see "List of Lucky Ores".) [Default: 1, min: 0, max: 100]
 	#Range: 0 ~ 100
 	luckyblockchance = 1
@@ -32,7 +30,7 @@
 	foodmodifier = 1.0
 	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5, min: 1, max: 100]
 	#Range: 1 ~ 100
-	diseasemodifier = 50
+	diseasemodifier = 70
 	#If part of the colony is loaded by an owner/officer, should the colony be kept loaded? (Set how many chunks are loaded with the "Colony Chunk Loading Strictness" option.) [Default: true]
 	forceloadcolony = true
 	#Set how long chunks stay loaded after player leaves, does not persist through restarts. Default: 10min [Default: 10, min: 1, max: 1440]
@@ -78,6 +76,8 @@
 	canplayerusedeletecolonycommand = true
 	#Should players be allowed to use the /mc colony requestsystem-reset command? [Default: false]
 	canplayeruseresetcommand = false
+	#Should players be allowed to use the /mc citizens modify command? [Default: false]
+	canplayerusemodifycitizenscommand = false
 
 #All configuration related to colony claims
 [claims]
@@ -92,7 +92,7 @@
 	initialColonySize = 8
 	#Max distance (in blocks) from world spawn for a colony. [Default: 30000, min: 1000, max: 2147483647]
 	#Range: > 1000
-	maxdistancefromworldspawn = 50000
+	maxdistancefromworldspawn = 100000
 	#Min distance (in blocks) from world spawn for a colony. [Default: 0, min: 0, max: 1000]
 	#Range: 0 ~ 1000
 	mindistancefromworldspawn = 0
@@ -135,19 +135,12 @@
 	#Independent from the colony protection, should explosions be turned off inside colonies? DAMAGE_NOTHING prevents explosions completely. DAMAGE_PLAYERS, allows explosions to damage players and hostile mobs, but not blocks or neutral or friendly mobs. DAMAGE_ENTITIES allows damage to all entities. DAMAGE_EVERYTHING allows explosions to damage entities and blocks. 
 	#Allowed Values: DAMAGE_NOTHING, DAMAGE_PLAYERS, DAMAGE_ENTITIES, DAMAGE_EVERYTHING
 	turnoffexplosionsincolonies = "DAMAGE_ENTITIES"
-	#Blocks players should be able to interact with in any colony (ex: vending machines) 
-	freetointeractblocks = ["dirt", "0 0 0"]
+	#Disables colony permissions if player has a given permission level. [Default: 2, min: 0, max: 4]
+	#Range: 0 ~ 4
+	permissioneventbypassminpermlevel = 2
 
 #All configuration related to mod compatibility
 [compatibility]
-	#Items consumed by citizens in the Library. 
-	configliststudyitems = ["minecraft:paper;400;100", "minecraft:book;600;10"]
-	#Items requested by Tavern visitors. 
-	configlistrecruitmentitems = ["minecraft:hay_block;3", "minecraft:book;2", "minecraft:enchanted_book;9", "minecraft:diamond;9", "minecraft:emerald;8", "minecraft:baked_potato;1", "minecraft:gold_ingot;2", "minecraft:redstone;2", "minecraft:lapis_lazuli;2", "minecraft:cake;11", "minecraft:sunflower;5", "minecraft:honeycomb;6", "minecraft:quartz;3"]
-	#List of ore blocks rarely found magically by Miners (see "Ore Chance"). Includes the block and its chance, separated by exclamation marks. 
-	luckyores = ["minecraft:coal_ore!64", "minecraft:copper_ore!48", "minecraft:iron_ore!32", "minecraft:gold_ore!16", "minecraft:redstone_ore!8", "minecraft:lapis_ore!4", "minecraft:diamond_ore!2", "minecraft:emerald_ore!1"]
-	#All diseases citizens can get. The name, how common it is, and all ingredients to cure it. 
-	diseases = ["Influenza,100,minecraft:carrot,minecraft:potato", "Measles,10,minecraft:dandelion,minecraft:kelp,minecraft:poppy", "Smallpox,1,minecraft:honey_bottle,minecraft:golden_apple"]
 	#When loading recipes, generate audit CSV files to help debug datapacks or extra mods. [Default: false]
 	auditcraftingtags = false
 	#Enable inventory debugging. [Default: false]
@@ -163,7 +156,7 @@
 	#Minimum number of consecutive rails for citizens to use them. [Default: 8, min: 5, max: 100]
 	#Range: 5 ~ 100
 	minimumrailstopath = 8
-	#Amount of additional threads to be used for pathfinding. [Default: 2, min: 1, max: 10]
+	#Amount of additional threads to be used for pathfinding. [Default: 1, min: 1, max: 10]
 	#Range: 1 ~ 10
 	pathfindingmaxthreadcount = 2
 

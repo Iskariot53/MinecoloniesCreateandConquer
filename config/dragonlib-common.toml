@@ -31,6 +31,10 @@
 		time_system_cache_ttl = 100
 
 	[dragonlib_common_config.networking]
+		#The size of the networking queue. (Default: 8000)
+		#A WORLD RESTART IS REQUIRED FOR CHANGES TO TAKE EFFECT!
+		#Range: 100 ~ 30000
+		queue_size = 8000
 		#in Seconds
 		#The time to wait for a response before an error is thrown. (Default: 60)
 		#Range: 10 ~ 300

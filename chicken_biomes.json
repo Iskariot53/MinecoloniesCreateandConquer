@@ -38,15 +38,6 @@
     "nullscape:shadowlands",
     "nullscape:void_barrens"
   ],
-  "creeperoverhaul:badlands_creeper": [
-    "minecraft:badlands",
-    "minecraft:eroded_badlands",
-    "minecraft:wooded_badlands",
-    "biomeswevegone:red_rock_peaks",
-    "biomeswevegone:red_rock_valley",
-    "biomeswevegone:rugged_badlands",
-    "biomeswevegone:sierra_badlands"
-  ],
   "creeperoverhaul:snowy_creeper": [
     "biomesoplenty:auroral_garden",
     "biomesoplenty:cold_desert",
@@ -67,6 +58,15 @@
     "minecraft:ice_spikes",
     "biomeswevegone:eroded_borealis",
     "biomeswevegone:howling_peaks"
+  ],
+  "creeperoverhaul:badlands_creeper": [
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "biomeswevegone:red_rock_peaks",
+    "biomeswevegone:red_rock_valley",
+    "biomeswevegone:rugged_badlands",
+    "biomeswevegone:sierra_badlands"
   ],
   "endermanoverhaul:flower_fields_enderman": [
     "minecraft:sunflower_plains",
@@ -220,6 +220,32 @@
     "biomeswevegone:windswept_desert"
   ],
   "seadwellers:mermorph_cavern": [],
+  "thermal:blitz": [
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "biomeswevegone:red_rock_peaks",
+    "biomeswevegone:red_rock_valley",
+    "biomeswevegone:rugged_badlands",
+    "biomeswevegone:sierra_badlands",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "biomesoplenty:lush_savanna",
+    "biomesoplenty:scrubland",
+    "biomeswevegone:araucaria_savanna",
+    "biomeswevegone:baobab_savanna",
+    "biomeswevegone:ironwood_gour",
+    "biomesoplenty:dune_beach",
+    "biomesoplenty:lush_desert",
+    "biomesoplenty:dryland",
+    "minecraft:desert",
+    "minecraft:beach",
+    "biomeswevegone:atacama_outback",
+    "biomeswevegone:mojave_desert",
+    "biomeswevegone:rainbow_beach",
+    "biomeswevegone:windswept_desert"
+  ],
   "creeperoverhaul:cave_creeper": [
     "minecraft:taiga",
     "minecraft:snowy_taiga",
@@ -305,32 +331,6 @@
     "minecraft:lukewarm_ocean",
     "minecraft:deep_lukewarm_ocean",
     "minecraft:warm_ocean"
-  ],
-  "thermal:blitz": [
-    "biomesoplenty:dune_beach",
-    "biomesoplenty:lush_desert",
-    "biomesoplenty:dryland",
-    "minecraft:desert",
-    "minecraft:beach",
-    "minecraft:badlands",
-    "minecraft:wooded_badlands",
-    "biomeswevegone:atacama_outback",
-    "biomeswevegone:mojave_desert",
-    "biomeswevegone:rainbow_beach",
-    "biomeswevegone:rugged_badlands",
-    "biomeswevegone:windswept_desert",
-    "minecraft:eroded_badlands",
-    "biomeswevegone:red_rock_peaks",
-    "biomeswevegone:red_rock_valley",
-    "biomeswevegone:sierra_badlands",
-    "minecraft:savanna",
-    "minecraft:savanna_plateau",
-    "minecraft:windswept_savanna",
-    "biomesoplenty:lush_savanna",
-    "biomesoplenty:scrubland",
-    "biomeswevegone:araucaria_savanna",
-    "biomeswevegone:baobab_savanna",
-    "biomeswevegone:ironwood_gour"
   ],
   "born_in_chaos_v1:lifestealer": [],
   "scguns:hive": [
@@ -467,7 +467,6 @@
     "biomeswevegone:shattered_glacier"
   ],
   "realmrpg_demons:imp": [],
-  "born_in_chaos_v1:restless_spirit": [],
   "endermanoverhaul:ice_spikes_enderman": [
     "minecraft:ice_spikes"
   ],
@@ -476,6 +475,7 @@
     "minecraft:end_highlands",
     "minecraft:end_barrens"
   ],
+  "born_in_chaos_v1:restless_spirit": [],
   "born_in_chaos_v1:skeleton_demoman": [],
   "creeperoverhaul:swamp_creeper": [
     "minecraft:swamp",
@@ -490,7 +490,6 @@
     "minecraft:crimson_forest"
   ],
   "born_in_chaos_v1:door_knight": [],
-  "born_in_chaos_v1:supreme_bonescaller": [],
   "endermanoverhaul:badlands_enderman": [
     "minecraft:badlands",
     "minecraft:eroded_badlands",
@@ -500,11 +499,12 @@
     "biomeswevegone:rugged_badlands",
     "biomeswevegone:sierra_badlands"
   ],
+  "born_in_chaos_v1:supreme_bonescaller": [],
   "born_in_chaos_v1:pumpkin_bruiser": [],
-  "born_in_chaos_v1:zombie_fisherman": [],
   "scguns:hornlin": [
     "minecraft:crimson_forest"
   ],
+  "born_in_chaos_v1:zombie_fisherman": [],
   "adamsarsplus:mage": [
     "minecraft:mushroom_fields",
     "minecraft:deep_frozen_ocean",
@@ -698,6 +698,7 @@
     "biomeswevegone:forgotten_forest",
     "biomeswevegone:weeping_witch_forest"
   ],
+  "born_in_chaos_v1:fallen_chaos_knight": [],
   "ars_nouveau:starbuncle": [
     "minecraft:mushroom_fields",
     "minecraft:deep_frozen_ocean",
@@ -882,7 +883,6 @@
     "alexscaves:toxic_caves",
     "alexscaves:candy_cavity"
   ],
-  "born_in_chaos_v1:fallen_chaos_knight": [],
   "born_in_chaos_v1:spirit_guide_assistant": [],
   "scguns:cog_minion": [
     "minecraft:forest",
@@ -1475,13 +1475,13 @@
     "minecraft:end_barrens"
   ],
   "born_in_chaos_v1:krampus_henchman": [],
-  "born_in_chaos_v1:senor_pumpkin": [],
   "thermal:basalz": [
-    "minecraft:stony_peaks",
-    "minecraft:basalt_deltas"
+    "minecraft:basalt_deltas",
+    "minecraft:stony_peaks"
   ],
-  "born_in_chaos_v1:mrs_pumpkin": [],
+  "born_in_chaos_v1:senor_pumpkin": [],
   "born_in_chaos_v1:spiritof_chaos": [],
+  "born_in_chaos_v1:mrs_pumpkin": [],
   "creeperoverhaul:dripstone_creeper": [
     "minecraft:dripstone_caves",
     "minecraft:lush_caves"
@@ -1837,9 +1837,6 @@
     "minecraft:end_highlands",
     "minecraft:end_barrens"
   ],
-  "seadwellers:mermorph_coral_yellow": [
-    "minecraft:warm_ocean"
-  ],
   "scguns:trauma_unit": [
     "minecraft:forest",
     "minecraft:flower_forest",
@@ -1973,6 +1970,9 @@
     "minecraft:ice_spikes",
     "biomeswevegone:shattered_glacier"
   ],
+  "seadwellers:mermorph_coral_yellow": [
+    "minecraft:warm_ocean"
+  ],
   "born_in_chaos_v1:bloody_gadfly": [],
   "born_in_chaos_v1:glutton_fish": [],
   "creeperoverhaul:desert_creeper": [
@@ -1994,6 +1994,9 @@
     "biomeswevegone:tropical_rainforest"
   ],
   "born_in_chaos_v1:corpse_fish": [],
+  "seadwellers:mermorph_coral_orange": [
+    "minecraft:warm_ocean"
+  ],
   "creeperoverhaul:spruce_creeper": [
     "minecraft:taiga",
     "minecraft:snowy_taiga",
@@ -2016,10 +2019,20 @@
     "autumnity:maple_forest",
     "autumnity:pumpkin_fields"
   ],
-  "seadwellers:mermorph_coral_orange": [
-    "minecraft:warm_ocean"
-  ],
   "born_in_chaos_v1:skeleton_thrasher": [],
+  "creeperoverhaul:bamboo_creeper": [
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "biomesoplenty:floodplain",
+    "biomesoplenty:fungal_jungle",
+    "biomesoplenty:rainforest",
+    "biomesoplenty:rocky_rainforest",
+    "biomeswevegone:crag_gardens",
+    "biomeswevegone:fragment_jungle",
+    "biomeswevegone:jacaranda_jungle",
+    "biomeswevegone:tropical_rainforest"
+  ],
   "duckling:quackling": [
     "biomesoplenty:bayou",
     "biomesoplenty:bog",
@@ -2034,19 +2047,6 @@
     "biomeswevegone:cypress_swamplands",
     "biomeswevegone:cypress_wetlands",
     "biomeswevegone:white_mangrove_marshes"
-  ],
-  "creeperoverhaul:bamboo_creeper": [
-    "minecraft:bamboo_jungle",
-    "minecraft:jungle",
-    "minecraft:sparse_jungle",
-    "biomesoplenty:floodplain",
-    "biomesoplenty:fungal_jungle",
-    "biomesoplenty:rainforest",
-    "biomesoplenty:rocky_rainforest",
-    "biomeswevegone:crag_gardens",
-    "biomeswevegone:fragment_jungle",
-    "biomeswevegone:jacaranda_jungle",
-    "biomeswevegone:tropical_rainforest"
   ],
   "scguns:zombified_hornlin": [
     "minecraft:nether_wastes"
@@ -2190,6 +2190,11 @@
     "minecraft:ice_spikes",
     "biomeswevegone:shattered_glacier"
   ],
+  "enlightened_end:stalker": [
+    "minecraft:end_midlands",
+    "minecraft:end_highlands",
+    "minecraft:end_barrens"
+  ],
   "endermanoverhaul:cave_enderman": [
     "minecraft:badlands",
     "minecraft:eroded_badlands",
@@ -2270,11 +2275,6 @@
     "biomesoplenty:tropics",
     "alexscaves:primordial_caves"
   ],
-  "enlightened_end:stalker": [
-    "minecraft:end_midlands",
-    "minecraft:end_highlands",
-    "minecraft:end_barrens"
-  ],
   "endermanoverhaul:mushroom_fields_enderman": [
     "minecraft:mushroom_fields",
     "biomesoplenty:fungal_jungle",
@@ -2282,6 +2282,7 @@
     "quark:glimmering_weald"
   ],
   "born_in_chaos_v1:thornshell_crab": [],
+  "born_in_chaos_v1:barrel_zombie": [],
   "scguns:supply_scamp": [
     "minecraft:mushroom_fields",
     "minecraft:deep_frozen_ocean",
@@ -2466,10 +2467,6 @@
     "alexscaves:toxic_caves",
     "alexscaves:candy_cavity"
   ],
-  "born_in_chaos_v1:barrel_zombie": [],
-  "creeperoverhaul:mushroom_creeper": [
-    "minecraft:mushroom_fields"
-  ],
   "scguns:dissident": [
     "minecraft:forest",
     "minecraft:flower_forest",
@@ -2603,6 +2600,9 @@
     "minecraft:ice_spikes",
     "biomeswevegone:shattered_glacier"
   ],
+  "creeperoverhaul:mushroom_creeper": [
+    "minecraft:mushroom_fields"
+  ],
   "born_in_chaos_v1:bonescaller": [],
   "enlightened_end:fumesplat": [
     "minecraft:end_midlands",
@@ -2639,18 +2639,18 @@
     "biomeswevegone:ironwood_gour"
   ],
   "realmrpg_demons:chort": [],
-  "born_in_chaos_v1:missioner": [],
-  "endermanoverhaul:nether_wastes_enderman": [
-    "minecraft:nether_wastes"
-  ],
   "creeperoverhaul:ocean_creeper": [
     "minecraft:lukewarm_ocean",
     "minecraft:deep_lukewarm_ocean",
     "minecraft:warm_ocean"
   ],
-  "born_in_chaos_v1:corpse_fly": [],
+  "born_in_chaos_v1:missioner": [],
+  "endermanoverhaul:nether_wastes_enderman": [
+    "minecraft:nether_wastes"
+  ],
   "born_in_chaos_v1:decaying_zombie": [],
   "realmrpg_demons:imp_guard": [],
+  "born_in_chaos_v1:corpse_fly": [],
   "creeperoverhaul:dark_oak_creeper": [
     "minecraft:dark_forest"
   ]
