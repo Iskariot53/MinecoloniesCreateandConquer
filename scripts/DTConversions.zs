@@ -147,16 +147,16 @@ craftingTable.addShapeless("sapling.conversion_147", <item:twilightforest:darkwo
 craftingTable.addShapeless("sapling.conversion_148", <item:twilightforest:canopy_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dttwilightforest:canopy_seed>]);
 
 
-craftingTable.addShapeless("sap.conv_1", <item:dynamictrees:warped_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:warped_fungus>]);
-craftingTable.addShapeless("sap.conv_2", <item:dynamictrees:spruce_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:spruce_sapling>]);
-craftingTable.addShapeless("sap.conv_3", <item:dynamictrees:oak_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:oak_sapling>]);
-craftingTable.addShapeless("sap.conv_4", <item:dynamictrees:mangrove_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:mangrove_propagule>]);
-craftingTable.addShapeless("sap.conv_5", <item:dynamictrees:jungle_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:jungle_sapling>]);
-craftingTable.addShapeless("sap.conv_6", <item:dynamictrees:dark_oak_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:dark_oak_sapling>]);
-craftingTable.addShapeless("sap.conv_7", <item:dynamictrees:crimson_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:crimson_fungus>]);
-craftingTable.addShapeless("sap.conv_8", <item:dynamictrees:birch_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:birch_sapling>]);
-craftingTable.addShapeless("sap.conv_9", <item:dynamictrees:acacia_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:acacia_sapling>]);
-craftingTable.addShapeless("sap.conv_10", <item:dynamictrees:azalea_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:azalea>]);
+craftingTable.addShapeless("sap.conv_1", <item:minecraft:warped_fungus>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:warped_seed>]);
+craftingTable.addShapeless("sap.conv_2", <item:minecraft:spruce_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:spruce_seed>]);
+craftingTable.addShapeless("sap.conv_3", <item:minecraft:oak_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:oak_seed>]);
+craftingTable.addShapeless("sap.conv_4", <item:minecraft:mangrove_propagule>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:mangrove_seed>]);
+craftingTable.addShapeless("sap.conv_5", <item:minecraft:jungle_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:jungle_seed>]);
+craftingTable.addShapeless("sap.conv_6", <item:minecraft:dark_oak_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:dark_oak_seed>]);
+craftingTable.addShapeless("sap.conv_7", <item:minecraft:crimson_fungus>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:crimson_seed>]);
+craftingTable.addShapeless("sap.conv_8", <item:minecraft:birch_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:birch_seed>]);
+craftingTable.addShapeless("sap.conv_9", <item:minecraft:acacia_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:acacia_seed>]);
+craftingTable.addShapeless("sap.conv_10", <item:minecraft:azalea>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:azalea_seed>]);
 craftingTable.addShapeless("sap.conv_11", <item:dynamictreesplus:red_mushroom_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:red_mushroom>]);
 craftingTable.addShapeless("sap.conv_12", <item:dynamictreesplus:brown_mushroom_seed>, [<item:dynamictrees:dirt_bucket>, <item:minecraft:brown_mushroom>]);
 craftingTable.addShapeless("sap.conv_13", <item:dtarsnouveau:red_archwood_seed>, [<item:dynamictrees:dirt_bucket>, <item:ars_nouveau:red_archwood_sapling>]);
@@ -295,3 +295,4 @@ craftingTable.addShapeless("sap.conv_145", <item:dttwilightforest:mining_seed>, 
 craftingTable.addShapeless("sap.conv_146", <item:dttwilightforest:mangrove_seed>, [<item:dynamictrees:dirt_bucket>, <item:twilightforest:mangrove_sapling>]);
 craftingTable.addShapeless("sap.conv_147", <item:dttwilightforest:darkwood_seed>, [<item:dynamictrees:dirt_bucket>, <item:twilightforest:darkwood_sapling>]);
 craftingTable.addShapeless("sap.conv_148", <item:dttwilightforest:canopy_seed>, [<item:dynamictrees:dirt_bucket>, <item:twilightforest:canopy_sapling>]);
+craftingTable.addShapeless("sap.conv_149", <item:pamhc2trees:apple_sapling>, [<item:dynamictrees:dirt_bucket>, <item:dynamictrees:apple_oak_seed>]);

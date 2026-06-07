@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:mob_catcher_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:upgrade_base"
+    },
+    "E": {
+      "tag": "forge:ender_pearls"
+    },
+    "I": {
+      "tag": "forge:ingots/steel"
+    },
+    "L": {
+      "item": "minecraft:lead"
+    },
+    "L": {
+      "item": "industrialforegoing:mob_imprisonment_tool"
+    }
+  },
+  "pattern": [
+    " E ",
+    "IBI",
+    "LTL"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:mob_catcher_upgrade"
+  }
+}

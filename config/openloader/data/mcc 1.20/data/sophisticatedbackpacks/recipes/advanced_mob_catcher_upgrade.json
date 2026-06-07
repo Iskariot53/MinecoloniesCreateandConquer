@@ -1,0 +1,37 @@
+{
+  "type": "sophisticatedcore:upgrade_next_tier",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:advanced_mob_catcher_upgrade"
+    }
+  ],
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:mob_catcher_upgrade"
+    },
+    "D": {
+      "item": "minecraft:echo_shard"
+    },
+    "E": {
+      "item": "minecraft:dragon_breath"
+    },
+    "G": {
+      "item": "scguns:diamond_steel_ingot"
+    },
+    "H": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "HDE",
+    "GBG",
+    "SSS"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:advanced_mob_catcher_upgrade"
+  }
+}
