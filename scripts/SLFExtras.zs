@@ -42,7 +42,7 @@ craftingTable.remove(<item:mekaweapons:mekabow>);
 		  "forging_time": 4800,
 		  "result": "mekaweapons:mekabow",
 		  "supporting_core_material": {
-			"item": "mekanism:basic_induction_cell"
+			"item": "mekanism_extras:infinite_induction_cell"
 		  },
 		  "supporting_material_bottom": {
 			"item": "celestisynth:solar_crystal"
@@ -51,14 +51,14 @@ craftingTable.remove(<item:mekaweapons:mekabow>);
 			"item": "mekanism:pellet_antimatter"
 		  },
 		  "supporting_material_top": {
-			"item": "celestisynth:solar_crystal"
+			"item": "mekanism_extras:infinite_control_circuit"
 		  }
 		});	
 craftingTable.remove(<item:mekaweapons:mekatana>);		
 <recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("mekaweapons.mekatana", {
 		  "type": "celestisynth:starlit_factory",
 		  "core_material": {
-			"item": "mekanism:ultimate_control_circuit"
+			"item": "mekanism_extras:infinite_control_circuit"
 		  },
 		  "extra_core_material": {
 			"item": "mekaweapons:katana_blade"
@@ -66,7 +66,7 @@ craftingTable.remove(<item:mekaweapons:mekatana>);
 		  "forging_time": 4800,
 		  "result": "mekaweapons:mekatana",
 		  "supporting_core_material": {
-			"item": "mekanism:basic_induction_cell"
+			"item": "mekanism_extras:infinite_induction_cell"
 		  },
 		  "supporting_material_bottom": {
 			"item": "celestisynth:solar_crystal"

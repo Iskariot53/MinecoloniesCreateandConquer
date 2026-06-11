@@ -406,29 +406,29 @@ import crafttweaker.api.recipe.IRecipeManager;
 
 		<recipetype:celestisynth:starlit_factory_type>.removeByName("celestisynth:keres");
 
-//		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.keres", {
-//		  "type": "celestisynth:starlit_factory",
-//		  "core_material": {
-//			"item": "celestisynth:crimson_piece"
-//		  },
-//		  "extra_core_material": {
-//			"item": "ojs_rpg_origins:scythe_upgrade"
-//		  },
-//		  "forging_time": 800,
-//		  "result": "celestisynth:keres",
-//		  "supporting_core_material": {
-//			"item": "celestisynth:crimson_piece"
-//		  },
-//		  "supporting_material_bottom": {
-//			"item": "minecraft:netherite_ingot"
-//		  },
-//		  "supporting_material_middle": {
-//			"item": "celestisynth:celestial_netherite_ingot"
-//		  },
-//		  "supporting_material_top": {
-//			"item": "minecraft:netherite_ingot"
-//		  }
-//		});
+		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.keres", {
+		  "type": "celestisynth:starlit_factory",
+		  "core_material": {
+			"item": "celestisynth:crimson_piece"
+		  },
+		  "extra_core_material": {
+     		"item": "cataclysm:the_immolator"
+		  },
+		  "forging_time": 800,
+		  "result": "celestisynth:keres",
+		  "supporting_core_material": {
+			"item": "celestisynth:crimson_piece"
+		  },
+		  "supporting_material_bottom": {
+			"item": "celestisynth:celestial_netherite_ingot"
+		  },
+		  "supporting_material_middle": {
+			"item": "mekanism:pellet_antimatter"
+		  },
+		  "supporting_material_top": {
+			"item": "celestisynth:celestial_netherite_ingot"
+		  }
+		});
 	
 <tag:items:forge:stripped_logs>.add(<item:autumnity:stripped_maple_log>);
 <tag:items:forge:stripped_wood>.add(<item:autumnity:stripped_maple_wood>);

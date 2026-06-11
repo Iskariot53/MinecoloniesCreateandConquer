@@ -1,20 +1,35 @@
-Minecolonies - Create and Conquer- 3.4.3 Changelog
+Minecolonies - Create and Conquer- 3.5.0 Changelog
 
+
+
+
+Mods Added
+
+
+- Applied Create
+- SFM Thermal Compat
+- Super Factory Manager ( SFM )
 
 
 
 Mods Updated
 
 
-- L_Ender 's Cataclysm
-- Sophisticated Backpacks
+- Apothic Compat
+- Apothic Tooltip Cleanup
+- Blocks You Need (BYN) - Industrial, Steampunk, Laboratory, Space & more!
+- Born in Chaos
+- Born In Configuration
+- Create: Enchantment Industry
+- Create: New Age
+- ModernFix
+
 
 
 Changes
 
 
 
-- Decreased movement speed of dire hound leaders, dread hounds and scarlet persecutors.
-- Fixed some misc. Dynamic Tree conversion recipes for seeds/saplings.
-- Added new mob catcher upgrades recipe for Sophisticated Backpacks.
-- Changed JEI/EMI performance/"distraction free" settings to be disabled by default.
+- Addressed some dated attribute modifiers from earlier pack versions, which were causing issues and not syncing between client and server, among other effects. (Celestisynth items, for example).
+- Re-implemented the Keres with "Carnage Incarnate" block breaking disabled, removed limitations on monliths/traversers now that they are working properly.
+- Re-worked meka-tana/meka-bow recipes/stats (Something got buffed and not nerfed for once, yay!) in accordance with the addition of Mekanism Extras, and to spice things up a bit along the way.

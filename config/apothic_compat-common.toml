@@ -1,0 +1,86 @@
+# Apothic Compat: user defined loot category overrides.
+#
+# Maps Minecraft items (or item tags) to Apotheosis loot categories so the
+# affinity system can roll the right gem/affix pools on modded gear that
+# Apotheosis does not categorize on its own. Entries here are sent to
+# Apotheosis via IMC at startup, alongside the mod's built in compat
+# modules. Edit this file then run /apothiccompat reload (op 2) to apply
+# changes without restarting the server.
+#
+# Built in loot category names (Apotheosis 7.4.8):
+#   sword, heavy_weapon, trident, bow, crossbow, shield,
+#   helmet, chestplate, leggings, boots, pickaxe, shovel, none
+#
+# Other mods can register additional categories at startup. Any name
+# that resolves at apply time is accepted; unknown names are skipped
+# with a warning. Known third party categories from Fallen Gems &
+# Affixes:
+#   staffs           (requires Iron's Spellbooks)
+#   celestial_melee  (requires Celestisynth)
+#   celestial_ranged (requires Celestisynth)
+#
+# When an item is set in both adventure.cfg (Apotheosis's own Equipment
+# Type Overrides) and this config, Apothic Compat's value currently wins.
+# To keep an adventure.cfg value, leave that item out of this file.
+#
+# Keys MUST be quoted because item and tag IDs contain a ':' separator
+# (namespace:path), which TOML does not allow in bare keys.
+
+# ----------------------------------------------------------------------
+# Categorization settings.
+#
+# name_based_heavy_override (default false): When enabled, items whose
+# registry id contains a heavy weapon name (greatsword, claymore,
+# zweihander, etc.) are categorized as HEAVY_WEAPON regardless of their
+# attack speed and damage. Disable to use pure speed and damage.
+#
+# weapon_pickaxes_as_heavy (default true): When enabled, items in the
+# dual-purpose pickaxe list (combat tools like the Void Forge, Infernal
+# Forge, and Blacksmith Gavels) categorize as HEAVY_WEAPON instead of
+# PICKAXE. Disable for pure PickaxeItem-class behavior.
+# ----------------------------------------------------------------------
+name_based_heavy_override = false
+weapon_pickaxes_as_heavy = true
+
+# ----------------------------------------------------------------------
+# Affix blacklist. Stops the listed affixes from rolling on newly
+# generated gear (loot drops, reforging, trades, gem application).
+# Existing items keep any affixes they already have; this only blocks
+# future rolls. Apotheosis's own datapack affix overrides still win.
+#
+#   value = array of affix ids, each "namespace:path"
+#           e.g. "apotheosis:sword/attribute/vampiric"
+#
+# Find affix ids from JEI tooltips on affixed gear, or from the files
+# under data/<namespace>/affixes/ inside a mod's jar. Edit this list then
+# run /apothiccompat reload (op 2) to reapply without a restart.
+#
+# Example:
+#   affix_blacklist = ["apotheosis:sword/attribute/vampiric", "apotheosis:heavy_weapon/attribute/berserking"]
+# ----------------------------------------------------------------------
+affix_blacklist = []
+
+# ----------------------------------------------------------------------
+# Per item overrides.
+#   key   = full item id (namespace:path)
+#   value = loot category name from the list above
+#
+# Example:
+#   "ruins:greatsword" = "heavy_weapon"
+#   "simplyswords:greathammer" = "heavy_weapon"
+# ----------------------------------------------------------------------
+[item_overrides]
+
+# ----------------------------------------------------------------------
+# Per tag overrides. Every item carrying the tag receives the category.
+#   key   = full tag id (namespace:path)
+#   value = loot category name from the list above
+#
+# Tags are resolved at apply time, so datapack only tags that load with a
+# world may not be visible during early startup. /apothiccompat reload
+# runs after world load, so tag expansion there sees datapack tags.
+#
+# Example:
+#   "simplyswords:greathammers" = "heavy_weapon"
+# ----------------------------------------------------------------------
+[tag_overrides]
