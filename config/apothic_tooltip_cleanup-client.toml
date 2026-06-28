@@ -10,7 +10,7 @@
 	# Affixes shown when mode is top_n.
 	#Range: 0 ~ 99
 	affix_visible_count = 3
-	# Sort order: default, rarity, alphabetical, type.
+	# Sort order: default or alphabetical.
 	affix_sort_order = "default"
 	# The affix prefix and suffix Apotheosis adds to the item name (Strengthened, of the Inferno).
 	# show = full affixed name
@@ -46,7 +46,7 @@
 	# ============================================================
 	# How raw gem tooltips display.
 	# full = original Apotheosis layout
-	# compact = strip headers, keep per bullet categories and bonuses
+	# compact = keep the category and bonus bullets, drop the Unique tag
 	# ultra = one line for categories, one line for bonuses
 	# hidden = remove all gem info
 	gem_tooltip_mode = "compact"

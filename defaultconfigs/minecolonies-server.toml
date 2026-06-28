@@ -158,7 +158,7 @@
 	minimumrailstopath = 8
 	#Amount of additional threads to be used for pathfinding. [Default: 1, min: 1, max: 10]
 	#Range: 1 ~ 10
-	pathfindingmaxthreadcount = 2
+	pathfindingmaxthreadcount = 4
 
 #All configurations related to the request system
 [requestSystem]

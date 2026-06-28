@@ -1,0 +1,15 @@
+{
+  "primaryColor": "#fc94af",
+  "secondaryColor": "#fc46aa",
+  "particleColor": "#f699cd",
+  "description": "The Bees Knees. To obtain this bee, refer to jei for the spawn egg recipe... Good luck with that.",
+  "particleType": "pop",
+  "flowerItem": "mekanism_extras:alloy_spectrum",
+  "selfbreed": false,
+  "conditions": [
+    {
+      "modid": "mekanism",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

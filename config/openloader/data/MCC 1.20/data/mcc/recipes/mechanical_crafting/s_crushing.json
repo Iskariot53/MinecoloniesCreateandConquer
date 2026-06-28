@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/thermonuclear"
+    },
+    "C": {
+      "tag": "forge:circuits/supreme"
+    },
+    "I": {
+      "item": "thermalendergy:stellarium_ingot"
+    },
+    "P": {
+      "item": "mekanism_extras:absolute_crushing_factory"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism_extras:supreme_crushing_factory"
+  }
+}

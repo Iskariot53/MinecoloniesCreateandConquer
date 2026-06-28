@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A":{
+      "tag":"mekanism_extras:alloys/spectrum"
+    },
+    "C":{
+      "tag":"forge:circuits/infinite"
+    },
+    "P":{
+      "item":"mekanism_extras:cosmic_bin"
+    },
+    "_":{
+      "tag":"forge:cobblestone/normal"
+    },
+    "I": {
+      "item": "thermal_extra:abyssal_ingot"
+    }
+  },
+  "pattern":[
+    "_C_",
+    "APA",
+    "_I_"
+  ],
+  "result":{
+    "item":"mekanism_extras:infinite_bin"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "tag": "forge:pellets/antimatter"
+    },
+    "C": {
+      "item": "mekanism:qio_drive_supermassive"
+    },
+    "I": {
+      "item": "thermalendergy:prismalium_ingot"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "C#C",
+    "ICI"
+  ],
+  "result": {
+    "item": "mekanism_extras:qio_drive_collapse"
+  }
+}

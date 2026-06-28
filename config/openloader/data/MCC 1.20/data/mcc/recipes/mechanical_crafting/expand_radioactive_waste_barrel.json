@@ -1,0 +1,20 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "I": {
+      "item": "mekanism:radioactive_waste_barrel"
+    },
+    "S": {
+      "tag": "forge:storage_blocks/lead"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "I I",
+    "SIS"
+  ],
+  "result": {
+    "item": "mekanism_extras:expand_radioactive_waste_barrel"
+  }
+}

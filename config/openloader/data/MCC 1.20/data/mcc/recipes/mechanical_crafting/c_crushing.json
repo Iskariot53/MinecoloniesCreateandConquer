@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/shining"
+    },
+    "C": {
+      "tag": "forge:circuits/cosmic"
+    },
+    "I": {
+      "item": "thermalendergy:melodium_ingot"
+    },
+    "P": {
+      "item": "mekanism_extras:supreme_crushing_factory"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism_extras:cosmic_crushing_factory"
+  }
+}

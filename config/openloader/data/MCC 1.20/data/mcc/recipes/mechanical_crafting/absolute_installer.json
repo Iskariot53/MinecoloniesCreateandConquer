@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/radiance"
+    },
+    "C": {
+      "tag": "forge:circuits/absolute"
+    },
+    "I": {
+      "item": "thermalendergy:prismalium_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "result": {
+    "item": "mekanism_extras:absolute_tier_installer"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "mekanism_extras:absolute_induction_cell"
+  },
+  "loops": 1,
+  "results": [
+    {
+     "item": "mekanism_extras:supreme_induction_cell",
+	 "count": 1,
+     "chance": 100.0
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "thermalendergy:stellarium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "mekanism_extras:supreme_energy_cube"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "thermalendergy:stellarium_ingot"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        },
+        {
+            "item": "mekanism_extras:supreme_control_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    },
+	{
+      "type": "create_new_age:energising",
+      "energy_needed": 500000,
+	  "ingredients": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ],
+      "results": [
+        {
+          "item": "ccextras:unfinished_component"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "ccextras:unfinished_component"
+  }
+}

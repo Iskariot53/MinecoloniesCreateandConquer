@@ -1,0 +1,33 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "C": {
+      "tag": "forge:circuits/cosmic"
+    },
+    "F": {
+      "item": "mekanism_extras:naquadah_reactor_casing"
+    },
+    "A": {
+      "item": "mekanism_extras:alloy_spectrum"
+    },
+    "I": {
+      "item": "mekanism_extras:infinite_control_circuit"
+    },
+    "G": {
+      "item": "mekanism_extras:lead_coated_glass"
+    }
+  },
+  "pattern": [
+    "FFFFFFF",
+    "FGACAGF",
+    "FAAAAAF",
+	"FCAIACF",
+    "FAAAAAF",
+    "FGACAGF",
+    "FFFFFFF"
+  ],
+  "result": {
+    "item": "mekanism_extras:naquadah_reactor_controller"
+  }
+}

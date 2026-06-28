@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/radiance"
+    },
+    "C": {
+      "tag": "forge:circuits/absolute"
+    },
+    "P": {
+      "item": "mekanism:ultimate_bin"
+    },
+    "_": {
+      "tag": "forge:cobblestone/normal"
+    },
+    "I": {
+      "item": "thermalendergy:prismalium_ingot"
+    }
+  },
+  "pattern": [
+    "_C_",
+    "APA",
+    "_I_"
+  ],
+  "result": {
+    "item": "mekanism_extras:absolute_bin"
+  }
+}

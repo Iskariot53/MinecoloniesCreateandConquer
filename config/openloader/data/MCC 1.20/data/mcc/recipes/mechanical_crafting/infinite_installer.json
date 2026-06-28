@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/spectrum"
+    },
+    "C": {
+      "tag": "forge:circuits/infinite"
+    },
+    "I": {
+      "item": "thermal_extra:abyssal_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "result": {
+    "item": "mekanism_extras:infinite_tier_installer"
+  }
+}

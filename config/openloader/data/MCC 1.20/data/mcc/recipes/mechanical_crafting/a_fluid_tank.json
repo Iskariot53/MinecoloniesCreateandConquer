@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/radiance"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "P": {
+      "item": "mekanism:ultimate_fluid_tank"
+    }
+  },
+  "pattern": [
+    "AIA",
+    "IPI",
+    "AIA"
+  ],
+  "result": {
+    "item": "mekanism_extras:absolute_fluid_tank"
+  }
+}

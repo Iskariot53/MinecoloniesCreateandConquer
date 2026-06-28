@@ -2704,27 +2704,24 @@
 				"08E693958C6BD51C"
 				"3B38BC10347BDA7D"
 			]
+			dependency_requirement: "one_completed"
 			description: ["  Track down the: Dark Oak, Flower        Fields, Windswept Hills and Savannah     Enderman variants and slay 10 of       each."]
 			hide_dependency_lines: true
+			hide_details_until_startable: false
+			hide_text_until_complete: false
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "endrem:cryptic_eye"
+				id: "endrem:magical_eye"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "33AC204CCE598236"
-			invisible: true
 			rewards: [{
 				id: "46D14DE7C491EF84"
 				item: {
 					Count: 1
-					id: "endrem:cryptic_eye"
+					id: "endrem:magical_eye"
 					tag: {
 						Damage: 0
 					}
@@ -2759,23 +2756,17 @@
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "endrem:witch_eye"
+				id: "endrem:black_eye"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "554C990A289E75A1"
-			invisible: true
 			rewards: [{
 				id: "159A00E18AB89147"
 				item: {
 					Count: 1
-					id: "endrem:witch_eye"
+					id: "endrem:black_eye"
 					tag: {
 						Damage: 0
 					}
@@ -2810,18 +2801,12 @@
 			hide_until_deps_visible: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "endrem:exotic_eye"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "00825C33E00CCB25"
-			invisible: true
 			rewards: [{
 				id: "6F728A2F21043DA1"
 				item: {
@@ -2858,23 +2843,17 @@
 			hide_dependency_lines: true
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "endrem:undead_eye"
+				id: "endrem:old_eye"
 				tag: {
 					Damage: 0
 				}
 			}
 			id: "099AB0D51BA7A42D"
-			invisible: true
 			rewards: [{
 				id: "66E7D20D74DA33AD"
 				item: {
 					Count: 1
-					id: "endrem:undead_eye"
+					id: "endrem:old_eye"
 					tag: {
 						Damage: 0
 					}

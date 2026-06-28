@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "item": "mekanism:hdpe_sheet"
+    },
+    "A": {
+      "tag": "mekanism_extras:alloys/shining"
+    },
+    "G": {
+      "tag": "forge:glass/silica"
+    },
+    "I": {
+      "item": "thermalendergy:prismalium_ingot"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "A#A",
+    "IGI"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism_extras:upgrade_ionic_membrane"
+  }
+}

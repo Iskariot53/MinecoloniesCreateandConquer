@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "tag": "forge:chests"
+    },
+    "A": {
+      "tag": "mekanism_extras:alloys/thermonuclear"
+    },
+    "G": {
+      "tag": "forge:glass/silica"
+    },
+    "I": {
+      "item": "thermal_extra:abyssal_ingot"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "A#A",
+    "IGI"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism_extras:upgrade_stack"
+  }
+}

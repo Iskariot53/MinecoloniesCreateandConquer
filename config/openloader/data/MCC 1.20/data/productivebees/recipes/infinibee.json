@@ -1,0 +1,47 @@
+{
+    "type": "create:mechanical_crafting",
+      "key": {
+    "M": {
+      "item": "createteleporters:quantum_mechanism"
+    },
+    "A": {
+      "item": "mekanism_extras:expand_radioactive_waste_barrel"
+    },
+    "F": {
+      "item": "mekanism_extras:alloy_spectrum"
+    },
+    "S": {
+      "item": "draconicevolution:chaos_shard"
+    },
+    "G": {
+      "item": "mekanism_extras:lead_coated_glass"
+    },
+    "E": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:wasted_radioactive\"}}"
+    }
+  },
+  "pattern": [
+    "   FFF   ",
+    "  FMAMF  ",
+    " FAGGGAF ",
+	"FMGEEEGMF",
+    "FAGESEGAF",
+    "FMGEEEGMF",
+    "FAGGGGGAF",
+    "FFMAMAMFF",
+    " FFFFFFF "
+  ],
+    "result": {
+        "type": "forge:nbt",
+        "item": "productivebees:spawn_egg_configurable_bee",
+        "nbt": "{EntityTag:{type:\"productivebees:infinibee\"}}"
+    },
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:infinibee"
+        }
+    ]
+}

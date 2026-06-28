@@ -1,0 +1,31 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "I": {
+      "tag": "forge:circuits/infinite"
+    },
+    "F": {
+      "item": "mekanism_extras:naquadah_reactor_casing"
+    },
+    "A": {
+      "item": "mekanism_extras:alloy_spectrum"
+    },
+    "G": {
+      "item": "mekanism_extras:lead_coated_glass"
+    }
+  },
+  "pattern": [
+    "FFFFFFF",
+    "FGAIAGF",
+    "FAFFFAF",
+	"FIF FIF",
+    "FAFFFAF",
+    "FGAIAGF",
+    "FFFFFFF"
+  ],
+  "result": {
+    "count": 4,
+    "item": "mekanism_extras:naquadah_reactor_port"
+  }
+}

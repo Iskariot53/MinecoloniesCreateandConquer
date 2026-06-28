@@ -1,35 +1,26 @@
-Minecolonies - Create and Conquer- 3.5.0 Changelog
-
-
-
-
-Mods Added
-
-
-- Applied Create
-- SFM Thermal Compat
-- Super Factory Manager ( SFM )
+Minecolonies - Create and Conquer- 3.5.2 Changelog
 
 
 
 Mods Updated
 
 
-- Apothic Compat
 - Apothic Tooltip Cleanup
-- Blocks You Need (BYN) - Industrial, Steampunk, Laboratory, Space & more!
-- Born in Chaos
-- Born In Configuration
-- Create: Enchantment Industry
-- Create: New Age
-- ModernFix
-
+- Crash Assistant
+- CreativeCore
+- Fix GPU memory leak
+- McJtyLib
+- Mekanism Extras
+- RFTools Base
+- Sophisticated Backpacks
+- Sophisticated Core
+- XNet
 
 
 Changes
 
 
-
-- Addressed some dated attribute modifiers from earlier pack versions, which were causing issues and not syncing between client and server, among other effects. (Celestisynth items, for example).
-- Re-implemented the Keres with "Carnage Incarnate" block breaking disabled, removed limitations on monliths/traversers now that they are working properly.
-- Re-worked meka-tana/meka-bow recipes/stats (Something got buffed and not nerfed for once, yay!) in accordance with the addition of Mekanism Extras, and to spice things up a bit along the way.
+- Reinforced induction matrix now properly accepts absolute tier cells and providers.
+- Misc. minor tweaks for handling GUI's, like backpacks.
+- Improved memory utilization for rendering.
+- Added new starter hut "Studio Wren", courtesy of Wrenharmonic. 

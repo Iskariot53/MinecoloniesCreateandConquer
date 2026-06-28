@@ -409,7 +409,7 @@ import crafttweaker.api.recipe.IRecipeManager;
 		<recipetype:celestisynth:starlit_factory_type>.addJsonRecipe("celestisynth.keres", {
 		  "type": "celestisynth:starlit_factory",
 		  "core_material": {
-			"item": "celestisynth:crimson_piece"
+			"item": "draconicevolution:awakened_draconium_ingot"
 		  },
 		  "extra_core_material": {
      		"item": "cataclysm:the_immolator"
@@ -417,7 +417,7 @@ import crafttweaker.api.recipe.IRecipeManager;
 		  "forging_time": 800,
 		  "result": "celestisynth:keres",
 		  "supporting_core_material": {
-			"item": "celestisynth:crimson_piece"
+			"item": "draconicevolution:awakened_draconium_ingot"
 		  },
 		  "supporting_material_bottom": {
 			"item": "celestisynth:celestial_netherite_ingot"
@@ -426,7 +426,7 @@ import crafttweaker.api.recipe.IRecipeManager;
 			"item": "mekanism:pellet_antimatter"
 		  },
 		  "supporting_material_top": {
-			"item": "celestisynth:celestial_netherite_ingot"
+			"item": "alexscaves:tectonic_shard"
 		  }
 		});
 	
@@ -494,6 +494,31 @@ blastFurnace.remove(<item:enlightened_end:irradium_bar>);
             "bee": "productivebees:wasted_radioactive"
         }
     ]
+});
+
+<recipetype:mekanism:oxidizing>.addJsonRecipe("oxidizing.infinibeecomb", {
+  "type": "mekanism:oxidizing",
+  "input": {
+    "ingredient": {
+      "type": "forge:nbt",
+      "item": "productivebees:configurable_comb",
+      "nbt": {
+        "EntityTag": {
+          "type": "productivebees:infinibee"
+        }
+      }
+    }
+  },
+  "output": {
+    "gas": "mekanism:antimatter",
+    "amount": 100
+  },
+  "conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:infinibee"
+    }
+  ]
 });
 
 craftingTable.remove(<item:thermal:rf_coil>);
@@ -1174,6 +1199,10 @@ craftingTable.remove(<item:mekanism:ultimate_purifying_factory>);
 craftingTable.remove(<item:mekanism:ultimate_injecting_factory>);
 craftingTable.remove(<item:mekanism:ultimate_infusing_factory>);
 craftingTable.remove(<item:mekanism:ultimate_sawing_factory>);
+craftingTable.remove(<item:mekanism:basic_control_circuit>);
+craftingTable.remove(<item:mekanism:advanced_control_circuit>);
+craftingTable.remove(<item:mekanism:elite_control_circuit>);
+craftingTable.remove(<item:mekanism:ultimate_control_circuit>);
 craftingTable.remove(<item:mekaweapons:module_arrowenergy_unit>);
 craftingTable.remove(<item:mekaweapons:module_autofire_unit>);
 craftingTable.remove(<item:mekaweapons:module_drawspeed_unit>);
@@ -1190,6 +1219,122 @@ craftingTable.remove(<item:mekanismgenerators:bio_generator>);
 craftingTable.remove(<item:mekanismgenerators:gas_burning_generator>);
 craftingTable.remove(<item:mekanismgenerators:solar_panel>);
 craftingTable.remove(<item:mekanismgenerators:rotational_complex>);
+craftingTable.remove(<item:mekanismgenerators:fission_reactor_casing>);
+craftingTable.remove(<item:mekanismgenerators:turbine_casing>);
+craftingTable.remove(<item:mekanism_extras:qio_drive_collapse>);
+craftingTable.remove(<item:mekanism_extras:qio_drive_gamma>);
+craftingTable.remove(<item:mekanism_extras:qio_drive_black_hole>);
+craftingTable.remove(<item:mekanism_extras:qio_drive_singularity>);
+craftingTable.remove(<item:mekanism_extras:upgrade_stack>);
+craftingTable.remove(<item:mekanism_extras:upgrade_ionic_membrane>);
+craftingTable.remove(<item:mekanism_extras:absolute_tier_installer>);
+craftingTable.remove(<item:mekanism_extras:supreme_tier_installer>);
+craftingTable.remove(<item:mekanism_extras:cosmic_tier_installer>);
+craftingTable.remove(<item:mekanism_extras:infinite_tier_installer>);
+craftingTable.remove(<item:mekanism_extras:absolute_bin>);
+craftingTable.remove(<item:mekanism_extras:supreme_bin>);
+craftingTable.remove(<item:mekanism_extras:cosmic_bin>);
+craftingTable.remove(<item:mekanism_extras:infinite_bin>);
+craftingTable.remove(<item:mekanism_extras:reinforced_induction_casing>);
+craftingTable.remove(<item:mekanism_extras:reinforced_induction_port>);
+craftingTable.remove(<item:mekanism_extras:expand_radioactive_waste_barrel>);
+craftingTable.remove(<item:mekanism_extras:advance_electric_pump>);
+craftingTable.remove(<item:mekanism_extras:naquadah_reactor_controller>);
+craftingTable.remove(<item:mekanism_extras:naquadah_reactor_port>);
+craftingTable.remove(<item:mekanism_extras:naquadah_reactor_casing>);
+craftingTable.remove(<item:mekanism_extras:naquadah_reactor_logic_adapter>);
+craftingTable.remove(<item:mekanism_extras:lead_coated_laser_focus_matrix>);
+craftingTable.remove(<item:mekanism_extras:absolute_control_circuit>);
+craftingTable.remove(<item:mekanism_extras:supreme_control_circuit>);
+craftingTable.remove(<item:mekanism_extras:cosmic_control_circuit>);
+craftingTable.remove(<item:mekanism_extras:infinite_control_circuit>);
+
+craftingTable.remove(<item:mekanism_extras:absolute_induction_cell>);
+craftingTable.remove(<item:mekanism_extras:supreme_induction_cell>);
+craftingTable.remove(<item:mekanism_extras:cosmic_induction_cell>);
+craftingTable.remove(<item:mekanism_extras:infinite_induction_cell>);
+craftingTable.remove(<item:mekanism_extras:absolute_induction_provider>);
+craftingTable.remove(<item:mekanism_extras:supreme_induction_provider>);
+craftingTable.remove(<item:mekanism_extras:cosmic_induction_provider>);
+craftingTable.remove(<item:mekanism_extras:infinite_induction_provider>);
+craftingTable.remove(<item:mekanism_extras:absolute_fluid_tank>);
+craftingTable.remove(<item:mekanism_extras:supreme_fluid_tank>);
+craftingTable.remove(<item:mekanism_extras:cosmic_fluid_tank>);
+craftingTable.remove(<item:mekanism_extras:infinite_fluid_tank>);
+craftingTable.remove(<item:mekanism_extras:absolute_chemical_tank>);
+craftingTable.remove(<item:mekanism_extras:supreme_chemical_tank>);
+craftingTable.remove(<item:mekanism_extras:cosmic_chemical_tank>);
+craftingTable.remove(<item:mekanism_extras:infinite_chemical_tank>);
+craftingTable.remove(<item:mekanism_extras:absolute_energy_cube>);
+craftingTable.remove(<item:mekanism_extras:supreme_energy_cube>);
+craftingTable.remove(<item:mekanism_extras:cosmic_energy_cube>);
+craftingTable.remove(<item:mekanism_extras:infinite_energy_cube>);
+craftingTable.remove(<item:mekanism_extras:absolute_universal_cable>);
+craftingTable.remove(<item:mekanism_extras:supreme_universal_cable>);
+craftingTable.remove(<item:mekanism_extras:cosmic_universal_cable>);
+craftingTable.remove(<item:mekanism_extras:infinite_universal_cable>);
+craftingTable.remove(<item:mekanism_extras:absolute_mechanical_pipe>);
+craftingTable.remove(<item:mekanism_extras:supreme_mechanical_pipe>);
+craftingTable.remove(<item:mekanism_extras:cosmic_mechanical_pipe>);
+craftingTable.remove(<item:mekanism_extras:infinite_mechanical_pipe>);
+craftingTable.remove(<item:mekanism_extras:absolute_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:supreme_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:cosmic_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:infinite_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:absolute_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:supreme_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:cosmic_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:infinite_pressurized_tube>);
+craftingTable.remove(<item:mekanism_extras:absolute_logistical_transporter>);
+craftingTable.remove(<item:mekanism_extras:supreme_logistical_transporter>);
+craftingTable.remove(<item:mekanism_extras:cosmic_logistical_transporter>);
+craftingTable.remove(<item:mekanism_extras:infinite_logistical_transporter>);
+craftingTable.remove(<item:mekanism_extras:absolute_thermodynamic_conductor>);
+craftingTable.remove(<item:mekanism_extras:supreme_thermodynamic_conductor>);
+craftingTable.remove(<item:mekanism_extras:cosmic_thermodynamic_conductor>);
+craftingTable.remove(<item:mekanism_extras:infinite_thermodynamic_conductor>);
+
+
+
+
+
+craftingTable.remove(<item:mekanism_extras:absolute_smelting_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_enriching_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_crushing_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_compressing_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_combining_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_purifying_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_injecting_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_infusing_factory>);
+craftingTable.remove(<item:mekanism_extras:absolute_sawing_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_smelting_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_enriching_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_crushing_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_compressing_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_combining_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_purifying_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_injecting_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_infusing_factory>);
+craftingTable.remove(<item:mekanism_extras:supreme_sawing_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_smelting_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_enriching_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_crushing_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_compressing_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_combining_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_purifying_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_injecting_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_infusing_factory>);
+craftingTable.remove(<item:mekanism_extras:cosmic_sawing_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_smelting_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_enriching_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_crushing_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_compressing_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_combining_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_purifying_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_injecting_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_infusing_factory>);
+craftingTable.remove(<item:mekanism_extras:infinite_sawing_factory>);
+
 craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/slime"}));
 craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/enderman"}));
 craftingTable.remove(<item:gateways:gate_pearl>.withTag({gateway: "gateways:basic/blaze"}));

@@ -1,0 +1,26 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/thermonuclear"
+    },
+    "C": {
+      "tag": "forge:circuits/supreme"
+    },
+    "I": {
+      "item": "thermalendergy:stellarium_ingot"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "result": {
+    "item": "mekanism_extras:supreme_tier_installer"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/thermonuclear"
+    },
+    "C": {
+      "tag": "forge:circuits/supreme"
+    },
+    "P": {
+      "item": "mekanism_extras:absolute_bin"
+    },
+    "_": {
+      "tag": "forge:cobblestone/normal"
+    },
+    "I": {
+      "item": "thermalendergy:stellarium_ingot"
+    }
+  },
+  "pattern": [
+    "_C_",
+    "APA",
+    "_I_"
+  ],
+  "result": {
+    "item": "mekanism_extras:supreme_bin"
+  }
+}

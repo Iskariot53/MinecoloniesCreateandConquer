@@ -1,0 +1,27 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "A": {
+      "tag": "mekanism_extras:alloys/radiance"
+    },
+    "C": {
+      "tag": "forge:circuits/absolute"
+    },
+    "I": {
+      "item": "thermalendergy:prismalium_ingot"
+    },
+    "P": {
+      "item": "mekanism:ultimate_smelting_factory"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "IPI",
+    "ACA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "mekanism_extras:absolute_smelting_factory"
+  }
+}

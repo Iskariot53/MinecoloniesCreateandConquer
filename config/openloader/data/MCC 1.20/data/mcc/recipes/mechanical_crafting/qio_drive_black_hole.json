@@ -1,0 +1,23 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": false,
+  "key": {
+    "#": {
+      "tag": "forge:pellets/antimatter"
+    },
+    "C": {
+      "item": "mekanism_extras:qio_drive_gamma"
+    },
+    "I": {
+      "item": "thermalendergy:melodium_ingot"
+    }
+  },
+  "pattern": [
+    "ICI",
+    "C#C",
+    "ICI"
+  ],
+  "result": {
+    "item": "mekanism_extras:qio_drive_black_hole"
+  }
+}
