@@ -1,26 +1,35 @@
-Minecolonies - Create and Conquer- 3.5.2 Changelog
+Minecolonies - Create and Conquer- 3.5.3 Changelog
 
 
 
 Mods Updated
 
 
-- Apothic Tooltip Cleanup
-- Crash Assistant
-- CreativeCore
-- Fix GPU memory leak
-- McJtyLib
-- Mekanism Extras
-- RFTools Base
+- Advanced Peripherals
+- Apothic Category Compat
+- Applied Create
+- Ars Elemental
+- Balm
+- Botania
+- Collective
+- CreateColonies
+- Effective Instruments
+- ExtendedAE
+- Functional Storage
+- Inventory Essentials
+- Mekanism: Weapons
+- ModernFix
+- Oh The Biomes We've Gone
+- Oh The Trees You'll Grow
+- Security Craft
 - Sophisticated Backpacks
 - Sophisticated Core
-- XNet
+- Super Factory Manager ( SFM )
+- Wormhole Artifact
 
 
 Changes
 
 
-- Reinforced induction matrix now properly accepts absolute tier cells and providers.
-- Misc. minor tweaks for handling GUI's, like backpacks.
-- Improved memory utilization for rendering.
-- Added new starter hut "Studio Wren", courtesy of Wrenharmonic. 
+- Changed source cost of wyvern core 30k -> 20k source (1 full standard jar)
+- Reinforced blocks added to colony indestructibles tag, excluding "reinforced soft blocks" like wool and sand. (I don't actually recommend using this unless you know what you're doing and prepared to create potential problems with building upgrades or otherwise, but it is a thing.)

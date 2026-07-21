@@ -1667,7 +1667,7 @@ craftingTable.remove(<item:draconicevolution:wyvern_core>);
 		"item": "minecraft:nether_star"
 	}
   ],
-  "sourceCost": 30000
+  "sourceCost": 20000
 });
 
 craftingTable.remove(<item:modularrouters:blank_upgrade>);
