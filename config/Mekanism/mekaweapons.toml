@@ -54,3 +54,29 @@
 		#Whether Meka-Bow can be enchanted. False by default. Use at your own risk.
 		enchantments = true
 
+		#Meka-Gun Settings
+		[weapons.mekabow.meka_gun]
+			#Base damage of Meka-Gun.
+			baseDamage = 50
+			#Cost in Joules of using Meka-Gun.
+			energyUsage = "250000"
+			#Base energy capacity of Meka-Gun.
+			baseEnergyCapacity = "16000000"
+			#Base charge rate of Meka-Gun.
+			baseChargeRate = "350000"
+			#Laser beam length of Meka-Gun, in blocks.
+			#Range: 1 ~ 1024
+			beamLength = 20
+			#Max heat percentage of Meka-Gun.
+			#Range: 1 ~ 10000
+			maxHeat = 100
+			#Heat percentage added to Meka-Gun per shot.
+			#Range: 1 ~ 10000
+			heatPerShot = 10
+			#Heat percentage lost by Meka-Gun per second.
+			#Range: 1 ~ 10000
+			heatLossPerSecond = 5
+			#Ticks to wait before Meka-Gun starts cooling down.
+			#Range: 1 ~ 10000
+			cooldownDelayTicks = 20
+

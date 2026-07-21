@@ -1,6 +1,13 @@
 Minecolonies - Create and Conquer- 3.5.3 Changelog
 
 
+Mods Added
+
+
+- JEIOptimizer
+- Item Obliterator
+
+
 
 Mods Updated
 
@@ -13,10 +20,12 @@ Mods Updated
 - Botania
 - Collective
 - CreateColonies
+- Default Options
 - Effective Instruments
 - ExtendedAE
 - Functional Storage
 - Inventory Essentials
+- JEI
 - Mekanism: Weapons
 - ModernFix
 - Oh The Biomes We've Gone
@@ -33,3 +42,5 @@ Changes
 
 - Changed source cost of wyvern core 30k -> 20k source (1 full standard jar)
 - Reinforced blocks added to colony indestructibles tag, excluding "reinforced soft blocks" like wool and sand. (I don't actually recommend using this unless you know what you're doing and prepared to create potential problems with building upgrades or otherwise, but it is a thing.)
+- Set proper chunkloading exemptions for limited chunks. (Do not complain or seek support if you disable this mod or change its configs, you will experience tps issues eventually and are on your own.)
+- Replaced the pack default sophisticated configs that went missing/forgotten when the mod was re-implemented, since it was brought to my attention that backpacks were suddenly way too op again.
