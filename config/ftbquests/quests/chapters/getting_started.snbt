@@ -376,7 +376,7 @@
 			description: [
 				"                                                                    &#D2691ECapsules&r"
 				""
-				"  One of our favorite mods ever! This    quest will let you choose a starter      home sample, conveniently pre-packed  in a re-usable capsule, courtesy of     the devs (they're actually the same     ones we built and used for our own     play!)"
+				"  One of our favorite mods ever! This    quest will give you an empty capsule     that can be filled and used the same    as your starting hut."
 				""
 				""
 				"  &#D2691EMOST CAPSULES YOU FIND ARE NOT       REUSABLE, ONCE PLACED, THEY CANNOT   BE PUT BACK INSIDE AS THE ORIGINAL    CAPSULE DISAPPEARS ON USE!&r"
@@ -395,11 +395,6 @@
 			]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
 				id: "capsule:capsule"
 				tag: {
 					color: 12244701

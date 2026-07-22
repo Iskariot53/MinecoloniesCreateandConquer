@@ -1,0 +1,19 @@
+{
+  "type": "recipe",
+  "count": 1,
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "count": 4,
+      "item": "minecraft:diamond"
+    },
+	{
+      "count": 1,
+      "item": "create:large_cogwheel"
+    }
+  ],
+  "intermediate": "minecraft:air",
+  "min-building-level": 3,
+  "research-id": "mcc:effects/industrial_t3_unlock",
+  "result": "thermal:diamond_gear"
+}
