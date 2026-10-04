@@ -256,26 +256,15 @@
 			]
 			subtitle: "&#8B4513No introduction needed"
 			tasks: [{
-				id: "2A608FCA3DB4AD08"
+				id: "030CC3CB85337588"
 				item: {
 					Count: 1
-					id: "itemfilters:or"
+					id: "sophisticatedbackpacks:backpack"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "backpacked:backpack"
-								tag: { }
-							}
-							{
-								Count: 1b
-								id: "packedup:basicbackpack"
-								tag: { }
-							}
-						]
+						inventorySlots: 27
+						upgradeSlots: 1
 					}
 				}
-				title: "Backpack"
 				type: "item"
 			}]
 			title: "&lBackpack"

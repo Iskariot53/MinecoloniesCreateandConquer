@@ -1,0 +1,47 @@
+
+[Debug]
+	#Set the debug logging level. Options: NONE, LOGISTICS, BRIDGE, CITIZENS, ALLY, ALL. Default: NONE
+	#Allowed Values: NONE, LOGISTICS, BRIDGE, CITIZENS, ALLY, ALL
+	debugLevel = "NONE"
+
+[General]
+	#The base interval (in ticks) between Logistics Coordinator request checks. Default: 1200 (60 seconds). Min: 200, Max: 12000.
+	#Range: 200 ~ 1200
+	coordinatorCooldown = 500
+	#The maximum amount of stock a player can configure a logistics block to hold (Server limit). Default: 512.
+	#Range: 1 ~ 100000
+	maxPlayerStockRequest = 512
+
+["Citizen Skill Scaling"]
+	#Set to false to completely disable citizen skills affecting logistics (workers will use base stats). Default: true
+	enableSkillScaling = true
+	#The base percentage chance (0-50 WARNING 50 WILL CAUSE CHAOS!!) PER LETTER for a Level 1 Freight Inspector to make a spelling mistake in the logs. Drops as Intelligence increases. Default: 15
+	#Range: 0 ~ 50
+	baseSpellingMistakeChance = 15
+	#How many ticks of cooldown/delay are removed per level of Intelligence for Logistics Coordinators and Inspectors. Default: 10
+	#Range: 0 ~ 100
+	cooldownReductionPerIntel = 10
+	#The percentage speed boost added to logistics workers per level of Athletics. (e.g. 0.02 = 2% faster per level). Default: 0.02
+	#Range: 0.0 ~ 0.5
+	speedBoostPerAthletics = 0.02
+	#How many stacks a Packer Agent can carry per level of Strength. Default: 1
+	#Range: 0 ~ 9
+	packerCapacityPerStrength = 1
+
+["Packer Agents Capacity"]
+	#Max Packer Agents for a Level 1 Freight Depot. Default: 2
+	#Range: 1 ~ 50
+	packersLevel1 = 2
+	#Max Packer Agents for a Level 2 Freight Depot. Default: 3
+	#Range: 1 ~ 50
+	packersLevel2 = 3
+	#Max Packer Agents for a Level 3 Freight Depot. Default: 5
+	#Range: 1 ~ 50
+	packersLevel3 = 5
+	#Max Packer Agents for a Level 4 Freight Depot. Default: 7
+	#Range: 1 ~ 50
+	packersLevel4 = 7
+	#Max Packer Agents for a Level 5 Freight Depot. Default: 10
+	#Range: 1 ~ 50
+	packersLevel5 = 10
+

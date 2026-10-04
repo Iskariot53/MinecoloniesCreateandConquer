@@ -1,14 +1,18 @@
 {
     "bar_settings": {
         "color_provider": {
-            "color": "#ff00e6e6",
-            "type": "single"
+            "colors": {
+                "0.25": "#ffff0000",
+                "0.5": "#ffffff00",
+                "0.75": "#ff00ff00"
+            },
+            "type": "transitioning"
         },
         "show_text": true,
         "show_icon": true,
         "icon": "minecraft:textures/gui/icons.png",
         "enabled": true,
-        "disables_overlay": "minecraft:air_level",
+        "disables_overlay": "minecraft:mount_health",
         "side": "right",
         "fitted": false
     }

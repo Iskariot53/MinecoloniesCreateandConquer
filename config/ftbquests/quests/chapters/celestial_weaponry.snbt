@@ -8,11 +8,6 @@
 	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
 		id: "celestisynth:rainfall_serenity"
 		tag: {
 			Damage: 0

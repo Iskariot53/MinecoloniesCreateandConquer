@@ -569,8 +569,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.2321428571428754d
-			y: 8.174999999999997d
+			x: -2.2261904761904816d
+			y: 7.142857142857153d
 		}
 		{
 			dependencies: ["0DC612012D9F5CC8"]
@@ -611,8 +611,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.2321428571428754d
-			y: 9.174999999999997d
+			x: -2.2261904761904816d
+			y: 8.142857142857153d
 		}
 		{
 			dependencies: ["26AB28723901180C"]
@@ -694,8 +694,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.7321428571428754d
-			y: 8.174999999999997d
+			x: -0.7261904761904816d
+			y: 7.142857142857153d
 		}
 		{
 			dependencies: ["78D0A8DE604F4EF5"]
@@ -736,8 +736,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.7321428571428754d
-			y: 9.174999999999997d
+			x: -0.7261904761904816d
+			y: 8.142857142857153d
 		}
 		{
 			dependencies: ["097132287977D15D"]
@@ -819,8 +819,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.7678571428571246d
-			y: 8.174999999999997d
+			x: 0.7738095238095184d
+			y: 7.142857142857153d
 		}
 		{
 			dependencies: ["398846F77C0A87CD"]
@@ -861,8 +861,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.7678571428571246d
-			y: 9.174999999999997d
+			x: 0.7738095238095184d
+			y: 8.142857142857153d
 		}
 		{
 			dependencies: ["10A03B6AFCB30520"]
@@ -944,8 +944,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.2678571428571246d
-			y: 8.174999999999997d
+			x: 2.2738095238095184d
+			y: 7.142857142857153d
 		}
 		{
 			dependencies: ["3293026C1A823B87"]
@@ -986,8 +986,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.2678571428571246d
-			y: 9.174999999999997d
+			x: 2.2738095238095184d
+			y: 8.142857142857153d
 		}
 		{
 			dependencies: ["05A9CF0A23D66D04"]
@@ -1069,8 +1069,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.7678571428571246d
-			y: 8.174999999999997d
+			x: 3.7738095238095184d
+			y: 7.142857142857153d
 		}
 		{
 			dependencies: ["35DAB0A24A073B70"]
@@ -1111,50 +1111,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.7678571428571246d
-			y: 9.174999999999997d
-		}
-		{
-			dependencies: ["645B4A7596CB5DCA"]
-			hide_dependency_lines: false
-			id: "76A8D143892BD25D"
-			rewards: [
-				{
-					id: "726B964EA0677150"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "6169EC76C6A0678B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-			]
-			size: 1.0d
-			tasks: [{
-				id: "33F55C38C4676982"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "sophisticatedbackpacks:advanced_feeding_upgrade"
-				}
-				type: "item"
-			}]
-			x: 5.267857142857125d
-			y: 6.174999999999997d
+			x: 3.7738095238095184d
+			y: 8.142857142857153d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1194,8 +1152,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.267857142857125d
-			y: 8.174999999999997d
+			x: 5.221428571428575d
+			y: 5.171428571428578d
 		}
 		{
 			dependencies: ["665D2B45126BFD6A"]
@@ -1236,8 +1194,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.267857142857125d
-			y: 9.174999999999997d
+			x: 5.221428571428575d
+			y: 6.171428571428578d
 		}
 		{
 			dependencies: ["00B9671338E0E8A4"]
@@ -1651,47 +1609,6 @@
 				type: "item"
 			}]
 			x: 3.75d
-			y: 5.174999999999997d
-		}
-		{
-			dependencies: ["00B9671338E0E8A4"]
-			id: "645B4A7596CB5DCA"
-			rewards: [
-				{
-					id: "42C881D593EE22F3"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 5
-					id: "4A87E3F7E78B209B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
-						id: "numismatics:spur"
-					}
-					type: "item"
-				}
-			]
-			size: 1.0d
-			tasks: [{
-				id: "0C19BA30A6CC2216"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "sophisticatedbackpacks:feeding_upgrade"
-				}
-				type: "item"
-			}]
-			x: 5.25d
 			y: 5.174999999999997d
 		}
 		{

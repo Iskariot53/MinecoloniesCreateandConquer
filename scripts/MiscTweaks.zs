@@ -2151,6 +2151,7 @@ if (event.entity.type == <entitytype:realmrpg_quests:piglin_gambler>) {
 
 
 craftingTable.remove(<item:rarcompat:mimi_dust>);
+craftingTable.remove(<item:sophisticatedcore:ender_linker>);
 
 craftingTable.addShapeless("resonance_guide", <item:patchouli:guide_book>.withTag({"patchouli:book": "ancientcity:resonanceguide"}), [<item:minecraft:book>, <item:minecolonies:blockhuttownhall>]);
 

@@ -2709,6 +2709,7 @@
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "endrem:magical_eye"
@@ -2717,6 +2718,7 @@
 				}
 			}
 			id: "33AC204CCE598236"
+			min_required_dependencies: 2
 			rewards: [{
 				id: "46D14DE7C491EF84"
 				item: {
@@ -2753,7 +2755,7 @@
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
-			hide_until_deps_visible: true
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "endrem:black_eye"
@@ -2762,6 +2764,7 @@
 				}
 			}
 			id: "554C990A289E75A1"
+			min_required_dependencies: 2
 			rewards: [{
 				id: "159A00E18AB89147"
 				item: {
@@ -2793,12 +2796,12 @@
 				"62E54AA5C7EC9208"
 				"3B38BC10347BDA7D"
 			]
-			dependency_requirement: "one_started"
+			dependency_requirement: "one_completed"
 			description: ["  Track down the: Swamp, Coral, Snowy    and Ice Spikes Enderman variants and  slay 10 of each."]
 			hide_dependency_lines: true
 			hide_details_until_startable: false
 			hide_text_until_complete: false
-			hide_until_deps_visible: true
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "endrem:exotic_eye"
@@ -2807,6 +2810,7 @@
 				}
 			}
 			id: "00825C33E00CCB25"
+			min_required_dependencies: 2
 			rewards: [{
 				id: "6F728A2F21043DA1"
 				item: {
@@ -2841,6 +2845,7 @@
 			dependency_requirement: "one_started"
 			description: ["  Track down the: Mushroom Fields,        Badlands, Desert and Cave Enderman    variants and slay 10 of each."]
 			hide_dependency_lines: true
+			hide_until_deps_complete: false
 			icon: {
 				Count: 1
 				id: "endrem:old_eye"
@@ -2849,6 +2854,7 @@
 				}
 			}
 			id: "099AB0D51BA7A42D"
+			min_required_dependencies: 2
 			rewards: [{
 				id: "66E7D20D74DA33AD"
 				item: {

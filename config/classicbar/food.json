@@ -1,4 +1,22 @@
 {
-    "show_text": true,
-    "icon": "minecraft:textures/gui/icons.png"
+    "bar_settings": {
+        "color_provider": {
+            "secondary": "#ffffcc00",
+            "primary_under_effect": "#ff249016",
+            "secondary_under_effect": "#ff87bc00",
+            "mob_effect": "minecraft:hunger",
+            "primary": "#ffb34d00",
+            "type": "dual_effect"
+        },
+        "show_text": true,
+        "show_icon": true,
+        "icon": "minecraft:textures/gui/icons.png",
+        "enabled": true,
+        "disables_overlay": "minecraft:food_level",
+        "side": "right",
+        "fitted": false
+    },
+    "show_saturation": true,
+    "show_exhaustion": true,
+    "show_predicted_healing": true
 }

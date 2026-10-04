@@ -1,4 +1,69 @@
 {
-    "show_text": true,
-    "icon": "minecraft:textures/gui/icons.png"
+    "bar_settings": {
+        "color_provider": {
+            "normal": [
+                "#ffd4af37",
+                "#ffc2c73b",
+                "#ff8dc337",
+                "#ff36ba77",
+                "#ff4a5bc4",
+                "#ffd89ae2",
+                "#ffdf9dc7",
+                "#ffdfa99d",
+                "#ffd4df9d",
+                "#ff3e84c6",
+                "#ffb8c1e8",
+                "#ffdfdfdf"
+            ],
+            "poison": [
+                "#ffd4af37",
+                "#ffc2c73b",
+                "#ff8dc337",
+                "#ff36ba77",
+                "#ff4a5bc4",
+                "#ffd89ae2",
+                "#ffdf9dc7",
+                "#ffdfa99d",
+                "#ffd4df9d",
+                "#ff3e84c6",
+                "#ffb8c1e8",
+                "#ffdfdfdf"
+            ],
+            "wither": [
+                "#ffd4af37",
+                "#ffc2c73b",
+                "#ff8dc337",
+                "#ff36ba77",
+                "#ff4a5bc4",
+                "#ffd89ae2",
+                "#ffdf9dc7",
+                "#ffdfa99d",
+                "#ffd4df9d",
+                "#ff3e84c6",
+                "#ffb8c1e8",
+                "#ffdfdfdf"
+            ],
+            "frozen": [
+                "#ffd4af37",
+                "#ffc2c73b",
+                "#ff8dc337",
+                "#ff36ba77",
+                "#ff4a5bc4",
+                "#ffd89ae2",
+                "#ffdf9dc7",
+                "#ffdfa99d",
+                "#ffd4df9d",
+                "#ff3e84c6",
+                "#ffb8c1e8",
+                "#ffdfdfdf"
+            ],
+            "type": "stacking_effect"
+        },
+        "show_text": true,
+        "show_icon": true,
+        "icon": "minecraft:textures/gui/icons.png",
+        "enabled": true,
+        "side": "left",
+        "fitted": true
+    }
 }

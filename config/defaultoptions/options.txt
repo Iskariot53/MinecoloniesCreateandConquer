@@ -32,7 +32,7 @@ damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
 renderDistance:10
-simulationDistance:10
+simulationDistance:8
 entityDistanceScaling:4.0
 guiScale:4
 particles:1
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","resources/MCC Bees-Lang.zip","resources/MCC Quests.zip","file/Lopy-Create-Pipez.zip","file/Create Teleporters Remastered V0.1 1.20.1 Fix.zip","file/Created Applied Energistics.zip","file/LootrChestRetexture_v1.1_1.19.zip","file/Medieval_Background_Music-1.19.3-2.0.zip","file/Thermal_Create_1.20.zip","file/Stay_True_1.20.zip","crlib_generated_client","fabric","resources/MCC Tooltips","file/[NeoForge] Mekanism CTM-Fusion 1.1.zip","file/Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip"]
-incompatibleResourcePacks:["builtin/towntalk","resources/MCC Bees-Lang.zip","file/Lopy-Create-Pipez.zip","file/Created Applied Energistics.zip","file/LootrChestRetexture_v1.1_1.19.zip","file/Medieval_Background_Music-1.19.3-2.0.zip","file/Thermal_Create_1.20.zip"]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","crlib_generated_client","fabric","resources/MCC Bees-Lang.zip","resources/MCC Quests.zip","resources/MCC Tooltips","file/Stay_True_1.20.zip","file/Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip","file/Lopy-Create-Pipez.zip","file/Thermal_Create_1.20.zip","file/Created Applied Energistics.zip","file/[NeoForge] Mekanism CTM-Fusion 1.1.zip","file/Medieval_Background_Music-1.19.3-2.0.zip"]
+incompatibleResourcePacks:["builtin/towntalk","resources/MCC Bees-Lang.zip","file/Lopy-Create-Pipez.zip","file/Thermal_Create_1.20.zip","file/Created Applied Energistics.zip","file/Medieval_Background_Music-1.19.3-2.0.zip"]
 lastServer:
 lang:en_us
 soundDevice:""

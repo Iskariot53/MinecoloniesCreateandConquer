@@ -9,7 +9,7 @@
 	voluntarySeedDropRate = 0.01
 	#The rate at which seeds voluntarily plant themselves in their ideal biomes
 	#Range: 0.0 ~ 1.0
-	seedPlantRate = 0.1666666716337204
+	seedPlantRate = 0.02
 	#Ticks before a seed in the world attempts to plant itself or despawn. 1200 = 1 minute
 	#Range: 0 ~ 6000
 	timeToLive = 600
@@ -17,13 +17,13 @@
 	seedOnlyForest = true
 	#The minimum forestness that non-forest-like biomes can have. 0 = is not at all a forest, 1 = may as well be a forest. Can be fractional.
 	#Range: 0.0 ~ 1.0
-	seedMinForestness = 0.0
+	seedMinForestness = 0.3
 
 #Tree Settings
 [trees]
 	#Factor that multiplies the rate at which trees grow. Use at own risk
 	#Range: 0.0 ~ 16.0
-	growthMultiplier = 0.5
+	growthMultiplier = 1.0
 	#Factor that multiplies the wood returned from harvesting a tree.  You cheat.
 	#Range: 0.0 ~ 128.0
 	harvestMultiplier = 1.0
@@ -37,7 +37,7 @@
 	dropSticks = true
 	#Scales the growth for the environment.  0.5f is nominal. 0.0 trees only grow in their native biome. 1.0 trees grow anywhere like they are in their native biome
 	#Range: 0.0 ~ 1.0
-	scaleBiomeGrowthRate = 0.0
+	scaleBiomeGrowthRate = 0.8
 	#The chance of a tree on depleted soil to die. 1/256(~0.004) averages to about 1 death every 16 minecraft days
 	#Range: 0.0 ~ 1.0
 	diseaseChance = 0.0

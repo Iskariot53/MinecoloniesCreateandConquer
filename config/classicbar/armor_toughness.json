@@ -1,4 +1,21 @@
 {
-    "show_text": true,
-    "icon": "classicbar:textures/gui/health.png"
+    "bar_settings": {
+        "color_provider": {
+            "colors": [
+                "#ffaaaaaa",
+                "#ffff5500",
+                "#ffffc747",
+                "#ff27ffe3",
+                "#ff00ff00",
+                "#ff7f00ff"
+            ],
+            "type": "stacking"
+        },
+        "show_text": true,
+        "show_icon": true,
+        "icon": "classicbar:textures/gui/health.png",
+        "enabled": true,
+        "side": "right",
+        "fitted": true
+    }
 }

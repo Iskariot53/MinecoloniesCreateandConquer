@@ -1,0 +1,71 @@
+
+[village]
+	#The chance (as a percentage) that a house slot in a village will be replaced with one of this mod's custom buildings.
+	#0 = vanilla houses only, 100 = only this mod's buildings will spawn.
+	#Range: 0 ~ 100
+	buildingSpawnChancePercent = 35
+	#Multiplier for how often vanilla village decorations (lamp posts, flowers, hay, small props) spawn.
+	#1 = vanilla (no change). Higher values fill more of the empty decoration spots, making villages feel fuller.
+	#Note: this only affects the decoration spots villages already provide; it cannot fill the large empty gaps between plots.
+	#Range: 1 ~ 16
+	decorationDensityMultiplier = 2
+
+#Per-biome tuning for how many of this mod's buildings appear, on top of buildingSpawnChancePercent.
+#1.0 = no change, 2.0 = twice as many custom buildings in that biome's villages, 0 = none.
+#Use this if one biome's villages feel too sparse or too crowded with modded buildings compared to the others.
+[biomeDensity]
+	#Multiplier for custom buildings in plains villages. 1.0 = unchanged.
+	#Range: 0.0 ~ 100.0
+	plainsDensity = 1.0
+	#Multiplier for custom buildings in desert villages. 1.0 = unchanged.
+	#Range: 0.0 ~ 100.0
+	desertDensity = 1.0
+	#Multiplier for custom buildings in savanna villages. 1.0 = unchanged.
+	#Range: 0.0 ~ 100.0
+	savannaDensity = 1.0
+	#Multiplier for custom buildings in snowy villages. 1.0 = unchanged.
+	#Range: 0.0 ~ 100.0
+	snowyDensity = 1.0
+	#Multiplier for custom buildings in taiga villages. 1.0 = unchanged.
+	#Range: 0.0 ~ 100.0
+	taigaDensity = 1.0
+
+#How large each village generates. These override vanilla for every village of that type.
+#size = how many times the village layout expands outward from the town centre (vanilla 6).
+#maxDistance = how far from the centre, in blocks, a piece may be placed (vanilla 80).
+#The defaults below are this mod's tuned values, not vanilla's - set every size to 6 and every
+#maxDistance to 80 if you want vanilla-sized villages back.
+#Raising these makes bigger villages but costs more world generation time; a large size with a
+#small maxDistance is wasted, because pieces beyond the distance are discarded.
+[villageSize]
+	#How far the plains village layout expands from its centre. Vanilla is 6; the game's own limit is 20.
+	#Range: 0 ~ 20
+	plainsSize = 7
+	#Furthest a plains village piece may be placed from the centre, in blocks. Vanilla is 80; the game's own limit is 128.
+	#Range: 1 ~ 128
+	plainsMaxDistance = 60
+	#How far the desert village layout expands from its centre. Vanilla is 6; the game's own limit is 20.
+	#Range: 0 ~ 20
+	desertSize = 7
+	#Furthest a desert village piece may be placed from the centre, in blocks. Vanilla is 80; the game's own limit is 128.
+	#Range: 1 ~ 128
+	desertMaxDistance = 80
+	#How far the savanna village layout expands from its centre. Vanilla is 6; the game's own limit is 20.
+	#Range: 0 ~ 20
+	savannaSize = 7
+	#Furthest a savanna village piece may be placed from the centre, in blocks. Vanilla is 80; the game's own limit is 128.
+	#Range: 1 ~ 128
+	savannaMaxDistance = 60
+	#How far the snowy village layout expands from its centre. Vanilla is 6; the game's own limit is 20.
+	#Range: 0 ~ 20
+	snowySize = 6
+	#Furthest a snowy village piece may be placed from the centre, in blocks. Vanilla is 80; the game's own limit is 128.
+	#Range: 1 ~ 128
+	snowyMaxDistance = 80
+	#How far the taiga village layout expands from its centre. Vanilla is 6; the game's own limit is 20.
+	#Range: 0 ~ 20
+	taigaSize = 6
+	#Furthest a taiga village piece may be placed from the centre, in blocks. Vanilla is 80; the game's own limit is 128.
+	#Range: 1 ~ 128
+	taigaMaxDistance = 80
+
